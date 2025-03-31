@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.ops4j.pax.web.samples/jsf-primefaces-embedded",
+  "description": "Since Pax Web 10, we no longer support JSF (because of OSGi/JakartaEE discrepancy).\n\t\tHowever these samples/libraries are used to show how complex OSGi WAB deployments work with Servlet API\n\t\tspecificaiton (jakarta.servlet.ServletContainerInitializer, web fragments, /META-INF/resources, ...).\n\t\tWhile jakarta.faces.webapp.FacesServlet initializes correctly, TLDs are loaded, we simply can't run\n\t\tactual JSF applications, because JSF 4.x simply needs CDI container for beans...",
+  "group_id": "org.ops4j.pax.web.samples",
+  "artifact_id": "jsf-primefaces-embedded",
+  "version_latest": "11.0.1",
+  "ts_publish": 1753862942000,
+  "ts_update": 1753864022954,
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "ALv2"
+  ],
+  "categories": [
+    "Sample-Demo-Example"
+  ],
+  "dsv": 1
+}
