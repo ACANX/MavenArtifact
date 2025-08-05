@@ -1,0 +1,2 @@
+# MavenArtifact
+Maven Artifact Badge
