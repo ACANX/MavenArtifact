@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 500 160">
+  <!-- 背景渐变 -->
+  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#4a90e2"/>
+    <stop offset="100%" stop-color="#9013fe"/>
+  </linearGradient>
+  <!-- 背景矩形 -->
+  <rect width="100%" height="100%" rx="5" ry="5" fill="url(#grad)"/>
+  <!-- 主体内容：垂直布局 -->
+  <g transform="translate(15, 15)">
+    <!-- Group ID -->
+    <text x="0" y="10" font-family="Arial" font-size="12" fill="white" font-weight="bold" width="260">
+      GroupID:   io.qase
+    </text>
+    <!-- Artifact ID -->
+    <text x="0" y="30" font-family="Arial" font-size="12" fill="white" font-weight="bold" width="260">
+      ArtifactID: qase-cucumber-v7-reporter
+    </text>
+    <!-- 版本信息 -->
+    <text x="0" y="50" font-family="Arial" font-size="11" fill="white">
+      最新版本: <tspan font-weight="bold">4.1.13</tspan>
+    </text>
+    <!-- 统计信息 -->
+    <text x="0" y="70" font-family="Arial" font-size="11" fill="white">
+      依赖量: <tspan font-weight="bold">0</tspan>
+    </text>
+    <text x="0" y="85" font-family="Arial" font-size="11" fill="white">
+      引用量: <tspan font-weight="bold">48</tspan>
+    </text>  
+    <!-- 分类信息 -->
+    <text x="0" y="105" font-family="Arial" font-size="11" fill="white">
+      分类: <tspan font-weight="bold">Uncategorized</tspan>
+    </text>
+    <!-- Maven 标识 -->
+    <ellipse  cx="400" cy="85" rx="70" ry="22"  fill="#ff4081"/>
+    <text x="400" y="87" text-anchor="middle" font-family="Arial" font-size="12" fill="white" font-weight="bold">MavenArtifactBadge</text>
+  </g>
+  <!-- 底部信息 -->
+  <text x="420" y="145" font-family="Arial" font-size="3" fill="#d0d0d0">
+    由MavenBadgeGenerator生成
+  </text>
+</svg>

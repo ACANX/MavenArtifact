@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/org.apache.hive/hive-iceberg-shading",
+  "description": "This module collects all required Iceberg modules and their dependencies, and shades them.\n        Consuming modules only need to mark this module as their dependency to get any required Iceberg libs.\n        This module has no sources of its own, only the built jar file contains the gathered and shaded libs.\n        For Intellij this module is recommended to be ignored, to avoid the dependent modules considering this as a\n        module dependency, they should see this as a library dependency instead.",
+  "group_id": "org.apache.hive",
+  "artifact_id": "hive-iceberg-shading",
+  "version_latest": "4.1.0",
+  "ts_publish": 1752916511000,
+  "dt_publish": "2025-07-19 17:15:11.000",
+  "ts_update": 1754516931306,
+  "dt_update": "2025-08-07 05:48:51.306",
+  "count_dep": 12,
+  "count_ref": 5,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": [
+    "Data Warehouse"
+  ],
+  "dsv": 1
+}

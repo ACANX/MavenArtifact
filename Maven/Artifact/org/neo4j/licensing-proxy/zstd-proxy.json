@@ -1,0 +1,19 @@
+{
+  "id": "pkg:maven/org.neo4j.licensing-proxy/zstd-proxy",
+  "description": "This pom file is a licensing stand-in for the native zstd library that our com.github.luben:zstd-jni pulls in.\n    Because zstd is a native library that is statically linked into zstd-jni, it does not have its own pom.xml file, and therefore cannot declare its own\n    licenses to our licensing plugin.\n    This module is here to solve this, by standing in for the native zstd library, and declaring its licenses.",
+  "group_id": "org.neo4j.licensing-proxy",
+  "artifact_id": "zstd-proxy",
+  "version_latest": "2025.07.0",
+  "ts_publish": 1753884084000,
+  "ts_update": 1753885024733,
+  "count_dep": 1,
+  "count_ref": 6,
+  "licenses": [
+    "BSD-3-Clause",
+    "GPL-2.0"
+  ],
+  "categories": [
+    "Uncategorized"
+  ],
+  "dsv": 1
+}

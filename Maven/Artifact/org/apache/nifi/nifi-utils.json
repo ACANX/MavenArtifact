@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/org.apache.nifi/nifi-utils",
+  "description": "This nifi-utils module should be a general purpose place to store widely\n        and generally useful functions that any component might want to leverage.\n        NO DEPENDENCIES should be added.  This module is likely to be leveraged by\n        every extension and should not bring along any other dependencies.  The only\n        dependency intended is the nifi-api and even this is expected to be already\n        provided in any case where it would  be used.  The typical place this util\n        would be found is within a nar and all nars already have nifi-api as a parent\n        dependency.  The nifi-api can be thought of as a NiFi Application Container level\n        dependency.",
+  "group_id": "org.apache.nifi",
+  "artifact_id": "nifi-utils",
+  "version_latest": "2.5.0",
+  "ts_publish": 1752929339000,
+  "dt_publish": "2025-07-19 20:48:59.000",
+  "ts_update": 1754514694162,
+  "dt_update": "2025-08-07 05:11:34.162",
+  "count_dep": 9,
+  "count_ref": 158,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": [
+    "Analytics"
+  ],
+  "dsv": 1
+}
