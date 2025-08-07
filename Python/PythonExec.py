@@ -283,7 +283,7 @@ def collectComponents():
                 # 创建JSON数据文件
                 createMavenArtifactJsonFile(data)
                 # 更新扩展元数据索引
-                key = f"data['group_id']}|{data['artifact_id']}"
+                key = f"{data['group_id']}|{data['artifact_id']}"
                 artifactIndex.add(key)
                 print(f"   🔖 更新索引: {key}")
                 processed_count += 1
