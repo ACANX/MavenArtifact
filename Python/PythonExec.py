@@ -58,7 +58,7 @@ def updateLastTimestamp(tsUpdate: int):
         print(f"❌ 更新索引文件失败: {e}")
 
 # 读取扩展元数据索引
-def readVersionArtifactIndex() -> List[str]:
+def readVersionArtifactIndex() -> set[str]:
     indexFile = getVersionArtifactIndexFile()
     try:
         if indexFile.exists():
