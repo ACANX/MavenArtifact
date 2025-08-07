@@ -41,36 +41,36 @@ def readLastTimestamp() -> int:
         if index_file.exists():
             with open(index_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                return data.get("ts", 0)
+                return data.get("ts_update", 0)
     except Exception as e:
         print(f"❌ 读取索引文件失败: {e}")
     return 0
 
 # 更新索引文件中的时间戳
-def updateLastTimestamp(ts: int):
+def updateLastTimestamp(tsUpdate: int):
     index_file = getIndexFile()
     try:
         index_file.parent.mkdir(parents=True, exist_ok=True)
         with open(index_file, "w", encoding="utf-8") as f:
-            json.dump({"ts": ts}, f, indent=2)
-        print(f"✅ 更新索引文件: {index_file} (ts={ts})")
+            json.dump({"ts_update": tsUpdate}, f, indent=2)
+        print(f"✅ 更新索引文件: {index_file} (ts={tsUpdate})")
     except Exception as e:
         print(f"❌ 更新索引文件失败: {e}")
 
 # 读取扩展元数据索引
-def readExtMetadataIndex() -> Dict[str, int]:
+def readExtMetadataIndex() -> List[str]:
     index_file = getExtMetadataIndexFile()
     try:
         if index_file.exists():
             with open(index_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                return data.get("map", {})
+                return data.get("list", {})
     except Exception as e:
         print(f"❌ 读取扩展元数据索引失败: {e}")
     return {}
 
 # 更新扩展元数据索引
-def updateExtMetadataIndex(ext_index: Dict[str, int]):
+def updateExtMetadataIndex(artifactIndex: set[str]) -> None:
     index_file = getExtMetadataIndexFile()
     try:
         index_file.parent.mkdir(parents=True, exist_ok=True)
@@ -80,7 +80,7 @@ def updateExtMetadataIndex(ext_index: Dict[str, int]):
             with open(index_file, "r", encoding="utf-8") as f:
                 current_data = json.load(f)
         # 更新映射数据
-        current_data["map"] = ext_index
+        current_data["list"] = artifactIndex
         with open(index_file, "w", encoding="utf-8") as f:
             json.dump(current_data, f, indent=2, ensure_ascii=False)
         print(f"✅ 更新扩展元数据索引文件: {index_file}")
@@ -178,7 +178,7 @@ def createMavenArtifactJsonFile(data: dict):
         "artifact_id": artifact_id,
         "version_latest": data.get("latest_version", "N/A"),
         "ts_publish": data.get("ts", 0),
-        "dt_publish": convertUtcMillisToBeijingStr(data.get("ts", 0)),
+        "dt_publish": convertUtcMillisToBeijingStr(data.get("ts_publish", 0)),
         "ts_update": int(time.time() * 1000),  # 添加当前时间戳作为最后更新时间
         "dt_update": convertUtcMillisToBeijingStr(int(time.time() * 1000)),
         "count_dep": data.get("dep_count", 0),
@@ -233,7 +233,7 @@ def parseComponentData(component: Dict[str, Any]) -> Dict[str, Any]:
         "group_id": component.get("namespace", ""),
         "artifact_id": component.get("name", ""),
         "latest_version": component.get("latestVersionInfo", {}).get("version", "N/A"),
-        "ts": component.get("latestVersionInfo", {}).get("timestampUnixWithMS", int(time.time() * 1000-300*1000)),
+        "ts_publish": component.get("latestVersionInfo", {}).get("timestampUnixWithMS", int(time.time() * 1000-300*1000)),
         "description": component.get("description", ""),
         "licenses": component.get("latestVersionInfo", {}).get("licenses", []),
         "dep_count": component.get("dependentOnCount", 0),
@@ -248,8 +248,8 @@ def collectComponents():
     last_ts = readLastTimestamp()
     print(f"⏱️ 上次处理的最新构件时间戳: {last_ts}")
     # 读取扩展元数据索引
-    ext_index = readExtMetadataIndex()
-    print(f"📋 已加载扩展元数据索引: {len(ext_index)} 个构件记录")
+    artifactIndex = readExtMetadataIndex()
+    print(f"📋 已加载扩展元数据索引: {len(artifactIndex)} 个构件记录")
     # 记录本次执行中最新构件的时间戳
     new_last_ts = None
     page = 0
@@ -272,8 +272,7 @@ def collectComponents():
                 print(f"📌 记录新时间戳: {new_last_ts}")            
             # 处理有效构件
             if data['group_id'] and data['artifact_id']:
-                print(f"🔍 处理构件 (ts={data['ts']}):   {data['group_id']}:{data['artifact_id']}       {data['latest_version']}")
-                print(f"   依赖数量: {data['dep_count']}    被引用量: {data['ref_count']}")
+                print(f"🔍 处理构件 (ts={data['ts']}):   {data['group_id']}:{data['artifact_id']}       {data['latest_version']}   依赖数量: {data['dep_count']}    被引用量: {data['ref_count']}")
                 if data['categories']:
                     categories_str = ", ".join(data['categories'])
                     print(f"   分类: {categories_str}")
@@ -284,9 +283,9 @@ def collectComponents():
                 # 创建JSON数据文件
                 createMavenArtifactJsonFile(data)
                 # 更新扩展元数据索引
-                key = f"{data['group_id']}:{data['artifact_id']}"
-                ext_index[key] = data["ts"]
-                print(f"   🔖 更新扩展索引: {key} -> {data['ts']}")
+                key = f"data['group_id']}|{data['artifact_id']}"
+                artifactIndex.add(key)
+                print(f"   🔖 更新索引: {key}")
                 processed_count += 1
                 page_processed += 1
             else:
@@ -308,7 +307,7 @@ def collectComponents():
         page += 1
     # 更新扩展元数据索引文件
     if processed_count > 0:
-        updateExtMetadataIndex(ext_index)
+        updateExtMetadataIndex(artifactIndex)
         print(f"✅ 已更新扩展元数据索引，新增 {processed_count} 条记录")
     else:
         print("ℹ️ 无新构件，无需更新扩展元数据索引")
@@ -323,8 +322,8 @@ def collectApacheComponents() -> bool:
     print(f"⏳开始采集Apache构件数据")
     try:
         # 读取扩展元数据索引
-        ext_index = readExtMetadataIndex()
-        print(f"📋 已加载扩展元数据索引: {len(ext_index)} 个构件记录")
+        artifactIndex = readExtMetadataIndex()
+        print(f"📋 已加载扩展元数据索引: {len(artifactIndex)} 个构件记录")
         processed_count = 0
         for page in range(300, -1, -1):
             print("================================================================================================================================================================================")
@@ -352,7 +351,7 @@ def collectApacheComponents() -> bool:
                     createMavenArtifactJsonFile(data)
                     # 更新扩展元数据索引
                     key = f"{data['group_id']}:{data['artifact_id']}"
-                    ext_index[key] = data["ts"]
+                    artifactIndex.add(key)
                     print(f"   🔖 更新扩展索引: {key} -> {data['ts']}")
                     processed_count += 1
                     page_processed += 1
@@ -365,7 +364,7 @@ def collectApacheComponents() -> bool:
             print(f"✅ 已处理完成第 {page+1} 页的数据，共更新{page_processed}条数据")
         # 更新扩展元数据索引文件
         if processed_count > 0:
-            updateExtMetadataIndex(ext_index)
+            updateExtMetadataIndex(artifactIndex)
             print(f"✅ 已更新扩展元数据索引，新增 {processed_count} 条记录")
         else:
             print("ℹ️ 无新构件，无需更新扩展元数据索引")
