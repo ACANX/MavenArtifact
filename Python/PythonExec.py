@@ -58,7 +58,7 @@ def updateLastTimestamp(tsUpdate: int):
         print(f"❌ 更新索引文件失败: {e}")
 
 # 读取扩展元数据索引
-def readExtMetadataIndex() -> List[str]:
+def readVersionArtifactIndex() -> List[str]:
     indexFile = getVersionArtifactIndexFile()
     try:
         if indexFile.exists():
@@ -248,7 +248,7 @@ def collectComponents():
     last_ts = readLastTimestamp()
     print(f"⏱️ 上次处理的最新构件时间戳: {last_ts}")
     # 读取扩展元数据索引
-    artifactIndex = readExtMetadataIndex()
+    artifactIndex = readVersionArtifactIndex()
     print(f"📋 已加载扩展元数据索引: {len(artifactIndex)} 个构件记录")
     # 记录本次执行中最新构件的时间戳
     new_last_ts = None
@@ -321,7 +321,7 @@ def collectApacheComponents() -> bool:
     print(f"⏳开始采集Apache构件数据")
     try:
         # 读取扩展元数据索引
-        artifactIndex = readExtMetadataIndex()
+        artifactIndex = readVersionArtifactIndex()
         print(f"📋 已加载扩展元数据索引: {len(artifactIndex)} 个构件记录")
         processed_count = 0
         for page in range(300, -1, -1):
