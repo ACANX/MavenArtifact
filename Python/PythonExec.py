@@ -64,10 +64,10 @@ def readVersionArtifactIndex() -> set[str]:
         if indexFile.exists():
             with open(indexFile, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                return data.get("list", [])
+                return set(data.get("list", []))
     except Exception as e:
         print(f"❌ 读取扩展元数据索引失败: {e}")
-    return {}
+    return set[str]()
 
 # 更新扩展元数据索引
 def updateVersionArtifactIndex(artifactIndex: set[str]):
