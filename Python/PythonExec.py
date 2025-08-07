@@ -70,7 +70,7 @@ def readExtMetadataIndex() -> List[str]:
     return {}
 
 # 更新扩展元数据索引
-def updateExtMetadataIndex(artifactIndex: set[str]) -> None:
+def updateArtifactIndex(artifactIndex: set[str]) -> None:
     index_file = getExtMetadataIndexFile()
     try:
         index_file.parent.mkdir(parents=True, exist_ok=True)
@@ -307,7 +307,7 @@ def collectComponents():
         page += 1
     # 更新扩展元数据索引文件
     if processed_count > 0:
-        updateExtMetadataIndex(artifactIndex)
+        updateArtifactIndex(artifactIndex)
         print(f"✅ 已更新扩展元数据索引，新增 {processed_count} 条记录")
     else:
         print("ℹ️ 无新构件，无需更新扩展元数据索引")
@@ -364,7 +364,7 @@ def collectApacheComponents() -> bool:
             print(f"✅ 已处理完成第 {page+1} 页的数据，共更新{page_processed}条数据")
         # 更新扩展元数据索引文件
         if processed_count > 0:
-            updateExtMetadataIndex(artifactIndex)
+            updateArtifactIndex(artifactIndex)
             print(f"✅ 已更新扩展元数据索引，新增 {processed_count} 条记录")
         else:
             print("ℹ️ 无新构件，无需更新扩展元数据索引")
