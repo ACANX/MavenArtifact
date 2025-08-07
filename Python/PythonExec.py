@@ -79,8 +79,9 @@ def updateVersionArtifactIndex(artifactIndex: set[str]):
         if indexFile.exists():
             with open(indexFile, "r", encoding="utf-8") as f:
                 current_data = json.load(f)
+        artifactList = list(artifactIndex)
         # 更新映射数据
-        current_data["list"] = artifactIndex
+        current_data["list"] = artifactList
         with open(indexFile, "w", encoding="utf-8") as f:
             json.dump(current_data, f, indent=2, ensure_ascii=False)
         print(f"✅ 更新扩展元数据索引文件: {indexFile}")
