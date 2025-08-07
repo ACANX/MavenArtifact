@@ -30,7 +30,7 @@ def getIndexFile() -> pathlib.Path:
     return current_file.parent.parent / "Maven" / "Artifact" / "_index.json"
 
 # 获取扩展元数据索引文件路径
-def getArtifactIndexFile() -> pathlib.Path:
+def getVersionArtifactIndexFile() -> pathlib.Path:
     current_file = pathlib.Path(__file__).resolve()
     return current_file.parent.parent / "Maven" / "Version" / "_index.json"
 
@@ -59,7 +59,7 @@ def updateLastTimestamp(tsUpdate: int):
 
 # 读取扩展元数据索引
 def readExtMetadataIndex() -> List[str]:
-    indexFile = getArtifactIndexFile()
+    indexFile = getVersionArtifactIndexFile()
     try:
         if indexFile.exists():
             with open(indexFile, "r", encoding="utf-8") as f:
@@ -71,7 +71,7 @@ def readExtMetadataIndex() -> List[str]:
 
 # 更新扩展元数据索引
 def updateArtifactIndex(artifactIndex: set[str]) -> None:
-    indexFile = getArtifactIndexFile()
+    indexFile = getVersionArtifactIndexFile()
     try:
         indexFile.parent.mkdir(parents=True, exist_ok=True)
         # 读取现有索引（如果存在）
