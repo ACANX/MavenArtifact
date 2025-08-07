@@ -177,7 +177,7 @@ def createMavenArtifactJsonFile(data: dict):
         "group_id": group_id,
         "artifact_id": artifact_id,
         "version_latest": data.get("latest_version", "N/A"),
-        "ts_publish": data.get("ts", 0),
+        "ts_publish": data.get("ts_publish", 0),
         "dt_publish": convertUtcMillisToBeijingStr(data.get("ts_publish", 0)),
         "ts_update": int(time.time() * 1000),  # 添加当前时间戳作为最后更新时间
         "dt_update": convertUtcMillisToBeijingStr(int(time.time() * 1000)),
@@ -268,11 +268,11 @@ def collectComponents():
             data = parseComponentData(component)
             # 如果是第一页的第一个构件，记录为新的时间戳
             if page == 0 and new_last_ts is None:
-                new_last_ts = data["ts"]
+                new_last_ts = data["ts_publish"]
                 print(f"📌 记录新时间戳: {new_last_ts}")            
             # 处理有效构件
             if data['group_id'] and data['artifact_id']:
-                print(f"🔍 处理构件 (ts={data['ts']}):   {data['group_id']}:{data['artifact_id']}       {data['latest_version']}   依赖数量: {data['dep_count']}    被引用量: {data['ref_count']}")
+                print(f"🔍 处理构件 (ts={data['ts_publish']}):   {data['group_id']}:{data['artifact_id']}       {data['latest_version']}   依赖数量: {data['dep_count']}    被引用量: {data['ref_count']}")
                 if data['categories']:
                     categories_str = ", ".join(data['categories'])
                     print(f"   分类: {categories_str}")
@@ -285,13 +285,12 @@ def collectComponents():
                 # 更新扩展元数据索引
                 key = f"{data['group_id']}|{data['artifact_id']}"
                 artifactIndex.add(key)
-                print(f"   🔖 更新索引: {key}")
                 processed_count += 1
                 page_processed += 1
             else:
                 print(f"⚠️ 跳过无效构件: {data.get('group_id', '')}:{data.get('artifact_id', '')}")
             # 更新最早的构件时间戳    
-            page_last_ts = data["ts"]
+            page_last_ts = data["ts_publish"]
         # 如果当前页没有处理任何构件或遇到已处理构件，停止翻页
         if page_processed == 0:
             print("⏹️ 当前页无新构件，停止翻页")
@@ -338,8 +337,7 @@ def collectApacheComponents() -> bool:
                 data = parseComponentData(component)        
                 # 处理有效构件
                 if data['group_id'] and data['artifact_id']:
-                    print(f"🔍 处理构件 (ts={data['ts']}):   {data['group_id']}:{data['artifact_id']}       {data['latest_version']}")
-                    print(f"   依赖数量: {data['dep_count']}    被引用量: {data['ref_count']}")
+                    print(f"🔍 处理构件 (ts={data['ts_publish']}):   {data['group_id']}:{data['artifact_id']}       {data['latest_version']}   依赖数量: {data['dep_count']}    被引用量: {data['ref_count']}")
                     if data['categories']:
                         categories_str = ", ".join(data['categories'])
                         print(f"   分类: {categories_str}")
@@ -352,7 +350,6 @@ def collectApacheComponents() -> bool:
                     # 更新扩展元数据索引
                     key = f"{data['group_id']}|{data['artifact_id']}"
                     artifactIndex.add(key)
-                    print(f"   🔖 更新扩展索引: {key} -> {data['ts']}")
                     processed_count += 1
                     page_processed += 1
                 else:
