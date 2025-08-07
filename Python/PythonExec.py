@@ -70,7 +70,7 @@ def readVersionArtifactIndex() -> set[str]:
     return {}
 
 # 更新扩展元数据索引
-def updateVersionArtifactIndex(artifactIndex: set[str]) -> None:
+def updateVersionArtifactIndex(artifactIndex: set[str]):
     indexFile = getVersionArtifactIndexFile()
     try:
         indexFile.parent.mkdir(parents=True, exist_ok=True)
