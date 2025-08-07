@@ -30,16 +30,16 @@ def getIndexFile() -> pathlib.Path:
     return current_file.parent.parent / "Maven" / "Artifact" / "_index.json"
 
 # 获取扩展元数据索引文件路径
-def getExtMetadataIndexFile() -> pathlib.Path:
+def getArtifactIndexFile() -> pathlib.Path:
     current_file = pathlib.Path(__file__).resolve()
     return current_file.parent.parent / "Maven" / "Version" / "_index.json"
 
 # 读取索引文件中的时间戳
 def readLastTimestamp() -> int:
-    index_file = getIndexFile()
+    indexFile = getIndexFile()
     try:
-        if index_file.exists():
-            with open(index_file, "r", encoding="utf-8") as f:
+        if indexFile.exists():
+            with open(indexFile, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 return data.get("ts_update", 0)
     except Exception as e:
@@ -48,21 +48,21 @@ def readLastTimestamp() -> int:
 
 # 更新索引文件中的时间戳
 def updateLastTimestamp(tsUpdate: int):
-    index_file = getIndexFile()
+    indexFile = getIndexFile()
     try:
-        index_file.parent.mkdir(parents=True, exist_ok=True)
-        with open(index_file, "w", encoding="utf-8") as f:
+        indexFile.parent.mkdir(parents=True, exist_ok=True)
+        with open(indexFile, "w", encoding="utf-8") as f:
             json.dump({"ts_update": tsUpdate}, f, indent=2)
-        print(f"✅ 更新索引文件: {index_file} (ts={tsUpdate})")
+        print(f"✅ 更新索引文件: {indexFile} (ts={tsUpdate})")
     except Exception as e:
         print(f"❌ 更新索引文件失败: {e}")
 
 # 读取扩展元数据索引
 def readExtMetadataIndex() -> List[str]:
-    index_file = getExtMetadataIndexFile()
+    indexFile = getArtifactIndexFile()
     try:
-        if index_file.exists():
-            with open(index_file, "r", encoding="utf-8") as f:
+        if indexFile.exists():
+            with open(indexFile, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 return data.get("list", {})
     except Exception as e:
@@ -71,19 +71,19 @@ def readExtMetadataIndex() -> List[str]:
 
 # 更新扩展元数据索引
 def updateArtifactIndex(artifactIndex: set[str]) -> None:
-    index_file = getExtMetadataIndexFile()
+    indexFile = getArtifactIndexFile()
     try:
-        index_file.parent.mkdir(parents=True, exist_ok=True)
+        indexFile.parent.mkdir(parents=True, exist_ok=True)
         # 读取现有索引（如果存在）
         current_data = {}
-        if index_file.exists():
-            with open(index_file, "r", encoding="utf-8") as f:
+        if indexFile.exists():
+            with open(indexFile, "r", encoding="utf-8") as f:
                 current_data = json.load(f)
         # 更新映射数据
         current_data["list"] = artifactIndex
-        with open(index_file, "w", encoding="utf-8") as f:
+        with open(indexFile, "w", encoding="utf-8") as f:
             json.dump(current_data, f, indent=2, ensure_ascii=False)
-        print(f"✅ 更新扩展元数据索引文件: {index_file}")
+        print(f"✅ 更新扩展元数据索引文件: {indexFile}")
     except Exception as e:
         print(f"❌ 更新扩展元数据索引失败: {e}")
 
