@@ -3,11 +3,11 @@
 	"description":"Hibernate Search Root POM",
 	"group_id":"org.hibernate.search",
 	"artifact_id":"hibernate-search-platform-bom",
-	"version_latest":"8.1.0.CR2",
-	"ts_publish":1754482637000,
-	"dt_publish":"2025-08-06 20:17:17.000",
-	"ts_update":1754491622813,
-	"dt_update":"2025-08-06 21:34:26.359",
+	"version_latest":"8.1.0.Final",
+	"ts_publish":1754663307000,
+	"dt_publish":"2025-08-08 22:28:27.000",
+	"ts_update":1754664829678,
+	"dt_update":"2025-08-08 22:53:20.043",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -32,5 +32,43 @@
 		"Hardy Ferentschik"
 	],
 	"url_scm":"http://github.com/hibernate/hibernate-search",
-	"url_ci_management":"https://ci.hibernate.org/job/hibernate-search/"
+	"url_ci_management":"https://ci.hibernate.org/job/hibernate-search/",
+	"home_page":"https://hibernate.org/search/",
+	"license":"Apache 2.0",
+	"ranking":"#803261 in MvnRepository",
+	"tags":[
+		"bom",
+		"persistence",
+		"build",
+		"hibernate",
+		"platform",
+		"dependencies",
+		"search"
+	],
+	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.1.0.CR2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250731",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.1.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250729",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.1.0.Alpha1",
+			"vulnerabilities":""
+		}
+	]
 }
