@@ -3,12 +3,12 @@
 	"description":"Build container images of your application using Docker APIs",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-container-image-docker-common",
-	"version_latest":"3.25.1",
-	"ts_publish":1754489375000,
-	"dt_publish":"2025-08-06 22:09:35.000",
-	"ts_update":1754491584614,
-	"dt_update":"2025-08-06 22:32:07.804",
-	"count_dep":1,
+	"version_latest":"3.25.2",
+	"ts_publish":1754657439000,
+	"dt_publish":"2025-08-08 20:50:39.000",
+	"ts_update":1754659509492,
+	"dt_update":"2025-08-08 21:24:14.451",
+	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-container-image-docker-common@3.25.1",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#146143 in MvnRepository",
+	"ranking":"#145956 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"image",
@@ -26,6 +26,14 @@
 		"docker"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.25.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.22.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.22.0.CR1",
 			"vulnerabilities":""
 		}
 	]

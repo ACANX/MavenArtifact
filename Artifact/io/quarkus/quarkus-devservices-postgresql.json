@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.quarkus/quarkus-devservices-postgresql",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-devservices-postgresql",
-	"version_latest":"3.25.1",
-	"ts_publish":1754489375000,
-	"dt_publish":"2025-08-06 22:09:35.000",
-	"ts_update":1754491595566,
-	"dt_update":"2025-08-06 22:32:08.220",
+	"version_latest":"3.25.2",
+	"ts_publish":1754657439000,
+	"dt_publish":"2025-08-08 20:50:39.000",
+	"ts_update":1754659513936,
+	"dt_update":"2025-08-08 21:24:14.029",
 	"count_dep":7,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-devservices-postgresql@3.25.1",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#249374 in MvnRepository",
+	"ranking":"#249440 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"database",
@@ -25,6 +25,14 @@
 		"sql"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.25.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.22.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.22.0.CR1",
 			"vulnerabilities":""
 		}
 	]
