@@ -3,9 +3,9 @@
 	"description":"Integration for Agroal as a ConnectionProvider for Hibernate ORM",
 	"group_id":"org.hibernate.orm",
 	"artifact_id":"hibernate-agroal",
-	"version_latest":"7.1.0.CR2",
-	"ts_publish":1754440939000,
-	"ts_update":1754463239887,
+	"version_latest":"7.1.0.Final",
+	"ts_publish":1754616805000,
+	"ts_update":1754618199874,
 	"count_dep":4,
 	"count_ref":0,
 	"licenses":[
@@ -24,13 +24,21 @@
 	"url_scm":"https://github.com/hibernate/hibernate-orm",
 	"home_page":"https://hibernate.org/orm",
 	"license":"Apache 2.0",
-	"ranking":"#449995 in MvnRepository",
+	"ranking":"#450071 in MvnRepository",
 	"tags":[
 		"persistence",
 		"orm",
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.1.0.CR2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -182,14 +190,8 @@
 			"usage":0,
 			"version":"7.0.0.Alpha3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240503",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"7.0.0.Alpha2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"dt_publish":"2025-08-08 09:33:25.000",
+	"dt_update":"2025-08-08 09:55:54.023"
 }
