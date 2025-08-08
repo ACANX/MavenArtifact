@@ -3,10 +3,10 @@
 	"description":"Generates a template Maven project with the QA Automation built-in.",
 	"group_id":"dev.aherscu.qa",
 	"artifact_id":"qa-testing-archetype",
-	"version_latest":"1.0.7",
-	"ts_publish":1754413767000,
-	"ts_update":1754415339178,
-	"count_dep":178,
+	"version_latest":"1.0.8",
+	"ts_publish":1754653811000,
+	"ts_update":1754655981970,
+	"count_dep":164,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -21,7 +21,7 @@
 	"url_scm":"https://github.com/QA-Automation-Starter/qa-automation.git/qa-testing-parent/qa-testing-archetype",
 	"url_ci_management":"https://github.com/QA-Automation-Starter/qa-automation/actions",
 	"license":"Apache 2.0",
-	"ranking":"#809540 in MvnRepository",
+	"ranking":"#806850 in MvnRepository",
 	"tags":[
 		"quality",
 		"archetype",
@@ -30,6 +30,14 @@
 		"prototype"
 	],
 	"versions":[
+		{
+			"date":"20250805",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20240421",
 			"repository":"Central",
@@ -181,14 +189,8 @@
 			"usage":0,
 			"version":"0.0.20",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230107",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.0.19",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"dt_publish":"2025-08-08 19:50:11.000",
+	"dt_update":"2025-08-08 20:25:57.648"
 }
