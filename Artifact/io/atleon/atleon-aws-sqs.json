@@ -3,11 +3,11 @@
 	"description":"Reactive streaming library targeting continuous pipelines with at-least-once processing guarantees. Backed by Project Reactor.",
 	"group_id":"io.atleon",
 	"artifact_id":"atleon-aws-sqs",
-	"version_latest":"0.33.0",
-	"ts_publish":1754499702000,
-	"dt_publish":"2025-08-07 01:01:42.000",
-	"ts_update":1754514508760,
-	"dt_update":"2025-08-07 05:01:02.103",
+	"version_latest":"0.33.1",
+	"ts_publish":1754837955000,
+	"dt_publish":"2025-08-10 22:59:15.000",
+	"ts_update":1754838937419,
+	"dt_update":"2025-08-10 23:15:22.748",
 	"count_dep":40,
 	"count_ref":6,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"http://github.com/atleon/atleon/atleon-parent/atleon-aws/atleon-aws-sqs",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#76710 in MvnRepository",
+	"ranking":"#79150 in MvnRepository",
 	"tags":[
 		"amazon",
 		"aws",
 		"sqs"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"0.33.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250801",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"0.28.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240731",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"0.27.3",
 			"vulnerabilities":""
 		}
 	]
