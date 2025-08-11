@@ -3,12 +3,12 @@
 	"description":"Java project for solon",
 	"group_id":"org.noear",
 	"artifact_id":"solon.cache.jedis",
-	"version_latest":"3.4.3",
-	"ts_publish":1754749469000,
-	"dt_publish":"2025-08-09 22:24:29.000",
-	"ts_update":1754750160541,
-	"dt_update":"2025-08-09 22:35:45.456",
-	"count_dep":1,
+	"version_latest":"3.5.0-M1",
+	"ts_publish":1754925880000,
+	"dt_publish":"2025-08-11 23:24:40.000",
+	"ts_update":1754926832545,
+	"dt_update":"2025-08-11 23:40:19.186",
+	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,12 +25,20 @@
 	"url_scm":"https://github.com/opensolon/solon/solon.cache.jedis",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#76044 in MvnRepository",
+	"ranking":"#76119 in MvnRepository",
 	"tags":[
 		"cache",
 		"redis"
 	],
 	"versions":[
+		{
+			"date":"20250809",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.3.2-RC",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"3.3.2-M3",
 			"vulnerabilities":""
 		}
 	]
