@@ -3,9 +3,9 @@
 	"description":"Provides generic JGiven-style actions and verifications, mostly for dealing\n    with latency and exceptions via a pre-configured retry mechanism.\n    In addition, adapts Apache Commons Configuration to be used for loading test\n    properties.",
 	"group_id":"dev.aherscu.qa",
 	"artifact_id":"qa-jgiven-commons",
-	"version_latest":"1.0.8",
-	"ts_publish":1754653811000,
-	"ts_update":1754655979119,
+	"version_latest":"1.0.9",
+	"ts_publish":1754995920000,
+	"ts_update":1754997274401,
 	"count_dep":138,
 	"count_ref":10,
 	"licenses":[
@@ -22,11 +22,19 @@
 	"url_ci_management":"https://github.com/QA-Automation-Starter/qa-automation/actions",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#66854 in MvnRepository",
+	"ranking":"#69992 in MvnRepository",
 	"tags":[
 		"commons"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"1.0.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -178,16 +186,8 @@
 			"usage":1,
 			"version":"0.0.21",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230118",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.0.20",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-08-08 19:50:11.000",
-	"dt_update":"2025-08-08 20:25:58.226"
+	"dt_publish":"2025-08-12 18:52:00.000",
+	"dt_update":"2025-08-12 19:14:13.390"
 }
