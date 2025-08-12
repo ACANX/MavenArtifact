@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-components-ui-view-welcome",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-components-ui-view-welcome",
-	"version_latest":"12.9.0",
-	"ts_publish":1754992421000,
-	"dt_publish":"2025-08-12 17:53:41.000",
-	"ts_update":1754993900218,
-	"dt_update":"2025-08-12 18:17:27.377",
-	"count_dep":0,
+	"version_latest":"12.10.0",
+	"ts_publish":1755009515000,
+	"dt_publish":"2025-08-12 22:38:35.000",
+	"ts_update":1755010443737,
+	"dt_update":"2025-08-12 22:53:40.501",
+	"count_dep":116,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.dirigible/dirigible-components-ui-view-welcome@12.5.0",
 	"count_used_by":2,
 	"license":"EPL 2.0",
-	"ranking":"#197121 in MvnRepository",
+	"ranking":"#197268 in MvnRepository",
 	"tags":[
 		"eclipse",
 		"ui",
@@ -25,6 +27,30 @@
 		"view"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.7.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -160,30 +186,7 @@
 			"usage":1,
 			"version":"11.54.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.53.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.51.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.49.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Dirigible Parent"
 }
