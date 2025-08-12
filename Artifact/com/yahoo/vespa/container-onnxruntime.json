@@ -3,11 +3,11 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-onnxruntime",
-	"version_latest":"8.560.11",
-	"ts_publish":1754488026000,
-	"dt_publish":"2025-08-06 21:47:06.000",
-	"ts_update":1754491597574,
-	"dt_update":"2025-08-06 21:54:41.218",
+	"version_latest":"8.562.17",
+	"ts_publish":1754983051000,
+	"dt_publish":"2025-08-12 15:17:31.000",
+	"ts_update":1754983577169,
+	"dt_update":"2025-08-12 15:25:53.181",
 	"count_dep":30,
 	"count_ref":33,
 	"licenses":[
@@ -26,11 +26,19 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-onnxruntime",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#87954 in MvnRepository",
+	"ranking":"#88071 in MvnRepository",
 	"tags":[
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"8.560.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"8.539.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250623",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"8.538.52",
 			"vulnerabilities":""
 		}
 	]
