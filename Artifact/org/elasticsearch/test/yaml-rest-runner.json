@@ -3,12 +3,12 @@
 	"description":"Elasticsearch subproject :test:yaml-rest-runner",
 	"group_id":"org.elasticsearch.test",
 	"artifact_id":"yaml-rest-runner",
-	"version_latest":"9.1.1",
-	"ts_publish":1754577583000,
-	"dt_publish":"2025-08-07 22:39:43.000",
-	"ts_update":1754578511316,
-	"dt_update":"2025-08-07 22:54:54.346",
-	"count_dep":65,
+	"version_latest":"9.1.2",
+	"ts_publish":1755012830000,
+	"dt_publish":"2025-08-12 23:33:50.000",
+	"ts_update":1755013896805,
+	"dt_update":"2025-08-12 23:51:13.799",
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
 		"Elastic License 2.0",
@@ -27,7 +27,7 @@
 	"url_scm":"git@github.com:elastic/elasticsearch.git",
 	"home_page":"https://github.com/elastic/elasticsearch",
 	"license":"AGPL 3.0",
-	"ranking":"#585837 in MvnRepository",
+	"ranking":"#586076 in MvnRepository",
 	"tags":[
 		"yaml",
 		"rest",
@@ -38,6 +38,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.1.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250729",
 			"repository":"Central",
@@ -100,6 +108,14 @@
 			"type":"beta",
 			"usage":0,
 			"version":"9.0.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.19.1",
 			"vulnerabilities":""
 		},
 		{
@@ -180,22 +196,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.17.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.17.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250325",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.17.4",
 			"vulnerabilities":""
 		}
 	]

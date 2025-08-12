@@ -3,11 +3,11 @@
 	"description":"Elasticsearch subproject :x-pack:libs:es-opensaml-security-api",
 	"group_id":"org.elasticsearch.plugin",
 	"artifact_id":"es-opensaml-security-api",
-	"version_latest":"9.1.1",
-	"ts_publish":1754577583000,
-	"dt_publish":"2025-08-07 22:39:43.000",
-	"ts_update":1754578513330,
-	"dt_update":"2025-08-07 22:54:53.916",
+	"version_latest":"9.1.2",
+	"ts_publish":1755012830000,
+	"dt_publish":"2025-08-12 23:33:50.000",
+	"ts_update":1755013941095,
+	"dt_update":"2025-08-12 23:51:13.803",
 	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"git@github.com:elastic/elasticsearch.git",
 	"count_used_by":1,
 	"home_page":"https://github.com/elastic/elasticsearch",
-	"ranking":"#333032 in MvnRepository",
+	"ranking":"#329924 in MvnRepository",
 	"tags":[
 		"plugin",
 		"security",
@@ -36,6 +36,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.1.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250729",
 			"repository":"Central",
@@ -98,6 +106,14 @@
 			"type":"beta",
 			"usage":1,
 			"version":"9.0.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.19.1",
 			"vulnerabilities":""
 		},
 		{
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.17.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.17.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250325",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.17.4",
 			"vulnerabilities":""
 		}
 	]
