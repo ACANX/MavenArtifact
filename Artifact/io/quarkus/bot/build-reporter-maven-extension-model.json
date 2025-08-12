@@ -3,11 +3,11 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkus.bot",
 	"artifact_id":"build-reporter-maven-extension-model",
-	"version_latest":"3.12.0",
-	"ts_publish":1754925078000,
-	"dt_publish":"2025-08-11 23:11:18.000",
-	"ts_update":1754926867818,
-	"dt_update":"2025-08-11 23:40:24.301",
+	"version_latest":"3.12.1",
+	"ts_publish":1754988788000,
+	"dt_publish":"2025-08-12 16:53:08.000",
+	"ts_update":1754990365155,
+	"dt_update":"2025-08-12 17:18:45.540",
 	"count_dep":0,
 	"count_ref":2,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/quarkusio/build-reporter",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#106537 in MvnRepository",
+	"ranking":"#106565 in MvnRepository",
 	"tags":[
 		"model",
 		"quarkus",
@@ -38,6 +38,14 @@
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.12.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250424",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.4.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240131",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.4.3",
 			"vulnerabilities":""
 		}
 	]
