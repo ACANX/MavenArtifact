@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/it.tidalwave.thesefoolishthings/superpom",
+  "description": "[![Build Status](https://drone.io/bitbucket.org/tidalwave/thesefoolishthings-superpom-src/status.png)]\n        (https://drone.io/bitbucket.org/tidalwave/thesefoolishthings-superpom-src/latest)\n\n        A feature-rich SuperPOM for building Java projects. It features:\n\n        * explicit version configuration for a number of plugins;\n        * easy configurability by means of pre-defined properties to avoid cut & copy of plugin sections.\n\n        A number of profiles, that can be easily activated, are available for:\n\n        * Spring-AOP configuration;\n        * different kinds of Continuous Integration tasks, including a full run of QA tools such as JaCoCo, FindBugs, PMD, etc...\n        * deploying WARs and locally running them with Tomcat or Jetty;\n        * creating a Mac OS X bundle for JavaFX applications;\n        * creating .deb packages for both application and services;\n        * a customized release cycle, including all requirements for the Maven Central such as signing, with a 'transactional' behaviour\n        (all artifacts, both the DSCM and the Maven artifacts are prepared on the local disk, so they can be uploaded in a second moment);\n\n\n        Remember to customise it\n        ------------------------\n\n        If you use it, please remember to change the ```description```,```url```, ```organization```, ```developers```, ```license```, etc...\n        to override those related to the development of this POM.",
+  "group_id": "it.tidalwave.thesefoolishthings",
+  "artifact_id": "superpom",
+  "version_latest": "5.18",
+  "ts_publish": 1755030938000,
+  "dt_publish": "2025-08-13 04:35:38.000",
+  "ts_update": 1755031842972,
+  "dt_update": "2025-08-13 04:50:42.972",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": [
+    "Programming Language Utilities"
+  ],
+  "dsv": 1
+}
