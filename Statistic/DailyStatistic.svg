@@ -8,6 +8,7 @@
   .axis-label { font-size: 14px; }
   .title { font-size: 18px; font-weight: bold; }
   .legend-item { font-size: 11px; }
+  .legend-box { fill: white; fill-opacity: 0.85; stroke: #cccccc; stroke-width: 1; rx: 5; }
 </style>
 <text x="800.0" y="30" text-anchor="middle" class="title">Daily Data Growth Trend</text>
 <text x="800.0" y="980" text-anchor="middle" class="axis-label">Date</text>
@@ -82,17 +83,17 @@
 <text x="1108.5714285714287" y="940" text-anchor="middle">08-12</text>
 <text x="1314.2857142857142" y="940" text-anchor="middle">08-13</text>
 <text x="1520.0" y="940" text-anchor="middle">08-14</text>
-<rect x="1525" y="60" width="120" height="110" fill="white" stroke="#cccccc" stroke-width="1" rx="5" />
-<text x="1530" y="80" class="legend-item">Legend:</text>
-<rect x="1530" y="92" width="15" height="15" fill="#1f77b4" rx="3" />
-<text x="1550" y="100" class="legend-item">aio</text>
-<rect x="1530" y="112" width="15" height="15" fill="#ff7f0e" rx="3" />
-<text x="1550" y="120" class="legend-item">artifact</text>
-<rect x="1530" y="132" width="15" height="15" fill="#2ca02c" rx="3" />
-<text x="1550" y="140" class="legend-item">badge</text>
-<rect x="1530" y="152" width="15" height="15" fill="#d62728" rx="3" />
-<text x="1550" y="160" class="legend-item">ext_metadata</text>
-<rect x="1530" y="172" width="15" height="15" fill="#9467bd" rx="3" />
-<text x="1550" y="180" class="legend-item">version</text>
-<text x="1520" y="990" text-anchor="end" font-size="10" fill="#666">Generated: 2025-08-14 04:37:28</text>
+<rect x="90" y="100" width="130" height="135" class="legend-box" />
+<text x="100" y="120" class="legend-item">Legend:</text>
+<rect x="100" y="137" width="15" height="15" fill="#1f77b4" rx="3" />
+<text x="120" y="145" class="legend-item">aio</text>
+<rect x="100" y="162" width="15" height="15" fill="#ff7f0e" rx="3" />
+<text x="120" y="170" class="legend-item">artifact</text>
+<rect x="100" y="187" width="15" height="15" fill="#2ca02c" rx="3" />
+<text x="120" y="195" class="legend-item">badge</text>
+<rect x="100" y="212" width="15" height="15" fill="#d62728" rx="3" />
+<text x="120" y="220" class="legend-item">ext_metadata</text>
+<rect x="100" y="237" width="15" height="15" fill="#9467bd" rx="3" />
+<text x="120" y="245" class="legend-item">version</text>
+<text x="1520" y="990" text-anchor="end" font-size="10" fill="#666">Generated: 2025-08-14 04:49:48</text>
 </svg>
