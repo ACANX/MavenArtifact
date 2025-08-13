@@ -2,27 +2,37 @@
 	"id":"pkg:maven/io.quarkus/quarkus-resteasy-parent",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-resteasy-parent",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657439000,
-	"dt_publish":"2025-08-08 20:50:39.000",
-	"ts_update":1754659492480,
-	"dt_update":"2025-08-08 21:24:10.418",
-	"count_dep":0,
+	"version_latest":"3.25.3",
+	"ts_publish":1755087588000,
+	"dt_publish":"2025-08-13 20:19:48.000",
+	"ts_update":1755089792015,
+	"dt_update":"2025-08-13 20:55:51.804",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-resteasy-parent@3.25.2",
 	"license":"Apache 2.0",
-	"ranking":"#863616 in MvnRepository",
+	"ranking":"#862045 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
 		"resteasy"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -174,14 +184,7 @@
 			"usage":0,
 			"version":"3.22.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.22.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

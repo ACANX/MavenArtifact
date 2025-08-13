@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus.resteasy.reactive/resteasy-reactive-client",
 	"group_id":"io.quarkus.resteasy.reactive",
 	"artifact_id":"resteasy-reactive-client",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657439000,
-	"dt_publish":"2025-08-08 20:50:39.000",
-	"ts_update":1754661383923,
-	"dt_update":"2025-08-08 21:24:11.297",
-	"count_dep":13,
+	"version_latest":"3.25.3",
+	"ts_publish":1755087588000,
+	"dt_publish":"2025-08-13 20:19:48.000",
+	"ts_update":1755089796906,
+	"dt_update":"2025-08-13 20:55:52.409",
+	"count_dep":52,
 	"count_ref":4,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus.resteasy.reactive/resteasy-reactive-client@3.25.2",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#54307 in MvnRepository",
+	"ranking":"#54388 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -26,6 +28,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -177,14 +187,7 @@
 			"usage":6,
 			"version":"3.22.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.22.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Quarkus Parent POM"
 }

@@ -3,11 +3,11 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-spring-web-rest-deployment",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657440000,
-	"dt_publish":"2025-08-08 20:50:40.000",
-	"ts_update":1754659491569,
-	"dt_update":"2025-08-08 21:24:02.245",
+	"version_latest":"3.25.3",
+	"ts_publish":1755087588000,
+	"dt_publish":"2025-08-13 20:19:48.000",
+	"ts_update":1755089785982,
+	"dt_update":"2025-08-13 20:55:52.404",
 	"count_dep":69,
 	"count_ref":1,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#250576 in MvnRepository",
+	"ranking":"#250901 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -35,6 +35,14 @@
 		"web"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]

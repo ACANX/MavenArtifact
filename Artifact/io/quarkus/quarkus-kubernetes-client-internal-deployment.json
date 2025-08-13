@@ -3,11 +3,11 @@
 	"description":"This module only exists as a separate module so the kubernetes extension can share code with the kubernetes-client extension",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-kubernetes-client-internal-deployment",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657439000,
-	"dt_publish":"2025-08-08 20:50:39.000",
-	"ts_update":1754661418945,
-	"dt_update":"2025-08-08 21:24:20.308",
+	"version_latest":"3.25.3",
+	"ts_publish":1755087588000,
+	"dt_publish":"2025-08-13 20:19:48.000",
+	"ts_update":1755089852916,
+	"dt_update":"2025-08-13 20:55:48.803",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[],
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-kubernetes-client-internal-deployment@3.25.1",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#84071 in MvnRepository",
+	"ranking":"#84219 in MvnRepository",
 	"tags":[
 		"kubernetes",
 		"deployment",
@@ -26,6 +26,22 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.25.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.22.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.22.0.CR1",
 			"vulnerabilities":""
 		}
 	]

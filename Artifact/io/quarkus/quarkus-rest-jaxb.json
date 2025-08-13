@@ -3,11 +3,11 @@
 	"description":"JAXB serialization support for Quarkus REST. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it.",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-jaxb",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657439000,
-	"dt_publish":"2025-08-08 20:50:39.000",
-	"ts_update":1754659472868,
-	"dt_update":"2025-08-08 21:24:17.211",
+	"version_latest":"3.25.3",
+	"ts_publish":1755087587000,
+	"dt_publish":"2025-08-13 20:19:47.000",
+	"ts_update":1755089794898,
+	"dt_update":"2025-08-13 20:56:00.711",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-rest-jaxb@3.25.2",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#417791 in MvnRepository",
+	"ranking":"#417828 in MvnRepository",
 	"tags":[
 		"binding",
 		"quarkus",
@@ -27,6 +27,14 @@
 		"xml"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]
