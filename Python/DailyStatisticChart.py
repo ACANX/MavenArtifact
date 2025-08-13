@@ -153,7 +153,7 @@ def generate_svg_chart(dates, metrics):
     # 添加图例（左上角）
     legend_x = MARGIN + 20
     legend_y = MARGIN + 40
-    box_height = len(metrics) * 25 + 10
+    box_height = len(metrics) * 30 + 10
     svg.append(f'<rect x="{legend_x-10}" y="{legend_y-20}" width="130" height="{box_height}" class="legend-box" />')
     svg.append(f'<text x="{legend_x}" y="{legend_y}" class="legend-item">Legend:</text>')
     
