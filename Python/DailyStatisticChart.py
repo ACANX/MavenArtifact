@@ -1,0 +1,140 @@
+#!/usr/bin/env python3
+# DailyStatisticChart.py
+
+import json
+import os
+from datetime import datetime
+
+# 图表配置
+CHART_WIDTH = 1600
+CHART_HEIGHT = 1000
+MARGIN = 80
+AXIS_COLOR = "#333333"
+GRID_COLOR = "#e0e0e0"
+COLORS = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]
+FONT_FAMILY = "Arial, sans-serif"
+
+def main():
+    # 文件路径配置
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    input_path = os.path.join(base_dir, "../Artifact/DailyIndexStatistic.json")
+    output_path = os.path.join(base_dir, "../Statistic/DailyStatistic.svg")
+    # 确保输出目录存在
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    # 读取并处理数据
+    try:
+        with open(input_path, 'r') as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: Data file not found at {input_path}")
+        return
+    except json.JSONDecodeError:
+        print("Error: Invalid JSON data")
+        return
+    
+    # 按日期排序
+    data.sort(key=lambda x: x['date'])
+    # 提取数据
+    dates = [str(d['date']) for d in data]
+    formatted_dates = [f"{d[:4]}-{d[4:6]}-{d[6:]}" for d in dates]
+    metrics = [
+        {"name": "aio", "values": [d['aio'] for d in data]},
+        {"name": "artifact", "values": [d['artifact'] for d in data]},
+        {"name": "badge", "values": [d['badge'] for d in data]},
+        {"name": "ext_metadata", "values": [d['ext_metadata'] for d in data]},
+        {"name": "version", "values": [d['version'] for d in data]}
+    ]
+    # 生成SVG图表
+    svg_content = generate_svg_chart(formatted_dates, metrics)
+    # 保存SVG文件
+    with open(output_path, 'w') as f:
+        f.write(svg_content)
+    
+    print(f"Chart saved to {output_path}")
+
+def generate_svg_chart(dates, metrics):
+    """生成多指标趋势图SVG"""
+    # 计算图表边界
+    chart_width = CHART_WIDTH
+    chart_height = CHART_HEIGHT
+    plot_width = chart_width - 2 * MARGIN
+    plot_height = chart_height - 2 * MARGIN
+    # 计算数值范围
+    all_values = [value for metric in metrics for value in metric["values"]]
+    min_val = min(all_values) * 0.95
+    max_val = max(all_values) * 1.05
+    
+    # 创建SVG头部
+    svg = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{chart_width}" height="{chart_height}" viewBox="0 0 {chart_width} {chart_height}">',
+        '<style>',
+        '  text {',
+        f'    font-family: {FONT_FAMILY};',
+        '    font-size: 12px;',
+        '    fill: #333;',
+        '  }',
+        '  .axis-label { font-size: 14px; }',
+        '  .title { font-size: 18px; font-weight: bold; }',
+        '  .legend-item { font-size: 11px; }',
+        '</style>',
+        f'<text x="{chart_width/2}" y="30" text-anchor="middle" class="title">Daily Data Growth Trend</text>',
+        f'<text x="{chart_width/2}" y="{chart_height-20}" text-anchor="middle" class="axis-label">Date</text>',
+        '<g transform="rotate(-90)">',
+        f'<text x="-{chart_height/2}" y="20" text-anchor="middle" class="axis-label">Count</text>',
+        '</g>'
+    ]
+    
+    # 绘制背景和网格
+    svg.append(f'<rect x="0" y="0" width="{chart_width}" height="{chart_height}" fill="#f8f8f8" />')
+    
+    # 绘制网格线
+    for i in range(0, 6):
+        y = MARGIN + i * (plot_height / 5)
+        svg.append(f'<line x1="{MARGIN}" y1="{y}" x2="{chart_width - MARGIN}" y2="{y}" stroke="{GRID_COLOR}" stroke-width="1" />')
+        # 添加Y轴刻度标签
+        value = min_val + i * ((max_val - min_val) / 5)
+        svg.append(f'<text x="{MARGIN-10}" y="{y+5}" text-anchor="end">{value/1000:.1f}k</text>')
+    
+    # 绘制坐标轴
+    svg.append(f'<line x1="{MARGIN}" y1="{MARGIN}" x2="{MARGIN}" y2="{chart_height - MARGIN}" stroke="{AXIS_COLOR}" stroke-width="2" />')
+    svg.append(f'<line x1="{MARGIN}" y1="{chart_height - MARGIN}" x2="{chart_width - MARGIN}" y2="{chart_height - MARGIN}" stroke="{AXIS_COLOR}" stroke-width="2" />')
+    
+    # 绘制数据点和折线
+    for idx, metric in enumerate(metrics):
+        points = []
+        for i, value in enumerate(metric["values"]):
+            x = MARGIN + i * (plot_width / (len(dates) - 1))
+            y = chart_height - MARGIN - (value - min_val) * plot_height / (max_val - min_val)
+            points.append((x, y))
+            # 绘制数据点
+            svg.append(f'<circle cx="{x}" cy="{y}" r="4" fill="{COLORS[idx]}" />')
+        # 绘制折线
+        path = f'M {points[0][0]} {points[0][1]}'
+        for point in points[1:]:
+            path += f' L {point[0]} {point[1]}'
+        svg.append(f'<path d="{path}" fill="none" stroke="{COLORS[idx]}" stroke-width="2" />')
+    
+    # 添加X轴日期标签
+    for i, date in enumerate(dates):
+        x = MARGIN + i * (plot_width / (len(dates) - 1))
+        y = chart_height - MARGIN + 20
+        svg.append(f'<text x="{x}" y="{y}" text-anchor="middle">{date[-5:]}</text>')
+    # 添加图例
+    legend_x = chart_width - MARGIN + 10
+    legend_y = MARGIN
+    svg.append(f'<rect x="{legend_x-5}" y="{legend_y-20}" width="120" height="{len(metrics)*20 + 10}" fill="white" stroke="#cccccc" stroke-width="1" rx="5" />')
+    svg.append(f'<text x="{legend_x}" y="{legend_y}" class="legend-item">Legend:</text>')
+    for i, metric in enumerate(metrics):
+        y = legend_y + (i+1)*20
+        svg.append(f'<rect x="{legend_x}" y="{y-8}" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
+        svg.append(f'<text x="{legend_x+20}" y="{y}" class="legend-item">{metric["name"]}</text>')
+    # 添加时间戳
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    svg.append(f'<text x="{chart_width - MARGIN}" y="{chart_height - 10}" text-anchor="end" font-size="10" fill="#666">Generated: {timestamp}</text>')
+    # 结束SVG
+    svg.append('</svg>')
+    
+    return "\n".join(svg)
+
+if __name__ == "__main__":
+    main()
