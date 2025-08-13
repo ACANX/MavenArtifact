@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-shared-core",
-	"version_latest":"4.96.1",
-	"ts_publish":1754601803000,
-	"dt_publish":"2025-08-08 05:23:23.000",
-	"ts_update":1754603341166,
-	"dt_update":"2025-08-08 05:48:31.071",
-	"count_dep":29,
-	"count_ref":168,
+	"version_latest":"4.96.2",
+	"ts_publish":1755075620000,
+	"dt_publish":"2025-08-13 17:00:20.000",
+	"ts_update":1755076751875,
+	"dt_update":"2025-08-13 17:18:38.594",
+	"count_dep":31,
+	"count_ref":117,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,19 +24,27 @@
 		"Maurizio Pillitu"
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-shared/legend-engine-shared-core",
-	"count_used_by":275,
+	"count_used_by":278,
 	"home_page":"https://github.com/finos/legend-engine",
 	"license":"Apache 2.0",
-	"ranking":"#2101 in MvnRepository",
+	"ranking":"#2088 in MvnRepository",
 	"tags":[
 		"engine"
 	],
 	"versions":[
 		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":151,
+			"version":"4.96.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"release",
-			"usage":155,
+			"usage":158,
 			"version":"4.96.0",
 			"vulnerabilities":""
 		},
@@ -44,7 +52,7 @@
 			"date":"20250804",
 			"repository":"Central",
 			"type":"release",
-			"usage":148,
+			"usage":151,
 			"version":"4.95.1",
 			"vulnerabilities":""
 		},
@@ -52,7 +60,7 @@
 			"date":"20250801",
 			"repository":"Central",
 			"type":"release",
-			"usage":148,
+			"usage":151,
 			"version":"4.95.0",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":148,
 			"version":"4.88.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":156,
-			"version":"4.88.0",
 			"vulnerabilities":""
 		}
 	]

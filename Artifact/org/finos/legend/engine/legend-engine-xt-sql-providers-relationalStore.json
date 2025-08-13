@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-sql-providers-relationalStore",
-	"version_latest":"4.96.1",
-	"ts_publish":1754601803000,
-	"dt_publish":"2025-08-08 05:23:23.000",
-	"ts_update":1754603357729,
-	"dt_update":"2025-08-08 05:48:34.371",
-	"count_dep":111,
+	"version_latest":"4.96.2",
+	"ts_publish":1755075619000,
+	"dt_publish":"2025-08-13 17:00:19.000",
+	"ts_update":1755076750690,
+	"dt_update":"2025-08-13 17:18:43.878",
+	"count_dep":21,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-sql/legend-engine-xt-sql-providers/legend-engine-xt-sql-providers-relationalStore",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#169901 in MvnRepository",
+	"ranking":"#170145 in MvnRepository",
 	"tags":[
 		"sql",
 		"provider",
@@ -35,6 +35,14 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.96.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.88.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.88.0",
 			"vulnerabilities":""
 		}
 	]

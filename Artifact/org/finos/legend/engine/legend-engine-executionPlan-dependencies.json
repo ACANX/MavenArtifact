@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-executionPlan-dependencies",
-	"version_latest":"4.96.1",
-	"ts_publish":1754601803000,
-	"dt_publish":"2025-08-08 05:23:23.000",
-	"ts_update":1754605027287,
-	"dt_update":"2025-08-08 06:16:45.297",
+	"version_latest":"4.96.2",
+	"ts_publish":1755075619000,
+	"dt_publish":"2025-08-13 17:00:19.000",
+	"ts_update":1755076763479,
+	"dt_update":"2025-08-13 17:18:46.997",
 	"count_dep":19,
-	"count_ref":18,
+	"count_ref":15,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-base/legend-engine-core-executionPlan-execution/legend-engine-executionPlan-dependencies",
 	"count_used_by":21,
 	"license":"Apache 2.0",
-	"ranking":"#22053 in MvnRepository",
+	"ranking":"#22092 in MvnRepository",
 	"tags":[
 		"exec",
 		"dependencies",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"4.96.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":14,
 			"version":"4.88.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"4.88.0",
 			"vulnerabilities":""
 		}
 	]
