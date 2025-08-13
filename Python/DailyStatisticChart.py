@@ -19,7 +19,7 @@ def main():
     # 检查当前时间是否在允许的执行窗口内 (01:20:00 - 01:59:59)
     current_time = datetime.now().time()
     allowed_start = dtime(1, 20, 0)
-    allowed_end = dtime(6, 59, 59)
+    allowed_end = dtime(1, 59, 59)
     
     if not (allowed_start <= current_time <= allowed_end):
         print(f"当前时间 {current_time.strftime('%H:%M:%S')} 不在允许的执行窗口内 (01:20:00 - 01:59:59)")
