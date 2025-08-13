@@ -3,13 +3,13 @@
 	"description":"Propagate contexts between managed threads in reactive applications",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-smallrye-context-propagation",
-	"version_latest":"3.25.3",
-	"ts_publish":1755087588000,
-	"dt_publish":"2025-08-13 20:19:48.000",
-	"ts_update":1755089847472,
-	"dt_update":"2025-08-13 20:55:52.400",
-	"count_dep":49,
-	"count_ref":40,
+	"version_latest":"3.26.0.CR1",
+	"ts_publish":1755088549000,
+	"dt_publish":"2025-08-13 20:35:49.000",
+	"ts_update":1755091326768,
+	"dt_update":"2025-08-13 21:21:40.847",
+	"count_dep":0,
+	"count_ref":37,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -21,12 +21,20 @@
 	"count_used_by":42,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#11217 in MvnRepository",
+	"ranking":"#11231 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"context"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]

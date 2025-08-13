@@ -3,11 +3,11 @@
 	"description":"Build an API Gateway REST API with Lambda integration",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-amazon-lambda-rest",
-	"version_latest":"3.25.3",
-	"ts_publish":1755087587000,
-	"dt_publish":"2025-08-13 20:19:47.000",
-	"ts_update":1755089848634,
-	"dt_update":"2025-08-13 20:55:58.154",
+	"version_latest":"3.26.0.CR1",
+	"ts_publish":1755088549000,
+	"dt_publish":"2025-08-13 20:35:49.000",
+	"ts_update":1755091335278,
+	"dt_update":"2025-08-13 21:21:31.784",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[],
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-amazon-lambda-rest@3.25.1",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#176070 in MvnRepository",
+	"ranking":"#176260 in MvnRepository",
 	"tags":[
 		"amazon",
 		"quarkus",
@@ -26,6 +26,14 @@
 		"lambda"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]

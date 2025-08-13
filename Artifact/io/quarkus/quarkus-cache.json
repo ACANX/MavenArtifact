@@ -3,11 +3,11 @@
 	"description":"Enable application data caching in CDI beans",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-cache",
-	"version_latest":"3.25.3",
-	"ts_publish":1755087588000,
-	"dt_publish":"2025-08-13 20:19:48.000",
-	"ts_update":1755089840667,
-	"dt_update":"2025-08-13 20:55:53.457",
+	"version_latest":"3.26.0.CR1",
+	"ts_publish":1755088550000,
+	"dt_publish":"2025-08-13 20:35:50.000",
+	"ts_update":1755091320369,
+	"dt_update":"2025-08-13 21:21:28.108",
 	"count_dep":9,
 	"count_ref":3,
 	"licenses":[],
@@ -16,15 +16,23 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-cache@3.25.1",
-	"count_used_by":38,
+	"count_used_by":39,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#12273 in MvnRepository",
+	"ranking":"#11982 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"cache"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]
