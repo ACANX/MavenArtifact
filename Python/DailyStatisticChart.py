@@ -113,14 +113,22 @@ def generate_svg_chart(dates, metrics):
     # 绘制背景和网格
     svg.append(f'<rect x="0" y="0" width="{chart_width}" height="{chart_height}" fill="#f8f8f8" />')
     
-    # 绘制网格线
+    # 修正纵轴刻度的关键部分：使用反向计算
     for i in range(0, 6):
-        y = MARGIN + i * (plot_height / 5)
+        # 计算网格线位置（从底部开始）
+        y = chart_height - MARGIN - i * (plot_height / 5)
+        
+        # 绘制网格线
         svg.append(f'<line x1="{MARGIN}" y1="{y}" x2="{chart_width - MARGIN}" y2="{y}" stroke="{GRID_COLOR}" stroke-width="1" />')
         
-        # 添加Y轴刻度标签
+        # 修正数值计算：从最小值递增到最大值
         value = min_val + i * ((max_val - min_val) / 5)
-        svg.append(f'<text x="{MARGIN-10}" y="{y+5}" text-anchor="end">{value/1000:.1f}k</text>')
+        # 格式化数值显示
+        if value >= 1000:
+            label = f"{value/1000:.1f}k"
+        else:
+            label = f"{int(value)}"
+        svg.append(f'<text x="{MARGIN-10}" y="{y+5}" text-anchor="end">{label}</text>')
     
     # 绘制坐标轴
     svg.append(f'<line x1="{MARGIN}" y1="{MARGIN}" x2="{MARGIN}" y2="{chart_height - MARGIN}" stroke="{AXIS_COLOR}" stroke-width="2" />')
@@ -131,6 +139,7 @@ def generate_svg_chart(dates, metrics):
         points = []
         for i, value in enumerate(metric["values"]):
             x = MARGIN + i * (plot_width / (len(dates) - 1))
+            # 修正数据点位置计算：使用正向映射
             y = chart_height - MARGIN - (value - min_val) * plot_height / (max_val - min_val)
             points.append((x, y))
             
