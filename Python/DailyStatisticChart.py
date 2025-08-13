@@ -3,8 +3,8 @@
 
 import json
 import os
-import time
-from datetime import datetime, time
+import time  # 添加time模块
+from datetime import datetime, time as dtime  # 重命名time以避免冲突
 
 # 图表配置
 CHART_WIDTH = 1600
@@ -18,8 +18,8 @@ FONT_FAMILY = "Arial, sans-serif"
 def main():
     # 检查当前时间是否在允许的执行窗口内 (01:20:00 - 01:59:59)
     current_time = datetime.now().time()
-    allowed_start = time(1, 20, 0)
-    allowed_end = time(6, 59, 59)
+    allowed_start = dtime(1, 20, 0)
+    allowed_end = dtime(6, 59, 59)
     
     if not (allowed_start <= current_time <= allowed_end):
         print(f"当前时间 {current_time.strftime('%H:%M:%S')} 不在允许的执行窗口内 (01:20:00 - 01:59:59)")
@@ -37,10 +37,10 @@ def main():
     
     # 读取并处理数据
     try:
-        start_time = time.time()
+        start_timestamp = time.time()  # 使用time模块的time函数
         with open(input_path, 'r') as f:
             data = json.load(f)
-        load_time = time.time() - start_time
+        load_time = time.time() - start_timestamp
         print(f"数据加载完成，耗时 {load_time:.2f} 秒")
     except FileNotFoundError:
         print(f"错误：在 {input_path} 找不到数据文件")
@@ -65,9 +65,9 @@ def main():
     ]
     
     # 生成SVG图表
-    start_time = time.time()
+    start_timestamp = time.time()
     svg_content = generate_svg_chart(formatted_dates, metrics)
-    gen_time = time.time() - start_time
+    gen_time = time.time() - start_timestamp
     print(f"图表生成完成，耗时 {gen_time:.2f} 秒")
     
     # 保存SVG文件
@@ -147,7 +147,8 @@ def generate_svg_chart(dates, metrics):
     for i, date in enumerate(dates):
         x = MARGIN + i * (plot_width / (len(dates) - 1))
         y = chart_height - MARGIN + 20
-        svg.append(f'<text x="{x}" y="{y}" text-anchor="middle">{date[-5:]}</text>')
+        # 显示完整日期格式：MM-DD
+        svg.append(f'<text x="{x}" y="{y}" text-anchor="middle">{date[5:7]}-{date[8:10]}</text>')
     
     # 添加图例（左上角）
     legend_x = MARGIN + 20
