@@ -57,11 +57,11 @@ def main():
     formatted_dates = [f"{d[:4]}-{d[4:6]}-{d[6:]}" for d in dates]
     
     metrics = [
-        {"name": "aio", "values": [d['aio'] for d in data]},
-        {"name": "artifact", "values": [d['artifact'] for d in data]},
-        {"name": "badge", "values": [d['badge'] for d in data]},
-        {"name": "ext_metadata", "values": [d['ext_metadata'] for d in data]},
-        {"name": "version", "values": [d['version'] for d in data]}
+        {"name": "构件聚合数据", "values": [d['aio'] for d in data]},
+        {"name": "构件基本信息", "values": [d['artifact'] for d in data]},
+        {"name": "构件徽标", "values": [d['badge'] for d in data]},
+        {"name": "构件扩展元数据", "values": [d['ext_metadata'] for d in data]},
+        {"name": "构件版本信息", "values": [d['version'] for d in data]}
     ]
     
     # 生成SVG图表
@@ -164,7 +164,7 @@ def generate_svg_chart(dates, metrics):
     
     # 添加时间戳
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    svg.append(f'<text x="{chart_width - MARGIN}" y="{chart_height - 10}" text-anchor="end" font-size="10" fill="#666">Generated: {timestamp}</text>')
+    svg.append(f'<text x="{chart_width - MARGIN}" y="{chart_height - 10}" text-anchor="end" font-size="10" fill="#666">生成时间: {timestamp}</text>')
     
     # 结束SVG
     svg.append('</svg>')
