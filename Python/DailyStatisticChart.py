@@ -3,7 +3,8 @@
 
 import json
 import os
-from datetime import datetime
+import time
+from datetime import datetime, time
 
 # 图表配置
 CHART_WIDTH = 1600
@@ -15,28 +16,46 @@ COLORS = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]
 FONT_FAMILY = "Arial, sans-serif"
 
 def main():
+    # 检查当前时间是否在允许的执行窗口内 (01:20:00 - 01:59:59)
+    current_time = datetime.now().time()
+    allowed_start = time(1, 20, 0)
+    allowed_end = time(6, 59, 59)
+    
+    if not (allowed_start <= current_time <= allowed_end):
+        print(f"当前时间 {current_time.strftime('%H:%M:%S')} 不在允许的执行窗口内 (01:20:00 - 01:59:59)")
+        return
+    
+    print(f"当前时间 {current_time.strftime('%H:%M:%S')} 在允许的执行窗口内，开始处理数据...")
+    
     # 文件路径配置
     base_dir = os.path.dirname(os.path.abspath(__file__))
     input_path = os.path.join(base_dir, "../Artifact/DailyIndexStatistic.json")
     output_path = os.path.join(base_dir, "../Statistic/DailyStatistic.svg")
+    
     # 确保输出目录存在
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    
     # 读取并处理数据
     try:
+        start_time = time.time()
         with open(input_path, 'r') as f:
             data = json.load(f)
+        load_time = time.time() - start_time
+        print(f"数据加载完成，耗时 {load_time:.2f} 秒")
     except FileNotFoundError:
-        print(f"Error: Data file not found at {input_path}")
+        print(f"错误：在 {input_path} 找不到数据文件")
         return
     except json.JSONDecodeError:
-        print("Error: Invalid JSON data")
+        print("错误：无效的JSON数据")
         return
     
     # 按日期排序
     data.sort(key=lambda x: x['date'])
+    
     # 提取数据
     dates = [str(d['date']) for d in data]
     formatted_dates = [f"{d[:4]}-{d[4:6]}-{d[6:]}" for d in dates]
+    
     metrics = [
         {"name": "aio", "values": [d['aio'] for d in data]},
         {"name": "artifact", "values": [d['artifact'] for d in data]},
@@ -44,13 +63,18 @@ def main():
         {"name": "ext_metadata", "values": [d['ext_metadata'] for d in data]},
         {"name": "version", "values": [d['version'] for d in data]}
     ]
+    
     # 生成SVG图表
+    start_time = time.time()
     svg_content = generate_svg_chart(formatted_dates, metrics)
+    gen_time = time.time() - start_time
+    print(f"图表生成完成，耗时 {gen_time:.2f} 秒")
+    
     # 保存SVG文件
     with open(output_path, 'w') as f:
         f.write(svg_content)
     
-    print(f"Chart saved to {output_path}")
+    print(f"图表已保存到 {output_path}")
 
 def generate_svg_chart(dates, metrics):
     """生成多指标趋势图SVG"""
@@ -59,6 +83,7 @@ def generate_svg_chart(dates, metrics):
     chart_height = CHART_HEIGHT
     plot_width = chart_width - 2 * MARGIN
     plot_height = chart_height - 2 * MARGIN
+    
     # 计算数值范围
     all_values = [value for metric in metrics for value in metric["values"]]
     min_val = min(all_values) * 0.95
@@ -76,6 +101,7 @@ def generate_svg_chart(dates, metrics):
         '  .axis-label { font-size: 14px; }',
         '  .title { font-size: 18px; font-weight: bold; }',
         '  .legend-item { font-size: 11px; }',
+        '  .legend-box { fill: white; fill-opacity: 0.85; stroke: #cccccc; stroke-width: 1; rx: 5; }',
         '</style>',
         f'<text x="{chart_width/2}" y="30" text-anchor="middle" class="title">Daily Data Growth Trend</text>',
         f'<text x="{chart_width/2}" y="{chart_height-20}" text-anchor="middle" class="axis-label">Date</text>',
@@ -91,6 +117,7 @@ def generate_svg_chart(dates, metrics):
     for i in range(0, 6):
         y = MARGIN + i * (plot_height / 5)
         svg.append(f'<line x1="{MARGIN}" y1="{y}" x2="{chart_width - MARGIN}" y2="{y}" stroke="{GRID_COLOR}" stroke-width="1" />')
+        
         # 添加Y轴刻度标签
         value = min_val + i * ((max_val - min_val) / 5)
         svg.append(f'<text x="{MARGIN-10}" y="{y+5}" text-anchor="end">{value/1000:.1f}k</text>')
@@ -106,8 +133,10 @@ def generate_svg_chart(dates, metrics):
             x = MARGIN + i * (plot_width / (len(dates) - 1))
             y = chart_height - MARGIN - (value - min_val) * plot_height / (max_val - min_val)
             points.append((x, y))
+            
             # 绘制数据点
             svg.append(f'<circle cx="{x}" cy="{y}" r="4" fill="{COLORS[idx]}" />')
+        
         # 绘制折线
         path = f'M {points[0][0]} {points[0][1]}'
         for point in points[1:]:
@@ -119,18 +148,23 @@ def generate_svg_chart(dates, metrics):
         x = MARGIN + i * (plot_width / (len(dates) - 1))
         y = chart_height - MARGIN + 20
         svg.append(f'<text x="{x}" y="{y}" text-anchor="middle">{date[-5:]}</text>')
-    # 添加图例
-    legend_x = chart_width - MARGIN + 10
-    legend_y = MARGIN
-    svg.append(f'<rect x="{legend_x-5}" y="{legend_y-20}" width="120" height="{len(metrics)*20 + 10}" fill="white" stroke="#cccccc" stroke-width="1" rx="5" />')
+    
+    # 添加图例（左上角）
+    legend_x = MARGIN + 20
+    legend_y = MARGIN + 40
+    box_height = len(metrics) * 25 + 10
+    svg.append(f'<rect x="{legend_x-10}" y="{legend_y-20}" width="130" height="{box_height}" class="legend-box" />')
     svg.append(f'<text x="{legend_x}" y="{legend_y}" class="legend-item">Legend:</text>')
+    
     for i, metric in enumerate(metrics):
-        y = legend_y + (i+1)*20
+        y = legend_y + (i+1)*25
         svg.append(f'<rect x="{legend_x}" y="{y-8}" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
         svg.append(f'<text x="{legend_x+20}" y="{y}" class="legend-item">{metric["name"]}</text>')
+    
     # 添加时间戳
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     svg.append(f'<text x="{chart_width - MARGIN}" y="{chart_height - 10}" text-anchor="end" font-size="10" fill="#666">Generated: {timestamp}</text>')
+    
     # 结束SVG
     svg.append('</svg>')
     
