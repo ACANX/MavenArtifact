@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-rest-servlet-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-servlet-deployment",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657439000,
-	"dt_publish":"2025-08-08 20:50:39.000",
-	"ts_update":1754659479616,
-	"dt_update":"2025-08-08 21:24:06.876",
-	"count_dep":14,
+	"version_latest":"3.26.0.CR1",
+	"ts_publish":1755088550000,
+	"dt_publish":"2025-08-13 20:35:50.000",
+	"ts_update":1755091576996,
+	"dt_update":"2025-08-13 21:21:25.071",
+	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-rest-servlet-deployment@3.25.2",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#225406 in MvnRepository",
+	"ranking":"#225505 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -25,6 +27,14 @@
 		"servlet"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -176,14 +186,7 @@
 			"usage":2,
 			"version":"3.22.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.22.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

@@ -3,11 +3,11 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-reactive-mssql-client-parent",
-	"version_latest":"3.25.3",
-	"ts_publish":1755087587000,
-	"dt_publish":"2025-08-13 20:19:47.000",
-	"ts_update":1755089846861,
-	"dt_update":"2025-08-13 20:55:59.127",
+	"version_latest":"3.26.0.CR1",
+	"ts_publish":1755088549000,
+	"dt_publish":"2025-08-13 20:35:49.000",
+	"ts_update":1755091581416,
+	"dt_update":"2025-08-13 21:21:34.229",
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	],
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"license":"Apache 2.0",
-	"ranking":"#964366 in MvnRepository",
+	"ranking":"#965642 in MvnRepository",
 	"tags":[
 		"sql",
 		"mssql",
@@ -34,6 +34,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]

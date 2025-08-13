@@ -3,13 +3,13 @@
 	"description":"Extensions that provide Kubernetes native features should include this module and the corresponding BuildItems",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-kubernetes-spi",
-	"version_latest":"3.25.3",
-	"ts_publish":1755087587000,
-	"dt_publish":"2025-08-13 20:19:47.000",
-	"ts_update":1755089838397,
-	"dt_update":"2025-08-13 20:56:01.406",
+	"version_latest":"3.26.0.CR1",
+	"ts_publish":1755088549000,
+	"dt_publish":"2025-08-13 20:35:49.000",
+	"ts_update":1755091590885,
+	"dt_update":"2025-08-13 21:21:37.792",
 	"count_dep":4,
-	"count_ref":5,
+	"count_ref":6,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -19,13 +19,21 @@
 	"count_used_by":20,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#23354 in MvnRepository",
+	"ranking":"#23376 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"kubernetes",
 		"interface"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]
