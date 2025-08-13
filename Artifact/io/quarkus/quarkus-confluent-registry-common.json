@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.quarkus/quarkus-confluent-registry-common",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-confluent-registry-common",
-	"version_latest":"3.25.1",
-	"ts_publish":1754489375000,
-	"dt_publish":"2025-08-06 22:09:35.000",
-	"ts_update":1754491603355,
-	"dt_update":"2025-08-06 22:32:10.310",
-	"count_dep":2,
-	"count_ref":0,
+	"version_latest":"3.25.2",
+	"ts_publish":1754657440000,
+	"dt_publish":"2025-08-08 20:50:40.000",
+	"ts_update":1754659483857,
+	"dt_update":"2025-08-08 21:24:04.639",
+	"count_dep":3,
+	"count_ref":3,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -17,13 +17,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-confluent-registry-common@3.25.1",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#140786 in MvnRepository",
+	"ranking":"#140811 in MvnRepository",
 	"tags":[
 		"confluent",
 		"registry",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.25.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.22.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.22.0.CR1",
 			"vulnerabilities":""
 		}
 	]

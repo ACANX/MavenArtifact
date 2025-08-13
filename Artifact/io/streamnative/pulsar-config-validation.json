@@ -3,11 +3,11 @@
 	"description":"Annotation based config validation for Pulsar",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-config-validation",
-	"version_latest":"4.0.5.5",
-	"ts_publish":1754448938000,
-	"ts_update":1754463239813,
+	"version_latest":"4.0.6.1",
+	"ts_publish":1754882076000,
+	"ts_update":1754882674745,
 	"count_dep":13,
-	"count_ref":6,
+	"count_ref":5,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,13 +22,21 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#239827 in MvnRepository",
+	"ranking":"#239688 in MvnRepository",
 	"tags":[
 		"config",
 		"pulsar",
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.5.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250725",
 			"repository":"Central",
@@ -180,14 +188,8 @@
 			"usage":2,
 			"version":"4.0.0.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241027",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.0.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"dt_publish":"2025-08-11 11:14:36.000",
+	"dt_update":"2025-08-11 11:24:19.719"
 }

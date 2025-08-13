@@ -3,9 +3,9 @@
 	"description":"JAX-RS generic providers, authenticators and logging filters, an\n    auto-returning pool implementation based on Apache Commons Pooling, a\n    wrapper around Apache Commons Configuration to make it look like a map,\n    various assertions for JSON and XML, a Read-Multi-Write lock, Hamcrest\n    Matchers extensions for streams, and many other utilities for handling text,\n    streams, lists, maps, etc. In addition, provides an AWS Cognito SRP filter\n    for JAX-RS and a CLI for it, see generate-aws-cognito-srp-authenticator\n    profile for generating it.",
 	"group_id":"dev.aherscu.qa",
 	"artifact_id":"qa-testing-utils",
-	"version_latest":"1.0.7",
-	"ts_publish":1754413767000,
-	"ts_update":1754415339143,
+	"version_latest":"1.0.9",
+	"ts_publish":1754995920000,
+	"ts_update":1754997292700,
 	"count_dep":90,
 	"count_ref":16,
 	"licenses":[
@@ -22,12 +22,28 @@
 	"url_ci_management":"https://github.com/QA-Automation-Starter/qa-automation/actions",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#119428 in MvnRepository",
+	"ranking":"#114393 in MvnRepository",
 	"tags":[
 		"quality",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.0.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250805",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.0.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20240421",
 			"repository":"Central",
@@ -132,5 +148,7 @@
 			"version":"0.0.26",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"dt_publish":"2025-08-12 18:52:00.000",
+	"dt_update":"2025-08-12 19:14:13.389"
 }

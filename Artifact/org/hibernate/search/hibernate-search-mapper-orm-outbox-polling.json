@@ -3,11 +3,11 @@
 	"description":"Hibernate ORM integration using outbox polling as coordination strategy",
 	"group_id":"org.hibernate.search",
 	"artifact_id":"hibernate-search-mapper-orm-outbox-polling",
-	"version_latest":"8.1.0.CR2",
-	"ts_publish":1754482637000,
-	"dt_publish":"2025-08-06 20:17:17.000",
-	"ts_update":1754491584762,
-	"dt_update":"2025-08-06 21:34:25.873",
+	"version_latest":"8.1.0.Final",
+	"ts_publish":1754663307000,
+	"dt_publish":"2025-08-08 22:28:27.000",
+	"ts_update":1754664829580,
+	"dt_update":"2025-08-08 22:53:20.637",
 	"count_dep":31,
 	"count_ref":0,
 	"licenses":[
@@ -34,7 +34,7 @@
 	"count_used_by":2,
 	"home_page":"https://hibernate.org/search/",
 	"license":"Apache 2.0",
-	"ranking":"#219734 in MvnRepository",
+	"ranking":"#220329 in MvnRepository",
 	"tags":[
 		"persistence",
 		"mapping",
@@ -43,6 +43,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.1.0.CR2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250731",
 			"repository":"Central",
@@ -193,14 +201,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240212",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.1.0.CR1",
 			"vulnerabilities":""
 		}
 	]
