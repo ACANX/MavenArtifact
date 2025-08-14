@@ -1,39 +1,43 @@
 {
-	"id":"pkg:maven/cool.taomu.toolkit/taomu-mustache",
+	"id":"pkg:maven/cool.taomu.toolkit/taomu-rpc-thrift",
 	"description":"This is a toolkit",
 	"group_id":"cool.taomu.toolkit",
-	"artifact_id":"taomu-mustache",
+	"artifact_id":"taomu-rpc-thrift",
 	"version_latest":"0.0.27",
-	"ts_publish":1755147812000,
-	"dt_publish":"2025-08-14 13:03:32.000",
-	"ts_update":1755149170988,
-	"dt_update":"2025-08-14 13:25:44.820",
-	"count_dep":25,
-	"count_ref":0,
+	"ts_publish":1755148349000,
+	"dt_publish":"2025-08-14 13:12:29.000",
+	"ts_update":1755149170465,
+	"dt_update":"2025-08-14 13:25:44.818",
+	"count_dep":26,
+	"count_ref":2,
 	"licenses":[
 		"The Mulan Public License，Version 2"
 	],
 	"dsv":1,
 	"url_project":"https://gitee.com/iproject/taomu.git",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/cool.taomu.toolkit/taomu-mustache@0.0.27",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/cool.taomu.toolkit/taomu-rpc-thrift@0.0.27",
 	"contributors":[
 		"murenchao"
 	],
 	"url_scm":"https://gitee.com/iproject/taomu.git",
+	"count_used_by":4,
 	"home_page":"https://gitee.com/iproject/taomu.git",
 	"license":"MULANPUBL 2.0",
-	"ranking":"#964011 in MvnRepository",
+	"ranking":"#110734 in MvnRepository",
 	"tags":[
 		"tools",
+		"serialization",
+		"thrift",
 		"toolkit",
-		"mustache"
+		"rpc",
+		"protocol"
 	],
 	"versions":[
 		{
 			"date":"20250731",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"0.0.26",
 			"vulnerabilities":""
 		},
@@ -41,7 +45,7 @@
 			"date":"20250723",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"0.0.25",
 			"vulnerabilities":""
 		},
@@ -49,7 +53,7 @@
 			"date":"20250713",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"0.0.21",
 			"vulnerabilities":""
 		},
@@ -57,7 +61,7 @@
 			"date":"20250617",
 			"repository":"Central",
 			"type":"beta",
-			"usage":0,
+			"usage":2,
 			"version":"0.0.8-b2",
 			"vulnerabilities":""
 		},
@@ -65,7 +69,7 @@
 			"date":"20250614",
 			"repository":"Central",
 			"type":"beta",
-			"usage":0,
+			"usage":2,
 			"version":"0.0.8-b1",
 			"vulnerabilities":""
 		},
@@ -73,7 +77,7 @@
 			"date":"20250613",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"0.0.7",
 			"vulnerabilities":""
 		},
@@ -81,15 +85,23 @@
 			"date":"20250612",
 			"repository":"Central",
 			"type":"beta",
-			"usage":0,
+			"usage":2,
 			"version":"0.0.7.b1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250612",
+			"repository":"Central",
+			"type":"beta",
+			"usage":2,
+			"version":"0.0.6.b3",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250610",
 			"repository":"Central",
 			"type":"beta",
-			"usage":0,
+			"usage":2,
 			"version":"0.0.6.b2",
 			"vulnerabilities":""
 		},
@@ -97,16 +109,56 @@
 			"date":"20250609",
 			"repository":"Central",
 			"type":"beta",
-			"usage":0,
+			"usage":2,
 			"version":"0.0.6.b1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250609",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.0.5",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250606",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"0.0.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250522",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.0.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250521",
+			"repository":"Central",
+			"type":"snapshot",
+			"usage":1,
+			"version":"0.0.2-SNAPSHOT-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250519",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"0.0.1-b",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250514",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"0.0.1-a",
 			"vulnerabilities":""
 		}
 	]
