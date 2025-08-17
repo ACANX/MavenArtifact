@@ -12,7 +12,7 @@ CHART_HEIGHT = 1000
 MARGIN = 80
 AXIS_COLOR = "#333333"
 GRID_COLOR = "#e0e0e0"
-COLORS = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]
+COLORS = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#66ffbd"]
 FONT_FAMILY = "Arial, sans-serif"
 
 def main():
