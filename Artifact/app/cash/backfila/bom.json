@@ -3,11 +3,11 @@
 	"description":"Backfila is a service that manages backfill state, calling into other services to do batched work.",
 	"group_id":"app.cash.backfila",
 	"artifact_id":"bom",
-	"version_latest":"2025.08.14.163215-db8d186",
-	"ts_publish":1755189806000,
-	"dt_publish":"2025-08-15 00:43:26.000",
-	"ts_update":1755190556049,
-	"dt_update":"2025-08-15 00:55:44.822",
+	"version_latest":"2025.08.18.144744-b510b35",
+	"ts_publish":1755529103000,
+	"dt_publish":"2025-08-18 22:58:23.000",
+	"ts_update":1755530394957,
+	"dt_update":"2025-08-18 23:17:46.552",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,29 @@
 	"url_scm":"https://github.com/cashapp/backfila/",
 	"home_page":"https://github.com/cashapp/backfila/",
 	"license":"Apache 2.0",
-	"ranking":"#955153 in MvnRepository",
+	"ranking":"#959629 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250814",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.08.14.163215-db8d186",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.08.11.145111-7a0dd85",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2025.06.12.210034-2ec7b08",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.06.11.195132-868375a",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250610",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.06.10.165952-67f0310",
 			"vulnerabilities":""
 		}
 	]
