@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.depot",
 	"artifact_id":"legend-depot-store-mongo",
-	"version_latest":"2.72.0",
-	"ts_publish":1755537633000,
-	"dt_publish":"2025-08-19 01:20:33.000",
-	"ts_update":1755538743520,
-	"dt_update":"2025-08-19 01:37:35.283",
-	"count_dep":150,
+	"version_latest":"2.73.0",
+	"ts_publish":1755606079000,
+	"dt_publish":"2025-08-19 20:21:19.000",
+	"ts_update":1755606734788,
+	"dt_update":"2025-08-19 20:31:24.794",
+	"count_dep":149,
 	"count_ref":11,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -32,6 +32,14 @@
 		"mongodb"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"2.72.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250729",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":15,
 			"version":"2.47.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241101",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"2.46.1",
 			"vulnerabilities":""
 		}
 	]
