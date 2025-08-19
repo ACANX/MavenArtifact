@@ -1,15 +1,15 @@
 {
-	"id":"pkg:maven/com.cedarsoftware/java-util",
-	"description":"Java Utilities",
+	"id":"pkg:maven/com.cedarsoftware/json-io",
+	"description":"Java JSON serialization",
 	"group_id":"com.cedarsoftware",
-	"artifact_id":"java-util",
-	"version_latest":"4.0.0",
-	"ts_publish":1755579444000,
-	"dt_publish":"2025-08-19 12:57:24.000",
-	"ts_update":1755581176903,
-	"dt_update":"2025-08-19 13:25:52.619",
-	"count_dep":8,
-	"count_ref":1,
+	"artifact_id":"json-io",
+	"version_latest":"4.60.0",
+	"ts_publish":1755580276000,
+	"dt_publish":"2025-08-19 13:11:16.000",
+	"ts_update":1755581195587,
+	"dt_update":"2025-08-19 13:25:52.618",
+	"count_dep":10,
+	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -17,36 +17,32 @@
 		"MULTI-PROJECT"
 	],
 	"dsv":1,
-	"url_project":"https://github.com/jdereg/java-util",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.cedarsoftware/java-util@4.0.0",
+	"url_project":"https://github.com/jdereg/json-io",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.cedarsoftware/json-io@4.60.0",
 	"contributors":[
 		"John DeRegnaucourt",
 		"Kenny Partlow"
 	],
-	"url_scm":"https://github.com/jdereg/java-util",
-	"count_used_by":40,
-	"home_page":"https://github.com/jdereg/java-util",
+	"url_scm":"https://github.com/jdereg/json-io",
+	"count_used_by":67,
+	"home_page":"https://github.com/jdereg/json-io",
 	"license":"Apache 2.0",
-	"ranking":"#11748 in MvnRepository",
+	"ranking":"#7424 in MvnRepository",
 	"tags":[
+		"format",
 		"bundle",
+		"json",
+		"serialization",
+		"io",
 		"osgi"
 	],
 	"versions":[
 		{
-			"date":"20250726",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250721",
+			"date":"20250727",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"3.8.0",
+			"version":"4.59.0",
 			"vulnerabilities":""
 		},
 		{
@@ -54,87 +50,63 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
-			"version":"3.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250713",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.6.0",
+			"version":"4.57.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250623",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
-			"version":"3.5.0",
+			"usage":1,
+			"version":"4.56.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250620",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
-			"version":"3.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250617",
-			"repository":"Central",
-			"type":"release",
 			"usage":0,
-			"version":"3.3.3",
+			"version":"4.55.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250526",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
-			"version":"3.3.2",
+			"usage":2,
+			"version":"4.54.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250430",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
-			"version":"3.3.1",
+			"usage":1,
+			"version":"4.53.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250324",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
-			"version":"3.3.0",
+			"usage":1,
+			"version":"4.52.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250310",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
-			"version":"3.2.0",
+			"usage":2,
+			"version":"4.51.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250307",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
-			"version":"3.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250224",
-			"repository":"Central",
-			"type":"release",
 			"usage":0,
-			"version":"3.1.0",
+			"version":"4.50.0",
 			"vulnerabilities":""
 		},
 		{
@@ -142,55 +114,87 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
-			"version":"3.0.3",
+			"version":"4.40.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250122",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
-			"version":"3.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250120",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.1",
+			"usage":1,
+			"version":"4.33.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250115",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
-			"version":"3.0.0",
+			"usage":2,
+			"version":"4.32.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241017",
+			"date":"20250115",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
-			"version":"2.18.0",
+			"usage":0,
+			"version":"4.31.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20241014",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.30.0",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20241013",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
-			"version":"2.17.0",
+			"usage":0,
+			"version":"4.29.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241007",
+			"date":"20241002",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
-			"version":"2.16.0",
+			"usage":1,
+			"version":"4.28.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240929",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240624",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.26.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240622",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.25.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240504",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.24.0",
 			"vulnerabilities":""
 		}
 	]
