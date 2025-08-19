@@ -3,13 +3,13 @@
 	"description":"A set of acceptance tests that can be extended by an SDK HTTP plugin implementation to help ensure it behaves in\n        manner consistent with what is expected by the SDK.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"http-client-tests",
-	"version_latest":"2.32.23",
-	"ts_publish":1755221010000,
-	"dt_publish":"2025-08-15 09:23:30.000",
-	"ts_update":1755223005893,
-	"dt_update":"2025-08-15 09:55:49.713",
+	"version_latest":"2.32.26",
+	"ts_publish":1755640280000,
+	"dt_publish":"2025-08-20 05:51:20.000",
+	"ts_update":1755641744457,
+	"dt_update":"2025-08-20 06:14:39.345",
 	"count_dep":90,
-	"count_ref":5,
+	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,8 +22,8 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/test/http-client-tests",
 	"count_used_by":7,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#64062 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#64154 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -33,6 +33,46 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.32.25",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.32.24",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.32.23",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.32.22",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.32.21",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -151,46 +191,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.32.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250721",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.32.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250718",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.32.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.32.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.32.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.32.1",
 			"vulnerabilities":""
 		}
 	]
