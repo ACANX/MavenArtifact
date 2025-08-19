@@ -3,11 +3,11 @@
 	"description":"EHRbase is a Free, Libre, Open Source openEHR Clinical Data Repository",
 	"group_id":"org.ehrbase.openehr",
 	"artifact_id":"bom",
-	"version_latest":"2.21.0",
-	"ts_publish":1755529203000,
-	"dt_publish":"2025-08-18 23:00:03.000",
-	"ts_update":1755530840747,
-	"dt_update":"2025-08-18 23:17:44.906",
+	"version_latest":"2.21.1",
+	"ts_publish":1755620018000,
+	"dt_publish":"2025-08-20 00:13:38.000",
+	"ts_update":1755620811098,
+	"dt_update":"2025-08-20 00:25:47.403",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/ehrbase/ehrbase",
 	"home_page":"https://ehrbase.org",
 	"license":"Apache 2.0",
-	"ranking":"#657831 in MvnRepository",
+	"ranking":"#907199 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.21.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240606",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.3.0",
 			"vulnerabilities":""
 		}
 	]
