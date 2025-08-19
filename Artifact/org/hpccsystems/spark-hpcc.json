@@ -3,12 +3,12 @@
 	"description":"Spark connector for reading files residing in an HPCC cluster environment",
 	"group_id":"org.hpccsystems",
 	"artifact_id":"spark-hpcc",
-	"version_latest":"9.14.10-1",
-	"ts_publish":1755017443000,
-	"dt_publish":"2025-08-13 00:50:43.000",
-	"ts_update":1755018995175,
-	"dt_update":"2025-08-13 01:15:58.816",
-	"count_dep":0,
+	"version_latest":"9.14.12-1",
+	"ts_publish":1755616782000,
+	"dt_publish":"2025-08-19 23:19:42.000",
+	"ts_update":1755617198822,
+	"dt_update":"2025-08-19 23:25:51.965",
+	"count_dep":259,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,11 +26,19 @@
 	],
 	"url_scm":"scm:git:https://github.com/hpcc-systems/hpcc4j.git/spark-hpcc",
 	"license":"Apache 2.0",
-	"ranking":"#954607 in MvnRepository",
+	"ranking":"#956763 in MvnRepository",
 	"tags":[
 		"spark"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.14.10-1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -69,6 +77,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.14.0-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.12.28-1",
 			"vulnerabilities":""
 		},
 		{
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.12.6-2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250529",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.12.6-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250520",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.12.4-1",
 			"vulnerabilities":""
 		}
 	]
