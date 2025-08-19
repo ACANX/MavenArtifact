@@ -3,13 +3,13 @@
 	"description":"Parent pom providing dependency and plugin management for applications built with Maven",
 	"group_id":"net.orivis",
 	"artifact_id":"orivis-core",
-	"version_latest":"0.6.3",
-	"ts_publish":1755512092000,
-	"dt_publish":"2025-08-18 18:14:52.000",
-	"ts_update":1755513891007,
-	"dt_update":"2025-08-18 18:43:41.686",
+	"version_latest":"0.6.4",
+	"ts_publish":1755604501000,
+	"dt_publish":"2025-08-19 19:55:01.000",
+	"ts_update":1755606369048,
+	"dt_update":"2025-08-19 20:25:50.636",
 	"count_dep":91,
-	"count_ref":2,
+	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -21,15 +21,39 @@
 		"Dennis Oleshko"
 	],
 	"url_scm":"http://systems.dennis/orivis/tree/main",
-	"count_used_by":27,
+	"count_used_by":28,
 	"license":"Apache 2.0",
-	"ranking":"#17313 in MvnRepository",
+	"ranking":"#16734 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.6.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.6.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.6.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"0.5.7",
 			"vulnerabilities":""
 		},
@@ -159,30 +183,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"0.4.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250409",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250328",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.3.2",
 			"vulnerabilities":""
 		}
 	]
