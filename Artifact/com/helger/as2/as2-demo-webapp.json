@@ -3,12 +3,12 @@
 	"description":"Base POM to build the as2-lib projects",
 	"group_id":"com.helger.as2",
 	"artifact_id":"as2-demo-webapp",
-	"version_latest":"5.1.6",
-	"ts_publish":1755591202000,
-	"dt_publish":"2025-08-19 16:13:22.000",
-	"ts_update":1755592014890,
-	"dt_update":"2025-08-19 16:25:51.283",
-	"count_dep":0,
+	"version_latest":"5.1.7",
+	"ts_publish":1755678657000,
+	"dt_publish":"2025-08-20 16:30:57.000",
+	"ts_update":1755679385504,
+	"dt_update":"2025-08-20 16:42:39.566",
+	"count_dep":35,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2"
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/phax/as2-lib/as2-demo-webapp",
 	"home_page":"https://github.com/phax/as2-lib/as2-demo-webapp",
 	"license":"Apache 2.0",
-	"ranking":"#448786 in MvnRepository",
+	"ranking":"#448893 in MvnRepository",
 	"tags":[
 		"application",
 		"war",
@@ -34,6 +34,14 @@
 		"example"
 	],
 	"versions":[
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.1.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250425",
 			"repository":"Central",
@@ -80,6 +88,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.0.8",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.9.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211221",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.9.0",
 			"vulnerabilities":""
 		}
 	]
