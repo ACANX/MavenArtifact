@@ -33,7 +33,7 @@ jobs:
           # 确保requests库始终安装
           pip install requests
 
-      - name: RunPythonScript
+      - name: RunPythonScriptStepOne
         run: |
           if [ -d "Python" ]; then
             cd Python && sh run.sh
@@ -57,6 +57,14 @@ jobs:
             exit 1
           fi
 
+      - name: RunPythonScriptStepTwo
+        run: |
+          if [ -d "Python" ]; then
+            cd Python && sh GenerateJSONFeed.sh
+          else
+            echo "::error::Python目录未找到！"
+            exit 1
+          fi
 
       - name: CommitChanges
         id: commit
