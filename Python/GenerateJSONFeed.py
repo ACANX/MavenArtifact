@@ -69,7 +69,7 @@ def read_and_process_maven_artifacts(expire_hours=2):
 def generate_json_feed():
     # 使用默认的2小时过期时间
     artifactList = read_and_process_maven_artifacts()
-    print(f"找到 {len(artifacts)} 个有效的 Maven 构件")
+    print(f"找到 {len(artifactList)} 个有效的 Maven 构件")
     
     # 创建JSON Feed的基本结构
     feed = {
