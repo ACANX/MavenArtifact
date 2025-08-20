@@ -1,0 +1,67 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "构件发布队列 - Powered by Maven中央仓库RSS",
+    "home_page_url": "https://github.com/ACANX/MavenArtifact",
+    "feed_url": "https://github.com/ACANX/MavenArtifact/new/latest/Feed/MvnArtifactReleaseQueue.json",
+    "description": "Maven构件发布队列 - Powered by Maven中央仓库RSS",
+    "icon": "https://unavatar.webp.se/central.sonatype.com?fallback=true",
+    "favicon": "https://unavatar.webp.se/central.sonatype.com?fallback=true",
+    "authors": [
+        {
+            "name": "Maven中央仓库RSS",
+            "url": "https://central.sonatype.com"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://example.com/post-123",
+            "url": "https://example.com/post-123",
+            "title": "文章标题",
+            "content_html": "<p>这是文章的<strong>完整</strong>HTML内容。</p>",
+            "content_text": "这是文章的纯文本内容。",
+            "summary": "这是文章的摘要。",
+            "date_published": "2023-10-27T12:00:00Z",
+            "date_modified": "2023-10-27T14:30:00Z",
+            "authors": [
+                {
+                    "name": "文章作者姓名"
+                }
+            ],
+            "tags": ["技术", "JSON", "RSS"],
+            "attachments": [
+                {
+                    "url": "https://example.com/podcast-episode.mp3",
+                    "mime_type": "audio/mpeg",
+                    "title": "播客节目标题",
+                    "size_in_bytes": 12345678,
+                    "duration_in_seconds": 3600
+                }
+            ]
+        },
+        {
+            "id": "https://example.com/post-123",
+            "url": "https://example.com/post-123",
+            "title": "文章标题",
+            "content_html": "<p>这是文章的<strong>完整</strong>HTML内容。</p>",
+            "content_text": "这是文章的纯文本内容。",
+            "summary": "这是文章的摘要。",
+            "date_published": "2023-10-27T12:00:00Z",
+            "date_modified": "2023-10-27T14:30:00Z",
+            "authors": [
+                {
+                    "name": "文章作者姓名"
+                }
+            ],
+            "tags": ["技术", "JSON", "RSS"],
+            "attachments": [
+                {
+                    "url": "https://example.com/podcast-episode.mp3",
+                    "mime_type": "audio/mpeg",
+                    "title": "播客节目标题",
+                    "size_in_bytes": 12345678,
+                    "duration_in_seconds": 3600
+                }
+            ]
+        }
+    ]
+}
