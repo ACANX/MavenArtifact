@@ -301,7 +301,7 @@ def collectComponents():
                 # 更新扩展元数据索引
                 key = f"{data['group_id']}|{data['artifact_id']}"
                 artifactIndex.add(key)
-                cacheKey = f"{data['group_id']}|{data['artifact_id']|data['ts_publish']}"
+                cacheKey = "%s|%s|%d" % (data['group_id'], data['artifact_id'], data['ts_publish'])
                 artifactLRUCache.add(cacheKey)
                 processed_count += 1
                 page_processed += 1
@@ -341,6 +341,7 @@ def collectApacheComponents() -> bool:
     try:
         # 读取扩展元数据索引
         artifactIndex = readVersionArtifactIndex()
+        artifactLRUCache = []
         print(f"📋 已加载扩展元数据索引: {len(artifactIndex)} 个构件记录")
         processed_count = 0
         for page in range(300, -1, -1):
@@ -369,6 +370,8 @@ def collectApacheComponents() -> bool:
                     # 更新扩展元数据索引
                     key = f"{data['group_id']}|{data['artifact_id']}"
                     artifactIndex.add(key)
+                    cacheKey = "%s|%s|%d" % (data['group_id'], data['artifact_id'], data['ts_publish'])
+                    artifactLRUCache.add(cacheKey)
                     processed_count += 1
                     page_processed += 1
                 else:
@@ -381,6 +384,7 @@ def collectApacheComponents() -> bool:
         # 更新扩展元数据索引文件
         if processed_count > 0:
             updateVersionArtifactIndex(artifactIndex)
+            appendCacheKeysToFile(artifactLRUCache)
             print(f"✅ 已更新扩展元数据索引，新增 {processed_count} 条记录")
         else:
             print("ℹ️ 无新构件，无需更新扩展元数据索引")
