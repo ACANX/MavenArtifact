@@ -114,9 +114,10 @@ def generate_json_feed():
         
         # authors节点
         authors = [{"name": "MvnArtifactReleaseQueue"}]
-        for contributor in contributors:
-            authors.append({"name": contributor})
-        item['authors'] = authors
+        if contributors:
+            for contributor in contributors:
+                authors.append({"name": contributor})
+            item['authors'] = authors
         
         # tags节点
         if not tags:
