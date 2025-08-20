@@ -1,7 +1,7 @@
 import json
 import os
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from urllib.parse import quote
 
 def read_and_process_maven_artifacts(expire_hours=2):
@@ -175,9 +175,9 @@ def generate_json_feed():
         
         # date_published和date_modified节点
         if ts_publish:
-            item['date_published'] = datetime.utcfromtimestamp(ts_publish/1000).strftime('%Y-%m-%dT%H:%M:%SZ')
+            item['date_published'] = datetime.fromtimestamp(ts_publish/1000, tz=timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
         if ts_update:
-            item['date_modified'] = datetime.utcfromtimestamp(ts_update/1000).strftime('%Y-%m-%dT%H:%M:%SZ')
+            item['date_modified'] = datetime.fromtimestamp(ts_update/1000, tz=timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')    
         # authors节点
         authors = [{"name": "MvnArtifactReleaseQueue"}]
         if contributors:
