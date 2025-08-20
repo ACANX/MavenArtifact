@@ -117,7 +117,7 @@ def generate_json_feed():
     }
     
     # 处理每个构件
-    for artifact in artifactList:
+    for artifact in reversed(artifactList):
         # 解析groupId和artifactId
         group_id = artifact["group_id"]
         artifact_id = artifact["artifact_id"]
