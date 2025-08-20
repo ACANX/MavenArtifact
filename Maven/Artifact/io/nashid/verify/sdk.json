@@ -1,12 +1,14 @@
 {
   "id": "pkg:maven/io.nashid.verify/sdk",
-  "description": "v2.6.0",
+  "description": "UI Improvements to Camera and Instruction Overlay Adjusted the camera background opacity to reduce background distractions during both liveness and ID scanning. Repositioned instruction text overlays and enhanced clarity. NFC Cancel Behaviour Added support for the new feature flag called “Count NFC Cancel.” When enabled, pressing the Cancel button during NFC reading will count as an attempt toward the retry limit. When disabled, canceling will not be counted — allowing users to retry NFC scanning without reducing their available attempts.",
   "group_id": "io.nashid.verify",
   "artifact_id": "sdk",
-  "version_latest": "2.6.0",
-  "ts_publish": 1753875436000,
-  "ts_update": 1753876022560,
-  "count_dep": 49,
+  "version_latest": "2.6.1",
+  "ts_publish": 1755698444000,
+  "dt_publish": "2025-08-20 22:00:44.000",
+  "ts_update": 1755699383393,
+  "dt_update": "2025-08-20 22:16:23.393",
+  "count_dep": 50,
   "count_ref": 0,
   "licenses": [
     "The Apache License, Version 2.0"
