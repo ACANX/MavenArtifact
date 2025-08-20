@@ -9,7 +9,9 @@ def generate_json_feed():
     index_path = "../Maven/Version/_index.json"
     try:
         with open(index_path, 'r', encoding='utf-8') as f:
-            artifact_list = json.load(f)
+            index_data = json.load(f)
+            # 从JSON对象的"list"子节点获取artifact_list
+            artifact_list = index_data.get("list", [])
     except FileNotFoundError:
         print(f"错误: 找不到索引文件 {index_path}")
         return None
@@ -25,7 +27,7 @@ def generate_json_feed():
         "feed_url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/ReleaseQueue.json",
         "description": "Maven构件发布队列 - Powered by Maven中央仓库RSS",
         "icon": "https://unavatar.webp.se/central.sonatype.com?fallback=true",
-        "favicon": "https://unavatar.webp.se/central.sonatype.com?fallback=true",
+        "favicon": "https://unavatar.webp.se/central.sonatype.com?fallback=True",
         "authors": [
             {
                 "name": "Maven中央仓库RSS",
