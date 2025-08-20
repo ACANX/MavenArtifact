@@ -4,20 +4,72 @@ import time
 from datetime import datetime
 from urllib.parse import quote
 
-def generate_json_feed():
-    # 读取索引文件
-    index_path = "../Maven/Version/_index.json"
+def read_and_process_maven_artifacts(expire_hours=2):
+    """
+    读取、处理并返回符合条件的 Maven 构件信息
+    Args:
+        expire_hours: 过期时间（小时），默认2小时前
+    Returns:
+        list: 处理后的 Maven 构件信息列表，每个元素是包含 ts_publish, group_id, artifact_id 的字典
+    """
+    file_path = "../Feed/ReleaseQueue.txt"
+    # 如果文件不存在，返回空列表
+    if not os.path.exists(file_path):
+        return []
+    # 计算过期时间戳（当前时间减去指定小时数）
+    current_time_ms = int(time.time() * 1000)  # 当前时间的毫秒时间戳
+    expire_time_ms = current_time_ms - (expire_hours * 60 * 60 * 1000)
+    # 用于去重的字典，键为 "group_id:artifact_id"，值为包含完整信息的字典
+    unique_artifacts = {}
     try:
-        with open(index_path, 'r', encoding='utf-8') as f:
-            index_data = json.load(f)
-            # 从JSON对象的"list"子节点获取artifact_list
-            artifact_list = index_data.get("list", [])
-    except FileNotFoundError:
-        print(f"错误: 找不到索引文件 {index_path}")
-        return None
-    except json.JSONDecodeError:
-        print(f"错误: 索引文件 {index_path} 格式不正确")
-        return None
+        with open(file_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                # 解析每一行
+                parts = line.split("|")
+                if len(parts) != 3:
+                    continue
+                try:
+                    ts_publish = int(parts[0])
+                    group_id = parts[1]
+                    artifact_id = parts[2]
+                    # 检查是否过期
+                    if ts_publish < expire_time_ms:
+                        continue
+                    # 创建唯一键
+                    unique_key = f"{group_id}:{artifact_id}"
+                    # 如果这个构件已经存在，比较时间戳，保留最新的
+                    if unique_key in unique_artifacts:
+                        if ts_publish > unique_artifacts[unique_key]["ts_publish"]:
+                            unique_artifacts[unique_key] = {
+                                "ts_publish": ts_publish,
+                                "group_id": group_id,
+                                "artifact_id": artifact_id
+                            }
+                    else:
+                        unique_artifacts[unique_key] = {
+                            "ts_publish": ts_publish,
+                            "group_id": group_id,
+                            "artifact_id": artifact_id
+                        }
+                except (ValueError, IndexError):
+                    # 跳过格式不正确的行
+                    continue   
+    except Exception as e:
+        print(f"读取文件时出错: {e}")
+        return []
+    # 转换为列表并按时间戳从小到大排序
+    result = list(unique_artifacts.values())
+    result.sort(key=lambda x: x["ts_publish"])
+    return result
+
+
+def generate_json_feed():
+    # 使用默认的2小时过期时间
+    artifactList = read_and_process_maven_artifacts()
+    print(f"找到 {len(artifacts)} 个有效的 Maven 构件")
     
     # 创建JSON Feed的基本结构
     feed = {
@@ -38,15 +90,10 @@ def generate_json_feed():
     }
     
     # 处理每个构件
-    for artifact_str in artifact_list:
+    for artifact in artifactList:
         # 解析groupId和artifactId
-        parts = artifact_str.split('|')
-        if len(parts) < 2:
-            print(f"警告: 跳过格式不正确的条目: {artifact_str}")
-            continue
-            
-        group_id = parts[0]
-        artifact_id = parts[1]
+        group_id = artifact["group_id"]
+        artifact_id = artifact["artifact_id"]
         group_id_path = group_id.replace('.', '/')
         
         # 尝试读取构件元数据文件
@@ -64,13 +111,11 @@ def generate_json_feed():
                     break
                 except (FileNotFoundError, json.JSONDecodeError):
                     continue
-        
         if not metadata:
             print(f"警告: 找不到构件元数据 {group_id}:{artifact_id}")
             continue
         else:
             print(f"找到构件元数据 {group_id}:{artifact_id} 文件")
-        
         # 提取所需字段
         id_val = metadata.get('id', f"{group_id}:{artifact_id}")
         description = metadata.get('description', '')
@@ -81,22 +126,17 @@ def generate_json_feed():
         ts_update = metadata.get('ts_update', 0)
         tags = metadata.get('tags', [])
         contributors = metadata.get('contributors', [])
-        
         # 生成item
         item = {}
-        
         # id节点
         item['id'] = f"{id_val}@{version_latest}"
-        
         # url节点
         item['url'] = "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/"
-        
         # title节点
         if description:
             item['title'] = f"{group_id_from_meta}:{artifact_id_from_meta} {version_latest} 发布, {description}"
         else:
             item['title'] = f"{group_id_from_meta}:{artifact_id_from_meta} {version_latest} 发布"
-        
         # content_html节点
         escaped_title = item['title'].replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
         svg_url = f"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/{group_id_path}/{artifact_id}.svg"
@@ -111,19 +151,16 @@ def generate_json_feed():
             item['date_published'] = datetime.utcfromtimestamp(ts_publish/1000).strftime('%Y-%m-%dT%H:%M:%SZ')
         if ts_update:
             item['date_modified'] = datetime.utcfromtimestamp(ts_update/1000).strftime('%Y-%m-%dT%H:%M:%SZ')
-        
         # authors节点
         authors = [{"name": "MvnArtifactReleaseQueue"}]
         if contributors:
             for contributor in contributors:
                 authors.append({"name": contributor})
             item['authors'] = authors
-        
         # tags节点
         if not tags:
             tags = ["Artifact", "Maven", "Java"]
         item['tags'] = tags
-        
         # attachments节点
         item['attachments'] = [
             {
@@ -134,9 +171,7 @@ def generate_json_feed():
                 "duration_in_seconds": 10
             }
         ]
-        
         feed['items'].append(item)
-    
     return feed
 
 def main():
