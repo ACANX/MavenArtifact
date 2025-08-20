@@ -1,66 +1,39 @@
 {
-	"id":"pkg:maven/pl.allegro.tech.hermes/hermes-client",
-	"description":"Fast and reliable message broker built on top of Kafka.",
-	"group_id":"pl.allegro.tech.hermes",
-	"artifact_id":"hermes-client",
-	"version_latest":"2.11.6",
-	"ts_publish":1755702804000,
-	"dt_publish":"2025-08-20 23:13:24.000",
-	"ts_update":1755704828740,
-	"dt_update":"2025-08-20 23:47:01.537",
-	"count_dep":5,
+	"id":"pkg:maven/com.squareup/square",
+	"description":"The official SDK of square",
+	"group_id":"com.squareup",
+	"artifact_id":"square",
+	"version_latest":"45.0.2.20250820",
+	"ts_publish":1755702875000,
+	"dt_publish":"2025-08-20 23:14:35.000",
+	"ts_update":1755704856781,
+	"dt_update":"2025-08-20 23:47:01.531",
+	"count_dep":13,
 	"count_ref":0,
 	"licenses":[
-		"The Apache Software License, Version 2.0"
+		"MIT"
 	],
 	"categories":[
-		"Data Transport"
+		"Other"
 	],
 	"dsv":1,
-	"url_project":"https://github.com/allegro/hermes",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/pl.allegro.tech.hermes/hermes-client@2.11.3",
+	"url_project":"https://buildwithfern.com",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.squareup/square@45.0.2.20250820",
 	"contributors":[
-		"Skylab Eden Team"
+		"square"
 	],
-	"url_scm":"https://github.com/allegro/hermes",
-	"count_used_by":1,
-	"home_page":"https://github.com/allegro/hermes",
-	"license":"Apache 2.0",
-	"ranking":"#391381 in MvnRepository",
-	"tags":[
-		"client"
-	],
+	"url_scm":"https://github.com/square/square-java-sdk",
+	"count_used_by":2,
+	"home_page":"https://buildwithfern.com",
+	"license":"MIT",
+	"ranking":"#237803 in MvnRepository",
 	"versions":[
 		{
-			"date":"20250814",
+			"date":"20250716",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.11.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250725",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.2",
+			"version":"45.0.1.20250716",
 			"vulnerabilities":""
 		},
 		{
@@ -68,103 +41,79 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.11.1",
+			"version":"45.0.0.20250618",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250623",
+			"date":"20250521",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.11.0",
+			"version":"44.2.0.20250521",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250318",
+			"date":"20250416",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.10.4",
+			"version":"44.1.0.20250416",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250317",
+			"date":"20250319",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.10.3",
+			"version":"44.0.0.20250319",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250227",
+			"date":"20250220",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.10.2",
+			"version":"43.1.0.20250220",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250225",
+			"date":"20250123",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.10.1",
+			"version":"43.0.0.20250123",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250110",
+			"date":"20241218",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.10.0",
+			"version":"42.1.0.20241218",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250108",
+			"date":"20241120",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.9.0",
+			"version":"42.0.0.20241120",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241220",
+			"date":"20241017",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.8.0",
+			"version":"41.2.0.20241017",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241128",
+			"date":"20240918",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241121",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241009",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.6.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240823",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.6.21",
+			"version":"41.1.0.20240919",
 			"vulnerabilities":""
 		},
 		{
@@ -172,23 +121,71 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.6.20",
+			"version":"41.0.0.20240821",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20240819",
+			"date":"20240717",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.6.19",
+			"version":"40.1.1.20240717",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20240808",
+			"date":"20240603",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.6.18",
+			"version":"40.1.0.20240604",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240514",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"40.0.0.20240515",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240417",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"39.0.0.20240417",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240321",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"38.1.0.20240320",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240224",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"38.0.0.20240222",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240116",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"37.0.0.20240118",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20231213",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"36.0.0.20231213",
 			"vulnerabilities":""
 		}
 	]
