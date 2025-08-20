@@ -3,12 +3,12 @@
 	"description":"Use a RESTEasy Client filter to get and refresh access tokens with OpenID Connect Client and send them as HTTP Authorization Bearer tokens",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-resteasy-client-oidc-filter",
-	"version_latest":"3.26.0.CR1",
-	"ts_publish":1755088550000,
-	"dt_publish":"2025-08-13 20:35:50.000",
-	"ts_update":1755091604362,
-	"dt_update":"2025-08-13 21:21:25.070",
-	"count_dep":0,
+	"version_latest":"3.26.0",
+	"ts_publish":1755684782000,
+	"dt_publish":"2025-08-20 18:13:02.000",
+	"ts_update":1755687033044,
+	"dt_update":"2025-08-20 18:39:46.116",
+	"count_dep":4,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-resteasy-client-oidc-filter@3.25.2",
 	"count_used_by":24,
 	"license":"Apache 2.0",
-	"ranking":"#18939 in MvnRepository",
+	"ranking":"#18979 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -30,6 +30,22 @@
 		"filtering"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.22.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.22.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.1",
 			"vulnerabilities":""
 		}
 	]

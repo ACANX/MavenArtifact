@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.quarkus/quarkus-reactive-datasource-deployment",
-	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-reactive-datasource-deployment",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657439000,
-	"dt_publish":"2025-08-08 20:50:39.000",
-	"ts_update":1754661395565,
-	"dt_update":"2025-08-08 21:24:06.876",
-	"count_dep":6,
-	"count_ref":6,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"3.26.0",
+	"ts_publish":1755684782000,
+	"dt_publish":"2025-08-20 18:13:02.000",
+	"ts_update":1755687039003,
+	"dt_update":"2025-08-20 18:39:46.121",
+	"count_dep":7,
+	"count_ref":4,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,7 +23,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#38507 in MvnRepository",
+	"ranking":"#38596 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -35,6 +32,30 @@
 		"datasource"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.26.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.25.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -169,30 +190,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"3.22.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.22.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]
