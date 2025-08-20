@@ -66,11 +66,11 @@ def read_and_process_maven_artifacts(expire_hours=2):
     result.sort(key=lambda x: x["ts_publish"])
     return result
 
-def update_release_queue_file(artifacts):
+def update_release_queue_file(artifactList):
     """
     将处理后的构件数据按照指定格式覆盖写入到文件中
     Args:
-        artifacts: 处理后的构件数据列表，每个元素是包含 ts_publish, group_id, artifact_id 的字典
+        artifactList: 处理后的构件数据列表，每个元素是包含 ts_publish, group_id, artifact_id 的字典
     Returns:
         bool: 操作是否成功
     """
@@ -81,12 +81,12 @@ def update_release_queue_file(artifacts):
         
         # 以写入模式打开文件（会覆盖原有内容）
         with open(file_path, "w", encoding="utf-8") as f:
-            for artifact in artifacts:
+            for artifact in artifactList:
                 # 按照指定格式生成每行内容
                 cache_key = f"{artifact['ts_publish']}|{artifact['group_id']}|{artifact['artifact_id']}"
                 f.write(f"{cache_key}\n")
         
-        print(f"成功更新文件 {file_path}，写入 {len(artifacts)} 条记录")
+        print(f"成功更新文件 {file_path}，写入 {len(artifactList)} 条记录")
         return True        
     except Exception as e:
         print(f"更新文件时出错: {e}")
@@ -200,7 +200,7 @@ def generate_json_feed():
         ]
         feed['items'].append(item)
     # 将处理后的数据写回文件
-    update_release_queue_file(artifacts)    
+    update_release_queue_file(artifactList)    
     return feed
 
 def main():
