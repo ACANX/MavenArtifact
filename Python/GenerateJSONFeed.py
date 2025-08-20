@@ -101,15 +101,15 @@ def generate_json_feed():
     # 创建JSON Feed的基本结构
     feed = {
         "version": "https://jsonfeed.org/version/1.1",
-        "title": "构件发布队列 - Maven中央仓库RSS",
+        "title": "构件发布队列 - Maven中央仓库Feed",
         "home_page_url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/",
         "feed_url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/ReleaseQueue.json",
-        "description": "Maven构件发布队列 - Powered by Maven中央仓库RSS",
+        "description": "Maven构件发布队列 - Powered by Maven中央仓库Feed",
         "icon": "https://unavatar.webp.se/central.sonatype.com?fallback=true",
         "favicon": "https://unavatar.webp.se/central.sonatype.com?fallback=True",
         "authors": [
             {
-                "name": "Maven中央仓库RSS",
+                "name": "Maven中央仓库Feed",
                 "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/"
             }
         ],
