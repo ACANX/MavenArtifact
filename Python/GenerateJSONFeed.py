@@ -51,8 +51,8 @@ def generate_json_feed():
         
         # 尝试读取构件元数据文件
         artifact_paths = [
-            f"Maven/Artifact/{group_id_path}/{artifact_id}.json",
-            f"Artifact/{group_id_path}/{artifact_id}.json"
+            f"../Maven/Artifact/{group_id_path}/{artifact_id}.json",
+            f"../Artifact/{group_id_path}/{artifact_id}.json"
         ]
         
         metadata = None
@@ -68,6 +68,8 @@ def generate_json_feed():
         if not metadata:
             print(f"警告: 找不到构件元数据 {group_id}:{artifact_id}")
             continue
+        else:
+            print(f"找到构件元数据 {group_id}:{artifact_id} 文件")
         
         # 提取所需字段
         id_val = metadata.get('id', f"{group_id}:{artifact_id}")
