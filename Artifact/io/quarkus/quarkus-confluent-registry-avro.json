@@ -3,12 +3,12 @@
 	"description":"Use Confluent as Avro schema registry",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-confluent-registry-avro",
-	"version_latest":"3.26.0.CR1",
-	"ts_publish":1755088550000,
-	"dt_publish":"2025-08-13 20:35:50.000",
-	"ts_update":1755091324471,
-	"dt_update":"2025-08-13 21:21:17.051",
-	"count_dep":0,
+	"version_latest":"3.26.0",
+	"ts_publish":1755684781000,
+	"dt_publish":"2025-08-20 18:13:01.000",
+	"ts_update":1755686433899,
+	"dt_update":"2025-08-20 18:39:53.435",
+	"count_dep":4,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-confluent-registry-avro@3.25.3",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#103241 in MvnRepository",
+	"ranking":"#103422 in MvnRepository",
 	"tags":[
 		"confluent",
 		"registry",
@@ -28,6 +28,22 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.22.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.1",
 			"vulnerabilities":""
 		}
 	]
