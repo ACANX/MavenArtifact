@@ -37,6 +37,7 @@ def read_and_process_maven_artifacts(expire_hours=2):
                     artifact_id = parts[2]
                     # 检查是否过期
                     if ts_publish < expire_time_ms:
+                        print(f"构件 {group_id}:{artifact_id} 已到达过期时间，将会按计划删除")
                         continue
                     # 创建唯一键
                     unique_key = f"{group_id}:{artifact_id}"
