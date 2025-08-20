@@ -301,7 +301,7 @@ def collectComponents():
                 # 更新扩展元数据索引
                 key = f"{data['group_id']}|{data['artifact_id']}"
                 artifactIndex.add(key)
-                cacheKey = "%s|%s|%d" % (data['group_id'], data['artifact_id'], data['ts_publish'])
+                cacheKey = "%d|%s|%s" % (data['ts_publish'], data['group_id'], data['artifact_id'])
                 artifactLRUCache.append(cacheKey)
                 processed_count += 1
                 page_processed += 1
@@ -370,7 +370,7 @@ def collectApacheComponents() -> bool:
                     # 更新扩展元数据索引
                     key = f"{data['group_id']}|{data['artifact_id']}"
                     artifactIndex.add(key)
-                    cacheKey = "%s|%s|%d" % (data['group_id'], data['artifact_id'], data['ts_publish'])
+                    cacheKey = "%d|%s|%s" % (data['ts_publish'], data['group_id'], data['artifact_id'])
                     artifactLRUCache.append(cacheKey)
                     processed_count += 1
                     page_processed += 1
