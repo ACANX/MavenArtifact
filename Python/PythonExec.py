@@ -302,7 +302,7 @@ def collectComponents():
                 key = f"{data['group_id']}|{data['artifact_id']}"
                 artifactIndex.add(key)
                 cacheKey = "%s|%s|%d" % (data['group_id'], data['artifact_id'], data['ts_publish'])
-                artifactLRUCache.add(cacheKey)
+                artifactLRUCache.append(cacheKey)
                 processed_count += 1
                 page_processed += 1
             else:
@@ -371,7 +371,7 @@ def collectApacheComponents() -> bool:
                     key = f"{data['group_id']}|{data['artifact_id']}"
                     artifactIndex.add(key)
                     cacheKey = "%s|%s|%d" % (data['group_id'], data['artifact_id'], data['ts_publish'])
-                    artifactLRUCache.add(cacheKey)
+                    artifactLRUCache.append(cacheKey)
                     processed_count += 1
                     page_processed += 1
                 else:
