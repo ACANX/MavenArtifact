@@ -3,11 +3,11 @@
 	"description":"Migrate to later Java versions. Automatically.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-migrate-java",
-	"version_latest":"3.15.0",
-	"ts_publish":1755034873000,
-	"dt_publish":"2025-08-13 05:41:13.000",
-	"ts_update":1755035765569,
-	"dt_update":"2025-08-13 05:55:40.429",
+	"version_latest":"3.15.1",
+	"ts_publish":1755807081000,
+	"dt_publish":"2025-08-22 04:11:21.000",
+	"ts_update":1755807964080,
+	"dt_update":"2025-08-22 04:25:45.558",
 	"count_dep":15,
 	"count_ref":0,
 	"licenses":[
@@ -25,11 +25,19 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-migrate-java.git",
 	"count_used_by":19,
 	"home_page":"https://github.com/openrewrite/rewrite-migrate-java",
-	"ranking":"#24913 in MvnRepository",
+	"ranking":"#24979 in MvnRepository",
 	"tags":[
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.15.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.31.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.31.0",
 			"vulnerabilities":""
 		}
 	]
