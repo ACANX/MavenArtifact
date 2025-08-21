@@ -3,11 +3,11 @@
 	"description":"Default Hedera Schedule Service Implementation",
 	"group_id":"com.hedera.hashgraph",
 	"artifact_id":"app-service-schedule-impl",
-	"version_latest":"0.65.0-rc1",
-	"ts_publish":1755219476000,
-	"ts_update":1755221161329,
+	"version_latest":"0.65.0-rc.3",
+	"ts_publish":1755811147000,
+	"ts_update":1755811641570,
 	"count_dep":27,
-	"count_ref":1,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -25,13 +25,29 @@
 	"count_used_by":1,
 	"home_page":"https://hiero.org/",
 	"license":"Apache 2.0",
-	"ranking":"#323508 in MvnRepository",
+	"ranking":"#342172 in MvnRepository",
 	"tags":[
 		"scheduling",
 		"service",
 		"implementation"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.65.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.64.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -175,24 +191,8 @@
 			"usage":1,
 			"version":"0.62.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250520",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.62.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.62.2",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-08-15 08:57:56.000",
-	"dt_update":"2025-08-15 09:25:45.854"
+	"dt_publish":"2025-08-22 05:19:07.000",
+	"dt_update":"2025-08-22 05:25:44.647"
 }
