@@ -3,11 +3,11 @@
 	"description":"基于 Spring Authorization Server 的 Dante Cloud Caffeine 组件相关代码模块",
 	"group_id":"cn.herodotus.engine",
 	"artifact_id":"cache-sdk-caffeine",
-	"version_latest":"3.5.4.2",
-	"ts_publish":1754735195000,
-	"dt_publish":"2025-08-09 18:26:35.000",
-	"ts_update":1754735965565,
-	"dt_update":"2025-08-09 18:39:01.860",
+	"version_latest":"3.5.5.0",
+	"ts_publish":1755787810000,
+	"dt_publish":"2025-08-21 22:50:10.000",
+	"ts_update":1755789520001,
+	"dt_update":"2025-08-21 23:16:51.909",
 	"count_dep":88,
 	"count_ref":22,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/dromara/dante-cloud/engine-cache/cache-sdk-caffeine",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#235890 in MvnRepository",
+	"ranking":"#241260 in MvnRepository",
 	"tags":[
 		"sdk",
 		"cache",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250809",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.4.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.3.0",
 			"vulnerabilities":""
 		}
 	]
