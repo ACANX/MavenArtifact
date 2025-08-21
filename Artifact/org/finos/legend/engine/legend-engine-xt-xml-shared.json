@@ -3,11 +3,11 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-xml-shared",
-	"version_latest":"4.96.1",
-	"ts_publish":1754601803000,
-	"dt_publish":"2025-08-08 05:23:23.000",
-	"ts_update":1754603359139,
-	"dt_update":"2025-08-08 05:48:42.021",
+	"version_latest":"4.96.4",
+	"ts_publish":1755166599000,
+	"dt_publish":"2025-08-14 18:16:39.000",
+	"ts_update":1755168253180,
+	"dt_update":"2025-08-14 18:43:32.571",
 	"count_dep":50,
 	"count_ref":2,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-xml/legend-engine-xt-xml-shared",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#247890 in MvnRepository",
+	"ranking":"#248138 in MvnRepository",
 	"tags":[
 		"xml",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.96.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.88.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.88.0",
 			"vulnerabilities":""
 		}
 	]

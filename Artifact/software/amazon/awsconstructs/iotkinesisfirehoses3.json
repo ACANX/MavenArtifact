@@ -3,10 +3,10 @@
 	"description":"CDK Constructs for AWS IoT to AWS Kinesis Firehose to AWS S3 integration.",
 	"group_id":"software.amazon.awsconstructs",
 	"artifact_id":"iotkinesisfirehoses3",
-	"version_latest":"2.90.4",
-	"ts_publish":1754429946000,
-	"ts_update":1754463239833,
-	"count_dep":20,
+	"version_latest":"2.91.0",
+	"ts_publish":1755120664000,
+	"ts_update":1755122163485,
+	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -20,11 +20,19 @@
 	"url_scm":"https://github.com/awslabs/aws-solutions-constructs.git",
 	"home_page":"https://github.com/awslabs/aws-solutions-constructs.git",
 	"license":"Apache 2.0",
-	"ranking":"#775328 in MvnRepository",
+	"ranking":"#773460 in MvnRepository",
 	"tags":[
 		"amazon"
 	],
 	"versions":[
+		{
+			"date":"20250805",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.90.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -176,14 +184,8 @@
 			"usage":0,
 			"version":"2.78.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250307",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.78.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"dt_publish":"2025-08-14 05:31:04.000",
+	"dt_update":"2025-08-14 05:55:45.414"
 }

@@ -1,12 +1,12 @@
 {
 	"id":"pkg:maven/io.kestra.plugin/plugin-jdbc-clickhouse",
-	"description":"io.kestra.plugin:plugin-jdbc-clickhouse:0.24.0",
+	"description":"io.kestra.plugin:plugin-jdbc-clickhouse:0.24.1",
 	"group_id":"io.kestra.plugin",
 	"artifact_id":"plugin-jdbc-clickhouse",
-	"version_latest":"0.24.0",
-	"ts_publish":1754422923000,
-	"ts_update":1754463239915,
-	"count_dep":3,
+	"version_latest":"0.24.1",
+	"ts_publish":1755754363000,
+	"ts_update":1755755787697,
+	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -21,9 +21,9 @@
 		"Ludovic Dehon"
 	],
 	"url_scm":"https://github.com/kestra-io/plugin-jdbcs",
-	"home_page":"https://github.com/kestra-io/plugin-jdbc",
+	"home_page":"https://github.com/kestra-io/plugin-jdbcs",
 	"license":"Apache 2.0",
-	"ranking":"#770328 in MvnRepository",
+	"ranking":"#748632 in MvnRepository",
 	"tags":[
 		"plugin",
 		"database",
@@ -32,6 +32,14 @@
 		"clickhouse"
 	],
 	"versions":[
+		{
+			"date":"20250805",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.24.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250617",
 			"repository":"Central",
@@ -183,14 +191,8 @@
 			"usage":0,
 			"version":"0.19.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241001",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.19.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"dt_publish":"2025-08-21 13:32:43.000",
+	"dt_update":"2025-08-21 13:55:50.047"
 }

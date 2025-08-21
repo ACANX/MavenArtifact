@@ -1,0 +1,22 @@
+{
+  "id": "pkg:maven/org.infinispan/infinispan-spring5-embedded",
+  "description": "The Infinispan Spring Integration project provides Spring\n        integration for Infinispan, a high performance distributed cache.\n        Its primary features are\n\n        * An implementation of org.springframework.cache.CacheManager,\n        Spring's central caching abstraction, backed by Infinispan's\n        EmbeddedCacheManager. To be used if your Spring-powered\n        application and Infinispan are colocated, i.e. running within\n        the same VM.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by Infinispan's RemoteCacheManager. To bes used if your\n        Spring-powered application accesses Infinispan remotely, i.e.\n        over the network.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by a CacheContainer reference. To be used if your Spring-\n        powered application needs access to a CacheContainer defined\n        outside the application (e.g. retrieved from JNDI)\n        * Spring namespace support allowing shortcut definitions for all the\n        components above\n\n        In addition, Infinispan Spring Integration offers various FactoryBeans\n        for facilitating creation of Infinispan core classes - Cache, CacheManager,\n        ... - within a Spring context.",
+  "group_id": "org.infinispan",
+  "artifact_id": "infinispan-spring5-embedded",
+  "version_latest": "14.0.35.Final",
+  "ts_publish": 1755093531000,
+  "dt_publish": "2025-08-13 21:58:51.000",
+  "ts_update": 1755094608217,
+  "dt_update": "2025-08-13 22:16:48.217",
+  "count_dep": 54,
+  "count_ref": 5,
+  "licenses": [
+    "Apache License 2.0"
+  ],
+  "categories": [
+    "Data Management",
+    "Database",
+    "NoSQL Databases"
+  ],
+  "dsv": 1
+}

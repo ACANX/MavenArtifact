@@ -242,6 +242,20 @@ def parseComponentData(component: Dict[str, Any]) -> Dict[str, Any]:
         "categories": component.get("categories", [])
     }
 
+def appendCacheKeysToFile(cache_keys):
+    """
+    将缓存键列表增量追加到文件中，每行一个
+    Args:
+        cache_keys: 缓存键的列表，每个键都是字符串格式
+    """
+    # 确保目录存在
+    os.makedirs(os.path.dirname("../Feed/ReleaseQueue.txt"), exist_ok=True)
+    # 以追加模式打开文件
+    with open("../Feed/ReleaseQueue.txt", "a", encoding="utf-8") as f:
+        for key in cache_keys:
+            f.write(f"{key}\n")  # 每行写入一个缓存键
+
+
 def collectComponents():
     """为所有获取到的构件生成徽章"""
     print(f"⏳开始采集SnoaType构件数据")
@@ -250,6 +264,7 @@ def collectComponents():
     print(f"⏱️ 上次处理的最新构件时间戳: {last_ts}")
     # 读取扩展元数据索引
     artifactIndex = readVersionArtifactIndex()
+    artifactLRUCache = []
     print(f"📋 已加载扩展元数据索引: {len(artifactIndex)} 个构件记录")
     # 记录本次执行中最新构件的时间戳
     new_last_ts = None
@@ -286,6 +301,8 @@ def collectComponents():
                 # 更新扩展元数据索引
                 key = f"{data['group_id']}|{data['artifact_id']}"
                 artifactIndex.add(key)
+                cacheKey = "%d|%s|%s" % (data['ts_publish'], data['group_id'], data['artifact_id'])
+                artifactLRUCache.append(cacheKey)
                 processed_count += 1
                 page_processed += 1
             else:
@@ -308,6 +325,7 @@ def collectComponents():
     # 更新扩展元数据索引文件
     if processed_count > 0:
         updateVersionArtifactIndex(artifactIndex)
+        appendCacheKeysToFile(artifactLRUCache)
         print(f"✅ 已更新扩展元数据索引，新增 {processed_count} 条记录")
     else:
         print("ℹ️ 无新构件，无需更新扩展元数据索引")
@@ -323,6 +341,7 @@ def collectApacheComponents() -> bool:
     try:
         # 读取扩展元数据索引
         artifactIndex = readVersionArtifactIndex()
+        artifactLRUCache = []
         print(f"📋 已加载扩展元数据索引: {len(artifactIndex)} 个构件记录")
         processed_count = 0
         for page in range(300, -1, -1):
@@ -351,6 +370,8 @@ def collectApacheComponents() -> bool:
                     # 更新扩展元数据索引
                     key = f"{data['group_id']}|{data['artifact_id']}"
                     artifactIndex.add(key)
+                    cacheKey = "%d|%s|%s" % (data['ts_publish'], data['group_id'], data['artifact_id'])
+                    artifactLRUCache.append(cacheKey)
                     processed_count += 1
                     page_processed += 1
                 else:
@@ -363,6 +384,7 @@ def collectApacheComponents() -> bool:
         # 更新扩展元数据索引文件
         if processed_count > 0:
             updateVersionArtifactIndex(artifactIndex)
+            appendCacheKeysToFile(artifactLRUCache)
             print(f"✅ 已更新扩展元数据索引，新增 {processed_count} 条记录")
         else:
             print("ℹ️ 无新构件，无需更新扩展元数据索引")

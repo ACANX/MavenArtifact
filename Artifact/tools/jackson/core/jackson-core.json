@@ -3,13 +3,13 @@
 	"description":"Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
 	"group_id":"tools.jackson.core",
 	"artifact_id":"jackson-core",
-	"version_latest":"3.0.0-rc7",
-	"ts_publish":1754667893000,
-	"dt_publish":"2025-08-08 23:44:53.000",
-	"ts_update":1754668475782,
-	"dt_update":"2025-08-08 23:54:11.773",
+	"version_latest":"3.0.0-rc8",
+	"ts_publish":1755108565000,
+	"dt_publish":"2025-08-14 02:09:25.000",
+	"ts_update":1755109560475,
+	"dt_update":"2025-08-14 02:25:45.507",
 	"count_dep":0,
-	"count_ref":0,
+	"count_ref":6,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -21,10 +21,10 @@
 		"Tatu Saloranta"
 	],
 	"url_scm":"http://github.com/FasterXML/jackson-core",
-	"count_used_by":27,
+	"count_used_by":30,
 	"home_page":"https://github.com/FasterXML/jackson-core",
 	"license":"Apache 2.0",
-	"ranking":"#17150 in MvnRepository",
+	"ranking":"#15565 in MvnRepository",
 	"tags":[
 		"format",
 		"json",
@@ -34,10 +34,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250719",
+			"date":"20250808",
 			"repository":"Central",
 			"type":"release",
 			"usage":25,
+			"version":"3.0.0-rc7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250719",
+			"repository":"Central",
+			"type":"release",
+			"usage":26,
 			"version":"3.0.0-rc6",
 			"vulnerabilities":""
 		},

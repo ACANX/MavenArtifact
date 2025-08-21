@@ -3,12 +3,12 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-spring-security-deployment",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657439000,
-	"dt_publish":"2025-08-08 20:50:39.000",
-	"ts_update":1754661387917,
-	"dt_update":"2025-08-08 21:24:07.781",
-	"count_dep":101,
+	"version_latest":"3.26.0",
+	"ts_publish":1755684782000,
+	"dt_publish":"2025-08-20 18:13:02.000",
+	"ts_update":1755686438592,
+	"dt_update":"2025-08-20 18:39:46.117",
+	"count_dep":105,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#389432 in MvnRepository",
+	"ranking":"#388442 in MvnRepository",
 	"tags":[
 		"deployment",
 		"security",
@@ -34,6 +34,30 @@
 		"spring"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.22.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]

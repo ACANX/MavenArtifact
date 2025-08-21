@@ -3,12 +3,12 @@
 	"description":"This project allows a user to interact with ESP services in a controlled manner. The API calls available under org.hpccsystems.ws.client.platform allow for a user to target ESP's across multiple environments running a range of hpccsystems-platform versions. There is no guarantee that if a user utilizes org.hpccsystems.ws.client.gen generated stub code from wsdl, that the calls will be backwards compatible with older hpccsystems-platform versions.",
 	"group_id":"org.hpccsystems",
 	"artifact_id":"wsclient",
-	"version_latest":"9.14.10-1",
-	"ts_publish":1755017443000,
-	"dt_publish":"2025-08-13 00:50:43.000",
-	"ts_update":1755018970891,
-	"dt_update":"2025-08-13 01:15:58.815",
-	"count_dep":0,
+	"version_latest":"9.14.12-1",
+	"ts_publish":1755616782000,
+	"dt_publish":"2025-08-19 23:19:42.000",
+	"ts_update":1755618545716,
+	"dt_update":"2025-08-19 23:48:04.585",
+	"count_dep":106,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -28,11 +28,19 @@
 	"url_scm":"scm:git:https://github.com/hpcc-systems/hpcc4j.git/wsclient",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#102250 in MvnRepository",
+	"ranking":"#102427 in MvnRepository",
 	"tags":[
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.14.10-1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -71,6 +79,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.14.0-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.12.28-1",
 			"vulnerabilities":""
 		},
 		{
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.12.6-2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250529",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.12.6-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250520",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.12.4-1",
 			"vulnerabilities":""
 		}
 	]

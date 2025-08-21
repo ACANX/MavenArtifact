@@ -3,11 +3,11 @@
 	"description":"Reactive streaming library targeting continuous pipelines with at-least-once processing guarantees. Backed by Project Reactor.",
 	"group_id":"io.atleon",
 	"artifact_id":"atleon-kafka-embedded",
-	"version_latest":"0.33.1",
-	"ts_publish":1754837955000,
-	"dt_publish":"2025-08-10 22:59:15.000",
-	"ts_update":1754838952536,
-	"dt_update":"2025-08-10 23:15:22.264",
+	"version_latest":"0.33.3",
+	"ts_publish":1755111084000,
+	"dt_publish":"2025-08-14 02:51:24.000",
+	"ts_update":1755112424857,
+	"dt_update":"2025-08-14 03:13:05.321",
 	"count_dep":6,
 	"count_ref":1,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"http://github.com/atleon/atleon/atleon-parent/atleon-kafka-embedded",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#154802 in MvnRepository",
+	"ranking":"#149000 in MvnRepository",
 	"tags":[
 		"kafka",
 		"streaming",
 		"embedded"
 	],
 	"versions":[
+		{
+			"date":"20250810",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.33.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.28.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240804",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.28.0",
 			"vulnerabilities":""
 		}
 	]

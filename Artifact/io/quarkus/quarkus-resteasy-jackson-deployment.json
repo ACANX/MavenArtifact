@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-resteasy-jackson-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-resteasy-jackson-deployment",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657439000,
-	"dt_publish":"2025-08-08 20:50:39.000",
-	"ts_update":1754659510066,
-	"dt_update":"2025-08-08 21:24:07.779",
+	"version_latest":"3.26.0",
+	"ts_publish":1755684782000,
+	"dt_publish":"2025-08-20 18:13:02.000",
+	"ts_update":1755687073584,
+	"dt_update":"2025-08-20 18:39:46.124",
 	"count_dep":6,
-	"count_ref":4,
-	"licenses":[],
+	"count_ref":5,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,7 +26,7 @@
 	"count_used_by":54,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#8938 in MvnRepository",
+	"ranking":"#8946 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -33,6 +35,14 @@
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -184,14 +194,7 @@
 			"usage":12,
 			"version":"3.22.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"3.22.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

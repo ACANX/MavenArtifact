@@ -3,11 +3,11 @@
 	"description":"Build container images of your application using Buildpacks",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-container-image-buildpack",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657438000,
-	"dt_publish":"2025-08-08 20:50:38.000",
-	"ts_update":1754659504452,
-	"dt_update":"2025-08-08 21:24:22.166",
+	"version_latest":"3.26.0.CR1",
+	"ts_publish":1755088550000,
+	"dt_publish":"2025-08-13 20:35:50.000",
+	"ts_update":1755091362168,
+	"dt_update":"2025-08-13 21:21:28.716",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-container-image-buildpack@3.25.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#421135 in MvnRepository",
+	"ranking":"#421687 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"image",
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]

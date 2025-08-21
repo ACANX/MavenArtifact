@@ -3,11 +3,11 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.groovy",
 	"artifact_id":"quarkus-groovy-deployment",
-	"version_latest":"3.25.1",
-	"ts_publish":1754637462000,
-	"dt_publish":"2025-08-08 15:17:42.000",
-	"ts_update":1754638355007,
-	"dt_update":"2025-08-08 15:32:15.282",
+	"version_latest":"3.25.4",
+	"ts_publish":1755782020000,
+	"dt_publish":"2025-08-21 21:13:40.000",
+	"ts_update":1755782812810,
+	"dt_update":"2025-08-21 21:25:53.875",
 	"count_dep":77,
 	"count_ref":4,
 	"licenses":[
@@ -23,13 +23,29 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-groovy",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#65265 in MvnRepository",
+	"ranking":"#65263 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
 		"groovy"
 	],
 	"versions":[
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.25.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.25.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"3.19.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.19.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.19.0",
 			"vulnerabilities":""
 		}
 	]

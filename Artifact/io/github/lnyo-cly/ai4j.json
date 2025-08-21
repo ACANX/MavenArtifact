@@ -3,11 +3,11 @@
 	"description":"一款JavaSDK用于快速接入AI大模型应用，整合多平台大模型，如OpenAi、Ollama、智谱Zhipu(ChatGLM)、深度求索DeepSeek、月之暗面Moonshot(Kimi)、腾讯混元Hunyuan、零一万物(01)、MiniMax、百川Baichuan等等，提供统一的输入输出(对齐OpenAi)消除差异化，优化函数调用(Tool Call)，优化RAG调用、支持向量数据库(Pinecone)，并且支持JDK1.8，为用户提供快速整合AI的能力。支持MCP协议，支持STDIO,SSE,Streamable HTTP; 支持MCP Server与MCP Client; 支持MCP网关; 支持自定义MCP数据源; 支持MCP自动重连",
 	"group_id":"io.github.lnyo-cly",
 	"artifact_id":"ai4j",
-	"version_latest":"1.4.1",
-	"ts_publish":1754627000000,
-	"dt_publish":"2025-08-08 12:23:20.000",
-	"ts_update":1754628970914,
-	"dt_update":"2025-08-08 12:55:57.038",
+	"version_latest":"1.4.2",
+	"ts_publish":1755602378000,
+	"dt_publish":"2025-08-19 19:19:38.000",
+	"ts_update":1755603901957,
+	"dt_update":"2025-08-19 19:44:23.460",
 	"count_dep":117,
 	"count_ref":1,
 	"licenses":[
@@ -24,12 +24,28 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/LnYo-Cly/ai4j",
 	"license":"Apache 2.0",
-	"ranking":"#200211 in MvnRepository",
+	"ranking":"#222268 in MvnRepository",
 	"tags":[
 		"github",
 		"ai"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250623",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240920",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240919",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.5.3",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"HTTP utilities including Auth implementations for establishing a connection and SOQL for fetching metadata for Salesforce Data Cloud JDBC driver",
 	"group_id":"com.salesforce.datacloud",
 	"artifact_id":"jdbc-http",
-	"version_latest":"0.33.2",
-	"ts_publish":1754607076000,
-	"dt_publish":"2025-08-08 06:51:16.000",
-	"ts_update":1754608604612,
-	"dt_update":"2025-08-08 07:16:30.676",
+	"version_latest":"0.34.0",
+	"ts_publish":1755631852000,
+	"dt_publish":"2025-08-20 03:30:52.000",
+	"ts_update":1755633452889,
+	"dt_update":"2025-08-20 03:55:52.124",
 	"count_dep":11,
 	"count_ref":1,
 	"licenses":[
@@ -23,7 +23,7 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/forcedotcom/datacloud-jdbc",
 	"license":"Apache 2.0",
-	"ranking":"#254681 in MvnRepository",
+	"ranking":"#255340 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -32,6 +32,14 @@
 		"salesforce"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.33.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.25.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250410",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.25.4",
 			"vulnerabilities":""
 		}
 	]

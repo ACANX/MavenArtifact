@@ -3,12 +3,12 @@
 	"description":"Generate Jakarta REST resources for a Spring Data application",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-spring-data-rest",
-	"version_latest":"3.25.2",
-	"ts_publish":1754657439000,
-	"dt_publish":"2025-08-08 20:50:39.000",
-	"ts_update":1754659469799,
-	"dt_update":"2025-08-08 21:24:14.454",
-	"count_dep":4,
+	"version_latest":"3.26.0",
+	"ts_publish":1755684781000,
+	"dt_publish":"2025-08-20 18:13:01.000",
+	"ts_update":1755686455717,
+	"dt_update":"2025-08-20 18:39:54.612",
+	"count_dep":100,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#419222 in MvnRepository",
+	"ranking":"#419325 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -34,6 +34,14 @@
 		"spring"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.22.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.0",
 			"vulnerabilities":""
 		}
 	]

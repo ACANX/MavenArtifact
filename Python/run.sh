@@ -5,3 +5,5 @@ PATH=$PATH:/usr/local/bin
 #sleep $[$RANDOM%100]
 python3 PythonExec.py
 echo "PythonExec.py script finished！"
+python3 DailyStatisticChart.py
+echo "DailyStatisticChart.py script finished！"
