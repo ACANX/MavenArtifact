@@ -3,11 +3,11 @@
 	"description":"Eliminate tech-debt. Automatically.",
 	"group_id":"org.openrewrite",
 	"artifact_id":"rewrite-bom",
-	"version_latest":"8.60.1",
-	"ts_publish":1755310811000,
-	"dt_publish":"2025-08-16 10:20:11.000",
-	"ts_update":1755314762718,
-	"dt_update":"2025-08-16 11:25:44.851",
+	"version_latest":"8.60.2",
+	"ts_publish":1755804707000,
+	"dt_publish":"2025-08-22 03:31:47.000",
+	"ts_update":1755805491996,
+	"dt_update":"2025-08-22 03:43:59.836",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,13 +26,29 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/openrewrite/rewrite",
 	"license":"Apache 2.0",
-	"ranking":"#258738 in MvnRepository",
+	"ranking":"#259183 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250816",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.60.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.60.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.50.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250409",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.49.0",
 			"vulnerabilities":""
 		}
 	]
