@@ -3,11 +3,11 @@
 	"description":"Shaded version of dependencies used only for internal OpenMetadata code.",
 	"group_id":"org.open-metadata",
 	"artifact_id":"elasticsearch-deps",
-	"version_latest":"1.9.1",
-	"ts_publish":1755155870000,
-	"dt_publish":"2025-08-14 15:17:50.000",
-	"ts_update":1755157625723,
-	"dt_update":"2025-08-14 15:46:50.155",
+	"version_latest":"1.9.2",
+	"ts_publish":1755783757000,
+	"dt_publish":"2025-08-21 21:42:37.000",
+	"ts_update":1755784626694,
+	"dt_update":"2025-08-21 21:55:51.626",
 	"count_dep":0,
 	"count_ref":3,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"scm:git:git@github.com:Open-Metadata/OpenMetadata/openmetadata-shaded-deps/elasticsearch-deps",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#321380 in MvnRepository",
+	"ranking":"#343390 in MvnRepository",
 	"tags":[
 		"data",
 		"elasticsearch",
@@ -31,6 +31,22 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250814",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.9.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.9.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.7.0-rc2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.7.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.6.13",
 			"vulnerabilities":""
 		}
 	]

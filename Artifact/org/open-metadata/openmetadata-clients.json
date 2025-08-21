@@ -3,11 +3,11 @@
 	"description":"is an all-in-one platform for data discovery, data lineage, data quality, observability, governance,\n    and team collaboration. It is one of the fastest growing open-source projects with a vibrant community and\n    adoption by a diverse set of companies in a variety of industry verticals. Powered by a centralized metadata store\n    based on Open Metadata Standards/APIs, supporting connectors to a wide range of data services,\n    OpenMetadata enables end-to-end metadata management, giving you the freedom to unlock the value of your data assets.",
 	"group_id":"org.open-metadata",
 	"artifact_id":"openmetadata-clients",
-	"version_latest":"1.9.1",
-	"ts_publish":1755155870000,
-	"dt_publish":"2025-08-14 15:17:50.000",
-	"ts_update":1755156959182,
-	"dt_update":"2025-08-14 15:35:46.540",
+	"version_latest":"1.9.2",
+	"ts_publish":1755783757000,
+	"dt_publish":"2025-08-21 21:42:37.000",
+	"ts_update":1755784608401,
+	"dt_update":"2025-08-21 21:55:51.629",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -21,13 +21,29 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.open-metadata/openmetadata-clients@1.8.10",
 	"url_scm":"scm:git:git@github.com:Open-Metadata/OpenMetadata/openmetadata-clients",
 	"license":"Apache 2.0",
-	"ranking":"#954190 in MvnRepository",
+	"ranking":"#957098 in MvnRepository",
 	"tags":[
 		"data",
 		"client",
 		"metadata"
 	],
 	"versions":[
+		{
+			"date":"20250814",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.9.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.9.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.7.0-rc2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.7.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.6.13",
 			"vulnerabilities":""
 		}
 	]
