@@ -3,12 +3,12 @@
 	"description":"This library is a set of frequently used components and includes (in the future it is planned to split into separate libraries):\n- Facilitating synchronization of processes, including those in different threads (com.alcosi.lib.synchronisation)\n- Logging of incoming and outgoing requests Http,RabbitMQ (com.alcosi.lib.rabbit,com.alcosi.lib.logging.http,com.alcosi.lib.filters)\n- Logging of execution time and errors with annotations (using AspectJ) (com.alcosi.lib.logging.annotations)\n- Logging SQL queries/responses and notice/exception (for JDBCTemplate) (com.alcosi.lib.db)\n- CORS Filter\n- Response caching for incoming Http requests. (com.alcosi.lib.filters)\n- Error handling for incoming and outgoing requests Http,RabbitMQ (com.alcosi.lib.rabbit,com.alcosi.lib.logging.http)\n- RabbitMQ configuration (com.alcosi.lib.rabbit)\n- Facilitating the connection of external JARs to the application. (com.alcosi.lib.utils.ExternalJarLoad)\n- Set of serializers for Jackson (com.alcosi.lib.serializers)\n- Custom thread pools, including with blocking queue (com.alcosi.lib.executors)\n- Swagger and OpenAPI distribution (com.alcosi.lib.doc)\n- Load balancer when working with Etherium nodes (com.alcosi.lib.crypto)\n- Contract caching for WEB3J (com.alcosi.lib.crypto)\n- Automatic registration of frequently used components in Spring (only if available in classpath)\n- Interface and wrappers for encryption/decryption (com.alcosi.lib.secured.encrypt)\n- Encryption key provider interface and implementations - in env. variable and through http\n- Thread context form headers/to headers (com.alcosi.lib.filters,com.alcosi.lib.logging.http)\n- Simple authentication (com.alcosi.lib.filters)\n- Secured data containers with JSON serialization and log masking (com.alcosi.lib.secured.container,com.alcosi.lib.secured.logging.files,com.alcosi.lib.serializers)\nWith dependencies",
 	"group_id":"com.alcosi",
 	"artifact_id":"commons-library-basic-dependency",
-	"version_latest":"3.5.4.5.3.2",
-	"ts_publish":1755615876000,
-	"dt_publish":"2025-08-19 23:04:36.000",
-	"ts_update":1755617217280,
-	"dt_update":"2025-08-19 23:25:57.875",
-	"count_dep":171,
+	"version_latest":"3.5.4.5.3.3",
+	"ts_publish":1755785348000,
+	"dt_publish":"2025-08-21 22:09:08.000",
+	"ts_update":1755785892114,
+	"dt_update":"2025-08-21 22:16:26.899",
+	"count_dep":170,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2.0"
@@ -23,13 +23,21 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/alcosi/alcosi_commons_library",
 	"license":"Apache 2.0",
-	"ranking":"#202226 in MvnRepository",
+	"ranking":"#202254 in MvnRepository",
 	"tags":[
 		"library",
 		"commons",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.5.4.5.3.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250721",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.3.1.5.0.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240711",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.3.1.5.0.2",
 			"vulnerabilities":""
 		}
 	]
