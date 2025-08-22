@@ -3,12 +3,12 @@
 	"description":"Java project for solon",
 	"group_id":"org.noear",
 	"artifact_id":"solon-boot-websocket",
-	"version_latest":"3.5.1-M1",
-	"ts_publish":1755778575000,
-	"dt_publish":"2025-08-21 20:16:15.000",
-	"ts_update":1755779222385,
-	"dt_update":"2025-08-21 20:25:57.302",
-	"count_dep":1,
+	"version_latest":"3.5.1-M2",
+	"ts_publish":1755852085000,
+	"dt_publish":"2025-08-22 16:41:25.000",
+	"ts_update":1755852977515,
+	"dt_update":"2025-08-22 16:55:49.304",
+	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/opensolon/solon/solon-boot-websocket",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#401296 in MvnRepository",
+	"ranking":"#401377 in MvnRepository",
 	"tags":[
 		"socket",
 		"websocket",
 		"web"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250817",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.3.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250617",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.3.3-M3",
 			"vulnerabilities":""
 		}
 	]
