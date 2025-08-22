@@ -3,12 +3,12 @@
 	"description":"A tool to take a set of inputs and create a standard FHIR IG",
 	"group_id":"org.hl7.fhir.publisher",
 	"artifact_id":"org.hl7.fhir.publisher.cli",
-	"version_latest":"2.0.13",
-	"ts_publish":1754537607000,
-	"dt_publish":"2025-08-07 11:33:27.000",
-	"ts_update":1754538970179,
-	"dt_update":"2025-08-07 11:55:56.830",
-	"count_dep":126,
+	"version_latest":"2.0.14",
+	"ts_publish":1755880807000,
+	"dt_publish":"2025-08-23 00:40:07.000",
+	"ts_update":1755881767313,
+	"dt_update":"2025-08-23 00:55:47.047",
+	"count_dep":127,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -27,12 +27,20 @@
 	],
 	"url_scm":"scm:git:git@github.com:HL7/fhir-ig-publisher.git/org.hl7.fhir.publisher.cli",
 	"license":"Apache 2.0",
-	"ranking":"#923612 in MvnRepository",
+	"ranking":"#952184 in MvnRepository",
 	"tags":[
 		"publisher",
 		"command-line"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.13",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250727",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.8.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250310",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.8.20",
 			"vulnerabilities":""
 		}
 	]
