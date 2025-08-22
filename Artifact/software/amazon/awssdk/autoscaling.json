@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Auto Scaling module holds the client classes that are used for communicating with\n        Auto Scaling\n        Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"autoscaling",
-	"version_latest":"2.32.28",
-	"ts_publish":1755811014000,
-	"ts_update":1755811639233,
+	"version_latest":"2.32.29",
+	"ts_publish":1755897848000,
+	"ts_update":1755899880557,
 	"count_dep":5,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,12 +15,12 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/autoscaling@2.32.16",
-	"dt_publish":"2025-08-22 05:16:54.000",
-	"dt_update":"2025-08-22 05:25:45.940",
+	"dt_publish":"2025-08-23 05:24:08.000",
+	"dt_update":"2025-08-23 05:55:52.113",
 	"count_used_by":10,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#45511 in MvnRepository",
+	"ranking":"#45513 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,6 +29,14 @@
 		"scalability"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.32.27",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.32.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.32.7",
 			"vulnerabilities":""
 		}
 	]

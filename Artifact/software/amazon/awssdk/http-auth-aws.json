@@ -3,13 +3,13 @@
 	"description":"The AWS SDK for Java - HTTP Auth AWS module contains interfaces and implementations for HTTP\n        authentication specific to AWS.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"http-auth-aws",
-	"version_latest":"2.32.27",
-	"ts_publish":1755727166000,
-	"dt_publish":"2025-08-21 05:59:26.000",
-	"ts_update":1755728956203,
-	"dt_update":"2025-08-21 06:26:01.809",
+	"version_latest":"2.32.29",
+	"ts_publish":1755897856000,
+	"dt_publish":"2025-08-23 05:24:16.000",
+	"ts_update":1755899831718,
+	"dt_update":"2025-08-23 05:55:51.284",
 	"count_dep":21,
-	"count_ref":93,
+	"count_ref":245,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/http-auth-aws@2.32.17",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/http-auth-aws",
-	"count_used_by":459,
+	"count_used_by":460,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#1311 in MvnRepository",
+	"ranking":"#1309 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -36,10 +36,26 @@
 	],
 	"versions":[
 		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":415,
+			"version":"2.32.27",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":415,
+			"version":"2.32.26",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250818",
 			"repository":"Central",
 			"type":"release",
-			"usage":414,
+			"usage":415,
 			"version":"2.32.25",
 			"vulnerabilities":""
 		},
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":413,
 			"version":"2.32.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.32.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250722",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.32.6",
 			"vulnerabilities":""
 		}
 	]

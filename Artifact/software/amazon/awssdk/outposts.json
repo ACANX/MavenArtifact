@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for Outposts module holds the client classes that are used for\n        communicating with Outposts.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"outposts",
-	"version_latest":"2.32.27",
-	"ts_publish":1755727149000,
-	"dt_publish":"2025-08-21 05:59:09.000",
-	"ts_update":1755728977720,
-	"dt_update":"2025-08-21 06:26:04.387",
-	"count_dep":3,
+	"version_latest":"2.32.29",
+	"ts_publish":1755897880000,
+	"dt_publish":"2025-08-23 05:24:40.000",
+	"ts_update":1755899915403,
+	"dt_update":"2025-08-23 05:55:48.999",
+	"count_dep":33,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/outposts@2.32.18",
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#113692 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#113795 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.32.27",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250819",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.32.26",
 			"vulnerabilities":""
 		},
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.32.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.32.7",
 			"vulnerabilities":""
 		}
 	]

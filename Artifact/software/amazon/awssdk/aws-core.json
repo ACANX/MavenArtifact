@@ -3,11 +3,11 @@
 	"description":"The AWS SDK for Java - Core runtime module holds the classes that are used by the individual service\n        clients to interact with\n        Amazon Web Services. Users need to depend on aws-java-sdk artifact for accessing individual client classes.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"aws-core",
-	"version_latest":"2.32.28",
-	"ts_publish":1755811076000,
-	"ts_update":1755811658584,
+	"version_latest":"2.32.29",
+	"ts_publish":1755897742000,
+	"ts_update":1755899776607,
 	"count_dep":34,
-	"count_ref":0,
+	"count_ref":253,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,8 +15,8 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/aws-core@2.32.16",
-	"dt_publish":"2025-08-22 05:17:56.000",
-	"dt_update":"2025-08-22 05:25:45.296",
+	"dt_publish":"2025-08-23 05:22:22.000",
+	"dt_update":"2025-08-23 05:55:57.928",
 	"count_used_by":165,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
@@ -30,10 +30,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"2.32.27",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250819",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"2.32.26",
 			"vulnerabilities":""
 		},
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"2.32.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"2.32.7",
 			"vulnerabilities":""
 		}
 	]

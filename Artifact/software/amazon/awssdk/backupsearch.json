@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Backup Search module holds the client classes that are used for\n        communicating with Backup Search.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"backupsearch",
-	"version_latest":"2.32.28",
-	"ts_publish":1755811075000,
-	"ts_update":1755811670093,
+	"version_latest":"2.32.29",
+	"ts_publish":1755897733000,
+	"ts_update":1755899936339,
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,18 +15,26 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/backupsearch@2.32.16",
-	"dt_publish":"2025-08-22 05:17:55.000",
-	"dt_update":"2025-08-22 05:25:45.296",
+	"dt_publish":"2025-08-23 05:22:13.000",
+	"dt_update":"2025-08-23 05:55:58.374",
 	"count_used_by":2,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#207204 in MvnRepository",
+	"ranking":"#206970 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.32.27",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.32.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.32.7",
 			"vulnerabilities":""
 		}
 	]
