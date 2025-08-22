@@ -3,13 +3,13 @@
 	"description":"The Amazon Web Services SDK for Java provides Java APIs\n        for building software on AWS' cost-effective, scalable, and reliable\n        infrastructure products. The AWS Java SDK allows developers to code\n        against APIs for all of Amazon's infrastructure web services (Amazon\n        S3, Amazon EC2, Amazon SQS, Amazon Relational Database Service, Amazon\n        AutoScaling, etc).",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"netty-nio-client",
-	"version_latest":"2.32.27",
-	"ts_publish":1755727150000,
-	"dt_publish":"2025-08-21 05:59:10.000",
-	"ts_update":1755728976003,
-	"dt_update":"2025-08-21 06:26:04.385",
+	"version_latest":"2.32.29",
+	"ts_publish":1755897862000,
+	"dt_publish":"2025-08-23 05:24:22.000",
+	"ts_update":1755900897077,
+	"dt_update":"2025-08-23 05:55:50.849",
 	"count_dep":40,
-	"count_ref":91,
+	"count_ref":245,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/http-clients/netty-nio-client",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/netty-nio-client@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/http-clients/netty-nio-client",
-	"count_used_by":234,
+	"count_used_by":235,
 	"home_page":"https://aws.amazon.com/sdk-for-java/",
 	"license":"Apache 2.0",
-	"ranking":"#2409 in MvnRepository",
+	"ranking":"#2403 in MvnRepository",
 	"tags":[
 		"network",
 		"aws",
@@ -36,6 +36,22 @@
 		"io"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.32.27",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.32.26",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -136,7 +152,7 @@
 			"date":"20250731",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":6,
 			"version":"2.32.13",
 			"vulnerabilities":""
 		},
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2.32.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.32.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250722",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.32.6",
 			"vulnerabilities":""
 		}
 	]
