@@ -237,7 +237,7 @@ def generate_json_feed():
         # attachments节点
         item['attachments'] = [
             {
-                "url": svg_url,
+                "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
                 "mime_type": "image/svg+xml",
                 "title": "最新版本元数据信息SVG",
                 "size_in_bytes": 12345678,
