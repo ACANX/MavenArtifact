@@ -3,11 +3,11 @@
 	"description":"An open-source implementation of the FHIR specification in Java.",
 	"group_id":"ca.uhn.hapi.fhir",
 	"artifact_id":"org.hl7.fhir.utilities",
-	"version_latest":"6.6.4",
-	"ts_publish":1755878960000,
-	"dt_publish":"2025-08-23 00:09:20.000",
-	"ts_update":1755879562951,
-	"dt_update":"2025-08-23 00:18:31.929",
+	"version_latest":"6.6.5",
+	"ts_publish":1756025268000,
+	"dt_publish":"2025-08-24 16:47:48.000",
+	"ts_update":1756025757924,
+	"dt_update":"2025-08-24 16:55:49.191",
 	"count_dep":79,
 	"count_ref":9,
 	"licenses":[
@@ -171,12 +171,20 @@
 	"count_used_by":41,
 	"home_page":"https://hapifhir.io/",
 	"license":"Apache 2.0",
-	"ranking":"#11716 in MvnRepository",
+	"ranking":"#11722 in MvnRepository",
 	"tags":[
 		"bundle",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"6.6.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250807",
 			"repository":"Central",
@@ -221,7 +229,7 @@
 			"date":"20250627",
 			"repository":"Central",
 			"type":"release",
-			"usage":12,
+			"usage":19,
 			"version":"6.5.27",
 			"vulnerabilities":""
 		},
@@ -327,14 +335,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"6.5.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250307",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"6.5.14",
 			"vulnerabilities":""
 		}
 	]
