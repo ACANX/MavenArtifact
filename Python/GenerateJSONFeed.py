@@ -188,7 +188,7 @@ def generate_json_feed():
         segment_home_page = f"<a href=\"{url_home_page}\"><p><span>HomePage</span></p></a></br>"  if url_home_page else ""
         
         
-        item['content_html'] = f"<img src=\"{svg_url}\" alt=\"{escaped_title}\">{group_id_from_meta}:{artifact_id_from_meta} {version_latest} 发布</img>
+        item['content_html'] = f"""<img src=\"{svg_url}\" alt=\"{escaped_title}\" />
           </br>
           </br>
           
@@ -213,7 +213,7 @@ def generate_json_feed():
             </code>
           </pre>
           
-        "
+        """
         
         # content_text和summary节点
         item['content_text'] = item['title']
