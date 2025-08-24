@@ -2,10 +2,10 @@
 	"id":"pkg:maven/io.github.trimax/engine",
 	"group_id":"io.github.trimax",
 	"artifact_id":"engine",
-	"version_latest":"0.8.17",
-	"ts_publish":1755706209000,
-	"ts_update":1755708218094,
-	"count_dep":10,
+	"version_latest":"0.8.32",
+	"ts_publish":1756036551000,
+	"ts_update":1756038385345,
+	"count_dep":22,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -17,16 +17,24 @@
 		"Dmitrii Eliseev"
 	],
 	"url_scm":"https://github.com/trimax/ventaengine",
-	"dt_publish":"2025-08-21 00:10:09.000",
-	"dt_update":"2025-08-21 00:42:29.986",
+	"dt_publish":"2025-08-24 19:55:51.000",
+	"dt_update":"2025-08-24 20:25:56.516",
 	"home_page":"${project.parent.url}",
 	"license":"Apache 2.0",
-	"ranking":"#865932 in MvnRepository",
+	"ranking":"#865500 in MvnRepository",
 	"tags":[
 		"github",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.8.17",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -91,5 +99,6 @@
 			"version":"0.5.12",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Engine module"
 }
