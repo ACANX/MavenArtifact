@@ -129,8 +129,8 @@ def generate_json_feed():
         
         # 尝试读取构件元数据文件
         artifact_paths = [
-            f"../Maven/Artifact/{group_id_path}/{artifact_id}.json",
-            f"../Artifact/{group_id_path}/{artifact_id}.json"
+            f"../Artifact/{group_id_path}/{artifact_id}.json",
+            f"../Maven/Artifact/{group_id_path}/{artifact_id}.json"
         ]
         
         metadata = None
