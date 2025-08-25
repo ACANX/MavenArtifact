@@ -187,23 +187,19 @@ def generate_json_feed():
         segment_scm = f"<a href=\"{url_scm}\"><p><span>仓库地址</span></p></a><br>"  if url_scm else ""
         segment_home_page = f"<a href=\"{url_home_page}\"><p><span>HomePage</span></p></a></br>"  if url_home_page else ""
         
-        
-        item['content_html'] = f"""<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"80\" height=\"80\" alt=\"{escaped_title}\" /></br>
-          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg\" width=\"80\" height=\"80\" alt=\"{escaped_title}\" /></br>
-          <img src=\"{svg_url}\" alt=\"{escaped_title}\" />  
-          </br>
+        # <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg\" width=\"80\" height=\"80\" alt=\"{escaped_title}\"/></br>        
+        item['content_html'] = f"""<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"80\" height=\"80\" alt=\"{group_id_from_meta}:{artifact_id_from_meta}@{version_latest}\"/></br>
+          <img src=\"{svg_url}\" alt=\"{escaped_title}\"/></br>
           <a href=\"{url_maven}\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>
           <a href=\"{item['url']}\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>
           <a href=\"{url_mvnrepo}\"><p><span>MvnRepository中查看此构件</span></p></a></br>
           {segment_project}
           {segment_scm}
           {segment_home_page}
-          </br>  
           <h3>GAV坐标<h3>
 
           <pre>
-            <code class=\"language-xml\">
-            &lt;dependency&gt;
+            <code class=\"language-xml\">            &lt;dependency&gt;
                 &lt;groupId&gt;{group_id_from_meta}&lt;/groupId&gt;
                 &lt;artifactId&gt;{artifact_id_from_meta}&lt;/artifactId&gt;
                 &lt;version&gt;{version_latest}&lt;/version&gt;
