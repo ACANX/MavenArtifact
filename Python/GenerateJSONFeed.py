@@ -188,7 +188,8 @@ def generate_json_feed():
         segment_home_page = f"<a href=\"{url_home_page}\"><p><span>HomePage</span></p></a></br>"  if url_home_page else ""
         
         
-        item['content_html'] = f"""<img src=\"{svg_url}\" alt=\"{escaped_title}\" />
+        item['content_html'] = f"""<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" alt=\"{escaped_title}\" /></br>
+          <img src=\"{svg_url}\" alt=\"{escaped_title}\" />
           </br>
           </br>
           
