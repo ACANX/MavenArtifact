@@ -29,8 +29,8 @@ def main():
     
     # 文件路径配置
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    input_path = os.path.join(base_dir, "../Artifact/DailyIndexStatistic.json")
-    output_path = os.path.join(base_dir, "../Statistic/DailyStatistic.svg")
+    input_path = os.path.join(base_dir, "../Statistic/DailyIndexStatistic.json")
+    output_path = os.path.join(base_dir, "../Statistic/DailyIndexStatistic.svg")
     
     # 确保输出目录存在
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
