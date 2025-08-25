@@ -189,7 +189,8 @@ def generate_json_feed():
         
         
         item['content_html'] = f"""<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"80\" height=\"80\" alt=\"{escaped_title}\" /></br>
-          <img src=\"{svg_url}\" alt=\"{escaped_title}\" />
+          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg\" width=\"80\" height=\"80\" alt=\"{escaped_title}\" /></br>
+          <img src=\"{svg_url}\" alt=\"{escaped_title}\" />  
           </br>
           <a href=\"{url_maven}\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>
           <a href=\"{item['url']}\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>
