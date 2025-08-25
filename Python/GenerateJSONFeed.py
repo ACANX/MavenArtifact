@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from urllib.parse import quote
 
-def read_and_process_maven_artifacts(expire_hours=2):
+def read_and_process_maven_artifacts(expire_hours=3):
     """
     读取、处理并返回符合条件的 Maven 构件信息
     Args:
