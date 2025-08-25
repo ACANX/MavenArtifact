@@ -3,16 +3,14 @@
 	"description":"Runs an application directly from services.xml",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"application",
-	"version_latest":"8.568.7",
-	"ts_publish":1755688895000,
-	"dt_publish":"2025-08-20 19:21:35.000",
-	"ts_update":1755689435203,
-	"dt_update":"2025-08-20 19:29:29.156",
-	"count_dep":160,
+	"version_latest":"8.570.34",
+	"ts_publish":1756122749000,
+	"dt_publish":"2025-08-25 19:52:29.000",
+	"ts_update":1756124834137,
+	"dt_update":"2025-08-25 20:26:00.439",
+	"count_dep":37,
 	"count_ref":4,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -26,13 +24,21 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/application",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#59193 in MvnRepository",
+	"ranking":"#59290 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.568.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"8.567.16",
 			"vulnerabilities":""
 		},
@@ -178,14 +184,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"8.544.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.543.14",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"This maven module act as a proxy to test, build, and release the hilla gradle plugin,\n        which is written in Kotlin and is built by gradle natively. This makes development\n        and testing of the gradle plugin much easier against the changes of flow, especially\n        the engine-core. However, publishing the hilla-gradle-plugin to gradle plugin\n        central repo is done within platform final releases.",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-gradle-plugin",
-	"version_latest":"24.8.6",
-	"ts_publish":1754643967000,
-	"dt_publish":"2025-08-08 17:06:07.000",
-	"ts_update":1754645211290,
-	"dt_update":"2025-08-08 17:25:55.810",
+	"version_latest":"24.8.7",
+	"ts_publish":1756123688000,
+	"dt_publish":"2025-08-25 20:08:08.000",
+	"ts_update":1756124784874,
+	"dt_update":"2025-08-25 20:25:51.965",
 	"count_dep":75,
 	"count_ref":1,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/vaadin/hilla/hilla-gradle-plugin",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#152956 in MvnRepository",
+	"ranking":"#153797 in MvnRepository",
 	"tags":[
 		"plugin",
 		"vaadin",
@@ -34,10 +34,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"24.8.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250731",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"24.8.5",
 			"vulnerabilities":""
 		},
@@ -45,7 +53,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"24.8.3",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"24.6.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250428",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"24.6.9",
 			"vulnerabilities":""
 		}
 	]

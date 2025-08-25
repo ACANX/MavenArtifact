@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/com.yahoo.vespa/clustercontroller-utils",
-	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"clustercontroller-utils",
-	"version_latest":"8.568.7",
-	"ts_publish":1755688895000,
-	"dt_publish":"2025-08-20 19:21:35.000",
-	"ts_update":1755689431072,
-	"dt_update":"2025-08-20 19:29:27.260",
-	"count_dep":11,
+	"version_latest":"8.570.34",
+	"ts_publish":1756122749000,
+	"dt_publish":"2025-08-25 19:52:29.000",
+	"ts_update":1756124777030,
+	"dt_update":"2025-08-25 20:26:00.429",
+	"count_dep":5,
 	"count_ref":2,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -26,11 +23,27 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/clustercontroller-utils",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#127963 in MvnRepository",
+	"ranking":"#128111 in MvnRepository",
 	"tags":[
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.568.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.567.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -173,22 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.544.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.543.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.542.42",
 			"vulnerabilities":""
 		}
 	]

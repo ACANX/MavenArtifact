@@ -3,13 +3,13 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"logd",
-	"version_latest":"8.567.16",
-	"ts_publish":1755623022000,
-	"dt_publish":"2025-08-20 01:03:42.000",
-	"ts_update":1755623636342,
-	"dt_update":"2025-08-20 01:13:47.443",
+	"version_latest":"8.570.34",
+	"ts_publish":1756122749000,
+	"dt_publish":"2025-08-25 19:52:29.000",
+	"ts_update":1756124833192,
+	"dt_update":"2025-08-25 20:25:59.771",
 	"count_dep":1,
-	"count_ref":10,
+	"count_ref":6,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,8 +26,24 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/logd",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#162167 in MvnRepository",
+	"ranking":"#162862 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.568.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.567.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.544.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.543.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.542.42",
 			"vulnerabilities":""
 		}
 	]
