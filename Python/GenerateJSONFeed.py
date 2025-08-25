@@ -188,29 +188,25 @@ def generate_json_feed():
         segment_home_page = f"<a href=\"{url_home_page}\"><p><span>HomePage</span></p></a></br>"  if url_home_page else ""
         
         
-        item['content_html'] = f"""<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" alt=\"{escaped_title}\" /></br>
+        item['content_html'] = f"""<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"80\" height=\"80\" alt=\"{escaped_title}\" /></br>
           <img src=\"{svg_url}\" alt=\"{escaped_title}\" />
           </br>
-          </br>
-          
           <a href=\"{url_maven}\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>
           <a href=\"{item['url']}\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>
           <a href=\"{url_mvnrepo}\"><p><span>MvnRepository中查看此构件</span></p></a></br>
           {segment_project}
           {segment_scm}
-          {segment_home_page}</br>
-          
+          {segment_home_page}
           </br>  
-          </br>  
-          <h4>GAV坐标<h4>
+          <h3>GAV坐标<h3>
 
           <pre>
             <code class=\"language-xml\">
-                &lt;dependency&gt;
-                    &lt;groupId&gt;{group_id_from_meta}&lt;/groupId&gt;
-                    &lt;artifactId&gt;{artifact_id_from_meta}&lt;/artifactId&gt;
-                    &lt;version&gt;{version_latest}&lt;/version&gt;
-                &lt;/dependency&gt;
+            &lt;dependency&gt;
+                &lt;groupId&gt;{group_id_from_meta}&lt;/groupId&gt;
+                &lt;artifactId&gt;{artifact_id_from_meta}&lt;/artifactId&gt;
+                &lt;version&gt;{version_latest}&lt;/version&gt;
+            &lt;/dependency&gt;
             </code>
           </pre>
           
