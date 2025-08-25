@@ -3,9 +3,9 @@
 	"description":"Parent for Kafka on Pulsar implemented using Pulsar Protocol Handler.",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"kafka-payload-processor-shaded-tests",
-	"version_latest":"4.0.6.1",
-	"ts_publish":1754882853000,
-	"ts_update":1754884546940,
+	"version_latest":"4.0.6.2",
+	"ts_publish":1756109146000,
+	"ts_update":1756110213801,
 	"count_dep":94,
 	"count_ref":0,
 	"licenses":[
@@ -15,10 +15,10 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/kafka-payload-processor-shaded-tests/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/kafka-payload-processor-shaded-tests@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/kafka-payload-processor-shaded-tests",
-	"dt_publish":"2025-08-11 11:27:33.000",
-	"dt_update":"2025-08-11 11:55:38.832",
+	"dt_publish":"2025-08-25 16:05:46.000",
+	"dt_update":"2025-08-25 16:22:20.653",
 	"license":"Apache 2.0",
-	"ranking":"#783720 in MvnRepository",
+	"ranking":"#788729 in MvnRepository",
 	"tags":[
 		"streaming",
 		"payload",
@@ -29,6 +29,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.6.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241120",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.0.5",
 			"vulnerabilities":""
 		}
 	]
