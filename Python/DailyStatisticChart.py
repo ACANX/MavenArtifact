@@ -16,13 +16,13 @@ COLORS = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#66ffbd"]
 FONT_FAMILY = "Arial, sans-serif"
 
 def main():
-    # 检查当前时间是否在允许的执行窗口内 (00:30:00 - 01:59:59)
+    # 检查当前时间是否在允许的执行窗口内 (00:30:00 - 12:59:59)
     current_time = datetime.now().time()
     allowed_start = dtime(0, 20, 0)
     allowed_end = dtime(1, 59, 59)
     
     if not (allowed_start <= current_time <= allowed_end):
-        print(f"当前时间 {current_time.strftime('%H:%M:%S')} 不在允许的执行窗口内 (01:20:00 - 12:59:59)")
+        print(f"当前时间 {current_time.strftime('%H:%M:%S')} 不在允许的执行窗口内 (01:20:00 - 01:59:59)")
         return
     
     print(f"当前时间 {current_time.strftime('%H:%M:%S')} 在允许的执行窗口内，开始处理数据...")
