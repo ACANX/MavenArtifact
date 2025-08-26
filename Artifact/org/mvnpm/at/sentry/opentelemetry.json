@@ -3,13 +3,13 @@
 	"description":"Official Sentry utilities for OpenTelemetry",
 	"group_id":"org.mvnpm.at.sentry",
 	"artifact_id":"opentelemetry",
-	"version_latest":"10.5.0",
-	"ts_publish":1755028827000,
-	"dt_publish":"2025-08-13 04:00:27.000",
-	"ts_update":1755031142807,
-	"dt_update":"2025-08-13 04:38:44.083",
+	"version_latest":"10.6.0",
+	"ts_publish":1756225026000,
+	"dt_publish":"2025-08-27 00:17:06.000",
+	"ts_update":1756226659724,
+	"dt_update":"2025-08-27 00:41:58.539",
 	"count_dep":12,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"MIT"
 	],
@@ -33,7 +33,7 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/getsentry/sentry-javascript/tree/master/packages/opentelemetry",
 	"license":"MIT",
-	"ranking":"#176464 in MvnRepository",
+	"ranking":"#234022 in MvnRepository",
 	"tags":[
 		"assets",
 		"monitoring",
@@ -46,10 +46,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.5.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"10.4.0",
 			"vulnerabilities":""
 		},
@@ -195,14 +203,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"9.31.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250617",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.30.0",
 			"vulnerabilities":""
 		}
 	]

@@ -2,19 +2,21 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-jaxrs-client",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-jaxrs-client",
-	"version_latest":"1.1.1",
-	"ts_publish":1754932300000,
-	"dt_publish":"2025-08-12 01:11:40.000",
-	"ts_update":1754933163488,
-	"dt_update":"2025-08-12 01:25:42.456",
-	"count_dep":3,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"1.1.2",
+	"ts_publish":1756225384000,
+	"dt_publish":"2025-08-27 00:23:04.000",
+	"ts_update":1756226618816,
+	"dt_update":"2025-08-27 00:41:57.322",
+	"count_dep":99,
+	"count_ref":2,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-jaxrs-client@1.1.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#310185 in MvnRepository",
+	"ranking":"#310695 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -25,6 +27,14 @@
 		"jaxrs"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.1.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -129,5 +139,6 @@
 			"version":"0.26.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
