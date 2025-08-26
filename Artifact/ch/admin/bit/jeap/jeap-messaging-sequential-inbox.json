@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-sequential-inbox",
-	"version_latest":"8.54.0",
-	"ts_publish":1755858863000,
-	"dt_publish":"2025-08-22 18:34:23.000",
-	"ts_update":1755859756091,
-	"dt_update":"2025-08-22 18:48:58.412",
+	"version_latest":"8.55.0",
+	"ts_publish":1756202117000,
+	"dt_publish":"2025-08-26 17:55:17.000",
+	"ts_update":1756203423821,
+	"dt_update":"2025-08-26 18:16:53.556",
 	"count_dep":71,
 	"count_ref":1,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging-sequential-inbox.git/jeap-messaging-sequential-inbox",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#352591 in MvnRepository",
+	"ranking":"#368006 in MvnRepository",
 	"tags":[
 		"admin",
 		"inbox",
 		"messaging"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.54.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.42.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250610",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.41.0",
 			"vulnerabilities":""
 		}
 	]
