@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-repository-zip",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-repository-zip",
-	"version_latest":"12.12.0",
-	"ts_publish":1755855009000,
-	"dt_publish":"2025-08-22 17:30:09.000",
-	"ts_update":1755855998442,
-	"dt_update":"2025-08-22 17:46:14.206",
-	"count_dep":32,
-	"count_ref":4,
+	"version_latest":"12.13.0",
+	"ts_publish":1756221403000,
+	"dt_publish":"2025-08-26 23:16:43.000",
+	"ts_update":1756223283115,
+	"dt_update":"2025-08-26 23:46:43.036",
+	"count_dep":31,
+	"count_ref":3,
 	"licenses":[
 		"Eclipse Public License - v 2.0"
 	],
@@ -25,13 +25,29 @@
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-repository-parent/dirigible-repository-zip",
 	"count_used_by":8,
 	"license":"EPL 2.0",
-	"ranking":"#56895 in MvnRepository",
+	"ranking":"#56951 in MvnRepository",
 	"tags":[
 		"repository",
 		"zip",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.11.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"11.61.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.60.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.59.0",
 			"vulnerabilities":""
 		}
 	],

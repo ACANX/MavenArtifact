@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-odata-core",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-odata-core",
-	"version_latest":"12.12.0",
-	"ts_publish":1755855009000,
-	"dt_publish":"2025-08-22 17:30:09.000",
-	"ts_update":1755856018241,
-	"dt_update":"2025-08-22 17:46:10.715",
-	"count_dep":34,
-	"count_ref":3,
-	"licenses":[],
+	"version_latest":"12.13.0",
+	"ts_publish":1756221403000,
+	"dt_publish":"2025-08-26 23:16:43.000",
+	"ts_update":1756223476113,
+	"dt_update":"2025-08-26 23:46:39.478",
+	"count_dep":167,
+	"count_ref":2,
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +25,28 @@
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-odata-parent/dirigible-odata-core",
 	"count_used_by":6,
 	"license":"EPL 2.0",
-	"ranking":"#83294 in MvnRepository",
+	"ranking":"#83303 in MvnRepository",
 	"tags":[
 		"data",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.11.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -172,22 +190,7 @@
 			"usage":2,
 			"version":"11.61.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.60.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.59.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Core modules packaged with Dirigible"
 }

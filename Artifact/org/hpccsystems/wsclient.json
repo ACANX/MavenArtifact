@@ -3,11 +3,11 @@
 	"description":"This project allows a user to interact with ESP services in a controlled manner. The API calls available under org.hpccsystems.ws.client.platform allow for a user to target ESP's across multiple environments running a range of hpccsystems-platform versions. There is no guarantee that if a user utilizes org.hpccsystems.ws.client.gen generated stub code from wsdl, that the calls will be backwards compatible with older hpccsystems-platform versions.",
 	"group_id":"org.hpccsystems",
 	"artifact_id":"wsclient",
-	"version_latest":"9.14.12-1",
-	"ts_publish":1755616782000,
-	"dt_publish":"2025-08-19 23:19:42.000",
-	"ts_update":1755618545716,
-	"dt_update":"2025-08-19 23:48:04.585",
+	"version_latest":"9.14.14-1",
+	"ts_publish":1756221571000,
+	"dt_publish":"2025-08-26 23:19:31.000",
+	"ts_update":1756223476992,
+	"dt_update":"2025-08-26 23:46:37.620",
 	"count_dep":106,
 	"count_ref":2,
 	"licenses":[
@@ -28,11 +28,19 @@
 	"url_scm":"scm:git:https://github.com/hpcc-systems/hpcc4j.git/wsclient",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#102427 in MvnRepository",
+	"ranking":"#102597 in MvnRepository",
 	"tags":[
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.14.12-1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -79,6 +87,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.14.0-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.12.30-1",
 			"vulnerabilities":""
 		},
 		{
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.12.8-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.12.6-3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250530",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.12.6-2",
 			"vulnerabilities":""
 		}
 	]
