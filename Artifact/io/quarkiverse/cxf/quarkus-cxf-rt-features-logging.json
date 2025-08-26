@@ -3,11 +3,11 @@
 	"description":"Allows logging HTTP headers and bodies of SOAP requests and responses for both CXF clients and services.",
 	"group_id":"io.quarkiverse.cxf",
 	"artifact_id":"quarkus-cxf-rt-features-logging",
-	"version_latest":"3.26.0",
-	"ts_publish":1755718966000,
-	"dt_publish":"2025-08-21 03:42:46.000",
-	"ts_update":1755719777089,
-	"dt_update":"2025-08-21 03:55:52.868",
+	"version_latest":"3.26.1",
+	"ts_publish":1756196543000,
+	"dt_publish":"2025-08-26 16:22:23.000",
+	"ts_update":1756199840024,
+	"dt_update":"2025-08-26 16:54:14.710",
 	"count_dep":139,
 	"count_ref":1,
 	"licenses":[
@@ -19,13 +19,21 @@
 	"dsv":1,
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#43724 in MvnRepository",
+	"ranking":"#43641 in MvnRepository",
 	"tags":[
 		"cxf",
 		"logging",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241024",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.16.0",
 			"vulnerabilities":""
 		}
 	]
