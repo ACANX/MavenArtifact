@@ -2,10 +2,10 @@
 	"id":"pkg:maven/io.streamnative/pulsar-functions-runtime-all",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-functions-runtime-all",
-	"version_latest":"4.0.6.2",
-	"ts_publish":1756108205000,
-	"ts_update":1756110217537,
-	"count_dep":44,
+	"version_latest":"4.1.0.0",
+	"ts_publish":1756192252000,
+	"ts_update":1756193180834,
+	"count_dep":40,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -16,17 +16,25 @@
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative/pulsar-functions-runtime-all@4.0.5.5",
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
-	"dt_publish":"2025-08-25 15:50:05.000",
-	"dt_update":"2025-08-25 16:22:24.954",
+	"dt_publish":"2025-08-26 15:10:52.000",
+	"dt_update":"2025-08-26 15:25:52.365",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#386947 in MvnRepository",
+	"ranking":"#382454 in MvnRepository",
 	"tags":[
 		"functions",
 		"pulsar",
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.0.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241114",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.4",
 			"vulnerabilities":""
 		}
 	]

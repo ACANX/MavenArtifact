@@ -3,10 +3,10 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"io.streamnative",
 	"artifact_id":"bouncy-castle-bcfips",
-	"version_latest":"4.0.6.2",
-	"ts_publish":1756108205000,
-	"ts_update":1756110160089,
-	"count_dep":15,
+	"version_latest":"4.1.0.0",
+	"ts_publish":1756192253000,
+	"ts_update":1756193196746,
+	"count_dep":66,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -20,12 +20,20 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/bouncy-castle-parent/bouncy-castle-bcfips",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-08-25 15:50:05.000",
-	"dt_update":"2025-08-25 16:22:23.505",
+	"dt_publish":"2025-08-26 15:10:53.000",
+	"dt_update":"2025-08-26 15:25:50.983",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#368318 in MvnRepository",
+	"ranking":"#363813 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.0.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241114",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.4",
 			"vulnerabilities":""
 		}
 	]
