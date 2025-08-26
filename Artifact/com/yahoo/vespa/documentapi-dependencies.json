@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/documentapi-dependencies",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"documentapi-dependencies",
-	"version_latest":"8.570.34",
-	"ts_publish":1756122749000,
-	"dt_publish":"2025-08-25 19:52:29.000",
-	"ts_update":1756124815746,
-	"dt_update":"2025-08-25 20:25:59.124",
-	"count_dep":11,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"8.571.14",
+	"ts_publish":1756205118000,
+	"dt_publish":"2025-08-26 18:45:18.000",
+	"ts_update":1756206901428,
+	"dt_update":"2025-08-26 19:14:14.766",
+	"count_dep":18,
+	"count_ref":0,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,13 +25,21 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/documentapi-dependencies",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#196240 in MvnRepository",
+	"ranking":"#196276 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.570.34",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -181,14 +191,7 @@
 			"usage":2,
 			"version":"8.545.40",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250703",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.544.32",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

@@ -3,14 +3,16 @@
 	"description":"Test library implementation for Vespa Cloud applications.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"cloud-tenant-cd",
-	"version_latest":"8.570.34",
-	"ts_publish":1756122749000,
-	"dt_publish":"2025-08-25 19:52:29.000",
-	"ts_update":1756124789197,
-	"dt_update":"2025-08-25 20:25:57.660",
-	"count_dep":9,
+	"version_latest":"8.571.14",
+	"ts_publish":1756205118000,
+	"dt_publish":"2025-08-26 18:45:18.000",
+	"ts_update":1756206875640,
+	"dt_update":"2025-08-26 19:14:14.321",
+	"count_dep":27,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -25,11 +27,19 @@
 	"count_used_by":3,
 	"home_page":"https://github.com/vespa-engine",
 	"license":"Apache 2.0",
-	"ranking":"#139087 in MvnRepository",
+	"ranking":"#139117 in MvnRepository",
 	"tags":[
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.570.34",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -180,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.545.40",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250703",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.544.32",
 			"vulnerabilities":""
 		}
 	]

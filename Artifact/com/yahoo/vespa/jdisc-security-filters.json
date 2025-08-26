@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/jdisc-security-filters",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"jdisc-security-filters",
-	"version_latest":"8.570.34",
-	"ts_publish":1756122749000,
-	"dt_publish":"2025-08-25 19:52:29.000",
-	"ts_update":1756124875425,
-	"dt_update":"2025-08-25 20:25:59.125",
-	"count_dep":9,
+	"version_latest":"8.571.14",
+	"ts_publish":1756205118000,
+	"dt_publish":"2025-08-26 18:45:18.000",
+	"ts_update":1756206870949,
+	"dt_update":"2025-08-26 19:14:14.763",
+	"count_dep":21,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,12 +25,28 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/jdisc-security-filters",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#112386 in MvnRepository",
+	"ranking":"#112558 in MvnRepository",
 	"tags":[
 		"security",
 		"filtering"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.570.34",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.568.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -172,22 +190,7 @@
 			"usage":1,
 			"version":"8.545.40",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250703",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.544.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.543.14",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }
