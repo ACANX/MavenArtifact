@@ -3,11 +3,11 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.loggingsentry",
 	"artifact_id":"quarkus-logging-sentry-deployment",
-	"version_latest":"2.1.7",
-	"ts_publish":1755007269000,
-	"dt_publish":"2025-08-12 22:01:09.000",
-	"ts_update":1755008188470,
-	"dt_update":"2025-08-12 22:16:08.744",
+	"version_latest":"2.1.8",
+	"ts_publish":1756243379000,
+	"dt_publish":"2025-08-27 05:22:59.000",
+	"ts_update":1756244669910,
+	"dt_update":"2025-08-27 05:43:49.208",
 	"count_dep":80,
 	"count_ref":0,
 	"licenses":[
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-logging-sentry",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#329998 in MvnRepository",
+	"ranking":"#364064 in MvnRepository",
 	"tags":[
 		"deployment",
 		"logging",
@@ -31,6 +31,14 @@
 		"sentry"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.1.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250709",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220510",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.1.1",
 			"vulnerabilities":""
 		}
 	]
