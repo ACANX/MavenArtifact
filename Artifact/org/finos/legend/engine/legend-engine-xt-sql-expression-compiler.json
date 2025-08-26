@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-sql-expression-compiler",
-	"version_latest":"4.96.1",
-	"ts_publish":1754601802000,
-	"dt_publish":"2025-08-08 05:23:22.000",
-	"ts_update":1754603381064,
-	"dt_update":"2025-08-08 05:48:46.529",
-	"count_dep":142,
-	"count_ref":1,
+	"version_latest":"4.97.1",
+	"ts_publish":1756235396000,
+	"dt_publish":"2025-08-27 03:09:56.000",
+	"ts_update":1756237635510,
+	"dt_update":"2025-08-27 03:44:13.819",
+	"count_dep":114,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,5 +23,48 @@
 	"contributors":[
 		"Maurizio Pillitu"
 	],
-	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-sql/legend-engine-xt-sql-expression/legend-engine-xt-sql-expression-compiler"
+	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-sql/legend-engine-xt-sql-expression/legend-engine-xt-sql-expression-compiler",
+	"count_used_by":1,
+	"license":"Apache 2.0",
+	"ranking":"#337556 in MvnRepository",
+	"tags":[
+		"sql",
+		"compiler",
+		"expression",
+		"engine"
+	],
+	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.96.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250805",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.96.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250804",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.95.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250801",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.95.0",
+			"vulnerabilities":""
+		}
+	]
 }

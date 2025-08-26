@@ -3,11 +3,11 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-sql-expression-grammar",
-	"version_latest":"4.96.1",
-	"ts_publish":1754601803000,
-	"dt_publish":"2025-08-08 05:23:23.000",
-	"ts_update":1754603362615,
-	"dt_update":"2025-08-08 05:48:29.609",
+	"version_latest":"4.97.1",
+	"ts_publish":1756235396000,
+	"dt_publish":"2025-08-27 03:09:56.000",
+	"ts_update":1756237468626,
+	"dt_update":"2025-08-27 03:44:07.744",
 	"count_dep":64,
 	"count_ref":2,
 	"licenses":[
@@ -23,5 +23,48 @@
 	"contributors":[
 		"Maurizio Pillitu"
 	],
-	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-sql/legend-engine-xt-sql-expression/legend-engine-xt-sql-expression-grammar"
+	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-sql/legend-engine-xt-sql-expression/legend-engine-xt-sql-expression-grammar",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#209952 in MvnRepository",
+	"tags":[
+		"sql",
+		"grammar",
+		"expression",
+		"engine"
+	],
+	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.96.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250805",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.96.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250804",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.95.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250801",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.95.0",
+			"vulnerabilities":""
+		}
+	]
 }
