@@ -199,10 +199,10 @@ def generate_json_feed():
           <h3>GAV坐标<h3>
           <pre>
             <code class=\"language-xml\">    &lt;dependency&gt;
-            &lt;groupId&gt;{group_id_from_meta}&lt;/groupId&gt;
-            &lt;artifactId&gt;{artifact_id_from_meta}&lt;/artifactId&gt;
-            &lt;version&gt;{version_latest}&lt;/version&gt;
-        &lt;/dependency&gt;
+        &lt;groupId&gt;{group_id_from_meta}&lt;/groupId&gt;
+        &lt;artifactId&gt;{artifact_id_from_meta}&lt;/artifactId&gt;
+        &lt;version&gt;{version_latest}&lt;/version&gt;
+    &lt;/dependency&gt;
             </code>
           </pre>
         """
