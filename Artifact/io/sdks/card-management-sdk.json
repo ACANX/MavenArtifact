@@ -1,0 +1,73 @@
+{
+	"id":"pkg:maven/io.sdks/card-management-sdk",
+	"description":"The Shell Card Management API is REST-based and employs OAUTH 2.0,Basic and ApiKey authentication. The API endpoints accept JSON-encoded request bodies, return JSON-encoded responses and use standard HTTP response codes.\nAll resources are located in the Shell Card Platform. The Shell Card Platform is the overall platform that encompasses all the internal Shell systems used to manage resources. The internal workings of the platform are not important when interacting with the API. However, it is worth noting that the platform uses a microservice architecture to communicate with various backend systems and some API calls are processed asynchronously. All endpoints use the POST verb for retrieving, updating, creating and deleting resources in the Shell Card Platform. The endpoints that retrieve resources from the Shell Card Platform allow flexible search parameters in the API request body.",
+	"group_id":"io.sdks",
+	"artifact_id":"card-management-sdk",
+	"version_latest":"2.0.2",
+	"ts_publish":1756215972000,
+	"dt_publish":"2025-08-26 21:46:12.000",
+	"ts_update":1756217927138,
+	"dt_update":"2025-08-26 22:14:45.566",
+	"count_dep":28,
+	"count_ref":0,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://www.shell.com/",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.sdks/card-management-sdk@2.0.2",
+	"contributors":[
+		"developer sdksio"
+	],
+	"url_scm":"https://github.com/sdks-io/card-management-java-sdk",
+	"home_page":"https://www.shell.com/",
+	"license":"MIT",
+	"ranking":"#431902 in MvnRepository",
+	"tags":[
+		"sdk",
+		"management",
+		"card"
+	],
+	"versions":[
+		{
+			"date":"20250303",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20241212",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240920",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240702",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240527",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		}
+	]
+}
