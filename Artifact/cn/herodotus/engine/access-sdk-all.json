@@ -3,11 +3,11 @@
 	"description":"基于 Spring Authorization Server 的外部接入统一处理逻辑业务组件模块",
 	"group_id":"cn.herodotus.engine",
 	"artifact_id":"access-sdk-all",
-	"version_latest":"3.5.5.0",
-	"ts_publish":1755787810000,
-	"dt_publish":"2025-08-21 22:50:10.000",
-	"ts_update":1755789480735,
-	"dt_update":"2025-08-21 23:16:53.573",
+	"version_latest":"3.5.5.1",
+	"ts_publish":1756178288000,
+	"dt_publish":"2025-08-26 11:18:08.000",
+	"ts_update":1756179573622,
+	"dt_update":"2025-08-26 11:39:01.027",
 	"count_dep":152,
 	"count_ref":2,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/dromara/dante-cloud/engine-access/access-sdk-all",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#156159 in MvnRepository",
+	"ranking":"#156465 in MvnRepository",
 	"tags":[
 		"sdk",
 		"engine",
 		"access"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250809",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.4.3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250302",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.3.1",
 			"vulnerabilities":""
 		}
 	]
