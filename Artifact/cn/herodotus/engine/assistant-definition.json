@@ -3,12 +3,12 @@
 	"description":"基于 Spring Authorization Server 的 Dante Cloud 核心定义模块",
 	"group_id":"cn.herodotus.engine",
 	"artifact_id":"assistant-definition",
-	"version_latest":"3.5.5.0",
-	"ts_publish":1755787810000,
-	"dt_publish":"2025-08-21 22:50:10.000",
-	"ts_update":1755789534790,
-	"dt_update":"2025-08-21 23:16:52.455",
-	"count_dep":56,
+	"version_latest":"3.5.5.1",
+	"ts_publish":1756178288000,
+	"dt_publish":"2025-08-26 11:18:08.000",
+	"ts_update":1756178850070,
+	"dt_update":"2025-08-26 11:25:53.731",
+	"count_dep":54,
 	"count_ref":49,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -25,11 +25,19 @@
 	"url_scm":"https://github.com/dromara/dante-cloud/engine-assistant/assistant-definition",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#318936 in MvnRepository",
+	"ranking":"#326458 in MvnRepository",
 	"tags":[
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250809",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.4.3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250302",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.3.1",
 			"vulnerabilities":""
 		}
 	]
