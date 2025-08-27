@@ -3,13 +3,13 @@
 	"description":"The first Static Analysis and REMEDIATION tool",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-static-analysis",
-	"version_latest":"2.15.0",
-	"ts_publish":1755032947000,
-	"dt_publish":"2025-08-13 05:09:07.000",
-	"ts_update":1755034388316,
-	"dt_update":"2025-08-13 05:32:54.519",
+	"version_latest":"2.16.0",
+	"ts_publish":1756311890000,
+	"dt_publish":"2025-08-28 00:24:50.000",
+	"ts_update":1756313039389,
+	"dt_update":"2025-08-28 00:42:20.119",
 	"count_dep":21,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[
 		"Moderne Source Available License"
 	],
@@ -23,14 +23,22 @@
 		"Moderne"
 	],
 	"url_scm":"https://github.com/openrewrite/rewrite-static-analysis.git",
-	"count_used_by":15,
+	"count_used_by":16,
 	"home_page":"https://github.com/openrewrite/rewrite-static-analysis",
-	"ranking":"#31358 in MvnRepository",
+	"ranking":"#29490 in MvnRepository",
 	"tags":[
 		"static",
 		"analysis"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2.15.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"2.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.22.1",
 			"vulnerabilities":""
 		}
 	]
