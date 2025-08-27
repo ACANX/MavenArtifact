@@ -3,9 +3,9 @@
 	"description":"OAuth 2.0 login callback handler for Kafka client",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"oauth-client-original",
-	"version_latest":"4.0.6.2",
-	"ts_publish":1756109146000,
-	"ts_update":1756110193941,
+	"version_latest":"4.1.0.0",
+	"ts_publish":1756272593000,
+	"ts_update":1756274181082,
 	"count_dep":10,
 	"count_ref":7,
 	"licenses":[
@@ -15,11 +15,11 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/oauth-client-original/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/oauth-client-original@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/oauth-client-original",
-	"dt_publish":"2025-08-25 16:05:46.000",
-	"dt_update":"2025-08-25 16:22:20.654",
+	"dt_publish":"2025-08-27 13:29:53.000",
+	"dt_update":"2025-08-27 13:55:49.636",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#129465 in MvnRepository",
+	"ranking":"#129513 in MvnRepository",
 	"tags":[
 		"authentication",
 		"client",
@@ -27,6 +27,14 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.6.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.0.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.6",
 			"vulnerabilities":""
 		}
 	]
