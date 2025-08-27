@@ -3,13 +3,13 @@
 	"description":"Redis整合桥接",
 	"group_id":"cn.jslim",
 	"artifact_id":"jslim-bridge-redis",
-	"version_latest":"1.0.5",
-	"ts_publish":1756071233000,
-	"dt_publish":"2025-08-25 05:33:53.000",
-	"ts_update":1756072627282,
-	"dt_update":"2025-08-25 05:55:46.001",
+	"version_latest":"1.0.7",
+	"ts_publish":1756298910000,
+	"dt_publish":"2025-08-27 20:48:30.000",
+	"ts_update":1756307989900,
+	"dt_update":"2025-08-27 23:16:13.123",
 	"count_dep":116,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -21,13 +21,37 @@
 	],
 	"url_scm":"https://www.jslim.cn/jslim-bridge-redis",
 	"license":"Apache 2.0",
-	"ranking":"#726691 in MvnRepository",
+	"ranking":"#338582 in MvnRepository",
 	"tags":[
 		"database",
 		"bridge",
 		"redis"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.0.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250824",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250823",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250823",
 			"repository":"Central",
@@ -36,5 +60,6 @@
 			"version":"1.0.3",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }

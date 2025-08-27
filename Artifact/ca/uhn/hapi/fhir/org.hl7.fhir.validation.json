@@ -3,11 +3,11 @@
 	"description":"An open-source implementation of the FHIR specification in Java.",
 	"group_id":"ca.uhn.hapi.fhir",
 	"artifact_id":"org.hl7.fhir.validation",
-	"version_latest":"6.6.5",
-	"ts_publish":1756025268000,
-	"dt_publish":"2025-08-24 16:47:48.000",
-	"ts_update":1756025786915,
-	"dt_update":"2025-08-24 16:55:49.190",
+	"version_latest":"6.6.6",
+	"ts_publish":1756290140000,
+	"dt_publish":"2025-08-27 18:22:20.000",
+	"ts_update":1756308064912,
+	"dt_update":"2025-08-27 23:16:16.216",
 	"count_dep":114,
 	"count_ref":0,
 	"licenses":[
@@ -170,13 +170,21 @@
 	"url_scm":"scm:git:git@github.com:hapifhir/hapi-fhir.git/hapi-deployable-pom/org.hl7.fhir.core/org.hl7.fhir.validation",
 	"count_used_by":17,
 	"license":"Apache 2.0",
-	"ranking":"#28034 in MvnRepository",
+	"ranking":"#28040 in MvnRepository",
 	"tags":[
 		"bundle",
 		"validation",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250824",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.6.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -327,14 +335,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"6.5.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250310",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.5.15",
 			"vulnerabilities":""
 		}
 	]
