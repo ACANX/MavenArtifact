@@ -3,13 +3,13 @@
 	"description":"Modernize Jenkins plugins. Automatically.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-jenkins",
-	"version_latest":"0.30.0",
-	"ts_publish":1755033950000,
-	"dt_publish":"2025-08-13 05:25:50.000",
-	"ts_update":1755035782819,
-	"dt_update":"2025-08-13 05:55:41.168",
+	"version_latest":"0.30.1",
+	"ts_publish":1756312845000,
+	"dt_publish":"2025-08-28 00:40:45.000",
+	"ts_update":1756313770119,
+	"dt_update":"2025-08-28 00:55:54.486",
 	"count_dep":7,
-	"count_ref":1,
+	"count_ref":0,
 	"licenses":[
 		"Moderne Source Available License"
 	],
@@ -25,11 +25,19 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-jenkins.git",
 	"count_used_by":3,
 	"home_page":"https://github.com/openrewrite/rewrite-jenkins",
-	"ranking":"#149024 in MvnRepository",
+	"ranking":"#148809 in MvnRepository",
 	"tags":[
 		"jenkins"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.18.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241113",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.17.0",
 			"vulnerabilities":""
 		}
 	]
