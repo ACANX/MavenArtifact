@@ -3,10 +3,10 @@
 	"description":"EDB",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-jdbc-edb",
-	"version_latest":"8.7.2-20250826",
-	"ts_publish":1756202501000,
-	"ts_update":1756203439922,
-	"count_dep":0,
+	"version_latest":"8.7.2-20250827",
+	"ts_publish":1756251931000,
+	"ts_update":1756257053679,
+	"count_dep":8,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -15,11 +15,11 @@
 	"dsv":1,
 	"url_project":"http://www.anyline.org/edb",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-jdbc-edb@8.7.2-20250806",
-	"dt_publish":"2025-08-26 18:01:41.000",
-	"dt_update":"2025-08-26 18:16:52.182",
+	"dt_publish":"2025-08-27 07:45:31.000",
+	"dt_update":"2025-08-27 08:56:09.799",
 	"home_page":"http://www.anyline.org/edb",
 	"license":"Apache 2.0",
-	"ranking":"#439435 in MvnRepository",
+	"ranking":"#439471 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -27,6 +27,14 @@
 		"data"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250826",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.7.2-jdk21-20250101",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241231",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20241231",
 			"vulnerabilities":""
 		}
 	]

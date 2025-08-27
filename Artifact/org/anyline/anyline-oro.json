@@ -3,11 +3,11 @@
 	"description":"原来的jakarta.oro，2010年9月后不维护了(没bug可改了)\n        因为经常下载失败，所以复制过来了\n        最新存档地址：https://attic.apache.org/projects/jakarta-oro.html",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-oro",
-	"version_latest":"8.7.2-20250826",
-	"ts_publish":1756202501000,
-	"ts_update":1756203446705,
-	"count_dep":0,
-	"count_ref":19,
+	"version_latest":"8.7.2-20250827",
+	"ts_publish":1756251931000,
+	"ts_update":1756257029058,
+	"count_dep":7,
+	"count_ref":11,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -21,12 +21,20 @@
 		"anyline"
 	],
 	"url_scm":"https://github.com/anylineorg/anyline/anyline-oro",
-	"dt_publish":"2025-08-26 18:01:41.000",
-	"dt_update":"2025-08-26 18:16:52.849",
+	"dt_publish":"2025-08-27 07:45:31.000",
+	"dt_update":"2025-08-27 08:56:09.809",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#368342 in MvnRepository",
+	"ranking":"#372209 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250826",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.7.2-jdk21-20250109",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250108",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250108",
 			"vulnerabilities":""
 		}
 	]
