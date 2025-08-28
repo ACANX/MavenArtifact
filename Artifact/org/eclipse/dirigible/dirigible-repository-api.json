@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-repository-api",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-repository-api",
-	"version_latest":"12.13.0",
-	"ts_publish":1756221403000,
-	"dt_publish":"2025-08-26 23:16:43.000",
-	"ts_update":1756223237136,
-	"dt_update":"2025-08-26 23:46:40.916",
+	"version_latest":"12.14.0",
+	"ts_publish":1756388682000,
+	"dt_publish":"2025-08-28 21:44:42.000",
+	"ts_update":1756390586070,
+	"dt_update":"2025-08-28 22:15:38.809",
 	"count_dep":30,
-	"count_ref":8,
-	"licenses":[
-		"Eclipse Public License - v 2.0"
-	],
+	"count_ref":9,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,13 +24,21 @@
 	"count_used_by":84,
 	"home_page":"https://www.dirigible.io/",
 	"license":"EPL 2.0",
-	"ranking":"#5987 in MvnRepository",
+	"ranking":"#5983 in MvnRepository",
 	"tags":[
 		"repository",
 		"eclipse",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"12.13.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -184,15 +190,6 @@
 			"usage":8,
 			"version":"11.62.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250626",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"11.61.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Core modules packaged with Dirigible"
+	]
 }
