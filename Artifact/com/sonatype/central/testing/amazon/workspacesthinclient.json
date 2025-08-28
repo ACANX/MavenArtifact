@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for Work Spaces Thin Client module holds the client classes that are used for\n        communicating with Work Spaces Thin Client.",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"workspacesthinclient",
-	"version_latest":"9.9.11",
-	"ts_publish":1756345905000,
-	"dt_publish":"2025-08-28 09:51:45.000",
-	"ts_update":1756348065967,
-	"dt_update":"2025-08-28 10:25:59.928",
-	"count_dep":33,
+	"version_latest":"9.9.12",
+	"ts_publish":1756402370000,
+	"dt_publish":"2025-08-29 01:32:50.000",
+	"ts_update":1756404100521,
+	"dt_update":"2025-08-29 01:56:08.393",
+	"count_dep":42,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -16,5 +16,55 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.sonatype.central.testing.amazon/workspacesthinclient@9.9.11",
-	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/workspacesthinclient"
+	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/workspacesthinclient",
+	"count_used_by":2,
+	"home_page":"https://aws.amazon.com/sdkforjava",
+	"ranking":"#226442 in MvnRepository",
+	"tags":[
+		"quality",
+		"amazon",
+		"testing"
+	],
+	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.9.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.9.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.9.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250711",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.6.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250707",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.7",
+			"vulnerabilities":""
+		}
+	]
 }

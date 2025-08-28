@@ -3,20 +3,22 @@
 	"description":"The AWS Java SDK for Sage Maker Metrics module holds the client classes that are used for\n        communicating with Sage Maker Metrics.",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"sagemakermetrics",
-	"version_latest":"9.9.11",
-	"ts_publish":1756345905000,
-	"dt_publish":"2025-08-28 09:51:45.000",
-	"ts_update":1756348063390,
-	"dt_update":"2025-08-28 10:26:00.867",
+	"version_latest":"9.9.12",
+	"ts_publish":1756402371000,
+	"dt_publish":"2025-08-29 01:32:51.000",
+	"ts_update":1756404030636,
+	"dt_update":"2025-08-29 01:55:53.445",
 	"count_dep":33,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.sonatype.central.testing.amazon/sagemakermetrics@9.9.10",
 	"count_used_by":2,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"ranking":"#206726 in MvnRepository",
+	"ranking":"#237507 in MvnRepository",
 	"tags":[
 		"quality",
 		"sagemaker",
@@ -25,10 +27,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250825",
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.9.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"9.9.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"9.9.9",
 			"vulnerabilities":""
 		},
