@@ -3,11 +3,11 @@
 	"description":"An addition to Metrics which provides the ability to run application-specific health checks,\n        allowing you to check your application's heath in production.",
 	"group_id":"io.dropwizard.metrics",
 	"artifact_id":"metrics-healthchecks",
-	"version_latest":"4.2.34",
-	"ts_publish":1756064237000,
-	"dt_publish":"2025-08-25 03:37:17.000",
-	"ts_update":1756065381075,
-	"dt_update":"2025-08-25 03:55:49.462",
+	"version_latest":"4.2.35",
+	"ts_publish":1756412868000,
+	"dt_publish":"2025-08-29 04:27:48.000",
+	"ts_update":1756414011757,
+	"dt_update":"2025-08-29 04:46:09.626",
 	"count_dep":7,
 	"count_ref":3,
 	"licenses":[
@@ -30,7 +30,7 @@
 	"count_used_by":290,
 	"home_page":"https://metrics.dropwizard.io/",
 	"license":"Apache 2.0",
-	"ranking":"#2018 in MvnRepository",
+	"ranking":"#2019 in MvnRepository",
 	"tags":[
 		"dropwizard",
 		"metrics",
@@ -38,6 +38,14 @@
 		"bundle"
 	],
 	"versions":[
+		{
+			"date":"20250824",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"4.2.34",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250619",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.2.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221118",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"4.2.13",
 			"vulnerabilities":""
 		}
 	]
