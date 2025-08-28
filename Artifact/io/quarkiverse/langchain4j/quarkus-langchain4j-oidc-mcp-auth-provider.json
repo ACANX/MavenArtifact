@@ -2,21 +2,19 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-oidc-mcp-auth-provider",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-oidc-mcp-auth-provider",
-	"version_latest":"1.1.2",
-	"ts_publish":1756225385000,
-	"dt_publish":"2025-08-27 00:23:05.000",
-	"ts_update":1756226560112,
-	"dt_update":"2025-08-27 00:41:53.314",
-	"count_dep":130,
+	"version_latest":"1.1.3",
+	"ts_publish":1756393187000,
+	"dt_publish":"2025-08-28 22:59:47.000",
+	"ts_update":1756394187118,
+	"dt_update":"2025-08-28 23:15:40.450",
+	"count_dep":5,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-oidc-mcp-auth-provider@1.1.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#325136 in MvnRepository",
+	"ranking":"#325711 in MvnRepository",
 	"tags":[
 		"provider",
 		"quarkus",
@@ -26,6 +24,14 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -98,6 +104,5 @@
 			"version":"1.0.0.CR1",
 			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
+	]
 }
