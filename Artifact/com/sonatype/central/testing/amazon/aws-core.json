@@ -3,20 +3,20 @@
 	"description":"The AWS SDK for Java - Core runtime module holds the classes that are used by the individual service\n        clients to interact with\n        Amazon Web Services. Users need to depend on aws-java-sdk artifact for accessing individual client classes.",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"aws-core",
-	"version_latest":"9.9.10",
-	"ts_publish":1756231685000,
-	"dt_publish":"2025-08-27 02:08:05.000",
-	"ts_update":1756234011494,
-	"dt_update":"2025-08-27 02:44:25.088",
+	"version_latest":"9.9.11",
+	"ts_publish":1756345904000,
+	"dt_publish":"2025-08-28 09:51:44.000",
+	"ts_update":1756348944875,
+	"dt_update":"2025-08-28 10:26:07.469",
 	"count_dep":34,
-	"count_ref":2,
+	"count_ref":312,
 	"licenses":[],
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.sonatype.central.testing.amazon/aws-core@9.9.10",
 	"count_used_by":10,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"ranking":"#48326 in MvnRepository",
+	"ranking":"#47984 in MvnRepository",
 	"tags":[
 		"quality",
 		"aws",
@@ -25,10 +25,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"9.9.10",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250825",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":10,
 			"version":"9.9.9",
 			"vulnerabilities":""
 		},
@@ -88,5 +96,6 @@
 			"version":"3.5.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }

@@ -3,11 +3,11 @@
 	"description":">The AWS Java SDK for AWS Greengrass module holds the client classes that are used for communicating\n        with AWS Greengrass Service",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"greengrass",
-	"version_latest":"9.9.10",
-	"ts_publish":1756231686000,
-	"dt_publish":"2025-08-27 02:08:06.000",
-	"ts_update":1756234666563,
-	"dt_update":"2025-08-27 02:56:02.098",
+	"version_latest":"9.9.11",
+	"ts_publish":1756345904000,
+	"dt_publish":"2025-08-28 09:51:44.000",
+	"ts_update":1756348970255,
+	"dt_update":"2025-08-28 10:26:04.734",
 	"count_dep":33,
 	"count_ref":1,
 	"licenses":[],
@@ -16,7 +16,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.sonatype.central.testing.amazon/greengrass@9.9.10",
 	"count_used_by":2,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"ranking":"#225977 in MvnRepository",
+	"ranking":"#227852 in MvnRepository",
 	"tags":[
 		"quality",
 		"amazon",
@@ -24,10 +24,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250825",
+			"date":"20250826",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"9.9.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"9.9.9",
 			"vulnerabilities":""
 		},
@@ -87,5 +95,6 @@
 			"version":"3.5.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }
