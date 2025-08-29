@@ -3,13 +3,13 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-infrastructure-kafka",
-	"version_latest":"8.56.0",
-	"ts_publish":1756200860000,
-	"dt_publish":"2025-08-26 17:34:20.000",
-	"ts_update":1756201764766,
-	"dt_update":"2025-08-26 17:48:22.976",
+	"version_latest":"8.56.1",
+	"ts_publish":1756472421000,
+	"dt_publish":"2025-08-29 21:00:21.000",
+	"ts_update":1756474041962,
+	"dt_update":"2025-08-29 21:25:55.524",
 	"count_dep":136,
-	"count_ref":3,
+	"count_ref":6,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,9 +20,9 @@
 		"BIT"
 	],
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-infrastructure-kafka",
-	"count_used_by":36,
+	"count_used_by":37,
 	"license":"Apache 2.0",
-	"ranking":"#13095 in MvnRepository",
+	"ranking":"#12757 in MvnRepository",
 	"tags":[
 		"admin",
 		"streaming",
@@ -30,6 +30,14 @@
 		"kafka"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":17,
+			"version":"8.56.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -42,7 +50,7 @@
 			"date":"20250814",
 			"repository":"Central",
 			"type":"release",
-			"usage":13,
+			"usage":14,
 			"version":"8.54.0",
 			"vulnerabilities":""
 		},
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"8.43.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.42.0",
 			"vulnerabilities":""
 		}
 	]

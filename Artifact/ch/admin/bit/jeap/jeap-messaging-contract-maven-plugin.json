@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-contract-maven-plugin",
-	"version_latest":"8.56.0",
-	"ts_publish":1756200860000,
-	"dt_publish":"2025-08-26 17:34:20.000",
-	"ts_update":1756201712633,
-	"dt_update":"2025-08-26 17:48:22.973",
+	"version_latest":"8.56.1",
+	"ts_publish":1756472421000,
+	"dt_publish":"2025-08-29 21:00:21.000",
+	"ts_update":1756474026735,
+	"dt_update":"2025-08-29 21:25:55.522",
 	"count_dep":46,
 	"count_ref":0,
 	"licenses":[
@@ -21,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-contract-maven-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#837590 in MvnRepository",
+	"ranking":"#739054 in MvnRepository",
 	"tags":[
 		"plugin",
 		"admin",
@@ -32,6 +32,14 @@
 		"contract"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.56.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.43.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.42.0",
 			"vulnerabilities":""
 		}
 	]
