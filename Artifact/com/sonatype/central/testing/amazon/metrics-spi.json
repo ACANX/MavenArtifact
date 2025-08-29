@@ -3,13 +3,13 @@
 	"description":"This is the base module for SDK metrics feature. It contains the interfaces used for metrics feature\n        that are used by other modules in the library.",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"metrics-spi",
-	"version_latest":"9.9.12",
-	"ts_publish":1756402371000,
-	"dt_publish":"2025-08-29 01:32:51.000",
-	"ts_update":1756404019303,
-	"dt_update":"2025-08-29 01:55:54.162",
+	"version_latest":"12.12.12",
+	"ts_publish":1756486165000,
+	"dt_publish":"2025-08-30 00:49:25.000",
+	"ts_update":1756488470881,
+	"dt_update":"2025-08-30 01:13:29.058",
 	"count_dep":11,
-	"count_ref":144,
+	"count_ref":172,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,7 +19,7 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/metrics-spi",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#40301 in MvnRepository",
+	"ranking":"#40310 in MvnRepository",
 	"tags":[
 		"quality",
 		"amazon",
@@ -32,7 +32,15 @@
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":9,
+			"version":"9.9.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
 			"version":"9.9.11",
 			"vulnerabilities":""
 		},
