@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for MediaTailor module holds the client classes that are used for\n        communicating with MediaTailor.",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"mediatailor",
-	"version_latest":"9.9.12",
-	"ts_publish":1756402370000,
-	"dt_publish":"2025-08-29 01:32:50.000",
-	"ts_update":1756404053241,
-	"dt_update":"2025-08-29 01:56:00.884",
+	"version_latest":"12.12.12",
+	"ts_publish":1756486165000,
+	"dt_publish":"2025-08-30 00:49:25.000",
+	"ts_update":1756487692144,
+	"dt_update":"2025-08-30 01:13:37.443",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
@@ -16,7 +16,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.sonatype.central.testing.amazon/mediatailor@9.9.11",
 	"count_used_by":2,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"ranking":"#222155 in MvnRepository",
+	"ranking":"#200606 in MvnRepository",
 	"tags":[
 		"quality",
 		"amazon",
@@ -27,7 +27,15 @@
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
+			"version":"9.9.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"9.9.11",
 			"vulnerabilities":""
 		},
@@ -103,5 +111,6 @@
 			"version":"3.5.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }

@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Kinesis Video Archived Media module holds the client classes that are used for\n        communicating with Kinesis Video Archived Media.",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"kinesisvideoarchivedmedia",
-	"version_latest":"9.9.12",
-	"ts_publish":1756402371000,
-	"dt_publish":"2025-08-29 01:32:51.000",
-	"ts_update":1756403869386,
-	"dt_update":"2025-08-29 01:55:58.103",
+	"version_latest":"12.12.12",
+	"ts_publish":1756486166000,
+	"dt_publish":"2025-08-30 00:49:26.000",
+	"ts_update":1756487641442,
+	"dt_update":"2025-08-30 01:13:27.454",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
@@ -16,7 +16,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.sonatype.central.testing.amazon/kinesisvideoarchivedmedia@9.9.11",
 	"count_used_by":2,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"ranking":"#202016 in MvnRepository",
+	"ranking":"#202527 in MvnRepository",
 	"tags":[
 		"quality",
 		"amazon",
@@ -27,7 +27,15 @@
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
+			"version":"9.9.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"9.9.11",
 			"vulnerabilities":""
 		},
@@ -103,5 +111,6 @@
 			"version":"3.5.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }

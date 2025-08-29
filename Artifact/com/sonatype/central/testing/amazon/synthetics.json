@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Synthetics module holds the client classes that are used for\n        communicating with Synthetics.",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"synthetics",
-	"version_latest":"9.9.12",
-	"ts_publish":1756402371000,
-	"dt_publish":"2025-08-29 01:32:51.000",
-	"ts_update":1756403823853,
-	"dt_update":"2025-08-29 01:55:56.175",
+	"version_latest":"12.12.12",
+	"ts_publish":1756486165000,
+	"dt_publish":"2025-08-30 00:49:25.000",
+	"ts_update":1756487727441,
+	"dt_update":"2025-08-30 01:13:32.454",
 	"count_dep":33,
 	"count_ref":1,
 	"licenses":[
@@ -19,7 +19,7 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/synthetics",
 	"count_used_by":2,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"ranking":"#201631 in MvnRepository",
+	"ranking":"#210888 in MvnRepository",
 	"tags":[
 		"quality",
 		"amazon",
@@ -30,7 +30,15 @@
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
+			"version":"9.9.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"9.9.11",
 			"vulnerabilities":""
 		},
@@ -66,5 +74,6 @@
 			"version":"3.5.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }

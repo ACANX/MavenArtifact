@@ -2,18 +2,18 @@
 	"id":"pkg:maven/com.sonatype.central.testing.amazon/cloudwatch-metric-publisher",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"cloudwatch-metric-publisher",
-	"version_latest":"9.9.12",
-	"ts_publish":1756402370000,
-	"dt_publish":"2025-08-29 01:32:50.000",
-	"ts_update":1756404099397,
-	"dt_update":"2025-08-29 01:56:03.956",
+	"version_latest":"12.12.12",
+	"ts_publish":1756486166000,
+	"dt_publish":"2025-08-30 00:49:26.000",
+	"ts_update":1756487696472,
+	"dt_update":"2025-08-30 01:13:25.662",
 	"count_dep":18,
 	"count_ref":1,
 	"licenses":[],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.sonatype.central.testing.amazon/cloudwatch-metric-publisher@9.9.12",
 	"count_used_by":2,
-	"ranking":"#205433 in MvnRepository",
+	"ranking":"#210104 in MvnRepository",
 	"tags":[
 		"quality",
 		"aws",
@@ -30,7 +30,15 @@
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
+			"version":"9.9.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"9.9.11",
 			"vulnerabilities":""
 		},
@@ -66,5 +74,6 @@
 			"version":"3.5.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }

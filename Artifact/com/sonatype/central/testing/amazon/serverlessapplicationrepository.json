@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for AWSServerlessApplicationRepository module holds the client classes that are used\n        for communicating\n        with AWSServerlessApplicationRepository Service",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"serverlessapplicationrepository",
-	"version_latest":"9.9.12",
-	"ts_publish":1756402370000,
-	"dt_publish":"2025-08-29 01:32:50.000",
-	"ts_update":1756403791915,
-	"dt_update":"2025-08-29 01:56:03.958",
+	"version_latest":"12.12.12",
+	"ts_publish":1756486165000,
+	"dt_publish":"2025-08-30 00:49:25.000",
+	"ts_update":1756487730665,
+	"dt_update":"2025-08-30 01:13:30.242",
 	"count_dep":33,
 	"count_ref":1,
 	"licenses":[],
@@ -16,7 +16,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.sonatype.central.testing.amazon/serverlessapplicationrepository@9.9.12",
 	"count_used_by":2,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"ranking":"#209880 in MvnRepository",
+	"ranking":"#210518 in MvnRepository",
 	"tags":[
 		"quality",
 		"amazon",
@@ -27,7 +27,15 @@
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
+			"version":"9.9.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"9.9.11",
 			"vulnerabilities":""
 		},
@@ -103,5 +111,6 @@
 			"version":"3.5.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }
