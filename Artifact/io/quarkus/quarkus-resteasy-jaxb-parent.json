@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-resteasy-jaxb-parent",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-resteasy-jaxb-parent",
-	"version_latest":"3.26.0",
-	"ts_publish":1755684781000,
-	"dt_publish":"2025-08-20 18:13:01.000",
-	"ts_update":1755686461403,
-	"dt_update":"2025-08-20 18:40:06.132",
-	"count_dep":0,
+	"version_latest":"3.26.1",
+	"ts_publish":1756459944000,
+	"dt_publish":"2025-08-29 17:32:24.000",
+	"ts_update":1756462612374,
+	"dt_update":"2025-08-29 18:16:03.219",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"license":"Apache 2.0",
-	"ranking":"#671019 in MvnRepository",
+	"ranking":"#669442 in MvnRepository",
 	"tags":[
 		"binding",
 		"quarkus",
@@ -32,6 +34,38 @@
 		"xml"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.25.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.25.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -159,38 +193,7 @@
 			"usage":0,
 			"version":"3.23.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250515",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.23.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250514",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.22.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.22.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.22.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }
