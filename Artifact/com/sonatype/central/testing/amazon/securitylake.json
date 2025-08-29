@@ -3,20 +3,22 @@
 	"description":"The AWS Java SDK for Security Lake module holds the client classes that are used for\n        communicating with Security Lake.",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"securitylake",
-	"version_latest":"9.9.12",
-	"ts_publish":1756402370000,
-	"dt_publish":"2025-08-29 01:32:50.000",
-	"ts_update":1756404003289,
-	"dt_update":"2025-08-29 01:56:05.220",
+	"version_latest":"12.12.13",
+	"ts_publish":1756493213000,
+	"dt_publish":"2025-08-30 02:46:53.000",
+	"ts_update":1756494783729,
+	"dt_update":"2025-08-30 03:11:58.456",
 	"count_dep":33,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.sonatype.central.testing.amazon/securitylake@9.9.12",
 	"count_used_by":2,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"ranking":"#231142 in MvnRepository",
+	"ranking":"#243305 in MvnRepository",
 	"tags":[
 		"quality",
 		"amazon",
@@ -27,7 +29,15 @@
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
+			"version":"9.9.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"9.9.11",
 			"vulnerabilities":""
 		},
@@ -63,5 +73,6 @@
 			"version":"3.5.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }
