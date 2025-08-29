@@ -1,15 +1,14 @@
 {
 	"id":"pkg:maven/com.vaadin/vaadin-internal",
-	"description":"Vaadin Platform",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-internal",
-	"version_latest":"24.9.0-beta1",
-	"ts_publish":1756387565000,
-	"dt_publish":"2025-08-28 21:26:05.000",
-	"ts_update":1756389080772,
-	"dt_update":"2025-08-28 21:50:25.481",
-	"count_dep":85,
-	"count_ref":7,
+	"version_latest":"24.9.0-beta2",
+	"ts_publish":1756474535000,
+	"dt_publish":"2025-08-29 21:35:35.000",
+	"ts_update":1756475288352,
+	"dt_update":"2025-08-29 21:47:48.574",
+	"count_dep":9,
+	"count_ref":6,
 	"licenses":[
 		"Apache License Version 2.0"
 	],
@@ -22,12 +21,20 @@
 	"url_scm":"https://github.com/vaadin/platform/vaadin-internal",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#96939 in MvnRepository",
+	"ranking":"#97014 in MvnRepository",
 	"tags":[
 		"web-framework",
 		"vaadin"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"beta",
+			"usage":5,
+			"version":"24.9.0-beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -90,6 +97,14 @@
 			"type":"release",
 			"usage":5,
 			"version":"24.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"24.7.13",
 			"vulnerabilities":""
 		},
 		{
@@ -170,22 +185,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"24.7.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"24.7.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"24.7.1",
 			"vulnerabilities":""
 		}
 	]
