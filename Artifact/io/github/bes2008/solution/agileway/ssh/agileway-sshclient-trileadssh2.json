@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/io.github.bes2008.solution.agileway.ssh/agileway-sshclient-trileadssh2",
-	"description":"Java frameworks extensions: servlet, httpclient, spring, ... etc",
+	"description":"Java frameworks extensions: servlet, httpclient, spring, shell, ssh, vfs, syslog, audit, jwt, ... etc",
 	"group_id":"io.github.bes2008.solution.agileway.ssh",
 	"artifact_id":"agileway-sshclient-trileadssh2",
-	"version_latest":"5.2.7",
-	"ts_publish":1756191687000,
-	"dt_publish":"2025-08-26 15:01:27.000",
-	"ts_update":1756192624808,
-	"dt_update":"2025-08-26 15:15:40.448",
-	"count_dep":7,
+	"version_latest":"5.3.0",
+	"ts_publish":1756434915000,
+	"dt_publish":"2025-08-29 10:35:15.000",
+	"ts_update":1756435424288,
+	"dt_update":"2025-08-29 10:42:12.210",
+	"count_dep":8,
 	"count_ref":5,
 	"licenses":[
 		"Apache 2"
@@ -22,13 +22,29 @@
 	"url_scm":"scm:git:https://github.com/bes2008/agileway.git/agileway-ssh/agileway-sshclient-trileadssh2",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#194202 in MvnRepository",
+	"ranking":"#194286 in MvnRepository",
 	"tags":[
 		"network",
 		"github",
 		"ssh"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250821",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240130",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230607",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.3.1",
 			"vulnerabilities":""
 		}
 	]

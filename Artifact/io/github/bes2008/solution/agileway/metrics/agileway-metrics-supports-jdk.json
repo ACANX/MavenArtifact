@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/io.github.bes2008.solution.agileway.metrics/agileway-metrics-supports-jdk",
-	"description":"Java frameworks extensions: servlet, httpclient, spring, ... etc",
+	"description":"Java frameworks extensions: servlet, httpclient, spring, shell, ssh, vfs, syslog, audit, jwt, ... etc",
 	"group_id":"io.github.bes2008.solution.agileway.metrics",
 	"artifact_id":"agileway-metrics-supports-jdk",
-	"version_latest":"5.2.7",
-	"ts_publish":1756191687000,
-	"dt_publish":"2025-08-26 15:01:27.000",
-	"ts_update":1756192580037,
-	"dt_update":"2025-08-26 15:15:41.177",
-	"count_dep":5,
+	"version_latest":"5.3.0",
+	"ts_publish":1756434915000,
+	"dt_publish":"2025-08-29 10:35:15.000",
+	"ts_update":1756435422305,
+	"dt_update":"2025-08-29 10:42:11.146",
+	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2"
@@ -21,7 +21,7 @@
 	],
 	"url_scm":"scm:git:https://github.com/bes2008/agileway.git/agileway-metrics/agileway-metrics-supports-jdk",
 	"license":"Apache 2.0",
-	"ranking":"#903241 in MvnRepository",
+	"ranking":"#918448 in MvnRepository",
 	"tags":[
 		"github",
 		"support",
@@ -29,6 +29,14 @@
 		"jdk"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.2.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240130",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.4.0",
 			"vulnerabilities":""
 		}
 	]

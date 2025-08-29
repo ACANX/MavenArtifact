@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/io.github.bes2008.solution.agileway/agileway-shell",
-	"description":"Java frameworks extensions: servlet, httpclient, spring, ... etc",
+	"description":"Java frameworks extensions: servlet, httpclient, spring, shell, ssh, vfs, syslog, audit, jwt, ... etc",
 	"group_id":"io.github.bes2008.solution.agileway",
 	"artifact_id":"agileway-shell",
-	"version_latest":"5.2.7",
-	"ts_publish":1756191687000,
-	"dt_publish":"2025-08-26 15:01:27.000",
-	"ts_update":1756192558623,
-	"dt_update":"2025-08-26 15:15:41.171",
-	"count_dep":16,
+	"version_latest":"5.3.0",
+	"ts_publish":1756434915000,
+	"dt_publish":"2025-08-29 10:35:15.000",
+	"ts_update":1756435340269,
+	"dt_update":"2025-08-29 10:42:11.744",
+	"count_dep":17,
 	"count_ref":1,
 	"licenses":[
 		"Apache 2"
@@ -20,19 +20,35 @@
 		"bes2008"
 	],
 	"url_scm":"scm:git:https://github.com/bes2008/agileway.git/agileway-shell",
-	"count_used_by":1,
+	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#424935 in MvnRepository",
+	"ranking":"#251780 in MvnRepository",
 	"tags":[
 		"github",
 		"shell"
 	],
 	"versions":[
 		{
-			"date":"20250821",
+			"date":"20250826",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"5.2.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"5.2.5",
 			"vulnerabilities":""
 		},

@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/io.github.bes2008.solution.agileway/agileway-vfs",
-	"description":"Java frameworks extensions: servlet, httpclient, spring, ... etc",
+	"description":"Java frameworks extensions: servlet, httpclient, spring, shell, ssh, vfs, syslog, audit, jwt, ... etc",
 	"group_id":"io.github.bes2008.solution.agileway",
 	"artifact_id":"agileway-vfs",
-	"version_latest":"5.2.7",
-	"ts_publish":1756191687000,
-	"dt_publish":"2025-08-26 15:01:27.000",
-	"ts_update":1756192574684,
-	"dt_update":"2025-08-26 15:15:39.821",
-	"count_dep":14,
+	"version_latest":"5.3.0",
+	"ts_publish":1756434915000,
+	"dt_publish":"2025-08-29 10:35:15.000",
+	"ts_update":1756435379930,
+	"dt_update":"2025-08-29 10:42:12.206",
+	"count_dep":15,
 	"count_ref":4,
 	"licenses":[
 		"Apache 2"
@@ -22,17 +22,25 @@
 	"url_scm":"scm:git:https://github.com/bes2008/agileway.git/agileway-vfs",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#328098 in MvnRepository",
+	"ranking":"#328776 in MvnRepository",
 	"tags":[
 		"github",
 		"filesystem"
 	],
 	"versions":[
 		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.7",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250825",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"5.2.6",
 			"vulnerabilities":""
 		},
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240130",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.4.0",
 			"vulnerabilities":""
 		}
 	]
