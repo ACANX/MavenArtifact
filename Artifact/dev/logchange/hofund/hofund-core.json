@@ -3,12 +3,12 @@
 	"description":"Core hofund classes allowing to publish prometheus metrics",
 	"group_id":"dev.logchange.hofund",
 	"artifact_id":"hofund-core",
-	"version_latest":"2.10.0",
-	"ts_publish":1755436245000,
-	"dt_publish":"2025-08-17 21:10:45.000",
-	"ts_update":1755438030163,
-	"dt_update":"2025-08-17 21:40:06.800",
-	"count_dep":8,
+	"version_latest":"2.10.1",
+	"ts_publish":1756543631000,
+	"dt_publish":"2025-08-30 16:47:11.000",
+	"ts_update":1756544206942,
+	"dt_update":"2025-08-30 16:55:58.568",
+	"count_dep":9,
 	"count_ref":5,
 	"licenses":[
 		"Apache License 2.0"
@@ -22,8 +22,24 @@
 	"url_scm":"https://github.com/logchange/hofund.git/hofund-core",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#229354 in MvnRepository",
+	"ranking":"#206170 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250817",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.10.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.9.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -166,22 +182,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230221",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220826",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.3.0",
 			"vulnerabilities":""
 		}
 	]
