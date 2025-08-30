@@ -3,13 +3,13 @@
 	"description":"Support for writing concise expressive tests for Grails Web Artifacts",
 	"group_id":"org.apache.grails",
 	"artifact_id":"grails-testing-support-datamapping",
-	"version_latest":"7.0.0-M5",
-	"ts_publish":1752074015000,
-	"dt_publish":"2025-07-09 23:13:35.000",
-	"ts_update":1754517809233,
-	"dt_update":"2025-08-07 06:03:04.344",
+	"version_latest":"7.0.0-RC1",
+	"ts_publish":1754322661000,
+	"dt_publish":"2025-08-04 23:51:01.000",
+	"ts_update":1756571799806,
+	"dt_update":"2025-08-31 00:17:28.378",
 	"count_dep":34,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -24,7 +24,7 @@
 	"url_scm":"https://github.com/apache/grails-core",
 	"home_page":"https://github.com/apache/grails-core",
 	"license":"Apache 2.0",
-	"ranking":"#710500 in MvnRepository",
+	"ranking":"#317418 in MvnRepository",
 	"tags":[
 		"quality",
 		"support",
@@ -34,6 +34,14 @@
 		"grails"
 	],
 	"versions":[
+		{
+			"date":"20250804",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.0.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250715",
 			"repository":"Central",
@@ -50,5 +58,6 @@
 			"version":"7.0.0-M4",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
