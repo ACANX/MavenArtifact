@@ -3,13 +3,13 @@
 	"description":"Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
 	"group_id":"org.apache.tika",
 	"artifact_id":"tika-parser-digest-commons",
-	"version_latest":"3.2.1",
-	"ts_publish":1750958164000,
-	"dt_publish":"2025-06-27 01:16:04.000",
-	"ts_update":1754517804260,
-	"dt_update":"2025-08-07 06:02:10.335",
+	"version_latest":"3.2.2",
+	"ts_publish":1754499860000,
+	"dt_publish":"2025-08-07 01:04:20.000",
+	"ts_update":1756570689093,
+	"dt_update":"2025-08-31 00:17:31.473",
 	"count_dep":11,
-	"count_ref":27,
+	"count_ref":13,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -47,7 +47,7 @@
 	"url_ci_management":"https://ci-builds.apache.org/job/Tika/",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#69982 in MvnRepository",
+	"ranking":"#68417 in MvnRepository",
 	"tags":[
 		"digest",
 		"parser",
@@ -56,6 +56,14 @@
 		"commons"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250709",
 			"repository":"Central",
@@ -206,14 +214,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211219",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.2.0",
 			"vulnerabilities":""
 		}
 	]

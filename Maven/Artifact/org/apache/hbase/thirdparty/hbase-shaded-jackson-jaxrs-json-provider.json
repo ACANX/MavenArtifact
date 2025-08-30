@@ -1,0 +1,21 @@
+{
+  "id": "pkg:maven/org.apache.hbase.thirdparty/hbase-shaded-jackson-jaxrs-json-provider",
+  "description": "Pulls down jackson-jaxrs-json-provider, relocates it, and rewrites its usage of javax.ws.rs\n        classes to make the relocated versions provided by hbase-shaded-jersey. Does NOT\n        include/relocate its entire dependency graph, just performs this isolated transform.\n\n        This is a separate module because jackson-jaxrs-json-provider is not used universally. At\n        this time, the dependency is required only by hbase-rest.",
+  "group_id": "org.apache.hbase.thirdparty",
+  "artifact_id": "hbase-shaded-jackson-jaxrs-json-provider",
+  "version_latest": "4.1.12",
+  "ts_publish": 1754665239000,
+  "dt_publish": "2025-08-08 23:00:39.000",
+  "ts_update": 1756570660778,
+  "dt_update": "2025-08-31 00:17:40.778",
+  "count_dep": 6,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": [
+    "Big Data",
+    "Databases"
+  ],
+  "dsv": 1
+}

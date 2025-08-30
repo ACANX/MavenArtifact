@@ -3,13 +3,13 @@
 	"description":"Camel Atom support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-atom",
-	"version_latest":"4.13.0",
-	"ts_publish":1751639915000,
-	"dt_publish":"2025-07-04 22:38:35.000",
-	"ts_update":1755364411408,
-	"dt_update":"2025-08-17 00:17:51.199",
+	"version_latest":"4.14.0",
+	"ts_publish":1755263442000,
+	"dt_publish":"2025-08-15 21:10:42.000",
+	"ts_update":1756570707066,
+	"dt_update":"2025-08-31 00:17:54.466",
 	"count_dep":3,
-	"count_ref":6,
+	"count_ref":5,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,12 +20,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-atom@4.13.0",
 	"count_used_by":26,
 	"license":"Apache 2.0",
-	"ranking":"#18031 in MvnRepository",
+	"ranking":"#18087 in MvnRepository",
 	"tags":[
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240915",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.8.0",
 			"vulnerabilities":""
 		}
 	]
