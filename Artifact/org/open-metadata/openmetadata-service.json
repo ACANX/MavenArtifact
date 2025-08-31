@@ -3,11 +3,11 @@
 	"description":"is an all-in-one platform for data discovery, data lineage, data quality, observability, governance,\n    and team collaboration. It is one of the fastest growing open-source projects with a vibrant community and\n    adoption by a diverse set of companies in a variety of industry verticals. Powered by a centralized metadata store\n    based on Open Metadata Standards/APIs, supporting connectors to a wide range of data services,\n    OpenMetadata enables end-to-end metadata management, giving you the freedom to unlock the value of your data assets.",
 	"group_id":"org.open-metadata",
 	"artifact_id":"openmetadata-service",
-	"version_latest":"1.9.3",
-	"ts_publish":1756117591000,
-	"dt_publish":"2025-08-25 18:26:31.000",
-	"ts_update":1756119146990,
-	"dt_update":"2025-08-25 18:52:01.061",
+	"version_latest":"1.9.5",
+	"ts_publish":1756619529000,
+	"dt_publish":"2025-08-31 13:52:09.000",
+	"ts_update":1756621248193,
+	"dt_update":"2025-08-31 14:20:39.209",
 	"count_dep":878,
 	"count_ref":2,
 	"licenses":[
@@ -22,13 +22,29 @@
 	"url_scm":"scm:git:git@github.com:Open-Metadata/OpenMetadata/openmetadata-service",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#128764 in MvnRepository",
+	"ranking":"#129048 in MvnRepository",
 	"tags":[
 		"data",
 		"service",
 		"metadata"
 	],
 	"versions":[
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.9.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250821",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.7.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250418",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.7.0",
 			"vulnerabilities":""
 		}
 	]
