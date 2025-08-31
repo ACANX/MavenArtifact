@@ -3,11 +3,11 @@
 	"description":"A set of extensions for Jetty 11.x and higher which provide instrumentation of thread pools, connector\n        metrics, and application latency and utilization.",
 	"group_id":"io.dropwizard.metrics5",
 	"artifact_id":"metrics-jetty11",
-	"version_latest":"5.0.3",
-	"ts_publish":1756413001000,
-	"dt_publish":"2025-08-29 04:30:01.000",
-	"ts_update":1756413984083,
-	"dt_update":"2025-08-29 04:46:08.526",
+	"version_latest":"5.0.4",
+	"ts_publish":1756669811000,
+	"dt_publish":"2025-09-01 03:50:11.000",
+	"ts_update":1756670189661,
+	"dt_update":"2025-09-01 03:55:56.997",
 	"count_dep":15,
 	"count_ref":1,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/dropwizard/metrics/metrics-jetty11/",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#282120 in MvnRepository",
+	"ranking":"#282477 in MvnRepository",
 	"tags":[
 		"bundle",
 		"server",
@@ -39,6 +39,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.0.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"5.0.0-rc10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211215",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.0.0-rc9",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"An Apache HttpClient wrapper providing Metrics instrumentation of connection pools, request\n        durations and rates, and other useful information.",
 	"group_id":"io.dropwizard.metrics",
 	"artifact_id":"metrics-httpclient",
-	"version_latest":"4.2.35",
-	"ts_publish":1756412868000,
-	"dt_publish":"2025-08-29 04:27:48.000",
-	"ts_update":1756414067070,
-	"dt_update":"2025-08-29 04:46:10.102",
+	"version_latest":"4.2.36",
+	"ts_publish":1756669424000,
+	"dt_publish":"2025-09-01 03:43:44.000",
+	"ts_update":1756670202404,
+	"dt_update":"2025-09-01 03:55:57.499",
 	"count_dep":10,
 	"count_ref":1,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/dropwizard/metrics/metrics-httpclient/",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#38529 in MvnRepository",
+	"ranking":"#38568 in MvnRepository",
 	"tags":[
 		"bundle",
 		"dropwizard",
@@ -39,6 +39,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.2.35",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250824",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.2.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221219",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.2.14",
 			"vulnerabilities":""
 		}
 	]
