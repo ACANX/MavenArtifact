@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-repository-zip",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-repository-zip",
-	"version_latest":"12.11.0",
-	"ts_publish":1755611672000,
-	"dt_publish":"2025-08-19 21:54:32.000",
-	"ts_update":1755613005959,
-	"dt_update":"2025-08-19 22:15:49.537",
-	"count_dep":2,
-	"count_ref":5,
-	"licenses":[],
+	"version_latest":"12.13.0",
+	"ts_publish":1756221403000,
+	"dt_publish":"2025-08-26 23:16:43.000",
+	"ts_update":1756223283115,
+	"dt_update":"2025-08-26 23:46:43.036",
+	"count_dep":31,
+	"count_ref":3,
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,13 +25,37 @@
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-repository-parent/dirigible-repository-zip",
 	"count_used_by":8,
 	"license":"EPL 2.0",
-	"ranking":"#56867 in MvnRepository",
+	"ranking":"#56951 in MvnRepository",
 	"tags":[
 		"repository",
 		"zip",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.11.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -165,30 +191,7 @@
 			"usage":1,
 			"version":"11.61.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.60.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.59.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250616",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.58.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Core modules packaged with Dirigible"
 }

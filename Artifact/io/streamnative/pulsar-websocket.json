@@ -3,11 +3,11 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-websocket",
-	"version_latest":"4.0.6.1",
-	"ts_publish":1754882076000,
-	"ts_update":1754882684517,
-	"count_dep":163,
-	"count_ref":4,
+	"version_latest":"4.1.0.0",
+	"ts_publish":1756192252000,
+	"ts_update":1756193221322,
+	"count_dep":197,
+	"count_ref":7,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,7 +22,7 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#156924 in MvnRepository",
+	"ranking":"#156538 in MvnRepository",
 	"tags":[
 		"pulsar",
 		"websocket",
@@ -30,6 +30,22 @@
 		"socket"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.6.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.6.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -173,24 +189,8 @@
 			"usage":3,
 			"version":"4.0.0.5",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241114",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.0.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241107",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.0.3",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-08-11 11:14:36.000",
-	"dt_update":"2025-08-11 11:24:19.228"
+	"dt_publish":"2025-08-26 15:10:52.000",
+	"dt_update":"2025-08-26 15:25:51.625"
 }

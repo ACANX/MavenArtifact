@@ -3,12 +3,12 @@
 	"description":"Service monitor component for hosted vespa.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"service-monitor",
-	"version_latest":"8.568.7",
-	"ts_publish":1755688895000,
-	"dt_publish":"2025-08-20 19:21:35.000",
-	"ts_update":1755689437161,
-	"dt_update":"2025-08-20 19:29:29.149",
-	"count_dep":70,
+	"version_latest":"8.572.77",
+	"ts_publish":1756728249000,
+	"dt_publish":"2025-09-01 20:04:09.000",
+	"ts_update":1756729634352,
+	"dt_update":"2025-09-01 20:25:54.689",
+	"count_dep":37,
 	"count_ref":2,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -26,17 +26,33 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/service-monitor",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#148986 in MvnRepository",
+	"ranking":"#149012 in MvnRepository",
 	"tags":[
 		"monitor",
 		"service"
 	],
 	"versions":[
 		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.570.34",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.568.7",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250819",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"8.567.16",
 			"vulnerabilities":""
 		},
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.545.40",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250703",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.544.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.543.14",
 			"vulnerabilities":""
 		}
 	]

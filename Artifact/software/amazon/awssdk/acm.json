@@ -3,9 +3,9 @@
 	"description":"The AWS Java SDK for AWS Certificate Manager module holds the client classes that are used for\n        communicating with AWS Certificate Manager service.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"acm",
-	"version_latest":"2.32.27",
-	"ts_publish":1755727114000,
-	"ts_update":1755728839982,
+	"version_latest":"2.32.31",
+	"ts_publish":1756253968000,
+	"ts_update":1756257084764,
 	"count_dep":4,
 	"count_ref":1,
 	"licenses":[],
@@ -15,12 +15,12 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/acm@2.32.16",
-	"dt_publish":"2025-08-21 05:58:34.000",
-	"dt_update":"2025-08-21 06:26:08.122",
+	"dt_publish":"2025-08-27 08:19:28.000",
+	"dt_update":"2025-08-27 08:55:57.603",
 	"count_used_by":17,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#28056 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#28060 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.32.27",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250819",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.32.26",
 			"vulnerabilities":""
 		},
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.32.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.32.7",
 			"vulnerabilities":""
 		}
 	]

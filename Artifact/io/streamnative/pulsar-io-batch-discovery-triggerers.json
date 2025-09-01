@@ -2,12 +2,14 @@
 	"id":"pkg:maven/io.streamnative/pulsar-io-batch-discovery-triggerers",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-io-batch-discovery-triggerers",
-	"version_latest":"4.0.6.1",
-	"ts_publish":1754882076000,
-	"ts_update":1754882685318,
-	"count_dep":15,
+	"version_latest":"4.1.0.0",
+	"ts_publish":1756192253000,
+	"ts_update":1756193193542,
+	"count_dep":32,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,11 +19,11 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-io/pulsar-io-batch-discovery-triggerers",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-08-11 11:14:36.000",
-	"dt_update":"2025-08-11 11:24:18.669",
+	"dt_publish":"2025-08-26 15:10:53.000",
+	"dt_update":"2025-08-26 15:25:50.982",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#131082 in MvnRepository",
+	"ranking":"#131545 in MvnRepository",
 	"tags":[
 		"batch",
 		"io",
@@ -29,6 +31,22 @@
 		"discovery"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.6.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.6.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -172,22 +190,7 @@
 			"usage":3,
 			"version":"4.0.0.5",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241114",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.0.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241107",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.0.3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API."
 }

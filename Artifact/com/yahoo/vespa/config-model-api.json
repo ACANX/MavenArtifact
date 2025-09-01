@@ -1,15 +1,14 @@
 {
 	"id":"pkg:maven/com.yahoo.vespa/config-model-api",
-	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"config-model-api",
-	"version_latest":"8.568.7",
-	"ts_publish":1755688895000,
-	"dt_publish":"2025-08-20 19:21:35.000",
-	"ts_update":1755689402190,
-	"dt_update":"2025-08-20 19:29:27.260",
-	"count_dep":45,
-	"count_ref":14,
+	"version_latest":"8.572.77",
+	"ts_publish":1756728249000,
+	"dt_publish":"2025-09-01 20:04:09.000",
+	"ts_update":1756729572097,
+	"dt_update":"2025-09-01 20:25:56.895",
+	"count_dep":10,
+	"count_ref":13,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,13 +25,45 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/config-model-api",
 	"count_used_by":17,
 	"license":"Apache 2.0",
-	"ranking":"#26751 in MvnRepository",
+	"ranking":"#26812 in MvnRepository",
 	"tags":[
 		"model",
 		"config",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.571.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.570.34",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.568.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.567.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -160,38 +191,7 @@
 			"usage":13,
 			"version":"8.546.13",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.545.40",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250703",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.544.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.543.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.542.42",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

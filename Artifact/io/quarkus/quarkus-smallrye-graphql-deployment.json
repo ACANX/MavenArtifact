@@ -3,12 +3,12 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-smallrye-graphql-deployment",
-	"version_latest":"3.26.0",
-	"ts_publish":1755684782000,
-	"dt_publish":"2025-08-20 18:13:02.000",
-	"ts_update":1755686432492,
-	"dt_update":"2025-08-20 18:39:42.252",
-	"count_dep":126,
+	"version_latest":"3.26.1",
+	"ts_publish":1756459943000,
+	"dt_publish":"2025-08-29 17:32:23.000",
+	"ts_update":1756462602395,
+	"dt_update":"2025-08-29 18:16:05.233",
+	"count_dep":135,
 	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#84552 in MvnRepository",
+	"ranking":"#84694 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -36,11 +36,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250813",
 			"repository":"Central",
 			"type":"release",
 			"usage":4,
 			"version":"3.26.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.25.4",
 			"vulnerabilities":""
 		},
 		{
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250515",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.23.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250514",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.22.3",
 			"vulnerabilities":""
 		}
 	]

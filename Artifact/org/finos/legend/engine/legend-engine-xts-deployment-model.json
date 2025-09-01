@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-xts-deployment-model",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xts-deployment-model",
-	"version_latest":"4.96.1",
-	"ts_publish":1754601803000,
-	"dt_publish":"2025-08-08 05:23:23.000",
-	"ts_update":1754603350117,
-	"dt_update":"2025-08-08 05:48:34.368",
-	"count_dep":9,
+	"version_latest":"4.97.1",
+	"ts_publish":1756235396000,
+	"dt_publish":"2025-08-27 03:09:56.000",
+	"ts_update":1756237615195,
+	"dt_update":"2025-08-27 03:44:05.154",
+	"count_dep":15,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,13 +25,53 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-generation/legend-engine-xts-deployment-model",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#327654 in MvnRepository",
+	"ranking":"#323854 in MvnRepository",
 	"tags":[
 		"deployment",
 		"model",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.97.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.96.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250814",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.96.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.96.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.96.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -149,46 +191,7 @@
 			"usage":0,
 			"version":"4.88.11",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.88.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.88.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.88.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250606",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.88.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.88.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
 }

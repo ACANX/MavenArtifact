@@ -3,11 +3,11 @@
 	"description":"makes it easier to understand why a user has access to a resource or doesn't have permission to call an API. Given an email, resource, and permission, Policy Troubleshooter examines all Identity and Access Management (IAM) policies that apply to the resource. It then reveals whether the member's roles include the permission on that resource and, if so, which policies bind the member to those roles.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-policy-troubleshooter",
-	"version_latest":"1.71.0",
-	"ts_publish":1755124896000,
-	"dt_publish":"2025-08-14 06:41:36.000",
-	"ts_update":1755125882279,
-	"dt_update":"2025-08-14 06:55:57.434",
+	"version_latest":"1.72.0",
+	"ts_publish":1756168229000,
+	"dt_publish":"2025-08-26 08:30:29.000",
+	"ts_update":1756169796524,
+	"dt_update":"2025-08-26 08:55:50.131",
 	"count_dep":83,
 	"count_ref":0,
 	"licenses":[
@@ -27,13 +27,21 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#419121 in MvnRepository",
+	"ranking":"#420402 in MvnRepository",
 	"tags":[
 		"google",
 		"cloud",
 		"policy"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.71.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240913",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.48.0",
 			"vulnerabilities":""
 		}
 	]

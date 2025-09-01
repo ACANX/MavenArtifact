@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-h2",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-h2",
-	"version_latest":"12.11.0",
-	"ts_publish":1755611672000,
-	"dt_publish":"2025-08-19 21:54:32.000",
-	"ts_update":1755612972169,
-	"dt_update":"2025-08-19 22:15:50.954",
-	"count_dep":113,
-	"count_ref":0,
+	"version_latest":"12.14.0",
+	"ts_publish":1756388682000,
+	"dt_publish":"2025-08-28 21:44:42.000",
+	"ts_update":1756390652081,
+	"dt_update":"2025-08-28 22:15:31.770",
+	"count_dep":64,
+	"count_ref":1,
 	"licenses":[
 		"Eclipse Public License - v 2.0"
 	],
@@ -26,13 +26,37 @@
 	"count_used_by":96,
 	"home_page":"https://www.dirigible.io/",
 	"license":"EPL 2.0",
-	"ranking":"#5245 in MvnRepository",
+	"ranking":"#5250 in MvnRepository",
 	"tags":[
 		"database",
 		"data",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.11.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"11.61.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.60.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.59.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250616",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.58.0",
 			"vulnerabilities":""
 		}
 	],

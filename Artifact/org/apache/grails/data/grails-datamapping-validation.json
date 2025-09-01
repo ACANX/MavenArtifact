@@ -3,13 +3,13 @@
 	"description":"GORM - Grails Data Access Framework",
 	"group_id":"org.apache.grails.data",
 	"artifact_id":"grails-datamapping-validation",
-	"version_latest":"7.0.0-M5",
-	"ts_publish":1752073847000,
-	"dt_publish":"2025-07-09 23:10:47.000",
-	"ts_update":1754517819266,
-	"dt_update":"2025-08-07 06:03:02.412",
+	"version_latest":"7.0.0-RC1",
+	"ts_publish":1754322536000,
+	"dt_publish":"2025-08-04 23:48:56.000",
+	"ts_update":1756571810579,
+	"dt_update":"2025-08-31 00:17:27.522",
 	"count_dep":20,
-	"count_ref":30,
+	"count_ref":25,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,5 +25,42 @@
 		"James Fredley",
 		"Graeme Rocher"
 	],
-	"url_scm":"https://github.com/apache/grails-core"
+	"url_scm":"https://github.com/apache/grails-core",
+	"count_used_by":4,
+	"home_page":"https://github.com/apache/grails-core",
+	"license":"Apache 2.0",
+	"ranking":"#112431 in MvnRepository",
+	"tags":[
+		"data",
+		"apache",
+		"groovy",
+		"grails",
+		"validation"
+	],
+	"versions":[
+		{
+			"date":"20250804",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"7.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250715",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":4,
+			"version":"7.0.0-M5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250610",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":4,
+			"version":"7.0.0-M4",
+			"vulnerabilities":""
+		}
+	]
 }

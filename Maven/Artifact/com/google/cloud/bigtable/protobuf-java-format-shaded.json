@@ -1,0 +1,22 @@
+{
+  "id": "pkg:maven/com.google.cloud.bigtable/protobuf-java-format-shaded",
+  "description": "This is a wrapper around `com.googlecode.protobuf-java-format:protobuf-java-format` that rewrites the bytecode to use `org.apache.hadoop.hbase.shaded.com.google.protobuf` instead of plain\n    `com.google.protobuf` for compatibility with `hbase-shaded-client`. Classes using shaded protobufs are exposed in `com.google.bigtable.hbase.mirroring.shaded.com.googlecode.protobuf.format`\n    package.",
+  "group_id": "com.google.cloud.bigtable",
+  "artifact_id": "protobuf-java-format-shaded",
+  "version_latest": "0.10.3",
+  "ts_publish": 1756240331000,
+  "dt_publish": "2025-08-27 04:32:11.000",
+  "ts_update": 1756243553240,
+  "dt_update": "2025-08-27 05:25:53.240",
+  "count_dep": 0,
+  "count_ref": 1,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": [
+    "Data Management",
+    "Database",
+    "NoSQL Databases"
+  ],
+  "dsv": 1
+}

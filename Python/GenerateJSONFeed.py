@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from urllib.parse import quote
 
-def read_and_process_maven_artifacts(expire_hours=2):
+def read_and_process_maven_artifacts(expire_hours=3):
     """
     读取、处理并返回符合条件的 Maven 构件信息
     Args:
@@ -101,16 +101,20 @@ def generate_json_feed():
     # 创建JSON Feed的基本结构
     feed = {
         "version": "https://jsonfeed.org/version/1.1",
-        "title": "构件发布队列 - Maven中央仓库Feed",
-        "home_page_url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/",
+        "title": "构件发布Feed - Maven中央仓库",
+        "home_page_url": "https://github.com/ACANX/MavenArtifact/tree/latest",
         "feed_url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/ReleaseQueue.json",
         "description": "Maven构件发布队列 - Powered by Maven中央仓库Feed",
         "icon": "https://unavatar.webp.se/central.sonatype.com?fallback=true",
         "favicon": "https://unavatar.webp.se/central.sonatype.com?fallback=True",
         "authors": [
             {
-                "name": "Maven中央仓库Feed",
-                "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/"
+                "name": "Maven中央仓库",
+                "url": "https://central.sonatype.com/search"
+            },
+            {
+                "name": "ACANX",
+                "url": "https://github.com/ACANX/MavenArtifact/tree/latest"
             }
         ],
         "items": []
@@ -125,8 +129,8 @@ def generate_json_feed():
         
         # 尝试读取构件元数据文件
         artifact_paths = [
-            f"../Maven/Artifact/{group_id_path}/{artifact_id}.json",
-            f"../Artifact/{group_id_path}/{artifact_id}.json"
+            f"../Artifact/{group_id_path}/{artifact_id}.json",
+            f"../Maven/Artifact/{group_id_path}/{artifact_id}.json"
         ]
         
         metadata = None
@@ -153,12 +157,13 @@ def generate_json_feed():
         ts_update = metadata.get('ts_update', 0)
         tags = metadata.get('tags', [])
         contributors = metadata.get('contributors', [])
+
         # 生成item
         item = {}
         # id节点
         item['id'] = f"{id_val}@{version_latest}"
         # url节点
-        item['url'] = "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/"
+        item['url'] = f"https://central.sonatype.com/artifact/{group_id_from_meta}/{artifact_id_from_meta}"
         # title节点
         if description:
             item['title'] = f"{group_id_from_meta}:{artifact_id_from_meta} {version_latest} 发布, {description}"
@@ -167,7 +172,40 @@ def generate_json_feed():
         # content_html节点
         escaped_title = item['title'].replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
         svg_url = f"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/{group_id_path}/{artifact_id}.svg"
-        item['content_html'] = f"<img src=\"{svg_url}\" alt=\"{escaped_title}\">{group_id_from_meta}:{artifact_id_from_meta} {version_latest} 发布</img>"
+        # Maven仓库中查看此构件
+        url_maven = f"https://repo1.maven.org/maven2/{group_id_path}/{artifact_id}/{version_latest}/"
+        # MvnRepository中查看此构件
+        url_mvnrepo = f"https://mvnrepository.com/artifact/{group_id}/{artifact_id}/{version_latest}"
+        # 项目网址
+        url_project = metadata.get('url_project', "")
+        # 项目仓库
+        url_scm = metadata.get('url_scm', "")
+        # 项目HomePage
+        url_home_page = metadata.get('home_page', "")
+
+        segment_project = f"<a href=\"{url_project}\"><p><span>项目网址</span></p></a></br>"  if url_project else ""
+        segment_scm = f"<a href=\"{url_scm}\"><p><span>仓库地址</span></p></a><br>"  if url_scm else ""
+        segment_home_page = f"<a href=\"{url_home_page}\"><p><span>HomePage</span></p></a></br>"  if url_home_page else ""
+        
+        # <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg\" width=\"100\" height=\"100\" alt=\"{escaped_title}\"/></br>        
+        item['content_html'] = f"""<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"{group_id_from_meta}:{artifact_id_from_meta}@{version_latest}\"/></br>
+          <img src=\"{svg_url}\" alt=\"{escaped_title}\"/></br>
+          <a href=\"{url_maven}\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>
+          <a href=\"{item['url']}\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>
+          <a href=\"{url_mvnrepo}\"><p><span>MvnRepository中查看此构件</span></p></a></br>
+          {segment_project}
+          {segment_scm}
+          {segment_home_page}
+          <h3>GAV坐标<h3>
+          <pre>
+            <code class=\"language-xml\">    &lt;dependency&gt;
+        &lt;groupId&gt;{group_id_from_meta}&lt;/groupId&gt;
+        &lt;artifactId&gt;{artifact_id_from_meta}&lt;/artifactId&gt;
+        &lt;version&gt;{version_latest}&lt;/version&gt;
+    &lt;/dependency&gt;
+            </code>
+          </pre>
+        """
         
         # content_text和summary节点
         item['content_text'] = item['title']
@@ -191,7 +229,7 @@ def generate_json_feed():
         # attachments节点
         item['attachments'] = [
             {
-                "url": svg_url,
+                "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
                 "mime_type": "image/svg+xml",
                 "title": "最新版本元数据信息SVG",
                 "size_in_bytes": 12345678,

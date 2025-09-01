@@ -3,13 +3,13 @@
 	"description":"Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
 	"group_id":"org.apache.tika",
 	"artifact_id":"tika-parser-xml-module",
-	"version_latest":"3.2.1",
-	"ts_publish":1750958025000,
-	"dt_publish":"2025-06-27 01:13:45.000",
-	"ts_update":1754519250757,
-	"dt_update":"2025-08-07 06:02:10.340",
+	"version_latest":"3.2.2",
+	"ts_publish":1754499748000,
+	"dt_publish":"2025-08-07 01:02:28.000",
+	"ts_update":1756572967876,
+	"dt_update":"2025-08-31 00:17:31.020",
 	"count_dep":7,
-	"count_ref":28,
+	"count_ref":17,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -47,7 +47,7 @@
 	"url_ci_management":"https://ci-builds.apache.org/job/Tika/",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#43901 in MvnRepository",
+	"ranking":"#42147 in MvnRepository",
 	"tags":[
 		"module",
 		"parser",
@@ -56,6 +56,14 @@
 		"xml"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250709",
 			"repository":"Central",
@@ -206,14 +214,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"2.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211219",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.2.0",
 			"vulnerabilities":""
 		}
 	]

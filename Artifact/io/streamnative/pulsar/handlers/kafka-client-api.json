@@ -3,9 +3,9 @@
 	"description":"The Kafka client API without any Kafka dependency",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"kafka-client-api",
-	"version_latest":"4.0.6.1",
-	"ts_publish":1754882853000,
-	"ts_update":1754884564195,
+	"version_latest":"4.1.0.0",
+	"ts_publish":1756272593000,
+	"ts_update":1756274201653,
 	"count_dep":2,
 	"count_ref":2,
 	"licenses":[
@@ -15,11 +15,11 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/kafka-client-api/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/kafka-client-api@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/kafka-client-api",
-	"dt_publish":"2025-08-11 11:27:33.000",
-	"dt_update":"2025-08-11 11:55:38.833",
+	"dt_publish":"2025-08-27 13:29:53.000",
+	"dt_update":"2025-08-27 13:55:49.640",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#244080 in MvnRepository",
+	"ranking":"#244646 in MvnRepository",
 	"tags":[
 		"streaming",
 		"kafka",
@@ -28,6 +28,22 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.6.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.6.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.0.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241120",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.0.5",
 			"vulnerabilities":""
 		}
 	]

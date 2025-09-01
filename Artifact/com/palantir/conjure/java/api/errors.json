@@ -3,11 +3,11 @@
 	"description":"Palantir open source project",
 	"group_id":"com.palantir.conjure.java.api",
 	"artifact_id":"errors",
-	"version_latest":"2.63.0-rc1",
-	"ts_publish":1755112212000,
-	"dt_publish":"2025-08-14 03:10:12.000",
-	"ts_update":1755114256890,
-	"dt_update":"2025-08-14 03:44:08.740",
+	"version_latest":"2.64.0",
+	"ts_publish":1756408103000,
+	"dt_publish":"2025-08-29 03:08:23.000",
+	"ts_update":1756409178730,
+	"dt_update":"2025-08-29 03:25:54.159",
 	"count_dep":10,
 	"count_ref":1,
 	"licenses":[
@@ -23,20 +23,36 @@
 		"Palantir Technologies Inc"
 	],
 	"url_scm":"git@github.com:palantir/conjure-java-runtime-api.git",
-	"count_used_by":22,
+	"count_used_by":24,
 	"home_page":"https://github.com/palantir/conjure-java-runtime-api",
 	"license":"Apache 2.0",
-	"ranking":"#21127 in MvnRepository",
+	"ranking":"#19473 in MvnRepository",
 	"tags":[
 		"palantir",
 		"api"
 	],
 	"versions":[
 		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.63.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.63.0-rc1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250731",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":13,
 			"version":"2.62.0",
 			"vulnerabilities":""
 		},
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"2.47.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240207",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.46.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240124",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.45.0",
 			"vulnerabilities":""
 		}
 	]

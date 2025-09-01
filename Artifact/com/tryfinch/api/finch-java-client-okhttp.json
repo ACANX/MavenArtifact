@@ -3,11 +3,11 @@
 	"description":"The Finch HRIS API provides a unified way to connect to a multitide of HRIS\nsystems. The API requires an access token issued by Finch.\n\nBy default, Organization and Payroll requests use Finch's\n[Data Syncs](/developer-resources/Data-Syncs). If a request is made before the\ninitial sync has completed, Finch will request data live from the provider. The\nlatency on live requests may range from seconds to minutes depending on the\nprovider and batch size. For automated integrations, Deductions requests (both\nread and write) are always made live to the provider. Latencies may range from\nseconds to minutes depending on the provider and batch size.\n\nEmployer products are specified by the product parameter, a space-separated list\nof products that your application requests from an employer authenticating\nthrough Finch Connect. Valid product names are—\n\n- `company`: Read basic company data\n\n- `directory`: Read company directory and organization structure\n\n- `individual`: Read individual data, excluding income and employment data\n\n- `employment`: Read individual employment and income data\n\n- `payment`: Read payroll and contractor related payments by the company\n\n- `pay_statement`: Read detailed pay statements for each individual\n\n- `benefits`: Create and manage deductions and contributions and enrollment for\n  an employer\n\n[![Open in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/21027137-08db0929-883d-4094-a9ce-dbf5a9bee4a4?action=collection%2Ffork&collection-url=entityId%3D21027137-08db0929-883d-4094-a9ce-dbf5a9bee4a4%26entityType%3Dcollection%26workspaceId%3D1edf19bc-e0a8-41e9-ac55-481a4b50790b)",
 	"group_id":"com.tryfinch.api",
 	"artifact_id":"finch-java-client-okhttp",
-	"version_latest":"7.5.1",
-	"ts_publish":1755547092000,
-	"dt_publish":"2025-08-19 03:58:12.000",
-	"ts_update":1755549273495,
-	"dt_update":"2025-08-19 04:33:47.505",
+	"version_latest":"7.5.2",
+	"ts_publish":1755790854000,
+	"dt_publish":"2025-08-21 23:40:54.000",
+	"ts_update":1755792061748,
+	"dt_update":"2025-08-22 00:00:52.996",
 	"count_dep":11,
 	"count_ref":1,
 	"licenses":[
@@ -23,13 +23,21 @@
 	"count_used_by":1,
 	"home_page":"https://developer.tryfinch.com/",
 	"license":"Apache 2.0",
-	"ranking":"#363360 in MvnRepository",
+	"ranking":"#364028 in MvnRepository",
 	"tags":[
 		"client",
 		"api",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.5.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250107",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"Peppol AS4 servlet for incoming transmissions",
 	"group_id":"com.helger.phase4",
 	"artifact_id":"phase4-peppol-servlet",
-	"version_latest":"3.2.2",
-	"ts_publish":1755076075000,
-	"dt_publish":"2025-08-13 17:07:55.000",
-	"ts_update":1755077182373,
-	"dt_update":"2025-08-13 17:25:45.515",
-	"count_dep":75,
+	"version_latest":"4.0.0",
+	"ts_publish":1756323558000,
+	"dt_publish":"2025-08-28 03:39:18.000",
+	"ts_update":1756324590983,
+	"dt_update":"2025-08-28 03:55:53.046",
+	"count_dep":86,
 	"count_ref":1,
 	"licenses":[
 		"Apache 2"
@@ -27,13 +27,21 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/phax/phase4/phase4-peppol-servlet",
 	"license":"Apache 2.0",
-	"ranking":"#234699 in MvnRepository",
+	"ranking":"#235184 in MvnRepository",
 	"tags":[
 		"bundle",
 		"servlet",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250710",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"beta",
 			"usage":2,
 			"version":"3.0.0-beta4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241024",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"3.0.0-beta2",
 			"vulnerabilities":""
 		}
 	]

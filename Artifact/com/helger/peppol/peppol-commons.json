@@ -3,12 +3,12 @@
 	"description":"Base POM to build the peppol-commons projects",
 	"group_id":"com.helger.peppol",
 	"artifact_id":"peppol-commons",
-	"version_latest":"11.0.6",
-	"ts_publish":1755037623000,
-	"dt_publish":"2025-08-13 06:27:03.000",
-	"ts_update":1755038232280,
-	"dt_update":"2025-08-13 06:36:42.639",
-	"count_dep":14,
+	"version_latest":"12.0.1",
+	"ts_publish":1756367825000,
+	"dt_publish":"2025-08-28 15:57:05.000",
+	"ts_update":1756369295520,
+	"dt_update":"2025-08-28 16:20:19.028",
+	"count_dep":25,
 	"count_ref":3,
 	"licenses":[
 		"MPL 2.0"
@@ -26,13 +26,37 @@
 	"count_used_by":24,
 	"home_page":"https://github.com/phax/peppol-commons/peppol-commons",
 	"license":"MPL 2.0",
-	"ranking":"#19219 in MvnRepository",
+	"ranking":"#19293 in MvnRepository",
 	"tags":[
 		"bundle",
 		"commons",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"11.0.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.0.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250720",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"10.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"10.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"10.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"10.0.0",
 			"vulnerabilities":""
 		}
 	]

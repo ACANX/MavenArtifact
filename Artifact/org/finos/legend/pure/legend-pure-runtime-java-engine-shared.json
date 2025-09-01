@@ -3,11 +3,11 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.pure",
 	"artifact_id":"legend-pure-runtime-java-engine-shared",
-	"version_latest":"5.57.0",
-	"ts_publish":1755543198000,
-	"dt_publish":"2025-08-19 02:53:18.000",
-	"ts_update":1755544569905,
-	"dt_update":"2025-08-19 03:14:16.954",
+	"version_latest":"5.58.2",
+	"ts_publish":1756408345000,
+	"dt_publish":"2025-08-29 03:12:25.000",
+	"ts_update":1756409257076,
+	"dt_update":"2025-08-29 03:25:53.329",
 	"count_dep":22,
 	"count_ref":15,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-pure/legend-pure-runtime/legend-pure-runtime-java-engine-shared",
 	"count_used_by":20,
 	"license":"Apache 2.0",
-	"ranking":"#23146 in MvnRepository",
+	"ranking":"#23206 in MvnRepository",
 	"tags":[
 		"runtime",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"5.57.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"5.46.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250501",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"5.46.1",
 			"vulnerabilities":""
 		}
 	]

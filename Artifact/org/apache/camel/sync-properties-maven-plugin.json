@@ -3,12 +3,12 @@
 	"description":"Copies one POM file properties to different POM file",
 	"group_id":"org.apache.camel",
 	"artifact_id":"sync-properties-maven-plugin",
-	"version_latest":"4.13.0",
-	"ts_publish":1751638537000,
-	"dt_publish":"2025-07-04 22:15:37.000",
-	"ts_update":1755363171090,
-	"dt_update":"2025-08-17 00:17:48.515",
-	"count_dep":44,
+	"version_latest":"4.14.0",
+	"ts_publish":1755262493000,
+	"dt_publish":"2025-08-15 20:54:53.000",
+	"ts_update":1756573980624,
+	"dt_update":"2025-08-31 00:17:51.372",
+	"count_dep":13,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -21,7 +21,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/sync-properties-maven-plugin@4.13.0",
 	"url_scm":"https://github.com/apache/maven-apache-parent/tree/apache-35/camel/camel-parent/tooling/tooling-parent/maven-plugins/sync-properties-maven-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#518218 in MvnRepository",
+	"ranking":"#519686 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -33,6 +33,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240915",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.0",
 			"vulnerabilities":""
 		}
 	]

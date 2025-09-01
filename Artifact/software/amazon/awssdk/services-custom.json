@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK custom services",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"services-custom",
-	"version_latest":"2.32.27",
-	"ts_publish":1755727118000,
-	"dt_publish":"2025-08-21 05:58:38.000",
-	"ts_update":1755728938412,
-	"dt_update":"2025-08-21 06:26:07.593",
+	"version_latest":"2.32.31",
+	"ts_publish":1756253918000,
+	"dt_publish":"2025-08-27 08:18:38.000",
+	"ts_update":1756257106891,
+	"dt_update":"2025-08-27 08:56:01.553",
 	"count_dep":4,
 	"count_ref":0,
 	"licenses":[
@@ -21,8 +21,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/services-custom@2.32.17",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services-custom",
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#447649 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#447763 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -30,6 +30,14 @@
 		"service"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.32.27",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.32.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.32.7",
 			"vulnerabilities":""
 		}
 	]

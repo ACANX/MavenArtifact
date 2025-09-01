@@ -3,12 +3,12 @@
 	"description":"Base POM to build the phoss SMP projects",
 	"group_id":"com.helger",
 	"artifact_id":"phoss-smp-parent-pom",
-	"version_latest":"7.2.8",
-	"ts_publish":1755039077000,
-	"dt_publish":"2025-08-13 06:51:17.000",
-	"ts_update":1755040527086,
-	"dt_update":"2025-08-13 07:15:15.189",
-	"count_dep":2,
+	"version_latest":"8.0.0",
+	"ts_publish":1756391423000,
+	"dt_publish":"2025-08-28 22:30:23.000",
+	"ts_update":1756392988831,
+	"dt_update":"2025-08-28 22:55:57.063",
+	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2",
@@ -26,11 +26,19 @@
 	"url_scm":"https://github.com/phax/phoss-smp",
 	"home_page":"https://github.com/phax/phoss-smp",
 	"license":"Apache 2.0",
-	"ranking":"#436371 in MvnRepository",
+	"ranking":"#437685 in MvnRepository",
 	"tags":[
 		"pom"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.2.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250718",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.0.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230224",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.0.7",
 			"vulnerabilities":""
 		}
 	]

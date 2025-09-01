@@ -3,11 +3,11 @@
 	"description":"A bunch of dummy classes mimicking Bouncy Castle API to make the native compiler happy.\n        In case Bouncy Castle functionality is needed, this artifact should be excluded from\n        io.quarkiverse.cxf:quarkus-cxf-rt-ws-security and org.bouncycastle:bcprov-jdk18on should be added instead.",
 	"group_id":"io.quarkiverse.cxf",
 	"artifact_id":"quarkus-cxf-bc-stub",
-	"version_latest":"3.26.0",
-	"ts_publish":1755718966000,
-	"dt_publish":"2025-08-21 03:42:46.000",
-	"ts_update":1755719761167,
-	"dt_update":"2025-08-21 03:55:52.870",
+	"version_latest":"3.26.2",
+	"ts_publish":1756565401000,
+	"dt_publish":"2025-08-30 22:50:01.000",
+	"ts_update":1756565821789,
+	"dt_update":"2025-08-30 22:55:55.384",
 	"count_dep":0,
 	"count_ref":12,
 	"licenses":[
@@ -19,13 +19,29 @@
 	"dsv":1,
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#278432 in MvnRepository",
+	"ranking":"#279048 in MvnRepository",
 	"tags":[
 		"cxf",
 		"quarkus",
 		"stub"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.17.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241024",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241024",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.16.0",
 			"vulnerabilities":""
 		}
 	]

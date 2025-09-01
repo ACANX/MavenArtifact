@@ -3,11 +3,11 @@
 	"description":"BOM for the libraries in google-cloud-java repository. Users should not\n    depend on this artifact explicitly because this BOM is an implementation\n    detail of the Libraries BOM.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"gapic-libraries-bom",
-	"version_latest":"1.66.0",
-	"ts_publish":1755124896000,
-	"dt_publish":"2025-08-14 06:41:36.000",
-	"ts_update":1755125879592,
-	"dt_update":"2025-08-14 06:55:52.425",
+	"version_latest":"1.67.0",
+	"ts_publish":1756168228000,
+	"dt_publish":"2025-08-26 08:30:28.000",
+	"ts_update":1756169909878,
+	"dt_update":"2025-08-26 08:56:00.994",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[],
@@ -21,7 +21,7 @@
 		"Tomo Suzuki"
 	],
 	"license":"Apache 2.0",
-	"ranking":"#774413 in MvnRepository",
+	"ranking":"#778858 in MvnRepository",
 	"tags":[
 		"bom",
 		"google",
@@ -31,6 +31,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.66.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.48.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241028",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.47.0",
 			"vulnerabilities":""
 		}
 	]

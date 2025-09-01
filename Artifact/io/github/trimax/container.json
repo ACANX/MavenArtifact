@@ -2,10 +2,10 @@
 	"id":"pkg:maven/io.github.trimax/container",
 	"group_id":"io.github.trimax",
 	"artifact_id":"container",
-	"version_latest":"0.8.17",
-	"ts_publish":1755706209000,
-	"ts_update":1755708177165,
-	"count_dep":6,
+	"version_latest":"0.9.1",
+	"ts_publish":1756311949000,
+	"ts_update":1756312973106,
+	"count_dep":12,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -17,17 +17,41 @@
 		"Dmitrii Eliseev"
 	],
 	"url_scm":"https://github.com/trimax/ventaengine",
-	"dt_publish":"2025-08-21 00:10:09.000",
-	"dt_update":"2025-08-21 00:42:29.986",
+	"dt_publish":"2025-08-28 00:25:49.000",
+	"dt_update":"2025-08-28 00:42:19.694",
 	"count_used_by":1,
-	"home_page":"${project.parent.url}",
+	"home_page":"https://github.com/trimax/ventaengine",
 	"license":"Apache 2.0",
-	"ranking":"#380693 in MvnRepository",
+	"ranking":"#318280 in MvnRepository",
 	"tags":[
 		"github",
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.8.42",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250824",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.8.32",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.8.17",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -92,5 +116,6 @@
 			"version":"0.5.12",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Container module"
 }
