@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.repository",
 	"artifact_id":"gravitee-apim-repository-jdbc",
-	"version_latest":"4.8.5",
-	"ts_publish":1756480900000,
-	"dt_publish":"2025-08-29 23:21:40.000",
-	"ts_update":1756481604577,
-	"dt_update":"2025-08-29 23:31:33.892",
+	"version_latest":"4.8.6",
+	"ts_publish":1756733395000,
+	"dt_publish":"2025-09-01 21:29:55.000",
+	"ts_update":1756734098437,
+	"dt_update":"2025-09-01 21:40:57.053",
 	"count_dep":120,
 	"count_ref":1,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-repository/gravitee-apim-repository-jdbc",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#124048 in MvnRepository",
+	"ranking":"#123994 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -37,6 +37,14 @@
 		"jdbc"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.8.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -99,6 +107,14 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"4.8.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.7.13",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.7.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250411",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250404",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.1",
 			"vulnerabilities":""
 		}
 	]
