@@ -3,13 +3,13 @@
 	"description":"Meta-Model POM",
 	"group_id":"com.acanx.meta.model",
 	"artifact_id":"model-maven",
-	"version_latest":"0.3.9",
-	"ts_publish":1756204582000,
-	"dt_publish":"2025-08-26 18:36:22.000",
-	"ts_update":1756206922386,
-	"dt_update":"2025-08-26 19:14:16.705",
+	"version_latest":"0.4.0",
+	"ts_publish":1756748674000,
+	"dt_publish":"2025-09-02 01:44:34.000",
+	"ts_update":1756749468887,
+	"dt_update":"2025-09-02 01:55:59.617",
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -19,5 +19,33 @@
 	"contributors":[
 		"ACANX"
 	],
-	"url_scm":"git@github.com:ACANX/MetaOpen.git/meta-model/model-maven"
+	"url_scm":"git@github.com:ACANX/MetaOpen.git/meta-model/model-maven",
+	"count_used_by":1,
+	"home_page":"https://acanx.com",
+	"license":"Apache 2.0",
+	"ranking":"#349767 in MvnRepository",
+	"tags":[
+		"model",
+		"build",
+		"build-system",
+		"maven"
+	],
+	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.3.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250624",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.1.0",
+			"vulnerabilities":""
+		}
+	]
 }
