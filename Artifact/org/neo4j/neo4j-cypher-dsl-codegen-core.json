@@ -3,11 +3,11 @@
 	"description":"Core module for the Cypher DSL code generation.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-cypher-dsl-codegen-core",
-	"version_latest":"2025.0.0",
-	"ts_publish":1755858917000,
-	"dt_publish":"2025-08-22 18:35:17.000",
-	"ts_update":1755861221141,
-	"dt_update":"2025-08-22 19:12:53.686",
+	"version_latest":"2025.0.1",
+	"ts_publish":1756719876000,
+	"dt_publish":"2025-09-01 17:44:36.000",
+	"ts_update":1756720599090,
+	"dt_update":"2025-09-01 17:55:53.693",
 	"count_dep":6,
 	"count_ref":2,
 	"licenses":[
@@ -30,9 +30,9 @@
 		"Florent Biville"
 	],
 	"url_scm":"https://github.com/neo4j/cypher-dsl/neo4j-cypher-dsl-codegen/neo4j-cypher-dsl-codegen-core",
-	"count_used_by":1,
+	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#392203 in MvnRepository",
+	"ranking":"#220579 in MvnRepository",
 	"tags":[
 		"database",
 		"generator",
@@ -41,6 +41,22 @@
 		"dsl"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2025.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2024.7.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250731",
 			"repository":"Central",
@@ -183,22 +199,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2024.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240625",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2023.9.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240429",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2023.9.7",
 			"vulnerabilities":""
 		}
 	]
