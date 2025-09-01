@@ -3,9 +3,9 @@
 	"description":"The Databricks SDK for Java includes functionality to accelerate development with Java for\n    the Databricks Lakehouse. It covers all public Databricks REST API operations. The SDK's internal HTTP client\n    is robust and handles failures on different levels by performing intelligent retries.",
 	"group_id":"com.databricks",
 	"artifact_id":"databricks-sdk-parent",
-	"version_latest":"0.60.0",
-	"ts_publish":1755689279000,
-	"ts_update":1755690336184,
+	"version_latest":"0.61.0",
+	"ts_publish":1756734436000,
+	"ts_update":1756734976729,
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -27,12 +27,20 @@
 	"url_ci_management":"https://github.com/databricks/databricks-sdk-java/blob/main/.github/workflows/push.yml",
 	"home_page":"https://github.com/databricks/databricks-sdk-java",
 	"license":"Apache 2.0",
-	"ranking":"#695099 in MvnRepository",
+	"ranking":"#694990 in MvnRepository",
 	"tags":[
 		"databricks",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.60.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -184,16 +192,8 @@
 			"usage":0,
 			"version":"0.41.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.40.0",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-08-20 19:27:59.000",
-	"dt_update":"2025-08-20 19:44:33.330"
+	"dt_publish":"2025-09-01 21:47:16.000",
+	"dt_update":"2025-09-01 21:55:56.086"
 }
