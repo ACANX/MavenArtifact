@@ -3,10 +3,10 @@
 	"description":"A parent POM for all artifacts by Vaadin Ltd.",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-testbench-core",
-	"version_latest":"9.4.4",
-	"ts_publish":1756285529000,
-	"ts_update":1756308132093,
-	"count_dep":64,
+	"version_latest":"9.5.0-beta1",
+	"ts_publish":1756712297000,
+	"ts_update":1756712728731,
+	"count_dep":63,
 	"count_ref":0,
 	"licenses":[
 		"Vaadin Commercial License and Service Terms"
@@ -20,13 +20,21 @@
 	"url_scm":"https://github.com/vaadin/maven-integration/vaadin-testbench-parent/vaadin-testbench-core",
 	"count_used_by":88,
 	"home_page":"https://vaadin.com/",
-	"ranking":"#5696 in MvnRepository",
+	"ranking":"#5707 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"9.4.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -63,7 +71,7 @@
 			"date":"20250724",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"9.3.14",
 			"vulnerabilities":""
 		},
@@ -178,16 +186,8 @@
 			"usage":3,
 			"version":"9.3.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240417",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"9.2.7",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-08-27 17:05:29.000",
-	"dt_update":"2025-08-27 23:16:20.016"
+	"dt_publish":"2025-09-01 15:38:17.000",
+	"dt_update":"2025-09-01 15:45:13.437"
 }
