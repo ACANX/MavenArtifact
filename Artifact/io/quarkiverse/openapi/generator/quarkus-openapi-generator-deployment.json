@@ -3,11 +3,11 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.openapi.generator",
 	"artifact_id":"quarkus-openapi-generator-deployment",
-	"version_latest":"2.12.0-lts",
-	"ts_publish":1756490652000,
-	"dt_publish":"2025-08-30 02:04:12.000",
-	"ts_update":1756491688669,
-	"dt_update":"2025-08-30 02:20:30.549",
+	"version_latest":"2.12.1-lts",
+	"ts_publish":1756831771000,
+	"dt_publish":"2025-09-03 00:49:31.000",
+	"ts_update":1756833348933,
+	"dt_update":"2025-09-03 01:13:09.641",
 	"count_dep":186,
 	"count_ref":1,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-openapi-generator",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#60513 in MvnRepository",
+	"ranking":"#60540 in MvnRepository",
 	"tags":[
 		"generator",
 		"deployment",
@@ -35,6 +35,22 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.12.0-lts",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250619",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241108",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.6.0-lts",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241008",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.5.0",
 			"vulnerabilities":""
 		}
 	]
