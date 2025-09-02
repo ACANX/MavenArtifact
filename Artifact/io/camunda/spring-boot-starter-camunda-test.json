@@ -3,11 +3,11 @@
 	"description":"This pom should be the parent of all specified modules. It defines all versions and provides\n    plugins that are required for the child modules.",
 	"group_id":"io.camunda",
 	"artifact_id":"spring-boot-starter-camunda-test",
-	"version_latest":"8.8.0-alpha8-rc1",
-	"ts_publish":1756370621000,
-	"dt_publish":"2025-08-28 16:43:41.000",
-	"ts_update":1756371467880,
-	"dt_update":"2025-08-28 16:55:53.045",
+	"version_latest":"8.8.0-alpha8-rc3",
+	"ts_publish":1756812333000,
+	"dt_publish":"2025-09-02 19:25:33.000",
+	"ts_update":1756813468812,
+	"dt_update":"2025-09-02 19:44:07.229",
 	"count_dep":124,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/camunda-community-hub/zeebe-process-test-root/spring-boot-starter-camunda-test-pom/spring-boot-starter-camunda-test/",
 	"license":"Apache 2.0",
-	"ranking":"#234859 in MvnRepository",
+	"ranking":"#234895 in MvnRepository",
 	"tags":[
 		"spring",
 		"testing",
@@ -34,6 +34,22 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.8.0-alpha8-rc2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.8.0-alpha8-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"8.8.0-alpha1-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.7.10",
 			"vulnerabilities":""
 		}
 	]

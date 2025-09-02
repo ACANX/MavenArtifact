@@ -3,11 +3,11 @@
 	"description":"Test engine for running process tests. This a minimized version of the real Zeebe engine and\n    should be used for testing purposes only.",
 	"group_id":"io.camunda",
 	"artifact_id":"zeebe-process-test-engine",
-	"version_latest":"8.8.0-alpha8-rc1",
-	"ts_publish":1756370621000,
-	"dt_publish":"2025-08-28 16:43:41.000",
-	"ts_update":1756371458970,
-	"dt_update":"2025-08-28 16:55:53.050",
+	"version_latest":"8.8.0-alpha8-rc3",
+	"ts_publish":1756812333000,
+	"dt_publish":"2025-09-02 19:25:33.000",
+	"ts_update":1756813512401,
+	"dt_update":"2025-09-02 19:44:07.228",
 	"count_dep":117,
 	"count_ref":3,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/camunda/zeebe-process-test/zeebe-process-test-engine",
 	"count_used_by":6,
 	"home_page":"https://github.com/camunda-community-hub/zeebe-process-test-root/zeebe-process-test-engine/",
-	"ranking":"#83522 in MvnRepository",
+	"ranking":"#83653 in MvnRepository",
 	"tags":[
 		"process",
 		"zeebe",
@@ -34,6 +34,22 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"8.8.0-alpha8-rc2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"8.8.0-alpha8-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"alpha",
 			"usage":3,
 			"version":"8.8.0-alpha1-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"8.7.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"8.7.10",
 			"vulnerabilities":""
 		}
 	]
