@@ -3,12 +3,12 @@
 	"description":"Multi-Target Application (MTA) deployment service for Cloud Foundry",
 	"group_id":"org.cloudfoundry.multiapps",
 	"artifact_id":"multiapps-controller-process",
-	"version_latest":"1.197.0",
-	"ts_publish":1755598769000,
-	"dt_publish":"2025-08-19 18:19:29.000",
-	"ts_update":1755600062712,
-	"dt_update":"2025-08-19 18:39:56.626",
-	"count_dep":225,
+	"version_latest":"1.198.0",
+	"ts_publish":1756807342000,
+	"dt_publish":"2025-09-02 18:02:22.000",
+	"ts_update":1756808249496,
+	"dt_update":"2025-09-02 18:16:51.160",
+	"count_dep":224,
 	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,12 +25,20 @@
 	"url_scm":"https://github.com/cloudfoundry-incubator/multiapps-controller.git/multiapps-controller-process",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#206736 in MvnRepository",
+	"ranking":"#207358 in MvnRepository",
 	"tags":[
 		"process",
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.197.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.183.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.182.0",
 			"vulnerabilities":""
 		}
 	]

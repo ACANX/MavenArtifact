@@ -3,12 +3,12 @@
 	"description":"Multi-Target Application (MTA) deployment service for Cloud Foundry",
 	"group_id":"org.cloudfoundry.multiapps",
 	"artifact_id":"multiapps-controller-persistence-test",
-	"version_latest":"1.197.0",
-	"ts_publish":1755598769000,
-	"dt_publish":"2025-08-19 18:19:29.000",
-	"ts_update":1755600035391,
-	"dt_update":"2025-08-19 18:39:56.628",
-	"count_dep":28,
+	"version_latest":"1.198.0",
+	"ts_publish":1756807342000,
+	"dt_publish":"2025-09-02 18:02:22.000",
+	"ts_update":1756808263731,
+	"dt_update":"2025-09-02 18:16:51.163",
+	"count_dep":29,
 	"count_ref":3,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/cloudfoundry-incubator/multiapps-controller.git/multiapps-controller-persistence-test",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#166850 in MvnRepository",
+	"ranking":"#167488 in MvnRepository",
 	"tags":[
 		"persistence",
 		"testing",
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.197.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.183.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.182.0",
 			"vulnerabilities":""
 		}
 	]
