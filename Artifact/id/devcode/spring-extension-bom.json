@@ -3,11 +3,11 @@
 	"description":"BOM package Spring Extension",
 	"group_id":"id.devcode",
 	"artifact_id":"spring-extension-bom",
-	"version_latest":"1.0.0",
-	"ts_publish":1756741568000,
-	"dt_publish":"2025-09-01 23:46:08.000",
-	"ts_update":1756743592682,
-	"dt_update":"2025-09-02 00:18:17.841",
+	"version_latest":"1.0.1",
+	"ts_publish":1756849201000,
+	"dt_publish":"2025-09-03 05:40:01.000",
+	"ts_update":1756850181375,
+	"dt_update":"2025-09-03 05:55:55.829",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -20,5 +20,24 @@
 	"contributors":[
 		"Laminal Falah"
 	],
-	"url_scm":"git@gitlab.codeoffice.net:laminalfalah/spring-extension-code.git"
+	"url_scm":"git@gitlab.codeoffice.net:laminalfalah/spring-extension-code.git",
+	"home_page":"${parent.url}",
+	"license":"Apache 2.0",
+	"tags":[
+		"bom",
+		"spring",
+		"build",
+		"dependencies",
+		"extension"
+	],
+	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		}
+	]
 }
