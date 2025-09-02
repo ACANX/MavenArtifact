@@ -3,11 +3,11 @@
 	"description":"A rebundling of Apache Tomcat Jasper to remove the tomcat server dependencies,\n    so that the JSP engine can be used by the Eclipse Jetty project.",
 	"group_id":"org.mortbay.jasper",
 	"artifact_id":"apache-el",
-	"version_latest":"11.0.10",
-	"ts_publish":1756189056000,
-	"dt_publish":"2025-08-26 14:17:36.000",
-	"ts_update":1756191365973,
-	"dt_update":"2025-08-26 14:55:26.753",
+	"version_latest":"11.0.10.1",
+	"ts_publish":1756808412000,
+	"dt_publish":"2025-09-02 18:20:12.000",
+	"ts_update":1756809536343,
+	"dt_update":"2025-09-02 18:38:10.848",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -34,11 +34,19 @@
 	"count_used_by":52,
 	"home_page":"https://jetty.org/",
 	"license":"Apache 2.0",
-	"ranking":"#9352 in MvnRepository",
+	"ranking":"#9373 in MvnRepository",
 	"tags":[
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"11.0.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250715",
 			"repository":"Central",
@@ -93,6 +101,14 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"11.0.0-M19",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"10.1.44",
 			"vulnerabilities":""
 		},
 		{
@@ -168,35 +184,19 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"10.0.27.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20231212",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
 			"version":"10.0.27",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211209",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"10.0.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210830",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"10.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210618",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"10.0.7",
 			"vulnerabilities":""
 		}
 	]
