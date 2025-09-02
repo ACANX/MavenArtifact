@@ -3,12 +3,12 @@
 	"description":"SonarLint Language Server",
 	"group_id":"org.sonarsource.sonarlint.ls",
 	"artifact_id":"sonarlint-language-server",
-	"version_latest":"3.29.0.76455",
-	"ts_publish":1755509576000,
-	"dt_publish":"2025-08-18 17:32:56.000",
-	"ts_update":1755510959141,
-	"dt_update":"2025-08-18 17:55:50.686",
-	"count_dep":8,
+	"version_latest":"4.0.0.76618",
+	"ts_publish":1756800056000,
+	"dt_publish":"2025-09-02 16:00:56.000",
+	"ts_update":1756801402282,
+	"dt_update":"2025-09-02 16:20:59.573",
+	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
 		"GNU LGPL 3"
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/SonarSource/parent-oss/sonarlint-language-server",
 	"url_ci_management":"https://cirrus-ci.com/github/SonarSource/",
 	"license":"LGPL 3.0",
-	"ranking":"#440540 in MvnRepository",
+	"ranking":"#443288 in MvnRepository",
 	"tags":[
 		"server",
 		"language",
@@ -35,6 +35,22 @@
 		"lint"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.29.0.76455",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.0.76421",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250721",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.13.1.75733",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.13.0.75723",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241106",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.12.0.75621",
 			"vulnerabilities":""
 		}
 	]
