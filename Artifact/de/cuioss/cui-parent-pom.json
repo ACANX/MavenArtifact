@@ -3,11 +3,11 @@
 	"description":"Parent pom for all cui-oss projects. It defines the sonatype\n        repositories and the basic maven plugins:\n        In addition, it provides sensible release profiles: \"release-pom\" for\n        pom-only releases and \"release\" for standard java-releases.",
 	"group_id":"de.cuioss",
 	"artifact_id":"cui-parent-pom",
-	"version_latest":"1.1.5",
-	"ts_publish":1756210202000,
-	"dt_publish":"2025-08-26 20:10:02.000",
-	"ts_update":1756212974193,
-	"dt_update":"2025-08-26 20:55:58.185",
+	"version_latest":"1.1.6",
+	"ts_publish":1756805900000,
+	"dt_publish":"2025-09-02 17:38:20.000",
+	"ts_update":1756806424201,
+	"dt_update":"2025-09-02 17:46:25.489",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,11 +26,19 @@
 	"url_scm":"https://github.com/cuioss/cui-parent-pom/",
 	"home_page":"https://github.com/cuioss/cui-parent-pom/",
 	"license":"Apache 2.0",
-	"ranking":"#584666 in MvnRepository",
+	"ranking":"#585194 in MvnRepository",
 	"tags":[
 		"pom"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250807",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.9.9.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250502",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.9.9.4",
 			"vulnerabilities":""
 		}
 	]
