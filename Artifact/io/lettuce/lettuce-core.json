@@ -3,11 +3,11 @@
 	"description":"Advanced and thread-safe Java Redis client for synchronous, asynchronous,\n        and reactive usage. Supports Cluster, Sentinel, Pipelining, Auto-Reconnect, Codecs\n        and much more.",
 	"group_id":"io.lettuce",
 	"artifact_id":"lettuce-core",
-	"version_latest":"6.8.0.RELEASE",
-	"ts_publish":1754648103000,
-	"dt_publish":"2025-08-08 18:15:03.000",
-	"ts_update":1754649893147,
-	"dt_update":"2025-08-08 18:44:36.515",
+	"version_latest":"6.8.1.RELEASE",
+	"ts_publish":1756825619000,
+	"dt_publish":"2025-09-02 23:06:59.000",
+	"ts_update":1756826343598,
+	"dt_update":"2025-09-02 23:16:21.619",
 	"count_dep":59,
 	"count_ref":0,
 	"licenses":[
@@ -27,10 +27,10 @@
 		"Tihomir Mateev"
 	],
 	"url_scm":"https://github.com/redis/lettuce",
-	"count_used_by":593,
+	"count_used_by":606,
 	"home_page":"https://github.com/redis/lettuce",
 	"license":"MIT",
-	"ranking":"#999 in MvnRepository",
+	"ranking":"#989 in MvnRepository",
 	"tags":[
 		"redis",
 		"database",
@@ -38,10 +38,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"6.8.0.RELEASE",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250604",
 			"repository":"Central",
 			"type":"release",
-			"usage":51,
+			"usage":54,
 			"version":"6.7.1.RELEASE",
 			"vulnerabilities":""
 		},
@@ -57,7 +65,7 @@
 			"date":"20250430",
 			"repository":"Central",
 			"type":"release",
-			"usage":49,
+			"usage":50,
 			"version":"6.6.0.RELEASE",
 			"vulnerabilities":""
 		},
@@ -97,7 +105,7 @@
 			"date":"20250311",
 			"repository":"Central",
 			"type":"release",
-			"usage":49,
+			"usage":50,
 			"version":"6.5.5.RELEASE",
 			"vulnerabilities":""
 		},
@@ -105,7 +113,7 @@
 			"date":"20250219",
 			"repository":"Central",
 			"type":"release",
-			"usage":32,
+			"usage":33,
 			"version":"6.5.4.RELEASE",
 			"vulnerabilities":""
 		},
@@ -121,7 +129,7 @@
 			"date":"20241230",
 			"repository":"Central",
 			"type":"release",
-			"usage":18,
+			"usage":19,
 			"version":"6.5.2.RELEASE",
 			"vulnerabilities":""
 		},
@@ -137,7 +145,7 @@
 			"date":"20241031",
 			"repository":"Central",
 			"type":"release",
-			"usage":26,
+			"usage":27,
 			"version":"6.5.0.RELEASE",
 			"vulnerabilities":""
 		},
@@ -161,7 +169,7 @@
 			"date":"20241230",
 			"repository":"Central",
 			"type":"release",
-			"usage":33,
+			"usage":35,
 			"version":"6.4.2.RELEASE",
 			"vulnerabilities":""
 		},
@@ -187,14 +195,6 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"6.4.0.M1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240313",
-			"repository":"Central",
-			"type":"release",
-			"usage":109,
-			"version":"6.3.2.RELEASE",
 			"vulnerabilities":""
 		}
 	]
