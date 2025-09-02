@@ -3,11 +3,11 @@
 	"description":"Lucene index support for fdb-record-layer",
 	"group_id":"org.foundationdb",
 	"artifact_id":"fdb-record-layer-lucene",
-	"version_latest":"4.5.9.0",
-	"ts_publish":1756487597000,
-	"dt_publish":"2025-08-30 01:13:17.000",
-	"ts_update":1756489552179,
-	"dt_update":"2025-08-30 01:44:21.384",
+	"version_latest":"4.5.10.0",
+	"ts_publish":1756822743000,
+	"dt_publish":"2025-09-02 22:19:03.000",
+	"ts_update":1756823279338,
+	"dt_update":"2025-09-02 22:25:56.386",
 	"count_dep":11,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/FoundationDB/fdb-record-layer/",
 	"home_page":"https://foundationdb.github.io/fdb-record-layer/",
 	"license":"Apache 2.0",
-	"ranking":"#858535 in MvnRepository",
+	"ranking":"#233523 in MvnRepository",
 	"tags":[
 		"lucene",
 		"layer",
@@ -34,6 +34,22 @@
 		"index"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.5.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.5.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -177,22 +193,7 @@
 			"usage":0,
 			"version":"4.3.6.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.3.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.3.3.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":2
 }
