@@ -3,12 +3,12 @@
 	"description":"Packaging parent for Avaje Java 8 OSS projects.",
 	"group_id":"io.ebean",
 	"artifact_id":"ebean-maven-plugin",
-	"version_latest":"17.0.0",
-	"ts_publish":1756066614000,
-	"dt_publish":"2025-08-25 04:16:54.000",
-	"ts_update":1756067602298,
-	"dt_update":"2025-08-25 04:32:59.095",
-	"count_dep":13,
+	"version_latest":"17.0.1",
+	"ts_publish":1756775670000,
+	"dt_publish":"2025-09-02 09:14:30.000",
+	"ts_update":1756776409163,
+	"dt_update":"2025-09-02 09:25:55.541",
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -27,7 +27,7 @@
 	"url_scm":"git@github.com:avaje-pom/java8-oss.git/ebean-maven-plugin",
 	"home_page":"https://ebean-orm.github.io/",
 	"license":"Apache 2.0",
-	"ranking":"#891228 in MvnRepository",
+	"ranking":"#889578 in MvnRepository",
 	"tags":[
 		"plugin",
 		"beans",
@@ -36,6 +36,14 @@
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20250824",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"17.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -74,6 +82,14 @@
 			"type":"beta",
 			"usage":0,
 			"version":"17.0.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250824",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"16.0.0",
 			"vulnerabilities":""
 		},
 		{
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"15.5.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240902",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"15.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240702",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"15.5.0",
 			"vulnerabilities":""
 		}
 	]
