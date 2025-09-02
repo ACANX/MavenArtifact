@@ -3,11 +3,11 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-tavily",
-	"version_latest":"1.1.3",
-	"ts_publish":1756393187000,
-	"dt_publish":"2025-08-28 22:59:47.000",
-	"ts_update":1756394235478,
-	"dt_update":"2025-08-28 23:15:43.059",
+	"version_latest":"1.2.0.CR1",
+	"ts_publish":1756814829000,
+	"dt_publish":"2025-09-02 20:07:09.000",
+	"ts_update":1756816024396,
+	"dt_update":"2025-09-02 20:26:00.710",
 	"count_dep":120,
 	"count_ref":1,
 	"licenses":[
@@ -23,13 +23,21 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-langchain4j",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#134041 in MvnRepository",
+	"ranking":"#134266 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"ai",
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.1.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.25.0.CR3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250224",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.25.0.CR2",
 			"vulnerabilities":""
 		}
 	]
