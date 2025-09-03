@@ -3,13 +3,13 @@
 	"description":"Netty is an asynchronous event-driven network application framework for\n    rapid development of maintainable high performance protocol servers and\n    clients.",
 	"group_id":"io.netty",
 	"artifact_id":"netty-common",
-	"version_latest":"4.2.4.Final",
-	"ts_publish":1755089142000,
-	"dt_publish":"2025-08-13 20:45:42.000",
-	"ts_update":1755091596834,
-	"dt_update":"2025-08-13 21:21:09.345",
+	"version_latest":"4.2.5.Final",
+	"ts_publish":1756909447000,
+	"dt_publish":"2025-09-03 22:24:07.000",
+	"ts_update":1756910196830,
+	"dt_update":"2025-09-03 22:34:50.595",
 	"count_dep":30,
-	"count_ref":51,
+	"count_ref":50,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"The Netty Project Contributors"
 	],
 	"url_scm":"https://github.com/netty/netty/netty-common",
-	"count_used_by":1452,
+	"count_used_by":1462,
 	"home_page":"https://netty.io/",
 	"license":"Apache 2.0",
-	"ranking":"#397 in MvnRepository",
+	"ranking":"#398 in MvnRepository",
 	"tags":[
 		"network",
 		"netty",
@@ -48,6 +48,14 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"5.0.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":49,
+			"version":"4.2.4.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -163,10 +171,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":62,
+			"version":"4.1.124.Final",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250715",
 			"repository":"Central",
 			"type":"release",
-			"usage":58,
+			"usage":59,
 			"version":"4.1.123.Final",
 			"vulnerabilities":""
 		},
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":74,
 			"version":"4.1.122.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250424",
-			"repository":"Central",
-			"type":"release",
-			"usage":101,
-			"version":"4.1.121.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":32,
-			"version":"4.1.120.Final",
 			"vulnerabilities":""
 		}
 	]

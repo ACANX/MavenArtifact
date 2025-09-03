@@ -3,13 +3,13 @@
 	"description":"Netty is an asynchronous event-driven network application framework for\n    rapid development of maintainable high performance protocol servers and\n    clients.",
 	"group_id":"io.netty",
 	"artifact_id":"netty-transport-classes-kqueue",
-	"version_latest":"4.2.4.Final",
-	"ts_publish":1755089142000,
-	"dt_publish":"2025-08-13 20:45:42.000",
-	"ts_update":1755091342851,
-	"dt_update":"2025-08-13 21:21:09.344",
+	"version_latest":"4.2.5.Final",
+	"ts_publish":1756909447000,
+	"dt_publish":"2025-09-03 22:24:07.000",
+	"ts_update":1756910196871,
+	"dt_update":"2025-09-03 22:34:50.594",
 	"count_dep":5,
-	"count_ref":3,
+	"count_ref":5,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"The Netty Project Contributors"
 	],
 	"url_scm":"https://github.com/netty/netty/netty-transport-classes-kqueue",
-	"count_used_by":160,
+	"count_used_by":166,
 	"home_page":"https://netty.io/",
 	"license":"Apache 2.0",
-	"ranking":"#3351 in MvnRepository",
+	"ranking":"#3265 in MvnRepository",
 	"tags":[
 		"network",
 		"socket",
@@ -36,6 +36,14 @@
 		"io"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.2.4.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250714",
 			"repository":"Central",
@@ -149,6 +157,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.1.124.Final",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250715",
 			"repository":"Central",
 			"type":"release",
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.1.120.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250226",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"4.1.119.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250210",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"4.1.118.Final",
 			"vulnerabilities":""
 		}
 	]
