@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-pure-platform-java",
-	"version_latest":"4.97.0",
-	"ts_publish":1755695320000,
-	"dt_publish":"2025-08-20 21:08:40.000",
-	"ts_update":1755696466780,
-	"dt_update":"2025-08-20 21:25:57.545",
+	"version_latest":"4.97.2",
+	"ts_publish":1756921569000,
+	"dt_publish":"2025-09-04 01:46:09.000",
+	"ts_update":1756923714992,
+	"dt_update":"2025-09-04 02:21:23.717",
 	"count_dep":32,
-	"count_ref":32,
+	"count_ref":172,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,15 +24,39 @@
 		"Maurizio Pillitu"
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-pure/legend-engine-pure-platform-modular-generation/legend-engine-pure-platform-java",
-	"count_used_by":183,
+	"count_used_by":185,
 	"home_page":"https://github.com/finos/legend-engine",
 	"license":"Apache 2.0",
-	"ranking":"#2975 in MvnRepository",
+	"ranking":"#2949 in MvnRepository",
 	"tags":[
 		"platform",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":156,
+			"version":"4.97.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":152,
+			"version":"4.97.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":153,
+			"version":"4.96.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":152,
 			"version":"4.89.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":151,
-			"version":"4.88.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":149,
-			"version":"4.88.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":149,
-			"version":"4.88.7",
 			"vulnerabilities":""
 		}
 	]

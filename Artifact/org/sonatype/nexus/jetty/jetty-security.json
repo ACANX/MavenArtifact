@@ -3,11 +3,11 @@
 	"description":"Jetty Security with custom modifications",
 	"group_id":"org.sonatype.nexus.jetty",
 	"artifact_id":"jetty-security",
-	"version_latest":"3.83.1-03",
-	"ts_publish":1755636191000,
-	"dt_publish":"2025-08-20 04:43:11.000",
-	"ts_update":1755638098947,
-	"dt_update":"2025-08-20 05:14:16.254",
+	"version_latest":"3.83.2-01",
+	"ts_publish":1756922093000,
+	"dt_publish":"2025-09-04 01:54:53.000",
+	"ts_update":1756923738736,
+	"dt_update":"2025-09-04 02:21:14.519",
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/sonatype/nexus-public/jetty-modifications/jetty-security",
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"license":"EPL 1.0",
-	"ranking":"#815613 in MvnRepository",
+	"ranking":"#706663 in MvnRepository",
 	"tags":[
 		"server",
 		"security",
@@ -32,11 +32,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.83.1-03",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250812",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"3.83.0-08",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.82.1-08",
 			"vulnerabilities":""
 		},
 		{
