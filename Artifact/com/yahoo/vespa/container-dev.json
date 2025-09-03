@@ -2,13 +2,13 @@
 	"id":"pkg:maven/com.yahoo.vespa/container-dev",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-dev",
-	"version_latest":"8.573.19",
-	"ts_publish":1756822305000,
-	"dt_publish":"2025-09-02 22:11:45.000",
-	"ts_update":1756823189986,
-	"dt_update":"2025-09-02 22:25:59.204",
-	"count_dep":46,
-	"count_ref":23,
+	"version_latest":"8.574.10",
+	"ts_publish":1756897263000,
+	"dt_publish":"2025-09-03 19:01:03.000",
+	"ts_update":1756898022766,
+	"dt_update":"2025-09-03 19:13:03.879",
+	"count_dep":107,
+	"count_ref":28,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -25,11 +25,19 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-dev",
 	"count_used_by":40,
 	"license":"Apache 2.0",
-	"ranking":"#11850 in MvnRepository",
+	"ranking":"#11852 in MvnRepository",
 	"tags":[
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"8.573.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250901",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":22,
 			"version":"8.548.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":22,
-			"version":"8.547.15",
 			"vulnerabilities":""
 		}
 	],

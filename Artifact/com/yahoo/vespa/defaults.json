@@ -3,13 +3,13 @@
 	"description":"Library with the defaults for Vespa.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"defaults",
-	"version_latest":"8.572.77",
-	"ts_publish":1756728249000,
-	"dt_publish":"2025-09-01 20:04:09.000",
-	"ts_update":1756729595021,
-	"dt_update":"2025-09-01 20:25:57.522",
+	"version_latest":"8.574.10",
+	"ts_publish":1756897263000,
+	"dt_publish":"2025-09-03 19:01:03.000",
+	"ts_update":1756898052336,
+	"dt_update":"2025-09-03 19:13:02.591",
 	"count_dep":2,
-	"count_ref":24,
+	"count_ref":78,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,8 +26,24 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/defaults",
 	"count_used_by":29,
 	"license":"Apache 2.0",
-	"ranking":"#15867 in MvnRepository",
+	"ranking":"#15869 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"8.573.19",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":23,
+			"version":"8.572.77",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":23,
 			"version":"8.548.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":23,
-			"version":"8.547.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250708",
-			"repository":"Central",
-			"type":"release",
-			"usage":23,
-			"version":"8.546.13",
 			"vulnerabilities":""
 		}
 	]

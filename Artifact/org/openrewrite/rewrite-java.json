@@ -3,13 +3,13 @@
 	"description":"Eliminate tech-debt. Automatically.",
 	"group_id":"org.openrewrite",
 	"artifact_id":"rewrite-java",
-	"version_latest":"8.61.2",
-	"ts_publish":1756579243000,
-	"dt_publish":"2025-08-31 02:40:43.000",
-	"ts_update":1756581103968,
-	"dt_update":"2025-08-31 03:11:02.692",
+	"version_latest":"8.61.3",
+	"ts_publish":1756896732000,
+	"dt_publish":"2025-09-03 18:52:12.000",
+	"ts_update":1756898014526,
+	"dt_update":"2025-09-03 19:13:05.121",
 	"count_dep":21,
-	"count_ref":11,
+	"count_ref":12,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -23,16 +23,24 @@
 		"Moderne"
 	],
 	"url_scm":"https://github.com/openrewrite/rewrite.git",
-	"count_used_by":124,
+	"count_used_by":125,
 	"home_page":"https://github.com/openrewrite/rewrite",
 	"license":"Apache 2.0",
-	"ranking":"#4212 in MvnRepository",
+	"ranking":"#4186 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250830",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"8.61.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
 			"type":"release",
-			"usage":50,
+			"usage":51,
 			"version":"8.61.1",
 			"vulnerabilities":""
 		},
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"8.52.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":52,
-			"version":"8.52.0",
 			"vulnerabilities":""
 		}
 	]
