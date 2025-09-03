@@ -3,11 +3,11 @@
 	"description":"Please use bigtable-hbase-2.x or bigtable-hbase-2.x-hadoop. Bigtable\n    connector compatible with HBase 2.x. It exposes the minimal set of\n    dependencies. Its mainly intended to be used by dataflow 2.x to avoid\n    version conflicts with grpc & protobuf. Prefer to use bigtable-hbase-2.x\n    in general and bigtable-hbase-2.x-hadoop for hadoop classpath compatible\n    applications.",
 	"group_id":"com.google.cloud.bigtable",
 	"artifact_id":"bigtable-hbase-2.x-shaded",
-	"version_latest":"2.15.3",
-	"ts_publish":1756240331000,
-	"dt_publish":"2025-08-27 04:32:11.000",
-	"ts_update":1756243610463,
-	"dt_update":"2025-08-27 05:25:52.595",
+	"version_latest":"2.15.4",
+	"ts_publish":1756906999000,
+	"dt_publish":"2025-09-03 21:43:19.000",
+	"ts_update":1756907825456,
+	"dt_update":"2025-09-03 21:55:59.486",
 	"count_dep":8,
 	"count_ref":2,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/googleapis/java-bigtable-hbase/bigtable-hbase-2.x-parent/bigtable-hbase-2.x-shaded",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#68404 in MvnRepository",
+	"ranking":"#68731 in MvnRepository",
 	"tags":[
 		"bigdata",
 		"database",
@@ -39,6 +39,14 @@
 		"bigtable"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.15.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250402",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.11.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230808",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.0",
 			"vulnerabilities":""
 		}
 	]

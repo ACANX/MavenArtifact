@@ -3,13 +3,13 @@
 	"description":"This is a wrapper around `com.googlecode.protobuf-java-format:protobuf-java-format` that rewrites the bytecode to use `org.apache.hadoop.hbase.shaded.com.google.protobuf` instead of plain\n    `com.google.protobuf` for compatibility with `hbase-shaded-client`. Classes using shaded protobufs are exposed in `com.google.bigtable.hbase.mirroring.shaded.com.googlecode.protobuf.format`\n    package.",
 	"group_id":"com.google.cloud.bigtable",
 	"artifact_id":"protobuf-java-format-shaded",
-	"version_latest":"0.10.3",
-	"ts_publish":1756240331000,
-	"dt_publish":"2025-08-27 04:32:11.000",
-	"ts_update":1756243623663,
-	"dt_update":"2025-08-27 05:25:53.240",
+	"version_latest":"0.10.4",
+	"ts_publish":1756906999000,
+	"dt_publish":"2025-09-03 21:43:19.000",
+	"ts_update":1756907877419,
+	"dt_update":"2025-09-03 21:55:59.488",
 	"count_dep":0,
-	"count_ref":1,
+	"count_ref":3,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/googleapis/java-bigtable-hbase/hbase-migration-tools/mirroring-client/bigtable-hbase-mirroring-client-core-parent/protobuf-java-format-shaded",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#372461 in MvnRepository",
+	"ranking":"#402554 in MvnRepository",
 	"tags":[
 		"bigdata",
 		"format",
@@ -38,6 +38,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.10.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250402",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230808",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.6.0",
 			"vulnerabilities":""
 		}
 	]

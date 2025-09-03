@@ -3,11 +3,11 @@
 	"description":"Bigtable connector compatible with HBase 1.x. It uses hbase-shaded-client\n    and exposes unshaded bigtable-client-core. Its meant to be used in\n    standalone applications and apache beam. Please use\n    bigtable-hbase-1.x-hadoop for hadoop classpath compatible applications.",
 	"group_id":"com.google.cloud.bigtable",
 	"artifact_id":"bigtable-hbase-1.x",
-	"version_latest":"2.15.3",
-	"ts_publish":1756240331000,
-	"dt_publish":"2025-08-27 04:32:11.000",
-	"ts_update":1756243587819,
-	"dt_update":"2025-08-27 05:25:52.595",
+	"version_latest":"2.15.4",
+	"ts_publish":1756906999000,
+	"dt_publish":"2025-09-03 21:43:19.000",
+	"ts_update":1756907850755,
+	"dt_update":"2025-09-03 21:55:59.484",
 	"count_dep":66,
 	"count_ref":0,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/googleapis/java-bigtable-hbase/bigtable-hbase-1.x-parent/bigtable-hbase-1.x",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#61986 in MvnRepository",
+	"ranking":"#62103 in MvnRepository",
 	"tags":[
 		"bigdata",
 		"database",
@@ -38,6 +38,14 @@
 		"bigtable"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.15.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250402",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.11.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230808",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.0",
 			"vulnerabilities":""
 		}
 	]

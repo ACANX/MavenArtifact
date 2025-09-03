@@ -3,11 +3,11 @@
 	"description":"Bigtable/HBase Mirroring Client conforming to HBase API 1.x. Uses hbase-client and shades all dependencies.",
 	"group_id":"com.google.cloud.bigtable",
 	"artifact_id":"bigtable-hbase-mirroring-client-1.x-hadoop",
-	"version_latest":"0.10.3",
-	"ts_publish":1756240331000,
-	"dt_publish":"2025-08-27 04:32:11.000",
-	"ts_update":1756243657311,
-	"dt_update":"2025-08-27 05:25:53.235",
+	"version_latest":"0.10.4",
+	"ts_publish":1756906999000,
+	"dt_publish":"2025-09-03 21:43:19.000",
+	"ts_update":1756907878670,
+	"dt_update":"2025-09-03 21:55:58.891",
 	"count_dep":59,
 	"count_ref":0,
 	"licenses":[
@@ -24,7 +24,7 @@
 	"url_issue_management":"https://github.com/googleapis/java-bigtable-hbase/issues",
 	"url_scm":"https://github.com/googleapis/java-bigtable-hbase/hbase-migration-tools/mirroring-client/bigtable-hbase-mirroring-client-1.x-parent/bigtable-hbase-mirroring-client-1.x-hadoop",
 	"license":"Apache 2.0",
-	"ranking":"#947460 in MvnRepository",
+	"ranking":"#880235 in MvnRepository",
 	"tags":[
 		"bigdata",
 		"database",
@@ -36,6 +36,14 @@
 		"bigtable"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.10.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250402",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230808",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.6.0",
 			"vulnerabilities":""
 		}
 	]
