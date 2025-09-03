@@ -3,11 +3,11 @@
 	"description":"Enable Hibernate Envers capabilities in your Jakarta Persistence applications",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-hibernate-envers",
-	"version_latest":"3.26.1",
-	"ts_publish":1756459943000,
-	"dt_publish":"2025-08-29 17:32:23.000",
-	"ts_update":1756462599500,
-	"dt_update":"2025-08-29 18:16:20.111",
+	"version_latest":"3.26.2",
+	"ts_publish":1756892434000,
+	"dt_publish":"2025-09-03 17:40:34.000",
+	"ts_update":1756894608174,
+	"dt_update":"2025-09-03 18:15:39.710",
 	"count_dep":4,
 	"count_ref":0,
 	"licenses":[],
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-hibernate-envers@3.25.1",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#125229 in MvnRepository",
+	"ranking":"#125308 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"hibernate",
 		"persistence"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.23.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.0",
 			"vulnerabilities":""
 		}
 	]

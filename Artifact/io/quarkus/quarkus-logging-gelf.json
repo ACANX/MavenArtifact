@@ -3,11 +3,11 @@
 	"description":"Log using the Graylog Extended Log Format and centralize your logs in ELK or EFK",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-logging-gelf",
-	"version_latest":"3.26.1",
-	"ts_publish":1756459943000,
-	"dt_publish":"2025-08-29 17:32:23.000",
-	"ts_update":1756463216220,
-	"dt_update":"2025-08-29 18:16:09.309",
+	"version_latest":"3.26.2",
+	"ts_publish":1756892435000,
+	"dt_publish":"2025-09-03 17:40:35.000",
+	"ts_update":1756894563185,
+	"dt_update":"2025-09-03 18:15:34.968",
 	"count_dep":4,
 	"count_ref":0,
 	"licenses":[],
@@ -18,18 +18,42 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-logging-gelf@3.25.1",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#40787 in MvnRepository",
+	"ranking":"#40900 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"logging"
 	],
 	"versions":[
 		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250813",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
 			"version":"3.26.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.4",
 			"vulnerabilities":""
 		},
 		{
@@ -158,30 +182,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.23.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250515",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250514",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.22.3",
 			"vulnerabilities":""
 		}
 	]

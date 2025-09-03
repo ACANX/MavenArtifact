@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-reactive-db2-client-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-reactive-db2-client-deployment",
-	"version_latest":"3.26.1",
-	"ts_publish":1756459943000,
-	"dt_publish":"2025-08-29 17:32:23.000",
-	"ts_update":1756463165735,
-	"dt_update":"2025-08-29 18:16:16.975",
+	"version_latest":"3.26.2",
+	"ts_publish":1756892435000,
+	"dt_publish":"2025-09-03 17:40:35.000",
+	"ts_update":1756894586962,
+	"dt_update":"2025-09-03 18:15:27.098",
 	"count_dep":7,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#265348 in MvnRepository",
+	"ranking":"#265863 in MvnRepository",
 	"tags":[
 		"database",
 		"deployment",
@@ -32,6 +34,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -183,14 +193,7 @@
 			"usage":1,
 			"version":"3.23.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

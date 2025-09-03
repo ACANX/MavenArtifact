@@ -3,14 +3,16 @@
 	"description":"Connect to the DB2 database using the reactive pattern",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-reactive-db2-client",
-	"version_latest":"3.26.1",
-	"ts_publish":1756459943000,
-	"dt_publish":"2025-08-29 17:32:23.000",
-	"ts_update":1756463167134,
-	"dt_update":"2025-08-29 18:16:07.951",
-	"count_dep":7,
+	"version_latest":"3.26.2",
+	"ts_publish":1756892434000,
+	"dt_publish":"2025-09-03 17:40:34.000",
+	"ts_update":1756894640067,
+	"dt_update":"2025-09-03 18:15:44.467",
+	"count_dep":69,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#420969 in MvnRepository",
+	"ranking":"#421885 in MvnRepository",
 	"tags":[
 		"database",
 		"quarkus",
@@ -32,6 +34,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -182,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.23.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.0",
 			"vulnerabilities":""
 		}
 	]
