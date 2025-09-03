@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.wildfly/wildfly-keycloak",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-keycloak",
-	"version_latest":"37.0.0.Final",
-	"ts_publish":1754661296000,
-	"dt_publish":"2025-08-08 21:54:56.000",
-	"ts_update":1754663125254,
-	"dt_update":"2025-08-08 22:23:40.700",
+	"version_latest":"37.0.1.Final",
+	"ts_publish":1756932426000,
+	"dt_publish":"2025-09-04 04:47:06.000",
+	"ts_update":1756934014817,
+	"dt_update":"2025-09-04 05:12:51.679",
 	"count_dep":11,
 	"count_ref":1,
 	"licenses":[],
@@ -17,12 +17,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-keycloak@37.0.0.Final",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#215111 in MvnRepository",
+	"ranking":"#212333 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"37.0.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -173,14 +181,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"31.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231221",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"31.0.0.Beta1",
 			"vulnerabilities":""
 		}
 	]
