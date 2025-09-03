@@ -3,12 +3,12 @@
 	"description":"A lightweight Java library that facilitates reading and writing Apache Parquet files without Hadoop dependencies.",
 	"group_id":"blue.strategic.parquet",
 	"artifact_id":"parquet-floor",
-	"version_latest":"1.58",
-	"ts_publish":1754480766000,
-	"dt_publish":"2025-08-06 19:46:06.000",
-	"ts_update":1754481594430,
-	"dt_update":"2025-08-06 19:57:06.709",
-	"count_dep":12,
+	"version_latest":"1.59",
+	"ts_publish":1756874948000,
+	"dt_publish":"2025-09-03 12:49:08.000",
+	"ts_update":1756875389300,
+	"dt_update":"2025-09-03 12:55:52.692",
+	"count_dep":13,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -23,7 +23,7 @@
 	"count_used_by":4,
 	"home_page":"http://strategic-blue.com",
 	"license":"Apache 2.0",
-	"ranking":"#127655 in MvnRepository",
+	"ranking":"#128599 in MvnRepository",
 	"tags":[
 		"parquet",
 		"serialization",
@@ -31,10 +31,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250710",
+			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"1.58",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250710",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"1.57",
 			"vulnerabilities":""
 		},
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.38",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230310",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.37",
 			"vulnerabilities":""
 		}
 	]
