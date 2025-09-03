@@ -3,13 +3,13 @@
 	"description":"WildFly: Core Parent Aggregator",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-controller",
-	"version_latest":"29.0.0.Final",
-	"ts_publish":1754661296000,
-	"dt_publish":"2025-08-08 21:54:56.000",
-	"ts_update":1754663108345,
-	"dt_update":"2025-08-08 22:23:45.189",
+	"version_latest":"29.0.1.Final",
+	"ts_publish":1756895461000,
+	"dt_publish":"2025-09-03 18:31:01.000",
+	"ts_update":1756896394279,
+	"dt_update":"2025-09-03 18:45:20.451",
 	"count_dep":73,
-	"count_ref":83,
+	"count_ref":32,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -30,12 +30,20 @@
 	"count_used_by":433,
 	"home_page":"https://github.com/wildfly/wildfly-core",
 	"license":"Apache 2.0",
-	"ranking":"#1367 in MvnRepository",
+	"ranking":"#1383 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":59,
+			"version":"29.0.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250623",
 			"repository":"Central",
@@ -88,7 +96,7 @@
 			"date":"20250508",
 			"repository":"Central",
 			"type":"release",
-			"usage":59,
+			"usage":60,
 			"version":"28.0.1.Final",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"type":"beta",
 			"usage":60,
 			"version":"27.0.0.Beta5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241129",
-			"repository":"Central",
-			"type":"beta",
-			"usage":20,
-			"version":"27.0.0.Beta4",
 			"vulnerabilities":""
 		}
 	]
