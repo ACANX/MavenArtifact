@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-redis-client-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-redis-client-deployment",
-	"version_latest":"3.26.1",
-	"ts_publish":1756459944000,
-	"dt_publish":"2025-08-29 17:32:24.000",
-	"ts_update":1756462627231,
-	"dt_update":"2025-08-29 18:15:59.019",
-	"count_dep":13,
+	"version_latest":"3.26.2",
+	"ts_publish":1756892435000,
+	"dt_publish":"2025-09-03 17:40:35.000",
+	"ts_update":1756895246095,
+	"dt_update":"2025-09-03 18:15:33.700",
+	"count_dep":24,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -192,5 +194,6 @@
 			"version":"3.22.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

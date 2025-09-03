@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.quarkus/quarkus-scheduler-api",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-scheduler-api",
-	"version_latest":"3.26.1",
-	"ts_publish":1756459944000,
-	"dt_publish":"2025-08-29 17:32:24.000",
-	"ts_update":1756462614262,
-	"dt_update":"2025-08-29 18:15:59.013",
+	"version_latest":"3.26.2",
+	"ts_publish":1756892435000,
+	"dt_publish":"2025-09-03 17:40:35.000",
+	"ts_update":1756895196249,
+	"dt_update":"2025-09-03 18:15:33.705",
 	"count_dep":43,
-	"count_ref":2,
+	"count_ref":3,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -20,13 +20,21 @@
 	"description":"Build parent to bring in required dependencies",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#169714 in MvnRepository",
+	"ranking":"#170016 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"scheduling",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.23.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.0",
 			"vulnerabilities":""
 		}
 	]
