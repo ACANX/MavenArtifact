@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-reaction-observer-events",
-	"version_latest":"2.0.0",
-	"ts_publish":1756823935000,
-	"dt_publish":"2025-09-02 22:38:55.000",
-	"ts_update":1756826325561,
-	"dt_update":"2025-09-02 23:16:22.221",
+	"version_latest":"2.0.1",
+	"ts_publish":1756886704000,
+	"dt_publish":"2025-09-03 16:05:04.000",
+	"ts_update":1756887710262,
+	"dt_update":"2025-09-03 16:19:56.169",
 	"count_dep":35,
 	"count_ref":1,
 	"licenses":[
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-reaction-observer.git/jeap-reaction-observer-events",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#413339 in MvnRepository",
+	"ranking":"#412825 in MvnRepository",
 	"tags":[
 		"admin",
 		"event"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.19.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.7.0",
 			"vulnerabilities":""
 		}
 	]

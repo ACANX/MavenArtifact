@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-server-sent-events-messaging",
-	"version_latest":"3.0.0",
-	"ts_publish":1756823861000,
-	"dt_publish":"2025-09-02 22:37:41.000",
-	"ts_update":1756824610534,
-	"dt_update":"2025-09-02 22:49:21.631",
+	"version_latest":"3.0.1",
+	"ts_publish":1756886283000,
+	"dt_publish":"2025-09-03 15:58:03.000",
+	"ts_update":1756887646781,
+	"dt_update":"2025-09-03 16:19:56.845",
 	"count_dep":10,
 	"count_ref":1,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-server-sent-events.git/jeap-server-sent-events-messaging",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#384284 in MvnRepository",
+	"ranking":"#383992 in MvnRepository",
 	"tags":[
 		"admin",
 		"server",
@@ -31,10 +31,34 @@
 	],
 	"versions":[
 		{
-			"date":"20250901",
+			"date":"20250902",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"1.7.0",
 			"vulnerabilities":""
 		},
@@ -164,22 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250625",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.0.0",
 			"vulnerabilities":""
 		}
 	]
