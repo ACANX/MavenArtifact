@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-avro-compiler",
-	"version_latest":"9.0.0",
-	"ts_publish":1756822659000,
-	"dt_publish":"2025-09-02 22:17:39.000",
-	"ts_update":1756823204932,
-	"dt_update":"2025-09-02 22:25:56.924",
+	"version_latest":"9.0.1",
+	"ts_publish":1756885318000,
+	"dt_publish":"2025-09-03 15:41:58.000",
+	"ts_update":1756886167765,
+	"dt_update":"2025-09-03 15:56:00.940",
 	"count_dep":14,
 	"count_ref":2,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-avro-compiler",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#139639 in MvnRepository",
+	"ranking":"#139679 in MvnRepository",
 	"tags":[
 		"admin",
 		"messaging",
@@ -33,10 +33,34 @@
 	],
 	"versions":[
 		{
-			"date":"20250829",
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"8.57.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.57.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"8.56.1",
 			"vulnerabilities":""
 		},
@@ -166,30 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.47.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.46.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250617",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"8.45.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.44.0",
 			"vulnerabilities":""
 		}
 	]
