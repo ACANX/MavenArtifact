@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-language-pure-compiler",
-	"version_latest":"4.97.1",
-	"ts_publish":1756235396000,
-	"dt_publish":"2025-08-27 03:09:56.000",
-	"ts_update":1756237642804,
-	"dt_update":"2025-08-27 03:44:02.459",
+	"version_latest":"4.97.2",
+	"ts_publish":1756921569000,
+	"dt_publish":"2025-09-04 01:46:09.000",
+	"ts_update":1756924051275,
+	"dt_update":"2025-09-04 02:21:21.789",
 	"count_dep":59,
-	"count_ref":196,
+	"count_ref":198,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,13 +27,21 @@
 	"count_used_by":235,
 	"home_page":"https://github.com/finos/legend-engine",
 	"license":"Apache 2.0",
-	"ranking":"#2405 in MvnRepository",
+	"ranking":"#2409 in MvnRepository",
 	"tags":[
 		"compiler",
 		"language",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":165,
+			"version":"4.97.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":164,
 			"version":"4.89.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":156,
-			"version":"4.88.11",
 			"vulnerabilities":""
 		}
 	]
