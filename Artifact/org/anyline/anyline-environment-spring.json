@@ -2,12 +2,14 @@
 	"id":"pkg:maven/org.anyline/anyline-environment-spring",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-environment-spring",
-	"version_latest":"8.7.2-20250827",
-	"ts_publish":1756251931000,
-	"ts_update":1756256204838,
-	"count_dep":10,
+	"version_latest":"8.7.2-20250903",
+	"ts_publish":1756891639000,
+	"ts_update":1756892702090,
+	"count_dep":0,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,22 +20,30 @@
 		"anyline"
 	],
 	"url_scm":"https://github.com/anylineorg/anyline/anyline-environment-spring",
-	"dt_publish":"2025-08-27 07:45:31.000",
-	"dt_update":"2025-08-27 08:56:10.360",
+	"dt_publish":"2025-09-03 17:27:19.000",
+	"dt_update":"2025-09-03 17:44:19.463",
 	"count_used_by":2,
 	"home_page":"http://www.anyline.org/adapter/spring",
 	"license":"Apache 2.0",
-	"ranking":"#214308 in MvnRepository",
+	"ranking":"#214547 in MvnRepository",
 	"tags":[
 		"spring",
 		"environment"
 	],
 	"versions":[
 		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.2-jdk21-20250827",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250826",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"8.7.2-jdk21-20250826",
 			"vulnerabilities":""
 		},
@@ -180,14 +190,7 @@
 			"usage":1,
 			"version":"8.7.2-jdk21-20250212",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250109",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250109",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"anyline"
 }

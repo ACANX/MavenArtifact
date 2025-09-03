@@ -3,10 +3,10 @@
 	"description":"百度GaiaDB-X, 基于MySQL",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-jdbc-gaiadb",
-	"version_latest":"8.7.2-20250827",
-	"ts_publish":1756251931000,
-	"ts_update":1756257015782,
-	"count_dep":8,
+	"version_latest":"8.7.2-20250903",
+	"ts_publish":1756891639000,
+	"ts_update":1756892708721,
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -15,10 +15,10 @@
 	"dsv":1,
 	"url_project":"http://www.anyline.org/gaiadb",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-jdbc-gaiadb@8.7.2-20250806",
-	"dt_publish":"2025-08-27 07:45:31.000",
-	"dt_update":"2025-08-27 08:56:12.594",
+	"dt_publish":"2025-09-03 17:27:19.000",
+	"dt_update":"2025-09-03 17:44:21.408",
 	"home_page":"http://www.anyline.org/gaiadb",
-	"ranking":"#665545 in MvnRepository",
+	"ranking":"#667322 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -26,6 +26,14 @@
 		"data"
 	],
 	"versions":[
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250827",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -177,14 +185,7 @@
 			"usage":0,
 			"version":"8.7.2-jdk21-20250109",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250108",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250108",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }

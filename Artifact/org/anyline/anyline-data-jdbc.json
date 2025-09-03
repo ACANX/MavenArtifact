@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.anyline/anyline-data-jdbc",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-jdbc",
-	"version_latest":"8.7.2-20250827",
-	"ts_publish":1756251931000,
-	"ts_update":1756256186930,
-	"count_dep":8,
-	"count_ref":64,
+	"version_latest":"8.7.2-20250903",
+	"ts_publish":1756891639000,
+	"ts_update":1756892721691,
+	"count_dep":0,
+	"count_ref":66,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -14,12 +14,12 @@
 	"dsv":1,
 	"url_project":"http://www.anyline.org/jdbc",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-jdbc@8.7.2-20250806",
-	"dt_publish":"2025-08-27 07:45:31.000",
-	"dt_update":"2025-08-27 08:56:12.046",
-	"count_used_by":80,
+	"dt_publish":"2025-09-03 17:27:19.000",
+	"dt_update":"2025-09-03 17:44:20.792",
+	"count_used_by":81,
 	"home_page":"http://www.anyline.org/jdbc",
 	"license":"Apache 2.0",
-	"ranking":"#6212 in MvnRepository",
+	"ranking":"#6155 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -28,10 +28,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":63,
+			"version":"8.7.2-jdk21-20250827",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250826",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":63,
 			"version":"8.7.2-jdk21-20250826",
 			"vulnerabilities":""
 		},
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"8.7.2-jdk21-20250211",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250109",
-			"repository":"Central",
-			"type":"release",
-			"usage":60,
-			"version":"8.7.2-jdk21-20250109",
 			"vulnerabilities":""
 		}
 	]
