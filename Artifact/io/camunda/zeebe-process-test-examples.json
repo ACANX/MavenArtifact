@@ -3,11 +3,11 @@
 	"description":"This pom should be the parent of all specified modules. It defines all versions and provides\n    plugins that are required for the child modules.",
 	"group_id":"io.camunda",
 	"artifact_id":"zeebe-process-test-examples",
-	"version_latest":"8.8.0-alpha8-rc3",
-	"ts_publish":1756812333000,
-	"dt_publish":"2025-09-02 19:25:33.000",
-	"ts_update":1756813546022,
-	"dt_update":"2025-09-02 19:44:07.780",
+	"version_latest":"8.8.0-alpha8",
+	"ts_publish":1756982947000,
+	"dt_publish":"2025-09-04 18:49:07.000",
+	"ts_update":1756984410345,
+	"dt_update":"2025-09-04 19:12:48.556",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/camunda/zeebe-process-test/zeebe-process-test-examples",
 	"home_page":"https://github.com/camunda-community-hub/zeebe-process-test-root/zeebe-process-test-examples/",
 	"license":"Apache 2.0",
-	"ranking":"#461322 in MvnRepository",
+	"ranking":"#461544 in MvnRepository",
 	"tags":[
 		"process",
 		"zeebe",
@@ -34,6 +34,14 @@
 		"example"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.8.0-alpha8-rc3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"8.8.0-alpha2-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha1-rc1",
 			"vulnerabilities":""
 		}
 	]
