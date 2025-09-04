@@ -3,11 +3,11 @@
 	"description":"The PGAdapter server implements the PostgreSQL wire-protocol, but sends all received statements\n    to a Cloud Spanner database instead of a PostgreSQL database. The Cloud Spanner database must\n    have been created to use the PostgreSQL dialect. See https://cloud.google.com/spanner/docs/quickstart-console#postgresql\n    for more information on how to create PostgreSQL dialect databases on Cloud Spanner.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-spanner-pgadapter",
-	"version_latest":"0.50.0",
-	"ts_publish":1755003093000,
-	"dt_publish":"2025-08-12 20:51:33.000",
-	"ts_update":1755004816855,
-	"dt_update":"2025-08-12 21:19:45.630",
+	"version_latest":"0.50.1",
+	"ts_publish":1756970495000,
+	"dt_publish":"2025-09-04 15:21:35.000",
+	"ts_update":1756971078535,
+	"dt_update":"2025-09-04 15:30:07.395",
 	"count_dep":143,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"https://github.com/GoogleCloudPlatform/pgadapter",
 	"license":"Apache 2.0",
-	"ranking":"#665808 in MvnRepository",
+	"ranking":"#888815 in MvnRepository",
 	"tags":[
 		"google",
 		"cloud",
 		"spanner"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.50.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.36.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240706",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.36.0",
 			"vulnerabilities":""
 		}
 	]
