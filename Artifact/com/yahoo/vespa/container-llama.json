@@ -2,12 +2,12 @@
 	"id":"pkg:maven/com.yahoo.vespa/container-llama",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-llama",
-	"version_latest":"8.574.10",
-	"ts_publish":1756897263000,
-	"dt_publish":"2025-09-03 19:01:03.000",
-	"ts_update":1756898064009,
-	"dt_update":"2025-09-03 19:13:04.701",
-	"count_dep":31,
+	"version_latest":"8.575.21",
+	"ts_publish":1756986485000,
+	"dt_publish":"2025-09-04 19:48:05.000",
+	"ts_update":1756987037539,
+	"dt_update":"2025-09-04 19:56:01.534",
+	"count_dep":4,
 	"count_ref":2,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -25,12 +25,28 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-llama",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#243448 in MvnRepository",
+	"ranking":"#243496 in MvnRepository",
 	"tags":[
 		"container",
 		"llama"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.574.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.573.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250901",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.550.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250710",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.548.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.547.15",
 			"vulnerabilities":""
 		}
 	],

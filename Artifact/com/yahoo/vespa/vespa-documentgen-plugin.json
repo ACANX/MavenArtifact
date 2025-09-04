@@ -3,12 +3,12 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"vespa-documentgen-plugin",
-	"version_latest":"8.574.10",
-	"ts_publish":1756897263000,
-	"dt_publish":"2025-09-03 19:01:03.000",
-	"ts_update":1756898032994,
-	"dt_update":"2025-09-03 19:13:04.308",
-	"count_dep":115,
+	"version_latest":"8.575.21",
+	"ts_publish":1756986485000,
+	"dt_publish":"2025-09-04 19:48:05.000",
+	"ts_update":1756987014549,
+	"dt_update":"2025-09-04 19:56:01.535",
+	"count_dep":34,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/vespa-documentgen-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#721135 in MvnRepository",
+	"ranking":"#720021 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.573.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250901",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.548.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.547.15",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"predicate-search-core",
-	"version_latest":"8.574.10",
-	"ts_publish":1756897263000,
-	"dt_publish":"2025-09-03 19:01:03.000",
-	"ts_update":1756898014120,
-	"dt_update":"2025-09-03 19:13:03.437",
-	"count_dep":10,
-	"count_ref":53,
+	"version_latest":"8.575.21",
+	"ts_publish":1756986485000,
+	"dt_publish":"2025-09-04 19:48:05.000",
+	"ts_update":1756987025794,
+	"dt_update":"2025-09-04 19:55:58.259",
+	"count_dep":6,
+	"count_ref":15,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,11 +26,19 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/predicate-search-core",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#81928 in MvnRepository",
+	"ranking":"#81882 in MvnRepository",
 	"tags":[
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"8.573.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250901",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"8.548.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"8.547.15",
 			"vulnerabilities":""
 		}
 	]
