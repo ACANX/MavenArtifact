@@ -3,11 +3,11 @@
 	"description":"This POM defines the required plugins and profiles to allow a Camunda Community Hub release build.\n        Inherit this POM when you want to use https://github.com/camunda-community-hub/community-action-maven-release",
 	"group_id":"io.camunda.spring",
 	"artifact_id":"spring-client-annotations",
-	"version_latest":"8.5.21",
-	"ts_publish":1754647383000,
-	"dt_publish":"2025-08-08 18:03:03.000",
-	"ts_update":1754648330586,
-	"dt_update":"2025-08-08 18:17:54.568",
+	"version_latest":"8.5.22",
+	"ts_publish":1757019769000,
+	"dt_publish":"2025-09-05 05:02:49.000",
+	"ts_update":1757020503527,
+	"dt_update":"2025-09-05 05:13:44.352",
 	"count_dep":0,
 	"count_ref":6,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/camunda-community-hub/spring-zeebe/spring-client-annotations",
 	"count_used_by":6,
 	"license":"Apache",
-	"ranking":"#76056 in MvnRepository",
+	"ranking":"#76541 in MvnRepository",
 	"tags":[
 		"spring",
 		"camunda",
@@ -33,6 +33,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"8.5.21",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240605",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.5.4",
 			"vulnerabilities":""
 		}
 	]
