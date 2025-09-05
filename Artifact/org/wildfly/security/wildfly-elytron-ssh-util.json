@@ -3,13 +3,13 @@
 	"description":"WildFly Security SSH Util",
 	"group_id":"org.wildfly.security",
 	"artifact_id":"wildfly-elytron-ssh-util",
-	"version_latest":"2.6.5.Alpha1",
-	"ts_publish":1756982777000,
-	"dt_publish":"2025-09-04 18:46:17.000",
-	"ts_update":1756984392408,
-	"dt_update":"2025-09-04 19:12:48.942",
+	"version_latest":"3.0.0.Alpha1",
+	"ts_publish":1757069235000,
+	"dt_publish":"2025-09-05 18:47:15.000",
+	"ts_update":1757070783299,
+	"dt_update":"2025-09-05 19:12:38.293",
 	"count_dep":0,
-	"count_ref":7,
+	"count_ref":6,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/wildfly-security/wildfly-elytron",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#51395 in MvnRepository",
+	"ranking":"#51407 in MvnRepository",
 	"tags":[
 		"network",
 		"security",
@@ -35,6 +35,14 @@
 		"wildfly"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"2.6.5.Alpha1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250506",
 			"repository":"Central",
@@ -156,6 +164,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"2.2.12.Alpha1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250506",
 			"repository":"Central",
 			"type":"release",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.2.9.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.2.8.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241031",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.2.7.Final",
 			"vulnerabilities":""
 		}
 	]

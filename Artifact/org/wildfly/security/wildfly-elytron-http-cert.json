@@ -3,13 +3,13 @@
 	"description":"WildFly Security HTTP Cert Mechanism Implementation",
 	"group_id":"org.wildfly.security",
 	"artifact_id":"wildfly-elytron-http-cert",
-	"version_latest":"2.6.5.Alpha1",
-	"ts_publish":1756982776000,
-	"dt_publish":"2025-09-04 18:46:16.000",
-	"ts_update":1756984378584,
-	"dt_update":"2025-09-04 19:12:49.339",
-	"count_dep":10,
-	"count_ref":3,
+	"version_latest":"3.0.0.Alpha1",
+	"ts_publish":1757069235000,
+	"dt_publish":"2025-09-05 18:47:15.000",
+	"ts_update":1757070801644,
+	"dt_update":"2025-09-05 19:12:38.718",
+	"count_dep":0,
+	"count_ref":2,
 	"licenses":[],
 	"categories":[
 		"Security"
@@ -19,7 +19,7 @@
 	"count_used_by":23,
 	"home_page":"https://github.com/wildfly-security/wildfly-elytron",
 	"license":"Apache 2.0",
-	"ranking":"#19800 in MvnRepository",
+	"ranking":"#19809 in MvnRepository",
 	"tags":[
 		"certificate",
 		"security",
@@ -27,6 +27,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"2.6.5.Alpha1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250506",
 			"repository":"Central",
@@ -148,6 +156,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"2.2.12.Alpha1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250506",
 			"repository":"Central",
 			"type":"release",
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.2.9.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.2.8.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241031",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.2.7.Final",
 			"vulnerabilities":""
 		}
 	]
