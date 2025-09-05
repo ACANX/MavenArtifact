@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-storage-redis",
-	"version_latest":"3.3.0.Alpha2",
-	"ts_publish":1756205290000,
-	"dt_publish":"2025-08-26 18:48:10.000",
-	"ts_update":1756207570812,
-	"dt_update":"2025-08-26 19:26:02.104",
+	"version_latest":"3.3.0.Beta1",
+	"ts_publish":1757062764000,
+	"dt_publish":"2025-09-05 16:59:24.000",
+	"ts_update":1757063768742,
+	"dt_update":"2025-09-05 17:15:43.136",
 	"count_dep":31,
 	"count_ref":0,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-storage/debezium-storage-redis",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#160046 in MvnRepository",
+	"ranking":"#161297 in MvnRepository",
 	"tags":[
 		"debezium",
 		"storage",
@@ -38,11 +38,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"3.3.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"alpha",
 			"usage":2,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.2.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.6.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.4.Final",
 			"vulnerabilities":""
 		}
 	]

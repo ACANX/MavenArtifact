@@ -3,13 +3,13 @@
 	"description":"This provides native functions that allow runtime compilation and execution of Java code. This is intended\n        primarily to support development of Java generation code by providing access to compilation and execution in a\n        Pure IDE Light. Please note that native functions provided here are extremely unsafe for general usage as they\n        allow compilation and execution of arbitrary user supplied Java code. They should only be used in environments\n        where there are no concerns about users running unsafe code (such as a user running a local Pure IDE Light).",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-pure-functions-javaCompiler-pure",
-	"version_latest":"4.97.2",
-	"ts_publish":1756921569000,
-	"dt_publish":"2025-09-04 01:46:09.000",
-	"ts_update":1756924114469,
-	"dt_update":"2025-09-04 02:21:23.716",
+	"version_latest":"4.98.0",
+	"ts_publish":1757062593000,
+	"dt_publish":"2025-09-05 16:56:33.000",
+	"ts_update":1757063791558,
+	"dt_update":"2025-09-05 17:15:51.911",
 	"count_dep":18,
-	"count_ref":4,
+	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-pure/legend-engine-pure-code-functions-javaCompiler/legend-engine-pure-functions-javaCompiler-pure",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#125203 in MvnRepository",
+	"ranking":"#125167 in MvnRepository",
 	"tags":[
 		"functions",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.97.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.89.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.89.0",
 			"vulnerabilities":""
 		}
 	]
