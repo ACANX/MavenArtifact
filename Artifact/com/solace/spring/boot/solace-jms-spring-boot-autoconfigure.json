@@ -3,12 +3,12 @@
 	"description":"Autoconfiguration for JMS messaging using Solace",
 	"group_id":"com.solace.spring.boot",
 	"artifact_id":"solace-jms-spring-boot-autoconfigure",
-	"version_latest":"5.4.2",
-	"ts_publish":1754575880000,
-	"dt_publish":"2025-08-07 22:11:20.000",
-	"ts_update":1754578532474,
-	"dt_update":"2025-08-07 22:54:56.932",
-	"count_dep":38,
+	"version_latest":"5.5.0",
+	"ts_publish":1757087892000,
+	"dt_publish":"2025-09-05 23:58:12.000",
+	"ts_update":1757089129781,
+	"dt_update":"2025-09-06 00:18:04.214",
+	"count_dep":39,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,9 +24,9 @@
 	],
 	"url_scm":"https://github.com/SolaceProducts/solace-spring-boot.git/solace-spring-boot-parent/solace-jms-spring-boot-autoconfigure",
 	"count_used_by":1,
-	"home_page":"https://github.com/SolaceProducts/solace-spring-boot/tree/2.4.1/solace-spring-boot-autoconfigure/solace-jms-spring-boot-autoconfigure",
+	"home_page":"https://github.com/SolaceProducts/solace-spring-boot/tree/2.4.2/solace-spring-boot-autoconfigure/solace-jms-spring-boot-autoconfigure",
 	"license":"Apache 2.0",
-	"ranking":"#399635 in MvnRepository",
+	"ranking":"#359862 in MvnRepository",
 	"tags":[
 		"jms",
 		"queue",
@@ -35,10 +35,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.4.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"5.4.1",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20180408",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.1.0",
 			"vulnerabilities":""
 		}
 	]
