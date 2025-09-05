@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"systemtests",
-	"version_latest":"3.3.0.Alpha2",
-	"ts_publish":1756220460000,
-	"dt_publish":"2025-08-26 23:01:00.000",
-	"ts_update":1756222000697,
-	"dt_update":"2025-08-26 23:25:51.927",
+	"version_latest":"3.3.0.Beta1",
+	"ts_publish":1757069124000,
+	"dt_publish":"2025-09-05 18:45:24.000",
+	"ts_update":1757069786764,
+	"dt_update":"2025-09-05 18:55:53.664",
 	"count_dep":136,
 	"count_ref":0,
 	"licenses":[
@@ -27,17 +27,33 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium-operator/systemtests",
 	"license":"Apache 2.0",
-	"ranking":"#923058 in MvnRepository",
+	"ranking":"#778344 in MvnRepository",
 	"tags":[
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.3.0.Alpha2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.6.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.4.Final",
 			"vulnerabilities":""
 		}
 	]
