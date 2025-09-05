@@ -3,13 +3,13 @@
 	"description":"Proton Core libraries for Android",
 	"group_id":"me.proton.core",
 	"artifact_id":"payment-domain",
-	"version_latest":"34.2.1",
-	"ts_publish":1756372980000,
-	"dt_publish":"2025-08-28 17:23:00.000",
-	"ts_update":1756374379144,
-	"dt_update":"2025-08-28 17:46:01.169",
+	"version_latest":"34.4.0",
+	"ts_publish":1757059273000,
+	"dt_publish":"2025-09-05 16:01:13.000",
+	"ts_update":1757060392924,
+	"dt_update":"2025-09-05 16:19:29.127",
 	"count_dep":15,
-	"count_ref":14,
+	"count_ref":27,
 	"licenses":[
 		"GNU GENERAL PUBLIC LICENSE, Version 3.0"
 	],
@@ -26,12 +26,28 @@
 	"count_used_by":14,
 	"home_page":"https://github.com/ProtonMail/protoncore_android",
 	"license":"GPL 3.0",
-	"ranking":"#34158 in MvnRepository",
+	"ranking":"#34237 in MvnRepository",
 	"tags":[
 		"payments",
 		"domain"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"34.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"34.2.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":14,
 			"version":"30.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250213",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"30.3.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250130",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"30.3.2",
 			"vulnerabilities":""
 		}
 	]
