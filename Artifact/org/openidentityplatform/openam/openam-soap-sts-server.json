@@ -3,14 +3,17 @@
 	"description":"OpenAM implementation of WS-Trust SecureTokenService",
 	"group_id":"org.openidentityplatform.openam",
 	"artifact_id":"openam-soap-sts-server",
-	"version_latest":"15.2.1",
-	"ts_publish":1754772505000,
-	"dt_publish":"2025-08-10 04:48:25.000",
-	"ts_update":1754774113103,
-	"dt_update":"2025-08-10 05:14:15.402",
-	"count_dep":21,
+	"version_latest":"15.2.2",
+	"ts_publish":1757088765000,
+	"dt_publish":"2025-09-06 00:12:45.000",
+	"ts_update":1757089577067,
+	"dt_update":"2025-09-06 00:26:00.089",
+	"count_dep":135,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"CC BY-NC-ND 3.0",
+		"CDDL-1.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,7 +21,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.openidentityplatform.openam/openam-soap-sts-server@15.2.1",
 	"count_used_by":1,
 	"license":"CC-BY-NC-ND 3.0",
-	"ranking":"#300939 in MvnRepository",
+	"ranking":"#302091 in MvnRepository",
 	"tags":[
 		"application",
 		"server",
@@ -29,6 +32,14 @@
 		"soap"
 	],
 	"versions":[
+		{
+			"date":"20250809",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.2.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -179,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"14.7.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230221",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"14.7.2",
 			"vulnerabilities":""
 		}
 	]

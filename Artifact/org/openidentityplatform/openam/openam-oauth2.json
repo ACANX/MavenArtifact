@@ -3,12 +3,12 @@
 	"description":"OpenAM OAuth2 integration",
 	"group_id":"org.openidentityplatform.openam",
 	"artifact_id":"openam-oauth2",
-	"version_latest":"15.2.1",
-	"ts_publish":1754772505000,
-	"dt_publish":"2025-08-10 04:48:25.000",
-	"ts_update":1754774104953,
-	"dt_update":"2025-08-10 05:14:17.266",
-	"count_dep":106,
+	"version_latest":"15.2.2",
+	"ts_publish":1757088765000,
+	"dt_publish":"2025-09-06 00:12:45.000",
+	"ts_update":1757089659386,
+	"dt_update":"2025-09-06 00:25:58.497",
+	"count_dep":87,
 	"count_ref":4,
 	"licenses":[
 		"CC BY-NC-ND 3.0",
@@ -27,12 +27,20 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/OpenAM/openam-oauth2",
 	"count_used_by":4,
 	"license":"CC-BY-NC-ND 3.0",
-	"ranking":"#118887 in MvnRepository",
+	"ranking":"#126320 in MvnRepository",
 	"tags":[
 		"authentication",
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20250809",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"15.2.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"14.7.3",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20230221",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"14.7.2",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]
