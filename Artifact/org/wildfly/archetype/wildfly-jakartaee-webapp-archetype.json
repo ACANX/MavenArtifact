@@ -3,11 +3,11 @@
 	"description":"An archetype that generates a starter Jakarta EE project for JBoss WildFly. The project is a WAR archive. It is prepared for Arquillian driven unit tests.",
 	"group_id":"org.wildfly.archetype",
 	"artifact_id":"wildfly-jakartaee-webapp-archetype",
-	"version_latest":"37.0.0.SP1",
-	"ts_publish":1756377010000,
-	"dt_publish":"2025-08-28 18:30:10.000",
-	"ts_update":1756378154729,
-	"dt_update":"2025-08-28 18:47:57.400",
+	"version_latest":"37.0.1.Final",
+	"ts_publish":1757068204000,
+	"dt_publish":"2025-09-05 18:30:04.000",
+	"ts_update":1757068615506,
+	"dt_update":"2025-09-05 18:35:43.290",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/wildfly/wildfly-archetypes",
 	"home_page":"http://www.wildfly.org",
 	"license":"Apache 2.0",
-	"ranking":"#838603 in MvnRepository",
+	"ranking":"#752266 in MvnRepository",
 	"tags":[
 		"jakarta",
 		"wildfly",
@@ -40,6 +40,14 @@
 		"jakartaee"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"service",
+			"usage":0,
+			"version":"37.0.0.SP1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250515",
 			"repository":"Central",
@@ -190,14 +198,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"26.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220103",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"26.0.0.Final",
 			"vulnerabilities":""
 		}
 	]
