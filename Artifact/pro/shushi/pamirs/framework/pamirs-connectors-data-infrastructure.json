@@ -2,14 +2,16 @@
 	"id":"pkg:maven/pro.shushi.pamirs.framework/pamirs-connectors-data-infrastructure",
 	"group_id":"pro.shushi.pamirs.framework",
 	"artifact_id":"pamirs-connectors-data-infrastructure",
-	"version_latest":"6.2.16",
-	"ts_publish":1756733701000,
-	"dt_publish":"2025-09-01 21:35:01.000",
-	"ts_update":1756734669790,
-	"dt_update":"2025-09-01 21:50:50.923",
-	"count_dep":3,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"6.3.0",
+	"ts_publish":1757075610000,
+	"dt_publish":"2025-09-05 20:33:30.000",
+	"ts_update":1757076995030,
+	"dt_update":"2025-09-05 20:55:59.120",
+	"count_dep":237,
+	"count_ref":3,
+	"licenses":[
+		"GNU AFFERO GENERAL PUBLIC LICENSE, Version 3"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/oinone/pamirs-framework/pamirs-connectors-data-infrastructure",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/pro.shushi.pamirs.framework/pamirs-connectors-data-infrastructure@6.2.12",
@@ -19,13 +21,21 @@
 	"url_scm":"https://github.com/oinone/pamirs-framework/pamirs-connectors-data-infrastructure",
 	"count_used_by":3,
 	"license":"AGPL 3.0",
-	"ranking":"#147702 in MvnRepository",
+	"ranking":"#162879 in MvnRepository",
 	"tags":[
 		"data",
 		"framework",
 		"connector"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"6.2.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -154,5 +164,6 @@
 			"version":"6.2.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"oinone pamirs"
 }
