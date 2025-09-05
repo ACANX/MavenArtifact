@@ -3,11 +3,11 @@
 	"description":"Chat Sub-package of the Client SDK for easy integration of chat functionality into applications.Enables real-time messaging, group conversations, message history, and event handling across various channels.\nFor more information, documentation, and code samples, please visit the Vonage Developer Portal.",
 	"group_id":"com.vonage",
 	"artifact_id":"client-sdk-chat",
-	"version_latest":"2.0.1-snapshot.90.0",
-	"ts_publish":1756739044000,
-	"dt_publish":"2025-09-01 23:04:04.000",
-	"ts_update":1756739758838,
-	"dt_update":"2025-09-01 23:14:53.937",
+	"version_latest":"2.1.0-rc.0",
+	"ts_publish":1757065976000,
+	"dt_publish":"2025-09-05 17:52:56.000",
+	"ts_update":1757067426907,
+	"dt_update":"2025-09-05 18:15:53.970",
 	"count_dep":4,
 	"count_ref":1,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"count_used_by":1,
 	"home_page":"https://developer.vonage.com/client-sdk/overview",
 	"license":"Commercial",
-	"ranking":"#410206 in MvnRepository",
+	"ranking":"#411747 in MvnRepository",
 	"tags":[
 		"sdk",
 		"chat",
@@ -37,6 +37,14 @@
 		"android"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.1-rc.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -51,6 +59,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.0.1-rc.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"snapshot",
+			"usage":1,
+			"version":"2.0.1-snapshot.90.0",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +195,6 @@
 			"type":"snapshot",
 			"usage":1,
 			"version":"1.7.1-snapshot.49.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240730",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240729",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.7.0-rc.0",
 			"vulnerabilities":""
 		}
 	]
