@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/io.github.githubcew/arguslog",
-	"description":"ArgusLog 是一个基于SpringBoot + Websocket 开发的接口监测web端命令行工具, 主要用于开发或者线上问题定位、性能优化分析 ，\n        支持针对一个或多个接口的的入参、返回值、耗时、异常、调用链进行监测， 可以解决一些复杂场景下接口监测的问题。",
+	"description":"ArgusLog 是一个接口监测web端命令行工具, 主要用于开发或者线上问题定位、性能优化分析 ，\n        支持针对一个或多个接口的的入参、返回值、耗时、异常、调用链(方法树、各方法耗时)进行监测， 用于解决一些复杂场景下接口监测的问题。",
 	"group_id":"io.github.githubcew",
 	"artifact_id":"arguslog",
-	"version_latest":"0.1.5",
-	"ts_publish":1756361966000,
-	"dt_publish":"2025-08-28 14:19:26.000",
-	"ts_update":1756364089796,
-	"dt_update":"2025-08-28 14:53:23.817",
-	"count_dep":40,
+	"version_latest":"0.2.0",
+	"ts_publish":1757128616000,
+	"dt_publish":"2025-09-06 11:16:56.000",
+	"ts_update":1757130012016,
+	"dt_update":"2025-09-06 11:38:57.819",
+	"count_dep":48,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,11 +24,43 @@
 	"url_scm":"https://github.com/GitHubCew/apiLog",
 	"home_page":"https://github.com/GitHubCew/ArgusLog/",
 	"license":"Apache 2.0",
-	"ranking":"#669975 in MvnRepository",
+	"ranking":"#670864 in MvnRepository",
 	"tags":[
 		"github"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.1.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.1.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.1.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -155,30 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.0.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.0.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.0.1",
 			"vulnerabilities":""
 		}
 	]
