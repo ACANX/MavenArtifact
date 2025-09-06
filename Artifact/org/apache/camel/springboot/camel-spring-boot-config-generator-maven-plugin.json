@@ -2,21 +2,23 @@
 	"id":"pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin",
 	"group_id":"org.apache.camel.springboot",
 	"artifact_id":"camel-spring-boot-config-generator-maven-plugin",
-	"version_latest":"4.13.0",
-	"ts_publish":1751700704000,
-	"dt_publish":"2025-07-05 15:31:44.000",
-	"ts_update":1755364411385,
-	"dt_update":"2025-08-17 00:18:01.403",
-	"count_dep":33,
+	"version_latest":"4.14.0",
+	"ts_publish":1755270389000,
+	"dt_publish":"2025-08-15 23:06:29.000",
+	"ts_update":1757178685406,
+	"dt_update":"2025-09-07 00:17:43.218",
+	"count_dep":162,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache-2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.springboot/camel-spring-boot-config-generator-maven-plugin@4.13.0",
 	"license":"Apache 2.0",
-	"ranking":"#887929 in MvnRepository",
+	"ranking":"#952299 in MvnRepository",
 	"tags":[
 		"plugin",
 		"generator",
@@ -29,6 +31,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":0,
 			"version":"4.8.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240915",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Camel Spring Boot Root POM"
 }
