@@ -2,21 +2,23 @@
 	"id":"pkg:maven/org.apache.camel.springboot/camel-starter-parent",
 	"group_id":"org.apache.camel.springboot",
 	"artifact_id":"camel-starter-parent",
-	"version_latest":"4.13.0",
-	"ts_publish":1751700723000,
-	"dt_publish":"2025-07-05 15:32:03.000",
-	"ts_update":1755363367982,
-	"dt_update":"2025-08-17 00:18:01.399",
+	"version_latest":"4.14.0",
+	"ts_publish":1755270408000,
+	"dt_publish":"2025-08-15 23:06:48.000",
+	"ts_update":1757175969512,
+	"dt_update":"2025-09-07 00:17:43.886",
 	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache-2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.springboot/camel-starter-parent@4.13.0",
 	"license":"Apache 2.0",
-	"ranking":"#666276 in MvnRepository",
+	"ranking":"#667374 in MvnRepository",
 	"tags":[
 		"spring",
 		"apache",
@@ -24,6 +26,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -175,14 +185,7 @@
 			"usage":0,
 			"version":"4.8.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240915",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Camel Spring Boot Root POM"
 }
