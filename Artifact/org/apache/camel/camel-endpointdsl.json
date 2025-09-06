@@ -3,13 +3,13 @@
 	"description":"The Camel Endpoint DSL",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-endpointdsl",
-	"version_latest":"4.13.0",
-	"ts_publish":1751643308000,
-	"dt_publish":"2025-07-04 23:35:08.000",
-	"ts_update":1755363172270,
-	"dt_update":"2025-08-17 00:17:58.909",
+	"version_latest":"4.14.0",
+	"ts_publish":1755265294000,
+	"dt_publish":"2025-08-15 21:41:34.000",
+	"ts_update":1757177861070,
+	"dt_update":"2025-09-07 00:17:41.939",
 	"count_dep":4,
-	"count_ref":204,
+	"count_ref":225,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -18,16 +18,24 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-endpointdsl@4.13.0",
-	"count_used_by":36,
+	"count_used_by":37,
 	"home_page":"https://camel.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#13004 in MvnRepository",
+	"ranking":"#12756 in MvnRepository",
 	"tags":[
 		"apache",
 		"dsl",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -56,7 +64,7 @@
 			"date":"20250627",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"4.10.6",
 			"vulnerabilities":""
 		},
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240915",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"4.8.0",
 			"vulnerabilities":""
 		}
 	]

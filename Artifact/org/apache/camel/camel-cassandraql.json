@@ -3,13 +3,13 @@
 	"description":"Cassandra CQL3 support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-cassandraql",
-	"version_latest":"4.13.0",
-	"ts_publish":1751640494000,
-	"dt_publish":"2025-07-04 22:48:14.000",
-	"ts_update":1755363187759,
-	"dt_update":"2025-08-17 00:17:52.556",
+	"version_latest":"4.14.0",
+	"ts_publish":1755263784000,
+	"dt_publish":"2025-08-15 21:16:24.000",
+	"ts_update":1757177801415,
+	"dt_update":"2025-09-07 00:17:33.364",
 	"count_dep":3,
-	"count_ref":3,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -21,7 +21,7 @@
 	"count_used_by":28,
 	"home_page":"https://camel.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#16570 in MvnRepository",
+	"ranking":"#16574 in MvnRepository",
 	"tags":[
 		"database",
 		"cassandra",
@@ -30,6 +30,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240915",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"4.8.0",
 			"vulnerabilities":""
 		}
 	]

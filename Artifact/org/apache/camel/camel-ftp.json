@@ -3,13 +3,13 @@
 	"description":"Camel FTP support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-ftp",
-	"version_latest":"4.13.0",
-	"ts_publish":1751640360000,
-	"dt_publish":"2025-07-04 22:46:00.000",
-	"ts_update":1755364424266,
-	"dt_update":"2025-08-17 00:17:52.562",
+	"version_latest":"4.14.0",
+	"ts_publish":1755263705000,
+	"dt_publish":"2025-08-15 21:15:05.000",
+	"ts_update":1757177862136,
+	"dt_update":"2025-09-07 00:17:33.371",
 	"count_dep":4,
-	"count_ref":5,
+	"count_ref":4,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -18,10 +18,10 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-ftp@4.13.0",
-	"count_used_by":82,
+	"count_used_by":83,
 	"home_page":"https://camel.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#6073 in MvnRepository",
+	"ranking":"#6043 in MvnRepository",
 	"tags":[
 		"ftp",
 		"network",
@@ -31,6 +31,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -59,7 +67,7 @@
 			"date":"20250627",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":6,
 			"version":"4.10.6",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240915",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"4.8.0",
 			"vulnerabilities":""
 		}
 	]
