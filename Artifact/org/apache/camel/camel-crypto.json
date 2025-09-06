@@ -3,13 +3,13 @@
 	"description":"Camel Cryptographic Support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-crypto",
-	"version_latest":"4.13.0",
-	"ts_publish":1751640601000,
-	"dt_publish":"2025-07-04 22:50:01.000",
-	"ts_update":1755363199258,
-	"dt_update":"2025-08-17 00:17:53.010",
+	"version_latest":"4.14.0",
+	"ts_publish":1755263849000,
+	"dt_publish":"2025-08-15 21:17:29.000",
+	"ts_update":1757175475512,
+	"dt_update":"2025-09-07 00:17:33.949",
 	"count_dep":2,
-	"count_ref":3,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,13 +20,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-crypto@4.13.0",
 	"count_used_by":20,
 	"license":"Apache 2.0",
-	"ranking":"#22468 in MvnRepository",
+	"ranking":"#22611 in MvnRepository",
 	"tags":[
 		"cryptography",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240915",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.0",
 			"vulnerabilities":""
 		}
 	]
