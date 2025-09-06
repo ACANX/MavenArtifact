@@ -3,13 +3,13 @@
 	"description":"Camel Debezium SQL Server support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-debezium-sqlserver",
-	"version_latest":"4.13.0",
-	"ts_publish":1751640746000,
-	"dt_publish":"2025-07-04 22:52:26.000",
-	"ts_update":1755363167735,
-	"dt_update":"2025-08-17 00:17:53.470",
+	"version_latest":"4.14.0",
+	"ts_publish":1755263943000,
+	"dt_publish":"2025-08-15 21:19:03.000",
+	"ts_update":1757177144365,
+	"dt_update":"2025-09-07 00:17:34.538",
 	"count_dep":2,
-	"count_ref":3,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-debezium-sqlserver@4.13.0",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#81160 in MvnRepository",
+	"ranking":"#81732 in MvnRepository",
 	"tags":[
 		"sql",
 		"server",
@@ -30,6 +30,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240915",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.0",
 			"vulnerabilities":""
 		}
 	]
