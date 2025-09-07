@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-test-framework",
-	"version_latest":"4.98.0",
-	"ts_publish":1757062593000,
-	"dt_publish":"2025-09-05 16:56:33.000",
-	"ts_update":1757063858183,
-	"dt_update":"2025-09-05 17:15:46.945",
-	"count_dep":38,
-	"count_ref":1,
+	"version_latest":"4.99.0",
+	"ts_publish":1757225046000,
+	"dt_publish":"2025-09-07 14:04:06.000",
+	"ts_update":1757226014968,
+	"dt_update":"2025-09-07 14:19:44.711",
+	"count_dep":35,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,15 +24,39 @@
 		"Maurizio Pillitu"
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-testable/legend-engine-test-framework",
-	"count_used_by":19,
+	"count_used_by":20,
 	"license":"Apache 2.0",
-	"ranking":"#23724 in MvnRepository",
+	"ranking":"#22620 in MvnRepository",
 	"tags":[
 		"framework",
 		"testing",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"4.98.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"4.97.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"4.97.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":15,
 			"version":"4.89.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250628",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"4.89.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"4.89.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"4.88.11",
 			"vulnerabilities":""
 		}
 	]
