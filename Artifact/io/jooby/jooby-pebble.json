@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.jooby/jooby-pebble",
 	"group_id":"io.jooby",
 	"artifact_id":"jooby-pebble",
-	"version_latest":"4.0.6",
-	"ts_publish":1755088425000,
-	"dt_publish":"2025-08-13 20:33:45.000",
-	"ts_update":1755091374976,
-	"dt_update":"2025-08-13 21:21:42.675",
-	"count_dep":5,
+	"version_latest":"4.0.7",
+	"ts_publish":1757338655000,
+	"dt_publish":"2025-09-08 21:37:35.000",
+	"ts_update":1757339890937,
+	"dt_update":"2025-09-08 21:56:04.363",
+	"count_dep":12,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -21,8 +23,24 @@
 	],
 	"url_scm":"scm:git:git@github.com:jooby-project/jooby.git/modules/jooby-pebble",
 	"license":"Apache 2.0",
-	"ranking":"#793152 in MvnRepository",
+	"ranking":"#800759 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -61,6 +79,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.11.2",
 			"vulnerabilities":""
 		},
 		{
@@ -158,30 +184,7 @@
 			"usage":0,
 			"version":"3.5.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241114",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.5.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241113",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.5.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241107",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.5.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The modular web framework for Java and Kotlin"
 }
