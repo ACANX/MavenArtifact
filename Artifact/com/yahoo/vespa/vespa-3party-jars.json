@@ -3,11 +3,11 @@
 	"description":"List 3rd party Java libraries that should be installed to lib/jars.\n        These libraries are not embedded in fat jars produced by bundle-plugin's 'assemble-fat-jar' goal.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"vespa-3party-jars",
-	"version_latest":"8.575.21",
-	"ts_publish":1756986485000,
-	"dt_publish":"2025-09-04 19:48:05.000",
-	"ts_update":1756988824644,
-	"dt_update":"2025-09-04 20:26:06.742",
+	"version_latest":"8.576.45",
+	"ts_publish":1757330571000,
+	"dt_publish":"2025-09-08 19:22:51.000",
+	"ts_update":1757331879533,
+	"dt_update":"2025-09-08 19:44:07.475",
 	"count_dep":20,
 	"count_ref":0,
 	"licenses":[
@@ -25,8 +25,24 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/vespa-3party-jars",
 	"license":"Apache 2.0",
-	"ranking":"#479837 in MvnRepository",
+	"ranking":"#480145 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.575.21",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.574.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.551.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.550.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250710",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.548.23",
 			"vulnerabilities":""
 		}
 	]
