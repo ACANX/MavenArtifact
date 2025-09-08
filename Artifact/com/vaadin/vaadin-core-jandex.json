@@ -3,12 +3,12 @@
 	"description":"Jandex index for vaadin core packages",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-core-jandex",
-	"version_latest":"24.9.0-beta2",
-	"ts_publish":1756474535000,
-	"dt_publish":"2025-08-29 21:35:35.000",
-	"ts_update":1756475322353,
-	"dt_update":"2025-08-29 21:47:48.572",
-	"count_dep":1,
+	"version_latest":"24.9.0-beta3",
+	"ts_publish":1757325899000,
+	"dt_publish":"2025-09-08 18:04:59.000",
+	"ts_update":1757326658817,
+	"dt_update":"2025-09-08 18:17:27.035",
+	"count_dep":135,
 	"count_ref":2,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/vaadin/platform/vaadin-core-jandex",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#175947 in MvnRepository",
+	"ranking":"#176389 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"24.9.0-beta2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"24.7.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"24.7.3",
 			"vulnerabilities":""
 		}
 	]
