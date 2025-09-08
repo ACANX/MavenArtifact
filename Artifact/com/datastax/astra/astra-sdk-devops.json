@@ -3,13 +3,13 @@
 	"description":"Implementation of a client to the Astra/Stargate Data API written in Java",
 	"group_id":"com.datastax.astra",
 	"artifact_id":"astra-sdk-devops",
-	"version_latest":"2.1.0-rc1",
-	"ts_publish":1755105081000,
-	"dt_publish":"2025-08-14 01:11:21.000",
-	"ts_update":1755107090581,
-	"dt_update":"2025-08-14 01:44:24.771",
+	"version_latest":"2.1.0-rc2",
+	"ts_publish":1757344578000,
+	"dt_publish":"2025-09-08 23:16:18.000",
+	"ts_update":1757345659795,
+	"dt_update":"2025-09-08 23:33:17.711",
 	"count_dep":13,
-	"count_ref":2,
+	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/datastax/astra-db-java/astra-sdk-devops",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#73389 in MvnRepository",
+	"ranking":"#73845 in MvnRepository",
 	"tags":[
 		"datastax",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.1.0-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250411",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"0.6.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230914",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.6.10",
 			"vulnerabilities":""
 		}
 	]
