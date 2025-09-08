@@ -3,11 +3,11 @@
 	"description":"Strimzi uses the Kubernetes operator pattern to provide a way to run an Apache Kafka cluster on\n        Kubernetes in various deployment configurations. The OAuth subproject implements the callbacks for\n        Kafka authentication using OAuth (based on SASL OAUTHBEARER mechanism).",
 	"group_id":"io.strimzi",
 	"artifact_id":"kafka-oauth-server",
-	"version_latest":"0.17.0-RC1",
-	"ts_publish":1756928040000,
-	"dt_publish":"2025-09-04 03:34:00.000",
-	"ts_update":1756929409421,
-	"dt_update":"2025-09-04 03:56:05.519",
+	"version_latest":"0.17.0",
+	"ts_publish":1757341487000,
+	"dt_publish":"2025-09-08 22:24:47.000",
+	"ts_update":1757343146157,
+	"dt_update":"2025-09-08 22:49:42.166",
 	"count_dep":16,
 	"count_ref":2,
 	"licenses":[
@@ -35,7 +35,7 @@
 	"url_scm":"https://github.com/strimzi/strimzi-kafka-oauth/kafka-oauth-server",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#168700 in MvnRepository",
+	"ranking":"#170098 in MvnRepository",
 	"tags":[
 		"server",
 		"streaming",
@@ -44,6 +44,14 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.17.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250416",
 			"repository":"Central",
@@ -194,14 +202,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20200511",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.5.0",
 			"vulnerabilities":""
 		}
 	]
