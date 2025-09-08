@@ -3,13 +3,13 @@
 	"description":"Part of the OSS Review Toolkit (ORT), a suite to automate software compliance checks.",
 	"group_id":"org.ossreviewtoolkit.plugins",
 	"artifact_id":"api",
-	"version_latest":"67.0.0",
-	"ts_publish":1756971596000,
-	"dt_publish":"2025-09-04 15:39:56.000",
-	"ts_update":1756972623457,
-	"dt_update":"2025-09-04 15:56:01.850",
+	"version_latest":"67.1.0",
+	"ts_publish":1757334234000,
+	"dt_publish":"2025-09-08 20:23:54.000",
+	"ts_update":1757334774601,
+	"dt_update":"2025-09-08 20:32:15.186",
 	"count_dep":5,
-	"count_ref":20,
+	"count_ref":11,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,15 +20,31 @@
 		"The ORT Project Authors"
 	],
 	"url_scm":"https://github.com/oss-review-toolkit/ort",
-	"count_used_by":13,
+	"count_used_by":14,
 	"home_page":"https://oss-review-toolkit.org/",
 	"license":"Apache 2.0",
-	"ranking":"#36911 in MvnRepository",
+	"ranking":"#33722 in MvnRepository",
 	"tags":[
 		"plugin",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"67.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"66.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":13,
 			"version":"60.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"59.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250519",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"59.2.0",
 			"vulnerabilities":""
 		}
 	]
