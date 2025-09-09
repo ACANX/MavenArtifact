@@ -3,23 +3,23 @@
 	"description":"Jackson serialization support for REST Client",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-client-jackson",
-	"version_latest":"3.26.3",
-	"ts_publish":1757422768000,
-	"dt_publish":"2025-09-09 20:59:28.000",
-	"ts_update":1757424448895,
-	"dt_update":"2025-09-09 21:26:13.086",
-	"count_dep":3,
-	"count_ref":0,
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757427216062,
+	"dt_update":"2025-09-09 21:56:17.117",
+	"count_dep":4,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-rest-client-jackson@3.25.2",
-	"count_used_by":118,
+	"count_used_by":121,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#4394 in MvnRepository",
+	"ranking":"#4316 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -27,6 +27,14 @@
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -103,7 +111,7 @@
 			"date":"20250723",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":5,
 			"version":"3.24.5",
 			"vulnerabilities":""
 		},
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]

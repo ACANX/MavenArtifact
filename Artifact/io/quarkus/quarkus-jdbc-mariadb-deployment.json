@@ -2,11 +2,11 @@
 	"id":"pkg:maven/io.quarkus/quarkus-jdbc-mariadb-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-jdbc-mariadb-deployment",
-	"version_latest":"3.26.3",
-	"ts_publish":1757422767000,
-	"dt_publish":"2025-09-09 20:59:27.000",
-	"ts_update":1757425530984,
-	"dt_update":"2025-09-09 21:26:20.223",
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757427294006,
+	"dt_update":"2025-09-09 21:56:20.600",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[],
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-jdbc-mariadb-deployment@3.25.1",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#139675 in MvnRepository",
+	"ranking":"#139818 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -28,6 +28,14 @@
 		"mysql"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]

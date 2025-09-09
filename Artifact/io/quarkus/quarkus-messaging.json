@@ -3,13 +3,13 @@
 	"description":"Produce and consume messages and implement event driven and data streaming applications",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-messaging",
-	"version_latest":"3.26.3",
-	"ts_publish":1757422767000,
-	"dt_publish":"2025-09-09 20:59:27.000",
-	"ts_update":1757424426904,
-	"dt_update":"2025-09-09 21:26:19.791",
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757427339009,
+	"dt_update":"2025-09-09 21:56:16.662",
 	"count_dep":10,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,17 +18,25 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-messaging@3.25.1",
 	"count_used_by":25,
 	"license":"Apache 2.0",
-	"ranking":"#18611 in MvnRepository",
+	"ranking":"#18648 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"messaging"
 	],
 	"versions":[
 		{
-			"date":"20250829",
+			"date":"20250903",
 			"repository":"Central",
 			"type":"release",
 			"usage":8,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
 			"version":"3.26.1",
 			"vulnerabilities":""
 		},
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]

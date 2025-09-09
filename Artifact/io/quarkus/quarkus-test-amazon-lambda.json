@@ -3,12 +3,12 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-test-amazon-lambda",
-	"version_latest":"3.26.2",
-	"ts_publish":1756892435000,
-	"dt_publish":"2025-09-03 17:40:35.000",
-	"ts_update":1756894644265,
-	"dt_update":"2025-09-03 18:15:30.478",
-	"count_dep":160,
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424371000,
+	"dt_publish":"2025-09-09 21:26:11.000",
+	"ts_update":1757427375721,
+	"dt_update":"2025-09-09 21:56:05.346",
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#374798 in MvnRepository",
+	"ranking":"#374326 in MvnRepository",
 	"tags":[
 		"amazon",
 		"quarkus",
@@ -34,6 +34,14 @@
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]

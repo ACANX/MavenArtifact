@@ -3,14 +3,16 @@
 	"description":"Provides Kotlin support for Quarkus REST",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-kotlin",
-	"version_latest":"3.26.2",
-	"ts_publish":1756892435000,
-	"dt_publish":"2025-09-03 17:40:35.000",
-	"ts_update":1756894644390,
-	"dt_update":"2025-09-03 18:15:34.134",
-	"count_dep":6,
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757427375982,
+	"dt_update":"2025-09-09 21:56:10.968",
+	"count_dep":17,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,13 +20,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-rest-kotlin@3.25.2",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#182938 in MvnRepository",
+	"ranking":"#183140 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
 		"kotlin"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -175,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]
