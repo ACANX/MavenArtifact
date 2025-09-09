@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-rest-servlet-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-servlet-deployment",
-	"version_latest":"3.26.2",
-	"ts_publish":1756892434000,
-	"dt_publish":"2025-09-03 17:40:34.000",
-	"ts_update":1756894644063,
-	"dt_update":"2025-09-03 18:15:41.442",
+	"version_latest":"3.26.3",
+	"ts_publish":1757422768000,
+	"dt_publish":"2025-09-09 20:59:28.000",
+	"ts_update":1757425514394,
+	"dt_update":"2025-09-09 21:26:14.025",
 	"count_dep":14,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-rest-servlet-deployment@3.25.2",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#225542 in MvnRepository",
+	"ranking":"#232728 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -26,11 +28,43 @@
 	],
 	"versions":[
 		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250813",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
 			"version":"3.26.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.25.4",
 			"vulnerabilities":""
 		},
 		{
@@ -152,38 +186,7 @@
 			"usage":2,
 			"version":"3.23.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250515",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250514",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.22.3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

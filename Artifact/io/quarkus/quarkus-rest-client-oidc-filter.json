@@ -3,11 +3,11 @@
 	"description":"Use REST Client filter to get and refresh access tokens with OpenId Connect Client and send them as HTTP Authorization Bearer tokens",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-client-oidc-filter",
-	"version_latest":"3.26.2",
-	"ts_publish":1756892435000,
-	"dt_publish":"2025-09-03 17:40:35.000",
-	"ts_update":1756894605706,
-	"dt_update":"2025-09-03 18:15:36.710",
+	"version_latest":"3.26.3",
+	"ts_publish":1757422768000,
+	"dt_publish":"2025-09-09 20:59:28.000",
+	"ts_update":1757425517548,
+	"dt_update":"2025-09-09 21:26:10.462",
 	"count_dep":4,
 	"count_ref":1,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#55867 in MvnRepository",
+	"ranking":"#55956 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250829",
+			"date":"20250903",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"3.26.1",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]
