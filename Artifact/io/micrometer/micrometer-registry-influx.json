@@ -3,11 +3,11 @@
 	"description":"Application monitoring instrumentation facade",
 	"group_id":"io.micrometer",
 	"artifact_id":"micrometer-registry-influx",
-	"version_latest":"1.16.0-M2",
-	"ts_publish":1754986633000,
-	"dt_publish":"2025-08-12 16:17:13.000",
-	"ts_update":1754987168353,
-	"dt_update":"2025-08-12 16:25:45.025",
+	"version_latest":"1.16.0-M3",
+	"ts_publish":1757400180000,
+	"dt_publish":"2025-09-09 14:43:00.000",
+	"ts_update":1757400794005,
+	"dt_update":"2025-09-09 14:52:59.390",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -26,13 +26,21 @@
 	"count_used_by":354,
 	"home_page":"https://github.com/micrometer-metrics/micrometer",
 	"license":"Apache 2.0",
-	"ranking":"#1708 in MvnRepository",
+	"ranking":"#1723 in MvnRepository",
 	"tags":[
 		"metrics",
 		"registry",
 		"influxdb"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"1.16.0-M2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250714",
 			"repository":"Central",
@@ -45,7 +53,7 @@
 			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.15.3",
 			"vulnerabilities":""
 		},
@@ -53,7 +61,7 @@
 			"date":"20250714",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":9,
 			"version":"1.15.2",
 			"vulnerabilities":""
 		},
@@ -101,7 +109,7 @@
 			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.14.10",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250609",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.13.15",
 			"vulnerabilities":""
 		}
 	]
