@@ -3,13 +3,13 @@
 	"description":"Generate OpenShift resources from annotations",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-openshift",
-	"version_latest":"3.26.2",
-	"ts_publish":1756892435000,
-	"dt_publish":"2025-09-03 17:40:35.000",
-	"ts_update":1756895186160,
-	"dt_update":"2025-09-03 18:15:27.931",
+	"version_latest":"3.26.3",
+	"ts_publish":1757422767000,
+	"dt_publish":"2025-09-09 20:59:27.000",
+	"ts_update":1757424403647,
+	"dt_update":"2025-09-09 21:26:20.672",
 	"count_dep":4,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,12 +18,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-openshift@3.25.2",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#61716 in MvnRepository",
+	"ranking":"#61768 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"openshift"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]
