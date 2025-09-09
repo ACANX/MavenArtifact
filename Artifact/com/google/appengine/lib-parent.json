@@ -3,11 +3,11 @@
 	"description":"Parent POM for libraries.",
 	"group_id":"com.google.appengine",
 	"artifact_id":"lib-parent",
-	"version_latest":"2.0.39-beta",
-	"ts_publish":1756447447000,
-	"dt_publish":"2025-08-29 14:04:07.000",
-	"ts_update":1756448597422,
-	"dt_update":"2025-08-29 14:22:26.214",
+	"version_latest":"2.0.39",
+	"ts_publish":1757421080000,
+	"dt_publish":"2025-09-09 20:31:20.000",
+	"ts_update":1757422577830,
+	"dt_update":"2025-09-09 20:56:03.902",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,13 +24,21 @@
 	],
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/lib-parent",
 	"license":"Apache 2.0",
-	"ranking":"#791460 in MvnRepository",
+	"ranking":"#971280 in MvnRepository",
 	"tags":[
 		"google",
 		"library",
 		"appengine"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"2.0.39-beta",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -182,14 +190,7 @@
 			"usage":0,
 			"version":"2.0.20",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230912",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.19",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/GoogleCloudPlatform/appengine-java-standard/"
 }
