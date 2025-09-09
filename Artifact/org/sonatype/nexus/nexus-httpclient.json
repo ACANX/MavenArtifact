@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-httpclient",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-httpclient",
-	"version_latest":"3.83.2-01",
-	"ts_publish":1756922093000,
-	"dt_publish":"2025-09-04 01:54:53.000",
-	"ts_update":1756924085813,
-	"dt_update":"2025-09-04 02:21:14.518",
+	"version_latest":"3.84.0-03",
+	"ts_publish":1757437497000,
+	"dt_publish":"2025-09-10 01:04:57.000",
+	"ts_update":1757438088470,
+	"dt_update":"2025-09-10 01:13:53.962",
 	"count_dep":10,
-	"count_ref":21,
+	"count_ref":20,
 	"licenses":[],
 	"categories":[
 		"Build Tools",
@@ -18,12 +18,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.sonatype.nexus/nexus-httpclient@3.83.0-08",
 	"count_used_by":9,
 	"license":"EPL 1.0",
-	"ranking":"#53704 in MvnRepository",
+	"ranking":"#53791 in MvnRepository",
 	"tags":[
 		"client",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.83.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"3.75.0-06",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241105",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.74.0-05",
 			"vulnerabilities":""
 		}
 	]

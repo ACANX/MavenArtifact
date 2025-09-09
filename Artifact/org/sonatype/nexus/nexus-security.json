@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-security",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-security",
-	"version_latest":"3.83.2-01",
-	"ts_publish":1756922093000,
-	"dt_publish":"2025-09-04 01:54:53.000",
-	"ts_update":1756923717588,
-	"dt_update":"2025-09-04 02:21:14.524",
-	"count_dep":25,
-	"count_ref":35,
-	"licenses":[],
+	"version_latest":"3.84.0-03",
+	"ts_publish":1757437497000,
+	"dt_publish":"2025-09-10 01:04:57.000",
+	"ts_update":1757438055397,
+	"dt_update":"2025-09-10 01:13:50.838",
+	"count_dep":147,
+	"count_ref":34,
+	"licenses":[
+		"Eclipse Public License"
+	],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -22,11 +24,19 @@
 	"count_used_by":30,
 	"home_page":"https://github.com/sonatype/nexus-public",
 	"license":"EPL 1.0",
-	"ranking":"#15684 in MvnRepository",
+	"ranking":"#15748 in MvnRepository",
 	"tags":[
 		"security"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
+			"version":"3.83.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -178,14 +188,7 @@
 			"usage":16,
 			"version":"3.75.0-06",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241105",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"3.74.0-05",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"org.sonatype.nexus:nexus-security"
 }

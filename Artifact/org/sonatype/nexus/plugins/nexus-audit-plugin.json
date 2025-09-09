@@ -3,12 +3,12 @@
 	"description":"org.sonatype.nexus.plugins:nexus-audit-plugin",
 	"group_id":"org.sonatype.nexus.plugins",
 	"artifact_id":"nexus-audit-plugin",
-	"version_latest":"3.83.2-01",
-	"ts_publish":1756922093000,
-	"dt_publish":"2025-09-04 01:54:53.000",
-	"ts_update":1756923728418,
-	"dt_update":"2025-09-04 02:21:15.156",
-	"count_dep":174,
+	"version_latest":"3.84.0-03",
+	"ts_publish":1757437497000,
+	"dt_publish":"2025-09-10 01:04:57.000",
+	"ts_update":1757438040901,
+	"dt_update":"2025-09-10 01:13:51.437",
+	"count_dep":177,
 	"count_ref":0,
 	"licenses":[
 		"Eclipse Public License"
@@ -28,13 +28,21 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":2,
 	"license":"EPL 1.0",
-	"ranking":"#214782 in MvnRepository",
+	"ranking":"#215045 in MvnRepository",
 	"tags":[
 		"plugin",
 		"nexus",
 		"audit"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.83.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.75.0-06",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241105",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.74.0-05",
 			"vulnerabilities":""
 		}
 	]
