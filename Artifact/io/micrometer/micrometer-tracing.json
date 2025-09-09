@@ -3,11 +3,11 @@
 	"description":"Facade over tracing concepts",
 	"group_id":"io.micrometer",
 	"artifact_id":"micrometer-tracing",
-	"version_latest":"1.6.0-M2",
-	"ts_publish":1754992716000,
-	"dt_publish":"2025-08-12 17:58:36.000",
-	"ts_update":1754993889745,
-	"dt_update":"2025-08-12 18:17:26.205",
+	"version_latest":"1.6.0-M3",
+	"ts_publish":1757402909000,
+	"dt_publish":"2025-09-09 15:28:29.000",
+	"ts_update":1757403923727,
+	"dt_update":"2025-09-09 15:44:40.054",
 	"count_dep":14,
 	"count_ref":5,
 	"licenses":[
@@ -25,15 +25,23 @@
 		"Marcin Grzejszczak"
 	],
 	"url_scm":"git@github.com:micrometer-metrics/tracing.git",
-	"count_used_by":91,
+	"count_used_by":93,
 	"home_page":"https://github.com/micrometer-metrics/tracing",
 	"license":"Apache 2.0",
-	"ranking":"#5521 in MvnRepository",
+	"ranking":"#5452 in MvnRepository",
 	"tags":[
 		"metrics",
 		"tracing"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":12,
+			"version":"1.6.0-M2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250714",
 			"repository":"Central",
@@ -46,7 +54,7 @@
 			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":15,
 			"version":"1.5.3",
 			"vulnerabilities":""
 		},
@@ -102,7 +110,7 @@
 			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":10,
 			"version":"1.4.9",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":18,
 			"version":"1.3.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250512",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"1.3.12",
 			"vulnerabilities":""
 		}
 	]
