@@ -3,11 +3,11 @@
 	"description":"Baseline parent pom.xml for artifacts packaging a static Karaf distribution.",
 	"group_id":"org.opendaylight.odlparent",
 	"artifact_id":"karaf-dist-static",
-	"version_latest":"14.1.2",
-	"ts_publish":1756945273000,
-	"dt_publish":"2025-09-04 08:21:13.000",
-	"ts_update":1756947388503,
-	"dt_update":"2025-09-04 08:55:58.187",
+	"version_latest":"14.1.3",
+	"ts_publish":1757404832000,
+	"dt_publish":"2025-09-09 16:00:32.000",
+	"ts_update":1757406155438,
+	"dt_update":"2025-09-09 16:21:11.370",
 	"count_dep":24,
 	"count_ref":0,
 	"licenses":[],
@@ -17,7 +17,7 @@
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.opendaylight.odlparent/karaf-dist-static@14.1.2",
 	"license":"EPL 1.0",
-	"ranking":"#785709 in MvnRepository",
+	"ranking":"#826656 in MvnRepository",
 	"tags":[
 		"static",
 		"distribution",
@@ -25,6 +25,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"14.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250807",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"13.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240414",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"13.1.0",
 			"vulnerabilities":""
 		}
 	]

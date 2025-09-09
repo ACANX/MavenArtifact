@@ -3,14 +3,16 @@
 	"description":"Java servlet API 3.1.x",
 	"group_id":"org.opendaylight.odlparent",
 	"artifact_id":"odl-servlet-api",
-	"version_latest":"14.1.2",
-	"ts_publish":1756945263000,
-	"dt_publish":"2025-09-04 08:21:03.000",
-	"ts_update":1756947393606,
-	"dt_update":"2025-09-04 08:55:58.193",
+	"version_latest":"14.1.3",
+	"ts_publish":1757404809000,
+	"dt_publish":"2025-09-09 16:00:09.000",
+	"ts_update":1757406200825,
+	"dt_update":"2025-09-09 16:21:11.374",
 	"count_dep":14,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License v1.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,12 +20,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.opendaylight.odlparent/odl-servlet-api@14.1.2",
 	"count_used_by":8,
 	"license":"EPL 1.0",
-	"ranking":"#58910 in MvnRepository",
+	"ranking":"#58998 in MvnRepository",
 	"tags":[
 		"servlet",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"14.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250807",
 			"repository":"Central",
@@ -174,14 +184,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"13.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240414",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"13.1.0",
 			"vulnerabilities":""
 		}
 	]
