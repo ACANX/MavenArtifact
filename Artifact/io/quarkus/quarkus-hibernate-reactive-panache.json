@@ -3,13 +3,13 @@
 	"description":"Simplify your persistence code for Hibernate Reactive via the active record or the repository pattern",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-hibernate-reactive-panache",
-	"version_latest":"3.26.3",
-	"ts_publish":1757422768000,
-	"dt_publish":"2025-09-09 20:59:28.000",
-	"ts_update":1757425522849,
-	"dt_update":"2025-09-09 21:26:17.129",
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757426188490,
+	"dt_update":"2025-09-09 21:56:18.861",
 	"count_dep":10,
-	"count_ref":2,
+	"count_ref":3,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-hibernate-reactive-panache@3.25.2",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#84088 in MvnRepository",
+	"ranking":"#84195 in MvnRepository",
 	"tags":[
 		"persistence",
 		"quarkus",
@@ -26,6 +26,14 @@
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]

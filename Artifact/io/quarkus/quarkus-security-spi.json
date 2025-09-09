@@ -3,13 +3,13 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-security-spi",
-	"version_latest":"3.26.2",
-	"ts_publish":1756892435000,
-	"dt_publish":"2025-09-03 17:40:35.000",
-	"ts_update":1756895186344,
-	"dt_update":"2025-09-03 18:15:33.705",
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757426201226,
+	"dt_update":"2025-09-09 21:56:10.523",
 	"count_dep":77,
-	"count_ref":14,
+	"count_ref":17,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#47980 in MvnRepository",
+	"ranking":"#48032 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"security",
 		"interface"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]

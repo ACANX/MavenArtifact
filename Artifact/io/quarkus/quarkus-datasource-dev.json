@@ -3,11 +3,11 @@
 	"description":"Configure your datasources - Dev mode only",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-datasource-dev",
-	"version_latest":"3.26.3",
-	"ts_publish":1757422768000,
-	"dt_publish":"2025-09-09 20:59:28.000",
-	"ts_update":1757424442977,
-	"dt_update":"2025-09-09 21:26:13.617",
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757426222131,
+	"dt_update":"2025-09-09 21:56:14.848",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-datasource-dev@3.25.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#261697 in MvnRepository",
+	"ranking":"#262045 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"data",
 		"datasource"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]

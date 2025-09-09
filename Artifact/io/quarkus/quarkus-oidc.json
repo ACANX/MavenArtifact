@@ -3,13 +3,13 @@
 	"description":"Verify Bearer access tokens and authenticate users with Authorization Code Flow",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-oidc",
-	"version_latest":"3.26.3",
-	"ts_publish":1757422768000,
-	"dt_publish":"2025-09-09 20:59:28.000",
-	"ts_update":1757424438975,
-	"dt_update":"2025-09-09 21:26:15.797",
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757426223831,
+	"dt_update":"2025-09-09 21:56:18.437",
 	"count_dep":13,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -19,12 +19,28 @@
 	"count_used_by":85,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#5917 in MvnRepository",
+	"ranking":"#5931 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"oidc"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.23.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.23.0",
 			"vulnerabilities":""
 		}
 	]

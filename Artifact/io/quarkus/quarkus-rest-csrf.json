@@ -3,13 +3,13 @@
 	"description":"Use REST Server filters to prevent the risk of Cross-Site Request Forgery",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-csrf",
-	"version_latest":"3.26.3",
-	"ts_publish":1757422768000,
-	"dt_publish":"2025-09-09 20:59:28.000",
-	"ts_update":1757424441096,
-	"dt_update":"2025-09-09 21:26:13.090",
-	"count_dep":5,
-	"count_ref":0,
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757426222856,
+	"dt_update":"2025-09-09 21:56:16.657",
+	"count_dep":6,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,12 +18,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-rest-csrf@3.25.2",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#133161 in MvnRepository",
+	"ranking":"#133314 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]

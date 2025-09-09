@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-rest-spi-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-spi-deployment",
-	"version_latest":"3.26.2",
-	"ts_publish":1756892435000,
-	"dt_publish":"2025-09-03 17:40:35.000",
-	"ts_update":1756894584280,
-	"dt_update":"2025-09-03 18:15:37.130",
-	"count_dep":3,
-	"count_ref":6,
-	"licenses":[],
+	"version_latest":"3.27.0.CR1",
+	"ts_publish":1757424370000,
+	"dt_publish":"2025-09-09 21:26:10.000",
+	"ts_update":1757426252384,
+	"dt_update":"2025-09-09 21:56:13.093",
+	"count_dep":69,
+	"count_ref":7,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -191,5 +193,6 @@
 			"version":"3.23.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }
