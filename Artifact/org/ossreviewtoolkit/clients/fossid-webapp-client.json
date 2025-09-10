@@ -3,13 +3,13 @@
 	"description":"A client to communicate with the API of a FOSSID instance.",
 	"group_id":"org.ossreviewtoolkit.clients",
 	"artifact_id":"fossid-webapp-client",
-	"version_latest":"67.1.0",
-	"ts_publish":1757334235000,
-	"dt_publish":"2025-09-08 20:23:55.000",
-	"ts_update":1757334826334,
-	"dt_update":"2025-09-08 20:32:14.608",
+	"version_latest":"68.0.0",
+	"ts_publish":1757484720000,
+	"dt_publish":"2025-09-10 14:12:00.000",
+	"ts_update":1757485605738,
+	"dt_update":"2025-09-10 14:25:58.678",
 	"count_dep":17,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,13 +23,21 @@
 	"count_used_by":2,
 	"home_page":"https://oss-review-toolkit.org/",
 	"license":"Apache 2.0",
-	"ranking":"#201049 in MvnRepository",
+	"ranking":"#201070 in MvnRepository",
 	"tags":[
 		"web",
 		"webapp",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"67.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250904",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"61.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"60.0.0",
 			"vulnerabilities":""
 		}
 	]
