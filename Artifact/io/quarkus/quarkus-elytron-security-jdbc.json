@@ -3,12 +3,12 @@
 	"description":"Secure your applications with username/password stored in a database",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-elytron-security-jdbc",
-	"version_latest":"3.26.3",
-	"ts_publish":1757422768000,
-	"dt_publish":"2025-09-09 20:59:28.000",
-	"ts_update":1757424423613,
-	"dt_update":"2025-09-09 21:26:09.113",
-	"count_dep":6,
+	"version_latest":"3.28.0.CR1",
+	"ts_publish":1757487817000,
+	"dt_publish":"2025-09-10 15:03:37.000",
+	"ts_update":1757489199175,
+	"dt_update":"2025-09-10 15:26:19.240",
+	"count_dep":5,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-elytron-security-jdbc@3.25.2",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#158334 in MvnRepository",
+	"ranking":"#158340 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -27,6 +27,14 @@
 		"jdbc"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]
