@@ -3,14 +3,15 @@
 	"description":"A JDBC driver for SharePoint Lists using Apache Calcite with PostgreSQL-compatible SQL syntax",
 	"group_id":"com.kenstott.components",
 	"artifact_id":"sharepoint-list-jdbc-driver",
-	"version_latest":"1.0.4",
-	"ts_publish":1756865876000,
-	"dt_publish":"2025-09-03 10:17:56.000",
-	"ts_update":1756868963764,
-	"dt_update":"2025-09-03 11:08:36.438",
+	"version_latest":"1.0.5",
+	"ts_publish":1757513288000,
+	"dt_publish":"2025-09-10 22:08:08.000",
+	"ts_update":1757514390217,
+	"dt_update":"2025-09-10 22:26:05.238",
 	"count_dep":13,
 	"count_ref":0,
 	"licenses":[
+		"Commercial License",
 		"GNU Affero General Public License v3.0"
 	],
 	"dsv":1,
@@ -20,9 +21,9 @@
 		"Ken Stott"
 	],
 	"url_scm":"https://github.com/hasura/ndc-calcite/tree/main/calcite-rs-jni/sharepoint-list-jdbc-driver",
-	"home_page":"https://github.com/hasura/ndc-calcite/tree/main/calcite-rs-jni/sharepoint-list-jdbc-driver",
-	"license":"Apache 2.0",
-	"ranking":"#843143 in MvnRepository",
+	"home_page":"https://github.com/kenstott/sharepoint-list-jdbc-driver",
+	"license":"AGPL 3.0",
+	"ranking":"#849848 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -32,6 +33,14 @@
 		"sharepoint"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
