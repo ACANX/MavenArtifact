@@ -3,10 +3,10 @@
 	"description":"CDK constructs for defining an interaction between an Amazon SQS queue and an AWS Lambda function.",
 	"group_id":"software.amazon.awsconstructs",
 	"artifact_id":"sqslambda",
-	"version_latest":"2.92.1",
-	"ts_publish":1755899427000,
-	"ts_update":1755900966985,
-	"count_dep":19,
+	"version_latest":"2.92.2",
+	"ts_publish":1757537616000,
+	"ts_update":1757540783597,
+	"count_dep":15,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -18,16 +18,32 @@
 	"url_project":"https://github.com/awslabs/aws-solutions-constructs.git",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awsconstructs/sqslambda@2.90.4",
 	"url_scm":"https://github.com/awslabs/aws-solutions-constructs.git",
-	"dt_publish":"2025-08-23 05:50:27.000",
-	"dt_update":"2025-08-23 06:13:58.161",
+	"dt_publish":"2025-09-11 04:53:36.000",
+	"dt_update":"2025-09-11 05:44:36.982",
 	"count_used_by":1,
 	"home_page":"https://github.com/awslabs/aws-solutions-constructs.git",
 	"license":"Apache 2.0",
-	"ranking":"#394371 in MvnRepository",
+	"ranking":"#396001 in MvnRepository",
 	"tags":[
 		"amazon"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.92.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.92.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.80.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250321",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.79.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250318",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.79.0",
 			"vulnerabilities":""
 		}
 	]
