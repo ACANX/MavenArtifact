@@ -2,16 +2,14 @@
 	"id":"pkg:maven/software.amazon.awssdk/third-party-jackson-core",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"third-party-jackson-core",
-	"version_latest":"2.33.2",
-	"ts_publish":1756934425000,
-	"dt_publish":"2025-09-04 05:20:25.000",
-	"ts_update":1756935949008,
-	"dt_update":"2025-09-04 05:44:29.863",
+	"version_latest":"2.33.7",
+	"ts_publish":1757539408000,
+	"dt_publish":"2025-09-11 05:23:28.000",
+	"ts_update":1757543661270,
+	"dt_update":"2025-09-11 06:32:54.289",
 	"count_dep":0,
-	"count_ref":48,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"count_ref":24,
+	"licenses":[],
 	"categories":[
 		"Software Development Kit"
 	],
@@ -19,10 +17,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/third-party/third-party-jackson-core",
-	"count_used_by":36,
+	"count_used_by":37,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#12958 in MvnRepository",
+	"ranking":"#12658 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -30,6 +28,46 @@
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"2.33.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"2.33.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"2.33.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"2.33.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"2.33.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -82,7 +120,7 @@
 			"date":"20250821",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":10,
 			"version":"2.32.28",
 			"vulnerabilities":""
 		},
@@ -149,47 +187,6 @@
 			"usage":9,
 			"version":"2.32.20",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.32.19",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.32.18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.32.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.32.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.32.15",
-			"vulnerabilities":""
 		}
-	],
-	"description":"The AWS SDK for Java - Third Party is an umbrella module that contains child modules which are shaded third-\n        party dependencies."
+	]
 }

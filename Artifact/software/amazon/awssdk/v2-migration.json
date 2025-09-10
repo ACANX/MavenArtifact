@@ -3,12 +3,12 @@
 	"description":"Contains OpenRewrite recipes to help users migrate from the AWS SDK for Java v1 to the AWS SDK for Java v2",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"v2-migration",
-	"version_latest":"2.32.31-PREVIEW",
-	"ts_publish":1756254008000,
-	"dt_publish":"2025-08-27 08:20:08.000",
-	"ts_update":1756257066971,
-	"dt_update":"2025-08-27 08:55:53.777",
-	"count_dep":39,
+	"version_latest":"2.33.7-PREVIEW",
+	"ts_publish":1757539405000,
+	"dt_publish":"2025-09-11 05:23:25.000",
+	"ts_update":1757543661787,
+	"dt_update":"2025-09-11 06:32:54.749",
+	"count_dep":42,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/v2-migration",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#400695 in MvnRepository",
+	"ranking":"#402823 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -30,6 +30,102 @@
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.33.5-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.33.4-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.33.3-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.33.2-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.33.1-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.33.0-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.32.33-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.32.32-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"preview",
+			"usage":1,
+			"version":"2.32.31-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.32.30-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.32.29-PREVIEW",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"2.32.28-PREVIEW",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -92,102 +188,6 @@
 			"type":"preview",
 			"usage":1,
 			"version":"2.32.20-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.19-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.18-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.17-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.16-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.15-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250801",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.14-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250731",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.13-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250730",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.12-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250730",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.11-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250728",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.10-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250725",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.9-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250725",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.32.8-PREVIEW",
 			"vulnerabilities":""
 		}
 	]
