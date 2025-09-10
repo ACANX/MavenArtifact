@@ -3,14 +3,15 @@
 	"description":"A JDBC driver for cloud operations and multi-cloud resource management using Apache Calcite with PostgreSQL-compatible SQL syntax",
 	"group_id":"com.kenstott.components",
 	"artifact_id":"cloud-ops-jdbc-driver",
-	"version_latest":"1.1.1",
-	"ts_publish":1756931378000,
-	"dt_publish":"2025-09-04 04:29:38.000",
-	"ts_update":1756934015392,
-	"dt_update":"2025-09-04 05:12:52.252",
+	"version_latest":"1.1.2",
+	"ts_publish":1757510690000,
+	"dt_publish":"2025-09-10 21:24:50.000",
+	"ts_update":1757511529714,
+	"dt_update":"2025-09-10 21:37:42.735",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
+		"Commercial License",
 		"GNU Affero General Public License v3.0"
 	],
 	"dsv":1,
@@ -20,9 +21,9 @@
 		"Ken Stott"
 	],
 	"url_scm":"https://github.com/hasura/ndc-calcite/tree/main/calcite-rs-jni/cloud-ops-jdbc-driver",
-	"home_page":"https://github.com/hasura/ndc-calcite/tree/main/calcite-rs-jni/cloud-ops-jdbc-driver",
-	"license":"Apache 2.0",
-	"ranking":"#687195 in MvnRepository",
+	"home_page":"https://github.com/kenstott/cloud-ops-jdbc-driver",
+	"license":"AGPL 3.0",
+	"ranking":"#713594 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -33,11 +34,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"1.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.6",
 			"vulnerabilities":""
 		},
 		{
