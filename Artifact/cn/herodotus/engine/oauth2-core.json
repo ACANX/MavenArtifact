@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/cn.herodotus.engine/oauth2-core",
-	"description":"基于 Spring Authorization Server 的 Dante Cloud 基础核心组件模块",
+	"description":"Dante Cloud 微服务基座组件库 OAuth2 共性通用代码模块",
 	"group_id":"cn.herodotus.engine",
 	"artifact_id":"oauth2-core",
-	"version_latest":"3.5.5.2",
-	"ts_publish":1756704175000,
-	"dt_publish":"2025-09-01 13:22:55.000",
-	"ts_update":1756704921600,
-	"dt_update":"2025-09-01 13:34:45.699",
-	"count_dep":193,
-	"count_ref":8,
+	"version_latest":"3.5.5.3",
+	"ts_publish":1757502288000,
+	"dt_publish":"2025-09-10 19:04:48.000",
+	"ts_update":1757503642787,
+	"dt_update":"2025-09-10 19:26:17.410",
+	"count_dep":109,
+	"count_ref":10,
 	"licenses":[
 		"Apache License Version 2.0"
 	],
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/dromara/dante-cloud/engine-oauth2/oauth2-core",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#69937 in MvnRepository",
+	"ranking":"#70163 in MvnRepository",
 	"tags":[
 		"authentication",
 		"engine",
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.5.5.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.4.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250314",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.4.3.3",
 			"vulnerabilities":""
 		}
 	]
