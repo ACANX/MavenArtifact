@@ -3,11 +3,11 @@
 	"description":"Vaadin Platform (Bill of Materials)",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-bom",
-	"version_latest":"24.9.0-beta3",
-	"ts_publish":1757325899000,
-	"dt_publish":"2025-09-08 18:04:59.000",
-	"ts_update":1757326739923,
-	"dt_update":"2025-09-08 18:17:27.035",
+	"version_latest":"24.9.0-rc1",
+	"ts_publish":1757499977000,
+	"dt_publish":"2025-09-10 18:26:17.000",
+	"ts_update":1757500581604,
+	"dt_update":"2025-09-10 18:34:59.563",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -23,7 +23,7 @@
 	"count_used_by":6,
 	"home_page":"https://vaadin.com",
 	"license":"Apache 2.0",
-	"ranking":"#83826 in MvnRepository",
+	"ranking":"#83847 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"bom",
@@ -32,6 +32,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"24.9.0-beta3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -46,6 +54,14 @@
 			"type":"beta",
 			"usage":0,
 			"version":"24.9.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"24.8.8",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"24.7.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"24.7.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250514",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"24.7.4",
 			"vulnerabilities":""
 		}
 	]
