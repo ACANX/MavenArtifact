@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-avro-maven-plugin",
-	"version_latest":"9.0.1",
-	"ts_publish":1756885318000,
-	"dt_publish":"2025-09-03 15:41:58.000",
-	"ts_update":1756886232641,
-	"dt_update":"2025-09-03 15:56:00.939",
+	"version_latest":"9.0.2",
+	"ts_publish":1757509040000,
+	"dt_publish":"2025-09-10 20:57:20.000",
+	"ts_update":1757510775639,
+	"dt_update":"2025-09-10 21:26:06.237",
 	"count_dep":73,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-avro-maven-plugin",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#204887 in MvnRepository",
+	"ranking":"#207028 in MvnRepository",
 	"tags":[
 		"plugin",
 		"admin",
@@ -35,6 +35,22 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.47.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.47.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.46.0",
 			"vulnerabilities":""
 		}
 	]

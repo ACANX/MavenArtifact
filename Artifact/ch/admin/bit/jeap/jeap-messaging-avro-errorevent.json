@@ -3,12 +3,12 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-avro-errorevent",
-	"version_latest":"9.0.1",
-	"ts_publish":1756885318000,
-	"dt_publish":"2025-09-03 15:41:58.000",
-	"ts_update":1756886202136,
-	"dt_update":"2025-09-03 15:56:00.428",
-	"count_dep":19,
+	"version_latest":"9.0.2",
+	"ts_publish":1757509040000,
+	"dt_publish":"2025-09-10 20:57:20.000",
+	"ts_update":1757510786131,
+	"dt_update":"2025-09-10 21:26:05.826",
+	"count_dep":20,
 	"count_ref":5,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-avro-errorevent",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#266909 in MvnRepository",
+	"ranking":"#267272 in MvnRepository",
 	"tags":[
 		"admin",
 		"messaging",
@@ -31,6 +31,22 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.47.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.47.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.46.0",
 			"vulnerabilities":""
 		}
 	]
