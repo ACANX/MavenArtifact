@@ -2,13 +2,13 @@
 	"id":"pkg:maven/com.yahoo.vespa/container-onnxruntime",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-onnxruntime",
-	"version_latest":"8.578.22",
-	"ts_publish":1757517895000,
-	"dt_publish":"2025-09-10 23:24:55.000",
-	"ts_update":1757519204383,
-	"dt_update":"2025-09-10 23:45:50.482",
-	"count_dep":26,
-	"count_ref":30,
+	"version_latest":"8.579.17",
+	"ts_publish":1757590012000,
+	"dt_publish":"2025-09-11 19:26:52.000",
+	"ts_update":1757591098252,
+	"dt_update":"2025-09-11 19:44:45.432",
+	"count_dep":34,
+	"count_ref":12,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -25,11 +25,19 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-onnxruntime",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#88593 in MvnRepository",
+	"ranking":"#88605 in MvnRepository",
 	"tags":[
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"8.577.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"8.554.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250722",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"8.553.3",
 			"vulnerabilities":""
 		}
 	],

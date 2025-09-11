@@ -3,11 +3,11 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"zookeeper-client-common",
-	"version_latest":"8.578.22",
-	"ts_publish":1757517895000,
-	"dt_publish":"2025-09-10 23:24:55.000",
-	"ts_update":1757519245140,
-	"dt_update":"2025-09-10 23:45:48.033",
+	"version_latest":"8.579.17",
+	"ts_publish":1757590012000,
+	"dt_publish":"2025-09-11 19:26:52.000",
+	"ts_update":1757591188232,
+	"dt_update":"2025-09-11 19:44:45.427",
 	"count_dep":27,
 	"count_ref":4,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/zookeeper-client-common",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#37270 in MvnRepository",
+	"ranking":"#37277 in MvnRepository",
 	"tags":[
 		"client",
 		"zookeeper"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.577.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"8.554.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250722",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.553.3",
 			"vulnerabilities":""
 		}
 	]

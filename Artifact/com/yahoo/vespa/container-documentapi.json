@@ -3,13 +3,13 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-documentapi",
-	"version_latest":"8.578.22",
-	"ts_publish":1757517895000,
-	"dt_publish":"2025-09-10 23:24:55.000",
-	"ts_update":1757519237660,
-	"dt_update":"2025-09-10 23:45:48.981",
-	"count_dep":26,
-	"count_ref":38,
+	"version_latest":"8.579.17",
+	"ts_publish":1757590012000,
+	"dt_publish":"2025-09-11 19:26:52.000",
+	"ts_update":1757591095094,
+	"dt_update":"2025-09-11 19:44:44.798",
+	"count_dep":33,
+	"count_ref":15,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,11 +26,19 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-documentapi",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#90048 in MvnRepository",
+	"ranking":"#90058 in MvnRepository",
 	"tags":[
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.578.22",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"8.555.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.554.5",
 			"vulnerabilities":""
 		}
 	]

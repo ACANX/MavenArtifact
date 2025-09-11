@@ -2,13 +2,13 @@
 	"id":"pkg:maven/com.yahoo.vespa/container-messagebus",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-messagebus",
-	"version_latest":"8.578.22",
-	"ts_publish":1757517895000,
-	"dt_publish":"2025-09-10 23:24:55.000",
-	"ts_update":1757519229947,
-	"dt_update":"2025-09-10 23:45:48.985",
-	"count_dep":53,
-	"count_ref":35,
+	"version_latest":"8.579.17",
+	"ts_publish":1757590012000,
+	"dt_publish":"2025-09-11 19:26:52.000",
+	"ts_update":1757591121032,
+	"dt_update":"2025-09-11 19:44:46.090",
+	"count_dep":60,
+	"count_ref":15,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -25,17 +25,25 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-messagebus",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#81906 in MvnRepository",
+	"ranking":"#81896 in MvnRepository",
 	"tags":[
 		"bus",
 		"container"
 	],
 	"versions":[
 		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.578.22",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250909",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"8.577.16",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"8.555.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"8.554.5",
 			"vulnerabilities":""
 		}
 	],
