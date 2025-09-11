@@ -3,11 +3,11 @@
 	"description":"Alibaba Cloud Computing Open Data Processing Service",
 	"group_id":"com.aliyun.odps",
 	"artifact_id":"odps-mapred-bridge",
-	"version_latest":"0.53.1-public",
-	"ts_publish":1755683645000,
-	"dt_publish":"2025-08-20 17:54:05.000",
-	"ts_update":1755685055114,
-	"dt_update":"2025-08-20 18:16:47.354",
+	"version_latest":"0.53.2-public",
+	"ts_publish":1757574064000,
+	"dt_publish":"2025-09-11 15:01:04.000",
+	"ts_update":1757574950287,
+	"dt_update":"2025-09-11 15:14:53.594",
 	"count_dep":100,
 	"count_ref":1,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"http://github.com/aliyun/aliyun-odps-java-sdk/odps-sdk-impl/odps-mapred-bridge",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#326379 in MvnRepository",
+	"ranking":"#357793 in MvnRepository",
 	"tags":[
 		"mapreduce",
 		"bridge",
 		"alibaba"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.53.1-public",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250725",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.50.6-public",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241113",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.50.5-public",
 			"vulnerabilities":""
 		}
 	]
