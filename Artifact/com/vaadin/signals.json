@@ -3,13 +3,13 @@
 	"description":"Full-Stack Signals common library for Flow and Hilla",
 	"group_id":"com.vaadin",
 	"artifact_id":"signals",
-	"version_latest":"24.9.0-rc1",
-	"ts_publish":1757412576000,
-	"dt_publish":"2025-09-09 18:09:36.000",
-	"ts_update":1757413579714,
-	"dt_update":"2025-09-09 18:26:03.103",
-	"count_dep":4,
-	"count_ref":19,
+	"version_latest":"24.9.0-rc2",
+	"ts_publish":1757596766000,
+	"dt_publish":"2025-09-11 21:19:26.000",
+	"ts_update":1757601286507,
+	"dt_update":"2025-09-11 22:34:33.819",
+	"count_dep":5,
+	"count_ref":8,
 	"licenses":[
 		"Apache License Version 2.0"
 	],
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/vaadin/flow/signals",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#180463 in MvnRepository",
+	"ranking":"#180529 in MvnRepository",
 	"tags":[
 		"web-framework",
 		"vaadin"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"24.9.0-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -50,6 +58,14 @@
 			"type":"beta",
 			"usage":2,
 			"version":"24.9.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"24.8.7",
 			"vulnerabilities":""
 		},
 		{
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"24.7.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"24.7.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250414",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"24.7.3",
 			"vulnerabilities":""
 		}
 	]
