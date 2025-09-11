@@ -3,11 +3,11 @@
 	"description":"Collation support for fdb-record-layer using ICU",
 	"group_id":"org.foundationdb",
 	"artifact_id":"fdb-record-layer-icu",
-	"version_latest":"4.5.10.0",
-	"ts_publish":1756822743000,
-	"dt_publish":"2025-09-02 22:19:03.000",
-	"ts_update":1756824656766,
-	"dt_update":"2025-09-02 22:49:24.963",
+	"version_latest":"4.5.12.0",
+	"ts_publish":1757588326000,
+	"dt_publish":"2025-09-11 18:58:46.000",
+	"ts_update":1757590020516,
+	"dt_update":"2025-09-11 19:26:02.197",
 	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/FoundationDB/fdb-record-layer/",
 	"home_page":"https://foundationdb.github.io/fdb-record-layer/",
 	"license":"Apache 2.0",
-	"ranking":"#806286 in MvnRepository",
+	"ranking":"#810202 in MvnRepository",
 	"tags":[
 		"layer",
 		"foundationdb",
 		"record"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.5.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.4.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.3.6.0",
 			"vulnerabilities":""
 		}
 	]
