@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-cache-common",
-	"version_latest":"7.10.1",
-	"ts_publish":1757346546000,
-	"dt_publish":"2025-09-08 23:49:06.000",
-	"ts_update":1757348282245,
-	"dt_update":"2025-09-09 00:17:35.764",
-	"count_dep":0,
+	"version_latest":"7.11.0",
+	"ts_publish":1757586681000,
+	"dt_publish":"2025-09-11 18:31:21.000",
+	"ts_update":1757588164800,
+	"dt_update":"2025-09-11 18:55:58.519",
+	"count_dep":51,
 	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,18 +29,34 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-cache/gravitee-node-cache-common",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#70753 in MvnRepository",
+	"ranking":"#70814 in MvnRepository",
 	"tags":[
 		"cache",
 		"node"
 	],
 	"versions":[
 		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.10.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250703",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
 			"version":"7.10.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.9.2",
 			"vulnerabilities":""
 		},
 		{
@@ -97,6 +113,14 @@
 			"type":"release",
 			"usage":3,
 			"version":"7.6.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.5.4",
 			"vulnerabilities":""
 		},
 		{
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"7.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250311",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"7.0.7",
 			"vulnerabilities":""
 		}
 	]
