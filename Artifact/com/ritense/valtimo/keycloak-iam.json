@@ -3,13 +3,13 @@
 	"description":"The keycloak IAM module implements authentication to keycloak servers and facilitates user management",
 	"group_id":"com.ritense.valtimo",
 	"artifact_id":"keycloak-iam",
-	"version_latest":"13.1.2.RELEASE",
-	"ts_publish":1756201418000,
-	"dt_publish":"2025-08-26 17:43:38.000",
-	"ts_update":1756202214428,
-	"dt_update":"2025-08-26 17:55:53.129",
+	"version_latest":"13.1.3.RELEASE",
+	"ts_publish":1757670053000,
+	"dt_publish":"2025-09-12 17:40:53.000",
+	"ts_update":1757671049995,
+	"dt_update":"2025-09-12 17:56:05.391",
 	"count_dep":35,
-	"count_ref":1,
+	"count_ref":0,
 	"licenses":[
 		"Licensed under EUPL, Version 1.2 (the \"License\");"
 	],
@@ -26,12 +26,20 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/valtimo-platform/valtimo-backend-libraries",
 	"license":"EUPL 1.2",
-	"ranking":"#297642 in MvnRepository",
+	"ranking":"#298517 in MvnRepository",
 	"tags":[
 		"keycloak",
 		"iam"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"13.1.2.RELEASE",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -70,6 +78,22 @@
 			"type":"release",
 			"usage":1,
 			"version":"13.0.0.RELEASE",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.16.1.RELEASE",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.16.0.RELEASE",
 			"vulnerabilities":""
 		},
 		{
@@ -166,30 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"12.8.0.RELEASE",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250206",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.7.3.RELEASE",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250123",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.7.2.RELEASE",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250122",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.7.1.RELEASE",
 			"vulnerabilities":""
 		}
 	]
