@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.repository",
 	"artifact_id":"gravitee-apim-repository-elasticsearch",
-	"version_latest":"4.8.6",
-	"ts_publish":1756733395000,
-	"dt_publish":"2025-09-01 21:29:55.000",
-	"ts_update":1756734684092,
-	"dt_update":"2025-09-01 21:50:53.506",
-	"count_dep":157,
+	"version_latest":"4.8.7",
+	"ts_publish":1757702510000,
+	"dt_publish":"2025-09-13 02:41:50.000",
+	"ts_update":1757703465370,
+	"dt_update":"2025-09-13 02:56:05.079",
+	"count_dep":170,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-repository/gravitee-apim-repository-elasticsearch",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#120278 in MvnRepository",
+	"ranking":"#124577 in MvnRepository",
 	"tags":[
 		"repository",
 		"elasticsearch",
@@ -37,6 +37,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.8.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.7.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250417",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.3",
 			"vulnerabilities":""
 		}
 	]
