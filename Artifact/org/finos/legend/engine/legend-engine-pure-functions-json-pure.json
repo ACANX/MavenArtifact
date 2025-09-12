@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-pure-functions-json-pure",
-	"version_latest":"4.99.0",
-	"ts_publish":1757225046000,
-	"dt_publish":"2025-09-07 14:04:06.000",
-	"ts_update":1757226368651,
-	"dt_update":"2025-09-07 14:25:57.276",
+	"version_latest":"4.100.0",
+	"ts_publish":1757655628000,
+	"dt_publish":"2025-09-12 13:40:28.000",
+	"ts_update":1757658385560,
+	"dt_update":"2025-09-12 14:22:36.295",
 	"count_dep":18,
-	"count_ref":53,
+	"count_ref":74,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-pure/legend-engine-pure-code-functions-json/legend-engine-pure-functions-json-pure",
 	"count_used_by":26,
 	"license":"Apache 2.0",
-	"ranking":"#17609 in MvnRepository",
+	"ranking":"#17624 in MvnRepository",
 	"tags":[
 		"json",
 		"functions",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250907",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"4.99.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":24,
 			"version":"4.89.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"4.89.2",
 			"vulnerabilities":""
 		}
 	]
