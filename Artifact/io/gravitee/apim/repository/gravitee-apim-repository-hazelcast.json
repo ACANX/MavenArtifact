@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.repository",
 	"artifact_id":"gravitee-apim-repository-hazelcast",
-	"version_latest":"4.7.13",
-	"ts_publish":1756476439000,
-	"dt_publish":"2025-08-29 22:07:19.000",
-	"ts_update":1756477588398,
-	"dt_update":"2025-08-29 22:25:55.952",
-	"count_dep":33,
+	"version_latest":"4.7.14",
+	"ts_publish":1757700389000,
+	"dt_publish":"2025-09-13 02:06:29.000",
+	"ts_update":1757701381040,
+	"dt_update":"2025-09-13 02:21:24.022",
+	"count_dep":101,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-repository/gravitee-apim-repository-hazelcast",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#345597 in MvnRepository",
+	"ranking":"#346047 in MvnRepository",
 	"tags":[
 		"repository",
 		"hazelcast"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.7.13",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -164,6 +172,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.6.19",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250814",
 			"repository":"Central",
 			"type":"release",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.6.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250718",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.6.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250704",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.6.15",
 			"vulnerabilities":""
 		}
 	]
