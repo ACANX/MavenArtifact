@@ -3,11 +3,11 @@
 	"description":"Vertex AI is an integrated suite of machine learning tools and services\n    for building and using ML models with AutoML or custom code. It offers both novices and experts\n    the best workbench for the entire machine learning development lifecycle.\n\n    --------------------------------------------------------------------------------------\n    DEPRECATION NOTICE:\n    The 'com.google.cloud.vertexai.generativeai' package and its classes are deprecated as of\n    June 24, 2025 and will be removed on June 24, 2026.\n\n    Please transition to the Google Gen AI SDK (com.google.genai:google-genai)\n    for GenAI functionality.\n\n    A detailed migration guide is available at:\n    https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations/genai-vertexai-sdk#java\n    --------------------------------------------------------------------------------------",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-vertexai",
-	"version_latest":"1.33.0",
-	"ts_publish":1756168228000,
-	"dt_publish":"2025-08-26 08:30:28.000",
-	"ts_update":1756169871511,
-	"dt_update":"2025-08-26 08:55:58.116",
+	"version_latest":"1.34.0",
+	"ts_publish":1757657634000,
+	"dt_publish":"2025-09-12 14:13:54.000",
+	"ts_update":1757659908893,
+	"dt_update":"2025-09-12 14:51:14.887",
 	"count_dep":83,
 	"count_ref":0,
 	"licenses":[
@@ -27,17 +27,25 @@
 	"count_used_by":19,
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#24635 in MvnRepository",
+	"ranking":"#24715 in MvnRepository",
 	"tags":[
 		"google",
 		"cloud"
 	],
 	"versions":[
 		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.33.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250813",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.32.0",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241010",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.12.0",
 			"vulnerabilities":""
 		}
 	]
