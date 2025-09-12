@@ -3,13 +3,13 @@
 	"description":"Relational gRPC client/server protos and generated code.",
 	"group_id":"org.foundationdb",
 	"artifact_id":"fdb-relational-grpc",
-	"version_latest":"4.5.12.0",
-	"ts_publish":1757588326000,
-	"dt_publish":"2025-09-11 18:58:46.000",
-	"ts_update":1757589243834,
-	"dt_update":"2025-09-11 19:12:38.029",
+	"version_latest":"4.5.13.0",
+	"ts_publish":1757695081000,
+	"dt_publish":"2025-09-13 00:38:01.000",
+	"ts_update":1757695658285,
+	"dt_update":"2025-09-13 00:47:11.880",
 	"count_dep":11,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"count_used_by":3,
 	"home_page":"https://foundationdb.github.io/fdb-record-layer/",
 	"license":"Apache 2.0",
-	"ranking":"#155177 in MvnRepository",
+	"ranking":"#165778 in MvnRepository",
 	"tags":[
 		"grpc",
 		"foundationdb",
@@ -35,6 +35,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.5.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.4.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.3.6.0",
 			"vulnerabilities":""
 		}
 	]
