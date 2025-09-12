@@ -3,11 +3,11 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-functions-worker",
-	"version_latest":"4.1.0.0",
-	"ts_publish":1756192253000,
-	"ts_update":1756193174321,
-	"count_dep":312,
-	"count_ref":4,
+	"version_latest":"4.1.0.1",
+	"ts_publish":1757644549000,
+	"ts_update":1757645818702,
+	"count_dep":313,
+	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,16 +20,40 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-functions/pulsar-functions-worker",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-08-26 15:10:53.000",
-	"dt_update":"2025-08-26 15:25:50.275",
+	"dt_publish":"2025-09-12 10:35:49.000",
+	"dt_update":"2025-09-12 10:56:04.675",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#248645 in MvnRepository",
+	"ranking":"#250598 in MvnRepository",
 	"tags":[
 		"functions",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.6.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.6.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -164,30 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.0.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241201",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241120",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.0.5",
 			"vulnerabilities":""
 		}
 	]

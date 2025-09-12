@@ -3,9 +3,9 @@
 	"description":"Broker and client runs auth include BC FIPS verison",
 	"group_id":"io.streamnative",
 	"artifact_id":"bcfips-include-test",
-	"version_latest":"4.1.0.0",
-	"ts_publish":1756192253000,
-	"ts_update":1756193177958,
+	"version_latest":"4.1.0.1",
+	"ts_publish":1757644549000,
+	"ts_update":1757645836084,
 	"count_dep":20,
 	"count_ref":0,
 	"licenses":[
@@ -20,14 +20,38 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/bouncy-castle-parent/bcfips-include-test",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-08-26 15:10:53.000",
-	"dt_update":"2025-08-26 15:25:50.990",
+	"dt_publish":"2025-09-12 10:35:49.000",
+	"dt_update":"2025-09-12 10:56:05.718",
 	"license":"Apache 2.0",
-	"ranking":"#841720 in MvnRepository",
+	"ranking":"#853307 in MvnRepository",
 	"tags":[
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.6.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.6.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -162,30 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241201",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241120",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.0.5",
 			"vulnerabilities":""
 		}
 	]
