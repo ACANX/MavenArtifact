@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.sdlc",
 	"artifact_id":"legend-sdlc-entity-serialization",
-	"version_latest":"0.204.0",
-	"ts_publish":1757444790000,
-	"dt_publish":"2025-09-10 03:06:30.000",
-	"ts_update":1757446012164,
-	"dt_update":"2025-09-10 03:26:05.215",
+	"version_latest":"0.205.0",
+	"ts_publish":1757664887000,
+	"dt_publish":"2025-09-12 16:14:47.000",
+	"ts_update":1757665642092,
+	"dt_update":"2025-09-12 16:26:03.923",
 	"count_dep":7,
-	"count_ref":15,
+	"count_ref":11,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,17 +26,25 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-sdlc/legend-sdlc-entity-serialization",
 	"count_used_by":17,
 	"license":"Apache 2.0",
-	"ranking":"#26818 in MvnRepository",
+	"ranking":"#26838 in MvnRepository",
 	"tags":[
 		"serialization",
 		"entity"
 	],
 	"versions":[
 		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"0.204.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250908",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":14,
 			"version":"0.203.0",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":13,
 			"version":"0.193.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"0.192.1",
 			"vulnerabilities":""
 		}
 	]
