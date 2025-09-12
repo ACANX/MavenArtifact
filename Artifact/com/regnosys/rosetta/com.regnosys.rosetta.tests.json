@@ -3,13 +3,13 @@
 	"description":"Rosetta is a Domain-Specific Language (DSL) that supports the modelling\n        of operational processes for the\n        financial markets' industry. Its purpose is to promote consistency and\n        inter-operability between the various\n        implementations of these processes.\n\n        This parent project manages dependencies of the modules that make up the\n        Rosetta DSL.",
 	"group_id":"com.regnosys.rosetta",
 	"artifact_id":"com.regnosys.rosetta.tests",
-	"version_latest":"9.65.0",
-	"ts_publish":1757598247000,
-	"dt_publish":"2025-09-11 21:44:07.000",
-	"ts_update":1757601370073,
-	"dt_update":"2025-09-11 22:34:32.849",
+	"version_latest":"9.65.1",
+	"ts_publish":1757690827000,
+	"dt_publish":"2025-09-12 23:27:07.000",
+	"ts_update":1757691897944,
+	"dt_update":"2025-09-12 23:44:08.111",
 	"count_dep":96,
-	"count_ref":2,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,11 +24,27 @@
 	"url_scm":"https://github.com/finos/rune-dsl/com.regnosys.rosetta.tests",
 	"count_used_by":17,
 	"license":"Apache 2.0",
-	"ranking":"#26677 in MvnRepository",
+	"ranking":"#26853 in MvnRepository",
 	"tags":[
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.65.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"9.64.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"9.50.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"9.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250428",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"9.49.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Responsibilities: adding support for developing Rosetta in an IDE, including\n        - language server features (semantic highlighting, inlay hints, etc)\n        - syntax highlighting",
 	"group_id":"com.regnosys.rosetta",
 	"artifact_id":"com.regnosys.rosetta.ide",
-	"version_latest":"9.65.0",
-	"ts_publish":1757598247000,
-	"dt_publish":"2025-09-11 21:44:07.000",
-	"ts_update":1757601379892,
-	"dt_update":"2025-09-11 22:34:32.850",
-	"count_dep":44,
-	"count_ref":0,
+	"version_latest":"9.65.1",
+	"ts_publish":1757690827000,
+	"dt_publish":"2025-09-12 23:27:07.000",
+	"ts_update":1757691956946,
+	"dt_update":"2025-09-12 23:44:08.113",
+	"count_dep":92,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,11 +24,27 @@
 	"url_scm":"https://github.com/finos/rune-dsl/com.regnosys.rosetta.ide",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#196955 in MvnRepository",
+	"ranking":"#197970 in MvnRepository",
 	"tags":[
 		"ide"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.65.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.64.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"9.50.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250428",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.49.1",
 			"vulnerabilities":""
 		}
 	]
