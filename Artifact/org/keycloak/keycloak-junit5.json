@@ -3,13 +3,13 @@
 	"description":"Keycloak Quarkus Server JUnit 5 Internal Test Framework",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-junit5",
-	"version_latest":"26.3.3",
-	"ts_publish":1755684272000,
-	"dt_publish":"2025-08-20 18:04:32.000",
-	"ts_update":1755685090325,
-	"dt_update":"2025-08-20 18:16:43.577",
+	"version_latest":"26.3.4",
+	"ts_publish":1757682842000,
+	"dt_publish":"2025-09-12 21:14:02.000",
+	"ts_update":1757683601651,
+	"dt_update":"2025-09-12 21:26:16.650",
 	"count_dep":682,
-	"count_ref":14,
+	"count_ref":10,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,13 +27,21 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-quarkus-parent/keycloak-quarkus-test-parent/keycloak-junit5/",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#90462 in MvnRepository",
+	"ranking":"#90923 in MvnRepository",
 	"tags":[
 		"junit",
 		"testing",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"26.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"26.0.4",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Keycloak SAML Core",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-saml-core",
-	"version_latest":"26.3.3",
-	"ts_publish":1755684272000,
-	"dt_publish":"2025-08-20 18:04:32.000",
-	"ts_update":1755685126353,
-	"dt_update":"2025-08-20 18:16:43.576",
+	"version_latest":"26.3.4",
+	"ts_publish":1757682842000,
+	"dt_publish":"2025-09-12 21:14:02.000",
+	"ts_update":1757683638797,
+	"dt_update":"2025-09-12 21:26:16.082",
 	"count_dep":34,
-	"count_ref":29,
+	"count_ref":24,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -28,13 +28,21 @@
 	"count_used_by":41,
 	"home_page":"https://www.keycloak.org/",
 	"license":"Apache 2.0",
-	"ranking":"#11703 in MvnRepository",
+	"ranking":"#11763 in MvnRepository",
 	"tags":[
 		"security",
 		"saml",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"26.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"26.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"26.0.4",
 			"vulnerabilities":""
 		}
 	]

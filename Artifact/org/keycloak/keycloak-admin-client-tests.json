@@ -3,13 +3,13 @@
 	"description":"Keycloak Admin REST Client. This module is supposed to be used just in the Keycloak repository for the testsuite. It is NOT supposed to be used by the 3rd party applications.\n        For the use by 3rd party applications, please use `org.keycloak:keycloak-admin-client` module.",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-admin-client-tests",
-	"version_latest":"26.3.3",
-	"ts_publish":1755684272000,
-	"dt_publish":"2025-08-20 18:04:32.000",
-	"ts_update":1755685054610,
-	"dt_update":"2025-08-20 18:16:43.570",
+	"version_latest":"26.3.4",
+	"ts_publish":1757682842000,
+	"dt_publish":"2025-09-12 21:14:02.000",
+	"ts_update":1757683706578,
+	"dt_update":"2025-09-12 21:26:16.074",
 	"count_dep":55,
-	"count_ref":15,
+	"count_ref":11,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-integration-parent/keycloak-admin-client-tests/",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#79787 in MvnRepository",
+	"ranking":"#80396 in MvnRepository",
 	"tags":[
 		"admin",
 		"testing",
@@ -35,6 +35,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"26.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"26.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.0.4",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Keycloak Themes",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-themes",
-	"version_latest":"26.3.3",
-	"ts_publish":1755684272000,
-	"dt_publish":"2025-08-20 18:04:32.000",
-	"ts_update":1755685138853,
-	"dt_update":"2025-08-20 18:16:42.865",
+	"version_latest":"26.3.4",
+	"ts_publish":1757682842000,
+	"dt_publish":"2025-09-12 21:14:02.000",
+	"ts_update":1757683618384,
+	"dt_update":"2025-09-12 21:26:15.129",
 	"count_dep":3,
-	"count_ref":23,
+	"count_ref":18,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,12 +27,20 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-themes/",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#45760 in MvnRepository",
+	"ranking":"#45981 in MvnRepository",
 	"tags":[
 		"keycloak",
 		"theme"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"26.0.4",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Keycloak Core",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-core",
-	"version_latest":"26.3.3",
-	"ts_publish":1755684272000,
-	"dt_publish":"2025-08-20 18:04:32.000",
-	"ts_update":1755685133369,
-	"dt_update":"2025-08-20 18:16:42.868",
+	"version_latest":"26.3.4",
+	"ts_publish":1757682842000,
+	"dt_publish":"2025-09-12 21:14:02.000",
+	"ts_update":1757683593880,
+	"dt_update":"2025-09-12 21:26:15.126",
 	"count_dep":10,
-	"count_ref":51,
+	"count_ref":40,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -28,11 +28,19 @@
 	"count_used_by":487,
 	"home_page":"https://www.keycloak.org/",
 	"license":"Apache 2.0",
-	"ranking":"#1224 in MvnRepository",
+	"ranking":"#1228 in MvnRepository",
 	"tags":[
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":30,
+			"version":"26.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":26,
 			"version":"26.0.5",
-			"vulnerabilities":"2 vulnerabilities"
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":22,
-			"version":"26.0.4",
 			"vulnerabilities":"2 vulnerabilities"
 		}
 	]
