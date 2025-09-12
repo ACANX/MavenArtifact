@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"com.regnosys",
 	"artifact_id":"ingest-test-framework",
-	"version_latest":"11.80.2",
-	"ts_publish":1756402629000,
-	"dt_publish":"2025-08-29 01:37:09.000",
-	"ts_update":1756405333554,
-	"dt_update":"2025-08-29 02:21:21.834",
-	"count_dep":170,
+	"version_latest":"11.81.0",
+	"ts_publish":1757662415000,
+	"dt_publish":"2025-09-12 15:33:35.000",
+	"ts_update":1757663087740,
+	"dt_update":"2025-09-12 15:44:41.458",
+	"count_dep":168,
 	"count_ref":0,
 	"licenses":[
 		"Rosetta Licence"
@@ -22,12 +22,20 @@
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/ingest-test-framework",
 	"count_used_by":3,
-	"ranking":"#134040 in MvnRepository",
+	"ranking":"#134519 in MvnRepository",
 	"tags":[
 		"framework",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.80.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"11.70.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250617",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"11.69.0",
 			"vulnerabilities":""
 		}
 	]
