@@ -2,12 +2,12 @@
 	"id":"pkg:maven/io.gravitee.am.gateway.handler/gravitee-am-gateway-handler-scim",
 	"group_id":"io.gravitee.am.gateway.handler",
 	"artifact_id":"gravitee-am-gateway-handler-scim",
-	"version_latest":"4.8.5",
-	"ts_publish":1756476140000,
-	"dt_publish":"2025-08-29 22:02:20.000",
-	"ts_update":1756477655028,
-	"dt_update":"2025-08-29 22:25:59.692",
-	"count_dep":0,
+	"version_latest":"4.9.0-alpha.1",
+	"ts_publish":1757708311000,
+	"dt_publish":"2025-09-13 04:18:31.000",
+	"ts_update":1757709158857,
+	"dt_update":"2025-09-13 04:31:46.051",
+	"count_dep":15,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -19,11 +19,19 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.gravitee.am.gateway.handler/gravitee-am-gateway-handler-scim@4.8.4-alpha.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#363141 in MvnRepository",
+	"ranking":"#362991 in MvnRepository",
 	"tags":[
 		"gateway"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.8.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -62,6 +70,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"4.8.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.7.13",
 			"vulnerabilities":""
 		},
 		{
@@ -166,22 +182,6 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"4.7.0-alpha.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250318",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"4.7.0-alpha.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250311",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"4.7.0-alpha.2",
 			"vulnerabilities":""
 		}
 	],

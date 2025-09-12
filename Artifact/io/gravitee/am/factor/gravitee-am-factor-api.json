@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.am.factor/gravitee-am-factor-api",
 	"group_id":"io.gravitee.am.factor",
 	"artifact_id":"gravitee-am-factor-api",
-	"version_latest":"4.8.5",
-	"ts_publish":1756476140000,
-	"dt_publish":"2025-08-29 22:02:20.000",
-	"ts_update":1756477605077,
-	"dt_update":"2025-08-29 22:25:56.650",
-	"count_dep":0,
-	"count_ref":9,
-	"licenses":[],
+	"version_latest":"4.9.0-alpha.1",
+	"ts_publish":1757708311000,
+	"dt_publish":"2025-09-13 04:18:31.000",
+	"ts_update":1757709143835,
+	"dt_update":"2025-09-13 04:31:44.139",
+	"count_dep":123,
+	"count_ref":10,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,11 +19,19 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.gravitee.am.factor/gravitee-am-factor-api@4.8.4-alpha.1",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#42418 in MvnRepository",
+	"ranking":"#42613 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.8.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -60,6 +70,14 @@
 			"type":"alpha",
 			"usage":6,
 			"version":"4.8.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.7.13",
 			"vulnerabilities":""
 		},
 		{
@@ -165,22 +183,7 @@
 			"usage":6,
 			"version":"4.7.0-alpha.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250318",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":6,
-			"version":"4.7.0-alpha.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250311",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":6,
-			"version":"4.7.0-alpha.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }
