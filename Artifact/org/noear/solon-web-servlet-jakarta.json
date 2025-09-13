@@ -3,11 +3,11 @@
 	"description":"Java project for solon",
 	"group_id":"org.noear",
 	"artifact_id":"solon-web-servlet-jakarta",
-	"version_latest":"3.5.2-RC",
-	"ts_publish":1757484134000,
-	"dt_publish":"2025-09-10 14:02:14.000",
-	"ts_update":1757485350434,
-	"dt_update":"2025-09-10 14:22:13.352",
+	"version_latest":"3.5.2",
+	"ts_publish":1757771328000,
+	"dt_publish":"2025-09-13 21:48:48.000",
+	"ts_update":1757771810018,
+	"dt_update":"2025-09-13 21:56:02.426",
 	"count_dep":8,
 	"count_ref":3,
 	"licenses":[
@@ -23,15 +23,23 @@
 		"noear"
 	],
 	"url_scm":"https://github.com/opensolon/solon/solon-web-servlet-jakarta",
-	"count_used_by":2,
+	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#172753 in MvnRepository",
+	"ranking":"#129907 in MvnRepository",
 	"tags":[
 		"jakarta",
 		"servlet",
 		"web"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.5.2-RC",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"3.4.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250705",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.4.0-M1",
 			"vulnerabilities":""
 		}
 	]

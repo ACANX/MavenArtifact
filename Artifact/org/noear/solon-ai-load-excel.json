@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.noear/solon-ai-load-excel",
 	"group_id":"org.noear",
 	"artifact_id":"solon-ai-load-excel",
-	"version_latest":"3.5.2-RC",
-	"ts_publish":1757483719000,
-	"dt_publish":"2025-09-10 13:55:19.000",
-	"ts_update":1757485382678,
-	"dt_update":"2025-09-10 14:22:15.921",
-	"count_dep":4,
+	"version_latest":"3.5.2",
+	"ts_publish":1757770864000,
+	"dt_publish":"2025-09-13 21:41:04.000",
+	"ts_update":1757771798774,
+	"dt_update":"2025-09-13 21:56:04.733",
+	"count_dep":16,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -21,13 +23,29 @@
 	],
 	"url_scm":"https://github.com/opensolon/solon/solon-ai-parent/solon-ai-load-excel",
 	"license":"Apache 2.0",
-	"ranking":"#690377 in MvnRepository",
+	"ranking":"#829563 in MvnRepository",
 	"tags":[
 		"excel",
 		"spreadsheet",
 		"ai"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.5.2-RC",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"3.5.2-M1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -171,22 +189,7 @@
 			"usage":0,
 			"version":"3.4.1-RC",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"3.4.1-M3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250721",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"3.4.1-M2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Java project for solon"
 }
