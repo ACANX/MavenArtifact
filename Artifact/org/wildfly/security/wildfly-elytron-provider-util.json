@@ -3,13 +3,13 @@
 	"description":"WildFly Security Provider Util",
 	"group_id":"org.wildfly.security",
 	"artifact_id":"wildfly-elytron-provider-util",
-	"version_latest":"2.7.0.Alpha1",
-	"ts_publish":1757069235000,
-	"dt_publish":"2025-09-05 18:47:15.000",
-	"ts_update":1757070832765,
-	"dt_update":"2025-09-05 19:12:37.854",
-	"count_dep":0,
-	"count_ref":25,
+	"version_latest":"2.7.0.Alpha2",
+	"ts_publish":1757805333000,
+	"dt_publish":"2025-09-14 07:15:33.000",
+	"ts_update":1757805977104,
+	"dt_update":"2025-09-14 07:26:00.864",
+	"count_dep":6,
+	"count_ref":58,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -27,13 +27,45 @@
 	"url_scm":"https://github.com/wildfly-security/wildfly-elytron",
 	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#34525 in MvnRepository",
+	"ranking":"#34611 in MvnRepository",
 	"tags":[
 		"provider",
 		"security",
 		"wildfly"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"3.0.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"2.7.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.6.5.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"2.6.5.Alpha1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250506",
 			"repository":"Central",
@@ -155,43 +187,11 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250506",
+			"date":"20250905",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
-			"version":"2.2.11.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250405",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.2.10.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250319",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.2.9.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.2.8.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241031",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.2.7.Final",
+			"version":"2.2.12.Final",
 			"vulnerabilities":""
 		}
 	]
