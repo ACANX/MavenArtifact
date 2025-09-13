@@ -3,13 +3,13 @@
 	"description":"Java project for solon",
 	"group_id":"org.noear",
 	"artifact_id":"solon-web-vertx",
-	"version_latest":"3.5.2-RC",
-	"ts_publish":1757483083000,
-	"dt_publish":"2025-09-10 13:44:43.000",
-	"ts_update":1757483816374,
-	"dt_update":"2025-09-10 13:56:01.327",
+	"version_latest":"3.5.2",
+	"ts_publish":1757770568000,
+	"dt_publish":"2025-09-13 21:36:08.000",
+	"ts_update":1757771096508,
+	"dt_update":"2025-09-13 21:44:44.003",
 	"count_dep":16,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,12 +25,20 @@
 	"url_scm":"https://github.com/opensolon/solon/solon-web-vertx",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#230459 in MvnRepository",
+	"ranking":"#237479 in MvnRepository",
 	"tags":[
 		"web",
 		"vertx"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.2-RC",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.4.1-RC",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.4.1-M3",
 			"vulnerabilities":""
 		}
 	]
