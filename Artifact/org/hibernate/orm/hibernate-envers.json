@@ -3,9 +3,9 @@
 	"description":"Hibernate's entity version (audit/history) support",
 	"group_id":"org.hibernate.orm",
 	"artifact_id":"hibernate-envers",
-	"version_latest":"7.1.0.Final",
-	"ts_publish":1754616805000,
-	"ts_update":1754618198265,
+	"version_latest":"7.1.1.Final",
+	"ts_publish":1757808986000,
+	"ts_update":1757809633087,
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
@@ -22,16 +22,24 @@
 		"The Hibernate Development Team"
 	],
 	"url_scm":"https://github.com/hibernate/hibernate-orm",
-	"count_used_by":48,
+	"count_used_by":49,
 	"home_page":"https://hibernate.org/orm",
 	"license":"Apache 2.0",
-	"ranking":"#10067 in MvnRepository",
+	"ranking":"#9970 in MvnRepository",
 	"tags":[
 		"persistence",
 		"orm",
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"7.1.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -49,6 +57,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250810",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.0.10.Final",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250803",
 			"repository":"Central",
 			"type":"release",
@@ -60,7 +76,7 @@
 			"date":"20250727",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"7.0.8.Final",
 			"vulnerabilities":""
 		},
@@ -175,24 +191,8 @@
 			"usage":0,
 			"version":"7.0.0.Beta2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240801",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"7.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240614",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"7.0.0.Alpha3",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-08-08 09:33:25.000",
-	"dt_update":"2025-08-08 09:55:54.029"
+	"dt_publish":"2025-09-14 08:16:26.000",
+	"dt_update":"2025-09-14 08:26:07.269"
 }
