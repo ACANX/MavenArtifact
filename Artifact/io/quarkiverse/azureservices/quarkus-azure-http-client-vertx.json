@@ -2,19 +2,21 @@
 	"id":"pkg:maven/io.quarkiverse.azureservices/quarkus-azure-http-client-vertx",
 	"group_id":"io.quarkiverse.azureservices",
 	"artifact_id":"quarkus-azure-http-client-vertx",
-	"version_latest":"1.1.9",
-	"ts_publish":1755748826000,
-	"dt_publish":"2025-08-21 12:00:26.000",
-	"ts_update":1755750071549,
-	"dt_update":"2025-08-21 12:19:39.074",
-	"count_dep":5,
+	"version_latest":"1.2.0",
+	"ts_publish":1757910469000,
+	"dt_publish":"2025-09-15 12:27:49.000",
+	"ts_update":1757911259114,
+	"dt_update":"2025-09-15 12:39:39.425",
+	"count_dep":119,
 	"count_ref":11,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.azureservices/quarkus-azure-http-client-vertx@1.1.9",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#56621 in MvnRepository",
+	"ranking":"#56927 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"azure",
@@ -23,6 +25,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.1.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -175,5 +185,6 @@
 			"version":"1.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
