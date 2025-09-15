@@ -3,11 +3,11 @@
 	"description":"This is groovy boot plugin for jcaptcha",
 	"group_id":"org.yunchen.gb",
 	"artifact_id":"gb-plugin-simplecaptcha",
-	"version_latest":"2.0.0.RC1",
-	"ts_publish":1757259302000,
-	"dt_publish":"2025-09-07 23:35:02.000",
-	"ts_update":1757259905514,
-	"dt_update":"2025-09-07 23:44:02.822",
+	"version_latest":"2.0.0-RC2",
+	"ts_publish":1757950626000,
+	"dt_publish":"2025-09-15 23:37:06.000",
+	"ts_update":1757951793732,
+	"dt_update":"2025-09-15 23:56:22.707",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
@@ -21,12 +21,28 @@
 	],
 	"url_scm":"https://github.com/groovyBoot/gb-source",
 	"count_used_by":2,
-	"ranking":"#173772 in MvnRepository",
+	"ranking":"#174979 in MvnRepository",
 	"tags":[
 		"plugin",
 		"captcha"
 	],
 	"versions":[
+		{
+			"date":"20250907",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.0.RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":1,
+			"version":"2.0.0.M0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20231217",
 			"repository":"Central",
@@ -75,5 +91,7 @@
 			"version":"1.2.0.RC2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://gb.yunchen.org/build/asciidoc/html5/",
+	"license":"Apache 2.0"
 }
