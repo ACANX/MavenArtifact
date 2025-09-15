@@ -3,12 +3,12 @@
 	"description":"UBL validation rules for phive",
 	"group_id":"com.helger.phive.rules",
 	"artifact_id":"phive-rules-ubl",
-	"version_latest":"4.0.0",
-	"ts_publish":1756307444000,
-	"dt_publish":"2025-08-27 23:10:44.000",
-	"ts_update":1756310296103,
-	"dt_update":"2025-08-27 23:55:56.821",
-	"count_dep":45,
+	"version_latest":"4.0.1",
+	"ts_publish":1757933209000,
+	"dt_publish":"2025-09-15 18:46:49.000",
+	"ts_update":1757933819715,
+	"dt_update":"2025-09-15 18:56:05.158",
+	"count_dep":44,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2"
@@ -25,13 +25,29 @@
 	"url_scm":"http://github.com/phax/phive-rules/phive-rules-ubl",
 	"home_page":"https://github.com/phax/phive-rules/phive-rules-ubl",
 	"license":"Apache 2.0",
-	"ranking":"#650818 in MvnRepository",
+	"ranking":"#418491 in MvnRepository",
 	"tags":[
 		"bundle",
 		"rules",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250810",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.15",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250704",
 			"repository":"Central",
@@ -175,22 +191,7 @@
 			"usage":0,
 			"version":"3.1.11",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240516",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240323",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.9",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
