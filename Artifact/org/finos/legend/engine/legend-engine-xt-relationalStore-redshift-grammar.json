@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-xt-relationalStore-redshift-grammar",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-relationalStore-redshift-grammar",
-	"version_latest":"4.100.0",
-	"ts_publish":1757655627000,
-	"dt_publish":"2025-09-12 13:40:27.000",
-	"ts_update":1757658244512,
-	"dt_update":"2025-09-12 14:22:47.540",
-	"count_dep":138,
+	"version_latest":"4.101.0",
+	"ts_publish":1757946674000,
+	"dt_publish":"2025-09-15 22:31:14.000",
+	"ts_update":1757948223436,
+	"dt_update":"2025-09-15 22:56:18.188",
+	"count_dep":15,
 	"count_ref":2,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -19,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.finos.legend.engine/legend-engine-xt-relationalStore-redshift-grammar@4.96.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#104947 in MvnRepository",
+	"ranking":"#105150 in MvnRepository",
 	"tags":[
 		"aws",
 		"grammar",
@@ -29,6 +27,22 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.100.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250907",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.99.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -172,23 +186,6 @@
 			"usage":2,
 			"version":"4.89.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.89.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.89.2",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
+	]
 }

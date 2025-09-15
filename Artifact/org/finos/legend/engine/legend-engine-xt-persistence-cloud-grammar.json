@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-xt-persistence-cloud-grammar",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-persistence-cloud-grammar",
-	"version_latest":"4.100.0",
-	"ts_publish":1757655628000,
-	"dt_publish":"2025-09-12 13:40:28.000",
-	"ts_update":1757658207954,
-	"dt_update":"2025-09-12 14:22:46.424",
-	"count_dep":146,
+	"version_latest":"4.101.0",
+	"ts_publish":1757946674000,
+	"dt_publish":"2025-09-15 22:31:14.000",
+	"ts_update":1757948205376,
+	"dt_update":"2025-09-15 22:56:19.502",
+	"count_dep":22,
 	"count_ref":2,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -19,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.finos.legend.engine/legend-engine-xt-persistence-cloud-grammar@4.96.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#128627 in MvnRepository",
+	"ranking":"#128711 in MvnRepository",
 	"tags":[
 		"persistence",
 		"grammar",
@@ -27,6 +25,14 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.100.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250907",
 			"repository":"Central",
@@ -178,15 +184,6 @@
 			"usage":2,
 			"version":"4.89.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.89.4",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
+	]
 }
