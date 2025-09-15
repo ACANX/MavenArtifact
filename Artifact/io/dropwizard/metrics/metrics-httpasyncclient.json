@@ -3,11 +3,11 @@
 	"description":"An Apache HttpAsyncClient wrapper providing Metrics instrumentation of connection pools, request\n        durations and rates, and other useful information.",
 	"group_id":"io.dropwizard.metrics",
 	"artifact_id":"metrics-httpasyncclient",
-	"version_latest":"4.2.36",
-	"ts_publish":1756669424000,
-	"dt_publish":"2025-09-01 03:43:44.000",
-	"ts_update":1756670214551,
-	"dt_update":"2025-09-01 03:55:57.983",
+	"version_latest":"4.2.37",
+	"ts_publish":1757972166000,
+	"dt_publish":"2025-09-16 05:36:06.000",
+	"ts_update":1757972716610,
+	"dt_update":"2025-09-16 05:44:22.304",
 	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/dropwizard/metrics/metrics-httpasyncclient/",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#101568 in MvnRepository",
+	"ranking":"#101912 in MvnRepository",
 	"tags":[
 		"bundle",
 		"dropwizard",
@@ -40,6 +40,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250831",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.2.36",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -190,14 +198,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.2.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221221",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.2.15",
 			"vulnerabilities":""
 		}
 	]
