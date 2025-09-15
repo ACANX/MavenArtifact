@@ -3,11 +3,11 @@
 	"description":"Spring for Apache Kafka (Bill of Materials)",
 	"group_id":"org.springframework.kafka",
 	"artifact_id":"spring-kafka-bom",
-	"version_latest":"4.0.0-M4",
-	"ts_publish":1755537824000,
-	"dt_publish":"2025-08-19 01:23:44.000",
-	"ts_update":1755538686430,
-	"dt_update":"2025-08-19 01:37:33.733",
+	"version_latest":"4.0.0-M5",
+	"ts_publish":1757959879000,
+	"dt_publish":"2025-09-16 02:11:19.000",
+	"ts_update":1757960830777,
+	"dt_update":"2025-09-16 02:26:05.744",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/spring-projects/spring-kafka",
 	"home_page":"https://github.com/spring-projects/spring-kafka",
 	"license":"Apache 2.0",
-	"ranking":"#627688 in MvnRepository",
+	"ranking":"#629845 in MvnRepository",
 	"tags":[
 		"bom",
 		"streaming",
@@ -40,6 +40,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"4.0.0-M4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250721",
 			"repository":"Central",
@@ -62,6 +70,14 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.9",
 			"vulnerabilities":""
 		},
 		{
@@ -182,22 +198,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.2.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240916",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240820",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.3",
 			"vulnerabilities":""
 		}
 	]
