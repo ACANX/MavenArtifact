@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.gateway.services",
 	"artifact_id":"gravitee-apim-gateway-services-heartbeat",
-	"version_latest":"4.8.7",
-	"ts_publish":1757702510000,
-	"dt_publish":"2025-09-13 02:41:50.000",
-	"ts_update":1757703459426,
-	"dt_update":"2025-09-13 02:56:02.270",
+	"version_latest":"4.9.0-alpha.1",
+	"ts_publish":1757924058000,
+	"dt_publish":"2025-09-15 16:14:18.000",
+	"ts_update":1757924783073,
+	"dt_update":"2025-09-15 16:26:04.907",
 	"count_dep":160,
 	"count_ref":1,
 	"licenses":[
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-services/gravitee-apim-gateway-services-heartbeat",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#227889 in MvnRepository",
+	"ranking":"#228417 in MvnRepository",
 	"tags":[
 		"service",
 		"gateway"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.8.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250901",
 			"repository":"Central",
@@ -116,6 +124,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.7.14",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250829",
 			"repository":"Central",
 			"type":"release",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.7.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250509",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250425",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.4",
 			"vulnerabilities":""
 		}
 	]
