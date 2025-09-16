@@ -3,10 +3,10 @@
 	"description":"中兴GoldenDB, 基于MySQL",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-jdbc-goldendb",
-	"version_latest":"8.7.2-20250903",
-	"ts_publish":1756891639000,
-	"ts_update":1756892725983,
-	"count_dep":0,
+	"version_latest":"8.7.2-20250916",
+	"ts_publish":1758008609000,
+	"ts_update":1758009398250,
+	"count_dep":8,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -15,11 +15,11 @@
 	"dsv":1,
 	"url_project":"http://www.anyline.org/goldendb",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-jdbc-goldendb@8.7.2-20250806",
-	"dt_publish":"2025-09-03 17:27:19.000",
-	"dt_update":"2025-09-03 17:44:22.034",
+	"dt_publish":"2025-09-16 15:43:29.000",
+	"dt_update":"2025-09-16 15:56:11.031",
 	"home_page":"http://www.anyline.org/goldendb",
 	"license":"Apache 2.0",
-	"ranking":"#661245 in MvnRepository",
+	"ranking":"#708265 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -27,6 +27,14 @@
 		"data"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250903",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.7.2-jdk21-20250212",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250109",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250109",
 			"vulnerabilities":""
 		}
 	]

@@ -2,10 +2,10 @@
 	"id":"pkg:maven/org.anyline/anyline-environment-spring-data-jdbc",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-environment-spring-data-jdbc",
-	"version_latest":"8.7.2-20250903",
-	"ts_publish":1756891639000,
-	"ts_update":1756894560225,
-	"count_dep":0,
+	"version_latest":"8.7.2-20250916",
+	"ts_publish":1758008610000,
+	"ts_update":1758009420505,
+	"count_dep":17,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -20,12 +20,12 @@
 		"anyline"
 	],
 	"url_scm":"https://github.com/anylineorg/anyline/anyline-environment-spring-data-jdbc",
-	"dt_publish":"2025-09-03 17:27:19.000",
-	"dt_update":"2025-09-03 18:15:47.910",
+	"dt_publish":"2025-09-16 15:43:30.000",
+	"dt_update":"2025-09-16 15:56:08.893",
 	"description":"anyline",
 	"count_used_by":8,
 	"home_page":"http://www.anyline.org/environment/spring-data-jdbc",
-	"ranking":"#58212 in MvnRepository",
+	"ranking":"#58924 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -35,6 +35,14 @@
 		"environment"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250903",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.7.2-jdk21-20250225",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250212",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250212",
 			"vulnerabilities":""
 		}
 	],

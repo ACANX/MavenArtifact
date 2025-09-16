@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.anyline/anyline-data-influxdb",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-influxdb",
-	"version_latest":"8.7.2-20250903",
-	"ts_publish":1756891639000,
-	"dt_publish":"2025-09-03 17:27:19.000",
-	"ts_update":1756892698136,
-	"dt_update":"2025-09-03 17:44:19.461",
-	"count_dep":0,
+	"version_latest":"8.7.2-20250916",
+	"ts_publish":1758008610000,
+	"dt_publish":"2025-09-16 15:43:30.000",
+	"ts_update":1758009456127,
+	"dt_update":"2025-09-16 15:56:07.681",
+	"count_dep":4,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-influxdb@8.7.2-20250817",
 	"home_page":"http://www.anyline.org/influxdb",
 	"license":"Apache 2.0",
-	"ranking":"#873314 in MvnRepository",
+	"ranking":"#885032 in MvnRepository",
 	"tags":[
 		"database",
 		"data",
@@ -26,6 +26,14 @@
 		"metrics"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250903",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.7.2-jdk21-20250212",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250211",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250211",
 			"vulnerabilities":""
 		}
 	]
