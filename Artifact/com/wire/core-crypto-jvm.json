@@ -3,12 +3,12 @@
 	"description":"MLS/Proteus multiplexer abstraction with encrypted persistent storage in Rust",
 	"group_id":"com.wire",
 	"artifact_id":"core-crypto-jvm",
-	"version_latest":"8.0.3",
-	"ts_publish":1755012962000,
-	"dt_publish":"2025-08-12 23:36:02.000",
-	"ts_update":1755013931185,
-	"dt_update":"2025-08-12 23:51:11.774",
-	"count_dep":4,
+	"version_latest":"9.0.0",
+	"ts_publish":1758032924000,
+	"dt_publish":"2025-09-16 22:28:44.000",
+	"ts_update":1758033477391,
+	"dt_update":"2025-09-16 22:36:44.621",
+	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
 		"GPL-3.0"
@@ -27,13 +27,21 @@
 	"count_used_by":3,
 	"home_page":"https://github.com/wireapp/core-crypto",
 	"license":"GPL 3.0",
-	"ranking":"#143517 in MvnRepository",
+	"ranking":"#148361 in MvnRepository",
 	"tags":[
 		"jvm",
 		"cryptography",
 		"wire"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.0.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250212",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0",
 			"vulnerabilities":""
 		}
 	]
