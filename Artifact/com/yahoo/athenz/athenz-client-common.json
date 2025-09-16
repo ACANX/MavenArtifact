@@ -3,13 +3,13 @@
 	"description":"Athenz Client Common Package",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-client-common",
-	"version_latest":"1.12.24",
-	"ts_publish":1756510668000,
-	"dt_publish":"2025-08-30 07:37:48.000",
-	"ts_update":1756511776567,
-	"dt_update":"2025-08-30 07:55:59.915",
+	"version_latest":"1.12.25",
+	"ts_publish":1758042225000,
+	"dt_publish":"2025-09-17 01:03:45.000",
+	"ts_update":1758042840623,
+	"dt_update":"2025-09-17 01:13:44.579",
 	"count_dep":21,
-	"count_ref":2,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"https://github.com/AthenZ/athenz/athenz-client-common",
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
-	"count_used_by":6,
+	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#76640 in MvnRepository",
+	"ranking":"#67055 in MvnRepository",
 	"tags":[
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.12.24",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"1.12.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241116",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"1.12.4",
 			"vulnerabilities":""
 		}
 	]
