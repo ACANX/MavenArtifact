@@ -3,11 +3,11 @@
 	"description":"In-process bge-small-en-v1.5 (quantized) embedding model",
 	"group_id":"dev.langchain4j",
 	"artifact_id":"langchain4j-embeddings-bge-small-en-v15-q",
-	"version_latest":"1.4.0-beta10",
-	"ts_publish":1756384383000,
-	"dt_publish":"2025-08-28 20:33:03.000",
-	"ts_update":1756385799607,
-	"dt_update":"2025-08-28 20:55:54.924",
+	"version_latest":"1.5.0-beta11",
+	"ts_publish":1758013920000,
+	"dt_publish":"2025-09-16 17:12:00.000",
+	"ts_update":1758014822795,
+	"dt_update":"2025-09-16 17:26:08.940",
 	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"Dmytro Liubarskyi"
 	],
 	"url_scm":"https://github.com/langchain4j/langchain4j-embeddings/tree/main/langchain4j-embeddings-bge-small-en-v15-q",
-	"count_used_by":7,
+	"count_used_by":9,
 	"home_page":"https://github.com/langchain4j/langchain4j-embeddings/tree/main/langchain4j-embeddings-bge-small-en-v15-q",
 	"license":"Apache 2.0",
-	"ranking":"#66010 in MvnRepository",
+	"ranking":"#54044 in MvnRepository",
 	"tags":[
 		"embedded",
 		"ai",
@@ -34,6 +34,14 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"1.4.0-beta10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250807",
 			"repository":"Central",
@@ -62,7 +70,7 @@
 			"date":"20250520",
 			"repository":"Central",
 			"type":"beta",
-			"usage":3,
+			"usage":5,
 			"version":"1.0.1-beta6",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.30.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240328",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.29.1",
 			"vulnerabilities":""
 		}
 	]
