@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.qubership.atp.tdm/qubership-atp-tdm-distribution",
 	"group_id":"org.qubership.atp.tdm",
 	"artifact_id":"qubership-atp-tdm-distribution",
-	"version_latest":"1.2.91",
-	"ts_publish":1757665621000,
-	"dt_publish":"2025-09-12 16:27:01.000",
-	"ts_update":1757666461080,
-	"dt_update":"2025-09-12 16:40:34.687",
-	"count_dep":2,
+	"version_latest":"1.2.93",
+	"ts_publish":1758025610000,
+	"dt_publish":"2025-09-16 20:26:50.000",
+	"ts_update":1758027421759,
+	"dt_update":"2025-09-16 20:56:12.806",
+	"count_dep":381,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/Netcracker/qubership-testing-platform-tdm/parent/qubership-atp-tdm-parent-java/qubership-atp-tdm-distribution",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.qubership.atp.tdm/qubership-atp-tdm-distribution@1.2.88",
@@ -18,11 +20,27 @@
 	],
 	"url_scm":"scm:git:https://github.com/Netcracker/qubership-testing-platform-tdm.git/parent/qubership-atp-tdm-parent-java/qubership-atp-tdm-distribution",
 	"license":"Apache 2.0",
-	"ranking":"#669101 in MvnRepository",
+	"ranking":"#945126 in MvnRepository",
 	"tags":[
 		"distribution"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.91",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.90",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -39,5 +57,6 @@
 			"version":"1.2.88",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Qubership Testing Platform TDM Service"
 }

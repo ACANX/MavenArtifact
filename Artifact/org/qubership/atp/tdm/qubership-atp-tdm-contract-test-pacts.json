@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.qubership.atp.tdm/qubership-atp-tdm-contract-test-pacts",
 	"group_id":"org.qubership.atp.tdm",
 	"artifact_id":"qubership-atp-tdm-contract-test-pacts",
-	"version_latest":"1.2.91",
-	"ts_publish":1757665621000,
-	"dt_publish":"2025-09-12 16:27:01.000",
-	"ts_update":1757666462192,
-	"dt_update":"2025-09-12 16:40:34.689",
-	"count_dep":19,
+	"version_latest":"1.2.93",
+	"ts_publish":1758025610000,
+	"dt_publish":"2025-09-16 20:26:50.000",
+	"ts_update":1758027440626,
+	"dt_update":"2025-09-16 20:56:12.808",
+	"count_dep":53,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/Netcracker/qubership-testing-platform-tdm/parent/qubership-atp-tdm-parent-java/qubership-atp-tdm-parent-db/qubership-atp-tdm-contract-test-pacts",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.qubership.atp.tdm/qubership-atp-tdm-contract-test-pacts@1.2.88",
@@ -18,12 +20,28 @@
 	],
 	"url_scm":"scm:git:https://github.com/Netcracker/qubership-testing-platform-tdm.git/parent/qubership-atp-tdm-parent-java/qubership-atp-tdm-parent-db/qubership-atp-tdm-contract-test-pacts",
 	"license":"Apache 2.0",
-	"ranking":"#770169 in MvnRepository",
+	"ranking":"#799374 in MvnRepository",
 	"tags":[
 		"testing",
 		"contract"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.91",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.90",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -40,5 +58,6 @@
 			"version":"1.2.88",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Qubership Testing Platform TDM Service"
 }
