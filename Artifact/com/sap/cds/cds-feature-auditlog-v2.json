@@ -3,12 +3,12 @@
 	"description":"Handler to send auditlog messages to AuditLog Service V2",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-feature-auditlog-v2",
-	"version_latest":"4.3.0",
-	"ts_publish":1756906042000,
-	"dt_publish":"2025-09-03 21:27:22.000",
-	"ts_update":1756907804942,
-	"dt_update":"2025-09-03 21:56:02.371",
-	"count_dep":76,
+	"version_latest":"4.3.1",
+	"ts_publish":1758040873000,
+	"dt_publish":"2025-09-17 00:41:13.000",
+	"ts_update":1758041641844,
+	"dt_update":"2025-09-17 00:53:04.252",
+	"count_dep":75,
 	"count_ref":0,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
@@ -25,12 +25,20 @@
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"count_used_by":1,
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#369804 in MvnRepository",
+	"ranking":"#352080 in MvnRepository",
 	"tags":[
 		"audit",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250731",
 			"repository":"Central",
@@ -61,6 +69,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.10.4",
 			"vulnerabilities":""
 		},
 		{
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241015",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.3.1",
 			"vulnerabilities":""
 		}
 	]
