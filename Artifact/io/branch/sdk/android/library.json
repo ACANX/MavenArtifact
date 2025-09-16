@@ -3,11 +3,11 @@
 	"description":"Use the Branch SDK (branch.io) to create and power the links that point back to your apps for all of these things and more. Branch makes it incredibly simple to create powerful deep links that can pass data across app install and open while handling all edge cases (using on desktop vs. mobile vs. already having the app installed, etc). Best of all, it is really simple to start using the links for your own app: only 2 lines of code to register the deep link router and one more line of code to create the links with custom data.",
 	"group_id":"io.branch.sdk.android",
 	"artifact_id":"library",
-	"version_latest":"5.20.1",
-	"ts_publish":1757372054000,
-	"dt_publish":"2025-09-09 06:54:14.000",
-	"ts_update":1757373352506,
-	"dt_update":"2025-09-09 07:14:53.002",
+	"version_latest":"5.20.2-alpha.1",
+	"ts_publish":1758044349000,
+	"dt_publish":"2025-09-17 01:39:09.000",
+	"ts_update":1758045439533,
+	"dt_update":"2025-09-17 01:56:11.201",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"count_used_by":23,
 	"home_page":"https://github.com/BranchMetrics/Branch-Android-SDK/",
 	"license":"Apache 2.0",
-	"ranking":"#20455 in MvnRepository",
+	"ranking":"#20484 in MvnRepository",
 	"tags":[
 		"sdk",
 		"library",
@@ -35,6 +35,14 @@
 		"android"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.20.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.12.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240424",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.12.0",
 			"vulnerabilities":""
 		}
 	]
