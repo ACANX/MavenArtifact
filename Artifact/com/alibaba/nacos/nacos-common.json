@@ -3,12 +3,12 @@
 	"description":"Nacos common pom.xml file",
 	"group_id":"com.alibaba.nacos",
 	"artifact_id":"nacos-common",
-	"version_latest":"3.0.3",
-	"ts_publish":1755755726000,
-	"dt_publish":"2025-08-21 13:55:26.000",
-	"ts_update":1755758023221,
-	"dt_update":"2025-08-21 14:33:08.275",
-	"count_dep":27,
+	"version_latest":"3.1.0-BETA",
+	"ts_publish":1758011652000,
+	"dt_publish":"2025-09-16 16:34:12.000",
+	"ts_update":1758013001581,
+	"dt_update":"2025-09-16 16:56:12.412",
+	"count_dep":29,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,14 +24,22 @@
 		"Nacos"
 	],
 	"url_scm":"git@github.com:alibaba/nacos.git",
-	"count_used_by":50,
+	"count_used_by":52,
 	"home_page":"https://nacos.io",
 	"license":"Apache 2.0",
-	"ranking":"#9750 in MvnRepository",
+	"ranking":"#9477 in MvnRepository",
 	"tags":[
 		"alibaba"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"3.0.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250625",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"2.3.0-BETA",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230620",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.2.4",
 			"vulnerabilities":""
 		}
 	]
