@@ -3,13 +3,13 @@
 	"description":"Part of the ORT Server, the reference implementation of Eclipse Apoapsis.",
 	"group_id":"org.eclipse.apoapsis.ortserver.shared",
 	"artifact_id":"api-mappings",
-	"version_latest":"0.28.2",
-	"ts_publish":1757573819000,
-	"dt_publish":"2025-09-11 14:56:59.000",
-	"ts_update":1757574992119,
-	"dt_update":"2025-09-11 15:14:55.270",
+	"version_latest":"0.29.0",
+	"ts_publish":1758018956000,
+	"dt_publish":"2025-09-16 18:35:56.000",
+	"ts_update":1758020211800,
+	"dt_update":"2025-09-16 18:56:06.034",
 	"count_dep":3,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -22,13 +22,37 @@
 	"url_scm":"https://github.com/eclipse-apoapsis/ort-server",
 	"home_page":"https://projects.eclipse.org/projects/technology.apoapsis",
 	"license":"Apache 2.0",
-	"ranking":"#699109 in MvnRepository",
+	"ranking":"#384429 in MvnRepository",
 	"tags":[
 		"eclipse",
 		"mapping",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.28.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.28.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -149,5 +173,6 @@
 			"version":"0.12.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
