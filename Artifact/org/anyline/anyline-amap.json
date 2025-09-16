@@ -3,12 +3,12 @@
 	"description":"高德地图GCJ-02 国测局坐标",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-amap",
-	"version_latest":"8.7.2-20250903",
-	"ts_publish":1756895186000,
-	"dt_publish":"2025-09-03 18:26:26.000",
-	"ts_update":1756896377159,
-	"dt_update":"2025-09-03 18:45:22.408",
-	"count_dep":0,
+	"version_latest":"8.7.2-20250916",
+	"ts_publish":1758020143000,
+	"dt_publish":"2025-09-16 18:55:43.000",
+	"ts_update":1758021246201,
+	"dt_update":"2025-09-16 19:13:00.048",
+	"count_dep":26,
 	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -26,8 +26,16 @@
 	"count_used_by":3,
 	"home_page":"http://www.anyline.org/amap",
 	"license":"Apache 2.0",
-	"ranking":"#170454 in MvnRepository",
+	"ranking":"#170824 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.2-jdk21-20250903",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.7.2-jdk21-20241231",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20241203",
 			"vulnerabilities":""
 		}
 	]
