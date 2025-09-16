@@ -3,13 +3,13 @@
 	"description":"Vaadin 7 compatibility package for Vaadin 8",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-compatibility-shared",
-	"version_latest":"8.28.3",
-	"ts_publish":1757584467000,
-	"dt_publish":"2025-09-11 17:54:27.000",
-	"ts_update":1757586379947,
-	"dt_update":"2025-09-11 18:26:04.060",
+	"version_latest":"8.28.4",
+	"ts_publish":1758012850000,
+	"dt_publish":"2025-09-16 16:54:10.000",
+	"ts_update":1758014267165,
+	"dt_update":"2025-09-16 17:16:54.379",
 	"count_dep":3,
-	"count_ref":2,
+	"count_ref":4,
 	"licenses":[
 		"Vaadin Commercial License"
 	],
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/vaadin/framework/vaadin-compatibility-shared",
 	"count_used_by":51,
 	"home_page":"https://vaadin.com/",
-	"ranking":"#9556 in MvnRepository",
+	"ranking":"#9573 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"compatibility"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.28.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250729",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"8.21.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230602",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"8.20.3",
 			"vulnerabilities":""
 		}
 	]
