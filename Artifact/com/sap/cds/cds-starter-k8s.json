@@ -3,11 +3,11 @@
 	"description":"Platform package to run CAP applications on Kubernetes (Kyma)",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-starter-k8s",
-	"version_latest":"4.3.0",
-	"ts_publish":1756906315000,
-	"dt_publish":"2025-09-03 21:31:55.000",
-	"ts_update":1756907879598,
-	"dt_update":"2025-09-03 21:56:01.697",
+	"version_latest":"4.3.1",
+	"ts_publish":1758047405000,
+	"dt_publish":"2025-09-17 02:30:05.000",
+	"ts_update":1758048270854,
+	"dt_update":"2025-09-17 02:44:06.942",
 	"count_dep":128,
 	"count_ref":0,
 	"licenses":[
@@ -24,13 +24,21 @@
 	],
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#756874 in MvnRepository",
+	"ranking":"#570136 in MvnRepository",
 	"tags":[
 		"kubernetes",
 		"starter",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250731",
 			"repository":"Central",
@@ -61,6 +69,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.10.4",
 			"vulnerabilities":""
 		},
 		{
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241015",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.3.1",
 			"vulnerabilities":""
 		}
 	]
