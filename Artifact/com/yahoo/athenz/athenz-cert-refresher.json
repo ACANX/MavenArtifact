@@ -3,13 +3,13 @@
 	"description":"Athenz SSL Cert Refresher Package",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-cert-refresher",
-	"version_latest":"1.12.24",
-	"ts_publish":1756510909000,
-	"dt_publish":"2025-08-30 07:41:49.000",
-	"ts_update":1756513578531,
-	"dt_update":"2025-08-30 08:25:50.841",
+	"version_latest":"1.12.25",
+	"ts_publish":1758042713000,
+	"dt_publish":"2025-09-17 01:11:53.000",
+	"ts_update":1758043656417,
+	"dt_update":"2025-09-17 01:26:03.417",
 	"count_dep":9,
-	"count_ref":6,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"https://github.com/AthenZ/athenz/athenz-cert-refresher",
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
-	"count_used_by":11,
+	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#43162 in MvnRepository",
+	"ranking":"#39612 in MvnRepository",
 	"tags":[
 		"certificate"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.12.24",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"1.12.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241116",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"1.12.4",
 			"vulnerabilities":""
 		}
 	]
