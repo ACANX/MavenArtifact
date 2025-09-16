@@ -3,12 +3,12 @@
 	"description":"The Athena Query Federation SDK defines a set of interfaces and wire protocols that you can implement to enable Athena to delegate portions of it's query execution plan to code that you deploy/write.",
 	"group_id":"com.amazonaws",
 	"artifact_id":"aws-athena-federation-sdk",
-	"version_latest":"2025.34.3",
-	"ts_publish":1756401434000,
-	"dt_publish":"2025-08-29 01:17:14.000",
-	"ts_update":1756402416851,
-	"dt_update":"2025-08-29 01:32:29.738",
-	"count_dep":105,
+	"version_latest":"2025.37.1",
+	"ts_publish":1758045962000,
+	"dt_publish":"2025-09-17 02:06:02.000",
+	"ts_update":1758046999785,
+	"dt_update":"2025-09-17 02:21:35.432",
+	"count_dep":129,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -23,7 +23,7 @@
 	"count_used_by":5,
 	"home_page":"https://github.com/awslabs/aws-athena-query-federation",
 	"license":"Apache 2.0",
-	"ranking":"#95685 in MvnRepository",
+	"ranking":"#96855 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -32,6 +32,14 @@
 		"federation"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2025.34.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2025.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241223",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2024.51.1",
 			"vulnerabilities":""
 		}
 	]

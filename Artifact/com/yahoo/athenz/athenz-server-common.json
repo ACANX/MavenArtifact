@@ -3,12 +3,12 @@
 	"description":"Athenz Server Common Packages",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-server-common",
-	"version_latest":"1.12.24",
-	"ts_publish":1756512667000,
-	"dt_publish":"2025-08-30 08:11:07.000",
-	"ts_update":1756515385739,
-	"dt_update":"2025-08-30 08:55:55.276",
-	"count_dep":131,
+	"version_latest":"1.12.25",
+	"ts_publish":1758045739000,
+	"dt_publish":"2025-09-17 02:02:19.000",
+	"ts_update":1758046973188,
+	"dt_update":"2025-09-17 02:21:35.434",
+	"count_dep":133,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"https://github.com/AthenZ/athenz/athenz-server-common",
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
-	"count_used_by":5,
+	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#98734 in MvnRepository",
+	"ranking":"#82121 in MvnRepository",
 	"tags":[
 		"server"
 	],
 	"versions":[
+		{
+			"date":"20250830",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.12.24",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.12.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241116",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.12.4",
 			"vulnerabilities":""
 		}
 	]

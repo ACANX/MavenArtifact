@@ -3,12 +3,12 @@
 	"description":"The Amazon Athena Query Federation SDK allows you to customize Amazon Athena with your own code.",
 	"group_id":"com.amazonaws",
 	"artifact_id":"athena-cloudwatch",
-	"version_latest":"2025.34.3",
-	"ts_publish":1756401434000,
-	"dt_publish":"2025-08-29 01:17:14.000",
-	"ts_update":1756402487206,
-	"dt_update":"2025-08-29 01:32:29.739",
-	"count_dep":80,
+	"version_latest":"2025.37.1",
+	"ts_publish":1758045962000,
+	"dt_publish":"2025-09-17 02:06:02.000",
+	"ts_update":1758046904850,
+	"dt_update":"2025-09-17 02:21:35.432",
+	"count_dep":117,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -21,7 +21,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.amazonaws/athena-cloudwatch@2025.34.3",
 	"url_scm":"https://github.com/awslabs/aws-athena-query-federation/athena-cloudwatch",
 	"license":"Apache 2.0",
-	"ranking":"#532121 in MvnRepository",
+	"ranking":"#584787 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -32,6 +32,14 @@
 		"metrics"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.34.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2024.51.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2024.50.2",
 			"vulnerabilities":""
 		}
 	]

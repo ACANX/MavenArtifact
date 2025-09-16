@@ -3,12 +3,12 @@
 	"description":"The Amazon Athena Query Federation SDK allows you to customize Amazon Athena with your own code.",
 	"group_id":"com.amazonaws",
 	"artifact_id":"athena-federation-integ-test",
-	"version_latest":"2025.34.3",
-	"ts_publish":1756401434000,
-	"dt_publish":"2025-08-29 01:17:14.000",
-	"ts_update":1756402419439,
-	"dt_update":"2025-08-29 01:32:29.743",
-	"count_dep":10,
+	"version_latest":"2025.37.1",
+	"ts_publish":1758045962000,
+	"dt_publish":"2025-09-17 02:06:02.000",
+	"ts_update":1758046997281,
+	"dt_update":"2025-09-17 02:21:35.430",
+	"count_dep":11,
 	"count_ref":7,
 	"licenses":[
 		"Apache License 2.0"
@@ -20,9 +20,9 @@
 	"url_project":"https://github.com/awslabs/aws-athena-query-federation/athena-federation-integ-test",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.amazonaws/athena-federation-integ-test@2025.34.3",
 	"url_scm":"https://github.com/awslabs/aws-athena-query-federation/athena-federation-integ-test",
-	"count_used_by":4,
+	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#121871 in MvnRepository",
+	"ranking":"#67284 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -31,6 +31,14 @@
 		"federation"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"2025.34.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2024.51.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2024.50.2",
 			"vulnerabilities":""
 		}
 	]
