@@ -3,11 +3,11 @@
 	"description":"This provides native functions that allow runtime compilation and execution of Java code. This is intended\n        primarily to support development of Java generation code by providing access to compilation and execution in a\n        Pure IDE Light. Please note that native functions provided here are extremely unsafe for general usage as they\n        allow compilation and execution of arbitrary user supplied Java code. They should only be used in environments\n        where there are no concerns about users running unsafe code (such as a user running a local Pure IDE Light).",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-pure-functions-javaCompiler-pure",
-	"version_latest":"4.101.0",
-	"ts_publish":1757946674000,
-	"dt_publish":"2025-09-15 22:31:14.000",
-	"ts_update":1757948279927,
-	"dt_update":"2025-09-15 22:56:18.195",
+	"version_latest":"4.101.1",
+	"ts_publish":1757994217000,
+	"dt_publish":"2025-09-16 11:43:37.000",
+	"ts_update":1757996444650,
+	"dt_update":"2025-09-16 12:18:33.404",
 	"count_dep":18,
 	"count_ref":4,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-pure/legend-engine-pure-code-functions-javaCompiler/legend-engine-pure-functions-javaCompiler-pure",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#125570 in MvnRepository",
+	"ranking":"#125542 in MvnRepository",
 	"tags":[
 		"functions",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.100.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250907",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.89.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.89.4",
 			"vulnerabilities":""
 		}
 	]

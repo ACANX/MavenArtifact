@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-xt-protobuf-pure",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-protobuf-pure",
-	"version_latest":"4.100.0",
-	"ts_publish":1757655628000,
-	"dt_publish":"2025-09-12 13:40:28.000",
-	"ts_update":1757658198061,
-	"dt_update":"2025-09-12 14:22:46.420",
-	"count_dep":73,
+	"version_latest":"4.101.1",
+	"ts_publish":1757994217000,
+	"dt_publish":"2025-09-16 11:43:37.000",
+	"ts_update":1757996423084,
+	"dt_update":"2025-09-16 12:18:32.942",
+	"count_dep":15,
 	"count_ref":2,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -19,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.finos.legend.engine/legend-engine-xt-protobuf-pure@4.96.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#121636 in MvnRepository",
+	"ranking":"#121854 in MvnRepository",
 	"tags":[
 		"protobuf",
 		"serialization",
@@ -27,6 +25,14 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.100.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250907",
 			"repository":"Central",
@@ -178,15 +184,6 @@
 			"usage":2,
 			"version":"4.89.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.89.4",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
+	]
 }

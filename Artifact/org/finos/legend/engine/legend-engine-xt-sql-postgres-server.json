@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-sql-postgres-server",
-	"version_latest":"4.101.0",
-	"ts_publish":1757946674000,
-	"dt_publish":"2025-09-15 22:31:14.000",
-	"ts_update":1757948271254,
-	"dt_update":"2025-09-15 22:56:13.174",
-	"count_dep":74,
+	"version_latest":"4.101.1",
+	"ts_publish":1757994217000,
+	"dt_publish":"2025-09-16 11:43:37.000",
+	"ts_update":1757996444091,
+	"dt_update":"2025-09-16 12:18:30.289",
+	"count_dep":102,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,7 +25,7 @@
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-sql/legend-engine-xt-sql-postgres-server",
 	"license":"Apache 2.0",
-	"ranking":"#959228 in MvnRepository",
+	"ranking":"#959701 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -34,6 +34,22 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.100.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250907",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.99.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.89.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.89.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.89.2",
 			"vulnerabilities":""
 		}
 	]

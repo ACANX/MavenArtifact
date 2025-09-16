@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-pure-platform-precisePrimitives-java",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-pure-platform-precisePrimitives-java",
-	"version_latest":"4.101.0",
-	"ts_publish":1757946674000,
-	"dt_publish":"2025-09-15 22:31:14.000",
-	"ts_update":1757948276014,
-	"dt_update":"2025-09-15 22:56:08.029",
-	"count_dep":36,
-	"count_ref":23,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"4.101.1",
+	"ts_publish":1757994217000,
+	"dt_publish":"2025-09-16 11:43:37.000",
+	"ts_update":1757996328620,
+	"dt_update":"2025-09-16 12:18:32.935",
+	"count_dep":7,
+	"count_ref":28,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -25,12 +23,28 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-pure/legend-engine-pure-platform-modular-generation/legend-engine-pure-platform-precisePrimitives-java",
 	"count_used_by":25,
 	"license":"Apache 2.0",
-	"ranking":"#18497 in MvnRepository",
+	"ranking":"#18877 in MvnRepository",
 	"tags":[
 		"platform",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"4.100.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250907",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"4.99.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -174,23 +188,6 @@
 			"usage":24,
 			"version":"4.89.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"4.89.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"4.89.2",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
+	]
 }
