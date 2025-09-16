@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for AWS Elemental MediaStore module holds the client classes that are used for\n        communicating\n        with AWS Elemental MediaStore Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"mediastore",
-	"version_latest":"2.33.9",
-	"ts_publish":1757715079000,
-	"dt_publish":"2025-09-13 06:11:19.000",
-	"ts_update":1757717118580,
-	"dt_update":"2025-09-13 06:44:13.750",
-	"count_dep":40,
+	"version_latest":"2.33.10",
+	"ts_publish":1757982415000,
+	"dt_publish":"2025-09-16 08:26:55.000",
+	"ts_update":1757984216319,
+	"dt_update":"2025-09-16 08:56:07.129",
+	"count_dep":33,
 	"count_ref":2,
 	"licenses":[],
 	"categories":[
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/mediastore@2.32.18",
 	"count_used_by":5,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#99327 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#99456 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.33.9",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250911",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.33.8",
 			"vulnerabilities":""
 		},
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.32.24",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250815",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.32.23",
 			"vulnerabilities":""
 		}
 	]
