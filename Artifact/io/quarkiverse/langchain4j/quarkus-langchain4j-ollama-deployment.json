@@ -2,21 +2,19 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-ollama-deployment",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-ollama-deployment",
-	"version_latest":"1.2.0.CR1",
-	"ts_publish":1756814829000,
-	"dt_publish":"2025-09-02 20:07:09.000",
-	"ts_update":1756816012023,
-	"dt_update":"2025-09-02 20:26:01.474",
-	"count_dep":214,
+	"version_latest":"1.2.0.CR2",
+	"ts_publish":1758039979000,
+	"dt_publish":"2025-09-17 00:26:19.000",
+	"ts_update":1758040950799,
+	"dt_update":"2025-09-17 00:41:35.263",
+	"count_dep":9,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-ollama-deployment@1.1.1",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#102403 in MvnRepository",
+	"ranking":"#103101 in MvnRepository",
 	"tags":[
 		"deployment",
 		"ollama",
@@ -26,6 +24,22 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.2.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.1.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -169,23 +183,6 @@
 			"usage":0,
 			"version":"0.26.0.CR1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.25.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.25.0.CR3",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
+	]
 }

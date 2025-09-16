@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-pinecone-deployment",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-pinecone-deployment",
-	"version_latest":"1.2.0.CR1",
-	"ts_publish":1756814829000,
-	"dt_publish":"2025-09-02 20:07:09.000",
-	"ts_update":1756816039344,
-	"dt_update":"2025-09-02 20:25:59.243",
-	"count_dep":203,
+	"version_latest":"1.2.0.CR2",
+	"ts_publish":1758039979000,
+	"dt_publish":"2025-09-17 00:26:19.000",
+	"ts_update":1758040938792,
+	"dt_update":"2025-09-17 00:41:36.818",
+	"count_dep":8,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-pinecone-deployment@1.1.1",
@@ -22,7 +20,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-langchain4j",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#331320 in MvnRepository",
+	"ranking":"#349179 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -31,6 +29,30 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -166,31 +188,6 @@
 			"usage":0,
 			"version":"0.26.0.CR1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.25.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.25.0.CR3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250224",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.25.0.CR2",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
+	]
 }
