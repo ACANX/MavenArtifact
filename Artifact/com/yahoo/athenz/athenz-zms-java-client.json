@@ -3,13 +3,13 @@
 	"description":"ZMS Java Client Library",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-zms-java-client",
-	"version_latest":"1.12.24",
-	"ts_publish":1756511272000,
-	"dt_publish":"2025-08-30 07:47:52.000",
-	"ts_update":1756513644153,
-	"dt_update":"2025-08-30 08:25:50.840",
+	"version_latest":"1.12.25",
+	"ts_publish":1758043313000,
+	"dt_publish":"2025-09-17 01:21:53.000",
+	"ts_update":1758043983352,
+	"dt_update":"2025-09-17 01:31:22.657",
 	"count_dep":29,
-	"count_ref":1,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"https://github.com/AthenZ/athenz/athenz-zms-java-client",
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
-	"count_used_by":4,
+	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#121783 in MvnRepository",
+	"ranking":"#97772 in MvnRepository",
 	"tags":[
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.12.24",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.12.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241116",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.12.4",
 			"vulnerabilities":""
 		}
 	]

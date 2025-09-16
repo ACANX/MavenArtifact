@@ -3,11 +3,11 @@
 	"description":"Dapr Spring Boot Autoconfigure",
 	"group_id":"io.dapr.spring",
 	"artifact_id":"dapr-spring-boot-autoconfigure",
-	"version_latest":"1.16.0-rc-2",
-	"ts_publish":1756917302000,
-	"dt_publish":"2025-09-04 00:35:02.000",
-	"ts_update":1756918352222,
-	"dt_update":"2025-09-04 00:52:12.301",
+	"version_latest":"1.16.0",
+	"ts_publish":1758043361000,
+	"dt_publish":"2025-09-17 01:22:41.000",
+	"ts_update":1758043889562,
+	"dt_update":"2025-09-17 01:31:22.054",
 	"count_dep":64,
 	"count_ref":3,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/dapr/java-sdk/dapr-spring-parent/dapr-spring-boot-autoconfigure",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#199247 in MvnRepository",
+	"ranking":"#207281 in MvnRepository",
 	"tags":[
 		"spring",
 		"config",
 		"dapr"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.16.0-rc-2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.13.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.13.1",
 			"vulnerabilities":""
 		}
 	]
