@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.reporter",
 	"artifact_id":"gravitee-reporter-common",
-	"version_latest":"1.7.0-alpha.9",
-	"ts_publish":1757919545000,
-	"dt_publish":"2025-09-15 14:59:05.000",
-	"ts_update":1757920600225,
-	"dt_update":"2025-09-15 15:15:45.551",
-	"count_dep":111,
+	"version_latest":"1.7.0",
+	"ts_publish":1758124621000,
+	"dt_publish":"2025-09-17 23:57:01.000",
+	"ts_update":1758126015311,
+	"dt_update":"2025-09-18 00:19:14.618",
+	"count_dep":125,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-reporter-common",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#162886 in MvnRepository",
+	"ranking":"#164271 in MvnRepository",
 	"tags":[
 		"reporter",
 		"report"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"1.7.0-alpha.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -47,7 +55,7 @@
 			"date":"20250730",
 			"repository":"Central",
 			"type":"alpha",
-			"usage":1,
+			"usage":2,
 			"version":"1.7.0-alpha.7",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.2.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240522",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.2.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Extension enabling use of the AMQP 1.0 Qpid JMS client in a Quarkus application",
 	"group_id":"org.amqphub.quarkus",
 	"artifact_id":"quarkus-qpid-jms-bom",
-	"version_latest":"2.9.0",
-	"ts_publish":1756990388000,
-	"dt_publish":"2025-09-04 20:53:08.000",
-	"ts_update":1756992385998,
-	"dt_update":"2025-09-04 21:26:02.270",
+	"version_latest":"2.10.0",
+	"ts_publish":1758125083000,
+	"dt_publish":"2025-09-18 00:04:43.000",
+	"ts_update":1758126048328,
+	"dt_update":"2025-09-18 00:19:14.049",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/amqphub/quarkus-qpid-jms/quarkus-qpid-jms-bom",
 	"license":"Apache 2.0",
-	"ranking":"#703833 in MvnRepository",
+	"ranking":"#798029 in MvnRepository",
 	"tags":[
 		"bom",
 		"jms",
@@ -35,6 +35,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.9.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250320",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.41.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221208",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.40.0",
 			"vulnerabilities":""
 		}
 	]
