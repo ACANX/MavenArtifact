@@ -3,12 +3,12 @@
 	"description":"The Spring Batch Infrastructure is a set of\n\tlow-level components, interfaces and tools for batch processing\n\tapplications and optimisations",
 	"group_id":"org.springframework.batch",
 	"artifact_id":"spring-batch-infrastructure",
-	"version_latest":"6.0.0-M2",
-	"ts_publish":1755694406000,
-	"dt_publish":"2025-08-20 20:53:26.000",
-	"ts_update":1755695828298,
-	"dt_update":"2025-08-20 21:16:44.170",
-	"count_dep":65,
+	"version_latest":"6.0.0-M3",
+	"ts_publish":1758106460000,
+	"dt_publish":"2025-09-17 18:54:20.000",
+	"ts_update":1758112297111,
+	"dt_update":"2025-09-17 19:26:06.994",
+	"count_dep":67,
 	"count_ref":3,
 	"licenses":[
 		"Apache 2.0"
@@ -35,13 +35,21 @@
 	"count_used_by":98,
 	"home_page":"https://projects.spring.io/spring-batch",
 	"license":"Apache 2.0",
-	"ranking":"#5146 in MvnRepository",
+	"ranking":"#5174 in MvnRepository",
 	"tags":[
 		"spring",
 		"framework",
 		"batch"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":3,
+			"version":"6.0.0-M2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -192,14 +200,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.3.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220518",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.3.6",
 			"vulnerabilities":""
 		}
 	]
