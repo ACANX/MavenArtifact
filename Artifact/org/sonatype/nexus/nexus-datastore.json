@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-datastore",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-datastore",
-	"version_latest":"3.84.0-03",
-	"ts_publish":1757437497000,
-	"dt_publish":"2025-09-10 01:04:57.000",
-	"ts_update":1757438055338,
-	"dt_update":"2025-09-10 01:13:53.347",
+	"version_latest":"3.84.1-01",
+	"ts_publish":1758131271000,
+	"dt_publish":"2025-09-18 01:47:51.000",
+	"ts_update":1758131784692,
+	"dt_update":"2025-09-18 01:56:04.798",
 	"count_dep":10,
-	"count_ref":25,
+	"count_ref":22,
 	"licenses":[],
 	"categories":[
 		"Build Tools",
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.sonatype.nexus/nexus-datastore@3.83.0-08",
 	"count_used_by":9,
 	"license":"EPL 1.0",
-	"ranking":"#50538 in MvnRepository",
+	"ranking":"#50847 in MvnRepository",
 	"tags":[
 		"persistence",
 		"data",
@@ -26,6 +26,14 @@
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"3.84.0-03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"3.75.1-01",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.75.0-06",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"org.sonatype.nexus.buildsupport:nexus-buildsupport-jetty",
 	"group_id":"org.sonatype.nexus.buildsupport",
 	"artifact_id":"nexus-buildsupport-jetty",
-	"version_latest":"3.84.0-03",
-	"ts_publish":1757437497000,
-	"dt_publish":"2025-09-10 01:04:57.000",
-	"ts_update":1757438078389,
-	"dt_update":"2025-09-10 01:13:53.342",
+	"version_latest":"3.84.1-01",
+	"ts_publish":1758131271000,
+	"dt_publish":"2025-09-18 01:47:51.000",
+	"ts_update":1758131827998,
+	"dt_update":"2025-09-18 01:56:05.433",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/sonatype/nexus-public/nexus-buildsupport/nexus-buildsupport-jetty",
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"license":"EPL 1.0",
-	"ranking":"#727561 in MvnRepository",
+	"ranking":"#753071 in MvnRepository",
 	"tags":[
 		"server",
 		"build",
@@ -35,6 +35,14 @@
 		"jetty"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.84.0-03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.75.1-01",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.75.0-06",
 			"vulnerabilities":""
 		}
 	]

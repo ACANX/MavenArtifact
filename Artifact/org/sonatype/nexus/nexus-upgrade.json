@@ -3,13 +3,13 @@
 	"description":"org.sonatype.nexus:nexus-upgrade",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-upgrade",
-	"version_latest":"3.84.0-03",
-	"ts_publish":1757437497000,
-	"dt_publish":"2025-09-10 01:04:57.000",
-	"ts_update":1757438133160,
-	"dt_update":"2025-09-10 01:13:50.840",
+	"version_latest":"3.84.1-01",
+	"ts_publish":1758131271000,
+	"dt_publish":"2025-09-18 01:47:51.000",
+	"ts_update":1758131784762,
+	"dt_update":"2025-09-18 01:56:03.356",
 	"count_dep":96,
-	"count_ref":22,
+	"count_ref":20,
 	"licenses":[
 		"Eclipse Public License"
 	],
@@ -28,8 +28,24 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":9,
 	"license":"EPL 1.0",
-	"ranking":"#54276 in MvnRepository",
+	"ranking":"#54534 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"3.84.0-03",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"3.83.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"3.75.1-01",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.75.0-06",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241105",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.74.0-05",
 			"vulnerabilities":""
 		}
 	]

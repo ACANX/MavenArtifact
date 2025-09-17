@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-siesta",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-siesta",
-	"version_latest":"3.84.0-03",
-	"ts_publish":1757437497000,
-	"dt_publish":"2025-09-10 01:04:57.000",
-	"ts_update":1757438105969,
-	"dt_update":"2025-09-10 01:13:52.040",
-	"count_dep":15,
+	"version_latest":"3.84.1-01",
+	"ts_publish":1758131271000,
+	"dt_publish":"2025-09-18 01:47:51.000",
+	"ts_update":1758131867775,
+	"dt_update":"2025-09-18 01:56:06.018",
+	"count_dep":166,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License"
+	],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -25,8 +27,24 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":4,
 	"license":"EPL 1.0",
-	"ranking":"#113900 in MvnRepository",
+	"ranking":"#115460 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.84.0-03",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.83.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -170,22 +188,7 @@
 			"usage":3,
 			"version":"3.75.1-01",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.75.0-06",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241105",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.74.0-05",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"org.sonatype.nexus:nexus-siesta"
 }

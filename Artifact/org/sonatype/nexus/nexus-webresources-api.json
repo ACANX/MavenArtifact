@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-webresources-api",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-webresources-api",
-	"version_latest":"3.84.0-03",
-	"ts_publish":1757437497000,
-	"dt_publish":"2025-09-10 01:04:57.000",
-	"ts_update":1757438043972,
-	"dt_update":"2025-09-10 01:13:51.444",
+	"version_latest":"3.84.1-01",
+	"ts_publish":1758131271000,
+	"dt_publish":"2025-09-18 01:47:51.000",
+	"ts_update":1758131854931,
+	"dt_update":"2025-09-18 01:56:06.018",
 	"count_dep":76,
-	"count_ref":18,
+	"count_ref":17,
 	"licenses":[
 		"Eclipse Public License"
 	],
@@ -27,11 +27,19 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":7,
 	"license":"EPL 1.0",
-	"ranking":"#67388 in MvnRepository",
+	"ranking":"#67954 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.84.0-03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.75.1-01",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.75.0-06",
 			"vulnerabilities":""
 		}
 	],
