@@ -2,21 +2,23 @@
 	"id":"pkg:maven/io.quarkus/quarkus-elytron-security-oauth2-parent",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-elytron-security-oauth2-parent",
-	"version_latest":"3.28.0.CR1",
-	"ts_publish":1757487819000,
-	"dt_publish":"2025-09-10 15:03:39.000",
-	"ts_update":1757489211585,
-	"dt_update":"2025-09-10 15:26:02.708",
-	"count_dep":0,
+	"version_latest":"3.28.0",
+	"ts_publish":1758101127000,
+	"dt_publish":"2025-09-17 17:25:27.000",
+	"ts_update":1758104196264,
+	"dt_update":"2025-09-17 17:56:19.933",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-elytron-security-oauth2-parent@3.25.1",
 	"license":"Apache 2.0",
-	"ranking":"#601745 in MvnRepository",
+	"ranking":"#627502 in MvnRepository",
 	"tags":[
 		"security",
 		"quarkus",
@@ -24,6 +26,30 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -159,30 +185,7 @@
 			"usage":0,
 			"version":"3.24.0.CR1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.23.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

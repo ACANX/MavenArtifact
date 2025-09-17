@@ -3,14 +3,16 @@
 	"description":"Read runtime configuration from Kubernetes ConfigMaps and Secrets",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-kubernetes-config",
-	"version_latest":"3.28.0.CR1",
-	"ts_publish":1757487819000,
-	"dt_publish":"2025-09-10 15:03:39.000",
-	"ts_update":1757489280684,
-	"dt_update":"2025-09-10 15:26:05.520",
-	"count_dep":5,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"3.28.0",
+	"ts_publish":1758101128000,
+	"dt_publish":"2025-09-17 17:25:28.000",
+	"ts_update":1758104169479,
+	"dt_update":"2025-09-17 17:56:12.111",
+	"count_dep":128,
+	"count_ref":1,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,13 +20,37 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-kubernetes-config@3.25.1",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#170618 in MvnRepository",
+	"ranking":"#170907 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"kubernetes",
 		"config"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -159,30 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.2",
 			"vulnerabilities":""
 		}
 	]

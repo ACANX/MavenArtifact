@@ -3,14 +3,16 @@
 	"description":"Generate Jakarta REST resources for your Hibernate Panache entities and repositories",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-hibernate-orm-rest-data-panache",
-	"version_latest":"3.28.0.CR1",
-	"ts_publish":1757487818000,
-	"dt_publish":"2025-09-10 15:03:38.000",
-	"ts_update":1757489191963,
-	"dt_update":"2025-09-10 15:26:12.036",
-	"count_dep":2,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"3.28.0",
+	"ts_publish":1758101127000,
+	"dt_publish":"2025-09-17 17:25:27.000",
+	"ts_update":1758104154667,
+	"dt_update":"2025-09-17 17:56:20.555",
+	"count_dep":90,
+	"count_ref":1,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-hibernate-orm-rest-data-panache@3.25.1",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#71038 in MvnRepository",
+	"ranking":"#71155 in MvnRepository",
 	"tags":[
 		"persistence",
 		"quarkus",
@@ -28,6 +30,30 @@
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -162,30 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.2",
 			"vulnerabilities":""
 		}
 	]

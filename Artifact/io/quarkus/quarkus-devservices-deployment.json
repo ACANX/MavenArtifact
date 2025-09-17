@@ -2,28 +2,54 @@
 	"id":"pkg:maven/io.quarkus/quarkus-devservices-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-devservices-deployment",
-	"version_latest":"3.28.0.CR1",
-	"ts_publish":1757487818000,
-	"dt_publish":"2025-09-10 15:03:38.000",
-	"ts_update":1757489211897,
-	"dt_update":"2025-09-10 15:26:08.764",
-	"count_dep":6,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"3.28.0",
+	"ts_publish":1758101127000,
+	"dt_publish":"2025-09-17 17:25:27.000",
+	"ts_update":1758104131396,
+	"dt_update":"2025-09-17 17:56:31.636",
+	"count_dep":95,
+	"count_ref":71,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-devservices-deployment@3.25.1",
-	"count_used_by":60,
+	"count_used_by":63,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#8321 in MvnRepository",
+	"ranking":"#7976 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"deployment"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":23,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -159,30 +185,7 @@
 			"usage":18,
 			"version":"3.24.0.CR1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":17,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"3.23.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"DevServices allows Quarkus to automatically configure and start databases and other containers in\n        dev and test mode."
 }

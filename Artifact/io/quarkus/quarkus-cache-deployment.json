@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-cache-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-cache-deployment",
-	"version_latest":"3.28.0.CR1",
-	"ts_publish":1757487818000,
-	"dt_publish":"2025-09-10 15:03:38.000",
-	"ts_update":1757489262506,
-	"dt_update":"2025-09-10 15:26:16.928",
-	"count_dep":14,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"3.28.0",
+	"ts_publish":1758101127000,
+	"dt_publish":"2025-09-17 17:25:27.000",
+	"ts_update":1758104183781,
+	"dt_update":"2025-09-17 17:56:26.295",
+	"count_dep":169,
+	"count_ref":3,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,13 +20,37 @@
 	"count_used_by":19,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#23906 in MvnRepository",
+	"ranking":"#23970 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"cache",
 		"deployment"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -160,30 +186,7 @@
 			"usage":5,
 			"version":"3.24.0.CR1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.23.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

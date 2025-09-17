@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-confluent-registry-avro-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-confluent-registry-avro-deployment",
-	"version_latest":"3.27.0.CR1",
-	"ts_publish":1757424371000,
-	"dt_publish":"2025-09-09 21:26:11.000",
-	"ts_update":1757428014765,
-	"dt_update":"2025-09-09 21:56:01.694",
-	"count_dep":5,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"3.28.0",
+	"ts_publish":1758101127000,
+	"dt_publish":"2025-09-17 17:25:27.000",
+	"ts_update":1758104128398,
+	"dt_update":"2025-09-17 17:56:14.725",
+	"count_dep":152,
+	"count_ref":1,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-confluent-registry-avro-deployment@3.26.0.CR1",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#140569 in MvnRepository",
+	"ranking":"#142663 in MvnRepository",
 	"tags":[
 		"confluent",
 		"registry",
@@ -28,6 +30,30 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -163,30 +189,7 @@
 			"usage":2,
 			"version":"3.24.0.CR1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }
