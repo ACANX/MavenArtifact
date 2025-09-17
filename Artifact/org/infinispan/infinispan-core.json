@@ -3,13 +3,13 @@
 	"description":"Infinispan core module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-core",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754917009155,
-	"dt_update":"2025-08-11 20:55:49.638",
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098538088,
+	"dt_update":"2025-09-17 16:41:54.029",
 	"count_dep":43,
-	"count_ref":49,
+	"count_ref":47,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -21,13 +21,21 @@
 	"count_used_by":626,
 	"home_page":"https://infinispan.org/",
 	"license":"Apache 2.0",
-	"ranking":"#952 in MvnRepository",
+	"ranking":"#962 in MvnRepository",
 	"tags":[
 		"cache",
 		"infinispan",
 		"performance"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":46,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -45,10 +53,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":46,
+			"version":"15.2.6.Final",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250717",
 			"repository":"Central",
 			"type":"release",
-			"usage":47,
+			"usage":49,
 			"version":"15.2.5.Final",
 			"vulnerabilities":""
 		},
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":47,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":46,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":46,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

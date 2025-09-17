@@ -3,11 +3,11 @@
 	"description":"The Infinispan Spring Integration project provides Spring 6\n        integration for Infinispan, a high performance distributed cache.\n        Its primary features are\n\n        * An implementation of org.springframework.cache.CacheManager,\n        Spring's central caching abstraction, backed by Infinispan's\n        EmbeddedCacheManager. To be used if your Spring-powered\n        application and Infinispan are colocated, i.e. running within\n        the same VM.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by Infinispan's RemoteCacheManager. To bes used if your\n        Spring-powered application accesses Infinispan remotely, i.e.\n        over the network.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by a CacheContainer reference. To be used if your Spring-\n        powered application needs access to a CacheContainer defined\n        outside the application (e.g. retrieved from JNDI)\n        * Spring namespace support allowing shortcut definitions for all the\n        components above\n\n        In addition, Infinispan Spring Integration offers various FactoryBeans\n        for facilitating creation of Infinispan core classes - Cache, CacheManager,\n        ... - within a Spring context.",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-spring6-parent",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754917001085,
-	"dt_update":"2025-08-11 20:55:47.578",
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098530414,
+	"dt_update":"2025-09-17 16:41:54.033",
 	"count_dep":12,
 	"count_ref":0,
 	"licenses":[
@@ -27,13 +27,21 @@
 	],
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-spring6-parent",
 	"license":"Apache 2.0",
-	"ranking":"#844588 in MvnRepository",
+	"ranking":"#880373 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"spring",
 		"cache"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":0,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -48,6 +56,14 @@
 			"type":"dev",
 			"usage":0,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":0,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

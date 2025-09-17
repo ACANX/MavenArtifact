@@ -3,11 +3,11 @@
 	"description":"A DSL for generating Cypher statements for Neo4j",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-cypher-dsl-codegen",
-	"version_latest":"2025.0.1",
-	"ts_publish":1756719876000,
-	"dt_publish":"2025-09-01 17:44:36.000",
-	"ts_update":1756720604192,
-	"dt_update":"2025-09-01 17:55:53.696",
+	"version_latest":"2025.0.2",
+	"ts_publish":1758097226000,
+	"dt_publish":"2025-09-17 16:20:26.000",
+	"ts_update":1758098556008,
+	"dt_update":"2025-09-17 16:41:55.309",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -31,7 +31,7 @@
 	],
 	"url_scm":"https://github.com/neo4j/cypher-dsl/neo4j-cypher-dsl-codegen",
 	"license":"Apache 2.0",
-	"ranking":"#635645 in MvnRepository",
+	"ranking":"#661644 in MvnRepository",
 	"tags":[
 		"database",
 		"generator",
@@ -40,6 +40,14 @@
 		"dsl"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -190,14 +198,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2024.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240610",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2024.0.0",
 			"vulnerabilities":""
 		}
 	]

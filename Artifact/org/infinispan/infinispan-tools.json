@@ -3,12 +3,12 @@
 	"description":"Infinispan - Tools for project",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-tools",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754917037859,
-	"dt_update":"2025-08-11 20:55:49.637",
-	"count_dep":140,
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098527359,
+	"dt_update":"2025-09-17 16:41:53.608",
+	"count_dep":137,
 	"count_ref":9,
 	"licenses":[
 		"Apache License 2.0"
@@ -28,13 +28,21 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-tools",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#81948 in MvnRepository",
+	"ranking":"#82959 in MvnRepository",
 	"tags":[
 		"cache",
 		"infinispan",
 		"tools"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":3,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -49,6 +57,14 @@
 			"type":"dev",
 			"usage":3,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":3,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

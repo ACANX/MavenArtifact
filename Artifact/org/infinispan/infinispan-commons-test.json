@@ -3,13 +3,13 @@
 	"description":"Infinispan Commons Test Dependencies",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-commons-test",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754917008626,
-	"dt_update":"2025-08-11 20:55:48.946",
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098548312,
+	"dt_update":"2025-09-17 16:41:53.176",
 	"count_dep":21,
-	"count_ref":63,
+	"count_ref":57,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -21,7 +21,7 @@
 	"count_used_by":97,
 	"home_page":"https://infinispan.org/",
 	"license":"Apache 2.0",
-	"ranking":"#5217 in MvnRepository",
+	"ranking":"#5269 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"testing",
@@ -29,6 +29,14 @@
 		"commons"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":43,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -46,10 +54,18 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250717",
+			"date":"20250903",
 			"repository":"Central",
 			"type":"release",
 			"usage":44,
+			"version":"15.2.6.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250717",
+			"repository":"Central",
+			"type":"release",
+			"usage":45,
 			"version":"15.2.5.Final",
 			"vulnerabilities":""
 		},
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":44,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":44,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":44,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

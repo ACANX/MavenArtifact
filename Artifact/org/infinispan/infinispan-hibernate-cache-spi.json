@@ -3,16 +3,14 @@
 	"description":"Infinispan Hibernate Cache SPI module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-hibernate-cache-spi",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754916999166,
-	"dt_update":"2025-08-11 20:55:48.954",
-	"count_dep":43,
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098543904,
+	"dt_update":"2025-09-17 16:41:54.030",
+	"count_dep":0,
 	"count_ref":2,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database",
@@ -28,7 +26,7 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-hibernate-parent/infinispan-hibernate-cache-spi",
 	"count_used_by":26,
 	"license":"Apache 2.0",
-	"ranking":"#17849 in MvnRepository",
+	"ranking":"#18019 in MvnRepository",
 	"tags":[
 		"persistence",
 		"infinispan",
@@ -37,6 +35,14 @@
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":2,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -51,6 +57,14 @@
 			"type":"dev",
 			"usage":2,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":2,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

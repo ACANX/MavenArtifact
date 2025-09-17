@@ -3,12 +3,12 @@
 	"description":"Integration tests for jboss-marshalling enabled clients and server",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-jboss-marshalling-it",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754917044891,
-	"dt_update":"2025-08-11 20:55:47.584",
-	"count_dep":31,
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098538207,
+	"dt_update":"2025-09-17 16:41:54.443",
+	"count_dep":29,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -27,13 +27,21 @@
 	],
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-integrationtests-parent/infinispan-jboss-marshalling-it",
 	"license":"Apache 2.0",
-	"ranking":"#970968 in MvnRepository",
+	"ranking":"#979497 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"cache",
 		"jboss"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":0,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -48,6 +56,14 @@
 			"type":"dev",
 			"usage":0,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":0,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]
