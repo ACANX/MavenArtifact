@@ -3,11 +3,11 @@
 	"description":"Bill of materials to make sure a consistent set of versions is used for GEDCOMX modules",
 	"group_id":"org.gedcomx",
 	"artifact_id":"gedcomx-bom",
-	"version_latest":"3.54.0",
-	"ts_publish":1755634915000,
-	"dt_publish":"2025-08-20 04:21:55.000",
-	"ts_update":1755635718505,
-	"dt_update":"2025-08-20 04:33:17.658",
+	"version_latest":"3.55.0",
+	"ts_publish":1758127501000,
+	"dt_publish":"2025-09-18 00:45:01.000",
+	"ts_update":1758128076654,
+	"dt_update":"2025-09-18 00:52:30.854",
 	"count_dep":4,
 	"count_ref":0,
 	"licenses":[
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/FamilySearch/gedcomx-java/gedcomx-bom",
 	"home_page":"https://github.com/FamilySearch/gedcomx-java/gedcomx-bom",
 	"license":"Apache 2.0",
-	"ranking":"#875883 in MvnRepository",
+	"ranking":"#828070 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.54.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.24.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240606",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.23.0",
 			"vulnerabilities":""
 		}
 	]
