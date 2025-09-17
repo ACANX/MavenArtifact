@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-rest-client-jaxb-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-client-jaxb-deployment",
-	"version_latest":"3.27.0.CR1",
-	"ts_publish":1757424370000,
-	"dt_publish":"2025-09-09 21:26:10.000",
-	"ts_update":1757426187014,
-	"dt_update":"2025-09-09 21:56:16.664",
-	"count_dep":8,
+	"version_latest":"3.28.0",
+	"ts_publish":1758101127000,
+	"dt_publish":"2025-09-17 17:25:27.000",
+	"ts_update":1758103008403,
+	"dt_update":"2025-09-17 17:56:29.606",
+	"count_dep":177,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-rest-client-jaxb-deployment@3.25.2",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#140000 in MvnRepository",
+	"ranking":"#142096 in MvnRepository",
 	"tags":[
 		"binding",
 		"deployment",
@@ -28,6 +30,30 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -163,30 +189,7 @@
 			"usage":1,
 			"version":"3.24.0.CR1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

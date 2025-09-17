@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-kubernetes-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-kubernetes-deployment",
-	"version_latest":"3.28.0.CR1",
-	"ts_publish":1757487818000,
-	"dt_publish":"2025-09-10 15:03:38.000",
-	"ts_update":1757489236985,
-	"dt_update":"2025-09-10 15:26:09.999",
-	"count_dep":11,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"3.28.0",
+	"ts_publish":1758101127000,
+	"dt_publish":"2025-09-17 17:25:27.000",
+	"ts_update":1758103074397,
+	"dt_update":"2025-09-17 17:56:32.874",
+	"count_dep":254,
+	"count_ref":3,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -184,5 +186,6 @@
 			"version":"3.23.2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

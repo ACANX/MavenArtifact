@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-jsonp-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-jsonp-deployment",
-	"version_latest":"3.28.0.CR1",
-	"ts_publish":1757487819000,
-	"dt_publish":"2025-09-10 15:03:39.000",
-	"ts_update":1757489497329,
-	"dt_update":"2025-09-10 15:26:03.355",
-	"count_dep":3,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"3.28.0",
+	"ts_publish":1758101126000,
+	"dt_publish":"2025-09-17 17:25:26.000",
+	"ts_update":1758103013778,
+	"dt_update":"2025-09-17 17:56:36.074",
+	"count_dep":72,
+	"count_ref":35,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,7 +20,7 @@
 	"count_used_by":40,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#12031 in MvnRepository",
+	"ranking":"#12049 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"json",
@@ -26,6 +28,30 @@
 		"deployment"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -161,30 +187,7 @@
 			"usage":15,
 			"version":"3.24.0.CR1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"3.23.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

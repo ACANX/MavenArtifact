@@ -3,14 +3,16 @@
 	"description":"The entry point for production applications using the custom ClassLoader.\n        This contains the production ClassLoader code and must not have any non\n        parent first dependencies.",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-bootstrap-runner",
-	"version_latest":"3.28.0.CR1",
-	"ts_publish":1757487818000,
-	"dt_publish":"2025-09-10 15:03:38.000",
-	"ts_update":1757489237042,
-	"dt_update":"2025-09-10 15:26:10.721",
-	"count_dep":10,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"3.28.0",
+	"ts_publish":1758101127000,
+	"dt_publish":"2025-09-17 17:25:27.000",
+	"ts_update":1758103023204,
+	"dt_update":"2025-09-17 17:56:22.528",
+	"count_dep":21,
+	"count_ref":341,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,13 +20,37 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-bootstrap-runner@3.25.1",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#100051 in MvnRepository",
+	"ranking":"#100454 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"bootstrap",
 		"runner"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -159,30 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.23.2",
 			"vulnerabilities":""
 		}
 	]
