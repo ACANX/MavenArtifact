@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.openfga/quarkus-openfga-client-deployment",
 	"group_id":"io.quarkiverse.openfga",
 	"artifact_id":"quarkus-openfga-client-deployment",
-	"version_latest":"3.7.0",
-	"ts_publish":1758063995000,
-	"dt_publish":"2025-09-17 07:06:35.000",
-	"ts_update":1758066300246,
-	"dt_update":"2025-09-17 07:44:20.228",
-	"count_dep":13,
+	"version_latest":"3.7.1",
+	"ts_publish":1758083357000,
+	"dt_publish":"2025-09-17 12:29:17.000",
+	"ts_update":1758083819035,
+	"dt_update":"2025-09-17 12:35:36.814",
+	"count_dep":172,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.openfga/quarkus-openfga-client-deployment@3.6.0",
@@ -20,7 +22,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-openfga-client",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#221495 in MvnRepository",
+	"ranking":"#220388 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -187,5 +189,6 @@
 			"version":"1.1.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
