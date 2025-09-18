@@ -3,12 +3,12 @@
 	"description":"Provides core model classes used within OpenRemote; add maven {url \"https://repo.osgeo.org/repository/release/\"} and maven {url \"https://pkgs.dev.azure.com/OpenRemote/OpenRemote/_packaging/OpenRemote/maven/v1\"} to resolve all dependencies",
 	"group_id":"io.openremote",
 	"artifact_id":"openremote-model",
-	"version_latest":"1.8.0",
-	"ts_publish":1755766669000,
-	"dt_publish":"2025-08-21 16:57:49.000",
-	"ts_update":1755767853314,
-	"dt_update":"2025-08-21 17:16:38.770",
-	"count_dep":55,
+	"version_latest":"1.8.1",
+	"ts_publish":1758186757000,
+	"dt_publish":"2025-09-18 17:12:37.000",
+	"ts_update":1758187664509,
+	"dt_update":"2025-09-18 17:26:03.698",
+	"count_dep":56,
 	"count_ref":3,
 	"licenses":[
 		"GNU Affero General Public License v3.0"
@@ -26,11 +26,19 @@
 	"count_used_by":3,
 	"home_page":"https://github.com/openremote/openremote",
 	"license":"AGPL 3.0",
-	"ranking":"#161489 in MvnRepository",
+	"ranking":"#167082 in MvnRepository",
 	"tags":[
 		"model"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220718",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.1.0",
 			"vulnerabilities":""
 		}
 	]
