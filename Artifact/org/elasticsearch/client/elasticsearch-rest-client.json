@@ -3,12 +3,12 @@
 	"description":"Elasticsearch subproject :client:rest",
 	"group_id":"org.elasticsearch.client",
 	"artifact_id":"elasticsearch-rest-client",
-	"version_latest":"9.1.3",
-	"ts_publish":1756395209000,
-	"dt_publish":"2025-08-28 23:33:29.000",
-	"ts_update":1756396164796,
-	"dt_update":"2025-08-28 23:46:31.004",
-	"count_dep":0,
+	"version_latest":"9.1.4",
+	"ts_publish":1758207837000,
+	"dt_publish":"2025-09-18 23:03:57.000",
+	"ts_update":1758208602843,
+	"dt_update":"2025-09-18 23:15:45.652",
+	"count_dep":10,
 	"count_ref":3,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -23,7 +23,7 @@
 		"Elastic"
 	],
 	"url_scm":"git@github.com:elastic/elasticsearch.git",
-	"count_used_by":370,
+	"count_used_by":373,
 	"home_page":"https://github.com/elastic/elasticsearch",
 	"license":"Apache 2.0",
 	"ranking":"#1633 in MvnRepository",
@@ -37,10 +37,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"9.1.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250812",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":8,
 			"version":"9.1.2",
 			"vulnerabilities":""
 		},
@@ -58,6 +66,22 @@
 			"type":"release",
 			"usage":7,
 			"version":"9.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"9.0.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"9.0.6",
 			"vulnerabilities":""
 		},
 		{
@@ -125,6 +149,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.19.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250812",
 			"repository":"Central",
 			"type":"release",
@@ -149,51 +181,19 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.18.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250722",
+			"date":"20250916",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
-			"version":"8.18.4",
+			"version":"8.18.7",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250624",
+			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
-			"version":"8.18.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250529",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"8.18.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250506",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"8.18.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"8.18.0",
+			"usage":4,
+			"version":"8.18.6",
 			"vulnerabilities":""
 		}
 	]
