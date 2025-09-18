@@ -3,11 +3,11 @@
 	"description":"OpenTelemetry Extension : Trace Propagators",
 	"group_id":"io.opentelemetry",
 	"artifact_id":"opentelemetry-extension-trace-propagators",
-	"version_latest":"1.54.0",
-	"ts_publish":1757103226000,
-	"dt_publish":"2025-09-06 04:13:46.000",
-	"ts_update":1757104092763,
-	"dt_update":"2025-09-06 04:25:58.186",
+	"version_latest":"1.54.1",
+	"ts_publish":1758227140000,
+	"dt_publish":"2025-09-19 04:25:40.000",
+	"ts_update":1758228434978,
+	"dt_update":"2025-09-19 04:45:29.622",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"OpenTelemetry"
 	],
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java.git",
-	"count_used_by":60,
+	"count_used_by":66,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java",
 	"license":"Apache 2.0",
-	"ranking":"#8315 in MvnRepository",
+	"ranking":"#7605 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"tracing",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250808",
+			"date":"20250905",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"1.54.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
 			"version":"1.53.0",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.37.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240308",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"1.36.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"OpenTelemetry Context (Incubator)",
 	"group_id":"io.opentelemetry",
 	"artifact_id":"opentelemetry-context",
-	"version_latest":"1.54.0",
-	"ts_publish":1757103226000,
-	"dt_publish":"2025-09-06 04:13:46.000",
-	"ts_update":1757104439572,
-	"dt_update":"2025-09-06 04:32:55.138",
+	"version_latest":"1.54.1",
+	"ts_publish":1758227141000,
+	"dt_publish":"2025-09-19 04:25:41.000",
+	"ts_update":1758228377778,
+	"dt_update":"2025-09-19 04:45:29.621",
 	"count_dep":1,
-	"count_ref":17,
+	"count_ref":22,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"OpenTelemetry"
 	],
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java.git",
-	"count_used_by":537,
+	"count_used_by":541,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java",
 	"license":"Apache 2.0",
-	"ranking":"#1117 in MvnRepository",
+	"ranking":"#1113 in MvnRepository",
 	"tags":[
 		"telemetry",
 		"opentelemetry",
@@ -34,6 +34,14 @@
 		"context"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"1.54.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":296,
 			"version":"1.37.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240308",
-			"repository":"Central",
-			"type":"release",
-			"usage":287,
-			"version":"1.36.0",
 			"vulnerabilities":""
 		}
 	]

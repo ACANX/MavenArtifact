@@ -3,11 +3,11 @@
 	"description":"OpenTelemetry Bill of Materials (Alpha)",
 	"group_id":"io.opentelemetry",
 	"artifact_id":"opentelemetry-bom-alpha",
-	"version_latest":"1.54.0-alpha",
-	"ts_publish":1757103226000,
-	"dt_publish":"2025-09-06 04:13:46.000",
-	"ts_update":1757104060809,
-	"dt_update":"2025-09-06 04:25:58.187",
+	"version_latest":"1.54.1-alpha",
+	"ts_publish":1758227141000,
+	"dt_publish":"2025-09-19 04:25:41.000",
+	"ts_update":1758228439195,
+	"dt_update":"2025-09-19 04:45:28.988",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java.git",
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java",
 	"license":"Apache 2.0",
-	"ranking":"#976163 in MvnRepository",
+	"ranking":"#981404 in MvnRepository",
 	"tags":[
 		"bom",
 		"monitoring",
@@ -35,6 +35,14 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"1.54.0-alpha",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"1.37.0-alpha",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240308",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"1.36.0-alpha",
 			"vulnerabilities":""
 		}
 	]

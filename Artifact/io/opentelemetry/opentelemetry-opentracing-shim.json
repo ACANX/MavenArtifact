@@ -3,11 +3,11 @@
 	"description":"OpenTelemetry OpenTracing Bridge",
 	"group_id":"io.opentelemetry",
 	"artifact_id":"opentelemetry-opentracing-shim",
-	"version_latest":"1.54.0",
-	"ts_publish":1757103226000,
-	"dt_publish":"2025-09-06 04:13:46.000",
-	"ts_update":1757104097165,
-	"dt_update":"2025-09-06 04:25:57.665",
+	"version_latest":"1.54.1",
+	"ts_publish":1758227141000,
+	"dt_publish":"2025-09-19 04:25:41.000",
+	"ts_update":1758228446570,
+	"dt_update":"2025-09-19 04:45:28.986",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"count_used_by":19,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java",
 	"license":"Apache 2.0",
-	"ranking":"#24929 in MvnRepository",
+	"ranking":"#25000 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"opentracing",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250808",
+			"date":"20250905",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"1.54.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"1.53.0",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.37.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240308",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.36.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"OpenTelemetry SDK Metrics",
 	"group_id":"io.opentelemetry",
 	"artifact_id":"opentelemetry-sdk-metrics",
-	"version_latest":"1.54.0",
-	"ts_publish":1757103226000,
-	"dt_publish":"2025-09-06 04:13:46.000",
-	"ts_update":1757104078332,
-	"dt_update":"2025-09-06 04:25:58.188",
+	"version_latest":"1.54.1",
+	"ts_publish":1758227141000,
+	"dt_publish":"2025-09-19 04:25:41.000",
+	"ts_update":1758228405881,
+	"dt_update":"2025-09-19 04:45:28.987",
 	"count_dep":4,
-	"count_ref":11,
+	"count_ref":14,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"OpenTelemetry"
 	],
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java.git",
-	"count_used_by":131,
+	"count_used_by":133,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java",
 	"license":"Apache 2.0",
-	"ranking":"#3998 in MvnRepository",
+	"ranking":"#3962 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"sdk",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.54.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250808",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":10,
 			"version":"1.53.0",
 			"vulnerabilities":""
 		},
@@ -47,7 +55,7 @@
 			"date":"20250711",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":12,
 			"version":"1.52.0",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":12,
 			"version":"1.37.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240308",
-			"repository":"Central",
-			"type":"release",
-			"usage":21,
-			"version":"1.36.0",
 			"vulnerabilities":""
 		}
 	]
