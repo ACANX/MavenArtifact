@@ -3,11 +3,11 @@
 	"description":"The Java Parent that helps to define the build processes that should be used across projects. This is versioned\n        and if you want to use a different version of the pom, you can simply change the parent version, and it will\n        adjust all the properties being used throughout, as the properties and plugins will be inherited by\n        subprojects.",
 	"group_id":"dev.ikm.build",
 	"artifact_id":"java-parent",
-	"version_latest":"1.64.0",
-	"ts_publish":1754604420000,
-	"dt_publish":"2025-08-08 06:07:00.000",
-	"ts_update":1754606531723,
-	"dt_update":"2025-08-08 06:41:44.078",
+	"version_latest":"1.65.0",
+	"ts_publish":1758218629000,
+	"dt_publish":"2025-09-19 02:03:49.000",
+	"ts_update":1758219798201,
+	"dt_update":"2025-09-19 02:21:55.383",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,11 +22,19 @@
 	],
 	"url_scm":"http://www.github.com/ikmdev/build-parent/java-parent",
 	"license":"Apache 2.0",
-	"ranking":"#921090 in MvnRepository",
+	"ranking":"#899623 in MvnRepository",
 	"tags":[
 		"build"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.64.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250621",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.44.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240816",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.42.0",
 			"vulnerabilities":""
 		}
 	]
