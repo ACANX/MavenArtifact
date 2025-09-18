@@ -3,13 +3,13 @@
 	"description":"Part of the OSS Review Toolkit (ORT), a suite to automate software compliance checks.",
 	"group_id":"org.ossreviewtoolkit.plugins.reporters",
 	"artifact_id":"fossid-reporter",
-	"version_latest":"68.1.0",
-	"ts_publish":1757576606000,
-	"dt_publish":"2025-09-11 15:43:26.000",
-	"ts_update":1757577417417,
-	"dt_update":"2025-09-11 15:56:03.385",
+	"version_latest":"68.2.0",
+	"ts_publish":1758181451000,
+	"dt_publish":"2025-09-18 15:44:11.000",
+	"ts_update":1758182223088,
+	"dt_update":"2025-09-18 15:56:06.100",
 	"count_dep":10,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,13 +23,29 @@
 	"count_used_by":1,
 	"home_page":"https://oss-review-toolkit.org/",
 	"license":"Apache 2.0",
-	"ranking":"#397470 in MvnRepository",
+	"ranking":"#403682 in MvnRepository",
 	"tags":[
 		"plugin",
 		"reporter",
 		"report"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"68.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"68.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"61.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"61.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"61.0.0",
 			"vulnerabilities":""
 		}
 	]

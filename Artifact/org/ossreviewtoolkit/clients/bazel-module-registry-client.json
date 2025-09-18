@@ -3,13 +3,13 @@
 	"description":"A client to communicate with the API of a Bazel module registry.",
 	"group_id":"org.ossreviewtoolkit.clients",
 	"artifact_id":"bazel-module-registry-client",
-	"version_latest":"68.1.0",
-	"ts_publish":1757576606000,
-	"dt_publish":"2025-09-11 15:43:26.000",
-	"ts_update":1757577420325,
-	"dt_update":"2025-09-11 15:56:03.969",
+	"version_latest":"68.2.0",
+	"ts_publish":1758181451000,
+	"dt_publish":"2025-09-18 15:44:11.000",
+	"ts_update":1758182197325,
+	"dt_update":"2025-09-18 15:56:06.105",
 	"count_dep":20,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,7 +23,7 @@
 	"count_used_by":2,
 	"home_page":"https://oss-review-toolkit.org/",
 	"license":"Apache 2.0",
-	"ranking":"#181540 in MvnRepository",
+	"ranking":"#184029 in MvnRepository",
 	"tags":[
 		"registry",
 		"module",
@@ -31,6 +31,22 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"68.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"68.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"61.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"61.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"61.0.0",
 			"vulnerabilities":""
 		}
 	]

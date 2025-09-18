@@ -3,12 +3,12 @@
 	"description":"Part of the OSS Review Toolkit (ORT), a suite to automate software compliance checks.",
 	"group_id":"org.ossreviewtoolkit.plugins",
 	"artifact_id":"package-managers",
-	"version_latest":"68.0.0",
-	"ts_publish":1757484720000,
-	"dt_publish":"2025-09-10 14:12:00.000",
-	"ts_update":1757485582368,
-	"dt_update":"2025-09-10 14:26:01.326",
-	"count_dep":24,
+	"version_latest":"68.2.0",
+	"ts_publish":1758181451000,
+	"dt_publish":"2025-09-18 15:44:11.000",
+	"ts_update":1758182176252,
+	"dt_update":"2025-09-18 15:56:08.480",
+	"count_dep":42,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -22,13 +22,29 @@
 	"url_scm":"https://github.com/oss-review-toolkit/ort",
 	"home_page":"https://oss-review-toolkit.org/",
 	"license":"Apache 2.0",
-	"ranking":"#647891 in MvnRepository",
+	"ranking":"#669285 in MvnRepository",
 	"tags":[
 		"plugin",
 		"manager",
 		"management"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"68.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"68.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"61.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"61.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"61.0.0",
 			"vulnerabilities":""
 		}
 	]
