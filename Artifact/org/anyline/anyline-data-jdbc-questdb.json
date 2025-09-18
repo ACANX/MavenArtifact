@@ -2,23 +2,25 @@
 	"id":"pkg:maven/org.anyline/anyline-data-jdbc-questdb",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-jdbc-questdb",
-	"version_latest":"8.7.2-20250916",
-	"ts_publish":1758008609000,
-	"ts_update":1758009452089,
+	"version_latest":"8.7.2-20250918",
+	"ts_publish":1758199005000,
+	"ts_update":1758200248514,
 	"count_dep":8,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_project":"http://www.anyline.org/questdb",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-jdbc-questdb@8.7.2-20250806",
-	"dt_publish":"2025-09-16 15:43:29.000",
-	"dt_update":"2025-09-16 15:56:11.036",
+	"dt_publish":"2025-09-18 20:36:45.000",
+	"dt_update":"2025-09-18 20:56:10.878",
 	"home_page":"http://www.anyline.org/questdb",
 	"license":"Apache 2.0",
-	"ranking":"#758330 in MvnRepository",
+	"ranking":"#741551 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -26,6 +28,14 @@
 		"data"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250916",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -177,14 +187,7 @@
 			"usage":0,
 			"version":"8.7.2-jdk21-20250312",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250212",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250212",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"anyline"
 }

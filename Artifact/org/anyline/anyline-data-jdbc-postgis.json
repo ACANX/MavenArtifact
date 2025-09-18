@@ -2,10 +2,10 @@
 	"id":"pkg:maven/org.anyline/anyline-data-jdbc-postgis",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-jdbc-postgis",
-	"version_latest":"8.7.2-20250903",
-	"ts_publish":1756891639000,
-	"ts_update":1756892725459,
-	"count_dep":0,
+	"version_latest":"8.7.2-20250918",
+	"ts_publish":1758199005000,
+	"ts_update":1758200216941,
+	"count_dep":9,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -14,11 +14,11 @@
 	"dsv":1,
 	"url_project":"http://www.anyline.org/postgis",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-jdbc-postgis@8.7.2-20250806",
-	"dt_publish":"2025-09-03 17:27:19.000",
-	"dt_update":"2025-09-03 17:44:22.729",
+	"dt_publish":"2025-09-18 20:36:45.000",
+	"dt_update":"2025-09-18 20:56:13.294",
 	"home_page":"http://www.anyline.org/postgis",
 	"license":"Apache 2.0",
-	"ranking":"#886595 in MvnRepository",
+	"ranking":"#903994 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -29,6 +29,22 @@
 		"postgis"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250916",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250903",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.7.2-jdk21-20250109",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250108",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250108",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250102",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250102",
 			"vulnerabilities":""
 		}
 	]

@@ -2,12 +2,14 @@
 	"id":"pkg:maven/org.anyline/anyline-data-tugraph",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-tugraph",
-	"version_latest":"8.7.2-20250903",
-	"ts_publish":1756891639000,
-	"ts_update":1756893388472,
-	"count_dep":0,
+	"version_latest":"8.7.2-20250918",
+	"ts_publish":1758199005000,
+	"ts_update":1758200184847,
+	"count_dep":37,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,15 +20,31 @@
 		"anyline"
 	],
 	"url_scm":"https://github.com/anylineorg/anyline/anyline-data-tugraph",
-	"dt_publish":"2025-09-03 17:27:19.000",
-	"dt_update":"2025-09-03 17:55:55.094",
+	"dt_publish":"2025-09-18 20:36:45.000",
+	"dt_update":"2025-09-18 20:56:10.874",
 	"home_page":"http://www.anyline.org/tugraph",
 	"license":"Apache 2.0",
-	"ranking":"#789967 in MvnRepository",
+	"ranking":"#811213 in MvnRepository",
 	"tags":[
 		"data"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250916",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.2-jdk21-20250903",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -170,22 +188,7 @@
 			"usage":0,
 			"version":"8.7.2-jdk21-20250225",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250212",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250212",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250211",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250211",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"anyline"
 }
