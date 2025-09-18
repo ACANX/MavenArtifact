@@ -3,12 +3,12 @@
 	"description":"Dante Cloud 微服务基座组件库 OAuth2 共性通用代码模块",
 	"group_id":"cn.herodotus.engine",
 	"artifact_id":"oauth2-core",
-	"version_latest":"3.5.5.3",
-	"ts_publish":1757502288000,
-	"dt_publish":"2025-09-10 19:04:48.000",
-	"ts_update":1757503642787,
-	"dt_update":"2025-09-10 19:26:17.410",
-	"count_dep":109,
+	"version_latest":"3.5.6.0",
+	"ts_publish":1758212847000,
+	"dt_publish":"2025-09-19 00:27:27.000",
+	"ts_update":1758213697775,
+	"dt_update":"2025-09-19 00:40:24.712",
+	"count_dep":99,
 	"count_ref":10,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -23,15 +23,23 @@
 		"码匠君"
 	],
 	"url_scm":"https://github.com/dromara/dante-cloud/engine-oauth2/oauth2-core",
-	"count_used_by":7,
+	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#70163 in MvnRepository",
+	"ranking":"#48730 in MvnRepository",
 	"tags":[
 		"authentication",
 		"engine",
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.5.5.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250901",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.4.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250321",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.4.4.0",
 			"vulnerabilities":""
 		}
 	]
