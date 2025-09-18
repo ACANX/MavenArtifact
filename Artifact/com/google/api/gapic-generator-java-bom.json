@@ -3,11 +3,11 @@
 	"description":"BOM for the libraries in gapic-generator-java repository. Users should not\n    depend on this artifact explicitly because this BOM is an implementation\n    detail of the Libraries BOM.",
 	"group_id":"com.google.api",
 	"artifact_id":"gapic-generator-java-bom",
-	"version_latest":"2.62.1",
-	"ts_publish":1757085308000,
-	"dt_publish":"2025-09-05 23:15:08.000",
-	"ts_update":1757086014562,
-	"dt_update":"2025-09-05 23:25:59.347",
+	"version_latest":"2.62.2",
+	"ts_publish":1758204135000,
+	"dt_publish":"2025-09-18 22:02:15.000",
+	"ts_update":1758205579561,
+	"dt_update":"2025-09-18 22:26:09.895",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -19,7 +19,7 @@
 	],
 	"dsv":1,
 	"license":"Apache 2.0",
-	"ranking":"#943644 in MvnRepository",
+	"ranking":"#827185 in MvnRepository",
 	"tags":[
 		"bom",
 		"generator",
@@ -29,6 +29,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.62.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.52.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250108",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.51.1",
 			"vulnerabilities":""
 		}
 	]
