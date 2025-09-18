@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim",
 	"artifact_id":"gravitee-apim-bom",
-	"version_latest":"4.9.0-alpha.1",
-	"ts_publish":1757924058000,
-	"dt_publish":"2025-09-15 16:14:18.000",
-	"ts_update":1757924834867,
-	"dt_update":"2025-09-15 16:26:04.042",
+	"version_latest":"4.9.0-alpha.2",
+	"ts_publish":1758186121000,
+	"dt_publish":"2025-09-18 17:02:01.000",
+	"ts_update":1758187005274,
+	"dt_update":"2025-09-18 17:16:27.575",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,29 @@
 	],
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-bom",
 	"license":"Apache 2.0",
-	"ranking":"#473432 in MvnRepository",
+	"ranking":"#484031 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.8.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250901",
 			"repository":"Central",
@@ -113,6 +129,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.7.14",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250829",
 			"repository":"Central",
 			"type":"release",
@@ -166,30 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.7.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250528",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.7.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250509",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.7.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250425",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.7.4",
 			"vulnerabilities":""
 		}
 	]
