@@ -3,11 +3,11 @@
 	"description":"A rewrite module automating best practices and major version migrations for popular Java test frameworks like JUnit and Mockito",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-testing-frameworks",
-	"version_latest":"3.16.2",
-	"ts_publish":1757504211000,
-	"dt_publish":"2025-09-10 19:36:51.000",
-	"ts_update":1757505390790,
-	"dt_update":"2025-09-10 19:56:02.033",
+	"version_latest":"3.16.3",
+	"ts_publish":1758188838000,
+	"dt_publish":"2025-09-18 17:47:18.000",
+	"ts_update":1758189427347,
+	"dt_update":"2025-09-18 17:56:10.655",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-testing-frameworks.git",
 	"count_used_by":8,
 	"home_page":"https://github.com/openrewrite/rewrite-testing-frameworks",
-	"ranking":"#58867 in MvnRepository",
+	"ranking":"#59287 in MvnRepository",
 	"tags":[
 		"quality",
 		"framework",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.16.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -44,7 +52,7 @@
 			"date":"20250827",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"3.16.0",
 			"vulnerabilities":""
 		},
@@ -60,7 +68,7 @@
 			"date":"20250812",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"3.15.0",
 			"vulnerabilities":""
 		},
@@ -68,7 +76,7 @@
 			"date":"20250723",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"3.14.1",
 			"vulnerabilities":""
 		},
@@ -92,7 +100,7 @@
 			"date":"20250709",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"3.12.0",
 			"vulnerabilities":""
 		},
@@ -100,7 +108,7 @@
 			"date":"20250625",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"3.11.0",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250207",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.2.0",
 			"vulnerabilities":""
 		}
 	]
