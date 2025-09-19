@@ -3,13 +3,13 @@
 	"description":"Parent pom providing dependency and plugin management for applications built with Maven",
 	"group_id":"org.chenile",
 	"artifact_id":"chenile-http",
-	"version_latest":"2.0.41",
-	"ts_publish":1757983869000,
-	"dt_publish":"2025-09-16 08:51:09.000",
-	"ts_update":1757986027928,
-	"dt_update":"2025-09-16 09:26:03.765",
+	"version_latest":"2.0.42",
+	"ts_publish":1758250985000,
+	"dt_publish":"2025-09-19 11:03:05.000",
+	"ts_update":1758252243972,
+	"dt_update":"2025-09-19 11:23:23.655",
 	"count_dep":76,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"MIT License"
 	],
@@ -22,11 +22,19 @@
 	"url_scm":"https://github.com/spring-projects/spring-boot/chenile-parent/chenile-core-parent/chenile-http",
 	"count_used_by":12,
 	"license":"MIT",
-	"ranking":"#39085 in MvnRepository",
+	"ranking":"#39268 in MvnRepository",
 	"tags":[
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.41",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250824",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241224",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.0.5",
 			"vulnerabilities":""
 		}
 	]

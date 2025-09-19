@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/org.bouncycastle/bcprov-lts8on",
-	"description":"The Long Term Stable (LTS) Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. This jar contains the JCA/JCE provider and low-level API for the BC LTS version 2.73.8 for Java 8 and later.",
+	"description":"The Long Term Stable (LTS) Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. This jar contains the JCA/JCE provider and low-level API for the BC LTS version 2.73.9 for Java 8 and later.",
 	"group_id":"org.bouncycastle",
 	"artifact_id":"bcprov-lts8on",
-	"version_latest":"2.73.8",
-	"ts_publish":1756268551000,
-	"dt_publish":"2025-08-27 12:22:31.000",
-	"ts_update":1756270614226,
-	"dt_update":"2025-08-27 12:55:57.668",
+	"version_latest":"2.73.9",
+	"ts_publish":1758250337000,
+	"dt_publish":"2025-09-19 10:52:17.000",
+	"ts_update":1758252264675,
+	"dt_update":"2025-09-19 11:23:24.316",
 	"count_dep":0,
-	"count_ref":0,
+	"count_ref":6,
 	"licenses":[
 		"Bouncy Castle Licence"
 	],
@@ -28,8 +28,16 @@
 	"count_used_by":68,
 	"home_page":"https://www.bouncycastle.org/lts-java",
 	"license":"BouncyCastle",
-	"ranking":"#7238 in MvnRepository",
+	"ranking":"#7280 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.73.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20241108",
 			"repository":"Central",

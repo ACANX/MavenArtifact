@@ -3,13 +3,13 @@
 	"description":"Parent pom providing dependency and plugin management for applications built with Maven",
 	"group_id":"org.chenile",
 	"artifact_id":"jpa-utils",
-	"version_latest":"2.0.41",
-	"ts_publish":1757983869000,
-	"dt_publish":"2025-09-16 08:51:09.000",
-	"ts_update":1757986034049,
-	"dt_update":"2025-09-16 09:26:03.765",
+	"version_latest":"2.0.42",
+	"ts_publish":1758250985000,
+	"dt_publish":"2025-09-19 11:03:05.000",
+	"ts_update":1758252211524,
+	"dt_update":"2025-09-19 11:23:23.652",
 	"count_dep":68,
-	"count_ref":0,
+	"count_ref":3,
 	"licenses":[
 		"MIT License"
 	],
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/spring-projects/spring-boot/chenile-parent/chenile-core-parent/jpa-utils",
 	"count_used_by":3,
 	"license":"MIT",
-	"ranking":"#134608 in MvnRepository",
+	"ranking":"#152181 in MvnRepository",
 	"tags":[
 		"persistence",
 		"jpa"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.41",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250824",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241224",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.5",
 			"vulnerabilities":""
 		}
 	]
