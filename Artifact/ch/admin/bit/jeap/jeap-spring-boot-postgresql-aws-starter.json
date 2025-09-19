@@ -3,11 +3,11 @@
 	"description":"jeap starter for AWS RDS (PostgreSQL) database usage",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-spring-boot-postgresql-aws-starter",
-	"version_latest":"18.0.0",
-	"ts_publish":1756819080000,
-	"dt_publish":"2025-09-02 21:18:00.000",
-	"ts_update":1756820719356,
-	"dt_update":"2025-09-02 21:42:21.785",
+	"version_latest":"18.1.0",
+	"ts_publish":1758266703000,
+	"dt_publish":"2025-09-19 15:25:03.000",
+	"ts_update":1758267882163,
+	"dt_update":"2025-09-19 15:44:06.099",
 	"count_dep":74,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-spring-boot-starters.git/jeap-spring-boot-postgresql-aws-starter",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#311644 in MvnRepository",
+	"ranking":"#318873 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -35,10 +35,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"18.0.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250901",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"17.43.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"17.29.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250501",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"17.29.0",
 			"vulnerabilities":""
 		}
 	]

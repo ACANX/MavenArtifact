@@ -3,11 +3,11 @@
 	"description":"Nats server for testing which starts the original Nats server",
 	"group_id":"berlin.yuna",
 	"artifact_id":"nats-server",
-	"version_latest":"2.11.10-rc.0",
-	"ts_publish":1757747963000,
-	"dt_publish":"2025-09-13 15:19:23.000",
-	"ts_update":1757749496751,
-	"dt_update":"2025-09-13 15:44:08.581",
+	"version_latest":"2.11.10-rc.1",
+	"ts_publish":1758266609000,
+	"dt_publish":"2025-09-19 15:23:29.000",
+	"ts_update":1758267879483,
+	"dt_update":"2025-09-19 15:44:07.503",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -26,17 +26,25 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/YunaBraska/nats-server",
 	"license":"Apache 2.0",
-	"ranking":"#222547 in MvnRepository",
+	"ranking":"#225504 in MvnRepository",
 	"tags":[
 		"server",
 		"nats"
 	],
 	"versions":[
 		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.11.10-rc.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250912",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.11.9",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.11.2-binary1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250412",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.2-rc.1",
 			"vulnerabilities":""
 		}
 	]
