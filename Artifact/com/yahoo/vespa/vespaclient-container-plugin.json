@@ -3,12 +3,12 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"vespaclient-container-plugin",
-	"version_latest":"8.578.22",
-	"ts_publish":1757517895000,
-	"dt_publish":"2025-09-10 23:24:55.000",
-	"ts_update":1757519200616,
-	"dt_update":"2025-09-10 23:45:49.503",
-	"count_dep":73,
+	"version_latest":"8.583.10",
+	"ts_publish":1758262889000,
+	"dt_publish":"2025-09-19 14:21:29.000",
+	"ts_update":1758264761909,
+	"dt_update":"2025-09-19 14:51:56.319",
+	"count_dep":10,
 	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -26,12 +26,28 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/vespaclient-container-plugin",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#227021 in MvnRepository",
+	"ranking":"#230058 in MvnRepository",
 	"tags":[
 		"plugin",
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.579.17",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.578.22",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.556.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250728",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.555.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.554.5",
 			"vulnerabilities":""
 		}
 	]

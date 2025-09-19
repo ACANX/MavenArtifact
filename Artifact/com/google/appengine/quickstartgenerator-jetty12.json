@@ -3,11 +3,11 @@
 	"description":"Quickstart generator for Jetty 12.",
 	"group_id":"com.google.appengine",
 	"artifact_id":"quickstartgenerator-jetty12",
-	"version_latest":"2.0.39",
-	"ts_publish":1757421081000,
-	"dt_publish":"2025-09-09 20:31:21.000",
-	"ts_update":1757422636389,
-	"dt_update":"2025-09-09 20:56:03.376",
+	"version_latest":"3.0.0-beta",
+	"ts_publish":1758263028000,
+	"dt_publish":"2025-09-19 14:23:48.000",
+	"ts_update":1758264745520,
+	"dt_update":"2025-09-19 14:51:52.300",
 	"count_dep":24,
 	"count_ref":1,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/quickstartgenerator-jetty12",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#273075 in MvnRepository",
+	"ranking":"#279002 in MvnRepository",
 	"tags":[
 		"server",
 		"google",
@@ -34,6 +34,22 @@
 		"jetty"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.0.39",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"2.0.39-beta",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -177,14 +193,7 @@
 			"usage":1,
 			"version":"2.0.21",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20231004",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.0.20",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/GoogleCloudPlatform/appengine-java-standard/"
 }

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/zookeeper-server-3.9.3",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"zookeeper-server-3.9.3",
-	"version_latest":"8.578.22",
-	"ts_publish":1757517895000,
-	"dt_publish":"2025-09-10 23:24:55.000",
-	"ts_update":1757519215751,
-	"dt_update":"2025-09-10 23:45:50.012",
-	"count_dep":70,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"8.583.10",
+	"ts_publish":1758262889000,
+	"dt_publish":"2025-09-19 14:21:29.000",
+	"ts_update":1758264755638,
+	"dt_update":"2025-09-19 14:51:53.440",
+	"count_dep":86,
+	"count_ref":8,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,12 +25,28 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/zookeeper-server-parent/zookeeper-server-3.9.3",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#226499 in MvnRepository",
+	"ranking":"#229536 in MvnRepository",
 	"tags":[
 		"server",
 		"zookeeper"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.579.17",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.578.22",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -172,22 +190,7 @@
 			"usage":2,
 			"version":"8.556.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250728",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.555.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.554.5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

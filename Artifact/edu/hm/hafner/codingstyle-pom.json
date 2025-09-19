@@ -3,11 +3,11 @@
 	"description":"Each Java project should follow a given coding style. I.e., all contributions to the source code should use the same\n    formatting rules, design principles, code patterns, idioms, etc. I published such a coding style in my\n    GitHub project codingstyle (https://github.com/uhafner/codingstyle) - I am using this coding style in my lectures\n    about software development at Munich University of Applied Sciences and in all of my open source projects.\n\n    If you want to use this coding style as well, you can use this Maven POM as parent of your own POM. Then you\n    get the configuration several static analysis and testing tools for free.",
 	"group_id":"edu.hm.hafner",
 	"artifact_id":"codingstyle-pom",
-	"version_latest":"5.31.0",
-	"ts_publish":1758091329000,
-	"dt_publish":"2025-09-17 14:42:09.000",
-	"ts_update":1758092009202,
-	"dt_update":"2025-09-17 14:52:24.965",
+	"version_latest":"5.32.0",
+	"ts_publish":1758263040000,
+	"dt_publish":"2025-09-19 14:24:00.000",
+	"ts_update":1758264737875,
+	"dt_update":"2025-09-19 14:51:49.849",
 	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
@@ -26,11 +26,19 @@
 	"url_scm":"https://github.com/uhafner/codingstyle-pom",
 	"home_page":"https://cs.hm.edu/~hafner",
 	"license":"MIT",
-	"ranking":"#878554 in MvnRepository",
+	"ranking":"#876533 in MvnRepository",
 	"tags":[
 		"pom"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250310",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.13.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"storage",
-	"version_latest":"8.578.22",
-	"ts_publish":1757517895000,
-	"dt_publish":"2025-09-10 23:24:55.000",
-	"ts_update":1757519190773,
-	"dt_update":"2025-09-10 23:45:50.480",
+	"version_latest":"8.583.10",
+	"ts_publish":1758262889000,
+	"dt_publish":"2025-09-19 14:21:29.000",
+	"ts_update":1758264769611,
+	"dt_update":"2025-09-19 14:51:53.438",
 	"count_dep":1,
-	"count_ref":10,
+	"count_ref":3,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,11 +26,27 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/storage",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#129407 in MvnRepository",
+	"ranking":"#129727 in MvnRepository",
 	"tags":[
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.579.17",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.578.22",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.556.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250728",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.555.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.554.5",
 			"vulnerabilities":""
 		}
 	]
