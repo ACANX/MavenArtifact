@@ -3,11 +3,11 @@
 	"description":"Shaded version of OpenSearch dependencies used only for internal OpenMetadata code.",
 	"group_id":"org.open-metadata",
 	"artifact_id":"opensearch-deps",
-	"version_latest":"1.9.8",
-	"ts_publish":1758099640000,
-	"dt_publish":"2025-09-17 17:00:40.000",
-	"ts_update":1758102365009,
-	"dt_update":"2025-09-17 17:45:49.234",
+	"version_latest":"1.9.9",
+	"ts_publish":1758254720000,
+	"dt_publish":"2025-09-19 12:05:20.000",
+	"ts_update":1758255524294,
+	"dt_update":"2025-09-19 12:18:27.443",
 	"count_dep":0,
 	"count_ref":3,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"scm:git:git@github.com:Open-Metadata/OpenMetadata/openmetadata-shaded-deps/opensearch-deps",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#346311 in MvnRepository",
+	"ranking":"#344902 in MvnRepository",
 	"tags":[
 		"data",
 		"metadata",
@@ -30,6 +30,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.9.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.7.5",
 			"vulnerabilities":""
 		}
 	]
