@@ -3,11 +3,11 @@
 	"description":"Hibernate Validator CDI Portable Extension",
 	"group_id":"org.hibernate.validator",
 	"artifact_id":"hibernate-validator-cdi",
-	"version_latest":"9.1.0.Alpha1",
-	"ts_publish":1756414509000,
-	"dt_publish":"2025-08-29 04:55:09.000",
-	"ts_update":1756415702698,
-	"dt_update":"2025-08-29 05:13:48.168",
+	"version_latest":"9.1.0.Alpha2",
+	"ts_publish":1758300203000,
+	"dt_publish":"2025-09-20 00:43:23.000",
+	"ts_update":1758300684742,
+	"dt_update":"2025-09-20 00:51:15.136",
 	"count_dep":11,
 	"count_ref":0,
 	"licenses":[
@@ -30,10 +30,10 @@
 		"Hardy Ferentschik"
 	],
 	"url_scm":"http://github.com/hibernate/hibernate-validator",
-	"count_used_by":75,
+	"count_used_by":76,
 	"home_page":"https://hibernate.org/validator",
 	"license":"Apache 2.0",
-	"ranking":"#6585 in MvnRepository",
+	"ranking":"#6552 in MvnRepository",
 	"tags":[
 		"persistence",
 		"cdi",
@@ -42,10 +42,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"9.1.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250613",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"9.0.1.Final",
 			"vulnerabilities":""
 		},
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":15,
 			"version":"7.0.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210206",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"7.0.1.Final",
 			"vulnerabilities":""
 		}
 	]

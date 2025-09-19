@@ -3,11 +3,11 @@
 	"description":"Hibernate's Jakarta Validation reference implementation.",
 	"group_id":"org.hibernate.validator",
 	"artifact_id":"hibernate-validator",
-	"version_latest":"9.1.0.Alpha1",
-	"ts_publish":1756414509000,
-	"dt_publish":"2025-08-29 04:55:09.000",
-	"ts_update":1756415736642,
-	"dt_update":"2025-08-29 05:13:48.169",
+	"version_latest":"9.1.0.Alpha2",
+	"ts_publish":1758300203000,
+	"dt_publish":"2025-09-20 00:43:23.000",
+	"ts_update":1758300766126,
+	"dt_update":"2025-09-20 00:51:15.137",
 	"count_dep":10,
 	"count_ref":1,
 	"licenses":[
@@ -30,10 +30,10 @@
 		"Hardy Ferentschik"
 	],
 	"url_scm":"http://github.com/hibernate/hibernate-validator",
-	"count_used_by":2880,
+	"count_used_by":2900,
 	"home_page":"https://hibernate.org/validator",
 	"license":"Apache 2.0",
-	"ranking":"#198 in MvnRepository",
+	"ranking":"#200 in MvnRepository",
 	"tags":[
 		"hibernate",
 		"persistence",
@@ -41,10 +41,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"9.1.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250613",
 			"repository":"Central",
 			"type":"release",
-			"usage":78,
+			"usage":96,
 			"version":"9.0.1.Final",
 			"vulnerabilities":""
 		},
@@ -84,7 +92,7 @@
 			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
-			"usage":30,
+			"usage":48,
 			"version":"8.0.3.Final",
 			"vulnerabilities":""
 		},
@@ -92,7 +100,7 @@
 			"date":"20241213",
 			"repository":"Central",
 			"type":"release",
-			"usage":332,
+			"usage":342,
 			"version":"8.0.2.Final",
 			"vulnerabilities":""
 		},
@@ -100,7 +108,7 @@
 			"date":"20230621",
 			"repository":"Central",
 			"type":"release",
-			"usage":571,
+			"usage":574,
 			"version":"8.0.1.Final",
 			"vulnerabilities":""
 		},
@@ -190,14 +198,6 @@
 			"type":"release",
 			"usage":37,
 			"version":"7.0.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210206",
-			"repository":"Central",
-			"type":"release",
-			"usage":145,
-			"version":"7.0.1.Final",
 			"vulnerabilities":""
 		}
 	]
