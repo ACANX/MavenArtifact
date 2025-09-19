@@ -3,11 +3,11 @@
 	"description":"Generic utility which are not quite generic enough to make it to vpro-shared.\n    TODO: This module is very sparse, I think we should consider dropping it altogether.",
 	"group_id":"nl.vpro.poms",
 	"artifact_id":"poms-shared",
-	"version_latest":"8.10.0",
-	"ts_publish":1756046848000,
-	"dt_publish":"2025-08-24 22:47:28.000",
-	"ts_update":1756047427292,
-	"dt_update":"2025-08-24 22:55:47.219",
+	"version_latest":"8.10.1",
+	"ts_publish":1758291847000,
+	"dt_publish":"2025-09-19 22:24:07.000",
+	"ts_update":1758292539976,
+	"dt_update":"2025-09-19 22:34:56.398",
 	"count_dep":47,
 	"count_ref":9,
 	"licenses":[
@@ -24,10 +24,18 @@
 		"Michiel Meeuwissen"
 	],
 	"url_scm":"https://github.com/npo-poms/poms-shared.git/poms-shared",
-	"count_used_by":5,
+	"count_used_by":6,
 	"license":"GPL 3.0",
-	"ranking":"#93693 in MvnRepository",
+	"ranking":"#81515 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250824",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250523",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240926",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.2.2",
 			"vulnerabilities":""
 		}
 	]
