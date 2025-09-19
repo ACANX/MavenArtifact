@@ -3,11 +3,11 @@
 	"description":"Rudimentary S3, ADLS-Gen2, GCS endpoint delegating to functions to serve content.",
 	"group_id":"org.projectnessie.nessie",
 	"artifact_id":"nessie-object-storage-mock",
-	"version_latest":"0.105.0",
-	"ts_publish":1756924121000,
-	"dt_publish":"2025-09-04 02:28:41.000",
-	"ts_update":1756925534524,
-	"dt_update":"2025-09-04 02:51:34.308",
+	"version_latest":"0.105.2",
+	"ts_publish":1758281140000,
+	"dt_publish":"2025-09-19 19:25:40.000",
+	"ts_update":1758282312985,
+	"dt_update":"2025-09-19 19:44:51.759",
 	"count_dep":13,
 	"count_ref":0,
 	"licenses":[
@@ -43,12 +43,28 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/projectnessie/nessie",
 	"license":"Apache 2.0",
-	"ranking":"#368738 in MvnRepository",
+	"ranking":"#380794 in MvnRepository",
 	"tags":[
 		"mock",
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.105.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.105.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -191,22 +207,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.102.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250124",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.102.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250122",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.102.1",
 			"vulnerabilities":""
 		}
 	]
