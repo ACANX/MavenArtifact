@@ -3,11 +3,11 @@
 	"description":"Provides all necessary resources for a Java project to enforce the coding style that I am using\n    in my lectures about software development at Munich University of Applied Sciences and in all of my\n    open-source projects. It configures several static analysis tools for Maven and IntelliJ. Moreover,\n    it provides some sample classes that already use this style guide. These classes can be used as such but are not\n    required in this project. These classes also use some additional libraries that are included using the Maven\n    dependency mechanism. If the sample classes are deleted then the dependencies can be safely deleted, too.",
 	"group_id":"edu.hm.hafner",
 	"artifact_id":"codingstyle",
-	"version_latest":"5.18.0",
-	"ts_publish":1758008943000,
-	"dt_publish":"2025-09-16 15:49:03.000",
-	"ts_update":1758010948322,
-	"dt_update":"2025-09-16 16:21:06.040",
+	"version_latest":"5.19.0",
+	"ts_publish":1758262438000,
+	"dt_publish":"2025-09-19 14:13:58.000",
+	"ts_update":1758263019879,
+	"dt_update":"2025-09-19 14:22:49.918",
 	"count_dep":11,
 	"count_ref":0,
 	"licenses":[
@@ -27,8 +27,16 @@
 	"count_used_by":7,
 	"home_page":"https://cs.hm.edu/~hafner",
 	"license":"MIT",
-	"ranking":"#63364 in MvnRepository",
+	"ranking":"#63173 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.18.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250824",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240912",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.13.0",
 			"vulnerabilities":""
 		}
 	]
