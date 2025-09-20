@@ -3,13 +3,13 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-azure-core-http-client-vertx",
-	"version_latest":"3.25.0",
-	"ts_publish":1753343097000,
-	"dt_publish":"2025-07-24 15:44:57.000",
-	"ts_update":1755968226852,
-	"dt_update":"2025-08-24 00:17:00.559",
-	"count_dep":105,
-	"count_ref":6,
+	"version_latest":"3.26.0",
+	"ts_publish":1755761899000,
+	"dt_publish":"2025-08-21 15:38:19.000",
+	"ts_update":1758386729352,
+	"dt_update":"2025-09-21 00:17:46.206",
+	"count_dep":118,
+	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-azure-core-http-client-vertx-parent/camel-quarkus-support-azure-core-http-client-vertx",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#52859 in MvnRepository",
+	"ranking":"#54147 in MvnRepository",
 	"tags":[
 		"support",
 		"quarkus",
@@ -38,6 +38,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

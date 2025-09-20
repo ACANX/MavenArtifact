@@ -3,12 +3,12 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-reactive-executor",
-	"version_latest":"3.25.0",
-	"ts_publish":1753343016000,
-	"dt_publish":"2025-07-24 15:43:36.000",
-	"ts_update":1755968207425,
-	"dt_update":"2025-08-24 00:16:59.293",
-	"count_dep":111,
+	"version_latest":"3.26.0",
+	"ts_publish":1755761805000,
+	"dt_publish":"2025-08-21 15:36:45.000",
+	"ts_update":1758386790242,
+	"dt_update":"2025-09-21 00:17:44.525",
+	"count_dep":96,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-core/camel-quarkus-reactive-executor-parent/camel-quarkus-reactive-executor",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#104235 in MvnRepository",
+	"ranking":"#105900 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"reactive",
@@ -35,6 +35,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]
