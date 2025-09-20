@@ -3,11 +3,11 @@
 	"description":"Use the Branch SDK (branch.io) to create and power the links that point back to your apps for all of these things and more. Branch makes it incredibly simple to create powerful deep links that can pass data across app install and open while handling all edge cases (using on desktop vs. mobile vs. already having the app installed, etc). Best of all, it is really simple to start using the links for your own app: only 2 lines of code to register the deep link router and one more line of code to create the links with custom data.",
 	"group_id":"io.branch.sdk.android",
 	"artifact_id":"library",
-	"version_latest":"5.20.2-alpha.3",
-	"ts_publish":1758266475000,
-	"dt_publish":"2025-09-19 15:21:15.000",
-	"ts_update":1758267966165,
-	"dt_update":"2025-09-19 15:44:07.506",
+	"version_latest":"5.20.2",
+	"ts_publish":1758329262000,
+	"dt_publish":"2025-09-20 08:47:42.000",
+	"ts_update":1758330393452,
+	"dt_update":"2025-09-20 09:05:40.876",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"Branch Metrics"
 	],
 	"url_scm":"https://github.com/BranchMetrics/Branch-Android-SDK/",
-	"count_used_by":23,
+	"count_used_by":24,
 	"home_page":"https://github.com/BranchMetrics/Branch-Android-SDK/",
 	"license":"Apache 2.0",
-	"ranking":"#20484 in MvnRepository",
+	"ranking":"#19684 in MvnRepository",
 	"tags":[
 		"sdk",
 		"library",
@@ -35,6 +35,22 @@
 		"android"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"5.20.2-alpha.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"5.20.2-alpha.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -47,7 +63,7 @@
 			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"5.20.0",
 			"vulnerabilities":""
 		},
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.12.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240722",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.12.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240607",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.12.1",
 			"vulnerabilities":""
 		}
 	]
