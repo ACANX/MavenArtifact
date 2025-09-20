@@ -3,12 +3,12 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-webhook",
-	"version_latest":"3.25.0",
-	"ts_publish":1753343221000,
-	"dt_publish":"2025-07-24 15:47:01.000",
-	"ts_update":1755966393270,
-	"dt_update":"2025-08-24 00:17:03.445",
-	"count_dep":65,
+	"version_latest":"3.26.0",
+	"ts_publish":1755762039000,
+	"dt_publish":"2025-08-21 15:40:39.000",
+	"ts_update":1758385082538,
+	"dt_update":"2025-09-21 00:17:47.890",
+	"count_dep":64,
 	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-webhook-parent/camel-quarkus-support-webhook",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#77942 in MvnRepository",
+	"ranking":"#78940 in MvnRepository",
 	"tags":[
 		"support",
 		"quarkus",
@@ -36,6 +36,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

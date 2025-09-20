@@ -3,13 +3,13 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-spring-deployment",
-	"version_latest":"3.25.0",
-	"ts_publish":1753343210000,
-	"dt_publish":"2025-07-24 15:46:50.000",
-	"ts_update":1755965915726,
-	"dt_update":"2025-08-24 00:17:02.781",
-	"count_dep":70,
-	"count_ref":5,
+	"version_latest":"3.26.0",
+	"ts_publish":1755762026000,
+	"dt_publish":"2025-08-21 15:40:26.000",
+	"ts_update":1758385093540,
+	"dt_update":"2025-09-21 00:17:47.323",
+	"count_dep":74,
+	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-spring-parent/camel-quarkus-support-spring-deployment",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#54343 in MvnRepository",
+	"ranking":"#54950 in MvnRepository",
 	"tags":[
 		"support",
 		"deployment",
@@ -36,6 +36,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]
