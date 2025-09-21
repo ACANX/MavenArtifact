@@ -3,11 +3,11 @@
 	"description":"ONNX Runtime is a performance-focused inference engine for ONNX (Open Neural Network Exchange) models.",
 	"group_id":"com.microsoft.onnxruntime",
 	"artifact_id":"onnxruntime_gpu",
-	"version_latest":"1.23.0-rc1",
-	"ts_publish":1758213757000,
-	"dt_publish":"2025-09-19 00:42:37.000",
-	"ts_update":1758214650971,
-	"dt_update":"2025-09-19 00:56:11.278",
+	"version_latest":"1.23.0-rc2",
+	"ts_publish":1758429383000,
+	"dt_publish":"2025-09-21 12:36:23.000",
+	"ts_update":1758430014904,
+	"dt_update":"2025-09-21 12:46:33.298",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"count_used_by":35,
 	"home_page":"https://microsoft.github.io/onnxruntime/",
 	"license":"MIT",
-	"ranking":"#13667 in MvnRepository",
+	"ranking":"#13676 in MvnRepository",
 	"tags":[
 		"gpu",
 		"microsoft"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.23.0-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250510",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.13.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220805",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.12.1",
 			"vulnerabilities":""
 		}
 	]
