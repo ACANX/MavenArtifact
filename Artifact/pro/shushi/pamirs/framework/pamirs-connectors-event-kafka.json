@@ -2,14 +2,16 @@
 	"id":"pkg:maven/pro.shushi.pamirs.framework/pamirs-connectors-event-kafka",
 	"group_id":"pro.shushi.pamirs.framework",
 	"artifact_id":"pamirs-connectors-event-kafka",
-	"version_latest":"6.2.16",
-	"ts_publish":1756733701000,
-	"dt_publish":"2025-09-01 21:35:01.000",
-	"ts_update":1756734703537,
-	"dt_update":"2025-09-01 21:50:48.798",
-	"count_dep":2,
+	"version_latest":"6.3.2",
+	"ts_publish":1758433842000,
+	"dt_publish":"2025-09-21 13:50:42.000",
+	"ts_update":1758435695449,
+	"dt_update":"2025-09-21 14:21:12.020",
+	"count_dep":167,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"GNU AFFERO GENERAL PUBLIC LICENSE, Version 3"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/oinone/pamirs-framework/pamirs-connectors-event-kafka",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/pro.shushi.pamirs.framework/pamirs-connectors-event-kafka@6.2.12",
@@ -18,7 +20,7 @@
 	],
 	"url_scm":"https://github.com/oinone/pamirs-framework/pamirs-connectors-event-kafka",
 	"license":"AGPL 3.0",
-	"ranking":"#619258 in MvnRepository",
+	"ranking":"#636866 in MvnRepository",
 	"tags":[
 		"streaming",
 		"event",
@@ -27,6 +29,54 @@
 		"connector"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.3.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.2.18",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.2.17",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.2.16",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.2.15",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -138,14 +188,7 @@
 			"usage":0,
 			"version":"6.2.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.2.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"oinone pamirs"
 }
