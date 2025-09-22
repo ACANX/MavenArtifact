@@ -3,13 +3,13 @@
 	"description":"A table format for huge analytic datasets",
 	"group_id":"com.linkedin.iceberg",
 	"artifact_id":"iceberg-hive-metastore",
-	"version_latest":"1.2.0.0-rc2",
-	"ts_publish":1756878747000,
-	"dt_publish":"2025-09-03 13:52:27.000",
-	"ts_update":1756880512905,
-	"dt_update":"2025-09-03 14:21:25.709",
+	"version_latest":"1.2.0.1",
+	"ts_publish":1758572382000,
+	"dt_publish":"2025-09-23 04:19:42.000",
+	"ts_update":1758572794764,
+	"dt_update":"2025-09-23 04:26:08.362",
 	"count_dep":6,
-	"count_ref":2,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -28,10 +28,10 @@
 	],
 	"url_scm":"https://github.com/linkedin/iceberg.git",
 	"url_ci_management":"https://github.com/linkedin/iceberg/actions",
-	"count_used_by":10,
+	"count_used_by":11,
 	"home_page":"https://github.com/linkedin/iceberg",
 	"license":"Apache 2.0",
-	"ranking":"#44810 in MvnRepository",
+	"ranking":"#41025 in MvnRepository",
 	"tags":[
 		"linkedin",
 		"store",
@@ -41,6 +41,14 @@
 		"metadata"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.2.0.0-rc2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20241205",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"0.11.1.26",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230323",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"0.11.1.25",
 			"vulnerabilities":""
 		}
 	]
