@@ -3,11 +3,11 @@
 	"description":"Upgrade your code with a single command.\n    This migration replace all your calls to deleted/deprecated methods of Timefold with their proper alternatives.",
 	"group_id":"ai.timefold.solver",
 	"artifact_id":"timefold-solver-migration",
-	"version_latest":"1.25.0",
-	"ts_publish":1754995789000,
-	"dt_publish":"2025-08-12 18:49:49.000",
-	"ts_update":1754997284138,
-	"dt_update":"2025-08-12 19:14:13.985",
+	"version_latest":"1.26.1",
+	"ts_publish":1758548314000,
+	"dt_publish":"2025-09-22 21:38:34.000",
+	"ts_update":1758549139534,
+	"dt_update":"2025-09-22 21:50:48.759",
 	"count_dep":28,
 	"count_ref":0,
 	"licenses":[
@@ -24,13 +24,29 @@
 	"count_used_by":1,
 	"home_page":"https://solver.timefold.ai",
 	"license":"Apache 2.0",
-	"ranking":"#349769 in MvnRepository",
+	"ranking":"#420471 in MvnRepository",
 	"tags":[
 		"solver",
 		"ai",
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.26.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.25.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240326",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240312",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.8.0",
 			"vulnerabilities":""
 		}
 	]
