@@ -3,11 +3,11 @@
 	"description":"Nacos client pom.xml file",
 	"group_id":"com.alibaba.nacos",
 	"artifact_id":"nacos-client",
-	"version_latest":"3.1.0-BETA",
-	"ts_publish":1758011652000,
-	"dt_publish":"2025-09-16 16:34:12.000",
-	"ts_update":1758013027662,
-	"dt_update":"2025-09-16 16:56:13.024",
+	"version_latest":"3.1.0",
+	"ts_publish":1758513787000,
+	"dt_publish":"2025-09-22 12:03:07.000",
+	"ts_update":1758514745996,
+	"dt_update":"2025-09-22 12:18:37.275",
 	"count_dep":22,
 	"count_ref":0,
 	"licenses":[
@@ -24,15 +24,23 @@
 		"Nacos"
 	],
 	"url_scm":"git@github.com:alibaba/nacos.git",
-	"count_used_by":356,
+	"count_used_by":357,
 	"home_page":"https://nacos.io",
 	"license":"Apache 2.0",
-	"ranking":"#1710 in MvnRepository",
+	"ranking":"#1706 in MvnRepository",
 	"tags":[
 		"client",
 		"alibaba"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"3.1.0-BETA",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250821",
 			"repository":"Central",
@@ -125,7 +133,7 @@
 			"date":"20240905",
 			"repository":"Central",
 			"type":"release",
-			"usage":17,
+			"usage":18,
 			"version":"2.4.2",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":20,
 			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231019",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"2.3.0-BETA",
 			"vulnerabilities":""
 		}
 	]
