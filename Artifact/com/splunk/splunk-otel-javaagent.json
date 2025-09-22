@@ -3,11 +3,11 @@
 	"description":"A distribution of the OpenTelemetry Instrumentation for Java project",
 	"group_id":"com.splunk",
 	"artifact_id":"splunk-otel-javaagent",
-	"version_latest":"2.20.0",
-	"ts_publish":1758201603000,
-	"dt_publish":"2025-09-18 21:20:03.000",
-	"ts_update":1758202789300,
-	"dt_update":"2025-09-18 21:38:41.278",
+	"version_latest":"2.20.1",
+	"ts_publish":1758572994000,
+	"dt_publish":"2025-09-23 04:29:54.000",
+	"ts_update":1758574001967,
+	"dt_update":"2025-09-23 04:46:03.864",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,12 +25,28 @@
 	"url_scm":"https://github.com/signalfx/splunk-otel-java",
 	"home_page":"https://github.com/signalfx/splunk-otel-java",
 	"license":"Apache 2.0",
-	"ranking":"#753676 in MvnRepository",
+	"ranking":"#747915 in MvnRepository",
 	"tags":[
 		"agent",
 		"splunk"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.20.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.19.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"2.4.0-alpha",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240419",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"2.3.0-alpha",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240320",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"2.2.0-alpha",
 			"vulnerabilities":""
 		}
 	]
