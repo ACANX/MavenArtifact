@@ -3,9 +3,9 @@
 	"description":"Kafka on Pulsar Proxy",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"pulsar-kafka-proxy",
-	"version_latest":"4.1.0.1",
-	"ts_publish":1757645484000,
-	"ts_update":1757647604016,
+	"version_latest":"4.1.0.2",
+	"ts_publish":1758523066000,
+	"ts_update":1758524103144,
 	"count_dep":356,
 	"count_ref":1,
 	"licenses":[
@@ -15,11 +15,11 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/pulsar-kafka-proxy/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/pulsar-kafka-proxy@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/pulsar-kafka-proxy",
-	"dt_publish":"2025-09-12 10:51:24.000",
-	"dt_update":"2025-09-12 11:26:00.864",
+	"dt_publish":"2025-09-22 14:37:46.000",
+	"dt_update":"2025-09-22 14:54:40.915",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#405959 in MvnRepository",
+	"ranking":"#409272 in MvnRepository",
 	"tags":[
 		"streaming",
 		"kafka",
@@ -28,11 +28,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250827",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250914",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.5",
 			"vulnerabilities":""
 		},
 		{
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.0.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.10",
 			"vulnerabilities":""
 		}
 	]

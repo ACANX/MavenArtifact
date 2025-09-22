@@ -3,10 +3,10 @@
 	"description":"Parent for Kafka on Pulsar implemented using Pulsar Protocol Handler.",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"test-listener",
-	"version_latest":"4.1.0.1",
-	"ts_publish":1757645484000,
-	"ts_update":1757647575833,
-	"count_dep":294,
+	"version_latest":"4.1.0.2",
+	"ts_publish":1758523066000,
+	"ts_update":1758524145617,
+	"count_dep":293,
 	"count_ref":9,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -15,11 +15,11 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/test-listener/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/test-listener@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/test-listener",
-	"dt_publish":"2025-09-12 10:51:24.000",
-	"dt_update":"2025-09-12 11:26:00.863",
+	"dt_publish":"2025-09-22 14:37:46.000",
+	"dt_update":"2025-09-22 14:54:41.572",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#47225 in MvnRepository",
+	"ranking":"#47394 in MvnRepository",
 	"tags":[
 		"listener",
 		"testing",
@@ -27,11 +27,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"4.1.0.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250827",
 			"repository":"Central",
 			"type":"release",
 			"usage":9,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250914",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"4.0.6.5",
 			"vulnerabilities":""
 		},
 		{
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"4.0.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"4.0.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"4.0.0.10",
 			"vulnerabilities":""
 		}
 	]

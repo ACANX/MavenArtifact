@@ -3,11 +3,11 @@
 	"description":"SASL authentication plugin for java client",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-client-auth-sasl",
-	"version_latest":"4.1.0.1",
-	"ts_publish":1757644549000,
-	"ts_update":1757645827849,
-	"count_dep":26,
-	"count_ref":2,
+	"version_latest":"4.1.0.2",
+	"ts_publish":1758522146000,
+	"ts_update":1758524145588,
+	"count_dep":101,
+	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,11 +20,11 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-client-auth-sasl",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-09-12 10:35:49.000",
-	"dt_update":"2025-09-12 10:56:05.712",
+	"dt_publish":"2025-09-22 14:22:26.000",
+	"dt_update":"2025-09-22 14:54:43.493",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#156311 in MvnRepository",
+	"ranking":"#152222 in MvnRepository",
 	"tags":[
 		"authentication",
 		"client",
@@ -32,11 +32,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.1.0.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250826",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250914",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.6.5",
 			"vulnerabilities":""
 		},
 		{
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.0.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241216",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.0.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.0.8",
 			"vulnerabilities":""
 		}
 	]
