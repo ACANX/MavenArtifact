@@ -3,13 +3,13 @@
 	"description":"Smack integration tests.",
 	"group_id":"org.igniterealtime.smack",
 	"artifact_id":"smack-integration-test",
-	"version_latest":"4.5.0-beta7",
-	"ts_publish":1758456140000,
-	"dt_publish":"2025-09-21 20:02:20.000",
-	"ts_update":1758457674200,
-	"dt_update":"2025-09-21 20:26:05.864",
-	"count_dep":17,
-	"count_ref":2,
+	"version_latest":"4.5.0-beta8",
+	"ts_publish":1758565387000,
+	"dt_publish":"2025-09-23 02:23:07.000",
+	"ts_update":1758566655767,
+	"dt_update":"2025-09-23 02:43:28.075",
+	"count_dep":46,
+	"count_ref":3,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,14 +25,22 @@
 	],
 	"url_scm":"https://github.com/igniterealtime/Smack",
 	"count_used_by":3,
-	"home_page":"http://www.igniterealtime.org/projects/jxmpp/",
+	"home_page":"http://www.igniterealtime.org/projects/smack/",
 	"license":"Apache 2.0",
-	"ranking":"#167610 in MvnRepository",
+	"ranking":"#159399 in MvnRepository",
 	"tags":[
 		"integration",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"beta",
+			"usage":2,
+			"version":"4.5.0-beta7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.4.0-rc2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20201109",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.4.0-rc1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"DNS SRV with Java7\nUse javax.naming for DNS SRV lookups. The javax.naming API is availabe in JavaSE\nsince Java7.",
 	"group_id":"org.igniterealtime.smack",
 	"artifact_id":"smack-resolver-javax",
-	"version_latest":"4.5.0-beta7",
-	"ts_publish":1758456140000,
-	"dt_publish":"2025-09-21 20:02:20.000",
-	"ts_update":1758457653072,
-	"dt_update":"2025-09-21 20:26:05.860",
+	"version_latest":"4.5.0-beta8",
+	"ts_publish":1758565387000,
+	"dt_publish":"2025-09-23 02:23:07.000",
+	"ts_update":1758566660260,
+	"dt_update":"2025-09-23 02:43:28.535",
 	"count_dep":13,
-	"count_ref":1,
+	"count_ref":6,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,9 +25,9 @@
 	],
 	"url_scm":"https://github.com/igniterealtime/Smack",
 	"count_used_by":9,
-	"home_page":"http://www.igniterealtime.org/projects/jxmpp/",
+	"home_page":"http://www.igniterealtime.org/projects/smack/",
 	"license":"Apache 2.0",
-	"ranking":"#50471 in MvnRepository",
+	"ranking":"#50475 in MvnRepository",
 	"tags":[
 		"dns",
 		"network",
@@ -36,6 +36,14 @@
 		"naming"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"4.5.0-beta7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.4.0-rc2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20201109",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.4.0-rc1",
 			"vulnerabilities":""
 		}
 	]
