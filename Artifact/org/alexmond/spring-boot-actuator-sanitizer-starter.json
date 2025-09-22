@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/org.alexmond/spring-boot-actuator-sanitizer-starter",
-	"description":"spring-boot-actuator-sanitizer",
+	"description":"Spring Boot starter providing sanitization for sensitive data in actuator endpoint responses, filtering\n        out security-critical information like passwords, tokens, and secrets.",
 	"group_id":"org.alexmond",
 	"artifact_id":"spring-boot-actuator-sanitizer-starter",
-	"version_latest":"0.0.2",
-	"ts_publish":1756533764000,
-	"dt_publish":"2025-08-30 14:02:44.000",
-	"ts_update":1756535229621,
-	"dt_update":"2025-08-30 14:25:53.213",
+	"version_latest":"1.0.0",
+	"ts_publish":1758506583000,
+	"dt_publish":"2025-09-22 10:03:03.000",
+	"ts_update":1758508004897,
+	"dt_update":"2025-09-22 10:26:13.113",
 	"count_dep":17,
 	"count_ref":0,
 	"licenses":[
@@ -19,5 +19,30 @@
 	"contributors":[
 		"Alex Mondshain"
 	],
-	"url_scm":"https://github.com/alexmond/spring-boot-actuator-extensions"
+	"url_scm":"https://github.com/alexmond/spring-boot-actuator-extensions",
+	"license":"Apache 2.0",
+	"ranking":"#740507 in MvnRepository",
+	"tags":[
+		"spring",
+		"sanitizer",
+		"starter"
+	],
+	"versions":[
+		{
+			"date":"20250830",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250830",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.0.1",
+			"vulnerabilities":""
+		}
+	]
 }
