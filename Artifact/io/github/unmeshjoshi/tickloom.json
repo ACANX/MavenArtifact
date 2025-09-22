@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/io.github.unmeshjoshi/tickloom",
-	"description":"A library for building distributed systems.",
+	"description":"A distributed systems library implementing Raft consensus, quorum-based replication, and other distributed algorithms with comprehensive testing infrastructure",
 	"group_id":"io.github.unmeshjoshi",
 	"artifact_id":"tickloom",
-	"version_latest":"0.1.0-alpha.5",
-	"ts_publish":1758521341000,
-	"dt_publish":"2025-09-22 14:09:01.000",
-	"ts_update":1758524172218,
-	"dt_update":"2025-09-22 14:54:44.147",
+	"version_latest":"0.1.0-alpha.6",
+	"ts_publish":1758531857000,
+	"dt_publish":"2025-09-22 17:04:17.000",
+	"ts_update":1758532766979,
+	"dt_update":"2025-09-22 17:18:52.481",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[
@@ -22,16 +22,32 @@
 	"url_scm":"https://github.com/unmeshjoshi/tickloom",
 	"home_page":"https://github.com/unmeshjoshi/tickloom",
 	"license":"Apache 2.0",
-	"ranking":"#740227 in MvnRepository",
+	"ranking":"#398046 in MvnRepository",
 	"tags":[
 		"github"
 	],
 	"versions":[
 		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"0.1.0-alpha.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"0.1.0-alpha.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250809",
 			"repository":"Central",
 			"type":"alpha",
-			"usage":0,
+			"usage":1,
 			"version":"0.1.0-alpha.2",
 			"vulnerabilities":""
 		},
@@ -43,5 +59,6 @@
 			"version":"0.1.0-alpha.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
