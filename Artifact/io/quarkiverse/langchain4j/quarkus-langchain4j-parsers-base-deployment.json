@@ -2,21 +2,19 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-parsers-base-deployment",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-parsers-base-deployment",
-	"version_latest":"1.2.0.CR2",
-	"ts_publish":1758039979000,
-	"dt_publish":"2025-09-17 00:26:19.000",
-	"ts_update":1758040950692,
-	"dt_update":"2025-09-17 00:41:33.671",
-	"count_dep":258,
+	"version_latest":"1.2.0.CR3",
+	"ts_publish":1758536090000,
+	"dt_publish":"2025-09-22 18:14:50.000",
+	"ts_update":1758536785615,
+	"dt_update":"2025-09-22 18:26:14.640",
+	"count_dep":6,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-parsers-base-deployment@1.1.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#363749 in MvnRepository",
+	"ranking":"#366468 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -25,6 +23,14 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.2.0.CR2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -176,15 +182,6 @@
 			"usage":1,
 			"version":"0.26.0.CR2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250311",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.26.0.CR1",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
+	]
 }

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-pgvector-deployment",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-pgvector-deployment",
-	"version_latest":"1.2.0.CR2",
-	"ts_publish":1758039979000,
-	"dt_publish":"2025-09-17 00:26:19.000",
-	"ts_update":1758040910819,
-	"dt_update":"2025-09-17 00:41:35.271",
-	"count_dep":10,
+	"version_latest":"1.2.0.CR3",
+	"ts_publish":1758536090000,
+	"dt_publish":"2025-09-22 18:14:50.000",
+	"ts_update":1758536896786,
+	"dt_update":"2025-09-22 18:26:12.448",
+	"count_dep":195,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-pgvector-deployment@1.1.1",
@@ -20,7 +22,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-langchain4j",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#366666 in MvnRepository",
+	"ranking":"#347266 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -30,6 +32,14 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.0.CR2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -181,14 +191,7 @@
 			"usage":0,
 			"version":"0.26.0.CR2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250311",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.26.0.CR1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
