@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-pure-platform-dsl-mapping-java",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-pure-platform-dsl-mapping-java",
-	"version_latest":"4.101.1",
-	"ts_publish":1757994217000,
-	"dt_publish":"2025-09-16 11:43:37.000",
-	"ts_update":1757996455623,
-	"dt_update":"2025-09-16 12:18:29.869",
-	"count_dep":9,
-	"count_ref":58,
-	"licenses":[],
+	"version_latest":"4.101.2",
+	"ts_publish":1758555571000,
+	"dt_publish":"2025-09-22 23:39:31.000",
+	"ts_update":1758558028820,
+	"dt_update":"2025-09-23 00:19:29.452",
+	"count_dep":38,
+	"count_ref":59,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,7 +26,7 @@
 	"count_used_by":80,
 	"home_page":"https://github.com/finos/legend-engine",
 	"license":"Apache 2.0",
-	"ranking":"#6281 in MvnRepository",
+	"ranking":"#6287 in MvnRepository",
 	"tags":[
 		"mapping",
 		"platform",
@@ -32,6 +34,22 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":33,
+			"version":"4.101.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":33,
+			"version":"4.101.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -175,22 +193,7 @@
 			"usage":33,
 			"version":"4.90.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250711",
-			"repository":"Central",
-			"type":"release",
-			"usage":33,
-			"version":"4.90.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250708",
-			"repository":"Central",
-			"type":"release",
-			"usage":33,
-			"version":"4.89.6",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
 }
