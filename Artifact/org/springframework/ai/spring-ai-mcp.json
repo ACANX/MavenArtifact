@@ -3,12 +3,12 @@
 	"description":"Spring Framework integration for Model Context Protocol (MCP), providing Spring AI function calling capabilities and Spring-friendly abstractions for MCP clients and MCP servers",
 	"group_id":"org.springframework.ai",
 	"artifact_id":"spring-ai-mcp",
-	"version_latest":"1.1.0-M1",
-	"ts_publish":1757372479000,
-	"dt_publish":"2025-09-09 07:01:19.000",
-	"ts_update":1757373396965,
-	"dt_update":"2025-09-09 07:14:50.949",
-	"count_dep":26,
+	"version_latest":"1.1.0-M2",
+	"ts_publish":1758571607000,
+	"dt_publish":"2025-09-23 04:06:47.000",
+	"ts_update":1758572252566,
+	"dt_update":"2025-09-23 04:17:03.536",
+	"count_dep":31,
 	"count_ref":11,
 	"licenses":[
 		"Apache 2.0"
@@ -21,10 +21,10 @@
 		"Christian Tzolov"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-ai",
-	"count_used_by":17,
+	"count_used_by":23,
 	"home_page":"https://github.com/spring-projects/spring-ai",
 	"license":"Apache 2.0",
-	"ranking":"#26948 in MvnRepository",
+	"ranking":"#20058 in MvnRepository",
 	"tags":[
 		"model",
 		"llm",
@@ -37,10 +37,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250729",
+			"date":"20250908",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":11,
+			"version":"1.1.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
 			"repository":"Central",
 			"type":"release",
 			"usage":7,
+			"version":"1.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250729",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
 			"version":"1.0.1",
 			"vulnerabilities":""
 		},
