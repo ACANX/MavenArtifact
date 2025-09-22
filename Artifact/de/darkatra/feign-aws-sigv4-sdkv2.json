@@ -3,11 +3,11 @@
 	"description":"Provides feign request interceptors to sign http requests using AWS Signature V4.",
 	"group_id":"de.darkatra",
 	"artifact_id":"feign-aws-sigv4-sdkv2",
-	"version_latest":"3.0.23",
-	"ts_publish":1757923285000,
-	"dt_publish":"2025-09-15 16:01:25.000",
-	"ts_update":1757924517347,
-	"dt_update":"2025-09-15 16:21:06.085",
+	"version_latest":"3.0.24",
+	"ts_publish":1758553323000,
+	"dt_publish":"2025-09-22 23:02:03.000",
+	"ts_update":1758554240031,
+	"dt_update":"2025-09-22 23:16:50.858",
 	"count_dep":30,
 	"count_ref":0,
 	"licenses":[
@@ -18,12 +18,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/de.darkatra/feign-aws-sigv4-sdkv2@3.0.18",
 	"url_scm":"https://github.com/DarkAtra/feign-aws-sigv4/feign-aws-sigv4-sdkv2",
 	"license":"MIT",
-	"ranking":"#624623 in MvnRepository",
+	"ranking":"#639329 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.23",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230905",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.17",
 			"vulnerabilities":""
 		}
 	]
