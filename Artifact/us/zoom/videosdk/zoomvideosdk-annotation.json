@@ -3,11 +3,11 @@
 	"description":"The Video SDKs are app development kits provided to enrich apps with video collaboration features to connect customers and communities. Use these SDKs to build apps with highly customized user interfaces along with access to raw video and audio data.\n\n  Video SDKs are designed to be:\n\n  * Easy to use: Import libraries, call required functions, and all video conferencing will be handled for you.\n  * Lightweight: Video SDKs are streamlined toolkits with an enormous reduction in size compared to Meeting SDKs with all the power of Zoom's video and audio solutions.\n  * Highly customizable: Raw video and audio data is available to you, allowing your chosen renderer to customize the video experience.\n\n  Video sessions created by the Video SDKs are launched instantly, bringing a delightful video communication experience to your users with high-quality video and audio.\n\n  Direct access to raw video and audio data allows improved interaction between users and the app video stream. Imagine a gaming video streaming app with direct interaction between the player and viewers based on in-game events or prompts from the community. Or, imagine an AR streaming platform with direct viewer access to the on-screen video.\n\n  As with our Meeting SDKs, Video SDKs allow screen-sharing from devices, in-session chat messages, and high-quality video and audio streams similar to Zoom's core capabilities.\n\n  The Video SDKs enable the following functionality in your app:\n\n  * Launch a video communication session instantly\n  * Share screen directly from your device\n  * Send instant chat messages during the session\n  * Capture and review raw data locally\n  * Test different rendering schema and enjoy high-quality video and audio streams\n  * Broadcast the video session to third-party live streaming providers\n\n  To know more, see: https://developers.zoom.us/docs/video-sdk/",
 	"group_id":"us.zoom.videosdk",
 	"artifact_id":"zoomvideosdk-annotation",
-	"version_latest":"2.3.5",
-	"ts_publish":1755799153000,
-	"dt_publish":"2025-08-22 01:59:13.000",
-	"ts_update":1755800600612,
-	"dt_update":"2025-08-22 02:22:21.636",
+	"version_latest":"2.3.10",
+	"ts_publish":1758651384000,
+	"dt_publish":"2025-09-24 02:16:24.000",
+	"ts_update":1758651820022,
+	"dt_update":"2025-09-24 02:22:15.034",
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -21,7 +21,7 @@
 	],
 	"url_scm":"https://developers.zoom.us/docs/video-sdk/",
 	"home_page":"https://developers.zoom.us/docs/video-sdk/",
-	"ranking":"#513556 in MvnRepository",
+	"ranking":"#528790 in MvnRepository",
 	"tags":[
 		"annotations",
 		"aar",
@@ -29,6 +29,14 @@
 		"android"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.3.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250721",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.11.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240417",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.11.0",
 			"vulnerabilities":""
 		}
 	]
