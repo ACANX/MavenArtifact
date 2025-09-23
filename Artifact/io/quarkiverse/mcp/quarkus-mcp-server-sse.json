@@ -3,13 +3,13 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.mcp",
 	"artifact_id":"quarkus-mcp-server-sse",
-	"version_latest":"1.5.3",
-	"ts_publish":1757350425000,
-	"dt_publish":"2025-09-09 00:53:45.000",
-	"ts_update":1757351662295,
-	"dt_update":"2025-09-09 01:13:31.127",
+	"version_latest":"1.6.0",
+	"ts_publish":1758636277000,
+	"dt_publish":"2025-09-23 22:04:37.000",
+	"ts_update":1758636974651,
+	"dt_update":"2025-09-23 22:15:33.944",
 	"count_dep":103,
-	"count_ref":2,
+	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -21,14 +21,38 @@
 		"Quarkus Community"
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-mcp-server",
-	"count_used_by":9,
+	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#51325 in MvnRepository",
+	"ranking":"#46956 in MvnRepository",
 	"tags":[
 		"server",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.5.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.5.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.5.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -163,30 +187,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"1.0.0.Beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250130",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"1.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250124",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"1.0.0.Alpha6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250122",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"1.0.0.Alpha5",
 			"vulnerabilities":""
 		}
 	]
