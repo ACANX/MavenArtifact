@@ -3,13 +3,13 @@
 	"description":"WildFly: Core Parent Aggregator",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-io-spi",
-	"version_latest":"29.0.1.Final",
-	"ts_publish":1756895461000,
-	"dt_publish":"2025-09-03 18:31:01.000",
-	"ts_update":1756896401231,
-	"dt_update":"2025-09-03 18:45:20.458",
-	"count_dep":66,
-	"count_ref":22,
+	"version_latest":"30.0.0.Beta2",
+	"ts_publish":1758646870000,
+	"dt_publish":"2025-09-24 01:01:10.000",
+	"ts_update":1758647619742,
+	"dt_update":"2025-09-24 01:12:10.462",
+	"count_dep":0,
+	"count_ref":8,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -28,13 +28,21 @@
 	"url_scm":"https://github.com/wildfly/wildfly-core",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#115367 in MvnRepository",
+	"ranking":"#116017 in MvnRepository",
 	"tags":[
 		"interface",
 		"wildfly",
 		"io"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"29.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"beta",
 			"usage":4,
 			"version":"27.0.0.Beta6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"beta",
-			"usage":4,
-			"version":"27.0.0.Beta5",
 			"vulnerabilities":""
 		}
 	]

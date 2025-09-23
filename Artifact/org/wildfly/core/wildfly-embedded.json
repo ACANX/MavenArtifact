@@ -3,13 +3,13 @@
 	"description":"WildFly: Core Parent Aggregator",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-embedded",
-	"version_latest":"29.0.1.Final",
-	"ts_publish":1756895461000,
-	"dt_publish":"2025-09-03 18:31:01.000",
-	"ts_update":1756896422188,
-	"dt_update":"2025-09-03 18:45:21.719",
+	"version_latest":"30.0.0.Beta2",
+	"ts_publish":1758646870000,
+	"dt_publish":"2025-09-24 01:01:10.000",
+	"ts_update":1758647542208,
+	"dt_update":"2025-09-24 01:12:11.859",
 	"count_dep":55,
-	"count_ref":34,
+	"count_ref":28,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -29,12 +29,20 @@
 	"count_used_by":18,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#26376 in MvnRepository",
+	"ranking":"#26475 in MvnRepository",
 	"tags":[
 		"embedded",
 		"wildfly"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"29.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -95,7 +103,7 @@
 			"date":"20250508",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"28.0.1.Final",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"beta",
 			"usage":2,
 			"version":"27.0.0.Beta6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"27.0.0.Beta5",
 			"vulnerabilities":""
 		}
 	]

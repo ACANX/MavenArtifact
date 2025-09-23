@@ -3,12 +3,12 @@
 	"description":"WildFly: Core Event Logger",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-event-logger",
-	"version_latest":"29.0.1.Final",
-	"ts_publish":1756895461000,
-	"dt_publish":"2025-09-03 18:31:01.000",
-	"ts_update":1756896376702,
-	"dt_update":"2025-09-03 18:45:21.063",
-	"count_dep":3,
+	"version_latest":"30.0.0.Beta2",
+	"ts_publish":1758646870000,
+	"dt_publish":"2025-09-24 01:01:10.000",
+	"ts_update":1758647576966,
+	"dt_update":"2025-09-24 01:12:10.470",
+	"count_dep":0,
 	"count_ref":2,
 	"licenses":[
 		"Apache License 2.0"
@@ -29,13 +29,21 @@
 	"count_used_by":16,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#29708 in MvnRepository",
+	"ranking":"#29886 in MvnRepository",
 	"tags":[
 		"logging",
 		"event",
 		"wildfly"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"29.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"27.0.0.Beta6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"beta",
-			"usage":3,
-			"version":"27.0.0.Beta5",
 			"vulnerabilities":""
 		}
 	]
