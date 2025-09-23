@@ -3,11 +3,11 @@
 	"description":"OpenAPI / Swagger validation for Spring MVC REST tests.",
 	"group_id":"com.atlassian.oai",
 	"artifact_id":"swagger-request-validator-mockmvc",
-	"version_latest":"2.45.1",
-	"ts_publish":1754873472000,
-	"dt_publish":"2025-08-11 08:51:12.000",
-	"ts_update":1754875387712,
-	"dt_update":"2025-08-11 09:22:34.796",
+	"version_latest":"2.46.0",
+	"ts_publish":1758599130000,
+	"dt_publish":"2025-09-23 11:45:30.000",
+	"ts_update":1758599863047,
+	"dt_update":"2025-09-23 11:56:08.530",
 	"count_dep":64,
 	"count_ref":1,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_ci_management":"https://staging-bamboo.internal.atlassian.com/browse/OTHER-BASEPOM",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#80523 in MvnRepository",
+	"ranking":"#81345 in MvnRepository",
 	"tags":[
 		"request",
 		"atlassian",
@@ -39,6 +39,14 @@
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.45.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250612",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.33.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230127",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.32.1",
 			"vulnerabilities":""
 		}
 	]

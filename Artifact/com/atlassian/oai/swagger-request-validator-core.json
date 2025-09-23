@@ -3,12 +3,12 @@
 	"description":"Core OpenAPI / Swagger validation logic.",
 	"group_id":"com.atlassian.oai",
 	"artifact_id":"swagger-request-validator-core",
-	"version_latest":"2.45.1",
-	"ts_publish":1754873410000,
-	"dt_publish":"2025-08-11 08:50:10.000",
-	"ts_update":1754875386414,
-	"dt_update":"2025-08-11 09:22:34.798",
-	"count_dep":73,
+	"version_latest":"2.46.0",
+	"ts_publish":1758599066000,
+	"dt_publish":"2025-09-23 11:44:26.000",
+	"ts_update":1758599848232,
+	"dt_update":"2025-09-23 11:56:08.533",
+	"count_dep":76,
 	"count_ref":11,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,7 +29,7 @@
 	"url_ci_management":"https://staging-bamboo.internal.atlassian.com/browse/OTHER-BASEPOM",
 	"count_used_by":53,
 	"license":"Apache 2.0",
-	"ranking":"#9179 in MvnRepository",
+	"ranking":"#9316 in MvnRepository",
 	"tags":[
 		"request",
 		"atlassian",
@@ -39,6 +39,14 @@
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":17,
+			"version":"2.45.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250612",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"2.33.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230109",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.32.0",
 			"vulnerabilities":""
 		}
 	]
