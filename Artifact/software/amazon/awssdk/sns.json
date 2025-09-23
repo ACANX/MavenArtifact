@@ -3,16 +3,14 @@
 	"description":"The AWS Java SDK for Amazon SNS module holds the client classes that are used for communicating with\n        Amazon Simple Notification Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"sns",
-	"version_latest":"2.33.10",
-	"ts_publish":1757982315000,
-	"dt_publish":"2025-09-16 08:25:15.000",
-	"ts_update":1757984211942,
-	"dt_update":"2025-09-16 08:56:12.851",
-	"count_dep":34,
-	"count_ref":4,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"2.34.2",
+	"ts_publish":1758663197000,
+	"dt_publish":"2025-09-24 05:33:17.000",
+	"ts_update":1758664647462,
+	"dt_update":"2025-09-24 05:56:11.023",
+	"count_dep":4,
+	"count_ref":0,
+	"licenses":[],
 	"categories":[
 		"Software Development Kit"
 	],
@@ -20,10 +18,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/sns@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/sns",
-	"count_used_by":90,
+	"count_used_by":94,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#5622 in MvnRepository",
+	"ranking":"#5408 in MvnRepository",
 	"tags":[
 		"sns",
 		"aws",
@@ -32,10 +30,50 @@
 	],
 	"versions":[
 		{
-			"date":"20250913",
+			"date":"20250919",
 			"repository":"Central",
 			"type":"release",
 			"usage":6,
+			"version":"2.34.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"2.33.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"2.33.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"2.33.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"2.33.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
 			"version":"2.33.9",
 			"vulnerabilities":""
 		},
@@ -75,7 +113,7 @@
 			"date":"20250905",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":11,
 			"version":"2.33.4",
 			"vulnerabilities":""
 		},
@@ -107,7 +145,7 @@
 			"date":"20250829",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"2.33.0",
 			"vulnerabilities":""
 		},
@@ -147,48 +185,8 @@
 			"date":"20250822",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
-			"version":"2.32.29",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250821",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.32.28",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.32.27",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250819",
-			"repository":"Central",
-			"type":"release",
 			"usage":8,
-			"version":"2.32.26",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250818",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.32.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250815",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.32.24",
+			"version":"2.32.29",
 			"vulnerabilities":""
 		}
 	]

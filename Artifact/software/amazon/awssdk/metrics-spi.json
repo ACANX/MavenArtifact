@@ -3,13 +3,13 @@
 	"description":"This is the base module for SDK metrics feature. It contains the interfaces used for metrics feature\n        that are used by other modules in the library.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"metrics-spi",
-	"version_latest":"2.33.11",
-	"ts_publish":1758058323000,
-	"dt_publish":"2025-09-17 05:32:03.000",
-	"ts_update":1758059853066,
-	"dt_update":"2025-09-17 05:56:13.155",
+	"version_latest":"2.34.2",
+	"ts_publish":1758663197000,
+	"dt_publish":"2025-09-24 05:33:17.000",
+	"ts_update":1758664707291,
+	"dt_update":"2025-09-24 05:56:14.768",
 	"count_dep":11,
-	"count_ref":11,
+	"count_ref":12,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/core/metrics-spi",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/metrics-spi@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/metrics-spi",
-	"count_used_by":45,
+	"count_used_by":46,
 	"home_page":"https://github.com/aws/aws-sdk-java-v2",
 	"license":"Apache 2.0",
-	"ranking":"#10654 in MvnRepository",
+	"ranking":"#10464 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -33,10 +33,50 @@
 	],
 	"versions":[
 		{
-			"date":"20250912",
+			"date":"20250919",
 			"repository":"Central",
 			"type":"release",
 			"usage":11,
+			"version":"2.34.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2.33.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2.33.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2.33.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2.33.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
 			"version":"2.33.9",
 			"vulnerabilities":""
 		},
@@ -108,7 +148,7 @@
 			"date":"20250829",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":12,
 			"version":"2.33.0",
 			"vulnerabilities":""
 		},
@@ -148,48 +188,8 @@
 			"date":"20250822",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
-			"version":"2.32.29",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250821",
-			"repository":"Central",
-			"type":"release",
 			"usage":12,
-			"version":"2.32.28",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"2.32.27",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250819",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"2.32.26",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250818",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"2.32.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250815",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"2.32.24",
+			"version":"2.32.29",
 			"vulnerabilities":""
 		}
 	]
