@@ -3,13 +3,13 @@
 	"description":"WildFly Security Provider Util",
 	"group_id":"org.wildfly.security",
 	"artifact_id":"wildfly-elytron-provider-util",
-	"version_latest":"2.7.0.Alpha2",
-	"ts_publish":1757805333000,
-	"dt_publish":"2025-09-14 07:15:33.000",
-	"ts_update":1757809623493,
-	"dt_update":"2025-09-14 08:26:08.194",
+	"version_latest":"2.7.0.CR1",
+	"ts_publish":1758669333000,
+	"dt_publish":"2025-09-24 07:15:33.000",
+	"ts_update":1758670153511,
+	"dt_update":"2025-09-24 07:26:10.279",
 	"count_dep":6,
-	"count_ref":58,
+	"count_ref":63,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/wildfly-security/wildfly-elytron",
 	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#34611 in MvnRepository",
+	"ranking":"#34691 in MvnRepository",
 	"tags":[
 		"provider",
 		"security",
@@ -40,6 +40,14 @@
 			"type":"alpha",
 			"usage":3,
 			"version":"3.0.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"2.7.0.Alpha2",
 			"vulnerabilities":""
 		},
 		{
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.3.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250905",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.2.12.Final",
 			"vulnerabilities":""
 		}
 	]

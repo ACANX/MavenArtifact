@@ -3,11 +3,11 @@
 	"description":"WildFly Security HTTP Framework",
 	"group_id":"org.wildfly.security",
 	"artifact_id":"wildfly-elytron-http-deprecated",
-	"version_latest":"2.7.0.Alpha2",
-	"ts_publish":1757805333000,
-	"dt_publish":"2025-09-14 07:15:33.000",
-	"ts_update":1757809647350,
-	"dt_update":"2025-09-14 08:26:08.193",
+	"version_latest":"2.7.0.CR1",
+	"ts_publish":1758669333000,
+	"dt_publish":"2025-09-24 07:15:33.000",
+	"ts_update":1758670177108,
+	"dt_update":"2025-09-24 07:26:10.279",
 	"count_dep":32,
 	"count_ref":1,
 	"licenses":[
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly.security/wildfly-elytron-http-deprecated@2.6.5.Alpha1",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#55450 in MvnRepository",
+	"ranking":"#55587 in MvnRepository",
 	"tags":[
 		"security",
 		"wildfly",
@@ -28,6 +28,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"2.7.0.Alpha2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.2.12.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250904",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"2.2.12.Alpha1",
 			"vulnerabilities":""
 		}
 	]
