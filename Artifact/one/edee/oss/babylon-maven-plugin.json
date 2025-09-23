@@ -3,11 +3,11 @@
 	"description":"Babylon is a tool to gather messages, and their translations from property files. It performs a round-trip\n\t\tconsisting of two phases: export phase and import phase. In the export phase the messages are written to a\n\t\tGoogle Sheets spreadsheet. A translator will then fill in the missing translations. In the import phase,\n\t\tthe spreadsheet (with the missing translations filled out by a translator) is examined, and the newly translated\n\t\tmessages are used to update the respective translation property files. Also, the state of the translation,\n\t\tsnapshot, is written out to a disk in the form of JSON file. Babylon can be run as a Maven plugin\n\t\tor as a standalone console application.",
 	"group_id":"one.edee.oss",
 	"artifact_id":"babylon-maven-plugin",
-	"version_latest":"2025.5.0",
-	"ts_publish":1758106776000,
-	"dt_publish":"2025-09-17 18:59:36.000",
-	"ts_update":1758112168759,
-	"dt_update":"2025-09-17 19:26:06.993",
+	"version_latest":"2025.5.1",
+	"ts_publish":1758631562000,
+	"dt_publish":"2025-09-23 20:46:02.000",
+	"ts_update":1758632247261,
+	"dt_update":"2025-09-23 20:56:14.634",
 	"count_dep":168,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://edee.dev/",
 	"home_page":"https://github.com/FgForrest/Babylon/",
 	"license":"MIT",
-	"ranking":"#485610 in MvnRepository",
+	"ranking":"#481307 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -33,6 +33,14 @@
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2024.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240221",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2024.1.0",
 			"vulnerabilities":""
 		}
 	]
