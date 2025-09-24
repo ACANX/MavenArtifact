@@ -3,11 +3,11 @@
 	"description":"Module which contains common logic and dependencies used when building new JMeter\n    engines for remote execution (eg: BlazeMeter)",
 	"group_id":"us.abstracta.jmeter",
 	"artifact_id":"jmeter-java-dsl-base-remote-engine",
-	"version_latest":"2.0",
-	"ts_publish":1758080691000,
-	"dt_publish":"2025-09-17 11:44:51.000",
-	"ts_update":1758081487695,
-	"dt_update":"2025-09-17 11:56:07.925",
+	"version_latest":"2.1",
+	"ts_publish":1758679485000,
+	"dt_publish":"2025-09-24 10:04:45.000",
+	"ts_update":1758681706162,
+	"dt_update":"2025-09-24 10:25:59.315",
 	"count_dep":68,
 	"count_ref":3,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/abstracta/jmeter-dsl/tree/master/jmeter-java-dsl-base-remote-engine",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#145284 in MvnRepository",
+	"ranking":"#144546 in MvnRepository",
 	"tags":[
 		"remote",
 		"jmeter",
@@ -34,6 +34,14 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230822",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.19",
 			"vulnerabilities":""
 		}
 	]
