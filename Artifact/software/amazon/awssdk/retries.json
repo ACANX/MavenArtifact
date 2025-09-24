@@ -3,13 +3,13 @@
 	"description":"The AWS SDK for Java - Core is an umbrella module that contains child modules which are considered as\n        core of the library.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"retries",
-	"version_latest":"2.34.2",
-	"ts_publish":1758663197000,
-	"dt_publish":"2025-09-24 05:33:17.000",
-	"ts_update":1758664682720,
-	"dt_update":"2025-09-24 05:56:16.563",
+	"version_latest":"2.34.3",
+	"ts_publish":1758749503000,
+	"dt_publish":"2025-09-25 05:31:43.000",
+	"ts_update":1758754661620,
+	"dt_update":"2025-09-25 06:26:15.940",
 	"count_dep":5,
-	"count_ref":2,
+	"count_ref":30,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -21,8 +21,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/retries@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/retries",
 	"count_used_by":27,
-	"license":"Apache",
-	"ranking":"#17410 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#17255 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -30,10 +30,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.34.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250923",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"2.34.1",
 			"vulnerabilities":""
 		},
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.32.31",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.32.30",
 			"vulnerabilities":""
 		}
 	]
