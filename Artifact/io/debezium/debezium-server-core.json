@@ -3,12 +3,12 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-server-core",
-	"version_latest":"3.3.0.Beta1",
-	"ts_publish":1757068293000,
-	"dt_publish":"2025-09-05 18:31:33.000",
-	"ts_update":1757069206855,
-	"dt_update":"2025-09-05 18:46:14.369",
-	"count_dep":226,
+	"version_latest":"3.3.0.CR1",
+	"ts_publish":1758705189000,
+	"dt_publish":"2025-09-24 17:13:09.000",
+	"ts_update":1758706034438,
+	"dt_update":"2025-09-24 17:26:13.807",
+	"count_dep":227,
 	"count_ref":19,
 	"licenses":[
 		"Apache Software License 2.0"
@@ -28,12 +28,20 @@
 	"url_scm":"https://github.com/debezium/debezium-server/debezium-server-core",
 	"count_used_by":21,
 	"license":"Apache 2.0",
-	"ranking":"#22359 in MvnRepository",
+	"ranking":"#22472 in MvnRepository",
 	"tags":[
 		"debezium",
 		"server"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"beta",
+			"usage":19,
+			"version":"3.3.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":16,
 			"version":"3.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"3.0.6.Final",
 			"vulnerabilities":""
 		}
 	]
