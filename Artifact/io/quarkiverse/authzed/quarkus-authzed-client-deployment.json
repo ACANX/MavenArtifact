@@ -3,12 +3,12 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.authzed",
 	"artifact_id":"quarkus-authzed-client-deployment",
-	"version_latest":"0.15.0",
-	"ts_publish":1758082996000,
-	"dt_publish":"2025-09-17 12:23:16.000",
-	"ts_update":1758084969416,
-	"dt_update":"2025-09-17 12:56:03.042",
-	"count_dep":202,
+	"version_latest":"0.16.0",
+	"ts_publish":1758741294000,
+	"dt_publish":"2025-09-25 03:14:54.000",
+	"ts_update":1758743122470,
+	"dt_update":"2025-09-25 03:26:14.234",
+	"count_dep":203,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,13 +23,29 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-authzed-client",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#246827 in MvnRepository",
+	"ranking":"#247087 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250706",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.0.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220923",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.0.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220923",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.0.2",
 			"vulnerabilities":""
 		}
 	]
