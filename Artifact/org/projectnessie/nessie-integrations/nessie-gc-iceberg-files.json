@@ -3,11 +3,11 @@
 	"description":"Nessie GC integration tests with Spark, Iceberg and S3 as a separate project due to the hugely different set of dependencies",
 	"group_id":"org.projectnessie.nessie-integrations",
 	"artifact_id":"nessie-gc-iceberg-files",
-	"version_latest":"0.105.2",
-	"ts_publish":1758281140000,
-	"dt_publish":"2025-09-19 19:25:40.000",
-	"ts_update":1758282304191,
-	"dt_update":"2025-09-19 19:44:50.038",
+	"version_latest":"0.105.3",
+	"ts_publish":1758732204000,
+	"dt_publish":"2025-09-25 00:43:24.000",
+	"ts_update":1758735208355,
+	"dt_update":"2025-09-25 01:13:58.068",
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
@@ -43,7 +43,7 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/projectnessie/nessie",
 	"license":"Apache 2.0",
-	"ranking":"#371832 in MvnRepository",
+	"ranking":"#402196 in MvnRepository",
 	"tags":[
 		"integration",
 		"iceberg",
@@ -51,6 +51,14 @@
 		"io"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.105.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -201,14 +209,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.102.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250130",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.102.3",
 			"vulnerabilities":""
 		}
 	]
