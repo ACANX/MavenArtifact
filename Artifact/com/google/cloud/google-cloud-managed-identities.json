@@ -3,11 +3,11 @@
 	"description":"is a highly available, hardened Google Cloud service running actual Microsoft AD that enables you to manage authentication and authorization for your AD-dependent workloads, automate AD server maintenance and security configuration, and connect your on-premises AD domain to the cloud.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-managed-identities",
-	"version_latest":"1.72.0",
-	"ts_publish":1757657634000,
-	"dt_publish":"2025-09-12 14:13:54.000",
-	"ts_update":1757659967150,
-	"dt_update":"2025-09-12 14:51:14.385",
+	"version_latest":"1.73.0",
+	"ts_publish":1758686884000,
+	"dt_publish":"2025-09-24 12:08:04.000",
+	"ts_update":1758689283017,
+	"dt_update":"2025-09-24 12:26:16.773",
 	"count_dep":79,
 	"count_ref":0,
 	"licenses":[
@@ -27,12 +27,28 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#276131 in MvnRepository",
+	"ranking":"#281621 in MvnRepository",
 	"tags":[
 		"google",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.72.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.71.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.51.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241010",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240928",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.49.0",
 			"vulnerabilities":""
 		}
 	]
