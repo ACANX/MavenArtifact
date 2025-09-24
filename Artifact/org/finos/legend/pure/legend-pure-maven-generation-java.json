@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.pure",
 	"artifact_id":"legend-pure-maven-generation-java",
-	"version_latest":"5.61.0",
-	"ts_publish":1758736192000,
-	"dt_publish":"2025-09-25 01:49:52.000",
-	"ts_update":1758738532450,
-	"dt_update":"2025-09-25 02:21:05.788",
-	"count_dep":65,
+	"version_latest":"5.61.1",
+	"ts_publish":1758742599000,
+	"dt_publish":"2025-09-25 03:36:39.000",
+	"ts_update":1758743861587,
+	"dt_update":"2025-09-25 03:56:06.629",
+	"count_dep":38,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,7 +25,7 @@
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-pure/legend-pure-maven/legend-pure-maven-generation-java",
 	"license":"Apache 2.0",
-	"ranking":"#974165 in MvnRepository",
+	"ranking":"#980896 in MvnRepository",
 	"tags":[
 		"plugin",
 		"generator",
@@ -34,6 +34,22 @@
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.60.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.59.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250904",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250530",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.49.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.48.1",
 			"vulnerabilities":""
 		}
 	]
