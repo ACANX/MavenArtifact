@@ -3,11 +3,11 @@
 	"description":"Debezium is an open source change data capture platform",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-bom",
-	"version_latest":"3.3.0.Beta1",
-	"ts_publish":1757062764000,
-	"dt_publish":"2025-09-05 16:59:24.000",
-	"ts_update":1757064416826,
-	"dt_update":"2025-09-05 17:26:04.570",
+	"version_latest":"3.3.0.CR1",
+	"ts_publish":1758697050000,
+	"dt_publish":"2025-09-24 14:57:30.000",
+	"ts_update":1758699208235,
+	"dt_update":"2025-09-24 15:15:25.043",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-bom",
 	"license":"Apache 2.0",
-	"ranking":"#827144 in MvnRepository",
+	"ranking":"#846170 in MvnRepository",
 	"tags":[
 		"debezium",
 		"bom",
@@ -35,6 +35,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.3.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.6.Final",
 			"vulnerabilities":""
 		}
 	]
