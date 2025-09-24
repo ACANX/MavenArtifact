@@ -3,14 +3,16 @@
 	"description":"The AWS Java SDK for Amazon SNS module holds the client classes that are used for communicating with\n        Amazon Simple Notification Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"sns",
-	"version_latest":"2.34.2",
-	"ts_publish":1758663197000,
-	"dt_publish":"2025-09-24 05:33:17.000",
-	"ts_update":1758664647462,
-	"dt_update":"2025-09-24 05:56:11.023",
-	"count_dep":4,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"2.34.3",
+	"ts_publish":1758749503000,
+	"dt_publish":"2025-09-25 05:31:43.000",
+	"ts_update":1758753948178,
+	"dt_update":"2025-09-25 06:26:19.234",
+	"count_dep":34,
+	"count_ref":4,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Software Development Kit"
 	],
@@ -21,7 +23,7 @@
 	"count_used_by":94,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#5408 in MvnRepository",
+	"ranking":"#5409 in MvnRepository",
 	"tags":[
 		"sns",
 		"aws",
@@ -29,6 +31,22 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.34.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.34.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -171,22 +189,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"2.32.31",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.32.30",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250822",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"2.32.29",
 			"vulnerabilities":""
 		}
 	]
