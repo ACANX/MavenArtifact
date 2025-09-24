@@ -3,12 +3,12 @@
 	"description":"Query result writer implementation for the SPARQL Query Results JSON Format.",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-queryresultio-sparqljson",
-	"version_latest":"5.1.5",
-	"ts_publish":1757153549000,
-	"dt_publish":"2025-09-06 18:12:29.000",
-	"ts_update":1757154391145,
-	"dt_update":"2025-09-06 18:26:00.386",
-	"count_dep":36,
+	"version_latest":"5.1.6",
+	"ts_publish":1758745482000,
+	"dt_publish":"2025-09-25 04:24:42.000",
+	"ts_update":1758749224310,
+	"dt_update":"2025-09-25 04:44:46.503",
+	"count_dep":32,
 	"count_ref":9,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
@@ -25,16 +25,24 @@
 		"Jeen Broekstra"
 	],
 	"url_scm":"https://github.com/eclipse/rdf4j/rdf4j-core/rdf4j-queryresultio/rdf4j-queryresultio-sparqljson",
-	"count_used_by":28,
+	"count_used_by":29,
 	"home_page":"https://rdf4j.org/",
 	"license":"EDL 1.0",
-	"ranking":"#16680 in MvnRepository",
+	"ranking":"#16187 in MvnRepository",
 	"tags":[
 		"rdf",
 		"eclipse",
 		"query"
 	],
 	"versions":[
+		{
+			"date":"20250906",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"5.1.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250721",
 			"repository":"Central",
@@ -55,7 +63,7 @@
 			"date":"20250211",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":6,
 			"version":"5.1.2",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"4.3.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240401",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.3.11",
 			"vulnerabilities":""
 		}
 	]
