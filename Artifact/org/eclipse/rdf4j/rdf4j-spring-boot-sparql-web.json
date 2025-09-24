@@ -3,12 +3,12 @@
 	"description":"HTTP server component implementing only the SPARQL protocol",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-spring-boot-sparql-web",
-	"version_latest":"5.1.5",
-	"ts_publish":1757153549000,
-	"dt_publish":"2025-09-06 18:12:29.000",
-	"ts_update":1757154438968,
-	"dt_update":"2025-09-06 18:25:59.622",
-	"count_dep":211,
+	"version_latest":"5.1.6",
+	"ts_publish":1758745482000,
+	"dt_publish":"2025-09-25 04:24:42.000",
+	"ts_update":1758746745085,
+	"dt_update":"2025-09-25 04:44:48.325",
+	"count_dep":104,
 	"count_ref":0,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/eclipse/rdf4j/rdf4j-spring-components/rdf4j-spring-boot-sparql-web",
 	"count_used_by":3,
 	"license":"EDL 1.0",
-	"ranking":"#140663 in MvnRepository",
+	"ranking":"#142070 in MvnRepository",
 	"tags":[
 		"rdf",
 		"eclipse",
@@ -36,6 +36,14 @@
 		"sparql"
 	],
 	"versions":[
+		{
+			"date":"20250906",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.1.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250721",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.3.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240401",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.3.11",
 			"vulnerabilities":""
 		}
 	]

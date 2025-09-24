@@ -3,13 +3,13 @@
 	"description":"StackableSail implementation offering full-text search on literals, based on Elastic Search.",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-sail-elasticsearch",
-	"version_latest":"5.1.5",
-	"ts_publish":1757153549000,
-	"dt_publish":"2025-09-06 18:12:29.000",
-	"ts_update":1757154430273,
-	"dt_update":"2025-09-06 18:25:59.621",
+	"version_latest":"5.1.6",
+	"ts_publish":1758745482000,
+	"dt_publish":"2025-09-25 04:24:42.000",
+	"ts_update":1758746749065,
+	"dt_update":"2025-09-25 04:44:47.873",
 	"count_dep":111,
-	"count_ref":6,
+	"count_ref":5,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
 	],
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/eclipse/rdf4j/rdf4j-core/rdf4j-sail/rdf4j-sail-elasticsearch",
 	"count_used_by":3,
 	"license":"EDL 1.0",
-	"ranking":"#129573 in MvnRepository",
+	"ranking":"#130207 in MvnRepository",
 	"tags":[
 		"rdf",
 		"eclipse",
@@ -36,6 +36,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250906",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"5.1.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250721",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.3.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240401",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.3.11",
 			"vulnerabilities":""
 		}
 	]
