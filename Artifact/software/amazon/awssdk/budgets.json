@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for AWS Budgets module holds the client classes that are used for communicating with\n        AWS Budgets Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"budgets",
-	"version_latest":"2.34.2",
-	"ts_publish":1758663197000,
-	"ts_update":1758665852039,
+	"version_latest":"2.34.3",
+	"ts_publish":1758749503000,
+	"ts_update":1758752964712,
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,18 +15,26 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/budgets@2.32.16",
-	"dt_publish":"2025-09-24 05:33:17.000",
-	"dt_update":"2025-09-24 05:56:17.444",
+	"dt_publish":"2025-09-25 05:31:43.000",
+	"dt_update":"2025-09-25 06:26:17.011",
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#118508 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#118344 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.34.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250923",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.32.31",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.32.30",
 			"vulnerabilities":""
 		}
 	]
