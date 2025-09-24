@@ -3,11 +3,11 @@
 	"description":"dependency-check-maven is a Maven Plugin that uses dependency-check-core to detect publicly disclosed vulnerabilities associated with the project's dependencies. The plugin will generate a report listing the dependency, any identified Common Platform Enumeration (CPE) identifiers, and the associated Common Vulnerability and Exposure (CVE) entries.",
 	"group_id":"org.owasp",
 	"artifact_id":"dependency-check-maven",
-	"version_latest":"12.1.5",
-	"ts_publish":1758373963000,
-	"dt_publish":"2025-09-20 21:12:43.000",
-	"ts_update":1758374857439,
-	"dt_update":"2025-09-20 21:26:08.723",
+	"version_latest":"12.1.6",
+	"ts_publish":1758717109000,
+	"dt_publish":"2025-09-24 20:31:49.000",
+	"ts_update":1758720455690,
+	"dt_update":"2025-09-24 20:56:13.353",
 	"count_dep":149,
 	"count_ref":0,
 	"licenses":[
@@ -31,7 +31,7 @@
 	"url_ci_management":"https://github.com/dependency-check/DependencyCheck/actions",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#52075 in MvnRepository",
+	"ranking":"#52028 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -41,6 +41,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250610",
 			"repository":"Central",
@@ -183,22 +199,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240117",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240106",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.8",
 			"vulnerabilities":""
 		}
 	]
