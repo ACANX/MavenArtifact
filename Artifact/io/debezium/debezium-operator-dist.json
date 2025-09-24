@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-operator-dist",
-	"version_latest":"3.3.0.Beta1",
-	"ts_publish":1757069124000,
-	"dt_publish":"2025-09-05 18:45:24.000",
-	"ts_update":1757070801391,
-	"dt_update":"2025-09-05 19:12:39.161",
+	"version_latest":"3.3.0.CR1",
+	"ts_publish":1758705898000,
+	"dt_publish":"2025-09-24 17:24:58.000",
+	"ts_update":1758707342183,
+	"dt_update":"2025-09-24 17:46:44.610",
 	"count_dep":204,
 	"count_ref":0,
 	"licenses":[
@@ -27,13 +27,21 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium-operator/debezium-operator-dist",
 	"license":"Apache 2.0",
-	"ranking":"#854811 in MvnRepository",
+	"ranking":"#786152 in MvnRepository",
 	"tags":[
 		"debezium",
 		"operator",
 		"distribution"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.3.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.6.Final",
 			"vulnerabilities":""
 		}
 	]
