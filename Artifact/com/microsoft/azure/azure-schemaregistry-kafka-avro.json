@@ -3,12 +3,12 @@
 	"description":"Kafka AVRO serializer/deserializer for Azure Schema Registry",
 	"group_id":"com.microsoft.azure",
 	"artifact_id":"azure-schemaregistry-kafka-avro",
-	"version_latest":"1.1.3",
-	"ts_publish":1755493433000,
-	"dt_publish":"2025-08-18 13:03:53.000",
-	"ts_update":1755494767641,
-	"dt_update":"2025-08-18 13:25:49.370",
-	"count_dep":9,
+	"version_latest":"1.1.4",
+	"ts_publish":1758683191000,
+	"dt_publish":"2025-09-24 11:06:31.000",
+	"ts_update":1758684157550,
+	"dt_update":"2025-09-24 11:21:35.619",
+	"count_dep":94,
 	"count_ref":0,
 	"licenses":[
 		"MIT License"
@@ -22,5 +22,110 @@
 	"contributors":[
 		"Microsoft Corporation"
 	],
-	"url_scm":"scm:git:https://github.com/Azure/azure-schema-registry-for-kafka"
+	"url_scm":"scm:git:https://github.com/Azure/azure-schema-registry-for-kafka",
+	"count_used_by":4,
+	"home_page":"https://github.com/Azure/azure-schema-registry-for-kafka",
+	"license":"MIT",
+	"ranking":"#110153 in MvnRepository",
+	"tags":[
+		"registry",
+		"streaming",
+		"azure",
+		"serialization",
+		"avro",
+		"kafka",
+		"schema",
+		"microsoft",
+		"protocol"
+	],
+	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250520",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20230427",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20230213",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"1.1.0-beta.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20221116",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"1.0.0-beta.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20221114",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.0.0-beta.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20220903",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.0.0-beta.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20220403",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.0.0-beta.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20220316",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.0.0-beta.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20200923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.0.0-beta.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20200623",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.0.0-beta.2",
+			"vulnerabilities":""
+		}
+	]
 }
