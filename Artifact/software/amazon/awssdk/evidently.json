@@ -3,13 +3,13 @@
 	"description":"The AWS Java SDK for Evidently module holds the client classes that are used for\n        communicating with Evidently.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"evidently",
-	"version_latest":"2.34.2",
-	"ts_publish":1758663197000,
-	"dt_publish":"2025-09-24 05:33:17.000",
-	"ts_update":1758664719386,
-	"dt_update":"2025-09-24 05:56:14.320",
+	"version_latest":"2.34.4",
+	"ts_publish":1758835746000,
+	"dt_publish":"2025-09-26 05:29:06.000",
+	"ts_update":1758839530614,
+	"dt_update":"2025-09-26 05:56:09.538",
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -20,7 +20,7 @@
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache",
-	"ranking":"#125576 in MvnRepository",
+	"ranking":"#125416 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,26 @@
 	],
 	"versions":[
 		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.34.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250923",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.34.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.34.1",
 			"vulnerabilities":""
 		},
@@ -39,7 +55,7 @@
 			"date":"20250919",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.34.0",
 			"vulnerabilities":""
 		},
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.32.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250827",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.32.31",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.32.30",
 			"vulnerabilities":""
 		}
 	]
