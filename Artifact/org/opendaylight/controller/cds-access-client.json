@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.opendaylight.controller/cds-access-client",
 	"group_id":"org.opendaylight.controller",
 	"artifact_id":"cds-access-client",
-	"version_latest":"11.0.2",
-	"ts_publish":1758061675000,
-	"dt_publish":"2025-09-17 06:27:55.000",
-	"ts_update":1758063399136,
-	"dt_update":"2025-09-17 06:56:05.997",
-	"count_dep":35,
+	"version_latest":"12.0.0",
+	"ts_publish":1758805145000,
+	"dt_publish":"2025-09-25 20:59:05.000",
+	"ts_update":1758810430297,
+	"dt_update":"2025-09-25 21:26:12.776",
+	"count_dep":47,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_scm":"https://wiki.opendaylight.org/view/OpenDaylight_Controller:MD-SAL:Architecture:Clustering",
 	"count_used_by":4,
 	"license":"EPL 1.0",
-	"ranking":"#103580 in MvnRepository",
+	"ranking":"#103429 in MvnRepository",
 	"tags":[
 		"bundle",
 		"client",
@@ -27,6 +27,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -41,6 +49,22 @@
 			"type":"release",
 			"usage":3,
 			"version":"11.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"10.0.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"10.0.13",
 			"vulnerabilities":""
 		},
 		{
@@ -162,30 +186,7 @@
 			"usage":3,
 			"version":"9.0.7",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241113",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"9.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240831",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"9.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240606",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"9.0.4",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Clustered Data Store client infrastructure"
 }
