@@ -3,11 +3,11 @@
 	"description":"ONNX Runtime is a performance-focused inference engine for ONNX (Open Neural Network Exchange) models. This package contains the Android (aar) build of ONNX Runtime. It includes support for all types and operators, for ONNX format models. All standard ONNX models can be executed with this package.",
 	"group_id":"com.microsoft.onnxruntime",
 	"artifact_id":"onnxruntime-android",
-	"version_latest":"1.23.0-rc.2",
-	"ts_publish":1758429383000,
-	"dt_publish":"2025-09-21 12:36:23.000",
-	"ts_update":1758432386135,
-	"dt_update":"2025-09-21 13:26:08.704",
+	"version_latest":"1.23.0",
+	"ts_publish":1758839163000,
+	"dt_publish":"2025-09-26 06:26:03.000",
+	"ts_update":1758841068716,
+	"dt_update":"2025-09-26 06:44:42.620",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"ONNX Runtime"
 	],
 	"url_scm":"http://github.com/microsoft/onnxruntime",
-	"count_used_by":12,
+	"count_used_by":13,
 	"home_page":"https://microsoft.github.io/onnxruntime/",
 	"license":"MIT",
-	"ranking":"#40445 in MvnRepository",
+	"ranking":"#37056 in MvnRepository",
 	"tags":[
 		"aar",
 		"microsoft",
@@ -34,6 +34,14 @@
 		"android"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.23.0-rc.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250510",
 			"repository":"Central",
@@ -70,7 +78,7 @@
 			"date":"20240903",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.19.2",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.13.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220805",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.12.1",
 			"vulnerabilities":""
 		}
 	]
