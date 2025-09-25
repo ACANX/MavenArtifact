@@ -3,12 +3,12 @@
 	"description":"Valkey and Redis Java client. Complete Real-Time Data Platform. Sync/Async/RxJava/Reactive API. Over 50 Valkey and Redis based Java objects and services: JCache API, Apache Tomcat, Hibernate, Spring, Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Bloom filter, Scheduler, RPC",
 	"group_id":"org.redisson",
 	"artifact_id":"redisson",
-	"version_latest":"3.51.0",
-	"ts_publish":1755866744000,
-	"dt_publish":"2025-08-22 20:45:44.000",
-	"ts_update":1755868207387,
-	"dt_update":"2025-08-22 21:08:29.753",
-	"count_dep":129,
+	"version_latest":"3.52.0",
+	"ts_publish":1758797518000,
+	"dt_publish":"2025-09-25 18:51:58.000",
+	"ts_update":1758805015961,
+	"dt_update":"2025-09-25 19:14:02.385",
+	"count_dep":178,
 	"count_ref":51,
 	"licenses":[
 		"Apache v2"
@@ -24,10 +24,10 @@
 		"Nikita Koksharov"
 	],
 	"url_scm":"scm:git:git@github.com:redisson/redisson.git/redisson",
-	"count_used_by":804,
+	"count_used_by":811,
 	"home_page":"https://redisson.pro",
 	"license":"Apache 2.0",
-	"ranking":"#738 in MvnRepository",
+	"ranking":"#740 in MvnRepository",
 	"tags":[
 		"redis",
 		"database",
@@ -35,10 +35,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":37,
+			"version":"3.51.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250617",
 			"repository":"Central",
 			"type":"release",
-			"usage":39,
+			"usage":42,
 			"version":"3.50.0",
 			"vulnerabilities":""
 		},
@@ -158,7 +166,7 @@
 			"date":"20241031",
 			"repository":"Central",
 			"type":"release",
-			"usage":30,
+			"usage":31,
 			"version":"3.38.1",
 			"vulnerabilities":""
 		},
@@ -174,7 +182,7 @@
 			"date":"20241002",
 			"repository":"Central",
 			"type":"release",
-			"usage":35,
+			"usage":36,
 			"version":"3.37.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":40,
 			"version":"3.36.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240822",
-			"repository":"Central",
-			"type":"release",
-			"usage":43,
-			"version":"3.35.0",
 			"vulnerabilities":""
 		}
 	]
