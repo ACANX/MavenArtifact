@@ -3,13 +3,13 @@
 	"description":"在 Java 应用程序中以编程方式生成、加载、修改和转换 Excel 电子表格。GcExcel 服务端表格组件是一个跨平台的高速、小体积电子表格 API 库，无需依赖 Excel。其强大的计算引擎支持 450 多个 Excel 函数和自定义函数来执行复杂的计算。与 Apache POI 相比，GcExcel 的速度快 2 倍以上，占用内存更少，并可保存为 XLSX、PDF、HTML、CSV、JSON 和图像。将您的应用程序部署到云、Windows、Mac 或 Linux 上。如果您想移除试用版水印和其他试用限制，请发送电子邮件至 info.xa@grapecity.com 申请 30 天评估密钥。",
 	"group_id":"com.grapecitysoft.documents",
 	"artifact_id":"gcexcel",
-	"version_latest":"8.2.1",
-	"ts_publish":1756959034000,
-	"dt_publish":"2025-09-04 12:10:34.000",
-	"ts_update":1756960009835,
-	"dt_update":"2025-09-04 12:26:00.379",
+	"version_latest":"8.2.2",
+	"ts_publish":1758771464000,
+	"dt_publish":"2025-09-25 11:37:44.000",
+	"ts_update":1758776242079,
+	"dt_update":"2025-09-25 12:18:48.892",
 	"count_dep":18,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"GrapeCity Software EULA"
 	],
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/GrapeCityXA",
 	"count_used_by":1,
 	"home_page":"https://www.grapecity.com.cn/developer/grapecitydocuments/excel-java",
-	"ranking":"#413277 in MvnRepository",
+	"ranking":"#341279 in MvnRepository",
 	"tags":[
 		"doc",
 		"document"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.2.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.1.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240516",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.1.2",
 			"vulnerabilities":""
 		}
 	]
