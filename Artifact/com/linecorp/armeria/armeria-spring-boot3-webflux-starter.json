@@ -3,9 +3,9 @@
 	"description":"Asynchronous HTTP/2 RPC/REST client/server library built on top of Java 8, Netty, Thrift and gRPC (armeria-spring-boot3-webflux-starter)",
 	"group_id":"com.linecorp.armeria",
 	"artifact_id":"armeria-spring-boot3-webflux-starter",
-	"version_latest":"1.33.3",
-	"ts_publish":1758092779000,
-	"ts_update":1758094022482,
+	"version_latest":"1.33.4",
+	"ts_publish":1758783340000,
+	"ts_update":1758790588707,
 	"count_dep":52,
 	"count_ref":0,
 	"licenses":[
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/line/armeria",
 	"home_page":"https://armeria.dev/",
 	"license":"Apache 2.0",
-	"ranking":"#701640 in MvnRepository",
+	"ranking":"#765485 in MvnRepository",
 	"tags":[
 		"webflux",
 		"spring",
@@ -32,6 +32,14 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.33.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -177,22 +185,14 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20240730",
+			"date":"20250916",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"1.29.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240726",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.29.3",
+			"version":"1.29.5",
 			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-09-17 15:06:19.000",
-	"dt_update":"2025-09-17 15:26:06.576"
+	"dt_publish":"2025-09-25 14:55:40.000",
+	"dt_update":"2025-09-25 15:15:32.530"
 }
