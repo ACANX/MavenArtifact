@@ -3,11 +3,11 @@
 	"description":"Controller Experimental Features",
 	"group_id":"org.opendaylight.controller",
 	"artifact_id":"features-controller-experimental",
-	"version_latest":"11.0.2",
-	"ts_publish":1758061666000,
-	"dt_publish":"2025-09-17 06:27:46.000",
-	"ts_update":1758063393718,
-	"dt_update":"2025-09-17 06:56:06.000",
+	"version_latest":"12.0.0",
+	"ts_publish":1758805132000,
+	"dt_publish":"2025-09-25 20:58:52.000",
+	"ts_update":1758808484883,
+	"dt_update":"2025-09-25 21:26:12.780",
 	"count_dep":14,
 	"count_ref":0,
 	"licenses":[
@@ -27,12 +27,20 @@
 	"url_ci_management":"https://jenkins.opendaylight.org/releng/",
 	"count_used_by":3,
 	"license":"EPL 1.0",
-	"ranking":"#142042 in MvnRepository",
+	"ranking":"#139276 in MvnRepository",
 	"tags":[
 		"experimental",
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -47,6 +55,22 @@
 			"type":"release",
 			"usage":2,
 			"version":"11.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.0.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.0.13",
 			"vulnerabilities":""
 		},
 		{
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241113",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240831",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240606",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.0.4",
 			"vulnerabilities":""
 		}
 	]
