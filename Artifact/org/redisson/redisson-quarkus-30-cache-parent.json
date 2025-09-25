@@ -3,11 +3,11 @@
 	"description":"Valkey and Redis Java client. Real-Time Data Platform. Sync/Async/RxJava3/Reactive API. Client side caching. Over 50 Redis based Java objects and services: JCache API (JSR-107), Hibernate Cache, MyBatis Cache, Quarkus Cache, Micronaut Cache, Apache Tomcat Session, Spring Session, Micronaut Session, Hibernate, Spring Boot Starter, Spring Cache, Spring Session, Spring Transaction Manager, Spring Cloud Stream, Spring Data Redis, JSON, Set, Multimap, Geo, SortedSet, Map, List, Queue, Deque, Semaphore, ReadWriteLock, FairLock, Lock, AtomicLong, AtomicDouble, LongAdder, DoubleAdder, Map Reduce, Bloom filter, Scheduler, RPC",
 	"group_id":"org.redisson",
 	"artifact_id":"redisson-quarkus-30-cache-parent",
-	"version_latest":"3.51.0",
-	"ts_publish":1755866744000,
-	"dt_publish":"2025-08-22 20:45:44.000",
-	"ts_update":1755868167418,
-	"dt_update":"2025-08-22 21:08:31.207",
+	"version_latest":"3.52.0",
+	"ts_publish":1758797518000,
+	"dt_publish":"2025-09-25 18:51:58.000",
+	"ts_update":1758800766511,
+	"dt_update":"2025-09-25 19:14:03.149",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"scm:git:git@github.com:redisson/redisson.git/redisson-quarkus/redisson-quarkus-30-parent/redisson-quarkus-30-cache-parent",
 	"license":"Apache 2.0",
-	"ranking":"#471269 in MvnRepository",
+	"ranking":"#480670 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"cache",
 		"redis"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.51.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250617",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.36.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240822",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.35.0",
 			"vulnerabilities":""
 		}
 	]
