@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.pure",
 	"artifact_id":"legend-pure-m3-bootstrap-generator",
-	"version_latest":"5.61.1",
-	"ts_publish":1758742599000,
-	"dt_publish":"2025-09-25 03:36:39.000",
-	"ts_update":1758745697209,
-	"dt_update":"2025-09-25 03:56:07.343",
-	"count_dep":5,
-	"count_ref":26,
+	"version_latest":"5.61.2",
+	"ts_publish":1758823646000,
+	"dt_publish":"2025-09-26 02:07:26.000",
+	"ts_update":1758831509162,
+	"dt_update":"2025-09-26 02:22:32.358",
+	"count_dep":7,
+	"count_ref":35,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,12 +26,28 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-pure/legend-pure-core/legend-pure-m3-bootstrap-generator",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#233079 in MvnRepository",
+	"ranking":"#233206 in MvnRepository",
 	"tags":[
 		"generator",
 		"bootstrap"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.61.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.61.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"5.51.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"5.50.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250531",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"5.50.0",
 			"vulnerabilities":""
 		}
 	]
