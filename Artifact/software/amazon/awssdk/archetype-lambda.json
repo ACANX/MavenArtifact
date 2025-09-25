@@ -3,9 +3,9 @@
 	"description":"The AWS SDK for Java - Maven archetype for Java lambda function using AWS Java SDK 2.x",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"archetype-lambda",
-	"version_latest":"2.34.3",
-	"ts_publish":1758749503000,
-	"ts_update":1758753149401,
+	"version_latest":"2.34.4",
+	"ts_publish":1758835746000,
+	"ts_update":1758837431240,
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -18,10 +18,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/archetypes/archetype-lambda",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/archetype-lambda@2.32.16",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/archetypes/archetype-lambda",
-	"dt_publish":"2025-09-25 05:31:43.000",
-	"dt_update":"2025-09-25 06:26:20.725",
-	"license":"Apache 2.0",
-	"ranking":"#981560 in MvnRepository",
+	"dt_publish":"2025-09-26 05:29:06.000",
+	"dt_update":"2025-09-26 05:56:14.638",
+	"license":"Apache",
+	"ranking":"#981705 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -32,6 +32,14 @@
 		"prototype"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.34.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250923",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.32.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250827",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.32.31",
 			"vulnerabilities":""
 		}
 	]
