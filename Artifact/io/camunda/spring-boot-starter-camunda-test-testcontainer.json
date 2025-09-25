@@ -3,12 +3,12 @@
 	"description":"This pom should be the parent of all specified modules. It defines all versions and provides\n    plugins that are required for the child modules.",
 	"group_id":"io.camunda",
 	"artifact_id":"spring-boot-starter-camunda-test-testcontainer",
-	"version_latest":"8.8.0-alpha8",
-	"ts_publish":1756982947000,
-	"dt_publish":"2025-09-04 18:49:07.000",
-	"ts_update":1756984420515,
-	"dt_update":"2025-09-04 19:12:48.550",
-	"count_dep":87,
+	"version_latest":"8.8.0-rc1",
+	"ts_publish":1758798016000,
+	"dt_publish":"2025-09-25 19:00:16.000",
+	"ts_update":1758799678806,
+	"dt_update":"2025-09-25 19:26:21.800",
+	"count_dep":88,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/camunda/zeebe-process-test/spring-boot-starter-camunda-test-pom/spring-boot-starter-camunda-test-testcontainer",
 	"home_page":"https://github.com/camunda-community-hub/zeebe-process-test-root/spring-boot-starter-camunda-test-pom/spring-boot-starter-camunda-test-testcontainer/",
 	"license":"Apache 2.0",
-	"ranking":"#794974 in MvnRepository",
+	"ranking":"#808242 in MvnRepository",
 	"tags":[
 		"spring",
 		"container",
@@ -34,6 +34,22 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.8.0-alpha8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.8.0-alpha8-rc3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"8.8.0-alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha2-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha1-rc1",
 			"vulnerabilities":""
 		}
 	]
