@@ -3,11 +3,11 @@
 	"description":"This POM provides a parent from which participating projects can declare their build configurations. It ensures that projects all use a compatible build environment, including Java version, as well as versions of dependencies and plugins.",
 	"group_id":"org.scijava",
 	"artifact_id":"pom-scijava",
-	"version_latest":"42.0.0",
-	"ts_publish":1754951090000,
-	"dt_publish":"2025-08-12 06:24:50.000",
-	"ts_update":1754951914811,
-	"dt_update":"2025-08-12 06:37:30.511",
+	"version_latest":"43.0.0",
+	"ts_publish":1758837308000,
+	"dt_publish":"2025-09-26 05:55:08.000",
+	"ts_update":1758838363894,
+	"dt_update":"2025-09-26 06:12:19.394",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -55,11 +55,19 @@
 	"count_used_by":1,
 	"home_page":"https://scijava.org/",
 	"license":"Unlicense",
-	"ranking":"#332990 in MvnRepository",
+	"ranking":"#339293 in MvnRepository",
 	"tags":[
 		"pom"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"42.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250716",
 			"repository":"Central",
@@ -210,14 +218,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"32.0.0-beta-4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220429",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"32.0.0-beta-3",
 			"vulnerabilities":""
 		}
 	]
