@@ -3,11 +3,11 @@
 	"description":"Keycloak Wildfly SAML Adapter Subsystem",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-saml-wildfly-subsystem",
-	"version_latest":"26.3.3",
-	"ts_publish":1755684272000,
-	"dt_publish":"2025-08-20 18:04:32.000",
-	"ts_update":1755685030785,
-	"dt_update":"2025-08-20 18:16:42.870",
+	"version_latest":"26.3.5",
+	"ts_publish":1758780827000,
+	"dt_publish":"2025-09-25 14:13:47.000",
+	"ts_update":1758783215683,
+	"dt_update":"2025-09-25 14:23:34.772",
 	"count_dep":213,
 	"count_ref":3,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-saml-wildfly-subsystem/",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#113344 in MvnRepository",
+	"ranking":"#114569 in MvnRepository",
 	"tags":[
 		"security",
 		"wildfly",
@@ -35,6 +35,22 @@
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.3.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"26.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241101",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.0.4",
 			"vulnerabilities":""
 		}
 	]
