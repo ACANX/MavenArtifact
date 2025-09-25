@@ -3,12 +3,12 @@
 	"description":"controller-test-karaf",
 	"group_id":"org.opendaylight.controller",
 	"artifact_id":"controller-test-karaf",
-	"version_latest":"11.0.2",
-	"ts_publish":1758061649000,
-	"dt_publish":"2025-09-17 06:27:29.000",
-	"ts_update":1758062677274,
-	"dt_update":"2025-09-17 06:44:24.813",
-	"count_dep":72,
+	"version_latest":"12.0.0",
+	"ts_publish":1758805111000,
+	"dt_publish":"2025-09-25 20:58:31.000",
+	"ts_update":1758814739605,
+	"dt_update":"2025-09-25 21:26:12.784",
+	"count_dep":73,
 	"count_ref":0,
 	"licenses":[
 		"Eclipse Public License v1.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://wiki.opendaylight.org/view/OpenDaylight_Controller:Main",
 	"url_ci_management":"https://jenkins.opendaylight.org/releng/",
 	"license":"EPL 1.0",
-	"ranking":"#825089 in MvnRepository",
+	"ranking":"#817362 in MvnRepository",
 	"tags":[
 		"testing",
 		"controller",
@@ -34,6 +34,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"11.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -48,6 +56,22 @@
 			"type":"release",
 			"usage":0,
 			"version":"11.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"10.0.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"10.0.13",
 			"vulnerabilities":""
 		},
 		{
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241113",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240831",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240606",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.4",
 			"vulnerabilities":""
 		}
 	]
