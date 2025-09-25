@@ -3,16 +3,14 @@
 	"description":"OpenDaylight Blueprint Extension",
 	"group_id":"org.opendaylight.controller",
 	"artifact_id":"blueprint",
-	"version_latest":"11.0.2",
-	"ts_publish":1758061623000,
-	"dt_publish":"2025-09-17 06:27:03.000",
-	"ts_update":1758062675205,
-	"dt_update":"2025-09-17 06:44:24.814",
-	"count_dep":75,
-	"count_ref":0,
-	"licenses":[
-		"Eclipse Public License v1.0"
-	],
+	"version_latest":"12.0.0",
+	"ts_publish":1758805086000,
+	"dt_publish":"2025-09-25 20:58:06.000",
+	"ts_update":1758807725470,
+	"dt_update":"2025-09-25 21:26:13.351",
+	"count_dep":60,
+	"count_ref":1,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -27,11 +25,19 @@
 	"url_ci_management":"https://jenkins.opendaylight.org/releng/",
 	"count_used_by":5,
 	"license":"EPL 1.0",
-	"ranking":"#98263 in MvnRepository",
+	"ranking":"#98394 in MvnRepository",
 	"tags":[
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -46,6 +52,22 @@
 			"type":"release",
 			"usage":1,
 			"version":"11.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"10.0.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"10.0.13",
 			"vulnerabilities":""
 		},
 		{
@@ -166,30 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"9.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241113",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240831",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240606",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.0.4",
 			"vulnerabilities":""
 		}
 	]
