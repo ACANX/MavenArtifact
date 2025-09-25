@@ -3,11 +3,11 @@
 	"description":"Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2 (centraldogma-client-armeria)",
 	"group_id":"com.linecorp.centraldogma",
 	"artifact_id":"centraldogma-client-armeria",
-	"version_latest":"0.77.3",
-	"ts_publish":1758613438000,
-	"dt_publish":"2025-09-23 15:43:58.000",
-	"ts_update":1758614241572,
-	"dt_update":"2025-09-23 15:56:11.705",
+	"version_latest":"0.77.4",
+	"ts_publish":1758796680000,
+	"dt_publish":"2025-09-25 18:38:00.000",
+	"ts_update":1758797472772,
+	"dt_update":"2025-09-25 18:47:40.093",
 	"count_dep":30,
 	"count_ref":9,
 	"licenses":[
@@ -23,15 +23,23 @@
 		"LINE Corporation"
 	],
 	"url_scm":"https://github.com/line/centraldogma",
-	"count_used_by":6,
+	"count_used_by":7,
 	"home_page":"https://line.github.io/centraldogma/",
 	"license":"Apache 2.0",
-	"ranking":"#81156 in MvnRepository",
+	"ranking":"#69370 in MvnRepository",
 	"tags":[
 		"armeria",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"0.77.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"0.67.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240628",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"0.66.1",
 			"vulnerabilities":""
 		}
 	]
