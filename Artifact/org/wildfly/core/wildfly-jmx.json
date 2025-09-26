@@ -3,12 +3,12 @@
 	"description":"WildFly: Core Parent Aggregator",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-jmx",
-	"version_latest":"30.0.0.Beta1",
-	"ts_publish":1758646870000,
-	"dt_publish":"2025-09-24 01:01:10.000",
-	"ts_update":1758647602634,
-	"dt_update":"2025-09-24 01:12:10.463",
-	"count_dep":120,
+	"version_latest":"30.0.0.Beta3",
+	"ts_publish":1758882636000,
+	"dt_publish":"2025-09-26 18:30:36.000",
+	"ts_update":1758887794007,
+	"dt_update":"2025-09-26 18:36:31.416",
+	"count_dep":171,
 	"count_ref":2,
 	"licenses":[
 		"Apache License 2.0"
@@ -30,13 +30,29 @@
 	"count_used_by":55,
 	"home_page":"https://github.com/wildfly/wildfly-core",
 	"license":"Apache 2.0",
-	"ranking":"#9011 in MvnRepository",
+	"ranking":"#9017 in MvnRepository",
 	"tags":[
 		"jmx",
 		"monitoring",
 		"wildfly"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"27.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241216",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta6",
 			"vulnerabilities":""
 		}
 	]
