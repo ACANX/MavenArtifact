@@ -3,11 +3,11 @@
 	"description":"APIs can be accessed using the TCP protocol.",
 	"group_id":"io.gravitee.apim.plugin.entrypoint",
 	"artifact_id":"gravitee-apim-plugin-entrypoint-tcp-proxy",
-	"version_latest":"4.9.0-alpha.2",
-	"ts_publish":1758186121000,
-	"dt_publish":"2025-09-18 17:02:01.000",
-	"ts_update":1758187003640,
-	"dt_update":"2025-09-18 17:16:26.295",
+	"version_latest":"4.9.0-alpha.3",
+	"ts_publish":1758893061000,
+	"dt_publish":"2025-09-26 21:24:21.000",
+	"ts_update":1758895125804,
+	"dt_update":"2025-09-26 21:48:21.513",
 	"count_dep":201,
 	"count_ref":0,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-plugin/gravitee-apim-plugin-entrypoint/gravitee-apim-plugin-entrypoint-tcp-proxy",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#256595 in MvnRepository",
+	"ranking":"#256949 in MvnRepository",
 	"tags":[
 		"plugin",
 		"network",
@@ -37,6 +37,14 @@
 		"proxy"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"4.9.0-alpha.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.7.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.7.7",
 			"vulnerabilities":""
 		}
 	]
