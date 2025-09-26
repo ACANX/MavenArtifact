@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-infrastructure-kafka-test",
-	"version_latest":"9.1.0",
-	"ts_publish":1758270960000,
-	"dt_publish":"2025-09-19 16:36:00.000",
-	"ts_update":1758271975991,
-	"dt_update":"2025-09-19 16:52:40.824",
+	"version_latest":"9.1.1",
+	"ts_publish":1758866623000,
+	"dt_publish":"2025-09-26 14:03:43.000",
+	"ts_update":1758871889459,
+	"dt_update":"2025-09-26 14:22:42.116",
 	"count_dep":100,
 	"count_ref":1,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-infrastructure-kafka-test",
 	"count_used_by":15,
 	"license":"Apache 2.0",
-	"ranking":"#31771 in MvnRepository",
+	"ranking":"#30839 in MvnRepository",
 	"tags":[
 		"admin",
 		"streaming",
@@ -31,6 +31,14 @@
 		"kafka"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"9.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"8.49.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.48.0",
 			"vulnerabilities":""
 		}
 	]
