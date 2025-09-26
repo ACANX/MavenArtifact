@@ -3,13 +3,13 @@
 	"description":"Parent pom providing dependency and plugin management for applications built with Maven",
 	"group_id":"org.chenile",
 	"artifact_id":"chenile-base",
-	"version_latest":"2.1.1",
-	"ts_publish":1758292156000,
-	"dt_publish":"2025-09-19 22:29:16.000",
-	"ts_update":1758293281220,
-	"dt_update":"2025-09-19 22:46:45.541",
+	"version_latest":"2.1.2",
+	"ts_publish":1758908214000,
+	"dt_publish":"2025-09-27 01:36:54.000",
+	"ts_update":1758908795661,
+	"dt_update":"2025-09-27 01:44:46.128",
 	"count_dep":35,
-	"count_ref":29,
+	"count_ref":6,
 	"licenses":[
 		"MIT License"
 	],
@@ -22,8 +22,24 @@
 	"url_scm":"https://github.com/spring-projects/spring-boot/chenile-parent/chenile-core-parent/chenile-base",
 	"count_used_by":3,
 	"license":"MIT",
-	"ranking":"#146717 in MvnRepository",
+	"ranking":"#159237 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.0.42",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -166,22 +182,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250105",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.0.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250104",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.0.8",
 			"vulnerabilities":""
 		}
 	]
