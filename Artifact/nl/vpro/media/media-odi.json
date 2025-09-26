@@ -3,11 +3,11 @@
 	"description":"Support for ODI authentication as required by NPO player.\n    Not sure whether this is still needed or used.\n\n    It also supports other 'location handlers'. I think this module is actually misnamed.",
 	"group_id":"nl.vpro.media",
 	"artifact_id":"media-odi",
-	"version_latest":"8.10.1",
-	"ts_publish":1758291847000,
-	"dt_publish":"2025-09-19 22:24:07.000",
-	"ts_update":1758293279933,
-	"dt_update":"2025-09-19 22:46:46.712",
+	"version_latest":"8.10.2",
+	"ts_publish":1758922097000,
+	"dt_publish":"2025-09-27 05:28:17.000",
+	"ts_update":1758923082857,
+	"dt_update":"2025-09-27 05:44:27.165",
 	"count_dep":94,
 	"count_ref":0,
 	"licenses":[
@@ -25,11 +25,19 @@
 	],
 	"url_scm":"https://github.com/npo-poms/poms-shared.git/media-odi",
 	"license":"GPL 3.0",
-	"ranking":"#444754 in MvnRepository",
+	"ranking":"#444649 in MvnRepository",
 	"tags":[
 		"media"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250824",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.2.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241004",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.2.3",
 			"vulnerabilities":""
 		}
 	]
