@@ -3,11 +3,11 @@
 	"description":"BOM for Google Cloud Spanner",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-spanner-bom",
-	"version_latest":"6.101.0",
-	"ts_publish":1758901364000,
-	"dt_publish":"2025-09-26 23:42:44.000",
-	"ts_update":1758905004776,
-	"dt_update":"2025-09-26 23:56:10.325",
+	"version_latest":"6.101.1",
+	"ts_publish":1758906816000,
+	"dt_publish":"2025-09-27 01:13:36.000",
+	"ts_update":1758907611360,
+	"dt_update":"2025-09-27 01:26:07.135",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/googleapis/java-spanner",
 	"home_page":"https://github.com/googleapis/java-spanner",
 	"license":"Apache 2.0",
-	"ranking":"#710949 in MvnRepository",
+	"ranking":"#811483 in MvnRepository",
 	"tags":[
 		"bom",
 		"google",
@@ -36,6 +36,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.100.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.86.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.85.0",
 			"vulnerabilities":""
 		}
 	]
