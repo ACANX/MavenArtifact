@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.am.gateway/gravitee-am-gateway-services-purge",
 	"group_id":"io.gravitee.am.gateway",
 	"artifact_id":"gravitee-am-gateway-services-purge",
-	"version_latest":"4.8.6",
-	"ts_publish":1758204066000,
-	"dt_publish":"2025-09-18 22:01:06.000",
-	"ts_update":1758205670538,
-	"dt_update":"2025-09-18 22:26:10.398",
-	"count_dep":14,
+	"version_latest":"4.8.7",
+	"ts_publish":1758895758000,
+	"dt_publish":"2025-09-26 22:09:18.000",
+	"ts_update":1758898021237,
+	"dt_update":"2025-09-26 22:26:16.045",
+	"count_dep":20,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Network Management",
 		"Proxies"
@@ -27,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-gateway/gravitee-am-gateway-services/gravitee-am-gateway-services-purge",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#353536 in MvnRepository",
+	"ranking":"#382335 in MvnRepository",
 	"tags":[
 		"service",
 		"gateway"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.8.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -79,6 +89,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"4.8.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.7.14",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +194,7 @@
 			"usage":1,
 			"version":"4.7.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250328",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"4.7.0-alpha.4",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }
