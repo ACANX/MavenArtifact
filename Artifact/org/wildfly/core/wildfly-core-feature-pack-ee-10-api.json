@@ -3,11 +3,11 @@
 	"description":"Parent for various legacy and Galleon feature pack modules",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-core-feature-pack-ee-10-api",
-	"version_latest":"29.0.1.Final",
-	"ts_publish":1756895461000,
-	"dt_publish":"2025-09-03 18:31:01.000",
-	"ts_update":1756896402199,
-	"dt_update":"2025-09-03 18:45:21.064",
+	"version_latest":"30.0.0.Beta3",
+	"ts_publish":1758882636000,
+	"dt_publish":"2025-09-26 18:30:36.000",
+	"ts_update":1758884184374,
+	"dt_update":"2025-09-26 18:36:32.318",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
@@ -28,12 +28,36 @@
 	"url_scm":"https://github.com/wildfly/wildfly-core",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#391999 in MvnRepository",
+	"ranking":"#354300 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"29.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"27.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241216",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta5",
 			"vulnerabilities":""
 		}
 	]
