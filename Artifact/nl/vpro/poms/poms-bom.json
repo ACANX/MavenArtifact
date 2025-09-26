@@ -3,11 +3,11 @@
 	"description":"The POMS Bill of Materials manages all versions of the projects in the 'POMS' universe. This can be imported in projects that are not themselves part of it. Poms modules itself will use 'poms-parent' and manage also all external dependencies.",
 	"group_id":"nl.vpro.poms",
 	"artifact_id":"poms-bom",
-	"version_latest":"8.10.0",
-	"ts_publish":1755985363000,
-	"dt_publish":"2025-08-24 05:42:43.000",
-	"ts_update":1755987298747,
-	"dt_update":"2025-08-24 06:13:49.329",
+	"version_latest":"8.10.2",
+	"ts_publish":1758907783000,
+	"dt_publish":"2025-09-27 01:29:43.000",
+	"ts_update":1758911223746,
+	"dt_update":"2025-09-27 01:44:46.131",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/npo-poms/poms-parent.git",
 	"home_page":"https://github.com/npo-poms/poms-parent",
 	"license":"GPL 3.0",
-	"ranking":"#913841 in MvnRepository",
+	"ranking":"#924643 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250823",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250523",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.3.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241025",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.3.2",
 			"vulnerabilities":""
 		}
 	]
