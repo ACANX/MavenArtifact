@@ -3,13 +3,13 @@
 	"description":"公共的工具集",
 	"group_id":"net.wicp.tams",
 	"artifact_id":"common-jdbc",
-	"version_latest":"7.0.2",
-	"ts_publish":1758894764000,
-	"dt_publish":"2025-09-26 21:52:44.000",
-	"ts_update":1758896157478,
-	"dt_update":"2025-09-26 22:14:00.428",
+	"version_latest":"7.0.3",
+	"ts_publish":1758952632000,
+	"dt_publish":"2025-09-27 13:57:12.000",
+	"ts_update":1758954525819,
+	"dt_update":"2025-09-27 14:26:10.030",
 	"count_dep":66,
-	"count_ref":11,
+	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -23,15 +23,23 @@
 		"zhoujunhui"
 	],
 	"url_scm":"https://github.com/rjzjh/commons/common-jdbc",
-	"count_used_by":15,
+	"count_used_by":17,
 	"license":"Apache 2.0",
-	"ranking":"#31094 in MvnRepository",
+	"ranking":"#26654 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
 		"jdbc"
 	],
 	"versions":[
+		{
+			"date":"20250914",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"7.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250720",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.5.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20180726",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.5.8",
 			"vulnerabilities":""
 		}
 	]
