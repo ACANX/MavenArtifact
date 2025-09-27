@@ -3,12 +3,12 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"docker-images",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875688000,
-	"dt_publish":"2025-07-30 19:41:28.000",
-	"ts_update":1757175511050,
-	"dt_update":"2025-09-07 00:16:39.880",
-	"count_dep":9,
+	"version_latest":"4.1.0",
+	"ts_publish":1756783139000,
+	"dt_publish":"2025-09-02 11:18:59.000",
+	"ts_update":1758990542989,
+	"dt_update":"2025-09-28 00:17:09.000",
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/apache/pulsar/docker-images",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"license":"Apache 2.0",
-	"ranking":"#494050 in MvnRepository",
+	"ranking":"#507270 in MvnRepository",
 	"tags":[
 		"image",
 		"docker",
@@ -31,6 +31,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240403",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.2",
 			"vulnerabilities":""
 		}
 	]

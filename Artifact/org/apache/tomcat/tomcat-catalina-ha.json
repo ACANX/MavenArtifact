@@ -3,13 +3,13 @@
 	"description":"Tomcat High Availability Implementation",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-catalina-ha",
-	"version_latest":"11.0.10",
-	"ts_publish":1753981254000,
-	"dt_publish":"2025-08-01 01:00:54.000",
-	"ts_update":1756571798059,
-	"dt_update":"2025-08-31 00:17:19.109",
+	"version_latest":"11.0.11",
+	"ts_publish":1756724561000,
+	"dt_publish":"2025-09-01 19:02:41.000",
+	"ts_update":1758990392636,
+	"dt_update":"2025-09-28 00:17:06.574",
 	"count_dep":0,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,7 +22,7 @@
 	"count_used_by":56,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#8704 in MvnRepository",
+	"ranking":"#8766 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
@@ -30,6 +30,14 @@
 		"tomcat"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.0.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250731",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"11.0.0-M18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240219",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"11.0.0-M17",
 			"vulnerabilities":""
 		}
 	]
