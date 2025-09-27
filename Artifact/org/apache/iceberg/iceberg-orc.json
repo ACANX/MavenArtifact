@@ -3,13 +3,13 @@
 	"description":"A table format for huge analytic datasets",
 	"group_id":"org.apache.iceberg",
 	"artifact_id":"iceberg-orc",
-	"version_latest":"1.9.2",
-	"ts_publish":1751651951000,
-	"dt_publish":"2025-07-05 01:59:11.000",
-	"ts_update":1755361141445,
-	"dt_update":"2025-08-17 00:18:00.341",
+	"version_latest":"1.10.0",
+	"ts_publish":1757095860000,
+	"dt_publish":"2025-09-06 02:11:00.000",
+	"ts_update":1758991588382,
+	"dt_update":"2025-09-28 00:17:13.876",
 	"count_dep":7,
-	"count_ref":8,
+	"count_ref":9,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -20,20 +20,28 @@
 	"url_project":"https://iceberg.apache.org",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.iceberg/iceberg-orc@1.9.2",
 	"url_issue_management":"https://github.com/apache/iceberg/issues",
-	"count_used_by":40,
+	"count_used_by":42,
 	"home_page":"https://iceberg.apache.org",
 	"license":"Apache 2.0",
-	"ranking":"#11933 in MvnRepository",
+	"ranking":"#11527 in MvnRepository",
 	"tags":[
 		"apache",
 		"iceberg"
 	],
 	"versions":[
 		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"1.10.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250716",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"1.9.2",
 			"vulnerabilities":""
 		},
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"1.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230411",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"1.2.1",
 			"vulnerabilities":""
 		}
 	]

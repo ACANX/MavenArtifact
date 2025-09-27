@@ -3,13 +3,13 @@
 	"description":"Groovy: A powerful multi-faceted language for the JVM",
 	"group_id":"org.apache.groovy",
 	"artifact_id":"groovy-templates",
-	"version_latest":"5.0.0",
-	"ts_publish":1754214206000,
-	"dt_publish":"2025-08-03 17:43:26.000",
-	"ts_update":1757176519545,
-	"dt_update":"2025-09-07 00:16:53.328",
+	"version_latest":"5.0.1",
+	"ts_publish":1757277796000,
+	"dt_publish":"2025-09-08 04:43:16.000",
+	"ts_update":1758991597207,
+	"dt_update":"2025-09-28 00:17:23.666",
 	"count_dep":2,
-	"count_ref":8,
+	"count_ref":12,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -211,10 +211,10 @@
 		"Matt Foemmel"
 	],
 	"url_scm":"https://github.com/apache/groovy.git",
-	"count_used_by":588,
+	"count_used_by":599,
 	"home_page":"https://groovy-lang.org",
 	"license":"Apache 2.0",
-	"ranking":"#1020 in MvnRepository",
+	"ranking":"#1014 in MvnRepository",
 	"tags":[
 		"apache",
 		"groovy",
@@ -222,10 +222,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"5.0.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250821",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":8,
 			"version":"5.0.0",
 			"vulnerabilities":""
 		},
@@ -369,16 +377,8 @@
 			"date":"20250228",
 			"repository":"Central",
 			"type":"release",
-			"usage":28,
+			"usage":38,
 			"version":"4.0.26",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250125",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"4.0.25",
 			"vulnerabilities":""
 		}
 	]
