@@ -3,13 +3,13 @@
 	"description":"Migration recipes (using openrewrite) for Camel Core to make Maven migrations easier",
 	"group_id":"org.apache.camel.upgrade",
 	"artifact_id":"camel-upgrade-recipes",
-	"version_latest":"4.13.0",
-	"ts_publish":1753771807000,
-	"dt_publish":"2025-07-29 14:50:07.000",
-	"ts_update":1755966381001,
-	"dt_update":"2025-08-24 00:17:45.954",
-	"count_dep":43,
-	"count_ref":4,
+	"version_latest":"4.14.0.1",
+	"ts_publish":1756725283000,
+	"dt_publish":"2025-09-01 19:14:43.000",
+	"ts_update":1759003105105,
+	"dt_update":"2025-09-28 00:17:07.568",
+	"count_dep":44,
+	"count_ref":6,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,17 +23,33 @@
 	"url_scm":"https://github.com/apache/camel-upgrade-recipes/camel-upgrade-recipes",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#132695 in MvnRepository",
+	"ranking":"#134791 in MvnRepository",
 	"tags":[
 		"apache",
 		"camel"
 	],
 	"versions":[
 		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.14.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.14.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250729",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"4.13.0",
 			"vulnerabilities":""
 		},
