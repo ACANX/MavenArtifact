@@ -3,12 +3,12 @@
 	"description":"GCP Credentials based on Athenz ZTS Tokens",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-gcp-zts-creds",
-	"version_latest":"1.12.25",
-	"ts_publish":1758045355000,
-	"dt_publish":"2025-09-17 01:55:55.000",
-	"ts_update":1758046919101,
-	"dt_update":"2025-09-17 02:21:35.435",
-	"count_dep":95,
+	"version_latest":"1.12.26",
+	"ts_publish":1758940792000,
+	"dt_publish":"2025-09-27 10:39:52.000",
+	"ts_update":1758942023965,
+	"dt_update":"2025-09-27 10:56:07.259",
+	"count_dep":96,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,11 +26,19 @@
 	"url_scm":"https://github.com/AthenZ/athenz/athenz-gcp-zts-creds",
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
 	"license":"Apache 2.0",
-	"ranking":"#779558 in MvnRepository",
+	"ranking":"#669008 in MvnRepository",
 	"tags":[
 		"gcp"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12.25",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250830",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.12.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.12.5",
 			"vulnerabilities":""
 		}
 	]
