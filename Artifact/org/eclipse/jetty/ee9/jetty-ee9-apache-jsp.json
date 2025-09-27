@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.eclipse.jetty.ee9/jetty-ee9-apache-jsp",
 	"group_id":"org.eclipse.jetty.ee9",
 	"artifact_id":"jetty-ee9-apache-jsp",
-	"version_latest":"12.1.0",
-	"ts_publish":1755234795000,
-	"dt_publish":"2025-08-15 13:13:15.000",
-	"ts_update":1757176469554,
-	"dt_update":"2025-09-07 00:17:24.924",
+	"version_latest":"12.1.1",
+	"ts_publish":1757306787000,
+	"dt_publish":"2025-09-08 12:46:27.000",
+	"ts_update":1758995869452,
+	"dt_update":"2025-09-28 00:17:23.660",
 	"count_dep":0,
-	"count_ref":5,
+	"count_ref":7,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.jetty.ee9/jetty-ee9-apache-jsp@12.1.0.beta2",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#60747 in MvnRepository",
+	"ranking":"#60789 in MvnRepository",
 	"tags":[
 		"server",
 		"eclipse",
@@ -27,6 +27,14 @@
 		"jetty"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"12.1.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -89,6 +97,22 @@
 			"type":"alpha",
 			"usage":6,
 			"version":"12.1.0.alpha0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"12.0.27",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"12.0.26",
 			"vulnerabilities":""
 		},
 		{
@@ -161,30 +185,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"12.0.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241211",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"12.0.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241107",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"12.0.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240930",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"12.0.14",
 			"vulnerabilities":""
 		}
 	]
