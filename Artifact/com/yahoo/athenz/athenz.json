@@ -3,11 +3,11 @@
 	"description":"Open source platform for X.509 certificate based service authentication\n    and fine-grained access control in dynamic infrastructures. Athenz\n    supports provisioning and configuration (centralized authorization) use\n    cases as well as serving/runtime (decentralized authorization) use cases.",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz",
-	"version_latest":"1.12.25",
-	"ts_publish":1758039362000,
-	"dt_publish":"2025-09-17 00:16:02.000",
-	"ts_update":1758040989254,
-	"dt_update":"2025-09-17 00:41:37.930",
+	"version_latest":"1.12.26",
+	"ts_publish":1758937357000,
+	"dt_publish":"2025-09-27 09:42:37.000",
+	"ts_update":1758938418038,
+	"dt_update":"2025-09-27 09:56:09.159",
 	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
@@ -27,8 +27,24 @@
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
 	"home_page":"https://github.com/AthenZ/athenz",
 	"license":"Apache 2.0",
-	"ranking":"#709463 in MvnRepository",
+	"ranking":"#722425 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12.25",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12.24",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.12.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.12.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241116",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.12.4",
 			"vulnerabilities":""
 		}
 	]
