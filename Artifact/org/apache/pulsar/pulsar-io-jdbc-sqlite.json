@@ -3,12 +3,12 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-io-jdbc-sqlite",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875545000,
-	"dt_publish":"2025-07-30 19:39:05.000",
-	"ts_update":1757177154772,
-	"dt_update":"2025-09-07 00:16:39.279",
-	"count_dep":103,
+	"version_latest":"4.1.0",
+	"ts_publish":1756782213000,
+	"dt_publish":"2025-09-02 11:03:33.000",
+	"ts_update":1758997588312,
+	"dt_update":"2025-09-28 00:17:08.509",
+	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,7 +24,7 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#342389 in MvnRepository",
+	"ranking":"#347651 in MvnRepository",
 	"tags":[
 		"sqlite",
 		"database",
@@ -35,6 +35,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240403",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.2.2",
 			"vulnerabilities":""
 		}
 	]
