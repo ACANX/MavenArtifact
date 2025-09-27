@@ -3,11 +3,11 @@
 	"description":"Maven Artifact Transport Jetty.",
 	"group_id":"org.apache.maven.resolver",
 	"artifact_id":"maven-resolver-transport-jetty",
-	"version_latest":"2.0.10",
-	"ts_publish":1750963130000,
-	"dt_publish":"2025-06-27 02:38:50.000",
-	"ts_update":1755362431173,
-	"dt_update":"2025-08-17 00:17:37.107",
+	"version_latest":"2.0.11",
+	"ts_publish":1757335475000,
+	"dt_publish":"2025-09-08 20:44:35.000",
+	"ts_update":1759015749678,
+	"dt_update":"2025-09-28 00:17:24.141",
 	"count_dep":23,
 	"count_ref":1,
 	"licenses":[
@@ -119,7 +119,7 @@
 	"url_ci_management":"https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-resolver/",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#321590 in MvnRepository",
+	"ranking":"#391944 in MvnRepository",
 	"tags":[
 		"server",
 		"build",
@@ -132,6 +132,14 @@
 		"jetty"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.0.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250701",
 			"repository":"Central",
@@ -282,14 +290,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"2.0.0-alpha-2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231106",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"2.0.0-alpha-1",
 			"vulnerabilities":""
 		}
 	]
