@@ -3,13 +3,13 @@
 	"description":"Definition of interfaces shared by Catalina and Jasper",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-api",
-	"version_latest":"11.0.10",
-	"ts_publish":1753981341000,
-	"dt_publish":"2025-08-01 01:02:21.000",
-	"ts_update":1756573024146,
-	"dt_update":"2025-08-31 00:17:19.556",
+	"version_latest":"11.0.11",
+	"ts_publish":1756724656000,
+	"dt_publish":"2025-09-01 19:04:16.000",
+	"ts_update":1758998550603,
+	"dt_update":"2025-09-28 00:17:07.098",
 	"count_dep":0,
-	"count_ref":28,
+	"count_ref":15,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,7 +22,7 @@
 	"count_used_by":50,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#9678 in MvnRepository",
+	"ranking":"#9789 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
@@ -31,6 +31,22 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250731",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.0.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250704",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"11.0.0-M18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240219",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":3,
-			"version":"11.0.0-M17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240109",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":3,
-			"version":"11.0.0-M16",
 			"vulnerabilities":""
 		}
 	]
