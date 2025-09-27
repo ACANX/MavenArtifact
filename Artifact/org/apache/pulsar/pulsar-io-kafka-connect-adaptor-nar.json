@@ -3,12 +3,12 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-io-kafka-connect-adaptor-nar",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875572000,
-	"dt_publish":"2025-07-30 19:39:32.000",
-	"ts_update":1757178708849,
-	"dt_update":"2025-09-07 00:16:39.276",
-	"count_dep":131,
+	"version_latest":"4.1.0",
+	"ts_publish":1756782426000,
+	"dt_publish":"2025-09-02 11:07:06.000",
+	"ts_update":1759002308000,
+	"dt_update":"2025-09-28 00:17:08.506",
+	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,7 +24,7 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#311011 in MvnRepository",
+	"ranking":"#315986 in MvnRepository",
 	"tags":[
 		"streaming",
 		"kafka",
@@ -34,6 +34,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240404",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.2.2",
 			"vulnerabilities":""
 		}
 	]
