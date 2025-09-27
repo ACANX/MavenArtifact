@@ -3,12 +3,12 @@
 	"description":"Athenz authentication plugin for java client",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-client-auth-athenz",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875414000,
-	"dt_publish":"2025-07-30 19:36:54.000",
-	"ts_update":1757176455517,
-	"dt_update":"2025-09-07 00:16:37.921",
-	"count_dep":168,
+	"version_latest":"4.1.0",
+	"ts_publish":1756780856000,
+	"dt_publish":"2025-09-02 10:40:56.000",
+	"ts_update":1758990952733,
+	"dt_update":"2025-09-28 00:17:07.565",
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,7 +24,7 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#103202 in MvnRepository",
+	"ranking":"#103929 in MvnRepository",
 	"tags":[
 		"authentication",
 		"apache",
@@ -32,6 +32,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -108,7 +116,7 @@
 			"date":"20250523",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"3.3.7",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240403",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.2",
 			"vulnerabilities":""
 		}
 	]
