@@ -3,12 +3,12 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-proxy",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875404000,
-	"dt_publish":"2025-07-30 19:36:44.000",
-	"ts_update":1757175472594,
-	"dt_update":"2025-09-07 00:16:37.922",
-	"count_dep":203,
+	"version_latest":"4.1.0",
+	"ts_publish":1756780805000,
+	"dt_publish":"2025-09-02 10:40:05.000",
+	"ts_update":1758997280907,
+	"dt_update":"2025-09-28 00:17:07.567",
+	"count_dep":0,
 	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,13 +24,21 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#126174 in MvnRepository",
+	"ranking":"#127032 in MvnRepository",
 	"tags":[
 		"apache",
 		"proxy",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240403",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.2.2",
 			"vulnerabilities":""
 		}
 	]
