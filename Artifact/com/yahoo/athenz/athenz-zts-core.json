@@ -3,13 +3,13 @@
 	"description":"Core ZTS Interfaces",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-zts-core",
-	"version_latest":"1.12.25",
-	"ts_publish":1758040907000,
-	"dt_publish":"2025-09-17 00:41:47.000",
-	"ts_update":1758041629727,
-	"dt_update":"2025-09-17 00:53:04.251",
+	"version_latest":"1.12.26",
+	"ts_publish":1758937914000,
+	"dt_publish":"2025-09-27 09:51:54.000",
+	"ts_update":1758939985049,
+	"dt_update":"2025-09-27 10:26:12.455",
 	"count_dep":10,
-	"count_ref":0,
+	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,8 +27,16 @@
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#71387 in MvnRepository",
+	"ranking":"#71564 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.12.25",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"1.12.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"1.12.5",
 			"vulnerabilities":""
 		}
 	]
