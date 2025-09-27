@@ -3,13 +3,13 @@
 	"description":"Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
 	"group_id":"org.apache.tika",
 	"artifact_id":"tika-parser-miscoffice-module",
-	"version_latest":"3.2.2",
-	"ts_publish":1754499875000,
-	"dt_publish":"2025-08-07 01:04:35.000",
-	"ts_update":1757781293539,
-	"dt_update":"2025-09-14 00:16:01.592",
+	"version_latest":"3.2.3",
+	"ts_publish":1757601757000,
+	"dt_publish":"2025-09-11 22:42:37.000",
+	"ts_update":1758993127133,
+	"dt_update":"2025-09-28 00:17:27.583",
 	"count_dep":32,
-	"count_ref":25,
+	"count_ref":9,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -47,7 +47,7 @@
 	"url_ci_management":"https://ci-builds.apache.org/job/Tika/",
 	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#36120 in MvnRepository",
+	"ranking":"#35727 in MvnRepository",
 	"tags":[
 		"module",
 		"parser",
@@ -55,6 +55,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.2.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -205,14 +213,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211223",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.2.1",
 			"vulnerabilities":""
 		}
 	]

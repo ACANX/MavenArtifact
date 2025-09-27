@@ -3,11 +3,11 @@
 	"description":"Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
 	"group_id":"org.apache.tika",
 	"artifact_id":"tika-parser-jdbc-commons",
-	"version_latest":"3.2.2",
-	"ts_publish":1754500006000,
-	"dt_publish":"2025-08-07 01:06:46.000",
-	"ts_update":1757781320327,
-	"dt_update":"2025-09-14 00:16:01.588",
+	"version_latest":"3.2.3",
+	"ts_publish":1757601892000,
+	"dt_publish":"2025-09-11 22:44:52.000",
+	"ts_update":1758993211835,
+	"dt_update":"2025-09-28 00:17:28.095",
 	"count_dep":6,
 	"count_ref":2,
 	"licenses":[
@@ -47,7 +47,7 @@
 	"url_ci_management":"https://ci-builds.apache.org/job/Tika/",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#358730 in MvnRepository",
+	"ranking":"#400034 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -58,6 +58,14 @@
 		"commons"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -208,14 +216,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211223",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.2.1",
 			"vulnerabilities":""
 		}
 	]

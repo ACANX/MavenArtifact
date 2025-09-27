@@ -3,13 +3,13 @@
 	"description":"Core Tomcat implementation",
 	"group_id":"org.apache.tomcat.embed",
 	"artifact_id":"tomcat-embed-websocket",
-	"version_latest":"11.0.10",
-	"ts_publish":1753981443000,
-	"dt_publish":"2025-08-01 01:04:03.000",
-	"ts_update":1756571210524,
-	"dt_update":"2025-08-31 00:17:19.987",
+	"version_latest":"11.0.11",
+	"ts_publish":1756724762000,
+	"dt_publish":"2025-09-01 19:06:02.000",
+	"ts_update":1758993126047,
+	"dt_update":"2025-09-28 00:17:07.569",
 	"count_dep":0,
-	"count_ref":5,
+	"count_ref":19,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,10 +19,10 @@
 	"dsv":1,
 	"url_project":"https://tomcat.apache.org/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@11.0.10",
-	"count_used_by":276,
+	"count_used_by":291,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#2094 in MvnRepository",
+	"ranking":"#2036 in MvnRepository",
 	"tags":[
 		"embedded",
 		"network",
@@ -37,6 +37,22 @@
 		"tomcat"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"11.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250731",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.0.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250704",
 			"repository":"Central",
@@ -57,7 +73,7 @@
 			"date":"20250513",
 			"repository":"Central",
 			"type":"release",
-			"usage":36,
+			"usage":38,
 			"version":"11.0.7",
 			"vulnerabilities":""
 		},
@@ -65,7 +81,7 @@
 			"date":"20250409",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"11.0.6",
 			"vulnerabilities":""
 		},
@@ -180,22 +196,6 @@
 			"usage":0,
 			"version":"11.0.0-M18",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240219",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"11.0.0-M17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240109",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"11.0.0-M16",
-			"vulnerabilities":"1 vulnerability"
 		}
 	]
 }
