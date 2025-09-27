@@ -3,13 +3,13 @@
 	"description":"A transport implementation for repositories using file:// URLs.",
 	"group_id":"org.apache.maven.resolver",
 	"artifact_id":"maven-resolver-transport-file",
-	"version_latest":"2.0.10",
-	"ts_publish":1750963125000,
-	"dt_publish":"2025-06-27 02:38:45.000",
-	"ts_update":1755363191044,
-	"dt_update":"2025-08-17 00:17:37.108",
-	"count_dep":0,
-	"count_ref":7,
+	"version_latest":"2.0.11",
+	"ts_publish":1757335471000,
+	"dt_publish":"2025-09-08 20:44:31.000",
+	"ts_update":1759011288373,
+	"dt_update":"2025-09-28 00:17:24.142",
+	"count_dep":11,
+	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -117,10 +117,10 @@
 	],
 	"url_scm":"https://github.com/apache/maven-resolver/tree/maven-resolver-1.9.24/maven-resolver-transport-file",
 	"url_ci_management":"https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-resolver/",
-	"count_used_by":195,
+	"count_used_by":197,
 	"home_page":"https://maven.apache.org/resolver/",
 	"license":"Apache 2.0",
-	"ranking":"#2811 in MvnRepository",
+	"ranking":"#2826 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
@@ -132,10 +132,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250701",
+			"date":"20250911",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"2.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250701",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
 			"version":"2.0.10",
 			"vulnerabilities":""
 		},
@@ -281,14 +289,6 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"2.0.0-alpha-2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231106",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"2.0.0-alpha-1",
 			"vulnerabilities":""
 		}
 	]
