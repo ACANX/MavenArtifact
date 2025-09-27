@@ -3,13 +3,13 @@
 	"description":"Syncer Common Logic",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-syncer-common",
-	"version_latest":"1.12.25",
-	"ts_publish":1758047285000,
-	"dt_publish":"2025-09-17 02:28:05.000",
-	"ts_update":1758048312028,
-	"dt_update":"2025-09-17 02:44:07.498",
+	"version_latest":"1.12.26",
+	"ts_publish":1758942110000,
+	"dt_publish":"2025-09-27 11:01:50.000",
+	"ts_update":1758947798642,
+	"dt_update":"2025-09-27 11:26:08.519",
 	"count_dep":32,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,8 +26,16 @@
 	"url_scm":"https://github.com/AthenZ/athenz/athenz-syncer-common",
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
 	"license":"Apache 2.0",
-	"ranking":"#195911 in MvnRepository",
+	"ranking":"#190404 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.12.25",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250830",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.12.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.12.5",
 			"vulnerabilities":""
 		}
 	],
