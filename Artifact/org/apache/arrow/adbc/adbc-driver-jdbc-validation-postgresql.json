@@ -3,11 +3,11 @@
 	"description":"Tests validating the JDBC driver against Postgresql.",
 	"group_id":"org.apache.arrow.adbc",
 	"artifact_id":"adbc-driver-jdbc-validation-postgresql",
-	"version_latest":"0.19.0",
-	"ts_publish":1751432140000,
-	"dt_publish":"2025-07-02 12:55:40.000",
-	"ts_update":1755363366377,
-	"dt_update":"2025-08-17 00:17:44.467",
+	"version_latest":"0.20.0",
+	"ts_publish":1757399357000,
+	"dt_publish":"2025-09-09 14:29:17.000",
+	"ts_update":1759008538899,
+	"dt_update":"2025-09-28 00:17:25.111",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
@@ -19,7 +19,7 @@
 	"url_issue_management":"https://issues.apache.org/jira/browse/arrow",
 	"url_scm":"https://github.com/apache/arrow-adbc/adbc-driver-jdbc-validation-postgresql",
 	"license":"Apache 2.0",
-	"ranking":"#585620 in MvnRepository",
+	"ranking":"#600511 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -31,6 +31,14 @@
 		"arrow"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.20.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230110",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.1.0",
 			"vulnerabilities":""
 		}
 	]
