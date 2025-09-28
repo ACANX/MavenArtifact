@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.noear/solon-flow-eval-magic",
 	"group_id":"org.noear",
 	"artifact_id":"solon-flow-eval-magic",
-	"version_latest":"3.6.0-M1",
-	"ts_publish":1758811760000,
-	"dt_publish":"2025-09-25 22:49:20.000",
-	"ts_update":1758817453477,
-	"dt_update":"2025-09-25 23:16:28.314",
+	"version_latest":"3.6.0-M2",
+	"ts_publish":1759063130000,
+	"dt_publish":"2025-09-28 20:38:50.000",
+	"ts_update":1759067354833,
+	"dt_update":"2025-09-28 20:56:13.562",
 	"count_dep":5,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -21,11 +23,19 @@
 	],
 	"url_scm":"https://github.com/opensolon/solon/solon-flow-parent/solon-flow-eval-magic",
 	"license":"Apache 2.0",
-	"ranking":"#835477 in MvnRepository",
+	"ranking":"#849037 in MvnRepository",
 	"tags":[
 		"evaluation"
 	],
 	"versions":[
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"3.6.0-M1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -177,14 +187,7 @@
 			"usage":0,
 			"version":"3.4.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250724",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.1-RC",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Java project for solon"
 }
