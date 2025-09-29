@@ -3,16 +3,14 @@
 	"description":"HTTP client wrapper around an Apache http client 5",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"http-client",
-	"version_latest":"8.584.45",
-	"ts_publish":1758703401000,
-	"dt_publish":"2025-09-24 16:43:21.000",
-	"ts_update":1758704208271,
-	"dt_update":"2025-09-24 16:56:13.159",
-	"count_dep":15,
+	"version_latest":"8.585.41",
+	"ts_publish":1759111610000,
+	"dt_publish":"2025-09-29 10:06:50.000",
+	"ts_update":1759121951919,
+	"dt_update":"2025-09-29 10:26:09.797",
+	"count_dep":8,
 	"count_ref":0,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -26,12 +24,20 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/http-client",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#417285 in MvnRepository",
+	"ranking":"#415549 in MvnRepository",
 	"tags":[
 		"client",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.584.45",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -182,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.559.30",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250731",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.558.9",
 			"vulnerabilities":""
 		}
 	]
