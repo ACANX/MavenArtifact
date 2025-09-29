@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/clustercontroller-reindexer",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"clustercontroller-reindexer",
-	"version_latest":"8.585.41",
-	"ts_publish":1759111610000,
-	"dt_publish":"2025-09-29 10:06:50.000",
-	"ts_update":1759112948529,
-	"dt_update":"2025-09-29 10:26:09.791",
-	"count_dep":9,
+	"version_latest":"8.586.25",
+	"ts_publish":1759156495000,
+	"dt_publish":"2025-09-29 22:34:55.000",
+	"ts_update":1759168068083,
+	"dt_update":"2025-09-29 23:46:19.712",
+	"count_dep":96,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -22,7 +24,7 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/clustercontroller-reindexer",
 	"license":"Apache 2.0",
-	"ranking":"#773076 in MvnRepository",
+	"ranking":"#775980 in MvnRepository",
 	"tags":[
 		"cluster"
 	],
@@ -187,5 +189,6 @@
 			"version":"8.559.30",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }
