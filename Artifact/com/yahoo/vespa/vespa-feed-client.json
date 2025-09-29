@@ -3,13 +3,13 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"vespa-feed-client",
-	"version_latest":"8.585.41",
-	"ts_publish":1759111610000,
-	"dt_publish":"2025-09-29 10:06:50.000",
-	"ts_update":1759116437274,
-	"dt_update":"2025-09-29 10:26:10.492",
+	"version_latest":"8.586.25",
+	"ts_publish":1759156495000,
+	"dt_publish":"2025-09-29 22:34:55.000",
+	"ts_update":1759159611307,
+	"dt_update":"2025-09-29 23:26:13.820",
 	"count_dep":19,
-	"count_ref":2,
+	"count_ref":3,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,11 +26,19 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/vespa-feed-client",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#117240 in MvnRepository",
+	"ranking":"#117300 in MvnRepository",
 	"tags":[
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.585.41",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.560.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.559.30",
 			"vulnerabilities":""
 		}
 	]
