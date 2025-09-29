@@ -2,16 +2,14 @@
 	"id":"pkg:maven/pro.shushi.pamirs.framework/pamirs-framework-orm-client",
 	"group_id":"pro.shushi.pamirs.framework",
 	"artifact_id":"pamirs-framework-orm-client",
-	"version_latest":"6.3.1",
-	"ts_publish":1757584771000,
-	"dt_publish":"2025-09-11 17:59:31.000",
-	"ts_update":1757586381563,
-	"dt_update":"2025-09-11 18:26:02.833",
-	"count_dep":236,
-	"count_ref":0,
-	"licenses":[
-		"GNU AFFERO GENERAL PUBLIC LICENSE, Version 3"
-	],
+	"version_latest":"6.3.3",
+	"ts_publish":1759114614000,
+	"dt_publish":"2025-09-29 10:56:54.000",
+	"ts_update":1759116594260,
+	"dt_update":"2025-09-29 11:26:15.014",
+	"count_dep":76,
+	"count_ref":2,
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/oinone/pamirs-framework/pamirs-framework-orm-client",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/pro.shushi.pamirs.framework/pamirs-framework-orm-client@6.2.12",
@@ -21,7 +19,7 @@
 	"url_scm":"https://github.com/oinone/pamirs-framework/pamirs-framework-orm-client",
 	"count_used_by":3,
 	"license":"AGPL 3.0",
-	"ranking":"#144550 in MvnRepository",
+	"ranking":"#167384 in MvnRepository",
 	"tags":[
 		"persistence",
 		"orm",
@@ -30,11 +28,35 @@
 	],
 	"versions":[
 		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"6.3.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"6.3.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250905",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
 			"version":"6.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"6.2.18",
 			"vulnerabilities":""
 		},
 		{
@@ -164,23 +186,6 @@
 			"usage":3,
 			"version":"6.2.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250609",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"6.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"6.2.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"oinone pamirs"
+	]
 }

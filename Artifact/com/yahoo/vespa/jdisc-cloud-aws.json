@@ -2,16 +2,14 @@
 	"id":"pkg:maven/com.yahoo.vespa/jdisc-cloud-aws",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"jdisc-cloud-aws",
-	"version_latest":"8.584.45",
-	"ts_publish":1758703401000,
-	"dt_publish":"2025-09-24 16:43:21.000",
-	"ts_update":1758706064418,
-	"dt_update":"2025-09-24 16:56:12.670",
-	"count_dep":67,
+	"version_latest":"8.585.41",
+	"ts_publish":1759111610000,
+	"dt_publish":"2025-09-29 10:06:50.000",
+	"ts_update":1759116443920,
+	"dt_update":"2025-09-29 10:26:11.809",
+	"count_dep":12,
 	"count_ref":0,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -24,13 +22,21 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/jdisc-cloud-aws",
 	"license":"Apache 2.0",
-	"ranking":"#963501 in MvnRepository",
+	"ranking":"#960622 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.584.45",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -182,15 +188,6 @@
 			"usage":0,
 			"version":"8.559.30",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250731",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.558.9",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent artifact for all Vespa maven projects."
+	]
 }
