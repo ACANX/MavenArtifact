@@ -2,16 +2,14 @@
 	"id":"pkg:maven/com.yahoo.vespa/jrt",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"jrt",
-	"version_latest":"8.584.45",
-	"ts_publish":1758703401000,
-	"dt_publish":"2025-09-24 16:43:21.000",
-	"ts_update":1758704277433,
-	"dt_update":"2025-09-24 16:56:13.631",
+	"version_latest":"8.585.41",
+	"ts_publish":1759111610000,
+	"dt_publish":"2025-09-29 10:06:50.000",
+	"ts_update":1759119778548,
+	"dt_update":"2025-09-29 10:26:11.199",
 	"count_dep":5,
-	"count_ref":32,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"count_ref":34,
+	"licenses":[],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -25,8 +23,56 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/jrt",
 	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#29573 in MvnRepository",
+	"ranking":"#29725 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.584.45",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.583.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.582.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.579.17",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.578.22",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.577.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -138,55 +184,6 @@
 			"usage":13,
 			"version":"8.559.30",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250731",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.558.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250730",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.557.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250729",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.556.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250728",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.555.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.554.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250722",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.553.3",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent artifact for all Vespa maven projects."
+	]
 }
