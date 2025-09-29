@@ -3,11 +3,11 @@
 	"description":"A Helidon gRPC plugin with PBJ",
 	"group_id":"com.hedera.pbj",
 	"artifact_id":"pbj-grpc-helidon",
-	"version_latest":"0.11.15",
-	"ts_publish":1755562185000,
-	"dt_publish":"2025-08-19 08:09:45.000",
-	"ts_update":1755563211084,
-	"dt_update":"2025-08-19 08:25:49.460",
+	"version_latest":"0.11.16",
+	"ts_publish":1759163980000,
+	"dt_publish":"2025-09-30 00:39:40.000",
+	"ts_update":1759173254564,
+	"dt_update":"2025-09-30 00:56:10.706",
 	"count_dep":38,
 	"count_ref":0,
 	"licenses":[
@@ -23,13 +23,21 @@
 	"url_scm":"https://github.com/hiero-ledger/pbj-core",
 	"home_page":"https://hiero.org/",
 	"license":"Apache 2.0",
-	"ranking":"#587118 in MvnRepository",
+	"ranking":"#305040 in MvnRepository",
 	"tags":[
 		"grpc",
 		"rpc",
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.11.15",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -181,14 +189,7 @@
 			"usage":0,
 			"version":"0.10.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250301",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.9.20",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
