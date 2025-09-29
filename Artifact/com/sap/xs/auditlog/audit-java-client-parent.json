@@ -3,11 +3,11 @@
 	"description":"Java Client Parent for Auditlog",
 	"group_id":"com.sap.xs.auditlog",
 	"artifact_id":"audit-java-client-parent",
-	"version_latest":"3.1.7",
-	"ts_publish":1754601137000,
-	"dt_publish":"2025-08-08 05:12:17.000",
-	"ts_update":1754602479134,
-	"dt_update":"2025-08-08 05:33:53.325",
+	"version_latest":"3.1.8",
+	"ts_publish":1759174345000,
+	"dt_publish":"2025-09-30 03:32:25.000",
+	"ts_update":1759179601099,
+	"dt_update":"2025-09-30 03:44:33.054",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -20,13 +20,21 @@
 		"SAP SE"
 	],
 	"url_scm":"https://github.wdf.sap.corp/xs-audit-log/audit-java-client",
-	"ranking":"#728184 in MvnRepository",
+	"ranking":"#838814 in MvnRepository",
 	"tags":[
 		"client",
 		"audit",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.1.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250507",
 			"repository":"Central",
@@ -83,5 +91,7 @@
 			"version":"2.0.20",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"http://maven.apache.org",
+	"license":"SAP-Dev"
 }
