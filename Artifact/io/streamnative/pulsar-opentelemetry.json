@@ -3,11 +3,11 @@
 	"description":"OpenTelemetry Integration",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-opentelemetry",
-	"version_latest":"4.1.0.2",
-	"ts_publish":1758522146000,
-	"ts_update":1758524089998,
+	"version_latest":"4.1.0.3",
+	"ts_publish":1759197205000,
+	"ts_update":1759235579155,
 	"count_dep":41,
-	"count_ref":14,
+	"count_ref":16,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,11 +20,11 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-opentelemetry",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-09-22 14:22:26.000",
-	"dt_update":"2025-09-22 14:54:42.191",
+	"dt_publish":"2025-09-30 09:53:25.000",
+	"dt_update":"2025-09-30 10:26:17.216",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#100969 in MvnRepository",
+	"ranking":"#100303 in MvnRepository",
 	"tags":[
 		"pulsar",
 		"telemetry",
@@ -32,6 +32,14 @@
 		"monitoring"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.1.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -46,6 +54,14 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.0.6.6",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.0.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.0.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.0.0.10",
 			"vulnerabilities":""
 		}
 	]
