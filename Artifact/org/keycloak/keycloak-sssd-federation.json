@@ -3,13 +3,13 @@
 	"description":"Keycloak SSSD Federation",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-sssd-federation",
-	"version_latest":"26.3.5",
-	"ts_publish":1758780827000,
-	"dt_publish":"2025-09-25 14:13:47.000",
-	"ts_update":1758783206475,
-	"dt_update":"2025-09-25 14:23:33.391",
-	"count_dep":22,
-	"count_ref":22,
+	"version_latest":"26.4.0",
+	"ts_publish":1759232311000,
+	"dt_publish":"2025-09-30 19:38:31.000",
+	"ts_update":1759243284133,
+	"dt_update":"2025-09-30 19:56:17.606",
+	"count_dep":16,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,12 +27,20 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-sssd-federation/",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#117109 in MvnRepository",
+	"ranking":"#117242 in MvnRepository",
 	"tags":[
 		"keycloak",
 		"federation"
 	],
 	"versions":[
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.3.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"26.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"26.0.6",
 			"vulnerabilities":""
 		}
 	]
