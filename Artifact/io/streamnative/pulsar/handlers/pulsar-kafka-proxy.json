@@ -3,10 +3,10 @@
 	"description":"Kafka on Pulsar Proxy",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"pulsar-kafka-proxy",
-	"version_latest":"4.1.0.2",
-	"ts_publish":1758523066000,
-	"ts_update":1758524103144,
-	"count_dep":356,
+	"version_latest":"4.1.0.3",
+	"ts_publish":1759198237000,
+	"ts_update":1759199344870,
+	"count_dep":358,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -15,11 +15,11 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/pulsar-kafka-proxy/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/pulsar-kafka-proxy@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/pulsar-kafka-proxy",
-	"dt_publish":"2025-09-22 14:37:46.000",
-	"dt_update":"2025-09-22 14:54:40.915",
+	"dt_publish":"2025-09-30 10:10:37.000",
+	"dt_update":"2025-09-30 10:26:15.079",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#409272 in MvnRepository",
+	"ranking":"#409235 in MvnRepository",
 	"tags":[
 		"streaming",
 		"kafka",
@@ -27,6 +27,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -41,6 +49,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.6",
 			"vulnerabilities":""
 		},
 		{
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.0.1.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250201",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.1.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250128",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.1.2",
 			"vulnerabilities":""
 		}
 	]
