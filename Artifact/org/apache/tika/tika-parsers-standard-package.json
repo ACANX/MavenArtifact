@@ -3,13 +3,13 @@
 	"description":"Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
 	"group_id":"org.apache.tika",
 	"artifact_id":"tika-parsers-standard-package",
-	"version_latest":"3.2.2",
-	"ts_publish":1754499983000,
-	"dt_publish":"2025-08-07 01:06:23.000",
-	"ts_update":1756571874569,
-	"dt_update":"2025-08-31 00:17:31.469",
+	"version_latest":"3.2.3",
+	"ts_publish":1757601864000,
+	"dt_publish":"2025-09-11 22:44:24.000",
+	"ts_update":1758993217178,
+	"dt_update":"2025-09-28 00:17:27.580",
 	"count_dep":114,
-	"count_ref":12,
+	"count_ref":10,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -45,10 +45,10 @@
 	],
 	"url_scm":"https://github.com/apache/tika/tika-parsers/tika-parsers-standard/tika-parsers-standard-package",
 	"url_ci_management":"https://ci-builds.apache.org/job/Tika/",
-	"count_used_by":124,
+	"count_used_by":129,
 	"home_page":"https://tika.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#4173 in MvnRepository",
+	"ranking":"#4093 in MvnRepository",
 	"tags":[
 		"parser",
 		"tika",
@@ -56,10 +56,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250709",
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"3.2.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
 			"usage":15,
+			"version":"3.2.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250709",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
 			"version":"3.2.1",
 			"vulnerabilities":""
 		},
@@ -107,7 +123,7 @@
 			"date":"20250505",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":11,
 			"version":"2.9.4",
 			"vulnerabilities":""
 		},
@@ -123,7 +139,7 @@
 			"date":"20240402",
 			"repository":"Central",
 			"type":"release",
-			"usage":34,
+			"usage":35,
 			"version":"2.9.2",
 			"vulnerabilities":""
 		},
@@ -131,7 +147,7 @@
 			"date":"20231020",
 			"repository":"Central",
 			"type":"release",
-			"usage":41,
+			"usage":42,
 			"version":"2.9.1",
 			"vulnerabilities":""
 		},
@@ -197,22 +213,6 @@
 			"type":"release",
 			"usage":26,
 			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211223",
-			"repository":"Central",
-			"type":"release",
-			"usage":22,
-			"version":"2.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211219",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.2.0",
 			"vulnerabilities":""
 		}
 	]

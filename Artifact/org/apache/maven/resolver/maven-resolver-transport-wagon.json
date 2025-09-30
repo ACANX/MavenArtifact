@@ -3,12 +3,12 @@
 	"description":"A transport implementation based on Maven Wagon.",
 	"group_id":"org.apache.maven.resolver",
 	"artifact_id":"maven-resolver-transport-wagon",
-	"version_latest":"2.0.10",
-	"ts_publish":1750963151000,
-	"dt_publish":"2025-06-27 02:39:11.000",
-	"ts_update":1755363371039,
-	"dt_update":"2025-08-17 00:17:37.746",
-	"count_dep":0,
+	"version_latest":"2.0.11",
+	"ts_publish":1757335495000,
+	"dt_publish":"2025-09-08 20:44:55.000",
+	"ts_update":1758992178332,
+	"dt_update":"2025-09-28 00:17:24.612",
+	"count_dep":21,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -120,7 +120,7 @@
 	"count_used_by":97,
 	"home_page":"https://maven.apache.org/resolver/",
 	"license":"Apache 2.0",
-	"ranking":"#5177 in MvnRepository",
+	"ranking":"#5242 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
@@ -131,6 +131,14 @@
 		"resolver"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.0.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250701",
 			"repository":"Central",
@@ -281,14 +289,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"2.0.0-alpha-2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231106",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"2.0.0-alpha-1",
 			"vulnerabilities":""
 		}
 	]

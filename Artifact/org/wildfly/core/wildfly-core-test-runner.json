@@ -3,13 +3,13 @@
 	"description":"A test runner used for running management integration tests.\n        Arquillian is not used to avoid a circular dependency.",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-core-test-runner",
-	"version_latest":"29.0.0.Final",
-	"ts_publish":1754661297000,
-	"dt_publish":"2025-08-08 21:54:57.000",
-	"ts_update":1754663072723,
-	"dt_update":"2025-08-08 22:23:38.764",
-	"count_dep":61,
-	"count_ref":2,
+	"version_latest":"30.0.0.Beta3",
+	"ts_publish":1758882636000,
+	"dt_publish":"2025-09-26 18:30:36.000",
+	"ts_update":1758886141311,
+	"dt_update":"2025-09-26 18:36:30.946",
+	"count_dep":68,
+	"count_ref":1,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -28,13 +28,45 @@
 	"url_scm":"https://github.com/wildfly/wildfly-core",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#168253 in MvnRepository",
+	"ranking":"#170213 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"runner",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"29.0.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"29.0.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250623",
 			"repository":"Central",
@@ -161,38 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"27.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241216",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"27.0.0.Beta5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241129",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta4",
 			"vulnerabilities":""
 		}
 	]

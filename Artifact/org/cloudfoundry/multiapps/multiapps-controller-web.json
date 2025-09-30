@@ -3,12 +3,12 @@
 	"description":"Multi-Target Application (MTA) deployment service for Cloud Foundry",
 	"group_id":"org.cloudfoundry.multiapps",
 	"artifact_id":"multiapps-controller-web",
-	"version_latest":"1.197.0",
-	"ts_publish":1755598769000,
-	"dt_publish":"2025-08-19 18:19:29.000",
-	"ts_update":1755600039169,
-	"dt_update":"2025-08-19 18:39:56.626",
-	"count_dep":259,
+	"version_latest":"1.199.1",
+	"ts_publish":1758886320000,
+	"dt_publish":"2025-09-26 19:32:00.000",
+	"ts_update":1758893270274,
+	"dt_update":"2025-09-26 19:44:28.129",
+	"count_dep":240,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/cloudfoundry-incubator/multiapps-controller.git/multiapps-controller-web",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#346963 in MvnRepository",
+	"ranking":"#383386 in MvnRepository",
 	"tags":[
 		"application",
 		"war",
@@ -34,6 +34,30 @@
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.199.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.198.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.197.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.185.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.184.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250107",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.183.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.182.0",
 			"vulnerabilities":""
 		}
 	]

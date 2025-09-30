@@ -3,11 +3,11 @@
 	"description":"Infinispan Spring Boot Starter 3 parent POM",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-spring-boot3-starter-embedded",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754917025793,
-	"dt_update":"2025-08-11 20:55:48.296",
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098536439,
+	"dt_update":"2025-09-17 16:41:52.735",
 	"count_dep":66,
 	"count_ref":2,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-spring-boot3-starter-parent/infinispan-spring-boot3-starter-embedded",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#163310 in MvnRepository",
+	"ranking":"#166336 in MvnRepository",
 	"tags":[
 		"embedded",
 		"infinispan",
@@ -37,6 +37,14 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":2,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -51,6 +59,14 @@
 			"type":"dev",
 			"usage":2,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":1,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Extensions to integrate Micronaut and Spring",
 	"group_id":"io.micronaut.spring",
 	"artifact_id":"micronaut-spring-boot-starter",
-	"version_latest":"5.11.1",
-	"ts_publish":1755691248000,
-	"dt_publish":"2025-08-20 20:00:48.000",
-	"ts_update":1755692798273,
-	"dt_update":"2025-08-20 20:25:53.780",
+	"version_latest":"5.11.2",
+	"ts_publish":1758279334000,
+	"dt_publish":"2025-09-19 18:55:34.000",
+	"ts_update":1758280405243,
+	"dt_update":"2025-09-19 19:12:46.788",
 	"count_dep":17,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"scm:git@github.com:micronaut-projects/micronaut-spring.git",
 	"home_page":"https://micronaut.io",
 	"license":"Apache 2.0",
-	"ranking":"#438821 in MvnRepository",
+	"ranking":"#327015 in MvnRepository",
 	"tags":[
 		"micronaut",
 		"spring",
@@ -33,10 +33,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250617",
+			"date":"20250820",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"5.11.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250617",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"5.11.0",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,7 @@
 			"usage":0,
 			"version":"5.0.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230706",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"5.0.0-M7",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }

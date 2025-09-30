@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.pulsar/pulsar-io-hdfs3",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-io-hdfs3",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875515000,
-	"dt_publish":"2025-07-30 19:38:35.000",
-	"ts_update":1756570699718,
-	"dt_update":"2025-08-31 00:17:15.157",
-	"count_dep":16,
+	"version_latest":"4.1.0",
+	"ts_publish":1756781951000,
+	"dt_publish":"2025-09-02 10:59:11.000",
+	"ts_update":1758990549140,
+	"dt_update":"2025-09-28 00:17:08.025",
+	"count_dep":0,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Transport"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.pulsar/pulsar-io-hdfs3@4.0.6",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#387432 in MvnRepository",
+	"ranking":"#394885 in MvnRepository",
 	"tags":[
 		"filesystem",
 		"hadoop",
@@ -27,6 +29,14 @@
 		"hdfs"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -178,14 +188,7 @@
 			"usage":1,
 			"version":"3.2.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240403",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.2.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API."
 }

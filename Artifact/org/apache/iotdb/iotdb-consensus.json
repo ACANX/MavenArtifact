@@ -3,12 +3,12 @@
 	"description":"This is the top level project that builds, packages the iotdb engine, client, and integration libs.",
 	"group_id":"org.apache.iotdb",
 	"artifact_id":"iotdb-consensus",
-	"version_latest":"2.0.4",
-	"ts_publish":1751506676000,
-	"dt_publish":"2025-07-03 09:37:56.000",
-	"ts_update":1755363179230,
-	"dt_update":"2025-08-17 00:17:45.308",
-	"count_dep":97,
+	"version_latest":"2.0.5",
+	"ts_publish":1755483457000,
+	"dt_publish":"2025-08-18 10:17:37.000",
+	"ts_update":1759011413564,
+	"dt_update":"2025-09-28 00:16:43.109",
+	"count_dep":0,
 	"count_ref":8,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"ssh://git@github.com:apache/iotdb.git/iotdb-core/iotdb-consensus",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#155819 in MvnRepository",
+	"ranking":"#163785 in MvnRepository",
 	"tags":[
 		"iot",
 		"iotdb",
@@ -31,6 +31,14 @@
 		"consensus"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.0.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250709",
 			"repository":"Central",
@@ -69,6 +77,14 @@
 			"type":"beta",
 			"usage":3,
 			"version":"2.0.1-beta",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.3.5",
 			"vulnerabilities":""
 		},
 		{
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221202",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221014",
-			"repository":"Central",
-			"type":"preview",
-			"usage":2,
-			"version":"0.14.0-preview3",
 			"vulnerabilities":""
 		}
 	]

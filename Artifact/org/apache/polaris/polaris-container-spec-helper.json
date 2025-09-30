@@ -3,13 +3,13 @@
 	"description":"Polaris is a catalog for data lakes. It provides new levels of choice, flexibility and control over data, with full enterprise security and Apache Iceberg interoperability across a multitude of engines and infrastructure.",
 	"group_id":"org.apache.polaris",
 	"artifact_id":"polaris-container-spec-helper",
-	"version_latest":"1.0.1-incubating",
-	"ts_publish":1753447003000,
-	"dt_publish":"2025-07-25 20:36:43.000",
-	"ts_update":1756571175752,
-	"dt_update":"2025-08-31 00:17:08.090",
+	"version_latest":"1.1.0-incubating",
+	"ts_publish":1756668363000,
+	"dt_publish":"2025-09-01 03:26:03.000",
+	"ts_update":1758997583829,
+	"dt_update":"2025-09-28 00:17:05.049",
 	"count_dep":16,
-	"count_ref":0,
+	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -124,12 +124,20 @@
 	],
 	"url_scm":"https://github.com/apache/polaris/tree/main/polaris-container-spec-helper",
 	"license":"Apache 2.0",
-	"ranking":"#757337 in MvnRepository",
+	"ranking":"#169332 in MvnRepository",
 	"tags":[
 		"container",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"1.1.0-incubating",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250725",
 			"repository":"Central",
@@ -146,5 +154,6 @@
 			"version":"1.0.0-incubating",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":3
 }

@@ -3,11 +3,11 @@
 	"description":"sbt is an interactive build tool",
 	"group_id":"org.scala-sbt",
 	"artifact_id":"sbt-dependency-tree_2.12_1.0",
-	"version_latest":"1.11.5",
-	"ts_publish":1756064068000,
-	"dt_publish":"2025-08-25 03:34:28.000",
-	"ts_update":1756064677711,
-	"dt_update":"2025-08-25 03:43:56.725",
+	"version_latest":"1.11.6",
+	"ts_publish":1757197624000,
+	"dt_publish":"2025-09-07 06:27:04.000",
+	"ts_update":1757198704851,
+	"dt_update":"2025-09-07 06:44:27.801",
 	"count_dep":83,
 	"count_ref":0,
 	"licenses":[
@@ -29,10 +29,10 @@
 		"Ethan Atkins"
 	],
 	"url_scm":"https://github.com/sbt/sbt",
-	"count_used_by":1,
+	"count_used_by":3,
 	"home_page":"https://github.com/sbt/sbt",
 	"license":"Apache 2.0",
-	"ranking":"#320412 in MvnRepository",
+	"ranking":"#166446 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
@@ -42,6 +42,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250824",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.11.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -62,7 +70,7 @@
 			"date":"20250607",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.11.2",
 			"vulnerabilities":""
 		},
@@ -78,7 +86,7 @@
 			"date":"20250524",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.11.0",
 			"vulnerabilities":""
 		},
@@ -192,14 +200,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240415",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.10.0-RC2",
 			"vulnerabilities":""
 		}
 	]

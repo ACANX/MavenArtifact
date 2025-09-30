@@ -3,12 +3,12 @@
 	"description":"GORM - Grails Data Access Framework",
 	"group_id":"org.apache.grails.data",
 	"artifact_id":"grails-data-hibernate5-core",
-	"version_latest":"7.0.0-RC1",
-	"ts_publish":1754322466000,
-	"dt_publish":"2025-08-04 23:47:46.000",
-	"ts_update":1756572454072,
-	"dt_update":"2025-08-31 00:17:27.075",
-	"count_dep":43,
+	"version_latest":"7.0.0-RC2",
+	"ts_publish":1756909384000,
+	"dt_publish":"2025-09-03 22:23:04.000",
+	"ts_update":1758997647998,
+	"dt_update":"2025-09-28 00:17:10.965",
+	"count_dep":28,
 	"count_ref":4,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -23,5 +23,51 @@
 		"Jeff Brown",
 		"Graeme Rocher"
 	],
-	"url_scm":"https://github.com/apache/grails-core"
+	"url_scm":"https://github.com/apache/grails-core",
+	"count_used_by":2,
+	"home_page":"https://github.com/apache/grails-core",
+	"license":"Apache 2.0",
+	"ranking":"#205924 in MvnRepository",
+	"tags":[
+		"persistence",
+		"data",
+		"apache",
+		"hibernate",
+		"groovy",
+		"grails"
+	],
+	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"7.0.0-RC2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250804",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"7.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250715",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":2,
+			"version":"7.0.0-M5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250610",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":2,
+			"version":"7.0.0-M4",
+			"vulnerabilities":""
+		}
+	]
 }

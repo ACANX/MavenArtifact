@@ -3,11 +3,11 @@
 	"description":"OpenAM Embedded Cassandra",
 	"group_id":"org.openidentityplatform.openam",
 	"artifact_id":"openam-cassandra-embedded",
-	"version_latest":"15.2.1",
-	"ts_publish":1754772505000,
-	"dt_publish":"2025-08-10 04:48:25.000",
-	"ts_update":1754774105895,
-	"dt_update":"2025-08-10 05:14:16.781",
+	"version_latest":"15.2.2",
+	"ts_publish":1757088765000,
+	"dt_publish":"2025-09-06 00:12:45.000",
+	"ts_update":1757089588243,
+	"dt_update":"2025-09-06 00:25:57.890",
 	"count_dep":93,
 	"count_ref":2,
 	"licenses":[
@@ -27,13 +27,21 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/OpenAM/openam-cassandra/openam-cassandra-embedded",
 	"count_used_by":2,
 	"license":"CC-BY-NC-ND 3.0",
-	"ranking":"#203320 in MvnRepository",
+	"ranking":"#222505 in MvnRepository",
 	"tags":[
 		"embedded",
 		"database",
 		"cassandra"
 	],
 	"versions":[
+		{
+			"date":"20250809",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"15.2.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"14.7.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230221",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"14.7.2",
 			"vulnerabilities":""
 		}
 	]

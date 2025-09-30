@@ -3,13 +3,13 @@
 	"description":"CPU Affinity Library",
 	"group_id":"io.streamnative",
 	"artifact_id":"cpu-affinity",
-	"version_latest":"4.17.2.2",
-	"ts_publish":1754966465000,
-	"dt_publish":"2025-08-12 10:41:05.000",
-	"ts_update":1754967384251,
-	"dt_update":"2025-08-12 10:55:38.301",
-	"count_dep":24,
-	"count_ref":11,
+	"version_latest":"4.17.2.3",
+	"ts_publish":1758512280000,
+	"dt_publish":"2025-09-22 11:38:00.000",
+	"ts_update":1758513379091,
+	"dt_update":"2025-09-22 11:55:06.404",
+	"count_dep":19,
+	"count_ref":30,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,11 +27,19 @@
 	"url_ci_management":"https://builds.apache.org/job/bookkeeper-master",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#85349 in MvnRepository",
+	"ranking":"#86473 in MvnRepository",
 	"tags":[
 		"cpu"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.17.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250715",
 			"repository":"Central",
@@ -78,6 +86,14 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.17.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.16.7.2",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.14.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230404",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.14.7.2-arrowstreet",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230531",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.14.7.1_attentive",
 			"vulnerabilities":""
 		}
 	]

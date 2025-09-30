@@ -3,13 +3,13 @@
 	"description":"Infinispan API",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-api",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754917006426,
-	"dt_update":"2025-08-11 20:55:48.294",
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097851000,
+	"dt_publish":"2025-09-17 16:30:51.000",
+	"ts_update":1758098530591,
+	"dt_update":"2025-09-17 16:41:54.864",
 	"count_dep":14,
-	"count_ref":24,
+	"count_ref":23,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -20,13 +20,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.infinispan/infinispan-api@16.0.0.Dev03",
 	"count_used_by":27,
 	"license":"Apache 2.0",
-	"ranking":"#17374 in MvnRepository",
+	"ranking":"#17241 in MvnRepository",
 	"tags":[
 		"cache",
 		"infinispan",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":10,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -41,6 +49,14 @@
 			"type":"dev",
 			"usage":10,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":10,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

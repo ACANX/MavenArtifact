@@ -3,13 +3,13 @@
 	"description":"A collection of utility classes to ease usage of the repository system.",
 	"group_id":"org.apache.maven.resolver",
 	"artifact_id":"maven-resolver-util",
-	"version_latest":"2.0.10",
-	"ts_publish":1750963056000,
-	"dt_publish":"2025-06-27 02:37:36.000",
-	"ts_update":1755364408682,
-	"dt_update":"2025-08-17 00:17:37.115",
-	"count_dep":0,
-	"count_ref":47,
+	"version_latest":"2.0.11",
+	"ts_publish":1757335403000,
+	"dt_publish":"2025-09-08 20:43:23.000",
+	"ts_update":1758999058277,
+	"dt_update":"2025-09-28 00:17:24.145",
+	"count_dep":4,
+	"count_ref":17,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -117,10 +117,10 @@
 	],
 	"url_scm":"https://github.com/apache/maven-resolver/tree/maven-resolver-1.9.24/maven-resolver-util",
 	"url_ci_management":"https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-resolver/",
-	"count_used_by":270,
+	"count_used_by":274,
 	"home_page":"https://maven.apache.org/resolver/",
 	"license":"Apache 2.0",
-	"ranking":"#2136 in MvnRepository",
+	"ranking":"#2142 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
@@ -130,10 +130,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"2.0.11",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250701",
 			"repository":"Central",
 			"type":"release",
-			"usage":18,
+			"usage":19,
 			"version":"2.0.10",
 			"vulnerabilities":""
 		},
@@ -279,14 +287,6 @@
 			"type":"alpha",
 			"usage":13,
 			"version":"2.0.0-alpha-2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231106",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":10,
-			"version":"2.0.0-alpha-1",
 			"vulnerabilities":""
 		}
 	]

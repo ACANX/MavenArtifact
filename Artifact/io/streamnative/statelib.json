@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.streamnative/statelib",
 	"group_id":"io.streamnative",
 	"artifact_id":"statelib",
-	"version_latest":"4.17.2.2",
-	"ts_publish":1754966465000,
-	"dt_publish":"2025-08-12 10:41:05.000",
-	"ts_update":1754967372989,
-	"dt_update":"2025-08-12 10:55:37.923",
-	"count_dep":31,
-	"count_ref":4,
-	"licenses":[],
+	"version_latest":"4.17.2.3",
+	"ts_publish":1758512279000,
+	"dt_publish":"2025-09-22 11:37:59.000",
+	"ts_update":1758513372823,
+	"dt_update":"2025-09-22 11:55:06.812",
+	"count_dep":129,
+	"count_ref":9,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,8 +19,16 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative/statelib@4.17.2.2",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#274211 in MvnRepository",
+	"ranking":"#280457 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.17.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250715",
 			"repository":"Central",
@@ -65,6 +75,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.17.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.16.7.2",
 			"vulnerabilities":""
 		},
 		{
@@ -162,22 +180,7 @@
 			"usage":1,
 			"version":"4.14.8.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230404",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.14.7.2-arrowstreet",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230531",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.14.7.1_attentive",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Apache Software Foundation provides support for the Apache community of open-source software projects.\n    The Apache projects are characterized by a collaborative, consensus based development process, an open and\n    pragmatic software license, and a desire to create high quality software that leads the way in its field.\n    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers\n    and users."
 }

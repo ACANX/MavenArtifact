@@ -2,18 +2,20 @@
 	"id":"pkg:maven/org.apache.grails/grails-gradle-bom",
 	"group_id":"org.apache.grails",
 	"artifact_id":"grails-gradle-bom",
-	"version_latest":"7.0.0-RC1",
-	"ts_publish":1754322334000,
-	"dt_publish":"2025-08-04 23:45:34.000",
-	"ts_update":1756571186807,
-	"dt_update":"2025-08-31 00:17:26.636",
+	"version_latest":"7.0.0-RC2",
+	"ts_publish":1756909241000,
+	"dt_publish":"2025-09-03 22:20:41.000",
+	"ts_update":1758990586437,
+	"dt_update":"2025-09-28 00:17:09.971",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.grails/grails-gradle-bom@7.0.0-M5",
-	"license":"Apache",
-	"ranking":"#546264 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#560973 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
@@ -25,6 +27,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.0.0-RC2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250804",
 			"repository":"Central",
@@ -49,5 +59,7 @@
 			"version":"7.0.0-M4",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Grails Gradle BOM (Bill of Materials) for managing dependency versions used in Gradle builds for Grails Projects",
+	"home_page":"https://github.com/apache/grails-core"
 }

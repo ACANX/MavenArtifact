@@ -3,11 +3,11 @@
 	"description":"Infinispan Hibernate 6.2+ Cache module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-hibernate-cache-v62",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915268000,
-	"dt_publish":"2025-08-11 20:27:48.000",
-	"ts_update":1754917039591,
-	"dt_update":"2025-08-11 20:55:46.135",
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098541005,
+	"dt_update":"2025-09-17 16:41:54.029",
 	"count_dep":48,
 	"count_ref":0,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-hibernate-parent/infinispan-hibernate-cache-v62",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#162292 in MvnRepository",
+	"ranking":"#165546 in MvnRepository",
 	"tags":[
 		"persistence",
 		"infinispan",
@@ -36,6 +36,14 @@
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":0,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -50,6 +58,14 @@
 			"type":"dev",
 			"usage":0,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":0,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

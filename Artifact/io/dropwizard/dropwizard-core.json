@@ -3,12 +3,12 @@
 	"description":"Dropwizard is a Java framework for developing ops-friendly, high-performance, RESTful web\n        applications.",
 	"group_id":"io.dropwizard",
 	"artifact_id":"dropwizard-core",
-	"version_latest":"5.0.0-rc.5",
-	"ts_publish":1756163361000,
-	"dt_publish":"2025-08-26 07:09:21.000",
-	"ts_update":1756164545390,
-	"dt_update":"2025-08-26 07:25:50.191",
-	"count_dep":0,
+	"version_latest":"5.0.0",
+	"ts_publish":1758011948000,
+	"dt_publish":"2025-09-16 16:39:08.000",
+	"ts_update":1758013010298,
+	"dt_update":"2025-09-16 16:56:11.064",
+	"count_dep":101,
 	"count_ref":12,
 	"licenses":[
 		"Apache License 2.0"
@@ -37,14 +37,22 @@
 	],
 	"url_scm":"https://github.com/dropwizard/dropwizard/dropwizard-bom/dropwizard-dependencies/dropwizard-parent/dropwizard-core",
 	"url_ci_management":"https://github.com/dropwizard/dropwizard/actions",
-	"count_used_by":846,
+	"count_used_by":847,
 	"home_page":"https://dropwizard.io/",
 	"license":"Apache 2.0",
-	"ranking":"#710 in MvnRepository",
+	"ranking":"#715 in MvnRepository",
 	"tags":[
 		"dropwizard"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"5.0.0-rc.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -118,6 +126,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"4.0.16",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250724",
 			"repository":"Central",
 			"type":"release",
@@ -187,22 +203,6 @@
 			"type":"release",
 			"usage":28,
 			"version":"4.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240130",
-			"repository":"Central",
-			"type":"release",
-			"usage":20,
-			"version":"4.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231221",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"4.0.5",
 			"vulnerabilities":""
 		}
 	]

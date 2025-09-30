@@ -3,11 +3,11 @@
 	"description":"Web APIs can be accessed using the HTTP protocol. Defines endpoints, valid request and response formats.",
 	"group_id":"io.gravitee.apim.plugin.entrypoint",
 	"artifact_id":"gravitee-apim-plugin-entrypoint-http-proxy",
-	"version_latest":"4.8.6",
-	"ts_publish":1756733395000,
-	"dt_publish":"2025-09-01 21:29:55.000",
-	"ts_update":1756734678087,
-	"dt_update":"2025-09-01 21:50:53.512",
+	"version_latest":"4.9.0-alpha.3",
+	"ts_publish":1758893061000,
+	"dt_publish":"2025-09-26 21:24:21.000",
+	"ts_update":1758896063936,
+	"dt_update":"2025-09-26 21:48:22.328",
 	"count_dep":82,
 	"count_ref":1,
 	"licenses":[
@@ -27,15 +27,47 @@
 		"Titouan COMPIEGNE"
 	],
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-plugin/gravitee-apim-plugin-entrypoint/gravitee-apim-plugin-entrypoint-http-proxy",
-	"count_used_by":24,
+	"count_used_by":25,
 	"license":"Apache 2.0",
-	"ranking":"#18990 in MvnRepository",
+	"ranking":"#18325 in MvnRepository",
 	"tags":[
 		"plugin",
 		"proxy",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":5,
+			"version":"4.9.0-alpha.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.8.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.8.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -109,6 +141,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.7.14",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250829",
 			"repository":"Central",
 			"type":"release",
@@ -154,46 +194,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.7.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250528",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250509",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250425",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250417",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.3",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"JSP package",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-jsp-api",
-	"version_latest":"11.0.10",
-	"ts_publish":1753981309000,
-	"dt_publish":"2025-08-01 01:01:49.000",
-	"ts_update":1756571177212,
-	"dt_update":"2025-08-31 00:17:19.558",
+	"version_latest":"11.0.11",
+	"ts_publish":1756724623000,
+	"dt_publish":"2025-09-01 19:03:43.000",
+	"ts_update":1758999393726,
+	"dt_update":"2025-09-28 00:17:06.570",
 	"count_dep":0,
-	"count_ref":14,
+	"count_ref":7,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,7 +22,7 @@
 	"count_used_by":180,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#3028 in MvnRepository",
+	"ranking":"#3063 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
@@ -32,6 +32,14 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.0.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250731",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"11.0.0-M18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240219",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":2,
-			"version":"11.0.0-M17",
 			"vulnerabilities":""
 		}
 	]

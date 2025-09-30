@@ -3,12 +3,12 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-io-jdbc-postgres",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875540000,
-	"dt_publish":"2025-07-30 19:39:00.000",
-	"ts_update":1756573025855,
-	"dt_update":"2025-08-31 00:17:15.154",
-	"count_dep":101,
+	"version_latest":"4.1.0",
+	"ts_publish":1756782162000,
+	"dt_publish":"2025-09-02 11:02:42.000",
+	"ts_update":1759005122025,
+	"dt_update":"2025-09-28 00:17:08.509",
+	"count_dep":0,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,7 +24,7 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#178529 in MvnRepository",
+	"ranking":"#181356 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -35,6 +35,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240403",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.2.2",
 			"vulnerabilities":""
 		}
 	]

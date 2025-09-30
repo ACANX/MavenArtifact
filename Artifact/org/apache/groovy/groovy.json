@@ -3,13 +3,13 @@
 	"description":"Groovy: A powerful multi-faceted language for the JVM",
 	"group_id":"org.apache.groovy",
 	"artifact_id":"groovy",
-	"version_latest":"5.0.0-rc-1",
-	"ts_publish":1754213120000,
-	"dt_publish":"2025-08-03 17:25:20.000",
-	"ts_update":1756571233253,
-	"dt_update":"2025-08-31 00:17:25.710",
-	"count_dep":0,
-	"count_ref":41,
+	"version_latest":"5.0.1",
+	"ts_publish":1757277937000,
+	"dt_publish":"2025-09-08 04:45:37.000",
+	"ts_update":1759005189592,
+	"dt_update":"2025-09-28 00:17:23.663",
+	"count_dep":4,
+	"count_ref":67,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -211,10 +211,10 @@
 		"Matt Foemmel"
 	],
 	"url_scm":"https://github.com/apache/groovy.git",
-	"count_used_by":1466,
+	"count_used_by":1516,
 	"home_page":"https://groovy-lang.org",
 	"license":"Apache 2.0",
-	"ranking":"#393 in MvnRepository",
+	"ranking":"#387 in MvnRepository",
 	"tags":[
 		"apache",
 		"groovy",
@@ -222,6 +222,30 @@
 		"language"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":40,
+			"version":"5.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":38,
+			"version":"5.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250803",
+			"repository":"Central",
+			"type":"release",
+			"usage":34,
+			"version":"5.0.0-rc-1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250720",
 			"repository":"Central",
@@ -338,7 +362,7 @@
 			"date":"20250720",
 			"repository":"Central",
 			"type":"release",
-			"usage":34,
+			"usage":133,
 			"version":"4.0.28",
 			"vulnerabilities":""
 		},
@@ -346,7 +370,7 @@
 			"date":"20250527",
 			"repository":"Central",
 			"type":"release",
-			"usage":226,
+			"usage":246,
 			"version":"4.0.27",
 			"vulnerabilities":""
 		},
@@ -354,32 +378,8 @@
 			"date":"20250228",
 			"repository":"Central",
 			"type":"release",
-			"usage":237,
+			"usage":251,
 			"version":"4.0.26",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250125",
-			"repository":"Central",
-			"type":"release",
-			"usage":130,
-			"version":"4.0.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241108",
-			"repository":"Central",
-			"type":"release",
-			"usage":260,
-			"version":"4.0.24",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240912",
-			"repository":"Central",
-			"type":"release",
-			"usage":218,
-			"version":"4.0.23",
 			"vulnerabilities":""
 		}
 	]

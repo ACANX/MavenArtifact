@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-devservices-mssql",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-devservices-mssql",
-	"version_latest":"3.26.1",
-	"ts_publish":1756459944000,
-	"dt_publish":"2025-08-29 17:32:24.000",
-	"ts_update":1756462597929,
-	"dt_update":"2025-08-29 18:16:02.039",
-	"count_dep":0,
+	"version_latest":"3.28.0",
+	"ts_publish":1758101126000,
+	"dt_publish":"2025-09-17 17:25:26.000",
+	"ts_update":1758104236835,
+	"dt_update":"2025-09-17 17:56:35.461",
+	"count_dep":106,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,13 +19,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-devservices-mssql@3.25.1",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#224949 in MvnRepository",
+	"ranking":"#225909 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"mssql",
 		"sql"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -175,14 +185,7 @@
 			"usage":2,
 			"version":"3.23.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"DevServices allows Quarkus to automatically configure and start databases and other containers in\n        dev and test mode."
 }

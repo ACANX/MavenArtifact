@@ -3,11 +3,11 @@
 	"description":"This package contains the Azure HTTP client library using the JDK HttpClient API.",
 	"group_id":"com.azure",
 	"artifact_id":"azure-core-http-jdk-httpclient",
-	"version_latest":"1.1.0",
-	"ts_publish":1754587850000,
-	"dt_publish":"2025-08-08 01:30:50.000",
-	"ts_update":1754588543383,
-	"dt_update":"2025-08-08 01:42:09.760",
+	"version_latest":"1.1.1",
+	"ts_publish":1757339031000,
+	"dt_publish":"2025-09-08 21:43:51.000",
+	"ts_update":1757339804390,
+	"dt_update":"2025-09-08 21:56:03.417",
 	"count_dep":18,
 	"count_ref":1,
 	"licenses":[
@@ -25,10 +25,10 @@
 		"Microsoft Corporation"
 	],
 	"url_scm":"https://github.com/Azure/azure-sdk-for-java",
-	"count_used_by":1,
+	"count_used_by":2,
 	"home_page":"https://github.com/Azure/azure-sdk-for-java",
 	"license":"MIT",
-	"ranking":"#389443 in MvnRepository",
+	"ranking":"#211784 in MvnRepository",
 	"tags":[
 		"azure",
 		"client",
@@ -37,10 +37,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250630",
+			"date":"20250807",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"1.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250630",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"1.0.5",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"1.0.0-beta.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230908",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"1.0.0-beta.6",
 			"vulnerabilities":""
 		}
 	]

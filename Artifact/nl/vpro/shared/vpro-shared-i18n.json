@@ -3,11 +3,11 @@
 	"description":"These are various shared utility modules which are used on several places in VPRO artifacts.",
 	"group_id":"nl.vpro.shared",
 	"artifact_id":"vpro-shared-i18n",
-	"version_latest":"5.11.1",
-	"ts_publish":1755973880000,
-	"dt_publish":"2025-08-24 02:31:20.000",
-	"ts_update":1755975169963,
-	"dt_update":"2025-08-24 02:51:24.928",
+	"version_latest":"5.11.4",
+	"ts_publish":1758742244000,
+	"dt_publish":"2025-09-25 03:30:44.000",
+	"ts_update":1758743784715,
+	"dt_update":"2025-09-25 03:56:07.989",
 	"count_dep":19,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,29 @@
 	],
 	"url_scm":"https://github.com/vpro/vpro-shared/vpro-shared-i18n",
 	"url_ci_management":"https://github.com/vpro/vpro-shared/actions",
-	"count_used_by":6,
+	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#81411 in MvnRepository",
+	"ranking":"#70056 in MvnRepository",
 	"tags":[
 		"i18n"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.11.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250823",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"5.11.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250620",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.4.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250108",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.4.1",
 			"vulnerabilities":""
 		}
 	]

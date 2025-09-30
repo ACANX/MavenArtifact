@@ -3,11 +3,11 @@
 	"description":"Infinispan BOM module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-bom",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754917010175,
-	"dt_update":"2025-08-11 20:55:46.845",
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098535401,
+	"dt_update":"2025-09-17 16:41:52.737",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,10 +26,10 @@
 		"See https://github.com/infinispan/infinispan/graphs/contributors"
 	],
 	"url_scm":"https://github.com/infinispan/infinispan",
-	"count_used_by":1,
+	"count_used_by":2,
 	"home_page":"https://infinispan.org",
 	"license":"Apache 2.0",
-	"ranking":"#406659 in MvnRepository",
+	"ranking":"#246682 in MvnRepository",
 	"tags":[
 		"bom",
 		"infinispan",
@@ -38,6 +38,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":0,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -52,6 +60,14 @@
 			"type":"dev",
 			"usage":0,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -180,22 +196,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":0,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

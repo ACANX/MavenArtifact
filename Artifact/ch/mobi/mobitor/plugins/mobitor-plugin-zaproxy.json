@@ -3,11 +3,11 @@
 	"description":"This plugin laods zaproxy reports from the TeamCity builds.",
 	"group_id":"ch.mobi.mobitor.plugins",
 	"artifact_id":"mobitor-plugin-zaproxy",
-	"version_latest":"3.1.454",
-	"ts_publish":1756206905000,
-	"dt_publish":"2025-08-26 19:15:05.000",
-	"ts_update":1756208718265,
-	"dt_update":"2025-08-26 19:44:45.247",
+	"version_latest":"3.1.466",
+	"ts_publish":1756881819000,
+	"dt_publish":"2025-09-03 14:43:39.000",
+	"ts_update":1756882642738,
+	"dt_update":"2025-09-03 14:55:56.818",
 	"count_dep":69,
 	"count_ref":1,
 	"licenses":[
@@ -25,11 +25,27 @@
 	"url_scm":"https://bitbucket.org/mobiliar/mobitor-parent.git/mobitor-plugins-parent/mobitor-plugin-zaproxy",
 	"count_used_by":1,
 	"license":"LGPL",
-	"ranking":"#418469 in MvnRepository",
+	"ranking":"#367661 in MvnRepository",
 	"tags":[
 		"plugin"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.462",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.454",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250107",
 			"repository":"Central",
@@ -173,22 +189,7 @@
 			"usage":1,
 			"version":"3.1.311",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20220112",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.308",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211210",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.305",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://bitbucket.org/mobiliar/mobitor-parent"
 }

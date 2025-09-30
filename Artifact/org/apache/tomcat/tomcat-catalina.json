@@ -3,13 +3,13 @@
 	"description":"Tomcat Servlet Engine Core Classes and Standard implementations",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-catalina",
-	"version_latest":"11.0.10",
-	"ts_publish":1753981234000,
-	"dt_publish":"2025-08-01 01:00:34.000",
-	"ts_update":1756572480813,
-	"dt_update":"2025-08-31 00:17:19.110",
+	"version_latest":"11.0.11",
+	"ts_publish":1756724540000,
+	"dt_publish":"2025-09-01 19:02:20.000",
+	"ts_update":1758994006072,
+	"dt_update":"2025-09-28 00:17:06.574",
 	"count_dep":0,
-	"count_ref":27,
+	"count_ref":11,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,10 +19,10 @@
 	"dsv":1,
 	"url_project":"https://tomcat.apache.org/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomcat/tomcat-catalina@11.0.10",
-	"count_used_by":654,
+	"count_used_by":670,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#909 in MvnRepository",
+	"ranking":"#914 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
@@ -32,6 +32,22 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"11.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250731",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"11.0.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250704",
 			"repository":"Central",
@@ -54,7 +70,7 @@
 			"type":"release",
 			"usage":8,
 			"version":"11.0.7",
-			"vulnerabilities":"3 vulnerabilities"
+			"vulnerabilities":"4 vulnerabilities"
 		},
 		{
 			"date":"20250409",
@@ -62,7 +78,7 @@
 			"type":"release",
 			"usage":10,
 			"version":"11.0.6",
-			"vulnerabilities":"4 vulnerabilities"
+			"vulnerabilities":"5 vulnerabilities"
 		},
 		{
 			"date":"20250305",
@@ -70,7 +86,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"11.0.5",
-			"vulnerabilities":"5 vulnerabilities"
+			"vulnerabilities":"6 vulnerabilities"
 		},
 		{
 			"date":"20250217",
@@ -78,15 +94,15 @@
 			"type":"release",
 			"usage":4,
 			"version":"11.0.4",
-			"vulnerabilities":"5 vulnerabilities"
+			"vulnerabilities":"6 vulnerabilities"
 		},
 		{
 			"date":"20250210",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"11.0.3",
-			"vulnerabilities":"5 vulnerabilities"
+			"vulnerabilities":"6 vulnerabilities"
 		},
 		{
 			"date":"20241209",
@@ -94,7 +110,7 @@
 			"type":"release",
 			"usage":12,
 			"version":"11.0.2",
-			"vulnerabilities":"6 vulnerabilities"
+			"vulnerabilities":"7 vulnerabilities"
 		},
 		{
 			"date":"20241110",
@@ -102,7 +118,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"11.0.1",
-			"vulnerabilities":"9 vulnerabilities"
+			"vulnerabilities":"10 vulnerabilities"
 		},
 		{
 			"date":"20241009",
@@ -110,7 +126,7 @@
 			"type":"release",
 			"usage":6,
 			"version":"11.0.0",
-			"vulnerabilities":"9 vulnerabilities"
+			"vulnerabilities":"10 vulnerabilities"
 		},
 		{
 			"date":"20240916",
@@ -118,7 +134,7 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"11.0.0-M26",
-			"vulnerabilities":"10 vulnerabilities"
+			"vulnerabilities":"11 vulnerabilities"
 		},
 		{
 			"date":"20240910",
@@ -126,7 +142,7 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"11.0.0-M25",
-			"vulnerabilities":"10 vulnerabilities"
+			"vulnerabilities":"11 vulnerabilities"
 		},
 		{
 			"date":"20240806",
@@ -134,7 +150,7 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"11.0.0-M24",
-			"vulnerabilities":"10 vulnerabilities"
+			"vulnerabilities":"11 vulnerabilities"
 		},
 		{
 			"date":"20240705",
@@ -142,7 +158,7 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"11.0.0-M22",
-			"vulnerabilities":"10 vulnerabilities"
+			"vulnerabilities":"11 vulnerabilities"
 		},
 		{
 			"date":"20240618",
@@ -150,7 +166,7 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"11.0.0-M21",
-			"vulnerabilities":"10 vulnerabilities"
+			"vulnerabilities":"11 vulnerabilities"
 		},
 		{
 			"date":"20240508",
@@ -158,7 +174,7 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"11.0.0-M20",
-			"vulnerabilities":"10 vulnerabilities"
+			"vulnerabilities":"11 vulnerabilities"
 		},
 		{
 			"date":"20240416",
@@ -166,7 +182,7 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"11.0.0-M19",
-			"vulnerabilities":"10 vulnerabilities"
+			"vulnerabilities":"11 vulnerabilities"
 		},
 		{
 			"date":"20240314",
@@ -174,23 +190,7 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"11.0.0-M18",
-			"vulnerabilities":"10 vulnerabilities"
-		},
-		{
-			"date":"20240219",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":2,
-			"version":"11.0.0-M17",
-			"vulnerabilities":"10 vulnerabilities"
-		},
-		{
-			"date":"20240109",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":2,
-			"version":"11.0.0-M16",
-			"vulnerabilities":"10 vulnerabilities"
+			"vulnerabilities":"11 vulnerabilities"
 		}
 	]
 }

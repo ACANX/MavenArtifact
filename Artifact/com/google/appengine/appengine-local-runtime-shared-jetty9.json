@@ -3,16 +3,14 @@
 	"description":"App Engine local runtime shared components for Jetty 9.",
 	"group_id":"com.google.appengine",
 	"artifact_id":"appengine-local-runtime-shared-jetty9",
-	"version_latest":"2.0.39-beta",
-	"ts_publish":1756447447000,
-	"dt_publish":"2025-08-29 14:04:07.000",
-	"ts_update":1756448665280,
-	"dt_update":"2025-08-29 14:22:26.213",
-	"count_dep":26,
+	"version_latest":"3.0.0-beta",
+	"ts_publish":1758263028000,
+	"dt_publish":"2025-09-19 14:23:48.000",
+	"ts_update":1758264819211,
+	"dt_update":"2025-09-19 14:51:53.433",
+	"count_dep":4,
 	"count_ref":1,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Other"
 	],
@@ -25,7 +23,7 @@
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/appengine-local-runtime-shared-jetty9",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#370541 in MvnRepository",
+	"ranking":"#364998 in MvnRepository",
 	"tags":[
 		"server",
 		"google",
@@ -35,6 +33,14 @@
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"2.0.39-beta",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -187,5 +193,6 @@
 			"version":"2.0.20",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/GoogleCloudPlatform/appengine-java-standard/"
 }

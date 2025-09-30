@@ -1,12 +1,11 @@
 {
 	"id":"pkg:maven/io.streamnative/pulsar-package-bookkeeper-storage",
-	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-package-bookkeeper-storage",
-	"version_latest":"4.1.0.0",
-	"ts_publish":1756192252000,
-	"ts_update":1756193172638,
-	"count_dep":112,
+	"version_latest":"4.1.0.3",
+	"ts_publish":1759197205000,
+	"ts_update":1759210030472,
+	"count_dep":115,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -20,16 +19,80 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-package-management/pulsar-package-bookkeeper-storage",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-08-26 15:10:52.000",
-	"dt_update":"2025-08-26 15:25:52.363",
+	"dt_publish":"2025-09-30 09:53:25.000",
+	"dt_update":"2025-09-30 10:26:17.218",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#408497 in MvnRepository",
+	"ranking":"#416116 in MvnRepository",
 	"tags":[
 		"storage",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250914",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -125,70 +188,7 @@
 			"usage":1,
 			"version":"4.0.1.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250128",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241216",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241201",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241120",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API."
 }

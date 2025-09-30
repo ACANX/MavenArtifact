@@ -3,13 +3,13 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-jackson-dataformat-xml",
-	"version_latest":"3.25.0",
-	"ts_publish":1753343086000,
-	"dt_publish":"2025-07-24 15:44:46.000",
-	"ts_update":1755967679380,
-	"dt_update":"2025-08-24 00:17:00.562",
-	"count_dep":82,
-	"count_ref":7,
+	"version_latest":"3.26.0",
+	"ts_publish":1755761886000,
+	"dt_publish":"2025-08-21 15:38:06.000",
+	"ts_update":1758385591525,
+	"dt_update":"2025-09-21 00:17:45.644",
+	"count_dep":60,
+	"count_ref":5,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-jackson-dataformat-xml-parent/camel-quarkus-support-jackson-dataformat-xml",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#72365 in MvnRepository",
+	"ranking":"#73300 in MvnRepository",
 	"tags":[
 		"format",
 		"support",
@@ -38,6 +38,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

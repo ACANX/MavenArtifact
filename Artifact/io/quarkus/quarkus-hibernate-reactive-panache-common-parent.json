@@ -2,21 +2,23 @@
 	"id":"pkg:maven/io.quarkus/quarkus-hibernate-reactive-panache-common-parent",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-hibernate-reactive-panache-common-parent",
-	"version_latest":"3.26.0",
-	"ts_publish":1755684782000,
-	"dt_publish":"2025-08-20 18:13:02.000",
-	"ts_update":1755687091683,
-	"dt_update":"2025-08-20 18:39:46.123",
-	"count_dep":0,
+	"version_latest":"3.28.0",
+	"ts_publish":1758101128000,
+	"dt_publish":"2025-09-17 17:25:28.000",
+	"ts_update":1758104204934,
+	"dt_update":"2025-09-17 17:56:12.106",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-hibernate-reactive-panache-common-parent@3.25.1",
 	"license":"Apache 2.0",
-	"ranking":"#972901 in MvnRepository",
+	"ranking":"#979476 in MvnRepository",
 	"tags":[
 		"persistence",
 		"quarkus",
@@ -24,6 +26,54 @@
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.25.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.25.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -135,54 +185,7 @@
 			"usage":0,
 			"version":"3.23.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.23.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250515",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.23.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250514",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.22.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.22.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.22.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

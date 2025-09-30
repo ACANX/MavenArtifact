@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/com.yahoo.athenz/athenz-server-gcp-common",
-	"description":"Athenz AWS Server Common Packages",
+	"description":"Athenz GCP Server Common Packages",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-server-gcp-common",
-	"version_latest":"1.12.24",
-	"ts_publish":1756521291000,
-	"dt_publish":"2025-08-30 10:34:51.000",
-	"ts_update":1756527519202,
-	"dt_update":"2025-08-30 12:17:17.428",
-	"count_dep":180,
+	"version_latest":"1.12.26",
+	"ts_publish":1758942598000,
+	"dt_publish":"2025-09-27 11:09:58.000",
+	"ts_update":1758947830682,
+	"dt_update":"2025-09-27 11:49:31.123",
+	"count_dep":183,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,5 +24,29 @@
 		"Athenz Maintainers"
 	],
 	"url_scm":"https://github.com/AthenZ/athenz/athenz-server-gcp-common",
-	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418"
+	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
+	"license":"Apache 2.0",
+	"ranking":"#819142 in MvnRepository",
+	"tags":[
+		"server",
+		"gcp"
+	],
+	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12.25",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250830",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12.24",
+			"vulnerabilities":""
+		}
+	]
 }

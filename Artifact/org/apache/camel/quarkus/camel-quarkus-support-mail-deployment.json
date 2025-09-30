@@ -3,13 +3,13 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-mail-deployment",
-	"version_latest":"3.25.0",
-	"ts_publish":1753343187000,
-	"dt_publish":"2025-07-24 15:46:27.000",
-	"ts_update":1755968165679,
-	"dt_update":"2025-08-24 00:17:02.787",
-	"count_dep":67,
-	"count_ref":3,
+	"version_latest":"3.26.0",
+	"ts_publish":1755762000000,
+	"dt_publish":"2025-08-21 15:40:00.000",
+	"ts_update":1758385583035,
+	"dt_update":"2025-09-21 00:17:47.330",
+	"count_dep":71,
+	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-mail-parent/camel-quarkus-support-mail-deployment",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#134826 in MvnRepository",
+	"ranking":"#136775 in MvnRepository",
 	"tags":[
 		"support",
 		"deployment",
@@ -36,6 +36,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

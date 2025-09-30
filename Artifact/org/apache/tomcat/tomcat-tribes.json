@@ -3,13 +3,13 @@
 	"description":"Tomcat Group Communication Package",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-tribes",
-	"version_latest":"11.0.10",
-	"ts_publish":1753981264000,
-	"dt_publish":"2025-08-01 01:01:04.000",
-	"ts_update":1756572440382,
-	"dt_update":"2025-08-31 00:17:19.108",
+	"version_latest":"11.0.11",
+	"ts_publish":1756724569000,
+	"dt_publish":"2025-09-01 19:02:49.000",
+	"ts_update":1758994021401,
+	"dt_update":"2025-09-28 00:17:06.573",
 	"count_dep":0,
-	"count_ref":2,
+	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,7 +22,7 @@
 	"count_used_by":29,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#15800 in MvnRepository",
+	"ranking":"#15907 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
@@ -30,6 +30,14 @@
 		"tomcat"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.0.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250731",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"11.0.0-M18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240219",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":2,
-			"version":"11.0.0-M17",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Keycloak REST Services",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-services",
-	"version_latest":"26.3.3",
-	"ts_publish":1755684272000,
-	"dt_publish":"2025-08-20 18:04:32.000",
-	"ts_update":1755685100387,
-	"dt_update":"2025-08-20 18:16:44.167",
+	"version_latest":"26.3.5",
+	"ts_publish":1758780827000,
+	"dt_publish":"2025-09-25 14:13:47.000",
+	"ts_update":1758781503335,
+	"dt_update":"2025-09-25 14:23:32.315",
 	"count_dep":222,
 	"count_ref":32,
 	"licenses":[
@@ -25,15 +25,23 @@
 		"Keycloak Team"
 	],
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-services/",
-	"count_used_by":154,
+	"count_used_by":155,
 	"home_page":"https://www.keycloak.org/",
 	"license":"Apache 2.0",
-	"ranking":"#3477 in MvnRepository",
+	"ranking":"#3469 in MvnRepository",
 	"tags":[
 		"keycloak",
 		"service"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"26.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":19,
 			"version":"26.0.5",
-			"vulnerabilities":"7 vulnerabilities"
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"26.0.4",
 			"vulnerabilities":"7 vulnerabilities"
 		}
 	]

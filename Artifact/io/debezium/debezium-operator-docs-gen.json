@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-operator-docs-gen",
-	"version_latest":"3.3.0.Alpha2",
-	"ts_publish":1756220460000,
-	"dt_publish":"2025-08-26 23:01:00.000",
-	"ts_update":1756222142359,
-	"dt_update":"2025-08-26 23:25:51.925",
+	"version_latest":"3.3.0.CR1",
+	"ts_publish":1758705898000,
+	"dt_publish":"2025-09-24 17:24:58.000",
+	"ts_update":1758707327031,
+	"dt_update":"2025-09-24 17:46:45.188",
 	"count_dep":2,
 	"count_ref":4,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/debezium/debezium-operator/debezium-operator-docs-gen",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#381913 in MvnRepository",
+	"ranking":"#322459 in MvnRepository",
 	"tags":[
 		"doc",
 		"operator",
@@ -36,11 +36,35 @@
 	],
 	"versions":[
 		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"3.3.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"3.3.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"alpha",
 			"usage":1,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.6.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.4.Final",
 			"vulnerabilities":""
 		}
 	]

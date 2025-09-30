@@ -3,11 +3,11 @@
 	"description":"A ProtoStream sample domain implementation can be used for tests among different Infinispan module",
 	"group_id":"org.infinispan",
 	"artifact_id":"proto-sample-domain-implementation",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754916987234,
-	"dt_update":"2025-08-11 20:55:48.949",
+	"version_latest":"16.0.0.Dev04",
+	"ts_publish":1758097852000,
+	"dt_publish":"2025-09-17 16:30:52.000",
+	"ts_update":1758098539910,
+	"dt_update":"2025-09-17 16:41:53.174",
 	"count_dep":16,
 	"count_ref":4,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/infinispan/infinispan/test-support/proto-sample-domain-implementation",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#93605 in MvnRepository",
+	"ranking":"#95439 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"domain",
@@ -37,6 +37,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":4,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -54,10 +62,18 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250717",
+			"date":"20250903",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"15.2.6.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250717",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
 			"version":"15.2.5.Final",
 			"vulnerabilities":""
 		},
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":3,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

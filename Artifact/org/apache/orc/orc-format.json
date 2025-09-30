@@ -1,0 +1,58 @@
+{
+	"id":"pkg:maven/org.apache.orc/orc-format",
+	"description":"ORC is a self-describing type-aware columnar file format designed\n        for Hadoop workloads. It is optimized for large streaming reads,\n        but with integrated support for finding required rows\n        quickly. Storing data in a columnar format lets the reader read,\n        decompress, and process only the values that are required for the\n        current query.",
+	"group_id":"org.apache.orc",
+	"artifact_id":"orc-format",
+	"version_latest":"1.1.1",
+	"ts_publish":1755282377000,
+	"dt_publish":"2025-08-16 02:26:17.000",
+	"ts_update":1758990590450,
+	"dt_update":"2025-09-28 00:16:42.132",
+	"count_dep":0,
+	"count_ref":12,
+	"licenses":[
+		"Apache-2.0"
+	],
+	"categories":[
+		"File Utilities",
+		"File IO"
+	],
+	"dsv":1,
+	"url_project":"https://orc.apache.org",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.orc/orc-format@1.1.1",
+	"url_scm":"https://github.com/apache/maven-apache-parent/tree/apache-29/orc-format",
+	"count_used_by":3,
+	"home_page":"https://orc.apache.org",
+	"license":"Apache 2.0",
+	"ranking":"#155327 in MvnRepository",
+	"tags":[
+		"format",
+		"apache"
+	],
+	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250418",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240106",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		}
+	]
+}

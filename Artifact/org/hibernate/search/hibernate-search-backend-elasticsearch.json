@@ -3,11 +3,11 @@
 	"description":"Hibernate Search Backend relying on remote Elasticsearch clusters",
 	"group_id":"org.hibernate.search",
 	"artifact_id":"hibernate-search-backend-elasticsearch",
-	"version_latest":"8.1.1.Final",
-	"ts_publish":1755159617000,
-	"dt_publish":"2025-08-14 16:20:17.000",
-	"ts_update":1755161765056,
-	"dt_update":"2025-08-14 16:55:48.445",
+	"version_latest":"8.1.2.Final",
+	"ts_publish":1757422300000,
+	"dt_publish":"2025-09-09 20:51:40.000",
+	"ts_update":1757423852733,
+	"dt_update":"2025-09-09 21:17:22.343",
 	"count_dep":17,
 	"count_ref":1,
 	"licenses":[
@@ -31,10 +31,10 @@
 		"Hardy Ferentschik"
 	],
 	"url_scm":"http://github.com/hibernate/hibernate-search",
-	"count_used_by":19,
+	"count_used_by":20,
 	"home_page":"https://hibernate.org/search/",
 	"license":"Apache 2.0",
-	"ranking":"#23783 in MvnRepository",
+	"ranking":"#22787 in MvnRepository",
 	"tags":[
 		"persistence",
 		"elasticsearch",
@@ -44,6 +44,22 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250814",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.1.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.1.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -186,22 +202,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240410",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240228",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.1.0.Final",
 			"vulnerabilities":""
 		}
 	]

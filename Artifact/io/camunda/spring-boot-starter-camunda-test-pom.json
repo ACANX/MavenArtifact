@@ -3,12 +3,12 @@
 	"description":"This pom should be the parent of all specified modules. It defines all versions and provides\n    plugins that are required for the child modules.",
 	"group_id":"io.camunda",
 	"artifact_id":"spring-boot-starter-camunda-test-pom",
-	"version_latest":"8.8.0-alpha8-rc1",
-	"ts_publish":1756370621000,
-	"dt_publish":"2025-08-28 16:43:41.000",
-	"ts_update":1756371464572,
-	"dt_update":"2025-08-28 16:55:53.050",
-	"count_dep":0,
+	"version_latest":"8.8.0-rc2",
+	"ts_publish":1759150586000,
+	"dt_publish":"2025-09-29 20:56:26.000",
+	"ts_update":1759168581078,
+	"dt_update":"2025-09-29 21:09:23.849",
+	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/camunda/zeebe-process-test/spring-boot-starter-camunda-test-pom",
 	"license":"Apache 2.0",
-	"ranking":"#834241 in MvnRepository",
+	"ranking":"#930047 in MvnRepository",
 	"tags":[
 		"pom",
 		"spring",
@@ -33,6 +33,46 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.8.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.8.0-alpha8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.8.0-alpha8-rc3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.8.0-alpha8-rc2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.8.0-alpha8-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -151,46 +191,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"8.8.0-alpha3-rc3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250307",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha2-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha1-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.10",
 			"vulnerabilities":""
 		}
 	]

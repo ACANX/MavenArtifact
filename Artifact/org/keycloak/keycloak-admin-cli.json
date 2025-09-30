@@ -3,11 +3,11 @@
 	"description":"Keycloak Admin CLI",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-admin-cli",
-	"version_latest":"26.3.3",
-	"ts_publish":1755684272000,
-	"dt_publish":"2025-08-20 18:04:32.000",
-	"ts_update":1755685131188,
-	"dt_update":"2025-08-20 18:16:44.164",
+	"version_latest":"26.3.5",
+	"ts_publish":1758780827000,
+	"dt_publish":"2025-09-25 14:13:47.000",
+	"ts_update":1758783393681,
+	"dt_update":"2025-09-25 14:23:32.931",
 	"count_dep":1,
 	"count_ref":16,
 	"licenses":[
@@ -27,13 +27,29 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-integration-parent/keycloak-client-cli-parent/keycloak-admin-cli/",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#173859 in MvnRepository",
+	"ranking":"#175724 in MvnRepository",
 	"tags":[
 		"admin",
 		"keycloak",
 		"command-line"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"26.3.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"26.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"26.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241101",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.0.4",
 			"vulnerabilities":""
 		}
 	]

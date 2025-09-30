@@ -3,13 +3,13 @@
 	"description":"Common code shared by multiple Tomcat components",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-util",
-	"version_latest":"11.0.10",
-	"ts_publish":1753981349000,
-	"dt_publish":"2025-08-01 01:02:29.000",
-	"ts_update":1756573024184,
-	"dt_update":"2025-08-31 00:17:19.555",
+	"version_latest":"11.0.11",
+	"ts_publish":1756724666000,
+	"dt_publish":"2025-09-01 19:04:26.000",
+	"ts_update":1758992216268,
+	"dt_update":"2025-09-28 00:17:07.097",
 	"count_dep":0,
-	"count_ref":31,
+	"count_ref":18,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,10 +19,10 @@
 	"dsv":1,
 	"url_project":"https://tomcat.apache.org/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomcat/tomcat-util@11.0.10",
-	"count_used_by":91,
+	"count_used_by":93,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#5500 in MvnRepository",
+	"ranking":"#5462 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
@@ -30,6 +30,22 @@
 		"tomcat"
 	],
 	"versions":[
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"11.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250731",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"11.0.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250704",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"milestone",
 			"usage":7,
 			"version":"11.0.0-M18",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20240219",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":7,
-			"version":"11.0.0-M17",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20240109",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":7,
-			"version":"11.0.0-M16",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]

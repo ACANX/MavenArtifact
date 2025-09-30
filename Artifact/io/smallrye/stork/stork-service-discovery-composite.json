@@ -3,9 +3,9 @@
 	"description":"A service discovery provider that combines multiple service discoveries.\n\n        The mechanism returns services from _all_ the discovery providers that it combines,\n        That is, it obtains service lists from all services and just then returns a combined list.",
 	"group_id":"io.smallrye.stork",
 	"artifact_id":"stork-service-discovery-composite",
-	"version_latest":"2.7.4",
-	"ts_publish":1754465019000,
-	"ts_update":1754465861236,
+	"version_latest":"2.7.5",
+	"ts_publish":1759166411000,
+	"ts_update":1759179434726,
 	"count_dep":19,
 	"count_ref":1,
 	"licenses":[
@@ -24,13 +24,21 @@
 	"url_scm":"https://github.com/smallrye/smallrye-stork/stork-service-discovery-composite/",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#142527 in MvnRepository",
+	"ranking":"#144766 in MvnRepository",
 	"tags":[
 		"service",
 		"discovery",
 		"composite"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.7.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250407",
 			"repository":"Central",
@@ -182,14 +190,8 @@
 			"usage":1,
 			"version":"1.3.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20221018",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.3.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"dt_publish":"2025-09-30 01:20:11.000",
+	"dt_update":"2025-09-30 01:44:54.954"
 }

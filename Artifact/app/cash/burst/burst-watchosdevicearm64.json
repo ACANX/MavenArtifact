@@ -3,13 +3,13 @@
 	"description":"Adds parameters to tests",
 	"group_id":"app.cash.burst",
 	"artifact_id":"burst-watchosdevicearm64",
-	"version_latest":"2.7.1",
-	"ts_publish":1756489249000,
-	"dt_publish":"2025-08-30 01:40:49.000",
-	"ts_update":1756490180474,
-	"dt_update":"2025-08-30 01:55:56.583",
+	"version_latest":"2.10.2",
+	"ts_publish":1758722312000,
+	"dt_publish":"2025-09-24 21:58:32.000",
+	"ts_update":1758724151040,
+	"dt_update":"2025-09-24 22:13:24.804",
 	"count_dep":2,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -22,11 +22,43 @@
 	"url_scm":"https://github.com/cashapp/burst/",
 	"home_page":"https://github.com/cashapp/burst/",
 	"license":"Apache 2.0",
-	"ranking":"#635428 in MvnRepository",
+	"ranking":"#320083 in MvnRepository",
 	"tags":[
 		"kotlin"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.8.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.7.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -147,5 +179,6 @@
 			"version":"0.1.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }

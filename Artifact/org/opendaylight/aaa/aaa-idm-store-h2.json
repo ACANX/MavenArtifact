@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.opendaylight.aaa/aaa-idm-store-h2",
 	"group_id":"org.opendaylight.aaa",
 	"artifact_id":"aaa-idm-store-h2",
-	"version_latest":"0.21.1",
-	"ts_publish":1755972295000,
-	"dt_publish":"2025-08-24 02:04:55.000",
-	"ts_update":1755973611787,
-	"dt_update":"2025-08-24 02:25:50.514",
-	"count_dep":10,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"0.21.2",
+	"ts_publish":1758072594000,
+	"dt_publish":"2025-09-17 09:29:54.000",
+	"ts_update":1758074260408,
+	"dt_update":"2025-09-17 09:56:07.621",
+	"count_dep":45,
+	"count_ref":3,
+	"licenses":[
+		"Eclipse Public License v1.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.opendaylight.aaa/aaa-idm-store-h2@0.21.1",
 	"count_used_by":2,
 	"license":"EPL 1.0",
-	"ranking":"#205655 in MvnRepository",
+	"ranking":"#227847 in MvnRepository",
 	"tags":[
 		"bundle",
 		"store",
@@ -25,11 +27,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250823",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.21.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250707",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
 			"version":"0.21.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.20.11",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +185,7 @@
 			"usage":2,
 			"version":"0.19.5",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240516",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.19.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240331",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.19.3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Bundle parent (felix-based)"
 }

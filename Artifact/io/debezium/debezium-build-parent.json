@@ -3,11 +3,11 @@
 	"description":"Debezium is an open source change data capture platform",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-build-parent",
-	"version_latest":"3.3.0.Alpha2",
-	"ts_publish":1756205290000,
-	"dt_publish":"2025-08-26 18:48:10.000",
-	"ts_update":1756207656711,
-	"dt_update":"2025-08-26 19:26:02.718",
+	"version_latest":"3.3.0.CR1",
+	"ts_publish":1758697050000,
+	"dt_publish":"2025-09-24 14:57:30.000",
+	"ts_update":1758698151110,
+	"dt_update":"2025-09-24 15:15:25.049",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -29,18 +29,42 @@
 	"url_scm":"https://github.com/debezium/debezium",
 	"home_page":"https://debezium.io",
 	"license":"Apache 2.0",
-	"ranking":"#535893 in MvnRepository",
+	"ranking":"#552471 in MvnRepository",
 	"tags":[
 		"debezium",
 		"build"
 	],
 	"versions":[
 		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.3.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.3.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.6.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.4.Final",
 			"vulnerabilities":""
 		}
 	]

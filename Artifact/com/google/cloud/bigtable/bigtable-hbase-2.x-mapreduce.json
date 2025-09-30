@@ -3,11 +3,11 @@
 	"description":"This project contains tweaks to the hbase 2.* map reduce jobs that work for\n    bigtable.\n    Specifically, HBase's Import M/R job has ZooKeeper referrence which needed\n    to be removed\n    in order to work with Bigtable.",
 	"group_id":"com.google.cloud.bigtable",
 	"artifact_id":"bigtable-hbase-2.x-mapreduce",
-	"version_latest":"2.15.3",
-	"ts_publish":1756240331000,
-	"dt_publish":"2025-08-27 04:32:11.000",
-	"ts_update":1756243633376,
-	"dt_update":"2025-08-27 05:25:53.239",
+	"version_latest":"2.15.5",
+	"ts_publish":1758897518000,
+	"dt_publish":"2025-09-26 22:38:38.000",
+	"ts_update":1758900515785,
+	"dt_update":"2025-09-26 22:56:37.613",
 	"count_dep":169,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	],
 	"url_scm":"https://github.com/googleapis/java-bigtable-hbase/bigtable-hbase-2.x-parent/bigtable-hbase-2.x-mapreduce",
 	"license":"Apache 2.0",
-	"ranking":"#696478 in MvnRepository",
+	"ranking":"#763435 in MvnRepository",
 	"tags":[
 		"bigdata",
 		"database",
@@ -39,6 +39,22 @@
 		"parallel"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.15.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.15.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250402",
 			"repository":"Central",

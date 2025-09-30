@@ -3,13 +3,13 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-jdbc-deployment",
-	"version_latest":"3.25.0",
-	"ts_publish":1753343163000,
-	"dt_publish":"2025-07-24 15:46:03.000",
-	"ts_update":1755966380827,
-	"dt_update":"2025-08-24 00:17:02.146",
-	"count_dep":157,
-	"count_ref":2,
+	"version_latest":"3.26.0",
+	"ts_publish":1755761973000,
+	"dt_publish":"2025-08-21 15:39:33.000",
+	"ts_update":1758386798801,
+	"dt_update":"2025-09-21 00:17:46.772",
+	"count_dep":161,
+	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-jdbc-parent/camel-quarkus-support-jdbc-deployment",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#216968 in MvnRepository",
+	"ranking":"#214527 in MvnRepository",
 	"tags":[
 		"database",
 		"support",
@@ -38,6 +38,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

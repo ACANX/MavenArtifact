@@ -3,13 +3,13 @@
 	"description":"Netty is an asynchronous event-driven network application framework for\n    rapid development of maintainable high performance protocol servers and\n    clients.",
 	"group_id":"io.netty",
 	"artifact_id":"netty-resolver",
-	"version_latest":"4.2.4.Final",
-	"ts_publish":1755089142000,
-	"dt_publish":"2025-08-13 20:45:42.000",
-	"ts_update":1755091310990,
-	"dt_update":"2025-08-13 21:21:10.028",
+	"version_latest":"4.2.5.Final",
+	"ts_publish":1756909447000,
+	"dt_publish":"2025-09-03 22:24:07.000",
+	"ts_update":1756910169748,
+	"dt_update":"2025-09-03 22:34:51.918",
 	"count_dep":6,
-	"count_ref":46,
+	"count_ref":26,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"The Netty Project Contributors"
 	],
 	"url_scm":"https://github.com/netty/netty/netty-resolver",
-	"count_used_by":561,
+	"count_used_by":571,
 	"home_page":"https://netty.io/",
 	"license":"Apache 2.0",
-	"ranking":"#1065 in MvnRepository",
+	"ranking":"#1053 in MvnRepository",
 	"tags":[
 		"network",
 		"socket",
@@ -41,6 +41,14 @@
 			"type":"alpha",
 			"usage":4,
 			"version":"5.0.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"4.2.4.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -156,6 +164,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"4.1.124.Final",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250715",
 			"repository":"Central",
 			"type":"release",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":39,
 			"version":"4.1.121.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.1.120.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250226",
-			"repository":"Central",
-			"type":"release",
-			"usage":53,
-			"version":"4.1.119.Final",
 			"vulnerabilities":""
 		}
 	]

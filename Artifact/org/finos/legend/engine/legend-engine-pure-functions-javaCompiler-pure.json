@@ -3,11 +3,11 @@
 	"description":"This provides native functions that allow runtime compilation and execution of Java code. This is intended\n        primarily to support development of Java generation code by providing access to compilation and execution in a\n        Pure IDE Light. Please note that native functions provided here are extremely unsafe for general usage as they\n        allow compilation and execution of arbitrary user supplied Java code. They should only be used in environments\n        where there are no concerns about users running unsafe code (such as a user running a local Pure IDE Light).",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-pure-functions-javaCompiler-pure",
-	"version_latest":"4.97.1",
-	"ts_publish":1756235397000,
-	"dt_publish":"2025-08-27 03:09:57.000",
-	"ts_update":1756240094419,
-	"dt_update":"2025-08-27 04:25:55.590",
+	"version_latest":"4.102.0",
+	"ts_publish":1758893121000,
+	"dt_publish":"2025-09-26 21:25:21.000",
+	"ts_update":1758899906606,
+	"dt_update":"2025-09-26 21:48:09.932",
 	"count_dep":18,
 	"count_ref":4,
 	"licenses":[
@@ -26,12 +26,76 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-pure/legend-engine-pure-code-functions-javaCompiler/legend-engine-pure-functions-javaCompiler-pure",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#124317 in MvnRepository",
+	"ranking":"#126168 in MvnRepository",
 	"tags":[
 		"functions",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.101.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.101.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.101.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.100.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250907",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.99.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.98.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.97.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.97.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -126,70 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.90.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.90.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250711",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.90.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250708",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.89.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.89.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.89.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250628",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.89.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.89.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.88.11",
 			"vulnerabilities":""
 		}
 	]

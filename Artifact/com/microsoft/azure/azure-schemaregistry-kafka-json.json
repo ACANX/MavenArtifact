@@ -3,12 +3,12 @@
 	"description":"Kafka JSON serializer/deserializer for Azure Schema Registry",
 	"group_id":"com.microsoft.azure",
 	"artifact_id":"azure-schemaregistry-kafka-json",
-	"version_latest":"1.0.0-beta.4",
-	"ts_publish":1755506925000,
-	"dt_publish":"2025-08-18 16:48:45.000",
-	"ts_update":1755508901808,
-	"dt_update":"2025-08-18 17:21:17.285",
-	"count_dep":13,
+	"version_latest":"1.0.0-beta.5",
+	"ts_publish":1758683134000,
+	"dt_publish":"2025-09-24 11:05:34.000",
+	"ts_update":1758686264593,
+	"dt_update":"2025-09-24 11:26:11.640",
+	"count_dep":96,
 	"count_ref":0,
 	"licenses":[
 		"MIT License"
@@ -22,5 +22,43 @@
 	"contributors":[
 		"Microsoft Corporation"
 	],
-	"url_scm":"scm:git:https://github.com/Azure/azure-schema-registry-for-kafka"
+	"url_scm":"scm:git:https://github.com/Azure/azure-schema-registry-for-kafka",
+	"home_page":"https://github.com/Azure/azure-schema-registry-for-kafka",
+	"license":"MIT",
+	"ranking":"#696756 in MvnRepository",
+	"tags":[
+		"registry",
+		"streaming",
+		"json",
+		"azure",
+		"kafka",
+		"schema",
+		"microsoft"
+	],
+	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.0.0-beta.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20230923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.0.0-beta.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20230327",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.0.0-beta.1",
+			"vulnerabilities":""
+		}
+	]
 }

@@ -3,13 +3,13 @@
 	"description":"http4k HTTP Server built on top of Apache httpcore",
 	"group_id":"org.http4k",
 	"artifact_id":"http4k-server-apache",
-	"version_latest":"6.15.1.0",
-	"ts_publish":1751199546891,
-	"dt_publish":"2025-06-29 20:19:06.891",
-	"ts_update":1755361159743,
-	"dt_update":"2025-08-17 00:17:38.350",
-	"count_dep":4,
-	"count_ref":0,
+	"version_latest":"6.17.0.0",
+	"ts_publish":1757014610000,
+	"dt_publish":"2025-09-05 03:36:50.000",
+	"ts_update":1757017126806,
+	"dt_update":"2025-09-05 04:16:42.760",
+	"count_dep":8,
+	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -29,13 +29,21 @@
 	"count_used_by":6,
 	"home_page":"https://http4k.org",
 	"license":"Apache 2.0",
-	"ranking":"#74232 in MvnRepository",
+	"ranking":"#74703 in MvnRepository",
 	"tags":[
 		"server",
 		"apache",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250727",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.16.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250629",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.6.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250414",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.6.0.0",
 			"vulnerabilities":""
 		}
 	]

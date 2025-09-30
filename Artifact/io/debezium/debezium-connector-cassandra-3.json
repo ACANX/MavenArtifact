@@ -3,11 +3,11 @@
 	"description":"Debezium Cassandra connector is an open source change data capture connector Cassandra databases",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-cassandra-3",
-	"version_latest":"3.3.0.Alpha2",
-	"ts_publish":1756214322000,
-	"dt_publish":"2025-08-26 21:18:42.000",
-	"ts_update":1756217903011,
-	"dt_update":"2025-08-26 22:14:51.308",
+	"version_latest":"3.3.0.CR1",
+	"ts_publish":1758699676000,
+	"dt_publish":"2025-09-24 15:41:16.000",
+	"ts_update":1758703508807,
+	"dt_update":"2025-09-24 16:21:38.066",
 	"count_dep":180,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium-connector-cassandra/debezium-connector-cassandra-3",
 	"license":"Apache 2.0",
-	"ranking":"#524351 in MvnRepository",
+	"ranking":"#540388 in MvnRepository",
 	"tags":[
 		"database",
 		"cassandra",
@@ -37,11 +37,35 @@
 	],
 	"versions":[
 		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.3.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.3.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -170,30 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.6.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.4.Final",
 			"vulnerabilities":""
 		}
 	]

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.streamnative/stream-storage-java-client",
 	"group_id":"io.streamnative",
 	"artifact_id":"stream-storage-java-client",
-	"version_latest":"4.17.2.2",
-	"ts_publish":1754966465000,
-	"dt_publish":"2025-08-12 10:41:05.000",
-	"ts_update":1754967374228,
-	"dt_update":"2025-08-12 10:55:37.919",
-	"count_dep":80,
-	"count_ref":5,
-	"licenses":[],
+	"version_latest":"4.17.2.3",
+	"ts_publish":1758512280000,
+	"dt_publish":"2025-09-22 11:38:00.000",
+	"ts_update":1758513377245,
+	"dt_update":"2025-09-22 11:55:05.048",
+	"count_dep":136,
+	"count_ref":9,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,13 +19,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative/stream-storage-java-client@4.17.2.2",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#120814 in MvnRepository",
+	"ranking":"#117783 in MvnRepository",
 	"tags":[
 		"streaming",
 		"client",
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.17.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250715",
 			"repository":"Central",
@@ -70,6 +80,14 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.17.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.16.7.2",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +185,7 @@
 			"usage":4,
 			"version":"4.14.8.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230404",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.14.7.2-arrowstreet",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230531",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.14.7.1_attentive",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Apache Software Foundation provides support for the Apache community of open-source software projects.\n    The Apache projects are characterized by a collaborative, consensus based development process, an open and\n    pragmatic software license, and a desire to create high quality software that leads the way in its field.\n    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers\n    and users."
 }

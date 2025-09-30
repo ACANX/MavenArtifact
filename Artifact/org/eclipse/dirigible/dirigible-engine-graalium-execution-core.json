@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-engine-graalium-execution-core",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-engine-graalium-execution-core",
-	"version_latest":"12.14.0",
-	"ts_publish":1756388682000,
-	"dt_publish":"2025-08-28 21:44:42.000",
-	"ts_update":1756390551187,
-	"dt_update":"2025-08-28 22:15:36.988",
-	"count_dep":32,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"12.18.0",
+	"ts_publish":1758617220000,
+	"dt_publish":"2025-09-23 16:47:00.000",
+	"ts_update":1758619102767,
+	"dt_update":"2025-09-23 17:17:00.778",
+	"count_dep":119,
+	"count_ref":3,
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,13 +24,21 @@
 	],
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-engine-parent/dirigible-engine-graalium/dirigible-engine-graalium-execution-core",
 	"count_used_by":15,
-	"ranking":"#31840 in MvnRepository",
+	"ranking":"#31997 in MvnRepository",
 	"tags":[
 		"eclipse",
 		"exec",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -180,15 +190,8 @@
 			"usage":3,
 			"version":"11.66.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250627",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"11.62.0",
-			"vulnerabilities":""
 		}
 	],
-	"license":"EPL 2.0"
+	"license":"EPL 2.0",
+	"description":"Core modules packaged with Dirigible"
 }

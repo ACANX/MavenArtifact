@@ -3,13 +3,13 @@
 	"description":"The service provider interface for repository system implementations and repository connectors.",
 	"group_id":"org.apache.maven.resolver",
 	"artifact_id":"maven-resolver-spi",
-	"version_latest":"2.0.10",
-	"ts_publish":1750963046000,
-	"dt_publish":"2025-06-27 02:37:26.000",
-	"ts_update":1755364396983,
-	"dt_update":"2025-08-17 00:17:37.116",
+	"version_latest":"2.0.11",
+	"ts_publish":1757335391000,
+	"dt_publish":"2025-09-08 20:43:11.000",
+	"ts_update":1758990590968,
+	"dt_update":"2025-09-28 00:17:24.146",
 	"count_dep":4,
-	"count_ref":48,
+	"count_ref":18,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -117,10 +117,10 @@
 	],
 	"url_scm":"https://github.com/apache/maven-resolver/tree/maven-resolver-2.0.10/maven-resolver-spi",
 	"url_ci_management":"https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-resolver/",
-	"count_used_by":174,
+	"count_used_by":175,
 	"home_page":"https://maven.apache.org/resolver/",
 	"license":"Apache 2.0",
-	"ranking":"#3107 in MvnRepository",
+	"ranking":"#3133 in MvnRepository",
 	"tags":[
 		"interface",
 		"build",
@@ -131,10 +131,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250701",
+			"date":"20250908",
 			"repository":"Central",
 			"type":"release",
 			"usage":18,
+			"version":"2.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250701",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
 			"version":"2.0.10",
 			"vulnerabilities":""
 		},
@@ -280,14 +288,6 @@
 			"type":"alpha",
 			"usage":15,
 			"version":"2.0.0-alpha-2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231106",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":12,
-			"version":"2.0.0-alpha-1",
 			"vulnerabilities":""
 		}
 	]

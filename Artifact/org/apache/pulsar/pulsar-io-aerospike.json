@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.pulsar/pulsar-io-aerospike",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-io-aerospike",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875446000,
-	"dt_publish":"2025-07-30 19:37:26.000",
-	"ts_update":1756571215193,
-	"dt_update":"2025-08-31 00:17:14.718",
-	"count_dep":14,
+	"version_latest":"4.1.0",
+	"ts_publish":1756781075000,
+	"dt_publish":"2025-09-02 10:44:35.000",
+	"ts_update":1759033075832,
+	"dt_update":"2025-09-28 00:17:08.034",
+	"count_dep":0,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Transport"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.pulsar/pulsar-io-aerospike@4.0.6",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#381775 in MvnRepository",
+	"ranking":"#388279 in MvnRepository",
 	"tags":[
 		"aerospike",
 		"apache",
@@ -25,6 +27,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -176,14 +186,7 @@
 			"usage":1,
 			"version":"3.2.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240403",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.2.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API."
 }

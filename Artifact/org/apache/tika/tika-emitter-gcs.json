@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.apache.tika/tika-emitter-gcs",
-	"description":"Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
 	"group_id":"org.apache.tika",
 	"artifact_id":"tika-emitter-gcs",
-	"version_latest":"3.2.2",
-	"ts_publish":1754500468000,
-	"dt_publish":"2025-08-07 01:14:28.000",
-	"ts_update":1756574005357,
-	"dt_update":"2025-08-31 00:17:32.400",
-	"count_dep":77,
+	"version_latest":"3.2.3",
+	"ts_publish":1757602353000,
+	"dt_publish":"2025-09-11 22:52:33.000",
+	"ts_update":1758991728761,
+	"dt_update":"2025-09-28 00:17:29.075",
+	"count_dep":7,
 	"count_ref":0,
-	"licenses":[
-		"Apache-2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Analytics"
 	],
@@ -46,12 +43,20 @@
 	"url_scm":"https://github.com/apache/tika/tika-pipes/tika-emitters/tika-emitter-gcs",
 	"url_ci_management":"https://ci-builds.apache.org/job/Tika/",
 	"license":"Apache 2.0",
-	"ranking":"#614905 in MvnRepository",
+	"ranking":"#618541 in MvnRepository",
 	"tags":[
 		"tika",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250709",
 			"repository":"Central",
@@ -202,14 +207,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211219",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.2.0",
 			"vulnerabilities":""
 		}
 	]
