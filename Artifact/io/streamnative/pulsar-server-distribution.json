@@ -3,10 +3,10 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-server-distribution",
-	"version_latest":"4.1.0.2",
-	"ts_publish":1758522146000,
-	"ts_update":1758524129370,
-	"count_dep":405,
+	"version_latest":"4.1.0.3",
+	"ts_publish":1759197205000,
+	"ts_update":1759204773624,
+	"count_dep":427,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -20,17 +20,25 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/distribution/pulsar-server-distribution",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-09-22 14:22:26.000",
-	"dt_update":"2025-09-22 14:54:42.184",
+	"dt_publish":"2025-09-30 09:53:25.000",
+	"dt_update":"2025-09-30 10:26:17.694",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#349394 in MvnRepository",
+	"ranking":"#348905 in MvnRepository",
 	"tags":[
 		"server",
 		"distribution",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.1.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -45,6 +53,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.6.6",
 			"vulnerabilities":""
 		},
 		{
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.0.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.0.10",
 			"vulnerabilities":""
 		}
 	]
