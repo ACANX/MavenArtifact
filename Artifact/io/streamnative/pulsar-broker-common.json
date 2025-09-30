@@ -3,11 +3,11 @@
 	"description":"Common classes used in multiple broker modules",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-broker-common",
-	"version_latest":"4.1.0.2",
-	"ts_publish":1758522146000,
-	"ts_update":1758524131846,
-	"count_dep":44,
-	"count_ref":15,
+	"version_latest":"4.1.0.3",
+	"ts_publish":1759197205000,
+	"ts_update":1759210030900,
+	"count_dep":131,
+	"count_ref":19,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,16 +20,24 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-broker-common",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-09-22 14:22:26.000",
-	"dt_update":"2025-09-22 14:54:42.857",
+	"dt_publish":"2025-09-30 09:53:25.000",
+	"dt_update":"2025-09-30 10:26:16.362",
 	"count_used_by":17,
 	"license":"Apache 2.0",
-	"ranking":"#27054 in MvnRepository",
+	"ranking":"#27090 in MvnRepository",
 	"tags":[
 		"broker",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"4.1.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -44,6 +52,14 @@
 			"type":"release",
 			"usage":7,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"4.0.6.6",
 			"vulnerabilities":""
 		},
 		{
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"4.0.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"4.0.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"4.0.0.10",
 			"vulnerabilities":""
 		}
 	]
