@@ -3,13 +3,13 @@
 	"description":"Keycloak Quarkus Server App",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-quarkus-server-app",
-	"version_latest":"26.3.4",
-	"ts_publish":1757682842000,
-	"dt_publish":"2025-09-12 21:14:02.000",
-	"ts_update":1757684191290,
-	"dt_update":"2025-09-12 21:36:16.050",
-	"count_dep":412,
-	"count_ref":15,
+	"version_latest":"26.4.0",
+	"ts_publish":1759232311000,
+	"dt_publish":"2025-09-30 19:38:31.000",
+	"ts_update":1759239812855,
+	"dt_update":"2025-09-30 19:56:18.993",
+	"count_dep":6,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,13 +27,29 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-quarkus-parent/keycloak-quarkus-server-app/",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#194619 in MvnRepository",
+	"ranking":"#196779 in MvnRepository",
 	"tags":[
 		"server",
 		"quarkus",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"26.3.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"26.3.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"26.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241101",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.0.5",
 			"vulnerabilities":""
 		}
 	]
