@@ -2,13 +2,13 @@
 	"id":"pkg:maven/com.yahoo.vespa/metrics-proxy",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"metrics-proxy",
-	"version_latest":"8.586.25",
-	"ts_publish":1759156495000,
-	"dt_publish":"2025-09-29 22:34:55.000",
-	"ts_update":1759172124433,
-	"dt_update":"2025-09-29 23:46:18.349",
-	"count_dep":92,
-	"count_ref":10,
+	"version_latest":"8.587.11",
+	"ts_publish":1759243348000,
+	"dt_publish":"2025-09-30 22:42:28.000",
+	"ts_update":1759254308236,
+	"dt_update":"2025-09-30 22:56:00.265",
+	"count_dep":34,
+	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -25,12 +25,28 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/metrics-proxy",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#255559 in MvnRepository",
+	"ranking":"#255583 in MvnRepository",
 	"tags":[
 		"proxy",
 		"metrics"
 	],
 	"versions":[
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.586.25",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.585.41",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.562.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.560.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.559.30",
 			"vulnerabilities":""
 		}
 	],
