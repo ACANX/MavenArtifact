@@ -3,11 +3,11 @@
 	"description":"Connect to Kafka with Reactive Messaging",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-messaging-kafka",
-	"version_latest":"3.28.1",
-	"ts_publish":1758712065000,
-	"dt_publish":"2025-09-24 19:07:45.000",
-	"ts_update":1758716929704,
-	"dt_update":"2025-09-24 19:44:28.879",
+	"version_latest":"3.28.2",
+	"ts_publish":1759324119000,
+	"dt_publish":"2025-10-01 21:08:39.000",
+	"ts_update":1759326317601,
+	"dt_update":"2025-10-01 21:43:06.023",
 	"count_dep":11,
 	"count_ref":0,
 	"licenses":[],
@@ -16,9 +16,9 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-messaging-kafka@3.25.1",
-	"count_used_by":23,
+	"count_used_by":24,
 	"license":"Apache 2.0",
-	"ranking":"#20475 in MvnRepository",
+	"ranking":"#19702 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"messaging",
@@ -27,10 +27,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250917",
+			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"3.28.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"3.28.0",
 			"vulnerabilities":""
 		},
@@ -46,7 +54,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"3.27.0",
 			"vulnerabilities":""
 		},
@@ -62,7 +70,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"3.26.4",
 			"vulnerabilities":""
 		},
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.24.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.2",
 			"vulnerabilities":""
 		}
 	]

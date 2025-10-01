@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.wildfly/wildfly-mod_cluster",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-mod_cluster",
-	"version_latest":"37.0.1.Final",
-	"ts_publish":1756932426000,
-	"dt_publish":"2025-09-04 04:47:06.000",
-	"ts_update":1756934001943,
-	"dt_update":"2025-09-04 05:12:51.154",
+	"version_latest":"38.0.0.Beta1",
+	"ts_publish":1759315079000,
+	"dt_publish":"2025-10-01 18:37:59.000",
+	"ts_update":1759326382591,
+	"dt_update":"2025-10-01 18:56:07.731",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -23,12 +25,20 @@
 	],
 	"url_scm":"https://github.com/wildfly/wildfly",
 	"license":"Apache 2.0",
-	"ranking":"#965651 in MvnRepository",
+	"ranking":"#975641 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"37.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":0,
 			"version":"31.0.1.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240125",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"31.0.0.Final",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"WildFly: Parent Aggregator"
 }
