@@ -3,13 +3,13 @@
 	"description":"Base POM for Atlassian projects",
 	"group_id":"com.atlassian.bamboo",
 	"artifact_id":"bamboo-specs",
-	"version_latest":"11.0.6-m01-BAM-26221-1",
-	"ts_publish":1758710672000,
-	"dt_publish":"2025-09-24 18:44:32.000",
-	"ts_update":1758711387608,
-	"dt_update":"2025-09-24 18:56:13.457",
+	"version_latest":"12.0.0-rc3",
+	"ts_publish":1759321517000,
+	"dt_publish":"2025-10-01 20:25:17.000",
+	"ts_update":1759323379818,
+	"dt_update":"2025-10-01 20:32:57.840",
 	"count_dep":24,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"Apache 2.0"
 	],
@@ -27,17 +27,25 @@
 	"url_ci_management":"https://staging-bamboo.internal.atlassian.com/browse/OTHER-BASEPOM",
 	"count_used_by":42,
 	"license":"Apache 2.0",
-	"ranking":"#11434 in MvnRepository",
+	"ranking":"#11460 in MvnRepository",
 	"tags":[
 		"atlassian",
 		"specs"
 	],
 	"versions":[
 		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":1,
+			"version":"11.0.6-m01-BAM-26221-1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250910",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":4,
 			"version":"11.0.5",
 			"vulnerabilities":""
 		},
@@ -138,6 +146,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":1,
+			"version":"10.2.9-m02",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250923",
 			"repository":"Central",
 			"type":"milestone",
@@ -149,7 +165,7 @@
 			"date":"20250909",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":4,
 			"version":"10.2.8",
 			"vulnerabilities":""
 		},
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"10.2.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"10.2.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"10.2.4",
 			"vulnerabilities":""
 		}
 	]
