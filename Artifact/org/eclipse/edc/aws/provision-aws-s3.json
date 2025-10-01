@@ -3,11 +3,11 @@
 	"description":"edc :: provision-aws-s3",
 	"group_id":"org.eclipse.edc.aws",
 	"artifact_id":"provision-aws-s3",
-	"version_latest":"0.14.0",
-	"ts_publish":1755603626000,
-	"dt_publish":"2025-08-19 19:40:26.000",
-	"ts_update":1755604607788,
-	"dt_update":"2025-08-19 19:55:48.381",
+	"version_latest":"0.14.1",
+	"ts_publish":1759327238000,
+	"dt_publish":"2025-10-01 22:00:38.000",
+	"ts_update":1759330676408,
+	"dt_update":"2025-10-01 22:38:09.777",
 	"count_dep":57,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/eclipse-edc/Technology-Aws.git",
 	"home_page":"https://projects.eclipse.org/projects/technology.edc",
 	"license":"Apache 2.0",
-	"ranking":"#516791 in MvnRepository",
+	"ranking":"#367605 in MvnRepository",
 	"tags":[
 		"aws",
 		"s3",
@@ -31,6 +31,14 @@
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -143,5 +151,6 @@
 			"version":"0.0.1-dontuse",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
