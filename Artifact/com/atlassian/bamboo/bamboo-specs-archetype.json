@@ -3,11 +3,11 @@
 	"description":"Base POM for Atlassian projects",
 	"group_id":"com.atlassian.bamboo",
 	"artifact_id":"bamboo-specs-archetype",
-	"version_latest":"12.0.0-rc1",
-	"ts_publish":1759306152000,
-	"dt_publish":"2025-10-01 16:09:12.000",
-	"ts_update":1759310914675,
-	"dt_update":"2025-10-01 16:26:00.311",
+	"version_latest":"12.0.0-rc3",
+	"ts_publish":1759321516000,
+	"dt_publish":"2025-10-01 20:25:16.000",
+	"ts_update":1759329631427,
+	"dt_update":"2025-10-01 20:32:57.841",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_ci_management":"https://staging-bamboo.internal.atlassian.com/browse/OTHER-BASEPOM",
 	"home_page":"http://maven.apache.org",
 	"license":"Apache 2.0",
-	"ranking":"#664672 in MvnRepository",
+	"ranking":"#661834 in MvnRepository",
 	"tags":[
 		"atlassian",
 		"archetype",
@@ -37,6 +37,14 @@
 		"specs"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"11.0.6-m01-BAM-26221-1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",
@@ -142,6 +150,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"10.2.9-m02",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250923",
 			"repository":"Central",
 			"type":"milestone",
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"10.2.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"10.2.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"10.2.4",
 			"vulnerabilities":""
 		}
 	]
