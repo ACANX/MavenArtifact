@@ -3,9 +3,9 @@
 	"description":"Protobuf Compiler (protoc) is a compiler for .proto files. It generates\n    language-specific code for Protobuf messages and RPC interfaces.",
 	"group_id":"com.google.protobuf",
 	"artifact_id":"protoc",
-	"version_latest":"4.32.1",
-	"ts_publish":1757627584000,
-	"ts_update":1757629579639,
+	"version_latest":"4.33.0-RC1",
+	"ts_publish":1759340664000,
+	"ts_update":1759346151722,
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -19,12 +19,12 @@
 	"url_project":"https://developers.google.com/protocol-buffers/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.google.protobuf/protoc@4.32.0-RC2",
 	"url_scm":"https://github.com/protocolbuffers/protobuf",
-	"dt_publish":"2025-09-12 05:53:04.000",
-	"dt_update":"2025-09-12 06:26:02.650",
+	"dt_publish":"2025-10-02 01:44:24.000",
+	"dt_update":"2025-10-02 01:56:03.868",
 	"count_used_by":33,
 	"home_page":"https://developers.google.com/protocol-buffers/",
 	"license":"BSD 3-clause",
-	"ranking":"#14336 in MvnRepository",
+	"ranking":"#14404 in MvnRepository",
 	"tags":[
 		"google",
 		"protobuf",
@@ -39,6 +39,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"21.0-rc-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.32.1",
 			"vulnerabilities":""
 		},
 		{
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.29.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241119",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.29.0-RC3",
 			"vulnerabilities":""
 		}
 	]
