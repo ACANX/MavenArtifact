@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-devtools-message-writer",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-devtools-message-writer",
-	"version_latest":"3.28.0",
-	"ts_publish":1758101127000,
-	"dt_publish":"2025-09-17 17:25:27.000",
-	"ts_update":1758103036864,
-	"dt_update":"2025-09-17 17:56:31.631",
+	"version_latest":"3.28.2",
+	"ts_publish":1759324120000,
+	"dt_publish":"2025-10-01 21:08:40.000",
+	"ts_update":1759345167245,
+	"dt_update":"2025-10-01 21:42:58.344",
 	"count_dep":1,
-	"count_ref":9,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"count_ref":0,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -19,13 +17,29 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-devtools-message-writer@3.25.1",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#95485 in MvnRepository",
+	"ranking":"#95049 in MvnRepository",
 	"tags":[
 		"writer",
 		"quarkus",
 		"tools"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.28.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",
@@ -35,11 +49,27 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250909",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
 			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.26.4",
 			"vulnerabilities":""
 		},
 		{
@@ -153,39 +183,6 @@
 			"usage":3,
 			"version":"3.24.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250625",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.0.CR1",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Quarkus Parent POM"
+	]
 }
