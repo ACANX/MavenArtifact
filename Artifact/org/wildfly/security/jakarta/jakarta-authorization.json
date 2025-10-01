@@ -3,12 +3,12 @@
 	"description":"WildFly Security Jakarta Authorization Implementation",
 	"group_id":"org.wildfly.security.jakarta",
 	"artifact_id":"jakarta-authorization",
-	"version_latest":"4.0.0.Beta2",
-	"ts_publish":1756821421000,
-	"dt_publish":"2025-09-02 21:57:01.000",
-	"ts_update":1756823234358,
-	"dt_update":"2025-09-02 22:26:00.931",
-	"count_dep":0,
+	"version_latest":"4.0.0.Beta3",
+	"ts_publish":1759360534000,
+	"dt_publish":"2025-10-02 07:15:34.000",
+	"ts_update":1759361187783,
+	"dt_update":"2025-10-02 07:26:03.517",
+	"count_dep":24,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/wildfly-security/wildfly-elytron-ee",
 	"count_used_by":15,
 	"license":"Apache 2.0",
-	"ranking":"#31105 in MvnRepository",
+	"ranking":"#31784 in MvnRepository",
 	"tags":[
 		"jakarta",
 		"security",
@@ -36,11 +36,59 @@
 	],
 	"versions":[
 		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"4.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20241205",
 			"repository":"Central",
 			"type":"beta",
 			"usage":0,
 			"version":"4.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.2.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.2.0.Alpha3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250914",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.2.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.2.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.1.5.Alpha1",
 			"vulnerabilities":""
 		},
 		{
@@ -81,6 +129,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.0.4.Alpha1",
 			"vulnerabilities":""
 		},
 		{
@@ -137,38 +193,6 @@
 			"type":"beta",
 			"usage":2,
 			"version":"3.0.0.Beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220611",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"3.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220430",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"2.0.0.Beta3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220108",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"2.0.0.Beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210508",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"2.0.0.Beta1",
 			"vulnerabilities":""
 		}
 	]
