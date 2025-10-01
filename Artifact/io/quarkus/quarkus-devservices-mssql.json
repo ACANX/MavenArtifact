@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-devservices-mssql",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-devservices-mssql",
-	"version_latest":"3.28.0",
-	"ts_publish":1758101126000,
-	"dt_publish":"2025-09-17 17:25:26.000",
-	"ts_update":1758104236835,
-	"dt_update":"2025-09-17 17:56:35.461",
-	"count_dep":106,
+	"version_latest":"3.28.2",
+	"ts_publish":1759324120000,
+	"dt_publish":"2025-10-01 21:08:40.000",
+	"ts_update":1759336921334,
+	"dt_update":"2025-10-01 21:42:54.061",
+	"count_dep":7,
 	"count_ref":1,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -19,13 +17,77 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-devservices-mssql@3.25.1",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#225909 in MvnRepository",
+	"ranking":"#227877 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"mssql",
 		"sql"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -121,71 +183,6 @@
 			"usage":2,
 			"version":"3.24.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.24.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250625",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.24.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.24.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.24.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.23.1",
-			"vulnerabilities":""
 		}
-	],
-	"description":"DevServices allows Quarkus to automatically configure and start databases and other containers in\n        dev and test mode."
+	]
 }
