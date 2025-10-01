@@ -3,12 +3,12 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-server-dist",
-	"version_latest":"3.3.0.Beta1",
-	"ts_publish":1757068293000,
-	"dt_publish":"2025-09-05 18:31:33.000",
-	"ts_update":1757069261428,
-	"dt_update":"2025-09-05 18:46:14.370",
-	"count_dep":454,
+	"version_latest":"3.3.0.Final",
+	"ts_publish":1759305812000,
+	"dt_publish":"2025-10-01 16:03:32.000",
+	"ts_update":1759330216219,
+	"dt_update":"2025-10-01 16:21:15.069",
+	"count_dep":452,
 	"count_ref":0,
 	"licenses":[
 		"Apache Software License 2.0"
@@ -27,13 +27,29 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium-server/debezium-server-dist",
 	"license":"Apache 2.0",
-	"ranking":"#967022 in MvnRepository",
+	"ranking":"#976308 in MvnRepository",
 	"tags":[
 		"debezium",
 		"server",
 		"distribution"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.3.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -48,6 +64,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.3.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -168,30 +192,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.1.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250303",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.8.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.6.Final",
 			"vulnerabilities":""
 		}
 	]
