@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-scripting",
-	"version_latest":"3.3.0.CR1",
-	"ts_publish":1758697050000,
-	"dt_publish":"2025-09-24 14:57:30.000",
-	"ts_update":1758698829308,
-	"dt_update":"2025-09-24 15:15:25.044",
+	"version_latest":"3.3.0.Final",
+	"ts_publish":1759299995000,
+	"dt_publish":"2025-10-01 14:26:35.000",
+	"ts_update":1759310871302,
+	"dt_update":"2025-10-01 14:52:53.394",
 	"count_dep":34,
 	"count_ref":2,
 	"licenses":[
@@ -29,12 +29,28 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-scripting-parent/debezium-scripting",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#254627 in MvnRepository",
+	"ranking":"#256467 in MvnRepository",
 	"tags":[
 		"debezium",
 		"scripting"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.3.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"3.3.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -49,6 +65,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.3.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -169,30 +193,6 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.1.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250303",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.8.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.6.Final",
 			"vulnerabilities":""
 		}
 	]
