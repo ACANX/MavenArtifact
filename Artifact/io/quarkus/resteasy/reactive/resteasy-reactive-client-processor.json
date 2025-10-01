@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus.resteasy.reactive/resteasy-reactive-client-processor",
 	"group_id":"io.quarkus.resteasy.reactive",
 	"artifact_id":"resteasy-reactive-client-processor",
-	"version_latest":"3.28.0",
-	"ts_publish":1758101127000,
-	"dt_publish":"2025-09-17 17:25:27.000",
-	"ts_update":1758103035080,
-	"dt_update":"2025-09-17 17:56:25.704",
-	"count_dep":10,
-	"count_ref":5,
-	"licenses":[],
+	"version_latest":"3.28.2",
+	"ts_publish":1759324119000,
+	"dt_publish":"2025-10-01 21:08:39.000",
+	"ts_update":1759331782356,
+	"dt_update":"2025-10-01 21:43:05.501",
+	"count_dep":19,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#131707 in MvnRepository",
+	"ranking":"#131818 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -34,6 +36,22 @@
 	],
 	"versions":[
 		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250910",
 			"repository":"Central",
 			"type":"release",
@@ -42,11 +60,27 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250909",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
 			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.4",
 			"vulnerabilities":""
 		},
 		{
@@ -160,38 +194,7 @@
 			"usage":1,
 			"version":"3.24.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250625",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.0.CR1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Quarkus Parent POM"
 }
