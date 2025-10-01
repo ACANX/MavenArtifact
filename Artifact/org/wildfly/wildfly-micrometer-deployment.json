@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.wildfly/wildfly-micrometer-deployment",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-micrometer-deployment",
-	"version_latest":"37.0.1.Final",
-	"ts_publish":1756932426000,
-	"dt_publish":"2025-09-04 04:47:06.000",
-	"ts_update":1756934003625,
-	"dt_update":"2025-09-04 05:12:48.400",
-	"count_dep":4,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"38.0.0.Beta1",
+	"ts_publish":1759315079000,
+	"dt_publish":"2025-10-01 18:37:59.000",
+	"ts_update":1759316298824,
+	"dt_update":"2025-10-01 18:56:06.517",
+	"count_dep":17,
+	"count_ref":1,
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -17,13 +19,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-micrometer-deployment@37.0.0.Final",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#134202 in MvnRepository",
+	"ranking":"#135462 in MvnRepository",
 	"tags":[
 		"deployment",
 		"wildfly",
 		"metrics"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"37.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -175,14 +185,7 @@
 			"usage":1,
 			"version":"31.0.1.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240125",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"31.0.0.Final",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"WildFly: Parent Aggregator"
 }
