@@ -3,13 +3,13 @@
 	"description":"The Amazon Web Services SDK for Java provides Java APIs\n        for building software on AWS' cost-effective, scalable, and reliable\n        infrastructure products. The AWS Java SDK allows developers to code\n        against APIs for all of Amazon's infrastructure web services (Amazon\n        S3, Amazon EC2, Amazon SQS, Amazon Relational Database Service, Amazon\n        AutoScaling, etc).",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"http-client-spi",
-	"version_latest":"2.34.6",
-	"ts_publish":1759181425000,
-	"dt_publish":"2025-09-30 05:30:25.000",
-	"ts_update":1759186039246,
-	"dt_update":"2025-09-30 05:56:15.160",
+	"version_latest":"2.34.7",
+	"ts_publish":1759269900000,
+	"dt_publish":"2025-10-01 06:05:00.000",
+	"ts_update":1759327023164,
+	"dt_update":"2025-10-01 06:32:33.880",
 	"count_dep":12,
-	"count_ref":158,
+	"count_ref":120,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,7 +23,7 @@
 	"count_used_by":156,
 	"home_page":"https://aws.amazon.com/sdk-for-java/",
 	"license":"Apache 2.0",
-	"ranking":"#3470 in MvnRepository",
+	"ranking":"#3471 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -33,6 +33,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":26,
+			"version":"2.34.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -69,7 +77,7 @@
 			"date":"20250923",
 			"repository":"Central",
 			"type":"release",
-			"usage":27,
+			"usage":28,
 			"version":"2.34.1",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":26,
 			"version":"2.33.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"release",
-			"usage":31,
-			"version":"2.33.0",
 			"vulnerabilities":""
 		}
 	]
