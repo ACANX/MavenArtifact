@@ -3,12 +3,12 @@
 	"description":"Tech Preview Galleon feature pack providing possibly experimental functionality",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-preview-feature-pack",
-	"version_latest":"37.0.1.Final",
-	"ts_publish":1756932427000,
-	"dt_publish":"2025-09-04 04:47:07.000",
-	"ts_update":1756934047329,
-	"dt_update":"2025-09-04 05:12:48.395",
-	"count_dep":816,
+	"version_latest":"38.0.0.Beta1",
+	"ts_publish":1759315079000,
+	"dt_publish":"2025-10-01 18:37:59.000",
+	"ts_update":1759317286836,
+	"dt_update":"2025-10-01 18:56:08.375",
+	"count_dep":195,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -28,11 +28,19 @@
 	"count_used_by":16,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#28859 in MvnRepository",
+	"ranking":"#29176 in MvnRepository",
 	"tags":[
 		"wildfly"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"37.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"31.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240125",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"31.0.0.Final",
 			"vulnerabilities":""
 		}
 	]

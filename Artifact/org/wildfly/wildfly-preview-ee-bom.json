@@ -3,11 +3,11 @@
 	"description":"Build of materials that can be used to build WildFly Preview maven modules\n        that provide traditional capabilities like Jakarta EE.",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-preview-ee-bom",
-	"version_latest":"37.0.1.Final",
-	"ts_publish":1756932426000,
-	"dt_publish":"2025-09-04 04:47:06.000",
-	"ts_update":1756934058205,
-	"dt_update":"2025-09-04 05:12:48.966",
+	"version_latest":"38.0.0.Beta1",
+	"ts_publish":1759315079000,
+	"dt_publish":"2025-10-01 18:37:59.000",
+	"ts_update":1759317290936,
+	"dt_update":"2025-10-01 18:56:06.516",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/wildfly/wildfly",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#249380 in MvnRepository",
+	"ranking":"#244033 in MvnRepository",
 	"tags":[
 		"bom",
 		"wildfly",
@@ -35,6 +35,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"37.0.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"37.0.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"31.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240125",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"31.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231221",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"31.0.0.Beta1",
 			"vulnerabilities":""
 		}
 	]
