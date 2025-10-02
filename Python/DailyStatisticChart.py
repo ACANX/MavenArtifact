@@ -77,6 +77,51 @@ def main():
     
     print(f"图表已保存到 {output_path}")
 
+
+def add_xaxis_labels_smart(svg, dates, plot_width, chart_height, MARGIN):
+    if not dates:
+        return
+    total_points = len(dates)
+    available_width = plot_width - 2 * MARGIN
+    
+    # 根据数据密度自动调整
+    if total_points <= 8:
+        # 数据量少，全部显示
+        indices_to_show = range(total_points)
+    elif total_points <= 20:
+        # 中等数据量，显示首尾和中间几个
+        step = max(2, total_points // 6)
+        indices_to_show = set([0, total_points-1])  # 首尾
+        # 添加中间点
+        mid_point = total_points // 2
+        indices_to_show.update([mid_point])
+        indices_to_show.update(range(step, total_points-1, step))
+    else:
+        # 大数据量，基于像素密度采样
+        pixels_per_point = available_width / (total_points - 1)
+        if pixels_per_point < 30:  # 非常密集
+            step = max(5, total_points // 15)
+        elif pixels_per_point < 60:  # 中等密度
+            step = max(3, total_points // 10)
+        else:  # 稀疏
+            step = max(2, total_points // 8)
+        indices_to_show = set([0, total_points-1])  # 保证首尾
+        indices_to_show.update(range(0, total_points, step))
+    
+    # 渲染标签
+    for i in sorted(indices_to_show):
+        if i < len(dates):
+            date = dates[i]
+            x = MARGIN + i * (plot_width / (len(dates) - 1)) if len(dates) > 1 else MARGIN
+            y = chart_height - MARGIN + 20
+            # 格式化日期
+            if len(date) >= 10:
+                label = f"{date[5:7]}-{date[8:10]}"
+            else:
+                label = date
+            svg.append(f'<text x="{x}" y="{y}" text-anchor="middle" font-size="12">{label}</text>')
+            
+
 def generate_svg_chart(dates, metrics):
     """生成多指标趋势图SVG"""
     # 计算图表边界
@@ -153,12 +198,14 @@ def generate_svg_chart(dates, metrics):
             path += f' L {point[0]} {point[1]}'
         svg.append(f'<path d="{path}" fill="none" stroke="{COLORS[idx]}" stroke-width="2" />')
     
-    # 添加X轴日期标签
-    for i, date in enumerate(dates):
-        x = MARGIN + i * (plot_width / (len(dates) - 1))
-        y = chart_height - MARGIN + 20
-        # 显示完整日期格式：MM-DD
-        svg.append(f'<text x="{x}" y="{y}" text-anchor="middle">{date[5:7]}-{date[8:10]}</text>')
+    # # 添加X轴日期标签
+    # for i, date in enumerate(dates):
+    #     x = MARGIN + i * (plot_width / (len(dates) - 1))
+    #     y = chart_height - MARGIN + 20
+    #     # 显示完整日期格式：MM-DD
+    #     svg.append(f'<text x="{x}" y="{y}" text-anchor="middle">{date[5:7]}-{date[8:10]}</text>')
+    # 使用智能版本：
+    add_xaxis_labels_smart(svg, dates, plot_width, chart_height, MARGIN)    
     
     # 添加图例（左上角）
     legend_x = MARGIN + 20
