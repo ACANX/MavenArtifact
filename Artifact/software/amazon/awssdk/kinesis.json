@@ -3,13 +3,13 @@
 	"description":"The AWS Java SDK for Amazon Kinesis module holds the client classes that are used for communicating\n        with Amazon Kinesis Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"kinesis",
-	"version_latest":"2.34.7",
-	"ts_publish":1759269900000,
-	"dt_publish":"2025-10-01 06:05:00.000",
-	"ts_update":1759283883756,
-	"dt_update":"2025-10-01 06:32:26.639",
-	"count_dep":7,
-	"count_ref":1,
+	"version_latest":"2.34.8",
+	"ts_publish":1759358256000,
+	"dt_publish":"2025-10-02 06:37:36.000",
+	"ts_update":1759364943008,
+	"dt_update":"2025-10-02 07:13:51.979",
+	"count_dep":37,
+	"count_ref":2,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -20,7 +20,7 @@
 	"count_used_by":86,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#5927 in MvnRepository",
+	"ranking":"#5928 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -32,6 +32,14 @@
 		"kinesis"
 	],
 	"versions":[
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.34.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.33.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.33.0",
 			"vulnerabilities":""
 		}
 	]
