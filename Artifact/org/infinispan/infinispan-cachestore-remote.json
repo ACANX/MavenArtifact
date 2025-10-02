@@ -3,13 +3,13 @@
 	"description":"Infinispan remote CacheStore based on Hot Rod protocol",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-cachestore-remote",
-	"version_latest":"16.0.0.Dev04",
-	"ts_publish":1758097852000,
-	"dt_publish":"2025-09-17 16:30:52.000",
-	"ts_update":1758098535935,
-	"dt_update":"2025-09-17 16:41:53.169",
+	"version_latest":"16.0.0.Dev05",
+	"ts_publish":1759403881000,
+	"dt_publish":"2025-10-02 19:18:01.000",
+	"ts_update":1759405571774,
+	"dt_update":"2025-10-02 19:44:37.167",
 	"count_dep":29,
-	"count_ref":13,
+	"count_ref":6,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -21,7 +21,7 @@
 	"count_used_by":59,
 	"home_page":"https://infinispan.org/",
 	"license":"Apache 2.0",
-	"ranking":"#8427 in MvnRepository",
+	"ranking":"#8459 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"store",
@@ -29,6 +29,14 @@
 		"remote"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"dev",
+			"usage":6,
+			"version":"16.0.0.Dev04",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"15.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"15.1.1.Final",
 			"vulnerabilities":""
 		}
 	]
