@@ -3,12 +3,12 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-crypto-aws-kms",
-	"version_latest":"4.1.0",
-	"ts_publish":1758268587000,
-	"dt_publish":"2025-09-19 15:56:27.000",
-	"ts_update":1758270038530,
-	"dt_update":"2025-09-19 16:20:04.237",
-	"count_dep":40,
+	"version_latest":"4.2.0",
+	"ts_publish":1759418953000,
+	"dt_publish":"2025-10-02 23:29:13.000",
+	"ts_update":1759425291189,
+	"dt_update":"2025-10-02 23:46:06.477",
+	"count_dep":41,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-crypto.git/jeap-crypto-aws-kms",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#278331 in MvnRepository",
+	"ranking":"#277175 in MvnRepository",
 	"tags":[
 		"admin",
 		"aws",
@@ -30,6 +30,14 @@
 		"cryptography"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.15.0",
 			"vulnerabilities":""
 		}
 	]

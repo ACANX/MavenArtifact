@@ -3,13 +3,13 @@
 	"description":"Infinispan Multimap module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-multimap",
-	"version_latest":"16.0.0.Dev03",
-	"ts_publish":1754915267000,
-	"dt_publish":"2025-08-11 20:27:47.000",
-	"ts_update":1754916964999,
-	"dt_update":"2025-08-11 20:55:47.584",
-	"count_dep":42,
-	"count_ref":14,
+	"version_latest":"16.0.0.Dev05",
+	"ts_publish":1759403881000,
+	"dt_publish":"2025-10-02 19:18:01.000",
+	"ts_update":1759425341750,
+	"dt_update":"2025-10-02 19:44:37.170",
+	"count_dep":27,
+	"count_ref":4,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -28,13 +28,29 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-multimap",
 	"count_used_by":17,
 	"license":"Apache 2.0",
-	"ranking":"#27674 in MvnRepository",
+	"ranking":"#27729 in MvnRepository",
 	"tags":[
 		"cache",
 		"infinispan",
 		"multimap"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"dev",
+			"usage":4,
+			"version":"16.0.0.Dev04",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":4,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -49,6 +65,14 @@
 			"type":"dev",
 			"usage":4,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":4,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]
