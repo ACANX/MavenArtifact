@@ -3,12 +3,12 @@
 	"description":"Infinispan Server Test Driver for JUnit 5.x",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-server-testdriver-junit5",
-	"version_latest":"16.0.0.Dev04",
-	"ts_publish":1758097852000,
-	"dt_publish":"2025-09-17 16:30:52.000",
-	"ts_update":1758098573889,
-	"dt_update":"2025-09-17 16:41:54.035",
-	"count_dep":221,
+	"version_latest":"16.0.0.Dev05",
+	"ts_publish":1759403881000,
+	"dt_publish":"2025-10-02 19:18:01.000",
+	"ts_update":1759411830607,
+	"dt_update":"2025-10-02 19:44:37.176",
+	"count_dep":26,
 	"count_ref":4,
 	"licenses":[
 		"Apache License 2.0"
@@ -26,9 +26,9 @@
 		"See https://github.com/infinispan/infinispan/graphs/contributors"
 	],
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-server-parent/infinispan-testdriver-parent-pom/infinispan-server-testdriver-junit5",
-	"count_used_by":5,
+	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#83641 in MvnRepository",
+	"ranking":"#71872 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"server",
@@ -38,6 +38,22 @@
 		"driver"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"dev",
+			"usage":4,
+			"version":"16.0.0.Dev04",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":4,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -52,6 +68,14 @@
 			"type":"dev",
 			"usage":3,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -172,30 +196,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"15.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":3,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]
