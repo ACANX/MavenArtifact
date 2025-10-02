@@ -218,11 +218,11 @@ def generate_svg_chart(dates, metrics):
         pos_x = 100 + 200 * i
         val = latest_values[i]
         svg.append(f'<rect x="{pos_x}" y="970" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
-        svg.append(f'<text x="{pos_x + 20}" y="990" class="legend-item">{val}</text>')
+        svg.append(f'<text x="{pos_x + 25}" y="990" class="legend-item">{val}</text>')
 
     # 添加时间戳
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    svg.append(f'<text x="{chart_width - MARGIN}" y="{chart_height - 10}" text-anchor="end" font-size="10" fill="#666">生成时间: {timestamp}</text>')
+    svg.append(f'<text x="{chart_width - MARGIN}" y="{chart_height - 10}" text-anchor="end" font-size="11" fill="#666">生成时间: {timestamp}</text>')
     
     # 结束SVG
     svg.append('</svg>')
