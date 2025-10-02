@@ -215,7 +215,6 @@ def generate_svg_chart(dates, metrics):
     # 方法一：使用列表推导式
     latest_values = [metric["values"][-1] for metric in metrics]
     for i, metric in enumerate(metrics):
-        y = 900
         pos_x = 100 + 140 * i
         val = latest_values[i]
         svg.append(f'<rect x="{pos_x}" y="990" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
