@@ -3,13 +3,13 @@
 	"description":"Infinispan JDBC CacheStore Common module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-cachestore-jdbc-common",
-	"version_latest":"16.0.0.Dev04",
-	"ts_publish":1758097852000,
-	"dt_publish":"2025-09-17 16:30:52.000",
-	"ts_update":1758098564359,
-	"dt_update":"2025-09-17 16:41:53.169",
+	"version_latest":"16.0.0.Dev05",
+	"ts_publish":1759403881000,
+	"dt_publish":"2025-10-02 19:18:01.000",
+	"ts_update":1759417129915,
+	"dt_update":"2025-10-02 19:44:36.504",
 	"count_dep":26,
-	"count_ref":13,
+	"count_ref":5,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.infinispan/infinispan-cachestore-jdbc-common@16.0.0.Dev04",
 	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#36676 in MvnRepository",
+	"ranking":"#36775 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -30,6 +30,14 @@
 		"cache"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"dev",
+			"usage":3,
+			"version":"16.0.0.Dev04",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"15.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"15.1.1.Final",
 			"vulnerabilities":""
 		}
 	]
