@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.infinispan/infinispan-scripting",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-scripting",
-	"version_latest":"16.0.0.Dev04",
-	"ts_publish":1758097852000,
-	"dt_publish":"2025-09-17 16:30:52.000",
-	"ts_update":1758098587515,
-	"dt_update":"2025-09-17 16:41:53.610",
-	"count_dep":24,
-	"count_ref":13,
-	"licenses":[],
+	"version_latest":"16.0.0.Dev05",
+	"ts_publish":1759403881000,
+	"dt_publish":"2025-10-02 19:18:01.000",
+	"ts_update":1759404457622,
+	"dt_update":"2025-10-02 19:27:04.914",
+	"count_dep":28,
+	"count_ref":6,
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database",
@@ -25,13 +27,29 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-scripting",
 	"count_used_by":18,
 	"license":"Apache 2.0",
-	"ranking":"#25984 in MvnRepository",
+	"ranking":"#26289 in MvnRepository",
 	"tags":[
 		"cache",
 		"infinispan",
 		"scripting"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"dev",
+			"usage":6,
+			"version":"16.0.0.Dev04",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":6,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -46,6 +64,14 @@
 			"type":"dev",
 			"usage":7,
 			"version":"16.0.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"15.2.6.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -167,30 +193,7 @@
 			"usage":6,
 			"version":"15.1.2.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":6,
-			"version":"15.1.0.Dev05",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Infinispan project"
 }
