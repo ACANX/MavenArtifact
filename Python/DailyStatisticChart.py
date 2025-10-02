@@ -188,22 +188,15 @@ def generate_svg_chart(dates, metrics):
             # 修正数据点位置计算：使用正向映射
             y = chart_height - MARGIN - (value - min_val) * plot_height / (max_val - min_val)
             points.append((x, y))
-            
             # 绘制数据点
             svg.append(f'<circle cx="{x}" cy="{y}" r="4" fill="{COLORS[idx]}" />')
-        
         # 绘制折线
         path = f'M {points[0][0]} {points[0][1]}'
         for point in points[1:]:
             path += f' L {point[0]} {point[1]}'
         svg.append(f'<path d="{path}" fill="none" stroke="{COLORS[idx]}" stroke-width="2" />')
     
-    # # 添加X轴日期标签
-    # for i, date in enumerate(dates):
-    #     x = MARGIN + i * (plot_width / (len(dates) - 1))
-    #     y = chart_height - MARGIN + 20
-    #     # 显示完整日期格式：MM-DD
-    #     svg.append(f'<text x="{x}" y="{y}" text-anchor="middle">{date[5:7]}-{date[8:10]}</text>')
+    # 添加X轴日期标签
     # 使用智能版本：
     add_xaxis_labels_smart(svg, dates, plot_width, chart_height, MARGIN)    
     
@@ -213,12 +206,33 @@ def generate_svg_chart(dates, metrics):
     box_height = len(metrics) * 25 + 35
     svg.append(f'<rect x="{legend_x-10}" y="{legend_y-20}" width="130" height="{box_height}" class="legend-box" />')
     svg.append(f'<text x="{legend_x}" y="{legend_y}" class="legend-item">图例:</text>')
-    
     for i, metric in enumerate(metrics):
         y = legend_y + (i+1)*25
         svg.append(f'<rect x="{legend_x}" y="{y-8}" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
         svg.append(f'<text x="{legend_x+20}" y="{y}" class="legend-item">{metric["name"]}</text>')
-    
+
+    # 底部增加指标数据量的展示
+    # 方法一：使用列表推导式
+    latest_values = [metric["values"][-1] for metric in metrics]
+    for i, metric in enumerate(metrics):
+        y = 900
+        pos_x = 100 + 100 * i
+        val = latest_values[i]
+        svg.append(f'<rect x="{pos_x}" y="900" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
+        svg.append(f'<text x="{pos_x+15}" y="900" class="legend-item">{metric["name"]}-{val}</text>')
+    # <rect x="100" y="990" width="15" height="15" fill="#1f77b4" rx="3" />
+    # <text x="115" y="990" class="legend-item">构件聚合数据-10000</text>
+    # <rect x="200" y="990" width="15" height="15" fill="#ff7f0e" rx="3" />
+    # <text x="215" y="990" class="legend-item">构件基本信息-20000</text>
+    # <rect x="300" y="990" width="15" height="15" fill="#2ca02c" rx="3" />
+    # <text x="315" y="990" class="legend-item">构件徽标-30000</text>
+    # <rect x="400" y="990" width="15" height="15" fill="#d62728" rx="3" />
+    # <text x="415" y="990" class="legend-item">构件扩展元数据-40000</text>
+    # <rect x="500" y="990" width="15" height="15" fill="#9467bd" rx="3" />
+    # <text x="515" y="990" class="legend-item">构件版本信息-50000</text>
+    # <rect x="600" y="990" width="15" height="15" fill="#66ffbd" rx="3" />
+    # <text x="615" y="990" class="legend-item">数据量偏差-60000</text>
+
     # 添加时间戳
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     svg.append(f'<text x="{chart_width - MARGIN}" y="{chart_height - 10}" text-anchor="end" font-size="10" fill="#666">生成时间: {timestamp}</text>')
