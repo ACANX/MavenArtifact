@@ -3,11 +3,11 @@
 	"description":"Access to the Neo4j graph database through Java",
 	"group_id":"org.neo4j.driver",
 	"artifact_id":"neo4j-java-driver",
-	"version_latest":"6.0.0",
-	"ts_publish":1759324476000,
-	"dt_publish":"2025-10-01 21:14:36.000",
-	"ts_update":1759336135597,
-	"dt_update":"2025-10-01 21:42:46.843",
+	"version_latest":"6.0.1",
+	"ts_publish":1759429226000,
+	"dt_publish":"2025-10-03 02:20:26.000",
+	"ts_update":1759436214753,
+	"dt_update":"2025-10-03 02:34:14.213",
 	"count_dep":41,
 	"count_ref":3,
 	"licenses":[
@@ -25,10 +25,10 @@
 		"The Neo4j Team"
 	],
 	"url_scm":"https://github.com/neo4j/neo4j-java-driver",
-	"count_used_by":236,
+	"count_used_by":237,
 	"home_page":"https://github.com/neo4j/neo4j-java-driver",
 	"license":"Apache 2.0",
-	"ranking":"#2407 in MvnRepository",
+	"ranking":"#2415 in MvnRepository",
 	"tags":[
 		"database",
 		"driver",
@@ -37,10 +37,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"6.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"6.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250813",
 			"repository":"Central",
 			"type":"beta",
-			"usage":3,
+			"usage":12,
 			"version":"6.0.0-beta01",
 			"vulnerabilities":""
 		},
@@ -66,6 +82,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"6.0.0-alpha01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"5.28.10",
 			"vulnerabilities":""
 		},
 		{
@@ -170,30 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"5.26.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"5.26.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241014",
-			"repository":"Central",
-			"type":"release",
-			"usage":20,
-			"version":"5.26.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240926",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"5.25.0",
 			"vulnerabilities":""
 		}
 	]
