@@ -3,13 +3,13 @@
 	"description":"Annotations for Infinispan components and MBeans",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-component-annotations",
-	"version_latest":"16.0.0.Dev04",
-	"ts_publish":1758097852000,
-	"dt_publish":"2025-09-17 16:30:52.000",
-	"ts_update":1758098585133,
-	"dt_update":"2025-09-17 16:41:53.607",
+	"version_latest":"16.0.0.Dev05",
+	"ts_publish":1759403881000,
+	"dt_publish":"2025-10-02 19:18:01.000",
+	"ts_update":1759429319386,
+	"dt_update":"2025-10-02 19:44:39.368",
 	"count_dep":0,
-	"count_ref":82,
+	"count_ref":86,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -26,10 +26,10 @@
 		"See https://github.com/infinispan/infinispan/graphs/contributors"
 	],
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-component-annotations",
-	"count_used_by":63,
+	"count_used_by":65,
 	"home_page":"https://infinispan.org/",
 	"license":"Apache 2.0",
-	"ranking":"#7772 in MvnRepository",
+	"ranking":"#7657 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"cache",
@@ -37,6 +37,22 @@
 		"component"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"dev",
+			"usage":3,
+			"version":"16.0.0.Dev04",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":3,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -54,10 +70,18 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250717",
+			"date":"20250903",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"15.2.6.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250717",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
 			"version":"15.2.5.Final",
 			"vulnerabilities":""
 		},
@@ -171,30 +195,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":4,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]
