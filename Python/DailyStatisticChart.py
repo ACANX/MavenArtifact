@@ -216,22 +216,10 @@ def generate_svg_chart(dates, metrics):
     latest_values = [metric["values"][-1] for metric in metrics]
     for i, metric in enumerate(metrics):
         y = 900
-        pos_x = 100 + 100 * i
+        pos_x = 100 + 140 * i
         val = latest_values[i]
-        svg.append(f'<rect x="{pos_x}" y="900" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
-        svg.append(f'<text x="{pos_x+15}" y="900" class="legend-item">{metric["name"]}-{val}</text>')
-    # <rect x="100" y="990" width="15" height="15" fill="#1f77b4" rx="3" />
-    # <text x="115" y="990" class="legend-item">构件聚合数据-10000</text>
-    # <rect x="200" y="990" width="15" height="15" fill="#ff7f0e" rx="3" />
-    # <text x="215" y="990" class="legend-item">构件基本信息-20000</text>
-    # <rect x="300" y="990" width="15" height="15" fill="#2ca02c" rx="3" />
-    # <text x="315" y="990" class="legend-item">构件徽标-30000</text>
-    # <rect x="400" y="990" width="15" height="15" fill="#d62728" rx="3" />
-    # <text x="415" y="990" class="legend-item">构件扩展元数据-40000</text>
-    # <rect x="500" y="990" width="15" height="15" fill="#9467bd" rx="3" />
-    # <text x="515" y="990" class="legend-item">构件版本信息-50000</text>
-    # <rect x="600" y="990" width="15" height="15" fill="#66ffbd" rx="3" />
-    # <text x="615" y="990" class="legend-item">数据量偏差-60000</text>
+        svg.append(f'<rect x="{pos_x}" y="990" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
+        svg.append(f'<text x="{pos_x+15}" y="990" class="legend-item">{metric["name"]}-{val}</text>')
 
     # 添加时间戳
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
