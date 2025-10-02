@@ -3,11 +3,11 @@
 	"description":"Support for artifact analysis",
 	"group_id":"com.metaeffekt.artifact.analysis",
 	"artifact_id":"ae-common-test",
-	"version_latest":"0.148.0",
-	"ts_publish":1759297569000,
-	"dt_publish":"2025-10-01 13:46:09.000",
-	"ts_update":1759306956751,
-	"dt_update":"2025-10-01 13:56:01.929",
+	"version_latest":"0.148.1",
+	"ts_publish":1759421154000,
+	"dt_publish":"2025-10-03 00:05:54.000",
+	"ts_update":1759433493082,
+	"dt_update":"2025-10-03 00:18:22.981",
 	"count_dep":142,
 	"count_ref":1,
 	"licenses":[
@@ -21,12 +21,28 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.metaeffekt.artifact.analysis/ae-common-test@0.145.0",
 	"url_scm":"http://ae-server:7990/projects/AE/repos/metaeffekt-artifact-analysis/browse/ae-modules-pom/ae-common-test",
 	"license":"Apache 2.0",
-	"ranking":"#919802 in MvnRepository",
+	"ranking":"#397088 in MvnRepository",
 	"tags":[
 		"testing",
 		"analysis"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.148.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.147.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -147,5 +163,6 @@
 			"version":"0.137.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
