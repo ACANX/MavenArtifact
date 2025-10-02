@@ -3,12 +3,12 @@
 	"description":"Infinispan Core GraalVM",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-core-graalvm",
-	"version_latest":"16.0.0.Dev04",
-	"ts_publish":1758097851000,
-	"dt_publish":"2025-09-17 16:30:51.000",
-	"ts_update":1758098532213,
-	"dt_update":"2025-09-17 16:41:54.447",
-	"count_dep":24,
+	"version_latest":"16.0.0.Dev05",
+	"ts_publish":1759403881000,
+	"dt_publish":"2025-10-02 19:18:01.000",
+	"ts_update":1759420017121,
+	"dt_update":"2025-10-02 19:44:38.670",
+	"count_dep":26,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -20,13 +20,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.infinispan/infinispan-core-graalvm@16.0.0.Dev03",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#153975 in MvnRepository",
+	"ranking":"#154910 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"cache",
 		"graalvm"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev04",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"15.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"15.1.1.Final",
 			"vulnerabilities":""
 		}
 	]
