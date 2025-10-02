@@ -217,7 +217,7 @@ def generate_svg_chart(dates, metrics):
     for i, metric in enumerate(metrics):
         pos_x = 100 + 200 * i
         val = latest_values[i]
-        svg.append(f'<rect x="{pos_x}" y="970" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
+        svg.append(f'<rect x="{pos_x}" y="980" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
         svg.append(f'<text x="{pos_x + 25}" y="990" class="legend-item">{val}</text>')
 
     # 添加时间戳
