@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-avro-validator",
-	"version_latest":"9.2.0",
-	"ts_publish":1758874920000,
-	"dt_publish":"2025-09-26 16:22:00.000",
-	"ts_update":1758876366638,
-	"dt_update":"2025-09-26 16:42:56.760",
+	"version_latest":"9.3.0",
+	"ts_publish":1759421335000,
+	"dt_publish":"2025-10-03 00:08:55.000",
+	"ts_update":1759422546280,
+	"dt_update":"2025-10-03 00:26:07.161",
 	"count_dep":11,
 	"count_ref":2,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-avro-validator",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#148738 in MvnRepository",
+	"ranking":"#148759 in MvnRepository",
 	"tags":[
 		"admin",
 		"messaging",
@@ -32,6 +32,22 @@
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"9.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.1.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.49.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.49.0",
 			"vulnerabilities":""
 		}
 	]
