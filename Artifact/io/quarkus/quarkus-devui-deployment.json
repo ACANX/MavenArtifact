@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-devui-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-devui-deployment",
-	"version_latest":"3.28.0",
-	"ts_publish":1758101127000,
-	"dt_publish":"2025-09-17 17:25:27.000",
-	"ts_update":1758103020674,
-	"dt_update":"2025-09-17 17:56:15.321",
-	"count_dep":229,
+	"version_latest":"3.28.2",
+	"ts_publish":1759324119000,
+	"dt_publish":"2025-10-01 21:08:39.000",
+	"ts_update":1759397363039,
+	"dt_update":"2025-10-01 21:43:04.006",
+	"count_dep":18,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -19,12 +17,28 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-devui-deployment@3.25.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#334860 in MvnRepository",
+	"ranking":"#363087 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"deployment"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",
@@ -34,11 +48,27 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250909",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
 			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.4",
 			"vulnerabilities":""
 		},
 		{
@@ -129,6 +159,5 @@
 			"version":"3.25.0.CR1",
 			"vulnerabilities":""
 		}
-	],
-	"description":"Build parent to bring in required dependencies"
+	]
 }
