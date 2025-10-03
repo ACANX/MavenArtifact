@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/cn.ktorfitx/multiplatform-mock-android",
-	"description":"Ktorfitx 基于 KSP2 的代码生成框架，在 Kotlin Multiplatform 中是 RESTful API 框架，在 Ktor Server 中是 路由以及参数解析框架",
+	"description":"Ktorfitx 是一款专为 Ktor 设计的代码生成框架，致力于减少样板代码，为 Ktor Client 和 Ktor Server 提供代码生成服务，支持 Kotlin Multiplatform",
 	"group_id":"cn.ktorfitx",
 	"artifact_id":"multiplatform-mock-android",
-	"version_latest":"3.3.0-3.1.1",
-	"ts_publish":1757704688000,
-	"dt_publish":"2025-09-13 03:18:08.000",
-	"ts_update":1757707054498,
-	"dt_update":"2025-09-13 03:56:00.834",
+	"version_latest":"3.3.0-3.2.0-RC2",
+	"ts_publish":1759513829000,
+	"dt_publish":"2025-10-04 01:50:29.000",
+	"ts_update":1759515697109,
+	"dt_update":"2025-10-04 02:21:14.070",
 	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/annotation-engine/ktorfitx",
 	"home_page":"https://github.com/annotation-engine/ktorfitx",
 	"license":"Apache 2.0",
-	"ranking":"#795418 in MvnRepository",
+	"ranking":"#760254 in MvnRepository",
 	"tags":[
 		"mock",
 		"multiplatform",
@@ -31,6 +31,30 @@
 		"android"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.0-3.2.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.3.0-3.2.0-Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.0-3.1.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250906",
 			"repository":"Central",
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.2.2-3.0.0-RC3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.2-3.0.0-RC2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.2-3.0.0-RC1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"3.2.2-3.0.0-Beta4",
 			"vulnerabilities":""
 		}
 	]
