@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/com.regnosys.rosetta/com.regnosys.rosetta.xcore",
-	"description":"Responsibilities: defining plugin dependencies for the xtext-maven-plugin and the Mwe2Launcher.",
+	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"com.regnosys.rosetta",
 	"artifact_id":"com.regnosys.rosetta.xcore",
-	"version_latest":"9.66.0",
-	"ts_publish":1759324522000,
-	"dt_publish":"2025-10-01 21:15:22.000",
-	"ts_update":1759337644271,
-	"dt_update":"2025-10-01 21:42:46.838",
-	"count_dep":116,
-	"count_ref":6,
+	"version_latest":"9.67.5",
+	"ts_publish":1759503995000,
+	"dt_publish":"2025-10-03 23:06:35.000",
+	"ts_update":1759504521327,
+	"dt_update":"2025-10-03 23:14:55.132",
+	"count_dep":66,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,8 +24,16 @@
 	"url_scm":"https://github.com/finos/rune-dsl/com.regnosys.rosetta.xcore",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#201711 in MvnRepository",
+	"ranking":"#201739 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.66.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250929",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.54.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.53.1",
 			"vulnerabilities":""
 		}
 	]
