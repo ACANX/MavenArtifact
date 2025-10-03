@@ -3,12 +3,12 @@
 	"description":"Efficient reliable UDP unicast, UDP multicast, and IPC transport protocol.",
 	"group_id":"io.aeron",
 	"artifact_id":"aeron-archive",
-	"version_latest":"1.48.6",
-	"ts_publish":1754643642000,
-	"dt_publish":"2025-08-08 17:00:42.000",
-	"ts_update":1754645182574,
-	"dt_update":"2025-08-08 17:25:58.983",
-	"count_dep":0,
+	"version_latest":"1.49.0",
+	"ts_publish":1759489027000,
+	"dt_publish":"2025-10-03 18:57:07.000",
+	"ts_update":1759490011120,
+	"dt_update":"2025-10-03 19:12:59.748",
+	"count_dep":4,
 	"count_ref":2,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -28,11 +28,19 @@
 		"Mike Barker"
 	],
 	"url_scm":"https://github.com/aeron-io/aeron.git",
-	"count_used_by":4,
+	"count_used_by":5,
 	"home_page":"https://github.com/aeron-io/aeron",
 	"license":"Apache 2.0",
-	"ranking":"#109368 in MvnRepository",
+	"ranking":"#90065 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.48.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250721",
 			"repository":"Central",
@@ -82,6 +90,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.47.7",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250509",
 			"repository":"Central",
 			"type":"release",
@@ -101,7 +117,7 @@
 			"date":"20250214",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"1.47.3",
 			"vulnerabilities":""
 		},
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.46.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240925",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.46.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240911",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.46.2",
 			"vulnerabilities":""
 		}
 	]
