@@ -3,11 +3,11 @@
 	"description":"The HTTP TableLookup connector that allows for pulling data from external system via HTTP GET method and HTTP Sink that allows for sending data to external system via HTTP requests. The goal for HTTP TableLookup connector was to use it in Flink SQL statement as a standard table that can be later joined with other stream using pure SQL Flink.",
 	"group_id":"com.getindata",
 	"artifact_id":"flink-http-connector",
-	"version_latest":"0.21.0",
-	"ts_publish":1758008958000,
-	"dt_publish":"2025-09-16 15:49:18.000",
-	"ts_update":1758010898276,
-	"dt_update":"2025-09-16 16:21:06.040",
+	"version_latest":"0.22.0",
+	"ts_publish":1759484308000,
+	"dt_publish":"2025-10-03 17:38:28.000",
+	"ts_update":1759484696673,
+	"dt_update":"2025-10-03 17:44:44.663",
 	"count_dep":56,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/getindata/flink-http-connector/tree/main",
 	"home_page":"https://github.com/getindata/flink-http-connector",
 	"license":"Apache 2.0",
-	"ranking":"#882329 in MvnRepository",
+	"ranking":"#714622 in MvnRepository",
 	"tags":[
 		"flink",
 		"connector",
@@ -30,6 +30,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.21.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250523",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220706",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.2.0",
 			"vulnerabilities":""
 		}
 	]
