@@ -3,13 +3,13 @@
 	"description":"Provides some basic wrapping around Open Telemetry APIs to ease dependency management and testing",
 	"group_id":"io.telicent.smart-caches",
 	"artifact_id":"observability-core",
-	"version_latest":"0.29.6",
-	"ts_publish":1758633192000,
-	"dt_publish":"2025-09-23 21:13:12.000",
-	"ts_update":1758634001872,
-	"dt_update":"2025-09-23 21:26:12.868",
+	"version_latest":"0.30.0",
+	"ts_publish":1759491716000,
+	"dt_publish":"2025-10-03 19:41:56.000",
+	"ts_update":1759492574801,
+	"dt_update":"2025-10-03 19:56:04.559",
 	"count_dep":12,
-	"count_ref":11,
+	"count_ref":5,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/telicent-oss/smart-caches-core/observability-core",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#64237 in MvnRepository",
+	"ranking":"#64323 in MvnRepository",
 	"tags":[
 		"cache",
 		"observable"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"0.29.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250901",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"0.24.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241009",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"0.23.2",
 			"vulnerabilities":""
 		}
 	]
