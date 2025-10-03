@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for Amazon Redshift module holds the client classes that are used for communicating\n        with Amazon Redshift Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"redshift",
-	"version_latest":"2.34.7",
-	"ts_publish":1759269900000,
-	"dt_publish":"2025-10-01 06:05:00.000",
-	"ts_update":1759280423187,
-	"dt_update":"2025-10-01 06:32:34.973",
-	"count_dep":3,
+	"version_latest":"2.35.0",
+	"ts_publish":1759528180000,
+	"dt_publish":"2025-10-04 05:49:40.000",
+	"ts_update":1759529633348,
+	"dt_update":"2025-10-04 06:13:36.359",
+	"count_dep":33,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -20,7 +20,7 @@
 	"count_used_by":11,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#44275 in MvnRepository",
+	"ranking":"#44283 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,10 +29,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250930",
+			"date":"20251001",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.34.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.34.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.34.6",
 			"vulnerabilities":""
 		},
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.33.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.33.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250902",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.33.1",
 			"vulnerabilities":""
 		}
 	]

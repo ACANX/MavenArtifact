@@ -3,13 +3,13 @@
 	"description":"The Amazon Web Services SDK for Java provides Java APIs\n        for building software on AWS' cost-effective, scalable, and reliable\n        infrastructure products. The AWS Java SDK allows developers to code\n        against APIs for all of Amazon's infrastructure web services (Amazon\n        S3, Amazon EC2, Amazon SQS, Amazon Relational Database Service, Amazon\n        AutoScaling, etc).",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"url-connection-client",
-	"version_latest":"2.34.7",
-	"ts_publish":1759269900000,
-	"dt_publish":"2025-10-01 06:05:00.000",
-	"ts_update":1759307220918,
-	"dt_update":"2025-10-01 06:32:32.813",
+	"version_latest":"2.35.0",
+	"ts_publish":1759528180000,
+	"dt_publish":"2025-10-04 05:49:40.000",
+	"ts_update":1759529638425,
+	"dt_update":"2025-10-04 06:13:39.108",
 	"count_dep":15,
-	"count_ref":2,
+	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/http-clients/url-connection-client",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/url-connection-client@2.32.17",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/http-clients/url-connection-client",
-	"count_used_by":223,
+	"count_used_by":226,
 	"home_page":"https://aws.amazon.com/sdk-for-java/",
 	"license":"Apache 2.0",
-	"ranking":"#2556 in MvnRepository",
+	"ranking":"#2520 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -33,6 +33,22 @@
 		"connection"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.34.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.34.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250929",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.33.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"2.33.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250902",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.33.1",
 			"vulnerabilities":""
 		}
 	]
