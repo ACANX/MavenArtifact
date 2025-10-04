@@ -3,13 +3,13 @@
 	"description":"Support for reading and writing YAML-encoded data via Jackson abstractions.",
 	"group_id":"tools.jackson.dataformat",
 	"artifact_id":"jackson-dataformat-yaml",
-	"version_latest":"3.0.0-rc10",
-	"ts_publish":1758327908000,
-	"dt_publish":"2025-09-20 08:25:08.000",
-	"ts_update":1758329809703,
-	"dt_update":"2025-09-20 08:56:14.930",
-	"count_dep":7,
-	"count_ref":0,
+	"version_latest":"3.0.0",
+	"ts_publish":1759537479000,
+	"dt_publish":"2025-10-04 08:24:39.000",
+	"ts_update":1759539380143,
+	"dt_update":"2025-10-04 08:56:10.524",
+	"count_dep":6,
+	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -21,10 +21,10 @@
 		"Tatu Saloranta"
 	],
 	"url_scm":"https://github.com/FasterXML/jackson-dataformats-text/jackson-dataformat-yaml",
-	"count_used_by":5,
+	"count_used_by":6,
 	"home_page":"https://github.com/FasterXML/jackson-dataformats-text",
 	"license":"Apache 2.0",
-	"ranking":"#96107 in MvnRepository",
+	"ranking":"#78503 in MvnRepository",
 	"tags":[
 		"format",
 		"yaml",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250906",
+			"date":"20250920",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"3.0.0-rc10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250906",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"3.0.0-rc9",
 			"vulnerabilities":""
 		},
