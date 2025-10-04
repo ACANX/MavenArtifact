@@ -3,13 +3,13 @@
 	"description":"SLF4J 1 binding (provider) for the Log4j API.\n    It forwards SLF4J 1 calls to the Log4j API.\n    (Refer to the `log4j-to-slf4j` artifact for forwarding the Log4j API to SLF4J.)",
 	"group_id":"org.apache.logging.log4j",
 	"artifact_id":"log4j-slf4j-impl",
-	"version_latest":"2.25.1",
-	"ts_publish":1751746880000,
-	"dt_publish":"2025-07-06 04:21:20.000",
-	"ts_update":1755363194136,
-	"dt_update":"2025-08-17 00:18:11.469",
+	"version_latest":"2.25.2",
+	"ts_publish":1758221065000,
+	"dt_publish":"2025-09-19 02:44:25.000",
+	"ts_update":1759594728517,
+	"dt_update":"2025-10-05 00:18:13.110",
 	"count_dep":18,
-	"count_ref":105,
+	"count_ref":20,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -38,10 +38,10 @@
 	],
 	"url_scm":"https://github.com/apache/logging-log4j2",
 	"url_ci_management":"https://github.com/apache/logging-log4j2/actions",
-	"count_used_by":8529,
+	"count_used_by":8574,
 	"home_page":"https://logging.apache.org/log4j/2.x/",
 	"license":"Apache 2.0",
-	"ranking":"#72 in MvnRepository",
+	"ranking":"#73 in MvnRepository",
 	"tags":[
 		"logging",
 		"log4j",
@@ -55,7 +55,7 @@
 			"date":"20240221",
 			"repository":"Central",
 			"type":"beta",
-			"usage":2,
+			"usage":4,
 			"version":"3.0.0-beta2",
 			"vulnerabilities":""
 		},
@@ -76,10 +76,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"2.25.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250711",
 			"repository":"Central",
 			"type":"release",
-			"usage":41,
+			"usage":91,
 			"version":"2.25.1",
 			"vulnerabilities":""
 		},
@@ -87,7 +95,7 @@
 			"date":"20250616",
 			"repository":"Central",
 			"type":"release",
-			"usage":35,
+			"usage":36,
 			"version":"2.25.0",
 			"vulnerabilities":""
 		},
@@ -95,7 +103,7 @@
 			"date":"20241213",
 			"repository":"Central",
 			"type":"release",
-			"usage":503,
+			"usage":639,
 			"version":"2.24.3",
 			"vulnerabilities":""
 		},
@@ -111,7 +119,7 @@
 			"date":"20240929",
 			"repository":"Central",
 			"type":"release",
-			"usage":362,
+			"usage":444,
 			"version":"2.24.1",
 			"vulnerabilities":""
 		},
@@ -127,7 +135,7 @@
 			"date":"20240310",
 			"repository":"Central",
 			"type":"release",
-			"usage":498,
+			"usage":504,
 			"version":"2.23.1",
 			"vulnerabilities":""
 		},
@@ -135,7 +143,7 @@
 			"date":"20240221",
 			"repository":"Central",
 			"type":"release",
-			"usage":132,
+			"usage":133,
 			"version":"2.23.0",
 			"vulnerabilities":""
 		},
@@ -159,7 +167,7 @@
 			"date":"20231024",
 			"repository":"Central",
 			"type":"release",
-			"usage":204,
+			"usage":205,
 			"version":"2.21.1",
 			"vulnerabilities":""
 		},
@@ -175,7 +183,7 @@
 			"date":"20230221",
 			"repository":"Central",
 			"type":"release",
-			"usage":864,
+			"usage":869,
 			"version":"2.20.0",
 			"vulnerabilities":""
 		},
@@ -183,7 +191,7 @@
 			"date":"20220917",
 			"repository":"Central",
 			"type":"release",
-			"usage":881,
+			"usage":885,
 			"version":"2.19.0",
 			"vulnerabilities":""
 		},
@@ -191,7 +199,7 @@
 			"date":"20220702",
 			"repository":"Central",
 			"type":"release",
-			"usage":761,
+			"usage":762,
 			"version":"2.18.0",
 			"vulnerabilities":""
 		},
@@ -199,16 +207,8 @@
 			"date":"20220227",
 			"repository":"Central",
 			"type":"release",
-			"usage":1537,
+			"usage":1541,
 			"version":"2.17.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211227",
-			"repository":"Central",
-			"type":"release",
-			"usage":2623,
-			"version":"2.17.1",
 			"vulnerabilities":""
 		}
 	]

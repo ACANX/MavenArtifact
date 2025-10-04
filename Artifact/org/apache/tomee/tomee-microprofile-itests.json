@@ -2,21 +2,23 @@
 	"id":"pkg:maven/org.apache.tomee/tomee-microprofile-itests",
 	"group_id":"org.apache.tomee",
 	"artifact_id":"tomee-microprofile-itests",
-	"version_latest":"10.1.1",
-	"ts_publish":1755346773000,
-	"dt_publish":"2025-08-16 20:19:33.000",
-	"ts_update":1757783493573,
-	"dt_update":"2025-09-14 00:17:00.616",
-	"count_dep":11,
+	"version_latest":"10.1.2",
+	"ts_publish":1758028029000,
+	"dt_publish":"2025-09-16 21:07:09.000",
+	"ts_update":1759594728280,
+	"dt_update":"2025-10-05 00:17:43.475",
+	"count_dep":88,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache-2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomee/tomee-microprofile-itests@10.1.1",
 	"license":"Apache 2.0",
-	"ranking":"#561138 in MvnRepository",
+	"ranking":"#571301 in MvnRepository",
 	"tags":[
 		"microprofile",
 		"tomee",
@@ -25,6 +27,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"10.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250816",
 			"repository":"Central",
@@ -121,5 +131,6 @@
 			"version":"9.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Apache TomEE is a JakartaEE 10 Web Profile stack for Apache Tomcat"
 }

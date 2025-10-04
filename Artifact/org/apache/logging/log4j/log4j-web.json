@@ -3,13 +3,13 @@
 	"description":"The Apache Log4j support for web servlet containers",
 	"group_id":"org.apache.logging.log4j",
 	"artifact_id":"log4j-web",
-	"version_latest":"2.25.1",
-	"ts_publish":1751746964000,
-	"dt_publish":"2025-07-06 04:22:44.000",
-	"ts_update":1755363188180,
-	"dt_update":"2025-08-17 00:18:11.467",
+	"version_latest":"2.25.2",
+	"ts_publish":1758220977000,
+	"dt_publish":"2025-09-19 02:42:57.000",
+	"ts_update":1759594733285,
+	"dt_update":"2025-10-05 00:18:12.499",
 	"count_dep":17,
-	"count_ref":13,
+	"count_ref":4,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -38,10 +38,10 @@
 	],
 	"url_scm":"https://github.com/apache/logging-log4j2",
 	"url_ci_management":"https://github.com/apache/logging-log4j2/actions",
-	"count_used_by":1007,
+	"count_used_by":1017,
 	"home_page":"https://logging.apache.org/log4j/2.x/",
 	"license":"Apache 2.0",
-	"ranking":"#588 in MvnRepository",
+	"ranking":"#606 in MvnRepository",
 	"tags":[
 		"logging",
 		"log4j",
@@ -58,10 +58,18 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250711",
+			"date":"20250918",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"2.25.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250711",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
 			"version":"2.25.1",
 			"vulnerabilities":""
 		},
@@ -77,7 +85,7 @@
 			"date":"20241213",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":18,
 			"version":"2.24.3",
 			"vulnerabilities":""
 		},
@@ -109,7 +117,7 @@
 			"date":"20240310",
 			"repository":"Central",
 			"type":"release",
-			"usage":82,
+			"usage":83,
 			"version":"2.23.1",
 			"vulnerabilities":""
 		},
@@ -157,7 +165,7 @@
 			"date":"20230221",
 			"repository":"Central",
 			"type":"release",
-			"usage":99,
+			"usage":109,
 			"version":"2.20.0",
 			"vulnerabilities":""
 		},
@@ -199,14 +207,6 @@
 			"type":"release",
 			"usage":118,
 			"version":"2.17.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211213",
-			"repository":"Central",
-			"type":"release",
-			"usage":93,
-			"version":"2.16.0",
 			"vulnerabilities":""
 		}
 	]

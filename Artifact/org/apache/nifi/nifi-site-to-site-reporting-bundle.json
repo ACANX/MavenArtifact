@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.apache.nifi/nifi-site-to-site-reporting-bundle",
-	"description":"BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-site-to-site-reporting-bundle",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928341000,
-	"dt_publish":"2025-07-19 20:32:21.000",
-	"ts_update":1756572981844,
-	"dt_update":"2025-08-31 00:16:44.332",
-	"count_dep":106,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214670000,
+	"dt_publish":"2025-09-19 00:57:50.000",
+	"ts_update":1759594722867,
+	"dt_update":"2025-10-05 00:18:05.457",
+	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Analytics"
 	],
@@ -22,7 +19,7 @@
 	"url_issue_management":"https://issues.apache.org/jira/browse/NIFI",
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-site-to-site-reporting-bundle",
 	"license":"Apache 2.0",
-	"ranking":"#811768 in MvnRepository",
+	"ranking":"#828896 in MvnRepository",
 	"tags":[
 		"bundle",
 		"nifi",
@@ -31,6 +28,14 @@
 		"report"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -181,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

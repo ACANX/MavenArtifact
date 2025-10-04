@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-framework-authorization",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-framework-authorization",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928981000,
-	"dt_publish":"2025-07-19 20:43:01.000",
-	"ts_update":1756571272263,
-	"dt_update":"2025-08-31 00:16:50.595",
-	"count_dep":2,
+	"version_latest":"2.6.0",
+	"ts_publish":1758213421000,
+	"dt_publish":"2025-09-19 00:37:01.000",
+	"ts_update":1759594733164,
+	"dt_update":"2025-10-05 00:17:54.017",
+	"count_dep":67,
 	"count_ref":18,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Analytics"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-framework-authorization@2.5.0",
 	"count_used_by":18,
 	"license":"Apache 2.0",
-	"ranking":"#26075 in MvnRepository",
+	"ranking":"#26357 in MvnRepository",
 	"tags":[
 		"nifi",
 		"framework",
@@ -25,6 +27,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -176,14 +186,7 @@
 			"usage":9,
 			"version":"1.23.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"1.22.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"NiFi: Framework Bundle"
 }

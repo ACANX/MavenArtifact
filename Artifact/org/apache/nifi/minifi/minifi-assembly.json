@@ -3,27 +3,37 @@
 	"description":"This is the assembly of Apache NiFi - MiNiFi",
 	"group_id":"org.apache.nifi.minifi",
 	"artifact_id":"minifi-assembly",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929197000,
-	"dt_publish":"2025-07-19 20:46:37.000",
-	"ts_update":1757175967023,
-	"dt_update":"2025-09-07 00:16:07.818",
-	"count_dep":59,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214377000,
+	"dt_publish":"2025-09-19 00:52:57.000",
+	"ts_update":1759594728368,
+	"dt_update":"2025-10-05 00:18:03.678",
+	"count_dep":67,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Transport"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi.minifi/minifi-assembly@2.5.0",
 	"license":"Apache 2.0",
-	"ranking":"#694024 in MvnRepository",
+	"ranking":"#705988 in MvnRepository",
 	"tags":[
 		"nifi",
 		"assembly",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -174,14 +184,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]
