@@ -3,13 +3,13 @@
 	"description":"Forwards the Log4j API calls to SLF4J.\n    (Refer to the `log4j-slf4j[2]-impl` artifacts for forwarding SLF4J to the Log4j API.)",
 	"group_id":"org.apache.logging.log4j",
 	"artifact_id":"log4j-to-slf4j",
-	"version_latest":"2.25.1",
-	"ts_publish":1751747078000,
-	"dt_publish":"2025-07-06 04:24:38.000",
-	"ts_update":1755362423854,
-	"dt_update":"2025-08-17 00:18:11.916",
+	"version_latest":"2.25.2",
+	"ts_publish":1758221019000,
+	"dt_publish":"2025-09-19 02:43:39.000",
+	"ts_update":1759595201455,
+	"dt_update":"2025-10-05 00:18:13.111",
 	"count_dep":21,
-	"count_ref":180,
+	"count_ref":69,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -38,10 +38,10 @@
 	],
 	"url_scm":"https://github.com/apache/logging-log4j2",
 	"url_ci_management":"https://github.com/apache/logging-log4j2/actions",
-	"count_used_by":712,
+	"count_used_by":727,
 	"home_page":"https://logging.apache.org/log4j/2.x/",
 	"license":"Apache 2.0",
-	"ranking":"#834 in MvnRepository",
+	"ranking":"#841 in MvnRepository",
 	"tags":[
 		"logging",
 		"log4j",
@@ -75,10 +75,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
+			"version":"2.25.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250711",
 			"repository":"Central",
 			"type":"release",
-			"usage":50,
+			"usage":73,
 			"version":"2.25.1",
 			"vulnerabilities":""
 		},
@@ -94,7 +102,7 @@
 			"date":"20241213",
 			"repository":"Central",
 			"type":"release",
-			"usage":91,
+			"usage":94,
 			"version":"2.24.3",
 			"vulnerabilities":""
 		},
@@ -126,7 +134,7 @@
 			"date":"20240310",
 			"repository":"Central",
 			"type":"release",
-			"usage":91,
+			"usage":92,
 			"version":"2.23.1",
 			"vulnerabilities":""
 		},
@@ -200,14 +208,6 @@
 			"type":"release",
 			"usage":99,
 			"version":"2.17.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211227",
-			"repository":"Central",
-			"type":"release",
-			"usage":114,
-			"version":"2.17.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-standard-shared-bom",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928528000,
-	"dt_publish":"2025-07-19 20:35:28.000",
-	"ts_update":1756573992504,
-	"dt_update":"2025-08-31 00:16:46.272",
-	"count_dep":106,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214973000,
+	"dt_publish":"2025-09-19 01:02:53.000",
+	"ts_update":1759595196091,
+	"dt_update":"2025-10-05 00:18:08.419",
+	"count_dep":105,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,7 +22,7 @@
 	"url_issue_management":"https://issues.apache.org/jira/browse/NIFI",
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom",
 	"license":"Apache 2.0",
-	"ranking":"#497369 in MvnRepository",
+	"ranking":"#509365 in MvnRepository",
 	"tags":[
 		"bom",
 		"nifi",
@@ -31,6 +31,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",

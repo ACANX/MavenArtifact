@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-smb-smbj-client",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-smb-smbj-client",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929461000,
-	"dt_publish":"2025-07-19 20:51:01.000",
-	"ts_update":1757175513124,
-	"dt_update":"2025-09-07 00:16:13.254",
-	"count_dep":118,
+	"version_latest":"2.6.0",
+	"ts_publish":1758213716000,
+	"dt_publish":"2025-09-19 00:41:56.000",
+	"ts_update":1759595196044,
+	"dt_update":"2025-10-05 00:17:56.354",
+	"count_dep":112,
 	"count_ref":3,
 	"licenses":[],
 	"categories":[
@@ -20,13 +20,21 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-smb-bundle/nifi-smb-smbj-client",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#162430 in MvnRepository",
+	"ranking":"#145831 in MvnRepository",
 	"tags":[
 		"nifi",
 		"apache",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

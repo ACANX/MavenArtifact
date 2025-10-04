@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.tomee/openejb-cxf-transport",
 	"group_id":"org.apache.tomee",
 	"artifact_id":"openejb-cxf-transport",
-	"version_latest":"10.1.1",
-	"ts_publish":1755346543000,
-	"dt_publish":"2025-08-16 20:15:43.000",
-	"ts_update":1757780237036,
-	"dt_update":"2025-09-14 00:16:58.841",
-	"count_dep":5,
-	"count_ref":9,
-	"licenses":[],
+	"version_latest":"10.1.2",
+	"ts_publish":1758027796000,
+	"dt_publish":"2025-09-16 21:03:16.000",
+	"ts_update":1759595179579,
+	"dt_update":"2025-10-05 00:17:42.310",
+	"count_dep":60,
+	"count_ref":10,
+	"licenses":[
+		"Apache-2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomee/openejb-cxf-transport@10.1.1",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#42448 in MvnRepository",
+	"ranking":"#43280 in MvnRepository",
 	"tags":[
 		"cxf",
 		"ejb",
@@ -27,6 +29,14 @@
 		"openejb"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"10.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250816",
 			"repository":"Central",
@@ -178,14 +188,7 @@
 			"usage":10,
 			"version":"8.0.12",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20220421",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"8.0.11",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Apache TomEE is a JakartaEE 10 Web Profile stack for Apache Tomcat"
 }

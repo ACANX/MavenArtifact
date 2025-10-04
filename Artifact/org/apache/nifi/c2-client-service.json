@@ -3,12 +3,12 @@
 	"description":"Apache NiFi is an easy to use, powerful, and reliable system to process and distribute data.",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"c2-client-service",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928807000,
-	"dt_publish":"2025-07-19 20:40:07.000",
-	"ts_update":1756570750737,
-	"dt_update":"2025-08-31 00:16:48.684",
-	"count_dep":23,
+	"version_latest":"2.6.0",
+	"ts_publish":1758213307000,
+	"dt_publish":"2025-09-19 00:35:07.000",
+	"ts_update":1759595191521,
+	"dt_update":"2025-10-05 00:17:53.429",
+	"count_dep":21,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/c2/c2-client-bundle/c2-client-service",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#136272 in MvnRepository",
+	"ranking":"#138260 in MvnRepository",
 	"tags":[
 		"nifi",
 		"service",
@@ -31,6 +31,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]
