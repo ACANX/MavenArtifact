@@ -3,12 +3,12 @@
 	"description":"NiFi Compression NAR",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-compress-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928427000,
-	"dt_publish":"2025-07-19 20:33:47.000",
-	"ts_update":1756571866727,
-	"dt_update":"2025-08-31 00:16:45.640",
-	"count_dep":64,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214580000,
+	"dt_publish":"2025-09-19 00:56:20.000",
+	"ts_update":1759596987730,
+	"dt_update":"2025-10-05 00:18:04.867",
+	"count_dep":66,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,13 +23,21 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-compress-bundle/nifi-compress-nar",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#234770 in MvnRepository",
+	"ranking":"#236831 in MvnRepository",
 	"tags":[
 		"nifi",
 		"compression",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

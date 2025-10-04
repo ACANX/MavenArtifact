@@ -3,13 +3,13 @@
 	"description":"The Apache Log4j Commons Logging Adapter",
 	"group_id":"org.apache.logging.log4j",
 	"artifact_id":"log4j-jcl",
-	"version_latest":"2.25.1",
-	"ts_publish":1751746877000,
-	"dt_publish":"2025-07-06 04:21:17.000",
-	"ts_update":1755363371260,
-	"dt_update":"2025-08-17 00:18:11.470",
+	"version_latest":"2.25.2",
+	"ts_publish":1758220927000,
+	"dt_publish":"2025-09-19 02:42:07.000",
+	"ts_update":1759596989954,
+	"dt_update":"2025-10-05 00:18:12.501",
 	"count_dep":15,
-	"count_ref":45,
+	"count_ref":29,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -38,10 +38,10 @@
 	],
 	"url_scm":"https://github.com/apache/logging-log4j2",
 	"url_ci_management":"https://github.com/apache/logging-log4j2/actions",
-	"count_used_by":1194,
+	"count_used_by":1195,
 	"home_page":"https://logging.apache.org/log4j/2.x/",
 	"license":"Apache 2.0",
-	"ranking":"#490 in MvnRepository",
+	"ranking":"#502 in MvnRepository",
 	"tags":[
 		"logging",
 		"log4j",
@@ -66,10 +66,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"2.25.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250711",
 			"repository":"Central",
 			"type":"release",
-			"usage":17,
+			"usage":20,
 			"version":"2.25.1",
 			"vulnerabilities":""
 		},
@@ -85,7 +93,7 @@
 			"date":"20241213",
 			"repository":"Central",
 			"type":"release",
-			"usage":53,
+			"usage":57,
 			"version":"2.24.3",
 			"vulnerabilities":""
 		},
@@ -117,7 +125,7 @@
 			"date":"20240310",
 			"repository":"Central",
 			"type":"release",
-			"usage":40,
+			"usage":42,
 			"version":"2.23.1",
 			"vulnerabilities":""
 		},
@@ -199,14 +207,6 @@
 			"type":"release",
 			"usage":172,
 			"version":"2.17.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211218",
-			"repository":"Central",
-			"type":"release",
-			"usage":62,
-			"version":"2.17.0",
 			"vulnerabilities":""
 		}
 	]

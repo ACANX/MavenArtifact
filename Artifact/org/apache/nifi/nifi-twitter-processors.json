@@ -3,12 +3,12 @@
 	"description":"BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-twitter-processors",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928102000,
-	"dt_publish":"2025-07-19 20:28:22.000",
-	"ts_update":1756571188643,
-	"dt_update":"2025-08-31 00:16:42.357",
-	"count_dep":137,
+	"version_latest":"2.6.0",
+	"ts_publish":1758213921000,
+	"dt_publish":"2025-09-19 00:45:21.000",
+	"ts_update":1759596988671,
+	"dt_update":"2025-10-05 00:17:58.074",
+	"count_dep":136,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-social-media-bundle/nifi-twitter-processors",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#206520 in MvnRepository",
+	"ranking":"#209562 in MvnRepository",
 	"tags":[
 		"nifi",
 		"apache",
@@ -31,6 +31,14 @@
 		"twitter"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]
