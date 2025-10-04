@@ -1,15 +1,15 @@
 {
-	"id":"pkg:maven/org.wicketstuff/wicketstuff-serializer-fast2",
-	"description":"ISerializer based on version 2 of Fast https://github.com/RuedigerMoeller/fast-serialization",
+	"id":"pkg:maven/org.wicketstuff/wicketstuff-offline-mode-parent",
+	"description":"Parent project of Wicket's Offline Mode",
 	"group_id":"org.wicketstuff",
-	"artifact_id":"wicketstuff-serializer-fast2",
+	"artifact_id":"wicketstuff-offline-mode-parent",
 	"version_latest":"10.7.0",
 	"ts_publish":1759548393000,
 	"dt_publish":"2025-10-04 11:26:33.000",
-	"ts_update":1759549553989,
-	"dt_update":"2025-10-04 11:45:44.408",
-	"count_dep":106,
-	"count_ref":1,
+	"ts_update":1759549554121,
+	"dt_update":"2025-10-04 11:45:44.413",
+	"count_dep":10,
+	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -17,28 +17,28 @@
 		"Web Frameworks"
 	],
 	"dsv":1,
-	"url_project":"http://wicketstuff.org/wicketstuff-serializer-fast2",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wicketstuff/wicketstuff-serializer-fast2@10.7.0",
+	"url_project":"http://wicketstuff.org/wicketstuff-offline-mode-parent",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wicketstuff/wicketstuff-offline-mode-parent@10.7.0",
 	"url_issue_management":"https://github.com/wicketstuff/core/issues",
 	"contributors":[
 		"Jeremy Thomerson",
+		"Tobias Soloschenko",
 		"Michael O'Cleirigh"
 	],
-	"url_scm":"https://github.com/wicketstuff/core/tree/wicketstuff-core-10.7.0/wicketstuff-serializer-fast2",
+	"url_scm":"https://github.com/wicketstuff/core/tree/wicketstuff-core-10.7.0/wicketstuff-offline-mode-parent",
 	"url_ci_management":"http://ci.wicketstuff.org",
-	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#87419 in MvnRepository",
+	"ranking":"#475016 in MvnRepository",
 	"tags":[
-		"serialization",
-		"wicket"
+		"wicket",
+		"offline"
 	],
 	"versions":[
 		{
 			"date":"20250714",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":0,
 			"version":"10.6.0",
 			"vulnerabilities":""
 		},
@@ -46,7 +46,7 @@
 			"date":"20250430",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"10.5.0",
 			"vulnerabilities":""
 		},
@@ -54,7 +54,7 @@
 			"date":"20250131",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"10.4.0",
 			"vulnerabilities":""
 		},
@@ -62,7 +62,7 @@
 			"date":"20241220",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"10.3.0",
 			"vulnerabilities":""
 		},
@@ -70,7 +70,7 @@
 			"date":"20240926",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"10.2.0",
 			"vulnerabilities":""
 		},
@@ -78,7 +78,7 @@
 			"date":"20240614",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":0,
 			"version":"10.1.1",
 			"vulnerabilities":""
 		},
@@ -86,7 +86,7 @@
 			"date":"20240607",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"10.1.0",
 			"vulnerabilities":""
 		},
@@ -94,7 +94,7 @@
 			"date":"20240318",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":0,
 			"version":"10.0.0",
 			"vulnerabilities":""
 		},
@@ -102,7 +102,7 @@
 			"date":"20231019",
 			"repository":"Central",
 			"type":"milestone",
-			"usage":1,
+			"usage":0,
 			"version":"10.0.0-M2",
 			"vulnerabilities":""
 		},
@@ -110,7 +110,7 @@
 			"date":"20230710",
 			"repository":"Central",
 			"type":"milestone",
-			"usage":2,
+			"usage":0,
 			"version":"10.0.0-M1",
 			"vulnerabilities":""
 		},
@@ -118,7 +118,7 @@
 			"date":"20250517",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"9.21.0",
 			"vulnerabilities":""
 		},
@@ -126,7 +126,7 @@
 			"date":"20250131",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"9.20.0",
 			"vulnerabilities":""
 		},
@@ -134,7 +134,7 @@
 			"date":"20241227",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"9.19.0",
 			"vulnerabilities":""
 		},
@@ -142,7 +142,7 @@
 			"date":"20240604",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"9.18.0",
 			"vulnerabilities":""
 		},
@@ -150,7 +150,7 @@
 			"date":"20240321",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"9.17.0",
 			"vulnerabilities":""
 		},
@@ -158,7 +158,7 @@
 			"date":"20231128",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":0,
 			"version":"9.16.0",
 			"vulnerabilities":""
 		},
@@ -166,7 +166,7 @@
 			"date":"20230921",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":0,
 			"version":"9.15.0",
 			"vulnerabilities":""
 		},
@@ -174,7 +174,7 @@
 			"date":"20230529",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"9.14.0",
 			"vulnerabilities":""
 		},
@@ -182,7 +182,7 @@
 			"date":"20230418",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":0,
 			"version":"9.13.0",
 			"vulnerabilities":""
 		},
@@ -190,7 +190,7 @@
 			"date":"20221017",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":0,
 			"version":"9.12.0",
 			"vulnerabilities":""
 		}
