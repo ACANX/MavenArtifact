@@ -3,11 +3,11 @@
 	"description":"A bundle of processors that publish to and consume messages from AMQP.",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-amqp-bundle",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928743000,
-	"dt_publish":"2025-07-19 20:39:03.000",
-	"ts_update":1756571169057,
-	"dt_update":"2025-08-31 00:16:48.216",
+	"version_latest":"2.6.0",
+	"ts_publish":1758213602000,
+	"dt_publish":"2025-09-19 00:40:02.000",
+	"ts_update":1759597895312,
+	"dt_update":"2025-10-05 00:17:55.161",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[],
@@ -17,7 +17,7 @@
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-amqp-bundle@2.5.0",
 	"license":"Apache 2.0",
-	"ranking":"#923018 in MvnRepository",
+	"ranking":"#941020 in MvnRepository",
 	"tags":[
 		"bundle",
 		"nifi",
@@ -27,6 +27,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"NiFi: Framework Bundle",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-mock-authorizer",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929173000,
-	"dt_publish":"2025-07-19 20:46:13.000",
-	"ts_update":1757177874556,
-	"dt_update":"2025-09-07 00:16:07.012",
-	"count_dep":64,
+	"version_latest":"2.6.0",
+	"ts_publish":1758213498000,
+	"dt_publish":"2025-09-19 00:38:18.000",
+	"ts_update":1759597912387,
+	"dt_update":"2025-10-05 00:17:54.589",
+	"count_dep":66,
 	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework/nifi-mock-authorizer",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#126422 in MvnRepository",
+	"ranking":"#127241 in MvnRepository",
 	"tags":[
 		"nifi",
 		"mock",
@@ -31,6 +31,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"NiFi Extensions Bill of Materials",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-evtx-processors",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929215000,
-	"dt_publish":"2025-07-19 20:46:55.000",
-	"ts_update":1757178718241,
-	"dt_update":"2025-09-07 00:16:07.813",
-	"count_dep":70,
+	"version_latest":"2.6.0",
+	"ts_publish":1758213448000,
+	"dt_publish":"2025-09-19 00:37:28.000",
+	"ts_update":1759597903309,
+	"dt_update":"2025-10-05 00:17:54.014",
+	"count_dep":72,
 	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,13 +23,21 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-evtx-bundle/nifi-evtx-processors",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#204419 in MvnRepository",
+	"ranking":"#207584 in MvnRepository",
 	"tags":[
 		"nifi",
 		"apache",
 		"processor"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-reactor-netty-deployment",
-	"version_latest":"3.26.0",
-	"ts_publish":1755762011000,
-	"dt_publish":"2025-08-21 15:40:11.000",
-	"ts_update":1758386757493,
-	"dt_update":"2025-09-21 00:17:47.327",
+	"version_latest":"3.27.0",
+	"ts_publish":1758272772000,
+	"dt_publish":"2025-09-19 17:06:12.000",
+	"ts_update":1759597903556,
+	"dt_update":"2025-10-05 00:18:16.600",
 	"count_dep":110,
 	"count_ref":1,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-reactor-netty-parent/camel-quarkus-support-reactor-netty-deployment",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#219259 in MvnRepository",
+	"ranking":"#218847 in MvnRepository",
 	"tags":[
 		"network",
 		"support",
@@ -39,6 +39,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250821",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.12.0",
 			"vulnerabilities":""
 		}
 	]
