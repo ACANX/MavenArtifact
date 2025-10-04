@@ -3,11 +3,11 @@
 	"description":"ClusterBench is a Jakarta EE clustering benchmark application.",
 	"group_id":"org.wildfly.clustering.benchmark",
 	"artifact_id":"clusterbench-ee10-ejb",
-	"version_latest":"13.0.1.Final",
-	"ts_publish":1755325808000,
-	"dt_publish":"2025-08-16 14:30:08.000",
-	"ts_update":1755332372320,
-	"dt_update":"2025-08-16 16:19:26.794",
+	"version_latest":"14.0.1.Final",
+	"ts_publish":1759573805000,
+	"dt_publish":"2025-10-04 18:30:05.000",
+	"ts_update":1759575375525,
+	"dt_update":"2025-10-04 18:56:07.818",
 	"count_dep":9,
 	"count_ref":1,
 	"licenses":[
@@ -21,5 +21,40 @@
 		"Radoslav Husar",
 		"JBoss.org Community"
 	],
-	"url_scm":"http://github.com/jboss/jboss-parent-pom"
+	"url_scm":"http://github.com/jboss/jboss-parent-pom",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#204427 in MvnRepository",
+	"tags":[
+		"wildfly",
+		"ejb",
+		"cluster",
+		"benchmark"
+	],
+	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"14.0.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250816",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"13.0.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"13.0.1.CR1",
+			"vulnerabilities":""
+		}
+	]
 }
