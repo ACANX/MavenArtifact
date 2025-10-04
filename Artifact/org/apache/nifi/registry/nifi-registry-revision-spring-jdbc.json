@@ -3,11 +3,11 @@
 	"description":"The core modules of NiFi Registry.",
 	"group_id":"org.apache.nifi.registry",
 	"artifact_id":"nifi-registry-revision-spring-jdbc",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929571000,
-	"dt_publish":"2025-07-19 20:52:51.000",
-	"ts_update":1757176536458,
-	"dt_update":"2025-09-07 00:16:14.829",
+	"version_latest":"2.6.0",
+	"ts_publish":1758214244000,
+	"dt_publish":"2025-09-19 00:50:44.000",
+	"ts_update":1759595697626,
+	"dt_update":"2025-10-05 00:18:01.657",
 	"count_dep":20,
 	"count_ref":4,
 	"licenses":[
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-registry/nifi-registry-core/nifi-registry-revision/nifi-registry-revision-spring-jdbc",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#248367 in MvnRepository",
+	"ranking":"#251251 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -34,6 +34,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

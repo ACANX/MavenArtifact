@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.tomee/taglibs-shade",
 	"group_id":"org.apache.tomee",
 	"artifact_id":"taglibs-shade",
-	"version_latest":"10.1.1",
-	"ts_publish":1755346456000,
-	"dt_publish":"2025-08-16 20:14:16.000",
-	"ts_update":1757780802252,
-	"dt_update":"2025-09-14 00:16:58.222",
-	"count_dep":5,
+	"version_latest":"10.1.2",
+	"ts_publish":1758027711000,
+	"dt_publish":"2025-09-16 21:01:51.000",
+	"ts_update":1759595696668,
+	"dt_update":"2025-10-05 00:17:41.144",
+	"count_dep":6,
 	"count_ref":6,
-	"licenses":[],
+	"licenses":[
+		"Apache-2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomee/taglibs-shade@10.1.1",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#42975 in MvnRepository",
+	"ranking":"#43402 in MvnRepository",
 	"tags":[
 		"tomee",
 		"shaded",
@@ -28,6 +30,14 @@
 		"taglib"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"10.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250816",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":10,
 			"version":"8.0.12",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20220421",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"8.0.11",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Apache TomEE is a JakartaEE 10 Web Profile stack for Apache Tomcat"
 }

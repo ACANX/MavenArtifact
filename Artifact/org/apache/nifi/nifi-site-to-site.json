@@ -3,13 +3,13 @@
 	"description":"NiFi: Framework Bundle",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-site-to-site",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928065000,
-	"dt_publish":"2025-07-19 20:27:45.000",
-	"ts_update":1756570727203,
-	"dt_update":"2025-08-31 00:16:42.362",
-	"count_dep":95,
-	"count_ref":6,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214892000,
+	"dt_publish":"2025-09-19 01:01:32.000",
+	"ts_update":1759595706060,
+	"dt_update":"2025-10-05 00:18:07.225",
+	"count_dep":76,
+	"count_ref":5,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,12 +23,20 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework/nifi-site-to-site",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#98777 in MvnRepository",
+	"ranking":"#100325 in MvnRepository",
 	"tags":[
 		"nifi",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

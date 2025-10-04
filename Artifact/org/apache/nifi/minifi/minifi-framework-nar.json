@@ -3,14 +3,16 @@
 	"description":"MiNiFi: Framework NAR",
 	"group_id":"org.apache.nifi.minifi",
 	"artifact_id":"minifi-framework-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928377000,
-	"dt_publish":"2025-07-19 20:32:57.000",
-	"ts_update":1756570739619,
-	"dt_update":"2025-08-31 00:16:44.326",
-	"count_dep":2,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214739000,
+	"dt_publish":"2025-09-19 00:58:59.000",
+	"ts_update":1759595720644,
+	"dt_update":"2025-10-05 00:18:06.038",
+	"count_dep":19,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Transport"
 	],
@@ -18,13 +20,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi.minifi/minifi-framework-nar@2.5.0",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#251304 in MvnRepository",
+	"ranking":"#254345 in MvnRepository",
 	"tags":[
 		"nifi",
 		"framework",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -175,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

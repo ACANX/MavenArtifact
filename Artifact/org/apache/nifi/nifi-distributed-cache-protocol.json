@@ -3,12 +3,12 @@
 	"description":"Defines the communications protocol that is used between clients and servers \n        for the Distributed Cache services",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-distributed-cache-protocol",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928488000,
-	"dt_publish":"2025-07-19 20:34:48.000",
-	"ts_update":1756573031175,
-	"dt_update":"2025-08-31 00:16:45.633",
-	"count_dep":64,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214688000,
+	"dt_publish":"2025-09-19 00:58:08.000",
+	"ts_update":1759595699671,
+	"dt_update":"2025-10-05 00:18:06.046",
+	"count_dep":66,
 	"count_ref":4,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-distributed-cache-protocol@2.5.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#116112 in MvnRepository",
+	"ranking":"#117739 in MvnRepository",
 	"tags":[
 		"nifi",
 		"cache",
@@ -27,6 +27,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]
