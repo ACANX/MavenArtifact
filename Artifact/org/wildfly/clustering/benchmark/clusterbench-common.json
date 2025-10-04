@@ -3,13 +3,13 @@
 	"description":"Module containing Jakarta version-agnostic base class (POJO) implementations of SerialBean object and base interfaces and classes for EJBs.",
 	"group_id":"org.wildfly.clustering.benchmark",
 	"artifact_id":"clusterbench-common",
-	"version_latest":"13.0.1.Final",
-	"ts_publish":1755325808000,
-	"dt_publish":"2025-08-16 14:30:08.000",
-	"ts_update":1755332381579,
-	"dt_update":"2025-08-16 16:19:26.794",
+	"version_latest":"14.0.1.Final",
+	"ts_publish":1759573805000,
+	"dt_publish":"2025-10-04 18:30:05.000",
+	"ts_update":1759574692206,
+	"dt_update":"2025-10-04 18:44:40.246",
 	"count_dep":2,
-	"count_ref":3,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,5 +20,39 @@
 	"contributors":[
 		"Radoslav Husar"
 	],
-	"url_scm":"http://github.com/jboss/jboss-parent-pom"
+	"url_scm":"http://github.com/jboss/jboss-parent-pom",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#210251 in MvnRepository",
+	"tags":[
+		"wildfly",
+		"cluster",
+		"benchmark"
+	],
+	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"14.0.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250816",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"13.0.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"13.0.1.CR1",
+			"vulnerabilities":""
+		}
+	]
 }
