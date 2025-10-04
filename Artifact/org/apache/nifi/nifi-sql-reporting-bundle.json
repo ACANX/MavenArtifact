@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.apache.nifi/nifi-sql-reporting-bundle",
-	"description":"BOM to capture all standard controller service APIs and utils we want to make readily available to any nars that want to\n        leverage this common managed set of dependencies",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-sql-reporting-bundle",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928856000,
-	"dt_publish":"2025-07-19 20:40:56.000",
-	"ts_update":1756571842135,
-	"dt_update":"2025-08-31 00:16:49.319",
-	"count_dep":63,
+	"version_latest":"2.6.0",
+	"ts_publish":1758215254000,
+	"dt_publish":"2025-09-19 01:07:34.000",
+	"ts_update":1759596412722,
+	"dt_update":"2025-10-05 00:18:11.905",
+	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Analytics"
 	],
@@ -22,7 +19,7 @@
 	"url_issue_management":"https://issues.apache.org/jira/browse/NIFI",
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-sql-reporting-bundle",
 	"license":"Apache 2.0",
-	"ranking":"#740575 in MvnRepository",
+	"ranking":"#754228 in MvnRepository",
 	"tags":[
 		"sql",
 		"bundle",
@@ -32,6 +29,14 @@
 		"report"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -182,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

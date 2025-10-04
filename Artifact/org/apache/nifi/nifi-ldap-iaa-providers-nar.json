@@ -3,12 +3,12 @@
 	"description":"NiFi: Framework Bundle",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-ldap-iaa-providers-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929343000,
-	"dt_publish":"2025-07-19 20:49:03.000",
-	"ts_update":1757175964781,
-	"dt_update":"2025-09-07 00:16:10.567",
-	"count_dep":64,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214159000,
+	"dt_publish":"2025-09-19 00:49:19.000",
+	"ts_update":1759596413820,
+	"dt_update":"2025-10-05 00:18:00.424",
+	"count_dep":66,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-framework-bundle/nifi-framework-extensions/nifi-ldap-iaa-providers-bundle/nifi-ldap-iaa-providers-nar",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#406087 in MvnRepository",
+	"ranking":"#408846 in MvnRepository",
 	"tags":[
 		"nifi",
 		"provider",
@@ -32,6 +32,14 @@
 		"directory"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

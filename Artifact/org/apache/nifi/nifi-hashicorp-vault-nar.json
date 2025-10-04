@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-hashicorp-vault-nar",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-hashicorp-vault-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928781000,
-	"dt_publish":"2025-07-19 20:39:41.000",
-	"ts_update":1756572443634,
-	"dt_update":"2025-08-31 00:16:48.689",
+	"version_latest":"2.6.0",
+	"ts_publish":1758213673000,
+	"dt_publish":"2025-09-19 00:41:13.000",
+	"ts_update":1759596432715,
+	"dt_update":"2025-10-05 00:17:55.751",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[],
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-hashicorp-vault-nar@2.5.0",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#401824 in MvnRepository",
+	"ranking":"#408890 in MvnRepository",
 	"tags":[
 		"nifi",
 		"hashicorp",
@@ -25,6 +25,14 @@
 		"vault"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

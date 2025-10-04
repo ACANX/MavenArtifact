@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-hdfs-processors",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-hdfs-processors",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929286000,
-	"dt_publish":"2025-07-19 20:48:06.000",
-	"ts_update":1757176007982,
-	"dt_update":"2025-09-07 00:16:09.635",
-	"count_dep":86,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214947000,
+	"dt_publish":"2025-09-19 01:02:27.000",
+	"ts_update":1759596445599,
+	"dt_update":"2025-10-05 00:18:07.819",
+	"count_dep":88,
 	"count_ref":2,
 	"licenses":[],
 	"categories":[
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-hdfs-processors@2.5.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#163253 in MvnRepository",
+	"ranking":"#164723 in MvnRepository",
 	"tags":[
 		"nifi",
 		"filesystem",
@@ -27,6 +27,14 @@
 		"hdfs"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

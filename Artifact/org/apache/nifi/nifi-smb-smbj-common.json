@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-smb-smbj-common",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-smb-smbj-common",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929373000,
-	"dt_publish":"2025-07-19 20:49:33.000",
-	"ts_update":1757175493110,
-	"dt_update":"2025-09-07 00:16:11.383",
-	"count_dep":108,
-	"count_ref":4,
-	"licenses":[],
+	"version_latest":"2.6.0",
+	"ts_publish":1758213576000,
+	"dt_publish":"2025-09-19 00:39:36.000",
+	"ts_update":1759596444697,
+	"dt_update":"2025-10-05 00:17:55.167",
+	"count_dep":107,
+	"count_ref":3,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Analytics"
 	],
@@ -17,12 +19,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-smb-smbj-common@2.5.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#133370 in MvnRepository",
+	"ranking":"#134815 in MvnRepository",
 	"tags":[
 		"nifi",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -174,14 +184,7 @@
 			"usage":2,
 			"version":"1.23.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.22.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars"
 }

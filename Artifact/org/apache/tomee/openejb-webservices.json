@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.tomee/openejb-webservices",
 	"group_id":"org.apache.tomee",
 	"artifact_id":"openejb-webservices",
-	"version_latest":"10.1.1",
-	"ts_publish":1755346552000,
-	"dt_publish":"2025-08-16 20:15:52.000",
-	"ts_update":1757783488575,
-	"dt_update":"2025-09-14 00:16:59.436",
-	"count_dep":11,
-	"count_ref":7,
-	"licenses":[],
+	"version_latest":"10.1.2",
+	"ts_publish":1758027806000,
+	"dt_publish":"2025-09-16 21:03:26.000",
+	"ts_update":1759596391685,
+	"dt_update":"2025-10-05 00:17:42.308",
+	"count_dep":79,
+	"count_ref":8,
+	"licenses":[
+		"Apache-2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomee/openejb-webservices@10.1.1",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#43823 in MvnRepository",
+	"ranking":"#44004 in MvnRepository",
 	"tags":[
 		"ejb",
 		"tomee",
@@ -28,6 +30,14 @@
 		"openejb"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"10.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250816",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":9,
 			"version":"8.0.12",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20220421",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"8.0.11",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Apache TomEE is a JakartaEE 10 Web Profile stack for Apache Tomcat"
 }

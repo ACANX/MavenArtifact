@@ -3,11 +3,11 @@
 	"description":"Apache Tika is a toolkit for detecting and extracting metadata and\n    structured text content from various documents using existing parser\n    libraries.",
 	"group_id":"org.apache.tika",
 	"artifact_id":"tika-server-core",
-	"version_latest":"3.2.2",
-	"ts_publish":1754500834000,
-	"dt_publish":"2025-08-07 01:20:34.000",
-	"ts_update":1757782600953,
-	"dt_update":"2025-09-14 00:16:03.639",
+	"version_latest":"3.2.3",
+	"ts_publish":1757602721000,
+	"dt_publish":"2025-09-11 22:58:41.000",
+	"ts_update":1759596401557,
+	"dt_update":"2025-10-05 00:17:24.808",
 	"count_dep":80,
 	"count_ref":2,
 	"licenses":[
@@ -47,13 +47,21 @@
 	"url_ci_management":"https://ci-builds.apache.org/job/Tika/",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#153848 in MvnRepository",
+	"ranking":"#169505 in MvnRepository",
 	"tags":[
 		"server",
 		"tika",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.2.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -204,14 +212,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211223",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.2.1",
 			"vulnerabilities":""
 		}
 	]

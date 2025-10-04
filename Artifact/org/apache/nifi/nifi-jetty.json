@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-jetty",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-jetty",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928257000,
-	"dt_publish":"2025-07-19 20:30:57.000",
-	"ts_update":1756570683036,
-	"dt_update":"2025-08-31 00:16:43.661",
-	"count_dep":85,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214301000,
+	"dt_publish":"2025-09-19 00:51:41.000",
+	"ts_update":1759596435570,
+	"dt_update":"2025-10-05 00:18:02.471",
+	"count_dep":87,
 	"count_ref":5,
 	"licenses":[],
 	"categories":[
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-jetty@2.5.0",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#88980 in MvnRepository",
+	"ranking":"#89995 in MvnRepository",
 	"tags":[
 		"nifi",
 		"server",
@@ -26,6 +26,14 @@
 		"jetty"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

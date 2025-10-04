@@ -3,12 +3,12 @@
 	"description":"NiFi Extensions Bill of Materials",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-media-processors",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928648000,
-	"dt_publish":"2025-07-19 20:37:28.000",
-	"ts_update":1756570705146,
-	"dt_update":"2025-08-31 00:16:47.556",
-	"count_dep":149,
+	"version_latest":"2.6.0",
+	"ts_publish":1758215171000,
+	"dt_publish":"2025-09-19 01:06:11.000",
+	"ts_update":1759596464972,
+	"dt_update":"2025-10-05 00:18:11.319",
+	"count_dep":151,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-media-bundle/nifi-media-processors",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#243393 in MvnRepository",
+	"ranking":"#246767 in MvnRepository",
 	"tags":[
 		"nifi",
 		"apache",
@@ -31,6 +31,14 @@
 		"media"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

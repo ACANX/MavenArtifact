@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-framework-status-history-shared",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-framework-status-history-shared",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928805000,
-	"dt_publish":"2025-07-19 20:40:05.000",
-	"ts_update":1756572477576,
-	"dt_update":"2025-08-31 00:16:48.684",
-	"count_dep":1,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214054000,
+	"dt_publish":"2025-09-19 00:47:34.000",
+	"ts_update":1759596434076,
+	"dt_update":"2025-10-05 00:17:59.845",
+	"count_dep":66,
 	"count_ref":6,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Analytics"
 	],
@@ -17,13 +19,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-framework-status-history-shared@2.5.0",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#99874 in MvnRepository",
+	"ranking":"#84619 in MvnRepository",
 	"tags":[
 		"nifi",
 		"framework",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -96,5 +106,6 @@
 			"version":"2.0.0-M2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"NiFi: Framework Bundle"
 }

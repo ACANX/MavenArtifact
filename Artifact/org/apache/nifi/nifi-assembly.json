@@ -3,12 +3,12 @@
 	"description":"This is the assembly Apache NiFi",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-assembly",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929660000,
-	"dt_publish":"2025-07-19 20:54:20.000",
-	"ts_update":1757176514526,
-	"dt_update":"2025-09-07 00:16:16.491",
-	"count_dep":147,
+	"version_latest":"2.6.0",
+	"ts_publish":1758215080000,
+	"dt_publish":"2025-09-19 01:04:40.000",
+	"ts_update":1759596417992,
+	"dt_update":"2025-10-05 00:18:09.571",
+	"count_dep":258,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,13 +23,21 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-assembly",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#327176 in MvnRepository",
+	"ranking":"#331705 in MvnRepository",
 	"tags":[
 		"nifi",
 		"assembly",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"NiFi Extensions Bill of Materials",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-update-attribute-ui",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928989000,
-	"dt_publish":"2025-07-19 20:43:09.000",
-	"ts_update":1756572427744,
-	"dt_update":"2025-08-31 00:16:50.594",
-	"count_dep":103,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214343000,
+	"dt_publish":"2025-09-19 00:52:23.000",
+	"ts_update":1759596389099,
+	"dt_update":"2025-10-05 00:18:03.087",
+	"count_dep":107,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-update-attribute-bundle/nifi-update-attribute-ui",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#421869 in MvnRepository",
+	"ranking":"#426355 in MvnRepository",
 	"tags":[
 		"application",
 		"nifi",
@@ -34,6 +34,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

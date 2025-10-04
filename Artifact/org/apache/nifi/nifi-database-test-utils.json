@@ -3,12 +3,12 @@
 	"description":"This module contains reusable utilities related to extensions that can be shared across NARs.",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-database-test-utils",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928900000,
-	"dt_publish":"2025-07-19 20:41:40.000",
-	"ts_update":1756572452572,
-	"dt_update":"2025-08-31 00:16:49.964",
-	"count_dep":63,
+	"version_latest":"2.6.0",
+	"ts_publish":1758215249000,
+	"dt_publish":"2025-09-19 01:07:29.000",
+	"ts_update":1759596446679,
+	"dt_update":"2025-10-05 00:18:11.906",
+	"count_dep":65,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-extension-utils/nifi-database-test-utils",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#168986 in MvnRepository",
+	"ranking":"#170783 in MvnRepository",
 	"tags":[
 		"database",
 		"nifi",
@@ -32,6 +32,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

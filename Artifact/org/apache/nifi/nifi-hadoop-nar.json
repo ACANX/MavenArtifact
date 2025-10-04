@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-hadoop-nar",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-hadoop-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929460000,
-	"dt_publish":"2025-07-19 20:51:00.000",
-	"ts_update":1757177182101,
-	"dt_update":"2025-09-07 00:16:13.254",
+	"version_latest":"2.6.0",
+	"ts_publish":1758215245000,
+	"dt_publish":"2025-09-19 01:07:25.000",
+	"ts_update":1759596393101,
+	"dt_update":"2025-10-05 00:18:11.907",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
@@ -17,13 +17,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-hadoop-nar@2.5.0",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#241862 in MvnRepository",
+	"ranking":"#245418 in MvnRepository",
 	"tags":[
 		"nifi",
 		"hadoop",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

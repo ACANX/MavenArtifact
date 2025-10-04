@@ -3,13 +3,13 @@
 	"description":"The core modules of NiFi Registry.",
 	"group_id":"org.apache.nifi.registry",
 	"artifact_id":"nifi-registry-client",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928748000,
-	"dt_publish":"2025-07-19 20:39:08.000",
-	"ts_update":1756570742239,
-	"dt_update":"2025-08-31 00:16:48.215",
-	"count_dep":44,
-	"count_ref":9,
+	"version_latest":"2.6.0",
+	"ts_publish":1758213680000,
+	"dt_publish":"2025-09-19 00:41:20.000",
+	"ts_update":1759596460300,
+	"dt_update":"2025-10-05 00:17:55.749",
+	"count_dep":49,
+	"count_ref":8,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-registry/nifi-registry-core/nifi-registry-client",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#37145 in MvnRepository",
+	"ranking":"#37643 in MvnRepository",
 	"tags":[
 		"registry",
 		"nifi",
@@ -31,6 +31,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

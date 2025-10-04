@@ -3,13 +3,13 @@
 	"description":"NiFi Extensions Bill of Materials",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-compress-processors",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929161000,
-	"dt_publish":"2025-07-19 20:46:01.000",
-	"ts_update":1757177139506,
-	"dt_update":"2025-09-07 00:16:06.038",
-	"count_dep":75,
-	"count_ref":2,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214323000,
+	"dt_publish":"2025-09-19 00:52:03.000",
+	"ts_update":1759596403703,
+	"dt_update":"2025-10-05 00:18:02.466",
+	"count_dep":77,
+	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-compress-bundle/nifi-compress-processors",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#247104 in MvnRepository",
+	"ranking":"#248848 in MvnRepository",
 	"tags":[
 		"nifi",
 		"compression",
@@ -31,6 +31,14 @@
 		"processor"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]
