@@ -3,13 +3,13 @@
 	"description":"Repository that uses a Sail stack.",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-repository-sail",
-	"version_latest":"5.1.6",
-	"ts_publish":1758745482000,
-	"dt_publish":"2025-09-25 04:24:42.000",
-	"ts_update":1758747434753,
-	"dt_update":"2025-09-25 04:44:48.326",
+	"version_latest":"5.2.0",
+	"ts_publish":1759669480000,
+	"dt_publish":"2025-10-05 21:04:40.000",
+	"ts_update":1759670795812,
+	"dt_update":"2025-10-05 21:26:11.418",
 	"count_dep":51,
-	"count_ref":24,
+	"count_ref":21,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
 	],
@@ -25,16 +25,24 @@
 		"Jeen Broekstra"
 	],
 	"url_scm":"https://github.com/eclipse/rdf4j/rdf4j-core/rdf4j-repository/rdf4j-repository-sail",
-	"count_used_by":116,
+	"count_used_by":118,
 	"home_page":"https://rdf4j.org/",
 	"license":"EDL 1.0",
-	"ranking":"#4484 in MvnRepository",
+	"ranking":"#4431 in MvnRepository",
 	"tags":[
 		"rdf",
 		"repository",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"5.1.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250906",
 			"repository":"Central",
@@ -47,7 +55,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":19,
+			"usage":23,
 			"version":"5.1.4",
 			"vulnerabilities":""
 		},
@@ -79,7 +87,7 @@
 			"date":"20241121",
 			"repository":"Central",
 			"type":"release",
-			"usage":20,
+			"usage":24,
 			"version":"5.1.0",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":19,
 			"version":"4.3.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240601",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"4.3.12",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Client functionality for communicating with an RDF4J server over HTTP.",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-http-client",
-	"version_latest":"5.1.6",
-	"ts_publish":1758745482000,
-	"dt_publish":"2025-09-25 04:24:42.000",
-	"ts_update":1758748429500,
-	"dt_update":"2025-09-25 04:44:46.947",
-	"count_dep":47,
-	"count_ref":27,
+	"version_latest":"5.2.0",
+	"ts_publish":1759669480000,
+	"dt_publish":"2025-10-05 21:04:40.000",
+	"ts_update":1759670784989,
+	"dt_update":"2025-10-05 21:26:10.110",
+	"count_dep":50,
+	"count_ref":25,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
 	],
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/eclipse/rdf4j/rdf4j-core/rdf4j-http/rdf4j-http-client",
 	"count_used_by":19,
 	"license":"EDL 1.0",
-	"ranking":"#24277 in MvnRepository",
+	"ranking":"#24330 in MvnRepository",
 	"tags":[
 		"rdf",
 		"eclipse",
@@ -35,6 +35,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"5.1.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250906",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"4.3.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240601",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"4.3.12",
 			"vulnerabilities":""
 		}
 	]

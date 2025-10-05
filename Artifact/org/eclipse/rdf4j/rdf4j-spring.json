@@ -3,12 +3,12 @@
 	"description":"Spring integration for RDF4J",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-spring",
-	"version_latest":"5.1.6",
-	"ts_publish":1758745482000,
-	"dt_publish":"2025-09-25 04:24:42.000",
-	"ts_update":1758747451467,
-	"dt_update":"2025-09-25 04:44:48.326",
-	"count_dep":183,
+	"version_latest":"5.2.0",
+	"ts_publish":1759669480000,
+	"dt_publish":"2025-10-05 21:04:40.000",
+	"ts_update":1759670791763,
+	"dt_update":"2025-10-05 21:26:11.415",
+	"count_dep":62,
 	"count_ref":1,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
@@ -27,13 +27,21 @@
 	"url_scm":"https://github.com/eclipse/rdf4j/rdf4j-spring-components/rdf4j-spring",
 	"count_used_by":2,
 	"license":"EDL 1.0",
-	"ranking":"#251576 in MvnRepository",
+	"ranking":"#233275 in MvnRepository",
 	"tags":[
 		"rdf",
 		"eclipse",
 		"spring"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.1.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250906",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.3.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240601",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.3.12",
 			"vulnerabilities":""
 		}
 	]
