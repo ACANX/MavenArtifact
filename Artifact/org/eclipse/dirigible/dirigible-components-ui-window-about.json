@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-components-ui-window-about",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-components-ui-window-about",
-	"version_latest":"12.19.0",
-	"ts_publish":1759583398000,
-	"dt_publish":"2025-10-04 21:09:58.000",
-	"ts_update":1759584304996,
-	"dt_update":"2025-10-04 21:24:45.343",
-	"count_dep":0,
+	"version_latest":"12.20.0",
+	"ts_publish":1759703205000,
+	"dt_publish":"2025-10-06 06:26:45.000",
+	"ts_update":1759704288324,
+	"dt_update":"2025-10-06 06:44:28.190",
+	"count_dep":129,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.dirigible/dirigible-components-ui-window-about@12.5.0",
 	"count_used_by":8,
 	"license":"EPL 2.0",
-	"ranking":"#61975 in MvnRepository",
+	"ranking":"#61941 in MvnRepository",
 	"tags":[
 		"window",
 		"eclipse",
@@ -25,6 +27,14 @@
 		"component"
 	],
 	"versions":[
+		{
+			"date":"20251004",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.19.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250923",
 			"repository":"Central",
@@ -176,14 +186,7 @@
 			"usage":2,
 			"version":"12.2.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.2.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Dirigible Parent"
 }
