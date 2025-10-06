@@ -3,13 +3,13 @@
 	"description":"Apache Lucene (module: sandbox)",
 	"group_id":"org.apache.lucene",
 	"artifact_id":"lucene-sandbox",
-	"version_latest":"10.3.0",
-	"ts_publish":1757788490000,
-	"dt_publish":"2025-09-14 02:34:50.000",
-	"ts_update":1759597043790,
-	"dt_update":"2025-10-05 00:17:35.961",
-	"count_dep":0,
-	"count_ref":18,
+	"version_latest":"10.3.1",
+	"ts_publish":1759758155000,
+	"dt_publish":"2025-10-06 21:42:35.000",
+	"ts_update":1759758982361,
+	"dt_update":"2025-10-06 21:56:13.214",
+	"count_dep":3,
+	"count_ref":2,
 	"licenses":[
 		"Apache 2"
 	],
@@ -22,10 +22,10 @@
 	"url_issue_management":"https://issues.apache.org/jira/browse/LUCENE",
 	"url_scm":"https://gitbox.apache.org/repos/asf?p=lucene.git",
 	"url_ci_management":"https://builds.apache.org/job/Lucene/",
-	"count_used_by":207,
+	"count_used_by":210,
 	"home_page":"https://lucene.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#2690 in MvnRepository",
+	"ranking":"#2696 in MvnRepository",
 	"tags":[
 		"lucene",
 		"apache",
@@ -33,10 +33,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250620",
+			"date":"20250913",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"10.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250620",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"10.2.2",
 			"vulnerabilities":""
 		},
@@ -70,6 +78,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"10.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250927",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.12.3",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"9.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221122",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"9.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221024",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"9.4.1",
 			"vulnerabilities":""
 		}
 	]

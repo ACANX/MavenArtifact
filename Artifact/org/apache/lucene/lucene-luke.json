@@ -3,12 +3,12 @@
 	"description":"Apache Lucene (module: luke)",
 	"group_id":"org.apache.lucene",
 	"artifact_id":"lucene-luke",
-	"version_latest":"10.3.0",
-	"ts_publish":1757788434000,
-	"dt_publish":"2025-09-14 02:33:54.000",
-	"ts_update":1759594751781,
-	"dt_update":"2025-10-05 00:17:35.964",
-	"count_dep":0,
+	"version_latest":"10.3.1",
+	"ts_publish":1759758111000,
+	"dt_publish":"2025-10-06 21:41:51.000",
+	"ts_update":1759758983258,
+	"dt_update":"2025-10-06 21:56:13.708",
+	"count_dep":17,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2"
@@ -24,13 +24,21 @@
 	"url_ci_management":"https://builds.apache.org/job/Lucene/",
 	"home_page":"https://lucene.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#660913 in MvnRepository",
+	"ranking":"#668284 in MvnRepository",
 	"tags":[
 		"lucene",
 		"apache",
 		"index"
 	],
 	"versions":[
+		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"10.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250620",
 			"repository":"Central",
@@ -69,6 +77,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"10.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250927",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.12.3",
 			"vulnerabilities":""
 		},
 		{
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221122",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221024",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.4.1",
 			"vulnerabilities":""
 		}
 	]
