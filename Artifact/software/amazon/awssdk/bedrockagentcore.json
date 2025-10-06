@@ -3,9 +3,9 @@
 	"description":"The AWS Java SDK for Bedrock Agent Core module holds the client classes that are used for\n        communicating with Bedrock Agent Core.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"bedrockagentcore",
-	"version_latest":"2.35.0",
-	"ts_publish":1759528180000,
-	"ts_update":1759529638257,
+	"version_latest":"2.35.1",
+	"ts_publish":1759790160000,
+	"ts_update":1759792470726,
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
@@ -17,8 +17,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/bedrockagentcore@2.32.16",
 	"count_used_by":2,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#221793 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#222464 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -26,10 +26,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.35.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251002",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.34.9",
 			"vulnerabilities":""
 		},
@@ -176,16 +184,8 @@
 			"usage":1,
 			"version":"2.33.5",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250905",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.4",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-10-04 05:49:40.000",
-	"dt_update":"2025-10-04 06:13:32.989"
+	"dt_publish":"2025-10-07 06:36:00.000",
+	"dt_update":"2025-10-07 07:14:05.103"
 }

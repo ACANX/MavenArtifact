@@ -3,13 +3,13 @@
 	"description":"The AWS Java SDK for Amazon S3 module holds the client classes that are used for communicating with\n        Amazon Simple Storage Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"s3",
-	"version_latest":"2.35.0",
-	"ts_publish":1759528180000,
-	"dt_publish":"2025-10-04 05:49:40.000",
-	"ts_update":1759529640565,
-	"dt_update":"2025-10-04 06:13:36.358",
+	"version_latest":"2.35.1",
+	"ts_publish":1759790160000,
+	"dt_publish":"2025-10-07 06:36:00.000",
+	"ts_update":1759792459242,
+	"dt_update":"2025-10-07 07:14:01.827",
 	"count_dep":61,
-	"count_ref":5,
+	"count_ref":8,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -17,10 +17,10 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/s3@2.32.18",
-	"count_used_by":803,
+	"count_used_by":804,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#761 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#759 in MvnRepository",
 	"tags":[
 		"persistence",
 		"aws",
@@ -32,10 +32,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251004",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2.35.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251002",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":14,
 			"version":"2.34.9",
 			"vulnerabilities":""
 		},
@@ -43,7 +51,7 @@
 			"date":"20251001",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":12,
 			"version":"2.34.8",
 			"vulnerabilities":""
 		},
@@ -179,16 +187,8 @@
 			"date":"20250908",
 			"repository":"Central",
 			"type":"release",
-			"usage":19,
+			"usage":20,
 			"version":"2.33.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250906",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"2.33.4",
 			"vulnerabilities":""
 		}
 	]
