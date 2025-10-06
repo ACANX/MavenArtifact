@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/com.regnosys.rosetta/com.regnosys.rosetta",
-	"description":"Responsibilities: defining the core of the Rosetta DSL, including\n        - the AST\n        - parsing\n        - scoping and cross-reference resolution\n        - type system\n        - validation\n        - code generation",
+	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"com.regnosys.rosetta",
 	"artifact_id":"com.regnosys.rosetta",
-	"version_latest":"9.66.0",
-	"ts_publish":1759324522000,
-	"dt_publish":"2025-10-01 21:15:22.000",
-	"ts_update":1759332472771,
-	"dt_update":"2025-10-01 21:42:46.840",
-	"count_dep":88,
-	"count_ref":5,
+	"version_latest":"9.67.7",
+	"ts_publish":1759749414000,
+	"dt_publish":"2025-10-06 19:16:54.000",
+	"ts_update":1759749979457,
+	"dt_update":"2025-10-06 19:26:10.356",
+	"count_dep":77,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,8 +24,16 @@
 	"url_scm":"https://github.com/finos/rune-dsl/com.regnosys.rosetta",
 	"count_used_by":22,
 	"license":"Apache 2.0",
-	"ranking":"#21405 in MvnRepository",
+	"ranking":"#21456 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"9.66.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":21,
 			"version":"9.54.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":20,
-			"version":"9.53.1",
 			"vulnerabilities":""
 		}
 	]
