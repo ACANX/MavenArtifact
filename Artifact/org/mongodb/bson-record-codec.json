@@ -3,13 +3,13 @@
 	"description":"The BSON Codec for Java records",
 	"group_id":"org.mongodb",
 	"artifact_id":"bson-record-codec",
-	"version_latest":"5.6.0",
-	"ts_publish":1757597371000,
-	"dt_publish":"2025-09-11 21:29:31.000",
-	"ts_update":1757601298575,
-	"dt_update":"2025-09-11 22:34:33.812",
+	"version_latest":"5.6.1",
+	"ts_publish":1759744302000,
+	"dt_publish":"2025-10-06 17:51:42.000",
+	"ts_update":1759744581935,
+	"dt_update":"2025-10-06 17:56:06.656",
 	"count_dep":2,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -25,10 +25,10 @@
 		"Various"
 	],
 	"url_scm":"https://github.com/mongodb/mongo-java-driver",
-	"count_used_by":7,
+	"count_used_by":8,
 	"home_page":"https://bsonspec.org",
 	"license":"Apache 2.0",
-	"ranking":"#69211 in MvnRepository",
+	"ranking":"#60002 in MvnRepository",
 	"tags":[
 		"database",
 		"binary",
@@ -38,6 +38,14 @@
 		"record"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -50,7 +58,7 @@
 			"date":"20250607",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"5.5.1",
 			"vulnerabilities":""
 		},
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.11.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240905",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.11.4",
 			"vulnerabilities":""
 		}
 	]
