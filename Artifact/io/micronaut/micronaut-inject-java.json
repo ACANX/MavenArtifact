@@ -3,12 +3,12 @@
 	"description":"Core components supporting the Micronaut Framework",
 	"group_id":"io.micronaut",
 	"artifact_id":"micronaut-inject-java",
-	"version_latest":"4.10.1",
-	"ts_publish":1759407233000,
-	"dt_publish":"2025-10-02 20:13:53.000",
-	"ts_update":1759422491260,
-	"dt_update":"2025-10-02 20:26:06.061",
-	"count_dep":2,
+	"version_latest":"4.10.2",
+	"ts_publish":1759766026000,
+	"dt_publish":"2025-10-06 23:53:46.000",
+	"ts_update":1759767551641,
+	"dt_update":"2025-10-07 00:19:03.390",
+	"count_dep":12,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,17 +26,25 @@
 	"count_used_by":56,
 	"home_page":"https://micronaut.io",
 	"license":"Apache 2.0",
-	"ranking":"#8867 in MvnRepository",
+	"ranking":"#8860 in MvnRepository",
 	"tags":[
 		"micronaut",
 		"dependency-injection"
 	],
 	"versions":[
 		{
-			"date":"20251001",
+			"date":"20251002",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"4.10.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"4.10.0",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.8.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250519",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.14",
 			"vulnerabilities":""
 		}
 	]
