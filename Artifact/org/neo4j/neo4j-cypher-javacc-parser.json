@@ -3,13 +3,13 @@
 	"description":"Cypher parser using JavaCC",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-cypher-javacc-parser",
-	"version_latest":"5.26.12",
-	"ts_publish":1756968892000,
-	"dt_publish":"2025-09-04 14:54:52.000",
-	"ts_update":1756970144857,
-	"dt_update":"2025-09-04 15:14:20.817",
+	"version_latest":"5.26.13",
+	"ts_publish":1759735370000,
+	"dt_publish":"2025-10-06 15:22:50.000",
+	"ts_update":1759735887772,
+	"dt_update":"2025-10-06 15:31:21.422",
 	"count_dep":3,
-	"count_ref":4,
+	"count_ref":2,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -21,9 +21,9 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.neo4j/neo4j-cypher-javacc-parser@5.26.11",
 	"url_scm":"https://github.com/neo4j/neo4j",
 	"count_used_by":5,
-	"home_page":"http://components.neo4j.org/neo4j-cypher-javacc-parser/5.26.11",
+	"home_page":"http://components.neo4j.org/neo4j-cypher-javacc-parser/5.26.12",
 	"license":"Apache 2.0",
-	"ranking":"#85685 in MvnRepository",
+	"ranking":"#86564 in MvnRepository",
 	"tags":[
 		"database",
 		"compiler",
@@ -33,6 +33,14 @@
 		"neo4j"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"5.26.12",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"5.21.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240628",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"5.21.0",
 			"vulnerabilities":""
 		}
 	]
