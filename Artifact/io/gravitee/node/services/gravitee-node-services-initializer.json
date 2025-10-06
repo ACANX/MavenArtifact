@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.node.services",
 	"artifact_id":"gravitee-node-services-initializer",
-	"version_latest":"7.11.3",
-	"ts_publish":1758733828000,
-	"dt_publish":"2025-09-25 01:10:28.000",
-	"ts_update":1758739413434,
-	"dt_update":"2025-09-25 01:45:30.736",
-	"count_dep":0,
+	"version_latest":"7.11.4",
+	"ts_publish":1759771508000,
+	"dt_publish":"2025-10-07 01:25:08.000",
+	"ts_update":1759772680030,
+	"dt_update":"2025-10-07 01:44:32.030",
+	"count_dep":49,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-services/gravitee-node-services-initializer",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#415900 in MvnRepository",
+	"ranking":"#417367 in MvnRepository",
 	"tags":[
 		"service",
 		"node"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.11.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -73,6 +81,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.10.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.9.5",
 			"vulnerabilities":""
 		},
 		{
@@ -156,6 +172,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.5.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.5.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.5.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.5.0",
 			"vulnerabilities":""
 		}
 	]
