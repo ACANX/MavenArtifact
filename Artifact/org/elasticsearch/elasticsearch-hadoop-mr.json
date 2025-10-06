@@ -3,12 +3,12 @@
 	"description":"Elasticsearch Hadoop Map/Reduce",
 	"group_id":"org.elasticsearch",
 	"artifact_id":"elasticsearch-hadoop-mr",
-	"version_latest":"9.1.4",
-	"ts_publish":1758207819000,
-	"dt_publish":"2025-09-18 23:03:39.000",
-	"ts_update":1758208572663,
-	"dt_update":"2025-09-18 23:15:46.212",
-	"count_dep":0,
+	"version_latest":"9.1.5",
+	"ts_publish":1759763026000,
+	"dt_publish":"2025-10-06 23:03:46.000",
+	"ts_update":1759763754469,
+	"dt_update":"2025-10-06 23:15:43.067",
+	"count_dep":104,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"count_used_by":5,
 	"home_page":"http://github.com/elastic/elasticsearch-hadoop",
 	"license":"Apache 2.0",
-	"ranking":"#93676 in MvnRepository",
+	"ranking":"#93678 in MvnRepository",
 	"tags":[
 		"elasticsearch",
 		"elastic",
@@ -34,6 +34,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.1.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -147,6 +155,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.19.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.19.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.18.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.18.6",
 			"vulnerabilities":""
 		}
 	]
