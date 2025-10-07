@@ -3,13 +3,13 @@
 	"description":"Open Source API & Schema Registry",
 	"group_id":"io.apicurio",
 	"artifact_id":"apicurio-registry-common",
-	"version_latest":"3.0.15",
-	"ts_publish":1758545549000,
-	"dt_publish":"2025-09-22 20:52:29.000",
-	"ts_update":1758546535942,
-	"dt_update":"2025-09-22 21:08:44.489",
+	"version_latest":"3.1.0",
+	"ts_publish":1759845850000,
+	"dt_publish":"2025-10-07 22:04:10.000",
+	"ts_update":1759846597793,
+	"dt_update":"2025-10-07 22:16:11.872",
 	"count_dep":139,
-	"count_ref":33,
+	"count_ref":34,
 	"licenses":[
 		"Apache License Version 2.0"
 	],
@@ -29,11 +29,19 @@
 	"url_scm":"scm:git:git@github.com:apicurio/apicurio-registry.git/apicurio-registry-common",
 	"count_used_by":15,
 	"license":"Apache 2.0",
-	"ranking":"#30879 in MvnRepository",
+	"ranking":"#31001 in MvnRepository",
 	"tags":[
 		"registry"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.0.15",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250904",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"milestone",
 			"usage":5,
 			"version":"3.0.0.M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230810",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":5,
-			"version":"3.0.0.M1",
 			"vulnerabilities":""
 		}
 	]
