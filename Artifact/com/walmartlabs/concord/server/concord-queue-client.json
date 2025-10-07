@@ -3,13 +3,13 @@
 	"description":"Concord: Orchestrate More. Live Better.",
 	"group_id":"com.walmartlabs.concord.server",
 	"artifact_id":"concord-queue-client",
-	"version_latest":"2.33.0",
-	"ts_publish":1758568831000,
-	"dt_publish":"2025-09-23 03:20:31.000",
-	"ts_update":1758570308282,
-	"dt_update":"2025-09-23 03:44:11.872",
+	"version_latest":"2.33.1",
+	"ts_publish":1759852100000,
+	"dt_publish":"2025-10-07 23:48:20.000",
+	"ts_update":1759854007718,
+	"dt_update":"2025-10-08 00:19:01.453",
 	"count_dep":77,
-	"count_ref":9,
+	"count_ref":5,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -25,13 +25,21 @@
 	"url_scm":"scm:git:https://github.com/walmartlabs/concord.git/parent/concord-queue-client",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#126565 in MvnRepository",
+	"ranking":"#126840 in MvnRepository",
 	"tags":[
 		"server",
 		"queue",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.33.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240812",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.14.2",
 			"vulnerabilities":""
 		}
 	]
