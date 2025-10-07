@@ -3,12 +3,12 @@
 	"description":"Free database schema discovery and comprehension tool",
 	"group_id":"us.fatehi",
 	"artifact_id":"schemacrawler-oracle",
-	"version_latest":"16.29.1",
-	"ts_publish":1759456359000,
-	"dt_publish":"2025-10-03 09:52:39.000",
-	"ts_update":1759458956270,
-	"dt_update":"2025-10-03 10:35:49.310",
-	"count_dep":36,
+	"version_latest":"17.1.1",
+	"ts_publish":1759804042000,
+	"dt_publish":"2025-10-07 10:27:22.000",
+	"ts_update":1759804668662,
+	"dt_update":"2025-10-07 10:37:39.052",
+	"count_dep":37,
 	"count_ref":2,
 	"licenses":[
 		"GNU General Public License",
@@ -27,13 +27,21 @@
 	"url_scm":"https://github.com/schemacrawler/SchemaCrawler/schemacrawler-oracle",
 	"count_used_by":6,
 	"license":"EPL 1.0",
-	"ranking":"#81575 in MvnRepository",
+	"ranking":"#81678 in MvnRepository",
 	"tags":[
 		"oracle",
 		"schema",
 		"crawler"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"16.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"16.22.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240805",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"16.22.2",
 			"vulnerabilities":""
 		}
 	]
