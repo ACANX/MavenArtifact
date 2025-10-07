@@ -3,11 +3,11 @@
 	"description":"A tool developed by the UK National Archives to perform automated batch identification of file formats.",
 	"group_id":"uk.gov.nationalarchives",
 	"artifact_id":"droid-command-line",
-	"version_latest":"6.9.6",
-	"ts_publish":1759153947000,
-	"dt_publish":"2025-09-29 21:52:27.000",
-	"ts_update":1759155989903,
-	"dt_update":"2025-09-29 22:26:16.865",
+	"version_latest":"6.9.7",
+	"ts_publish":1759826144000,
+	"dt_publish":"2025-10-07 16:35:44.000",
+	"ts_update":1759827372995,
+	"dt_update":"2025-10-07 16:56:05.135",
 	"count_dep":135,
 	"count_ref":1,
 	"licenses":[
@@ -36,11 +36,19 @@
 	"url_scm":"scm:git:https://github.com/digital-preservation/droid.git",
 	"count_used_by":4,
 	"license":"BSD 3-clause",
-	"ranking":"#129030 in MvnRepository",
+	"ranking":"#129384 in MvnRepository",
 	"tags":[
 		"command"
 	],
 	"versions":[
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.9.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"6.7.0-RC3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230721",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.7.0-RC2",
 			"vulnerabilities":""
 		}
 	]
