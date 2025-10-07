@@ -3,11 +3,11 @@
 	"description":"See https://github.com/prometheus/jmx_exporter/blob/main/README.md",
 	"group_id":"io.prometheus.jmx",
 	"artifact_id":"collector",
-	"version_latest":"1.4.0",
-	"ts_publish":1756164273000,
-	"dt_publish":"2025-08-26 07:24:33.000",
-	"ts_update":1756166157698,
-	"dt_update":"2025-08-26 07:55:49.809",
+	"version_latest":"1.5.0",
+	"ts_publish":1759840892000,
+	"dt_publish":"2025-10-07 20:41:32.000",
+	"ts_update":1759841782189,
+	"dt_update":"2025-10-07 20:56:12.999",
 	"count_dep":11,
 	"count_ref":0,
 	"licenses":[
@@ -25,10 +25,10 @@
 		"Fabian Stäber"
 	],
 	"url_scm":"git@github.com:prometheus/jmx_exporter.git",
-	"count_used_by":34,
+	"count_used_by":36,
 	"home_page":"https://github.com/prometheus/jmx_exporter",
 	"license":"Apache 2.0",
-	"ranking":"#13721 in MvnRepository",
+	"ranking":"#13171 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"prometheus",
@@ -37,10 +37,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250516",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.3.0",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20170321",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.9",
 			"vulnerabilities":""
 		}
 	]
