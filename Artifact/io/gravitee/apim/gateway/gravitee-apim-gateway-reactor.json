@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.gateway",
 	"artifact_id":"gravitee-apim-gateway-reactor",
-	"version_latest":"4.9.0-alpha.3",
-	"ts_publish":1758893061000,
-	"dt_publish":"2025-09-26 21:24:21.000",
-	"ts_update":1758900487264,
-	"dt_update":"2025-09-26 21:48:24.242",
-	"count_dep":232,
+	"version_latest":"4.9.0-alpha.4",
+	"ts_publish":1759859483000,
+	"dt_publish":"2025-10-08 01:51:23.000",
+	"ts_update":1759861363156,
+	"dt_update":"2025-10-08 02:22:25.846",
+	"count_dep":235,
 	"count_ref":25,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-reactor",
 	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#34576 in MvnRepository",
+	"ranking":"#34705 in MvnRepository",
 	"tags":[
 		"gateway",
 		"reactor"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":12,
+			"version":"4.9.0-alpha.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250918",
 			"repository":"Central",
@@ -49,6 +57,14 @@
 			"type":"alpha",
 			"usage":12,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"4.8.8",
 			"vulnerabilities":""
 		},
 		{
@@ -140,6 +156,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"4.7.15",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250912",
 			"repository":"Central",
 			"type":"release",
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":12,
 			"version":"4.7.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250718",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"4.7.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250704",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"4.7.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"4.7.8",
 			"vulnerabilities":""
 		}
 	]
