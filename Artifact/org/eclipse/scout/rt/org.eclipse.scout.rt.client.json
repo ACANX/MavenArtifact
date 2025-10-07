@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.scout.rt/org.eclipse.scout.rt.client",
 	"group_id":"org.eclipse.scout.rt",
 	"artifact_id":"org.eclipse.scout.rt.client",
-	"version_latest":"25.2.7",
-	"ts_publish":1759241168000,
-	"dt_publish":"2025-09-30 22:06:08.000",
-	"ts_update":1759245983540,
-	"dt_update":"2025-09-30 22:26:07.232",
-	"count_dep":3,
-	"count_ref":7,
-	"licenses":[],
+	"version_latest":"25.2.9",
+	"ts_publish":1759823752000,
+	"dt_publish":"2025-10-07 15:55:52.000",
+	"ts_update":1759825274815,
+	"dt_update":"2025-10-07 16:21:02.004",
+	"count_dep":31,
+	"count_ref":13,
+	"licenses":[
+		"Eclipse Public License 2.0"
+	],
 	"categories":[
 		"Developer Tools",
 		"IDE Components"
@@ -24,12 +26,20 @@
 	"url_scm":"https://github.com/eclipse-scout/org.eclipse.scout.rt.client/",
 	"count_used_by":10,
 	"license":"EPL 2.0",
-	"ranking":"#48262 in MvnRepository",
+	"ranking":"#48380 in MvnRepository",
 	"tags":[
 		"eclipse",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"25.2.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -181,14 +191,7 @@
 			"usage":7,
 			"version":"24.2.12",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241001",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"24.2.7",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Eclipse Scout RT"
 }
