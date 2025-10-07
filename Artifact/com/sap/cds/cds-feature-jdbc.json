@@ -3,11 +3,11 @@
 	"description":"Consuming JDBC persistences using the CDS4j JDBC runtime",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-feature-jdbc",
-	"version_latest":"4.3.2",
-	"ts_publish":1759745219000,
-	"dt_publish":"2025-10-06 18:06:59.000",
-	"ts_update":1759745828348,
-	"dt_update":"2025-10-06 18:16:57.341",
+	"version_latest":"4.4.0",
+	"ts_publish":1759831226000,
+	"dt_publish":"2025-10-07 18:00:26.000",
+	"ts_update":1759832194604,
+	"dt_update":"2025-10-07 18:16:23.246",
 	"count_dep":4,
 	"count_ref":3,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"count_used_by":3,
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#135623 in MvnRepository",
+	"ranking":"#135643 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -33,6 +33,14 @@
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.3.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241125",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.5.0",
 			"vulnerabilities":""
 		}
 	]

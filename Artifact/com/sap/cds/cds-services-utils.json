@@ -3,12 +3,12 @@
 	"description":"Utilities for the CDS Runtime",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-services-utils",
-	"version_latest":"4.3.2",
-	"ts_publish":1759745159000,
-	"dt_publish":"2025-10-06 18:05:59.000",
-	"ts_update":1759745842098,
-	"dt_update":"2025-10-06 18:16:57.346",
-	"count_dep":64,
+	"version_latest":"4.4.0",
+	"ts_publish":1759831152000,
+	"dt_publish":"2025-10-07 17:59:12.000",
+	"ts_update":1759832199988,
+	"dt_update":"2025-10-07 18:16:23.252",
+	"count_dep":67,
 	"count_ref":26,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
@@ -25,12 +25,20 @@
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"count_used_by":36,
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#13176 in MvnRepository",
+	"ranking":"#13184 in MvnRepository",
 	"tags":[
 		"service",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":26,
+			"version":"4.3.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":26,
 			"version":"3.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241125",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"3.5.0",
 			"vulnerabilities":""
 		}
 	]
