@@ -2,23 +2,23 @@
 	"id":"pkg:maven/software.amazon.awssdk/apache-client",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"apache-client",
-	"version_latest":"2.35.1",
-	"ts_publish":1759790160000,
-	"ts_update":1759792484328,
+	"version_latest":"2.35.2",
+	"ts_publish":1759873083000,
+	"ts_update":1759875331005,
 	"count_dep":18,
-	"count_ref":333,
+	"count_ref":357,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/apache-client@2.32.16",
-	"dt_publish":"2025-10-07 06:36:00.000",
-	"dt_update":"2025-10-07 07:14:01.079",
+	"dt_publish":"2025-10-08 05:38:03.000",
+	"dt_update":"2025-10-08 06:14:25.612",
 	"count_used_by":297,
 	"home_page":"https://aws.amazon.com/sdk-for-java/",
-	"license":"Apache",
-	"ranking":"#2004 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#2007 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251004",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.35.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251002",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":5,
 			"version":"2.34.9",
 			"vulnerabilities":""
 		},
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"2.33.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250906",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.33.4",
 			"vulnerabilities":""
 		}
 	]

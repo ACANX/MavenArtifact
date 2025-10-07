@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Amazon Glacier module holds the client classes that are used for communicating\n        with Amazon Glacier Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"glacier",
-	"version_latest":"2.35.1",
-	"ts_publish":1759790161000,
-	"dt_publish":"2025-10-07 06:36:01.000",
-	"ts_update":1759792478734,
-	"dt_update":"2025-10-07 07:14:00.442",
+	"version_latest":"2.35.2",
+	"ts_publish":1759873082000,
+	"dt_publish":"2025-10-08 05:38:02.000",
+	"ts_update":1759875309686,
+	"dt_update":"2025-10-08 06:14:35.403",
 	"count_dep":33,
 	"count_ref":1,
 	"licenses":[],
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/glacier@2.32.17",
 	"count_used_by":6,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#73185 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#73330 in MvnRepository",
 	"tags":[
 		"persistence",
 		"aws",
@@ -33,10 +33,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251004",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.35.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251002",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"2.34.9",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.33.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250905",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.4",
 			"vulnerabilities":""
 		}
 	]
