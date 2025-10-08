@@ -3,10 +3,10 @@
 	"description":"Maven plugin to integrate aspects of Hibernate into your build.",
 	"group_id":"org.hibernate.orm",
 	"artifact_id":"hibernate-maven-plugin",
-	"version_latest":"7.1.3.Final",
-	"ts_publish":1759623470000,
-	"ts_update":1759623982674,
-	"count_dep":30,
+	"version_latest":"7.2.0.CR1",
+	"ts_publish":1759903224000,
+	"ts_update":1759904613949,
+	"count_dep":25,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,11 +22,11 @@
 		"The Hibernate Development Team"
 	],
 	"url_scm":"https://github.com/hibernate/hibernate-orm",
-	"dt_publish":"2025-10-05 08:17:50.000",
-	"dt_update":"2025-10-05 08:26:09.251",
+	"dt_publish":"2025-10-08 14:00:24.000",
+	"dt_update":"2025-10-08 14:23:16.567",
 	"home_page":"https://hibernate.org/orm",
 	"license":"Apache 2.0",
-	"ranking":"#780875 in MvnRepository",
+	"ranking":"#894493 in MvnRepository",
 	"tags":[
 		"plugin",
 		"persistence",
@@ -37,6 +37,14 @@
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20251005",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.1.3.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250929",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"7.0.0.Beta5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250212",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"7.0.0.Beta4",
 			"vulnerabilities":""
 		}
 	]
