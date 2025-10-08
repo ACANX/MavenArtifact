@@ -3,14 +3,16 @@
 	"description":"The AWS Java SDK for S3 Vectors module holds the client classes that are used for\n        communicating with S3 Vectors.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"s3vectors",
-	"version_latest":"2.35.2",
-	"ts_publish":1759873083000,
-	"dt_publish":"2025-10-08 05:38:03.000",
-	"ts_update":1759875319618,
-	"dt_update":"2025-10-08 06:14:30.473",
+	"version_latest":"2.35.3",
+	"ts_publish":1759959722000,
+	"dt_publish":"2025-10-09 05:42:02.000",
+	"ts_update":1759961689384,
+	"dt_update":"2025-10-09 06:14:29.738",
 	"count_dep":33,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Software Development Kit"
 	],
@@ -21,7 +23,7 @@
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#124252 in MvnRepository",
+	"ranking":"#123923 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,6 +31,22 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.35.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.35.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251004",
 			"repository":"Central",
@@ -41,7 +59,7 @@
 			"date":"20251002",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.34.9",
 			"vulnerabilities":""
 		},
@@ -171,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.33.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250910",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.33.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.33.5",
 			"vulnerabilities":""
 		}
 	]
