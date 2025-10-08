@@ -3,11 +3,11 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"com.regnosys.rosetta",
 	"artifact_id":"rosetta-maven-plugin",
-	"version_latest":"9.67.8",
-	"ts_publish":1759755042000,
-	"dt_publish":"2025-10-06 20:50:42.000",
-	"ts_update":1759758104623,
-	"dt_update":"2025-10-06 21:26:30.853",
+	"version_latest":"9.67.9",
+	"ts_publish":1759915112000,
+	"dt_publish":"2025-10-08 17:18:32.000",
+	"ts_update":1759915578972,
+	"dt_update":"2025-10-08 17:26:09.052",
 	"count_dep":113,
 	"count_ref":0,
 	"licenses":[
@@ -23,7 +23,7 @@
 	],
 	"url_scm":"https://github.com/finos/rune-dsl/rosetta-maven-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#928529 in MvnRepository",
+	"ranking":"#244505 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -31,6 +31,30 @@
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.67.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.67.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.67.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251003",
 			"repository":"Central",
@@ -166,30 +190,7 @@
 			"usage":0,
 			"version":"9.56.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.55.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.55.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250527",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.54.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":2
 }
