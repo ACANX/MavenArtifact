@@ -3,15 +3,15 @@
 	"description":"Contains Trino Helm Chart",
 	"group_id":"com.boozallen.aissemble",
 	"artifact_id":"aissemble-trino-chart",
-	"version_latest":"1.13.0-rc6",
-	"ts_publish":1758849243000,
-	"dt_publish":"2025-09-26 09:14:03.000",
-	"ts_update":1759437313072,
-	"dt_update":"2025-09-26 09:26:14.276",
-	"count_dep":73,
+	"version_latest":"2.0.0",
+	"ts_publish":1759943769000,
+	"dt_publish":"2025-10-09 01:16:09.000",
+	"ts_update":1759944398522,
+	"dt_update":"2025-10-09 01:26:16.887",
+	"count_dep":72,
 	"count_ref":0,
 	"licenses":[
-		"Booz Allen Public License v1.0"
+		"Apache License, Version 2.0"
 	],
 	"dsv":1,
 	"url_project":"https://github.com/boozallen/aissemble/build-parent/extensions/extensions-helm/aissemble-trino-chart",
@@ -20,5 +20,45 @@
 	"contributors":[
 		"aiSSEMBLE Baseline Community"
 	],
-	"url_scm":"https://github.com/boozallen/aissemble/build-parent/extensions/extensions-helm/aissemble-trino-chart"
+	"url_scm":"https://github.com/boozallen/aissemble/build-parent/extensions/extensions-helm/aissemble-trino-chart",
+	"ranking":"#871312 in MvnRepository",
+	"tags":[
+		"visualization",
+		"chart",
+		"trino"
+	],
+	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.13.0-rc6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250313",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250313",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12.1-rc2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.11.1",
+			"vulnerabilities":""
+		}
+	]
 }
