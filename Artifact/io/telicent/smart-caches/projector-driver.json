@@ -3,12 +3,12 @@
 	"description":"Provides common libraries for building Java based Smart Caches for the Telicent Core platform",
 	"group_id":"io.telicent.smart-caches",
 	"artifact_id":"projector-driver",
-	"version_latest":"0.30.0",
-	"ts_publish":1759491716000,
-	"dt_publish":"2025-10-03 19:41:56.000",
-	"ts_update":1759492581970,
-	"dt_update":"2025-10-03 19:56:05.307",
-	"count_dep":21,
+	"version_latest":"0.30.1",
+	"ts_publish":1759920553000,
+	"dt_publish":"2025-10-08 18:49:13.000",
+	"ts_update":1759923907364,
+	"dt_update":"2025-10-08 19:44:47.351",
+	"count_dep":42,
 	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/telicent-oss/smart-caches-core/projector-driver",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#88525 in MvnRepository",
+	"ranking":"#88680 in MvnRepository",
 	"tags":[
 		"cache",
 		"driver"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"0.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250923",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.24.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241017",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.24.0",
 			"vulnerabilities":""
 		}
 	]
