@@ -3,11 +3,11 @@
 	"description":"Jackson serialization support for Quarkus REST. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-jackson",
-	"version_latest":"3.28.2",
-	"ts_publish":1759324119000,
-	"dt_publish":"2025-10-01 21:08:39.000",
-	"ts_update":1759328326492,
-	"dt_update":"2025-10-01 21:43:00.343",
+	"version_latest":"3.28.3",
+	"ts_publish":1760007535000,
+	"dt_publish":"2025-10-09 18:58:55.000",
+	"ts_update":1760009217517,
+	"dt_update":"2025-10-09 19:26:13.280",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
@@ -16,10 +16,10 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-rest-jackson@3.25.2",
-	"count_used_by":154,
+	"count_used_by":156,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#3510 in MvnRepository",
+	"ranking":"#3489 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -27,10 +27,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.28.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"3.28.0",
 			"vulnerabilities":""
 		},
@@ -46,7 +62,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":20,
 			"version":"3.27.0",
 			"vulnerabilities":""
 		},
@@ -62,7 +78,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":8,
 			"version":"3.26.4",
 			"vulnerabilities":""
 		},
@@ -70,7 +86,7 @@
 			"date":"20250909",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":12,
 			"version":"3.26.3",
 			"vulnerabilities":""
 		},
@@ -110,7 +126,7 @@
 			"date":"20250820",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":12,
 			"version":"3.25.4",
 			"vulnerabilities":""
 		},
@@ -118,7 +134,7 @@
 			"date":"20250813",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"3.25.3",
 			"vulnerabilities":""
 		},
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.24.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.2",
 			"vulnerabilities":""
 		}
 	]

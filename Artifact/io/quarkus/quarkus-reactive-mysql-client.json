@@ -3,16 +3,14 @@
 	"description":"Connect to the MySQL database using the reactive pattern",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-reactive-mysql-client",
-	"version_latest":"3.28.2",
-	"ts_publish":1759324119000,
-	"dt_publish":"2025-10-01 21:08:39.000",
-	"ts_update":1759328928993,
-	"dt_update":"2025-10-01 21:43:04.516",
-	"count_dep":49,
+	"version_latest":"3.28.3",
+	"ts_publish":1760007534000,
+	"dt_publish":"2025-10-09 18:58:54.000",
+	"ts_update":1760009219210,
+	"dt_update":"2025-10-09 19:26:38.175",
+	"count_dep":8,
 	"count_ref":1,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,7 +24,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#125852 in MvnRepository",
+	"ranking":"#125966 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -36,6 +34,14 @@
 		"mysql"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -186,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.3",
 			"vulnerabilities":""
 		}
 	]
