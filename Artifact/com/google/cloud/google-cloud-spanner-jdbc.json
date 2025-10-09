@@ -3,12 +3,12 @@
 	"description":"JDBC driver for Google Cloud Spanner.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-spanner-jdbc",
-	"version_latest":"2.33.0",
-	"ts_publish":1758949877000,
-	"dt_publish":"2025-09-27 13:11:17.000",
-	"ts_update":1758954478708,
-	"dt_update":"2025-09-27 14:19:25.221",
-	"count_dep":125,
+	"version_latest":"2.33.1",
+	"ts_publish":1760001476000,
+	"dt_publish":"2025-10-09 17:17:56.000",
+	"ts_update":1760001981385,
+	"dt_update":"2025-10-09 17:26:12.294",
+	"count_dep":110,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -27,7 +27,7 @@
 	"count_used_by":14,
 	"home_page":"https://github.com/googleapis/java-spanner-jdbc",
 	"license":"Apache 2.0",
-	"ranking":"#34493 in MvnRepository",
+	"ranking":"#34611 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -39,6 +39,14 @@
 		"spanner"
 	],
 	"versions":[
+		{
+			"date":"20250927",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.33.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250913",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.27.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250203",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.26.1",
 			"vulnerabilities":""
 		}
 	]
