@@ -3,11 +3,11 @@
 	"description":"SDK for sentry.io",
 	"group_id":"io.sentry",
 	"artifact_id":"sentry-opentelemetry-bootstrap",
-	"version_latest":"8.23.0",
-	"ts_publish":1759323654000,
-	"dt_publish":"2025-10-01 21:00:54.000",
-	"ts_update":1759334208282,
-	"dt_update":"2025-10-01 21:09:31.773",
+	"version_latest":"8.23.1-alpha.1",
+	"ts_publish":1760000496000,
+	"dt_publish":"2025-10-09 17:01:36.000",
+	"ts_update":1760001426973,
+	"dt_update":"2025-10-09 17:16:34.561",
 	"count_dep":0,
 	"count_ref":2,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"count_used_by":3,
 	"home_page":"https://github.com/getsentry/sentry-java",
 	"license":"MIT",
-	"ranking":"#168576 in MvnRepository",
+	"ranking":"#157184 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"bootstrap",
@@ -35,6 +35,14 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.23.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.11.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.11.0",
 			"vulnerabilities":""
 		}
 	]
