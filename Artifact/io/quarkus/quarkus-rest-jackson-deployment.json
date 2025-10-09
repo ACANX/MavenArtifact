@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-rest-jackson-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-jackson-deployment",
-	"version_latest":"3.28.2",
-	"ts_publish":1759324120000,
-	"dt_publish":"2025-10-01 21:08:40.000",
-	"ts_update":1759326295758,
-	"dt_update":"2025-10-01 21:42:56.907",
+	"version_latest":"3.28.3",
+	"ts_publish":1760007535000,
+	"dt_publish":"2025-10-09 18:58:55.000",
+	"ts_update":1760009344135,
+	"dt_update":"2025-10-09 19:26:21.550",
 	"count_dep":10,
 	"count_ref":6,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -20,7 +18,7 @@
 	"count_used_by":27,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#17601 in MvnRepository",
+	"ranking":"#17634 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -29,10 +27,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250924",
+			"date":"20251001",
 			"repository":"Central",
 			"type":"release",
 			"usage":11,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
 			"version":"3.28.1",
 			"vulnerabilities":""
 		},
@@ -56,7 +62,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":12,
+			"usage":13,
 			"version":"3.27.0",
 			"vulnerabilities":""
 		},
@@ -120,7 +126,7 @@
 			"date":"20250820",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":12,
 			"version":"3.25.4",
 			"vulnerabilities":""
 		},
@@ -128,7 +134,7 @@
 			"date":"20250813",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":12,
 			"version":"3.25.3",
 			"vulnerabilities":""
 		},
@@ -179,15 +185,6 @@
 			"usage":11,
 			"version":"3.24.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"3.24.3",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Build parent to bring in required dependencies"
+	]
 }

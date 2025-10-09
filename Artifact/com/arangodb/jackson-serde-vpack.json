@@ -3,10 +3,10 @@
 	"description":"Jackson Serde VPACK module for ArangoDB Java Driver",
 	"group_id":"com.arangodb",
 	"artifact_id":"jackson-serde-vpack",
-	"version_latest":"7.22.0",
-	"ts_publish":1754465719000,
-	"ts_update":1754466083071,
-	"count_dep":15,
+	"version_latest":"7.22.1",
+	"ts_publish":1760008728000,
+	"ts_update":1760009346323,
+	"count_dep":12,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -24,10 +24,10 @@
 		"Mark Vollmary"
 	],
 	"url_scm":"https://github.com/arangodb/arangodb-java-driver/jackson-serde-vpack",
-	"count_used_by":3,
+	"count_used_by":4,
 	"home_page":"https://github.com/arangodb/arangodb-java-driver/jackson-serde-vpack",
 	"license":"Apache 2.0",
-	"ranking":"#145659 in MvnRepository",
+	"ranking":"#106149 in MvnRepository",
 	"tags":[
 		"database",
 		"arangodb",
@@ -35,6 +35,14 @@
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20250806",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.22.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250723",
 			"repository":"Central",
@@ -186,14 +194,8 @@
 			"usage":0,
 			"version":"7.6.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240124",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.5.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"dt_publish":"2025-10-09 19:18:48.000",
+	"dt_update":"2025-10-09 19:28:56.637"
 }

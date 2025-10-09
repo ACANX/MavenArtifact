@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-reactive-mssql-client-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-reactive-mssql-client-deployment",
-	"version_latest":"3.28.2",
-	"ts_publish":1759324120000,
-	"dt_publish":"2025-10-01 21:08:40.000",
-	"ts_update":1759334191372,
-	"dt_update":"2025-10-01 21:42:51.169",
+	"version_latest":"3.28.3",
+	"ts_publish":1760007535000,
+	"dt_publish":"2025-10-09 18:58:55.000",
+	"ts_update":1760009370293,
+	"dt_update":"2025-10-09 19:26:18.356",
 	"count_dep":13,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#265548 in MvnRepository",
+	"ranking":"#266089 in MvnRepository",
 	"tags":[
 		"sql",
 		"mssql",
@@ -33,6 +35,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -184,14 +194,7 @@
 			"usage":1,
 			"version":"3.24.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

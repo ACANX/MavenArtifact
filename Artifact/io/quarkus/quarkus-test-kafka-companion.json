@@ -3,11 +3,11 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-test-kafka-companion",
-	"version_latest":"3.28.2",
-	"ts_publish":1759324120000,
-	"dt_publish":"2025-10-01 21:08:40.000",
-	"ts_update":1759345060744,
-	"dt_update":"2025-10-01 21:42:55.471",
+	"version_latest":"3.28.3",
+	"ts_publish":1760007534000,
+	"dt_publish":"2025-10-09 18:58:54.000",
+	"ts_update":1760009362999,
+	"dt_update":"2025-10-09 19:26:36.300",
 	"count_dep":56,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#248123 in MvnRepository",
+	"ranking":"#248431 in MvnRepository",
 	"tags":[
 		"streaming",
 		"quarkus",
@@ -34,6 +34,14 @@
 		"kafka"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.24.3",
 			"vulnerabilities":""
 		}
 	]
