@@ -3,13 +3,13 @@
 	"description":"WildFly Clustering: Server: JGroups implementation",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-server-jgroups",
-	"version_latest":"7.0.12.Final",
-	"ts_publish":1756449029000,
-	"dt_publish":"2025-08-29 14:30:29.000",
-	"ts_update":1756450357743,
-	"dt_update":"2025-08-29 14:52:02.443",
-	"count_dep":25,
-	"count_ref":1,
+	"version_latest":"8.0.0.Beta2",
+	"ts_publish":1760077884000,
+	"dt_publish":"2025-10-10 14:31:24.000",
+	"ts_update":1760079213679,
+	"dt_update":"2025-10-10 14:53:23.638",
+	"count_dep":0,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#100157 in MvnRepository",
+	"ranking":"#101667 in MvnRepository",
 	"tags":[
 		"server",
 		"wildfly",
@@ -34,6 +34,30 @@
 		"jgroups"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.0.13.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.0.12.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.0.11.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"6.0.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250326",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"6.0.0.Beta3",
 			"vulnerabilities":""
 		}
 	]

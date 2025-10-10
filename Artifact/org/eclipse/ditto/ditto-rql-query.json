@@ -3,13 +3,13 @@
 	"description":"Eclipse Ditto is a framework for creating and managing digital twins in the IoT.",
 	"group_id":"org.eclipse.ditto",
 	"artifact_id":"ditto-rql-query",
-	"version_latest":"3.8.0-M6",
-	"ts_publish":1758208722000,
-	"dt_publish":"2025-09-18 23:18:42.000",
-	"ts_update":1758209684877,
-	"dt_update":"2025-09-18 23:33:47.209",
+	"version_latest":"3.8.0",
+	"ts_publish":1760078020000,
+	"dt_publish":"2025-10-10 14:33:40.000",
+	"ts_update":1760079226104,
+	"dt_update":"2025-10-10 14:53:21.549",
 	"count_dep":8,
-	"count_ref":4,
+	"count_ref":7,
 	"licenses":[
 		"Eclipse Public License - Version 2.0"
 	],
@@ -25,7 +25,7 @@
 	"count_used_by":5,
 	"home_page":"https://eclipse.dev/ditto/ditto-bom/ditto-rql/ditto-rql-query/",
 	"license":"EPL 2.0",
-	"ranking":"#94367 in MvnRepository",
+	"ranking":"#96075 in MvnRepository",
 	"tags":[
 		"bundle",
 		"eclipse",
@@ -33,6 +33,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":3,
+			"version":"3.8.0-M6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.6.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250103",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.4",
 			"vulnerabilities":""
 		}
 	]

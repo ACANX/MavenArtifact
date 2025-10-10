@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-session-spi",
-	"description":"WildFly Clustering: Session Management: SPI",
+	"description":"WildFly Clustering: Session: SPI",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-session-spi",
-	"version_latest":"7.0.13.Final",
-	"ts_publish":1757377200000,
-	"dt_publish":"2025-09-09 08:20:00.000",
-	"ts_update":1757379483327,
-	"dt_update":"2025-09-09 08:56:00.227",
-	"count_dep":22,
-	"count_ref":4,
+	"version_latest":"8.0.0.Final",
+	"ts_publish":1760077884000,
+	"dt_publish":"2025-10-10 14:31:24.000",
+	"ts_update":1760079218380,
+	"dt_update":"2025-10-10 14:53:24.168",
+	"count_dep":0,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,7 +27,7 @@
 	"count_used_by":39,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#12250 in MvnRepository",
+	"ranking":"#12398 in MvnRepository",
 	"tags":[
 		"interface",
 		"wildfly",
@@ -35,6 +35,30 @@
 		"session"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"7.0.13.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"7.0.12.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"7.0.11.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"6.0.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250326",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"6.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"6.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250225",
-			"repository":"Central",
-			"type":"beta",
-			"usage":5,
-			"version":"6.0.0.Beta3",
 			"vulnerabilities":""
 		}
 	]
