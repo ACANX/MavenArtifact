@@ -3,12 +3,12 @@
 	"description":"Open Resource Discovery feature for CDS Services Java",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-feature-ord",
-	"version_latest":"4.4.0",
-	"ts_publish":1759831215000,
-	"dt_publish":"2025-10-07 18:00:15.000",
-	"ts_update":1759832217907,
-	"dt_update":"2025-10-07 18:16:23.247",
-	"count_dep":10,
+	"version_latest":"4.4.1",
+	"ts_publish":1760083804000,
+	"dt_publish":"2025-10-10 16:10:04.000",
+	"ts_update":1760084787370,
+	"dt_update":"2025-10-10 16:26:19.401",
+	"count_dep":18,
 	"count_ref":1,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
@@ -25,11 +25,19 @@
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"count_used_by":2,
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#201874 in MvnRepository",
+	"ranking":"#201870 in MvnRepository",
 	"tags":[
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251006",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.6.0",
 			"vulnerabilities":""
 		}
 	]
