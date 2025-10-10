@@ -3,13 +3,13 @@
 	"description":"Eliminate tech-debt. Automatically.",
 	"group_id":"org.openrewrite",
 	"artifact_id":"rewrite-kotlin",
-	"version_latest":"8.62.7",
-	"ts_publish":1760045464000,
-	"dt_publish":"2025-10-10 05:31:04.000",
-	"ts_update":1760048044933,
-	"dt_update":"2025-10-10 06:13:55.703",
+	"version_latest":"8.63.0",
+	"ts_publish":1760114938000,
+	"dt_publish":"2025-10-11 00:48:58.000",
+	"ts_update":1760116484617,
+	"dt_update":"2025-10-11 01:14:17.954",
 	"count_dep":4,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -26,16 +26,24 @@
 	"count_used_by":8,
 	"home_page":"https://github.com/openrewrite/rewrite",
 	"license":"Apache 2.0",
-	"ranking":"#59245 in MvnRepository",
+	"ranking":"#59274 in MvnRepository",
 	"tags":[
 		"kotlin"
 	],
 	"versions":[
 		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.62.7",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251001",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"8.62.6",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"8.56.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.55.3",
 			"vulnerabilities":""
 		}
 	]
