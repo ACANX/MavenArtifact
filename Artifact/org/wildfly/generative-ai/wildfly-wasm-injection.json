@@ -3,11 +3,11 @@
 	"description":"Parent of the feature pack for AI integration in WildFly",
 	"group_id":"org.wildfly.generative-ai",
 	"artifact_id":"wildfly-wasm-injection",
-	"version_latest":"0.8.0",
-	"ts_publish":1759409132000,
-	"dt_publish":"2025-10-02 20:45:32.000",
-	"ts_update":1759420679606,
-	"dt_update":"2025-10-02 20:56:08.387",
+	"version_latest":"0.8.1",
+	"ts_publish":1760100333000,
+	"dt_publish":"2025-10-10 20:45:33.000",
+	"ts_update":1760100983721,
+	"dt_update":"2025-10-10 20:56:12.400",
 	"count_dep":123,
 	"count_ref":2,
 	"licenses":[
@@ -20,5 +20,41 @@
 	"contributors":[
 		"WildFly Community"
 	],
-	"url_scm":"https://github.com/wildfly-extras/wildfly-ai-feature-pack"
+	"url_scm":"https://github.com/wildfly-extras/wildfly-ai-feature-pack",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#213626 in MvnRepository",
+	"tags":[
+		"webassembly",
+		"wildfly",
+		"injection",
+		"wasm",
+		"ai"
+	],
+	"versions":[
+		{
+			"date":"20251002",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.7.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.7.1",
+			"vulnerabilities":""
+		}
+	]
 }
