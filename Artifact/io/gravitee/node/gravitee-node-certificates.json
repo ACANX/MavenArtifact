@@ -3,13 +3,13 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-certificates",
-	"version_latest":"7.11.4",
-	"ts_publish":1759771508000,
-	"dt_publish":"2025-10-07 01:25:08.000",
-	"ts_update":1759771917840,
-	"dt_update":"2025-10-07 01:31:45.482",
+	"version_latest":"7.12.0",
+	"ts_publish":1760095525000,
+	"dt_publish":"2025-10-10 19:25:25.000",
+	"ts_update":1760096666680,
+	"dt_update":"2025-10-10 19:44:13.943",
 	"count_dep":54,
-	"count_ref":10,
+	"count_ref":12,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-certificates",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#129692 in MvnRepository",
+	"ranking":"#129793 in MvnRepository",
 	"tags":[
 		"node",
 		"certificate"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.11.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -81,6 +89,14 @@
 			"type":"release",
 			"usage":3,
 			"version":"7.10.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.9.6",
 			"vulnerabilities":""
 		},
 		{
@@ -172,27 +188,11 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250926",
+			"date":"20251006",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
-			"version":"7.5.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250917",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.5.4",
+			"version":"7.5.7",
 			"vulnerabilities":""
 		}
 	]
