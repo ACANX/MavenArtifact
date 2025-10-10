@@ -3,12 +3,12 @@
 	"description":"Jedis is a blazingly small and sane Redis java client.",
 	"group_id":"redis.clients",
 	"artifact_id":"jedis",
-	"version_latest":"6.2.0",
-	"ts_publish":1756367513000,
-	"dt_publish":"2025-08-28 15:51:53.000",
-	"ts_update":1756369284687,
-	"dt_update":"2025-08-28 16:20:19.033",
-	"count_dep":27,
+	"version_latest":"7.0.0",
+	"ts_publish":1760088029000,
+	"dt_publish":"2025-10-10 17:20:29.000",
+	"ts_update":1760088383585,
+	"dt_update":"2025-10-10 17:26:13.762",
+	"count_dep":28,
 	"count_ref":0,
 	"licenses":[
 		"MIT"
@@ -25,10 +25,10 @@
 		"Redis Ltd."
 	],
 	"url_scm":"scm:git:git@github.com:redis/jedis.git",
-	"count_used_by":2592,
+	"count_used_by":2621,
 	"home_page":"https://github.com/redis/jedis",
 	"license":"MIT",
-	"ranking":"#227 in MvnRepository",
+	"ranking":"#226 in MvnRepository",
 	"tags":[
 		"redis",
 		"database",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":21,
+			"version":"6.2.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"release",
-			"usage":19,
+			"usage":20,
 			"version":"6.1.0",
 			"vulnerabilities":""
 		},
@@ -47,7 +55,7 @@
 			"date":"20250430",
 			"repository":"Central",
 			"type":"release",
-			"usage":58,
+			"usage":68,
 			"version":"6.0.0",
 			"vulnerabilities":""
 		},
@@ -79,7 +87,7 @@
 			"date":"20240927",
 			"repository":"Central",
 			"type":"release",
-			"usage":133,
+			"usage":143,
 			"version":"5.2.0",
 			"vulnerabilities":""
 		},
@@ -143,7 +151,7 @@
 			"date":"20240822",
 			"repository":"Central",
 			"type":"release",
-			"usage":43,
+			"usage":44,
 			"version":"5.1.5",
 			"vulnerabilities":""
 		},
@@ -183,16 +191,8 @@
 			"date":"20231121",
 			"repository":"Central",
 			"type":"release",
-			"usage":75,
+			"usage":77,
 			"version":"5.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231019",
-			"repository":"Central",
-			"type":"release",
-			"usage":63,
-			"version":"5.0.2",
 			"vulnerabilities":""
 		}
 	]
