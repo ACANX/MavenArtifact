@@ -3,13 +3,13 @@
 	"description":"WildFly: Core Parent Aggregator",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-domain-management",
-	"version_latest":"30.0.0.Beta4",
-	"ts_publish":1759487488000,
-	"dt_publish":"2025-10-03 18:31:28.000",
-	"ts_update":1759488343466,
-	"dt_update":"2025-10-03 18:45:29.375",
+	"version_latest":"30.0.0.Final",
+	"ts_publish":1760178657000,
+	"dt_publish":"2025-10-11 18:30:57.000",
+	"ts_update":1760179488101,
+	"dt_update":"2025-10-11 18:44:34.828",
 	"count_dep":76,
-	"count_ref":10,
+	"count_ref":25,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -30,13 +30,21 @@
 	"count_used_by":20,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#23654 in MvnRepository",
+	"ranking":"#23702 in MvnRepository",
 	"tags":[
 		"domain",
 		"wildfly",
 		"management"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"30.0.0.Beta4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"beta",
 			"usage":3,
 			"version":"28.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250131",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"27.0.1.Final",
 			"vulnerabilities":""
 		}
 	]

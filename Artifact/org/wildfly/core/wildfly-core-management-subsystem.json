@@ -3,12 +3,12 @@
 	"description":"WildFly: Core Parent Aggregator",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-core-management-subsystem",
-	"version_latest":"30.0.0.Beta3",
-	"ts_publish":1758882636000,
-	"dt_publish":"2025-09-26 18:30:36.000",
-	"ts_update":1758884285197,
-	"dt_update":"2025-09-26 18:36:32.317",
-	"count_dep":76,
+	"version_latest":"30.0.0.Final",
+	"ts_publish":1760178657000,
+	"dt_publish":"2025-10-11 18:30:57.000",
+	"ts_update":1760179489746,
+	"dt_update":"2025-10-11 18:44:33.487",
+	"count_dep":98,
 	"count_ref":2,
 	"licenses":[
 		"Apache License 2.0"
@@ -28,12 +28,44 @@
 	"url_scm":"https://github.com/wildfly/wildfly-core",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#103062 in MvnRepository",
+	"ranking":"#103542 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"management"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"30.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -160,38 +192,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"28.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250131",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"27.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241224",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"27.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241216",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"27.0.0.Beta6",
 			"vulnerabilities":""
 		}
 	]

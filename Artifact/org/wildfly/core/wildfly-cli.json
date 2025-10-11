@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.wildfly.core/wildfly-cli",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-cli",
-	"version_latest":"30.0.0.Beta4",
-	"ts_publish":1759487488000,
-	"dt_publish":"2025-10-03 18:31:28.000",
-	"ts_update":1759488346165,
-	"dt_update":"2025-10-03 18:45:29.377",
+	"version_latest":"30.0.0.Final",
+	"ts_publish":1760178657000,
+	"dt_publish":"2025-10-11 18:30:57.000",
+	"ts_update":1760179483718,
+	"dt_update":"2025-10-11 18:44:35.584",
 	"count_dep":215,
-	"count_ref":1,
+	"count_ref":5,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -28,7 +28,7 @@
 	"count_used_by":72,
 	"home_page":"https://github.com/wildfly/wildfly-core",
 	"license":"Apache 2.0",
-	"ranking":"#6903 in MvnRepository",
+	"ranking":"#6922 in MvnRepository",
 	"tags":[
 		"interface",
 		"wildfly",
@@ -37,6 +37,14 @@
 		"cli"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"beta",
+			"usage":4,
+			"version":"30.0.0.Beta4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"beta",
 			"usage":4,
 			"version":"28.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250131",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"27.0.1.Final",
 			"vulnerabilities":""
 		}
 	],
