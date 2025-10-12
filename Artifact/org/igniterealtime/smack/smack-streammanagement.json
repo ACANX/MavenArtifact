@@ -3,13 +3,13 @@
 	"description":"Smack support for XMPP Stream Management (XEP-0198).",
 	"group_id":"org.igniterealtime.smack",
 	"artifact_id":"smack-streammanagement",
-	"version_latest":"4.5.0-beta8",
-	"ts_publish":1758565387000,
-	"dt_publish":"2025-09-23 02:23:07.000",
-	"ts_update":1758566654057,
-	"dt_update":"2025-09-23 02:43:28.540",
-	"count_dep":13,
-	"count_ref":6,
+	"version_latest":"4.5.0-beta9",
+	"ts_publish":1760272355000,
+	"dt_publish":"2025-10-12 20:32:35.000",
+	"ts_update":1760273786285,
+	"dt_update":"2025-10-12 20:56:13.238",
+	"count_dep":8,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -27,8 +27,16 @@
 	"count_used_by":1,
 	"home_page":"http://www.igniterealtime.org/projects/smack/",
 	"license":"Apache 2.0",
-	"ranking":"#425412 in MvnRepository",
+	"ranking":"#345798 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"4.5.0-beta8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250921",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20201118",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.4.0-rc2",
 			"vulnerabilities":""
 		}
 	]
