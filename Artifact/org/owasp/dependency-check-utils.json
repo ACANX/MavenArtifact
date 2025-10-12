@@ -3,12 +3,12 @@
 	"description":"dependency-check-utils is a collection of common utility classes used within dependency-check that might be useful in other projects.",
 	"group_id":"org.owasp",
 	"artifact_id":"dependency-check-utils",
-	"version_latest":"12.1.6",
-	"ts_publish":1758717109000,
-	"dt_publish":"2025-09-24 20:31:49.000",
-	"ts_update":1758719308683,
-	"dt_update":"2025-09-24 20:56:13.354",
-	"count_dep":23,
+	"version_latest":"12.1.7",
+	"ts_publish":1760277643000,
+	"dt_publish":"2025-10-12 22:00:43.000",
+	"ts_update":1760278362869,
+	"dt_update":"2025-10-12 22:12:32.296",
+	"count_dep":24,
 	"count_ref":4,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -31,12 +31,20 @@
 	"url_ci_management":"https://github.com/dependency-check/DependencyCheck/actions",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#37267 in MvnRepository",
+	"ranking":"#37452 in MvnRepository",
 	"tags":[
 		"owasp",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"12.1.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250920",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"9.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240315",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"9.0.10",
 			"vulnerabilities":""
 		}
 	]
