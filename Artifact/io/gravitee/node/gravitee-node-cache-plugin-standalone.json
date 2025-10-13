@@ -3,11 +3,11 @@
 	"description":"Standalone Cache is the default plugin used for in-memory caching.",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-cache-plugin-standalone",
-	"version_latest":"7.13.0",
-	"ts_publish":1760108778000,
-	"dt_publish":"2025-10-10 23:06:18.000",
-	"ts_update":1760109991932,
-	"dt_update":"2025-10-10 23:26:17.286",
+	"version_latest":"7.13.1",
+	"ts_publish":1760359541000,
+	"dt_publish":"2025-10-13 20:45:41.000",
+	"ts_update":1760360190723,
+	"dt_update":"2025-10-13 20:56:15.278",
 	"count_dep":52,
 	"count_ref":0,
 	"licenses":[
@@ -29,13 +29,29 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-cache/gravitee-node-cache-plugin-standalone",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#73444 in MvnRepository",
+	"ranking":"#73489 in MvnRepository",
 	"tags":[
 		"plugin",
 		"cache",
 		"node"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.13.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.12.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251006",
 			"repository":"Central",
@@ -96,7 +112,7 @@
 			"date":"20251006",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"7.9.6",
 			"vulnerabilities":""
 		},
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250514",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251006",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.5.7",
 			"vulnerabilities":""
 		}
 	]
