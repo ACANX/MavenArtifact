@@ -3,13 +3,13 @@
 	"description":"The AWS SDK for Java - Checksums module contains checksums and related items that are used by other modules in\n            the library.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"checksums",
-	"version_latest":"2.35.5",
-	"ts_publish":1760135600000,
-	"dt_publish":"2025-10-11 06:33:20.000",
-	"ts_update":1760137005704,
-	"dt_update":"2025-10-11 06:56:18.828",
+	"version_latest":"2.35.6",
+	"ts_publish":1760392050000,
+	"dt_publish":"2025-10-14 05:47:30.000",
+	"ts_update":1760393717487,
+	"dt_update":"2025-10-14 06:14:11.733",
 	"count_dep":6,
-	"count_ref":4,
+	"count_ref":5,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/checksums@2.32.18",
 	"count_used_by":35,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#13514 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#13527 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.35.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251009",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":5,
 			"version":"2.35.4",
 			"vulnerabilities":""
 		},
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.33.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250913",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.33.9",
 			"vulnerabilities":""
 		}
 	]

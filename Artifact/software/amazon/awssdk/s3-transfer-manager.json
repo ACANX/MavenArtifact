@@ -3,11 +3,11 @@
 	"description":"The S3 Transfer Manager allows customers to easily and optimally\n        transfer objects and directories to and from S3.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"s3-transfer-manager",
-	"version_latest":"2.35.5",
-	"ts_publish":1760135600000,
-	"dt_publish":"2025-10-11 06:33:20.000",
-	"ts_update":1760137005511,
-	"dt_update":"2025-10-11 06:56:22.591",
+	"version_latest":"2.35.6",
+	"ts_publish":1760392050000,
+	"dt_publish":"2025-10-14 05:47:30.000",
+	"ts_update":1760393713306,
+	"dt_update":"2025-10-14 06:14:08.960",
 	"count_dep":30,
 	"count_ref":1,
 	"licenses":[
@@ -22,8 +22,8 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/s3-transfer-manager",
 	"count_used_by":81,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#6258 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#6266 in MvnRepository",
 	"tags":[
 		"aws",
 		"s3",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.35.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251009",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.35.4",
 			"vulnerabilities":""
 		},
@@ -151,7 +159,7 @@
 			"date":"20250919",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"2.34.0",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.33.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250912",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.33.9",
 			"vulnerabilities":""
 		}
 	]

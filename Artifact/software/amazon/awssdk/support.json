@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for AWS Support module holds the client classes that are used for communicating with\n        AWS Support Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"support",
-	"version_latest":"2.35.5",
-	"ts_publish":1760135600000,
-	"dt_publish":"2025-10-11 06:33:20.000",
-	"ts_update":1760137001817,
-	"dt_update":"2025-10-11 06:56:24.709",
+	"version_latest":"2.35.6",
+	"ts_publish":1760392050000,
+	"dt_publish":"2025-10-14 05:47:30.000",
+	"ts_update":1760393669494,
+	"dt_update":"2025-10-14 06:14:04.487",
 	"count_dep":33,
 	"count_ref":1,
 	"licenses":[
@@ -22,8 +22,8 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/support",
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#120145 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#119872 in MvnRepository",
 	"tags":[
 		"support",
 		"aws",
@@ -32,11 +32,11 @@
 	],
 	"versions":[
 		{
-			"date":"20251009",
+			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
-			"version":"2.35.4",
+			"usage":2,
+			"version":"2.35.5",
 			"vulnerabilities":""
 		},
 		{
@@ -44,6 +44,14 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.35.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.35.3",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.33.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250913",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.9",
 			"vulnerabilities":""
 		}
 	]

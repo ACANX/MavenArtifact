@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Amazon Elasticsearch Service module holds the client classes that are used for\n        communicating with Amazon Elasticsearch Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"elasticsearch",
-	"version_latest":"2.35.5",
-	"ts_publish":1760135600000,
-	"dt_publish":"2025-10-11 06:33:20.000",
-	"ts_update":1760136999633,
-	"dt_update":"2025-10-11 06:56:16.642",
+	"version_latest":"2.35.6",
+	"ts_publish":1760392050000,
+	"dt_publish":"2025-10-14 05:47:30.000",
+	"ts_update":1760393711491,
+	"dt_update":"2025-10-14 06:14:14.984",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/elasticsearch@2.32.18",
 	"count_used_by":7,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#62901 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#62963 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -31,10 +31,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.35.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251009",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.35.4",
 			"vulnerabilities":""
 		},
@@ -42,7 +50,7 @@
 			"date":"20251008",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.35.3",
 			"vulnerabilities":""
 		},
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.33.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250912",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.9",
 			"vulnerabilities":""
 		}
 	]
