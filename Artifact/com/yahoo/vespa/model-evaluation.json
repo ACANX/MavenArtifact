@@ -2,13 +2,13 @@
 	"id":"pkg:maven/com.yahoo.vespa/model-evaluation",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"model-evaluation",
-	"version_latest":"8.588.8",
-	"ts_publish":1759319299000,
-	"dt_publish":"2025-10-01 19:48:19.000",
-	"ts_update":1759332500776,
-	"dt_update":"2025-10-01 19:56:00.481",
-	"count_dep":46,
-	"count_ref":4,
+	"version_latest":"8.591.16",
+	"ts_publish":1760357701000,
+	"dt_publish":"2025-10-13 20:15:01.000",
+	"ts_update":1760358408384,
+	"dt_update":"2025-10-13 20:26:26.455",
+	"count_dep":110,
+	"count_ref":32,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -25,12 +25,28 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/model-evaluation",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#112426 in MvnRepository",
+	"ranking":"#113784 in MvnRepository",
 	"tags":[
 		"model",
 		"evaluation"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.588.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.587.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250929",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"8.565.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250814",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.564.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.562.17",
 			"vulnerabilities":""
 		}
 	],

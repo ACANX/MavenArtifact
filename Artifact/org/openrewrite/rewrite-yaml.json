@@ -3,13 +3,13 @@
 	"description":"Eliminate tech-debt. Automatically.",
 	"group_id":"org.openrewrite",
 	"artifact_id":"rewrite-yaml",
-	"version_latest":"8.63.0",
-	"ts_publish":1760114938000,
-	"dt_publish":"2025-10-11 00:48:58.000",
-	"ts_update":1760116471527,
-	"dt_update":"2025-10-11 01:14:18.427",
+	"version_latest":"8.63.1",
+	"ts_publish":1760357039000,
+	"dt_publish":"2025-10-13 20:03:59.000",
+	"ts_update":1760358397725,
+	"dt_update":"2025-10-13 20:26:29.867",
 	"count_dep":13,
-	"count_ref":10,
+	"count_ref":8,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"count_used_by":55,
 	"home_page":"https://github.com/openrewrite/rewrite",
 	"license":"Apache 2.0",
-	"ranking":"#9015 in MvnRepository",
+	"ranking":"#9028 in MvnRepository",
 	"tags":[
 		"format",
 		"yaml",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"8.63.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251009",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":10,
 			"version":"8.62.7",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"8.56.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250625",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"8.56.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"zookeeper-server-3.9.4",
-	"version_latest":"8.588.8",
-	"ts_publish":1759319299000,
-	"dt_publish":"2025-10-01 19:48:19.000",
-	"ts_update":1759439681196,
-	"dt_update":"2025-10-01 19:56:03.344",
-	"count_dep":29,
+	"version_latest":"8.591.16",
+	"ts_publish":1760357701000,
+	"dt_publish":"2025-10-13 20:15:01.000",
+	"ts_update":1760358409900,
+	"dt_update":"2025-10-13 20:26:29.340",
+	"count_dep":86,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -23,5 +23,37 @@
 	"contributors":[
 		"Vespa"
 	],
-	"url_scm":"git@github.com:vespa-engine/vespa.git/zookeeper-server-parent/zookeeper-server-3.9.4"
+	"url_scm":"git@github.com:vespa-engine/vespa.git/zookeeper-server-parent/zookeeper-server-3.9.4",
+	"license":"Apache 2.0",
+	"ranking":"#778172 in MvnRepository",
+	"tags":[
+		"server",
+		"zookeeper"
+	],
+	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.588.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.587.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.586.25",
+			"vulnerabilities":""
+		}
+	]
 }
