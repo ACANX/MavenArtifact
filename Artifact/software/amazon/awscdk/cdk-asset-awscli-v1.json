@@ -3,12 +3,12 @@
 	"description":"A library that contains the AWS CLI for use in Lambda Layers",
 	"group_id":"software.amazon.awscdk",
 	"artifact_id":"cdk-asset-awscli-v1",
-	"version_latest":"2.2.255",
-	"ts_publish":1759764753000,
-	"dt_publish":"2025-10-06 23:32:33.000",
-	"ts_update":1759765554659,
-	"dt_update":"2025-10-06 23:45:46.956",
-	"count_dep":5,
+	"version_latest":"2.2.256",
+	"ts_publish":1760370427000,
+	"dt_publish":"2025-10-13 23:47:07.000",
+	"ts_update":1760370983521,
+	"dt_update":"2025-10-13 23:56:12.465",
+	"count_dep":11,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -23,13 +23,21 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/cdklabs/awscdk-asset-awscli#readme",
 	"license":"Apache 2.0",
-	"ranking":"#249168 in MvnRepository",
+	"ranking":"#249096 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"cdk"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.2.255",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250929",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.2.236",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250505",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.2.235",
 			"vulnerabilities":""
 		}
 	]
