@@ -3,13 +3,13 @@
 	"description":"OpenTelemetry Exporter Common",
 	"group_id":"io.opentelemetry",
 	"artifact_id":"opentelemetry-exporter-common",
-	"version_latest":"1.54.1",
-	"ts_publish":1758227141000,
-	"dt_publish":"2025-09-19 04:25:41.000",
-	"ts_update":1758228409303,
-	"dt_update":"2025-09-19 04:45:29.621",
+	"version_latest":"1.55.0",
+	"ts_publish":1760379108000,
+	"dt_publish":"2025-10-14 02:11:48.000",
+	"ts_update":1760379705917,
+	"dt_update":"2025-10-14 02:21:34.782",
 	"count_dep":9,
-	"count_ref":7,
+	"count_ref":4,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"OpenTelemetry"
 	],
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java.git",
-	"count_used_by":36,
+	"count_used_by":37,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java",
 	"license":"Apache 2.0",
-	"ranking":"#13062 in MvnRepository",
+	"ranking":"#12800 in MvnRepository",
 	"tags":[
 		"telemetry",
 		"opentelemetry",
@@ -34,6 +34,14 @@
 		"export"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"1.54.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -134,7 +142,7 @@
 			"date":"20241011",
 			"repository":"Central",
 			"type":"release",
-			"usage":12,
+			"usage":13,
 			"version":"1.43.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"1.38.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240408",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"1.37.0",
 			"vulnerabilities":""
 		}
 	]
