@@ -3,12 +3,12 @@
 	"description":"Manage docker test containers for testing purposes",
 	"group_id":"io.ebean",
 	"artifact_id":"ebean-test-containers",
-	"version_latest":"7.15",
-	"ts_publish":1758238449000,
-	"dt_publish":"2025-09-19 07:34:09.000",
-	"ts_update":1758239774691,
-	"dt_update":"2025-09-19 07:56:03.362",
-	"count_dep":101,
+	"version_latest":"7.16",
+	"ts_publish":1760317752000,
+	"dt_publish":"2025-10-13 09:09:12.000",
+	"ts_update":1760318024515,
+	"dt_update":"2025-10-13 09:13:36.754",
+	"count_dep":102,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -27,13 +27,21 @@
 	"url_scm":"git@github.com:avaje-pom/java11-oss.git/ebean-test-containers",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#92176 in MvnRepository",
+	"ranking":"#100127 in MvnRepository",
 	"tags":[
 		"beans",
 		"testing",
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"7.15",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250713",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220817",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.3",
 			"vulnerabilities":""
 		}
 	]
