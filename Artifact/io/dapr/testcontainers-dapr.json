@@ -3,11 +3,11 @@
 	"description":"Testcontainers Dapr Module",
 	"group_id":"io.dapr",
 	"artifact_id":"testcontainers-dapr",
-	"version_latest":"1.16.1-rc-1",
-	"ts_publish":1760087738000,
-	"dt_publish":"2025-10-10 17:15:38.000",
-	"ts_update":1760088383213,
-	"dt_update":"2025-10-10 17:26:14.299",
+	"version_latest":"1.16.1-rc-2",
+	"ts_publish":1760367400000,
+	"dt_publish":"2025-10-13 22:56:40.000",
+	"ts_update":1760368605098,
+	"dt_update":"2025-10-13 23:16:33.034",
 	"count_dep":15,
 	"count_ref":3,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/dapr/java-sdk/testcontainers-dapr",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#129901 in MvnRepository",
+	"ranking":"#130055 in MvnRepository",
 	"tags":[
 		"dapr",
 		"testing",
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.16.1-rc-1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"0.14.0-rc-9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250124",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"0.13.3",
 			"vulnerabilities":""
 		}
 	]
