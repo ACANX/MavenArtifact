@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.cockpit",
 	"artifact_id":"gravitee-cockpit-api",
-	"version_latest":"3.11.1",
-	"ts_publish":1759304825000,
-	"dt_publish":"2025-10-01 15:47:05.000",
-	"ts_update":1759315057578,
-	"dt_update":"2025-10-01 16:21:15.521",
+	"version_latest":"3.11.2",
+	"ts_publish":1760340347000,
+	"dt_publish":"2025-10-13 15:25:47.000",
+	"ts_update":1760340764785,
+	"dt_update":"2025-10-13 15:32:35.833",
 	"count_dep":51,
 	"count_ref":0,
 	"licenses":[
@@ -29,16 +29,24 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-cockpit-api",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#82667 in MvnRepository",
+	"ranking":"#82798 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
 		{
-			"date":"20250929",
+			"date":"20251001",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"3.11.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"3.11.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.9.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.9.7",
 			"vulnerabilities":""
 		}
 	]
