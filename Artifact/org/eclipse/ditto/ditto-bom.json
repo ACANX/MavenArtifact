@@ -3,11 +3,11 @@
 	"description":"Eclipse Ditto is a framework for creating and managing digital twins in the IoT.",
 	"group_id":"org.eclipse.ditto",
 	"artifact_id":"ditto-bom",
-	"version_latest":"3.8.0",
-	"ts_publish":1760078020000,
-	"dt_publish":"2025-10-10 14:33:40.000",
-	"ts_update":1760079222796,
-	"dt_update":"2025-10-10 14:53:20.968",
+	"version_latest":"3.8.1",
+	"ts_publish":1760345517000,
+	"dt_publish":"2025-10-13 16:51:57.000",
+	"ts_update":1760347171777,
+	"dt_update":"2025-10-13 17:19:08.198",
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -24,7 +24,7 @@
 	"url_ci_management":"https://ci.eclipse.org/ditto/",
 	"home_page":"https://eclipse.dev/ditto/ditto-bom/",
 	"license":"EPL 2.0",
-	"ranking":"#547730 in MvnRepository",
+	"ranking":"#547882 in MvnRepository",
 	"tags":[
 		"bom",
 		"eclipse",
@@ -32,6 +32,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250918",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.6.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.6.5",
 			"vulnerabilities":""
 		}
 	]
