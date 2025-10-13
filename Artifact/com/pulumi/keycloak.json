@@ -1,13 +1,13 @@
 {
-	"id":"pkg:maven/com.pulumi/archive",
-	"description":"A Pulumi package for creating and managing Archive cloud resources.",
+	"id":"pkg:maven/com.pulumi/keycloak",
+	"description":"A Pulumi package for creating and managing keycloak cloud resources.",
 	"group_id":"com.pulumi",
-	"artifact_id":"archive",
-	"version_latest":"0.3.5",
-	"ts_publish":1760375707000,
-	"dt_publish":"2025-10-14 01:15:07.000",
-	"ts_update":1760376703947,
-	"dt_update":"2025-10-14 01:31:35.661",
+	"artifact_id":"keycloak",
+	"version_latest":"6.7.1",
+	"ts_publish":1760376233000,
+	"dt_publish":"2025-10-14 01:23:53.000",
+	"ts_update":1760376702662,
+	"dt_update":"2025-10-14 01:31:35.656",
 	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
@@ -17,57 +17,83 @@
 		"Uncategorized"
 	],
 	"dsv":1,
-	"url_project":"https://github.com/pulumi/pulumi-archive",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.pulumi/archive@0.3.5",
+	"url_project":"https://github.com/pulumi/pulumi-keycloak",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.pulumi/keycloak@6.7.1",
 	"contributors":[
 		"Pulumi"
 	],
-	"url_scm":"https://github.com/pulumi/pulumi-archive",
-	"home_page":"https://github.com/pulumi/pulumi-archive",
+	"url_scm":"https://github.com/pulumi/pulumi-keycloak",
+	"count_used_by":1,
+	"home_page":"https://github.com/pulumi/pulumi-keycloak",
 	"license":"Apache 2.0",
-	"ranking":"#701808 in MvnRepository",
+	"ranking":"#341817 in MvnRepository",
 	"tags":[
-		"pulumi"
+		"pulumi",
+		"keycloak"
 	],
 	"versions":[
 		{
-			"date":"20250724",
+			"date":"20250729",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.3.4",
+			"version":"6.7.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250514",
+			"date":"20250513",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
-			"version":"0.3.3",
+			"usage":1,
+			"version":"6.5.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250430",
+			"date":"20250416",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
-			"version":"0.3.2",
+			"usage":1,
+			"version":"6.4.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250212",
+			"date":"20250415",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
-			"version":"0.3.1",
+			"usage":1,
+			"version":"6.3.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241206",
+			"date":"20250409",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
-			"version":"0.3.0",
+			"usage":1,
+			"version":"6.2.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250203",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.2.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250117",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20241209",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.4.0",
 			"vulnerabilities":""
 		},
 		{
@@ -75,7 +101,7 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1732770649",
+			"version":"5.4.0-alpha.1732772964",
 			"vulnerabilities":""
 		},
 		{
@@ -83,7 +109,7 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1732684242",
+			"version":"5.4.0-alpha.1732686580",
 			"vulnerabilities":""
 		},
 		{
@@ -91,15 +117,7 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1732597911",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"0.3.0-alpha.1732276545",
+			"version":"5.4.0-alpha.1732600433",
 			"vulnerabilities":""
 		},
 		{
@@ -107,7 +125,7 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1731733842",
+			"version":"5.4.0-alpha.1731736453",
 			"vulnerabilities":""
 		},
 		{
@@ -115,7 +133,7 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1731647470",
+			"version":"5.4.0-alpha.1731650361",
 			"vulnerabilities":""
 		},
 		{
@@ -123,15 +141,7 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1731388201",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241111",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"0.3.0-alpha.1731360863",
+			"version":"5.4.0-alpha.1731391488",
 			"vulnerabilities":""
 		},
 		{
@@ -139,15 +149,7 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1731129086",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241108",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"0.3.0-alpha.1731024395",
+			"version":"5.4.0-alpha.1731131708",
 			"vulnerabilities":""
 		},
 		{
@@ -155,15 +157,7 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1730869701",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241105",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"0.3.0-alpha.1730783340",
+			"version":"5.4.0-alpha.1730871712",
 			"vulnerabilities":""
 		},
 		{
@@ -171,15 +165,7 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1730524100",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241031",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"0.3.0-alpha.1730383890",
+			"version":"5.4.0-alpha.1730526066",
 			"vulnerabilities":""
 		},
 		{
@@ -187,7 +173,23 @@
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
-			"version":"0.3.0-alpha.1730178615",
+			"version":"5.4.0-alpha.1730180195",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20241026",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"5.4.0-alpha.1729897903",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20241016",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"5.4.0-alpha.1729057395",
 			"vulnerabilities":""
 		}
 	]
