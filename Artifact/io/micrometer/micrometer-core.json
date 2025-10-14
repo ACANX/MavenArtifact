@@ -3,11 +3,11 @@
 	"description":"Core module of Micrometer containing instrumentation API and implementation",
 	"group_id":"io.micrometer",
 	"artifact_id":"micrometer-core",
-	"version_latest":"1.16.0-M3",
-	"ts_publish":1757400180000,
-	"dt_publish":"2025-09-09 14:43:00.000",
-	"ts_update":1757402139837,
-	"dt_update":"2025-09-09 15:14:48.042",
+	"version_latest":"1.16.0-RC1",
+	"ts_publish":1760418114000,
+	"dt_publish":"2025-10-14 13:01:54.000",
+	"ts_update":1760418929581,
+	"dt_update":"2025-10-14 13:15:10.064",
 	"count_dep":128,
 	"count_ref":29,
 	"licenses":[
@@ -23,7 +23,7 @@
 		"Tommy Ludwig"
 	],
 	"url_scm":"git@github.com:micrometer-metrics/micrometer.git",
-	"count_used_by":1862,
+	"count_used_by":1894,
 	"home_page":"https://github.com/micrometer-metrics/micrometer",
 	"license":"Apache 2.0",
 	"ranking":"#312 in MvnRepository",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":46,
+			"version":"1.16.0-M3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250812",
 			"repository":"Central",
 			"type":"milestone",
-			"usage":42,
+			"usage":45,
 			"version":"1.16.0-M2",
 			"vulnerabilities":""
 		},
@@ -52,10 +60,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":115,
+			"version":"1.15.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
-			"usage":73,
+			"usage":109,
 			"version":"1.15.3",
 			"vulnerabilities":""
 		},
@@ -63,7 +79,7 @@
 			"date":"20250714",
 			"repository":"Central",
 			"type":"release",
-			"usage":158,
+			"usage":162,
 			"version":"1.15.2",
 			"vulnerabilities":""
 		},
@@ -71,7 +87,7 @@
 			"date":"20250609",
 			"repository":"Central",
 			"type":"release",
-			"usage":129,
+			"usage":131,
 			"version":"1.15.1",
 			"vulnerabilities":""
 		},
@@ -108,6 +124,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":80,
+			"version":"1.14.11",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
@@ -119,7 +143,7 @@
 			"date":"20250714",
 			"repository":"Central",
 			"type":"release",
-			"usage":87,
+			"usage":90,
 			"version":"1.14.9",
 			"vulnerabilities":""
 		},
@@ -135,7 +159,7 @@
 			"date":"20250512",
 			"repository":"Central",
 			"type":"release",
-			"usage":117,
+			"usage":119,
 			"version":"1.14.7",
 			"vulnerabilities":""
 		},
@@ -151,7 +175,7 @@
 			"date":"20250310",
 			"repository":"Central",
 			"type":"release",
-			"usage":198,
+			"usage":199,
 			"version":"1.14.5",
 			"vulnerabilities":""
 		},
@@ -167,32 +191,8 @@
 			"date":"20250113",
 			"repository":"Central",
 			"type":"release",
-			"usage":133,
+			"usage":134,
 			"version":"1.14.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":102,
-			"version":"1.14.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241115",
-			"repository":"Central",
-			"type":"release",
-			"usage":94,
-			"version":"1.14.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241112",
-			"repository":"Central",
-			"type":"release",
-			"usage":50,
-			"version":"1.14.0",
 			"vulnerabilities":""
 		}
 	]
