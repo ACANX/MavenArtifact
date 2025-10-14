@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/de.gematik.test/tiger-zion",
-	"description":"Tiger Zion modul of the tiger test platform.",
+	"description":"Tiger Zion - zero line mock server",
 	"group_id":"de.gematik.test",
 	"artifact_id":"tiger-zion",
-	"version_latest":"4.0.9",
-	"ts_publish":1756126152000,
-	"dt_publish":"2025-08-25 20:49:12.000",
-	"ts_update":1756127946257,
-	"dt_update":"2025-08-25 21:17:16.141",
-	"count_dep":241,
-	"count_ref":1,
+	"version_latest":"4.0.10",
+	"ts_publish":1760431556000,
+	"dt_publish":"2025-10-14 16:45:56.000",
+	"ts_update":1760432039730,
+	"dt_update":"2025-10-14 16:53:46.792",
+	"count_dep":222,
+	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -23,11 +23,19 @@
 	"url_scm":"https://github.com/gematik/app-Tiger/tiger-zion",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#172064 in MvnRepository",
+	"ranking":"#174539 in MvnRepository",
 	"tags":[
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250710",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.4.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241008",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.2",
 			"vulnerabilities":""
 		}
 	]
