@@ -3,11 +3,11 @@
 	"description":"Symphony Java BDK Bom (Bill Of Materials)",
 	"group_id":"org.finos.symphony.bdk",
 	"artifact_id":"symphony-bdk-bom",
-	"version_latest":"3.2.3",
-	"ts_publish":1759845273000,
-	"dt_publish":"2025-10-07 21:54:33.000",
-	"ts_update":1759846604579,
-	"dt_update":"2025-10-07 22:16:13.744",
+	"version_latest":"3.2.4",
+	"ts_publish":1760434366000,
+	"dt_publish":"2025-10-14 17:32:46.000",
+	"ts_update":1760435236217,
+	"dt_update":"2025-10-14 17:47:00.757",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/finos/symphony-bdk-java",
 	"home_page":"https://symphony-bdk-java.finos.org",
 	"license":"Apache 2.0",
-	"ranking":"#497646 in MvnRepository",
+	"ranking":"#498051 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.0.RC2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230626",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.0.RC1",
 			"vulnerabilities":""
 		}
 	]

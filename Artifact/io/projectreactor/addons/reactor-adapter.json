@@ -3,12 +3,12 @@
 	"description":"Adapters from/to RxJava2, RxJava3 and Akka",
 	"group_id":"io.projectreactor.addons",
 	"artifact_id":"reactor-adapter",
-	"version_latest":"3.6.0-RC5",
-	"ts_publish":1757417837000,
-	"dt_publish":"2025-09-09 19:37:17.000",
-	"ts_update":1757419041178,
-	"dt_update":"2025-09-09 19:55:57.756",
-	"count_dep":2,
+	"version_latest":"3.6.0-RC6",
+	"ts_publish":1760434020000,
+	"dt_publish":"2025-10-14 17:27:00.000",
+	"ts_update":1760435233297,
+	"dt_update":"2025-10-14 17:47:01.981",
+	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,16 +24,24 @@
 		"Simon Baslé"
 	],
 	"url_scm":"https://github.com/reactor/reactor-addons",
-	"count_used_by":58,
+	"count_used_by":60,
 	"home_page":"https://github.com/reactor/reactor-addons",
 	"license":"Apache 2.0",
-	"ranking":"#8469 in MvnRepository",
+	"ranking":"#8303 in MvnRepository",
 	"tags":[
 		"adapter",
 		"addon",
 		"reactor"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.6.0-RC5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -48,6 +56,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.6.0-RC3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.5.3",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.3.8.RELEASE",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210810",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.3.7.RELEASE",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210412",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.3.6.RELEASE",
 			"vulnerabilities":""
 		}
 	]
