@@ -3,9 +3,9 @@
 	"description":"The Amazon Web Services SDK for Java provides Java APIs\n        for building software on AWS' cost-effective, scalable, and reliable\n        infrastructure products. The AWS Java SDK allows developers to code\n        against APIs for all of Amazon's infrastructure web services (Amazon\n        S3, Amazon EC2, Amazon SQS, Amazon Relational Database Service, Amazon\n        AutoScaling, etc).",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"bom-internal",
-	"version_latest":"2.35.6",
-	"ts_publish":1760392050000,
-	"ts_update":1760393731103,
+	"version_latest":"2.35.7",
+	"ts_publish":1760478329000,
+	"ts_update":1760480129608,
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -18,10 +18,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/bom-internal",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/bom-internal@2.32.16",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/bom-internal",
-	"dt_publish":"2025-10-14 05:47:30.000",
-	"dt_update":"2025-10-14 06:14:14.455",
+	"dt_publish":"2025-10-15 05:45:29.000",
+	"dt_update":"2025-10-15 06:14:54.908",
 	"license":"Apache 2.0",
-	"ranking":"#449370 in MvnRepository",
+	"ranking":"#449408 in MvnRepository",
 	"tags":[
 		"bom",
 		"aws",
@@ -29,6 +29,14 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.35.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.33.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.33.10",
 			"vulnerabilities":""
 		}
 	]
