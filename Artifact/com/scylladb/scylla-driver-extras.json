@@ -3,12 +3,12 @@
 	"description":"Extended functionality for the Java driver.",
 	"group_id":"com.scylladb",
 	"artifact_id":"scylla-driver-extras",
-	"version_latest":"3.11.5.8",
-	"ts_publish":1755873113000,
-	"dt_publish":"2025-08-22 22:31:53.000",
-	"ts_update":1755874139450,
-	"dt_update":"2025-08-22 22:47:45.038",
-	"count_dep":32,
+	"version_latest":"3.11.5.9",
+	"ts_publish":1760485204000,
+	"dt_publish":"2025-10-15 07:40:04.000",
+	"ts_update":1760486183997,
+	"dt_update":"2025-10-15 07:56:15.956",
+	"count_dep":37,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2"
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/scylladb/java-driver/scylla-driver-extras",
 	"license":"Apache 2.0",
-	"ranking":"#589274 in MvnRepository",
+	"ranking":"#602615 in MvnRepository",
 	"tags":[
 		"bundle",
 		"driver",
@@ -32,6 +32,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.11.5.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250324",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.10.1-scylla-0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20191113",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.7.1-scylla-2",
 			"vulnerabilities":""
 		}
 	]
