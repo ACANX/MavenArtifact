@@ -3,11 +3,11 @@
 	"description":"Bare HTTP client for the Docker engine api",
 	"group_id":"de.gesellix",
 	"artifact_id":"docker-engine",
-	"version_latest":"2025-10-11T21-55-00",
-	"ts_publish":1760212601000,
-	"dt_publish":"2025-10-12 03:56:41.000",
-	"ts_update":1760215468179,
-	"dt_update":"2025-10-12 04:44:20.950",
+	"version_latest":"2025-10-14T20-10-00",
+	"ts_publish":1760465541000,
+	"dt_publish":"2025-10-15 02:12:21.000",
+	"ts_update":1760466205003,
+	"dt_update":"2025-10-15 02:23:14.723",
 	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
@@ -26,17 +26,25 @@
 	"count_used_by":3,
 	"home_page":"https://github.com/docker-client/docker-engine",
 	"license":"MIT",
-	"ranking":"#167268 in MvnRepository",
+	"ranking":"#167890 in MvnRepository",
 	"tags":[
 		"docker",
 		"engine"
 	],
 	"versions":[
 		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2025-10-11T21-55-00",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250927",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2025-09-27T28-03-00",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2023-11-16T20-25-00",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231101",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2023-11-01T11-00-00",
 			"vulnerabilities":""
 		}
 	]
