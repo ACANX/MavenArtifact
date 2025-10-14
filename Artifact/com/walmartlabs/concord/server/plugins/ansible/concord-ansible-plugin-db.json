@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.walmartlabs.concord.server.plugins.ansible/concord-ansible-plugin-db",
 	"group_id":"com.walmartlabs.concord.server.plugins.ansible",
 	"artifact_id":"concord-ansible-plugin-db",
-	"version_latest":"2.33.1",
-	"ts_publish":1759852100000,
-	"dt_publish":"2025-10-07 23:48:20.000",
-	"ts_update":1759854018638,
-	"dt_update":"2025-10-08 00:19:00.953",
-	"count_dep":11,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"2.33.3",
+	"ts_publish":1760468358000,
+	"dt_publish":"2025-10-15 02:59:18.000",
+	"ts_update":1760471117703,
+	"dt_update":"2025-10-15 03:44:57.108",
+	"count_dep":51,
+	"count_ref":4,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,7 +24,7 @@
 	"url_scm":"scm:git:https://github.com/walmartlabs/concord.git/parent/parent/parent/concord-ansible-plugin-db",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#340196 in MvnRepository",
+	"ranking":"#340538 in MvnRepository",
 	"tags":[
 		"plugin",
 		"database",
@@ -30,6 +32,22 @@
 		"ansible"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.33.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.33.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -173,22 +191,7 @@
 			"usage":1,
 			"version":"2.17.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240905",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240807",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.15.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Concord: Orchestrate More. Live Better."
 }
