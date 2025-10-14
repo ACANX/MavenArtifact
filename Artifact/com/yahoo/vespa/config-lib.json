@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/config-lib",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"config-lib",
-	"version_latest":"8.592.33",
-	"ts_publish":1760367815000,
-	"dt_publish":"2025-10-13 23:03:35.000",
-	"ts_update":1760368622677,
-	"dt_update":"2025-10-13 23:16:30.138",
+	"version_latest":"8.593.34",
+	"ts_publish":1760433367000,
+	"dt_publish":"2025-10-14 17:16:07.000",
+	"ts_update":1760434007513,
+	"dt_update":"2025-10-14 17:26:15.840",
 	"count_dep":4,
 	"count_ref":26,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,7 +25,7 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/config-lib",
 	"count_used_by":30,
 	"license":"Apache 2.0",
-	"ranking":"#15835 in MvnRepository",
+	"ranking":"#15837 in MvnRepository",
 	"tags":[
 		"config",
 		"properties",
@@ -190,5 +192,6 @@
 			"version":"8.565.17",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

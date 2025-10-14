@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/configdefinitions",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"configdefinitions",
-	"version_latest":"8.592.33",
-	"ts_publish":1760367815000,
-	"dt_publish":"2025-10-13 23:03:35.000",
-	"ts_update":1760368624063,
-	"dt_update":"2025-10-13 23:16:28.973",
+	"version_latest":"8.593.34",
+	"ts_publish":1760433367000,
+	"dt_publish":"2025-10-14 17:16:07.000",
+	"ts_update":1760433997707,
+	"dt_update":"2025-10-14 17:26:14.110",
 	"count_dep":2,
 	"count_ref":19,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,8 +25,16 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/configdefinitions",
 	"count_used_by":28,
 	"license":"Apache 2.0",
-	"ranking":"#16724 in MvnRepository",
+	"ranking":"#16732 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.591.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -176,14 +186,7 @@
 			"usage":22,
 			"version":"8.567.16",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250814",
-			"repository":"Central",
-			"type":"release",
-			"usage":22,
-			"version":"8.565.17",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/fat-model-dependencies",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"fat-model-dependencies",
-	"version_latest":"8.592.33",
-	"ts_publish":1760367815000,
-	"dt_publish":"2025-10-13 23:03:35.000",
-	"ts_update":1760368625213,
-	"dt_update":"2025-10-13 23:16:27.717",
-	"count_dep":32,
+	"version_latest":"8.593.34",
+	"ts_publish":1760433367000,
+	"dt_publish":"2025-10-14 17:16:07.000",
+	"ts_update":1760433994933,
+	"dt_update":"2025-10-14 17:26:14.935",
+	"count_dep":71,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,7 +25,7 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/fat-model-dependencies",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#269882 in MvnRepository",
+	"ranking":"#269999 in MvnRepository",
 	"tags":[
 		"bom",
 		"model",
@@ -191,5 +193,6 @@
 			"version":"8.565.17",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

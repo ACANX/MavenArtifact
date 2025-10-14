@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/config-model-fat",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"config-model-fat",
-	"version_latest":"8.592.33",
-	"ts_publish":1760367815000,
-	"dt_publish":"2025-10-13 23:03:35.000",
-	"ts_update":1760368625133,
-	"dt_update":"2025-10-13 23:16:29.504",
+	"version_latest":"8.593.34",
+	"ts_publish":1760433367000,
+	"dt_publish":"2025-10-14 17:16:07.000",
+	"ts_update":1760433986025,
+	"dt_update":"2025-10-14 17:26:14.933",
 	"count_dep":3,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -22,7 +24,7 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/config-model-fat",
 	"license":"Apache 2.0",
-	"ranking":"#458331 in MvnRepository",
+	"ranking":"#458488 in MvnRepository",
 	"tags":[
 		"bundle",
 		"model",
@@ -190,5 +192,6 @@
 			"version":"8.565.17",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

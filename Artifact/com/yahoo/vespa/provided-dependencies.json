@@ -3,11 +3,11 @@
 	"description":"Dependencies that are installed and should not be included in artifacts with dependencies.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"provided-dependencies",
-	"version_latest":"8.592.33",
-	"ts_publish":1760367815000,
-	"dt_publish":"2025-10-13 23:03:35.000",
-	"ts_update":1760368609966,
-	"dt_update":"2025-10-13 23:16:28.977",
+	"version_latest":"8.593.34",
+	"ts_publish":1760433367000,
+	"dt_publish":"2025-10-14 17:16:07.000",
+	"ts_update":1760433998295,
+	"dt_update":"2025-10-14 17:26:14.517",
 	"count_dep":23,
 	"count_ref":6,
 	"licenses":[
@@ -26,11 +26,19 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/provided-dependencies",
 	"count_used_by":14,
 	"license":"Apache 2.0",
-	"ranking":"#34066 in MvnRepository",
+	"ranking":"#34060 in MvnRepository",
 	"tags":[
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.591.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"8.567.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250814",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"8.565.17",
 			"vulnerabilities":""
 		}
 	]

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/container-core",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-core",
-	"version_latest":"8.592.33",
-	"ts_publish":1760367815000,
-	"dt_publish":"2025-10-13 23:03:35.000",
-	"ts_update":1760368625502,
-	"dt_update":"2025-10-13 23:16:30.756",
-	"count_dep":44,
+	"version_latest":"8.593.34",
+	"ts_publish":1760433367000,
+	"dt_publish":"2025-10-14 17:16:07.000",
+	"ts_update":1760433995693,
+	"dt_update":"2025-10-14 17:26:15.841",
+	"count_dep":78,
 	"count_ref":12,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,11 +25,19 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-core",
 	"count_used_by":19,
 	"license":"Apache 2.0",
-	"ranking":"#24033 in MvnRepository",
+	"ranking":"#24042 in MvnRepository",
 	"tags":[
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.591.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":13,
 			"version":"8.567.16",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250814",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.565.17",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

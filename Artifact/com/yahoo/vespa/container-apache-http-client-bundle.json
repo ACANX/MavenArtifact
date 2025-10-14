@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/container-apache-http-client-bundle",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-apache-http-client-bundle",
-	"version_latest":"8.592.33",
-	"ts_publish":1760367815000,
-	"dt_publish":"2025-10-13 23:03:35.000",
-	"ts_update":1760368602937,
-	"dt_update":"2025-10-13 23:16:30.135",
-	"count_dep":6,
-	"count_ref":13,
-	"licenses":[],
+	"version_latest":"8.593.34",
+	"ts_publish":1760433367000,
+	"dt_publish":"2025-10-14 17:16:07.000",
+	"ts_update":1760433989518,
+	"dt_update":"2025-10-14 17:26:15.839",
+	"count_dep":12,
+	"count_ref":17,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,7 +25,7 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-apache-http-client-bundle",
 	"count_used_by":24,
 	"license":"Apache 2.0",
-	"ranking":"#19801 in MvnRepository",
+	"ranking":"#19804 in MvnRepository",
 	"tags":[
 		"bundle",
 		"container",
@@ -192,5 +194,6 @@
 			"version":"8.565.17",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

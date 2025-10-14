@@ -2,12 +2,12 @@
 	"id":"pkg:maven/com.yahoo.vespa/jdisc-cloud-aws",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"jdisc-cloud-aws",
-	"version_latest":"8.592.33",
-	"ts_publish":1760367815000,
-	"dt_publish":"2025-10-13 23:03:35.000",
-	"ts_update":1760368609167,
-	"dt_update":"2025-10-13 23:16:29.505",
-	"count_dep":51,
+	"version_latest":"8.593.34",
+	"ts_publish":1760433367000,
+	"dt_publish":"2025-10-14 17:16:07.000",
+	"ts_update":1760434003906,
+	"dt_update":"2025-10-14 17:26:15.397",
+	"count_dep":67,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -24,13 +24,21 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/jdisc-cloud-aws",
 	"license":"Apache 2.0",
-	"ranking":"#963577 in MvnRepository",
+	"ranking":"#963686 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.591.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.567.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250814",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.565.17",
 			"vulnerabilities":""
 		}
 	],
