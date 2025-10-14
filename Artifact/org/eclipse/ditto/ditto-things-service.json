@@ -3,12 +3,12 @@
 	"description":"Eclipse Ditto is a framework for creating and managing digital twins in the IoT.",
 	"group_id":"org.eclipse.ditto",
 	"artifact_id":"ditto-things-service",
-	"version_latest":"3.8.1",
-	"ts_publish":1760345517000,
-	"dt_publish":"2025-10-13 16:51:57.000",
-	"ts_update":1760347161451,
-	"dt_update":"2025-10-13 17:19:09.489",
-	"count_dep":56,
+	"version_latest":"3.8.2",
+	"ts_publish":1760431660000,
+	"dt_publish":"2025-10-14 16:47:40.000",
+	"ts_update":1760433487198,
+	"dt_update":"2025-10-14 17:17:50.108",
+	"count_dep":190,
 	"count_ref":0,
 	"licenses":[
 		"Eclipse Public License - Version 2.0"
@@ -24,12 +24,20 @@
 	"url_ci_management":"https://ci.eclipse.org/ditto/",
 	"home_page":"https://eclipse.dev/ditto/ditto-bom/ditto-things/ditto-things-service/",
 	"license":"EPL 2.0",
-	"ranking":"#765576 in MvnRepository",
+	"ranking":"#933893 in MvnRepository",
 	"tags":[
 		"eclipse",
 		"service"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.8.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.6.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.6.6",
 			"vulnerabilities":""
 		}
 	]

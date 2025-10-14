@@ -3,12 +3,12 @@
 	"description":"Reactor Test support",
 	"group_id":"io.projectreactor",
 	"artifact_id":"reactor-test",
-	"version_latest":"3.8.0-M7",
-	"ts_publish":1757415013000,
-	"dt_publish":"2025-09-09 18:50:13.000",
-	"ts_update":1757416513095,
-	"dt_update":"2025-09-09 19:13:39.414",
-	"count_dep":2,
+	"version_latest":"3.8.0-RC1",
+	"ts_publish":1760432613000,
+	"dt_publish":"2025-10-14 17:03:33.000",
+	"ts_update":1760433484197,
+	"dt_update":"2025-10-14 17:17:46.688",
+	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,16 +25,24 @@
 		"Oleh Dokuka"
 	],
 	"url_scm":"https://github.com/reactor/reactor-core",
-	"count_used_by":1112,
+	"count_used_by":1120,
 	"home_page":"https://github.com/reactor/reactor-core",
 	"license":"Apache 2.0",
-	"ranking":"#534 in MvnRepository",
+	"ranking":"#548 in MvnRepository",
 	"tags":[
 		"reactor",
 		"testing",
 		"quality"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":8,
+			"version":"3.8.0-M7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -84,10 +92,26 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":36,
+			"version":"3.7.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.7.10",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250812",
 			"repository":"Central",
 			"type":"release",
-			"usage":13,
+			"usage":22,
 			"version":"3.7.9",
 			"vulnerabilities":""
 		},
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"3.6.18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.6.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.6.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250311",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"3.6.15",
 			"vulnerabilities":""
 		}
 	]

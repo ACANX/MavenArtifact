@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"com.regnosys.rune-fpml",
 	"artifact_id":"rosetta-source",
-	"version_latest":"0.17.2",
-	"ts_publish":1754997652000,
-	"dt_publish":"2025-08-12 19:20:52.000",
-	"ts_update":1754998264307,
-	"dt_update":"2025-08-12 19:30:53.536",
-	"count_dep":41,
+	"version_latest":"0.18.0",
+	"ts_publish":1760431698000,
+	"dt_publish":"2025-10-14 16:48:18.000",
+	"ts_update":1760433489475,
+	"dt_update":"2025-10-14 17:17:48.618",
+	"count_dep":113,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -21,10 +21,26 @@
 		"Maurizio Pillitu"
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/parent/rosetta-source",
-	"count_used_by":1,
+	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#273550 in MvnRepository",
+	"ranking":"#184695 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.17.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.17.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.5.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.5.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.5.1",
 			"vulnerabilities":""
 		}
 	]

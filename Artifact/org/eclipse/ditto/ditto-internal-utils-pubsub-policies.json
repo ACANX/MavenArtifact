@@ -3,13 +3,13 @@
 	"description":"Eclipse Ditto is a framework for creating and managing digital twins in the IoT.",
 	"group_id":"org.eclipse.ditto",
 	"artifact_id":"ditto-internal-utils-pubsub-policies",
-	"version_latest":"3.8.1",
-	"ts_publish":1760345517000,
-	"dt_publish":"2025-10-13 16:51:57.000",
-	"ts_update":1760347157785,
-	"dt_update":"2025-10-13 17:19:07.610",
-	"count_dep":6,
-	"count_ref":2,
+	"version_latest":"3.8.2",
+	"ts_publish":1760431660000,
+	"dt_publish":"2025-10-14 16:47:40.000",
+	"ts_update":1760433489012,
+	"dt_update":"2025-10-14 17:17:48.621",
+	"count_dep":72,
+	"count_ref":5,
 	"licenses":[
 		"Eclipse Public License - Version 2.0"
 	],
@@ -23,7 +23,7 @@
 	"count_used_by":2,
 	"home_page":"https://eclipse.dev/ditto/ditto-bom/ditto-internal/ditto-internal-utils/ditto-internal-utils-pubsub-policies/",
 	"license":"EPL 2.0",
-	"ranking":"#220910 in MvnRepository",
+	"ranking":"#219988 in MvnRepository",
 	"tags":[
 		"messaging",
 		"eclipse",
@@ -31,6 +31,14 @@
 		"policy"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.8.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.6.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.6.6",
 			"vulnerabilities":""
 		}
 	]
