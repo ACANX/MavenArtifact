@@ -3,12 +3,12 @@
 	"description":"Library to help testing plexus components",
 	"group_id":"org.codehaus.plexus",
 	"artifact_id":"plexus-testing",
-	"version_latest":"1.6.1",
-	"ts_publish":1760194731000,
-	"dt_publish":"2025-10-11 22:58:51.000",
-	"ts_update":1760197478724,
-	"dt_update":"2025-10-11 23:44:23.499",
-	"count_dep":26,
+	"version_latest":"1.7.0",
+	"ts_publish":1760476625000,
+	"dt_publish":"2025-10-15 05:17:05.000",
+	"ts_update":1760477187647,
+	"dt_update":"2025-10-15 05:26:17.028",
+	"count_dep":28,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -53,15 +53,23 @@
 		"Joakim Erdfelt"
 	],
 	"url_scm":"https://github.com/codehaus-plexus/plexus-testing",
-	"count_used_by":35,
+	"count_used_by":36,
 	"license":"Apache 2.0",
-	"ranking":"#13512 in MvnRepository",
+	"ranking":"#13171 in MvnRepository",
 	"tags":[
 		"quality",
 		"testing",
 		"codehaus"
 	],
 	"versions":[
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.6.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -118,5 +126,6 @@
 			"version":"1.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://codehaus-plexus.github.io/plexus-testing/"
 }
