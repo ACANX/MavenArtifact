@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-executionPlan-execution-authorizer",
-	"version_latest":"4.103.1",
-	"ts_publish":1760120617000,
-	"dt_publish":"2025-10-11 02:23:37.000",
-	"ts_update":1760122261613,
-	"dt_update":"2025-10-11 02:50:33.173",
+	"version_latest":"4.103.2",
+	"ts_publish":1760436110000,
+	"dt_publish":"2025-10-14 18:01:50.000",
+	"ts_update":1760437587764,
+	"dt_update":"2025-10-14 18:26:14.112",
 	"count_dep":8,
-	"count_ref":6,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-base/legend-engine-core-executionPlan-execution/legend-engine-executionPlan-execution-authorizer",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#55239 in MvnRepository",
+	"ranking":"#55275 in MvnRepository",
 	"tags":[
 		"authorization",
 		"exec",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.103.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"4.96.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.95.1",
 			"vulnerabilities":""
 		}
 	]
