@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/com.snowflake/snowpipe-streaming",
-	"description":"Java SDK for Snowflake's streaming ingest capabilities (unshaded - external dependencies required)",
+	"description":"Java SDK for Snowflake's streaming ingest capabilities (shaded - all dependencies included)",
 	"group_id":"com.snowflake",
 	"artifact_id":"snowpipe-streaming",
-	"version_latest":"1.0.1-unshaded",
-	"ts_publish":1758580623000,
-	"dt_publish":"2025-09-23 06:37:03.000",
-	"ts_update":1758581805367,
-	"dt_update":"2025-09-23 06:56:14.021",
-	"count_dep":0,
+	"version_latest":"1.0.2",
+	"ts_publish":1760466725000,
+	"dt_publish":"2025-10-15 02:32:05.000",
+	"ts_update":1760467869277,
+	"dt_update":"2025-10-15 02:50:55.885",
+	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,12 +25,28 @@
 	"url_scm":"https://github.com/snowflakedb/snowflake-ingest-sdk",
 	"home_page":"https://github.com/snowflakedb/snowflake-ingest-sdk",
 	"license":"Apache 2.0",
-	"ranking":"#784637 in MvnRepository",
+	"ranking":"#717336 in MvnRepository",
 	"tags":[
 		"streaming",
 		"snowflake"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.1-unshaded",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250918",
 			"repository":"Central",
