@@ -3,12 +3,12 @@
 	"description":"Low-level AWS wrapper for ZIO",
 	"group_id":"dev.zio",
 	"artifact_id":"zio-aws-netty_2.13",
-	"version_latest":"7.35.5.2",
-	"ts_publish":1760439387000,
-	"dt_publish":"2025-10-14 18:56:27.000",
-	"ts_update":1760441214912,
-	"dt_update":"2025-10-14 19:26:14.512",
-	"count_dep":19,
+	"version_latest":"7.35.6.1",
+	"ts_publish":1760525778000,
+	"dt_publish":"2025-10-15 18:56:18.000",
+	"ts_update":1760527608623,
+	"dt_update":"2025-10-15 19:26:33.897",
+	"count_dep":48,
 	"count_ref":0,
 	"licenses":[
 		"APL2"
@@ -26,7 +26,7 @@
 	"count_used_by":13,
 	"home_page":"https://github.com/zio/zio-aws",
 	"license":"Apache 2.0",
-	"ranking":"#35537 in MvnRepository",
+	"ranking":"#35584 in MvnRepository",
 	"tags":[
 		"network",
 		"aws",
@@ -38,10 +38,34 @@
 	],
 	"versions":[
 		{
-			"date":"20251009",
+			"date":"20251014",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"7.35.5.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251012",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.35.5.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"7.35.3.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
 			"version":"7.35.2.1",
 			"vulnerabilities":""
 		},
@@ -1419,22 +1443,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.19.33.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.19.31.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230209",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.19.31.4",
 			"vulnerabilities":""
 		}
 	]
