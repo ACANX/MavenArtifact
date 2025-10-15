@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-openlineage-core",
-	"version_latest":"3.3.0.Final",
-	"ts_publish":1759299995000,
-	"dt_publish":"2025-10-01 14:26:35.000",
-	"ts_update":1759301795524,
-	"dt_update":"2025-10-01 14:52:53.389",
+	"version_latest":"3.3.1.Final",
+	"ts_publish":1760511613000,
+	"dt_publish":"2025-10-15 15:00:13.000",
+	"ts_update":1760512628698,
+	"dt_update":"2025-10-15 15:16:41.643",
 	"count_dep":10,
 	"count_ref":4,
 	"licenses":[
@@ -26,13 +26,21 @@
 		"Randall Hauch"
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-openlineage/debezium-openlineage-core",
-	"count_used_by":3,
+	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#147812 in MvnRepository",
+	"ranking":"#117471 in MvnRepository",
 	"tags":[
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.3.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -63,6 +71,14 @@
 			"type":"alpha",
 			"usage":3,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.2.4.Final",
 			"vulnerabilities":""
 		},
 		{

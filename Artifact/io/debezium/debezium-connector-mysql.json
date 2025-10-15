@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-mysql",
-	"version_latest":"3.3.0.Final",
-	"ts_publish":1759299995000,
-	"dt_publish":"2025-10-01 14:26:35.000",
-	"ts_update":1759307316554,
-	"dt_update":"2025-10-01 14:52:53.387",
+	"version_latest":"3.3.1.Final",
+	"ts_publish":1760511613000,
+	"dt_publish":"2025-10-15 15:00:13.000",
+	"ts_update":1760512635500,
+	"dt_update":"2025-10-15 15:16:41.647",
 	"count_dep":40,
 	"count_ref":4,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"count_used_by":61,
 	"home_page":"https://debezium.io/",
 	"license":"Apache 2.0",
-	"ranking":"#8171 in MvnRepository",
+	"ranking":"#8199 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -39,6 +39,14 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"3.3.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -72,6 +80,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.2.4.Final",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250925",
 			"repository":"Central",
 			"type":"release",
@@ -83,7 +99,7 @@
 			"date":"20250904",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":8,
 			"version":"3.2.2.Final",
 			"vulnerabilities":""
 		},
@@ -181,22 +197,6 @@
 			"type":"beta",
 			"usage":6,
 			"version":"3.1.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":6,
-			"version":"3.1.0.Alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250120",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":6,
-			"version":"3.1.0.Alpha1",
 			"vulnerabilities":""
 		}
 	]

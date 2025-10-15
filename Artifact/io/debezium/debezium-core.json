@@ -3,13 +3,13 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-core",
-	"version_latest":"3.3.0.Final",
-	"ts_publish":1759299995000,
-	"dt_publish":"2025-10-01 14:26:35.000",
-	"ts_update":1759306927460,
-	"dt_update":"2025-10-01 14:52:52.059",
+	"version_latest":"3.3.1.Final",
+	"ts_publish":1760511613000,
+	"dt_publish":"2025-10-15 15:00:13.000",
+	"ts_update":1760512618269,
+	"dt_update":"2025-10-15 15:16:43.651",
 	"count_dep":29,
-	"count_ref":36,
+	"count_ref":35,
 	"licenses":[
 		"Apache Software License 2.0"
 	],
@@ -29,11 +29,19 @@
 	"count_used_by":142,
 	"home_page":"https://debezium.io/",
 	"license":"Apache 2.0",
-	"ranking":"#3782 in MvnRepository",
+	"ranking":"#3793 in MvnRepository",
 	"tags":[
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":53,
+			"version":"3.3.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -67,6 +75,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":51,
+			"version":"3.2.4.Final",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250925",
 			"repository":"Central",
 			"type":"release",
@@ -78,7 +94,7 @@
 			"date":"20250904",
 			"repository":"Central",
 			"type":"release",
-			"usage":51,
+			"usage":52,
 			"version":"3.2.2.Final",
 			"vulnerabilities":""
 		},
@@ -176,22 +192,6 @@
 			"type":"beta",
 			"usage":44,
 			"version":"3.1.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":44,
-			"version":"3.1.0.Alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250120",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":44,
-			"version":"3.1.0.Alpha1",
 			"vulnerabilities":""
 		}
 	]
