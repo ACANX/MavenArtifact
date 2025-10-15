@@ -3,11 +3,11 @@
 	"description":"This project aims to create a structural representation of similar nominal Java classes. A structural type is\n        represented by an interface that contains property accessors for all properties that are defined by those\n        classes. For each class, a projection class is generated that implements that interface for delegation to the\n        nominal classes for which the structure was created. Additionally, a template implementation is created that\n        implements the structural interface as a Java bean.",
 	"group_id":"codes.rafael.structuraltype",
 	"artifact_id":"structural-type-maven-plugin",
-	"version_latest":"1.12",
-	"ts_publish":1759758036000,
-	"dt_publish":"2025-10-06 21:40:36.000",
-	"ts_update":1759758703748,
-	"dt_update":"2025-10-06 21:51:35.233",
+	"version_latest":"1.13",
+	"ts_publish":1760519422000,
+	"dt_publish":"2025-10-15 17:10:22.000",
+	"ts_update":1760520386135,
+	"dt_update":"2025-10-15 17:26:17.365",
 	"count_dep":42,
 	"count_ref":0,
 	"licenses":[
@@ -21,7 +21,7 @@
 	],
 	"url_scm":"http://github.com/raphw/skatteprosessen-structural-type/tree/master/structural-type-maven-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#489427 in MvnRepository",
+	"ranking":"#489987 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -30,6 +30,14 @@
 		"types"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250618",
 			"repository":"Central",
