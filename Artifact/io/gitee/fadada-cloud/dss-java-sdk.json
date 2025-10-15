@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/io.gitee.fadada-cloud/dss-java-sdk",
-	"description":"版本更新介绍：解决一些已知问题",
+	"description":"版本更新介绍：\n        1、本地KMS加密机（本地硬件）\n        2、时间戳服务器（本地硬件）\n        3、解决一些已知问题",
 	"group_id":"io.gitee.fadada-cloud",
 	"artifact_id":"dss-java-sdk",
-	"version_latest":"1.2.8-11",
-	"ts_publish":1757598216000,
-	"dt_publish":"2025-09-11 21:43:36.000",
-	"ts_update":1757601349339,
-	"dt_update":"2025-09-11 22:34:32.853",
+	"version_latest":"1.3.1-11",
+	"ts_publish":1760494966000,
+	"dt_publish":"2025-10-15 10:22:46.000",
+	"ts_update":1760496270344,
+	"dt_update":"2025-10-15 10:44:14.649",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,13 +22,29 @@
 	"url_scm":"https://gitee.com/fadada-cloud/dss-java-sdk",
 	"home_page":"https://gitee.com/fadada-cloud/dss-java-sdk",
 	"license":"Apache 2.0",
-	"ranking":"#718683 in MvnRepository",
+	"ranking":"#744286 in MvnRepository",
 	"tags":[
 		"sdk",
 		"gitee",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.8-11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.8-8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.1.5-11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250307",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.1.4-11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241127",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.1.1-11",
 			"vulnerabilities":""
 		}
 	]
