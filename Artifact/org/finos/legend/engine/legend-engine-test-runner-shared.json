@@ -3,11 +3,11 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-test-runner-shared",
-	"version_latest":"4.103.1",
-	"ts_publish":1760120617000,
-	"dt_publish":"2025-10-11 02:23:37.000",
-	"ts_update":1760122257202,
-	"dt_update":"2025-10-11 02:50:33.177",
+	"version_latest":"4.103.3",
+	"ts_publish":1760488041000,
+	"dt_publish":"2025-10-15 08:27:21.000",
+	"ts_update":1760489802791,
+	"dt_update":"2025-10-15 08:56:20.242",
 	"count_dep":4,
 	"count_ref":5,
 	"licenses":[
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-testable/legend-engine-test-runner-shared",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#48736 in MvnRepository",
+	"ranking":"#48810 in MvnRepository",
 	"tags":[
 		"runner",
 		"testing",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.103.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"4.96.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.95.1",
 			"vulnerabilities":""
 		}
 	]
