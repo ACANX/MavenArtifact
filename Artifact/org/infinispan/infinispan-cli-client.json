@@ -3,13 +3,13 @@
 	"description":"Infinispan CLI Client module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-cli-client",
-	"version_latest":"16.0.0.Dev05",
-	"ts_publish":1759403881000,
-	"dt_publish":"2025-10-02 19:18:01.000",
-	"ts_update":1759405676815,
-	"dt_update":"2025-10-02 19:44:37.891",
+	"version_latest":"16.0.0.Dev06",
+	"ts_publish":1760522236000,
+	"dt_publish":"2025-10-15 17:57:16.000",
+	"ts_update":1760523490990,
+	"dt_update":"2025-10-15 18:17:57.420",
 	"count_dep":30,
-	"count_ref":3,
+	"count_ref":8,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.infinispan/infinispan-cli-client@16.0.0.Dev03",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#68983 in MvnRepository",
+	"ranking":"#69342 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"cache",
@@ -28,6 +28,14 @@
 		"command-line"
 	],
 	"versions":[
+		{
+			"date":"20251002",
+			"repository":"Central",
+			"type":"dev",
+			"usage":3,
+			"version":"16.0.0.Dev05",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250917",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"15.1.3.Final",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20241223",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"15.1.2.Final",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]
