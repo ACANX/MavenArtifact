@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-ibmi",
-	"version_latest":"3.3.0.Final",
-	"ts_publish":1759303533000,
-	"dt_publish":"2025-10-01 15:25:33.000",
-	"ts_update":1759323511654,
-	"dt_update":"2025-10-01 15:56:07.610",
+	"version_latest":"3.3.1.Final",
+	"ts_publish":1760515746000,
+	"dt_publish":"2025-10-15 16:09:06.000",
+	"ts_update":1760516524071,
+	"dt_update":"2025-10-15 16:21:49.426",
 	"count_dep":24,
 	"count_ref":0,
 	"licenses":[
@@ -28,13 +28,21 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium-connector-ibmi/debezium-connector-ibmi",
 	"license":"Apache 2.0",
-	"ranking":"#472780 in MvnRepository",
+	"ranking":"#474070 in MvnRepository",
 	"tags":[
 		"connector",
 		"connection",
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -65,6 +73,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.4.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -177,22 +193,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"3.1.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.1.0.Alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250120",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.1.0.Alpha1",
 			"vulnerabilities":""
 		}
 	]
