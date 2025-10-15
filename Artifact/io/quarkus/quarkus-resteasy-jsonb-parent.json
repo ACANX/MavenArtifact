@@ -2,11 +2,11 @@
 	"id":"pkg:maven/io.quarkus/quarkus-resteasy-jsonb-parent",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-resteasy-jsonb-parent",
-	"version_latest":"3.28.2",
-	"ts_publish":1759324120000,
-	"dt_publish":"2025-10-01 21:08:40.000",
-	"ts_update":1759330679734,
-	"dt_update":"2025-10-01 21:42:51.171",
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559343000,
+	"dt_publish":"2025-10-16 04:15:43.000",
+	"ts_update":1760560564593,
+	"dt_update":"2025-10-16 04:35:46.763",
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"description":"Build parent to bring in required dependencies",
 	"license":"Apache 2.0",
-	"ranking":"#437756 in MvnRepository",
+	"ranking":"#439764 in MvnRepository",
 	"tags":[
 		"binary",
 		"quarkus",
@@ -35,6 +35,22 @@
 		"jsonb"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.24.3",
 			"vulnerabilities":""
 		}
 	]

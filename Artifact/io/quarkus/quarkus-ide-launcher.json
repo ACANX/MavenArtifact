@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.quarkus/quarkus-ide-launcher",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-ide-launcher",
-	"version_latest":"3.28.3",
-	"ts_publish":1760007534000,
-	"dt_publish":"2025-10-09 18:58:54.000",
-	"ts_update":1760009351288,
-	"dt_update":"2025-10-09 19:26:36.931",
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559344000,
+	"dt_publish":"2025-10-16 04:15:44.000",
+	"ts_update":1760560578743,
+	"dt_update":"2025-10-16 04:35:36.071",
 	"count_dep":4,
-	"count_ref":0,
+	"count_ref":93,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -17,13 +17,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-ide-launcher@3.25.1",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#124403 in MvnRepository",
+	"ranking":"#124633 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"ide",
 		"launcher"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.4",
 			"vulnerabilities":""
 		}
 	]

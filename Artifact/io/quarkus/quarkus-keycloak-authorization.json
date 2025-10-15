@@ -3,11 +3,11 @@
 	"description":"Policy enforcer using Keycloak-managed permissions to control access to protected resources",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-keycloak-authorization",
-	"version_latest":"3.28.2",
-	"ts_publish":1759324120000,
-	"dt_publish":"2025-10-01 21:08:40.000",
-	"ts_update":1759329662626,
-	"dt_update":"2025-10-01 21:42:56.428",
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559343000,
+	"dt_publish":"2025-10-16 04:15:43.000",
+	"ts_update":1760560570915,
+	"dt_update":"2025-10-16 04:35:48.355",
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[],
@@ -18,13 +18,29 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-keycloak-authorization@3.25.1",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#44869 in MvnRepository",
+	"ranking":"#45041 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"keycloak",
 		"authorization"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.3",
 			"vulnerabilities":""
 		}
 	]

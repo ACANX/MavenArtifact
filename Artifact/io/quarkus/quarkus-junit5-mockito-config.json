@@ -3,13 +3,13 @@
 	"description":"Contains a MockitoConfiguration that has to be loaded parent-first to work in continuous testing.\n        It is separated from junit5-mockito to minimize the blast radius.",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-junit5-mockito-config",
-	"version_latest":"3.28.2",
-	"ts_publish":1759324119000,
-	"dt_publish":"2025-10-01 21:08:39.000",
-	"ts_update":1759345046154,
-	"dt_update":"2025-10-01 21:43:00.816",
-	"count_dep":2,
-	"count_ref":1,
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559343000,
+	"dt_publish":"2025-10-16 04:15:43.000",
+	"ts_update":1760560567099,
+	"dt_update":"2025-10-16 04:35:42.643",
+	"count_dep":1,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-junit5-mockito-config@3.25.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#425479 in MvnRepository",
+	"ranking":"#427245 in MvnRepository",
 	"tags":[
 		"mock",
 		"quarkus",
@@ -28,6 +28,22 @@
 		"mockito"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.3",
 			"vulnerabilities":""
 		}
 	]

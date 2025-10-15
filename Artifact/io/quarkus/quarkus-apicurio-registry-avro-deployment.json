@@ -2,12 +2,12 @@
 	"id":"pkg:maven/io.quarkus/quarkus-apicurio-registry-avro-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-apicurio-registry-avro-deployment",
-	"version_latest":"3.28.3",
-	"ts_publish":1760007534000,
-	"dt_publish":"2025-10-09 18:58:54.000",
-	"ts_update":1760009373328,
-	"dt_update":"2025-10-09 19:26:39.960",
-	"count_dep":4,
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559344000,
+	"dt_publish":"2025-10-16 04:15:44.000",
+	"ts_update":1760560567001,
+	"dt_update":"2025-10-16 04:35:37.153",
+	"count_dep":3,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-apicurio-registry-avro-deployment@3.25.1",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#140005 in MvnRepository",
+	"ranking":"#140202 in MvnRepository",
 	"tags":[
 		"registry",
 		"deployment",
@@ -27,6 +27,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.24.4",
 			"vulnerabilities":""
 		}
 	]
