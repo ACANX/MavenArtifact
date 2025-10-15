@@ -3,11 +3,11 @@
 	"description":"Debezium Db2 connector is an open source change data capture connector for Db2 LUW databases",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-db2",
-	"version_latest":"3.3.0.Final",
-	"ts_publish":1759301231000,
-	"dt_publish":"2025-10-01 14:47:11.000",
-	"ts_update":1759306904025,
-	"dt_update":"2025-10-01 15:26:03.993",
+	"version_latest":"3.3.1.Final",
+	"ts_publish":1760513115000,
+	"dt_publish":"2025-10-15 15:25:15.000",
+	"ts_update":1760514363313,
+	"dt_update":"2025-10-15 15:45:41.748",
 	"count_dep":43,
 	"count_ref":0,
 	"licenses":[
@@ -30,7 +30,7 @@
 	"count_used_by":12,
 	"home_page":"https://debezium.io",
 	"license":"Apache 2.0",
-	"ranking":"#37391 in MvnRepository",
+	"ranking":"#37524 in MvnRepository",
 	"tags":[
 		"database",
 		"connector",
@@ -38,6 +38,14 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.3.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -68,6 +76,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.4.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -180,22 +196,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"3.1.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"3.1.0.Alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250120",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"3.1.0.Alpha1",
 			"vulnerabilities":""
 		}
 	]
