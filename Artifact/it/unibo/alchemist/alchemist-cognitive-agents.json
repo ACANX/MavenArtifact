@@ -3,12 +3,12 @@
 	"description":"Abstraction for group of pedestrians capable of influence each other emotionally.",
 	"group_id":"it.unibo.alchemist",
 	"artifact_id":"alchemist-cognitive-agents",
-	"version_latest":"42.3.10",
-	"ts_publish":1760403548000,
-	"dt_publish":"2025-10-14 08:59:08.000",
-	"ts_update":1760404136599,
-	"dt_update":"2025-10-14 09:08:48.662",
-	"count_dep":12,
+	"version_latest":"42.3.11",
+	"ts_publish":1760541517000,
+	"dt_publish":"2025-10-15 23:18:37.000",
+	"ts_update":1760543199780,
+	"dt_update":"2025-10-15 23:46:22.729",
+	"count_dep":15,
 	"count_ref":2,
 	"licenses":[
 		"GPL 3.0 with linking exception"
@@ -27,11 +27,19 @@
 	"url_scm":"https://github.com/AlchemistSimulator/Alchemist",
 	"count_used_by":6,
 	"home_page":"https://github.com/AlchemistSimulator/Alchemist",
-	"ranking":"#76053 in MvnRepository",
+	"ranking":"#76059 in MvnRepository",
 	"tags":[
 		"agent"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"42.3.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251012",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"42.2.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250727",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"42.2.8",
 			"vulnerabilities":""
 		}
 	]
