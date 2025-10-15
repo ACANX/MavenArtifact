@@ -3,11 +3,11 @@
 	"description":"Graylog",
 	"group_id":"org.graylog2",
 	"artifact_id":"graylog2-server",
-	"version_latest":"6.3.4",
-	"ts_publish":1759323222000,
-	"dt_publish":"2025-10-01 20:53:42.000",
-	"ts_update":1759329674054,
-	"dt_update":"2025-10-01 21:09:33.715",
+	"version_latest":"6.3.5",
+	"ts_publish":1760517385000,
+	"dt_publish":"2025-10-15 16:36:25.000",
+	"ts_update":1760517940276,
+	"dt_update":"2025-10-15 16:45:24.554",
 	"count_dep":43,
 	"count_ref":2,
 	"licenses":[
@@ -27,13 +27,21 @@
 	"url_ci_management":"https://github.com/Graylog2/graylog2-server/actions",
 	"count_used_by":13,
 	"license":"SSPL",
-	"ranking":"#35385 in MvnRepository",
+	"ranking":"#35504 in MvnRepository",
 	"tags":[
 		"logging",
 		"graylog",
 		"server"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.3.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -64,6 +72,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"6.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.2.8",
 			"vulnerabilities":""
 		},
 		{
@@ -131,6 +147,14 @@
 			"vulnerabilities":"1 vulnerability"
 		},
 		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.1.16",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250903",
 			"repository":"Central",
 			"type":"release",
@@ -169,30 +193,6 @@
 			"usage":1,
 			"version":"6.1.11",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250403",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250305",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.8",
-			"vulnerabilities":"2 vulnerabilities"
-		},
-		{
-			"date":"20250217",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.7",
-			"vulnerabilities":"2 vulnerabilities"
 		}
 	]
 }
