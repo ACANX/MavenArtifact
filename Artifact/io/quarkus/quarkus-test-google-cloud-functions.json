@@ -3,12 +3,12 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-test-google-cloud-functions",
-	"version_latest":"3.28.3",
-	"ts_publish":1760007534000,
-	"dt_publish":"2025-10-09 18:58:54.000",
-	"ts_update":1760009221999,
-	"dt_update":"2025-10-09 19:26:36.296",
-	"count_dep":3,
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559344000,
+	"dt_publish":"2025-10-16 04:15:44.000",
+	"ts_update":1760561272775,
+	"dt_update":"2025-10-16 04:47:29.087",
+	"count_dep":126,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,7 +25,7 @@
 	],
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"license":"Apache 2.0",
-	"ranking":"#888217 in MvnRepository",
+	"ranking":"#885722 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"google",
@@ -34,6 +34,22 @@
 		"functions"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.24.3",
 			"vulnerabilities":""
 		}
 	]

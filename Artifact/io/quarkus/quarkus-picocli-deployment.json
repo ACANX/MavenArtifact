@@ -2,12 +2,12 @@
 	"id":"pkg:maven/io.quarkus/quarkus-picocli-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-picocli-deployment",
-	"version_latest":"3.28.3",
-	"ts_publish":1760007534000,
-	"dt_publish":"2025-10-09 18:58:54.000",
-	"ts_update":1760009214170,
-	"dt_update":"2025-10-09 19:26:37.542",
-	"count_dep":6,
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559344000,
+	"dt_publish":"2025-10-16 04:15:44.000",
+	"ts_update":1760561260879,
+	"dt_update":"2025-10-16 04:47:20.115",
+	"count_dep":82,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -19,13 +19,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-picocli-deployment@3.25.2",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#130502 in MvnRepository",
+	"ranking":"#130755 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"command-line",
 		"deployment"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.24.4",
 			"vulnerabilities":""
 		}
 	],

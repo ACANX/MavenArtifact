@@ -2,12 +2,12 @@
 	"id":"pkg:maven/io.quarkus/quarkus-smallrye-jwt-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-smallrye-jwt-deployment",
-	"version_latest":"3.28.3",
-	"ts_publish":1760007534000,
-	"dt_publish":"2025-10-09 18:58:54.000",
-	"ts_update":1760009225349,
-	"dt_update":"2025-10-09 19:26:33.157",
-	"count_dep":13,
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559344000,
+	"dt_publish":"2025-10-16 04:15:44.000",
+	"ts_update":1760561261197,
+	"dt_update":"2025-10-16 04:47:30.295",
+	"count_dep":103,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,13 +25,29 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":15,
 	"license":"Apache 2.0",
-	"ranking":"#30318 in MvnRepository",
+	"ranking":"#30438 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
 		"jwt"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -60,7 +76,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":3,
 			"version":"3.27.0",
 			"vulnerabilities":""
 		},
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.3",
 			"vulnerabilities":""
 		}
 	],

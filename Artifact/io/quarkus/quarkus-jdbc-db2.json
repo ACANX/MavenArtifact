@@ -3,11 +3,11 @@
 	"description":"Connect to the DB2 database via JDBC",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-jdbc-db2",
-	"version_latest":"3.28.3",
-	"ts_publish":1760007535000,
-	"dt_publish":"2025-10-09 18:58:55.000",
-	"ts_update":1760009356223,
-	"dt_update":"2025-10-09 19:26:14.555",
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559343000,
+	"dt_publish":"2025-10-16 04:15:43.000",
+	"ts_update":1760561268367,
+	"dt_update":"2025-10-16 04:35:42.642",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[],
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-jdbc-db2@3.25.1",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#77852 in MvnRepository",
+	"ranking":"#77984 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -26,6 +26,14 @@
 		"jdbc"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.4",
 			"vulnerabilities":""
 		}
 	]

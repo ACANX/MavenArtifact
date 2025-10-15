@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.quarkus/quarkus-spring-web-resteasy",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-spring-web-resteasy",
-	"version_latest":"3.28.3",
-	"ts_publish":1760007535000,
-	"dt_publish":"2025-10-09 18:58:55.000",
-	"ts_update":1760009219994,
-	"dt_update":"2025-10-09 19:26:12.703",
-	"count_dep":16,
-	"count_ref":2,
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559344000,
+	"dt_publish":"2025-10-16 04:15:44.000",
+	"ts_update":1760561262673,
+	"dt_update":"2025-10-16 04:47:30.906",
+	"count_dep":124,
+	"count_ref":3,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -20,7 +20,7 @@
 	"description":"Build parent to bring in required dependencies",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#190557 in MvnRepository",
+	"ranking":"#191120 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -29,6 +29,22 @@
 		"web"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.24.3",
 			"vulnerabilities":""
 		}
 	]

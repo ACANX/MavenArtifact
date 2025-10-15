@@ -3,12 +3,12 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-spring-scheduled-deployment",
-	"version_latest":"3.28.3",
-	"ts_publish":1760007535000,
-	"dt_publish":"2025-10-09 18:58:55.000",
-	"ts_update":1760009219812,
-	"dt_update":"2025-10-09 19:26:13.284",
-	"count_dep":7,
+	"version_latest":"3.29.0.CR1",
+	"ts_publish":1760559344000,
+	"dt_publish":"2025-10-16 04:15:44.000",
+	"ts_update":1760561258637,
+	"dt_update":"2025-10-16 04:47:30.903",
+	"count_dep":147,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#401837 in MvnRepository",
+	"ranking":"#401458 in MvnRepository",
 	"tags":[
 		"deployment",
 		"scheduling",
@@ -34,6 +34,22 @@
 		"spring"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.3",
 			"vulnerabilities":""
 		}
 	]
