@@ -3,11 +3,11 @@
 	"description":"Gravitee IO Manager Service",
 	"group_id":"io.gravitee.apim.rest.api",
 	"artifact_id":"gravitee-apim-rest-api-service",
-	"version_latest":"4.9.0-alpha.4",
-	"ts_publish":1759859483000,
-	"dt_publish":"2025-10-08 01:51:23.000",
-	"ts_update":1759861367875,
-	"dt_update":"2025-10-08 02:22:26.567",
+	"version_latest":"4.9.0",
+	"ts_publish":1760621968000,
+	"dt_publish":"2025-10-16 21:39:28.000",
+	"ts_update":1760622986902,
+	"dt_update":"2025-10-16 21:56:20.125",
 	"count_dep":433,
 	"count_ref":26,
 	"licenses":[
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-rest-api/gravitee-apim-rest-api-service",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#45468 in MvnRepository",
+	"ranking":"#45543 in MvnRepository",
 	"tags":[
 		"rest",
 		"service",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":10,
+			"version":"4.9.0-alpha.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -58,6 +66,14 @@
 			"type":"alpha",
 			"usage":10,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"4.8.9",
 			"vulnerabilities":""
 		},
 		{
@@ -157,6 +173,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"4.7.16",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250926",
 			"repository":"Central",
 			"type":"release",
@@ -170,30 +194,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"4.7.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"4.7.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250815",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"4.7.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250801",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"4.7.11",
 			"vulnerabilities":""
 		}
 	]
