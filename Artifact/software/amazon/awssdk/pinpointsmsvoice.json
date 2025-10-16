@@ -3,13 +3,13 @@
 	"description":"The AWS Java SDK for Pinpoint SMS Voice module holds the client classes that are used for\n        communicating with Pinpoint SMS Voice.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"pinpointsmsvoice",
-	"version_latest":"2.35.8",
-	"ts_publish":1760572667000,
-	"dt_publish":"2025-10-16 07:57:47.000",
-	"ts_update":1760574404794,
-	"dt_update":"2025-10-16 08:26:30.039",
-	"count_dep":33,
-	"count_ref":1,
+	"version_latest":"2.35.9",
+	"ts_publish":1760655808000,
+	"dt_publish":"2025-10-17 07:03:28.000",
+	"ts_update":1760657199029,
+	"dt_update":"2025-10-17 07:26:22.807",
+	"count_dep":3,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/pinpointsmsvoice@2.32.17",
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#114365 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#114501 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.35.8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251014",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.35.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.35.6",
 			"vulnerabilities":""
 		},
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.33.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250918",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.11",
 			"vulnerabilities":""
 		}
 	]

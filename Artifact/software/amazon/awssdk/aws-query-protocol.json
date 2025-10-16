@@ -3,11 +3,11 @@
 	"description":"The AWS SDK for Java - module holds the classes for AWS Query protocol",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"aws-query-protocol",
-	"version_latest":"2.35.8",
-	"ts_publish":1760572667000,
-	"ts_update":1760574405119,
+	"version_latest":"2.35.9",
+	"ts_publish":1760655808000,
+	"ts_update":1760657235132,
 	"count_dep":9,
-	"count_ref":9,
+	"count_ref":2,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,12 +15,12 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/aws-query-protocol@2.32.16",
-	"dt_publish":"2025-10-16 07:57:47.000",
-	"dt_update":"2025-10-16 08:26:29.430",
+	"dt_publish":"2025-10-17 07:03:28.000",
+	"dt_update":"2025-10-17 07:26:22.808",
 	"count_used_by":53,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#9365 in MvnRepository",
+	"ranking":"#9367 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,6 +29,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"2.35.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251013",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":22,
 			"version":"2.33.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"2.33.11",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"The AWS Java SDK for AWS KMS module holds the client classes that are used for communicating with AWS\n        Key Management Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"kms",
-	"version_latest":"2.35.8",
-	"ts_publish":1760572667000,
-	"dt_publish":"2025-10-16 07:57:47.000",
-	"ts_update":1760574419851,
-	"dt_update":"2025-10-16 08:26:30.735",
-	"count_dep":33,
-	"count_ref":2,
+	"version_latest":"2.35.9",
+	"ts_publish":1760655808000,
+	"dt_publish":"2025-10-17 07:03:28.000",
+	"ts_update":1760657230685,
+	"dt_update":"2025-10-17 07:26:22.805",
+	"count_dep":3,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -17,10 +17,10 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/kms@2.32.17",
-	"count_used_by":66,
+	"count_used_by":67,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#7636 in MvnRepository",
+	"ranking":"#7517 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -30,6 +30,22 @@
 		"encryption"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.35.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.35.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.33.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250917",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.33.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.33.10",
 			"vulnerabilities":""
 		}
 	]
