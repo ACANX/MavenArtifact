@@ -3,12 +3,12 @@
 	"description":"A tool developed by the UK National Archives to perform automated batch identification of file formats.",
 	"group_id":"uk.gov.nationalarchives",
 	"artifact_id":"droid-ui",
-	"version_latest":"6.9.7",
-	"ts_publish":1759826144000,
-	"dt_publish":"2025-10-07 16:35:44.000",
-	"ts_update":1759828623148,
-	"dt_update":"2025-10-07 17:16:57.750",
-	"count_dep":150,
+	"version_latest":"6.9.8",
+	"ts_publish":1760615524000,
+	"dt_publish":"2025-10-16 19:52:04.000",
+	"ts_update":1760617594834,
+	"dt_update":"2025-10-16 20:26:19.679",
+	"count_dep":152,
 	"count_ref":1,
 	"licenses":[
 		"The BSD 3-Clause License"
@@ -36,11 +36,19 @@
 	"url_scm":"scm:git:https://github.com/digital-preservation/droid.git",
 	"count_used_by":1,
 	"license":"BSD 3-clause",
-	"ranking":"#377425 in MvnRepository",
+	"ranking":"#368395 in MvnRepository",
 	"tags":[
 		"ui"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.9.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250929",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"6.7.0-RC4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230801",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.7.0-RC3",
 			"vulnerabilities":""
 		}
 	]

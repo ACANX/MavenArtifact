@@ -3,12 +3,12 @@
 	"description":"Thrift transport and HTTP server integrations for Woody services.",
 	"group_id":"dev.vality.woody",
 	"artifact_id":"woody-thrift",
-	"version_latest":"2.0.12",
-	"ts_publish":1760432710000,
-	"dt_publish":"2025-10-14 17:05:10.000",
-	"ts_update":1760433513600,
-	"dt_update":"2025-10-14 17:17:46.687",
-	"count_dep":18,
+	"version_latest":"2.0.13",
+	"ts_publish":1760616227000,
+	"dt_publish":"2025-10-16 20:03:47.000",
+	"ts_update":1760617594640,
+	"dt_update":"2025-10-16 20:26:18.475",
+	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -20,15 +20,23 @@
 		"Vality Developers"
 	],
 	"url_scm":"https://github.com/valitydev/woody_java/tree/master",
-	"count_used_by":79,
+	"count_used_by":80,
 	"license":"Apache 2.0",
-	"ranking":"#6392 in MvnRepository",
+	"ranking":"#6314 in MvnRepository",
 	"tags":[
 		"serialization",
 		"thrift",
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.0.12",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.0.4-epic-2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240801",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.4-epic-1",
 			"vulnerabilities":""
 		}
 	],
