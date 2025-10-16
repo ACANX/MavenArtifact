@@ -3,11 +3,11 @@
 	"description":"Spring LDAP",
 	"group_id":"org.springframework.ldap",
 	"artifact_id":"spring-ldap-core",
-	"version_latest":"4.0.0-M3",
-	"ts_publish":1757608009000,
-	"dt_publish":"2025-09-12 00:26:49.000",
-	"ts_update":1757609340957,
-	"dt_update":"2025-09-12 00:47:38.629",
+	"version_latest":"4.0.0-RC1",
+	"ts_publish":1760633561000,
+	"dt_publish":"2025-10-17 00:52:41.000",
+	"ts_update":1760634878524,
+	"dt_update":"2025-10-17 01:14:04.670",
 	"count_dep":14,
 	"count_ref":4,
 	"licenses":[
@@ -25,10 +25,10 @@
 		"Pivotal"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-ldap",
-	"count_used_by":380,
+	"count_used_by":382,
 	"home_page":"https://spring.io/projects/spring-ldap",
 	"license":"Apache 2.0",
-	"ranking":"#1599 in MvnRepository",
+	"ranking":"#1618 in MvnRepository",
 	"tags":[
 		"spring",
 		"framework",
@@ -36,6 +36,14 @@
 		"directory"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":7,
+			"version":"4.0.0-M3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -56,7 +64,7 @@
 			"date":"20250814",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":15,
 			"version":"3.3.3",
 			"vulnerabilities":""
 		},
@@ -88,7 +96,7 @@
 			"date":"20250814",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":13,
 			"version":"3.2.14",
 			"vulnerabilities":""
 		},
@@ -104,7 +112,7 @@
 			"date":"20250418",
 			"repository":"Central",
 			"type":"release",
-			"usage":16,
+			"usage":18,
 			"version":"3.2.12",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":13,
 			"version":"3.2.2",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20231215",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"3.2.1",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]
