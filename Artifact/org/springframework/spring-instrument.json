@@ -3,11 +3,11 @@
 	"description":"Spring Instrument",
 	"group_id":"org.springframework",
 	"artifact_id":"spring-instrument",
-	"version_latest":"7.0.0-M9",
-	"ts_publish":1757591866000,
-	"dt_publish":"2025-09-11 19:57:46.000",
-	"ts_update":1757593608803,
-	"dt_update":"2025-09-11 20:26:04.469",
+	"version_latest":"7.0.0-RC1",
+	"ts_publish":1760602301000,
+	"dt_publish":"2025-10-16 16:11:41.000",
+	"ts_update":1760602947865,
+	"dt_update":"2025-10-16 16:22:12.811",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,10 +24,10 @@
 		"Juergen Hoeller"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-framework",
-	"count_used_by":92,
+	"count_used_by":94,
 	"home_page":"https://github.com/spring-projects/spring-framework",
 	"license":"Apache 2.0",
-	"ranking":"#5489 in MvnRepository",
+	"ranking":"#5433 in MvnRepository",
 	"tags":[
 		"jvm",
 		"spring",
@@ -37,6 +37,14 @@
 		"instrumentation"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":2,
+			"version":"7.0.0-M9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -99,6 +107,14 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"7.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"6.2.11",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"6.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241114",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.1.21",
 			"vulnerabilities":""
 		}
 	]

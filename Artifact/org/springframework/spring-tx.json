@@ -3,11 +3,11 @@
 	"description":"Spring Transaction",
 	"group_id":"org.springframework",
 	"artifact_id":"spring-tx",
-	"version_latest":"7.0.0-M9",
-	"ts_publish":1757591866000,
-	"dt_publish":"2025-09-11 19:57:46.000",
-	"ts_update":1757593610064,
-	"dt_update":"2025-09-11 20:26:04.472",
+	"version_latest":"7.0.0-RC1",
+	"ts_publish":1760602301000,
+	"dt_publish":"2025-10-16 16:11:41.000",
+	"ts_update":1760602957988,
+	"dt_update":"2025-10-16 16:22:12.806",
 	"count_dep":4,
 	"count_ref":4,
 	"licenses":[
@@ -24,7 +24,7 @@
 		"Juergen Hoeller"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-framework",
-	"count_used_by":4463,
+	"count_used_by":4498,
 	"home_page":"https://github.com/spring-projects/spring-framework",
 	"license":"Apache 2.0",
 	"ranking":"#131 in MvnRepository",
@@ -35,6 +35,14 @@
 		"transaction"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":31,
+			"version":"7.0.0-M9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250814",
 			"repository":"Central",
@@ -55,7 +63,7 @@
 			"date":"20250612",
 			"repository":"Central",
 			"type":"milestone",
-			"usage":5,
+			"usage":6,
 			"version":"7.0.0-M6",
 			"vulnerabilities":""
 		},
@@ -100,10 +108,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":471,
+			"version":"6.2.11",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250814",
 			"repository":"Central",
 			"type":"release",
-			"usage":479,
+			"usage":511,
 			"version":"6.2.10",
 			"vulnerabilities":""
 		},
@@ -111,7 +127,7 @@
 			"date":"20250717",
 			"repository":"Central",
 			"type":"release",
-			"usage":496,
+			"usage":500,
 			"version":"6.2.9",
 			"vulnerabilities":""
 		},
@@ -119,7 +135,7 @@
 			"date":"20250612",
 			"repository":"Central",
 			"type":"release",
-			"usage":110,
+			"usage":114,
 			"version":"6.2.8",
 			"vulnerabilities":""
 		},
@@ -127,7 +143,7 @@
 			"date":"20250515",
 			"repository":"Central",
 			"type":"release",
-			"usage":530,
+			"usage":533,
 			"version":"6.2.7",
 			"vulnerabilities":""
 		},
@@ -175,24 +191,8 @@
 			"date":"20241212",
 			"repository":"Central",
 			"type":"release",
-			"usage":486,
+			"usage":488,
 			"version":"6.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241114",
-			"repository":"Central",
-			"type":"release",
-			"usage":479,
-			"version":"6.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":49,
-			"version":"6.1.21",
 			"vulnerabilities":""
 		}
 	]
