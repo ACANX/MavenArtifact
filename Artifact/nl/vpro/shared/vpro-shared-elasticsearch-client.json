@@ -3,11 +3,11 @@
 	"description":"Uses low level ES client, to avoid all lucene dependencies.",
 	"group_id":"nl.vpro.shared",
 	"artifact_id":"vpro-shared-elasticsearch-client",
-	"version_latest":"5.11.4",
-	"ts_publish":1758742244000,
-	"dt_publish":"2025-09-25 03:30:44.000",
-	"ts_update":1758743310937,
-	"dt_update":"2025-09-25 03:44:35.089",
+	"version_latest":"5.12.0",
+	"ts_publish":1760600292000,
+	"dt_publish":"2025-10-16 15:38:12.000",
+	"ts_update":1760601392778,
+	"dt_update":"2025-10-16 15:56:15.928",
 	"count_dep":79,
 	"count_ref":1,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_ci_management":"https://github.com/vpro/vpro-shared/actions",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#316653 in MvnRepository",
+	"ranking":"#316609 in MvnRepository",
 	"tags":[
 		"elasticsearch",
 		"elastic",
@@ -35,6 +35,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.11.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"5.4.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250116",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.4.3",
 			"vulnerabilities":""
 		}
 	]

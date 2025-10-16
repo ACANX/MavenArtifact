@@ -3,11 +3,11 @@
 	"description":"These are various shared utility modules which are used on several places in VPRO artifacts.",
 	"group_id":"nl.vpro.shared",
 	"artifact_id":"vpro-shared-hibernate",
-	"version_latest":"5.11.4",
-	"ts_publish":1758742244000,
-	"dt_publish":"2025-09-25 03:30:44.000",
-	"ts_update":1758745172479,
-	"dt_update":"2025-09-25 03:56:07.989",
+	"version_latest":"5.12.0",
+	"ts_publish":1760600292000,
+	"dt_publish":"2025-10-16 15:38:12.000",
+	"ts_update":1760601397911,
+	"dt_update":"2025-10-16 15:56:15.924",
 	"count_dep":34,
 	"count_ref":1,
 	"licenses":[
@@ -27,12 +27,20 @@
 	"url_ci_management":"https://github.com/vpro/vpro-shared/actions",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#248671 in MvnRepository",
+	"ranking":"#249619 in MvnRepository",
 	"tags":[
 		"persistence",
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.11.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"5.4.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250116",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.4.3",
 			"vulnerabilities":""
 		}
 	]
