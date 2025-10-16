@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-sql-mariadb",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-sql-mariadb",
-	"version_latest":"12.22.0",
-	"ts_publish":1760110635000,
-	"dt_publish":"2025-10-10 23:37:15.000",
-	"ts_update":1760111801080,
-	"dt_update":"2025-10-10 23:56:14.452",
-	"count_dep":63,
-	"count_ref":0,
+	"version_latest":"12.23.0",
+	"ts_publish":1760614471000,
+	"dt_publish":"2025-10-16 19:34:31.000",
+	"ts_update":1760615789331,
+	"dt_update":"2025-10-16 19:56:18.115",
+	"count_dep":112,
+	"count_ref":1,
 	"licenses":[
 		"Eclipse Public License - v 2.0"
 	],
@@ -19,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.dirigible/dirigible-database-sql-mariadb@12.6.0",
 	"count_used_by":1,
 	"license":"EPL 2.0",
-	"ranking":"#300695 in MvnRepository",
+	"ranking":"#301041 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -29,6 +29,14 @@
 		"mysql"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.22.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251007",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"12.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.4.0",
 			"vulnerabilities":""
 		}
 	],
