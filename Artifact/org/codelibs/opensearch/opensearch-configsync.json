@@ -3,11 +3,11 @@
 	"description":"This plugin synchronizes OpenSearch configuration files across nodes, enabling consistent settings and secure, automated updates in distributed environments.",
 	"group_id":"org.codelibs.opensearch",
 	"artifact_id":"opensearch-configsync",
-	"version_latest":"3.2.0",
-	"ts_publish":1756603385000,
-	"dt_publish":"2025-08-31 09:23:05.000",
-	"ts_update":1756607225046,
-	"dt_update":"2025-08-31 10:25:55.161",
+	"version_latest":"3.3.0",
+	"ts_publish":1760581360000,
+	"dt_publish":"2025-10-16 10:22:40.000",
+	"ts_update":1760582552080,
+	"dt_update":"2025-10-16 10:42:25.462",
 	"count_dep":47,
 	"count_ref":0,
 	"licenses":[
@@ -25,12 +25,20 @@
 	"url_scm":"git@github.com:codelibs/opensearch-configsync.git",
 	"home_page":"https://github.com/codelibs/opensearch-configsync",
 	"license":"Apache 2.0",
-	"ranking":"#656058 in MvnRepository",
+	"ranking":"#832325 in MvnRepository",
 	"tags":[
 		"opensearch",
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20250831",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250703",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220922",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.3.0",
 			"vulnerabilities":""
 		}
 	]
