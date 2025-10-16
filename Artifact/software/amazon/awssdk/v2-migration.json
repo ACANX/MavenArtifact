@@ -3,12 +3,12 @@
 	"description":"Contains OpenRewrite recipes to help users migrate from the AWS SDK for Java v1 to the AWS SDK for Java v2",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"v2-migration",
-	"version_latest":"2.35.5",
-	"ts_publish":1760135600000,
-	"dt_publish":"2025-10-11 06:33:20.000",
-	"ts_update":1760136995053,
-	"dt_update":"2025-10-11 06:56:27.445",
-	"count_dep":39,
+	"version_latest":"2.35.8",
+	"ts_publish":1760572667000,
+	"dt_publish":"2025-10-16 07:57:47.000",
+	"ts_update":1760574402725,
+	"dt_update":"2025-10-16 08:26:29.436",
+	"count_dep":73,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/v2-migration",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#406669 in MvnRepository",
+	"ranking":"#406145 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -30,6 +30,30 @@
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.35.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.35.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.35.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251008",
 			"repository":"Central",
@@ -164,30 +188,6 @@
 			"type":"preview",
 			"usage":0,
 			"version":"2.33.11-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.33.10-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250913",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.33.9-PREVIEW",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250911",
-			"repository":"Central",
-			"type":"preview",
-			"usage":0,
-			"version":"2.33.8-PREVIEW",
 			"vulnerabilities":""
 		}
 	]

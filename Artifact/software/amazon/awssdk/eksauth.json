@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for EKS Auth module holds the client classes that are used for\n        communicating with EKS Auth.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"eksauth",
-	"version_latest":"2.35.7",
-	"ts_publish":1760478329000,
-	"dt_publish":"2025-10-15 05:45:29.000",
-	"ts_update":1760480163228,
-	"dt_update":"2025-10-15 06:14:54.014",
+	"version_latest":"2.35.8",
+	"ts_publish":1760572666000,
+	"dt_publish":"2025-10-16 07:57:46.000",
+	"ts_update":1760574399749,
+	"dt_update":"2025-10-16 08:26:31.459",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
@@ -19,14 +19,22 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/eksauth@2.32.18",
 	"count_used_by":3,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#152792 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#152628 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.35.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251013",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.33.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250917",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.11",
 			"vulnerabilities":""
 		}
 	]
