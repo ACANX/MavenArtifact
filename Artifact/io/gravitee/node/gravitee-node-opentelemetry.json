@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-opentelemetry",
-	"version_latest":"7.14.0",
-	"ts_publish":1760525330000,
-	"dt_publish":"2025-10-15 18:48:50.000",
-	"ts_update":1760526844913,
-	"dt_update":"2025-10-15 19:13:38.489",
+	"version_latest":"7.15.0",
+	"ts_publish":1760603927000,
+	"dt_publish":"2025-10-16 16:38:47.000",
+	"ts_update":1760604853989,
+	"dt_update":"2025-10-16 16:53:53.480",
 	"count_dep":109,
 	"count_ref":2,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-opentelemetry",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#95824 in MvnRepository",
+	"ranking":"#95816 in MvnRepository",
 	"tags":[
 		"node",
 		"telemetry",
@@ -38,10 +38,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.14.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251014",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"7.13.2",
 			"vulnerabilities":""
 		},
@@ -129,7 +137,7 @@
 			"date":"20251014",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"7.9.7",
 			"vulnerabilities":""
 		},
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.8.1",
 			"vulnerabilities":""
 		}
 	]
