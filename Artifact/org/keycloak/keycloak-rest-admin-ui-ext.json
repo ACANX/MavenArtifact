@@ -3,13 +3,13 @@
 	"description":"Custom REST endpoints for the Admin UI",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-rest-admin-ui-ext",
-	"version_latest":"26.4.0",
-	"ts_publish":1759232311000,
-	"dt_publish":"2025-09-30 19:38:31.000",
-	"ts_update":1759257814368,
-	"dt_update":"2025-09-30 19:56:18.075",
-	"count_dep":21,
-	"count_ref":1,
+	"version_latest":"26.4.1",
+	"ts_publish":1760598266000,
+	"dt_publish":"2025-10-16 15:04:26.000",
+	"ts_update":1760599609666,
+	"dt_update":"2025-10-16 15:26:20.278",
+	"count_dep":166,
+	"count_ref":22,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-rest-parent/keycloak-rest-admin-ui-ext/",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#164859 in MvnRepository",
+	"ranking":"#171053 in MvnRepository",
 	"tags":[
 		"admin",
 		"rest",
@@ -35,6 +35,14 @@
 		"ui"
 	],
 	"versions":[
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"26.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250925",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"26.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.0.7",
 			"vulnerabilities":""
 		}
 	]

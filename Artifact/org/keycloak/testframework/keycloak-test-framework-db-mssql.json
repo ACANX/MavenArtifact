@@ -3,12 +3,12 @@
 	"description":"SQL Server support for Keycloak Test Framework",
 	"group_id":"org.keycloak.testframework",
 	"artifact_id":"keycloak-test-framework-db-mssql",
-	"version_latest":"26.4.0",
-	"ts_publish":1759232311000,
-	"dt_publish":"2025-09-30 19:38:31.000",
-	"ts_update":1759235269614,
-	"dt_update":"2025-09-30 19:56:17.149",
-	"count_dep":18,
+	"version_latest":"26.4.1",
+	"ts_publish":1760598266000,
+	"dt_publish":"2025-10-16 15:04:26.000",
+	"ts_update":1760599587999,
+	"dt_update":"2025-10-16 15:26:17.879",
+	"count_dep":640,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-test-framework-parent/keycloak-test-framework-db-mssql/",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#219850 in MvnRepository",
+	"ranking":"#211225 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -33,6 +33,22 @@
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.3.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",

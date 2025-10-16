@@ -3,13 +3,13 @@
 	"description":"Keycloak Kerberos Federation",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-kerberos-federation",
-	"version_latest":"26.4.0",
-	"ts_publish":1759232311000,
-	"dt_publish":"2025-09-30 19:38:31.000",
-	"ts_update":1759250683056,
-	"dt_update":"2025-09-30 19:56:17.143",
-	"count_dep":15,
-	"count_ref":3,
+	"version_latest":"26.4.1",
+	"ts_publish":1760598266000,
+	"dt_publish":"2025-10-16 15:04:26.000",
+	"ts_update":1760599589534,
+	"dt_update":"2025-10-16 15:26:18.354",
+	"count_dep":21,
+	"count_ref":25,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -29,13 +29,21 @@
 	"count_used_by":25,
 	"home_page":"https://www.keycloak.org/",
 	"license":"Apache 2.0",
-	"ranking":"#18849 in MvnRepository",
+	"ranking":"#18911 in MvnRepository",
 	"tags":[
 		"kerberos",
 		"keycloak",
 		"federation"
 	],
 	"versions":[
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250925",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.0.7",
 			"vulnerabilities":""
 		}
 	]
