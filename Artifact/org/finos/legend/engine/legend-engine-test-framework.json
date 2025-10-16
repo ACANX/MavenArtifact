@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-test-framework",
-	"version_latest":"4.103.2",
-	"ts_publish":1760436109000,
-	"dt_publish":"2025-10-14 18:01:49.000",
-	"ts_update":1760437591457,
-	"dt_update":"2025-10-14 18:26:16.739",
-	"count_dep":35,
-	"count_ref":4,
+	"version_latest":"4.104.0",
+	"ts_publish":1760644465000,
+	"dt_publish":"2025-10-17 03:54:25.000",
+	"ts_update":1760645879731,
+	"dt_update":"2025-10-17 04:17:35.996",
+	"count_dep":38,
+	"count_ref":15,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,13 +26,29 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-testable/legend-engine-test-framework",
 	"count_used_by":20,
 	"license":"Apache 2.0",
-	"ranking":"#22814 in MvnRepository",
+	"ranking":"#22830 in MvnRepository",
 	"tags":[
 		"framework",
 		"testing",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"4.103.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"4.103.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":15,
 			"version":"4.96.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"4.96.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"4.96.0",
 			"vulnerabilities":""
 		}
 	]
