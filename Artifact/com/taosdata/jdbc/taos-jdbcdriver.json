@@ -3,11 +3,11 @@
 	"description":"The official TDengine JDBC connector",
 	"group_id":"com.taosdata.jdbc",
 	"artifact_id":"taos-jdbcdriver",
-	"version_latest":"3.7.5",
-	"ts_publish":1759130506000,
-	"dt_publish":"2025-09-29 15:21:46.000",
-	"ts_update":1759137628148,
-	"dt_update":"2025-09-29 15:44:59.337",
+	"version_latest":"3.7.6",
+	"ts_publish":1760685927000,
+	"dt_publish":"2025-10-17 15:25:27.000",
+	"ts_update":1760687101092,
+	"dt_update":"2025-10-17 15:44:52.148",
 	"count_dep":45,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"taosdata"
 	],
 	"url_scm":"https://github.com/taosdata/taos-connector-jdbc",
-	"count_used_by":21,
+	"count_used_by":23,
 	"home_page":"https://github.com/taosdata/taos-connector-jdbc",
 	"license":"MIT",
-	"ranking":"#21991 in MvnRepository",
+	"ranking":"#20504 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -35,6 +35,38 @@
 		"rdbms"
 	],
 	"versions":[
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.7.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.7.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.7.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.7.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250727",
 			"repository":"Central",
@@ -87,7 +119,7 @@
 			"date":"20250122",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"3.5.3",
 			"vulnerabilities":""
 		},
@@ -161,38 +193,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240430",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.2.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240429",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240402",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.2.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240131",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.2.8",
 			"vulnerabilities":""
 		}
 	]
