@@ -3,11 +3,11 @@
 	"description":"Синхронизация с НСИ",
 	"group_id":"ru.i-novus.ms.rdm.sync",
 	"artifact_id":"rdm-sync-api",
-	"version_latest":"2.1.0",
-	"ts_publish":1757507567000,
-	"dt_publish":"2025-09-10 20:32:47.000",
-	"ts_update":1757509044768,
-	"dt_update":"2025-09-10 20:56:04.839",
+	"version_latest":"2.2.0",
+	"ts_publish":1760690981000,
+	"dt_publish":"2025-10-17 16:49:41.000",
+	"ts_update":1760691415106,
+	"dt_update":"2025-10-17 16:56:19.011",
 	"count_dep":90,
 	"count_ref":5,
 	"licenses":[
@@ -25,12 +25,28 @@
 	"url_scm":"https://git.i-novus.ru/microservices/rdm-sync/rdm-sync-api",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#101653 in MvnRepository",
+	"ranking":"#104865 in MvnRepository",
 	"tags":[
 		"synchronization",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.40.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240425",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.40.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240408",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.40.0",
 			"vulnerabilities":""
 		}
 	]
