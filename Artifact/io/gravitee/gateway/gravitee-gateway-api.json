@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.gateway",
 	"artifact_id":"gravitee-gateway-api",
-	"version_latest":"4.1.0-alpha.2",
-	"ts_publish":1760113655000,
-	"dt_publish":"2025-10-11 00:27:35.000",
-	"ts_update":1760114487855,
-	"dt_update":"2025-10-11 00:41:21.956",
+	"version_latest":"4.1.0-alpha.3",
+	"ts_publish":1760684408000,
+	"dt_publish":"2025-10-17 15:00:08.000",
+	"ts_update":1760685334809,
+	"dt_update":"2025-10-17 15:15:27.643",
 	"count_dep":140,
 	"count_ref":0,
 	"licenses":[
@@ -30,12 +30,20 @@
 	"count_used_by":131,
 	"home_page":"https://gravitee.io/",
 	"license":"Apache 2.0",
-	"ranking":"#4051 in MvnRepository",
+	"ranking":"#4063 in MvnRepository",
 	"tags":[
 		"gateway",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"4.1.0-alpha.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251006",
 			"repository":"Central",
@@ -45,10 +53,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250925",
 			"repository":"Central",
 			"type":"release",
-			"usage":18,
+			"usage":19,
 			"version":"4.0.1",
 			"vulnerabilities":""
 		},
@@ -178,22 +194,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.9.0-alpha.24",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.9.0-alpha.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241129",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.9.0-alpha.22",
 			"vulnerabilities":""
 		}
 	]
