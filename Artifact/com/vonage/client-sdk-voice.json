@@ -3,13 +3,13 @@
 	"description":"Voice Sub-package of the Client SDK for seamless integration of voice communication capabilities into applications.Enables making and receiving voice calls, managing call sessions, and handling call events.\nFor more information, documentation, and code samples, please visit the Vonage Developer Portal.",
 	"group_id":"com.vonage",
 	"artifact_id":"client-sdk-voice",
-	"version_latest":"2.1.1-snapshot.110.0",
-	"ts_publish":1759446137000,
-	"dt_publish":"2025-10-03 07:02:17.000",
-	"ts_update":1759448687987,
-	"dt_update":"2025-10-03 07:44:40.950",
+	"version_latest":"2.1.1-snapshot.112.0",
+	"ts_publish":1760720645000,
+	"dt_publish":"2025-10-18 01:04:05.000",
+	"ts_update":1760722307216,
+	"dt_update":"2025-10-18 01:31:34.897",
 	"count_dep":11,
-	"count_ref":2,
+	"count_ref":1,
 	"licenses":[
 		"Commercial"
 	],
@@ -24,10 +24,10 @@
 		"Vonage CS Team"
 	],
 	"url_scm":"https://developer.vonage.com/client-sdk/overview",
-	"count_used_by":4,
+	"count_used_by":5,
 	"home_page":"https://developer.vonage.com/client-sdk/overview",
 	"license":"Commercial",
-	"ranking":"#123515 in MvnRepository",
+	"ranking":"#98530 in MvnRepository",
 	"tags":[
 		"sdk",
 		"voice",
@@ -37,6 +37,30 @@
 		"android"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"2.1.1-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"2.1.1-alpha.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251002",
+			"repository":"Central",
+			"type":"snapshot",
+			"usage":2,
+			"version":"2.1.1-snapshot.110.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -57,7 +81,7 @@
 			"date":"20250905",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.1.0",
 			"vulnerabilities":""
 		},
@@ -171,30 +195,6 @@
 			"type":"snapshot",
 			"usage":1,
 			"version":"2.0.0-snapshot.82.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240808",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.7.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240808",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.7.2-rc.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240808",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"1.7.2-beta.0",
 			"vulnerabilities":""
 		}
 	]

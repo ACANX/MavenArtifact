@@ -3,12 +3,12 @@
 	"description":"Implementation of the Neo4j JDBC driver.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-jdbc",
-	"version_latest":"6.8.0",
-	"ts_publish":1757503148000,
-	"dt_publish":"2025-09-10 19:19:08.000",
-	"ts_update":1757504670049,
-	"dt_update":"2025-09-10 19:44:06.910",
-	"count_dep":29,
+	"version_latest":"6.9.0",
+	"ts_publish":1760721429000,
+	"dt_publish":"2025-10-18 01:17:09.000",
+	"ts_update":1760722308743,
+	"dt_update":"2025-10-18 01:31:33.890",
+	"count_dep":28,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -32,7 +32,7 @@
 	"url_scm":"https://github.com/neo4j/neo4j-jdbc/neo4j-jdbc",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#48142 in MvnRepository",
+	"ranking":"#46784 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -41,6 +41,14 @@
 		"neo4j"
 	],
 	"versions":[
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250728",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.1.0",
 			"vulnerabilities":""
 		}
 	]
