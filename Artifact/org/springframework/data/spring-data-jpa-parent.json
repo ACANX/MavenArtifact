@@ -3,14 +3,16 @@
 	"description":"Parent module for Spring Data JPA repositories.",
 	"group_id":"org.springframework.data",
 	"artifact_id":"spring-data-jpa-parent",
-	"version_latest":"4.0.0-M6",
-	"ts_publish":1757675337000,
-	"dt_publish":"2025-09-12 19:08:57.000",
-	"ts_update":1757676424050,
-	"dt_update":"2025-09-12 19:26:04.561",
-	"count_dep":1,
+	"version_latest":"4.0.0-RC1",
+	"ts_publish":1760702506000,
+	"dt_publish":"2025-10-17 20:01:46.000",
+	"ts_update":1760704006728,
+	"dt_update":"2025-10-17 20:26:15.427",
+	"count_dep":10,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database Access"
@@ -26,7 +28,7 @@
 	"url_scm":"https://github.com/spring-projects/spring-data-jpa",
 	"home_page":"https://spring.io/projects/spring-data-jpa",
 	"license":"Apache 2.0",
-	"ranking":"#835281 in MvnRepository",
+	"ranking":"#905904 in MvnRepository",
 	"tags":[
 		"persistence",
 		"data",
@@ -35,6 +37,14 @@
 		"framework"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"4.0.0-M6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -76,6 +86,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.5.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250815",
 			"repository":"Central",
 			"type":"release",
@@ -105,6 +123,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.10",
 			"vulnerabilities":""
 		},
 		{
@@ -169,30 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241115",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.3.13",
 			"vulnerabilities":""
 		}
 	]
