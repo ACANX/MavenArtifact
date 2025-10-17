@@ -3,11 +3,11 @@
 	"description":"SDK for sentry.io",
 	"group_id":"io.sentry",
 	"artifact_id":"sentry",
-	"version_latest":"8.24.0-alpha.1",
-	"ts_publish":1760017023000,
-	"dt_publish":"2025-10-09 21:37:03.000",
-	"ts_update":1760018198684,
-	"dt_update":"2025-10-09 21:56:16.132",
+	"version_latest":"8.24.0-alpha.2",
+	"ts_publish":1760717497000,
+	"dt_publish":"2025-10-18 00:11:37.000",
+	"ts_update":1760718387545,
+	"dt_update":"2025-10-18 00:26:17.513",
 	"count_dep":0,
 	"count_ref":41,
 	"licenses":[
@@ -23,14 +23,30 @@
 		"Sentry Team and Contributors"
 	],
 	"url_scm":"https://github.com/getsentry/sentry-java",
-	"count_used_by":201,
+	"count_used_by":202,
 	"home_page":"https://github.com/getsentry/sentry-java",
 	"license":"MIT",
-	"ranking":"#2781 in MvnRepository",
+	"ranking":"#2780 in MvnRepository",
 	"tags":[
 		"sentry"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":37,
+			"version":"8.24.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":36,
+			"version":"8.23.1-alpha.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":33,
 			"version":"8.13.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250526",
-			"repository":"Central",
-			"type":"release",
-			"usage":32,
-			"version":"8.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":34,
-			"version":"8.12.0",
 			"vulnerabilities":""
 		}
 	]
