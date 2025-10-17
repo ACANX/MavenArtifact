@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.am.repository",
 	"artifact_id":"gravitee-am-repository-redis",
-	"version_latest":"4.9.0-alpha.1",
-	"ts_publish":1757708311000,
-	"dt_publish":"2025-09-13 04:18:31.000",
-	"ts_update":1757709202229,
-	"dt_update":"2025-09-13 04:31:44.757",
+	"version_latest":"4.10.0-alpha.1",
+	"ts_publish":1760711076000,
+	"dt_publish":"2025-10-17 22:24:36.000",
+	"ts_update":1760711809610,
+	"dt_update":"2025-10-17 22:36:26.202",
 	"count_dep":54,
 	"count_ref":0,
 	"licenses":[
@@ -26,5 +26,30 @@
 		"David BRASSELY",
 		"Titouan COMPIEGNE"
 	],
-	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-repository/gravitee-am-repository-redis"
+	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-repository/gravitee-am-repository-redis",
+	"count_used_by":2,
+	"ranking":"#238464 in MvnRepository",
+	"tags":[
+		"database",
+		"repository",
+		"redis"
+	],
+	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		}
+	]
 }
