@@ -3,13 +3,13 @@
 	"description":"Allow lookup up of GraphQL Beans via CDI",
 	"group_id":"io.smallrye",
 	"artifact_id":"smallrye-graphql-cdi",
-	"version_latest":"2.15.0",
-	"ts_publish":1759481994000,
-	"dt_publish":"2025-10-03 16:59:54.000",
-	"ts_update":1759482940423,
-	"dt_update":"2025-10-03 17:15:28.622",
-	"count_dep":68,
-	"count_ref":0,
+	"version_latest":"2.16.0",
+	"ts_publish":1760705655000,
+	"dt_publish":"2025-10-17 20:54:15.000",
+	"ts_update":1760706531922,
+	"dt_update":"2025-10-17 21:08:18.428",
+	"count_dep":67,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/smallrye/smallrye-graphql/smallrye-graphql-server-parent/smallrye-graphql-cdi/",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#72794 in MvnRepository",
+	"ranking":"#73161 in MvnRepository",
 	"tags":[
 		"query",
 		"api",
@@ -34,6 +34,14 @@
 		"cdi"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.15.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240111",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.7.0",
 			"vulnerabilities":""
 		}
 	]

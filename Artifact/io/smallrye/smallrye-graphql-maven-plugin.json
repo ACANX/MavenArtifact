@@ -3,14 +3,16 @@
 	"description":"a Maven plugin that can generate the schema on build",
 	"group_id":"io.smallrye",
 	"artifact_id":"smallrye-graphql-maven-plugin",
-	"version_latest":"2.15.0",
-	"ts_publish":1759481994000,
-	"dt_publish":"2025-10-03 16:59:54.000",
-	"ts_update":1759482942723,
-	"dt_update":"2025-10-03 17:15:29.145",
-	"count_dep":10,
+	"version_latest":"2.16.0",
+	"ts_publish":1760705655000,
+	"dt_publish":"2025-10-17 20:54:15.000",
+	"ts_update":1760706521792,
+	"dt_update":"2025-10-17 21:08:19.115",
+	"count_dep":55,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	],
 	"url_scm":"https://github.com/smallrye/smallrye-graphql/smallrye-graphql-tools-parent/smallrye-graphql-maven-plugin/",
 	"license":"Apache 2.0",
-	"ranking":"#676878 in MvnRepository",
+	"ranking":"#675760 in MvnRepository",
 	"tags":[
 		"plugin",
 		"query",
@@ -34,6 +36,14 @@
 		"graphql"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.15.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -184,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240111",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.7.0",
 			"vulnerabilities":""
 		}
 	]
