@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-xts-deployment-model",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xts-deployment-model",
-	"version_latest":"4.104.0",
-	"ts_publish":1760644466000,
-	"dt_publish":"2025-10-17 03:54:26.000",
-	"ts_update":1760645894091,
-	"dt_update":"2025-10-17 04:17:28.657",
-	"count_dep":15,
+	"version_latest":"4.105.0",
+	"ts_publish":1760818291000,
+	"dt_publish":"2025-10-19 04:11:31.000",
+	"ts_update":1760820309875,
+	"dt_update":"2025-10-19 04:44:33.240",
+	"count_dep":9,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -25,7 +23,7 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-generation/legend-engine-xts-deployment-model",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#343564 in MvnRepository",
+	"ranking":"#342950 in MvnRepository",
 	"tags":[
 		"deployment",
 		"model",
@@ -33,10 +31,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251015",
+			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"4.104.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"4.103.3",
 			"vulnerabilities":""
 		},
@@ -183,15 +189,6 @@
 			"usage":1,
 			"version":"4.96.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.96.2",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
+	]
 }

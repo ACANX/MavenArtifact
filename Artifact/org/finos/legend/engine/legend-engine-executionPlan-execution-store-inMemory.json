@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-executionPlan-execution-store-inMemory",
-	"version_latest":"4.103.2",
-	"ts_publish":1760436110000,
-	"dt_publish":"2025-10-14 18:01:50.000",
-	"ts_update":1760438334588,
-	"dt_update":"2025-10-14 18:38:21.773",
+	"version_latest":"4.105.0",
+	"ts_publish":1760818291000,
+	"dt_publish":"2025-10-19 04:11:31.000",
+	"ts_update":1760820293934,
+	"dt_update":"2025-10-19 04:44:31.040",
 	"count_dep":24,
-	"count_ref":4,
+	"count_ref":20,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-base/legend-engine-core-executionPlan-execution/legend-engine-executionPlan-execution-store-inMemory",
 	"count_used_by":39,
 	"license":"Apache 2.0",
-	"ranking":"#12174 in MvnRepository",
+	"ranking":"#12182 in MvnRepository",
 	"tags":[
 		"store",
 		"exec",
@@ -34,6 +34,30 @@
 		"memory"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"4.104.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":23,
+			"version":"4.103.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"4.103.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":23,
 			"version":"4.96.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":20,
-			"version":"4.96.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":20,
-			"version":"4.96.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":23,
-			"version":"4.96.0",
 			"vulnerabilities":""
 		}
 	]
