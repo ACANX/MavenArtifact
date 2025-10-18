@@ -3,12 +3,12 @@
 	"description":"Perform operations on the Qdrant Vector Database.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-qdrant",
-	"version_latest":"3.25.0",
-	"ts_publish":1753344302000,
-	"dt_publish":"2025-07-24 16:05:02.000",
-	"ts_update":1755967648386,
-	"dt_update":"2025-08-24 00:17:20.765",
-	"count_dep":135,
+	"version_latest":"3.27.0",
+	"ts_publish":1758273842000,
+	"dt_publish":"2025-09-19 17:24:02.000",
+	"ts_update":1760806025583,
+	"dt_update":"2025-10-19 00:18:45.254",
+	"count_dep":146,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -26,13 +26,29 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-qdrant-parent/camel-quarkus-qdrant",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#139303 in MvnRepository",
+	"ranking":"#141624 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]
