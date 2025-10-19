@@ -3,12 +3,12 @@
 	"description":"Dropwizard Logging Appender to send logging events to the Elastic stack, specifically Logstash.",
 	"group_id":"org.kiwiproject",
 	"artifact_id":"dropwizard-elk-appender",
-	"version_latest":"2.0.12",
-	"ts_publish":1758490292000,
-	"dt_publish":"2025-09-22 05:31:32.000",
-	"ts_update":1758491793117,
-	"dt_update":"2025-09-22 05:56:05.051",
-	"count_dep":54,
+	"version_latest":"2.0.13",
+	"ts_publish":1760883970000,
+	"dt_publish":"2025-10-19 22:26:10.000",
+	"ts_update":1760884288929,
+	"dt_update":"2025-10-19 22:31:23.030",
+	"count_dep":56,
 	"count_ref":0,
 	"licenses":[
 		"MIT License"
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/kiwiproject/dropwizard-elk-appender",
 	"home_page":"https://github.com/kiwiproject/dropwizard-elk-appender",
 	"license":"MIT",
-	"ranking":"#692202 in MvnRepository",
+	"ranking":"#755220 in MvnRepository",
 	"tags":[
 		"dropwizard",
 		"appender"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.12",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250727",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.1.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220423",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.1.6",
 			"vulnerabilities":""
 		}
 	]
