@@ -3,11 +3,11 @@
 	"description":"A JNA-based (native) operating system information library for Java that aims to provide a\n        cross-platform implementation to retrieve system information, such as version, memory, CPU, disk, battery, etc.",
 	"group_id":"com.github.oshi",
 	"artifact_id":"oshi-core",
-	"version_latest":"6.9.0",
-	"ts_publish":1758242811000,
-	"dt_publish":"2025-09-19 08:46:51.000",
-	"ts_update":1758245253088,
-	"dt_update":"2025-09-19 09:26:04.078",
+	"version_latest":"6.9.1",
+	"ts_publish":1760845628000,
+	"dt_publish":"2025-10-19 11:47:08.000",
+	"ts_update":1760846182572,
+	"dt_update":"2025-10-19 11:56:17.032",
 	"count_dep":11,
 	"count_ref":2,
 	"licenses":[
@@ -26,19 +26,27 @@
 	],
 	"url_scm":"https://github.com/oshi/oshi.git/oshi-core",
 	"url_ci_management":"https://github.com/oshi/oshi/actions",
-	"count_used_by":432,
+	"count_used_by":440,
 	"home_page":"https://github.com/oshi/oshi",
 	"license":"MIT",
-	"ranking":"#1394 in MvnRepository",
+	"ranking":"#1381 in MvnRepository",
 	"tags":[
 		"github"
 	],
 	"versions":[
 		{
-			"date":"20250817",
+			"date":"20250919",
 			"repository":"Central",
 			"type":"release",
 			"usage":12,
+			"version":"6.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250817",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
 			"version":"6.8.3",
 			"vulnerabilities":""
 		},
@@ -46,7 +54,7 @@
 			"date":"20250531",
 			"repository":"Central",
 			"type":"release",
-			"usage":19,
+			"usage":21,
 			"version":"6.8.2",
 			"vulnerabilities":""
 		},
@@ -158,7 +166,7 @@
 			"date":"20240210",
 			"repository":"Central",
 			"type":"release",
-			"usage":15,
+			"usage":16,
 			"version":"6.4.12",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"6.4.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231125",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"6.4.8",
 			"vulnerabilities":""
 		}
 	]
