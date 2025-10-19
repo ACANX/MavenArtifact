@@ -3,11 +3,11 @@
 	"description":"Specifics maven lifecycle to package and run inugami project",
 	"group_id":"io.inugami.monitoring",
 	"artifact_id":"inugami_monitoring_api",
-	"version_latest":"4.0.0",
-	"ts_publish":1758460365000,
-	"dt_publish":"2025-09-21 21:12:45.000",
-	"ts_update":1758463017261,
-	"dt_update":"2025-09-21 21:56:07.741",
+	"version_latest":"4.1.0",
+	"ts_publish":1760873799000,
+	"dt_publish":"2025-10-19 19:36:39.000",
+	"ts_update":1760874270053,
+	"dt_update":"2025-10-19 19:44:20.343",
 	"count_dep":38,
 	"count_ref":8,
 	"licenses":[
@@ -24,15 +24,23 @@
 		"Mikhaïl Sadovnikov"
 	],
 	"url_scm":"https://github.com/inugamiio/inugami-maven-plugin/inugami_monitoring/inugami_monitoring_api",
-	"count_used_by":6,
-	"home_page":"http://inugami.io/inugami/inugami_monitoring_api",
+	"count_used_by":10,
+	"home_page":"http://inugami.io/inugami/inugami_logs_obfuscator",
 	"license":"GPL 3.0",
-	"ranking":"#83550 in MvnRepository",
+	"ranking":"#48354 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20231204",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230122",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.1.0",
 			"vulnerabilities":""
 		}
 	]
