@@ -3,11 +3,11 @@
 	"description":"Reactive streaming library targeting continuous pipelines with at-least-once processing guarantees. Backed by Project Reactor.",
 	"group_id":"io.atleon",
 	"artifact_id":"atleon-rabbitmq",
-	"version_latest":"0.36.0",
-	"ts_publish":1760575181000,
-	"dt_publish":"2025-10-16 08:39:41.000",
-	"ts_update":1760577030298,
-	"dt_update":"2025-10-16 09:10:16.126",
+	"version_latest":"0.36.1",
+	"ts_publish":1760895930000,
+	"dt_publish":"2025-10-20 01:45:30.000",
+	"ts_update":1760896585290,
+	"dt_update":"2025-10-20 01:56:14.621",
 	"count_dep":22,
 	"count_ref":7,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"http://github.com/atleon/atleon/atleon-parent/atleon-rabbitmq",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#68567 in MvnRepository",
+	"ranking":"#68611 in MvnRepository",
 	"tags":[
 		"broker",
 		"queue",
@@ -30,6 +30,14 @@
 		"rabbitmq"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"0.36.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"0.31.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250403",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"0.30.3",
 			"vulnerabilities":""
 		}
 	]
