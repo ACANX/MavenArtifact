@@ -3,11 +3,11 @@
 	"description":"Spring Kafka Support",
 	"group_id":"org.springframework.kafka",
 	"artifact_id":"spring-kafka",
-	"version_latest":"4.0.0-M5",
-	"ts_publish":1757959879000,
-	"dt_publish":"2025-09-16 02:11:19.000",
-	"ts_update":1757961922470,
-	"dt_update":"2025-09-16 02:44:19.221",
+	"version_latest":"4.0.0-RC1",
+	"ts_publish":1760999216000,
+	"dt_publish":"2025-10-21 06:26:56.000",
+	"ts_update":1761000292516,
+	"dt_update":"2025-10-21 06:44:46.234",
 	"count_dep":49,
 	"count_ref":0,
 	"licenses":[
@@ -27,10 +27,10 @@
 		"Gary Russell"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-kafka",
-	"count_used_by":798,
+	"count_used_by":805,
 	"home_page":"https://github.com/spring-projects/spring-kafka",
 	"license":"Apache 2.0",
-	"ranking":"#752 in MvnRepository",
+	"ranking":"#764 in MvnRepository",
 	"tags":[
 		"streaming",
 		"spring",
@@ -38,6 +38,14 @@
 		"kafka"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":13,
+			"version":"4.0.0-M5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -71,10 +79,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"3.3.10",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250818",
 			"repository":"Central",
 			"type":"release",
-			"usage":16,
+			"usage":21,
 			"version":"3.3.9",
 			"vulnerabilities":""
 		},
@@ -82,7 +98,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":24,
+			"usage":25,
 			"version":"3.3.8",
 			"vulnerabilities":""
 		},
@@ -90,7 +106,7 @@
 			"date":"20250617",
 			"repository":"Central",
 			"type":"release",
-			"usage":26,
+			"usage":28,
 			"version":"3.3.7",
 			"vulnerabilities":""
 		},
@@ -180,22 +196,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.2.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241216",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"3.2.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241118",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"3.2.5",
 			"vulnerabilities":""
 		}
 	]

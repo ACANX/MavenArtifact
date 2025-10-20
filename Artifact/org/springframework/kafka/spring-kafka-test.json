@@ -3,11 +3,11 @@
 	"description":"Spring Kafka Test Support",
 	"group_id":"org.springframework.kafka",
 	"artifact_id":"spring-kafka-test",
-	"version_latest":"4.0.0-M5",
-	"ts_publish":1757959879000,
-	"dt_publish":"2025-09-16 02:11:19.000",
-	"ts_update":1757961919548,
-	"dt_update":"2025-09-16 02:44:19.221",
+	"version_latest":"4.0.0-RC1",
+	"ts_publish":1760999216000,
+	"dt_publish":"2025-10-21 06:26:56.000",
+	"ts_update":1761000293764,
+	"dt_update":"2025-10-21 06:44:46.235",
 	"count_dep":41,
 	"count_ref":0,
 	"licenses":[
@@ -27,10 +27,10 @@
 		"Gary Russell"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-kafka",
-	"count_used_by":219,
+	"count_used_by":221,
 	"home_page":"https://github.com/spring-projects/spring-kafka",
 	"license":"Apache 2.0",
-	"ranking":"#2576 in MvnRepository",
+	"ranking":"#2581 in MvnRepository",
 	"tags":[
 		"streaming",
 		"spring",
@@ -39,6 +39,14 @@
 		"kafka"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":2,
+			"version":"4.0.0-M5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -72,10 +80,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.3.10",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250818",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":8,
 			"version":"3.3.9",
 			"vulnerabilities":""
 		},
@@ -83,7 +99,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":8,
 			"version":"3.3.8",
 			"vulnerabilities":""
 		},
@@ -91,7 +107,7 @@
 			"date":"20250617",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":15,
 			"version":"3.3.7",
 			"vulnerabilities":""
 		},
@@ -107,7 +123,7 @@
 			"date":"20250422",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"3.3.5",
 			"vulnerabilities":""
 		},
@@ -181,22 +197,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.2.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241216",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.2.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241118",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.2.5",
 			"vulnerabilities":""
 		}
 	]
