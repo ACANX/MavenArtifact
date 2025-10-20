@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-components-ui-view-welcome",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-components-ui-view-welcome",
-	"version_latest":"12.23.0",
-	"ts_publish":1760614471000,
-	"dt_publish":"2025-10-16 19:34:31.000",
-	"ts_update":1760615795545,
-	"dt_update":"2025-10-16 19:56:20.064",
-	"count_dep":0,
+	"version_latest":"12.29.0",
+	"ts_publish":1760961489000,
+	"dt_publish":"2025-10-20 19:58:09.000",
+	"ts_update":1760963204536,
+	"dt_update":"2025-10-20 20:26:21.834",
+	"count_dep":129,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.dirigible/dirigible-components-ui-view-welcome@12.5.0",
 	"count_used_by":2,
 	"license":"EPL 2.0",
-	"ranking":"#200945 in MvnRepository",
+	"ranking":"#200992 in MvnRepository",
 	"tags":[
 		"eclipse",
 		"ui",
@@ -25,6 +27,22 @@
 		"view"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.24.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.23.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -168,22 +186,7 @@
 			"usage":1,
 			"version":"12.6.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.4.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Dirigible Parent"
 }
