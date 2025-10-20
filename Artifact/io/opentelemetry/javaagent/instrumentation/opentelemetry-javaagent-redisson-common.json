@@ -3,13 +3,13 @@
 	"description":"Instrumentation of Java libraries using OpenTelemetry.",
 	"group_id":"io.opentelemetry.javaagent.instrumentation",
 	"artifact_id":"opentelemetry-javaagent-redisson-common",
-	"version_latest":"2.20.0-alpha",
-	"ts_publish":1757883952000,
-	"dt_publish":"2025-09-15 05:05:52.000",
-	"ts_update":1757886375024,
-	"dt_update":"2025-09-15 05:44:37.904",
+	"version_latest":"2.21.0-alpha",
+	"ts_publish":1760946223000,
+	"dt_publish":"2025-10-20 15:43:43.000",
+	"ts_update":1760954223485,
+	"dt_update":"2025-10-20 17:56:23.522",
 	"count_dep":2,
-	"count_ref":2,
+	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java-instrumentation",
 	"license":"Apache 2.0",
-	"ranking":"#211645 in MvnRepository",
+	"ranking":"#214979 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"agent",
@@ -36,6 +36,22 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"2.20.1-alpha",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250914",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"2.20.0-alpha",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250817",
 			"repository":"Central",
@@ -178,22 +194,6 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"2.7.0-alpha",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240717",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"2.6.0-alpha",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240617",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"2.5.0-alpha",
 			"vulnerabilities":""
 		}
 	]
