@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.jooby/jooby-kotlin",
 	"group_id":"io.jooby",
 	"artifact_id":"jooby-kotlin",
-	"version_latest":"4.0.7",
-	"ts_publish":1757338654000,
-	"dt_publish":"2025-09-08 21:37:34.000",
-	"ts_update":1757339891315,
-	"dt_update":"2025-09-08 21:56:04.872",
-	"count_dep":6,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"4.0.9",
+	"ts_publish":1760993698000,
+	"dt_publish":"2025-10-21 04:54:58.000",
+	"ts_update":1760994892400,
+	"dt_update":"2025-10-21 05:14:40.922",
+	"count_dep":15,
+	"count_ref":3,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,16 +24,24 @@
 	"url_scm":"scm:git:git@github.com:jooby-project/jooby.git/modules/jooby-kotlin",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#73394 in MvnRepository",
+	"ranking":"#77515 in MvnRepository",
 	"tags":[
 		"kotlin"
 	],
 	"versions":[
 		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.7",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250813",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"4.0.6",
 			"vulnerabilities":""
 		},
@@ -81,6 +91,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.11.3",
 			"vulnerabilities":""
 		},
 		{
@@ -170,22 +188,7 @@
 			"usage":5,
 			"version":"3.6.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241121",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.5.4",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The modular web framework for Java and Kotlin"
 }

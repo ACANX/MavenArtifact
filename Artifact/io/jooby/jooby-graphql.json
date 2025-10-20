@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.jooby/jooby-graphql",
 	"group_id":"io.jooby",
 	"artifact_id":"jooby-graphql",
-	"version_latest":"4.0.7",
-	"ts_publish":1757338655000,
-	"dt_publish":"2025-09-08 21:37:35.000",
-	"ts_update":1757339920589,
-	"dt_update":"2025-09-08 21:56:03.907",
-	"count_dep":6,
+	"version_latest":"4.0.9",
+	"ts_publish":1760993698000,
+	"dt_publish":"2025-10-21 04:54:58.000",
+	"ts_update":1760994913451,
+	"dt_update":"2025-10-21 05:14:40.924",
+	"count_dep":15,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -21,13 +23,21 @@
 	],
 	"url_scm":"scm:git:git@github.com:jooby-project/jooby.git/modules/jooby-graphql",
 	"license":"Apache 2.0",
-	"ranking":"#733653 in MvnRepository",
+	"ranking":"#689754 in MvnRepository",
 	"tags":[
 		"query",
 		"api",
 		"graphql"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -82,6 +92,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.11.3",
 			"vulnerabilities":""
 		},
 		{
@@ -171,22 +189,7 @@
 			"usage":0,
 			"version":"3.6.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241121",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.5.4",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The modular web framework for Java and Kotlin"
 }

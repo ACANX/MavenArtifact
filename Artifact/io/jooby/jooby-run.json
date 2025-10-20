@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.jooby/jooby-run",
 	"group_id":"io.jooby",
 	"artifact_id":"jooby-run",
-	"version_latest":"4.0.7",
-	"ts_publish":1757338655000,
-	"dt_publish":"2025-09-08 21:37:35.000",
-	"ts_update":1757339841762,
-	"dt_update":"2025-09-08 21:56:04.870",
-	"count_dep":7,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"4.0.9",
+	"ts_publish":1760993698000,
+	"dt_publish":"2025-10-21 04:54:58.000",
+	"ts_update":1760994896349,
+	"dt_update":"2025-10-21 05:14:40.929",
+	"count_dep":13,
+	"count_ref":1,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,8 +24,16 @@
 	"url_scm":"scm:git:git@github.com:jooby-project/jooby.git/modules/jooby-run",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#102877 in MvnRepository",
+	"ranking":"#104067 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -78,6 +88,14 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.11.3",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +185,7 @@
 			"usage":3,
 			"version":"3.6.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241121",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.5.4",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The modular web framework for Java and Kotlin"
 }
