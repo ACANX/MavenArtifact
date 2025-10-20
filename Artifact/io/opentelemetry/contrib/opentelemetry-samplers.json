@@ -3,11 +3,11 @@
 	"description":"Sampler which makes its decision based on semantic attributes values",
 	"group_id":"io.opentelemetry.contrib",
 	"artifact_id":"opentelemetry-samplers",
-	"version_latest":"1.50.0-alpha",
-	"ts_publish":1758910858000,
-	"dt_publish":"2025-09-27 02:20:58.000",
-	"ts_update":1758913976032,
-	"dt_update":"2025-09-27 02:42:19.787",
+	"version_latest":"1.51.0-alpha",
+	"ts_publish":1761003977000,
+	"dt_publish":"2025-10-21 07:46:17.000",
+	"ts_update":1761004590005,
+	"dt_update":"2025-10-21 07:56:21.424",
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java-contrib.git",
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java-contrib",
 	"license":"Apache 2.0",
-	"ranking":"#620575 in MvnRepository",
+	"ranking":"#311610 in MvnRepository",
 	"tags":[
 		"telemetry",
 		"opentelemetry",
 		"monitoring"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"1.50.0-alpha",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -183,14 +191,7 @@
 			"usage":0,
 			"version":"1.31.0-alpha",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230918",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"1.30.0-alpha",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
