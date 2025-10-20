@@ -3,13 +3,13 @@
 	"description":"Dependencies that are installed and should not be included in artifacts with dependencies.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"provided-dependencies",
-	"version_latest":"8.593.34",
-	"ts_publish":1760433367000,
-	"dt_publish":"2025-10-14 17:16:07.000",
-	"ts_update":1760433998295,
-	"dt_update":"2025-10-14 17:26:14.517",
+	"version_latest":"8.596.20",
+	"ts_publish":1760925945000,
+	"dt_publish":"2025-10-20 10:05:45.000",
+	"ts_update":1760927193136,
+	"dt_update":"2025-10-20 10:26:20.927",
 	"count_dep":23,
-	"count_ref":6,
+	"count_ref":14,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,17 +26,41 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/provided-dependencies",
 	"count_used_by":14,
 	"license":"Apache 2.0",
-	"ranking":"#34060 in MvnRepository",
+	"ranking":"#34141 in MvnRepository",
 	"tags":[
 		"dependencies"
 	],
 	"versions":[
 		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"8.593.34",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251013",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":6,
+			"version":"8.592.33",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
 			"version":"8.591.16",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"8.589.18",
 			"vulnerabilities":""
 		},
 		{
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"8.571.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"8.570.34",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"8.568.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250819",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"8.567.16",
 			"vulnerabilities":""
 		}
 	]

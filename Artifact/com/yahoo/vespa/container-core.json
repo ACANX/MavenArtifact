@@ -2,16 +2,14 @@
 	"id":"pkg:maven/com.yahoo.vespa/container-core",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-core",
-	"version_latest":"8.593.34",
-	"ts_publish":1760433367000,
-	"dt_publish":"2025-10-14 17:16:07.000",
-	"ts_update":1760433995693,
-	"dt_update":"2025-10-14 17:26:15.841",
-	"count_dep":78,
-	"count_ref":12,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"version_latest":"8.596.20",
+	"ts_publish":1760925945000,
+	"dt_publish":"2025-10-20 10:05:45.000",
+	"ts_update":1760927194887,
+	"dt_update":"2025-10-20 10:26:20.922",
+	"count_dep":44,
+	"count_ref":19,
+	"licenses":[],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -25,17 +23,41 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-core",
 	"count_used_by":19,
 	"license":"Apache 2.0",
-	"ranking":"#24042 in MvnRepository",
+	"ranking":"#24083 in MvnRepository",
 	"tags":[
 		"container"
 	],
 	"versions":[
 		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"8.593.34",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251013",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":12,
+			"version":"8.592.33",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
 			"version":"8.591.16",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"8.589.18",
 			"vulnerabilities":""
 		},
 		{
@@ -165,31 +187,6 @@
 			"usage":13,
 			"version":"8.571.14",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.570.34",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.568.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250819",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.567.16",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent artifact for all Vespa maven projects."
+	]
 }
