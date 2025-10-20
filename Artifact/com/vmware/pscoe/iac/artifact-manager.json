@@ -3,13 +3,13 @@
 	"description":"Build Tools for VMware Aria provides development and release management tools for implementing automation solutions\n\t\tbased on the VMware Aria Suite and VMware Cloud Director. The solution enables Virtual Infrastructure Administrators and \n\t\tAutomation Developers to use standard DevOps practices for managing and deploying content.",
 	"group_id":"com.vmware.pscoe.iac",
 	"artifact_id":"artifact-manager",
-	"version_latest":"4.13.1",
-	"ts_publish":1760100900000,
-	"dt_publish":"2025-10-10 20:55:00.000",
-	"ts_update":1760102822795,
-	"dt_update":"2025-10-10 21:26:16.959",
+	"version_latest":"4.14.0",
+	"ts_publish":1760966717000,
+	"dt_publish":"2025-10-20 21:25:17.000",
+	"ts_update":1760989700561,
+	"dt_update":"2025-10-21 03:45:29.157",
 	"count_dep":35,
-	"count_ref":21,
+	"count_ref":9,
 	"licenses":[
 		"BSD-2 License"
 	],
@@ -23,12 +23,20 @@
 	"count_used_by":16,
 	"home_page":"https://github.com/vmware",
 	"license":"BSD 2-clause",
-	"ranking":"#29827 in MvnRepository",
+	"ranking":"#29433 in MvnRepository",
 	"tags":[
 		"manager",
 		"management"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"4.13.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251003",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":15,
 			"version":"3.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241202",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"3.1.0",
 			"vulnerabilities":""
 		}
 	]
