@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-sql-hana",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-sql-hana",
-	"version_latest":"12.24.0",
-	"ts_publish":1760674949000,
-	"dt_publish":"2025-10-17 12:22:29.000",
-	"ts_update":1760675978366,
-	"dt_update":"2025-10-17 12:39:10.114",
-	"count_dep":34,
+	"version_latest":"12.28.0",
+	"ts_publish":1760956187000,
+	"dt_publish":"2025-10-20 18:29:47.000",
+	"ts_update":1760957536252,
+	"dt_update":"2025-10-20 18:51:57.447",
+	"count_dep":6,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -23,7 +23,7 @@
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-database-parent/dirigible-database-sql-hana",
 	"count_used_by":7,
 	"license":"EPL 2.0",
-	"ranking":"#68071 in MvnRepository",
+	"ranking":"#68072 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -32,10 +32,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.24.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"12.23.0",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"12.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"12.5.0",
 			"vulnerabilities":""
 		}
 	]
