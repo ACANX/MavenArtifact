@@ -1,0 +1,26 @@
+{
+	"id":"pkg:maven/org.graalvm.compiler/compiler",
+	"description":"The JAR build of the Graal compiler. This is intended to be used to speed up Graal Languages on OpenJDK distributions that do not ship the Graal compiler. To enable it, '-XX:+EnableJVMCI' is required and this Graal compiler JAR and its dependencies need to be on the '--upgrade-module-path'.",
+	"group_id":"org.graalvm.compiler",
+	"artifact_id":"compiler",
+	"version_latest":"25.0.1",
+	"ts_publish":1761061748000,
+	"dt_publish":"2025-10-21 23:49:08.000",
+	"ts_update":1761064076254,
+	"dt_update":"2025-10-22 00:21:31.718",
+	"count_dep":3,
+	"count_ref":7,
+	"licenses":[
+		"GNU General Public License, version 2, with the Classpath Exception"
+	],
+	"categories":[
+		"Uncategorized"
+	],
+	"dsv":1,
+	"url_project":"http://www.graalvm.org/",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.graalvm.compiler/compiler@25.0.1",
+	"contributors":[
+		"GraalVM Development"
+	],
+	"url_scm":"https://github.com/oracle/graal"
+}
