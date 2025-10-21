@@ -3,16 +3,14 @@
 	"description":"Jcache/ehcache don't provide Mbeans for clearing cache.",
 	"group_id":"nl.vpro.shared",
 	"artifact_id":"vpro-shared-jcache",
-	"version_latest":"5.12.0",
-	"ts_publish":1760600292000,
-	"dt_publish":"2025-10-16 15:38:12.000",
-	"ts_update":1760601398643,
-	"dt_update":"2025-10-16 15:56:15.927",
-	"count_dep":38,
+	"version_latest":"5.12.1",
+	"ts_publish":1761049294000,
+	"dt_publish":"2025-10-21 20:21:34.000",
+	"ts_update":1761049997514,
+	"dt_update":"2025-10-21 20:33:10.749",
+	"count_dep":11,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,11 +24,19 @@
 	"url_scm":"https://github.com/vpro/vpro-shared/vpro-shared-jcache",
 	"url_ci_management":"https://github.com/vpro/vpro-shared/actions",
 	"license":"Apache 2.0",
-	"ranking":"#579932 in MvnRepository",
+	"ranking":"#581700 in MvnRepository",
 	"tags":[
 		"cache"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.12.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -181,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.4.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250121",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.4.4",
 			"vulnerabilities":""
 		}
 	]
