@@ -3,10 +3,10 @@
 	"description":"Hedera Smart Contract Service API",
 	"group_id":"com.hedera.hashgraph",
 	"artifact_id":"app-service-contract",
-	"version_latest":"0.67.0",
-	"ts_publish":1760382384000,
-	"ts_update":1760384880236,
-	"count_dep":6,
+	"version_latest":"0.67.1",
+	"ts_publish":1761011570000,
+	"ts_update":1761013597216,
+	"count_dep":16,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,17 +22,25 @@
 		"The Hiero Team"
 	],
 	"url_scm":"https://github.com/hiero-ledger/hiero-consensus-node",
-	"dt_publish":"2025-10-14 03:06:24.000",
-	"dt_update":"2025-10-14 03:44:15.393",
+	"dt_publish":"2025-10-21 09:52:50.000",
+	"dt_update":"2025-10-21 10:26:24.176",
 	"count_used_by":2,
 	"home_page":"https://hiero.org/",
 	"license":"Apache 2.0",
-	"ranking":"#186660 in MvnRepository",
+	"ranking":"#187012 in MvnRepository",
 	"tags":[
 		"service",
 		"contract"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.67.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251011",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"test",
 			"usage":2,
 			"version":"0.63.10-branching-test-debug",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.63.9",
 			"vulnerabilities":""
 		}
 	]

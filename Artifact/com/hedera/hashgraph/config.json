@@ -3,10 +3,10 @@
 	"description":"Hedera Configuration",
 	"group_id":"com.hedera.hashgraph",
 	"artifact_id":"config",
-	"version_latest":"0.67.0",
-	"ts_publish":1760382384000,
-	"ts_update":1760384688878,
-	"count_dep":11,
+	"version_latest":"0.67.1",
+	"ts_publish":1761011570000,
+	"ts_update":1761013597932,
+	"count_dep":21,
 	"count_ref":10,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,16 +22,24 @@
 		"The Hiero Team"
 	],
 	"url_scm":"https://github.com/hiero-ledger/hiero-consensus-node",
-	"dt_publish":"2025-10-14 03:06:24.000",
-	"dt_update":"2025-10-14 03:44:15.879",
+	"dt_publish":"2025-10-21 09:52:50.000",
+	"dt_update":"2025-10-21 10:26:23.742",
 	"count_used_by":10,
 	"home_page":"https://hiero.org/",
 	"license":"Apache 2.0",
-	"ranking":"#45255 in MvnRepository",
+	"ranking":"#45332 in MvnRepository",
 	"tags":[
 		"config"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"0.67.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251011",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"test",
 			"usage":10,
 			"version":"0.63.10-branching-test-debug",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"0.63.9",
 			"vulnerabilities":""
 		}
 	]
