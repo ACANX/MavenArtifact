@@ -3,14 +3,16 @@
 	"description":"The AWS Java SDK for Amazon SageMaker module holds the client classes that are used for communicating\n        with Amazon SageMaker Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"sagemaker",
-	"version_latest":"2.35.10",
-	"ts_publish":1760737955000,
-	"dt_publish":"2025-10-18 05:52:35.000",
-	"ts_update":1760739282821,
-	"dt_update":"2025-10-18 06:14:10.557",
-	"count_dep":3,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"2.35.11",
+	"ts_publish":1761086898000,
+	"dt_publish":"2025-10-22 06:48:18.000",
+	"ts_update":1761088545793,
+	"dt_update":"2025-10-22 07:15:16.488",
+	"count_dep":33,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Software Development Kit"
 	],
@@ -20,7 +22,7 @@
 	"count_used_by":8,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#56674 in MvnRepository",
+	"ranking":"#56790 in MvnRepository",
 	"tags":[
 		"sagemaker",
 		"aws",
@@ -29,10 +31,42 @@
 	],
 	"versions":[
 		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.35.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.35.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.35.8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251014",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
+			"version":"2.35.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.35.6",
 			"vulnerabilities":""
 		},
@@ -154,38 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.34.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.34.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250918",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250917",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.33.11",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Profile module allows loading information from AWS configuration and credentials files.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"profiles",
-	"version_latest":"2.35.10",
-	"ts_publish":1760737955000,
-	"dt_publish":"2025-10-18 05:52:35.000",
-	"ts_update":1760739988071,
-	"dt_update":"2025-10-18 06:26:18.307",
+	"version_latest":"2.35.11",
+	"ts_publish":1761086898000,
+	"dt_publish":"2025-10-22 06:48:18.000",
+	"ts_update":1761088544354,
+	"dt_update":"2025-10-22 07:15:15.895",
 	"count_dep":8,
-	"count_ref":39,
+	"count_ref":42,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,7 +23,7 @@
 	"count_used_by":52,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#9454 in MvnRepository",
+	"ranking":"#9461 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -31,6 +31,14 @@
 		"profile"
 	],
 	"versions":[
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"2.35.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":12,
 			"version":"2.34.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"2.34.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"The AWS SDK for Java - Core is an umbrella module that contains child modules which are considered as\n        core of the library.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"regions",
-	"version_latest":"2.35.9",
-	"ts_publish":1760655808000,
-	"dt_publish":"2025-10-17 07:03:28.000",
-	"ts_update":1760657203730,
-	"dt_update":"2025-10-17 07:26:19.558",
+	"version_latest":"2.35.11",
+	"ts_publish":1761086898000,
+	"dt_publish":"2025-10-22 06:48:18.000",
+	"ts_update":1761088541930,
+	"dt_update":"2025-10-22 07:15:18.644",
 	"count_dep":17,
-	"count_ref":6,
+	"count_ref":183,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/core/regions",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/regions@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/regions",
-	"count_used_by":202,
+	"count_used_by":204,
 	"home_page":"https://aws.amazon.com/sdk-for-java/",
 	"license":"Apache 2.0",
-	"ranking":"#2782 in MvnRepository",
+	"ranking":"#2763 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -31,10 +31,34 @@
 	],
 	"versions":[
 		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"2.35.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"2.35.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"2.35.8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251014",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":10,
 			"version":"2.35.7",
 			"vulnerabilities":""
 		},
@@ -90,7 +114,7 @@
 			"date":"20251003",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":12,
 			"version":"2.35.0",
 			"vulnerabilities":""
 		},
@@ -164,30 +188,6 @@
 			"type":"release",
 			"usage":15,
 			"version":"2.34.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"2.34.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"2.33.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250918",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"2.33.12",
 			"vulnerabilities":""
 		}
 	]
