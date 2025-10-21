@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-repository-master",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-repository-master",
-	"version_latest":"12.30.0",
-	"ts_publish":1760965026000,
-	"dt_publish":"2025-10-20 20:57:06.000",
-	"ts_update":1760966828503,
-	"dt_update":"2025-10-20 21:26:21.861",
-	"count_dep":41,
+	"version_latest":"12.31.0",
+	"ts_publish":1761079532000,
+	"dt_publish":"2025-10-22 04:45:32.000",
+	"ts_update":1761081324794,
+	"dt_update":"2025-10-22 05:14:51.749",
+	"count_dep":29,
 	"count_ref":0,
-	"licenses":[
-		"Eclipse Public License - v 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -25,12 +23,36 @@
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-repository-parent/dirigible-repository-master",
 	"count_used_by":23,
 	"license":"EPL 2.0",
-	"ranking":"#20712 in MvnRepository",
+	"ranking":"#20730 in MvnRepository",
 	"tags":[
 		"repository",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.30.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -166,31 +188,6 @@
 			"usage":0,
 			"version":"12.9.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"12.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"12.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"12.6.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Core modules packaged with Dirigible"
+	]
 }
