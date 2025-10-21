@@ -3,11 +3,11 @@
 	"description":"This POM defines the required plugins and profiles to allow a Camunda Community Hub release build.\n        Inherit this POM when you want to use https://github.com/camunda-community-hub/community-action-maven-release",
 	"group_id":"io.camunda",
 	"artifact_id":"camunda-tasklist-client-generated",
-	"version_latest":"8.8.0",
-	"ts_publish":1760074329000,
-	"dt_publish":"2025-10-10 13:32:09.000",
-	"ts_update":1760075780381,
-	"dt_update":"2025-10-10 13:56:12.380",
+	"version_latest":"8.8.1",
+	"ts_publish":1761042913000,
+	"dt_publish":"2025-10-21 18:35:13.000",
+	"ts_update":1761043812478,
+	"dt_update":"2025-10-21 18:49:59.191",
 	"count_dep":12,
 	"count_ref":4,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/camunda-community-hub/camunda-tasklist-client-java/tasklist-client-parent/camunda-tasklist-client-generated",
 	"count_used_by":1,
 	"license":"Apache",
-	"ranking":"#375970 in MvnRepository",
+	"ranking":"#348141 in MvnRepository",
 	"tags":[
 		"task",
 		"camunda",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250710",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.5.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250404",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.5.13",
 			"vulnerabilities":""
 		}
 	]

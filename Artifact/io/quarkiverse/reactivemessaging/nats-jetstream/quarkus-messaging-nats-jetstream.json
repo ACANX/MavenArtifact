@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.quarkiverse.reactivemessaging.nats-jetstream/quarkus-messaging-nats-jetstream",
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.reactivemessaging.nats-jetstream",
 	"artifact_id":"quarkus-messaging-nats-jetstream",
-	"version_latest":"3.27.0",
-	"ts_publish":1758871088000,
-	"dt_publish":"2025-09-26 15:18:08.000",
-	"ts_update":1758874927968,
-	"dt_update":"2025-09-26 15:44:25.482",
-	"count_dep":197,
+	"version_latest":"3.28.1",
+	"ts_publish":1761043078000,
+	"dt_publish":"2025-10-21 18:37:58.000",
+	"ts_update":1761043808866,
+	"dt_update":"2025-10-21 18:49:59.187",
+	"count_dep":13,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.reactivemessaging.nats-jetstream/quarkus-messaging-nats-jetstream@3.25.0",
@@ -23,13 +20,29 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-reactive-messaging-nats-jetstream",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#180941 in MvnRepository",
+	"ranking":"#182050 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"messaging",
 		"nats"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -172,22 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.17.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.17.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241212",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.17.8",
 			"vulnerabilities":""
 		}
 	]
