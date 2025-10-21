@@ -3,13 +3,13 @@
 	"description":"Part of the ORT Server, the reference implementation of Eclipse Apoapsis.",
 	"group_id":"org.eclipse.apoapsis.ortserver.config",
 	"artifact_id":"config-spi",
-	"version_latest":"0.36.1",
-	"ts_publish":1760609241000,
-	"dt_publish":"2025-10-16 18:07:21.000",
-	"ts_update":1760610395502,
-	"dt_update":"2025-10-16 18:26:20.962",
+	"version_latest":"0.37.0",
+	"ts_publish":1761041408000,
+	"dt_publish":"2025-10-21 18:10:08.000",
+	"ts_update":1761042395955,
+	"dt_update":"2025-10-21 18:26:26.702",
 	"count_dep":4,
-	"count_ref":10,
+	"count_ref":28,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,13 +23,21 @@
 	"count_used_by":22,
 	"home_page":"https://projects.eclipse.org/projects/technology.apoapsis",
 	"license":"Apache 2.0",
-	"ranking":"#20974 in MvnRepository",
+	"ranking":"#20996 in MvnRepository",
 	"tags":[
 		"interface",
 		"eclipse",
 		"config"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":21,
+			"version":"0.36.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":21,
 			"version":"0.20.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250715",
-			"repository":"Central",
-			"type":"release",
-			"usage":21,
-			"version":"0.19.0",
 			"vulnerabilities":""
 		}
 	]
