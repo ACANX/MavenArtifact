@@ -3,11 +3,11 @@
 	"description":"The test container repository primarily relates to developing and maintaining test container code using Kafka image from the `strimzi/test-container-images` repository.",
 	"group_id":"io.strimzi",
 	"artifact_id":"strimzi-test-container",
-	"version_latest":"0.113.0-RC1",
-	"ts_publish":1760700874000,
-	"dt_publish":"2025-10-17 19:34:34.000",
-	"ts_update":1760702200897,
-	"dt_update":"2025-10-17 19:56:31.701",
+	"version_latest":"0.113.0-RC2",
+	"ts_publish":1761036236000,
+	"dt_publish":"2025-10-21 16:43:56.000",
+	"ts_update":1761036851494,
+	"dt_update":"2025-10-21 16:54:02.795",
 	"count_dep":35,
 	"count_ref":0,
 	"licenses":[
@@ -35,12 +35,20 @@
 	"count_used_by":19,
 	"home_page":"https://github.com/strimzi/test-container",
 	"license":"Apache 2.0",
-	"ranking":"#24531 in MvnRepository",
+	"ranking":"#24436 in MvnRepository",
 	"tags":[
 		"testing",
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.113.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"0.100.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210811",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.25.0",
 			"vulnerabilities":""
 		}
 	]
