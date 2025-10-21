@@ -3,12 +3,12 @@
 	"description":"simplifies the deployment and management of private CAs without managing infrastructure.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-security-private-ca",
-	"version_latest":"2.79.0",
-	"ts_publish":1760406654000,
-	"dt_publish":"2025-10-14 09:50:54.000",
-	"ts_update":1760409618804,
-	"dt_update":"2025-10-14 10:26:42.804",
-	"count_dep":82,
+	"version_latest":"2.80.0",
+	"ts_publish":1761080830000,
+	"dt_publish":"2025-10-22 05:07:10.000",
+	"ts_update":1761082012184,
+	"dt_update":"2025-10-22 05:26:29.699",
+	"count_dep":84,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -27,13 +27,21 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#259894 in MvnRepository",
+	"ranking":"#260740 in MvnRepository",
 	"tags":[
 		"security",
 		"google",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.79.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251007",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.58.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241217",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.57.0",
 			"vulnerabilities":""
 		}
 	]
