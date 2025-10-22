@@ -3,11 +3,11 @@
 	"description":"Patch Java security vulnerabilities. Automatically.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-java-security",
-	"version_latest":"3.19.2",
-	"ts_publish":1760131700000,
-	"dt_publish":"2025-10-11 05:28:20.000",
-	"ts_update":1760133383092,
-	"dt_update":"2025-10-11 05:56:17.018",
+	"version_latest":"3.20.0",
+	"ts_publish":1761142043000,
+	"dt_publish":"2025-10-22 22:07:23.000",
+	"ts_update":1761144188009,
+	"dt_update":"2025-10-22 22:42:54.784",
 	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
@@ -25,16 +25,24 @@
 	"url_scm":"https://github.com/moderneinc/rewrite-java-security.git",
 	"count_used_by":3,
 	"home_page":"https://github.com/moderneinc/rewrite-java-security",
-	"ranking":"#164611 in MvnRepository",
+	"ranking":"#154465 in MvnRepository",
 	"tags":[
 		"security"
 	],
 	"versions":[
 		{
-			"date":"20251009",
+			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"3.19.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"3.19.1",
 			"vulnerabilities":""
 		},
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.3.0",
 			"vulnerabilities":""
 		}
 	]
