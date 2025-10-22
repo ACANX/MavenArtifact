@@ -3,13 +3,13 @@
 	"description":"The DAISY Pipeline 2 modules provide scripts for automated processing of various digital formats efficiently and economically. It intends to facilitate the production and maintenance of accessible content for people with print disabilities.",
 	"group_id":"org.daisy.pipeline.modules.braille",
 	"artifact_id":"liblouis-utils",
-	"version_latest":"6.3.1",
-	"ts_publish":1755024635000,
-	"dt_publish":"2025-08-13 02:50:35.000",
-	"ts_update":1755026023457,
-	"dt_update":"2025-08-13 03:13:13.073",
-	"count_dep":154,
-	"count_ref":5,
+	"version_latest":"6.3.2",
+	"ts_publish":1761175610000,
+	"dt_publish":"2025-10-23 07:26:50.000",
+	"ts_update":1761176710107,
+	"dt_update":"2025-10-23 07:44:44.303",
+	"count_dep":81,
+	"count_ref":7,
 	"licenses":[
 		"GNU Lesser General Public License, Version 3"
 	],
@@ -31,7 +31,7 @@
 	"url_scm":"https://github.com/daisy-consortium/maven-parents/modules-parent/liblouis-utils",
 	"count_used_by":18,
 	"license":"LGPL 3.0",
-	"ranking":"#25649 in MvnRepository",
+	"ranking":"#26120 in MvnRepository",
 	"tags":[
 		"module",
 		"bundle",
@@ -39,6 +39,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"6.3.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250513",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"4.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220111",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.2.1",
 			"vulnerabilities":""
 		}
 	]
