@@ -3,13 +3,13 @@
 	"description":"Atlan custom package for importing asset metadata",
 	"group_id":"com.atlan",
 	"artifact_id":"asset-import",
-	"version_latest":"6.0.1",
-	"ts_publish":1760977854000,
-	"dt_publish":"2025-10-21 00:30:54.000",
-	"ts_update":1760989617215,
-	"dt_update":"2025-10-21 03:45:00.464",
+	"version_latest":"6.0.2",
+	"ts_publish":1761090736000,
+	"dt_publish":"2025-10-22 07:52:16.000",
+	"ts_update":1761092790993,
+	"dt_update":"2025-10-22 08:26:24.834",
 	"count_dep":8,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,11 +23,19 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/atlanhq/atlan-java",
 	"license":"Apache 2.0",
-	"ranking":"#188301 in MvnRepository",
+	"ranking":"#188490 in MvnRepository",
 	"tags":[
 		"import"
 	],
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"6.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251013",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"5.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"5.0.4",
 			"vulnerabilities":""
 		}
 	]
