@@ -3,11 +3,11 @@
 	"description":"OpenMetadata binary distribution",
 	"group_id":"org.open-metadata",
 	"artifact_id":"openmetadata-dist",
-	"version_latest":"1.10.2",
-	"ts_publish":1760707659000,
-	"dt_publish":"2025-10-17 21:27:39.000",
-	"ts_update":1760708421692,
-	"dt_update":"2025-10-17 21:40:13.295",
+	"version_latest":"1.10.3",
+	"ts_publish":1761106830000,
+	"dt_publish":"2025-10-22 12:20:30.000",
+	"ts_update":1761107191985,
+	"dt_update":"2025-10-22 12:26:25.272",
 	"count_dep":499,
 	"count_ref":0,
 	"licenses":[
@@ -21,13 +21,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.open-metadata/openmetadata-dist@1.8.10",
 	"url_scm":"scm:git:git@github.com:Open-Metadata/OpenMetadata/openmetadata-dist",
 	"license":"Apache 2.0",
-	"ranking":"#935645 in MvnRepository",
+	"ranking":"#937707 in MvnRepository",
 	"tags":[
 		"distribution",
 		"data",
 		"metadata"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.8.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250730",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.8.8",
 			"vulnerabilities":""
 		}
 	]
