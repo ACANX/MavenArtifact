@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-rekognition-deployment",
 	"group_id":"io.quarkiverse.amazonservices",
 	"artifact_id":"quarkus-amazon-rekognition-deployment",
-	"version_latest":"3.12.0.CR1",
-	"ts_publish":1760822628000,
-	"dt_publish":"2025-10-19 05:23:48.000",
-	"ts_update":1760823887689,
-	"dt_update":"2025-10-19 05:44:22.045",
-	"count_dep":10,
+	"version_latest":"3.12.0",
+	"ts_publish":1761169180000,
+	"dt_publish":"2025-10-23 05:39:40.000",
+	"ts_update":1761173838780,
+	"dt_update":"2025-10-23 06:56:30.018",
+	"count_dep":141,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -48,5 +50,6 @@
 			"version":"3.9.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

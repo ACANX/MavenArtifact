@@ -2,27 +2,45 @@
 	"id":"pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-ssooidc-deployment",
 	"group_id":"io.quarkiverse.amazonservices",
 	"artifact_id":"quarkus-amazon-ssooidc-deployment",
-	"version_latest":"3.12.0.CR1",
-	"ts_publish":1760822628000,
-	"dt_publish":"2025-10-19 05:23:48.000",
-	"ts_update":1760823888658,
-	"dt_update":"2025-10-19 05:44:22.051",
-	"count_dep":10,
+	"version_latest":"3.12.0",
+	"ts_publish":1761169180000,
+	"dt_publish":"2025-10-23 05:39:40.000",
+	"ts_update":1761173827592,
+	"dt_update":"2025-10-23 06:56:29.359",
+	"count_dep":141,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-ssooidc-deployment@3.10.0",
 	"license":"Apache 2.0",
-	"ranking":"#978580 in MvnRepository",
+	"ranking":"#979403 in MvnRepository",
 	"tags":[
 		"amazon",
 		"deployment",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.12.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -79,5 +97,6 @@
 			"version":"3.6.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

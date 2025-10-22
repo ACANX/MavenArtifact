@@ -3,14 +3,16 @@
 	"description":"Connect to Amazon STS",
 	"group_id":"io.quarkiverse.amazonservices",
 	"artifact_id":"quarkus-amazon-sts",
-	"version_latest":"3.12.0.CR1",
-	"ts_publish":1760822628000,
-	"dt_publish":"2025-10-19 05:23:48.000",
-	"ts_update":1760827476434,
-	"dt_update":"2025-10-19 06:44:27.280",
-	"count_dep":10,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"3.12.0",
+	"ts_publish":1761169180000,
+	"dt_publish":"2025-10-23 05:39:40.000",
+	"ts_update":1761173817941,
+	"dt_update":"2025-10-23 06:56:31.306",
+	"count_dep":95,
+	"count_ref":2,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,13 +20,29 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-sts@3.10.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#166786 in MvnRepository",
+	"ranking":"#167880 in MvnRepository",
 	"tags":[
 		"amazon",
 		"quarkus",
 		"sts"
 	],
 	"versions":[
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.12.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -167,22 +185,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241027",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240929",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":3,
-			"version":"3.0.0.alpha1",
 			"vulnerabilities":""
 		}
 	]

@@ -2,27 +2,45 @@
 	"id":"pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-sns-parent",
 	"group_id":"io.quarkiverse.amazonservices",
 	"artifact_id":"quarkus-amazon-sns-parent",
-	"version_latest":"3.12.0.CR1",
-	"ts_publish":1760822628000,
-	"dt_publish":"2025-10-19 05:23:48.000",
-	"ts_update":1760823887799,
-	"dt_update":"2025-10-19 05:44:22.495",
+	"version_latest":"3.12.0",
+	"ts_publish":1761169180000,
+	"dt_publish":"2025-10-23 05:39:40.000",
+	"ts_update":1761173825099,
+	"dt_update":"2025-10-23 06:56:30.692",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-sns-parent@3.10.0",
 	"license":"Apache 2.0",
-	"ranking":"#644364 in MvnRepository",
+	"ranking":"#645134 in MvnRepository",
 	"tags":[
 		"sns",
 		"amazon",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.12.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -166,22 +184,7 @@
 			"usage":0,
 			"version":"3.0.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241027",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240929",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.0.0.alpha1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
