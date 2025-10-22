@@ -3,11 +3,11 @@
 	"description":"OpenRewrite recipes for modernizing, upgrading, applying best practices for the fasterxml Jackson serialization/deserialization libraries",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-jackson",
-	"version_latest":"1.7.0",
-	"ts_publish":1760116904000,
-	"dt_publish":"2025-10-11 01:21:44.000",
-	"ts_update":1760118312885,
-	"dt_update":"2025-10-11 01:45:05.232",
+	"version_latest":"1.8.0",
+	"ts_publish":1761134720000,
+	"dt_publish":"2025-10-22 20:05:20.000",
+	"ts_update":1761136011861,
+	"dt_update":"2025-10-22 20:26:25.857",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
@@ -25,11 +25,19 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-jackson.git",
 	"home_page":"https://github.com/openrewrite/rewrite-jackson",
 	"license":"Apache 2.0",
-	"ranking":"#464640 in MvnRepository",
+	"ranking":"#466705 in MvnRepository",
 	"tags":[
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.7.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251004",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.12.0",
 			"vulnerabilities":""
 		}
 	]

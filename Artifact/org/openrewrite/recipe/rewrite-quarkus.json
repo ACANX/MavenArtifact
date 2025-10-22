@@ -3,11 +3,11 @@
 	"description":"Migrate between major Quarkus versions. Automatically.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-quarkus",
-	"version_latest":"2.27.0",
-	"ts_publish":1760116958000,
-	"dt_publish":"2025-10-11 01:22:38.000",
-	"ts_update":1760118316045,
-	"dt_update":"2025-10-11 01:45:05.231",
+	"version_latest":"2.27.1",
+	"ts_publish":1761134807000,
+	"dt_publish":"2025-10-22 20:06:47.000",
+	"ts_update":1761136009854,
+	"dt_update":"2025-10-22 20:26:25.854",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
@@ -23,19 +23,27 @@
 		"Moderne"
 	],
 	"url_scm":"https://github.com/openrewrite/rewrite-quarkus.git",
-	"count_used_by":1,
+	"count_used_by":2,
 	"home_page":"https://github.com/openrewrite/rewrite-quarkus",
 	"license":"Apache 2.0",
-	"ranking":"#307015 in MvnRepository",
+	"ranking":"#197633 in MvnRepository",
 	"tags":[
 		"quarkus"
 	],
 	"versions":[
 		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.27.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.26.0",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.2",
 			"vulnerabilities":""
 		}
 	]
