@@ -3,11 +3,11 @@
 	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build.",
 	"group_id":"com.limemojito.oss.standards.development-test",
 	"artifact_id":"jar-lambda-poc",
-	"version_latest":"15.3.3",
-	"ts_publish":1760222240000,
-	"dt_publish":"2025-10-12 06:37:20.000",
-	"ts_update":1760224430718,
-	"dt_update":"2025-10-12 07:13:41.406",
+	"version_latest":"15.3.4",
+	"ts_publish":1761118981000,
+	"dt_publish":"2025-10-22 15:43:01.000",
+	"ts_update":1761119798589,
+	"dt_update":"2025-10-22 15:56:29.861",
 	"count_dep":109,
 	"count_ref":1,
 	"licenses":[
@@ -23,12 +23,20 @@
 	"url_scm":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/jar-lambda-development/jar-lambda-poc",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#314146 in MvnRepository",
+	"ranking":"#314989 in MvnRepository",
 	"tags":[
 		"lambda",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"15.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"14.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240816",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"14.1.0",
 			"vulnerabilities":""
 		}
 	]
