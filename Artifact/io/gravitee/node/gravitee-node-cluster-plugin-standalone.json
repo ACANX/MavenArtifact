@@ -3,11 +3,11 @@
 	"description":"Standalone Cluster is the default plugin used when clustering is not required.",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-cluster-plugin-standalone",
-	"version_latest":"7.15.0",
-	"ts_publish":1760603927000,
-	"dt_publish":"2025-10-16 16:38:47.000",
-	"ts_update":1760604844416,
-	"dt_update":"2025-10-16 16:53:53.478",
+	"version_latest":"7.16.0",
+	"ts_publish":1761141348000,
+	"dt_publish":"2025-10-22 21:55:48.000",
+	"ts_update":1761142691412,
+	"dt_update":"2025-10-22 22:17:35.638",
 	"count_dep":62,
 	"count_ref":1,
 	"licenses":[
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-cluster/gravitee-node-cluster-plugin-standalone",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#50007 in MvnRepository",
+	"ranking":"#50082 in MvnRepository",
 	"tags":[
 		"plugin",
 		"cluster",
 		"node"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.15.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -56,7 +64,7 @@
 			"date":"20251013",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":3,
 			"version":"7.13.1",
 			"vulnerabilities":""
 		},
@@ -136,7 +144,7 @@
 			"date":"20251014",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":6,
 			"version":"7.9.7",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"7.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250625",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.9.0",
 			"vulnerabilities":""
 		}
 	]
