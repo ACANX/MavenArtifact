@@ -18,6 +18,525 @@
   ],
   "items": [
     {
+      "id": "pkg:maven/io.github.githubcew/arguslog@0.6.9",
+      "url": "https://central.sonatype.com/artifact/io.github.githubcew/arguslog",
+      "title": "io.github.githubcew:arguslog 0.6.9 发布, ArgusLog 是一款基于 SpringBoot 与 WebSocket 技术构建的轻量级接口监测与诊断工具，专为 Web 端命令行环境设计。其主要特点包括：\n        1.全方位接口监测：支持对单接口或批量接口进行监测，全面覆盖请求参数、返回结果、响应耗时、异常信息及调用链追踪等关键维度。\n        2.深度运行时诊断：集成多项高级诊断功能，包括：\n        (1).Spring 容器 Bean 检索：支持动态查询、验证容器中 Bean 的定义、依赖关系及属性配置，快速定位依赖注入或配置加载异常。\n        (2).Jad 字节码反编译：可实时查看部署环境中任意类的反编译源码，辅助分析第三方库行为、动态代理逻辑或线上源码不一致问题。\n        (3).Sql 语句拦截：支持对 SQL 语句进行拦截，可实时查看、分析 SQL 语句执行情况。\n        (4).Redis 缓存命令：支持Redis 命令执行。\n        (5).Mq 监听命令：支持对 MQ消息监听。\n        (6).方法检索与调用：支持对类和方法进行检索，并可以调用指定方法。\n        (7).受限热部署：支持在不重启服务的情况下动态更新特定方法逻辑或配置类，提升开发调试与线上应急处理效率。\n        3.高可扩展性与集成能力：支持用户自定义命令以适配不同项目需求，并能与企业现有用户体系无缝对接。\n        4.安全与合规保障：通过自定义 Token 与有效期管理机制，确保操作安全性与审计合规性。",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.githubcew:arguslog@0.6.9\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/githubcew/arguslog.svg\" alt=\"io.github.githubcew:arguslog 0.6.9 发布, ArgusLog 是一款基于 SpringBoot 与 WebSocket 技术构建的轻量级接口监测与诊断工具，专为 Web 端命令行环境设计。其主要特点包括：\n        1.全方位接口监测：支持对单接口或批量接口进行监测，全面覆盖请求参数、返回结果、响应耗时、异常信息及调用链追踪等关键维度。\n        2.深度运行时诊断：集成多项高级诊断功能，包括：\n        (1).Spring 容器 Bean 检索：支持动态查询、验证容器中 Bean 的定义、依赖关系及属性配置，快速定位依赖注入或配置加载异常。\n        (2).Jad 字节码反编译：可实时查看部署环境中任意类的反编译源码，辅助分析第三方库行为、动态代理逻辑或线上源码不一致问题。\n        (3).Sql 语句拦截：支持对 SQL 语句进行拦截，可实时查看、分析 SQL 语句执行情况。\n        (4).Redis 缓存命令：支持Redis 命令执行。\n        (5).Mq 监听命令：支持对 MQ消息监听。\n        (6).方法检索与调用：支持对类和方法进行检索，并可以调用指定方法。\n        (7).受限热部署：支持在不重启服务的情况下动态更新特定方法逻辑或配置类，提升开发调试与线上应急处理效率。\n        3.高可扩展性与集成能力：支持用户自定义命令以适配不同项目需求，并能与企业现有用户体系无缝对接。\n        4.安全与合规保障：通过自定义 Token 与有效期管理机制，确保操作安全性与审计合规性。\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/githubcew/arguslog/0.6.9/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.githubcew/arguslog\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.githubcew/arguslog/0.6.9\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/GitHubCew/apiLog\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/GitHubCew/apiLog\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/GitHubCew/ArgusLog/\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.githubcew&lt;/groupId&gt;\n        &lt;artifactId&gt;arguslog&lt;/artifactId&gt;\n        &lt;version&gt;0.6.9&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "io.github.githubcew:arguslog 0.6.9 发布, ArgusLog 是一款基于 SpringBoot 与 WebSocket 技术构建的轻量级接口监测与诊断工具，专为 Web 端命令行环境设计。其主要特点包括：\n        1.全方位接口监测：支持对单接口或批量接口进行监测，全面覆盖请求参数、返回结果、响应耗时、异常信息及调用链追踪等关键维度。\n        2.深度运行时诊断：集成多项高级诊断功能，包括：\n        (1).Spring 容器 Bean 检索：支持动态查询、验证容器中 Bean 的定义、依赖关系及属性配置，快速定位依赖注入或配置加载异常。\n        (2).Jad 字节码反编译：可实时查看部署环境中任意类的反编译源码，辅助分析第三方库行为、动态代理逻辑或线上源码不一致问题。\n        (3).Sql 语句拦截：支持对 SQL 语句进行拦截，可实时查看、分析 SQL 语句执行情况。\n        (4).Redis 缓存命令：支持Redis 命令执行。\n        (5).Mq 监听命令：支持对 MQ消息监听。\n        (6).方法检索与调用：支持对类和方法进行检索，并可以调用指定方法。\n        (7).受限热部署：支持在不重启服务的情况下动态更新特定方法逻辑或配置类，提升开发调试与线上应急处理效率。\n        3.高可扩展性与集成能力：支持用户自定义命令以适配不同项目需求，并能与企业现有用户体系无缝对接。\n        4.安全与合规保障：通过自定义 Token 与有效期管理机制，确保操作安全性与审计合规性。",
+      "summary": "io.github.githubcew:arguslog 0.6.9 发布, ArgusLog 是一款基于 SpringBoot 与 WebSocket 技术构建的轻量级接口监测与诊断工具，专为 Web 端命令行环境设计。其主要特点包括：\n        1.全方位接口监测：支持对单接口或批量接口进行监测，全面覆盖请求参数、返回结果、响应耗时、异常信息及调用链追踪等关键维度。\n        2.深度运行时诊断：集成多项高级诊断功能，包括：\n        (1).Spring 容器 Bean 检索：支持动态查询、验证容器中 Bean 的定义、依赖关系及属性配置，快速定位依赖注入或配置加载异常。\n        (2).Jad 字节码反编译：可实时查看部署环境中任意类的反编译源码，辅助分析第三方库行为、动态代理逻辑或线上源码不一致问题。\n        (3).Sql 语句拦截：支持对 SQL 语句进行拦截，可实时查看、分析 SQL 语句执行情况。\n        (4).Redis 缓存命令：支持Redis 命令执行。\n        (5).Mq 监听命令：支持对 MQ消息监听。\n        (6).方法检索与调用：支持对类和方法进行检索，并可以调用指定方法。\n        (7).受限热部署：支持在不重启服务的情况下动态更新特定方法逻辑或配置类，提升开发调试与线上应急处理效率。\n        3.高可扩展性与集成能力：支持用户自定义命令以适配不同项目需求，并能与企业现有用户体系无缝对接。\n        4.安全与合规保障：通过自定义 Token 与有效期管理机制，确保操作安全性与审计合规性。",
+      "date_published": "2025-10-22T03:35:36Z",
+      "date_modified": "2025-10-22T03:42:23Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Spring"
+        },
+        {
+          "name": "chenenwei"
+        },
+        {
+          "name": "heyugui"
+        }
+      ],
+      "tags": [
+        "github"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/io.github.wondergamesdk/os-google-is@2.0.4.0",
+      "url": "https://central.sonatype.com/artifact/io.github.wondergamesdk/os-google-is",
+      "title": "io.github.wondergamesdk:os-google-is 2.0.4.0 发布, WonderGame海外Google应用市场IronSource聚合SDK",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.wondergamesdk:os-google-is@2.0.4.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/wondergamesdk/os-google-is.svg\" alt=\"io.github.wondergamesdk:os-google-is 2.0.4.0 发布, WonderGame海外Google应用市场IronSource聚合SDK\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/wondergamesdk/os-google-is/2.0.4.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.wondergamesdk/os-google-is\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.wondergamesdk/os-google-is/2.0.4.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/wondergamesdk/WonderSdkPublish\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/wondergamesdk/WonderSdkPublish\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/wondergamesdk/WonderSdkPublish\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.wondergamesdk&lt;/groupId&gt;\n        &lt;artifactId&gt;os-google-is&lt;/artifactId&gt;\n        &lt;version&gt;2.0.4.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "io.github.wondergamesdk:os-google-is 2.0.4.0 发布, WonderGame海外Google应用市场IronSource聚合SDK",
+      "summary": "io.github.wondergamesdk:os-google-is 2.0.4.0 发布, WonderGame海外Google应用市场IronSource聚合SDK",
+      "date_published": "2025-10-22T03:33:34Z",
+      "date_modified": "2025-10-22T03:42:23Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "wensheng he"
+        }
+      ],
+      "tags": [
+        "github",
+        "google",
+        "aar",
+        "mobile",
+        "android"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.palantir.witchcraft.java.logging/gradle-witchcraft-logging@2.21.0",
+      "url": "https://central.sonatype.com/artifact/com.palantir.witchcraft.java.logging/gradle-witchcraft-logging",
+      "title": "com.palantir.witchcraft.java.logging:gradle-witchcraft-logging 2.21.0 发布, Palantir open source project",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.palantir.witchcraft.java.logging:gradle-witchcraft-logging@2.21.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/palantir/witchcraft/java/logging/gradle-witchcraft-logging.svg\" alt=\"com.palantir.witchcraft.java.logging:gradle-witchcraft-logging 2.21.0 发布, Palantir open source project\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/palantir/witchcraft/java/logging/gradle-witchcraft-logging/2.21.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.palantir.witchcraft.java.logging/gradle-witchcraft-logging\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.palantir.witchcraft.java.logging/gradle-witchcraft-logging/2.21.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/palantir/witchcraft-java-logging\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:palantir/witchcraft-java-logging.git\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/palantir/witchcraft-java-logging\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.palantir.witchcraft.java.logging&lt;/groupId&gt;\n        &lt;artifactId&gt;gradle-witchcraft-logging&lt;/artifactId&gt;\n        &lt;version&gt;2.21.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.palantir.witchcraft.java.logging:gradle-witchcraft-logging 2.21.0 发布, Palantir open source project",
+      "summary": "com.palantir.witchcraft.java.logging:gradle-witchcraft-logging 2.21.0 发布, Palantir open source project",
+      "date_published": "2025-10-22T03:30:41Z",
+      "date_modified": "2025-10-22T03:42:23Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Palantir Technologies Inc"
+        }
+      ],
+      "tags": [
+        "logging",
+        "build",
+        "build-system",
+        "palantir",
+        "gradle",
+        "groovy"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.palantir.witchcraft.java.logging/witchcraft-logging-formatting@2.21.0",
+      "url": "https://central.sonatype.com/artifact/com.palantir.witchcraft.java.logging/witchcraft-logging-formatting",
+      "title": "com.palantir.witchcraft.java.logging:witchcraft-logging-formatting 2.21.0 发布, Palantir open source project",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.palantir.witchcraft.java.logging:witchcraft-logging-formatting@2.21.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/palantir/witchcraft/java/logging/witchcraft-logging-formatting.svg\" alt=\"com.palantir.witchcraft.java.logging:witchcraft-logging-formatting 2.21.0 发布, Palantir open source project\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/palantir/witchcraft/java/logging/witchcraft-logging-formatting/2.21.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.palantir.witchcraft.java.logging/witchcraft-logging-formatting\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.palantir.witchcraft.java.logging/witchcraft-logging-formatting/2.21.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/palantir/witchcraft-java-logging\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:palantir/witchcraft-java-logging.git\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/palantir/witchcraft-java-logging\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.palantir.witchcraft.java.logging&lt;/groupId&gt;\n        &lt;artifactId&gt;witchcraft-logging-formatting&lt;/artifactId&gt;\n        &lt;version&gt;2.21.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.palantir.witchcraft.java.logging:witchcraft-logging-formatting 2.21.0 发布, Palantir open source project",
+      "summary": "com.palantir.witchcraft.java.logging:witchcraft-logging-formatting 2.21.0 发布, Palantir open source project",
+      "date_published": "2025-10-22T03:30:41Z",
+      "date_modified": "2025-10-22T03:42:20Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Palantir Technologies Inc"
+        }
+      ],
+      "tags": [
+        "format",
+        "logging",
+        "palantir"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.palantir.witchcraft.java.logging/witchcraft-logging-idea@2.21.0",
+      "url": "https://central.sonatype.com/artifact/com.palantir.witchcraft.java.logging/witchcraft-logging-idea",
+      "title": "com.palantir.witchcraft.java.logging:witchcraft-logging-idea 2.21.0 发布, Palantir open source project",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.palantir.witchcraft.java.logging:witchcraft-logging-idea@2.21.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/palantir/witchcraft/java/logging/witchcraft-logging-idea.svg\" alt=\"com.palantir.witchcraft.java.logging:witchcraft-logging-idea 2.21.0 发布, Palantir open source project\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/palantir/witchcraft/java/logging/witchcraft-logging-idea/2.21.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.palantir.witchcraft.java.logging/witchcraft-logging-idea\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.palantir.witchcraft.java.logging/witchcraft-logging-idea/2.21.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/palantir/witchcraft-java-logging\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:palantir/witchcraft-java-logging.git\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/palantir/witchcraft-java-logging\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.palantir.witchcraft.java.logging&lt;/groupId&gt;\n        &lt;artifactId&gt;witchcraft-logging-idea&lt;/artifactId&gt;\n        &lt;version&gt;2.21.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.palantir.witchcraft.java.logging:witchcraft-logging-idea 2.21.0 发布, Palantir open source project",
+      "summary": "com.palantir.witchcraft.java.logging:witchcraft-logging-idea 2.21.0 发布, Palantir open source project",
+      "date_published": "2025-10-22T03:30:41Z",
+      "date_modified": "2025-10-22T03:42:20Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Palantir Technologies Inc"
+        }
+      ],
+      "tags": [
+        "logging",
+        "palantir"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/site.addzero/tool-area@0.0.656",
+      "url": "https://central.sonatype.com/artifact/site.addzero/tool-area",
+      "title": "site.addzero:tool-area 0.0.656 发布, addzero-kmp-scaffold",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"site.addzero:tool-area@0.0.656\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/site/addzero/tool-area.svg\" alt=\"site.addzero:tool-area 0.0.656 发布, addzero-kmp-scaffold\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/site/addzero/tool-area/0.0.656/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/site.addzero/tool-area\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/site.addzero/tool-area/0.0.656\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;site.addzero&lt;/groupId&gt;\n        &lt;artifactId&gt;tool-area&lt;/artifactId&gt;\n        &lt;version&gt;0.0.656&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "site.addzero:tool-area 0.0.656 发布, addzero-kmp-scaffold",
+      "summary": "site.addzero:tool-area 0.0.656 发布, addzero-kmp-scaffold",
+      "date_published": "2025-10-22T03:27:43Z",
+      "date_modified": "2025-10-22T03:42:22Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "zjarlin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/site.addzero/tool-jsr@0.0.656",
+      "url": "https://central.sonatype.com/artifact/site.addzero/tool-jsr",
+      "title": "site.addzero:tool-jsr 0.0.656 发布, addzero-kmp-scaffold",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"site.addzero:tool-jsr@0.0.656\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/site/addzero/tool-jsr.svg\" alt=\"site.addzero:tool-jsr 0.0.656 发布, addzero-kmp-scaffold\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/site/addzero/tool-jsr/0.0.656/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/site.addzero/tool-jsr\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/site.addzero/tool-jsr/0.0.656\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;site.addzero&lt;/groupId&gt;\n        &lt;artifactId&gt;tool-jsr&lt;/artifactId&gt;\n        &lt;version&gt;0.0.656&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "site.addzero:tool-jsr 0.0.656 发布, addzero-kmp-scaffold",
+      "summary": "site.addzero:tool-jsr 0.0.656 发布, addzero-kmp-scaffold",
+      "date_published": "2025-10-22T03:27:42Z",
+      "date_modified": "2025-10-22T03:42:22Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "zjarlin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/site.addzero/tool-ddlgenerator@0.0.656",
+      "url": "https://central.sonatype.com/artifact/site.addzero/tool-ddlgenerator",
+      "title": "site.addzero:tool-ddlgenerator 0.0.656 发布, addzero-kmp-scaffold",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"site.addzero:tool-ddlgenerator@0.0.656\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/site/addzero/tool-ddlgenerator.svg\" alt=\"site.addzero:tool-ddlgenerator 0.0.656 发布, addzero-kmp-scaffold\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/site/addzero/tool-ddlgenerator/0.0.656/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/site.addzero/tool-ddlgenerator\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/site.addzero/tool-ddlgenerator/0.0.656\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;site.addzero&lt;/groupId&gt;\n        &lt;artifactId&gt;tool-ddlgenerator&lt;/artifactId&gt;\n        &lt;version&gt;0.0.656&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "site.addzero:tool-ddlgenerator 0.0.656 发布, addzero-kmp-scaffold",
+      "summary": "site.addzero:tool-ddlgenerator 0.0.656 发布, addzero-kmp-scaffold",
+      "date_published": "2025-10-22T03:27:42Z",
+      "date_modified": "2025-10-22T03:42:23Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "zjarlin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/site.addzero/tool-context@0.0.656",
+      "url": "https://central.sonatype.com/artifact/site.addzero/tool-context",
+      "title": "site.addzero:tool-context 0.0.656 发布, addzero-kmp-scaffold",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"site.addzero:tool-context@0.0.656\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/site/addzero/tool-context.svg\" alt=\"site.addzero:tool-context 0.0.656 发布, addzero-kmp-scaffold\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/site/addzero/tool-context/0.0.656/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/site.addzero/tool-context\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/site.addzero/tool-context/0.0.656\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;site.addzero&lt;/groupId&gt;\n        &lt;artifactId&gt;tool-context&lt;/artifactId&gt;\n        &lt;version&gt;0.0.656&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "site.addzero:tool-context 0.0.656 发布, addzero-kmp-scaffold",
+      "summary": "site.addzero:tool-context 0.0.656 发布, addzero-kmp-scaffold",
+      "date_published": "2025-10-22T03:27:42Z",
+      "date_modified": "2025-10-22T03:42:22Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "zjarlin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/br.com.swconsultoria/java-nfe@4.00.43",
+      "url": "https://central.sonatype.com/artifact/br.com.swconsultoria/java-nfe",
+      "title": "br.com.swconsultoria:java-nfe 4.00.43 发布, Api java para consumo do webService de nota fiscal eletronica",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"br.com.swconsultoria:java-nfe@4.00.43\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/br/com/swconsultoria/java-nfe.svg\" alt=\"br.com.swconsultoria:java-nfe 4.00.43 发布, Api java para consumo do webService de nota fiscal eletronica\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/br/com/swconsultoria/java-nfe/4.00.43/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/br.com.swconsultoria/java-nfe\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/br.com.swconsultoria/java-nfe/4.00.43\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Samuel-Oliveira/Java_NFe\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:Samuel-Oliveira/Java_NFe.git\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/Samuel-Oliveira/Java_NFe\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;br.com.swconsultoria&lt;/groupId&gt;\n        &lt;artifactId&gt;java-nfe&lt;/artifactId&gt;\n        &lt;version&gt;4.00.43&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "br.com.swconsultoria:java-nfe 4.00.43 发布, Api java para consumo do webService de nota fiscal eletronica",
+      "summary": "br.com.swconsultoria:java-nfe 4.00.43 发布, Api java para consumo do webService de nota fiscal eletronica",
+      "date_published": "2025-10-22T03:25:39Z",
+      "date_modified": "2025-10-22T03:42:23Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Samuel Borges de Oliveira"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.palantir.baseline/baseline-error-prone@6.66.0",
+      "url": "https://central.sonatype.com/artifact/com.palantir.baseline/baseline-error-prone",
+      "title": "com.palantir.baseline:baseline-error-prone 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.palantir.baseline:baseline-error-prone@6.66.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/palantir/baseline/baseline-error-prone.svg\" alt=\"com.palantir.baseline:baseline-error-prone 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/palantir/baseline/baseline-error-prone/6.66.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.palantir.baseline/baseline-error-prone\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.palantir.baseline/baseline-error-prone/6.66.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/palantir/gradle-baseline\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:palantir/gradle-baseline.git\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/palantir/gradle-baseline\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.palantir.baseline&lt;/groupId&gt;\n        &lt;artifactId&gt;baseline-error-prone&lt;/artifactId&gt;\n        &lt;version&gt;6.66.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.palantir.baseline:baseline-error-prone 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings",
+      "summary": "com.palantir.baseline:baseline-error-prone 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings",
+      "date_published": "2025-10-22T03:24:57Z",
+      "date_modified": "2025-10-22T03:42:21Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Palantir Technologies Inc"
+        }
+      ],
+      "tags": [
+        "palantir"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.palantir.baseline/gradle-baseline-java@6.66.0",
+      "url": "https://central.sonatype.com/artifact/com.palantir.baseline/gradle-baseline-java",
+      "title": "com.palantir.baseline:gradle-baseline-java 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.palantir.baseline:gradle-baseline-java@6.66.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/palantir/baseline/gradle-baseline-java.svg\" alt=\"com.palantir.baseline:gradle-baseline-java 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/palantir/baseline/gradle-baseline-java/6.66.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.palantir.baseline/gradle-baseline-java\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.palantir.baseline/gradle-baseline-java/6.66.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/palantir/gradle-baseline\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:palantir/gradle-baseline.git\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/palantir/gradle-baseline\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.palantir.baseline&lt;/groupId&gt;\n        &lt;artifactId&gt;gradle-baseline-java&lt;/artifactId&gt;\n        &lt;version&gt;6.66.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.palantir.baseline:gradle-baseline-java 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings",
+      "summary": "com.palantir.baseline:gradle-baseline-java 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings",
+      "date_published": "2025-10-22T03:24:57Z",
+      "date_modified": "2025-10-22T03:42:23Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Palantir Technologies Inc"
+        }
+      ],
+      "tags": [
+        "build",
+        "build-system",
+        "palantir",
+        "gradle",
+        "groovy"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.palantir.baseline/gradle-baseline-java-config@6.66.0",
+      "url": "https://central.sonatype.com/artifact/com.palantir.baseline/gradle-baseline-java-config",
+      "title": "com.palantir.baseline:gradle-baseline-java-config 6.66.0 发布, Baseline configuration files for the Baseline Gradle plugin",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.palantir.baseline:gradle-baseline-java-config@6.66.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/palantir/baseline/gradle-baseline-java-config.svg\" alt=\"com.palantir.baseline:gradle-baseline-java-config 6.66.0 发布, Baseline configuration files for the Baseline Gradle plugin\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/palantir/baseline/gradle-baseline-java-config/6.66.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.palantir.baseline/gradle-baseline-java-config\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.palantir.baseline/gradle-baseline-java-config/6.66.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/palantir/gradle-baseline\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:palantir/gradle-baseline.git\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/palantir/gradle-baseline\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.palantir.baseline&lt;/groupId&gt;\n        &lt;artifactId&gt;gradle-baseline-java-config&lt;/artifactId&gt;\n        &lt;version&gt;6.66.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.palantir.baseline:gradle-baseline-java-config 6.66.0 发布, Baseline configuration files for the Baseline Gradle plugin",
+      "summary": "com.palantir.baseline:gradle-baseline-java-config 6.66.0 发布, Baseline configuration files for the Baseline Gradle plugin",
+      "date_published": "2025-10-22T03:24:57Z",
+      "date_modified": "2025-10-22T03:42:21Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Palantir Technologies Inc"
+        }
+      ],
+      "tags": [
+        "build",
+        "build-system",
+        "config",
+        "palantir",
+        "gradle",
+        "groovy"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.palantir.baseline/baseline-null-away@6.66.0",
+      "url": "https://central.sonatype.com/artifact/com.palantir.baseline/baseline-null-away",
+      "title": "com.palantir.baseline:baseline-null-away 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.palantir.baseline:baseline-null-away@6.66.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/palantir/baseline/baseline-null-away.svg\" alt=\"com.palantir.baseline:baseline-null-away 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/palantir/baseline/baseline-null-away/6.66.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.palantir.baseline/baseline-null-away\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.palantir.baseline/baseline-null-away/6.66.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/palantir/gradle-baseline\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:palantir/gradle-baseline.git\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/palantir/gradle-baseline\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.palantir.baseline&lt;/groupId&gt;\n        &lt;artifactId&gt;baseline-null-away&lt;/artifactId&gt;\n        &lt;version&gt;6.66.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.palantir.baseline:baseline-null-away 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings",
+      "summary": "com.palantir.baseline:baseline-null-away 6.66.0 发布, A Gradle plugin for applying Baseline-recommended build and IDE settings",
+      "date_published": "2025-10-22T03:24:57Z",
+      "date_modified": "2025-10-22T03:42:22Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Palantir Technologies Inc"
+        }
+      ],
+      "tags": [
+        "palantir"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.alipay.sdk/alipay-sdk-java@4.40.483.ALL",
+      "url": "https://central.sonatype.com/artifact/com.alipay.sdk/alipay-sdk-java",
+      "title": "com.alipay.sdk:alipay-sdk-java 4.40.483.ALL 发布, Alipay openapi SDK for Java\n\n\n        Copyright © 2018 杭州蚂蚁金服\n        All rights reserved.\n\n        版权所有 （C）杭州蚂蚁金服\n\n        http://open.alipay.com",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.alipay.sdk:alipay-sdk-java@4.40.483.ALL\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/alipay/sdk/alipay-sdk-java.svg\" alt=\"com.alipay.sdk:alipay-sdk-java 4.40.483.ALL 发布, Alipay openapi SDK for Java\n\n\n        Copyright © 2018 杭州蚂蚁金服\n        All rights reserved.\n\n        版权所有 （C）杭州蚂蚁金服\n\n        http://open.alipay.com\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/alipay/sdk/alipay-sdk-java/4.40.483.ALL/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.alipay.sdk/alipay-sdk-java\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.alipay.sdk/alipay-sdk-java/4.40.483.ALL\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://open.alipay.com\"><p><span>项目网址</span></p></a></br>\n          <a href=\"http://github.com/alipay/alipay-sdk-java-all/tree/master\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://open.alipay.com\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.alipay.sdk&lt;/groupId&gt;\n        &lt;artifactId&gt;alipay-sdk-java&lt;/artifactId&gt;\n        &lt;version&gt;4.40.483.ALL&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.alipay.sdk:alipay-sdk-java 4.40.483.ALL 发布, Alipay openapi SDK for Java\n\n\n        Copyright © 2018 杭州蚂蚁金服\n        All rights reserved.\n\n        版权所有 （C）杭州蚂蚁金服\n\n        http://open.alipay.com",
+      "summary": "com.alipay.sdk:alipay-sdk-java 4.40.483.ALL 发布, Alipay openapi SDK for Java\n\n\n        Copyright © 2018 杭州蚂蚁金服\n        All rights reserved.\n\n        版权所有 （C）杭州蚂蚁金服\n\n        http://open.alipay.com",
+      "date_published": "2025-10-22T03:24:23Z",
+      "date_modified": "2025-10-22T03:42:23Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "antopen"
+        }
+      ],
+      "tags": [
+        "payments",
+        "sdk",
+        "alipay"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/io.dipcoin/sui-amm-client-java@1.0.1",
+      "url": "https://central.sonatype.com/artifact/io.dipcoin/sui-amm-client-java",
+      "title": "io.dipcoin:sui-amm-client-java 1.0.1 发布, Java Implementation of the Dipcoin AMM Swap Client Library.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.dipcoin:sui-amm-client-java@1.0.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/dipcoin/sui-amm-client-java.svg\" alt=\"io.dipcoin:sui-amm-client-java 1.0.1 发布, Java Implementation of the Dipcoin AMM Swap Client Library.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/dipcoin/sui-amm-client-java/1.0.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.dipcoin/sui-amm-client-java\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.dipcoin/sui-amm-client-java/1.0.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/dipcoinlab/dipcoinlab/dipcoin-amm-client-java\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/dipcoinlab/dipcoin-amm-client-java\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/dipcoinlab/dipcoinlab/dipcoin-amm-client-java\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.dipcoin&lt;/groupId&gt;\n        &lt;artifactId&gt;sui-amm-client-java&lt;/artifactId&gt;\n        &lt;version&gt;1.0.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "io.dipcoin:sui-amm-client-java 1.0.1 发布, Java Implementation of the Dipcoin AMM Swap Client Library.",
+      "summary": "io.dipcoin:sui-amm-client-java 1.0.1 发布, Java Implementation of the Dipcoin AMM Swap Client Library.",
+      "date_published": "2025-10-22T03:22:11Z",
+      "date_modified": "2025-10-22T03:42:23Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Dipcoin LLC"
+        }
+      ],
+      "tags": [
+        "client"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
       "id": "pkg:maven/tools.jackson.jakarta.rs/jackson-jakarta-rs-xml-provider@3.0.1",
       "url": "https://central.sonatype.com/artifact/tools.jackson.jakarta.rs/jackson-jakarta-rs-xml-provider",
       "title": "tools.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider 3.0.1 发布, Functionality to handle XML input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
@@ -25,7 +544,7 @@
       "content_text": "tools.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider 3.0.1 发布, Functionality to handle XML input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "summary": "tools.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider 3.0.1 发布, Functionality to handle XML input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "date_published": "2025-10-22T03:19:58Z",
-      "date_modified": "2025-10-22T03:26:35Z",
+      "date_modified": "2025-10-22T03:42:23Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -59,7 +578,7 @@
       "content_text": "tools.jackson.jakarta.rs:jackson-jakarta-rs-json-provider 3.0.1 发布, Functionality to handle JSON input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "summary": "tools.jackson.jakarta.rs:jackson-jakarta-rs-json-provider 3.0.1 发布, Functionality to handle JSON input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "date_published": "2025-10-22T03:19:58Z",
-      "date_modified": "2025-10-22T03:26:35Z",
+      "date_modified": "2025-10-22T03:42:23Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -93,7 +612,7 @@
       "content_text": "tools.jackson.jakarta.rs:jackson-jakarta-rs-base 3.0.1 发布, Pile of code that is shared by all Jackson-based Jakarta-RS\nproviders.",
       "summary": "tools.jackson.jakarta.rs:jackson-jakarta-rs-base 3.0.1 发布, Pile of code that is shared by all Jackson-based Jakarta-RS\nproviders.",
       "date_published": "2025-10-22T03:19:58Z",
-      "date_modified": "2025-10-22T03:26:33Z",
+      "date_modified": "2025-10-22T03:42:20Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -125,7 +644,7 @@
       "content_text": "tools.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider 3.0.1 发布, Functionality to handle CBOR encoded input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "summary": "tools.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider 3.0.1 发布, Functionality to handle CBOR encoded input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "date_published": "2025-10-22T03:19:58Z",
-      "date_modified": "2025-10-22T03:26:31Z",
+      "date_modified": "2025-10-22T03:42:21Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -160,7 +679,7 @@
       "content_text": "tools.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider 3.0.1 发布, Functionality to handle Smile (binary JSON) input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "summary": "tools.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider 3.0.1 发布, Functionality to handle Smile (binary JSON) input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "date_published": "2025-10-22T03:19:58Z",
-      "date_modified": "2025-10-22T03:26:33Z",
+      "date_modified": "2025-10-22T03:42:20Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -193,7 +712,7 @@
       "content_text": "tools.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider 3.0.1 发布, Functionality to handle YAML input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "summary": "tools.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider 3.0.1 发布, Functionality to handle YAML input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
       "date_published": "2025-10-22T03:19:58Z",
-      "date_modified": "2025-10-22T03:26:32Z",
+      "date_modified": "2025-10-22T03:42:22Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -227,7 +746,7 @@
       "content_text": "tools.jackson.jakarta.rs:jackson-jakarta-rs-providers 3.0.1 发布, Parent for Jackson Jakarta-RS (jakarta.ws.rs) providers",
       "summary": "tools.jackson.jakarta.rs:jackson-jakarta-rs-providers 3.0.1 发布, Parent for Jackson Jakarta-RS (jakarta.ws.rs) providers",
       "date_published": "2025-10-22T03:19:58Z",
-      "date_modified": "2025-10-22T03:26:36Z",
+      "date_modified": "2025-10-22T03:42:22Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -260,7 +779,7 @@
       "content_text": "io.github.yuanrui-mdt-info:module_base_clevast 5.3.18 发布, common",
       "summary": "io.github.yuanrui-mdt-info:module_base_clevast 5.3.18 发布, common",
       "date_published": "2025-10-22T03:15:53Z",
-      "date_modified": "2025-10-22T03:26:37Z",
+      "date_modified": "2025-10-22T03:42:23Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -287,6 +806,38 @@
       ]
     },
     {
+      "id": "pkg:maven/com.innov8tif.okaycam/OkayCamPlus@1.0.3",
+      "url": "https://central.sonatype.com/artifact/com.innov8tif.okaycam/OkayCamPlus",
+      "title": "com.innov8tif.okaycam:OkayCamPlus 1.0.3 发布, A custom camera for Android",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.innov8tif.okaycam:OkayCamPlus@1.0.3\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/innov8tif/okaycam/OkayCamPlus.svg\" alt=\"com.innov8tif.okaycam:OkayCamPlus 1.0.3 发布, A custom camera for Android\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/innov8tif/okaycam/OkayCamPlus/1.0.3/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.innov8tif.okaycam/OkayCamPlus\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.innov8tif.okaycam/OkayCamPlus/1.0.3\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gitlab.com/innov8tif-ekyc-product/okaycam/mobile/camera-android\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://gitlab.com/innov8tif-ekyc-product/okaycam/mobile/camera-android\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://gitlab.com/innov8tif-ekyc-product/okaycam/mobile/camera-android\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.innov8tif.okaycam&lt;/groupId&gt;\n        &lt;artifactId&gt;OkayCamPlus&lt;/artifactId&gt;\n        &lt;version&gt;1.0.3&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.innov8tif.okaycam:OkayCamPlus 1.0.3 发布, A custom camera for Android",
+      "summary": "com.innov8tif.okaycam:OkayCamPlus 1.0.3 发布, A custom camera for Android",
+      "date_published": "2025-10-22T03:12:42Z",
+      "date_modified": "2025-10-22T03:42:20Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Mohammad Ashraful Kabir"
+        }
+      ],
+      "tags": [
+        "aar",
+        "mobile",
+        "android"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
       "id": "pkg:maven/tools.jackson.jaxrs/jackson-jaxrs-yaml-provider@3.0.1",
       "url": "https://central.sonatype.com/artifact/tools.jackson.jaxrs/jackson-jaxrs-yaml-provider",
       "title": "tools.jackson.jaxrs:jackson-jaxrs-yaml-provider 3.0.1 发布, Functionality to handle YAML input/output for JAX-RS implementations (like Jersey and RESTeasy)\nusing standard Jackson data binding.",
@@ -294,7 +845,7 @@
       "content_text": "tools.jackson.jaxrs:jackson-jaxrs-yaml-provider 3.0.1 发布, Functionality to handle YAML input/output for JAX-RS implementations (like Jersey and RESTeasy)\nusing standard Jackson data binding.",
       "summary": "tools.jackson.jaxrs:jackson-jaxrs-yaml-provider 3.0.1 发布, Functionality to handle YAML input/output for JAX-RS implementations (like Jersey and RESTeasy)\nusing standard Jackson data binding.",
       "date_published": "2025-10-22T03:12:33Z",
-      "date_modified": "2025-10-22T03:26:35Z",
+      "date_modified": "2025-10-22T03:42:22Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -330,7 +881,7 @@
       "content_text": "tools.jackson.datatype:jackson-datatype-jaxrs 3.0.1 发布, Functionality for reading/writing core JAX-RS helper types",
       "summary": "tools.jackson.datatype:jackson-datatype-jaxrs 3.0.1 发布, Functionality for reading/writing core JAX-RS helper types",
       "date_published": "2025-10-22T03:12:33Z",
-      "date_modified": "2025-10-22T03:26:34Z",
+      "date_modified": "2025-10-22T03:42:20Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -365,7 +916,7 @@
       "content_text": "tools.jackson.jaxrs:jackson-jaxrs-providers 3.0.1 发布, Parent for Jackson JAX-RS providers",
       "summary": "tools.jackson.jaxrs:jackson-jaxrs-providers 3.0.1 发布, Parent for Jackson JAX-RS providers",
       "date_published": "2025-10-22T03:12:33Z",
-      "date_modified": "2025-10-22T03:26:31Z",
+      "date_modified": "2025-10-22T03:42:20Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -400,7 +951,7 @@
       "content_text": "tools.jackson.jaxrs:jackson-jaxrs-json-provider 3.0.1 发布, Functionality to handle JSON input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.",
       "summary": "tools.jackson.jaxrs:jackson-jaxrs-json-provider 3.0.1 发布, Functionality to handle JSON input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.",
       "date_published": "2025-10-22T03:12:33Z",
-      "date_modified": "2025-10-22T03:26:33Z",
+      "date_modified": "2025-10-22T03:42:23Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -436,7 +987,7 @@
       "content_text": "tools.jackson.jaxrs:jackson-jaxrs-base 3.0.1 发布, Pile of code that is shared by all Jackson-based JAX-RS\nproviders.",
       "summary": "tools.jackson.jaxrs:jackson-jaxrs-base 3.0.1 发布, Pile of code that is shared by all Jackson-based JAX-RS\nproviders.",
       "date_published": "2025-10-22T03:12:33Z",
-      "date_modified": "2025-10-22T03:26:36Z",
+      "date_modified": "2025-10-22T03:42:20Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -470,7 +1021,7 @@
       "content_text": "tools.jackson.jaxrs:jackson-jaxrs-cbor-provider 3.0.1 发布, Functionality to handle CBOR encoded input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.",
       "summary": "tools.jackson.jaxrs:jackson-jaxrs-cbor-provider 3.0.1 发布, Functionality to handle CBOR encoded input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.",
       "date_published": "2025-10-22T03:12:33Z",
-      "date_modified": "2025-10-22T03:26:34Z",
+      "date_modified": "2025-10-22T03:42:22Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -507,7 +1058,7 @@
       "content_text": "tools.jackson.jaxrs:jackson-jaxrs-xml-provider 3.0.1 发布, Functionality to handle XML input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.",
       "summary": "tools.jackson.jaxrs:jackson-jaxrs-xml-provider 3.0.1 发布, Functionality to handle XML input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.",
       "date_published": "2025-10-22T03:12:33Z",
-      "date_modified": "2025-10-22T03:26:32Z",
+      "date_modified": "2025-10-22T03:42:23Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -543,7 +1094,7 @@
       "content_text": "tools.jackson.jaxrs:jackson-jaxrs-smile-provider 3.0.1 发布, Functionality to handle Smile (binary JSON) input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.",
       "summary": "tools.jackson.jaxrs:jackson-jaxrs-smile-provider 3.0.1 发布, Functionality to handle Smile (binary JSON) input/output for JAX-RS implementations (like Jersey and RESTeasy) using standard Jackson data binding.",
       "date_published": "2025-10-22T03:12:33Z",
-      "date_modified": "2025-10-22T03:26:36Z",
+      "date_modified": "2025-10-22T03:42:23Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -578,7 +1129,7 @@
       "content_text": "io.github.bibekaryal86:shdsvc 1.0.12 发布, This will be the common module shared across repositories with shared services",
       "summary": "io.github.bibekaryal86:shdsvc 1.0.12 发布, This will be the common module shared across repositories with shared services",
       "date_published": "2025-10-22T03:10:59Z",
-      "date_modified": "2025-10-22T03:26:37Z",
+      "date_modified": "2025-10-22T03:42:20Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -608,7 +1159,7 @@
       "content_text": "tools.jackson.module:jackson-module-kotlin 3.0.1 发布, Add-on module for Jackson (https://github.com/FasterXML/jackson/) to support\n        Kotlin language, specifically introspection of method/constructor parameter names,\n        without having to add explicit property name annotation.",
       "summary": "tools.jackson.module:jackson-module-kotlin 3.0.1 发布, Add-on module for Jackson (https://github.com/FasterXML/jackson/) to support\n        Kotlin language, specifically introspection of method/constructor parameter names,\n        without having to add explicit property name annotation.",
       "date_published": "2025-10-22T03:09:40Z",
-      "date_modified": "2025-10-22T03:26:31Z",
+      "date_modified": "2025-10-22T03:42:21Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -656,7 +1207,7 @@
       "content_text": "com.zenlayer:zenlayercloud-sdk-java 0.6.35 发布, Zenlayer Cloud Open API SDK for Java",
       "summary": "com.zenlayer:zenlayercloud-sdk-java 0.6.35 发布, Zenlayer Cloud Open API SDK for Java",
       "date_published": "2025-10-22T03:09:05Z",
-      "date_modified": "2025-10-22T03:26:36Z",
+      "date_modified": "2025-10-22T03:42:21Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -686,7 +1237,7 @@
       "content_text": "com.github.dreamroute:api-ext-spring-boot-starter 1.1.4-RELEASE 发布, swagger and java/hibernate validator combine",
       "summary": "com.github.dreamroute:api-ext-spring-boot-starter 1.1.4-RELEASE 发布, swagger and java/hibernate validator combine",
       "date_published": "2025-10-22T03:06:41Z",
-      "date_modified": "2025-10-22T03:26:33Z",
+      "date_modified": "2025-10-22T03:42:22Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -719,7 +1270,7 @@
       "content_text": "com.aliyun:aiccs20191015 3.1.1 发布, Alibaba Cloud aiccs (20191015) SDK for Java",
       "summary": "com.aliyun:aiccs20191015 3.1.1 发布, Alibaba Cloud aiccs (20191015) SDK for Java",
       "date_published": "2025-10-22T03:05:14Z",
-      "date_modified": "2025-10-22T03:26:36Z",
+      "date_modified": "2025-10-22T03:42:21Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -749,7 +1300,7 @@
       "content_text": "io.github.yangentao:types 2.0.13 发布, Kotlin reflect and types.",
       "summary": "io.github.yangentao:types 2.0.13 发布, Kotlin reflect and types.",
       "date_published": "2025-10-22T03:04:56Z",
-      "date_modified": "2025-10-22T03:26:36Z",
+      "date_modified": "2025-10-22T03:42:21Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -780,7 +1331,7 @@
       "content_text": "tools.jackson.datatype:jackson-datatype-joda 3.0.1 发布, Add-on module for Jackson (http://github.com/FasterXML/jackson) to support\nJoda (https://www.joda.org/joda-time/) data types.",
       "summary": "tools.jackson.datatype:jackson-datatype-joda 3.0.1 发布, Add-on module for Jackson (http://github.com/FasterXML/jackson) to support\nJoda (https://www.joda.org/joda-time/) data types.",
       "date_published": "2025-10-22T03:02:50Z",
-      "date_modified": "2025-10-22T03:26:32Z",
+      "date_modified": "2025-10-22T03:42:22Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -2052,134 +2603,6 @@
         "mobile",
         "maps",
         "android"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/site.addzero/tool-jsr@0.0.655",
-      "url": "https://central.sonatype.com/artifact/site.addzero/tool-jsr",
-      "title": "site.addzero:tool-jsr 0.0.655 发布, addzero-kmp-scaffold",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"site.addzero:tool-jsr@0.0.655\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/site/addzero/tool-jsr.svg\" alt=\"site.addzero:tool-jsr 0.0.655 发布, addzero-kmp-scaffold\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/site/addzero/tool-jsr/0.0.655/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/site.addzero/tool-jsr\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/site.addzero/tool-jsr/0.0.655\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;site.addzero&lt;/groupId&gt;\n        &lt;artifactId&gt;tool-jsr&lt;/artifactId&gt;\n        &lt;version&gt;0.0.655&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "site.addzero:tool-jsr 0.0.655 发布, addzero-kmp-scaffold",
-      "summary": "site.addzero:tool-jsr 0.0.655 发布, addzero-kmp-scaffold",
-      "date_published": "2025-10-22T02:51:42Z",
-      "date_modified": "2025-10-22T03:26:30Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "zjarlin"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/site.addzero/tool-ddlgenerator@0.0.655",
-      "url": "https://central.sonatype.com/artifact/site.addzero/tool-ddlgenerator",
-      "title": "site.addzero:tool-ddlgenerator 0.0.655 发布, addzero-kmp-scaffold",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"site.addzero:tool-ddlgenerator@0.0.655\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/site/addzero/tool-ddlgenerator.svg\" alt=\"site.addzero:tool-ddlgenerator 0.0.655 发布, addzero-kmp-scaffold\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/site/addzero/tool-ddlgenerator/0.0.655/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/site.addzero/tool-ddlgenerator\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/site.addzero/tool-ddlgenerator/0.0.655\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;site.addzero&lt;/groupId&gt;\n        &lt;artifactId&gt;tool-ddlgenerator&lt;/artifactId&gt;\n        &lt;version&gt;0.0.655&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "site.addzero:tool-ddlgenerator 0.0.655 发布, addzero-kmp-scaffold",
-      "summary": "site.addzero:tool-ddlgenerator 0.0.655 发布, addzero-kmp-scaffold",
-      "date_published": "2025-10-22T02:51:42Z",
-      "date_modified": "2025-10-22T03:26:36Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "zjarlin"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/site.addzero/tool-area@0.0.655",
-      "url": "https://central.sonatype.com/artifact/site.addzero/tool-area",
-      "title": "site.addzero:tool-area 0.0.655 发布, addzero-kmp-scaffold",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"site.addzero:tool-area@0.0.655\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/site/addzero/tool-area.svg\" alt=\"site.addzero:tool-area 0.0.655 发布, addzero-kmp-scaffold\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/site/addzero/tool-area/0.0.655/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/site.addzero/tool-area\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/site.addzero/tool-area/0.0.655\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;site.addzero&lt;/groupId&gt;\n        &lt;artifactId&gt;tool-area&lt;/artifactId&gt;\n        &lt;version&gt;0.0.655&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "site.addzero:tool-area 0.0.655 发布, addzero-kmp-scaffold",
-      "summary": "site.addzero:tool-area 0.0.655 发布, addzero-kmp-scaffold",
-      "date_published": "2025-10-22T02:51:42Z",
-      "date_modified": "2025-10-22T03:26:32Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "zjarlin"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/site.addzero/tool-context@0.0.655",
-      "url": "https://central.sonatype.com/artifact/site.addzero/tool-context",
-      "title": "site.addzero:tool-context 0.0.655 发布, addzero-kmp-scaffold",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"site.addzero:tool-context@0.0.655\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/site/addzero/tool-context.svg\" alt=\"site.addzero:tool-context 0.0.655 发布, addzero-kmp-scaffold\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/site/addzero/tool-context/0.0.655/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/site.addzero/tool-context\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/site.addzero/tool-context/0.0.655\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://gitee.com/zjarlin/addzero\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;site.addzero&lt;/groupId&gt;\n        &lt;artifactId&gt;tool-context&lt;/artifactId&gt;\n        &lt;version&gt;0.0.655&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "site.addzero:tool-context 0.0.655 发布, addzero-kmp-scaffold",
-      "summary": "site.addzero:tool-context 0.0.655 发布, addzero-kmp-scaffold",
-      "date_published": "2025-10-22T02:51:42Z",
-      "date_modified": "2025-10-22T03:26:29Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "zjarlin"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
       ],
       "attachments": [
         {
@@ -8367,212 +8790,6 @@
       "tags": [
         "client",
         "kotlin"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.moov/sdk-spring-boot-starter@0.29.2",
-      "url": "https://central.sonatype.com/artifact/io.moov/sdk-spring-boot-starter",
-      "title": "io.moov:sdk-spring-boot-starter 0.29.2 发布, Spring Boot starter for the Moov Java SDK.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.moov:sdk-spring-boot-starter@0.29.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/moov/sdk-spring-boot-starter.svg\" alt=\"io.moov:sdk-spring-boot-starter 0.29.2 发布, Spring Boot starter for the Moov Java SDK.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/moov/sdk-spring-boot-starter/0.29.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.moov/sdk-spring-boot-starter\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.moov/sdk-spring-boot-starter/0.29.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/moovfinancial/moov-java\"><p><span>项目网址</span></p></a></br>\n          <a href=\"github.com/moovfinancial/moov-java\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/moovfinancial/moov-java\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.moov&lt;/groupId&gt;\n        &lt;artifactId&gt;sdk-spring-boot-starter&lt;/artifactId&gt;\n        &lt;version&gt;0.29.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.moov:sdk-spring-boot-starter 0.29.2 发布, Spring Boot starter for the Moov Java SDK.",
-      "summary": "io.moov:sdk-spring-boot-starter 0.29.2 发布, Spring Boot starter for the Moov Java SDK.",
-      "date_published": "2025-10-22T00:35:53Z",
-      "date_modified": "2025-10-22T01:26:33Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Moov"
-        }
-      ],
-      "tags": [
-        "sdk",
-        "spring",
-        "starter"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.moov/sdk-spring-boot-autoconfigure@0.29.2",
-      "url": "https://central.sonatype.com/artifact/io.moov/sdk-spring-boot-autoconfigure",
-      "title": "io.moov:sdk-spring-boot-autoconfigure 0.29.2 发布, Spring Boot auto-configuration for the Moov Java SDK.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.moov:sdk-spring-boot-autoconfigure@0.29.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/moov/sdk-spring-boot-autoconfigure.svg\" alt=\"io.moov:sdk-spring-boot-autoconfigure 0.29.2 发布, Spring Boot auto-configuration for the Moov Java SDK.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/moov/sdk-spring-boot-autoconfigure/0.29.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.moov/sdk-spring-boot-autoconfigure\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.moov/sdk-spring-boot-autoconfigure/0.29.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/moovfinancial/moov-java\"><p><span>项目网址</span></p></a></br>\n          <a href=\"github.com/moovfinancial/moov-java\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/moovfinancial/moov-java\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.moov&lt;/groupId&gt;\n        &lt;artifactId&gt;sdk-spring-boot-autoconfigure&lt;/artifactId&gt;\n        &lt;version&gt;0.29.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.moov:sdk-spring-boot-autoconfigure 0.29.2 发布, Spring Boot auto-configuration for the Moov Java SDK.",
-      "summary": "io.moov:sdk-spring-boot-autoconfigure 0.29.2 发布, Spring Boot auto-configuration for the Moov Java SDK.",
-      "date_published": "2025-10-22T00:35:34Z",
-      "date_modified": "2025-10-22T01:26:34Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Moov"
-        }
-      ],
-      "tags": [
-        "sdk",
-        "spring",
-        "config"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.moov/sdk@0.29.2",
-      "url": "https://central.sonatype.com/artifact/io.moov/sdk",
-      "title": "io.moov:sdk 0.29.2 发布, SDK enabling Java developers to easily integrate with the Moov API.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.moov:sdk@0.29.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/moov/sdk.svg\" alt=\"io.moov:sdk 0.29.2 发布, SDK enabling Java developers to easily integrate with the Moov API.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/moov/sdk/0.29.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.moov/sdk\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.moov/sdk/0.29.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/moovfinancial/moov-java\"><p><span>项目网址</span></p></a></br>\n          <a href=\"github.com/moovfinancial/moov-java\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/moovfinancial/moov-java\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.moov&lt;/groupId&gt;\n        &lt;artifactId&gt;sdk&lt;/artifactId&gt;\n        &lt;version&gt;0.29.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.moov:sdk 0.29.2 发布, SDK enabling Java developers to easily integrate with the Moov API.",
-      "summary": "io.moov:sdk 0.29.2 发布, SDK enabling Java developers to easily integrate with the Moov API.",
-      "date_published": "2025-10-22T00:35:16Z",
-      "date_modified": "2025-10-22T01:26:32Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Moov"
-        }
-      ],
-      "tags": [
-        "sdk"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.mvnpm.at.jsonjoy.com/json-pointer@17.61.1",
-      "url": "https://central.sonatype.com/artifact/org.mvnpm.at.jsonjoy.com/json-pointer",
-      "title": "org.mvnpm.at.jsonjoy.com:json-pointer 17.61.1 发布, High-performance JSON Pointer implementation",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.mvnpm.at.jsonjoy.com:json-pointer@17.61.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/mvnpm/at/jsonjoy/com/json-pointer.svg\" alt=\"org.mvnpm.at.jsonjoy.com:json-pointer 17.61.1 发布, High-performance JSON Pointer implementation\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/mvnpm/at/jsonjoy/com/json-pointer/17.61.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.mvnpm.at.jsonjoy.com/json-pointer\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.mvnpm.at.jsonjoy.com/json-pointer/17.61.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/jsonjoy-com/json-pointer\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/jsonjoy-com/json-pointer\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/jsonjoy-com/json-pointer\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.mvnpm.at.jsonjoy.com&lt;/groupId&gt;\n        &lt;artifactId&gt;json-pointer&lt;/artifactId&gt;\n        &lt;version&gt;17.61.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.mvnpm.at.jsonjoy.com:json-pointer 17.61.1 发布, High-performance JSON Pointer implementation",
-      "summary": "org.mvnpm.at.jsonjoy.com:json-pointer 17.61.1 发布, High-performance JSON Pointer implementation",
-      "date_published": "2025-10-22T00:33:21Z",
-      "date_modified": "2025-10-22T01:26:33Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "json-joy-team"
-        },
-        {
-          "name": "streamich"
-        }
-      ],
-      "tags": [
-        "assets",
-        "json",
-        "web",
-        "npm",
-        "resources"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.mvnpm.at.jsonjoy.com/buffers@17.61.1",
-      "url": "https://central.sonatype.com/artifact/org.mvnpm.at.jsonjoy.com/buffers",
-      "title": "org.mvnpm.at.jsonjoy.com:buffers 17.61.1 发布, Various helper utilities for working with buffers and binary data",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.mvnpm.at.jsonjoy.com:buffers@17.61.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/mvnpm/at/jsonjoy/com/buffers.svg\" alt=\"org.mvnpm.at.jsonjoy.com:buffers 17.61.1 发布, Various helper utilities for working with buffers and binary data\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/mvnpm/at/jsonjoy/com/buffers/17.61.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.mvnpm.at.jsonjoy.com/buffers\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.mvnpm.at.jsonjoy.com/buffers/17.61.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/jsonjoy-com/buffers\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/jsonjoy-com/buffers\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/jsonjoy-com/buffers\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.mvnpm.at.jsonjoy.com&lt;/groupId&gt;\n        &lt;artifactId&gt;buffers&lt;/artifactId&gt;\n        &lt;version&gt;17.61.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.mvnpm.at.jsonjoy.com:buffers 17.61.1 发布, Various helper utilities for working with buffers and binary data",
-      "summary": "org.mvnpm.at.jsonjoy.com:buffers 17.61.1 发布, Various helper utilities for working with buffers and binary data",
-      "date_published": "2025-10-22T00:30:20Z",
-      "date_modified": "2025-10-22T01:13:31Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "json-joy-team"
-        },
-        {
-          "name": "streamich"
-        }
-      ],
-      "tags": [
-        "assets",
-        "buffer",
-        "web",
-        "npm",
-        "resources"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.mvnpm.at.jsonjoy.com/codegen@17.61.1",
-      "url": "https://central.sonatype.com/artifact/org.mvnpm.at.jsonjoy.com/codegen",
-      "title": "org.mvnpm.at.jsonjoy.com:codegen 17.61.1 发布, No-dependencies, low-level, high-performance JIT code generation package for JavaScript",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.mvnpm.at.jsonjoy.com:codegen@17.61.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/mvnpm/at/jsonjoy/com/codegen.svg\" alt=\"org.mvnpm.at.jsonjoy.com:codegen 17.61.1 发布, No-dependencies, low-level, high-performance JIT code generation package for JavaScript\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/mvnpm/at/jsonjoy/com/codegen/17.61.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.mvnpm.at.jsonjoy.com/codegen\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.mvnpm.at.jsonjoy.com/codegen/17.61.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/jsonjoy-com/codegen\"><p><span>项目网址</span></p></a></br>\n          <a href=\"jsonjoy-com/codegen\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/jsonjoy-com/codegen\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.mvnpm.at.jsonjoy.com&lt;/groupId&gt;\n        &lt;artifactId&gt;codegen&lt;/artifactId&gt;\n        &lt;version&gt;17.61.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.mvnpm.at.jsonjoy.com:codegen 17.61.1 发布, No-dependencies, low-level, high-performance JIT code generation package for JavaScript",
-      "summary": "org.mvnpm.at.jsonjoy.com:codegen 17.61.1 发布, No-dependencies, low-level, high-performance JIT code generation package for JavaScript",
-      "date_published": "2025-10-22T00:27:20Z",
-      "date_modified": "2025-10-22T00:56:34Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "json-joy-team"
-        },
-        {
-          "name": "streamich"
-        }
-      ],
-      "tags": [
-        "generator",
-        "assets",
-        "code",
-        "web",
-        "npm",
-        "resources"
       ],
       "attachments": [
         {
