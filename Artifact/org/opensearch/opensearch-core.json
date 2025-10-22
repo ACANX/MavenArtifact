@@ -3,13 +3,13 @@
 	"description":"OpenSearch subproject :libs:opensearch-core",
 	"group_id":"org.opensearch",
 	"artifact_id":"opensearch-core",
-	"version_latest":"3.3.0",
-	"ts_publish":1760479608000,
-	"dt_publish":"2025-10-15 06:06:48.000",
-	"ts_update":1760480800302,
-	"dt_update":"2025-10-15 06:26:11.304",
+	"version_latest":"3.3.1",
+	"ts_publish":1761161339000,
+	"dt_publish":"2025-10-23 03:28:59.000",
+	"ts_update":1761162311955,
+	"dt_update":"2025-10-23 03:44:31.209",
 	"count_dep":4,
-	"count_ref":9,
+	"count_ref":14,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -26,12 +26,20 @@
 	"count_used_by":20,
 	"home_page":"https://github.com/opensearch-project/OpenSearch.git",
 	"license":"Apache 2.0",
-	"ranking":"#23149 in MvnRepository",
+	"ranking":"#23198 in MvnRepository",
 	"tags":[
 		"opensearch",
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"2.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230926",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.10.0",
 			"vulnerabilities":""
 		}
 	]
