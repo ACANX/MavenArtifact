@@ -3,12 +3,12 @@
 	"description":"Provides a Redis-based session store implementation for Aspectran, using the high-performance Lettuce client for scalable and persistent session management.",
 	"group_id":"com.aspectran",
 	"artifact_id":"aspectran-rss-lettuce",
-	"version_latest":"9.1.2",
-	"ts_publish":1760358993000,
-	"dt_publish":"2025-10-13 20:36:33.000",
-	"ts_update":1760360203123,
-	"dt_update":"2025-10-13 20:56:17.545",
-	"count_dep":28,
+	"version_latest":"9.2.0",
+	"ts_publish":1761145389000,
+	"dt_publish":"2025-10-22 23:03:09.000",
+	"ts_update":1761146210359,
+	"dt_update":"2025-10-22 23:16:09.971",
+	"count_dep":31,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -27,11 +27,19 @@
 	"url_ci_management":"https://github.com/aspectran/aspectran/actions",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#199544 in MvnRepository",
+	"ranking":"#199870 in MvnRepository",
 	"tags":[
 		"rss"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251012",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241020",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.1.5",
 			"vulnerabilities":""
 		}
 	]
