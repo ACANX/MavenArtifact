@@ -3,13 +3,13 @@
 	"description":"A utility package containing criteria on IIDM networks",
 	"group_id":"com.powsybl",
 	"artifact_id":"powsybl-iidm-criteria",
-	"version_latest":"7.0.0",
-	"ts_publish":1760450771000,
-	"dt_publish":"2025-10-14 22:06:11.000",
-	"ts_update":1760451993968,
-	"dt_update":"2025-10-14 22:26:18.297",
+	"version_latest":"7.0.1",
+	"ts_publish":1761120068000,
+	"dt_publish":"2025-10-22 16:01:08.000",
+	"ts_update":1761121420120,
+	"dt_update":"2025-10-22 16:23:29.109",
 	"count_dep":9,
-	"count_ref":2,
+	"count_ref":3,
 	"licenses":[
 		"Mozilla Public License, Version 2.0"
 	],
@@ -26,8 +26,16 @@
 	"url_scm":"https://github.com/powsybl/powsybl-core/powsybl-iidm/powsybl-iidm-criteria",
 	"count_used_by":2,
 	"license":"MPL 2.0",
-	"ranking":"#198906 in MvnRepository",
+	"ranking":"#199169 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"7.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251007",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"6.3.1",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20240329",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.3.0",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]
