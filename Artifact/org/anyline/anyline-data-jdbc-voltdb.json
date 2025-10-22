@@ -2,12 +2,14 @@
 	"id":"pkg:maven/org.anyline/anyline-data-jdbc-voltdb",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-jdbc-voltdb",
-	"version_latest":"8.7.3-20251011",
-	"ts_publish":1760167646000,
-	"ts_update":1760169382471,
-	"count_dep":0,
+	"version_latest":"8.7.3-20251022",
+	"ts_publish":1761140082000,
+	"ts_update":1761140839224,
+	"count_dep":17,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -16,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-jdbc-voltdb@8.7.2-20250806",
 	"home_page":"http://www.anyline.org/voltdb",
 	"license":"Apache 2.0",
-	"ranking":"#909666 in MvnRepository",
+	"ranking":"#912478 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -25,6 +27,38 @@
 		"voltdb"
 	],
 	"versions":[
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-jdk21-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-jdk17-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-jdk11-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-20251011",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250918",
 			"repository":"Central",
@@ -152,40 +186,9 @@
 			"usage":0,
 			"version":"8.7.2-jdk21-20250509",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250502",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250502",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250404",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250404",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250312",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250212",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250212",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-10-11 15:27:26.000",
-	"dt_update":"2025-10-11 15:56:09.228"
+	"dt_publish":"2025-10-22 21:34:42.000",
+	"dt_update":"2025-10-22 21:47:07.649",
+	"description":"anyline"
 }

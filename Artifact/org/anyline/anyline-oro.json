@@ -3,11 +3,11 @@
 	"description":"原来的jakarta.oro，2010年9月后不维护了(没bug可改了)\n        因为经常下载失败，所以复制过来了\n        最新存档地址：https://attic.apache.org/projects/jakarta-oro.html",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-oro",
-	"version_latest":"8.7.2-20251010",
-	"ts_publish":1760101947000,
-	"ts_update":1760102796911,
+	"version_latest":"8.7.3-20251022",
+	"ts_publish":1761140082000,
+	"ts_update":1761140843672,
 	"count_dep":7,
-	"count_ref":0,
+	"count_ref":21,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -21,12 +21,44 @@
 		"anyline"
 	],
 	"url_scm":"https://github.com/anylineorg/anyline/anyline-oro",
-	"dt_publish":"2025-10-10 21:12:27.000",
-	"dt_update":"2025-10-10 21:26:10.149",
+	"dt_publish":"2025-10-22 21:34:42.000",
+	"dt_update":"2025-10-22 21:47:11.504",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#377135 in MvnRepository",
+	"ranking":"#376949 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.3-jdk21-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.3-jdk17-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.3-jdk11-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.3-20251011",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250918",
 			"repository":"Central",
@@ -153,38 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.7.2-jdk21-20250515",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250509",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250509",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250502",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250502",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250404",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250404",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250312",
 			"vulnerabilities":""
 		}
 	]
