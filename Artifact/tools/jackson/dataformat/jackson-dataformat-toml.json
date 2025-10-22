@@ -3,12 +3,12 @@
 	"description":"Support for reading and writing TOML-encoded data via Jackson abstractions.",
 	"group_id":"tools.jackson.dataformat",
 	"artifact_id":"jackson-dataformat-toml",
-	"version_latest":"3.0.0",
-	"ts_publish":1759537479000,
-	"dt_publish":"2025-10-04 08:24:39.000",
-	"ts_update":1759539393021,
-	"dt_update":"2025-10-04 08:56:10.523",
-	"count_dep":6,
+	"version_latest":"3.0.1",
+	"ts_publish":1761101179000,
+	"dt_publish":"2025-10-22 10:46:19.000",
+	"ts_update":1761101794345,
+	"dt_update":"2025-10-22 10:56:25.095",
+	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/FasterXML/jackson-dataformats-text/jackson-dataformat-toml",
 	"home_page":"https://github.com/FasterXML/jackson-dataformats-text",
 	"license":"Apache 2.0",
-	"ranking":"#871352 in MvnRepository",
+	"ranking":"#341030 in MvnRepository",
 	"tags":[
 		"format",
 		"toml",
@@ -35,6 +35,14 @@
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20251004",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250920",
 			"repository":"Central",
@@ -115,5 +123,6 @@
 			"version":"3.0.0-rc1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
