@@ -3,11 +3,11 @@
 	"description":"Eliminate legacy Spring patterns and migrate between major Spring Boot versions. Automatically.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-spring",
-	"version_latest":"6.16.0",
-	"ts_publish":1760122103000,
-	"dt_publish":"2025-10-11 02:48:23.000",
-	"ts_update":1760123570119,
-	"dt_update":"2025-10-11 03:12:31.592",
+	"version_latest":"6.17.0",
+	"ts_publish":1761140837000,
+	"dt_publish":"2025-10-22 21:47:17.000",
+	"ts_update":1761141396921,
+	"dt_update":"2025-10-22 21:56:25.599",
 	"count_dep":17,
 	"count_ref":0,
 	"licenses":[
@@ -25,16 +25,24 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-spring.git",
 	"count_used_by":5,
 	"home_page":"https://github.com/openrewrite/rewrite-spring",
-	"ranking":"#95243 in MvnRepository",
+	"ranking":"#91897 in MvnRepository",
 	"tags":[
 		"spring"
 	],
 	"versions":[
 		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"6.16.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"6.15.0",
 			"vulnerabilities":""
 		},
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"6.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250207",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.1.0",
 			"vulnerabilities":""
 		}
 	]
