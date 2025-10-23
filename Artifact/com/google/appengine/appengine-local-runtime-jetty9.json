@@ -3,11 +3,11 @@
 	"description":"App Engine Local devappserver.",
 	"group_id":"com.google.appengine",
 	"artifact_id":"appengine-local-runtime-jetty9",
-	"version_latest":"3.0.0-beta",
-	"ts_publish":1758263028000,
-	"dt_publish":"2025-09-19 14:23:48.000",
-	"ts_update":1758264800529,
-	"dt_update":"2025-09-19 14:51:50.357",
+	"version_latest":"3.0.1",
+	"ts_publish":1761239965000,
+	"dt_publish":"2025-10-24 01:19:25.000",
+	"ts_update":1761245665275,
+	"dt_update":"2025-10-24 02:53:25.393",
 	"count_dep":14,
 	"count_ref":1,
 	"licenses":[],
@@ -19,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.google.appengine/appengine-local-runtime-jetty9@2.0.39-beta",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#339733 in MvnRepository",
+	"ranking":"#256346 in MvnRepository",
 	"tags":[
 		"server",
 		"google",
@@ -29,6 +29,30 @@
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"3.0.0-beta",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.0.39",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"2.0.39-beta",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -164,22 +188,7 @@
 			"usage":1,
 			"version":"2.0.22",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20231017",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.0.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231004",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.0.20",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/GoogleCloudPlatform/appengine-java-standard/"
 }

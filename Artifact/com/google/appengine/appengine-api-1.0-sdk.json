@@ -3,11 +3,11 @@
 	"description":"API for Google App Engine standard environment with some of the dependencies shaded (repackaged)",
 	"group_id":"com.google.appengine",
 	"artifact_id":"appengine-api-1.0-sdk",
-	"version_latest":"3.0.0-beta",
-	"ts_publish":1758263028000,
-	"dt_publish":"2025-09-19 14:23:48.000",
-	"ts_update":1758264779201,
-	"dt_update":"2025-09-19 14:51:53.434",
+	"version_latest":"3.0.1",
+	"ts_publish":1761239965000,
+	"dt_publish":"2025-10-24 01:19:25.000",
+	"ts_update":1761245688970,
+	"dt_update":"2025-10-24 02:53:24.096",
 	"count_dep":0,
 	"count_ref":22,
 	"licenses":[],
@@ -21,10 +21,10 @@
 		"Ludovic Champenois"
 	],
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/appengine-api-1.0-sdk",
-	"count_used_by":375,
+	"count_used_by":380,
 	"home_page":"https://cloud.google.com/appengine/docs/standard/java/javadoc",
 	"license":"Apache 2.0",
-	"ranking":"#1614 in MvnRepository",
+	"ranking":"#1626 in MvnRepository",
 	"tags":[
 		"sdk",
 		"google",
@@ -34,6 +34,30 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"beta",
+			"usage":22,
+			"version":"3.0.0-beta",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"2.0.39",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":19,
+			"version":"2.0.39-beta",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":17,
 			"version":"2.0.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231017",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"2.0.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231004",
-			"repository":"Central",
-			"type":"release",
-			"usage":17,
-			"version":"2.0.20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230912",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"2.0.19",
 			"vulnerabilities":""
 		}
 	]
