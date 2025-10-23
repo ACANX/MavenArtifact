@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.am.policy",
 	"artifact_id":"gravitee-am-policy-enroll-mfa",
-	"version_latest":"4.10.0-alpha.1",
-	"ts_publish":1760711076000,
-	"dt_publish":"2025-10-17 22:24:36.000",
-	"ts_update":1760711810046,
-	"dt_update":"2025-10-17 22:36:25.747",
-	"count_dep":114,
+	"version_latest":"4.10.0-alpha.2",
+	"ts_publish":1761207575000,
+	"dt_publish":"2025-10-23 16:19:35.000",
+	"ts_update":1761208009528,
+	"dt_update":"2025-10-23 16:26:28.500",
+	"count_dep":218,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,17 +29,25 @@
 	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-policy/gravitee-am-policy-enroll-mfa",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#204146 in MvnRepository",
+	"ranking":"#204386 in MvnRepository",
 	"tags":[
 		"mfa",
 		"policy"
 	],
 	"versions":[
 		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"4.10.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"4.9.0",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.7.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.12-hotfix.1",
 			"vulnerabilities":""
 		}
 	]

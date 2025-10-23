@@ -3,13 +3,13 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.am.jwt",
 	"artifact_id":"gravitee-am-jwt",
-	"version_latest":"4.10.0-alpha.1",
-	"ts_publish":1760711076000,
-	"dt_publish":"2025-10-17 22:24:36.000",
-	"ts_update":1760711802511,
-	"dt_update":"2025-10-17 22:36:23.826",
+	"version_latest":"4.10.0-alpha.2",
+	"ts_publish":1761207575000,
+	"dt_publish":"2025-10-23 16:19:35.000",
+	"ts_update":1761208011026,
+	"dt_update":"2025-10-23 16:26:29.966",
 	"count_dep":19,
-	"count_ref":13,
+	"count_ref":17,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,16 +26,24 @@
 	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-jwt",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#97805 in MvnRepository",
+	"ranking":"#98089 in MvnRepository",
 	"tags":[
 		"jwt"
 	],
 	"versions":[
 		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":5,
+			"version":"4.10.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":5,
 			"version":"4.9.0",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.7.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.7.12-hotfix.1",
 			"vulnerabilities":""
 		}
 	]

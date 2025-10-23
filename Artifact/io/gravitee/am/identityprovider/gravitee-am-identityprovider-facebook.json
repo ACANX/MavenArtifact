@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.am.identityprovider",
 	"artifact_id":"gravitee-am-identityprovider-facebook",
-	"version_latest":"4.10.0-alpha.1",
-	"ts_publish":1760711076000,
-	"dt_publish":"2025-10-17 22:24:36.000",
-	"ts_update":1760711815413,
-	"dt_update":"2025-10-17 22:36:24.853",
+	"version_latest":"4.10.0-alpha.2",
+	"ts_publish":1761207575000,
+	"dt_publish":"2025-10-23 16:19:35.000",
+	"ts_update":1761208009709,
+	"dt_update":"2025-10-23 16:26:31.309",
 	"count_dep":79,
 	"count_ref":0,
 	"licenses":[
@@ -30,13 +30,29 @@
 	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-identityprovider/gravitee-am-identityprovider-facebook",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#255283 in MvnRepository",
+	"ranking":"#255646 in MvnRepository",
 	"tags":[
 		"provider",
 		"facebook",
 		"identity"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"4.10.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.7.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.12-hotfix.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250815",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.11",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.am.identityprovider",
 	"artifact_id":"gravitee-am-identityprovider-api",
-	"version_latest":"4.10.0-alpha.1",
-	"ts_publish":1760711076000,
-	"dt_publish":"2025-10-17 22:24:36.000",
-	"ts_update":1760711813930,
-	"dt_update":"2025-10-17 22:36:25.749",
+	"version_latest":"4.10.0-alpha.2",
+	"ts_publish":1761207575000,
+	"dt_publish":"2025-10-23 16:19:35.000",
+	"ts_update":1761208006501,
+	"dt_update":"2025-10-23 16:26:30.648",
 	"count_dep":92,
-	"count_ref":20,
+	"count_ref":22,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -28,15 +28,31 @@
 		"Titouan COMPIEGNE"
 	],
 	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-identityprovider/gravitee-am-identityprovider-api",
-	"count_used_by":20,
+	"count_used_by":21,
 	"license":"Apache 2.0",
-	"ranking":"#23396 in MvnRepository",
+	"ranking":"#22316 in MvnRepository",
 	"tags":[
 		"provider",
 		"api",
 		"identity"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":14,
+			"version":"4.10.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"4.9.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":13,
 			"version":"4.7.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"4.7.12-hotfix.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250815",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"4.7.11",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.am.repository",
 	"artifact_id":"gravitee-am-repository-redis",
-	"version_latest":"4.10.0-alpha.1",
-	"ts_publish":1760711076000,
-	"dt_publish":"2025-10-17 22:24:36.000",
-	"ts_update":1760711809610,
-	"dt_update":"2025-10-17 22:36:26.202",
-	"count_dep":54,
+	"version_latest":"4.10.0-alpha.2",
+	"ts_publish":1761207575000,
+	"dt_publish":"2025-10-23 16:19:35.000",
+	"ts_update":1761208008153,
+	"dt_update":"2025-10-23 16:26:31.307",
+	"count_dep":91,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -28,7 +28,7 @@
 	],
 	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-repository/gravitee-am-repository-redis",
 	"count_used_by":2,
-	"ranking":"#238464 in MvnRepository",
+	"ranking":"#210782 in MvnRepository",
 	"tags":[
 		"database",
 		"repository",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"4.10.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"4.9.0",
 			"vulnerabilities":""
 		},
@@ -51,5 +59,6 @@
 			"version":"4.9.0-alpha.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }
