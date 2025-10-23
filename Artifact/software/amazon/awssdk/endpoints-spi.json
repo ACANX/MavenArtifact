@@ -3,13 +3,13 @@
 	"description":"The AWS SDK for Java - Core is an umbrella module that contains child modules which are considered as\n        core of the library.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"endpoints-spi",
-	"version_latest":"2.35.11",
-	"ts_publish":1761086898000,
-	"dt_publish":"2025-10-22 06:48:18.000",
-	"ts_update":1761088550138,
-	"dt_update":"2025-10-22 07:15:21.527",
+	"version_latest":"2.36.0",
+	"ts_publish":1761191214000,
+	"dt_publish":"2025-10-23 11:46:54.000",
+	"ts_update":1761193175108,
+	"dt_update":"2025-10-23 12:19:10.874",
 	"count_dep":5,
-	"count_ref":180,
+	"count_ref":315,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/core/endpoints-spi",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/endpoints-spi@2.32.22",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/endpoints-spi",
-	"count_used_by":36,
+	"count_used_by":37,
 	"home_page":"https://github.com/aws/aws-sdk-java-v2",
 	"license":"Apache 2.0",
-	"ranking":"#13356 in MvnRepository",
+	"ranking":"#13020 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -32,6 +32,14 @@
 		"endpoint"
 	],
 	"versions":[
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.35.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.34.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.34.0",
 			"vulnerabilities":""
 		}
 	]

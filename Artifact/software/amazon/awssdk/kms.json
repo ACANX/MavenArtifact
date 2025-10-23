@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for AWS KMS module holds the client classes that are used for communicating with AWS\n        Key Management Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"kms",
-	"version_latest":"2.35.11",
-	"ts_publish":1761086898000,
-	"dt_publish":"2025-10-22 06:48:18.000",
-	"ts_update":1761088549164,
-	"dt_update":"2025-10-22 07:15:23.080",
-	"count_dep":3,
+	"version_latest":"2.36.0",
+	"ts_publish":1761191214000,
+	"dt_publish":"2025-10-23 11:46:54.000",
+	"ts_update":1761193184403,
+	"dt_update":"2025-10-23 12:19:07.079",
+	"count_dep":33,
 	"count_ref":2,
 	"licenses":[],
 	"categories":[
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/kms@2.32.17",
 	"count_used_by":67,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#7526 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#7535 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -31,11 +31,19 @@
 	],
 	"versions":[
 		{
-			"date":"20251016",
+			"date":"20251021",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
-			"version":"2.35.9",
+			"usage":0,
+			"version":"2.35.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.35.10",
 			"vulnerabilities":""
 		},
 		{
@@ -43,6 +51,14 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"2.35.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
 			"version":"2.35.8",
 			"vulnerabilities":""
 		},
@@ -98,7 +114,7 @@
 			"date":"20251007",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"2.35.1",
 			"vulnerabilities":""
 		},
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.34.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250923",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.34.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.34.0",
 			"vulnerabilities":""
 		}
 	]

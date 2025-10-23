@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Amazon Cognito Identity module holds the client classes that are used for\n        communicating with Amazon Cognito Identity Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"cognitoidentity",
-	"version_latest":"2.35.11",
-	"ts_publish":1761086898000,
-	"dt_publish":"2025-10-22 06:48:18.000",
-	"ts_update":1761088533320,
-	"dt_update":"2025-10-22 07:15:17.043",
+	"version_latest":"2.36.0",
+	"ts_publish":1761191214000,
+	"dt_publish":"2025-10-23 11:46:54.000",
+	"ts_update":1761193174307,
+	"dt_update":"2025-10-23 12:19:14.789",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/cognitoidentity@2.32.18",
 	"count_used_by":11,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#43491 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#43521 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,6 +29,14 @@
 		"identity"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.35.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.34.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250923",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.34.1",
 			"vulnerabilities":""
 		}
 	]
