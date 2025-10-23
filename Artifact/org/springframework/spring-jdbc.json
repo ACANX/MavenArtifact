@@ -3,11 +3,11 @@
 	"description":"Spring JDBC",
 	"group_id":"org.springframework",
 	"artifact_id":"spring-jdbc",
-	"version_latest":"7.0.0-RC1",
-	"ts_publish":1760602301000,
-	"dt_publish":"2025-10-16 16:11:41.000",
-	"ts_update":1760602944612,
-	"dt_update":"2025-10-16 16:22:12.265",
+	"version_latest":"7.0.0-RC2",
+	"ts_publish":1761212114000,
+	"dt_publish":"2025-10-23 17:35:14.000",
+	"ts_update":1761212885668,
+	"dt_update":"2025-10-23 17:47:37.671",
 	"count_dep":5,
 	"count_ref":1,
 	"licenses":[
@@ -24,10 +24,10 @@
 		"Juergen Hoeller"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-framework",
-	"count_used_by":4992,
+	"count_used_by":4999,
 	"home_page":"https://github.com/spring-projects/spring-framework",
 	"license":"Apache 2.0",
-	"ranking":"#116 in MvnRepository",
+	"ranking":"#117 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -37,6 +37,14 @@
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"7.0.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250911",
 			"repository":"Central",
@@ -110,10 +118,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"6.2.12",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250911",
 			"repository":"Central",
 			"type":"release",
-			"usage":463,
+			"usage":466,
 			"version":"6.2.11",
 			"vulnerabilities":""
 		},
@@ -121,7 +137,7 @@
 			"date":"20250814",
 			"repository":"Central",
 			"type":"release",
-			"usage":477,
+			"usage":478,
 			"version":"6.2.10",
 			"vulnerabilities":""
 		},
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":456,
 			"version":"6.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250116",
-			"repository":"Central",
-			"type":"release",
-			"usage":466,
-			"version":"6.2.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241212",
-			"repository":"Central",
-			"type":"release",
-			"usage":464,
-			"version":"6.2.1",
 			"vulnerabilities":""
 		}
 	]

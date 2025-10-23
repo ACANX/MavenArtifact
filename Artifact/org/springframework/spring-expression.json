@@ -3,12 +3,12 @@
 	"description":"Spring Expression Language (SpEL)",
 	"group_id":"org.springframework",
 	"artifact_id":"spring-expression",
-	"version_latest":"7.0.0-RC1",
-	"ts_publish":1760602301000,
-	"dt_publish":"2025-10-16 16:11:41.000",
-	"ts_update":1760602949587,
-	"dt_update":"2025-10-16 16:22:12.810",
-	"count_dep":3,
+	"version_latest":"7.0.0-RC2",
+	"ts_publish":1761212114000,
+	"dt_publish":"2025-10-23 17:35:14.000",
+	"ts_update":1761212874820,
+	"dt_update":"2025-10-23 17:47:37.145",
+	"count_dep":1,
 	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,7 +24,7 @@
 		"Juergen Hoeller"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-framework",
-	"count_used_by":2063,
+	"count_used_by":2065,
 	"home_page":"https://github.com/spring-projects/spring-framework",
 	"license":"Apache 2.0",
 	"ranking":"#283 in MvnRepository",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"7.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250911",
 			"repository":"Central",
 			"type":"milestone",
-			"usage":11,
+			"usage":12,
 			"version":"7.0.0-M9",
 			"vulnerabilities":""
 		},
@@ -105,6 +113,14 @@
 			"type":"milestone",
 			"usage":5,
 			"version":"7.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"6.2.12",
 			"vulnerabilities":""
 		},
 		{
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":437,
 			"version":"6.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250116",
-			"repository":"Central",
-			"type":"release",
-			"usage":435,
-			"version":"6.2.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241212",
-			"repository":"Central",
-			"type":"release",
-			"usage":441,
-			"version":"6.2.1",
 			"vulnerabilities":""
 		}
 	]
