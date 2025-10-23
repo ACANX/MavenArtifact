@@ -3,11 +3,11 @@
 	"description":"Send logs to a Splunk HTTP Event Collector (HEC)",
 	"group_id":"io.quarkiverse.logging.splunk",
 	"artifact_id":"quarkus-logging-splunk-parent",
-	"version_latest":"4.1.2",
-	"ts_publish":1759502047000,
-	"dt_publish":"2025-10-03 22:34:07.000",
-	"ts_update":1759503379281,
-	"dt_update":"2025-10-03 22:56:10.697",
+	"version_latest":"5.0.0",
+	"ts_publish":1761232571000,
+	"dt_publish":"2025-10-23 23:16:11.000",
+	"ts_update":1761233193889,
+	"dt_update":"2025-10-23 23:26:24.653",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -28,13 +28,21 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-logging-splunk",
 	"home_page":"https://github.com/quarkiverse/quarkus-logging-splunk",
 	"license":"Apache 2.0",
-	"ranking":"#911406 in MvnRepository",
+	"ranking":"#887064 in MvnRepository",
 	"tags":[
 		"logging",
 		"quarkus",
 		"splunk"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -49,6 +57,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.5",
 			"vulnerabilities":""
 		},
 		{
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220603",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220329",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.2.1",
 			"vulnerabilities":""
 		}
 	]
