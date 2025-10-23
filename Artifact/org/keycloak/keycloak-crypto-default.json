@@ -3,11 +3,11 @@
 	"description":"Keycloak Crypto Default",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-crypto-default",
-	"version_latest":"26.4.1",
-	"ts_publish":1760598266000,
-	"dt_publish":"2025-10-16 15:04:26.000",
-	"ts_update":1760599619360,
-	"dt_update":"2025-10-16 15:26:18.349",
+	"version_latest":"26.4.2",
+	"ts_publish":1761202190000,
+	"dt_publish":"2025-10-23 14:49:50.000",
+	"ts_update":1761202601564,
+	"dt_update":"2025-10-23 14:56:26.074",
 	"count_dep":25,
 	"count_ref":26,
 	"licenses":[
@@ -27,12 +27,36 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-crypto-parent/keycloak-crypto-default/",
 	"count_used_by":20,
 	"license":"Apache 2.0",
-	"ranking":"#22813 in MvnRepository",
+	"ranking":"#22972 in MvnRepository",
 	"tags":[
 		"cryptography",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"26.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.3.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"26.0.6",
 			"vulnerabilities":""
 		}
 	]
