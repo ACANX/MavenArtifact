@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.quarkiverse.operatorsdk/quarkus-operator-sdk",
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.operatorsdk",
 	"artifact_id":"quarkus-operator-sdk",
-	"version_latest":"7.2.2",
-	"ts_publish":1760716407000,
-	"dt_publish":"2025-10-17 23:53:27.000",
-	"ts_update":1760717957558,
-	"dt_update":"2025-10-18 00:18:56.282",
-	"count_dep":166,
-	"count_ref":7,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"7.3.0",
+	"ts_publish":1761227926000,
+	"dt_publish":"2025-10-23 21:58:46.000",
+	"ts_update":1761229014091,
+	"dt_update":"2025-10-23 22:16:40.225",
+	"count_dep":12,
+	"count_ref":4,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,13 +23,21 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-operator-sdk",
 	"count_used_by":20,
 	"license":"Apache 2.0",
-	"ranking":"#23896 in MvnRepository",
+	"ranking":"#23943 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"sdk",
 		"operator"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"7.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250929",
 			"repository":"Central",
@@ -183,14 +188,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"6.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240909",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"6.8.0",
 			"vulnerabilities":""
 		}
 	]
