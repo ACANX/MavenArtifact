@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for Medical Imaging module holds the client classes that are used for\n        communicating with Medical Imaging.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"medicalimaging",
-	"version_latest":"2.36.0",
-	"ts_publish":1761191214000,
-	"dt_publish":"2025-10-23 11:46:54.000",
-	"ts_update":1761193196687,
-	"dt_update":"2025-10-23 12:19:11.879",
-	"count_dep":33,
+	"version_latest":"2.36.1",
+	"ts_publish":1761259910000,
+	"dt_publish":"2025-10-24 06:51:50.000",
+	"ts_update":1761261287670,
+	"dt_update":"2025-10-24 07:14:29.739",
+	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -19,14 +19,30 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/medicalimaging@2.32.17",
 	"count_used_by":3,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#132786 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#133097 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.36.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.35.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251018",
 			"repository":"Central",
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.34.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250924",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.34.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250923",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.34.1",
 			"vulnerabilities":""
 		}
 	]

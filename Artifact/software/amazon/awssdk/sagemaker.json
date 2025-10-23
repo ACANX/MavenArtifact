@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Amazon SageMaker module holds the client classes that are used for communicating\n        with Amazon SageMaker Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"sagemaker",
-	"version_latest":"2.36.0",
-	"ts_publish":1761191214000,
-	"dt_publish":"2025-10-23 11:46:54.000",
-	"ts_update":1761193199010,
-	"dt_update":"2025-10-23 12:19:08.516",
+	"version_latest":"2.36.1",
+	"ts_publish":1761259910000,
+	"dt_publish":"2025-10-24 06:51:50.000",
+	"ts_update":1761261285648,
+	"dt_update":"2025-10-24 07:14:18.681",
 	"count_dep":33,
 	"count_ref":1,
 	"licenses":[],
@@ -20,7 +20,7 @@
 	"count_used_by":8,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#56790 in MvnRepository",
+	"ranking":"#56860 in MvnRepository",
 	"tags":[
 		"sagemaker",
 		"aws",
@@ -28,6 +28,14 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.35.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.34.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250923",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.34.1",
 			"vulnerabilities":""
 		}
 	]

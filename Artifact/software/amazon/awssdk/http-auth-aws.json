@@ -3,13 +3,13 @@
 	"description":"The AWS SDK for Java - HTTP Auth AWS module contains interfaces and implementations for HTTP\n        authentication specific to AWS.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"http-auth-aws",
-	"version_latest":"2.35.11",
-	"ts_publish":1761086898000,
-	"dt_publish":"2025-10-22 06:48:18.000",
-	"ts_update":1761088544594,
-	"dt_update":"2025-10-22 07:15:14.141",
+	"version_latest":"2.36.1",
+	"ts_publish":1761259910000,
+	"dt_publish":"2025-10-24 06:51:50.000",
+	"ts_update":1761261280158,
+	"dt_update":"2025-10-24 07:14:15.166",
 	"count_dep":21,
-	"count_ref":179,
+	"count_ref":142,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/http-auth-aws@2.32.17",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/http-auth-aws",
-	"count_used_by":464,
+	"count_used_by":466,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#1324 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#1320 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -35,6 +35,22 @@
 		"access"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.36.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":413,
+			"version":"2.35.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -159,7 +175,7 @@
 			"date":"20250927",
 			"repository":"Central",
 			"type":"release",
-			"usage":413,
+			"usage":415,
 			"version":"2.34.5",
 			"vulnerabilities":""
 		},
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":413,
 			"version":"2.34.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250924",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.34.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250923",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.34.1",
 			"vulnerabilities":""
 		}
 	]

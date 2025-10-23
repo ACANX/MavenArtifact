@@ -3,13 +3,13 @@
 	"description":"The Amazon Web Services SDK for Java provides Java APIs\n        for building software on AWS' cost-effective, scalable, and reliable\n        infrastructure products. The AWS Java SDK allows developers to code\n        against APIs for all of Amazon's infrastructure web services (Amazon\n        S3, Amazon EC2, Amazon SQS, Amazon Relational Database Service, Amazon\n        AutoScaling, etc).",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"http-client-spi",
-	"version_latest":"2.35.11",
-	"ts_publish":1761086898000,
-	"dt_publish":"2025-10-22 06:48:18.000",
-	"ts_update":1761088547214,
-	"dt_update":"2025-10-22 07:15:14.142",
+	"version_latest":"2.36.1",
+	"ts_publish":1761259910000,
+	"dt_publish":"2025-10-24 06:51:50.000",
+	"ts_update":1761261282953,
+	"dt_update":"2025-10-24 07:14:15.167",
 	"count_dep":12,
-	"count_ref":201,
+	"count_ref":164,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/http-client-spi",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/http-client-spi@2.32.17",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/http-client-spi",
-	"count_used_by":157,
+	"count_used_by":158,
 	"home_page":"https://aws.amazon.com/sdk-for-java/",
 	"license":"Apache 2.0",
-	"ranking":"#3472 in MvnRepository",
+	"ranking":"#3452 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -34,10 +34,42 @@
 	],
 	"versions":[
 		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":28,
+			"version":"2.35.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":29,
+			"version":"2.35.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":27,
+			"version":"2.35.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":30,
+			"version":"2.35.8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251014",
 			"repository":"Central",
 			"type":"release",
-			"usage":20,
+			"usage":29,
 			"version":"2.35.7",
 			"vulnerabilities":""
 		},
@@ -93,7 +125,7 @@
 			"date":"20251003",
 			"repository":"Central",
 			"type":"release",
-			"usage":27,
+			"usage":28,
 			"version":"2.35.0",
 			"vulnerabilities":""
 		},
@@ -159,38 +191,6 @@
 			"type":"release",
 			"usage":27,
 			"version":"2.34.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250923",
-			"repository":"Central",
-			"type":"release",
-			"usage":28,
-			"version":"2.34.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":27,
-			"version":"2.34.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":27,
-			"version":"2.33.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250918",
-			"repository":"Central",
-			"type":"release",
-			"usage":27,
-			"version":"2.33.12",
 			"vulnerabilities":""
 		}
 	]

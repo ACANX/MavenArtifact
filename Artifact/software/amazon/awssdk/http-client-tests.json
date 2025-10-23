@@ -3,11 +3,11 @@
 	"description":"A set of acceptance tests that can be extended by an SDK HTTP plugin implementation to help ensure it behaves in\n        manner consistent with what is expected by the SDK.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"http-client-tests",
-	"version_latest":"2.36.0",
-	"ts_publish":1761191214000,
-	"dt_publish":"2025-10-23 11:46:54.000",
-	"ts_update":1761193196850,
-	"dt_update":"2025-10-23 12:19:14.326",
+	"version_latest":"2.36.1",
+	"ts_publish":1761259910000,
+	"dt_publish":"2025-10-24 06:51:50.000",
+	"ts_update":1761261278843,
+	"dt_update":"2025-10-24 07:14:22.652",
 	"count_dep":90,
 	"count_ref":5,
 	"licenses":[
@@ -23,7 +23,7 @@
 	"count_used_by":7,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#65292 in MvnRepository",
+	"ranking":"#65351 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -33,6 +33,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.35.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.34.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250923",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.34.1",
 			"vulnerabilities":""
 		}
 	]
