@@ -2,11 +2,11 @@
 	"id":"pkg:maven/com.google.appengine/appengine-tools-sdk",
 	"group_id":"com.google.appengine",
 	"artifact_id":"appengine-tools-sdk",
-	"version_latest":"3.0.0-beta",
-	"ts_publish":1758263028000,
-	"dt_publish":"2025-09-19 14:23:48.000",
-	"ts_update":1758264799294,
-	"dt_update":"2025-09-19 14:51:49.852",
+	"version_latest":"3.0.1",
+	"ts_publish":1761239965000,
+	"dt_publish":"2025-10-24 01:19:25.000",
+	"ts_update":1761245825947,
+	"dt_update":"2025-10-24 02:53:26.131",
 	"count_dep":5,
 	"count_ref":7,
 	"licenses":[],
@@ -20,9 +20,9 @@
 		"Ludovic Champenois"
 	],
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/lib-parent/appengine-tools-sdk",
-	"count_used_by":56,
+	"count_used_by":58,
 	"license":"Apache 2.0",
-	"ranking":"#8787 in MvnRepository",
+	"ranking":"#8642 in MvnRepository",
 	"tags":[
 		"sdk",
 		"google",
@@ -30,6 +30,30 @@
 		"appengine"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"beta",
+			"usage":7,
+			"version":"3.0.0-beta",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.0.39",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":6,
+			"version":"2.0.39-beta",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -165,30 +189,7 @@
 			"usage":6,
 			"version":"2.0.22",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20231017",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.0.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231004",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.0.20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230912",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.0.19",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/GoogleCloudPlatform/appengine-java-standard/"
 }
