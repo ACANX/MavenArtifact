@@ -3,12 +3,12 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-quarkus-outbox-reactive",
-	"version_latest":"3.3.1.Final",
-	"ts_publish":1760511613000,
-	"dt_publish":"2025-10-15 15:00:13.000",
-	"ts_update":1760512616253,
-	"dt_update":"2025-10-15 15:16:41.642",
-	"count_dep":167,
+	"version_latest":"3.4.0.Alpha1",
+	"ts_publish":1761327746000,
+	"dt_publish":"2025-10-25 01:42:26.000",
+	"ts_update":1761328622454,
+	"dt_update":"2025-10-25 01:56:31.160",
+	"count_dep":141,
 	"count_ref":2,
 	"licenses":[
 		"Apache Software License 2.0"
@@ -28,13 +28,21 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-quarkus-outbox-reactive-parent/debezium-quarkus-outbox-reactive",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#202444 in MvnRepository",
+	"ranking":"#202961 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"reactive",
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"3.1.0.Beta1",
 			"vulnerabilities":""
 		}
 	]

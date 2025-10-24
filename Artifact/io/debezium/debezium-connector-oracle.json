@@ -3,12 +3,12 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-oracle",
-	"version_latest":"3.3.1.Final",
-	"ts_publish":1760511613000,
-	"dt_publish":"2025-10-15 15:00:13.000",
-	"ts_update":1760512636088,
-	"dt_update":"2025-10-15 15:16:41.646",
-	"count_dep":115,
+	"version_latest":"3.4.0.Alpha1",
+	"ts_publish":1761327746000,
+	"dt_publish":"2025-10-25 01:42:26.000",
+	"ts_update":1761328617900,
+	"dt_update":"2025-10-25 01:56:30.635",
+	"count_dep":110,
 	"count_ref":1,
 	"licenses":[
 		"Apache Software License 2.0"
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-connector-oracle",
 	"count_used_by":28,
 	"license":"Apache 2.0",
-	"ranking":"#16523 in MvnRepository",
+	"ranking":"#16627 in MvnRepository",
 	"tags":[
 		"debezium",
 		"connector",
@@ -36,6 +36,22 @@
 		"oracle"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.3.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -69,6 +85,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.2.4.Final",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250925",
 			"repository":"Central",
 			"type":"release",
@@ -80,7 +104,7 @@
 			"date":"20250904",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"3.2.2.Final",
 			"vulnerabilities":""
 		},
@@ -170,30 +194,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"3.1.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"3.1.0.Alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250120",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"3.1.0.Alpha1",
 			"vulnerabilities":""
 		}
 	]

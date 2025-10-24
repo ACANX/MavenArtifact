@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-storage-tests",
-	"version_latest":"3.3.1.Final",
-	"ts_publish":1760511613000,
-	"dt_publish":"2025-10-15 15:00:13.000",
-	"ts_update":1760512635884,
-	"dt_update":"2025-10-15 15:16:42.951",
+	"version_latest":"3.4.0.Alpha1",
+	"ts_publish":1761327746000,
+	"dt_publish":"2025-10-25 01:42:26.000",
+	"ts_update":1761328621855,
+	"dt_update":"2025-10-25 01:56:29.956",
 	"count_dep":51,
 	"count_ref":0,
 	"licenses":[
@@ -28,13 +28,29 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-storage/debezium-storage-tests",
 	"license":"Apache 2.0",
-	"ranking":"#696347 in MvnRepository",
+	"ranking":"#776382 in MvnRepository",
 	"tags":[
 		"debezium",
 		"storage",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -65,6 +81,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.4.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"3.1.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.1.0.Alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250120",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.1.0.Alpha1",
 			"vulnerabilities":""
 		}
 	]

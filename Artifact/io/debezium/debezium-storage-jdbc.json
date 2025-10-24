@@ -3,12 +3,12 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-storage-jdbc",
-	"version_latest":"3.3.1.Final",
-	"ts_publish":1760511613000,
-	"dt_publish":"2025-10-15 15:00:13.000",
-	"ts_update":1760512623151,
-	"dt_update":"2025-10-15 15:16:42.958",
-	"count_dep":28,
+	"version_latest":"3.4.0.Alpha1",
+	"ts_publish":1761327746000,
+	"dt_publish":"2025-10-25 01:42:26.000",
+	"ts_update":1761328623756,
+	"dt_update":"2025-10-25 01:56:30.628",
+	"count_dep":25,
 	"count_ref":0,
 	"licenses":[
 		"Apache Software License 2.0"
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-storage/debezium-storage-jdbc",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#85262 in MvnRepository",
+	"ranking":"#85510 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -37,6 +37,14 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"3.1.0.Beta1",
 			"vulnerabilities":""
 		}
 	]
