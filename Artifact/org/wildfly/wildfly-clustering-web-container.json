@@ -3,13 +3,13 @@
 	"description":"Defines the contract between subsystem that deploys distributable web applications (e.g. wildfly-undertow) and the distributable-web subsystem.",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-clustering-web-container",
-	"version_latest":"38.0.0.Beta1",
-	"ts_publish":1759315079000,
-	"dt_publish":"2025-10-01 18:37:59.000",
-	"ts_update":1759337770397,
-	"dt_update":"2025-10-01 18:56:07.725",
-	"count_dep":12,
-	"count_ref":1,
+	"version_latest":"38.0.0.Final",
+	"ts_publish":1761302373000,
+	"dt_publish":"2025-10-24 18:39:33.000",
+	"ts_update":1761303404853,
+	"dt_update":"2025-10-24 18:56:26.986",
+	"count_dep":2,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Application and Server Management"
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-clustering-web-container@37.0.0.Final",
 	"count_used_by":14,
 	"license":"Apache 2.0",
-	"ranking":"#34279 in MvnRepository",
+	"ranking":"#34715 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"container",
@@ -26,6 +26,22 @@
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"38.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"37.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -168,22 +184,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"32.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"31.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240125",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"31.0.0.Final",
 			"vulnerabilities":""
 		}
 	]

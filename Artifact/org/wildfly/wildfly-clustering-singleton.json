@@ -3,11 +3,11 @@
 	"description":"Parent module for modules relating to singleton deployments and MSC services.",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-clustering-singleton",
-	"version_latest":"38.0.0.Beta1",
-	"ts_publish":1759315079000,
-	"dt_publish":"2025-10-01 18:37:59.000",
-	"ts_update":1759328848364,
-	"dt_update":"2025-10-01 18:56:09.629",
+	"version_latest":"38.0.0.Final",
+	"ts_publish":1761302373000,
+	"dt_publish":"2025-10-24 18:39:33.000",
+	"ts_update":1761303397197,
+	"dt_update":"2025-10-24 18:56:24.876",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[],
@@ -18,12 +18,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-clustering-singleton@37.0.0.Final",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#120281 in MvnRepository",
+	"ranking":"#121147 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"38.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"32.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"31.0.1.Final",
 			"vulnerabilities":""
 		}
 	]

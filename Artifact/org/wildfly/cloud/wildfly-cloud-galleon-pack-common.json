@@ -3,11 +3,11 @@
 	"description":"Galleon feature-pack for Cloud common.",
 	"group_id":"org.wildfly.cloud",
 	"artifact_id":"wildfly-cloud-galleon-pack-common",
-	"version_latest":"8.1.0.Beta1",
-	"ts_publish":1760005814000,
-	"dt_publish":"2025-10-09 18:30:14.000",
-	"ts_update":1760006946866,
-	"dt_update":"2025-10-09 18:48:57.770",
+	"version_latest":"8.1.0.Final",
+	"ts_publish":1761302373000,
+	"dt_publish":"2025-10-24 18:39:33.000",
+	"ts_update":1761303398909,
+	"dt_update":"2025-10-24 18:56:26.432",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -23,12 +23,20 @@
 	"url_scm":"https://github.com/wildfly/wildfly-cloud-galleon-pack",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#252029 in MvnRepository",
+	"ranking":"#246838 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"beta",
+			"usage":2,
+			"version":"8.1.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250224",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221109",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.0.0.Final",
 			"vulnerabilities":""
 		}
 	]

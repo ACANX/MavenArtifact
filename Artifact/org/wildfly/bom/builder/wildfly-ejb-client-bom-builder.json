@@ -3,11 +3,11 @@
 	"description":"This artifact builds a bill of materials (BOM) for EJB client usage.",
 	"group_id":"org.wildfly.bom.builder",
 	"artifact_id":"wildfly-ejb-client-bom-builder",
-	"version_latest":"38.0.0.Beta1",
-	"ts_publish":1759315079000,
-	"dt_publish":"2025-10-01 18:37:59.000",
-	"ts_update":1759324390110,
-	"dt_update":"2025-10-01 18:56:04.547",
+	"version_latest":"38.0.0.Final",
+	"ts_publish":1761302373000,
+	"dt_publish":"2025-10-24 18:39:33.000",
+	"ts_update":1761303402493,
+	"dt_update":"2025-10-24 18:56:25.899",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
@@ -15,7 +15,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly.bom.builder/wildfly-ejb-client-bom-builder@37.0.0.Final",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#301691 in MvnRepository",
+	"ranking":"#303231 in MvnRepository",
 	"tags":[
 		"bom",
 		"wildfly",
@@ -26,6 +26,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"38.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",

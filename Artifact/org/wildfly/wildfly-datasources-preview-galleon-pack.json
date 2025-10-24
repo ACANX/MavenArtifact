@@ -3,12 +3,12 @@
 	"description":"Drivers and datasources for WildFly EE9",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-datasources-preview-galleon-pack",
-	"version_latest":"11.1.0.Beta1",
-	"ts_publish":1760005814000,
-	"dt_publish":"2025-10-09 18:30:14.000",
-	"ts_update":1760006944393,
-	"dt_update":"2025-10-09 18:48:57.768",
-	"count_dep":17,
+	"version_latest":"11.1.0.Final",
+	"ts_publish":1761302373000,
+	"dt_publish":"2025-10-24 18:39:33.000",
+	"ts_update":1761303398254,
+	"dt_update":"2025-10-24 18:56:25.387",
+	"count_dep":11,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,12 +26,20 @@
 	],
 	"url_scm":"https://github.com/wildfly/wildfly-datasources-galleon-pack",
 	"license":"Apache 2.0",
-	"ranking":"#928279 in MvnRepository",
+	"ranking":"#825804 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"datasource"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"11.1.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.2.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220826",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.2.4.Final",
 			"vulnerabilities":""
 		}
 	]

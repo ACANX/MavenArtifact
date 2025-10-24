@@ -3,13 +3,13 @@
 	"description":"This artifact provides a single jar that contains all properties required to use remote Jakarta Enterprise Beans and Jakarta Messaging",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-client-properties",
-	"version_latest":"38.0.0.Beta1",
-	"ts_publish":1759315079000,
-	"dt_publish":"2025-10-01 18:37:59.000",
-	"ts_update":1759349948400,
-	"dt_update":"2025-10-01 18:56:04.546",
+	"version_latest":"38.0.0.Final",
+	"ts_publish":1761302373000,
+	"dt_publish":"2025-10-24 18:39:33.000",
+	"ts_update":1761303394153,
+	"dt_update":"2025-10-24 18:56:25.900",
 	"count_dep":0,
-	"count_ref":2,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Application and Server Management"
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-client-properties@37.0.0.Final",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#110397 in MvnRepository",
+	"ranking":"#111033 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"properties",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"38.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"32.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"31.0.1.Final",
 			"vulnerabilities":""
 		}
 	]

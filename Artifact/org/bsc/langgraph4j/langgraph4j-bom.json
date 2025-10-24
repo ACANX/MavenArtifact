@@ -3,11 +3,11 @@
 	"description":"Bill of Materials POM (BOM) for the LangGraph4j modules",
 	"group_id":"org.bsc.langgraph4j",
 	"artifact_id":"langgraph4j-bom",
-	"version_latest":"1.7.0",
-	"ts_publish":1761167838000,
-	"dt_publish":"2025-10-23 05:17:18.000",
-	"ts_update":1761173840124,
-	"dt_update":"2025-10-23 06:56:39.672",
+	"version_latest":"1.7.1",
+	"ts_publish":1761303018000,
+	"dt_publish":"2025-10-24 18:50:18.000",
+	"ts_update":1761303403021,
+	"dt_update":"2025-10-24 18:56:24.353",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -23,13 +23,29 @@
 	"url_scm":"https://github.com/langgraph4j/langgraph4j",
 	"home_page":"https://github.com/langgraph4j/langgraph4j",
 	"license":"MIT",
-	"ranking":"#616840 in MvnRepository",
+	"ranking":"#618776 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.7.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.7.0-beta3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251013",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"1.6.0-beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250528",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.5.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250521",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.5.13",
 			"vulnerabilities":""
 		}
 	]
