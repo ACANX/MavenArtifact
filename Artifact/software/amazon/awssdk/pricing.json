@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for AWS Price List module holds the client classes that are used for communicating\n        with AWS Price List Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"pricing",
-	"version_latest":"2.36.0",
-	"ts_publish":1761191214000,
-	"dt_publish":"2025-10-23 11:46:54.000",
-	"ts_update":1761193194206,
-	"dt_update":"2025-10-23 12:19:16.233",
-	"count_dep":33,
+	"version_latest":"2.36.2",
+	"ts_publish":1761347624000,
+	"dt_publish":"2025-10-25 07:13:44.000",
+	"ts_update":1761349484413,
+	"dt_update":"2025-10-25 07:44:37.745",
+	"count_dep":42,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/pricing@2.32.18",
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#127085 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#127345 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,10 +29,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.36.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.36.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251021",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"2.35.11",
 			"vulnerabilities":""
 		},
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.34.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250924",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.34.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250923",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.34.2",
 			"vulnerabilities":""
 		}
 	]
