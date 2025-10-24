@@ -3,12 +3,12 @@
 	"description":"Core data-binding logic used by YOJ (YDB ORM for Java) to convert\n        between Java objects and database rows (or anything representable by\n        a Java Map, really).",
 	"group_id":"tech.ydb.yoj",
 	"artifact_id":"yoj-databind",
-	"version_latest":"2.6.42",
-	"ts_publish":1761251879000,
-	"dt_publish":"2025-10-24 04:37:59.000",
-	"ts_update":1761257784511,
-	"dt_update":"2025-10-24 06:14:49.155",
-	"count_dep":19,
+	"version_latest":"2.6.43",
+	"ts_publish":1761334314000,
+	"dt_publish":"2025-10-25 03:31:54.000",
+	"ts_update":1761337086718,
+	"dt_update":"2025-10-25 03:56:21.624",
+	"count_dep":20,
 	"count_ref":8,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,11 +24,27 @@
 	"url_scm":"https://github.com/ydb-platform/yoj-project/yoj-databind",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#87093 in MvnRepository",
+	"ranking":"#87723 in MvnRepository",
 	"tags":[
 		"binding"
 	],
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.6.41",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.6.40",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.6.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250625",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.6.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250623",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.6.20",
 			"vulnerabilities":""
 		}
 	]
