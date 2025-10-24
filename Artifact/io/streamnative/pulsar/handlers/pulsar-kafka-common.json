@@ -3,10 +3,10 @@
 	"description":"Common utilities and classes for Kafka protocol handler",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"pulsar-kafka-common",
-	"version_latest":"4.1.0.3",
-	"ts_publish":1759198237000,
-	"ts_update":1759206019331,
-	"count_dep":325,
+	"version_latest":"4.1.0.4",
+	"ts_publish":1761293872000,
+	"ts_update":1761294382617,
+	"count_dep":365,
 	"count_ref":5,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -15,17 +15,25 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/pulsar-kafka-common/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/pulsar-kafka-common@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/pulsar-kafka-common",
-	"dt_publish":"2025-09-30 10:10:37.000",
-	"dt_update":"2025-09-30 10:37:38.410",
+	"dt_publish":"2025-10-24 16:17:52.000",
+	"dt_update":"2025-10-24 16:26:14.219",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#171600 in MvnRepository",
+	"ranking":"#152869 in MvnRepository",
 	"tags":[
 		"streaming",
 		"kafka",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.1.0.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -48,6 +56,14 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.6.8",
 			"vulnerabilities":""
 		},
 		{
