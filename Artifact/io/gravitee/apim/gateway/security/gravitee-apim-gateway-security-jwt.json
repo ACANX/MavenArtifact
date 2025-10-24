@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.gateway.security",
 	"artifact_id":"gravitee-apim-gateway-security-jwt",
-	"version_latest":"4.9.1",
-	"ts_publish":1761053303000,
-	"dt_publish":"2025-10-21 21:28:23.000",
-	"ts_update":1761054502574,
-	"dt_update":"2025-10-21 21:47:54.984",
+	"version_latest":"4.9.2",
+	"ts_publish":1761326264000,
+	"dt_publish":"2025-10-25 01:17:44.000",
+	"ts_update":1761326802265,
+	"dt_update":"2025-10-25 01:26:28.405",
 	"count_dep":177,
 	"count_ref":14,
 	"licenses":[
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-security/gravitee-apim-gateway-security-jwt",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#236637 in MvnRepository",
+	"ranking":"#236876 in MvnRepository",
 	"tags":[
 		"security",
 		"gateway",
 		"jwt"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"4.8.0-alpha.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251010",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.7.16",
 			"vulnerabilities":""
 		}
 	]
