@@ -3,13 +3,13 @@
 	"description":"Voice Sub-package of the Client SDK for seamless integration of voice communication capabilities into applications.Enables making and receiving voice calls, managing call sessions, and handling call events.\nFor more information, documentation, and code samples, please visit the Vonage Developer Portal.",
 	"group_id":"com.vonage",
 	"artifact_id":"client-sdk-voice",
-	"version_latest":"2.1.2-rc.0",
-	"ts_publish":1761312006000,
-	"dt_publish":"2025-10-24 21:20:06.000",
-	"ts_update":1761313503060,
-	"dt_update":"2025-10-24 21:44:29.592",
+	"version_latest":"2.1.2-rc.1",
+	"ts_publish":1761315911000,
+	"dt_publish":"2025-10-24 22:25:11.000",
+	"ts_update":1761317448369,
+	"dt_update":"2025-10-24 22:50:27.807",
 	"count_dep":11,
-	"count_ref":1,
+	"count_ref":0,
 	"licenses":[
 		"Commercial"
 	],
@@ -27,7 +27,7 @@
 	"count_used_by":5,
 	"home_page":"https://developer.vonage.com/client-sdk/overview",
 	"license":"Commercial",
-	"ranking":"#98708 in MvnRepository",
+	"ranking":"#97649 in MvnRepository",
 	"tags":[
 		"sdk",
 		"voice",
@@ -37,6 +37,22 @@
 		"android"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.1.1-rc.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -51,6 +67,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"2.1.1-alpha.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"snapshot",
+			"usage":2,
+			"version":"2.1.1-snapshot.114.0",
 			"vulnerabilities":""
 		},
 		{
@@ -171,30 +195,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.0.0-rc.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250108",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"2.0.0-alpha.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250108",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"2.0.0-alpha.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250801",
-			"repository":"Central",
-			"type":"snapshot",
-			"usage":1,
-			"version":"2.0.0-snapshot.83.0",
 			"vulnerabilities":""
 		}
 	]
