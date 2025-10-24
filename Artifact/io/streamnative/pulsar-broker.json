@@ -3,11 +3,11 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-broker",
-	"version_latest":"4.1.0.3",
-	"ts_publish":1759197205000,
-	"ts_update":1759206000839,
-	"count_dep":406,
-	"count_ref":17,
+	"version_latest":"4.1.0.4",
+	"ts_publish":1761292885000,
+	"ts_update":1761294097278,
+	"count_dep":422,
+	"count_ref":6,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,16 +20,24 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-broker",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-09-30 09:53:25.000",
-	"dt_update":"2025-09-30 10:26:17.219",
+	"dt_publish":"2025-10-24 16:01:25.000",
+	"dt_update":"2025-10-24 16:21:24.897",
 	"count_used_by":34,
 	"license":"Apache 2.0",
-	"ranking":"#13824 in MvnRepository",
+	"ranking":"#13906 in MvnRepository",
 	"tags":[
 		"pulsar",
 		"broker"
 	],
 	"versions":[
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"4.1.0.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -55,10 +63,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"4.0.6.8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250929",
 			"repository":"Central",
 			"type":"release",
-			"usage":13,
+			"usage":15,
 			"version":"4.0.6.7",
 			"vulnerabilities":""
 		},
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":19,
 			"version":"4.0.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250219",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"4.0.1.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250201",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"4.0.1.3",
 			"vulnerabilities":""
 		}
 	]
