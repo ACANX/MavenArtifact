@@ -3,11 +3,11 @@
 	"description":"A single bundled dependency that includes all service and dependent JARs with third-party libraries\n        relocated to different namespaces.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"bundle-sdk",
-	"version_latest":"2.36.1",
-	"ts_publish":1761259910000,
-	"dt_publish":"2025-10-24 06:51:50.000",
-	"ts_update":1761261283937,
-	"dt_update":"2025-10-24 07:14:16.708",
+	"version_latest":"2.36.2",
+	"ts_publish":1761347623000,
+	"dt_publish":"2025-10-25 07:13:43.000",
+	"ts_update":1761348639185,
+	"dt_update":"2025-10-25 07:30:23.312",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/bundle-sdk",
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#562070 in MvnRepository",
+	"ranking":"#559834 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -30,6 +30,14 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.36.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.34.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250923",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.34.2",
 			"vulnerabilities":""
 		}
 	]
