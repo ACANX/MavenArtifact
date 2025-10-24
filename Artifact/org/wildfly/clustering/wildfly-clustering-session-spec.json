@@ -3,12 +3,12 @@
 	"description":"WildFly Clustering: Session: Specification: Modules",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-session-spec",
-	"version_latest":"8.0.0.Final",
-	"ts_publish":1760077884000,
-	"dt_publish":"2025-10-10 14:31:24.000",
-	"ts_update":1760079220296,
-	"dt_update":"2025-10-10 14:53:23.128",
-	"count_dep":0,
+	"version_latest":"8.0.2.Final",
+	"ts_publish":1761287442000,
+	"dt_publish":"2025-10-24 14:30:42.000",
+	"ts_update":1761288807414,
+	"dt_update":"2025-10-24 14:52:53.289",
+	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,13 +25,45 @@
 	],
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
 	"license":"Apache 2.0",
-	"ranking":"#988760 in MvnRepository",
+	"ranking":"#670199 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"cluster",
 		"session"
 	],
 	"versions":[
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.0.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.0.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"8.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"8.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -158,38 +190,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"7.0.0.Beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"7.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250511",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.0.4.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.0.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250427",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.0.2.Final",
 			"vulnerabilities":""
 		}
 	]
