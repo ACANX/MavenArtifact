@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/io.github.dengchen2020/dc-spring-boot-starter-id-generator",
-	"description":"id生成器",
+	"description":"id生成器，支持雪花算法机器id多节点自动配置",
 	"group_id":"io.github.dengchen2020",
 	"artifact_id":"dc-spring-boot-starter-id-generator",
-	"version_latest":"0.1.0",
-	"ts_publish":1760521636000,
-	"dt_publish":"2025-10-15 17:47:16.000",
-	"ts_update":1760522180964,
-	"dt_update":"2025-10-15 17:56:14.449",
+	"version_latest":"0.1.1",
+	"ts_publish":1761307852000,
+	"dt_publish":"2025-10-24 20:10:52.000",
+	"ts_update":1761308799607,
+	"dt_update":"2025-10-24 20:26:32.217",
 	"count_dep":38,
 	"count_ref":0,
 	"licenses":[
@@ -22,9 +22,9 @@
 	],
 	"url_scm":"https://github.com/xiaochenxt/dengchen2020",
 	"count_used_by":1,
-	"home_page":"https://github.com/DengChen2020/dc-spring-boot-starter-id-generator",
+	"home_page":"https://github.com/xiaochenxt/dengchen2020",
 	"license":"Apache 2.0",
-	"ranking":"#299271 in MvnRepository",
+	"ranking":"#300254 in MvnRepository",
 	"tags":[
 		"github",
 		"generator",
@@ -32,6 +32,14 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250619",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.0.40",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.0.39",
 			"vulnerabilities":""
 		}
 	]
