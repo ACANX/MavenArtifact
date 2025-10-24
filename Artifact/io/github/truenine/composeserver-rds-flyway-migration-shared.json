@@ -3,10 +3,10 @@
 	"description":"Shared foundation module for Flyway database migrations, providing common dependencies and configurations for various database types.\nServes as a base dependency for specific database migration modules (such as PostgreSQL, MySQL8), offering Flyway Core runtime support.",
 	"group_id":"io.github.truenine",
 	"artifact_id":"composeserver-rds-flyway-migration-shared",
-	"version_latest":"0.0.43",
-	"ts_publish":1760632841000,
-	"ts_update":1760634915726,
-	"count_dep":21,
+	"version_latest":"0.0.44",
+	"ts_publish":1761296608000,
+	"ts_update":1761298479558,
+	"count_dep":13,
 	"count_ref":2,
 	"licenses":[
 		"GNU Lesser General Public License v2.1"
@@ -21,12 +21,12 @@
 		"Johana Ĉen"
 	],
 	"url_scm":"https://github.com/TrueNine/compose-server",
-	"dt_publish":"2025-10-17 00:40:41.000",
-	"dt_update":"2025-10-17 01:14:05.950",
+	"dt_publish":"2025-10-24 17:03:28.000",
+	"dt_update":"2025-10-24 17:34:30.759",
 	"count_used_by":2,
 	"home_page":"https://github.com/TrueNine/compose-server",
 	"license":"LGPL 2.1",
-	"ranking":"#242868 in MvnRepository",
+	"ranking":"#231269 in MvnRepository",
 	"tags":[
 		"github",
 		"rds",
@@ -34,6 +34,14 @@
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.0.43",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251008",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.0.24",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250810",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.0.23",
 			"vulnerabilities":""
 		}
 	]
