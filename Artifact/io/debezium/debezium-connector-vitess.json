@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-vitess",
-	"version_latest":"3.3.1.Final",
-	"ts_publish":1760513747000,
-	"dt_publish":"2025-10-15 15:35:47.000",
-	"ts_update":1760514362540,
-	"dt_update":"2025-10-15 15:45:41.291",
+	"version_latest":"3.4.0.Alpha1",
+	"ts_publish":1761377682000,
+	"dt_publish":"2025-10-25 15:34:42.000",
+	"ts_update":1761378276615,
+	"dt_update":"2025-10-25 15:44:27.361",
 	"count_dep":79,
 	"count_ref":0,
 	"licenses":[
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-connector-vitess",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#125499 in MvnRepository",
+	"ranking":"#125795 in MvnRepository",
 	"tags":[
 		"debezium",
 		"connector",
 		"connection"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"3.1.0.Beta1",
 			"vulnerabilities":""
 		}
 	]

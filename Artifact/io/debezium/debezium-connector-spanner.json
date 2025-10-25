@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-spanner",
-	"version_latest":"3.3.1.Final",
-	"ts_publish":1760512674000,
-	"dt_publish":"2025-10-15 15:17:54.000",
-	"ts_update":1760514366344,
-	"dt_update":"2025-10-15 15:45:42.204",
+	"version_latest":"3.4.0.Alpha1",
+	"ts_publish":1761376883000,
+	"dt_publish":"2025-10-25 15:21:23.000",
+	"ts_update":1761378277598,
+	"dt_update":"2025-10-25 15:44:27.365",
 	"count_dep":97,
 	"count_ref":0,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-connector-spanner",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#215796 in MvnRepository",
+	"ranking":"#215814 in MvnRepository",
 	"tags":[
 		"debezium",
 		"connector",
@@ -37,6 +37,14 @@
 		"spanner"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"3.1.0.Beta1",
 			"vulnerabilities":""
 		}
 	]
