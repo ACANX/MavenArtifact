@@ -3,11 +3,11 @@
 	"description":"Adapt Prebid Mobile SDK to MSP Android SDK to support Prebid Ads",
 	"group_id":"ai.themsp",
 	"artifact_id":"prebid-adapter",
-	"version_latest":"2.12.0",
-	"ts_publish":1761189095000,
-	"dt_publish":"2025-10-23 11:11:35.000",
-	"ts_update":1761190486143,
-	"dt_update":"2025-10-23 11:34:28.712",
+	"version_latest":"2.12.1-newsbreak-msp-migration",
+	"ts_publish":1761351485000,
+	"dt_publish":"2025-10-25 08:18:05.000",
+	"ts_update":1761351996365,
+	"dt_update":"2025-10-25 08:26:26.502",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/ParticleMedia/msp-android",
 	"home_page":"https://github.com/ParticleMedia/msp-sdk-demo-android",
 	"license":"Apache 2.0",
-	"ranking":"#618824 in MvnRepository",
+	"ranking":"#620078 in MvnRepository",
 	"tags":[
 		"adapter",
 		"ai",
@@ -31,6 +31,30 @@
 		"android"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251019",
 			"repository":"Central",
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250815",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.3.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250730",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250730",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.3.1",
 			"vulnerabilities":""
 		}
 	]
