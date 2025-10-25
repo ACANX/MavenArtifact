@@ -3,12 +3,12 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-platform-conductor",
-	"version_latest":"3.3.1.Final",
-	"ts_publish":1760520261000,
-	"dt_publish":"2025-10-15 17:24:21.000",
-	"ts_update":1760520898995,
-	"dt_update":"2025-10-15 17:34:47.755",
-	"count_dep":546,
+	"version_latest":"3.4.0.Alpha1",
+	"ts_publish":1761379753000,
+	"dt_publish":"2025-10-25 16:09:13.000",
+	"ts_update":1761380329203,
+	"dt_update":"2025-10-25 16:18:26.498",
+	"count_dep":520,
 	"count_ref":0,
 	"licenses":[
 		"Apache Software License 2.0"
@@ -28,12 +28,20 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-platform-conductor",
 	"license":"Apache 2.0",
-	"ranking":"#542307 in MvnRepository",
+	"ranking":"#544094 in MvnRepository",
 	"tags":[
 		"debezium",
 		"platform"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"3.1.0.Beta1",
 			"vulnerabilities":""
 		}
 	]
