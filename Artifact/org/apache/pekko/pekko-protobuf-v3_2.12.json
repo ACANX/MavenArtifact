@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/org.apache.pekko/pekko-protobuf-v3_2.12",
-	"description":"Apache Pekko Protobuf V3 is a shaded version of the protobuf runtime. Original POM: https://github.com/protocolbuffers/protobuf/blob/v4.31.1/java/pom.xml",
+	"description":"Apache Pekko Protobuf V3 is a shaded version of the protobuf runtime. Original POM: https://github.com/protocolbuffers/protobuf/blob/v4.32.0/java/pom.xml",
 	"group_id":"org.apache.pekko",
 	"artifact_id":"pekko-protobuf-v3_2.12",
-	"version_latest":"1.2.0-M2",
-	"ts_publish":1752344315000,
-	"dt_publish":"2025-07-13 02:18:35.000",
-	"ts_update":1755363374132,
-	"dt_update":"2025-08-17 00:18:15.712",
+	"version_latest":"1.2.1",
+	"ts_publish":1758367008000,
+	"dt_publish":"2025-09-20 19:16:48.000",
+	"ts_update":1761409592843,
+	"dt_update":"2025-10-26 00:19:33.738",
 	"count_dep":0,
-	"count_ref":10,
+	"count_ref":32,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,10 +23,10 @@
 		"Apache Pekko Contributors"
 	],
 	"url_scm":"https://github.com/apache/pekko",
-	"count_used_by":5,
+	"count_used_by":6,
 	"home_page":"https://pekko.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#93971 in MvnRepository",
+	"ranking":"#78446 in MvnRepository",
 	"tags":[
 		"actor",
 		"protobuf",
@@ -37,6 +37,22 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.2.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250712",
 			"repository":"Central",
@@ -57,7 +73,7 @@
 			"date":"20250717",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"1.1.5",
 			"vulnerabilities":""
 		},
