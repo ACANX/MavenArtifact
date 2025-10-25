@@ -1,15 +1,15 @@
 {
-	"id":"pkg:maven/nl.gn0s1s/elastic4s-domain_2.13",
-	"description":"elastic4s-domain",
+	"id":"pkg:maven/nl.gn0s1s/elastic4s-json-builder_2.13",
+	"description":"elastic4s-json-builder",
 	"group_id":"nl.gn0s1s",
-	"artifact_id":"elastic4s-domain_2.13",
+	"artifact_id":"elastic4s-json-builder_2.13",
 	"version_latest":"9.1.1",
 	"ts_publish":1761389238000,
 	"dt_publish":"2025-10-25 18:47:18.000",
-	"ts_update":1761391603356,
-	"dt_update":"2025-10-25 19:26:30.727",
-	"count_dep":13,
-	"count_ref":25,
+	"ts_update":1761391601143,
+	"dt_update":"2025-10-25 19:26:30.728",
+	"count_dep":12,
+	"count_ref":26,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -18,18 +18,20 @@
 	],
 	"dsv":1,
 	"url_project":"https://github.com/philippus/elastic4s",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/nl.gn0s1s/elastic4s-domain_2.13@9.1.1",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/nl.gn0s1s/elastic4s-json-builder_2.13@9.1.1",
 	"contributors":[
 		"Philippus Baalman",
 		"Samuel"
 	],
 	"url_scm":"https://github.com/Philippus/elastic4s",
-	"count_used_by":2,
+	"count_used_by":3,
 	"home_page":"https://github.com/philippus/elastic4s",
 	"license":"Apache 2.0",
-	"ranking":"#247554 in MvnRepository",
+	"ranking":"#152586 in MvnRepository",
 	"tags":[
-		"domain",
+		"json",
+		"build",
+		"builder",
 		"elastic"
 	],
 	"versions":[
@@ -37,7 +39,7 @@
 			"date":"20250731",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"9.1.0",
 			"vulnerabilities":""
 		},
@@ -45,7 +47,7 @@
 			"date":"20250610",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"9.0.0",
 			"vulnerabilities":""
 		},
@@ -53,7 +55,7 @@
 			"date":"20250522",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"9.0.0-RC2",
 			"vulnerabilities":""
 		},
@@ -61,7 +63,7 @@
 			"date":"20250510",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"9.0.0-RC1",
 			"vulnerabilities":""
 		},
@@ -69,7 +71,7 @@
 			"date":"20250731",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.19.0",
 			"vulnerabilities":""
 		},
@@ -77,7 +79,7 @@
 			"date":"20250610",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.18.2",
 			"vulnerabilities":""
 		},
@@ -85,7 +87,7 @@
 			"date":"20250522",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.18.1",
 			"vulnerabilities":""
 		},
@@ -93,7 +95,7 @@
 			"date":"20250425",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.18.0",
 			"vulnerabilities":""
 		},
@@ -101,7 +103,7 @@
 			"date":"20250317",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.17.1",
 			"vulnerabilities":""
 		},
@@ -109,7 +111,7 @@
 			"date":"20250314",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.17.0",
 			"vulnerabilities":""
 		},
@@ -117,7 +119,7 @@
 			"date":"20241130",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.16.0",
 			"vulnerabilities":""
 		},
@@ -125,7 +127,7 @@
 			"date":"20241116",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.15.4",
 			"vulnerabilities":""
 		},
@@ -133,7 +135,7 @@
 			"date":"20241020",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.15.3",
 			"vulnerabilities":""
 		},
@@ -141,7 +143,7 @@
 			"date":"20240925",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.15.2",
 			"vulnerabilities":""
 		},
@@ -149,7 +151,7 @@
 			"date":"20240919",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.15.1",
 			"vulnerabilities":""
 		},
@@ -157,7 +159,7 @@
 			"date":"20240831",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.15.0",
 			"vulnerabilities":""
 		},
@@ -165,7 +167,7 @@
 			"date":"20240809",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.14.1",
 			"vulnerabilities":""
 		},
@@ -173,7 +175,7 @@
 			"date":"20240716",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.14.0",
 			"vulnerabilities":""
 		},
@@ -181,7 +183,7 @@
 			"date":"20240626",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.13.1",
 			"vulnerabilities":""
 		},
@@ -189,7 +191,7 @@
 			"date":"20240531",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.13.0",
 			"vulnerabilities":""
 		},
@@ -197,7 +199,7 @@
 			"date":"20240507",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.12.0",
 			"vulnerabilities":""
 		},
@@ -205,7 +207,7 @@
 			"date":"20240505",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.12.0-RC3",
 			"vulnerabilities":""
 		},
@@ -213,7 +215,7 @@
 			"date":"20241104",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"7.17.25",
 			"vulnerabilities":""
 		},
@@ -221,7 +223,7 @@
 			"date":"20241103",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"7.17.25-RC1",
 			"vulnerabilities":""
 		}
