@@ -3,11 +3,11 @@
 	"description":"Debezium Cassandra connector is an open source change data capture connector Cassandra databases",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-cassandra-tests",
-	"version_latest":"3.3.1.Final",
-	"ts_publish":1760514681000,
-	"dt_publish":"2025-10-15 15:51:21.000",
-	"ts_update":1760516520181,
-	"dt_update":"2025-10-15 16:21:50.679",
+	"version_latest":"3.4.0.Alpha1",
+	"ts_publish":1761375172000,
+	"dt_publish":"2025-10-25 14:52:52.000",
+	"ts_update":1761376486565,
+	"dt_update":"2025-10-25 15:14:35.867",
 	"count_dep":130,
 	"count_ref":0,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/debezium/debezium-connector-cassandra/debezium-connector-cassandra-tests",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#115939 in MvnRepository",
+	"ranking":"#124680 in MvnRepository",
 	"tags":[
 		"database",
 		"cassandra",
@@ -38,6 +38,14 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":4,
-			"version":"3.1.0.Beta1",
 			"vulnerabilities":""
 		}
 	]
