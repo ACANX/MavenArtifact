@@ -3,11 +3,11 @@
 	"description":"Provides an embedded Jetty web server, allowing Aspectran to run as a self-contained, flexible, and mature web application.",
 	"group_id":"com.aspectran",
 	"artifact_id":"aspectran-with-jetty",
-	"version_latest":"9.2.0",
-	"ts_publish":1761145389000,
-	"dt_publish":"2025-10-22 23:03:09.000",
-	"ts_update":1761146207518,
-	"dt_update":"2025-10-22 23:16:09.970",
+	"version_latest":"9.2.1",
+	"ts_publish":1761456983000,
+	"dt_publish":"2025-10-26 13:36:23.000",
+	"ts_update":1761457511032,
+	"dt_update":"2025-10-26 13:45:00.630",
 	"count_dep":68,
 	"count_ref":2,
 	"licenses":[
@@ -27,13 +27,21 @@
 	"url_ci_management":"https://github.com/aspectran/aspectran/actions",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#127837 in MvnRepository",
+	"ranking":"#127934 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
 		"jetty"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251013",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250101",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.2.0",
 			"vulnerabilities":""
 		}
 	]
