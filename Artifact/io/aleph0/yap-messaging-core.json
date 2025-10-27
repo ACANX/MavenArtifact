@@ -2,23 +2,33 @@
 	"id":"pkg:maven/io.aleph0/yap-messaging-core",
 	"group_id":"io.aleph0",
 	"artifact_id":"yap-messaging-core",
-	"version_latest":"0.0.0-b10",
-	"ts_publish":1761316860000,
-	"dt_publish":"2025-10-24 22:41:00.000",
-	"ts_update":1761319046156,
-	"dt_update":"2025-10-24 23:17:01.260",
+	"version_latest":"0.0.0-b11",
+	"ts_publish":1761534165000,
+	"dt_publish":"2025-10-27 11:02:45.000",
+	"ts_update":1761535606447,
+	"dt_update":"2025-10-27 11:26:28.394",
 	"count_dep":7,
-	"count_ref":2,
-	"licenses":[],
+	"count_ref":3,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.aleph0/yap-messaging-core@0.0.0-b10",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#163086 in MvnRepository",
+	"ranking":"#149377 in MvnRepository",
 	"tags":[
 		"messaging"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"0.0.0-b10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250509",
 			"repository":"Central",
@@ -67,5 +77,6 @@
 			"version":"0.0.0-b4",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"yap is a Yet Another Pipeline for Java 21+"
 }
