@@ -3,11 +3,11 @@
 	"description":"The Inqwise Async library seamlessly bridges standard Java blocking I/O structures with Vert.x's asynchronous, non-blocking APIs. By providing robust wrappers for traditional Java classes such as {@link java.io.InputStream}, {@link java.io.OutputStream}, {@link java.io.Reader}, {@link java.io.Writer}, and more, Inqwise Async enables developers to integrate existing Java codebases into Vert.x-based reactive applications without disrupting the event loop. This integration ensures efficient and scalable I/O operations by managing back-pressure and flow control, facilitating the modernization of legacy systems for high-performance, event-driven environments.",
 	"group_id":"com.inqwise",
 	"artifact_id":"inqwise-async",
-	"version_latest":"1.1.1",
-	"ts_publish":1760868879000,
-	"dt_publish":"2025-10-19 18:14:39.000",
-	"ts_update":1760870691657,
-	"dt_update":"2025-10-19 18:44:43.502",
+	"version_latest":"1.1.2",
+	"ts_publish":1761589609000,
+	"dt_publish":"2025-10-28 02:26:49.000",
+	"ts_update":1761591195542,
+	"dt_update":"2025-10-28 02:52:56.803",
 	"count_dep":25,
 	"count_ref":0,
 	"licenses":[
@@ -20,13 +20,29 @@
 		"Alex Misyuk"
 	],
 	"url_scm":"https://github.com/inqwise/inqwise-async",
-	"home_page":"https://github.com/inqwise",
+	"home_page":"https://github.com/inqwise/inqwise-async",
 	"license":"MIT",
-	"ranking":"#728463 in MvnRepository",
+	"ranking":"#687944 in MvnRepository",
 	"tags":[
 		"asynchronous"
 	],
 	"versions":[
+		{
+			"date":"20251019",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251019",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20241024",
 			"repository":"Central",
