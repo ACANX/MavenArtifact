@@ -3,13 +3,13 @@
 	"description":"Provides integration between Micronaut and Google Cloud Platform (GCP)",
 	"group_id":"io.micronaut.gcp",
 	"artifact_id":"micronaut-gcp-function",
-	"version_latest":"5.13.0",
-	"ts_publish":1759916646000,
-	"dt_publish":"2025-10-08 17:44:06.000",
-	"ts_update":1759918580524,
-	"dt_update":"2025-10-08 18:16:13.587",
+	"version_latest":"5.13.1",
+	"ts_publish":1761584422000,
+	"dt_publish":"2025-10-28 01:00:22.000",
+	"ts_update":1761585315014,
+	"dt_update":"2025-10-28 01:14:22.649",
 	"count_dep":12,
-	"count_ref":2,
+	"count_ref":3,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -26,13 +26,21 @@
 	"count_used_by":4,
 	"home_page":"https://micronaut.io",
 	"license":"Apache 2.0",
-	"ranking":"#111975 in MvnRepository",
+	"ranking":"#112628 in MvnRepository",
 	"tags":[
 		"micronaut",
 		"gcp",
 		"functions"
 	],
 	"versions":[
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"5.13.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250618",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"5.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230713",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"5.0.1",
 			"vulnerabilities":""
 		}
 	]
