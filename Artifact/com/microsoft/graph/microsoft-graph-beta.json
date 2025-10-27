@@ -1,43 +1,68 @@
 {
-	"id":"pkg:maven/com.transloadit.sdk/transloadit",
-	"description":"A Java Integration of the Transloadit's (https://transloadit.com) file uploading and encoding service.",
-	"group_id":"com.transloadit.sdk",
-	"artifact_id":"transloadit",
-	"version_latest":"2.2.3",
-	"ts_publish":1761604720000,
-	"dt_publish":"2025-10-28 06:38:40.000",
-	"ts_update":1761605139632,
+	"id":"pkg:maven/com.microsoft.graph/microsoft-graph-beta",
+	"description":"Microsoft Graph Beta SDK",
+	"group_id":"com.microsoft.graph",
+	"artifact_id":"microsoft-graph-beta",
+	"version_latest":"6.49.0",
+	"ts_publish":1761604347000,
+	"dt_publish":"2025-10-28 06:32:27.000",
+	"ts_update":1761605140193,
 	"dt_update":"2025-10-28 06:45:32.226",
-	"count_dep":8,
+	"count_dep":28,
 	"count_ref":0,
 	"licenses":[
-		"The MIT License (MIT)"
+		"MIT License"
 	],
 	"categories":[
-		"Software Development Kit"
+		"Uncategorized"
 	],
 	"dsv":1,
-	"url_project":"https://github.com/transloadit/java-sdk",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.transloadit.sdk/transloadit@2.1.0",
+	"url_project":"https://github.com/microsoftgraph/msgraph-beta-sdk-java",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.microsoft.graph/microsoft-graph-beta@6.49.0",
+	"url_issue_management":"https://github.com/microsoftgraph/msgraph-beta-sdk-java/issues",
 	"contributors":[
-		"Transloadit",
-		"Florian Kuenzig"
+		"Microsoft"
 	],
-	"url_scm":"https://github.com/transloadit/java-sdk",
+	"url_scm":"https://github.com/microsoftgraph/msgraph-beta-sdk-java",
 	"count_used_by":1,
-	"home_page":"https://github.com/transloadit/java-sdk",
+	"home_page":"https://github.com/microsoftgraph/msgraph-beta-sdk-java",
 	"license":"MIT",
-	"ranking":"#306358 in MvnRepository",
+	"ranking":"#344347 in MvnRepository",
 	"tags":[
-		"sdk"
+		"graph",
+		"microsoft"
 	],
 	"versions":[
 		{
-			"date":"20251016",
+			"date":"20250610",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.1.0",
+			"version":"6.47.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250603",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.46.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250520",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.45.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250513",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.44.0",
 			"vulnerabilities":""
 		},
 		{
@@ -45,151 +70,127 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.0.1",
+			"version":"6.43.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250115",
+			"date":"20250429",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.0.0",
+			"version":"6.42.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241128",
+			"date":"20250415",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"1.0.1",
+			"version":"6.41.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20230117",
+			"date":"20250409",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"1.0.0",
+			"version":"6.40.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20221030",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.4.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221028",
+			"date":"20250401",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.4.3",
+			"version":"6.39.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20220203",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210926",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210926",
+			"date":"20250325",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.4.0",
+			"version":"6.38.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20210627",
+			"date":"20250318",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.3.0",
+			"version":"6.37.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20210517",
+			"date":"20250311",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.2.0",
+			"version":"6.36.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20210511",
+			"date":"20250305",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.1.6",
+			"version":"6.35.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20190716",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20190427",
+			"date":"20250227",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.1.4",
+			"version":"6.34.1",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20190418",
+			"date":"20250225",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.1.3",
+			"version":"6.34.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20190410",
+			"date":"20250219",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.1.2",
+			"version":"6.33.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20180423",
+			"date":"20250213",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.1.1",
+			"version":"6.32.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20180405",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20180121",
+			"date":"20250206",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"0.0.6",
+			"version":"6.31.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250130",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.30.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250122",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.29.0",
 			"vulnerabilities":""
 		}
 	]
