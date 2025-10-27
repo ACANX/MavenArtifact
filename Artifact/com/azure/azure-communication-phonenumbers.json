@@ -3,13 +3,13 @@
 	"description":"This package contains APIs for managing phone numbers in Microsoft Azure Communication Services.\n    For this release, see notes - https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/communication/azure-communication-phonenumbers/README.md and https://github.com/Azure/azure-sdk-for-java/blob/master/sdk/communication/azure-communication-phonenumbers/CHANGELOG.md.\n    Microsoft Azure Communication Phone Numbers quickstart - https://docs.microsoft.com/azure/communication-services/quickstarts/access-tokens?pivots=programming-language-java",
 	"group_id":"com.azure",
 	"artifact_id":"azure-communication-phonenumbers",
-	"version_latest":"1.4.0",
-	"ts_publish":1756416613000,
-	"dt_publish":"2025-08-29 05:30:13.000",
-	"ts_update":1756418183131,
-	"dt_update":"2025-08-29 05:55:55.536",
+	"version_latest":"1.4.2",
+	"ts_publish":1761585937000,
+	"dt_publish":"2025-10-28 01:25:37.000",
+	"ts_update":1761587145868,
+	"dt_update":"2025-10-28 01:45:24.011",
 	"count_dep":42,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The MIT License (MIT)"
 	],
@@ -27,12 +27,28 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/Azure/azure-sdk-for-java",
 	"license":"MIT",
-	"ranking":"#356087 in MvnRepository",
+	"ranking":"#364209 in MvnRepository",
 	"tags":[
 		"communication",
 		"azure"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250731",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.1.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240702",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.1.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240529",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.1.13",
 			"vulnerabilities":""
 		}
 	]
