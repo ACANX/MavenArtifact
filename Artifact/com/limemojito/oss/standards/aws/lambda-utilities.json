@@ -3,12 +3,12 @@
 	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build.",
 	"group_id":"com.limemojito.oss.standards.aws",
 	"artifact_id":"lambda-utilities",
-	"version_latest":"15.3.4",
-	"ts_publish":1761118981000,
-	"dt_publish":"2025-10-22 15:43:01.000",
-	"ts_update":1761119800915,
-	"dt_update":"2025-10-22 15:56:29.184",
-	"count_dep":102,
+	"version_latest":"15.3.5",
+	"ts_publish":1761605793000,
+	"dt_publish":"2025-10-28 06:56:33.000",
+	"ts_update":1761606885379,
+	"dt_update":"2025-10-28 07:14:29.486",
+	"count_dep":104,
 	"count_ref":5,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -23,13 +23,21 @@
 	"url_scm":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/lambda-utilities",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#150380 in MvnRepository",
+	"ranking":"#151909 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"lambda"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"15.3.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251012",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"14.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240817",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"14.2.0",
 			"vulnerabilities":""
 		}
 	]
