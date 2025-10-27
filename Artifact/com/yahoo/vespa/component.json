@@ -2,13 +2,13 @@
 	"id":"pkg:maven/com.yahoo.vespa/component",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"component",
-	"version_latest":"8.598.44",
-	"ts_publish":1761312996000,
-	"dt_publish":"2025-10-24 21:36:36.000",
-	"ts_update":1761314240537,
-	"dt_update":"2025-10-24 21:56:33.257",
+	"version_latest":"8.599.6",
+	"ts_publish":1761559844000,
+	"dt_publish":"2025-10-27 18:10:44.000",
+	"ts_update":1761560365819,
+	"dt_update":"2025-10-27 18:19:06.537",
 	"count_dep":8,
-	"count_ref":35,
+	"count_ref":38,
 	"licenses":[],
 	"categories":[
 		"Big Data",
@@ -21,13 +21,29 @@
 		"Vespa"
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/component",
-	"count_used_by":40,
+	"count_used_by":41,
 	"license":"Apache 2.0",
-	"ranking":"#11993 in MvnRepository",
+	"ranking":"#11886 in MvnRepository",
 	"tags":[
 		"component"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"8.598.44",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":23,
+			"version":"8.596.20",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":24,
 			"version":"8.573.19",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250901",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"8.572.77",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250826",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"8.571.14",
 			"vulnerabilities":""
 		}
 	]

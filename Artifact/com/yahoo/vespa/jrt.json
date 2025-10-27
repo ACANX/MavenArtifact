@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/jrt",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"jrt",
-	"version_latest":"8.598.44",
-	"ts_publish":1761312996000,
-	"dt_publish":"2025-10-24 21:36:36.000",
-	"ts_update":1761314239564,
-	"dt_update":"2025-10-24 21:56:33.251",
-	"count_dep":5,
-	"count_ref":31,
-	"licenses":[],
+	"version_latest":"8.599.6",
+	"ts_publish":1761559844000,
+	"dt_publish":"2025-10-27 18:10:44.000",
+	"ts_update":1761560360814,
+	"dt_update":"2025-10-27 18:19:05.910",
+	"count_dep":18,
+	"count_ref":45,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,8 +25,24 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/jrt",
 	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#29427 in MvnRepository",
+	"ranking":"#29665 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.598.44",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.596.20",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -168,22 +186,7 @@
 			"usage":13,
 			"version":"8.573.19",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250901",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.572.77",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250826",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.571.14",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

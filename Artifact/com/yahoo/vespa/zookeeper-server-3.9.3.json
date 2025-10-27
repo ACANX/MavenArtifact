@@ -2,11 +2,11 @@
 	"id":"pkg:maven/com.yahoo.vespa/zookeeper-server-3.9.3",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"zookeeper-server-3.9.3",
-	"version_latest":"8.598.44",
-	"ts_publish":1761312996000,
-	"dt_publish":"2025-10-24 21:36:36.000",
-	"ts_update":1761314206876,
-	"dt_update":"2025-10-24 21:56:32.008",
+	"version_latest":"8.599.6",
+	"ts_publish":1761559844000,
+	"dt_publish":"2025-10-27 18:10:44.000",
+	"ts_update":1761560367290,
+	"dt_update":"2025-10-27 18:19:08.724",
 	"count_dep":86,
 	"count_ref":0,
 	"licenses":[
@@ -25,12 +25,20 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/zookeeper-server-parent/zookeeper-server-3.9.3",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#229675 in MvnRepository",
+	"ranking":"#229733 in MvnRepository",
 	"tags":[
 		"server",
 		"zookeeper"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.598.44",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.573.19",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250901",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.572.77",
 			"vulnerabilities":""
 		}
 	],

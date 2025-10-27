@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/container-llama",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-llama",
-	"version_latest":"8.598.44",
-	"ts_publish":1761312996000,
-	"dt_publish":"2025-10-24 21:36:36.000",
-	"ts_update":1761314239049,
-	"dt_update":"2025-10-24 21:56:32.585",
-	"count_dep":3,
+	"version_latest":"8.599.6",
+	"ts_publish":1761559844000,
+	"dt_publish":"2025-10-27 18:10:44.000",
+	"ts_update":1761560372998,
+	"dt_update":"2025-10-27 18:19:08.726",
+	"count_dep":35,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,12 +25,20 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-llama",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#247042 in MvnRepository",
+	"ranking":"#247006 in MvnRepository",
 	"tags":[
 		"container",
 		"llama"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.598.44",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":2,
 			"version":"8.573.19",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250901",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.572.77",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }
