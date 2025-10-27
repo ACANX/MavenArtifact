@@ -3,13 +3,13 @@
 	"description":"Bridge WikiModel Model and XWiki Rendering Model",
 	"group_id":"org.xwiki.rendering",
 	"artifact_id":"xwiki-rendering-syntax-wikimodel",
-	"version_latest":"17.9.0-rc-1",
-	"ts_publish":1760957035000,
-	"dt_publish":"2025-10-20 18:43:55.000",
-	"ts_update":1760957788485,
-	"dt_update":"2025-10-20 18:56:20.204",
+	"version_latest":"17.9.0",
+	"ts_publish":1761555473000,
+	"dt_publish":"2025-10-27 16:57:53.000",
+	"ts_update":1761556820656,
+	"dt_update":"2025-10-27 17:20:10.640",
 	"count_dep":52,
-	"count_ref":8,
+	"count_ref":12,
 	"licenses":[
 		"LGPL 2.1"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/xwiki/xwiki-rendering/tree/master/xwiki-commons-pom/xwiki-rendering/xwiki-rendering-syntaxes/xwiki-rendering-syntax-wikimodel/",
 	"count_used_by":23,
 	"license":"LGPL 2.1",
-	"ranking":"#20579 in MvnRepository",
+	"ranking":"#20791 in MvnRepository",
 	"tags":[
 		"xwiki",
 		"syntax",
@@ -34,6 +34,14 @@
 		"render"
 	],
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"17.9.0-rc-1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -88,6 +96,14 @@
 			"type":"release",
 			"usage":4,
 			"version":"17.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"17.4.6",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"17.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250331",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"17.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"17.2.0-rc-1",
 			"vulnerabilities":""
 		}
 	]
