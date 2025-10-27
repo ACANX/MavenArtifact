@@ -3,11 +3,11 @@
 	"description":"High throughput asynchronous task processing on Apache Kafka",
 	"group_id":"com.linecorp.decaton",
 	"artifact_id":"decaton-protobuf",
-	"version_latest":"9.2.1",
-	"ts_publish":1756173047000,
-	"dt_publish":"2025-08-26 09:50:47.000",
-	"ts_update":1756175236787,
-	"dt_update":"2025-08-26 10:25:49.524",
+	"version_latest":"9.4.0",
+	"ts_publish":1761528036000,
+	"dt_publish":"2025-10-27 09:20:36.000",
+	"ts_update":1761530199969,
+	"dt_update":"2025-10-27 09:56:26.897",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,29 @@
 	"url_scm":"git@github.com:line/decaton.git",
 	"home_page":"https://github.com/line/decaton",
 	"license":"Apache 2.0",
-	"ranking":"#554498 in MvnRepository",
+	"ranking":"#570142 in MvnRepository",
 	"tags":[
 		"protocol",
 		"serialization",
 		"protobuf"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.2.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221216",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.0.0",
 			"vulnerabilities":""
 		}
 	]
