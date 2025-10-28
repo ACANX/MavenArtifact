@@ -3,11 +3,11 @@
 	"description":"Jakarta Servlet for exposing a Prometheus scrape endpoint.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-exporter-servlet-jakarta",
-	"version_latest":"1.4.1",
-	"ts_publish":1755532143000,
-	"dt_publish":"2025-08-18 23:49:03.000",
-	"ts_update":1755534169408,
-	"dt_update":"2025-08-19 00:20:34.904",
+	"version_latest":"1.4.2",
+	"ts_publish":1761670582000,
+	"dt_publish":"2025-10-29 00:56:22.000",
+	"ts_update":1761671747731,
+	"dt_update":"2025-10-29 01:15:40.450",
 	"count_dep":15,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-exporter-servlet-jakarta",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#52450 in MvnRepository",
+	"ranking":"#54969 in MvnRepository",
 	"tags":[
 		"jakarta",
 		"bundle",
@@ -39,6 +39,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -181,22 +197,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"1.0.0-alpha-4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230830",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"1.0.0-alpha-3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230727",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"1.0.0-alpha-2",
 			"vulnerabilities":""
 		}
 	]

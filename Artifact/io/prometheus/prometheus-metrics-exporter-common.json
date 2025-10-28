@@ -3,12 +3,12 @@
 	"description":"Common functionality for implementing a Prometheus scrape endpoint.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-exporter-common",
-	"version_latest":"1.4.1",
-	"ts_publish":1755532143000,
-	"dt_publish":"2025-08-18 23:49:03.000",
-	"ts_update":1755534144977,
-	"dt_update":"2025-08-19 00:20:34.905",
-	"count_dep":14,
+	"version_latest":"1.4.2",
+	"ts_publish":1761670582000,
+	"dt_publish":"2025-10-29 00:56:22.000",
+	"ts_update":1761671774287,
+	"dt_update":"2025-10-29 01:15:39.960",
+	"count_dep":13,
 	"count_ref":4,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,9 +25,9 @@
 		"Gregor Zeitlinger"
 	],
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-exporter-common",
-	"count_used_by":10,
+	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#47833 in MvnRepository",
+	"ranking":"#36205 in MvnRepository",
 	"tags":[
 		"bundle",
 		"monitoring",
@@ -37,6 +37,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -179,22 +195,6 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"1.0.0-alpha-4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230830",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"1.0.0-alpha-3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241019",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.0.1-releasetest1",
 			"vulnerabilities":""
 		}
 	]

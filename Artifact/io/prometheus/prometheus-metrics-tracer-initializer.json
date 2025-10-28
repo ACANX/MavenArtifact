@@ -3,13 +3,13 @@
 	"description":"Initialize Prometheus integrations with distributed tracing libraries.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-tracer-initializer",
-	"version_latest":"1.4.1",
-	"ts_publish":1755532143000,
-	"dt_publish":"2025-08-18 23:49:03.000",
-	"ts_update":1755534120938,
-	"dt_update":"2025-08-19 00:20:35.340",
+	"version_latest":"1.4.2",
+	"ts_publish":1761670582000,
+	"dt_publish":"2025-10-29 00:56:22.000",
+	"ts_update":1761671783017,
+	"dt_update":"2025-10-29 01:15:40.453",
 	"count_dep":13,
-	"count_ref":8,
+	"count_ref":6,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -27,7 +27,7 @@
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-tracer/prometheus-metrics-tracer-initializer",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#93297 in MvnRepository",
+	"ranking":"#92342 in MvnRepository",
 	"tags":[
 		"bundle",
 		"monitoring",
@@ -37,6 +37,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -179,22 +195,6 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"1.0.0-alpha-4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230830",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"1.0.0-alpha-3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230727",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"1.0.0-alpha-2",
 			"vulnerabilities":""
 		}
 	]
