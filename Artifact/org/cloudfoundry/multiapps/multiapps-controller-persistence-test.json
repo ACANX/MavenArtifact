@@ -3,13 +3,13 @@
 	"description":"Multi-Target Application (MTA) deployment service for Cloud Foundry",
 	"group_id":"org.cloudfoundry.multiapps",
 	"artifact_id":"multiapps-controller-persistence-test",
-	"version_latest":"1.199.0",
-	"ts_publish":1758011032000,
-	"dt_publish":"2025-09-16 16:23:52.000",
-	"ts_update":1758012252730,
-	"dt_update":"2025-09-16 16:42:59.850",
+	"version_latest":"2.35.0",
+	"ts_publish":1761641456000,
+	"dt_publish":"2025-10-28 16:50:56.000",
+	"ts_update":1761641788687,
+	"dt_update":"2025-10-28 16:56:22.333",
 	"count_dep":29,
-	"count_ref":3,
+	"count_ref":4,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,13 +25,45 @@
 	"url_scm":"https://github.com/cloudfoundry-incubator/multiapps-controller.git/multiapps-controller-persistence-test",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#167488 in MvnRepository",
+	"ranking":"#164218 in MvnRepository",
 	"tags":[
 		"persistence",
 		"testing",
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.34.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.199.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.199.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.198.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -158,38 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.186.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250307",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.185.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.185.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.184.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250107",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.183.0",
 			"vulnerabilities":""
 		}
 	]

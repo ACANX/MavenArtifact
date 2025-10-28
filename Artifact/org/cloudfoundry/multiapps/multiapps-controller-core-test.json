@@ -3,13 +3,13 @@
 	"description":"Multi-Target Application (MTA) deployment service for Cloud Foundry",
 	"group_id":"org.cloudfoundry.multiapps",
 	"artifact_id":"multiapps-controller-core-test",
-	"version_latest":"1.199.1",
-	"ts_publish":1758886320000,
-	"dt_publish":"2025-09-26 19:32:00.000",
-	"ts_update":1758887086004,
-	"dt_update":"2025-09-26 19:44:28.130",
+	"version_latest":"2.35.0",
+	"ts_publish":1761641456000,
+	"dt_publish":"2025-10-28 16:50:56.000",
+	"ts_update":1761641793364,
+	"dt_update":"2025-10-28 16:56:22.332",
 	"count_dep":31,
-	"count_ref":1,
+	"count_ref":4,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,12 +25,28 @@
 	"url_scm":"https://github.com/cloudfoundry-incubator/multiapps-controller.git/multiapps-controller-core-test",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#117522 in MvnRepository",
+	"ranking":"#124575 in MvnRepository",
 	"tags":[
 		"testing",
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.34.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.199.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"1.186.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250307",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"1.185.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"1.185.0",
 			"vulnerabilities":""
 		}
 	]
