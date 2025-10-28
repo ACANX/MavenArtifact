@@ -3,12 +3,12 @@
 	"description":"This project provides the oke workload identity auth add-ons for Oracle Cloud Infrastructure",
 	"group_id":"com.oracle.oci.sdk",
 	"artifact_id":"oci-java-sdk-addons-oke-workload-identity",
-	"version_latest":"3.74.2",
-	"ts_publish":1759854280000,
-	"dt_publish":"2025-10-08 00:24:40.000",
-	"ts_update":1759855328825,
-	"dt_update":"2025-10-08 00:41:46.848",
-	"count_dep":16,
+	"version_latest":"3.75.0",
+	"ts_publish":1761672132000,
+	"dt_publish":"2025-10-29 01:22:12.000",
+	"ts_update":1761672944642,
+	"dt_update":"2025-10-29 01:35:28.196",
+	"count_dep":8,
 	"count_ref":1,
 	"licenses":[
 		"Apache License 2.0",
@@ -27,7 +27,7 @@
 	"count_used_by":7,
 	"home_page":"https://docs.oracle.com/iaas/Content/API/SDKDocs/javasdk.htm",
 	"license":"Apache 2.0",
-	"ranking":"#71010 in MvnRepository",
+	"ranking":"#71610 in MvnRepository",
 	"tags":[
 		"oracle",
 		"sdk",
@@ -36,10 +36,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250930",
+			"date":"20251021",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"3.74.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.74.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"3.74.1",
 			"vulnerabilities":""
 		},
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.67.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250527",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.66.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250520",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.65.1",
 			"vulnerabilities":""
 		}
 	]
