@@ -3,13 +3,13 @@
 	"description":"Citrus endpoints for producing and consuming messages",
 	"group_id":"org.citrusframework",
 	"artifact_id":"citrus-http",
-	"version_latest":"4.8.1",
-	"ts_publish":1758897627000,
-	"dt_publish":"2025-09-26 22:40:27.000",
-	"ts_update":1758899878636,
-	"dt_update":"2025-09-26 22:56:36.134",
+	"version_latest":"4.8.2",
+	"ts_publish":1761637616000,
+	"dt_publish":"2025-10-28 15:46:56.000",
+	"ts_update":1761638198637,
+	"dt_update":"2025-10-28 15:56:20.816",
 	"count_dep":86,
-	"count_ref":16,
+	"count_ref":23,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -29,13 +29,29 @@
 	],
 	"url_scm":"http://github.com/citrusframework/citrus.git/citrus-endpoints/citrus-http",
 	"url_ci_management":"https://github.com/citrusframework/citrus/actions",
-	"count_used_by":18,
+	"count_used_by":21,
 	"license":"Apache 2.0",
-	"ranking":"#25855 in MvnRepository",
+	"ranking":"#22643 in MvnRepository",
 	"tags":[
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"4.8.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"4.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -178,14 +194,6 @@
 			"type":"milestone",
 			"usage":7,
 			"version":"4.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230421",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":8,
-			"version":"4.0.0-M1",
 			"vulnerabilities":""
 		}
 	]
