@@ -3,12 +3,12 @@
 	"description":"Use JMS ActiveMQ Artemis RA with Quarkus JCA",
 	"group_id":"io.quarkiverse.artemis",
 	"artifact_id":"quarkus-artemis-jms-ra",
-	"version_latest":"3.10.0",
-	"ts_publish":1758238106000,
-	"dt_publish":"2025-09-19 07:28:26.000",
-	"ts_update":1758239866033,
-	"dt_update":"2025-09-19 07:56:03.367",
-	"count_dep":217,
+	"version_latest":"3.10.1",
+	"ts_publish":1761661148000,
+	"dt_publish":"2025-10-28 22:19:08.000",
+	"ts_update":1761661595641,
+	"dt_update":"2025-10-28 22:26:22.280",
+	"count_dep":203,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,13 +26,29 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-artemis",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#165454 in MvnRepository",
+	"ranking":"#164973 in MvnRepository",
 	"tags":[
 		"jms",
 		"quarkus",
 		"queue"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.10.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.9.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -154,6 +170,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.9",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250604",
 			"repository":"Central",
 			"type":"release",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.5.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250313",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.5.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250210",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250205",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.5.4",
 			"vulnerabilities":""
 		}
 	]
