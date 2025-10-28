@@ -3,13 +3,13 @@
 	"description":"Supports the creation of structured log messages and the collection of request metrics for Java\n        applications running on Cloud Foundry",
 	"group_id":"com.sap.hcp.cf.logging",
 	"artifact_id":"cf-java-logging-support-core",
-	"version_latest":"3.8.6",
-	"ts_publish":1754591000000,
-	"dt_publish":"2025-08-08 02:23:20.000",
-	"ts_update":1754592994590,
-	"dt_update":"2025-08-08 02:55:57.485",
-	"count_dep":10,
-	"count_ref":7,
+	"version_latest":"4.0.0-RC1",
+	"ts_publish":1761679731000,
+	"dt_publish":"2025-10-29 03:28:51.000",
+	"ts_update":1761681506714,
+	"dt_update":"2025-10-29 03:44:37.297",
+	"count_dep":11,
+	"count_ref":4,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -35,13 +35,21 @@
 	],
 	"url_scm":"git@github.com:SAP/cf-java-logging-support.git/cf-java-logging-support-core",
 	"count_used_by":5,
-	"ranking":"#87082 in MvnRepository",
+	"ranking":"#89178 in MvnRepository",
 	"tags":[
 		"support",
 		"logging",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20250807",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.8.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250514",
 			"repository":"Central",
@@ -193,14 +201,7 @@
 			"usage":4,
 			"version":"3.5.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20210702",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.5.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }
