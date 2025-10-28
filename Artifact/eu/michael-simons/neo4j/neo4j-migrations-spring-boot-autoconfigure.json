@@ -3,12 +3,12 @@
 	"description":"Autoconfiguration for Spring Boot.",
 	"group_id":"eu.michael-simons.neo4j",
 	"artifact_id":"neo4j-migrations-spring-boot-autoconfigure",
-	"version_latest":"2.19.2",
-	"ts_publish":1758619767000,
-	"dt_publish":"2025-09-23 17:29:27.000",
-	"ts_update":1758620826315,
-	"dt_update":"2025-09-23 17:45:35.415",
-	"count_dep":50,
+	"version_latest":"2.20.0",
+	"ts_publish":1761659162000,
+	"dt_publish":"2025-10-28 21:46:02.000",
+	"ts_update":1761659780427,
+	"dt_update":"2025-10-28 21:56:12.278",
+	"count_dep":49,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/michael-simons/neo4j-migrations/neo4j-migrations-spring-boot-starter-parent/neo4j-migrations-spring-boot-autoconfigure",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#414526 in MvnRepository",
+	"ranking":"#414832 in MvnRepository",
 	"tags":[
 		"database",
 		"spring",
@@ -35,6 +35,14 @@
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.19.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.13.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241024",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.13.3",
 			"vulnerabilities":""
 		}
 	]
