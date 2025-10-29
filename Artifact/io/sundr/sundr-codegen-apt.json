@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.sundr/sundr-codegen-apt",
-	"description":"Code generation tools and annotation processors for Builder, Fluent APIs and DSLs.",
 	"group_id":"io.sundr",
 	"artifact_id":"sundr-codegen-apt",
-	"version_latest":"0.230.0",
-	"ts_publish":1759559569000,
-	"dt_publish":"2025-10-04 14:32:49.000",
-	"ts_update":1759560652849,
-	"dt_update":"2025-10-04 14:50:46.084",
-	"count_dep":9,
-	"count_ref":27,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"0.230.2",
+	"ts_publish":1761742508000,
+	"dt_publish":"2025-10-29 20:55:08.000",
+	"ts_update":1761744058705,
+	"dt_update":"2025-10-29 21:20:05.953",
+	"count_dep":3,
+	"count_ref":16,
+	"licenses":[],
 	"categories":[
 		"Build Tools",
 		"Compilers"
@@ -26,12 +23,28 @@
 	"url_scm":"https://github.com/sundrio/sundrio/sundr-codegen-pom/sundr-codegen-apt",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#54130 in MvnRepository",
+	"ranking":"#54200 in MvnRepository",
 	"tags":[
 		"generator",
 		"code"
 	],
 	"versions":[
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"0.230.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251004",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"0.230.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -174,22 +187,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"0.100.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230621",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"0.100.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230526",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"0.95.0",
 			"vulnerabilities":""
 		}
 	]

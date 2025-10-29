@@ -3,11 +3,11 @@
 	"description":"Plugin API for SonarQube, SonarCloud and SonarLint",
 	"group_id":"org.sonarsource.api.plugin",
 	"artifact_id":"sonar-plugin-api",
-	"version_latest":"13.2.0.3137",
-	"ts_publish":1757943706000,
-	"dt_publish":"2025-09-15 21:41:46.000",
-	"ts_update":1757944581891,
-	"dt_update":"2025-09-15 21:56:01.646",
+	"version_latest":"13.3.0.3209",
+	"ts_publish":1761741584000,
+	"dt_publish":"2025-10-29 20:39:44.000",
+	"ts_update":1761744039298,
+	"dt_update":"2025-10-29 21:20:11.679",
 	"count_dep":1,
 	"count_ref":1,
 	"licenses":[
@@ -23,16 +23,24 @@
 		"SonarSource Team"
 	],
 	"url_scm":"https://github.com/SonarSource/sonar-plugin-api",
-	"count_used_by":92,
+	"count_used_by":93,
 	"home_page":"https://www.sonarqube.org/",
 	"license":"LGPL 3.0",
-	"ranking":"#5493 in MvnRepository",
+	"ranking":"#5683 in MvnRepository",
 	"tags":[
 		"plugin",
 		"sonar",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
+			"version":"13.2.0.3137",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250911",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"10.4.0.2064",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231107",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"10.3.0.1951",
 			"vulnerabilities":""
 		}
 	]
