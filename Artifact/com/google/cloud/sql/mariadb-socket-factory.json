@@ -3,11 +3,11 @@
 	"description":"Socket factory for the MariaDB JDBC driver that allows a user with the appropriate permissions\n    to connect to a Cloud SQL database without having to deal with IP allowlisting or SSL\n    certificates manually.",
 	"group_id":"com.google.cloud.sql",
 	"artifact_id":"mariadb-socket-factory",
-	"version_latest":"1.26.1",
-	"ts_publish":1760682103000,
-	"dt_publish":"2025-10-17 14:21:43.000",
-	"ts_update":1760683962093,
-	"dt_update":"2025-10-17 14:52:22.171",
+	"version_latest":"1.27.0",
+	"ts_publish":1761771424000,
+	"dt_publish":"2025-10-30 04:57:04.000",
+	"ts_update":1761774345605,
+	"dt_update":"2025-10-30 05:44:54.708",
 	"count_dep":47,
 	"count_ref":0,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/GoogleCloudPlatform/cloud-sql-mysql-socket-factory.git/mariadb-socket-factory",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#301996 in MvnRepository",
+	"ranking":"#302919 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -40,6 +40,14 @@
 		"mysql"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.26.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -190,14 +198,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.18.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240318",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.17.1",
 			"vulnerabilities":""
 		}
 	]

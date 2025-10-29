@@ -3,12 +3,12 @@
 	"description":"Connection Factory for the R2DBC Driver for SQL Server that allows a user with the\n    appropriate permissions to connect to a Cloud SQL database without having to deal with IP\n    allowlisting or SSL certificates manually.",
 	"group_id":"com.google.cloud.sql",
 	"artifact_id":"cloud-sql-connector-r2dbc-sqlserver",
-	"version_latest":"1.26.1",
-	"ts_publish":1760682103000,
-	"dt_publish":"2025-10-17 14:21:43.000",
-	"ts_update":1760683968277,
-	"dt_update":"2025-10-17 14:52:22.170",
-	"count_dep":80,
+	"version_latest":"1.27.0",
+	"ts_publish":1761771424000,
+	"dt_publish":"2025-10-30 04:57:04.000",
+	"ts_update":1761774326029,
+	"dt_update":"2025-10-30 05:44:54.705",
+	"count_dep":44,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -27,7 +27,7 @@
 	],
 	"url_scm":"https://github.com/GoogleCloudPlatform/cloud-sql-mysql-socket-factory.git/cloud-sql-connector-r2dbc-sqlserver",
 	"license":"Apache 2.0",
-	"ranking":"#491440 in MvnRepository",
+	"ranking":"#889394 in MvnRepository",
 	"tags":[
 		"sql",
 		"server",
@@ -39,6 +39,14 @@
 		"connection"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.26.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.18.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240318",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.17.1",
 			"vulnerabilities":""
 		}
 	]
