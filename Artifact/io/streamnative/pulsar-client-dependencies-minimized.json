@@ -3,9 +3,9 @@
 	"description":"This module is used in `pulsar-client-all`, `pulsar-client-shaded`, and `pulsar-client-admin-shaded`\n    to minimize the number of classes included in the shaded jars for specific dependencies.\n    Currently, it is used to minimize the classes included from `fastutil`.",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-client-dependencies-minimized",
-	"version_latest":"4.1.0.4",
-	"ts_publish":1761292885000,
-	"ts_update":1761294106585,
+	"version_latest":"4.1.0.5",
+	"ts_publish":1761713784000,
+	"ts_update":1761715020223,
 	"count_dep":12,
 	"count_ref":0,
 	"licenses":[
@@ -20,16 +20,24 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-client-dependencies-minimized",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-10-24 16:01:25.000",
-	"dt_update":"2025-10-24 16:21:25.532",
+	"dt_publish":"2025-10-29 12:56:24.000",
+	"dt_update":"2025-10-29 13:16:38.068",
 	"license":"Apache 2.0",
-	"ranking":"#536862 in MvnRepository",
+	"ranking":"#534273 in MvnRepository",
 	"tags":[
 		"client",
 		"pulsar",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.1.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -60,6 +68,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.6.9",
 			"vulnerabilities":""
 		},
 		{
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.4.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250509",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250329",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.3.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,10 +3,10 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"io.streamnative",
 	"artifact_id":"managed-ledger",
-	"version_latest":"4.1.0.4",
-	"ts_publish":1761292884000,
-	"ts_update":1761294096675,
-	"count_dep":187,
+	"version_latest":"4.1.0.5",
+	"ts_publish":1761713784000,
+	"ts_update":1761715007049,
+	"count_dep":169,
 	"count_ref":7,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -20,15 +20,23 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/managed-ledger",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-10-24 16:01:24.000",
-	"dt_update":"2025-10-24 16:21:25.537",
+	"dt_publish":"2025-10-29 12:56:24.000",
+	"dt_update":"2025-10-29 13:16:38.626",
 	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#29267 in MvnRepository",
+	"ranking":"#29453 in MvnRepository",
 	"tags":[
 		"ledger"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.1.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -59,6 +67,14 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.0.6.9",
 			"vulnerabilities":""
 		},
 		{
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"4.0.4.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250509",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"4.0.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250329",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"4.0.3.1",
 			"vulnerabilities":""
 		}
 	]

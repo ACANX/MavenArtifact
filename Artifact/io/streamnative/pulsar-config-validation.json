@@ -3,11 +3,11 @@
 	"description":"Annotation based config validation for Pulsar",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-config-validation",
-	"version_latest":"4.1.0.4",
-	"ts_publish":1761292884000,
-	"ts_update":1761294107093,
+	"version_latest":"4.1.0.5",
+	"ts_publish":1761713784000,
+	"ts_update":1761715013802,
 	"count_dep":13,
-	"count_ref":10,
+	"count_ref":9,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,13 +22,21 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#242779 in MvnRepository",
+	"ranking":"#244297 in MvnRepository",
 	"tags":[
 		"config",
 		"pulsar",
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.1.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -59,6 +67,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.6.9",
 			"vulnerabilities":""
 		},
 		{
@@ -172,24 +188,8 @@
 			"usage":2,
 			"version":"4.0.4.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250509",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250329",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.3.1",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-10-24 16:01:24.000",
-	"dt_update":"2025-10-24 16:21:25.540"
+	"dt_publish":"2025-10-29 12:56:24.000",
+	"dt_update":"2025-10-29 13:16:39.235"
 }
