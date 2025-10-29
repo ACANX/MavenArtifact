@@ -2,27 +2,37 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-parent",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-parent",
-	"version_latest":"12.31.0",
-	"ts_publish":1761079533000,
-	"dt_publish":"2025-10-22 04:45:33.000",
-	"ts_update":1761081309765,
-	"dt_update":"2025-10-22 05:14:47.248",
-	"count_dep":29,
+	"version_latest":"12.33.0",
+	"ts_publish":1761772521000,
+	"dt_publish":"2025-10-30 05:15:21.000",
+	"ts_update":1761775001192,
+	"dt_update":"2025-10-30 05:56:30.186",
+	"count_dep":60,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.dirigible/dirigible-database-parent@12.5.0",
 	"license":"EPL 2.0",
-	"ranking":"#500468 in MvnRepository",
+	"ranking":"#501298 in MvnRepository",
 	"tags":[
 		"database",
 		"data",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -174,14 +184,7 @@
 			"usage":0,
 			"version":"12.10.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"12.9.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Core modules packaged with Dirigible"
 }

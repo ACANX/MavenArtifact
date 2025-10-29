@@ -3,14 +3,16 @@
 	"description":"Core modules packaged with Dirigible",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-modules-parent",
-	"version_latest":"12.31.0",
-	"ts_publish":1761079532000,
-	"dt_publish":"2025-10-22 04:45:32.000",
-	"ts_update":1761081307706,
-	"dt_update":"2025-10-22 05:14:51.219",
+	"version_latest":"12.33.0",
+	"ts_publish":1761772521000,
+	"dt_publish":"2025-10-30 05:15:21.000",
+	"ts_update":1761775040847,
+	"dt_update":"2025-10-30 05:56:29.704",
 	"count_dep":28,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +25,20 @@
 	],
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent",
 	"license":"EPL 2.0",
-	"ranking":"#816727 in MvnRepository",
+	"ranking":"#823577 in MvnRepository",
 	"tags":[
 		"module",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -179,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"12.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"12.9.0",
 			"vulnerabilities":""
 		}
 	]
