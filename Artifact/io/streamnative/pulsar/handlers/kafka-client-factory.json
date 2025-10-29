@@ -3,9 +3,9 @@
 	"description":"The Kafka client factory to create different versions of Kafka clients",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"kafka-client-factory",
-	"version_latest":"4.1.0.4",
-	"ts_publish":1761293872000,
-	"ts_update":1761294387724,
+	"version_latest":"4.1.0.5",
+	"ts_publish":1761714763000,
+	"ts_update":1761715592398,
 	"count_dep":7,
 	"count_ref":1,
 	"licenses":[
@@ -17,7 +17,7 @@
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/kafka-client-factory",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#424631 in MvnRepository",
+	"ranking":"#425968 in MvnRepository",
 	"tags":[
 		"streaming",
 		"factory",
@@ -26,6 +26,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -56,6 +64,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.9",
 			"vulnerabilities":""
 		},
 		{
@@ -169,24 +185,8 @@
 			"usage":1,
 			"version":"4.0.4.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250508",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.4.1",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-10-24 16:17:52.000",
-	"dt_update":"2025-10-24 16:26:14.221"
+	"dt_publish":"2025-10-29 13:12:43.000",
+	"dt_update":"2025-10-29 13:26:24.338"
 }

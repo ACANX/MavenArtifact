@@ -3,9 +3,9 @@
 	"description":"The Kafka client wrapper for 3.0.x",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"kafka-3-0",
-	"version_latest":"4.1.0.4",
-	"ts_publish":1761293872000,
-	"ts_update":1761294393015,
+	"version_latest":"4.1.0.5",
+	"ts_publish":1761714763000,
+	"ts_update":1761715593583,
 	"count_dep":0,
 	"count_ref":2,
 	"licenses":[
@@ -17,13 +17,21 @@
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/kafka-3-0",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#408251 in MvnRepository",
+	"ranking":"#411452 in MvnRepository",
 	"tags":[
 		"streaming",
 		"kafka",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -54,6 +62,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.6.9",
 			"vulnerabilities":""
 		},
 		{
@@ -167,24 +183,8 @@
 			"usage":1,
 			"version":"4.0.4.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250508",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.4.1",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-10-24 16:17:52.000",
-	"dt_update":"2025-10-24 16:26:14.221"
+	"dt_publish":"2025-10-29 13:12:43.000",
+	"dt_update":"2025-10-29 13:26:24.336"
 }
