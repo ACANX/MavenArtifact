@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-tests-integrations",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-tests-integrations",
-	"version_latest":"12.30.0",
-	"ts_publish":1760965026000,
-	"dt_publish":"2025-10-20 20:57:06.000",
-	"ts_update":1760986584934,
-	"dt_update":"2025-10-21 02:56:18.930",
-	"count_dep":37,
+	"version_latest":"12.32.0",
+	"ts_publish":1761740610000,
+	"dt_publish":"2025-10-29 20:23:30.000",
+	"ts_update":1761741252661,
+	"dt_update":"2025-10-29 20:33:47.712",
+	"count_dep":992,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,13 +19,45 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.dirigible/dirigible-tests-integrations@12.5.0",
 	"count_used_by":9,
 	"license":"EPL 2.0",
-	"ranking":"#50315 in MvnRepository",
+	"ranking":"#50620 in MvnRepository",
 	"tags":[
 		"integration",
 		"eclipse",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.31.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.30.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -151,38 +185,7 @@
 			"usage":8,
 			"version":"12.10.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"12.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"12.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"12.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"12.6.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Test packages"
 }

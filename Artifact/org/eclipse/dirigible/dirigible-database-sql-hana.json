@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-sql-hana",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-sql-hana",
-	"version_latest":"12.30.0",
-	"ts_publish":1760965026000,
-	"dt_publish":"2025-10-20 20:57:06.000",
-	"ts_update":1760966827216,
-	"dt_update":"2025-10-20 21:26:18.834",
+	"version_latest":"12.32.0",
+	"ts_publish":1761740610000,
+	"dt_publish":"2025-10-29 20:23:30.000",
+	"ts_update":1761741242509,
+	"dt_update":"2025-10-29 20:33:53.527",
 	"count_dep":34,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -23,7 +23,7 @@
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-database-parent/dirigible-database-sql-hana",
 	"count_used_by":7,
 	"license":"EPL 2.0",
-	"ranking":"#68072 in MvnRepository",
+	"ranking":"#68487 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -31,6 +31,38 @@
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.31.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.30.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -157,38 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"12.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"12.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.6.0",
 			"vulnerabilities":""
 		}
 	]

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-sql-mongodb",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-sql-mongodb",
-	"version_latest":"12.31.0",
-	"ts_publish":1761079533000,
-	"dt_publish":"2025-10-22 04:45:33.000",
-	"ts_update":1761081311805,
-	"dt_update":"2025-10-22 05:14:48.414",
-	"count_dep":32,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"12.32.0",
+	"ts_publish":1761740610000,
+	"dt_publish":"2025-10-29 20:23:30.000",
+	"ts_update":1761741243707,
+	"dt_update":"2025-10-29 20:33:53.526",
+	"count_dep":113,
+	"count_ref":1,
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-database-parent/dirigible-database-sql-mongodb",
 	"count_used_by":3,
 	"license":"EPL 2.0",
-	"ranking":"#169271 in MvnRepository",
+	"ranking":"#169376 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -32,6 +34,14 @@
 		"mongodb"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -183,14 +193,7 @@
 			"usage":2,
 			"version":"12.10.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.9.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Core modules packaged with Dirigible"
 }

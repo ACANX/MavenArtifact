@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-sql-snowflake",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-sql-snowflake",
-	"version_latest":"12.31.0",
-	"ts_publish":1761079533000,
-	"dt_publish":"2025-10-22 04:45:33.000",
-	"ts_update":1761081321884,
-	"dt_update":"2025-10-22 05:14:44.975",
+	"version_latest":"12.32.0",
+	"ts_publish":1761740610000,
+	"dt_publish":"2025-10-29 20:23:30.000",
+	"ts_update":1761741242221,
+	"dt_update":"2025-10-29 20:33:47.715",
 	"count_dep":112,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"Eclipse Public License - v 2.0"
 	],
@@ -19,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.dirigible/dirigible-database-sql-snowflake@12.6.0",
 	"count_used_by":2,
 	"license":"EPL 2.0",
-	"ranking":"#223737 in MvnRepository",
+	"ranking":"#224721 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -28,6 +28,14 @@
 		"snowflake"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"12.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.9.0",
 			"vulnerabilities":""
 		}
 	],

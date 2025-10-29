@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-sql",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-sql",
-	"version_latest":"12.31.0",
-	"ts_publish":1761079533000,
-	"dt_publish":"2025-10-22 04:45:33.000",
-	"ts_update":1761081300211,
-	"dt_update":"2025-10-22 05:14:46.092",
+	"version_latest":"12.32.0",
+	"ts_publish":1761740610000,
+	"dt_publish":"2025-10-29 20:23:30.000",
+	"ts_update":1761741242454,
+	"dt_update":"2025-10-29 20:33:49.577",
 	"count_dep":31,
-	"count_ref":10,
+	"count_ref":12,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -23,7 +23,7 @@
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-database-parent/dirigible-database-sql",
 	"count_used_by":25,
 	"license":"EPL 2.0",
-	"ranking":"#19195 in MvnRepository",
+	"ranking":"#19384 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -31,6 +31,14 @@
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"12.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":14,
 			"version":"12.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"12.9.0",
 			"vulnerabilities":""
 		}
 	]
