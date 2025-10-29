@@ -3,11 +3,11 @@
 	"description":"Databricks JDBC Driver.",
 	"group_id":"com.databricks",
 	"artifact_id":"databricks-jdbc",
-	"version_latest":"3.0.1",
-	"ts_publish":1760366069000,
-	"dt_publish":"2025-10-13 22:34:29.000",
-	"ts_update":1760367383003,
-	"dt_update":"2025-10-13 22:56:12.668",
+	"version_latest":"3.0.3",
+	"ts_publish":1761767377000,
+	"dt_publish":"2025-10-30 03:49:37.000",
+	"ts_update":1761767812473,
+	"dt_update":"2025-10-30 03:56:25.636",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,8 +25,8 @@
 	],
 	"url_scm":"https://github.com/databricks/databricks-jdbc",
 	"count_used_by":10,
-	"home_page":"https://docs.databricks.com/integrations/bi/jdbc-odbc-bi.html",
-	"ranking":"#45359 in MvnRepository",
+	"home_page":"https://github.com/databricks/databricks-jdbc",
+	"ranking":"#45708 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -36,6 +36,22 @@
 		"rdbms"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.7.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -179,22 +195,7 @@
 			"usage":0,
 			"version":"2.6.25-beta-3",
 			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20220504",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"2.6.25-beta-2",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20220504",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"2.6.25-beta-1",
-			"vulnerabilities":"1 vulnerability"
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }
