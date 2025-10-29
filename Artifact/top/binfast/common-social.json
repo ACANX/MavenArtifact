@@ -3,13 +3,13 @@
 	"description":"第三方登录模块，如微信扫码登录，钉钉登录",
 	"group_id":"top.binfast",
 	"artifact_id":"common-social",
-	"version_latest":"1.1.9",
-	"ts_publish":1760086673000,
-	"dt_publish":"2025-10-10 16:57:53.000",
-	"ts_update":1760087889554,
-	"dt_update":"2025-10-10 17:17:25.379",
+	"version_latest":"1.2.1",
+	"ts_publish":1761698764000,
+	"dt_publish":"2025-10-29 08:46:04.000",
+	"ts_update":1761699416903,
+	"dt_update":"2025-10-29 08:56:24.838",
 	"count_dep":106,
-	"count_ref":0,
+	"count_ref":6,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -21,11 +21,27 @@
 	],
 	"url_scm":"https://gitee.com/tuhe32/binfast/common/common-social",
 	"license":"Apache 2.0",
-	"ranking":"#535225 in MvnRepository",
+	"ranking":"#287642 in MvnRepository",
 	"tags":[
 		"social"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -170,5 +186,6 @@
 			"version":"1.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
