@@ -3,12 +3,12 @@
 	"description":"A parent POM for all artifacts by Vaadin Ltd.",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-endpoint",
-	"version_latest":"25.0.0-beta1",
-	"ts_publish":1760539837000,
-	"dt_publish":"2025-10-15 22:50:37.000",
-	"ts_update":1760541409823,
-	"dt_update":"2025-10-15 23:16:29.184",
-	"count_dep":98,
+	"version_latest":"25.0.0-beta2",
+	"ts_publish":1761746908000,
+	"dt_publish":"2025-10-29 22:08:28.000",
+	"ts_update":1761747455978,
+	"dt_update":"2025-10-29 22:16:53.218",
+	"count_dep":102,
 	"count_ref":3,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -22,13 +22,29 @@
 	"url_scm":"https://github.com/vaadin/hilla/hilla-endpoint",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#40562 in MvnRepository",
+	"ranking":"#41168 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"endpoint"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"beta",
+			"usage":7,
+			"version":"25.0.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"24.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251003",
 			"repository":"Central",
@@ -91,6 +107,14 @@
 			"type":"beta",
 			"usage":4,
 			"version":"24.9.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"24.8.11",
 			"vulnerabilities":""
 		},
 		{
@@ -163,30 +187,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"24.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"24.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250917",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"24.7.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"24.7.11",
 			"vulnerabilities":""
 		}
 	]

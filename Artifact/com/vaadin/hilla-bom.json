@@ -3,11 +3,11 @@
 	"description":"Hilla Platform (Bill of Materials)",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-bom",
-	"version_latest":"25.0.0-beta1",
-	"ts_publish":1760539837000,
-	"dt_publish":"2025-10-15 22:50:37.000",
-	"ts_update":1760541982272,
-	"dt_update":"2025-10-15 23:26:14.329",
+	"version_latest":"25.0.0-beta2",
+	"ts_publish":1761746908000,
+	"dt_publish":"2025-10-29 22:08:28.000",
+	"ts_update":1761747440655,
+	"dt_update":"2025-10-29 22:16:53.221",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -20,9 +20,9 @@
 	"url_project":"https://hilla.dev",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vaadin/hilla-bom@24.8.6",
 	"url_scm":"https://github.com/vaadin/maven-integration/hilla-bom",
-	"home_page":"https://hilla.dev",
+	"home_page":"https://vaadin.com/hilla",
 	"license":"Apache 2.0",
-	"ranking":"#831248 in MvnRepository",
+	"ranking":"#837487 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"bom",
@@ -31,6 +31,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"25.0.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"24.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251003",
 			"repository":"Central",
@@ -93,6 +109,14 @@
 			"type":"beta",
 			"usage":0,
 			"version":"24.9.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"24.8.11",
 			"vulnerabilities":""
 		},
 		{
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"24.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"24.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250917",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"24.7.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"24.7.11",
 			"vulnerabilities":""
 		}
 	]
