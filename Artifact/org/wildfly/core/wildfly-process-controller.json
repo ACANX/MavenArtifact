@@ -3,13 +3,13 @@
 	"description":"WildFly: Core Parent Aggregator",
 	"group_id":"org.wildfly.core",
 	"artifact_id":"wildfly-process-controller",
-	"version_latest":"30.0.0.Final",
-	"ts_publish":1760178657000,
-	"dt_publish":"2025-10-11 18:30:57.000",
-	"ts_update":1760179482271,
-	"dt_update":"2025-10-11 18:44:34.833",
+	"version_latest":"31.0.0.Beta1",
+	"ts_publish":1761751225000,
+	"dt_publish":"2025-10-29 23:20:25.000",
+	"ts_update":1761751598335,
+	"dt_update":"2025-10-29 23:26:22.453",
 	"count_dep":33,
-	"count_ref":21,
+	"count_ref":10,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/wildfly/wildfly-core",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#39512 in MvnRepository",
+	"ranking":"#39801 in MvnRepository",
 	"tags":[
 		"process",
 		"wildfly",
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"30.0.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251003",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"beta",
 			"usage":4,
 			"version":"28.0.0.Beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250122",
-			"repository":"Central",
-			"type":"beta",
-			"usage":4,
-			"version":"28.0.0.Beta1",
 			"vulnerabilities":""
 		}
 	]
