@@ -3,13 +3,13 @@
 	"description":"Chronicle-Threads",
 	"group_id":"net.openhft",
 	"artifact_id":"chronicle-threads",
-	"version_latest":"2.27ea3",
-	"ts_publish":1757615458000,
-	"dt_publish":"2025-09-12 02:30:58.000",
-	"ts_update":1757616623932,
-	"dt_update":"2025-09-12 02:49:30.952",
+	"version_latest":"2.27ea4",
+	"ts_publish":1761825578000,
+	"dt_publish":"2025-10-30 19:59:38.000",
+	"ts_update":1761827187451,
+	"dt_update":"2025-10-30 20:26:14.418",
 	"count_dep":21,
-	"count_ref":2,
+	"count_ref":11,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -30,13 +30,21 @@
 	"url_scm":"scm:git:git@github.com:OpenHFT/Chronicle-Threads.git",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#38974 in MvnRepository",
+	"ranking":"#39560 in MvnRepository",
 	"tags":[
 		"bundle",
 		"thread",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"early",
+			"usage":2,
+			"version":"2.27ea3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250709",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"early",
 			"usage":2,
 			"version":"2.24ea8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230602",
-			"repository":"Central",
-			"type":"early",
-			"usage":0,
-			"version":"2.24ea7",
 			"vulnerabilities":""
 		}
 	]
