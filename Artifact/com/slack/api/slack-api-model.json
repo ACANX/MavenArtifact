@@ -3,11 +3,11 @@
 	"description":"Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
 	"group_id":"com.slack.api",
 	"artifact_id":"slack-api-model",
-	"version_latest":"1.45.4",
-	"ts_publish":1755716480000,
-	"dt_publish":"2025-08-21 03:01:20.000",
-	"ts_update":1755717283374,
-	"dt_update":"2025-08-21 03:12:33.792",
+	"version_latest":"1.46.0",
+	"ts_publish":1761855526000,
+	"dt_publish":"2025-10-31 04:18:46.000",
+	"ts_update":1761855992704,
+	"dt_update":"2025-10-31 04:26:23.475",
 	"count_dep":7,
 	"count_ref":18,
 	"licenses":[
@@ -23,9 +23,9 @@
 		"Kazuhiro Sera"
 	],
 	"url_scm":"git@github.com:slackapi/java-slack-sdk.git/slack-api-model",
-	"count_used_by":20,
+	"count_used_by":21,
 	"license":"Apache 2.0",
-	"ranking":"#23326 in MvnRepository",
+	"ranking":"#22718 in MvnRepository",
 	"tags":[
 		"model",
 		"slack",
@@ -33,10 +33,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
+			"version":"1.45.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250218",
 			"repository":"Central",
 			"type":"release",
-			"usage":17,
+			"usage":19,
 			"version":"1.45.3",
 			"vulnerabilities":""
 		},
@@ -132,7 +140,7 @@
 			"date":"20240717",
 			"repository":"Central",
 			"type":"release",
-			"usage":15,
+			"usage":16,
 			"version":"1.40.3",
 			"vulnerabilities":""
 		},
@@ -148,7 +156,7 @@
 			"date":"20240619",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":15,
 			"version":"1.40.1",
 			"vulnerabilities":""
 		},
@@ -172,7 +180,7 @@
 			"date":"20240514",
 			"repository":"Central",
 			"type":"release",
-			"usage":15,
+			"usage":16,
 			"version":"1.39.2",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,7 @@
 			"usage":14,
 			"version":"1.39.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240329",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"1.39.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/slackapi/java-slack-sdk"
 }

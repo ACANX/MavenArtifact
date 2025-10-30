@@ -3,11 +3,11 @@
 	"description":"Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
 	"group_id":"com.slack.api",
 	"artifact_id":"bolt-servlet",
-	"version_latest":"1.45.4",
-	"ts_publish":1755716480000,
-	"dt_publish":"2025-08-21 03:01:20.000",
-	"ts_update":1755717222283,
-	"dt_update":"2025-08-21 03:12:34.550",
+	"version_latest":"1.46.0",
+	"ts_publish":1761855526000,
+	"dt_publish":"2025-10-31 04:18:46.000",
+	"ts_update":1761855993910,
+	"dt_update":"2025-10-31 04:26:23.477",
 	"count_dep":28,
 	"count_ref":1,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"git@github.com:slackapi/java-slack-sdk.git/bolt-servlet",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#83358 in MvnRepository",
+	"ranking":"#85031 in MvnRepository",
 	"tags":[
 		"servlet",
 		"slack",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.45.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250218",
 			"repository":"Central",
@@ -183,14 +191,7 @@
 			"usage":1,
 			"version":"1.39.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240329",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.39.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/slackapi/java-slack-sdk"
 }
