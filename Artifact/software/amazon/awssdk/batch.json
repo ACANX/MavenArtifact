@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for AWS Batch module holds the client classes that are used for communicating with AWS\n        Batch.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"batch",
-	"version_latest":"2.37.1",
-	"ts_publish":1761786736000,
-	"ts_update":1761789432980,
-	"count_dep":33,
-	"count_ref":1,
+	"version_latest":"2.37.2",
+	"ts_publish":1761862245000,
+	"ts_update":1761866812311,
+	"count_dep":3,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,12 +15,12 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/batch@2.32.16",
-	"dt_publish":"2025-10-30 09:12:16.000",
-	"dt_update":"2025-10-30 09:56:37.158",
+	"dt_publish":"2025-10-31 06:10:45.000",
+	"dt_update":"2025-10-31 07:26:34.072",
 	"count_used_by":11,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#43848 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#44049 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,10 +29,34 @@
 	],
 	"versions":[
 		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.37.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.36.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.36.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.36.1",
 			"vulnerabilities":""
 		},
@@ -40,7 +64,7 @@
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.36.0",
 			"vulnerabilities":""
 		},
@@ -162,30 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.34.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250930",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.34.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250926",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.34.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250925",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.34.4",
 			"vulnerabilities":""
 		}
 	]
