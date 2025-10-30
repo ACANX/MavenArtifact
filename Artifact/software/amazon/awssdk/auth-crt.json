@@ -3,11 +3,11 @@
 	"description":"The AWS SDK for Java - AuthCrt module holds authentication types that are built on the AWS Common Runtime",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"auth-crt",
-	"version_latest":"2.36.2",
-	"ts_publish":1761347624000,
-	"ts_update":1761349486557,
-	"count_dep":24,
-	"count_ref":3,
+	"version_latest":"2.37.1",
+	"ts_publish":1761786736000,
+	"ts_update":1761789422428,
+	"count_dep":25,
+	"count_ref":4,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,12 +15,12 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/auth-crt@2.32.16",
-	"dt_publish":"2025-10-25 07:13:44.000",
-	"dt_update":"2025-10-25 07:44:35.752",
+	"dt_publish":"2025-10-30 09:12:16.000",
+	"dt_update":"2025-10-30 09:56:30.617",
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#103024 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#103328 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,10 +29,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.36.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.36.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":4,
 			"version":"2.36.1",
 			"vulnerabilities":""
 		},
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2.34.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250926",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.34.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250925",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.34.4",
 			"vulnerabilities":""
 		}
 	]
