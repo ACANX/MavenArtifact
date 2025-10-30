@@ -3,12 +3,12 @@
 	"description":"tiger-rbel modul of the tiger test platform.",
 	"group_id":"de.gematik.test",
 	"artifact_id":"tiger-rbel",
-	"version_latest":"4.1.0",
-	"ts_publish":1760342589000,
-	"dt_publish":"2025-10-13 16:03:09.000",
-	"ts_update":1760343761822,
-	"dt_update":"2025-10-13 16:22:32.370",
-	"count_dep":57,
+	"version_latest":"4.1.1",
+	"ts_publish":1761822631000,
+	"dt_publish":"2025-10-30 19:10:31.000",
+	"ts_update":1761822869910,
+	"dt_update":"2025-10-30 19:14:13.786",
+	"count_dep":68,
 	"count_ref":7,
 	"licenses":[
 		"Apache License 2.0"
@@ -21,13 +21,21 @@
 		"gematik"
 	],
 	"url_scm":"https://github.com/gematik/app-Tiger/tiger-rbel",
-	"count_used_by":4,
+	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#108536 in MvnRepository",
+	"ranking":"#75279 in MvnRepository",
 	"tags":[
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -56,7 +64,7 @@
 			"date":"20250627",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"4.0.6",
 			"vulnerabilities":""
 		},
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.4.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241029",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.4.3",
 			"vulnerabilities":""
 		}
 	]
