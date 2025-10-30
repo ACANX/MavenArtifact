@@ -3,11 +3,11 @@
 	"description":"Model of GLSK document and associated interfaces to produce GLSK and Scalable providers.",
 	"group_id":"com.powsybl",
 	"artifact_id":"powsybl-glsk-document-api",
-	"version_latest":"3.0.0",
-	"ts_publish":1760628031000,
-	"dt_publish":"2025-10-16 23:20:31.000",
-	"ts_update":1760628899001,
-	"dt_update":"2025-10-16 23:34:32.859",
+	"version_latest":"3.0.1",
+	"ts_publish":1761816484000,
+	"dt_publish":"2025-10-30 17:28:04.000",
+	"ts_update":1761817698104,
+	"dt_update":"2025-10-30 17:48:07.679",
 	"count_dep":63,
 	"count_ref":7,
 	"licenses":[
@@ -25,15 +25,23 @@
 		"Hugo SCHINDLER"
 	],
 	"url_scm":"https://github.com/powsybl/powsybl-entsoe/powsybl-glsk/powsybl-glsk-document-api",
-	"count_used_by":10,
+	"count_used_by":11,
 	"license":"MPL 2.0",
-	"ranking":"#46396 in MvnRepository",
+	"ranking":"#42470 in MvnRepository",
 	"tags":[
 		"document",
 		"doc",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -46,7 +54,7 @@
 			"date":"20250711",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"2.14.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"2.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230110",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.1.0",
 			"vulnerabilities":""
 		}
 	]
