@@ -3,9 +3,9 @@
 	"description":"Service responsible for running a dichotomy process for swe csa based on a network, a glsk, two crac files one for pt-es border and one for fr-es border and a timestamp,\n        it returns the best rao result for each border while taking into account some dichotomy stop criterion from configurations.\n    All files transfers pass through amazon s3 buckets, and request/response of this microservice are in json api format.",
 	"group_id":"com.farao-community.farao",
 	"artifact_id":"gridcapa-swe-csa",
-	"version_latest":"2.6.3",
-	"ts_publish":1761227744000,
-	"ts_update":1761229021735,
+	"version_latest":"2.6.4",
+	"ts_publish":1761840891000,
+	"ts_update":1761841255213,
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,8 +25,16 @@
 	],
 	"url_scm":"https://github.com/farao-community/farao-parent.git/farao-parent-ws/gridcapa-swe-csa",
 	"license":"MPL 2.0",
-	"ranking":"#561930 in MvnRepository",
+	"ranking":"#561910 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -132,6 +140,6 @@
 			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-10-23 21:55:44.000",
-	"dt_update":"2025-10-23 22:16:40.770"
+	"dt_publish":"2025-10-31 00:14:51.000",
+	"dt_update":"2025-10-31 00:20:44.468"
 }
