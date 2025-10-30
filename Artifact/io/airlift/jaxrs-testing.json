@@ -3,12 +3,12 @@
 	"description":"Airlift - JAX-RS testing",
 	"group_id":"io.airlift",
 	"artifact_id":"jaxrs-testing",
-	"version_latest":"370",
-	"ts_publish":1761732422000,
-	"dt_publish":"2025-10-29 18:07:02.000",
-	"ts_update":1761733602822,
-	"dt_update":"2025-10-29 18:26:24.613",
-	"count_dep":36,
+	"version_latest":"371",
+	"ts_publish":1761819070000,
+	"dt_publish":"2025-10-30 18:11:10.000",
+	"ts_update":1761820007132,
+	"dt_update":"2025-10-30 18:26:25.347",
+	"count_dep":77,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/airlift/airlift/tree/master/jaxrs-testing",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#85215 in MvnRepository",
+	"ranking":"#85245 in MvnRepository",
 	"tags":[
 		"quality",
 		"rest",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251023",
+			"date":"20251029",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"370",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"369",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"351",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250822",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"350",
 			"vulnerabilities":""
 		}
 	]
