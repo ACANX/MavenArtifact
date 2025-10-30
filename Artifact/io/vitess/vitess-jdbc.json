@@ -3,11 +3,11 @@
 	"description":"Java client libraries for Vitess - a scalable clustering system for MySQL",
 	"group_id":"io.vitess",
 	"artifact_id":"vitess-jdbc",
-	"version_latest":"23.0.0-rc1",
-	"ts_publish":1760708497000,
-	"dt_publish":"2025-10-17 21:41:37.000",
-	"ts_update":1760709377381,
-	"dt_update":"2025-10-17 21:56:10.780",
+	"version_latest":"23.0.0-rc2",
+	"ts_publish":1761837051000,
+	"dt_publish":"2025-10-30 23:10:51.000",
+	"ts_update":1761837537952,
+	"dt_update":"2025-10-30 23:18:39.745",
 	"count_dep":40,
 	"count_ref":1,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/vitessio/vitess/tree/main/vitess-jdbc",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#114979 in MvnRepository",
+	"ranking":"#118191 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -37,6 +37,14 @@
 		"rdbms"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"23.0.0-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250624",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"15.0.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221025",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.0.0",
 			"vulnerabilities":""
 		}
 	]
