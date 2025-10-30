@@ -3,13 +3,13 @@
 	"description":"Conductor OSS build.",
 	"group_id":"org.conductoross",
 	"artifact_id":"conductor-postgres-persistence",
-	"version_latest":"3.21.19",
-	"ts_publish":1757907335000,
-	"dt_publish":"2025-09-15 11:35:35.000",
-	"ts_update":1757908543542,
-	"dt_update":"2025-09-15 11:55:26.232",
+	"version_latest":"3.21.20",
+	"ts_publish":1761802656000,
+	"dt_publish":"2025-10-30 13:37:36.000",
+	"ts_update":1761803190285,
+	"dt_update":"2025-10-30 13:46:21.267",
 	"count_dep":20,
-	"count_ref":1,
+	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,13 +23,21 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/conductor-oss/conductor",
 	"license":"Apache 2.0",
-	"ranking":"#212839 in MvnRepository",
+	"ranking":"#242340 in MvnRepository",
 	"tags":[
 		"database",
 		"persistence",
 		"postgresql"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.21.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250725",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.20.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240411",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.19.0",
 			"vulnerabilities":""
 		}
 	]
