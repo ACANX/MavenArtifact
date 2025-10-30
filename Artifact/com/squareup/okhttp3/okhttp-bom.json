@@ -3,11 +3,11 @@
 	"description":"Square’s meticulous HTTP client for Java and Kotlin.",
 	"group_id":"com.squareup.okhttp3",
 	"artifact_id":"okhttp-bom",
-	"version_latest":"5.2.1",
-	"ts_publish":1760051176000,
-	"dt_publish":"2025-10-10 07:06:16.000",
-	"ts_update":1760052576235,
-	"dt_update":"2025-10-10 07:29:27.460",
+	"version_latest":"5.3.0",
+	"ts_publish":1761860531000,
+	"dt_publish":"2025-10-31 05:42:11.000",
+	"ts_update":1761867037966,
+	"dt_update":"2025-10-31 07:26:41.094",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,10 +25,10 @@
 		"Square, Inc."
 	],
 	"url_scm":"https://github.com/square/okhttp",
-	"count_used_by":32,
+	"count_used_by":33,
 	"home_page":"https://square.github.io/okhttp/",
 	"license":"Apache 2.0",
-	"ranking":"#14955 in MvnRepository",
+	"ranking":"#14778 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
@@ -36,6 +36,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.2.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251007",
 			"repository":"Central",
@@ -48,7 +56,7 @@
 			"date":"20250707",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"5.1.0",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"5.0.0-alpha.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210130",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"5.0.0-alpha.1",
 			"vulnerabilities":""
 		}
 	]
