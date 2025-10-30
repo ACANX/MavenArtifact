@@ -3,12 +3,12 @@
 	"description":"Hawtio :: Quarkus Extension Deployment",
 	"group_id":"io.hawt",
 	"artifact_id":"hawtio-quarkus-deployment",
-	"version_latest":"4.5.0",
-	"ts_publish":1755068015000,
-	"dt_publish":"2025-08-13 14:53:35.000",
-	"ts_update":1755069550891,
-	"dt_update":"2025-08-13 15:18:15.208",
-	"count_dep":238,
+	"version_latest":"4.6.0",
+	"ts_publish":1761819616000,
+	"dt_publish":"2025-10-30 18:20:16.000",
+	"ts_update":1761820840934,
+	"dt_update":"2025-10-30 18:40:19.233",
+	"count_dep":180,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,12 +26,20 @@
 	"url_scm":"git@github.com:hawtio/hawtio.git",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#159849 in MvnRepository",
+	"ranking":"#147977 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250428",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"3.0-M7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230516",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0-M6",
 			"vulnerabilities":""
 		}
 	]

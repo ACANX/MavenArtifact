@@ -3,16 +3,14 @@
 	"description":"Utilities for write-ahead logging in Neo4j.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-wal",
-	"version_latest":"2025.09.0",
-	"ts_publish":1758894597000,
-	"dt_publish":"2025-09-26 21:49:57.000",
-	"ts_update":1758898751695,
-	"dt_update":"2025-09-26 22:14:03.933",
-	"count_dep":41,
-	"count_ref":9,
-	"licenses":[
-		"GPL-3.0-or-later"
-	],
+	"version_latest":"2025.10.1",
+	"ts_publish":1761819312000,
+	"dt_publish":"2025-10-30 18:15:12.000",
+	"ts_update":1761820837967,
+	"dt_update":"2025-10-30 18:40:21.291",
+	"count_dep":15,
+	"count_ref":6,
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database",
@@ -26,16 +24,24 @@
 		"The Neo4j Team"
 	],
 	"url_scm":"https://github.com/neo4j/neo4j",
-	"count_used_by":3,
-	"home_page":"http://components.neo4j.org/neo4j-wal/2025.08.0",
+	"count_used_by":4,
+	"home_page":"http://components.neo4j.org/neo4j-wal/2025.09.0",
 	"license":"GPL 3.0",
-	"ranking":"#130527 in MvnRepository",
+	"ranking":"#104172 in MvnRepository",
 	"tags":[
 		"database",
 		"graph",
 		"neo4j"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2025.09.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -133,6 +139,22 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"5.26.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"5.26.13",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250904",
 			"repository":"Central",
 			"type":"release",
@@ -170,30 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"5.26.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250527",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"5.26.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250506",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"5.26.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"5.26.5",
 			"vulnerabilities":""
 		}
 	]
