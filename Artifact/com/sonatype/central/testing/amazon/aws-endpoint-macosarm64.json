@@ -3,13 +3,13 @@
 	"description":"AWS Endpoint Support",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"aws-endpoint-macosarm64",
-	"version_latest":"1.5.59",
-	"ts_publish":1761245890000,
-	"dt_publish":"2025-10-24 02:58:10.000",
-	"ts_update":1761256612375,
-	"dt_update":"2025-10-24 05:45:18.111",
+	"version_latest":"1.5.61",
+	"ts_publish":1761859073000,
+	"dt_publish":"2025-10-31 05:17:53.000",
+	"ts_update":1761865001046,
+	"dt_update":"2025-10-31 06:56:27.684",
 	"count_dep":5,
-	"count_ref":270,
+	"count_ref":35,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -19,5 +19,37 @@
 	"contributors":[
 		"AWS SDK Kotlin Team"
 	],
-	"url_scm":"https://github.com/aws/aws-sdk-kotlin"
+	"url_scm":"https://github.com/aws/aws-sdk-kotlin",
+	"count_used_by":414,
+	"home_page":"https://github.com/aws/aws-sdk-kotlin",
+	"license":"Apache 2.0",
+	"ranking":"#1581 in MvnRepository",
+	"tags":[
+		"quality",
+		"aws",
+		"amazon",
+		"macos",
+		"testing",
+		"arm",
+		"endpoint",
+		"kotlin"
+	],
+	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":414,
+			"version":"1.5.60",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":414,
+			"version":"1.5.59",
+			"vulnerabilities":""
+		}
+	]
 }

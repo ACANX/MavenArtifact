@@ -3,13 +3,13 @@
 	"description":"HTTP core for AWS service clients",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"aws-http-iossimulatorarm64",
-	"version_latest":"1.5.59",
-	"ts_publish":1761245890000,
-	"dt_publish":"2025-10-24 02:58:10.000",
-	"ts_update":1761256811262,
-	"dt_update":"2025-10-24 05:45:15.660",
+	"version_latest":"1.5.61",
+	"ts_publish":1761859134000,
+	"dt_publish":"2025-10-31 05:18:54.000",
+	"ts_update":1761865003424,
+	"dt_update":"2025-10-31 06:56:27.094",
 	"count_dep":7,
-	"count_ref":271,
+	"count_ref":34,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -19,5 +19,37 @@
 	"contributors":[
 		"AWS SDK Kotlin Team"
 	],
-	"url_scm":"https://github.com/aws/aws-sdk-kotlin"
+	"url_scm":"https://github.com/aws/aws-sdk-kotlin",
+	"count_used_by":414,
+	"home_page":"https://github.com/aws/aws-sdk-kotlin",
+	"license":"Apache 2.0",
+	"ranking":"#1589 in MvnRepository",
+	"tags":[
+		"quality",
+		"ios",
+		"aws",
+		"amazon",
+		"testing",
+		"arm",
+		"kotlin",
+		"http"
+	],
+	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":414,
+			"version":"1.5.60",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":414,
+			"version":"1.5.59",
+			"vulnerabilities":""
+		}
+	]
 }
