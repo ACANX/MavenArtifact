@@ -3,11 +3,11 @@
 	"description":"Spring WebFlux",
 	"group_id":"org.springframework",
 	"artifact_id":"spring-webflux",
-	"version_latest":"7.0.0-RC2",
-	"ts_publish":1761212114000,
-	"dt_publish":"2025-10-23 17:35:14.000",
-	"ts_update":1761212887156,
-	"dt_update":"2025-10-23 17:47:37.147",
+	"version_latest":"7.0.0-RC3",
+	"ts_publish":1761894998000,
+	"dt_publish":"2025-10-31 15:16:38.000",
+	"ts_update":1761896729648,
+	"dt_update":"2025-10-31 15:45:01.173",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
@@ -24,10 +24,10 @@
 		"Juergen Hoeller"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-framework",
-	"count_used_by":870,
+	"count_used_by":878,
 	"home_page":"https://github.com/spring-projects/spring-framework",
 	"license":"Apache 2.0",
-	"ranking":"#706 in MvnRepository",
+	"ranking":"#704 in MvnRepository",
 	"tags":[
 		"webflux",
 		"spring",
@@ -35,6 +35,22 @@
 		"web"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.0.0-RC2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"7.0.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250911",
 			"repository":"Central",
@@ -108,6 +124,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"6.2.12",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250911",
 			"repository":"Central",
 			"type":"release",
@@ -119,7 +143,7 @@
 			"date":"20250814",
 			"repository":"Central",
 			"type":"release",
-			"usage":23,
+			"usage":30,
 			"version":"6.2.10",
 			"vulnerabilities":""
 		},
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"6.2.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250213",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"6.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250116",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"6.2.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241212",
-			"repository":"Central",
-			"type":"release",
-			"usage":25,
-			"version":"6.2.1",
 			"vulnerabilities":""
 		}
 	]

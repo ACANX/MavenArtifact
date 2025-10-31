@@ -3,12 +3,12 @@
 	"description":"Vaadin Development Mode Server",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-dev-server",
-	"version_latest":"25.0.0-beta2",
-	"ts_publish":1761743200000,
-	"dt_publish":"2025-10-29 21:06:40.000",
-	"ts_update":1761744030693,
-	"dt_update":"2025-10-29 21:20:02.519",
-	"count_dep":16,
+	"version_latest":"25.0.0-beta3",
+	"ts_publish":1761895764000,
+	"dt_publish":"2025-10-31 15:29:24.000",
+	"ts_update":1761896732479,
+	"dt_update":"2025-10-31 15:45:00.491",
+	"count_dep":33,
 	"count_ref":1,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/vaadin/flow/vaadin-dev-server",
 	"count_used_by":20,
 	"license":"Apache 2.0",
-	"ranking":"#23737 in MvnRepository",
+	"ranking":"#23753 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"server",
 		"web-framework"
 	],
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"25.0.0-beta2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -41,7 +49,7 @@
 			"date":"20251028",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":5,
 			"version":"24.9.4",
 			"vulnerabilities":""
 		},
@@ -121,7 +129,7 @@
 			"date":"20251028",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":5,
 			"version":"24.8.11",
 			"vulnerabilities":""
 		},
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"24.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"24.8.3",
 			"vulnerabilities":""
 		}
 	]

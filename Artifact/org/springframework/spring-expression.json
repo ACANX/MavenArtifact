@@ -3,12 +3,12 @@
 	"description":"Spring Expression Language (SpEL)",
 	"group_id":"org.springframework",
 	"artifact_id":"spring-expression",
-	"version_latest":"7.0.0-RC2",
-	"ts_publish":1761212114000,
-	"dt_publish":"2025-10-23 17:35:14.000",
-	"ts_update":1761212874820,
-	"dt_update":"2025-10-23 17:47:37.145",
-	"count_dep":1,
+	"version_latest":"7.0.0-RC3",
+	"ts_publish":1761894998000,
+	"dt_publish":"2025-10-31 15:16:38.000",
+	"ts_update":1761896740732,
+	"dt_update":"2025-10-31 15:45:02.110",
+	"count_dep":3,
 	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,10 +24,10 @@
 		"Juergen Hoeller"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-framework",
-	"count_used_by":2065,
+	"count_used_by":2067,
 	"home_page":"https://github.com/spring-projects/spring-framework",
 	"license":"Apache 2.0",
-	"ranking":"#283 in MvnRepository",
+	"ranking":"#285 in MvnRepository",
 	"tags":[
 		"spring",
 		"framework",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.0.0-RC2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"7.0.0-RC1",
 			"vulnerabilities":""
 		},
@@ -55,7 +63,7 @@
 			"date":"20250814",
 			"repository":"Central",
 			"type":"milestone",
-			"usage":9,
+			"usage":10,
 			"version":"7.0.0-M8",
 			"vulnerabilities":""
 		},
@@ -63,7 +71,7 @@
 			"date":"20250717",
 			"repository":"Central",
 			"type":"milestone",
-			"usage":9,
+			"usage":10,
 			"version":"7.0.0-M7",
 			"vulnerabilities":""
 		},
@@ -119,7 +127,7 @@
 			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
-			"usage":12,
+			"usage":16,
 			"version":"6.2.12",
 			"vulnerabilities":""
 		},
@@ -127,7 +135,7 @@
 			"date":"20250911",
 			"repository":"Central",
 			"type":"release",
-			"usage":445,
+			"usage":447,
 			"version":"6.2.11",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":20,
 			"version":"6.2.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250213",
-			"repository":"Central",
-			"type":"release",
-			"usage":437,
-			"version":"6.2.3",
 			"vulnerabilities":""
 		}
 	]
