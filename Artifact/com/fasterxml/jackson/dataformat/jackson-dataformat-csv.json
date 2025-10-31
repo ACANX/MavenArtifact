@@ -3,13 +3,13 @@
 	"description":"Support for reading and writing CSV-encoded data via Jackson\nabstractions.",
 	"group_id":"com.fasterxml.jackson.dataformat",
 	"artifact_id":"jackson-dataformat-csv",
-	"version_latest":"2.20.0",
-	"ts_publish":1756422587000,
-	"dt_publish":"2025-08-29 07:09:47.000",
-	"ts_update":1756423594811,
-	"dt_update":"2025-08-29 07:25:50.952",
+	"version_latest":"2.20.1",
+	"ts_publish":1761868593000,
+	"dt_publish":"2025-10-31 07:56:33.000",
+	"ts_update":1761870383729,
+	"dt_update":"2025-10-31 08:26:15.427",
 	"count_dep":6,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -24,10 +24,10 @@
 		"Tatu Saloranta"
 	],
 	"url_scm":"https://github.com/FasterXML/jackson-dataformats-text/jackson-dataformat-csv",
-	"count_used_by":385,
+	"count_used_by":391,
 	"home_page":"https://github.com/FasterXML/jackson-dataformats-text",
 	"license":"Apache 2.0",
-	"ranking":"#1574 in MvnRepository",
+	"ranking":"#1731 in MvnRepository",
 	"tags":[
 		"format",
 		"delimited",
@@ -40,6 +40,14 @@
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2.20.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"release",
@@ -48,10 +56,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.19.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
-			"usage":16,
+			"usage":25,
 			"version":"2.19.2",
 			"vulnerabilities":""
 		},
@@ -59,7 +75,7 @@
 			"date":"20250614",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":19,
 			"version":"2.19.1",
 			"vulnerabilities":""
 		},
@@ -67,7 +83,7 @@
 			"date":"20250425",
 			"repository":"Central",
 			"type":"release",
-			"usage":20,
+			"usage":24,
 			"version":"2.19.0",
 			"vulnerabilities":""
 		},
@@ -77,6 +93,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.19.0-rc2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.18.5",
 			"vulnerabilities":""
 		},
 		{
@@ -91,7 +115,7 @@
 			"date":"20250301",
 			"repository":"Central",
 			"type":"release",
-			"usage":31,
+			"usage":32,
 			"version":"2.18.3",
 			"vulnerabilities":""
 		},
@@ -107,7 +131,7 @@
 			"date":"20241029",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":15,
 			"version":"2.18.1",
 			"vulnerabilities":""
 		},
@@ -131,7 +155,7 @@
 			"date":"20241101",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":9,
 			"version":"2.17.3",
 			"vulnerabilities":""
 		},
@@ -173,30 +197,6 @@
 			"type":"release",
 			"usage":15,
 			"version":"2.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231224",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"2.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231116",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"2.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231021",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.16.0-rc1",
 			"vulnerabilities":""
 		}
 	]
