@@ -3,11 +3,11 @@
 	"description":"PNC Build Agent is used to expose shell like interface via Http and WebSockets of the host running the agent. It can be used to execute remote command and get the command output back via WebSocket, command completion is notified via WebSocket. It can also handle file uploads and downloads.",
 	"group_id":"org.jboss.pnc.build-agent",
 	"artifact_id":"logback",
-	"version_latest":"1.1.3",
-	"ts_publish":1761840577000,
-	"dt_publish":"2025-10-31 00:09:37.000",
-	"ts_update":1761842703895,
-	"dt_update":"2025-10-31 00:44:58.055",
+	"version_latest":"1.1.6",
+	"ts_publish":1761936044000,
+	"dt_publish":"2025-11-01 02:40:44.000",
+	"ts_update":1761936831899,
+	"dt_update":"2025-11-01 02:53:16.578",
 	"count_dep":19,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	],
 	"url_scm":"https://github.com/project-ncl/pnc-build-agent/",
 	"license":"Apache 2.0",
-	"ranking":"#651143 in MvnRepository",
+	"ranking":"#649327 in MvnRepository",
 	"tags":[
 		"logback",
 		"logging",
@@ -34,6 +34,14 @@
 		"jboss"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20240701",
 			"repository":"Central",
