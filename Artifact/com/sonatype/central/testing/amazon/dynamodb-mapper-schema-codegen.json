@@ -3,11 +3,11 @@
 	"description":"DynamoDbMapper schema code generation",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"dynamodb-mapper-schema-codegen",
-	"version_latest":"1.5.59-beta",
-	"ts_publish":1761239157000,
-	"dt_publish":"2025-10-24 01:05:57.000",
-	"ts_update":1761245829212,
-	"dt_update":"2025-10-24 02:53:38.545",
+	"version_latest":"1.5.62-beta",
+	"ts_publish":1761883204000,
+	"dt_publish":"2025-10-31 12:00:04.000",
+	"ts_update":1761885747276,
+	"dt_update":"2025-10-31 12:42:10.948",
 	"count_dep":6,
 	"count_ref":1,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/aws/aws-sdk-kotlin",
 	"home_page":"https://github.com/aws/aws-sdk-kotlin",
 	"license":"Apache 2.0",
-	"ranking":"#888736 in MvnRepository",
+	"ranking":"#329627 in MvnRepository",
 	"tags":[
 		"quality",
 		"database",
@@ -36,6 +36,22 @@
 		"schema"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"1.5.60-beta",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"1.5.59-beta",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250927",
 			"repository":"Central",
@@ -60,5 +76,6 @@
 			"version":"1.5.45-beta",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
