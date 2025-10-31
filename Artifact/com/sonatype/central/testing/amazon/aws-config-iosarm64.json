@@ -3,13 +3,13 @@
 	"description":"Support for AWS configuration",
 	"group_id":"com.sonatype.central.testing.amazon",
 	"artifact_id":"aws-config-iosarm64",
-	"version_latest":"1.5.61",
-	"ts_publish":1761871032000,
-	"dt_publish":"2025-10-31 08:37:12.000",
-	"ts_update":1761873232951,
-	"dt_update":"2025-10-31 09:12:46.678",
+	"version_latest":"1.5.62",
+	"ts_publish":1761886697000,
+	"dt_publish":"2025-10-31 12:58:17.000",
+	"ts_update":1761895621482,
+	"dt_update":"2025-10-31 15:26:40.186",
 	"count_dep":27,
-	"count_ref":412,
+	"count_ref":131,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -19,5 +19,37 @@
 	"contributors":[
 		"AWS SDK Kotlin Team"
 	],
-	"url_scm":"https://github.com/aws/aws-sdk-kotlin"
+	"url_scm":"https://github.com/aws/aws-sdk-kotlin",
+	"count_used_by":412,
+	"home_page":"https://github.com/aws/aws-sdk-kotlin",
+	"license":"Apache 2.0",
+	"ranking":"#1628 in MvnRepository",
+	"tags":[
+		"quality",
+		"ios",
+		"aws",
+		"amazon",
+		"config",
+		"testing",
+		"arm",
+		"kotlin"
+	],
+	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":412,
+			"version":"1.5.60",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":412,
+			"version":"1.5.59",
+			"vulnerabilities":""
+		}
+	]
 }
