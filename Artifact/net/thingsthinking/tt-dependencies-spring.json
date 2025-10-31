@@ -2,14 +2,16 @@
 	"id":"pkg:maven/net.thingsthinking/tt-dependencies-spring",
 	"group_id":"net.thingsthinking",
 	"artifact_id":"tt-dependencies-spring",
-	"version_latest":"1.75.0",
-	"ts_publish":1760962736000,
-	"dt_publish":"2025-10-20 20:18:56.000",
-	"ts_update":1760963595011,
-	"dt_update":"2025-10-20 20:33:07.535",
+	"version_latest":"1.76.0",
+	"ts_publish":1761914844000,
+	"dt_publish":"2025-10-31 20:47:24.000",
+	"ts_update":1761915398399,
+	"dt_update":"2025-10-31 20:56:24.555",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"MIT License"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/Aleph-Alpha/tt-dependencies/tt-dependencies-spring",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/net.thingsthinking/tt-dependencies-spring@1.64.1",
@@ -18,7 +20,7 @@
 	],
 	"url_scm":"https://tt-zlmegzcsxe.thingsthinking.systems/thingsThinking/tt-dependencies/tt-dependencies-spring",
 	"license":"MIT",
-	"ranking":"#806803 in MvnRepository",
+	"ranking":"#834337 in MvnRepository",
 	"tags":[
 		"bom",
 		"spring",
@@ -26,6 +28,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.75.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -130,5 +140,6 @@
 			"version":"1.64.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"ThingsThinking Dependencies Management - Centralized dependency version management for ThingsThinking platform components"
 }
