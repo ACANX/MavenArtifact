@@ -3,12 +3,12 @@
 	"description":"Adapter common libs",
 	"group_id":"dev.vality",
 	"artifact_id":"adapter-common-lib",
-	"version_latest":"3.0.0",
-	"ts_publish":1754913577000,
-	"dt_publish":"2025-08-11 19:59:37.000",
-	"ts_update":1754915161694,
-	"dt_update":"2025-08-11 20:25:54.367",
-	"count_dep":70,
+	"version_latest":"3.0.1",
+	"ts_publish":1761917311000,
+	"dt_publish":"2025-10-31 21:28:31.000",
+	"ts_update":1761918173945,
+	"dt_update":"2025-10-31 21:42:40.623",
+	"count_dep":80,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -17,20 +17,28 @@
 	"url_project":"https://github.com/valitydev/adapter-common-lib.git",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/dev.vality/adapter-common-lib@3.0.0",
 	"url_scm":"https://github.com/valitydev/library-parent-pom/tree/master",
-	"count_used_by":3,
+	"count_used_by":4,
 	"home_page":"https://github.com/valitydev/adapter-common-lib.git",
 	"license":"Apache 2.0",
-	"ranking":"#147358 in MvnRepository",
+	"ranking":"#129595 in MvnRepository",
 	"tags":[
 		"adapter",
 		"library"
 	],
 	"versions":[
 		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250703",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.0.5",
 			"vulnerabilities":""
 		},
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220810",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.1.4",
 			"vulnerabilities":""
 		}
 	]
