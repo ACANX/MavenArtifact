@@ -3,14 +3,16 @@
 	"description":"Elemento Logger API",
 	"group_id":"org.jboss.elemento",
 	"artifact_id":"elemento-logger",
-	"version_latest":"2.3.1",
-	"ts_publish":1761829794000,
-	"dt_publish":"2025-10-30 21:09:54.000",
-	"ts_update":1761830783380,
-	"dt_update":"2025-10-30 21:26:16.832",
-	"count_dep":0,
+	"version_latest":"2.3.2",
+	"ts_publish":1761933569000,
+	"dt_publish":"2025-11-01 01:59:29.000",
+	"ts_update":1761935047794,
+	"dt_update":"2025-11-01 02:23:50.710",
+	"count_dep":14,
 	"count_ref":5,
-	"licenses":[],
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://hal-console.gitbook.io/elemento",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.jboss.elemento/elemento-logger@2.1.0",
@@ -23,13 +25,21 @@
 	"url_scm":"https://github.com/hal/elemento",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#134729 in MvnRepository",
+	"ranking":"#134605 in MvnRepository",
 	"tags":[
 		"logging",
 		"gwt",
 		"jboss"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.3.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -180,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.6.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240718",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.6.4",
 			"vulnerabilities":""
 		}
 	]
