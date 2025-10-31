@@ -3,13 +3,13 @@
 	"description":"DigiExpress",
 	"group_id":"io.digiexpress",
 	"artifact_id":"thena-sql-client",
-	"version_latest":"5.2.6",
-	"ts_publish":1761118694000,
-	"dt_publish":"2025-10-22 15:38:14.000",
-	"ts_update":1761119800807,
-	"dt_update":"2025-10-22 15:56:30.599",
+	"version_latest":"5.2.7",
+	"ts_publish":1761922808000,
+	"dt_publish":"2025-10-31 23:00:08.000",
+	"ts_update":1761923752713,
+	"dt_update":"2025-10-31 23:15:30.372",
 	"count_dep":136,
-	"count_ref":22,
+	"count_ref":23,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,14 +25,22 @@
 		"Vahur Krouverk"
 	],
 	"url_scm":"http://github.com/digiexpress-io/digiexpress-parent/tree/main/digiexpress-build-parent/thena-parent/thena-sql-client",
-	"count_used_by":6,
+	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#83699 in MvnRepository",
+	"ranking":"#70604 in MvnRepository",
 	"tags":[
 		"sql",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"5.2.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"5.1.81",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.1.80",
 			"vulnerabilities":""
 		}
 	]
