@@ -3,11 +3,11 @@
 	"description":"This plugin provides an analysis library for Fess, enabling custom analyzers, tokenizers, and filters for OpenSearch to enhance full-text search capabilities and support Fess-specific linguistic processing.",
 	"group_id":"org.codelibs.opensearch",
 	"artifact_id":"opensearch-analysis-fess",
-	"version_latest":"3.3.0",
-	"ts_publish":1760581420000,
-	"dt_publish":"2025-10-16 10:23:40.000",
-	"ts_update":1760583389175,
-	"dt_update":"2025-10-16 10:56:18.497",
+	"version_latest":"3.3.1",
+	"ts_publish":1761915876000,
+	"dt_publish":"2025-10-31 21:04:36.000",
+	"ts_update":1761917193845,
+	"dt_update":"2025-10-31 21:26:24.130",
 	"count_dep":46,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"git@github.com:codelibs/opensearch-analysis-fess.git",
 	"home_page":"https://github.com/codelibs/opensearch-analysis-fess",
 	"license":"Apache 2.0",
-	"ranking":"#697343 in MvnRepository",
+	"ranking":"#904429 in MvnRepository",
 	"tags":[
 		"analysis",
 		"opensearch",
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250831",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230302",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.6.0",
 			"vulnerabilities":""
 		}
 	]
