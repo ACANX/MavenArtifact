@@ -3,11 +3,11 @@
 	"description":"Building on top of the Neo4j 4.4 JavaCC parsers it provides a way from Cypher to Cypher-DSL Ast.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-cypher-dsl-parser",
-	"version_latest":"2025.1.0",
-	"ts_publish":1760351764000,
-	"dt_publish":"2025-10-13 18:36:04.000",
-	"ts_update":1760352990388,
-	"dt_update":"2025-10-13 18:56:18.977",
+	"version_latest":"2025.2.0",
+	"ts_publish":1761901192000,
+	"dt_publish":"2025-10-31 16:59:52.000",
+	"ts_update":1761902284363,
+	"dt_update":"2025-10-31 17:17:40.735",
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
@@ -32,7 +32,7 @@
 	"url_scm":"https://github.com/neo4j/cypher-dsl/neo4j-cypher-dsl-parser",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#47073 in MvnRepository",
+	"ranking":"#49143 in MvnRepository",
 	"tags":[
 		"database",
 		"parser",
@@ -41,6 +41,14 @@
 		"dsl"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2025.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250925",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2024.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240909",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2024.1.0",
 			"vulnerabilities":""
 		}
 	]
