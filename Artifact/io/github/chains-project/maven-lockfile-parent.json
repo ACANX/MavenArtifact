@@ -3,11 +3,11 @@
 	"description":"This plugin is a state-of-the-art solution that can be used to validate the integrity\n    of a maven repository.\n    It does this by generating a lock file that contains the checksums of all the artifacts and plugins in the\n    repository.\n    The lock file can then be used to validate the integrity of the repository.\n    This guards the supply chain against malicious actors that might tamper with the artifacts in\n    the repository.",
 	"group_id":"io.github.chains-project",
 	"artifact_id":"maven-lockfile-parent",
-	"version_latest":"5.8.2",
-	"ts_publish":1761722191000,
-	"dt_publish":"2025-10-29 15:16:31.000",
-	"ts_update":1761722788309,
-	"dt_update":"2025-10-29 15:26:19.300",
+	"version_latest":"5.8.3-beta-1",
+	"ts_publish":1761904694000,
+	"dt_publish":"2025-10-31 17:58:14.000",
+	"ts_update":1761905860288,
+	"dt_update":"2025-10-31 18:17:28.435",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/chains-project/maven-lockfile/tree/v5.6.2",
 	"home_page":"https://github.com/chains-project/maven-lockfile",
 	"license":"MIT",
-	"ranking":"#883324 in MvnRepository",
+	"ranking":"#678923 in MvnRepository",
 	"tags":[
 		"github",
 		"build",
@@ -31,6 +31,30 @@
 		"locking"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"5.8.2-beta-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.8.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"5.8.1-beta-1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.2.3",
 			"vulnerabilities":""
 		}
 	]
