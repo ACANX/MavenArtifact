@@ -3,11 +3,11 @@
 	"description":"Functionality to handle XML input/output for Jakarta-RS implementations\n(like Jersey and RESTeasy) using standard Jackson data binding.",
 	"group_id":"com.fasterxml.jackson.jakarta.rs",
 	"artifact_id":"jackson-jakarta-rs-xml-provider",
-	"version_latest":"2.20.0",
-	"ts_publish":1756425964000,
-	"dt_publish":"2025-08-29 08:06:04.000",
-	"ts_update":1756427256712,
-	"dt_update":"2025-08-29 08:25:51.509",
+	"version_latest":"2.20.1",
+	"ts_publish":1761870249000,
+	"dt_publish":"2025-10-31 08:24:09.000",
+	"ts_update":1761872194786,
+	"dt_update":"2025-10-31 08:56:20.961",
 	"count_dep":20,
 	"count_ref":0,
 	"licenses":[
@@ -24,9 +24,9 @@
 		"Tatu Saloranta"
 	],
 	"url_scm":"https://github.com/FasterXML/jackson-jakarta-rs-providers/jackson-jakarta-rs-xml-provider",
-	"count_used_by":7,
+	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#68924 in MvnRepository",
+	"ranking":"#62961 in MvnRepository",
 	"tags":[
 		"jakarta",
 		"bundle",
@@ -38,6 +38,14 @@
 	],
 	"versions":[
 		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.20.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"release",
@@ -46,10 +54,26 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.19.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.19.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.19.2",
 			"vulnerabilities":""
 		},
@@ -75,6 +99,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.19.0-rc2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.18.5",
 			"vulnerabilities":""
 		},
 		{
@@ -163,38 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.17.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240309",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231225",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231116",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231021",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.16.0-rc1",
 			"vulnerabilities":""
 		}
 	]
