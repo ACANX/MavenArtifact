@@ -3,16 +3,14 @@
 	"description":"Spring Data module for Redis",
 	"group_id":"org.springframework.data",
 	"artifact_id":"spring-data-redis",
-	"version_latest":"4.0.0-RC1",
-	"ts_publish":1760702506000,
-	"dt_publish":"2025-10-17 20:01:46.000",
-	"ts_update":1760703992977,
-	"dt_update":"2025-10-17 20:26:15.426",
-	"count_dep":86,
+	"version_latest":"4.0.0-RC2",
+	"ts_publish":1761907141000,
+	"dt_publish":"2025-10-31 18:39:01.000",
+	"ts_update":1761907800909,
+	"dt_update":"2025-10-31 18:49:52.599",
+	"count_dep":45,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database Access"
@@ -26,7 +24,7 @@
 		"Mark Paluch"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-data-redis",
-	"count_used_by":1139,
+	"count_used_by":1141,
 	"home_page":"https://spring.io/projects/spring-data-redis",
 	"license":"Apache 2.0",
 	"ranking":"#540 in MvnRepository",
@@ -39,6 +37,14 @@
 		"redis"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.0.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -88,6 +94,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.5.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250912",
 			"repository":"Central",
 			"type":"release",
@@ -125,6 +139,14 @@
 			"type":"release",
 			"usage":28,
 			"version":"3.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.4.11",
 			"vulnerabilities":""
 		},
 		{
@@ -173,30 +195,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"3.4.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250314",
-			"repository":"Central",
-			"type":"release",
-			"usage":32,
-			"version":"3.4.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250214",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"3.4.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250117",
-			"repository":"Central",
-			"type":"release",
-			"usage":30,
-			"version":"3.4.2",
 			"vulnerabilities":""
 		}
 	]
