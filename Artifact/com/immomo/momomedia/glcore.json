@@ -1,15 +1,15 @@
 {
-	"id":"pkg:maven/com.immomo.momomedia/baseutil",
+	"id":"pkg:maven/com.immomo.momomedia/glcore",
 	"description":"Momo Media SDK",
 	"group_id":"com.immomo.momomedia",
-	"artifact_id":"baseutil",
+	"artifact_id":"glcore",
 	"version_latest":"2.3.4-20251031112721",
-	"ts_publish":1761882614000,
-	"dt_publish":"2025-10-31 11:50:14.000",
-	"ts_update":1761884412581,
-	"dt_update":"2025-10-31 12:20:03.873",
-	"count_dep":4,
-	"count_ref":3,
+	"ts_publish":1761882875000,
+	"dt_publish":"2025-10-31 11:54:35.000",
+	"ts_update":1761884413367,
+	"dt_update":"2025-10-31 12:20:03.871",
+	"count_dep":10,
+	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -18,15 +18,15 @@
 	],
 	"dsv":1,
 	"url_project":"https://github.com/cosmos33/MMVideoSDK-Android",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.immomo.momomedia/baseutil@2.3.4-20251031112721",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.immomo.momomedia/glcore@2.3.4-20251031112721",
 	"contributors":[
 		"mm"
 	],
 	"url_scm":"https://github.com/cosmos33/MMVideoSDK-Android",
-	"count_used_by":15,
+	"count_used_by":11,
 	"home_page":"https://github.com/cosmos33/MMVideoSDK-Android",
 	"license":"Apache 2.0",
-	"ranking":"#30564 in MvnRepository",
+	"ranking":"#41365 in MvnRepository",
 	"tags":[
 		"aar",
 		"mobile",
@@ -34,10 +34,18 @@
 	],
 	"versions":[
 		{
-			"date":"20211229",
+			"date":"20211129",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"3.0.0-2021112901",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20211229",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.4.3-20211229220701",
 			"vulnerabilities":""
 		},
@@ -45,7 +53,7 @@
 			"date":"20211221",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":3,
 			"version":"2.4.2-20212201507001",
 			"vulnerabilities":""
 		},
@@ -53,31 +61,15 @@
 			"date":"20211011",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":3,
 			"version":"2.4.1-20211011000001",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210929",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.4.1-20210929000001",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230313",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.4.0-20230310153400",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250310",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":1,
 			"version":"2.3.4-20250310122001",
 			"vulnerabilities":""
 		},
@@ -85,7 +77,7 @@
 			"date":"20231128",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":1,
 			"version":"2.3.4-20231128173700",
 			"vulnerabilities":""
 		},
@@ -93,7 +85,7 @@
 			"date":"20230607",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":7,
 			"version":"2.3.4-20230606202001",
 			"vulnerabilities":""
 		},
@@ -101,7 +93,7 @@
 			"date":"20230310",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"2.3.4-20230310142800",
 			"vulnerabilities":""
 		},
@@ -109,15 +101,15 @@
 			"date":"20230302",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":2,
 			"version":"2.3.4-20230302170700",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20230302",
+			"date":"20230307",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":6,
 			"version":"2.3.4-20230227192000",
 			"vulnerabilities":""
 		},
@@ -125,7 +117,7 @@
 			"date":"20230222",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":9,
 			"version":"2.3.4-20230222102000",
 			"vulnerabilities":""
 		},
@@ -133,7 +125,7 @@
 			"date":"20230222",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":1,
 			"version":"2.3.4-20230222100400",
 			"vulnerabilities":""
 		},
@@ -141,7 +133,7 @@
 			"date":"20230111",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":2,
 			"version":"2.3.4-20230111184800",
 			"vulnerabilities":""
 		},
@@ -149,7 +141,7 @@
 			"date":"20230111",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"2.3.4-20230111162400",
 			"vulnerabilities":""
 		},
@@ -157,7 +149,7 @@
 			"date":"20230111",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":9,
 			"version":"2.3.4-20230111110400",
 			"vulnerabilities":""
 		},
@@ -165,7 +157,7 @@
 			"date":"20230109",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":2,
 			"version":"2.3.4-20230109113600",
 			"vulnerabilities":""
 		},
@@ -173,7 +165,7 @@
 			"date":"20230105",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":3,
 			"version":"2.3.4-20230105173400",
 			"vulnerabilities":""
 		},
@@ -181,7 +173,7 @@
 			"date":"20221201",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":3,
 			"version":"2.3.3-20221201204500",
 			"vulnerabilities":""
 		},
@@ -189,8 +181,16 @@
 			"date":"20221115",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":3,
 			"version":"2.3.3-20221115144700",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20221115",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.3.3-20221115115700",
 			"vulnerabilities":""
 		}
 	]
