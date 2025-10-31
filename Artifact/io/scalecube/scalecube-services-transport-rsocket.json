@@ -3,11 +3,11 @@
 	"description":"ScaleCube is a lightweight decentralized cluster membership, failure detection, messaging and\n    gossip protocol library for the Java VM.",
 	"group_id":"io.scalecube",
 	"artifact_id":"scalecube-services-transport-rsocket",
-	"version_latest":"2.13.8",
-	"ts_publish":1761421929000,
-	"dt_publish":"2025-10-26 03:52:09.000",
-	"ts_update":1761425792791,
-	"dt_update":"2025-10-26 04:56:24.991",
+	"version_latest":"2.13.9.jjwt.rc1",
+	"ts_publish":1761901939000,
+	"dt_publish":"2025-10-31 17:12:19.000",
+	"ts_update":1761902799564,
+	"dt_update":"2025-10-31 17:26:30.207",
 	"count_dep":51,
 	"count_ref":3,
 	"licenses":[
@@ -26,13 +26,21 @@
 	"count_used_by":21,
 	"home_page":"https://github.com/scalecube/scalecube",
 	"license":"Apache 2.0",
-	"ranking":"#22107 in MvnRepository",
+	"ranking":"#22292 in MvnRepository",
 	"tags":[
 		"socket",
 		"service",
 		"transport"
 	],
 	"versions":[
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250920",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.12.6.better-close.rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250319",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.12.6.auth-refactoring.RC5",
 			"vulnerabilities":""
 		}
 	]
