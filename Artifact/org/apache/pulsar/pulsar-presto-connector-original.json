@@ -3,12 +3,12 @@
 	"description":"Pulsar SQL - Pulsar Presto Connector",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-presto-connector-original",
-	"version_latest":"3.0.13",
-	"ts_publish":1753873305000,
-	"dt_publish":"2025-07-30 19:01:45.000",
-	"ts_update":1757780821417,
-	"dt_update":"2025-09-14 00:15:40.746",
-	"count_dep":309,
+	"version_latest":"3.0.14",
+	"ts_publish":1758665146000,
+	"dt_publish":"2025-09-24 06:05:46.000",
+	"ts_update":1762015671069,
+	"dt_update":"2025-11-02 00:17:09.188",
+	"count_dep":310,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,7 +24,7 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#391648 in MvnRepository",
+	"ranking":"#394133 in MvnRepository",
 	"tags":[
 		"apache",
 		"connector",
@@ -63,6 +63,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.11.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240103",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.11.3",
 			"vulnerabilities":""
 		}
 	]

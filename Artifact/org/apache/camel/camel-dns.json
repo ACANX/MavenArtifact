@@ -3,12 +3,12 @@
 	"description":"Camel DNS support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-dns",
-	"version_latest":"4.14.0",
-	"ts_publish":1755263975000,
-	"dt_publish":"2025-08-15 21:19:35.000",
-	"ts_update":1758994037193,
-	"dt_update":"2025-09-28 00:16:22.261",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759503287000,
+	"dt_publish":"2025-10-03 22:54:47.000",
+	"ts_update":1762015653691,
+	"dt_update":"2025-11-02 00:17:43.395",
+	"count_dep":2,
 	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-dns@4.13.0",
 	"count_used_by":15,
 	"license":"Apache 2.0",
-	"ranking":"#32063 in MvnRepository",
+	"ranking":"#31869 in MvnRepository",
 	"tags":[
 		"dns",
 		"network",
@@ -30,6 +30,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -66,7 +82,7 @@
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"4.10.7",
 			"vulnerabilities":""
 		},
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]

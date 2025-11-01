@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.pulsar/pulsar-transaction-coordinator",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-transaction-coordinator",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875265000,
-	"dt_publish":"2025-07-30 19:34:25.000",
-	"ts_update":1757176509334,
-	"dt_update":"2025-09-07 00:16:37.927",
-	"count_dep":14,
-	"count_ref":3,
-	"licenses":[],
+	"version_latest":"4.1.1",
+	"ts_publish":1758664635000,
+	"dt_publish":"2025-09-24 05:57:15.000",
+	"ts_update":1762015648295,
+	"dt_update":"2025-11-02 00:17:09.194",
+	"count_dep":146,
+	"count_ref":5,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Transport"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.pulsar/pulsar-transaction-coordinator@4.0.6",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#375505 in MvnRepository",
+	"ranking":"#379043 in MvnRepository",
 	"tags":[
 		"coordinator",
 		"apache",
@@ -25,6 +27,30 @@
 		"transaction"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -90,6 +116,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.3.9",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250730",
 			"repository":"Central",
 			"type":"release",
@@ -152,38 +186,7 @@
 			"usage":1,
 			"version":"3.3.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240605",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240801",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.2.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240517",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240403",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.2.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API."
 }

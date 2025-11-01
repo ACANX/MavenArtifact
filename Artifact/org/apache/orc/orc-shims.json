@@ -3,13 +3,13 @@
 	"description":"A shim layer for supporting various versions of Hadoop dynamically.\n\n    This module uses a higher version of Hadoop so that we can create shims\n    that let us use new features of Hadoop without having a hard dependency\n    on the latest version.",
 	"group_id":"org.apache.orc",
 	"artifact_id":"orc-shims",
-	"version_latest":"2.2.0",
-	"ts_publish":1753568977000,
-	"dt_publish":"2025-07-27 06:29:37.000",
-	"ts_update":1757780287836,
-	"dt_update":"2025-09-14 00:15:36.650",
+	"version_latest":"2.2.1",
+	"ts_publish":1759000452000,
+	"dt_publish":"2025-09-28 03:14:12.000",
+	"ts_update":1762015618432,
+	"dt_update":"2025-11-02 00:17:26.472",
 	"count_dep":4,
-	"count_ref":2,
+	"count_ref":6,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,16 +23,24 @@
 	"url_scm":"https://github.com/apache/maven-apache-parent/tree/apache-27/orc/orc-shims",
 	"count_used_by":14,
 	"license":"Apache 2.0",
-	"ranking":"#32026 in MvnRepository",
+	"ranking":"#32689 in MvnRepository",
 	"tags":[
 		"apache"
 	],
 	"versions":[
 		{
+			"date":"20250927",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.2.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250730",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.2.0",
 			"vulnerabilities":""
 		},
@@ -40,7 +48,7 @@
 			"date":"20250709",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.1.3",
 			"vulnerabilities":""
 		},
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230629",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.9.0",
 			"vulnerabilities":""
 		}
 	]
