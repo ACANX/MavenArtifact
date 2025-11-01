@@ -3,13 +3,13 @@
 	"description":"Bridging Eclipse MicroProfile Config with Camel properties",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-microprofile-config",
-	"version_latest":"4.14.0",
-	"ts_publish":1755264667000,
-	"dt_publish":"2025-08-15 21:31:07.000",
-	"ts_update":1758989928945,
-	"dt_update":"2025-09-28 00:16:26.174",
-	"count_dep":0,
-	"count_ref":436,
+	"version_latest":"4.15.0",
+	"ts_publish":1759504018000,
+	"dt_publish":"2025-10-03 23:06:58.000",
+	"ts_update":1762016231649,
+	"dt_update":"2025-11-02 00:17:47.770",
+	"count_dep":3,
+	"count_ref":204,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-microprofile-config@4.13.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#120146 in MvnRepository",
+	"ranking":"#120708 in MvnRepository",
 	"tags":[
 		"microprofile",
 		"config",
@@ -29,6 +29,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -59,6 +75,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.10.7",
 			"vulnerabilities":""
 		},
 		{
@@ -163,30 +187,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241205",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.2",
 			"vulnerabilities":""
 		}
 	]

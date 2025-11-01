@@ -3,13 +3,13 @@
 	"description":"Apache HttpComponents HTTP/1.1 core components",
 	"group_id":"org.apache.httpcomponents.core5",
 	"artifact_id":"httpcore5",
-	"version_latest":"5.3.6",
-	"ts_publish":1758102783000,
-	"dt_publish":"2025-09-17 17:53:03.000",
-	"ts_update":1759597000058,
-	"dt_update":"2025-10-05 00:17:46.414",
+	"version_latest":"5.4-alpha1",
+	"ts_publish":1759693789000,
+	"dt_publish":"2025-10-06 03:49:49.000",
+	"ts_update":1762016233551,
+	"dt_update":"2025-11-02 00:18:10.673",
 	"count_dep":6,
-	"count_ref":624,
+	"count_ref":8,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -50,10 +50,10 @@
 		"William Speirs"
 	],
 	"url_scm":"https://github.com/apache/httpcomponents-core/tree/5.3.6/httpcore5",
-	"count_used_by":892,
+	"count_used_by":921,
 	"home_page":"https://hc.apache.org/httpcomponents-core-ga/",
 	"license":"Apache 2.0",
-	"ranking":"#687 in MvnRepository",
+	"ranking":"#677 in MvnRepository",
 	"tags":[
 		"network",
 		"apache",
@@ -62,10 +62,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":4,
+			"version":"5.4-alpha1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":438,
+			"usage":464,
 			"version":"5.3.6",
 			"vulnerabilities":""
 		},
@@ -73,7 +81,7 @@
 			"date":"20250826",
 			"repository":"Central",
 			"type":"release",
-			"usage":458,
+			"usage":466,
 			"version":"5.3.5",
 			"vulnerabilities":""
 		},
@@ -81,7 +89,7 @@
 			"date":"20250316",
 			"repository":"Central",
 			"type":"release",
-			"usage":570,
+			"usage":578,
 			"version":"5.3.4",
 			"vulnerabilities":""
 		},
@@ -105,7 +113,7 @@
 			"date":"20241022",
 			"repository":"Central",
 			"type":"release",
-			"usage":493,
+			"usage":495,
 			"version":"5.3.1",
 			"vulnerabilities":""
 		},
@@ -153,7 +161,7 @@
 			"date":"20231127",
 			"repository":"Central",
 			"type":"release",
-			"usage":544,
+			"usage":548,
 			"version":"5.2.4",
 			"vulnerabilities":""
 		},
@@ -185,7 +193,7 @@
 			"date":"20221106",
 			"repository":"Central",
 			"type":"release",
-			"usage":445,
+			"usage":446,
 			"version":"5.2",
 			"vulnerabilities":""
 		},
@@ -211,14 +219,6 @@
 			"type":"alpha",
 			"usage":5,
 			"version":"5.2-alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210909",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":3,
-			"version":"5.2-alpha1",
 			"vulnerabilities":""
 		}
 	]

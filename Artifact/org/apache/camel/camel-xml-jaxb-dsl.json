@@ -3,13 +3,13 @@
 	"description":"Camel XML DSL with camel-xml-jaxb",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-xml-jaxb-dsl",
-	"version_latest":"4.14.0",
-	"ts_publish":1755265337000,
-	"dt_publish":"2025-08-15 21:42:17.000",
-	"ts_update":1758993980819,
-	"dt_update":"2025-09-28 00:16:31.002",
-	"count_dep":0,
-	"count_ref":6,
+	"version_latest":"4.15.0",
+	"ts_publish":1759504876000,
+	"dt_publish":"2025-10-03 23:21:16.000",
+	"ts_update":1762016234758,
+	"dt_update":"2025-11-02 00:17:52.877",
+	"count_dep":2,
+	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/apache/maven-apache-parent/tree/apache-35/camel/camel-parent/dsl/camel-xml-jaxb-dsl",
 	"count_used_by":22,
 	"license":"Apache 2.0",
-	"ranking":"#21228 in MvnRepository",
+	"ranking":"#21515 in MvnRepository",
 	"tags":[
 		"binding",
 		"jaxb",
@@ -32,6 +32,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]
