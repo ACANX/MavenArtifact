@@ -3,13 +3,13 @@
 	"description":"Wicket IoC common dependencies for injection and proxying. Used by\n\t\tSpring, Guice, etc.",
 	"group_id":"org.apache.wicket",
 	"artifact_id":"wicket-ioc",
-	"version_latest":"10.6.0",
-	"ts_publish":1751985517000,
-	"dt_publish":"2025-07-08 22:38:37.000",
-	"ts_update":1755362438185,
-	"dt_update":"2025-08-17 00:18:11.909",
+	"version_latest":"10.7.0",
+	"ts_publish":1758922769000,
+	"dt_publish":"2025-09-27 05:39:29.000",
+	"ts_update":1762013920884,
+	"dt_update":"2025-11-02 00:17:25.736",
 	"count_dep":19,
-	"count_ref":9,
+	"count_ref":12,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -28,17 +28,25 @@
 	"count_used_by":55,
 	"home_page":"https://wicket.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#8912 in MvnRepository",
+	"ranking":"#9250 in MvnRepository",
 	"tags":[
 		"apache",
 		"wicket"
 	],
 	"versions":[
 		{
-			"date":"20250712",
+			"date":"20250926",
 			"repository":"Central",
 			"type":"release",
 			"usage":7,
+			"version":"10.7.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250712",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
 			"version":"10.6.0",
 			"vulnerabilities":""
 		},
@@ -46,7 +54,7 @@
 			"date":"20250425",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":8,
 			"version":"10.5.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"9.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220710",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"9.11.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"A component for Apache Causeway' Wicket viewer, displaying collections of objects that have a date on a fullcalendar.io (JavaScript widget).",
 	"group_id":"org.apache.causeway.extensions",
 	"artifact_id":"causeway-extensions-fullcalendar-applib",
-	"version_latest":"3.4.0",
-	"ts_publish":1751359633000,
-	"dt_publish":"2025-07-01 16:47:13.000",
-	"ts_update":1755363365522,
-	"dt_update":"2025-08-17 00:17:41.950",
-	"count_dep":81,
+	"version_latest":"4.0.0-M1",
+	"ts_publish":1760047755000,
+	"dt_publish":"2025-10-10 06:09:15.000",
+	"ts_update":1762014010729,
+	"dt_update":"2025-11-02 00:18:21.122",
+	"count_dep":72,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -37,9 +37,9 @@
 	],
 	"url_scm":"http://github.com/apache/causeway/causeway-core/causeway-extensions/causeway-extensions-fullcalendar/causeway-extensions-fullcalendar-applib",
 	"url_ci_management":"https://github.com/apache-causeway-committers/causeway-nightly",
-	"count_used_by":2,
+	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#249056 in MvnRepository",
+	"ranking":"#44603 in MvnRepository",
 	"tags":[
 		"calendar",
 		"apache",
@@ -48,10 +48,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":2,
+			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250708",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":11,
 			"version":"3.4.0",
 			"vulnerabilities":""
 		},

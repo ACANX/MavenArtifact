@@ -3,13 +3,13 @@
 	"description":"Camel Health Support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-health",
-	"version_latest":"4.14.0",
-	"ts_publish":1755262124000,
-	"dt_publish":"2025-08-15 20:48:44.000",
-	"ts_update":1758995176101,
-	"dt_update":"2025-09-28 00:16:13.155",
-	"count_dep":0,
-	"count_ref":57,
+	"version_latest":"4.15.0",
+	"ts_publish":1759501192000,
+	"dt_publish":"2025-10-03 22:19:52.000",
+	"ts_update":1762013947569,
+	"dt_update":"2025-11-02 00:17:33.205",
+	"count_dep":2,
+	"count_ref":47,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -18,16 +18,32 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-health@4.13.0",
-	"count_used_by":45,
+	"count_used_by":46,
 	"home_page":"https://camel.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#10596 in MvnRepository",
+	"ranking":"#10661 in MvnRepository",
 	"tags":[
 		"health",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":36,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":35,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -58,6 +74,14 @@
 			"type":"release",
 			"usage":35,
 			"version":"4.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":37,
+			"version":"4.10.7",
 			"vulnerabilities":""
 		},
 		{
@@ -162,30 +186,6 @@
 			"type":"release",
 			"usage":36,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":34,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":34,
-			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241205",
-			"repository":"Central",
-			"type":"release",
-			"usage":35,
-			"version":"4.8.2",
 			"vulnerabilities":""
 		}
 	]

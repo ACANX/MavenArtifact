@@ -3,11 +3,11 @@
 	"description":"Provides integration between Wicket and CDI containers. Enables injection of\n\t\tcomponents and behaviors, as well as other non-contextual object instances.\n\t\tAlso enables propagation of conversations between wicket artifacts such as pages\n\t\tand resources.",
 	"group_id":"org.apache.wicket",
 	"artifact_id":"wicket-cdi",
-	"version_latest":"10.6.0",
-	"ts_publish":1751985525000,
-	"dt_publish":"2025-07-08 22:38:45.000",
-	"ts_update":1755363379943,
-	"dt_update":"2025-08-17 00:18:11.908",
+	"version_latest":"10.7.0",
+	"ts_publish":1758922776000,
+	"dt_publish":"2025-09-27 05:39:36.000",
+	"ts_update":1762013915815,
+	"dt_update":"2025-11-02 00:17:25.735",
 	"count_dep":20,
 	"count_ref":1,
 	"licenses":[
@@ -27,13 +27,21 @@
 	"url_ci_management":"http://ci.apache.org/builders/wicket-master",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#82936 in MvnRepository",
+	"ranking":"#84871 in MvnRepository",
 	"tags":[
 		"cdi",
 		"apache",
 		"wicket"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"10.7.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250712",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220710",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.11.0",
 			"vulnerabilities":""
 		}
 	]

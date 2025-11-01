@@ -3,12 +3,12 @@
 	"description":"Camel Knative HTTP",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-knative-http",
-	"version_latest":"4.14.0",
-	"ts_publish":1755264563000,
-	"dt_publish":"2025-08-15 21:29:23.000",
-	"ts_update":1758993163896,
-	"dt_update":"2025-09-28 00:16:25.674",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759503900000,
+	"dt_publish":"2025-10-03 23:05:00.000",
+	"ts_update":1762013977183,
+	"dt_update":"2025-11-02 00:17:47.026",
+	"count_dep":3,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-knative-http@4.13.0",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#72108 in MvnRepository",
+	"ranking":"#73193 in MvnRepository",
 	"tags":[
 		"kubernetes",
 		"apache",
@@ -29,6 +29,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -65,7 +81,7 @@
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":3,
 			"version":"4.10.7",
 			"vulnerabilities":""
 		},
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"A module providing test utilities for unit testing of domain modules",
 	"group_id":"org.apache.causeway.testing",
 	"artifact_id":"causeway-testing-unittestsupport-applib",
-	"version_latest":"3.4.0",
-	"ts_publish":1751359405000,
-	"dt_publish":"2025-07-01 16:43:25.000",
-	"ts_update":1755364403835,
-	"dt_update":"2025-08-17 00:17:39.920",
-	"count_dep":112,
-	"count_ref":15,
+	"version_latest":"4.0.0-M1",
+	"ts_publish":1760047756000,
+	"dt_publish":"2025-10-10 06:09:16.000",
+	"ts_update":1762013994256,
+	"dt_update":"2025-11-02 00:18:21.120",
+	"count_dep":105,
+	"count_ref":12,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -37,9 +37,9 @@
 	],
 	"url_scm":"http://github.com/apache/causeway/causeway-core/causeway-testing/causeway-testing-unittestsupport/causeway-testing-unittestsupport-applib",
 	"url_ci_management":"https://github.com/apache-causeway-committers/causeway-nightly",
-	"count_used_by":15,
+	"count_used_by":19,
 	"license":"Apache 2.0",
-	"ranking":"#30421 in MvnRepository",
+	"ranking":"#24656 in MvnRepository",
 	"tags":[
 		"quality",
 		"testing",
@@ -48,10 +48,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":12,
+			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250708",
 			"repository":"Central",
 			"type":"release",
-			"usage":15,
+			"usage":19,
 			"version":"3.4.0",
 			"vulnerabilities":""
 		},

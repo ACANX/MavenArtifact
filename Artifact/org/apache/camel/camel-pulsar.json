@@ -3,13 +3,13 @@
 	"description":"Camel Apache Pulsar Component",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-pulsar",
-	"version_latest":"4.14.0",
-	"ts_publish":1755264838000,
-	"dt_publish":"2025-08-15 21:33:58.000",
-	"ts_update":1758994044498,
-	"dt_update":"2025-09-28 00:16:27.573",
-	"count_dep":0,
-	"count_ref":6,
+	"version_latest":"4.15.0",
+	"ts_publish":1759504227000,
+	"dt_publish":"2025-10-03 23:10:27.000",
+	"ts_update":1762014002239,
+	"dt_update":"2025-11-02 00:17:49.254",
+	"count_dep":3,
+	"count_ref":4,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-pulsar@4.13.0",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#48364 in MvnRepository",
+	"ranking":"#48814 in MvnRepository",
 	"tags":[
 		"apache",
 		"pulsar",
@@ -28,10 +28,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250815",
+			"date":"20251007",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
 			"version":"4.14.0",
 			"vulnerabilities":""
 		},
@@ -63,7 +79,7 @@
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"4.10.7",
 			"vulnerabilities":""
 		},
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]

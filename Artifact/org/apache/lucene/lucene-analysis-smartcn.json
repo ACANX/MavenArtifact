@@ -3,13 +3,13 @@
 	"description":"Apache Lucene (module: smartcn)",
 	"group_id":"org.apache.lucene",
 	"artifact_id":"lucene-analysis-smartcn",
-	"version_latest":"10.3.0",
-	"ts_publish":1757788320000,
-	"dt_publish":"2025-09-14 02:32:00.000",
-	"ts_update":1759595714051,
-	"dt_update":"2025-10-05 00:17:35.382",
-	"count_dep":0,
-	"count_ref":1,
+	"version_latest":"10.3.1",
+	"ts_publish":1759758021000,
+	"dt_publish":"2025-10-06 21:40:21.000",
+	"ts_update":1762014017731,
+	"dt_update":"2025-11-02 00:18:12.093",
+	"count_dep":2,
+	"count_ref":4,
 	"licenses":[
 		"Apache 2"
 	],
@@ -25,7 +25,7 @@
 	"count_used_by":21,
 	"home_page":"https://lucene.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#22071 in MvnRepository",
+	"ranking":"#22510 in MvnRepository",
 	"tags":[
 		"lucene",
 		"analysis",
@@ -33,6 +33,14 @@
 		"index"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.3.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250913",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230130",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"9.5.0",
 			"vulnerabilities":""
 		}
 	]

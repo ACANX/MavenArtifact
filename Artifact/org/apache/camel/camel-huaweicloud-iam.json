@@ -3,12 +3,12 @@
 	"description":"To securely manage users on Huawei Cloud",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-huaweicloud-iam",
-	"version_latest":"4.14.0",
-	"ts_publish":1755264299000,
-	"dt_publish":"2025-08-15 21:24:59.000",
-	"ts_update":1758990417911,
-	"dt_update":"2025-09-28 00:16:24.309",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759503616000,
+	"dt_publish":"2025-10-03 23:00:16.000",
+	"ts_update":1762013915334,
+	"dt_update":"2025-11-02 00:17:45.611",
+	"count_dep":4,
 	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-huaweicloud-iam@4.13.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#109677 in MvnRepository",
+	"ranking":"#110865 in MvnRepository",
 	"tags":[
 		"cloud",
 		"apache",
@@ -29,6 +29,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -65,7 +81,7 @@
 			"date":"20250919",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"4.10.7",
 			"vulnerabilities":""
 		},
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]

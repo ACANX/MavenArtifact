@@ -3,11 +3,11 @@
 	"description":"Maven Artifact Transport JDK Java 11+.",
 	"group_id":"org.apache.maven.resolver",
 	"artifact_id":"maven-resolver-transport-jdk-11",
-	"version_latest":"2.0.11",
-	"ts_publish":1757335484000,
-	"dt_publish":"2025-09-08 20:44:44.000",
-	"ts_update":1759595726509,
-	"dt_update":"2025-10-05 00:17:19.069",
+	"version_latest":"2.0.13",
+	"ts_publish":1759828280000,
+	"dt_publish":"2025-10-07 17:11:20.000",
+	"ts_update":1762013934088,
+	"dt_update":"2025-11-02 00:18:13.549",
 	"count_dep":12,
 	"count_ref":1,
 	"licenses":[
@@ -119,7 +119,7 @@
 	"url_ci_management":"https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-resolver/",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#124535 in MvnRepository",
+	"ranking":"#127007 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
@@ -131,10 +131,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250701",
+			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.0.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250701",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.0.10",
 			"vulnerabilities":""
 		},
@@ -272,22 +288,6 @@
 			"type":"alpha",
 			"usage":3,
 			"version":"2.0.0-alpha-3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231118",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"2.0.0-alpha-2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231106",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"2.0.0-alpha-1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Tomcat Servlet Engine Core Classes and Standard implementations",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-catalina",
-	"version_latest":"11.0.11",
-	"ts_publish":1756724540000,
-	"dt_publish":"2025-09-01 19:02:20.000",
-	"ts_update":1759594748337,
-	"dt_update":"2025-10-05 00:16:57.140",
+	"version_latest":"11.0.13",
+	"ts_publish":1760105960000,
+	"dt_publish":"2025-10-10 22:19:20.000",
+	"ts_update":1762013950738,
+	"dt_update":"2025-11-02 00:18:26.268",
 	"count_dep":0,
-	"count_ref":14,
+	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,10 +19,10 @@
 	"dsv":1,
 	"url_project":"https://tomcat.apache.org/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomcat/tomcat-catalina@11.0.10",
-	"count_used_by":670,
+	"count_used_by":675,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#914 in MvnRepository",
+	"ranking":"#932 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
@@ -33,10 +33,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250905",
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.0.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
 			"repository":"Central",
 			"type":"release",
 			"usage":5,
+			"version":"11.0.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250905",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
 			"version":"11.0.11",
 			"vulnerabilities":""
 		},
@@ -174,22 +190,6 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"11.0.0-M20",
-			"vulnerabilities":"11 vulnerabilities"
-		},
-		{
-			"date":"20240416",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":3,
-			"version":"11.0.0-M19",
-			"vulnerabilities":"11 vulnerabilities"
-		},
-		{
-			"date":"20240314",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":2,
-			"version":"11.0.0-M18",
 			"vulnerabilities":"11 vulnerabilities"
 		}
 	]
