@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/org.apache.causeway/causeway-bom",
-	"description":"Apache Causeway Bill of Material (BOM).\n        Also the parent POM for the core framework and extensions.",
+	"description":"Apache Causeway Bill of Material (BOM).\n        All the build configuration goes into the parent POM,\n        which inherits from this BOM and is the parent for the core framework\n        and extensions.",
 	"group_id":"org.apache.causeway",
 	"artifact_id":"causeway-bom",
-	"version_latest":"3.4.0",
-	"ts_publish":1751359029000,
-	"dt_publish":"2025-07-01 16:37:09.000",
-	"ts_update":1755362437153,
-	"dt_update":"2025-08-17 00:17:39.001",
+	"version_latest":"4.0.0-M1",
+	"ts_publish":1760047727000,
+	"dt_publish":"2025-10-10 06:08:47.000",
+	"ts_update":1762014981290,
+	"dt_update":"2025-11-02 00:18:19.432",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -40,7 +40,7 @@
 	"url_ci_management":"https://github.com/apache-causeway-committers/causeway-nightly",
 	"home_page":"https://causeway.apache.org",
 	"license":"Apache 2.0",
-	"ranking":"#822287 in MvnRepository",
+	"ranking":"#959131 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
@@ -48,6 +48,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",

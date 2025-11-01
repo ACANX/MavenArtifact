@@ -3,12 +3,12 @@
 	"description":"Camel FHIR API",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-fhir-api",
-	"version_latest":"4.14.0",
-	"ts_publish":1755264043000,
-	"dt_publish":"2025-08-15 21:20:43.000",
-	"ts_update":1758991723818,
-	"dt_update":"2025-09-28 00:16:22.941",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759503355000,
+	"dt_publish":"2025-10-03 22:55:55.000",
+	"ts_update":1762014984852,
+	"dt_update":"2025-11-02 00:17:44.133",
+	"count_dep":3,
 	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
@@ -20,13 +20,29 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-fhir-api@4.13.0",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#82256 in MvnRepository",
+	"ranking":"#82962 in MvnRepository",
 	"tags":[
 		"apache",
 		"api",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -57,6 +73,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.10.7",
 			"vulnerabilities":""
 		},
 		{
@@ -161,30 +185,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241205",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.2",
 			"vulnerabilities":""
 		}
 	]
