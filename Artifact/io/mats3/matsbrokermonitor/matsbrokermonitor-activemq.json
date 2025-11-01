@@ -3,11 +3,11 @@
 	"description":"ActiveMQ specific implementation of MatsBrokerMonitor (queue lengths, age of head message etc.)",
 	"group_id":"io.mats3.matsbrokermonitor",
 	"artifact_id":"matsbrokermonitor-activemq",
-	"version_latest":"1.1.1+2025-10-20",
-	"ts_publish":1760981332000,
-	"dt_publish":"2025-10-21 01:28:52.000",
-	"ts_update":1760990230886,
-	"dt_update":"2025-10-21 03:56:16.123",
+	"version_latest":"2.0.0+2025-11-01",
+	"ts_publish":1762036844000,
+	"dt_publish":"2025-11-02 06:40:44.000",
+	"ts_update":1762037779460,
+	"dt_update":"2025-11-02 06:56:10.681",
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -22,13 +22,37 @@
 	"url_scm":"https://github.com/centiservice/matsbrokermonitor",
 	"count_used_by":1,
 	"home_page":"https://github.com/centiservice/matsbrokermonitor",
-	"ranking":"#415752 in MvnRepository",
+	"ranking":"#396344 in MvnRepository",
 	"tags":[
 		"jms",
 		"activemq",
 		"queue"
 	],
 	"versions":[
+		{
+			"date":"20250604",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"RC-1.1.0.RC0-2025-06-04",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"B-2.0.0.B0+2025-10-27",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.1+2025-10-20",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250620",
 			"repository":"Central",
@@ -163,30 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.1.6-2023-11-13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221114",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.1.5-2022-11-13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221109",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.1.4-2022-11-09",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220506",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.1.3-2022-05-06",
 			"vulnerabilities":""
 		}
 	]
