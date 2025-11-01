@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.apache.camel/camel-test-infra-messaging-common",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-test-infra-messaging-common",
-	"version_latest":"4.14.0",
-	"ts_publish":1755262623000,
-	"dt_publish":"2025-08-15 20:57:03.000",
-	"ts_update":1758994032741,
-	"dt_update":"2025-09-28 00:16:15.406",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759501846000,
+	"dt_publish":"2025-10-03 22:30:46.000",
+	"ts_update":1762014393914,
+	"dt_update":"2025-11-02 00:17:35.376",
+	"count_dep":4,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -17,9 +17,9 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-test-infra-messaging-common@4.13.0",
-	"count_used_by":5,
+	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#90573 in MvnRepository",
+	"ranking":"#77004 in MvnRepository",
 	"tags":[
 		"messaging",
 		"testing",
@@ -28,10 +28,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250815",
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"4.14.0",
 			"vulnerabilities":""
 		},
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]

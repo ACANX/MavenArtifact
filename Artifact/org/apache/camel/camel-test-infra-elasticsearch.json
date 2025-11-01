@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.apache.camel/camel-test-infra-elasticsearch",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-test-infra-elasticsearch",
-	"version_latest":"4.14.0",
-	"ts_publish":1755262566000,
-	"dt_publish":"2025-08-15 20:56:06.000",
-	"ts_update":1758995217088,
-	"dt_update":"2025-09-28 00:16:15.410",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759501776000,
+	"dt_publish":"2025-10-03 22:29:36.000",
+	"ts_update":1762014417267,
+	"dt_update":"2025-11-02 00:17:35.380",
+	"count_dep":4,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -19,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-test-infra-elasticsearch@4.13.0",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#236029 in MvnRepository",
+	"ranking":"#214894 in MvnRepository",
 	"tags":[
 		"elasticsearch",
 		"testing",
@@ -30,10 +30,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250815",
+			"date":"20251003",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"4.14.0",
 			"vulnerabilities":""
 		},
@@ -59,6 +75,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.10.7",
 			"vulnerabilities":""
 		},
 		{
@@ -126,6 +150,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.8.9",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250626",
 			"repository":"Central",
 			"type":"release",
@@ -155,38 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241205",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241024",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.1",
 			"vulnerabilities":""
 		}
 	]

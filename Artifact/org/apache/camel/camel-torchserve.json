@@ -3,12 +3,12 @@
 	"description":"Provide access to PyTorch TorchServe servers to run inference with PyTorch models remotely",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-torchserve",
-	"version_latest":"4.14.0",
-	"ts_publish":1755263389000,
-	"dt_publish":"2025-08-15 21:09:49.000",
-	"ts_update":1758995130019,
-	"dt_update":"2025-09-28 00:16:19.008",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759502693000,
+	"dt_publish":"2025-10-03 22:44:53.000",
+	"ts_update":1762014393962,
+	"dt_update":"2025-11-02 00:17:39.741",
+	"count_dep":9,
 	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
@@ -20,12 +20,28 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-torchserve@4.13.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#140802 in MvnRepository",
+	"ranking":"#142315 in MvnRepository",
 	"tags":[
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -62,7 +78,7 @@
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"4.10.7",
 			"vulnerabilities":""
 		},

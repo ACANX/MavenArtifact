@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.causeway.extensions/causeway-extensions-audittrail-applib",
 	"group_id":"org.apache.causeway.extensions",
 	"artifact_id":"causeway-extensions-audittrail-applib",
-	"version_latest":"3.4.0",
-	"ts_publish":1751359582000,
-	"dt_publish":"2025-07-01 16:46:22.000",
-	"ts_update":1755361590437,
-	"dt_update":"2025-08-17 00:17:41.317",
-	"count_dep":5,
-	"count_ref":4,
-	"licenses":[],
+	"version_latest":"4.0.0-M1",
+	"ts_publish":1760047835000,
+	"dt_publish":"2025-10-10 06:10:35.000",
+	"ts_update":1762014486531,
+	"dt_update":"2025-11-02 00:18:23.564",
+	"count_dep":74,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.causeway.extensions/causeway-extensions-audittrail-applib@3.4.0",
 	"count_used_by":2,
@@ -109,5 +111,6 @@
 			"version":"2.0.0-RC1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Extensions to the Apache Causeway framework itself.\n\t\tThese are _not_ intended to be called by the domain logic of an Apache Causeway application (see instead org.apache.causeway.platform)."
 }
