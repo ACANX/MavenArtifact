@@ -3,12 +3,12 @@
 	"description":"A basic library to parse and verify JWTs, with OpenID discovery used to obtain JWKs asynchronously (via Vertx)",
 	"group_id":"uk.co.spudsoft",
 	"artifact_id":"jwt-validator-vertx",
-	"version_latest":"0.0.46",
-	"ts_publish":1756745607000,
-	"dt_publish":"2025-09-02 00:53:27.000",
-	"ts_update":1756746802058,
-	"dt_update":"2025-09-02 01:13:01.515",
-	"count_dep":62,
+	"version_latest":"0.1.0",
+	"ts_publish":1762106510000,
+	"dt_publish":"2025-11-03 02:01:50.000",
+	"ts_update":1762107557484,
+	"dt_update":"2025-11-03 02:19:10.377",
+	"count_dep":66,
 	"count_ref":0,
 	"licenses":[
 		"General Public License 3.0"
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/Yaytay/jwt-validator-vertx.git",
 	"home_page":"https://github.com/Yaytay/jwt-validator-vertx",
 	"license":"GPL 3.0",
-	"ranking":"#665421 in MvnRepository",
+	"ranking":"#987839 in MvnRepository",
 	"tags":[
 		"vertx",
 		"jwt",
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.0.46",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250817",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.0.18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230514",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.0.17",
 			"vulnerabilities":""
 		}
 	]
