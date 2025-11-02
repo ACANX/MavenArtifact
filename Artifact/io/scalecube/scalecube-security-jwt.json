@@ -3,12 +3,12 @@
 	"description":"ScaleCube is a lightweight decentralized cluster membership, failure detection, messaging and\n    gossip protocol library for the Java VM.",
 	"group_id":"io.scalecube",
 	"artifact_id":"scalecube-security-jwt",
-	"version_latest":"1.1.8.jjwt.rc1",
-	"ts_publish":1761900468000,
-	"dt_publish":"2025-10-31 16:47:48.000",
-	"ts_update":1761902278350,
-	"dt_update":"2025-10-31 17:17:42.428",
-	"count_dep":15,
+	"version_latest":"1.1.9",
+	"ts_publish":1762092690000,
+	"dt_publish":"2025-11-02 22:11:30.000",
+	"ts_update":1762093591345,
+	"dt_update":"2025-11-02 22:26:20.063",
+	"count_dep":7,
 	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -23,14 +23,30 @@
 		"The ScaleCube Project Contributors"
 	],
 	"url_scm":"https://github.com/scalecube/scalecube/scalecube-security-jwt",
-	"count_used_by":2,
+	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#236411 in MvnRepository",
+	"ranking":"#122368 in MvnRepository",
 	"tags":[
 		"security",
 		"jwt"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.1.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.1.8.jjwt.rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250127",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.0.20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210409",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.19",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210324",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.18",
 			"vulnerabilities":""
 		}
 	]
