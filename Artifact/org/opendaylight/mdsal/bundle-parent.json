@@ -3,11 +3,11 @@
 	"description":"Bundle parent (felix-based)",
 	"group_id":"org.opendaylight.mdsal",
 	"artifact_id":"bundle-parent",
-	"version_latest":"15.0.1",
-	"ts_publish":1760555156000,
-	"dt_publish":"2025-10-16 03:05:56.000",
-	"ts_update":1760557491866,
-	"dt_update":"2025-10-16 03:44:43.113",
+	"version_latest":"15.0.2",
+	"ts_publish":1762089480000,
+	"dt_publish":"2025-11-02 21:18:00.000",
+	"ts_update":1762091071714,
+	"dt_update":"2025-11-02 21:44:23.035",
 	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
@@ -26,17 +26,33 @@
 	"url_scm":"https://wiki.opendaylight.org/display/ODL/MD-SAL",
 	"url_ci_management":"https://jenkins.opendaylight.org/releng/",
 	"license":"EPL 1.0",
-	"ranking":"#880623 in MvnRepository",
+	"ranking":"#872972 in MvnRepository",
 	"tags":[
 		"bundle"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250920",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"15.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"14.0.19",
 			"vulnerabilities":""
 		},
 		{
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"14.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250715",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"13.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250713",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"13.0.9",
 			"vulnerabilities":""
 		}
 	]

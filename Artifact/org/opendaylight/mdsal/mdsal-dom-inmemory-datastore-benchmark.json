@@ -3,11 +3,11 @@
 	"description":"Bundle parent (felix-based)",
 	"group_id":"org.opendaylight.mdsal",
 	"artifact_id":"mdsal-dom-inmemory-datastore-benchmark",
-	"version_latest":"15.0.1",
-	"ts_publish":1760555172000,
-	"dt_publish":"2025-10-16 03:06:12.000",
-	"ts_update":1760558224703,
-	"dt_update":"2025-10-16 03:56:41.361",
+	"version_latest":"15.0.2",
+	"ts_publish":1762089497000,
+	"dt_publish":"2025-11-02 21:18:17.000",
+	"ts_update":1762091069800,
+	"dt_update":"2025-11-02 21:44:23.032",
 	"count_dep":80,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://wiki.opendaylight.org/display/ODL/MD-SAL/mdsal-dom-inmemory-datastore-benchmark",
 	"url_ci_management":"https://jenkins.opendaylight.org/releng/",
 	"license":"EPL 1.0",
-	"ranking":"#669568 in MvnRepository",
+	"ranking":"#755186 in MvnRepository",
 	"tags":[
 		"persistence",
 		"data",
@@ -38,11 +38,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.0.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250920",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"15.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"14.0.19",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"14.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250715",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"13.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250713",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"13.0.9",
 			"vulnerabilities":""
 		}
 	]

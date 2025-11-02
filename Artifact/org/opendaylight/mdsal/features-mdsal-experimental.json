@@ -3,11 +3,11 @@
 	"description":"MD-SAL experimental feature repository",
 	"group_id":"org.opendaylight.mdsal",
 	"artifact_id":"features-mdsal-experimental",
-	"version_latest":"15.0.1",
-	"ts_publish":1760555178000,
-	"dt_publish":"2025-10-16 03:06:18.000",
-	"ts_update":1760558213905,
-	"dt_update":"2025-10-16 03:56:41.359",
+	"version_latest":"15.0.2",
+	"ts_publish":1762089503000,
+	"dt_publish":"2025-11-02 21:18:23.000",
+	"ts_update":1762091072033,
+	"dt_update":"2025-11-02 21:44:23.030",
 	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
@@ -27,17 +27,33 @@
 	"url_ci_management":"https://jenkins.opendaylight.org/releng/",
 	"count_used_by":1,
 	"license":"EPL 1.0",
-	"ranking":"#265341 in MvnRepository",
+	"ranking":"#267254 in MvnRepository",
 	"tags":[
 		"experimental"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"15.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250920",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
 			"version":"15.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"14.0.19",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"14.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250715",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"13.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250713",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"13.0.9",
 			"vulnerabilities":""
 		}
 	]
