@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-hibernate-validator",
 	"group_id":"io.quarkiverse.mcp",
 	"artifact_id":"quarkus-mcp-server-hibernate-validator",
-	"version_latest":"1.7.0",
-	"ts_publish":1760520080000,
-	"dt_publish":"2025-10-15 17:21:20.000",
-	"ts_update":1760520896135,
-	"dt_update":"2025-10-15 17:34:48.335",
-	"count_dep":3,
+	"version_latest":"1.7.1",
+	"ts_publish":1762161230000,
+	"dt_publish":"2025-11-03 17:13:50.000",
+	"ts_update":1762161991387,
+	"dt_update":"2025-11-03 17:26:25.525",
+	"count_dep":91,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-hibernate-validator@1.6.0",
@@ -20,7 +22,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-mcp-server",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#246599 in MvnRepository",
+	"ranking":"#220725 in MvnRepository",
 	"tags":[
 		"persistence",
 		"server",
@@ -29,6 +31,14 @@
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.7.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251008",
 			"repository":"Central",
@@ -45,5 +55,6 @@
 			"version":"1.6.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
