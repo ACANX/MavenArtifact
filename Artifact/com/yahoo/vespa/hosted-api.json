@@ -3,13 +3,13 @@
 	"description":"Miscellaneous for tenant client -- hosted Vespa controller communication",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"hosted-api",
-	"version_latest":"8.600.35",
-	"ts_publish":1761636431000,
-	"dt_publish":"2025-10-28 15:27:11.000",
-	"ts_update":1761637541079,
-	"dt_update":"2025-10-28 15:45:18.513",
-	"count_dep":20,
-	"count_ref":5,
+	"version_latest":"8.601.1",
+	"ts_publish":1762139210000,
+	"dt_publish":"2025-11-03 11:06:50.000",
+	"ts_update":1762140398767,
+	"dt_update":"2025-11-03 11:26:23.926",
+	"count_dep":14,
+	"count_ref":4,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,11 +26,27 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/hosted-api",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#63262 in MvnRepository",
+	"ranking":"#63383 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.600.35",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.599.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"8.575.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.574.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250902",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.573.19",
 			"vulnerabilities":""
 		}
 	]

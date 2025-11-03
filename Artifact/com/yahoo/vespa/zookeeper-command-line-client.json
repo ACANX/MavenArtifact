@@ -3,11 +3,11 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"zookeeper-command-line-client",
-	"version_latest":"8.600.35",
-	"ts_publish":1761636431000,
-	"dt_publish":"2025-10-28 15:27:11.000",
-	"ts_update":1761637532361,
-	"dt_update":"2025-10-28 15:45:18.035",
+	"version_latest":"8.601.1",
+	"ts_publish":1762139210000,
+	"dt_publish":"2025-11-03 11:06:50.000",
+	"ts_update":1762140404462,
+	"dt_update":"2025-11-03 11:26:23.929",
 	"count_dep":33,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,29 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/zookeeper-command-line-client",
 	"license":"Apache 2.0",
-	"ranking":"#880236 in MvnRepository",
+	"ranking":"#891076 in MvnRepository",
 	"tags":[
 		"command",
 		"client",
 		"zookeeper"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.600.35",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.599.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.575.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.574.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250902",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.573.19",
 			"vulnerabilities":""
 		}
 	]
