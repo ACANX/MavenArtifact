@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/ognl/ognl",
-	"description":"OGNL - Object Graph Navigation Library",
+	"description":"OGNL - Core module of Object Graph Navigation Library",
 	"group_id":"ognl",
 	"artifact_id":"ognl",
-	"version_latest":"3.4.8",
-	"ts_publish":1761469181000,
-	"dt_publish":"2025-10-26 16:59:41.000",
-	"ts_update":1761470812557,
-	"dt_update":"2025-10-26 17:26:31.348",
-	"count_dep":6,
-	"count_ref":0,
+	"version_latest":"3.5.0-BETA1",
+	"ts_publish":1762150646000,
+	"dt_publish":"2025-11-03 14:17:26.000",
+	"ts_update":1762151172145,
+	"dt_update":"2025-11-03 14:25:41.407",
+	"count_dep":3,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -24,12 +24,20 @@
 	"count_used_by":554,
 	"home_page":"https://github.com/orphan-oss/ognl/orphan/ognl/",
 	"license":"Apache 2.0",
-	"ranking":"#1122 in MvnRepository",
+	"ranking":"#1125 in MvnRepository",
 	"tags":[
 		"expression",
 		"language"
 	],
 	"versions":[
+		{
+			"date":"20251026",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.4.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250330",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.2.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20201114",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.2.16",
 			"vulnerabilities":""
 		}
 	]
