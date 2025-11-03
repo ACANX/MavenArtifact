@@ -3,10 +3,10 @@
 	"description":"Hedera NetworkAdmin Service API",
 	"group_id":"com.hedera.hashgraph",
 	"artifact_id":"app-service-network-admin",
-	"version_latest":"0.67.2",
-	"ts_publish":1761589339000,
-	"ts_update":1761591191640,
-	"count_dep":17,
+	"version_latest":"0.68.0-rc.1",
+	"ts_publish":1762199739000,
+	"ts_update":1762202246624,
+	"count_dep":8,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,18 +22,26 @@
 		"The Hiero Team"
 	],
 	"url_scm":"https://github.com/hiero-ledger/hiero-consensus-node",
-	"dt_publish":"2025-10-28 02:22:19.000",
-	"dt_update":"2025-10-28 02:52:58.652",
+	"dt_publish":"2025-11-04 03:55:39.000",
+	"dt_update":"2025-11-04 04:36:42.958",
 	"count_used_by":2,
 	"home_page":"https://hiero.org/",
 	"license":"Apache 2.0",
-	"ranking":"#201212 in MvnRepository",
+	"ranking":"#201492 in MvnRepository",
 	"tags":[
 		"network",
 		"admin",
 		"service"
 	],
 	"versions":[
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.67.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.64.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250801",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.64.2-rc1",
 			"vulnerabilities":""
 		}
 	]
