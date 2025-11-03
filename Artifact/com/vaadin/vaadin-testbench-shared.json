@@ -3,11 +3,11 @@
 	"description":"Vaadin TestBench shared classes not dependant on any concrete testing framework.",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-testbench-shared",
-	"version_latest":"10.0.0-beta2",
-	"ts_publish":1761736019000,
-	"ts_update":1761737187664,
-	"count_dep":8,
-	"count_ref":2,
+	"version_latest":"10.0.0-beta3",
+	"ts_publish":1762176225000,
+	"ts_update":1762177469409,
+	"count_dep":48,
+	"count_ref":3,
 	"licenses":[
 		"Vaadin Commercial License and Service Terms"
 	],
@@ -19,13 +19,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vaadin/vaadin-testbench-shared@9.4.3",
 	"url_scm":"https://github.com/vaadin/maven-integration/vaadin-testbench-parent/vaadin-testbench-shared",
 	"count_used_by":48,
-	"ranking":"#10266 in MvnRepository",
+	"ranking":"#10296 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"beta",
+			"usage":47,
+			"version":"10.0.0-beta2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251013",
 			"repository":"Central",
@@ -38,7 +46,7 @@
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":48,
 			"version":"9.5.2",
 			"vulnerabilities":""
 		},
@@ -78,7 +86,7 @@
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":48,
 			"version":"9.4.5",
 			"vulnerabilities":""
 		},
@@ -177,16 +185,8 @@
 			"usage":46,
 			"version":"9.3.8",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":46,
-			"version":"9.3.7",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-10-29 19:06:59.000",
-	"dt_update":"2025-10-29 19:26:21.265"
+	"dt_publish":"2025-11-03 21:23:45.000",
+	"dt_update":"2025-11-03 21:44:21.990"
 }

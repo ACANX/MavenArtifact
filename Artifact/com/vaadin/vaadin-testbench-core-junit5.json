@@ -2,11 +2,11 @@
 	"id":"pkg:maven/com.vaadin/vaadin-testbench-core-junit5",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-testbench-core-junit5",
-	"version_latest":"10.0.0-beta2",
-	"ts_publish":1761736019000,
-	"ts_update":1761737190479,
-	"count_dep":11,
-	"count_ref":0,
+	"version_latest":"10.0.0-beta3",
+	"ts_publish":1762176225000,
+	"ts_update":1762177470499,
+	"count_dep":71,
+	"count_ref":1,
 	"licenses":[
 		"Vaadin Commercial License and Service Terms"
 	],
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vaadin/vaadin-testbench-core-junit5@9.4.3",
 	"url_scm":"https://github.com/vaadin/maven-integration/vaadin-testbench-parent/vaadin-testbench-core-junit5",
 	"count_used_by":2,
-	"ranking":"#203339 in MvnRepository",
+	"ranking":"#203632 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"junit",
@@ -26,6 +26,14 @@
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"10.0.0-beta2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251013",
 			"repository":"Central",
@@ -38,7 +46,7 @@
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"9.5.2",
 			"vulnerabilities":""
 		},
@@ -78,7 +86,7 @@
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"9.4.5",
 			"vulnerabilities":""
 		},
@@ -177,16 +185,9 @@
 			"usage":1,
 			"version":"9.3.8",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.3.7",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-10-29 19:06:59.000",
-	"dt_update":"2025-10-29 19:26:21.266"
+	"dt_publish":"2025-11-03 21:23:45.000",
+	"dt_update":"2025-11-03 21:44:21.991",
+	"description":"A parent POM for all artifacts by Vaadin Ltd."
 }
