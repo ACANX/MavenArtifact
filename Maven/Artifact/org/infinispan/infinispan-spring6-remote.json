@@ -1,18 +1,16 @@
 {
   "id": "pkg:maven/org.infinispan/infinispan-spring6-remote",
-  "description": "The Infinispan Spring Integration project provides Spring 6\n        integration for Infinispan, a high performance distributed cache.\n        Its primary features are\n\n        * An implementation of org.springframework.cache.CacheManager,\n        Spring's central caching abstraction, backed by Infinispan's\n        EmbeddedCacheManager. To be used if your Spring-powered\n        application and Infinispan are colocated, i.e. running within\n        the same VM.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by Infinispan's RemoteCacheManager. To bes used if your\n        Spring-powered application accesses Infinispan remotely, i.e.\n        over the network.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by a CacheContainer reference. To be used if your Spring-\n        powered application needs access to a CacheContainer defined\n        outside the application (e.g. retrieved from JNDI)\n        * Spring namespace support allowing shortcut definitions for all the\n        components above\n\n        In addition, Infinispan Spring Integration offers various FactoryBeans\n        for facilitating creation of Infinispan core classes - Cache, CacheManager,\n        ... - within a Spring context.",
+  "description": null,
   "group_id": "org.infinispan",
   "artifact_id": "infinispan-spring6-remote",
-  "version_latest": "16.0.0.Dev06",
-  "ts_publish": 1760522236000,
-  "dt_publish": "2025-10-15 17:57:16.000",
-  "ts_update": 1760523475342,
-  "dt_update": "2025-10-15 18:17:55.342",
-  "count_dep": 104,
+  "version_latest": "16.0.0.Dev07",
+  "ts_publish": 1762201883000,
+  "dt_publish": "2025-11-04 04:31:23.000",
+  "ts_update": 1762202858451,
+  "dt_update": "2025-11-04 04:47:38.451",
+  "count_dep": 34,
   "count_ref": 2,
-  "licenses": [
-    "Apache License 2.0"
-  ],
+  "licenses": [],
   "categories": [
     "Data Management",
     "Database",
