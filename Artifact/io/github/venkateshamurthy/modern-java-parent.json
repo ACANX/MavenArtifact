@@ -3,11 +3,11 @@
 	"description":"A reusable parent POM for modern Java libraries — Java 17, JUnit 5, Lombok, SLF4J/Log4j2,\n        Jackson, Commons, RxJava3, Resilience4j, Vavr, Sonatype Central, and SonarQube ready.\n        Please note (as is common in maven projects) since all dependencies are declared within dependencyManagement\n        and hence you need to declare again the dependency in your pom just with groupId and artifactId.",
 	"group_id":"io.github.venkateshamurthy",
 	"artifact_id":"modern-java-parent",
-	"version_latest":"1.2.0",
-	"ts_publish":1761985093000,
-	"dt_publish":"2025-11-01 16:18:13.000",
-	"ts_update":1761986965638,
-	"dt_update":"2025-11-01 16:49:15.458",
+	"version_latest":"1.3.0",
+	"ts_publish":1762171312000,
+	"dt_publish":"2025-11-03 20:01:52.000",
+	"ts_update":1762172800193,
+	"dt_update":"2025-11-03 20:26:28.126",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,11 +24,27 @@
 	"url_ci_management":"https://github.com/venkateshamurthy/modern-java-parent/actions",
 	"home_page":"https://github.com/venkateshamurthy/modern-java-parent",
 	"license":"Apache 2.0",
-	"ranking":"#837162 in MvnRepository",
+	"ranking":"#846344 in MvnRepository",
 	"tags":[
 		"github"
 	],
 	"versions":[
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251031",
 			"repository":"Central",
