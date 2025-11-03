@@ -3,11 +3,11 @@
 	"description":"This plugin is a state-of-the-art solution that can be used to validate the integrity\n    of a maven repository.\n    It does this by generating a lock file that contains the checksums of all the artifacts and plugins in the\n    repository.\n    The lock file can then be used to validate the integrity of the repository.\n    This guards the supply chain against malicious actors that might tamper with the artifacts in\n    the repository.",
 	"group_id":"io.github.chains-project",
 	"artifact_id":"maven-lockfile-parent",
-	"version_latest":"5.8.3-beta-2",
-	"ts_publish":1762045455000,
-	"dt_publish":"2025-11-02 09:04:15.000",
-	"ts_update":1762062990304,
-	"dt_update":"2025-11-02 13:56:22.821",
+	"version_latest":"5.9.0",
+	"ts_publish":1762176417000,
+	"dt_publish":"2025-11-03 21:26:57.000",
+	"ts_update":1762178205096,
+	"dt_update":"2025-11-03 21:56:25.647",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/chains-project/maven-lockfile/tree/v5.6.2",
 	"home_page":"https://github.com/chains-project/maven-lockfile",
 	"license":"MIT",
-	"ranking":"#713208 in MvnRepository",
+	"ranking":"#667864 in MvnRepository",
 	"tags":[
 		"github",
 		"build",
@@ -31,6 +31,14 @@
 		"locking"
 	],
 	"versions":[
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"5.8.3-beta-2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251031",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.3.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241220",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.3.4",
 			"vulnerabilities":""
 		}
 	]
