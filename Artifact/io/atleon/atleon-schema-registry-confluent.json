@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.atleon/atleon-schema-registry-confluent",
-	"description":"Reactive streaming library targeting continuous pipelines with at-least-once processing guarantees. Backed by Project Reactor.",
 	"group_id":"io.atleon",
 	"artifact_id":"atleon-schema-registry-confluent",
-	"version_latest":"0.36.1",
-	"ts_publish":1760895930000,
-	"dt_publish":"2025-10-20 01:45:30.000",
-	"ts_update":1760896586945,
-	"dt_update":"2025-10-20 01:56:15.245",
-	"count_dep":34,
+	"version_latest":"0.36.2",
+	"ts_publish":1762191886000,
+	"dt_publish":"2025-11-04 01:44:46.000",
+	"ts_update":1762192590127,
+	"dt_update":"2025-11-04 01:56:17.696",
+	"count_dep":11,
 	"count_ref":0,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/atleon/atleon/atleon-parent/atleon-schemas/atleon-schema-registry-confluent",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.atleon/atleon-schema-registry-confluent@0.33.0",
@@ -22,13 +19,21 @@
 	"url_scm":"http://github.com/atleon/atleon/atleon-parent/atleon-schemas/atleon-schema-registry-confluent",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#352855 in MvnRepository",
+	"ranking":"#339243 in MvnRepository",
 	"tags":[
 		"confluent",
 		"registry",
 		"schema"
 	],
 	"versions":[
+		{
+			"date":"20251019",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.36.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -179,14 +184,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.31.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250414",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.31.0",
 			"vulnerabilities":""
 		}
 	]

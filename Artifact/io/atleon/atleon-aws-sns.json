@@ -3,11 +3,11 @@
 	"description":"Reactive streaming library targeting continuous pipelines with at-least-once processing guarantees. Backed by Project Reactor.",
 	"group_id":"io.atleon",
 	"artifact_id":"atleon-aws-sns",
-	"version_latest":"0.36.1",
-	"ts_publish":1760895930000,
-	"dt_publish":"2025-10-20 01:45:30.000",
-	"ts_update":1760896584692,
-	"dt_update":"2025-10-20 01:56:15.244",
+	"version_latest":"0.36.2",
+	"ts_publish":1762191886000,
+	"dt_publish":"2025-11-04 01:44:46.000",
+	"ts_update":1762192584329,
+	"dt_update":"2025-11-04 01:56:17.162",
 	"count_dep":42,
 	"count_ref":2,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"http://github.com/atleon/atleon/atleon-parent/atleon-aws/atleon-aws-sns",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#201835 in MvnRepository",
+	"ranking":"#202732 in MvnRepository",
 	"tags":[
 		"amazon",
 		"aws",
 		"sns"
 	],
 	"versions":[
+		{
+			"date":"20251019",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.36.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.31.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250414",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.31.0",
 			"vulnerabilities":""
 		}
 	]

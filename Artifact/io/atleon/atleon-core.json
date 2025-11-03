@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.atleon/atleon-core",
-	"description":"Reactive streaming library targeting continuous pipelines with at-least-once processing guarantees. Backed by Project Reactor.",
 	"group_id":"io.atleon",
 	"artifact_id":"atleon-core",
-	"version_latest":"0.36.1",
-	"ts_publish":1760895930000,
-	"dt_publish":"2025-10-20 01:45:30.000",
-	"ts_update":1760897996007,
-	"dt_update":"2025-10-20 02:19:43.481",
-	"count_dep":17,
-	"count_ref":13,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"version_latest":"0.36.2",
+	"ts_publish":1762191886000,
+	"dt_publish":"2025-11-04 01:44:46.000",
+	"ts_update":1762192590000,
+	"dt_update":"2025-11-04 01:56:17.160",
+	"count_dep":11,
+	"count_ref":12,
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/atleon/atleon/atleon-parent/atleon-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.atleon/atleon-core@0.33.0",
@@ -22,8 +19,16 @@
 	"url_scm":"http://github.com/atleon/atleon/atleon-parent/atleon-core",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#47335 in MvnRepository",
+	"ranking":"#48640 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251019",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"0.36.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -174,14 +179,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"0.31.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250414",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"0.31.0",
 			"vulnerabilities":""
 		}
 	]
