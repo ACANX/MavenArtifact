@@ -3,12 +3,12 @@
 	"description":"JDBC Driver from Microsoft for SQL Server, SQL Server is a relational database management system developed by Microsoft.",
 	"group_id":"org.lucee",
 	"artifact_id":"mssql-jdbc-extension",
-	"version_latest":"12.6.3.jre11",
-	"ts_publish":1761914913000,
-	"dt_publish":"2025-10-31 20:48:33.000",
-	"ts_update":1761916183877,
-	"dt_update":"2025-10-31 21:09:37.073",
-	"count_dep":0,
+	"version_latest":"12.6.5.jre11",
+	"ts_publish":1762175731000,
+	"dt_publish":"2025-11-03 21:15:31.000",
+	"ts_update":1762176395836,
+	"dt_update":"2025-11-03 21:26:28.389",
+	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
 		"The GNU Lesser General Public License, Version 2.1"
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/lucee/extension-jdbc-mssql",
 	"home_page":"https://github.com/lucee/extension-jdbc-mssql",
 	"license":"LGPL 2.1",
-	"ranking":"#441776 in MvnRepository",
+	"ranking":"#442189 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -34,6 +34,30 @@
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.6.3.jre11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.6.3.jre8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.4.2.jre11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
