@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-testing-scorer-parent",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-testing-scorer-parent",
-	"version_latest":"1.4.0.CR1",
-	"ts_publish":1761819956000,
-	"dt_publish":"2025-10-30 18:25:56.000",
-	"ts_update":1761820832021,
-	"dt_update":"2025-10-30 18:40:17.882",
+	"version_latest":"1.4.0.CR2",
+	"ts_publish":1762157688000,
+	"dt_publish":"2025-11-03 16:14:48.000",
+	"ts_update":1762158451136,
+	"dt_update":"2025-11-03 16:26:29.563",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-testing-scorer-parent@1.1.1",
@@ -19,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-langchain4j",
 	"license":"Apache 2.0",
-	"ranking":"#612243 in MvnRepository",
+	"ranking":"#610161 in MvnRepository",
 	"tags":[
 		"quality",
 		"quarkus",
@@ -28,6 +30,14 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.0.CR1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":0,
 			"version":"1.0.0.CR2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250515",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.0.CR1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
