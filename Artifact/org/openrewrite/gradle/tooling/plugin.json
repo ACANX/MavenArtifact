@@ -3,11 +3,11 @@
 	"description":"A model for extracting semantic information out of Gradle build files necessary for refactoring them.",
 	"group_id":"org.openrewrite.gradle.tooling",
 	"artifact_id":"plugin",
-	"version_latest":"8.66.0",
-	"ts_publish":1762184543000,
-	"dt_publish":"2025-11-03 23:42:23.000",
-	"ts_update":1762186838074,
-	"dt_update":"2025-11-04 00:19:40.673",
+	"version_latest":"8.66.1",
+	"ts_publish":1762257433000,
+	"dt_publish":"2025-11-04 19:57:13.000",
+	"ts_update":1762259191477,
+	"dt_update":"2025-11-04 20:26:22.621",
 	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-gradle-tooling-model.git",
 	"home_page":"https://github.com/openrewrite/rewrite",
 	"license":"Apache 2.0",
-	"ranking":"#971096 in MvnRepository",
+	"ranking":"#973851 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -34,6 +34,22 @@
 		"groovy"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.66.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251026",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.65.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.60.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250818",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.2",
 			"vulnerabilities":""
 		}
 	]
