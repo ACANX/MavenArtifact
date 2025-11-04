@@ -3,11 +3,11 @@
 	"description":"Open Source API & Schema Registry",
 	"group_id":"io.apicurio",
 	"artifact_id":"apicurio-registry-operator-controller",
-	"version_latest":"3.1.1",
-	"ts_publish":1761319570000,
-	"dt_publish":"2025-10-24 23:26:10.000",
-	"ts_update":1761320852150,
-	"dt_update":"2025-10-24 23:47:05.742",
+	"version_latest":"3.1.2",
+	"ts_publish":1762264062000,
+	"dt_publish":"2025-11-04 21:47:42.000",
+	"ts_update":1762264596230,
+	"dt_update":"2025-11-04 21:56:25.025",
 	"count_dep":166,
 	"count_ref":1,
 	"licenses":[
@@ -29,13 +29,21 @@
 	"url_scm":"scm:git:git@github.com:apicurio/apicurio-registry.git/apicurio-registry-operator/apicurio-registry-operator-controller",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#203965 in MvnRepository",
+	"ranking":"#217718 in MvnRepository",
 	"tags":[
 		"registry",
 		"operator",
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251007",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"3.0.0.M4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240617",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"3.0.0.M3",
 			"vulnerabilities":""
 		}
 	]

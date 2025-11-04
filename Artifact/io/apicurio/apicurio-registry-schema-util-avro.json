@@ -3,13 +3,13 @@
 	"description":"Open Source API & Schema Registry",
 	"group_id":"io.apicurio",
 	"artifact_id":"apicurio-registry-schema-util-avro",
-	"version_latest":"3.1.1",
-	"ts_publish":1761319570000,
-	"dt_publish":"2025-10-24 23:26:10.000",
-	"ts_update":1761320837717,
-	"dt_update":"2025-10-24 23:47:05.100",
-	"count_dep":27,
-	"count_ref":6,
+	"version_latest":"3.1.2",
+	"ts_publish":1762264062000,
+	"dt_publish":"2025-11-04 21:47:42.000",
+	"ts_update":1762264596508,
+	"dt_update":"2025-11-04 21:56:23.813",
+	"count_dep":16,
+	"count_ref":3,
 	"licenses":[
 		"Apache License Version 2.0"
 	],
@@ -29,7 +29,7 @@
 	"url_scm":"scm:git:git@github.com:apicurio/apicurio-registry.git/apicurio-registry-schema-util-avro",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#252921 in MvnRepository",
+	"ranking":"#253308 in MvnRepository",
 	"tags":[
 		"registry",
 		"serialization",
@@ -38,6 +38,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251007",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"3.0.0.M4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240617",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0.0.M3",
 			"vulnerabilities":""
 		}
 	]
