@@ -3,14 +3,16 @@
 	"description":"Centralized version management for all Fluxzero modules.",
 	"group_id":"io.fluxzero",
 	"artifact_id":"fluxzero-bom",
-	"version_latest":"1.39.1",
-	"ts_publish":1762094232000,
-	"dt_publish":"2025-11-02 22:37:12.000",
-	"ts_update":1762095391404,
-	"dt_update":"2025-11-02 22:56:23.421",
-	"count_dep":0,
+	"version_latest":"1.40.0",
+	"ts_publish":1762280017000,
+	"dt_publish":"2025-11-05 02:13:37.000",
+	"ts_update":1762289401935,
+	"dt_update":"2025-11-05 04:49:51.315",
+	"count_dep":23,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/fluxzero-io/fluxzero-sdk-java",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.fluxzero/fluxzero-bom@0.4.0",
@@ -26,6 +28,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.39.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.39.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251030",
 			"repository":"Central",
@@ -169,23 +187,7 @@
 			"usage":0,
 			"version":"1.23.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251021",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251021",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.22.0",
-			"vulnerabilities":""
 		}
 	],
-	"ranking":"#930440 in MvnRepository"
+	"ranking":"#926149 in MvnRepository"
 }
