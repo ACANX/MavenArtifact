@@ -3,13 +3,13 @@
 	"description":"JanusGraph is a distributed graph database optimized for processing massive-scale graphs represented over a machine\n        cluster.\n        JanusGraph separates the concerns of graph processing and manipulation from storing the graph on disk,\n        delegating that concern to an extensible set of persistence solutions.",
 	"group_id":"org.janusgraph",
 	"artifact_id":"janusgraph-lucene",
-	"version_latest":"1.2.0-20250815-215833.1b92960",
-	"ts_publish":1755295672000,
-	"dt_publish":"2025-08-16 06:07:52.000",
-	"ts_update":1755296756698,
-	"dt_update":"2025-08-16 06:25:48.547",
+	"version_latest":"1.2.0-20251104-123735.00b3eec",
+	"ts_publish":1762260496000,
+	"dt_publish":"2025-11-04 20:48:16.000",
+	"ts_update":1762260993132,
+	"dt_update":"2025-11-04 20:56:23.094",
 	"count_dep":100,
-	"count_ref":5,
+	"count_ref":4,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -29,13 +29,37 @@
 	"count_used_by":12,
 	"home_page":"https://janusgraph.org",
 	"license":"Apache 2.0",
-	"ranking":"#37819 in MvnRepository",
+	"ranking":"#38748 in MvnRepository",
 	"tags":[
 		"graph",
 		"index",
 		"lucene"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"1.2.0-20250815-215833.1b9...",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.2.0-20250812-182757.f62...",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.2.0-20250812-175142.fb3...",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250608",
 			"repository":"Central",
@@ -170,30 +194,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.2.0-20250112-215947.0f4...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.2.0-20250112-215201.e4e...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241120",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.2.0-20241120-125614.80e...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241116",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.2.0-20241116-110554.806...",
 			"vulnerabilities":""
 		}
 	]
