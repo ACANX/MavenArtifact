@@ -3,14 +3,16 @@
 	"description":"Hawtio :: Jetty/JAAS Security support",
 	"group_id":"io.hawt",
 	"artifact_id":"hawtio-jetty-security",
-	"version_latest":"4.6.0",
-	"ts_publish":1761819616000,
-	"dt_publish":"2025-10-30 18:20:16.000",
-	"ts_update":1761820832094,
-	"dt_update":"2025-10-30 18:40:19.840",
-	"count_dep":2,
+	"version_latest":"4.6.1",
+	"ts_publish":1762239258000,
+	"dt_publish":"2025-11-04 14:54:18.000",
+	"ts_update":1762240632813,
+	"dt_update":"2025-11-04 15:16:59.481",
+	"count_dep":26,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Console"
 	],
@@ -24,7 +26,7 @@
 	"url_scm":"git@github.com:hawtio/hawtio.git",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#401765 in MvnRepository",
+	"ranking":"#387533 in MvnRepository",
 	"tags":[
 		"server",
 		"security",
@@ -32,6 +34,14 @@
 		"jetty"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",

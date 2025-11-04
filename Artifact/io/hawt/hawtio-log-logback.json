@@ -3,14 +3,16 @@
 	"description":"Hawtio :: hawtio-log-logback",
 	"group_id":"io.hawt",
 	"artifact_id":"hawtio-log-logback",
-	"version_latest":"4.6.0",
-	"ts_publish":1761819616000,
-	"dt_publish":"2025-10-30 18:20:16.000",
-	"ts_update":1761820831531,
-	"dt_update":"2025-10-30 18:40:20.529",
-	"count_dep":4,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"4.6.1",
+	"ts_publish":1762239258000,
+	"dt_publish":"2025-11-04 14:54:18.000",
+	"ts_update":1762240641717,
+	"dt_update":"2025-11-04 15:16:59.976",
+	"count_dep":11,
+	"count_ref":2,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Console"
 	],
@@ -24,12 +26,20 @@
 	"url_scm":"git@github.com:hawtio/hawtio.git",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#133573 in MvnRepository",
+	"ranking":"#133554 in MvnRepository",
 	"tags":[
 		"logback",
 		"logging"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -180,14 +190,6 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"3.0-M8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230620",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":3,
-			"version":"3.0-M7",
 			"vulnerabilities":""
 		}
 	]

@@ -3,14 +3,16 @@
 	"description":"Hawtio :: Sample Spring Boot 3.x process with Keycloak authentication",
 	"group_id":"io.hawt.examples",
 	"artifact_id":"hawtio-example-springboot-keycloak",
-	"version_latest":"4.6.0",
-	"ts_publish":1761819616000,
-	"dt_publish":"2025-10-30 18:20:16.000",
-	"ts_update":1761820842497,
-	"dt_update":"2025-10-30 18:40:19.839",
-	"count_dep":7,
+	"version_latest":"4.6.1",
+	"ts_publish":1762239258000,
+	"dt_publish":"2025-11-04 14:54:18.000",
+	"ts_update":1762240628746,
+	"dt_update":"2025-11-04 15:16:59.479",
+	"count_dep":99,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://hawt.io/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.hawt.examples/hawtio-example-springboot-keycloak@4.5.0",
@@ -20,13 +22,21 @@
 	],
 	"url_scm":"git@github.com:hawtio/hawtio.git",
 	"license":"Apache 2.0",
-	"ranking":"#877228 in MvnRepository",
+	"ranking":"#750137 in MvnRepository",
 	"tags":[
 		"spring",
 		"keycloak",
 		"example"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -177,14 +187,6 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"3.0-M8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230620",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"3.0-M7",
 			"vulnerabilities":""
 		}
 	]
