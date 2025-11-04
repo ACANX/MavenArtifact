@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.smallrye.reactive/smallrye-mutiny-vertx-web-sstore-cookie",
 	"group_id":"io.smallrye.reactive",
 	"artifact_id":"smallrye-mutiny-vertx-web-sstore-cookie",
-	"version_latest":"3.20.1",
-	"ts_publish":1761642022000,
-	"dt_publish":"2025-10-28 17:00:22.000",
-	"ts_update":1761643086675,
-	"dt_update":"2025-10-28 17:17:43.909",
-	"count_dep":4,
+	"version_latest":"3.20.2",
+	"ts_publish":1762291018000,
+	"dt_publish":"2025-11-05 05:16:58.000",
+	"ts_update":1762294542403,
+	"dt_update":"2025-11-05 06:14:53.283",
+	"count_dep":35,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/smallrye/smallrye-mutiny-vertx-bindings/vertx-mutiny-clients/smallrye-mutiny-vertx-web-sstore-cookie",
 	"license":"Apache 2.0",
-	"ranking":"#586620 in MvnRepository",
+	"ranking":"#586921 in MvnRepository",
 	"tags":[
 		"reactive",
 		"web",
@@ -30,6 +32,14 @@
 		"cookie"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.20.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -181,14 +191,7 @@
 			"usage":0,
 			"version":"3.9.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240102",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.8.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"SmallRye Mutiny Vert.x Bindings"
 }
