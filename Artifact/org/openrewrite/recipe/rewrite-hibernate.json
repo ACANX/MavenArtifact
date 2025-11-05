@@ -3,11 +3,11 @@
 	"description":"Hibernate ORM Migration",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-hibernate",
-	"version_latest":"2.14.0",
-	"ts_publish":1761139403000,
-	"dt_publish":"2025-10-22 21:23:23.000",
-	"ts_update":1761140852288,
-	"dt_update":"2025-10-22 21:47:13.414",
+	"version_latest":"2.15.0",
+	"ts_publish":1762294937000,
+	"dt_publish":"2025-11-05 06:22:17.000",
+	"ts_update":1762304194271,
+	"dt_update":"2025-11-05 08:56:25.610",
 	"count_dep":4,
 	"count_ref":0,
 	"licenses":[
@@ -25,17 +25,25 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-hibernate.git",
 	"count_used_by":2,
 	"home_page":"https://github.com/openrewrite/rewrite-hibernate",
-	"ranking":"#205360 in MvnRepository",
+	"ranking":"#231925 in MvnRepository",
 	"tags":[
 		"persistence",
 		"hibernate"
 	],
 	"versions":[
 		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.14.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"2.13.0",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.0.0",
 			"vulnerabilities":""
 		}
 	]
