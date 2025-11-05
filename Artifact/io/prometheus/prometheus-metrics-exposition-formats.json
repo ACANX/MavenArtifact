@@ -3,11 +3,11 @@
 	"description":"Prometheus exposition formats.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-exposition-formats",
-	"version_latest":"1.4.1",
-	"ts_publish":1755532143000,
-	"dt_publish":"2025-08-18 23:49:03.000",
-	"ts_update":1755534092582,
-	"dt_update":"2025-08-19 00:20:35.346",
+	"version_latest":"1.4.2",
+	"ts_publish":1761670582000,
+	"dt_publish":"2025-10-29 00:56:22.000",
+	"ts_update":1761671786637,
+	"dt_update":"2025-10-29 01:15:40.455",
 	"count_dep":13,
 	"count_ref":2,
 	"licenses":[
@@ -25,9 +25,9 @@
 		"Gregor Zeitlinger"
 	],
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-exposition-formats",
-	"count_used_by":34,
+	"count_used_by":35,
 	"license":"Apache 2.0",
-	"ranking":"#13682 in MvnRepository",
+	"ranking":"#13918 in MvnRepository",
 	"tags":[
 		"format",
 		"bundle",
@@ -37,6 +37,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -73,7 +89,7 @@
 			"date":"20250214",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":15,
 			"version":"1.3.6",
 			"vulnerabilities":""
 		},
@@ -97,7 +113,7 @@
 			"date":"20241107",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":12,
 			"version":"1.3.3",
 			"vulnerabilities":""
 		},
@@ -179,22 +195,6 @@
 			"type":"alpha",
 			"usage":3,
 			"version":"1.0.0-alpha-4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230830",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"1.0.0-alpha-3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230727",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"1.0.0-alpha-2",
 			"vulnerabilities":""
 		}
 	]

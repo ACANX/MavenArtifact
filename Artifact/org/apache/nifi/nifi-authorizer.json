@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-authorizer",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-authorizer",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929160000,
-	"dt_publish":"2025-07-19 20:46:00.000",
-	"ts_update":1757177874318,
-	"dt_update":"2025-09-07 00:16:06.039",
-	"count_dep":78,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214890000,
+	"dt_publish":"2025-09-19 01:01:30.000",
+	"ts_update":1761410254241,
+	"dt_update":"2025-10-26 00:18:26.040",
+	"count_dep":80,
 	"count_ref":10,
 	"licenses":[],
 	"categories":[
@@ -17,13 +17,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-authorizer@2.5.0",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#78759 in MvnRepository",
+	"ranking":"#79817 in MvnRepository",
 	"tags":[
 		"nifi",
 		"authorization",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

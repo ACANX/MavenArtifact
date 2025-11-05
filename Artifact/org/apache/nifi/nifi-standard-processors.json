@@ -3,13 +3,13 @@
 	"description":"NiFi Standard Extensions Bundle",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-standard-processors",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929406000,
-	"dt_publish":"2025-07-19 20:50:06.000",
-	"ts_update":1757176529928,
-	"dt_update":"2025-09-07 00:16:11.375",
-	"count_dep":262,
-	"count_ref":4,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214241000,
+	"dt_publish":"2025-09-19 00:50:41.000",
+	"ts_update":1761409595775,
+	"dt_update":"2025-10-26 00:18:18.372",
+	"count_dep":279,
+	"count_ref":6,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,13 +23,21 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-standard-bundle/nifi-standard-processors",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#40353 in MvnRepository",
+	"ranking":"#40943 in MvnRepository",
 	"tags":[
 		"nifi",
 		"apache",
 		"processor"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"usage":3,
 			"version":"1.23.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"1.22.0",
-			"vulnerabilities":"1 vulnerability"
 		}
 	]
 }

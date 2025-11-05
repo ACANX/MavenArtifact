@@ -3,12 +3,12 @@
 	"description":"NiFi Extensions Bill of Materials",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-stateless-api",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929061000,
-	"dt_publish":"2025-07-19 20:44:21.000",
-	"ts_update":1757177193379,
-	"dt_update":"2025-09-07 00:16:04.261",
-	"count_dep":63,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214747000,
+	"dt_publish":"2025-09-19 00:59:07.000",
+	"ts_update":1761409195162,
+	"dt_update":"2025-10-26 00:18:25.241",
+	"count_dep":65,
 	"count_ref":13,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,13 +23,21 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-stateless/nifi-stateless-api",
 	"count_used_by":18,
 	"license":"Apache 2.0",
-	"ranking":"#26292 in MvnRepository",
+	"ranking":"#26718 in MvnRepository",
 	"tags":[
 		"nifi",
 		"apache",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

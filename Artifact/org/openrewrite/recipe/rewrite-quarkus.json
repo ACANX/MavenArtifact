@@ -3,11 +3,11 @@
 	"description":"Migrate between major Quarkus versions. Automatically.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-quarkus",
-	"version_latest":"2.26.0",
-	"ts_publish":1758717553000,
-	"dt_publish":"2025-09-24 20:39:13.000",
-	"ts_update":1758718648106,
-	"dt_update":"2025-09-24 20:56:12.920",
+	"version_latest":"2.28.0",
+	"ts_publish":1762267491000,
+	"dt_publish":"2025-11-04 22:44:51.000",
+	"ts_update":1762268022731,
+	"dt_update":"2025-11-04 22:53:34.512",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
@@ -23,14 +23,54 @@
 		"Moderne"
 	],
 	"url_scm":"https://github.com/openrewrite/rewrite-quarkus.git",
-	"count_used_by":1,
+	"count_used_by":2,
 	"home_page":"https://github.com/openrewrite/rewrite-quarkus",
 	"license":"Apache 2.0",
-	"ranking":"#301404 in MvnRepository",
+	"ranking":"#198266 in MvnRepository",
 	"tags":[
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.27.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.26.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.25.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.25.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -149,46 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241218",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241127",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241113",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.10.0",
 			"vulnerabilities":""
 		}
 	]

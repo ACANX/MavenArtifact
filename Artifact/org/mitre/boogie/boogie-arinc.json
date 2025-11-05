@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/org.mitre.boogie/boogie-arinc",
-	"description":"A dependency-light software project for navigation data parsing, route expansion, and conformance.",
+	"description":"parser implementations for various versions and record types within ARINC-424",
 	"group_id":"org.mitre.boogie",
 	"artifact_id":"boogie-arinc",
-	"version_latest":"4.7.4",
-	"ts_publish":1757729875000,
-	"dt_publish":"2025-09-13 10:17:55.000",
-	"ts_update":1757735165836,
-	"dt_update":"2025-09-13 11:44:42.418",
+	"version_latest":"4.12.1",
+	"ts_publish":1761141428000,
+	"dt_publish":"2025-10-22 21:57:08.000",
+	"ts_update":1761142688408,
+	"dt_update":"2025-10-22 22:17:33.248",
 	"count_dep":7,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"Apache License 2.0",
 		"The Apache License, Version 2.0"
@@ -22,5 +22,67 @@
 		"David Baker",
 		"Matt Pollock"
 	],
-	"url_scm":"https://github.com/mitre-public/boogie"
+	"url_scm":"https://github.com/mitre-public/boogie",
+	"home_page":"https://github.com/mitre-public/boogie",
+	"license":"Apache 2.0",
+	"ranking":"#369488 in MvnRepository",
+	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.10.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.9.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.8.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.7.4",
+			"vulnerabilities":""
+		}
+	],
+	"count_used_by":1
 }

@@ -3,13 +3,13 @@
 	"description":"Web Based Management Console for OSGi Frameworks. See\n        https://github.com/apache/felix-dev/tree/master/webconsole\n        for more information on this bundle.",
 	"group_id":"org.apache.felix",
 	"artifact_id":"org.apache.felix.webconsole",
-	"version_latest":"5.0.14",
-	"ts_publish":1755587451000,
-	"dt_publish":"2025-08-19 15:10:51.000",
-	"ts_update":1758385082108,
-	"dt_update":"2025-09-21 00:17:40.537",
+	"version_latest":"5.0.18",
+	"ts_publish":1758142939000,
+	"dt_publish":"2025-09-18 05:02:19.000",
+	"ts_update":1761409183442,
+	"dt_update":"2025-10-26 00:17:57.648",
 	"count_dep":28,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -25,7 +25,7 @@
 	"count_used_by":161,
 	"home_page":"https://felix.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#3363 in MvnRepository",
+	"ranking":"#3408 in MvnRepository",
 	"tags":[
 		"bundle",
 		"web",
@@ -34,6 +34,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.0.18",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"4.8.2",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20220516",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.0",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]

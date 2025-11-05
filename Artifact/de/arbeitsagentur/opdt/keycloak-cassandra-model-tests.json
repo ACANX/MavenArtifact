@@ -3,12 +3,12 @@
 	"description":"Keycloak-DatastoreProvider storing data in an Apache Cassandra NoSQL-database",
 	"group_id":"de.arbeitsagentur.opdt",
 	"artifact_id":"keycloak-cassandra-model-tests",
-	"version_latest":"5.4.3-26.2",
-	"ts_publish":1757339510000,
-	"dt_publish":"2025-09-08 21:51:50.000",
-	"ts_update":1757340965115,
-	"dt_update":"2025-09-08 22:15:46.041",
-	"count_dep":342,
+	"version_latest":"5.4.5-26.4",
+	"ts_publish":1761904134000,
+	"dt_publish":"2025-10-31 17:48:54.000",
+	"ts_update":1761905857467,
+	"dt_update":"2025-10-31 18:17:29.674",
+	"count_dep":344,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/opdt/keycloak-cassandra-extension/tree/main/keycloak-cassandra-model-tests/",
 	"license":"Apache 2.0",
-	"ranking":"#828192 in MvnRepository",
+	"ranking":"#905249 in MvnRepository",
 	"tags":[
 		"database",
 		"model",
@@ -33,6 +33,22 @@
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.4.4-26.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.4.3-26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250901",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.3-25.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240710",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.2-25.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240702",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.1-25.0",
 			"vulnerabilities":""
 		}
 	]

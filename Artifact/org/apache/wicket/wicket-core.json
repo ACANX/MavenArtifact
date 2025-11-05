@@ -3,13 +3,13 @@
 	"description":"Wicket is a Java web application framework that takes simplicity,\n\t\tseparation of concerns and ease of development to a whole new level.\n\t\tWicket pages can be mocked up, previewed and later revised using\n\t\tstandard WYSIWYG HTML design tools. Dynamic content processing and\n\t\tform handling is all handled in Java code using a first-class\n\t\tcomponent model backed by POJO data beans that can easily be\n\t\tpersisted using your favorite technology.",
 	"group_id":"org.apache.wicket",
 	"artifact_id":"wicket-core",
-	"version_latest":"10.6.0",
-	"ts_publish":1751985314000,
-	"dt_publish":"2025-07-08 22:35:14.000",
-	"ts_update":1755364368643,
-	"dt_update":"2025-08-17 00:18:11.911",
+	"version_latest":"10.7.0",
+	"ts_publish":1758922572000,
+	"dt_publish":"2025-09-27 05:36:12.000",
+	"ts_update":1762016223744,
+	"dt_update":"2025-11-02 00:17:25.003",
 	"count_dep":14,
-	"count_ref":190,
+	"count_ref":245,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,10 +25,10 @@
 	],
 	"url_scm":"http://git-wip-us.apache.org/repos/asf/wicket/repo?p=wicket.git/wicket-core",
 	"url_ci_management":"http://ci.apache.org/builders/wicket-master",
-	"count_used_by":511,
+	"count_used_by":514,
 	"home_page":"https://wicket.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#1162 in MvnRepository",
+	"ranking":"#1213 in MvnRepository",
 	"tags":[
 		"framework",
 		"web",
@@ -37,10 +37,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":67,
+			"version":"10.7.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250712",
 			"repository":"Central",
 			"type":"release",
-			"usage":61,
+			"usage":63,
 			"version":"10.6.0",
 			"vulnerabilities":""
 		},
@@ -48,7 +56,7 @@
 			"date":"20250425",
 			"repository":"Central",
 			"type":"release",
-			"usage":64,
+			"usage":65,
 			"version":"10.5.0",
 			"vulnerabilities":""
 		},
@@ -112,7 +120,7 @@
 			"date":"20250425",
 			"repository":"Central",
 			"type":"release",
-			"usage":58,
+			"usage":60,
 			"version":"9.21.0",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":65,
 			"version":"9.12.0",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20220710",
-			"repository":"Central",
-			"type":"release",
-			"usage":128,
-			"version":"9.11.0",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Hibernate's Jakarta Validation reference implementation.",
 	"group_id":"org.hibernate.validator",
 	"artifact_id":"hibernate-validator",
-	"version_latest":"9.1.0.Alpha2",
-	"ts_publish":1758300203000,
-	"dt_publish":"2025-09-20 00:43:23.000",
-	"ts_update":1758301005495,
-	"dt_update":"2025-09-20 00:56:09.658",
+	"version_latest":"9.1.0.CR1",
+	"ts_publish":1761765818000,
+	"dt_publish":"2025-10-30 03:23:38.000",
+	"ts_update":1761767111067,
+	"dt_update":"2025-10-30 03:44:39.122",
 	"count_dep":10,
 	"count_ref":1,
 	"licenses":[
@@ -30,7 +30,7 @@
 		"Hardy Ferentschik"
 	],
 	"url_scm":"http://github.com/hibernate/hibernate-validator",
-	"count_used_by":2900,
+	"count_used_by":2929,
 	"home_page":"https://hibernate.org/validator",
 	"license":"Apache 2.0",
 	"ranking":"#200 in MvnRepository",
@@ -40,6 +40,22 @@
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"9.1.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"9.1.0.Alpha2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -52,7 +68,7 @@
 			"date":"20250613",
 			"repository":"Central",
 			"type":"release",
-			"usage":96,
+			"usage":114,
 			"version":"9.0.1.Final",
 			"vulnerabilities":""
 		},
@@ -60,7 +76,7 @@
 			"date":"20250520",
 			"repository":"Central",
 			"type":"release",
-			"usage":25,
+			"usage":26,
 			"version":"9.0.0.Final",
 			"vulnerabilities":""
 		},
@@ -68,7 +84,7 @@
 			"date":"20241213",
 			"repository":"Central",
 			"type":"release",
-			"usage":13,
+			"usage":14,
 			"version":"9.0.0.CR1",
 			"vulnerabilities":""
 		},
@@ -76,7 +92,7 @@
 			"date":"20240904",
 			"repository":"Central",
 			"type":"beta",
-			"usage":4,
+			"usage":5,
 			"version":"9.0.0.Beta3",
 			"vulnerabilities":""
 		},
@@ -92,7 +108,7 @@
 			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
-			"usage":48,
+			"usage":91,
 			"version":"8.0.3.Final",
 			"vulnerabilities":""
 		},
@@ -100,7 +116,7 @@
 			"date":"20241213",
 			"repository":"Central",
 			"type":"release",
-			"usage":342,
+			"usage":348,
 			"version":"8.0.2.Final",
 			"vulnerabilities":""
 		},
@@ -108,7 +124,7 @@
 			"date":"20230621",
 			"repository":"Central",
 			"type":"release",
-			"usage":574,
+			"usage":581,
 			"version":"8.0.1.Final",
 			"vulnerabilities":""
 		},
@@ -116,7 +132,7 @@
 			"date":"20220909",
 			"repository":"Central",
 			"type":"release",
-			"usage":283,
+			"usage":284,
 			"version":"8.0.0.Final",
 			"vulnerabilities":""
 		},
@@ -172,7 +188,7 @@
 			"date":"20220803",
 			"repository":"Central",
 			"type":"release",
-			"usage":113,
+			"usage":114,
 			"version":"7.0.5.Final",
 			"vulnerabilities":""
 		},
@@ -182,22 +198,6 @@
 			"type":"release",
 			"usage":71,
 			"version":"7.0.4.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220302",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"7.0.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211214",
-			"repository":"Central",
-			"type":"release",
-			"usage":37,
-			"version":"7.0.2.Final",
 			"vulnerabilities":""
 		}
 	]

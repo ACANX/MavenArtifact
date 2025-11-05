@@ -3,11 +3,11 @@
 	"description":"Bitcoin's secp256k1 library ported to Kotlin/Multiplatform for JVM, Android, iOS & Linux",
 	"group_id":"fr.acinq.secp256k1",
 	"artifact_id":"secp256k1-kmp-iosarm64",
-	"version_latest":"0.19.0",
-	"ts_publish":1756833636000,
-	"dt_publish":"2025-09-03 01:20:36.000",
-	"ts_update":1756835060985,
-	"dt_update":"2025-09-03 01:43:51.647",
+	"version_latest":"0.20.0",
+	"ts_publish":1760025206000,
+	"dt_publish":"2025-10-09 23:53:26.000",
+	"ts_update":1760026845870,
+	"dt_update":"2025-10-10 00:20:33.750",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
@@ -24,16 +24,24 @@
 		"ACINQ"
 	],
 	"url_scm":"https://github.com/ACINQ/secp256k1-kmp",
-	"count_used_by":6,
+	"count_used_by":7,
 	"home_page":"https://github.com/ACINQ/secp256k1-kmp",
 	"license":"Apache 2.0",
-	"ranking":"#71623 in MvnRepository",
+	"ranking":"#62931 in MvnRepository",
 	"tags":[
 		"ios",
 		"arm",
 		"kotlin"
 	],
 	"versions":[
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"0.19.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250625",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.6.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220104",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.6.2",
 			"vulnerabilities":""
 		}
 	]

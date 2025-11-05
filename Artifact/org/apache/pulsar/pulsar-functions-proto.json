@@ -3,13 +3,13 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-functions-proto",
-	"version_latest":"4.0.6",
-	"ts_publish":1753875189000,
-	"dt_publish":"2025-07-30 19:33:09.000",
-	"ts_update":1757176506795,
-	"dt_update":"2025-09-07 00:16:36.607",
+	"version_latest":"4.1.1",
+	"ts_publish":1758664569000,
+	"dt_publish":"2025-09-24 05:56:09.000",
+	"ts_update":1762014024734,
+	"dt_update":"2025-11-02 00:17:07.637",
 	"count_dep":71,
-	"count_ref":9,
+	"count_ref":25,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,7 +24,7 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#79314 in MvnRepository",
+	"ranking":"#82379 in MvnRepository",
 	"tags":[
 		"apache",
 		"functions",
@@ -32,6 +32,30 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -97,6 +121,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.3.9",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250730",
 			"repository":"Central",
 			"type":"release",
@@ -158,38 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240605",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240801",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.2.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240517",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240403",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.2.2",
 			"vulnerabilities":""
 		}
 	]

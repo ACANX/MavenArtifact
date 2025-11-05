@@ -3,13 +3,13 @@
 	"description":"This module contains client library for Microsoft Azure KeyVault Certificates.",
 	"group_id":"com.azure",
 	"artifact_id":"azure-security-keyvault-certificates",
-	"version_latest":"4.8.2",
-	"ts_publish":1755805324000,
-	"dt_publish":"2025-08-22 03:42:04.000",
-	"ts_update":1755807716853,
-	"dt_update":"2025-08-22 04:16:57.266",
+	"version_latest":"4.8.4",
+	"ts_publish":1761585937000,
+	"dt_publish":"2025-10-28 01:25:37.000",
+	"ts_update":1761587140821,
+	"dt_update":"2025-10-28 01:45:24.466",
 	"count_dep":38,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The MIT License (MIT)"
 	],
@@ -27,7 +27,7 @@
 	"count_used_by":18,
 	"home_page":"https://github.com/Azure/azure-sdk-for-java",
 	"license":"MIT",
-	"ranking":"#26120 in MvnRepository",
+	"ranking":"#26067 in MvnRepository",
 	"tags":[
 		"certificate",
 		"security",
@@ -35,6 +35,22 @@
 		"vault"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.8.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"4.8.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"4.5.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231121",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.5.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231021",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"4.5.7",
 			"vulnerabilities":""
 		}
 	]

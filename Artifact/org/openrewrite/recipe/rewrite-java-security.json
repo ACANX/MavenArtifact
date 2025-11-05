@@ -3,13 +3,13 @@
 	"description":"Patch Java security vulnerabilities. Automatically.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-java-security",
-	"version_latest":"3.19.0",
-	"ts_publish":1758729386000,
-	"dt_publish":"2025-09-24 23:56:26.000",
-	"ts_update":1758732356798,
-	"dt_update":"2025-09-25 00:19:54.793",
-	"count_dep":16,
-	"count_ref":1,
+	"version_latest":"3.21.0",
+	"ts_publish":1762332301000,
+	"dt_publish":"2025-11-05 16:45:01.000",
+	"ts_update":1762332995025,
+	"dt_update":"2025-11-05 16:56:26.886",
+	"count_dep":15,
+	"count_ref":0,
 	"licenses":[
 		"Moderne Proprietary License"
 	],
@@ -25,11 +25,43 @@
 	"url_scm":"https://github.com/moderneinc/rewrite-java-security.git",
 	"count_used_by":3,
 	"home_page":"https://github.com/moderneinc/rewrite-java-security",
-	"ranking":"#164268 in MvnRepository",
+	"ranking":"#154875 in MvnRepository",
 	"tags":[
 		"security"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.20.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.19.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.19.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.19.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",
@@ -156,38 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250328",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250221",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250208",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0",
 			"vulnerabilities":""
 		}
 	]

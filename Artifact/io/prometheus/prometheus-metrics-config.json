@@ -3,13 +3,13 @@
 	"description":"Configuration for Prometheus metrics and exposition formats.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-config",
-	"version_latest":"1.4.1",
-	"ts_publish":1755532143000,
-	"dt_publish":"2025-08-18 23:49:03.000",
-	"ts_update":1755534202436,
-	"dt_update":"2025-08-19 00:20:34.906",
+	"version_latest":"1.4.2",
+	"ts_publish":1761670582000,
+	"dt_publish":"2025-10-29 00:56:22.000",
+	"ts_update":1761671749398,
+	"dt_update":"2025-10-29 01:15:40.450",
 	"count_dep":10,
-	"count_ref":18,
+	"count_ref":13,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,9 +25,9 @@
 		"Gregor Zeitlinger"
 	],
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-config",
-	"count_used_by":10,
+	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#45993 in MvnRepository",
+	"ranking":"#41945 in MvnRepository",
 	"tags":[
 		"bundle",
 		"monitoring",
@@ -37,6 +37,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -179,22 +195,6 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"1.0.0-alpha-4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230829",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"1.0.0-alpha-3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230727",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"1.0.0-alpha-2",
 			"vulnerabilities":""
 		}
 	]

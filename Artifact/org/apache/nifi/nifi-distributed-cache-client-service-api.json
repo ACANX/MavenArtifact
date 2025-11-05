@@ -3,13 +3,13 @@
 	"description":"Provides an API for a Client that interfaces with a Distributed Cache",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-distributed-cache-client-service-api",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929549000,
-	"dt_publish":"2025-07-19 20:52:29.000",
-	"ts_update":1757176004909,
-	"dt_update":"2025-09-07 00:16:14.833",
+	"version_latest":"2.6.0",
+	"ts_publish":1758213926000,
+	"dt_publish":"2025-09-19 00:45:26.000",
+	"ts_update":1761410905735,
+	"dt_update":"2025-10-26 00:18:13.164",
 	"count_dep":0,
-	"count_ref":28,
+	"count_ref":51,
 	"licenses":[],
 	"categories":[
 		"Analytics"
@@ -19,7 +19,7 @@
 	"count_used_by":37,
 	"home_page":"https://nifi.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#12864 in MvnRepository",
+	"ranking":"#13116 in MvnRepository",
 	"tags":[
 		"nifi",
 		"service",
@@ -31,10 +31,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250722",
+			"date":"20250921",
 			"repository":"Central",
 			"type":"release",
 			"usage":15,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250722",
+			"repository":"Central",
+			"type":"release",
+			"usage":17,
 			"version":"2.5.0",
 			"vulnerabilities":""
 		},
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":25,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":25,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

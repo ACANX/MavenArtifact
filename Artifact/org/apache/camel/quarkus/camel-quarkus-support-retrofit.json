@@ -3,13 +3,13 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-retrofit",
-	"version_latest":"3.26.0",
-	"ts_publish":1755761919000,
-	"dt_publish":"2025-08-21 15:38:39.000",
-	"ts_update":1758385599444,
-	"dt_update":"2025-09-21 00:17:46.202",
+	"version_latest":"3.27.0",
+	"ts_publish":1758272694000,
+	"dt_publish":"2025-09-19 17:04:54.000",
+	"ts_update":1761410904382,
+	"dt_update":"2025-10-26 00:18:37.805",
 	"count_dep":54,
-	"count_ref":4,
+	"count_ref":5,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -24,9 +24,9 @@
 		"The Apache Camel Team"
 	],
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-retrofit-parent/camel-quarkus-support-retrofit",
-	"count_used_by":6,
+	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#76506 in MvnRepository",
+	"ranking":"#71193 in MvnRepository",
 	"tags":[
 		"support",
 		"quarkus",
@@ -35,6 +35,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"A helper module to provide RepositorySystem instances.",
 	"group_id":"org.apache.maven.resolver",
 	"artifact_id":"maven-resolver-supplier-mvn3",
-	"version_latest":"2.0.11",
-	"ts_publish":1757335519000,
-	"dt_publish":"2025-09-08 20:45:19.000",
-	"ts_update":1759030652397,
-	"dt_update":"2025-09-28 00:17:24.610",
+	"version_latest":"2.0.13",
+	"ts_publish":1759828315000,
+	"dt_publish":"2025-10-07 17:11:55.000",
+	"ts_update":1762016213658,
+	"dt_update":"2025-11-02 00:18:13.545",
 	"count_dep":31,
 	"count_ref":0,
 	"licenses":[
@@ -117,9 +117,9 @@
 	],
 	"url_scm":"https://github.com/apache/maven-resolver/tree/maven-resolver-2.0.10/maven-resolver-supplier-mvn3",
 	"url_ci_management":"https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-resolver/",
-	"count_used_by":1,
+	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#303270 in MvnRepository",
+	"ranking":"#218822 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
@@ -129,10 +129,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250701",
+			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"2.0.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250701",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.0.10",
 			"vulnerabilities":""
 		},

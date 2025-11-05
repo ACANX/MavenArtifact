@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-smn",
 	"group_id":"com.huaweicloud.sdk",
 	"artifact_id":"huaweicloud-sdk-smn",
-	"version_latest":"3.1.168",
-	"ts_publish":1758791270000,
-	"dt_publish":"2025-09-25 17:07:50.000",
-	"ts_update":1758794194226,
-	"dt_update":"2025-09-25 17:33:22.286",
-	"count_dep":1,
+	"version_latest":"3.1.171",
+	"ts_publish":1761212063000,
+	"dt_publish":"2025-10-23 17:34:23.000",
+	"ts_update":1761212877606,
+	"dt_update":"2025-10-23 17:47:41.543",
+	"count_dep":21,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,13 +24,37 @@
 	"url_scm":"git@github.com/huaweicloud/huaweicloud-sdk-java-v3.git/huaweicloud-sdk-services/huaweicloud-sdk-smn",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#251796 in MvnRepository",
+	"ranking":"#253575 in MvnRepository",
 	"tags":[
 		"sdk",
 		"cloud",
 		"huawei"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.170",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.169",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.1.168",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250918",
 			"repository":"Central",
@@ -164,30 +190,7 @@
 			"usage":1,
 			"version":"3.1.151",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250529",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.150",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.1.149",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250515",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.148",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Services code for Huawei Cloud SDK for Java"
 }

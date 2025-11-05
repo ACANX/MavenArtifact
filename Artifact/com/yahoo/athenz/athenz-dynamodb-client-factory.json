@@ -3,11 +3,11 @@
 	"description":"Generate dynamodb client based on AWS temporary credentials",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-dynamodb-client-factory",
-	"version_latest":"1.12.26",
-	"ts_publish":1758941748000,
-	"dt_publish":"2025-09-27 10:55:48.000",
-	"ts_update":1758943800549,
-	"dt_update":"2025-09-27 11:26:08.520",
+	"version_latest":"1.12.28",
+	"ts_publish":1761359751000,
+	"dt_publish":"2025-10-25 10:35:51.000",
+	"ts_update":1761365895470,
+	"dt_update":"2025-10-25 12:17:59.219",
 	"count_dep":71,
 	"count_ref":1,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#376332 in MvnRepository",
+	"ranking":"#380591 in MvnRepository",
 	"tags":[
 		"database",
 		"aws",
@@ -36,6 +36,22 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.12.27",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250927",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.12.26",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.12.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241220",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.12.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241207",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.12.6",
 			"vulnerabilities":""
 		}
 	]

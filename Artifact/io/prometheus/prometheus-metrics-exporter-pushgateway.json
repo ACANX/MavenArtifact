@@ -3,12 +3,12 @@
 	"description":"Exporter for pushing metrics to a pushgateway.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-exporter-pushgateway",
-	"version_latest":"1.4.1",
-	"ts_publish":1755532143000,
-	"dt_publish":"2025-08-18 23:49:03.000",
-	"ts_update":1755534164713,
-	"dt_update":"2025-08-19 00:20:35.338",
-	"count_dep":16,
+	"version_latest":"1.4.2",
+	"ts_publish":1761670582000,
+	"dt_publish":"2025-10-29 00:56:22.000",
+	"ts_update":1761671771320,
+	"dt_update":"2025-10-29 01:15:40.451",
+	"count_dep":13,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -27,7 +27,7 @@
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-exporter-pushgateway",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#98713 in MvnRepository",
+	"ranking":"#93508 in MvnRepository",
 	"tags":[
 		"bundle",
 		"monitoring",
@@ -37,6 +37,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",

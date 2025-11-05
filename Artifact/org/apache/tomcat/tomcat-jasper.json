@@ -3,11 +3,11 @@
 	"description":"Tomcats JSP Parser",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-jasper",
-	"version_latest":"11.0.11",
-	"ts_publish":1756724608000,
-	"dt_publish":"2025-09-01 19:03:28.000",
-	"ts_update":1759007741251,
-	"dt_update":"2025-09-28 00:17:06.571",
+	"version_latest":"11.0.13",
+	"ts_publish":1760106052000,
+	"dt_publish":"2025-10-10 22:20:52.000",
+	"ts_update":1762013967150,
+	"dt_update":"2025-11-02 00:18:26.996",
 	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
@@ -19,10 +19,10 @@
 	"dsv":1,
 	"url_project":"https://tomcat.apache.org/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomcat/tomcat-jasper@11.0.10",
-	"count_used_by":279,
+	"count_used_by":280,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#2107 in MvnRepository",
+	"ranking":"#2268 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
@@ -30,6 +30,22 @@
 		"tomcat"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.0.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"11.0.12",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"11.0.0-M20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240416",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"11.0.0-M19",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240314",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"11.0.0-M18",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Support for using Jakarta XML Bind (aka JAXB 3.0) annotations as an alternative\n  to \"native\" Jackson annotations, for configuring data-binding.",
 	"group_id":"com.fasterxml.jackson.module",
 	"artifact_id":"jackson-module-jakarta-xmlbind-annotations",
-	"version_latest":"2.20.0",
-	"ts_publish":1756422386000,
-	"dt_publish":"2025-08-29 07:06:26.000",
-	"ts_update":1756423640309,
-	"dt_update":"2025-08-29 07:25:50.956",
+	"version_latest":"2.20.1",
+	"ts_publish":1761868364000,
+	"dt_publish":"2025-10-31 07:52:44.000",
+	"ts_update":1761870383652,
+	"dt_update":"2025-10-31 08:26:16.002",
 	"count_dep":9,
 	"count_ref":1,
 	"licenses":[
@@ -21,10 +21,10 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.jackson.module/jackson-module-jakarta-xmlbind-annotations@2.20.0-rc1",
 	"url_issue_management":"https://github.com/FasterXML/jackson-modules-base/issues",
 	"url_scm":"https://github.com/FasterXML/jackson-modules-base/jackson-module-jakarta-xmlbind-annotations",
-	"count_used_by":636,
+	"count_used_by":648,
 	"home_page":"https://github.com/FasterXML/jackson-modules-base",
 	"license":"Apache 2.0",
-	"ranking":"#942 in MvnRepository",
+	"ranking":"#967 in MvnRepository",
 	"tags":[
 		"jakarta",
 		"module",
@@ -37,11 +37,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":433,
+			"version":"2.20.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"release",
 			"usage":6,
 			"version":"2.20.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.19.3",
 			"vulnerabilities":""
 		},
 		{
@@ -77,10 +93,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.18.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250507",
 			"repository":"Central",
 			"type":"release",
-			"usage":13,
+			"usage":14,
 			"version":"2.18.4",
 			"vulnerabilities":""
 		},
@@ -88,7 +112,7 @@
 			"date":"20250301",
 			"repository":"Central",
 			"type":"release",
-			"usage":443,
+			"usage":442,
 			"version":"2.18.3",
 			"vulnerabilities":""
 		},
@@ -128,7 +152,7 @@
 			"date":"20241101",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":9,
 			"version":"2.17.3",
 			"vulnerabilities":""
 		},
@@ -170,30 +194,6 @@
 			"type":"release",
 			"usage":20,
 			"version":"2.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231224",
-			"repository":"Central",
-			"type":"release",
-			"usage":428,
-			"version":"2.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231116",
-			"repository":"Central",
-			"type":"release",
-			"usage":410,
-			"version":"2.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231021",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.16.0-rc1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Apache Lucene (module: queries)",
 	"group_id":"org.apache.lucene",
 	"artifact_id":"lucene-queries",
-	"version_latest":"10.2.2",
-	"ts_publish":1750425989000,
-	"dt_publish":"2025-06-20 21:26:29.000",
-	"ts_update":1754522849878,
-	"dt_update":"2025-08-07 06:01:43.088",
+	"version_latest":"10.3.1",
+	"ts_publish":1759758137000,
+	"dt_publish":"2025-10-06 21:42:17.000",
+	"ts_update":1762015640215,
+	"dt_update":"2025-11-02 00:18:12.849",
 	"count_dep":1,
-	"count_ref":86,
+	"count_ref":80,
 	"licenses":[
 		"Apache 2"
 	],
@@ -22,10 +22,10 @@
 	"url_issue_management":"https://issues.apache.org/jira/browse/LUCENE",
 	"url_scm":"https://gitbox.apache.org/repos/asf?p=lucene.git",
 	"url_ci_management":"https://builds.apache.org/job/Lucene/",
-	"count_used_by":482,
+	"count_used_by":484,
 	"home_page":"https://lucene.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#1235 in MvnRepository",
+	"ranking":"#1275 in MvnRepository",
 	"tags":[
 		"lucene",
 		"query",
@@ -34,10 +34,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250620",
+			"date":"20251006",
 			"repository":"Central",
 			"type":"release",
 			"usage":10,
+			"version":"10.3.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"10.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250620",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
 			"version":"10.2.2",
 			"vulnerabilities":""
 		},
@@ -71,6 +87,14 @@
 			"type":"release",
 			"usage":10,
 			"version":"10.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250927",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"9.12.3",
 			"vulnerabilities":""
 		},
 		{
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":16,
 			"version":"9.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230130",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"9.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221122",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"9.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221024",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"9.4.1",
 			"vulnerabilities":""
 		}
 	]

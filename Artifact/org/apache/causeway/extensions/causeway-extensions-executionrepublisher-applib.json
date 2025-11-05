@@ -3,12 +3,12 @@
 	"description":"Republishes executions persisted in the execution log to the execution outbox",
 	"group_id":"org.apache.causeway.extensions",
 	"artifact_id":"causeway-extensions-executionrepublisher-applib",
-	"version_latest":"3.4.0",
-	"ts_publish":1751359566000,
-	"dt_publish":"2025-07-01 16:46:06.000",
-	"ts_update":1755363192762,
-	"dt_update":"2025-08-17 00:17:41.322",
-	"count_dep":22,
+	"version_latest":"4.0.0-M1",
+	"ts_publish":1760047828000,
+	"dt_publish":"2025-10-10 06:10:28.000",
+	"ts_update":1762014977171,
+	"dt_update":"2025-11-02 00:18:23.568",
+	"count_dep":75,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -38,13 +38,21 @@
 	"url_scm":"http://github.com/apache/causeway/causeway-core/causeway-extensions/causeway-extensions-executionrepublisher/causeway-extensions-executionrepublisher-applib",
 	"url_ci_management":"https://github.com/apache-causeway-committers/causeway-nightly",
 	"license":"Apache 2.0",
-	"ranking":"#935484 in MvnRepository",
+	"ranking":"#908172 in MvnRepository",
 	"tags":[
 		"apache",
 		"library",
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",

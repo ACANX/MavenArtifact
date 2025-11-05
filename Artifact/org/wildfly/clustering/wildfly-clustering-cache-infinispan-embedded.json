@@ -1,14 +1,13 @@
 {
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-cache-infinispan-embedded",
-	"description":"WildFly Clustering: Cache: Infinispan: Embedded",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-cache-infinispan-embedded",
-	"version_latest":"7.0.13.Final",
-	"ts_publish":1757377200000,
-	"dt_publish":"2025-09-09 08:20:00.000",
-	"ts_update":1757380173516,
-	"dt_update":"2025-09-09 08:55:58.171",
-	"count_dep":46,
+	"version_latest":"8.0.3.Final",
+	"ts_publish":1761460222000,
+	"dt_publish":"2025-10-26 14:30:22.000",
+	"ts_update":1761461108798,
+	"dt_update":"2025-10-26 14:44:56.205",
+	"count_dep":49,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -27,7 +26,7 @@
 	"count_used_by":19,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#24682 in MvnRepository",
+	"ranking":"#24212 in MvnRepository",
 	"tags":[
 		"embedded",
 		"infinispan",
@@ -36,6 +35,54 @@
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.0.2.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.0.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.0.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"beta",
+			"usage":2,
+			"version":"8.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"beta",
+			"usage":2,
+			"version":"8.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"7.0.13.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -147,54 +194,7 @@
 			"usage":2,
 			"version":"7.0.0.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250508",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"7.0.0.Beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"7.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250511",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.0.4.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"6.0.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250427",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.0.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250326",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.0.1.Final",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"WildFly Clustering: Cache: Infinispan: Embedded"
 }

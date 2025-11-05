@@ -3,16 +3,14 @@
 	"description":"Infinispan Hibernate Cache Commons module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-hibernate-cache-commons",
-	"version_latest":"16.0.0.Dev04",
-	"ts_publish":1758097852000,
-	"dt_publish":"2025-09-17 16:30:52.000",
-	"ts_update":1758098544426,
-	"dt_update":"2025-09-17 16:41:52.736",
-	"count_dep":46,
-	"count_ref":1,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"version_latest":"16.0.0.Dev07",
+	"ts_publish":1762201883000,
+	"dt_publish":"2025-11-04 04:31:23.000",
+	"ts_update":1762205189861,
+	"dt_update":"2025-11-04 05:26:22.990",
+	"count_dep":28,
+	"count_ref":2,
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database",
@@ -26,9 +24,9 @@
 		"See https://github.com/infinispan/infinispan/graphs/contributors"
 	],
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-hibernate-parent/infinispan-hibernate-cache-commons",
-	"count_used_by":24,
+	"count_used_by":25,
 	"license":"Apache 2.0",
-	"ranking":"#19788 in MvnRepository",
+	"ranking":"#19419 in MvnRepository",
 	"tags":[
 		"persistence",
 		"infinispan",
@@ -37,6 +35,30 @@
 		"commons"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev06",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251002",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev05",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev04",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250811",
 			"repository":"Central",
@@ -171,30 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"15.1.4.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241223",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241223",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.1.Final",
 			"vulnerabilities":""
 		}
 	]

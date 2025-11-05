@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-administration",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-administration",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929407000,
-	"dt_publish":"2025-07-19 20:50:07.000",
-	"ts_update":1757175516489,
-	"dt_update":"2025-09-07 00:16:11.374",
-	"count_dep":5,
-	"count_ref":6,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214086000,
+	"dt_publish":"2025-09-19 00:48:06.000",
+	"ts_update":1761410928933,
+	"dt_update":"2025-10-26 00:18:16.511",
+	"count_dep":70,
+	"count_ref":5,
 	"licenses":[],
 	"categories":[
 		"Analytics"
@@ -17,13 +17,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-administration@2.5.0",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#39784 in MvnRepository",
+	"ranking":"#38731 in MvnRepository",
 	"tags":[
 		"admin",
 		"nifi",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

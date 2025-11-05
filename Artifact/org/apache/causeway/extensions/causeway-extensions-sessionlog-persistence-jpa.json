@@ -2,18 +2,20 @@
 	"id":"pkg:maven/org.apache.causeway.extensions/causeway-extensions-sessionlog-persistence-jpa",
 	"group_id":"org.apache.causeway.extensions",
 	"artifact_id":"causeway-extensions-sessionlog-persistence-jpa",
-	"version_latest":"3.4.0",
-	"ts_publish":1751359613000,
-	"dt_publish":"2025-07-01 16:46:53.000",
-	"ts_update":1755361160614,
-	"dt_update":"2025-08-17 00:17:41.954",
-	"count_dep":8,
+	"version_latest":"4.0.0-M1",
+	"ts_publish":1760047820000,
+	"dt_publish":"2025-10-10 06:10:20.000",
+	"ts_update":1762015649413,
+	"dt_update":"2025-11-02 00:18:22.883",
+	"count_dep":103,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.causeway.extensions/causeway-extensions-sessionlog-persistence-jpa@3.4.0",
 	"license":"Apache 2.0",
-	"ranking":"#897023 in MvnRepository",
+	"ranking":"#367403 in MvnRepository",
 	"tags":[
 		"persistence",
 		"jpa",
@@ -23,10 +25,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250708",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"3.4.0",
 			"vulnerabilities":""
 		},
@@ -110,5 +120,7 @@
 			"version":"2.0.0-RC1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Extensions to the Apache Causeway framework itself.\n\t\tThese are _not_ intended to be called by the domain logic of an Apache Causeway application (see instead org.apache.causeway.platform).",
+	"count_used_by":1
 }

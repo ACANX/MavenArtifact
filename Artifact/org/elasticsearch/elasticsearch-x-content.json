@@ -3,12 +3,12 @@
 	"description":"Elasticsearch subproject :libs:x-content",
 	"group_id":"org.elasticsearch",
 	"artifact_id":"elasticsearch-x-content",
-	"version_latest":"9.1.4",
-	"ts_publish":1758207837000,
-	"dt_publish":"2025-09-18 23:03:57.000",
-	"ts_update":1758209223488,
-	"dt_update":"2025-09-18 23:26:08.498",
-	"count_dep":0,
+	"version_latest":"9.2.0",
+	"ts_publish":1761222810000,
+	"dt_publish":"2025-10-23 20:33:30.000",
+	"ts_update":1761224203033,
+	"dt_update":"2025-10-23 20:56:25.625",
+	"count_dep":1,
 	"count_ref":4,
 	"licenses":[
 		"Elastic License 2.0",
@@ -25,16 +25,32 @@
 		"Elastic"
 	],
 	"url_scm":"git@github.com:elastic/elasticsearch.git",
-	"count_used_by":53,
+	"count_used_by":54,
 	"home_page":"https://github.com/elastic/elasticsearch",
 	"license":"AGPL 3.0",
-	"ranking":"#9225 in MvnRepository",
+	"ranking":"#9139 in MvnRepository",
 	"tags":[
 		"elasticsearch",
 		"elastic",
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.1.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.1.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -65,6 +81,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.0.8",
 			"vulnerabilities":""
 		},
 		{
@@ -148,51 +172,27 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.19.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.19.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250828",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
 			"version":"8.19.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.19.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.19.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250729",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.19.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.18.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.18.6",
 			"vulnerabilities":""
 		}
 	]

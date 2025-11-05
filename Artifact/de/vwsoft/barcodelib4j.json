@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/de.vwsoft/barcodelib4j",
-	"description":"Barcode generation library for Java. Supports EAN, UPC, GS1-128, QR Code, DataMatrix and other 1D/2D barcodes. Renders to Graphics2D or exports barcodes as vector graphics (SVG, PDF, EPS) or raster images (PNG, BMP, JPEG).",
+	"description":"Barcode generation library for Java. Supports QR Code, DataMatrix, GS1-128, EAN, ITF and other 1D/2D barcodes. Renders to Graphics2D or exports barcodes as vector (SVG, PDF, EPS) or raster images (PNG, BMP, JPEG).",
 	"group_id":"de.vwsoft",
 	"artifact_id":"barcodelib4j",
-	"version_latest":"2.0.2",
-	"ts_publish":1755386654000,
-	"dt_publish":"2025-08-17 07:24:14.000",
-	"ts_update":1755390368380,
-	"dt_update":"2025-08-17 08:25:49.253",
-	"count_dep":2,
+	"version_latest":"3.1.0",
+	"ts_publish":1761795533000,
+	"dt_publish":"2025-10-30 11:38:53.000",
+	"ts_update":1761796774272,
+	"dt_update":"2025-10-30 11:59:23.642",
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -19,5 +19,26 @@
 	"contributors":[
 		"Viktor Wedel"
 	],
-	"url_scm":"https://github.com/vws-java/Barcode-Lib4J"
+	"url_scm":"https://github.com/vws-java/Barcode-Lib4J",
+	"home_page":"https://www.vw-software.com/java-barcode-library/",
+	"license":"Apache 2.0",
+	"ranking":"#946289 in MvnRepository",
+	"versions":[
+		{
+			"date":"20251005",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250816",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.2",
+			"vulnerabilities":""
+		}
+	]
 }

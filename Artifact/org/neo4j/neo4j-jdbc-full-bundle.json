@@ -3,11 +3,11 @@
 	"description":"Single jar package of the Neo4j JDBC Driver, including the default SQL to Cypher translator.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-jdbc-full-bundle",
-	"version_latest":"6.8.0",
-	"ts_publish":1757503148000,
-	"dt_publish":"2025-09-10 19:19:08.000",
-	"ts_update":1757504711741,
-	"dt_update":"2025-09-10 19:44:06.914",
+	"version_latest":"6.9.1",
+	"ts_publish":1761931246000,
+	"dt_publish":"2025-11-01 01:20:46.000",
+	"ts_update":1761932034592,
+	"dt_update":"2025-11-01 01:33:40.886",
 	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
@@ -32,7 +32,7 @@
 	"url_scm":"https://github.com/neo4j/neo4j-jdbc/bundles/neo4j-jdbc-full-bundle",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#226243 in MvnRepository",
+	"ranking":"#211840 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -42,6 +42,22 @@
 		"neo4j"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250728",
 			"repository":"Central",
@@ -184,22 +200,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.1.0",
 			"vulnerabilities":""
 		}
 	]

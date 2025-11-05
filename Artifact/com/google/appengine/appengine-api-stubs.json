@@ -3,11 +3,11 @@
 	"description":"SDK for dev_appserver (local development) with some of the dependencies shaded (repackaged)",
 	"group_id":"com.google.appengine",
 	"artifact_id":"appengine-api-stubs",
-	"version_latest":"3.0.0-beta",
-	"ts_publish":1758263028000,
-	"dt_publish":"2025-09-19 14:23:48.000",
-	"ts_update":1758264810181,
-	"dt_update":"2025-09-19 14:51:51.639",
+	"version_latest":"3.0.1",
+	"ts_publish":1761239965000,
+	"dt_publish":"2025-10-24 01:19:25.000",
+	"ts_update":1761245687307,
+	"dt_update":"2025-10-24 02:53:24.791",
 	"count_dep":3,
 	"count_ref":11,
 	"licenses":[],
@@ -21,10 +21,10 @@
 		"Ludovic Champenois"
 	],
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/appengine-api-stubs",
-	"count_used_by":181,
+	"count_used_by":185,
 	"home_page":"https://cloud.google.com/appengine/docs/standard/java/javadoc",
 	"license":"Apache 2.0",
-	"ranking":"#3021 in MvnRepository",
+	"ranking":"#3016 in MvnRepository",
 	"tags":[
 		"google",
 		"appengine",
@@ -32,6 +32,30 @@
 		"stub"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"beta",
+			"usage":11,
+			"version":"3.0.0-beta",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"2.0.39",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":9,
+			"version":"2.0.39-beta",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -166,30 +190,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"2.0.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231017",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.0.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231004",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"2.0.20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230912",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.0.19",
 			"vulnerabilities":""
 		}
 	]

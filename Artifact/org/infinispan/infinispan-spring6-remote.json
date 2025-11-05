@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.infinispan/infinispan-spring6-remote",
-	"description":"The Infinispan Spring Integration project provides Spring 6\n        integration for Infinispan, a high performance distributed cache.\n        Its primary features are\n\n        * An implementation of org.springframework.cache.CacheManager,\n        Spring's central caching abstraction, backed by Infinispan's\n        EmbeddedCacheManager. To be used if your Spring-powered\n        application and Infinispan are colocated, i.e. running within\n        the same VM.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by Infinispan's RemoteCacheManager. To bes used if your\n        Spring-powered application accesses Infinispan remotely, i.e.\n        over the network.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by a CacheContainer reference. To be used if your Spring-\n        powered application needs access to a CacheContainer defined\n        outside the application (e.g. retrieved from JNDI)\n        * Spring namespace support allowing shortcut definitions for all the\n        components above\n\n        In addition, Infinispan Spring Integration offers various FactoryBeans\n        for facilitating creation of Infinispan core classes - Cache, CacheManager,\n        ... - within a Spring context.",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-spring6-remote",
-	"version_latest":"16.0.0.Dev04",
-	"ts_publish":1758097852000,
-	"dt_publish":"2025-09-17 16:30:52.000",
-	"ts_update":1758098580210,
-	"dt_update":"2025-09-17 16:41:52.734",
-	"count_dep":104,
+	"version_latest":"16.0.0.Dev07",
+	"ts_publish":1762201883000,
+	"dt_publish":"2025-11-04 04:31:23.000",
+	"ts_update":1762211685445,
+	"dt_update":"2025-11-04 07:14:39.240",
+	"count_dep":34,
 	"count_ref":2,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database",
@@ -28,7 +25,7 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-spring6-parent/infinispan-spring6-remote",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#219054 in MvnRepository",
+	"ranking":"#247636 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"spring",
@@ -36,6 +33,38 @@
 		"remote"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev06",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251002",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev05",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev04",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -53,10 +82,18 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250717",
+			"date":"20250903",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"15.2.6.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250717",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"15.2.5.Final",
 			"vulnerabilities":""
 		},
@@ -154,46 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"15.1.4.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241223",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241223",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241219",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"dev",
-			"usage":1,
-			"version":"15.1.0.Dev05",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Apache Lucene (module: suggest)",
 	"group_id":"org.apache.lucene",
 	"artifact_id":"lucene-suggest",
-	"version_latest":"10.3.0",
-	"ts_publish":1757788514000,
-	"dt_publish":"2025-09-14 02:35:14.000",
-	"ts_update":1757789799966,
-	"dt_update":"2025-09-14 02:56:02.546",
+	"version_latest":"10.3.1",
+	"ts_publish":1759758174000,
+	"dt_publish":"2025-10-06 21:42:54.000",
+	"ts_update":1762015680882,
+	"dt_update":"2025-11-02 00:18:12.847",
 	"count_dep":2,
-	"count_ref":1,
+	"count_ref":61,
 	"licenses":[
 		"Apache 2"
 	],
@@ -25,13 +25,21 @@
 	"count_used_by":172,
 	"home_page":"https://lucene.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#3177 in MvnRepository",
+	"ranking":"#3192 in MvnRepository",
 	"tags":[
 		"lucene",
 		"apache",
 		"index"
 	],
 	"versions":[
+		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"10.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250620",
 			"repository":"Central",
@@ -70,6 +78,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"10.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250927",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.12.3",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"9.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221122",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"9.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221024",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"9.4.1",
 			"vulnerabilities":""
 		}
 	]

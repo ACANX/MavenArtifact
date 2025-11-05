@@ -3,12 +3,12 @@
 	"description":"Camel Bonita support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-bonita",
-	"version_latest":"4.14.0",
-	"ts_publish":1755263747000,
-	"dt_publish":"2025-08-15 21:15:47.000",
-	"ts_update":1758990517360,
-	"dt_update":"2025-09-28 00:16:20.970",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759503061000,
+	"dt_publish":"2025-10-03 22:51:01.000",
+	"ts_update":1762013921348,
+	"dt_update":"2025-11-02 00:17:41.944",
+	"count_dep":4,
 	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
@@ -20,12 +20,28 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-bonita@4.13.0",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#65912 in MvnRepository",
+	"ranking":"#66737 in MvnRepository",
 	"tags":[
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -62,7 +78,7 @@
 			"date":"20250919",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"4.10.7",
 			"vulnerabilities":""
 		},
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"BOM to capture all standard controller service APIs and utils we want to make readily available to any nars that want to\n        leverage this common managed set of dependencies",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-websocket-services-api-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929439000,
-	"dt_publish":"2025-07-19 20:50:39.000",
-	"ts_update":1757175981169,
-	"dt_update":"2025-09-07 00:16:12.301",
-	"count_dep":86,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214300000,
+	"dt_publish":"2025-09-19 00:51:40.000",
+	"ts_update":1761411384245,
+	"dt_update":"2025-10-26 00:18:19.303",
+	"count_dep":88,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-websocket-bundle/nifi-websocket-services-api-nar",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#153169 in MvnRepository",
+	"ranking":"#150389 in MvnRepository",
 	"tags":[
 		"nifi",
 		"socket",
@@ -34,6 +34,14 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

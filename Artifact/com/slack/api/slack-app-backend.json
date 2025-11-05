@@ -3,11 +3,11 @@
 	"description":"Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
 	"group_id":"com.slack.api",
 	"artifact_id":"slack-app-backend",
-	"version_latest":"1.45.4",
-	"ts_publish":1755716480000,
-	"dt_publish":"2025-08-21 03:01:20.000",
-	"ts_update":1755717301423,
-	"dt_update":"2025-08-21 03:12:33.792",
+	"version_latest":"1.46.0",
+	"ts_publish":1761855526000,
+	"dt_publish":"2025-10-31 04:18:46.000",
+	"ts_update":1761856532855,
+	"dt_update":"2025-10-31 04:35:25.722",
 	"count_dep":21,
 	"count_ref":13,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"git@github.com:slackapi/java-slack-sdk.git/slack-app-backend",
 	"count_used_by":15,
 	"license":"Apache 2.0",
-	"ranking":"#31786 in MvnRepository",
+	"ranking":"#32486 in MvnRepository",
 	"tags":[
 		"slack",
 		"backend",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"1.45.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250218",
 			"repository":"Central",
@@ -183,14 +191,7 @@
 			"usage":11,
 			"version":"1.39.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240329",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"1.39.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/slackapi/java-slack-sdk"
 }

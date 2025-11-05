@@ -1,13 +1,13 @@
 {
-	"id":"pkg:maven/com.ensody.nativebuilds/openssl-iosX64",
+	"id":"pkg:maven/com.ensody.nativebuilds/openssl-iosx64",
 	"description":"Native builds of popular open-source libraries",
 	"group_id":"com.ensody.nativebuilds",
-	"artifact_id":"openssl-iosX64",
-	"version_latest":"3.5.2",
-	"ts_publish":1754740677000,
-	"dt_publish":"2025-08-09 19:57:57.000",
-	"ts_update":1754742370342,
-	"dt_update":"2025-08-09 20:25:42.343",
+	"artifact_id":"openssl-iosx64",
+	"version_latest":"3.5.3",
+	"ts_publish":1758258721000,
+	"dt_publish":"2025-09-19 13:12:01.000",
+	"ts_update":1758259586641,
+	"dt_update":"2025-09-19 13:26:04.867",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -15,25 +15,41 @@
 	],
 	"dsv":1,
 	"url_project":"https://github.com/ensody/native-builds",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.ensody.nativebuilds/openssl-iosX64@3.5.2",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.ensody.nativebuilds/openssl-iosx64@3.5.2-preview.1",
 	"contributors":[
 		"Waldemar Kornewald"
 	],
 	"url_scm":"https://github.com/ensody/native-builds",
 	"home_page":"https://github.com/ensody/native-builds",
 	"license":"Apache 2.0",
-	"ranking":"#942998 in MvnRepository",
+	"ranking":"#942035 in MvnRepository",
 	"tags":[
 		"ios",
 		"ssl"
 	],
 	"versions":[
 		{
-			"date":"20250802",
+			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"3.5.1",
+			"version":"3.5.2.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250810",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.5.2.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250810",
+			"repository":"Central",
+			"type":"preview",
+			"usage":0,
+			"version":"3.5.2-preview.1",
 			"vulnerabilities":""
 		}
 	]

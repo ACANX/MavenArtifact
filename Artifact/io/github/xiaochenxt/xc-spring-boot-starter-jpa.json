@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/io.github.xiaochenxt/xc-spring-boot-starter-jpa",
-	"description":"jpa扩展",
+	"description":"jpa扩展，基于querydsl保障类型安全（字段等信息修改遗漏可在编译期提示错误，避免修改遗漏导致错误出现在运行时），支持复杂的增删改查，简化自定义通用查询片段的注入方式（可实现任意复杂的高级查询），groupId迁移到io.github.dengchen2020",
 	"group_id":"io.github.xiaochenxt",
 	"artifact_id":"xc-spring-boot-starter-jpa",
-	"version_latest":"0.0.11",
-	"ts_publish":1758362417000,
-	"dt_publish":"2025-09-20 18:00:17.000",
-	"ts_update":1758364000339,
-	"dt_update":"2025-09-20 18:26:09.814",
+	"version_latest":"0.0.14",
+	"ts_publish":1760520437000,
+	"dt_publish":"2025-10-15 17:27:17.000",
+	"ts_update":1760520901684,
+	"dt_update":"2025-10-15 17:34:47.271",
 	"count_dep":66,
 	"count_ref":0,
 	"licenses":[
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/xiaochenxt/dc-spring-boot-starter-jpa",
 	"home_page":"https://github.com/xiaochenxt/dc-spring-boot-starter-jpa",
 	"license":"Apache 2.0",
-	"ranking":"#708070 in MvnRepository",
+	"ranking":"#758108 in MvnRepository",
 	"tags":[
 		"github",
 		"persistence",
@@ -32,6 +32,30 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.0.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.0.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.0.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",

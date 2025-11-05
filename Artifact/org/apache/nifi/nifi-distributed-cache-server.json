@@ -3,12 +3,12 @@
 	"description":"Provides a Controller Service for hosting Distributed Caches",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-distributed-cache-server",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929622000,
-	"dt_publish":"2025-07-19 20:53:42.000",
-	"ts_update":1757176502493,
-	"dt_update":"2025-09-07 00:16:15.717",
-	"count_dep":78,
+	"version_latest":"2.6.0",
+	"ts_publish":1758213588000,
+	"dt_publish":"2025-09-19 00:39:48.000",
+	"ts_update":1761411397259,
+	"dt_update":"2025-10-26 00:18:08.981",
+	"count_dep":80,
 	"count_ref":2,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-distributed-cache-server@2.5.0",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#243981 in MvnRepository",
+	"ranking":"#247125 in MvnRepository",
 	"tags":[
 		"nifi",
 		"server",
@@ -27,6 +27,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

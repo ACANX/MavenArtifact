@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/org.apache.causeway.viewer/causeway-viewer-commons-services",
-	"description":"Core framework, providing metamodel, runtime and core APIs.",
+	"description":"Gathers all the framework build configuration, such that the BOM can be\n        free of that.",
 	"group_id":"org.apache.causeway.viewer",
 	"artifact_id":"causeway-viewer-commons-services",
-	"version_latest":"3.4.0",
-	"ts_publish":1751359126000,
-	"dt_publish":"2025-07-01 16:38:46.000",
-	"ts_update":1755363385411,
-	"dt_update":"2025-08-17 00:17:39.451",
-	"count_dep":71,
-	"count_ref":6,
+	"version_latest":"4.0.0-M1",
+	"ts_publish":1760047812000,
+	"dt_publish":"2025-10-10 06:10:12.000",
+	"ts_update":1762013984322,
+	"dt_update":"2025-11-02 00:18:22.886",
+	"count_dep":69,
+	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -39,7 +39,7 @@
 	"url_ci_management":"https://github.com/apache-causeway-committers/causeway-nightly",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#190610 in MvnRepository",
+	"ranking":"#195957 in MvnRepository",
 	"tags":[
 		"service",
 		"apache",
@@ -47,6 +47,14 @@
 		"viewer"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":2,
+			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",

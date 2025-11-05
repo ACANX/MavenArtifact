@@ -3,12 +3,12 @@
 	"description":"Evaluates an XPath expression against an XML payload",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-xpath",
-	"version_latest":"3.25.0",
-	"ts_publish":1753344608000,
-	"dt_publish":"2025-07-24 16:10:08.000",
-	"ts_update":1755965880591,
-	"dt_update":"2025-08-24 00:17:25.991",
-	"count_dep":68,
+	"version_latest":"3.27.0",
+	"ts_publish":1758274136000,
+	"dt_publish":"2025-09-19 17:28:56.000",
+	"ts_update":1761410896724,
+	"dt_update":"2025-10-26 00:19:11.058",
+	"count_dep":67,
 	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-xpath-parent/camel-quarkus-xpath",
 	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#29756 in MvnRepository",
+	"ranking":"#29602 in MvnRepository",
 	"tags":[
 		"path",
 		"quarkus",
@@ -35,6 +35,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

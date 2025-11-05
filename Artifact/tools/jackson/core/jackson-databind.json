@@ -3,13 +3,13 @@
 	"description":"General data-binding functionality for Jackson: works on core streaming API",
 	"group_id":"tools.jackson.core",
 	"artifact_id":"jackson-databind",
-	"version_latest":"3.0.0-rc10",
-	"ts_publish":1758327048000,
-	"dt_publish":"2025-09-20 08:10:48.000",
-	"ts_update":1758329879599,
-	"dt_update":"2025-09-20 08:56:15.410",
+	"version_latest":"3.0.1",
+	"ts_publish":1761098498000,
+	"dt_publish":"2025-10-22 10:01:38.000",
+	"ts_update":1761100001652,
+	"dt_update":"2025-10-22 10:26:26.929",
 	"count_dep":8,
-	"count_ref":36,
+	"count_ref":10,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -21,24 +21,42 @@
 		"Tatu Saloranta"
 	],
 	"url_scm":"https://github.com/FasterXML/jackson-databind",
-	"count_used_by":48,
+	"count_used_by":89,
 	"home_page":"https://github.com/FasterXML/jackson",
 	"license":"Apache 2.0",
-	"ranking":"#10072 in MvnRepository",
+	"ranking":"#5740 in MvnRepository",
 	"tags":[
 		"format",
 		"binding",
+		"streaming",
 		"json",
 		"tools",
+		"parsing",
 		"serialization",
 		"jackson"
 	],
 	"versions":[
 		{
+			"date":"20251004",
+			"repository":"Central",
+			"type":"release",
+			"usage":53,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":28,
+			"version":"3.0.0-rc10",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250906",
 			"repository":"Central",
 			"type":"release",
-			"usage":36,
+			"usage":54,
 			"version":"3.0.0-rc9",
 			"vulnerabilities":""
 		},
@@ -46,7 +64,7 @@
 			"date":"20250813",
 			"repository":"Central",
 			"type":"release",
-			"usage":30,
+			"usage":31,
 			"version":"3.0.0-rc8",
 			"vulnerabilities":""
 		},
@@ -62,7 +80,7 @@
 			"date":"20250719",
 			"repository":"Central",
 			"type":"release",
-			"usage":29,
+			"usage":30,
 			"version":"3.0.0-rc6",
 			"vulnerabilities":""
 		},

@@ -3,11 +3,11 @@
 	"description":"Spring Security Kerberos Core",
 	"group_id":"org.springframework.security",
 	"artifact_id":"spring-security-kerberos-core",
-	"version_latest":"7.0.0-M3",
-	"ts_publish":1757955601000,
-	"dt_publish":"2025-09-16 01:00:01.000",
-	"ts_update":1757957215204,
-	"dt_update":"2025-09-16 01:26:08.460",
+	"version_latest":"7.0.0-RC2",
+	"ts_publish":1762235643000,
+	"dt_publish":"2025-11-04 13:54:03.000",
+	"ts_update":1762239423122,
+	"dt_update":"2025-11-04 14:55:33.137",
 	"count_dep":11,
 	"count_ref":2,
 	"licenses":[
@@ -24,5 +24,33 @@
 	"contributors":[
 		"Pivotal"
 	],
-	"url_scm":"https://github.com/spring-projects/spring-security"
+	"url_scm":"https://github.com/spring-projects/spring-security",
+	"count_used_by":2,
+	"home_page":"https://spring.io/projects/spring-security",
+	"license":"Apache 2.0",
+	"ranking":"#239815 in MvnRepository",
+	"tags":[
+		"kerberos",
+		"security",
+		"spring",
+		"framework"
+	],
+	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"7.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":2,
+			"version":"7.0.0-M3",
+			"vulnerabilities":""
+		}
+	]
 }

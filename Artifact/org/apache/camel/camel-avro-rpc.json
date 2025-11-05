@@ -3,12 +3,12 @@
 	"description":"Camel Avro  RPC component",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-avro-rpc",
-	"version_latest":"4.14.0",
-	"ts_publish":1755263466000,
-	"dt_publish":"2025-08-15 21:11:06.000",
-	"ts_update":1758991084257,
-	"dt_update":"2025-09-28 00:16:19.669",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759502771000,
+	"dt_publish":"2025-10-03 22:46:11.000",
+	"ts_update":1762014980858,
+	"dt_update":"2025-11-02 00:17:40.525",
+	"count_dep":4,
 	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-avro-rpc@4.13.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#102853 in MvnRepository",
+	"ranking":"#104421 in MvnRepository",
 	"tags":[
 		"serialization",
 		"avro",
@@ -30,6 +30,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -60,6 +76,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.10.7",
 			"vulnerabilities":""
 		},
 		{
@@ -164,30 +188,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241205",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.2",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"OpenTelemetry - Logging Exporter",
 	"group_id":"io.opentelemetry",
 	"artifact_id":"opentelemetry-exporter-logging",
-	"version_latest":"1.54.1",
-	"ts_publish":1758227141000,
-	"dt_publish":"2025-09-19 04:25:41.000",
-	"ts_update":1758228405822,
-	"dt_update":"2025-09-19 04:45:28.983",
+	"version_latest":"1.55.0",
+	"ts_publish":1760379109000,
+	"dt_publish":"2025-10-14 02:11:49.000",
+	"ts_update":1760379714272,
+	"dt_update":"2025-10-14 02:21:34.779",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"OpenTelemetry"
 	],
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java.git",
-	"count_used_by":99,
+	"count_used_by":101,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java",
 	"license":"Apache 2.0",
-	"ranking":"#5114 in MvnRepository",
+	"ranking":"#5059 in MvnRepository",
 	"tags":[
 		"logging",
 		"monitoring",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.54.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250905",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"1.54.0",
 			"vulnerabilities":""
 		},
@@ -55,7 +63,7 @@
 			"date":"20250711",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"1.52.0",
 			"vulnerabilities":""
 		},
@@ -63,7 +71,7 @@
 			"date":"20250606",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":8,
 			"version":"1.51.0",
 			"vulnerabilities":""
 		},
@@ -143,7 +151,7 @@
 			"date":"20240910",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"1.42.1",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"1.38.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240408",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"1.37.0",
 			"vulnerabilities":""
 		}
 	]

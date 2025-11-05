@@ -3,11 +3,11 @@
 	"description":"Galleon feature pack providing full platform Jakarta EE functionality",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-ee-galleon-pack",
-	"version_latest":"37.0.1.Final",
-	"ts_publish":1756932427000,
-	"dt_publish":"2025-09-04 04:47:07.000",
-	"ts_update":1756934007075,
-	"dt_update":"2025-09-04 05:12:47.654",
+	"version_latest":"38.0.0.Final",
+	"ts_publish":1761302373000,
+	"dt_publish":"2025-10-24 18:39:33.000",
+	"ts_update":1761303403397,
+	"dt_update":"2025-10-24 18:56:25.905",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[],
@@ -16,14 +16,30 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-ee-galleon-pack@37.0.0.Final",
-	"count_used_by":32,
+	"count_used_by":33,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#14429 in MvnRepository",
+	"ranking":"#14211 in MvnRepository",
 	"tags":[
 		"wildfly"
 	],
 	"versions":[
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"beta",
+			"usage":10,
+			"version":"38.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"37.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -44,7 +60,7 @@
 			"date":"20250514",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":13,
 			"version":"36.0.1.Final",
 			"vulnerabilities":""
 		},
@@ -166,22 +182,6 @@
 			"type":"beta",
 			"usage":10,
 			"version":"32.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"31.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240125",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"31.0.0.Final",
 			"vulnerabilities":""
 		}
 	]

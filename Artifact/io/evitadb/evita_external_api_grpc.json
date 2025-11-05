@@ -3,12 +3,12 @@
 	"description":"Module contains gRPC API (server) for evitaDB.",
 	"group_id":"io.evitadb",
 	"artifact_id":"evita_external_api_grpc",
-	"version_latest":"2025.6.2",
-	"ts_publish":1757592193000,
-	"dt_publish":"2025-09-11 20:03:13.000",
-	"ts_update":1757593786368,
-	"dt_update":"2025-09-11 20:29:14.580",
-	"count_dep":71,
+	"version_latest":"2025.8.0",
+	"ts_publish":1761319411000,
+	"dt_publish":"2025-10-24 23:23:31.000",
+	"ts_update":1761320105110,
+	"dt_update":"2025-10-24 23:34:49.003",
+	"count_dep":76,
 	"count_ref":5,
 	"licenses":[
 		"Business Source License 1.1"
@@ -25,7 +25,7 @@
 	"url_scm":"https://evitadb.io/evita_external_api/evita_external_api_grpc/",
 	"count_used_by":6,
 	"license":"BUSL 1.1",
-	"ranking":"#75189 in MvnRepository",
+	"ranking":"#76225 in MvnRepository",
 	"tags":[
 		"grpc",
 		"api",
@@ -33,6 +33,22 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2025.7.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2025.6.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2025.3.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2025.3.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250414",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2025.3.5",
 			"vulnerabilities":""
 		}
 	]

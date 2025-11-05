@@ -3,12 +3,12 @@
 	"description":"Transform JSON and XML message using a XSLT.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-xj",
-	"version_latest":"3.25.0",
-	"ts_publish":1753344603000,
-	"dt_publish":"2025-07-24 16:10:03.000",
-	"ts_update":1755967001563,
-	"dt_update":"2025-08-24 00:17:25.993",
-	"count_dep":91,
+	"version_latest":"3.27.0",
+	"ts_publish":1758274131000,
+	"dt_publish":"2025-09-19 17:28:51.000",
+	"ts_update":1761409188232,
+	"dt_update":"2025-10-26 00:19:11.060",
+	"count_dep":87,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -26,13 +26,29 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-xj-parent/camel-quarkus-xj",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#101384 in MvnRepository",
+	"ranking":"#103672 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

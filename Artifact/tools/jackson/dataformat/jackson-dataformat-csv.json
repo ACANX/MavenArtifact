@@ -3,13 +3,13 @@
 	"description":"Support for reading and writing CSV-encoded data via Jackson\nabstractions.",
 	"group_id":"tools.jackson.dataformat",
 	"artifact_id":"jackson-dataformat-csv",
-	"version_latest":"3.0.0-rc10",
-	"ts_publish":1758327908000,
-	"dt_publish":"2025-09-20 08:25:08.000",
-	"ts_update":1758329874302,
-	"dt_update":"2025-09-20 08:56:14.931",
+	"version_latest":"3.0.1",
+	"ts_publish":1761101179000,
+	"dt_publish":"2025-10-22 10:46:19.000",
+	"ts_update":1761103593279,
+	"dt_update":"2025-10-22 11:26:23.242",
 	"count_dep":6,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -21,19 +21,45 @@
 		"Tatu Saloranta"
 	],
 	"url_scm":"https://github.com/FasterXML/jackson-dataformats-text/jackson-dataformat-csv",
-	"count_used_by":1,
+	"count_used_by":2,
 	"home_page":"https://github.com/FasterXML/jackson-dataformats-text",
 	"license":"Apache 2.0",
-	"ranking":"#414043 in MvnRepository",
+	"ranking":"#252179 in MvnRepository",
 	"tags":[
 		"format",
+		"delimited",
 		"data",
 		"csv",
 		"tools",
 		"serialization",
-		"jackson"
+		"jackson",
+		"tabular"
 	],
 	"versions":[
+		{
+			"date":"20251004",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.0-rc10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250906",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.0-rc9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",

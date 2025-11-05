@@ -3,13 +3,13 @@
 	"description":"OSGi Version of Microsoft JDBC Driver For SQL Server",
 	"group_id":"org.lucee",
 	"artifact_id":"mssql",
-	"version_latest":"12.6.3.jre11",
-	"ts_publish":1755588818000,
-	"dt_publish":"2025-08-19 15:33:38.000",
-	"ts_update":1755590230200,
-	"dt_update":"2025-08-19 15:56:02.014",
+	"version_latest":"13.2.1.jre11",
+	"ts_publish":1762177899000,
+	"dt_publish":"2025-11-03 21:51:39.000",
+	"ts_update":1762179388216,
+	"dt_update":"2025-11-03 22:16:20.772",
 	"count_dep":0,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"MIT license"
 	],
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/lucee/osgi-bundle-mssql",
 	"home_page":"http://maven.lucee.org/mssql/",
 	"license":"MIT",
-	"ranking":"#627070 in MvnRepository",
+	"ranking":"#202886 in MvnRepository",
 	"tags":[
 		"mssql",
 		"sql",
@@ -34,10 +34,26 @@
 	],
 	"versions":[
 		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.6.3.jre11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.6.3.jre8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20230207",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"12.2.0.jre11",
 			"vulnerabilities":""
 		},
@@ -45,7 +61,7 @@
 			"date":"20230207",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"12.2.0.jre8",
 			"vulnerabilities":""
 		},
@@ -53,7 +69,7 @@
 			"date":"20230207",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"11.2.3.jre11",
 			"vulnerabilities":""
 		},
@@ -61,7 +77,7 @@
 			"date":"20230207",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"11.2.3.jre8",
 			"vulnerabilities":""
 		},
@@ -69,7 +85,7 @@
 			"date":"20230207",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"10.2.3.jre11",
 			"vulnerabilities":""
 		},
@@ -77,7 +93,7 @@
 			"date":"20230207",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"10.2.3.jre8",
 			"vulnerabilities":""
 		},
@@ -93,7 +109,7 @@
 			"date":"20230113",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"9.4.1.jre8",
 			"vulnerabilities":""
 		},
@@ -101,7 +117,7 @@
 			"date":"20190722",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"7.2.1.0",
 			"vulnerabilities":""
 		},
@@ -113,5 +129,6 @@
 			"version":"7.2.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":2
 }

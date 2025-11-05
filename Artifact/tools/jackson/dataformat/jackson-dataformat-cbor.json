@@ -3,11 +3,11 @@
 	"description":"Support for reading and writing Concise Binary Object Representation\n([CBOR](https://www.rfc-editor.org/info/rfc7049)\nencoded data using Jackson abstractions (streaming API, data binding, tree model)",
 	"group_id":"tools.jackson.dataformat",
 	"artifact_id":"jackson-dataformat-cbor",
-	"version_latest":"3.0.0-rc10",
-	"ts_publish":1758327736000,
-	"dt_publish":"2025-09-20 08:22:16.000",
-	"ts_update":1758329817721,
-	"dt_update":"2025-09-20 08:56:14.931",
+	"version_latest":"3.0.1",
+	"ts_publish":1761099260000,
+	"dt_publish":"2025-10-22 10:14:20.000",
+	"ts_update":1761101379710,
+	"dt_update":"2025-10-22 10:49:28.442",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -21,10 +21,10 @@
 		"Tatu Saloranta"
 	],
 	"url_scm":"https://github.com/FasterXML/jackson-dataformats-binary/jackson-dataformat-cbor",
-	"count_used_by":6,
+	"count_used_by":10,
 	"home_page":"https://github.com/FasterXML/jackson-dataformats-binary",
 	"license":"Apache 2.0",
-	"ranking":"#74688 in MvnRepository",
+	"ranking":"#46106 in MvnRepository",
 	"tags":[
 		"format",
 		"binary",
@@ -37,10 +37,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251004",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.0.0-rc10",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250906",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":5,
 			"version":"3.0.0-rc9",
 			"vulnerabilities":""
 		},
@@ -48,7 +64,7 @@
 			"date":"20250813",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"3.0.0-rc8",
 			"vulnerabilities":""
 		},

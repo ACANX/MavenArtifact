@@ -3,14 +3,16 @@
 	"description":"Post Quantum Computing Signature and Verification component.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-pqc",
-	"version_latest":"3.25.0",
-	"ts_publish":1753344871000,
-	"dt_publish":"2025-07-24 16:14:31.000",
-	"ts_update":1755966358542,
-	"dt_update":"2025-08-24 00:17:30.338",
-	"count_dep":2,
+	"version_latest":"3.27.0",
+	"ts_publish":1758274394000,
+	"dt_publish":"2025-09-19 17:33:14.000",
+	"ts_update":1761411381537,
+	"dt_update":"2025-10-26 00:19:16.973",
+	"count_dep":65,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache-2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,13 +20,29 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.quarkus/camel-quarkus-pqc@3.25.0",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#227006 in MvnRepository",
+	"ranking":"#245673 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",

@@ -3,12 +3,12 @@
 	"description":"The AlloyDB JDBC Connector provides a socket factory for the Postgres JDBC\n    driver for AlloyDB. The socket factory provides an mTLS 1.3 connection to\n    any specified AlloyDB instance without requiring any manually configured\n    TLS certificates.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"alloydb-jdbc-connector",
-	"version_latest":"1.2.6",
-	"ts_publish":1757694305000,
-	"dt_publish":"2025-09-13 00:25:05.000",
-	"ts_update":1757695644923,
-	"dt_update":"2025-09-13 00:47:12.347",
-	"count_dep":90,
+	"version_latest":"1.2.7",
+	"ts_publish":1761067435000,
+	"dt_publish":"2025-10-22 01:23:55.000",
+	"ts_update":1761068780508,
+	"dt_update":"2025-10-22 01:46:12.802",
+	"count_dep":102,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -27,7 +27,7 @@
 	"count_used_by":3,
 	"home_page":"https://github.com/GoogleCloudPlatform/alloydb-java-connector",
 	"license":"Apache 2.0",
-	"ranking":"#137823 in MvnRepository",
+	"ranking":"#139792 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -39,6 +39,14 @@
 		"connection"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.2.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231212",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.3.0",
 			"vulnerabilities":""
 		}
 	]

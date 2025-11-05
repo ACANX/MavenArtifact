@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.operaton.bpm/operaton-engine",
-	"description":"Operaton - Engine",
 	"group_id":"org.operaton.bpm",
 	"artifact_id":"operaton-engine",
-	"version_latest":"1.0.0-beta-5",
-	"ts_publish":1756467491000,
-	"dt_publish":"2025-08-29 19:38:11.000",
-	"ts_update":1756468579071,
-	"dt_update":"2025-08-29 19:55:56.196",
-	"count_dep":87,
-	"count_ref":18,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"1.0.0-rc-2",
+	"ts_publish":1761913466000,
+	"dt_publish":"2025-10-31 20:24:26.000",
+	"ts_update":1761913986405,
+	"dt_update":"2025-10-31 20:32:52.393",
+	"count_dep":50,
+	"count_ref":5,
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://www.operaton.org/operaton-database-settings/operaton-engine",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.operaton.bpm/operaton-engine@1.0.0-beta-5",
@@ -21,9 +18,9 @@
 		"Operaton Community"
 	],
 	"url_scm":"https://github.com/operaton/operaton/operaton-parent/operaton-database-settings/operaton-engine",
-	"count_used_by":24,
+	"count_used_by":29,
 	"license":"Apache 2.0",
-	"ranking":"#19316 in MvnRepository",
+	"ranking":"#16425 in MvnRepository",
 	"tags":[
 		"workflow",
 		"process",
@@ -32,10 +29,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"1.0.0-rc-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":17,
+			"version":"1.0.0-beta-5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250507",
 			"repository":"Central",
 			"type":"beta",
-			"usage":16,
+			"usage":17,
 			"version":"1.0.0-beta-4",
 			"vulnerabilities":""
 		},

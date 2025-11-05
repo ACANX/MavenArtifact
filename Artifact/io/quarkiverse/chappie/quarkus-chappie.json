@@ -1,14 +1,13 @@
 {
 	"id":"pkg:maven/io.quarkiverse.chappie/quarkus-chappie",
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.chappie",
 	"artifact_id":"quarkus-chappie",
-	"version_latest":"1.3.0",
-	"ts_publish":1758009508000,
-	"dt_publish":"2025-09-16 15:58:28.000",
-	"ts_update":1758010890402,
-	"dt_update":"2025-09-16 16:21:06.037",
-	"count_dep":99,
+	"version_latest":"1.5.0",
+	"ts_publish":1760699490000,
+	"dt_publish":"2025-10-17 19:11:30.000",
+	"ts_update":1760700518589,
+	"dt_update":"2025-10-17 19:28:31.132",
+	"count_dep":100,
 	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,11 +22,35 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-chappie",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#144394 in MvnRepository",
+	"ranking":"#142029 in MvnRepository",
 	"tags":[
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250908",
 			"repository":"Central",
@@ -124,5 +147,6 @@
 			"version":"0.0.2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

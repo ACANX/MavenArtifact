@@ -3,13 +3,13 @@
 	"description":"Keycloak REST Services",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-services",
-	"version_latest":"26.3.5",
-	"ts_publish":1758780827000,
-	"dt_publish":"2025-09-25 14:13:47.000",
-	"ts_update":1758781503335,
-	"dt_update":"2025-09-25 14:23:32.315",
-	"count_dep":222,
-	"count_ref":32,
+	"version_latest":"26.4.2",
+	"ts_publish":1761202190000,
+	"dt_publish":"2025-10-23 14:49:50.000",
+	"ts_update":1761203778225,
+	"dt_update":"2025-10-23 15:16:05.147",
+	"count_dep":230,
+	"count_ref":35,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -25,20 +25,52 @@
 		"Keycloak Team"
 	],
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-services/",
-	"count_used_by":155,
+	"count_used_by":169,
 	"home_page":"https://www.keycloak.org/",
 	"license":"Apache 2.0",
-	"ranking":"#3469 in MvnRepository",
+	"ranking":"#3262 in MvnRepository",
 	"tags":[
 		"keycloak",
 		"service"
 	],
 	"versions":[
 		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"26.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":33,
+			"version":"26.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"26.3.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"26.3.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250820",
 			"repository":"Central",
 			"type":"release",
-			"usage":20,
+			"usage":23,
 			"version":"26.3.3",
 			"vulnerabilities":""
 		},
@@ -161,38 +193,6 @@
 			"usage":18,
 			"version":"26.1.0",
 			"vulnerabilities":"5 vulnerabilities"
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"26.0.8",
-			"vulnerabilities":"6 vulnerabilities"
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"26.0.7",
-			"vulnerabilities":"6 vulnerabilities"
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"26.0.6",
-			"vulnerabilities":"6 vulnerabilities"
-		},
-		{
-			"date":"20241101",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"26.0.5",
-			"vulnerabilities":"7 vulnerabilities"
 		}
 	]
 }

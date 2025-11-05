@@ -3,12 +3,12 @@
 	"description":"Graylog",
 	"group_id":"org.graylog2",
 	"artifact_id":"graylog2-server",
-	"version_latest":"6.3.3",
-	"ts_publish":1756910881000,
-	"dt_publish":"2025-09-03 22:48:01.000",
-	"ts_update":1756912629128,
-	"dt_update":"2025-09-03 23:16:00.943",
-	"count_dep":0,
+	"version_latest":"7.0.0",
+	"ts_publish":1762175680000,
+	"dt_publish":"2025-11-03 21:14:40.000",
+	"ts_update":1762177468525,
+	"dt_update":"2025-11-03 21:44:21.996",
+	"count_dep":31,
 	"count_ref":2,
 	"licenses":[
 		"Server Side Public License (SSPL) version 1"
@@ -27,13 +27,37 @@
 	"url_ci_management":"https://github.com/Graylog2/graylog2-server/actions",
 	"count_used_by":13,
 	"license":"SSPL",
-	"ranking":"#35114 in MvnRepository",
+	"ranking":"#35860 in MvnRepository",
 	"tags":[
 		"logging",
 		"graylog",
 		"server"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.3.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.3.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -56,6 +80,22 @@
 			"type":"release",
 			"usage":1,
 			"version":"6.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.2.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.2.7",
 			"vulnerabilities":""
 		},
 		{
@@ -115,6 +155,22 @@
 			"vulnerabilities":"1 vulnerability"
 		},
 		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.1.16",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.1.15",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
@@ -137,62 +193,6 @@
 			"usage":1,
 			"version":"6.1.12",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250403",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250305",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.8",
-			"vulnerabilities":"2 vulnerabilities"
-		},
-		{
-			"date":"20250217",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.7",
-			"vulnerabilities":"2 vulnerabilities"
-		},
-		{
-			"date":"20250205",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.6",
-			"vulnerabilities":"2 vulnerabilities"
-		},
-		{
-			"date":"20250108",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.5",
-			"vulnerabilities":"2 vulnerabilities"
-		},
-		{
-			"date":"20241204",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"6.1.4",
-			"vulnerabilities":"2 vulnerabilities"
 		}
 	]
 }

@@ -3,11 +3,11 @@
 	"description":"Bill of materials to make sure a consistent set of versions is used for Reactor 3.",
 	"group_id":"io.projectreactor",
 	"artifact_id":"reactor-bom",
-	"version_latest":"2025.0.0-M7",
-	"ts_publish":1757433402000,
-	"dt_publish":"2025-09-09 23:56:42.000",
-	"ts_update":1757434880698,
-	"dt_update":"2025-09-10 00:19:28.668",
+	"version_latest":"2025.0.0-RC1",
+	"ts_publish":1760452470000,
+	"dt_publish":"2025-10-14 22:34:30.000",
+	"ts_update":1760453518806,
+	"dt_update":"2025-10-14 22:51:40.366",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"count_used_by":56,
 	"home_page":"https://projectreactor.io",
 	"license":"Apache 2.0",
-	"ranking":"#8784 in MvnRepository",
+	"ranking":"#8862 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
@@ -37,6 +37,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"2025.0.0-M7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -83,6 +91,14 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"2025.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2024.0.10",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2023.0.18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2023.0.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250311",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2023.0.16",
 			"vulnerabilities":""
 		}
 	]

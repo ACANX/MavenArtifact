@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/com.azure.resourcemanager/azure-resourcemanager-appcontainers",
-	"description":"This package contains Microsoft Azure SDK for ContainerAppsApi Management SDK. For documentation on how to use this package, please see https://aka.ms/azsdk/java/mgmt. Functions is an extension resource to revisions and the api listed is used to proxy the call from Web RP to the function app's host process, this api is not exposed to users and only Web RP is allowed to invoke functions extension resource. Package tag package-preview-2025-02-02-preview.",
+	"description":"This package contains Microsoft Azure SDK for ContainerAppsApi Management SDK. For documentation on how to use this package, please see https://aka.ms/azsdk/java/mgmt. Logic app is an extension resource on container app and the extension resource enables logic specific operations on the container app through the APIs listed. Package tag package-2025-07-01.",
 	"group_id":"com.azure.resourcemanager",
 	"artifact_id":"azure-resourcemanager-appcontainers",
-	"version_latest":"1.2.0-beta.1",
-	"ts_publish":1758007887000,
-	"dt_publish":"2025-09-16 15:31:27.000",
-	"ts_update":1758009472137,
-	"dt_update":"2025-09-16 15:56:12.255",
+	"version_latest":"1.2.0",
+	"ts_publish":1761571287000,
+	"dt_publish":"2025-10-27 21:21:27.000",
+	"ts_update":1761572787591,
+	"dt_update":"2025-10-27 21:46:17.799",
 	"count_dep":14,
 	"count_ref":0,
 	"licenses":[
@@ -28,13 +28,21 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/Azure/azure-sdk-for-java",
 	"license":"MIT",
-	"ranking":"#176542 in MvnRepository",
+	"ranking":"#250918 in MvnRepository",
 	"tags":[
 		"azure",
 		"resource",
 		"manager"
 	],
 	"versions":[
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.2.0-beta.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250417",
 			"repository":"Central",

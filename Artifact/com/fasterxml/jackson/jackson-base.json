@@ -3,11 +3,11 @@
 	"description":"Parent pom for components of Jackson dataprocessor: includes base settings as well\nas consistent set of dependencies across components. NOTE: NOT to be used by components outside\nof Jackson: application code should only rely on `jackson-bom`",
 	"group_id":"com.fasterxml.jackson",
 	"artifact_id":"jackson-base",
-	"version_latest":"2.20.0",
-	"ts_publish":1756421283000,
-	"dt_publish":"2025-08-29 06:48:03.000",
-	"ts_update":1756422870257,
-	"dt_update":"2025-08-29 07:14:21.582",
+	"version_latest":"2.20.1",
+	"ts_publish":1761865451000,
+	"dt_publish":"2025-10-31 07:04:11.000",
+	"ts_update":1761867040059,
+	"dt_update":"2025-10-31 07:30:23.938",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,18 +25,42 @@
 	"url_scm":"https://github.com/FasterXML/jackson-bom/jackson-base",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#111597 in MvnRepository",
+	"ranking":"#121357 in MvnRepository",
 	"tags":[
 		"json",
 		"jackson"
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.20.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"2.20.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.19.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.19.3",
 			"vulnerabilities":""
 		},
 		{
@@ -77,6 +101,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.19.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.18.5",
 			"vulnerabilities":""
 		},
 		{
@@ -157,38 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.17.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240313",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.17.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.17.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240309",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231224",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.16.1",
 			"vulnerabilities":""
 		}
 	]

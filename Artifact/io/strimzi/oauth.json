@@ -3,11 +3,11 @@
 	"description":"Strimzi uses the Kubernetes operator pattern to provide a way to run an Apache Kafka cluster on\n        Kubernetes in various deployment configurations. The OAuth subproject implements the callbacks for\n        Kafka authentication using OAuth (based on SASL OAUTHBEARER mechanism).",
 	"group_id":"io.strimzi",
 	"artifact_id":"oauth",
-	"version_latest":"0.17.0-RC1",
-	"ts_publish":1756928040000,
-	"dt_publish":"2025-09-04 03:34:00.000",
-	"ts_update":1756929450054,
-	"dt_update":"2025-09-04 03:56:05.520",
+	"version_latest":"0.17.1",
+	"ts_publish":1761840724000,
+	"dt_publish":"2025-10-31 00:12:04.000",
+	"ts_update":1761842712847,
+	"dt_update":"2025-10-31 00:44:58.053",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -35,12 +35,36 @@
 	"url_scm":"https://github.com/strimzi/strimzi-kafka-oauth",
 	"home_page":"https://strimzi.io/",
 	"license":"Apache 2.0",
-	"ranking":"#488229 in MvnRepository",
+	"ranking":"#503495 in MvnRepository",
 	"tags":[
 		"authentication",
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.17.1-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.17.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.17.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250416",
 			"repository":"Central",
@@ -175,30 +199,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20200923",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20200821",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20200511",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.5.0",
 			"vulnerabilities":""
 		}
 	]

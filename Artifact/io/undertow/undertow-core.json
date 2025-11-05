@@ -3,13 +3,13 @@
 	"description":"Undertow",
 	"group_id":"io.undertow",
 	"artifact_id":"undertow-core",
-	"version_latest":"2.3.19.Final",
-	"ts_publish":1757122259000,
-	"dt_publish":"2025-09-06 09:30:59.000",
-	"ts_update":1757123796658,
-	"dt_update":"2025-09-06 09:55:58.781",
+	"version_latest":"2.4.0.Alpha1",
+	"ts_publish":1761269418000,
+	"dt_publish":"2025-10-24 09:30:18.000",
+	"ts_update":1761271000378,
+	"dt_update":"2025-10-24 09:56:23.484",
 	"count_dep":33,
-	"count_ref":3,
+	"count_ref":0,
 	"licenses":[
 		"Apache License Version 2.0"
 	],
@@ -29,10 +29,10 @@
 		"David Lloyd"
 	],
 	"url_scm":"https://github.com/undertow-io/undertow",
-	"count_used_by":837,
+	"count_used_by":845,
 	"home_page":"https://undertow.io/",
 	"license":"Apache 2.0",
-	"ranking":"#720 in MvnRepository",
+	"ranking":"#735 in MvnRepository",
 	"tags":[
 		"undertow",
 		"web",
@@ -41,10 +41,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":21,
+			"version":"2.3.20.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250906",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"2.3.19.Final",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20241016",
 			"repository":"Central",
 			"type":"release",
-			"usage":202,
+			"usage":206,
 			"version":"2.3.18.Final",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -108,7 +124,7 @@
 			"date":"20231017",
 			"repository":"Central",
 			"type":"release",
-			"usage":149,
+			"usage":150,
 			"version":"2.3.10.Final",
 			"vulnerabilities":"9 vulnerabilities"
 		},
@@ -183,22 +199,6 @@
 			"usage":7,
 			"version":"2.3.1.Final",
 			"vulnerabilities":"11 vulnerabilities"
-		},
-		{
-			"date":"20221012",
-			"repository":"Central",
-			"type":"release",
-			"usage":132,
-			"version":"2.3.0.Final",
-			"vulnerabilities":"11 vulnerabilities"
-		},
-		{
-			"date":"20220918",
-			"repository":"Central",
-			"type":"beta",
-			"usage":25,
-			"version":"2.3.0.Beta1",
-			"vulnerabilities":"8 vulnerabilities"
 		}
 	]
 }

@@ -3,13 +3,13 @@
 	"description":"Camel Language component",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-language",
-	"version_latest":"4.14.0",
-	"ts_publish":1755262130000,
-	"dt_publish":"2025-08-15 20:48:50.000",
-	"ts_update":1759010260072,
-	"dt_update":"2025-09-28 00:16:13.155",
-	"count_dep":0,
-	"count_ref":16,
+	"version_latest":"4.15.0",
+	"ts_publish":1759501199000,
+	"dt_publish":"2025-10-03 22:19:59.000",
+	"ts_update":1762014978254,
+	"dt_update":"2025-11-02 00:17:33.205",
+	"count_dep":1,
+	"count_ref":15,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,13 +20,29 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-language@4.13.0",
 	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#36704 in MvnRepository",
+	"ranking":"#37043 in MvnRepository",
 	"tags":[
 		"language",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -63,7 +79,7 @@
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":6,
 			"version":"4.10.7",
 			"vulnerabilities":""
 		},
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]

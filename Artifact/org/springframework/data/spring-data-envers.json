@@ -3,14 +3,16 @@
 	"description":"Spring Data extension to work with Hibernate Envers",
 	"group_id":"org.springframework.data",
 	"artifact_id":"spring-data-envers",
-	"version_latest":"4.0.0-M6",
-	"ts_publish":1757675337000,
-	"dt_publish":"2025-09-12 19:08:57.000",
-	"ts_update":1757676396461,
-	"dt_update":"2025-09-12 19:26:04.560",
-	"count_dep":5,
+	"version_latest":"4.0.0-RC1",
+	"ts_publish":1760702506000,
+	"dt_publish":"2025-10-17 20:01:46.000",
+	"ts_update":1760703998826,
+	"dt_update":"2025-10-17 20:26:15.926",
+	"count_dep":34,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database Access"
@@ -26,16 +28,24 @@
 		"Philip Huegelmeyer"
 	],
 	"url_scm":"https://github.com/SpringSource/spring-data-envers",
-	"count_used_by":53,
+	"count_used_by":54,
 	"home_page":"https://github.com/spring-projects/spring-data-envers",
 	"license":"Apache 2.0",
-	"ranking":"#9178 in MvnRepository",
+	"ranking":"#9091 in MvnRepository",
 	"tags":[
 		"data",
 		"spring",
 		"framework"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"4.0.0-M6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -77,6 +87,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250815",
 			"repository":"Central",
 			"type":"release",
@@ -106,6 +124,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.10",
 			"vulnerabilities":""
 		},
 		{
@@ -170,30 +196,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241115",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.3.13",
 			"vulnerabilities":""
 		}
 	]

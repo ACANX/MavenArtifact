@@ -3,13 +3,13 @@
 	"description":"Camel Workday support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-workday",
-	"version_latest":"4.14.0",
-	"ts_publish":1755265159000,
-	"dt_publish":"2025-08-15 21:39:19.000",
-	"ts_update":1758997226717,
-	"dt_update":"2025-09-28 00:16:29.617",
-	"count_dep":0,
-	"count_ref":6,
+	"version_latest":"4.15.0",
+	"ts_publish":1759504638000,
+	"dt_publish":"2025-10-03 23:17:18.000",
+	"ts_update":1762016234187,
+	"dt_update":"2025-11-02 00:17:51.404",
+	"count_dep":2,
+	"count_ref":4,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,12 +20,28 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-workday@4.13.0",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#101909 in MvnRepository",
+	"ranking":"#102880 in MvnRepository",
 	"tags":[
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -62,7 +78,7 @@
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"4.10.7",
 			"vulnerabilities":""
 		},
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]

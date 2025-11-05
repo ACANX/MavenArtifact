@@ -3,12 +3,12 @@
 	"description":"Encoders for transforming FHIR data into Spark Datasets.",
 	"group_id":"au.csiro.pathling",
 	"artifact_id":"encoders",
-	"version_latest":"8.1.0",
-	"ts_publish":1758534272000,
-	"dt_publish":"2025-09-22 17:44:32.000",
-	"ts_update":1758536311959,
-	"dt_update":"2025-09-22 18:17:29.444",
-	"count_dep":222,
+	"version_latest":"9.0.0",
+	"ts_publish":1761612991000,
+	"dt_publish":"2025-10-28 08:56:31.000",
+	"ts_update":1761614792867,
+	"dt_update":"2025-10-28 09:26:25.165",
+	"count_dep":246,
 	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,12 +29,20 @@
 	"url_ci_management":"https://github.com/aehrc/pathling/actions",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#129242 in MvnRepository",
+	"ranking":"#130609 in MvnRepository",
 	"tags":[
 		"encoding",
 		"encoder"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250912",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"6.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221116",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"6.0.4",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-qute-component",
-	"version_latest":"3.25.0",
-	"ts_publish":1753344316000,
-	"dt_publish":"2025-07-24 16:05:16.000",
-	"ts_update":1755966381229,
-	"dt_update":"2025-08-24 00:17:20.763",
-	"count_dep":59,
+	"version_latest":"3.27.0",
+	"ts_publish":1758273855000,
+	"dt_publish":"2025-09-19 17:24:15.000",
+	"ts_update":1761409191975,
+	"dt_update":"2025-10-26 00:19:04.289",
+	"count_dep":58,
 	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-qute-parent/camel-quarkus-qute-component",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#409077 in MvnRepository",
+	"ranking":"#330035 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
@@ -34,6 +34,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

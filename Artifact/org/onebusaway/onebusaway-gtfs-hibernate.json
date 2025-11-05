@@ -3,11 +3,11 @@
 	"description":"A Java library for reading and writing General Transit Feed Spec feeds into a database",
 	"group_id":"org.onebusaway",
 	"artifact_id":"onebusaway-gtfs-hibernate",
-	"version_latest":"10.0.1",
-	"ts_publish":1758540224000,
-	"dt_publish":"2025-09-22 19:23:44.000",
-	"ts_update":1758541523723,
-	"dt_update":"2025-09-22 19:44:20.282",
+	"version_latest":"10.2.0",
+	"ts_publish":1760006712000,
+	"dt_publish":"2025-10-09 18:45:12.000",
+	"ts_update":1760008408700,
+	"dt_update":"2025-10-09 19:13:21.174",
 	"count_dep":34,
 	"count_ref":1,
 	"licenses":[
@@ -27,12 +27,28 @@
 	"url_scm":"https://github.com/OneBusAway/onebusaway-gtfs-modules/onebusaway-gtfs-hibernate",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#121457 in MvnRepository",
+	"ranking":"#121888 in MvnRepository",
 	"tags":[
 		"persistence",
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20251002",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"10.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"10.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250715",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241206",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.1.0",
 			"vulnerabilities":""
 		}
 	]

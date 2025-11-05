@@ -3,11 +3,11 @@
 	"description":"Common Maven parent.",
 	"group_id":"eu.maveniverse.maven.mima.runtime",
 	"artifact_id":"standalone-sisu",
-	"version_latest":"2.4.34",
-	"ts_publish":1756125999000,
-	"dt_publish":"2025-08-25 20:46:39.000",
-	"ts_update":1756127969488,
-	"dt_update":"2025-08-25 21:17:18.030",
+	"version_latest":"2.4.35",
+	"ts_publish":1760802044000,
+	"dt_publish":"2025-10-18 23:40:44.000",
+	"ts_update":1760805391186,
+	"dt_update":"2025-10-19 00:26:20.378",
 	"count_dep":38,
 	"count_ref":0,
 	"licenses":[
@@ -22,9 +22,9 @@
 	],
 	"url_scm":"https://github.com/maveniverse/mima/runtime/standalone-sisu",
 	"url_ci_management":"https://github.com/maveniverse/mima/actions",
-	"count_used_by":3,
+	"count_used_by":5,
 	"license":"EPL 2.0",
-	"ranking":"#147142 in MvnRepository",
+	"ranking":"#93093 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
@@ -54,6 +54,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.0.0-alpha-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.4.34",
 			"vulnerabilities":""
 		},
 		{
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.4.18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240828",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.4.17",
 			"vulnerabilities":""
 		}
 	]

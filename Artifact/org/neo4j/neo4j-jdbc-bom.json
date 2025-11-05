@@ -3,11 +3,11 @@
 	"description":"The BOM for the Neo4j JDBC Driver",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-jdbc-bom",
-	"version_latest":"6.8.0",
-	"ts_publish":1757503148000,
-	"dt_publish":"2025-09-10 19:19:08.000",
-	"ts_update":1757504701912,
-	"dt_update":"2025-09-10 19:44:06.913",
+	"version_latest":"6.9.1",
+	"ts_publish":1761931246000,
+	"dt_publish":"2025-11-01 01:20:46.000",
+	"ts_update":1761932034290,
+	"dt_update":"2025-11-01 01:33:40.263",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -32,7 +32,7 @@
 	"url_scm":"https://github.com/neo4j/neo4j-jdbc/neo4j-jdbc-bom",
 	"home_page":"https://github.com/neo4j/neo4j-jdbc/neo4j-jdbc-bom",
 	"license":"Apache 2.0",
-	"ranking":"#728156 in MvnRepository",
+	"ranking":"#935762 in MvnRepository",
 	"tags":[
 		"database",
 		"bom",
@@ -44,6 +44,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250728",
 			"repository":"Central",
@@ -186,22 +202,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.1.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"An OpenRewrite module automating best practices and migrations for GitHub Actions",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-github-actions",
-	"version_latest":"3.11.0",
-	"ts_publish":1758715935000,
-	"dt_publish":"2025-09-24 20:12:15.000",
-	"ts_update":1758721524835,
-	"dt_update":"2025-09-24 20:31:07.260",
+	"version_latest":"3.14.0",
+	"ts_publish":1762266437000,
+	"dt_publish":"2025-11-04 22:27:17.000",
+	"ts_update":1762268023279,
+	"dt_update":"2025-11-04 22:53:35.109",
 	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
@@ -25,12 +25,36 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-github-actions.git",
 	"count_used_by":1,
 	"home_page":"https://github.com/openrewrite/rewrite-github-actions",
-	"ranking":"#420257 in MvnRepository",
+	"ranking":"#423278 in MvnRepository",
 	"tags":[
 		"github",
 		"action"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.13.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250117",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.1",
 			"vulnerabilities":""
 		}
 	]

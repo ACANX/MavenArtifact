@@ -3,13 +3,13 @@
 	"description":"Extensions to Jersey Client providing awareness of services registered in a service registry like Consul or\n        Eureka",
 	"group_id":"org.kiwiproject",
 	"artifact_id":"registry-aware-jersey-client",
-	"version_latest":"2.4.0",
-	"ts_publish":1758490309000,
-	"dt_publish":"2025-09-22 05:31:49.000",
-	"ts_update":1758491818109,
-	"dt_update":"2025-09-22 05:56:05.051",
-	"count_dep":118,
-	"count_ref":0,
+	"version_latest":"2.4.1",
+	"ts_publish":1760884018000,
+	"dt_publish":"2025-10-19 22:26:58.000",
+	"ts_update":1760885785260,
+	"dt_update":"2025-10-19 22:56:14.774",
+	"count_dep":120,
+	"count_ref":1,
 	"licenses":[
 		"MIT License"
 	],
@@ -27,13 +27,21 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/kiwiproject/registry-aware-jersey-client",
 	"license":"MIT",
-	"ranking":"#399363 in MvnRepository",
+	"ranking":"#397853 in MvnRepository",
 	"tags":[
 		"registry",
 		"client",
 		"webservice"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250727",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.1.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221216",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.1.10",
 			"vulnerabilities":""
 		}
 	]

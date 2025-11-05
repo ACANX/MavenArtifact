@@ -3,12 +3,12 @@
 	"description":"A bundle of processors designed for SNMP exchanges.",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-snmp-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928346000,
-	"dt_publish":"2025-07-19 20:32:26.000",
-	"ts_update":1756572463331,
-	"dt_update":"2025-08-31 00:16:44.329",
-	"count_dep":132,
+	"version_latest":"2.6.0",
+	"ts_publish":1758215226000,
+	"dt_publish":"2025-09-19 01:07:06.000",
+	"ts_update":1762015044813,
+	"dt_update":"2025-11-02 00:16:49.233",
+	"count_dep":109,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,13 +23,21 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-bom/nifi-extension-bom/nifi-extension-bundles/nifi-standard-services-api-bom/nifi-standard-shared-bom/nifi-snmp-bundle/nifi-snmp-nar",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#343947 in MvnRepository",
+	"ranking":"#349630 in MvnRepository",
 	"tags":[
 		"nifi",
 		"snmp",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

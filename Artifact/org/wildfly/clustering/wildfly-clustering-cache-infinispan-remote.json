@@ -1,14 +1,13 @@
 {
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-cache-infinispan-remote",
-	"description":"WildFly Clustering: Cache: Infinispan: Remote",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-cache-infinispan-remote",
-	"version_latest":"7.0.13.Final",
-	"ts_publish":1757377200000,
-	"dt_publish":"2025-09-09 08:20:00.000",
-	"ts_update":1757380228700,
-	"dt_update":"2025-09-09 08:55:58.168",
-	"count_dep":74,
+	"version_latest":"8.0.3.Final",
+	"ts_publish":1761460222000,
+	"dt_publish":"2025-10-26 14:30:22.000",
+	"ts_update":1761461107047,
+	"dt_update":"2025-10-26 14:44:56.205",
+	"count_dep":75,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,7 +25,7 @@
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
 	"count_used_by":19,
 	"license":"Apache 2.0",
-	"ranking":"#25048 in MvnRepository",
+	"ranking":"#25302 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"wildfly",
@@ -35,6 +34,54 @@
 		"remote"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.0.2.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.0.1.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.0.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"8.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"8.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.0.13.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -146,54 +193,7 @@
 			"usage":1,
 			"version":"7.0.0.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250508",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"7.0.0.Beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"7.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250511",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.0.4.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"6.0.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250427",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.0.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250326",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.0.1.Final",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"WildFly Clustering: Cache: Infinispan: Remote"
 }

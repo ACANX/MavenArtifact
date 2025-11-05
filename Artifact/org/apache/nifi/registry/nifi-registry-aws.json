@@ -3,11 +3,11 @@
 	"description":"Provides a central location for storage and management of shared resources across one or more instances\n        of NiFi and/or MiNiFi.",
 	"group_id":"org.apache.nifi.registry",
 	"artifact_id":"nifi-registry-aws",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928273000,
-	"dt_publish":"2025-07-19 20:31:13.000",
-	"ts_update":1756571198798,
-	"dt_update":"2025-08-31 00:16:43.658",
+	"version_latest":"2.6.0",
+	"ts_publish":1758214670000,
+	"dt_publish":"2025-09-19 00:57:50.000",
+	"ts_update":1761409606394,
+	"dt_update":"2025-10-26 00:18:23.458",
 	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_issue_management":"https://issues.apache.org/jira/browse/NIFI",
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-registry/nifi-registry-extensions/nifi-registry-aws",
 	"license":"Apache 2.0",
-	"ranking":"#889522 in MvnRepository",
+	"ranking":"#915741 in MvnRepository",
 	"tags":[
 		"registry",
 		"aws",
@@ -31,6 +31,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

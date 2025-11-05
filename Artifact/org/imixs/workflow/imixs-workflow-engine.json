@@ -3,11 +3,11 @@
 	"description":"The Imixs Workflow engine is a full featured Workflow Management System (WFMS) based on the \n \t\tJava EE specification. The project extends the Imixs Workflow Core API\n \t\tproject to fulfill the requirements to a scalable, transactional, robust and simple deployable JEE Workflow \n \t\tSystem. The Project provides different service components (EJBs) to be used in any kind of Java EE based business application.",
 	"group_id":"org.imixs.workflow",
 	"artifact_id":"imixs-workflow-engine",
-	"version_latest":"6.2.3",
-	"ts_publish":1757016738000,
-	"dt_publish":"2025-09-05 04:12:18.000",
-	"ts_update":1757018021675,
-	"dt_update":"2025-09-05 04:31:52.525",
+	"version_latest":"6.2.4",
+	"ts_publish":1761660852000,
+	"dt_publish":"2025-10-28 22:14:12.000",
+	"ts_update":1761661595279,
+	"dt_update":"2025-10-28 22:26:23.347",
 	"count_dep":57,
 	"count_ref":4,
 	"licenses":[
@@ -25,15 +25,23 @@
 		"Ralph Soika"
 	],
 	"url_scm":"https://github.com/imixs/imixs-workflow/imixs-workflow-engine/",
-	"count_used_by":51,
+	"count_used_by":56,
 	"home_page":"https://www.imixs.org/",
-	"license":"GPL 2.0",
-	"ranking":"#9556 in MvnRepository",
+	"license":"EPL 2.0",
+	"ranking":"#9068 in MvnRepository",
 	"tags":[
 		"workflow",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"6.2.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250609",
 			"repository":"Central",
@@ -94,7 +102,7 @@
 			"date":"20241018",
 			"repository":"Central",
 			"type":"release",
-			"usage":15,
+			"usage":19,
 			"version":"6.1.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"5.2.20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230418",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"5.2.19",
 			"vulnerabilities":""
 		}
 	]

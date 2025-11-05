@@ -3,11 +3,11 @@
 	"description":"Publishes Micrometer meters in OTLP format",
 	"group_id":"io.micrometer",
 	"artifact_id":"micrometer-registry-otlp",
-	"version_latest":"1.16.0-M3",
-	"ts_publish":1757400180000,
-	"dt_publish":"2025-09-09 14:43:00.000",
-	"ts_update":1757400889871,
-	"dt_update":"2025-09-09 14:52:58.736",
+	"version_latest":"1.16.0-RC1",
+	"ts_publish":1760418114000,
+	"dt_publish":"2025-10-14 13:01:54.000",
+	"ts_update":1760419594435,
+	"dt_update":"2025-10-14 13:26:15.483",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -23,15 +23,31 @@
 		"Tommy Ludwig"
 	],
 	"url_scm":"git@github.com:micrometer-metrics/micrometer.git",
-	"count_used_by":27,
+	"count_used_by":28,
 	"home_page":"https://github.com/micrometer-metrics/micrometer",
 	"license":"Apache 2.0",
-	"ranking":"#17012 in MvnRepository",
+	"ranking":"#16665 in MvnRepository",
 	"tags":[
 		"metrics",
 		"registry"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":1,
+			"version":"1.16.0-M3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":1,
+			"version":"1.16.0-M2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250714",
 			"repository":"Central",
@@ -41,10 +57,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"1.15.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.15.3",
 			"vulnerabilities":""
 		},
@@ -97,10 +121,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.14.11",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250811",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"1.14.10",
 			"vulnerabilities":""
 		},
@@ -124,7 +156,7 @@
 			"date":"20250512",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"1.14.7",
 			"vulnerabilities":""
 		},
@@ -158,38 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.14.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241210",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.14.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241115",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.14.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241112",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250609",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.13.15",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Hawtio :: hawtio-local-jvm-mbean",
 	"group_id":"io.hawt",
 	"artifact_id":"hawtio-local-jvm-mbean",
-	"version_latest":"4.5.0",
-	"ts_publish":1755068015000,
-	"dt_publish":"2025-08-13 14:53:35.000",
-	"ts_update":1755069536853,
-	"dt_update":"2025-08-13 15:18:15.207",
+	"version_latest":"4.6.1",
+	"ts_publish":1762239258000,
+	"dt_publish":"2025-11-04 14:54:18.000",
+	"ts_update":1762240640216,
+	"dt_update":"2025-11-04 15:16:59.971",
 	"count_dep":14,
 	"count_ref":2,
 	"licenses":[
@@ -24,14 +24,30 @@
 		"JBoss.org Community"
 	],
 	"url_scm":"git@github.com:hawtio/hawtio.git",
-	"count_used_by":5,
+	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#90387 in MvnRepository",
+	"ranking":"#71168 in MvnRepository",
 	"tags":[
 		"jvm",
 		"mbeans"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.6.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250428",
 			"repository":"Central",
@@ -52,7 +68,7 @@
 			"date":"20250206",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":3,
 			"version":"4.3.0",
 			"vulnerabilities":""
 		},
@@ -174,22 +190,6 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"3.0-M8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230620",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0-M7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230516",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0-M6",
 			"vulnerabilities":""
 		}
 	]

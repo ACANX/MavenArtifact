@@ -3,12 +3,12 @@
 	"description":"dependency-check-ant is an Ant Task that uses dependency-check-core to detect publicly disclosed vulnerabilities associated with the project's dependencies. The task will generate a report listing the dependency, any identified Common Platform Enumeration (CPE) identifiers, and the associated Common Vulnerability and Exposure (CVE) entries.",
 	"group_id":"org.owasp",
 	"artifact_id":"dependency-check-ant",
-	"version_latest":"12.1.6",
-	"ts_publish":1758717109000,
-	"dt_publish":"2025-09-24 20:31:49.000",
-	"ts_update":1758718656759,
-	"dt_update":"2025-09-24 20:56:13.354",
-	"count_dep":81,
+	"version_latest":"12.1.8",
+	"ts_publish":1760367843000,
+	"dt_publish":"2025-10-13 23:04:03.000",
+	"ts_update":1760368610524,
+	"dt_update":"2025-10-13 23:16:27.214",
+	"count_dep":17,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -31,13 +31,37 @@
 	"url_ci_management":"https://github.com/dependency-check/DependencyCheck/actions",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#407411 in MvnRepository",
+	"ranking":"#408047 in MvnRepository",
 	"tags":[
 		"ant",
 		"owasp",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250610",
 			"repository":"Central",
@@ -172,30 +196,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240315",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240117",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240106",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.8",
 			"vulnerabilities":""
 		}
 	]

@@ -2,12 +2,14 @@
 	"id":"pkg:maven/org.anyline/anyline-environment-spring",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-environment-spring",
-	"version_latest":"8.7.2-20250918",
-	"ts_publish":1758199005000,
-	"ts_update":1758200240107,
-	"count_dep":10,
+	"version_latest":"8.7.3-20251022",
+	"ts_publish":1761140082000,
+	"ts_update":1761140852910,
+	"count_dep":19,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,17 +20,57 @@
 		"anyline"
 	],
 	"url_scm":"https://github.com/anylineorg/anyline/anyline-environment-spring",
-	"dt_publish":"2025-09-18 20:36:45.000",
-	"dt_update":"2025-09-18 20:56:10.876",
+	"dt_publish":"2025-10-22 21:34:42.000",
+	"dt_update":"2025-10-22 21:47:09.618",
 	"count_used_by":2,
 	"home_page":"http://www.anyline.org/adapter/spring",
 	"license":"Apache 2.0",
-	"ranking":"#223222 in MvnRepository",
+	"ranking":"#222536 in MvnRepository",
 	"tags":[
 		"spring",
 		"environment"
 	],
 	"versions":[
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.3-jdk21-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.3-jdk17-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.3-jdk11-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251011",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.3-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.2-jdk21-20250918",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -148,46 +190,7 @@
 			"usage":0,
 			"version":"8.7.2-jdk21-20250518",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250515",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250515",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250509",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250509",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250502",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250502",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250404",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250404",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.7.2-jdk21-20250312",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"anyline"
 }

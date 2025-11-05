@@ -3,13 +3,13 @@
 	"description":"JAX-RS 3 implementation of JSON Web Token (JWT) authentication",
 	"group_id":"io.telicent.public",
 	"artifact_id":"jwt-servlet-auth-jaxrs3",
-	"version_latest":"2.0.0",
-	"ts_publish":1757949765000,
-	"dt_publish":"2025-09-15 23:22:45.000",
-	"ts_update":1757951199441,
-	"dt_update":"2025-09-15 23:45:21.862",
+	"version_latest":"2.0.1",
+	"ts_publish":1759402542000,
+	"dt_publish":"2025-10-02 18:55:42.000",
+	"ts_update":1759406230783,
+	"dt_update":"2025-10-02 19:12:30.445",
 	"count_dep":18,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/telicent-oss/jwt-servlet-auth/jwt-servlet-auth-jaxrs3",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#111761 in MvnRepository",
+	"ranking":"#123708 in MvnRepository",
 	"tags":[
 		"rest",
 		"servlet",
@@ -32,6 +32,14 @@
 		"jaxrs"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"0.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240604",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"0.14.0",
 			"vulnerabilities":""
 		}
 	]

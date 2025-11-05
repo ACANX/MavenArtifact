@@ -3,12 +3,12 @@
 	"description":"Enforce logging best practices and migrate between logging frameworks. Automatically.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-logging-frameworks",
-	"version_latest":"3.15.0",
-	"ts_publish":1758719224000,
-	"dt_publish":"2025-09-24 21:07:04.000",
-	"ts_update":1758720498485,
-	"dt_update":"2025-09-24 21:26:23.613",
-	"count_dep":8,
+	"version_latest":"3.18.0",
+	"ts_publish":1762269478000,
+	"dt_publish":"2025-11-04 23:17:58.000",
+	"ts_update":1762270674819,
+	"dt_update":"2025-11-04 23:37:38.267",
+	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
 		"Moderne Source Available License"
@@ -25,12 +25,44 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-logging-frameworks.git",
 	"count_used_by":4,
 	"home_page":"https://github.com/openrewrite/rewrite-logging-frameworks",
-	"ranking":"#104146 in MvnRepository",
+	"ranking":"#106047 in MvnRepository",
 	"tags":[
 		"logging",
 		"framework"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.17.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.16.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -157,38 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250124",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.18.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241224",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.18.1",
 			"vulnerabilities":""
 		}
 	]

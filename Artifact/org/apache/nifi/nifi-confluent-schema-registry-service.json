@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-confluent-schema-registry-service",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-confluent-schema-registry-service",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929443000,
-	"dt_publish":"2025-07-19 20:50:43.000",
-	"ts_update":1757176005174,
-	"dt_update":"2025-09-07 00:16:13.256",
-	"count_dep":116,
+	"version_latest":"2.6.0",
+	"ts_publish":1758214072000,
+	"dt_publish":"2025-09-19 00:47:52.000",
+	"ts_update":1761409193795,
+	"dt_update":"2025-10-26 00:18:15.683",
+	"count_dep":117,
 	"count_ref":2,
 	"licenses":[],
 	"categories":[
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-confluent-schema-registry-service@2.5.0",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#238792 in MvnRepository",
+	"ranking":"#242490 in MvnRepository",
 	"tags":[
 		"confluent",
 		"registry",
@@ -27,6 +27,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

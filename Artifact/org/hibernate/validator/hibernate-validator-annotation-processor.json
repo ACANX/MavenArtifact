@@ -3,11 +3,11 @@
 	"description":"Annotation Processor to detect incorrect usage of constraint annotations.",
 	"group_id":"org.hibernate.validator",
 	"artifact_id":"hibernate-validator-annotation-processor",
-	"version_latest":"9.1.0.Alpha2",
-	"ts_publish":1758300203000,
-	"dt_publish":"2025-09-20 00:43:23.000",
-	"ts_update":1758301045094,
-	"dt_update":"2025-09-20 00:56:09.657",
+	"version_latest":"9.1.0.CR1",
+	"ts_publish":1761765818000,
+	"dt_publish":"2025-10-30 03:23:38.000",
+	"ts_update":1761767104989,
+	"dt_update":"2025-10-30 03:44:39.121",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -30,10 +30,10 @@
 		"Hardy Ferentschik"
 	],
 	"url_scm":"http://github.com/hibernate/hibernate-validator",
-	"count_used_by":119,
+	"count_used_by":120,
 	"home_page":"https://hibernate.org/validator",
 	"license":"Apache 2.0",
-	"ranking":"#4380 in MvnRepository",
+	"ranking":"#4568 in MvnRepository",
 	"tags":[
 		"persistence",
 		"annotations",
@@ -42,6 +42,22 @@
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"9.1.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"9.1.0.Alpha2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250828",
 			"repository":"Central",
@@ -94,7 +110,7 @@
 			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"8.0.3.Final",
 			"vulnerabilities":""
 		},
@@ -184,22 +200,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"7.0.4.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220302",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.0.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211214",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"7.0.2.Final",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Extra queries and filters for Opensearch.",
 	"group_id":"org.wikimedia.search",
 	"artifact_id":"opensearch-extra-common",
-	"version_latest":"1.3.20-wmf6",
-	"ts_publish":1756935446000,
-	"dt_publish":"2025-09-04 05:37:26.000",
-	"ts_update":1756936589746,
-	"dt_update":"2025-09-04 05:56:09.934",
+	"version_latest":"1.3.20-wmf8",
+	"ts_publish":1761579492000,
+	"dt_publish":"2025-10-27 23:38:12.000",
+	"ts_update":1761582097224,
+	"dt_update":"2025-10-28 00:21:07.441",
 	"count_dep":5,
 	"count_ref":6,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://gerrit.wikimedia.org/r/#/admin/projects/search/extra",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#82237 in MvnRepository",
+	"ranking":"#72446 in MvnRepository",
 	"tags":[
 		"opensearch",
 		"search"
@@ -40,6 +40,22 @@
 			"type":"release",
 			"usage":6,
 			"version":"1.3.20",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.3.20-wmf7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.3.20-wmf6",
 			"vulnerabilities":""
 		},
 		{

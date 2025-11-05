@@ -3,13 +3,13 @@
 	"description":"Camel Debezium Common support",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-debezium-common",
-	"version_latest":"4.14.0",
-	"ts_publish":1755263894000,
-	"dt_publish":"2025-08-15 21:18:14.000",
-	"ts_update":1758990428383,
-	"dt_update":"2025-09-28 00:16:22.268",
-	"count_dep":0,
-	"count_ref":11,
+	"version_latest":"4.15.0",
+	"ts_publish":1759503207000,
+	"dt_publish":"2025-10-03 22:53:27.000",
+	"ts_update":1762014018578,
+	"dt_update":"2025-11-02 00:17:42.663",
+	"count_dep":5,
+	"count_ref":9,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-debezium-common@4.13.0",
 	"count_used_by":21,
 	"license":"Apache 2.0",
-	"ranking":"#21691 in MvnRepository",
+	"ranking":"#22054 in MvnRepository",
 	"tags":[
 		"apache",
 		"debezium",
@@ -28,10 +28,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250815",
+			"date":"20251007",
 			"repository":"Central",
 			"type":"release",
 			"usage":9,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
 			"version":"4.14.0",
 			"vulnerabilities":""
 		},
@@ -63,7 +79,7 @@
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":9,
 			"version":"4.10.7",
 			"vulnerabilities":""
 		},
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]

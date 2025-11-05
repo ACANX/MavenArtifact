@@ -3,12 +3,12 @@
 	"description":"The Jetty HTTP and HTTP/2 Load Generator",
 	"group_id":"org.mortbay.jetty.loadgenerator",
 	"artifact_id":"jetty-load-generator-client",
-	"version_latest":"4.1.1",
-	"ts_publish":1757490947000,
-	"dt_publish":"2025-09-10 15:55:47.000",
-	"ts_update":1757492446092,
-	"dt_update":"2025-09-10 16:20:27.350",
-	"count_dep":0,
+	"version_latest":"4.1.2",
+	"ts_publish":1760358149000,
+	"dt_publish":"2025-10-13 20:22:29.000",
+	"ts_update":1760360199892,
+	"dt_update":"2025-10-13 20:56:18.050",
+	"count_dep":23,
 	"count_ref":2,
 	"licenses":[
 		"Apache Software License - Version 2.0",
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/jetty-project/jetty-load-generator/jetty-load-generator-client",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#130770 in MvnRepository",
+	"ranking":"#132049 in MvnRepository",
 	"tags":[
 		"generator",
 		"server",
@@ -37,11 +37,35 @@
 	],
 	"versions":[
 		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.1.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250826",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
 			"version":"4.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.27",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.26",
 			"vulnerabilities":""
 		},
 		{
@@ -170,30 +194,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231205",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231101",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231010",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.1",
 			"vulnerabilities":""
 		}
 	]

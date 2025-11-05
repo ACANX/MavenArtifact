@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-redis-nar",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-redis-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928171000,
-	"dt_publish":"2025-07-19 20:29:31.000",
-	"ts_update":1756571215126,
-	"dt_update":"2025-08-31 00:16:43.042",
+	"version_latest":"2.6.0",
+	"ts_publish":1758213135000,
+	"dt_publish":"2025-09-19 00:32:15.000",
+	"ts_update":1761411394157,
+	"dt_update":"2025-10-26 00:18:04.466",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-redis-nar@2.5.0",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#228968 in MvnRepository",
+	"ranking":"#232620 in MvnRepository",
 	"tags":[
 		"database",
 		"nifi",
@@ -26,10 +26,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250719",
+			"date":"20250921",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250719",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.5.0",
 			"vulnerabilities":""
 		},
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

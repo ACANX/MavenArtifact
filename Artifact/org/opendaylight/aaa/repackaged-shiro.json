@@ -3,11 +3,11 @@
 	"description":"Bundle parent (felix-based)",
 	"group_id":"org.opendaylight.aaa",
 	"artifact_id":"repackaged-shiro",
-	"version_latest":"0.21.2",
-	"ts_publish":1758072586000,
-	"dt_publish":"2025-09-17 09:29:46.000",
-	"ts_update":1758074175587,
-	"dt_update":"2025-09-17 09:56:07.624",
+	"version_latest":"0.22.1",
+	"ts_publish":1760614934000,
+	"dt_publish":"2025-10-16 19:42:14.000",
+	"ts_update":1760617590338,
+	"dt_update":"2025-10-16 20:26:23.416",
 	"count_dep":22,
 	"count_ref":7,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_ci_management":"https://jenkins.opendaylight.org/releng/",
 	"count_used_by":5,
 	"license":"EPL 1.0",
-	"ranking":"#98291 in MvnRepository",
+	"ranking":"#98228 in MvnRepository",
 	"tags":[
 		"bundle",
 		"security",
@@ -35,6 +35,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"0.22.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"0.21.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250823",
 			"repository":"Central",
@@ -49,6 +65,22 @@
 			"type":"release",
 			"usage":5,
 			"version":"0.21.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"0.20.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"0.20.12",
 			"vulnerabilities":""
 		},
 		{
@@ -161,38 +193,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"0.19.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241202",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.19.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.19.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240831",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"0.19.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240606",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"0.19.5",
 			"vulnerabilities":""
 		}
 	]

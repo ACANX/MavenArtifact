@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.causeway.extensions/causeway-extensions-sessionlog",
 	"group_id":"org.apache.causeway.extensions",
 	"artifact_id":"causeway-extensions-sessionlog",
-	"version_latest":"3.4.0",
-	"ts_publish":1751359608000,
-	"dt_publish":"2025-07-01 16:46:48.000",
-	"ts_update":1755362421639,
-	"dt_update":"2025-08-17 00:17:41.955",
-	"count_dep":2,
+	"version_latest":"4.0.0-M1",
+	"ts_publish":1760047775000,
+	"dt_publish":"2025-10-10 06:09:35.000",
+	"ts_update":1762014002364,
+	"dt_update":"2025-11-02 00:18:21.695",
+	"count_dep":61,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.causeway.extensions/causeway-extensions-sessionlog@3.4.0",
 	"contributors":[
@@ -31,13 +33,21 @@
 		"Dave Slaughter"
 	],
 	"license":"Apache 2.0",
-	"ranking":"#909446 in MvnRepository",
+	"ranking":"#808299 in MvnRepository",
 	"tags":[
 		"apache",
 		"session",
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250708",
 			"repository":"Central",
@@ -126,5 +136,6 @@
 			"version":"2.0.0-RC1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Extensions to the Apache Causeway framework itself.\n\t\tThese are _not_ intended to be called by the domain logic of an Apache Causeway application (see instead org.apache.causeway.platform)."
 }

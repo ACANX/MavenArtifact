@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.apache.camel/camel-test-infra-infinispan",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-test-infra-infinispan",
-	"version_latest":"4.14.0",
-	"ts_publish":1755262670000,
-	"dt_publish":"2025-08-15 20:57:50.000",
-	"ts_update":1758991690731,
-	"dt_update":"2025-09-28 00:16:15.403",
-	"count_dep":0,
+	"version_latest":"4.15.0",
+	"ts_publish":1759501902000,
+	"dt_publish":"2025-10-03 22:31:42.000",
+	"ts_update":1762015642920,
+	"dt_update":"2025-11-02 00:17:36.122",
+	"count_dep":3,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -19,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-test-infra-infinispan@4.13.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#169859 in MvnRepository",
+	"ranking":"#170465 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"testing",
@@ -28,6 +28,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -58,6 +74,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.10.7",
 			"vulnerabilities":""
 		},
 		{
@@ -162,30 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241205",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.8.2",
 			"vulnerabilities":""
 		}
 	]

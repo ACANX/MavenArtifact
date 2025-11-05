@@ -3,13 +3,13 @@
 	"description":"The core modules of NiFi Registry.",
 	"group_id":"org.apache.nifi.registry",
 	"artifact_id":"nifi-registry-flow-diff",
-	"version_latest":"2.5.0",
-	"ts_publish":1752928638000,
-	"dt_publish":"2025-07-19 20:37:18.000",
-	"ts_update":1756572999713,
-	"dt_update":"2025-08-31 00:16:46.898",
+	"version_latest":"2.6.0",
+	"ts_publish":1758214867000,
+	"dt_publish":"2025-09-19 01:01:07.000",
+	"ts_update":1761411395545,
+	"dt_update":"2025-10-26 00:18:26.045",
 	"count_dep":9,
-	"count_ref":12,
+	"count_ref":11,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,7 +23,7 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/nifi-registry/nifi-registry-core/nifi-registry-flow-diff",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#84695 in MvnRepository",
+	"ranking":"#86359 in MvnRepository",
 	"tags":[
 		"registry",
 		"nifi",
@@ -31,6 +31,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250921",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

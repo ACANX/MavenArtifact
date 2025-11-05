@@ -3,13 +3,13 @@
 	"description":"Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.\n\n  The code is tested using the latest revision of the JDK for supported\n  LTS releases: 8, 11, 17 and 21 currently.\n  See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml\n  \n  Please ensure your build environment is up-to-date and kindly report any build issues.",
 	"group_id":"org.apache.commons",
 	"artifact_id":"commons-lang3",
-	"version_latest":"3.18.0",
-	"ts_publish":1751823785000,
-	"dt_publish":"2025-07-07 01:43:05.000",
-	"ts_update":1755361135797,
-	"dt_update":"2025-08-17 00:18:11.915",
+	"version_latest":"3.19.0",
+	"ts_publish":1758320466000,
+	"dt_publish":"2025-09-20 06:21:06.000",
+	"ts_update":1762013933149,
+	"dt_update":"2025-11-02 00:16:51.639",
 	"count_dep":7,
-	"count_ref":9152,
+	"count_ref":5665,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -22,7 +22,7 @@
 	"url_issue_management":"https://issues.apache.org/jira/browse/LANG",
 	"url_scm":"https://gitbox.apache.org/repos/asf/commons-lang.git",
 	"url_ci_management":"https://github.com/apache/commons-lang/actions",
-	"count_used_by":33087,
+	"count_used_by":33920,
 	"home_page":"https://commons.apache.org/proper/commons-lang/",
 	"license":"Apache 2.0",
 	"ranking":"#10 in MvnRepository",
@@ -37,10 +37,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":1050,
+			"version":"3.19.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250709",
 			"repository":"Central",
 			"type":"release",
-			"usage":1180,
+			"usage":2922,
 			"version":"3.18.0",
 			"vulnerabilities":""
 		},
@@ -48,7 +56,7 @@
 			"date":"20240829",
 			"repository":"Central",
 			"type":"release",
-			"usage":3989,
+			"usage":4205,
 			"version":"3.17.0",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -56,7 +64,7 @@
 			"date":"20240807",
 			"repository":"Central",
 			"type":"release",
-			"usage":1127,
+			"usage":1128,
 			"version":"3.16.0",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -64,7 +72,7 @@
 			"date":"20240717",
 			"repository":"Central",
 			"type":"release",
-			"usage":695,
+			"usage":697,
 			"version":"3.15.0",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -72,7 +80,7 @@
 			"date":"20231122",
 			"repository":"Central",
 			"type":"release",
-			"usage":4125,
+			"usage":4204,
 			"version":"3.14.0",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -80,7 +88,7 @@
 			"date":"20230728",
 			"repository":"Central",
 			"type":"release",
-			"usage":2626,
+			"usage":2636,
 			"version":"3.13.0",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -88,7 +96,7 @@
 			"date":"20210302",
 			"repository":"Central",
 			"type":"release",
-			"usage":10045,
+			"usage":10199,
 			"version":"3.12.0",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -96,7 +104,7 @@
 			"date":"20200716",
 			"repository":"Central",
 			"type":"release",
-			"usage":3905,
+			"usage":3914,
 			"version":"3.11",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -104,7 +112,7 @@
 			"date":"20200327",
 			"repository":"Central",
 			"type":"release",
-			"usage":2538,
+			"usage":2559,
 			"version":"3.10",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -112,7 +120,7 @@
 			"date":"20190415",
 			"repository":"Central",
 			"type":"release",
-			"usage":4831,
+			"usage":4861,
 			"version":"3.9",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -120,7 +128,7 @@
 			"date":"20180919",
 			"repository":"Central",
 			"type":"release",
-			"usage":4212,
+			"usage":4224,
 			"version":"3.8.1",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -128,7 +136,7 @@
 			"date":"20180816",
 			"repository":"Central",
 			"type":"release",
-			"usage":1312,
+			"usage":1315,
 			"version":"3.8",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -136,7 +144,7 @@
 			"date":"20171104",
 			"repository":"Central",
 			"type":"release",
-			"usage":3607,
+			"usage":3630,
 			"version":"3.7",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -144,7 +152,7 @@
 			"date":"20170609",
 			"repository":"Central",
 			"type":"release",
-			"usage":2533,
+			"usage":2535,
 			"version":"3.6",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -152,7 +160,7 @@
 			"date":"20161013",
 			"repository":"Central",
 			"type":"release",
-			"usage":3210,
+			"usage":3212,
 			"version":"3.5",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -160,7 +168,7 @@
 			"date":"20150403",
 			"repository":"Central",
 			"type":"release",
-			"usage":5428,
+			"usage":5438,
 			"version":"3.4",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -168,7 +176,7 @@
 			"date":"20140406",
 			"repository":"Central",
 			"type":"release",
-			"usage":3019,
+			"usage":3025,
 			"version":"3.3.2",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":166,
 			"version":"3.3",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20140105",
-			"repository":"Central",
-			"type":"release",
-			"usage":380,
-			"version":"3.2.1",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]

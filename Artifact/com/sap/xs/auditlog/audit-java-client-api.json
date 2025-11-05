@@ -3,12 +3,12 @@
 	"description":"Java Client API for Auditlog",
 	"group_id":"com.sap.xs.auditlog",
 	"artifact_id":"audit-java-client-api",
-	"version_latest":"3.1.7",
-	"ts_publish":1754656705000,
-	"dt_publish":"2025-08-08 20:38:25.000",
-	"ts_update":1754659538572,
-	"dt_update":"2025-08-08 21:24:23.056",
-	"count_dep":1,
+	"version_latest":"3.1.9",
+	"ts_publish":1760131462000,
+	"dt_publish":"2025-10-11 05:24:22.000",
+	"ts_update":1760133386098,
+	"dt_update":"2025-10-11 05:56:17.021",
+	"count_dep":4,
 	"count_ref":1,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT"
@@ -20,8 +20,8 @@
 		"SAP SE"
 	],
 	"url_scm":"https://github.wdf.sap.corp/xs-audit-log/audit-java-client",
-	"count_used_by":8,
-	"ranking":"#60015 in MvnRepository",
+	"count_used_by":9,
+	"ranking":"#54158 in MvnRepository",
 	"tags":[
 		"client",
 		"audit",
@@ -29,6 +29,14 @@
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250507",
 			"repository":"Central",
@@ -85,5 +93,7 @@
 			"version":"2.0.20",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"http://maven.apache.org",
+	"license":"SAP-Dev"
 }

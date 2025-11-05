@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.zerows/r2mo-vertx-jooq",
+  "description": "参考在线项目：\n        -- vertx-jooq: 这个项目已经两年多没有更新，为了保证整体兼容性，重新编译\n        |-- 项目地址：https://github.com/jklingsporn/vertx-jooq.git\n        |-- 内嵌项目 /\n        |----- vertx-jooq-shared\n        |----- vertx-jooq-classic\n        1. 集成到 R2MO 体系中，追加实现方案：\n        -- / r2mo-vertx-jooq-jdbc\n        -- / r2mo-vertx-jooq-reactive（后续考虑，暂时不计划）\n        2. 单独开启一个项目：r2mo-vertx-jooq-generate 用于代码生成\n        3. 移除 rx 模式和 mutiny 模式的支持",
+  "group_id": "io.zerows",
+  "artifact_id": "r2mo-vertx-jooq",
+  "version_latest": "1.0-M25",
+  "ts_publish": 1761567093000,
+  "dt_publish": "2025-10-27 20:11:33.000",
+  "ts_update": 1761568445385,
+  "dt_update": "2025-10-27 20:34:05.385",
+  "count_dep": 49,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

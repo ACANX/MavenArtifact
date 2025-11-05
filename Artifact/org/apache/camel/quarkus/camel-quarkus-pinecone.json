@@ -3,14 +3,16 @@
 	"description":"Perform operations on the Pinecone Vector Database.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-pinecone",
-	"version_latest":"3.25.0",
-	"ts_publish":1753344286000,
-	"dt_publish":"2025-07-24 16:04:46.000",
-	"ts_update":1755966356698,
-	"dt_update":"2025-08-24 00:17:20.145",
-	"count_dep":4,
+	"version_latest":"3.27.0",
+	"ts_publish":1758273826000,
+	"dt_publish":"2025-09-19 17:23:46.000",
+	"ts_update":1761411385984,
+	"dt_update":"2025-10-26 00:19:04.297",
+	"count_dep":141,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache-2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.quarkus/camel-quarkus-pinecone@3.25.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#134385 in MvnRepository",
+	"ranking":"#137091 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
@@ -26,6 +28,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -168,14 +186,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.12.0",
 			"vulnerabilities":""
 		}
 	]

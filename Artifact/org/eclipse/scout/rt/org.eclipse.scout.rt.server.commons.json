@@ -1,15 +1,14 @@
 {
 	"id":"pkg:maven/org.eclipse.scout.rt/org.eclipse.scout.rt.server.commons",
-	"description":"Eclipse Scout RT",
 	"group_id":"org.eclipse.scout.rt",
 	"artifact_id":"org.eclipse.scout.rt.server.commons",
-	"version_latest":"25.2.3",
-	"ts_publish":1756810723000,
-	"dt_publish":"2025-09-02 18:58:43.000",
-	"ts_update":1756812444399,
-	"dt_update":"2025-09-02 19:25:57.497",
+	"version_latest":"25.2.12",
+	"ts_publish":1761664005000,
+	"dt_publish":"2025-10-28 23:06:45.000",
+	"ts_update":1761664712557,
+	"dt_update":"2025-10-28 23:18:03.943",
 	"count_dep":32,
-	"count_ref":20,
+	"count_ref":17,
 	"licenses":[
 		"Eclipse Public License 2.0"
 	],
@@ -27,13 +26,37 @@
 	"url_scm":"https://github.com/eclipse-scout/org.eclipse.scout.rt.server.commons/",
 	"count_used_by":4,
 	"license":"EPL 2.0",
-	"ranking":"#127830 in MvnRepository",
+	"ranking":"#129872 in MvnRepository",
 	"tags":[
 		"server",
 		"eclipse",
 		"commons"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"25.2.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"25.2.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250902",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"25.2.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250826",
 			"repository":"Central",
@@ -169,30 +192,7 @@
 			"usage":4,
 			"version":"24.2.14",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241015",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"24.2.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241001",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"24.2.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240903",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"24.2.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Eclipse Scout RT"
 }

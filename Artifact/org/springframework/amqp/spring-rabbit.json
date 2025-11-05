@@ -3,13 +3,13 @@
 	"description":"Spring RabbitMQ Support",
 	"group_id":"org.springframework.amqp",
 	"artifact_id":"spring-rabbit",
-	"version_latest":"4.0.0-M5",
-	"ts_publish":1757946726000,
-	"dt_publish":"2025-09-15 22:32:06.000",
-	"ts_update":1757949487577,
-	"dt_update":"2025-09-15 23:16:41.968",
-	"count_dep":61,
-	"count_ref":3,
+	"version_latest":"4.0.0-RC1",
+	"ts_publish":1760989458000,
+	"dt_publish":"2025-10-21 03:44:18.000",
+	"ts_update":1760993305317,
+	"dt_update":"2025-10-21 04:48:09.853",
+	"count_dep":72,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -29,10 +29,10 @@
 		"Gary Russell"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-amqp",
-	"count_used_by":345,
+	"count_used_by":346,
 	"home_page":"https://github.com/spring-projects/spring-amqp",
 	"license":"Apache 2.0",
-	"ranking":"#1760 in MvnRepository",
+	"ranking":"#1774 in MvnRepository",
 	"tags":[
 		"queue",
 		"messaging",
@@ -43,6 +43,14 @@
 		"message"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":8,
+			"version":"4.0.0-M5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -73,6 +81,14 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.2.7",
 			"vulnerabilities":""
 		},
 		{
@@ -111,7 +127,7 @@
 			"date":"20250121",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":9,
 			"version":"3.2.2",
 			"vulnerabilities":""
 		},
@@ -185,22 +201,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"3.1.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240520",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"3.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240415",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.1.4",
 			"vulnerabilities":""
 		}
 	]

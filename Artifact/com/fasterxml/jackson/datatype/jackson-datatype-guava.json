@@ -3,11 +3,11 @@
 	"description":"Add-on datatype-support module for Jackson (https://github.com/FasterXML/jackson) that handles\nGuava (https://github.com/google/guava) types (currently mostly just collection ones)",
 	"group_id":"com.fasterxml.jackson.datatype",
 	"artifact_id":"jackson-datatype-guava",
-	"version_latest":"2.20.0",
-	"ts_publish":1756424919000,
-	"dt_publish":"2025-08-29 07:48:39.000",
-	"ts_update":1756425386785,
-	"dt_update":"2025-08-29 07:55:53.850",
+	"version_latest":"2.20.1",
+	"ts_publish":1761869132000,
+	"dt_publish":"2025-10-31 08:05:32.000",
+	"ts_update":1761870385664,
+	"dt_update":"2025-10-31 08:26:14.815",
 	"count_dep":11,
 	"count_ref":0,
 	"licenses":[
@@ -21,10 +21,10 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.20.0-rc1",
 	"url_issue_management":"https://github.com/FasterXML/jackson-datatype-guava/issues",
 	"url_scm":"https://github.com/FasterXML/jackson-datatypes-collections/jackson-datatype-guava",
-	"count_used_by":1272,
+	"count_used_by":1289,
 	"home_page":"https://github.com/FasterXML/jackson-datatypes-collections",
 	"license":"Apache 2.0",
-	"ranking":"#460 in MvnRepository",
+	"ranking":"#466 in MvnRepository",
 	"tags":[
 		"json",
 		"jackson",
@@ -32,6 +32,14 @@
 		"guava"
 	],
 	"versions":[
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":439,
+			"version":"2.20.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -41,10 +49,26 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.19.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.19.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
-			"usage":449,
+			"usage":467,
 			"version":"2.19.2",
 			"vulnerabilities":""
 		},
@@ -52,7 +76,7 @@
 			"date":"20250614",
 			"repository":"Central",
 			"type":"release",
-			"usage":17,
+			"usage":23,
 			"version":"2.19.1",
 			"vulnerabilities":""
 		},
@@ -60,7 +84,7 @@
 			"date":"20250425",
 			"repository":"Central",
 			"type":"release",
-			"usage":447,
+			"usage":451,
 			"version":"2.19.0",
 			"vulnerabilities":""
 		},
@@ -73,10 +97,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.18.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250507",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"2.18.4",
 			"vulnerabilities":""
 		},
@@ -84,7 +116,7 @@
 			"date":"20250301",
 			"repository":"Central",
 			"type":"release",
-			"usage":474,
+			"usage":476,
 			"version":"2.18.3",
 			"vulnerabilities":""
 		},
@@ -132,7 +164,7 @@
 			"date":"20240705",
 			"repository":"Central",
 			"type":"release",
-			"usage":443,
+			"usage":444,
 			"version":"2.17.2",
 			"vulnerabilities":""
 		},
@@ -158,38 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.17.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240309",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"2.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231224",
-			"repository":"Central",
-			"type":"release",
-			"usage":436,
-			"version":"2.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231116",
-			"repository":"Central",
-			"type":"release",
-			"usage":433,
-			"version":"2.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231021",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.16.0-rc1",
 			"vulnerabilities":""
 		}
 	]

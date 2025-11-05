@@ -3,13 +3,13 @@
 	"description":"Core Auth Interfaces",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-auth-core",
-	"version_latest":"1.12.26",
-	"ts_publish":1758938392000,
-	"dt_publish":"2025-09-27 09:59:52.000",
-	"ts_update":1758942643344,
-	"dt_update":"2025-09-27 10:33:43.838",
+	"version_latest":"1.12.28",
+	"ts_publish":1761356273000,
+	"dt_publish":"2025-10-25 09:37:53.000",
+	"ts_update":1761359197084,
+	"dt_update":"2025-10-25 10:26:28.663",
 	"count_dep":21,
-	"count_ref":3,
+	"count_ref":6,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,11 +27,27 @@
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
 	"count_used_by":18,
 	"license":"Apache 2.0",
-	"ranking":"#25880 in MvnRepository",
+	"ranking":"#26033 in MvnRepository",
 	"tags":[
 		"authentication"
 	],
 	"versions":[
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"1.12.27",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250927",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"1.12.26",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"1.12.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241220",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"1.12.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241207",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"1.12.6",
 			"vulnerabilities":""
 		}
 	]

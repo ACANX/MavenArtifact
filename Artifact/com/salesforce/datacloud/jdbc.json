@@ -3,13 +3,13 @@
 	"description":"Salesforce Data Cloud JDBC driver",
 	"group_id":"com.salesforce.datacloud",
 	"artifact_id":"jdbc",
-	"version_latest":"0.34.0",
-	"ts_publish":1755631852000,
-	"dt_publish":"2025-08-20 03:30:52.000",
-	"ts_update":1755633456328,
-	"dt_update":"2025-08-20 03:55:52.124",
+	"version_latest":"0.40.0",
+	"ts_publish":1761946874000,
+	"dt_publish":"2025-11-01 05:41:14.000",
+	"ts_update":1761949598564,
+	"dt_update":"2025-11-01 06:26:23.408",
 	"count_dep":10,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/forcedotcom/datacloud-jdbc",
 	"home_page":"https://github.com/forcedotcom/datacloud-jdbc",
 	"license":"Apache 2.0",
-	"ranking":"#899896 in MvnRepository",
+	"ranking":"#331200 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -30,6 +30,54 @@
 		"salesforce"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.39.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.38.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.37.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.36.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.35.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.34.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250807",
 			"repository":"Central",
@@ -141,54 +189,7 @@
 			"usage":0,
 			"version":"0.26.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.26.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.26.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250501",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.26.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250501",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.25.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250430",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.25.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250422",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.25.5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }

@@ -3,13 +3,13 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-swagger",
-	"version_latest":"3.26.0",
-	"ts_publish":1755762033000,
-	"dt_publish":"2025-08-21 15:40:33.000",
-	"ts_update":1758388344766,
-	"dt_update":"2025-09-21 00:17:47.891",
+	"version_latest":"3.27.0",
+	"ts_publish":1758272790000,
+	"dt_publish":"2025-09-19 17:06:30.000",
+	"ts_update":1761410903102,
+	"dt_update":"2025-10-26 00:18:39.496",
 	"count_dep":97,
-	"count_ref":3,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-swagger-parent/camel-quarkus-support-swagger",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#112575 in MvnRepository",
+	"ranking":"#122026 in MvnRepository",
 	"tags":[
 		"support",
 		"quarkus",
@@ -37,6 +37,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

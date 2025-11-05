@@ -3,13 +3,13 @@
 	"description":"Keycloak LDAP UserStoreProvider",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-ldap-federation",
-	"version_latest":"26.3.4",
-	"ts_publish":1757682842000,
-	"dt_publish":"2025-09-12 21:14:02.000",
-	"ts_update":1757684266077,
-	"dt_update":"2025-09-12 21:36:16.047",
-	"count_dep":165,
-	"count_ref":23,
+	"version_latest":"26.4.2",
+	"ts_publish":1761202190000,
+	"dt_publish":"2025-10-23 14:49:50.000",
+	"ts_update":1761203790782,
+	"dt_update":"2025-10-23 15:16:04.674",
+	"count_dep":169,
+	"count_ref":25,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -28,7 +28,7 @@
 	"count_used_by":31,
 	"home_page":"https://www.keycloak.org/",
 	"license":"Apache 2.0",
-	"ranking":"#15271 in MvnRepository",
+	"ranking":"#15357 in MvnRepository",
 	"tags":[
 		"keycloak",
 		"ldap",
@@ -36,6 +36,38 @@
 		"directory"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"26.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.3.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.3.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -162,38 +194,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.1.0",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"26.0.8",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20241203",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"26.0.7",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20241122",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.0.6",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20241101",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.0.5",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]

@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-confluent-platform-nar",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-confluent-platform-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929528000,
-	"dt_publish":"2025-07-19 20:52:08.000",
-	"ts_update":1757178695492,
-	"dt_update":"2025-09-07 00:16:14.022",
-	"count_dep":2,
+	"version_latest":"2.6.0",
+	"ts_publish":1758213229000,
+	"dt_publish":"2025-09-19 00:33:49.000",
+	"ts_update":1761410923286,
+	"dt_update":"2025-10-26 00:18:06.166",
+	"count_dep":3,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.nifi/nifi-confluent-platform-nar@2.5.0",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#396531 in MvnRepository",
+	"ranking":"#401374 in MvnRepository",
 	"tags":[
 		"confluent",
 		"nifi",
@@ -25,6 +25,14 @@
 		"platform"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

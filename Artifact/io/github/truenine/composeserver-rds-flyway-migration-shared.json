@@ -3,10 +3,10 @@
 	"description":"Shared foundation module for Flyway database migrations, providing common dependencies and configurations for various database types.\nServes as a base dependency for specific database migration modules (such as PostgreSQL, MySQL8), offering Flyway Core runtime support.",
 	"group_id":"io.github.truenine",
 	"artifact_id":"composeserver-rds-flyway-migration-shared",
-	"version_latest":"0.0.38",
-	"ts_publish":1758987238000,
-	"ts_update":1758997640845,
-	"count_dep":21,
+	"version_latest":"0.0.46",
+	"ts_publish":1761684584000,
+	"ts_update":1761687906361,
+	"count_dep":13,
 	"count_ref":2,
 	"licenses":[
 		"GNU Lesser General Public License v2.1"
@@ -21,12 +21,12 @@
 		"Johana Ĉen"
 	],
 	"url_scm":"https://github.com/TrueNine/compose-server",
-	"dt_publish":"2025-09-27 23:33:58.000",
-	"dt_update":"2025-09-27 23:56:09.852",
+	"dt_publish":"2025-10-29 04:49:44.000",
+	"dt_update":"2025-10-29 05:45:00.185",
 	"count_used_by":2,
 	"home_page":"https://github.com/TrueNine/compose-server",
 	"license":"LGPL 2.1",
-	"ranking":"#236730 in MvnRepository",
+	"ranking":"#238063 in MvnRepository",
 	"tags":[
 		"github",
 		"rds",
@@ -34,6 +34,62 @@
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.0.44",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.0.43",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.0.42",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.0.41",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.0.40",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250930",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.0.39",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250927",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.0.38",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -136,62 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.0.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250810",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.0.24",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250810",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.0.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.0.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.0.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.0.20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.0.19",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.0.18",
 			"vulnerabilities":""
 		}
 	]

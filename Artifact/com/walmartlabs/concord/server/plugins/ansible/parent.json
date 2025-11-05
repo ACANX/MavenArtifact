@@ -1,13 +1,12 @@
 {
 	"id":"pkg:maven/com.walmartlabs.concord.server.plugins.ansible/parent",
-	"description":"Concord: Orchestrate More. Live Better.",
 	"group_id":"com.walmartlabs.concord.server.plugins.ansible",
 	"artifact_id":"parent",
-	"version_latest":"2.33.0",
-	"ts_publish":1758568831000,
-	"dt_publish":"2025-09-23 03:20:31.000",
-	"ts_update":1758570407867,
-	"dt_update":"2025-09-23 03:44:11.871",
+	"version_latest":"2.33.3",
+	"ts_publish":1760468358000,
+	"dt_publish":"2025-10-15 02:59:18.000",
+	"ts_update":1760471134101,
+	"dt_update":"2025-10-15 03:44:57.626",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,13 +23,21 @@
 	],
 	"url_scm":"scm:git:https://github.com/walmartlabs/concord.git/parent/parent/parent",
 	"license":"Apache 2.0",
-	"ranking":"#943619 in MvnRepository",
+	"ranking":"#943091 in MvnRepository",
 	"tags":[
 		"plugin",
 		"server",
 		"ansible"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.33.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -182,14 +189,7 @@
 			"usage":0,
 			"version":"2.15.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240812",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.14.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Concord: Orchestrate More. Live Better."
 }

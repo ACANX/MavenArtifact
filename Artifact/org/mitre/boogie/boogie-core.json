@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/org.mitre.boogie/boogie-core",
-	"description":"A dependency-light software project for navigation data parsing, route expansion, and conformance.",
+	"description":"core set of navigational interfaces and general purpose algorithms",
 	"group_id":"org.mitre.boogie",
 	"artifact_id":"boogie-core",
-	"version_latest":"4.7.4",
-	"ts_publish":1757729864000,
-	"dt_publish":"2025-09-13 10:17:44.000",
-	"ts_update":1757735154208,
-	"dt_update":"2025-09-13 11:44:42.418",
+	"version_latest":"4.12.1",
+	"ts_publish":1761141416000,
+	"dt_publish":"2025-10-22 21:56:56.000",
+	"ts_update":1761142664817,
+	"dt_update":"2025-10-22 22:17:33.249",
 	"count_dep":8,
-	"count_ref":4,
+	"count_ref":5,
 	"licenses":[
 		"Apache License 2.0",
 		"The Apache License, Version 2.0"
@@ -22,5 +22,67 @@
 		"David Baker",
 		"Matt Pollock"
 	],
-	"url_scm":"https://github.com/mitre-public/boogie"
+	"url_scm":"https://github.com/mitre-public/boogie",
+	"count_used_by":5,
+	"home_page":"https://github.com/mitre-public/boogie",
+	"license":"Apache 2.0",
+	"ranking":"#98569 in MvnRepository",
+	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.10.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.9.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.8.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250913",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.7.4",
+			"vulnerabilities":""
+		}
+	]
 }

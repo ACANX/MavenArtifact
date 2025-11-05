@@ -3,11 +3,11 @@
 	"description":"An authorization library that supports access control models like ACL, RBAC, ABAC in Java",
 	"group_id":"org.casbin",
 	"artifact_id":"jcasbin",
-	"version_latest":"1.84.0",
-	"ts_publish":1754910201000,
-	"dt_publish":"2025-08-11 19:03:21.000",
-	"ts_update":1754910924301,
-	"dt_update":"2025-08-11 19:14:55.490",
+	"version_latest":"1.85.1",
+	"ts_publish":1760233970000,
+	"dt_publish":"2025-10-12 09:52:50.000",
+	"ts_update":1760235981373,
+	"dt_update":"2025-10-12 10:26:11.986",
 	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
@@ -24,16 +24,24 @@
 		"Yang Luo"
 	],
 	"url_scm":"https://github.com/casbin/jcasbin",
-	"count_used_by":32,
+	"count_used_by":33,
 	"home_page":"https://casbin.org/",
 	"license":"Apache 2.0",
-	"ranking":"#14343 in MvnRepository",
+	"ranking":"#14151 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250811",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.84.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250809",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.83.0",
 			"vulnerabilities":""
 		},
@@ -49,7 +57,7 @@
 			"date":"20250304",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"1.81.0",
 			"vulnerabilities":""
 		},
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.65.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240927",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.64.0",
 			"vulnerabilities":""
 		}
 	]

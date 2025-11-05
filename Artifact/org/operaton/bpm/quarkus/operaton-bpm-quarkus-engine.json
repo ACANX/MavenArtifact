@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.operaton.bpm.quarkus/operaton-bpm-quarkus-engine",
-	"description":"Operaton - Quarkus Extension - Engine - Runtime",
 	"group_id":"org.operaton.bpm.quarkus",
 	"artifact_id":"operaton-bpm-quarkus-engine",
-	"version_latest":"1.0.0-beta-5",
-	"ts_publish":1756467491000,
-	"dt_publish":"2025-08-29 19:38:11.000",
-	"ts_update":1756468626056,
-	"dt_update":"2025-08-29 19:55:55.188",
-	"count_dep":101,
+	"version_latest":"1.0.0-rc-2",
+	"ts_publish":1761913466000,
+	"dt_publish":"2025-10-31 20:24:26.000",
+	"ts_update":1761913986645,
+	"dt_update":"2025-10-31 20:32:50.674",
+	"count_dep":5,
 	"count_ref":1,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://www.operaton.org/operaton-bpm-quarkus-parent/operaton-bpm-quarkus-engine-parent/operaton-bpm-quarkus-engine",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.operaton.bpm.quarkus/operaton-bpm-quarkus-engine@1.0.0-beta-5",
@@ -23,13 +20,29 @@
 	"url_scm":"https://github.com/operaton/operaton/operaton-parent/operaton-bpm-quarkus-parent/operaton-bpm-quarkus-engine-parent/operaton-bpm-quarkus-engine",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#243307 in MvnRepository",
+	"ranking":"#220943 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"bpm",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.0.0-rc-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"1.0.0-beta-5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250507",
 			"repository":"Central",

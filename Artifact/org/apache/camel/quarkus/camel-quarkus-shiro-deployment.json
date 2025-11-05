@@ -3,12 +3,12 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-shiro-deployment",
-	"version_latest":"3.25.0",
-	"ts_publish":1753344393000,
-	"dt_publish":"2025-07-24 16:06:33.000",
-	"ts_update":1755966364475,
-	"dt_update":"2025-08-24 00:17:22.133",
-	"count_dep":125,
+	"version_latest":"3.27.0",
+	"ts_publish":1758273927000,
+	"dt_publish":"2025-09-19 17:25:27.000",
+	"ts_update":1761409190636,
+	"dt_update":"2025-10-26 00:19:06.005",
+	"count_dep":129,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-shiro-parent/camel-quarkus-shiro-deployment",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#235263 in MvnRepository",
+	"ranking":"#243676 in MvnRepository",
 	"tags":[
 		"deployment",
 		"security",
@@ -36,6 +36,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

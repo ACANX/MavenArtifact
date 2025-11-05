@@ -3,12 +3,12 @@
 	"description":"The DAISY Pipeline 2 modules provide scripts for automated processing of various digital formats efficiently and economically. It intends to facilitate the production and maintenance of accessible content for people with print disabilities.",
 	"group_id":"org.daisy.pipeline.modules.braille",
 	"artifact_id":"html-to-pef",
-	"version_latest":"8.2.1",
-	"ts_publish":1755024635000,
-	"dt_publish":"2025-08-13 02:50:35.000",
-	"ts_update":1755026041875,
-	"dt_update":"2025-08-13 03:13:13.073",
-	"count_dep":169,
+	"version_latest":"9.0.0",
+	"ts_publish":1761175610000,
+	"dt_publish":"2025-10-23 07:26:50.000",
+	"ts_update":1761176696094,
+	"dt_update":"2025-10-23 07:44:43.598",
+	"count_dep":58,
 	"count_ref":1,
 	"licenses":[
 		"GNU Lesser General Public License, Version 3"
@@ -31,7 +31,7 @@
 	"url_scm":"https://github.com/daisy-consortium/maven-parents/modules-parent/html-to-pef",
 	"count_used_by":4,
 	"license":"LGPL 3.0",
-	"ranking":"#105745 in MvnRepository",
+	"ranking":"#107964 in MvnRepository",
 	"tags":[
 		"module",
 		"bundle",
@@ -40,6 +40,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.2.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250513",
 			"repository":"Central",
@@ -190,14 +198,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20200616",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.2",
 			"vulnerabilities":""
 		}
 	]

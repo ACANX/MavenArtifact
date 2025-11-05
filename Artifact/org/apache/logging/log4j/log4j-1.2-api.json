@@ -3,13 +3,13 @@
 	"description":"The Apache Log4j 1.x Compatibility API",
 	"group_id":"org.apache.logging.log4j",
 	"artifact_id":"log4j-1.2-api",
-	"version_latest":"2.25.1",
-	"ts_publish":1751747008000,
-	"dt_publish":"2025-07-06 04:23:28.000",
-	"ts_update":1755363367406,
-	"dt_update":"2025-08-17 00:18:11.465",
+	"version_latest":"2.25.2",
+	"ts_publish":1758220943000,
+	"dt_publish":"2025-09-19 02:42:23.000",
+	"ts_update":1762014988397,
+	"dt_update":"2025-11-02 00:16:50.016",
 	"count_dep":22,
-	"count_ref":25,
+	"count_ref":40,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -38,7 +38,7 @@
 	],
 	"url_scm":"https://github.com/apache/logging-log4j2",
 	"url_ci_management":"https://github.com/apache/logging-log4j2/actions",
-	"count_used_by":2252,
+	"count_used_by":2275,
 	"home_page":"https://logging.apache.org/log4j/1.2/",
 	"license":"Apache 2.0",
 	"ranking":"#259 in MvnRepository",
@@ -75,10 +75,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":27,
+			"version":"2.25.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250711",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":28,
 			"version":"2.25.1",
 			"vulnerabilities":""
 		},
@@ -86,7 +94,7 @@
 			"date":"20250616",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":12,
 			"version":"2.25.0",
 			"vulnerabilities":""
 		},
@@ -94,7 +102,7 @@
 			"date":"20241213",
 			"repository":"Central",
 			"type":"release",
-			"usage":223,
+			"usage":363,
 			"version":"2.24.3",
 			"vulnerabilities":""
 		},
@@ -110,7 +118,7 @@
 			"date":"20240929",
 			"repository":"Central",
 			"type":"release",
-			"usage":163,
+			"usage":283,
 			"version":"2.24.1",
 			"vulnerabilities":""
 		},
@@ -126,7 +134,7 @@
 			"date":"20240310",
 			"repository":"Central",
 			"type":"release",
-			"usage":106,
+			"usage":108,
 			"version":"2.23.1",
 			"vulnerabilities":""
 		},
@@ -182,7 +190,7 @@
 			"date":"20220917",
 			"repository":"Central",
 			"type":"release",
-			"usage":148,
+			"usage":156,
 			"version":"2.19.0",
 			"vulnerabilities":""
 		},
@@ -190,7 +198,7 @@
 			"date":"20220702",
 			"repository":"Central",
 			"type":"release",
-			"usage":116,
+			"usage":121,
 			"version":"2.18.0",
 			"vulnerabilities":""
 		},
@@ -198,16 +206,8 @@
 			"date":"20220227",
 			"repository":"Central",
 			"type":"release",
-			"usage":567,
+			"usage":569,
 			"version":"2.17.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211227",
-			"repository":"Central",
-			"type":"release",
-			"usage":1022,
-			"version":"2.17.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Wicket is a Java-based open source component web application framework.",
 	"group_id":"org.apache.wicket",
 	"artifact_id":"wicket-bean-validation",
-	"version_latest":"10.6.0",
-	"ts_publish":1751985601000,
-	"dt_publish":"2025-07-08 22:40:01.000",
-	"ts_update":1755361593622,
-	"dt_update":"2025-08-17 00:18:12.360",
+	"version_latest":"10.7.0",
+	"ts_publish":1758922845000,
+	"dt_publish":"2025-09-27 05:40:45.000",
+	"ts_update":1762015619848,
+	"dt_update":"2025-11-02 00:17:25.732",
 	"count_dep":19,
-	"count_ref":1,
+	"count_ref":3,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,9 +25,9 @@
 	],
 	"url_scm":"http://git-wip-us.apache.org/repos/asf/wicket/repo?p=wicket.git/wicket-bean-validation",
 	"url_ci_management":"http://ci.apache.org/builders/wicket-master",
-	"count_used_by":10,
+	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#47068 in MvnRepository",
+	"ranking":"#44544 in MvnRepository",
 	"tags":[
 		"beans",
 		"apache",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.7.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250712",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"10.6.0",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"9.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220710",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"9.11.0",
 			"vulnerabilities":""
 		}
 	]

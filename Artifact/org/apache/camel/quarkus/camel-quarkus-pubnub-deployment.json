@@ -3,12 +3,12 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-pubnub-deployment",
-	"version_latest":"3.25.0",
-	"ts_publish":1753344300000,
-	"dt_publish":"2025-07-24 16:05:00.000",
-	"ts_update":1755967014533,
-	"dt_update":"2025-08-24 00:17:20.767",
-	"count_dep":103,
+	"version_latest":"3.27.0",
+	"ts_publish":1758273839000,
+	"dt_publish":"2025-09-19 17:23:59.000",
+	"ts_update":1761409630007,
+	"dt_update":"2025-10-26 00:19:04.293",
+	"count_dep":107,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-pubnub-parent/camel-quarkus-pubnub-deployment",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#403069 in MvnRepository",
+	"ranking":"#396408 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -35,6 +35,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240623",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240527",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]

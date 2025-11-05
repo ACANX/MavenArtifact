@@ -29,7 +29,7 @@ def main():
     
     # 文件路径配置
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    input_path = os.path.join(base_dir, "../Artifact/DailyIndexStatistic.json")
+    input_path = os.path.join(base_dir, "../Statistic/DailyIndexStatistic.json")
     output_path = os.path.join(base_dir, "../Statistic/DailyIndexStatistic.svg")
     
     # 确保输出目录存在
@@ -76,6 +76,51 @@ def main():
         f.write(svg_content)
     
     print(f"图表已保存到 {output_path}")
+
+
+def add_xaxis_labels_smart(svg, dates, plot_width, chart_height, MARGIN):
+    if not dates:
+        return
+    total_points = len(dates)
+    available_width = plot_width - 2 * MARGIN
+    
+    # 根据数据密度自动调整
+    if total_points <= 8:
+        # 数据量少，全部显示
+        indices_to_show = range(total_points)
+    elif total_points <= 20:
+        # 中等数据量，显示首尾和中间几个
+        step = max(2, total_points // 6)
+        indices_to_show = set([0, total_points-1])  # 首尾
+        # 添加中间点
+        mid_point = total_points // 2
+        indices_to_show.update([mid_point])
+        indices_to_show.update(range(step, total_points-1, step))
+    else:
+        # 大数据量，基于像素密度采样
+        pixels_per_point = available_width / (total_points - 1)
+        if pixels_per_point < 30:  # 非常密集
+            step = max(5, total_points // 15)
+        elif pixels_per_point < 60:  # 中等密度
+            step = max(3, total_points // 10)
+        else:  # 稀疏
+            step = max(2, total_points // 8)
+        indices_to_show = set([0, total_points-1])  # 保证首尾
+        indices_to_show.update(range(0, total_points, step))
+    
+    # 渲染标签
+    for i in sorted(indices_to_show):
+        if i < len(dates):
+            date = dates[i]
+            x = MARGIN + i * (plot_width / (len(dates) - 1)) if len(dates) > 1 else MARGIN
+            y = chart_height - MARGIN + 20
+            # 格式化日期
+            if len(date) >= 10:
+                label = f"{date[5:7]}-{date[8:10]}"
+            else:
+                label = date
+            svg.append(f'<text x="{x}" y="{y}" text-anchor="middle" font-size="12">{label}</text>')
+            
 
 def generate_svg_chart(dates, metrics):
     """生成多指标趋势图SVG"""
@@ -143,10 +188,8 @@ def generate_svg_chart(dates, metrics):
             # 修正数据点位置计算：使用正向映射
             y = chart_height - MARGIN - (value - min_val) * plot_height / (max_val - min_val)
             points.append((x, y))
-            
             # 绘制数据点
             svg.append(f'<circle cx="{x}" cy="{y}" r="4" fill="{COLORS[idx]}" />')
-        
         # 绘制折线
         path = f'M {points[0][0]} {points[0][1]}'
         for point in points[1:]:
@@ -154,11 +197,8 @@ def generate_svg_chart(dates, metrics):
         svg.append(f'<path d="{path}" fill="none" stroke="{COLORS[idx]}" stroke-width="2" />')
     
     # 添加X轴日期标签
-    for i, date in enumerate(dates):
-        x = MARGIN + i * (plot_width / (len(dates) - 1))
-        y = chart_height - MARGIN + 20
-        # 显示完整日期格式：MM-DD
-        svg.append(f'<text x="{x}" y="{y}" text-anchor="middle">{date[5:7]}-{date[8:10]}</text>')
+    # 使用智能版本：
+    add_xaxis_labels_smart(svg, dates, plot_width, chart_height, MARGIN)    
     
     # 添加图例（左上角）
     legend_x = MARGIN + 20
@@ -166,15 +206,23 @@ def generate_svg_chart(dates, metrics):
     box_height = len(metrics) * 25 + 35
     svg.append(f'<rect x="{legend_x-10}" y="{legend_y-20}" width="130" height="{box_height}" class="legend-box" />')
     svg.append(f'<text x="{legend_x}" y="{legend_y}" class="legend-item">图例:</text>')
-    
     for i, metric in enumerate(metrics):
         y = legend_y + (i+1)*25
         svg.append(f'<rect x="{legend_x}" y="{y-8}" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
         svg.append(f'<text x="{legend_x+20}" y="{y}" class="legend-item">{metric["name"]}</text>')
-    
+
+    # 底部增加指标数据量的展示
+    # 方法一：使用列表推导式
+    latest_values = [metric["values"][-1] for metric in metrics]
+    for i, metric in enumerate(metrics):
+        pos_x = 100 + 200 * i
+        val = latest_values[i]
+        svg.append(f'<rect x="{pos_x}" y="980" width="15" height="15" fill="{COLORS[i]}" rx="3" />')
+        svg.append(f'<text x="{pos_x + 25}" y="990" class="legend-item">{val}</text>')
+
     # 添加时间戳
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    svg.append(f'<text x="{chart_width - MARGIN}" y="{chart_height - 10}" text-anchor="end" font-size="10" fill="#666">生成时间: {timestamp}</text>')
+    svg.append(f'<text x="{chart_width - MARGIN}" y="{chart_height - 10}" text-anchor="end" font-size="11" fill="#666">生成时间: {timestamp}</text>')
     
     # 结束SVG
     svg.append('</svg>')

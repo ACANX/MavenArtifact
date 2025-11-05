@@ -3,13 +3,13 @@
 	"description":"jakarta.servlet package",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-servlet-api",
-	"version_latest":"11.0.11",
-	"ts_publish":1756724628000,
-	"dt_publish":"2025-09-01 19:03:48.000",
-	"ts_update":1758994017123,
-	"dt_update":"2025-09-28 00:17:06.570",
+	"version_latest":"11.0.13",
+	"ts_publish":1760106082000,
+	"dt_publish":"2025-10-10 22:21:22.000",
+	"ts_update":1762014000668,
+	"dt_update":"2025-11-02 00:18:26.995",
 	"count_dep":0,
-	"count_ref":20,
+	"count_ref":11,
 	"licenses":[
 		"Apache License, Version 2.0 and\n        Common Development And Distribution License (CDDL) Version 1.0 and\n        Eclipse Public License - v 2.0"
 	],
@@ -19,9 +19,9 @@
 	"dsv":1,
 	"url_project":"https://tomcat.apache.org/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomcat/tomcat-servlet-api@11.0.10",
-	"count_used_by":376,
+	"count_used_by":378,
 	"home_page":"https://tomcat.apache.org/",
-	"ranking":"#1634 in MvnRepository",
+	"ranking":"#1782 in MvnRepository",
 	"tags":[
 		"server",
 		"servlet",
@@ -31,6 +31,22 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"11.0.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"11.0.12",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"milestone",
 			"usage":9,
 			"version":"11.0.0-M20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240416",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":8,
-			"version":"11.0.0-M19",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240314",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":7,
-			"version":"11.0.0-M18",
 			"vulnerabilities":""
 		}
 	]

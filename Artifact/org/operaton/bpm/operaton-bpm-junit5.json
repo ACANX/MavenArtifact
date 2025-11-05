@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.operaton.bpm/operaton-bpm-junit5",
-	"description":"Operaton - JUnit 5 Extension",
 	"group_id":"org.operaton.bpm",
 	"artifact_id":"operaton-bpm-junit5",
-	"version_latest":"1.0.0-beta-5",
-	"ts_publish":1756467491000,
-	"dt_publish":"2025-08-29 19:38:11.000",
-	"ts_update":1756468617554,
-	"dt_update":"2025-08-29 19:55:55.192",
-	"count_dep":12,
-	"count_ref":8,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"1.0.0-rc-2",
+	"ts_publish":1761913466000,
+	"dt_publish":"2025-10-31 20:24:26.000",
+	"ts_update":1761913986352,
+	"dt_update":"2025-10-31 20:32:52.387",
+	"count_dep":7,
+	"count_ref":2,
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://www.operaton.org/operaton-database-settings/operaton-bpm-junit5",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.operaton.bpm/operaton-bpm-junit5@1.0.0-beta-5",
@@ -21,15 +18,31 @@
 		"Operaton Community"
 	],
 	"url_scm":"https://github.com/operaton/operaton/operaton-parent/operaton-database-settings/operaton-bpm-junit5",
-	"count_used_by":4,
+	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#109214 in MvnRepository",
+	"ranking":"#57976 in MvnRepository",
 	"tags":[
 		"junit",
 		"bpm",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.0.0-rc-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":6,
+			"version":"1.0.0-beta-5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250507",
 			"repository":"Central",

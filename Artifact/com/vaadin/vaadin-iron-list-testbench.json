@@ -2,12 +2,12 @@
 	"id":"pkg:maven/com.vaadin/vaadin-iron-list-testbench",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-iron-list-testbench",
-	"version_latest":"23.6.3",
-	"ts_publish":1756712483000,
-	"dt_publish":"2025-09-01 15:41:23.000",
-	"ts_update":1756713406093,
-	"dt_update":"2025-09-01 15:55:52.708",
-	"count_dep":1,
+	"version_latest":"23.6.4",
+	"ts_publish":1761550116000,
+	"dt_publish":"2025-10-27 15:28:36.000",
+	"ts_update":1761551135912,
+	"dt_update":"2025-10-27 15:45:12.217",
+	"count_dep":60,
 	"count_ref":0,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -21,13 +21,21 @@
 	"url_scm":"https://github.com/vaadin/maven-integration/vaadin-flow-components/vaadin-iron-list-flow-parent/vaadin-iron-list-testbench",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#210785 in MvnRepository",
+	"ranking":"#214012 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"23.6.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -179,14 +187,7 @@
 			"usage":1,
 			"version":"23.5.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"23.5.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A parent POM for all artifacts by Vaadin Ltd."
 }

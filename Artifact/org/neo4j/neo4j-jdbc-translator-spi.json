@@ -3,11 +3,11 @@
 	"description":"SPI to be implemented by any SQL to Cypher translation service.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-jdbc-translator-spi",
-	"version_latest":"6.8.0",
-	"ts_publish":1757503148000,
-	"dt_publish":"2025-09-10 19:19:08.000",
-	"ts_update":1757504656951,
-	"dt_update":"2025-09-10 19:44:06.912",
+	"version_latest":"6.9.1",
+	"ts_publish":1761931246000,
+	"dt_publish":"2025-11-01 01:20:46.000",
+	"ts_update":1761932034080,
+	"dt_update":"2025-11-01 01:33:40.884",
 	"count_dep":2,
 	"count_ref":5,
 	"licenses":[
@@ -32,7 +32,7 @@
 	"url_scm":"https://github.com/neo4j/neo4j-jdbc/neo4j-jdbc-translator/neo4j-jdbc-translator-spi",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#122812 in MvnRepository",
+	"ranking":"#114054 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -43,6 +43,22 @@
 		"translation"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"6.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"6.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250728",
 			"repository":"Central",
@@ -185,22 +201,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"6.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"6.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241213",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"6.1.0",
 			"vulnerabilities":""
 		}
 	]

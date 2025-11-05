@@ -3,11 +3,11 @@
 	"description":"Apache NiFi - MiNiFi is a child project effort to aid in the collection and transmission of data close to where it is created.",
 	"group_id":"org.apache.nifi.minifi",
 	"artifact_id":"minifi-provenance-repository-nar",
-	"version_latest":"2.5.0",
-	"ts_publish":1752929063000,
-	"dt_publish":"2025-07-19 20:44:23.000",
-	"ts_update":1757178694663,
-	"dt_update":"2025-09-07 00:16:04.261",
+	"version_latest":"2.6.0",
+	"ts_publish":1758213736000,
+	"dt_publish":"2025-09-19 00:42:16.000",
+	"ts_update":1761411400215,
+	"dt_update":"2025-10-26 00:18:10.686",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
@@ -23,13 +23,21 @@
 	"url_scm":"https://git-wip-us.apache.org/repos/asf?p=nifi.git/minifi/minifi-nar-bundles/minifi-provenance-repository-bundle/minifi-provenance-repository-nar",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#329753 in MvnRepository",
+	"ranking":"#335180 in MvnRepository",
 	"tags":[
 		"nifi",
 		"repository",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.23.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230612",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.22.0",
 			"vulnerabilities":""
 		}
 	]

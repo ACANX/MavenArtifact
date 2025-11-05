@@ -3,11 +3,11 @@
 	"description":"Bill of Materials pom for getting full, complete set of compatible versions\nof Jackson components maintained by FasterXML.com",
 	"group_id":"com.fasterxml.jackson",
 	"artifact_id":"jackson-bom",
-	"version_latest":"2.20.0",
-	"ts_publish":1756421283000,
-	"dt_publish":"2025-08-29 06:48:03.000",
-	"ts_update":1756422927197,
-	"dt_update":"2025-08-29 07:14:21.582",
+	"version_latest":"2.20.1",
+	"ts_publish":1761865451000,
+	"dt_publish":"2025-10-31 07:04:11.000",
+	"ts_update":1761867035261,
+	"dt_update":"2025-10-31 07:30:23.937",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"count_used_by":150,
 	"home_page":"https://github.com/FasterXML/jackson-bom",
 	"license":"Apache 2.0",
-	"ranking":"#3548 in MvnRepository",
+	"ranking":"#3765 in MvnRepository",
 	"tags":[
 		"bom",
 		"json",
@@ -39,11 +39,27 @@
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.20.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"2.20.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.19.3",
 			"vulnerabilities":""
 		},
 		{
@@ -84,6 +100,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.19.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.18.5",
 			"vulnerabilities":""
 		},
 		{
@@ -172,30 +196,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.17.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.17.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240309",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231224",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.16.1",
 			"vulnerabilities":""
 		}
 	]

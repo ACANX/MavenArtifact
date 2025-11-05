@@ -3,11 +3,11 @@
 	"description":"Parent for Prometheus integrations with distributed tracing libraries.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-tracer",
-	"version_latest":"1.4.1",
-	"ts_publish":1755532143000,
-	"dt_publish":"2025-08-18 23:49:03.000",
-	"ts_update":1755534215042,
-	"dt_update":"2025-08-19 00:20:34.903",
+	"version_latest":"1.4.2",
+	"ts_publish":1761670582000,
+	"dt_publish":"2025-10-29 00:56:22.000",
+	"ts_update":1761671754299,
+	"dt_update":"2025-10-29 01:15:40.450",
 	"count_dep":10,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	],
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-tracer",
 	"license":"Apache 2.0",
-	"ranking":"#792819 in MvnRepository",
+	"ranking":"#900579 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"prometheus",
@@ -34,6 +34,22 @@
 		"tracing"
 	],
 	"versions":[
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250818",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"1.0.0-alpha-4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230829",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"1.0.0-alpha-3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230727",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"1.0.0-alpha-2",
 			"vulnerabilities":""
 		}
 	]

@@ -3,14 +3,16 @@
 	"description":"Citrus Maven Plugin",
 	"group_id":"org.citrusframework.mvn",
 	"artifact_id":"citrus-maven-plugin",
-	"version_latest":"4.8.1",
-	"ts_publish":1758897627000,
-	"dt_publish":"2025-09-26 22:40:27.000",
-	"ts_update":1758904980671,
-	"dt_update":"2025-09-26 22:56:36.653",
-	"count_dep":21,
+	"version_latest":"4.8.2",
+	"ts_publish":1761637616000,
+	"dt_publish":"2025-10-28 15:46:56.000",
+	"ts_update":1761638190607,
+	"dt_update":"2025-10-28 15:56:21.398",
+	"count_dep":167,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://citrusframework.org/citrus-tools/citrus-maven/citrus-maven-plugin",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.citrusframework.mvn/citrus-maven-plugin@4.8.0",
@@ -25,7 +27,7 @@
 	"url_scm":"http://github.com/citrusframework/citrus.git/citrus-tools/citrus-maven/citrus-maven-plugin",
 	"url_ci_management":"https://github.com/citrusframework/citrus/actions",
 	"license":"Apache 2.0",
-	"ranking":"#657070 in MvnRepository",
+	"ranking":"#945674 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -33,6 +35,22 @@
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.8.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -175,14 +193,6 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"4.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230421",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"4.0.0-M1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Spring Boot starter providing sanitization for sensitive data in actuator endpoint responses, filtering\n        out security-critical information like passwords, tokens, and secrets.",
 	"group_id":"org.alexmond",
 	"artifact_id":"spring-boot-actuator-sanitizer-starter",
-	"version_latest":"1.0.0",
-	"ts_publish":1758506583000,
-	"dt_publish":"2025-09-22 10:03:03.000",
-	"ts_update":1758509861868,
-	"dt_update":"2025-09-22 10:56:11.327",
+	"version_latest":"1.0.2",
+	"ts_publish":1761579410000,
+	"dt_publish":"2025-10-27 23:36:50.000",
+	"ts_update":1761582089566,
+	"dt_update":"2025-10-28 00:21:07.444",
 	"count_dep":17,
 	"count_ref":0,
 	"licenses":[
@@ -21,13 +21,21 @@
 	],
 	"url_scm":"https://github.com/alexmond/spring-boot-actuator-extensions",
 	"license":"Apache 2.0",
-	"ranking":"#740507 in MvnRepository",
+	"ranking":"#360963 in MvnRepository",
 	"tags":[
 		"spring",
 		"sanitizer",
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250830",
 			"repository":"Central",
@@ -44,5 +52,7 @@
 			"version":"0.0.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1,
+	"home_page":"https://alexmond.github.io/"
 }

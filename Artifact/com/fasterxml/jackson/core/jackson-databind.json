@@ -3,13 +3,13 @@
 	"description":"General data-binding functionality for Jackson: works on core streaming API",
 	"group_id":"com.fasterxml.jackson.core",
 	"artifact_id":"jackson-databind",
-	"version_latest":"2.20.0",
-	"ts_publish":1756422039000,
-	"dt_publish":"2025-08-29 07:00:39.000",
-	"ts_update":1756422871820,
-	"dt_update":"2025-08-29 07:14:21.051",
+	"version_latest":"2.20.1",
+	"ts_publish":1761867893000,
+	"dt_publish":"2025-10-31 07:44:53.000",
+	"ts_update":1761870385585,
+	"dt_update":"2025-10-31 08:26:16.534",
 	"count_dep":12,
-	"count_ref":20,
+	"count_ref":56,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 		"Tatu Saloranta"
 	],
 	"url_scm":"https://github.com/FasterXML/jackson-databind",
-	"count_used_by":35309,
+	"count_used_by":36130,
 	"home_page":"https://github.com/FasterXML/jackson",
 	"license":"Apache 2.0",
 	"ranking":"#9 in MvnRepository",
@@ -41,18 +41,42 @@
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":1513,
+			"version":"2.20.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250805",
 			"repository":"Central",
 			"type":"release",
-			"usage":64,
+			"usage":78,
 			"version":"2.20.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.19.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":28,
+			"version":"2.19.3",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
-			"usage":1436,
+			"usage":1765,
 			"version":"2.19.2",
 			"vulnerabilities":""
 		},
@@ -60,7 +84,7 @@
 			"date":"20250614",
 			"repository":"Central",
 			"type":"release",
-			"usage":1023,
+			"usage":1125,
 			"version":"2.19.1",
 			"vulnerabilities":""
 		},
@@ -68,7 +92,7 @@
 			"date":"20250425",
 			"repository":"Central",
 			"type":"release",
-			"usage":1849,
+			"usage":1955,
 			"version":"2.19.0",
 			"vulnerabilities":""
 		},
@@ -81,10 +105,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":32,
+			"version":"2.18.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250507",
 			"repository":"Central",
 			"type":"release",
-			"usage":335,
+			"usage":370,
 			"version":"2.18.4",
 			"vulnerabilities":""
 		},
@@ -92,7 +124,7 @@
 			"date":"20250301",
 			"repository":"Central",
 			"type":"release",
-			"usage":2206,
+			"usage":2277,
 			"version":"2.18.3",
 			"vulnerabilities":""
 		},
@@ -100,7 +132,7 @@
 			"date":"20241128",
 			"repository":"Central",
 			"type":"release",
-			"usage":2742,
+			"usage":2808,
 			"version":"2.18.2",
 			"vulnerabilities":""
 		},
@@ -108,7 +140,7 @@
 			"date":"20241029",
 			"repository":"Central",
 			"type":"release",
-			"usage":1840,
+			"usage":1852,
 			"version":"2.18.1",
 			"vulnerabilities":""
 		},
@@ -116,7 +148,7 @@
 			"date":"20240927",
 			"repository":"Central",
 			"type":"release",
-			"usage":1413,
+			"usage":1429,
 			"version":"2.18.0",
 			"vulnerabilities":""
 		},
@@ -132,7 +164,7 @@
 			"date":"20241101",
 			"repository":"Central",
 			"type":"release",
-			"usage":252,
+			"usage":268,
 			"version":"2.17.3",
 			"vulnerabilities":""
 		},
@@ -140,7 +172,7 @@
 			"date":"20240705",
 			"repository":"Central",
 			"type":"release",
-			"usage":3106,
+			"usage":3189,
 			"version":"2.17.2",
 			"vulnerabilities":""
 		},
@@ -148,7 +180,7 @@
 			"date":"20240505",
 			"repository":"Central",
 			"type":"release",
-			"usage":2371,
+			"usage":2399,
 			"version":"2.17.1",
 			"vulnerabilities":""
 		},
@@ -156,7 +188,7 @@
 			"date":"20240313",
 			"repository":"Central",
 			"type":"release",
-			"usage":2098,
+			"usage":2132,
 			"version":"2.17.0",
 			"vulnerabilities":""
 		},
@@ -166,38 +198,6 @@
 			"type":"release",
 			"usage":39,
 			"version":"2.17.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240309",
-			"repository":"Central",
-			"type":"release",
-			"usage":577,
-			"version":"2.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231224",
-			"repository":"Central",
-			"type":"release",
-			"usage":2749,
-			"version":"2.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231116",
-			"repository":"Central",
-			"type":"release",
-			"usage":1668,
-			"version":"2.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231021",
-			"repository":"Central",
-			"type":"release",
-			"usage":48,
-			"version":"2.16.0-rc1",
 			"vulnerabilities":""
 		}
 	]

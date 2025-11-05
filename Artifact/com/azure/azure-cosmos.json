@@ -3,11 +3,11 @@
 	"description":"This Package contains Microsoft Azure Cosmos SDK (with Reactive Extension Reactor support) for Azure Cosmos DB SQL API",
 	"group_id":"com.azure",
 	"artifact_id":"azure-cosmos",
-	"version_latest":"4.74.0",
-	"ts_publish":1757109778000,
-	"dt_publish":"2025-09-06 06:02:58.000",
-	"ts_update":1757111172076,
-	"dt_update":"2025-09-06 06:13:37.122",
+	"version_latest":"4.75.0",
+	"ts_publish":1761095002000,
+	"dt_publish":"2025-10-22 09:03:22.000",
+	"ts_update":1761096394442,
+	"dt_update":"2025-10-22 09:26:26.113",
 	"count_dep":45,
 	"count_ref":2,
 	"licenses":[
@@ -24,19 +24,27 @@
 		"Microsoft Corporation"
 	],
 	"url_scm":"scm:git:https://github.com/Azure/azure-sdk-for-java",
-	"count_used_by":55,
+	"count_used_by":57,
 	"home_page":"https://github.com/Azure/azure-sdk-for-java",
 	"license":"MIT",
-	"ranking":"#8933 in MvnRepository",
+	"ranking":"#8755 in MvnRepository",
 	"tags":[
 		"azure"
 	],
 	"versions":[
 		{
+			"date":"20250906",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.74.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250725",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":13,
 			"version":"4.73.1",
 			"vulnerabilities":""
 		},
@@ -44,7 +52,7 @@
 			"date":"20250719",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"4.73.0",
 			"vulnerabilities":""
 		},
@@ -52,8 +60,16 @@
 			"date":"20250626",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"4.72.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.71.2-hotfix",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.63.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240824",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"4.63.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240812",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.63.1",
 			"vulnerabilities":""
 		}
 	]

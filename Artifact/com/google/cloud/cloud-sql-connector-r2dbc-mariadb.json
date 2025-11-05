@@ -3,16 +3,14 @@
 	"description":"The Cloud SQL R2DBC Connector provides a socket factory for the MySQL R2DBC driver. \n    The socket factory provides an mTLS 1.3 connection to any specified Cloud SQL MySQL \n    instance without requiring any manually configured TLS certificates.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"cloud-sql-connector-r2dbc-mariadb",
-	"version_latest":"1.25.3",
-	"ts_publish":1755031342000,
-	"dt_publish":"2025-08-13 04:42:22.000",
-	"ts_update":1755032168756,
-	"dt_update":"2025-08-13 04:55:43.705",
-	"count_dep":76,
+	"version_latest":"1.27.0",
+	"ts_publish":1761771424000,
+	"dt_publish":"2025-10-30 04:57:04.000",
+	"ts_update":1761774324226,
+	"dt_update":"2025-10-30 05:44:54.706",
+	"count_dep":14,
 	"count_ref":0,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Cloud Computing"
 	],
@@ -26,7 +24,7 @@
 	"url_scm":"https://github.com/GoogleCloudPlatform/cloud-sql-mysql-socket-factory.git/cloud-sql-connector-r2dbc-mariadb",
 	"home_page":"https://github.com/GoogleCloudPlatform/cloud-sql-jdbc-socket-factory",
 	"license":"Apache 2.0",
-	"ranking":"#840570 in MvnRepository",
+	"ranking":"#857719 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -39,6 +37,22 @@
 		"connection"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.26.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.25.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250715",
 			"repository":"Central",
@@ -181,22 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.18.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240318",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.17.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240312",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.17.0",
 			"vulnerabilities":""
 		}
 	]

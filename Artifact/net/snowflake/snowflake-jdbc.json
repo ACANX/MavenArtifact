@@ -3,11 +3,11 @@
 	"description":"Snowflake JDBC Driver",
 	"group_id":"net.snowflake",
 	"artifact_id":"snowflake-jdbc",
-	"version_latest":"3.26.1",
-	"ts_publish":1756468041000,
-	"dt_publish":"2025-08-29 19:47:21.000",
-	"ts_update":1756468667082,
-	"dt_update":"2025-08-29 19:55:53.613",
+	"version_latest":"3.27.1",
+	"ts_publish":1761823008000,
+	"dt_publish":"2025-10-30 19:16:48.000",
+	"ts_update":1761824723737,
+	"dt_update":"2025-10-30 19:44:34.852",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"Snowflake Support Team"
 	],
 	"url_scm":"http://github.com/snowflakedb/snowflake-jdbc/tree/master",
-	"count_used_by":104,
+	"count_used_by":110,
 	"home_page":"https://www.snowflake.net/",
 	"license":"Apache 2.0",
-	"ranking":"#4884 in MvnRepository",
+	"ranking":"#4875 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -36,6 +36,22 @@
 		"snowflake"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"3.26.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250813",
 			"repository":"Central",
@@ -48,7 +64,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":6,
 			"version":"3.25.1",
 			"vulnerabilities":""
 		},
@@ -64,7 +80,7 @@
 			"date":"20250531",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":12,
 			"version":"3.24.2",
 			"vulnerabilities":""
 		},
@@ -96,7 +112,7 @@
 			"date":"20250313",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":11,
 			"version":"3.23.1",
 			"vulnerabilities":""
 		},
@@ -152,7 +168,7 @@
 			"date":"20241030",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"3.20.0",
 			"vulnerabilities":"3 vulnerabilities"
 		},
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.18.1",
-			"vulnerabilities":"4 vulnerabilities"
-		},
-		{
-			"date":"20240724",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.18.0",
-			"vulnerabilities":"4 vulnerabilities"
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.17.1",
 			"vulnerabilities":"4 vulnerabilities"
 		}
 	]

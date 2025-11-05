@@ -3,13 +3,13 @@
 	"description":"SPARQL 1.1 query engine and RDF parsers for Apache Jena",
 	"group_id":"org.apache.jena",
 	"artifact_id":"jena-arq",
-	"version_latest":"5.5.0",
-	"ts_publish":1752523303000,
-	"dt_publish":"2025-07-15 04:01:43.000",
-	"ts_update":1755967659966,
-	"dt_update":"2025-08-24 00:16:16.405",
-	"count_dep":34,
-	"count_ref":92,
+	"version_latest":"5.6.0",
+	"ts_publish":1760089360000,
+	"dt_publish":"2025-10-10 17:42:40.000",
+	"ts_update":1762014421945,
+	"dt_update":"2025-11-02 00:18:24.871",
+	"count_dep":33,
+	"count_ref":65,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -21,20 +21,28 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.jena/jena-arq@5.5.0",
 	"url_issue_management":"https://issues.apache.org/jira/browse/JENA",
 	"url_scm":"https://gitbox.apache.org/repos/asf/jena.git/jena-arq",
-	"count_used_by":573,
+	"count_used_by":584,
 	"home_page":"https://jena.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#1046 in MvnRepository",
+	"ranking":"#1072 in MvnRepository",
 	"tags":[
 		"jena",
 		"apache"
 	],
 	"versions":[
 		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":29,
+			"version":"5.6.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
-			"usage":31,
+			"usage":42,
 			"version":"5.5.0",
 			"vulnerabilities":""
 		},
@@ -42,7 +50,7 @@
 			"date":"20250427",
 			"repository":"Central",
 			"type":"release",
-			"usage":67,
+			"usage":76,
 			"version":"5.4.0",
 			"vulnerabilities":""
 		},
@@ -58,7 +66,7 @@
 			"date":"20241015",
 			"repository":"Central",
 			"type":"release",
-			"usage":74,
+			"usage":75,
 			"version":"5.2.0",
 			"vulnerabilities":""
 		},
@@ -90,7 +98,7 @@
 			"date":"20231101",
 			"repository":"Central",
 			"type":"release",
-			"usage":71,
+			"usage":72,
 			"version":"4.10.0",
 			"vulnerabilities":""
 		},
@@ -138,7 +146,7 @@
 			"date":"20220504",
 			"repository":"Central",
 			"type":"release",
-			"usage":26,
+			"usage":27,
 			"version":"4.5.0",
 			"vulnerabilities":""
 		},
@@ -162,7 +170,7 @@
 			"date":"20211213",
 			"repository":"Central",
 			"type":"release",
-			"usage":18,
+			"usage":19,
 			"version":"4.3.1",
 			"vulnerabilities":""
 		},
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":32,
 			"version":"4.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210604",
-			"repository":"Central",
-			"type":"release",
-			"usage":30,
-			"version":"4.1.0",
 			"vulnerabilities":""
 		}
 	]
