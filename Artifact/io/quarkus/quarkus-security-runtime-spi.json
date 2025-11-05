@@ -3,13 +3,13 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-security-runtime-spi",
-	"version_latest":"3.29.0.CR1",
-	"ts_publish":1760559343000,
-	"dt_publish":"2025-10-16 04:15:43.000",
-	"ts_update":1760560576092,
-	"dt_update":"2025-10-16 04:35:46.766",
+	"version_latest":"3.29.1",
+	"ts_publish":1762355407000,
+	"dt_publish":"2025-11-05 23:10:07.000",
+	"ts_update":1762359983500,
+	"dt_update":"2025-11-06 00:21:18.588",
 	"count_dep":45,
-	"count_ref":16,
+	"count_ref":21,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#84853 in MvnRepository",
+	"ranking":"#85530 in MvnRepository",
 	"tags":[
 		"security",
 		"quarkus",
@@ -34,6 +34,38 @@
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.29.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.28.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.28.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -160,38 +192,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.25.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.25.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.25.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.25.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.24.5",
 			"vulnerabilities":""
 		}
 	]
