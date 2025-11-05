@@ -3,12 +3,12 @@
 	"description":"Allow X-Ray to run with Quarkus Lambda support",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-amazon-lambda-xray",
-	"version_latest":"3.29.0",
-	"ts_publish":1761142017000,
-	"dt_publish":"2025-10-22 22:06:57.000",
-	"ts_update":1761143208892,
-	"dt_update":"2025-10-22 22:26:28.909",
-	"count_dep":5,
+	"version_latest":"3.29.1",
+	"ts_publish":1762355407000,
+	"dt_publish":"2025-11-05 23:10:07.000",
+	"ts_update":1762359736903,
+	"dt_update":"2025-11-06 00:21:22.998",
+	"count_dep":6,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-amazon-lambda-xray@3.25.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#406083 in MvnRepository",
+	"ranking":"#404784 in MvnRepository",
 	"tags":[
 		"amazon",
 		"xray",
@@ -28,11 +28,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251015",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
 			"version":"3.29.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.5",
 			"vulnerabilities":""
 		},
 		{
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.25.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.25.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.25.0",
 			"vulnerabilities":""
 		}
 	]

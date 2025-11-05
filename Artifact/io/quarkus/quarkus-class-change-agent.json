@@ -3,13 +3,13 @@
 	"description":"A Java Agent that exposes the instrumentation API. This allows for super fast\n        hot reloads if there have been no changes to the structure of the class files.\n\n        This agent is not required for hot reload, it just provides an optimisation in\n        some circumstances.",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-class-change-agent",
-	"version_latest":"3.29.0",
-	"ts_publish":1761142018000,
-	"dt_publish":"2025-10-22 22:06:58.000",
-	"ts_update":1761143225204,
-	"dt_update":"2025-10-22 22:26:26.985",
+	"version_latest":"3.29.1",
+	"ts_publish":1762355407000,
+	"dt_publish":"2025-11-05 23:10:07.000",
+	"ts_update":1762359719580,
+	"dt_update":"2025-11-06 00:21:21.680",
 	"count_dep":0,
-	"count_ref":0,
+	"count_ref":59,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,18 +18,34 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-class-change-agent@3.25.1",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#174058 in MvnRepository",
+	"ranking":"#174905 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"agent"
 	],
 	"versions":[
 		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251015",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
 			"version":"3.29.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.28.5",
 			"vulnerabilities":""
 		},
 		{
@@ -166,22 +182,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.25.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.25.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.25.0",
 			"vulnerabilities":""
 		}
 	]

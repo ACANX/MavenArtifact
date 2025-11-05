@@ -3,12 +3,12 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-test-vertx",
-	"version_latest":"3.28.3",
-	"ts_publish":1760007535000,
-	"dt_publish":"2025-10-09 18:58:55.000",
-	"ts_update":1760009226641,
-	"dt_update":"2025-10-09 19:26:23.523",
-	"count_dep":6,
+	"version_latest":"3.29.1",
+	"ts_publish":1762355408000,
+	"dt_publish":"2025-11-05 23:10:08.000",
+	"ts_update":1762359739925,
+	"dt_update":"2025-11-06 00:21:13.390",
+	"count_dep":128,
 	"count_ref":3,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,13 +26,125 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#65791 in MvnRepository",
+	"ranking":"#70297 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"testing",
 		"vertx"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.29.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.28.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.28.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.28.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.28.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.28.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.28.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.28.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.27.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.26.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.26.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.26.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -79,118 +191,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.25.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.25.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.25.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.25.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250625",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.24.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.23.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.23.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.23.1",
 			"vulnerabilities":""
 		}
 	]

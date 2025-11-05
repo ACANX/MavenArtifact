@@ -3,13 +3,13 @@
 	"description":"Small wrapper around esbuild to be able to use it in Java",
 	"group_id":"io.mvnpm",
 	"artifact_id":"esbuild-java",
-	"version_latest":"1.5.6",
-	"ts_publish":1758877068000,
-	"dt_publish":"2025-09-26 16:57:48.000",
-	"ts_update":1758883062241,
-	"dt_update":"2025-09-26 17:17:05.359",
-	"count_dep":10,
-	"count_ref":2,
+	"version_latest":"2.0.0-beta-2",
+	"ts_publish":1762348833000,
+	"dt_publish":"2025-11-05 21:20:33.000",
+	"ts_update":1762359705929,
+	"dt_update":"2025-11-06 00:21:36.652",
+	"count_dep":13,
+	"count_ref":3,
 	"licenses":[
 		"MIT License"
 	],
@@ -23,10 +23,34 @@
 		"Erik Jan de Wit"
 	],
 	"url_scm":"http://github.com/mvnpm/esbuild-java/tree/main/esbuild-java",
-	"count_used_by":4,
+	"count_used_by":7,
 	"license":"MIT",
-	"ranking":"#114107 in MvnRepository",
+	"ranking":"#68412 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"2.0.0-beta-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.5.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.5.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -161,30 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231206",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231127",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231127",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.7",
 			"vulnerabilities":""
 		}
 	]
