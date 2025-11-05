@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.debezium/debezium-storage-azure-blob",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-storage-azure-blob",
-	"version_latest":"3.4.0.Alpha1",
-	"ts_publish":1761327746000,
-	"dt_publish":"2025-10-25 01:42:26.000",
-	"ts_update":1761328603777,
-	"dt_update":"2025-10-25 01:56:29.952",
-	"count_dep":8,
+	"version_latest":"3.4.0.Alpha2",
+	"ts_publish":1762338801000,
+	"dt_publish":"2025-11-05 18:33:21.000",
+	"ts_update":1762340011762,
+	"dt_update":"2025-11-05 18:53:10.284",
+	"count_dep":82,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache Software License 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database"
@@ -23,9 +25,9 @@
 		"Randall Hauch"
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-storage/debezium-storage-azure-blob",
-	"count_used_by":1,
+	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#259399 in MvnRepository",
+	"ranking":"#175960 in MvnRepository",
 	"tags":[
 		"binary",
 		"azure",
@@ -34,6 +36,14 @@
 		"blob"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -182,17 +192,10 @@
 			"date":"20250402",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"3.1.0.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.0.CR1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for all modules and connectors"
 }
