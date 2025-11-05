@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"ibmi-journal-parsing",
-	"version_latest":"3.4.0.Alpha1",
-	"ts_publish":1761375898000,
-	"dt_publish":"2025-10-25 15:04:58.000",
-	"ts_update":1761377206597,
-	"dt_update":"2025-10-25 15:26:30.746",
+	"version_latest":"3.4.0.Alpha2",
+	"ts_publish":1762347115000,
+	"dt_publish":"2025-11-05 20:51:55.000",
+	"ts_update":1762348758410,
+	"dt_update":"2025-11-05 21:18:58.563",
 	"count_dep":5,
 	"count_ref":1,
 	"licenses":[
@@ -28,12 +28,20 @@
 	"url_scm":"https://github.com/debezium/debezium-connector-ibmi/ibmi-journal-parsing",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#298465 in MvnRepository",
+	"ranking":"#299257 in MvnRepository",
 	"tags":[
 		"parser",
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.0.CR1",
 			"vulnerabilities":""
 		}
 	]
