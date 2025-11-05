@@ -2,13 +2,13 @@
 	"id":"pkg:maven/com.yahoo.vespa/security-utils",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"security-utils",
-	"version_latest":"8.601.1",
-	"ts_publish":1762139210000,
-	"dt_publish":"2025-11-03 11:06:50.000",
-	"ts_update":1762140400674,
-	"dt_update":"2025-11-03 11:26:23.924",
+	"version_latest":"8.603.19",
+	"ts_publish":1762312230000,
+	"dt_publish":"2025-11-05 11:10:30.000",
+	"ts_update":1762313208589,
+	"dt_update":"2025-11-05 11:26:28.845",
 	"count_dep":10,
-	"count_ref":38,
+	"count_ref":24,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -25,13 +25,21 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/security-utils",
 	"count_used_by":25,
 	"license":"Apache 2.0",
-	"ranking":"#19299 in MvnRepository",
+	"ranking":"#19281 in MvnRepository",
 	"tags":[
 		"bundle",
 		"security",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.601.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251028",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":13,
 			"version":"8.576.45",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250904",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.575.21",
 			"vulnerabilities":""
 		}
 	],

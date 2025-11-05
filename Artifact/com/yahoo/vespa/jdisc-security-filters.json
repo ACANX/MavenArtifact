@@ -2,12 +2,12 @@
 	"id":"pkg:maven/com.yahoo.vespa/jdisc-security-filters",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"jdisc-security-filters",
-	"version_latest":"8.601.1",
-	"ts_publish":1762139210000,
-	"dt_publish":"2025-11-03 11:06:50.000",
-	"ts_update":1762140402550,
-	"dt_update":"2025-11-03 11:26:24.725",
-	"count_dep":84,
+	"version_latest":"8.603.19",
+	"ts_publish":1762312230000,
+	"dt_publish":"2025-11-05 11:10:30.000",
+	"ts_update":1762313212573,
+	"dt_update":"2025-11-05 11:26:28.850",
+	"count_dep":9,
 	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -25,12 +25,20 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/jdisc-security-filters",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#127279 in MvnRepository",
+	"ranking":"#113687 in MvnRepository",
 	"tags":[
 		"security",
 		"filtering"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.601.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251028",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.576.45",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250904",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.575.21",
 			"vulnerabilities":""
 		}
 	],
