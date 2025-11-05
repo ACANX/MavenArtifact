@@ -3,11 +3,11 @@
 	"description":"Contains the definitions for the Debezium commons code style and conventions",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-checkstyle",
-	"version_latest":"3.4.0.Alpha1",
-	"ts_publish":1761327746000,
-	"dt_publish":"2025-10-25 01:42:26.000",
-	"ts_update":1761328629697,
-	"dt_update":"2025-10-25 01:56:29.955",
+	"version_latest":"3.4.0.Alpha2",
+	"ts_publish":1762338801000,
+	"dt_publish":"2025-11-05 18:33:21.000",
+	"ts_update":1762339347196,
+	"dt_update":"2025-11-05 18:42:03.938",
 	"count_dep":17,
 	"count_ref":0,
 	"licenses":[
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-checkstyle",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#60631 in MvnRepository",
+	"ranking":"#60912 in MvnRepository",
 	"tags":[
 		"debezium",
 		"analysis",
 		"style"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":6,
+			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"3.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.1.0.CR1",
 			"vulnerabilities":""
 		}
 	]
