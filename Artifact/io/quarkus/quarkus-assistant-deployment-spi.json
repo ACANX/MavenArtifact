@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.quarkus/quarkus-assistant-deployment-spi",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-assistant-deployment-spi",
-	"version_latest":"3.29.0",
-	"ts_publish":1761142017000,
-	"dt_publish":"2025-10-22 22:06:57.000",
-	"ts_update":1761143216400,
-	"dt_update":"2025-10-22 22:26:30.685",
-	"count_dep":3,
-	"count_ref":0,
+	"version_latest":"3.29.1",
+	"ts_publish":1762355408000,
+	"dt_publish":"2025-11-05 23:10:08.000",
+	"ts_update":1762361299416,
+	"dt_update":"2025-11-06 00:21:08.539",
+	"count_dep":4,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-assistant-deployment-spi@3.25.1",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#94324 in MvnRepository",
+	"ranking":"#95364 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -25,11 +25,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251015",
 			"repository":"Central",
 			"type":"release",
 			"usage":4,
 			"version":"3.29.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.28.5",
 			"vulnerabilities":""
 		},
 		{
@@ -166,22 +182,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.25.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.25.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.25.0",
 			"vulnerabilities":""
 		}
 	]
