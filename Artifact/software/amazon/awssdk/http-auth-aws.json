@@ -3,13 +3,13 @@
 	"description":"The AWS SDK for Java - HTTP Auth AWS module contains interfaces and implementations for HTTP\n        authentication specific to AWS.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"http-auth-aws",
-	"version_latest":"2.37.2",
-	"ts_publish":1761862245000,
-	"dt_publish":"2025-10-31 06:10:45.000",
-	"ts_update":1761866829293,
-	"dt_update":"2025-10-31 07:26:34.077",
-	"count_dep":21,
-	"count_ref":4,
+	"version_latest":"2.38.1",
+	"ts_publish":1762472035000,
+	"dt_publish":"2025-11-07 07:33:55.000",
+	"ts_update":1762473407511,
+	"dt_update":"2025-11-07 07:56:32.157",
+	"count_dep":22,
+	"count_ref":131,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/http-auth-aws@2.32.17",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/http-auth-aws",
-	"count_used_by":466,
+	"count_used_by":468,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#1320 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#1328 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -36,10 +36,90 @@
 	],
 	"versions":[
 		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":408,
+			"version":"2.38.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":408,
+			"version":"2.37.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":408,
+			"version":"2.37.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":409,
+			"version":"2.37.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":408,
+			"version":"2.37.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":415,
+			"version":"2.37.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":415,
+			"version":"2.37.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":414,
+			"version":"2.36.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"release",
+			"usage":415,
+			"version":"2.36.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":414,
+			"version":"2.36.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":414,
 			"version":"2.36.0",
 			"vulnerabilities":""
 		},
@@ -55,7 +135,7 @@
 			"date":"20251017",
 			"repository":"Central",
 			"type":"release",
-			"usage":413,
+			"usage":414,
 			"version":"2.35.10",
 			"vulnerabilities":""
 		},
@@ -95,7 +175,7 @@
 			"date":"20251011",
 			"repository":"Central",
 			"type":"release",
-			"usage":413,
+			"usage":414,
 			"version":"2.35.5",
 			"vulnerabilities":""
 		},
@@ -113,86 +193,6 @@
 			"type":"release",
 			"usage":413,
 			"version":"2.35.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251008",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.35.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251006",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.35.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251003",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.35.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251002",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.34.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251002",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.34.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250930",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.34.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250930",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.34.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250927",
-			"repository":"Central",
-			"type":"release",
-			"usage":415,
-			"version":"2.34.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250926",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.34.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250925",
-			"repository":"Central",
-			"type":"release",
-			"usage":413,
-			"version":"2.34.3",
 			"vulnerabilities":""
 		}
 	]
