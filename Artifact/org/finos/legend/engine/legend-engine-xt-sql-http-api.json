@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-xt-sql-http-api",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-sql-http-api",
-	"version_latest":"4.107.0",
-	"ts_publish":1762002781000,
-	"dt_publish":"2025-11-01 21:13:01.000",
-	"ts_update":1762004694527,
-	"dt_update":"2025-11-01 21:44:27.766",
-	"count_dep":54,
+	"version_latest":"4.107.1",
+	"ts_publish":1762456071000,
+	"dt_publish":"2025-11-07 03:07:51.000",
+	"ts_update":1762457256666,
+	"dt_update":"2025-11-07 03:26:32.737",
+	"count_dep":187,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-sql/legend-engine-xt-sql-http-api",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#204425 in MvnRepository",
+	"ranking":"#203919 in MvnRepository",
 	"tags":[
 		"sql",
 		"api",
@@ -31,6 +33,14 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.107.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -182,14 +192,7 @@
 			"usage":2,
 			"version":"4.97.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.97.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
 }

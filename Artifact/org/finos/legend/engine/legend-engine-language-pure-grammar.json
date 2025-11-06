@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-language-pure-grammar",
-	"version_latest":"4.107.0",
-	"ts_publish":1762002780000,
-	"dt_publish":"2025-11-01 21:13:00.000",
-	"ts_update":1762004706223,
-	"dt_update":"2025-11-01 21:44:36.476",
+	"version_latest":"4.107.1",
+	"ts_publish":1762456071000,
+	"dt_publish":"2025-11-07 03:07:51.000",
+	"ts_update":1762457218203,
+	"dt_update":"2025-11-07 03:26:33.204",
 	"count_dep":20,
-	"count_ref":136,
+	"count_ref":123,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,13 +27,21 @@
 	"count_used_by":154,
 	"home_page":"https://github.com/finos/legend-engine",
 	"license":"Apache 2.0",
-	"ranking":"#3696 in MvnRepository",
+	"ranking":"#3723 in MvnRepository",
 	"tags":[
 		"grammar",
 		"language",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":117,
+			"version":"4.107.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":117,
 			"version":"4.97.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":111,
-			"version":"4.97.0",
 			"vulnerabilities":""
 		}
 	]

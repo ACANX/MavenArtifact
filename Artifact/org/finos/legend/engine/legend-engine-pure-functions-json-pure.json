@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-pure-functions-json-pure",
-	"version_latest":"4.106.0",
-	"ts_publish":1761578386000,
-	"dt_publish":"2025-10-27 23:19:46.000",
-	"ts_update":1761580165800,
-	"dt_update":"2025-10-27 23:47:05.607",
+	"version_latest":"4.107.1",
+	"ts_publish":1762456072000,
+	"dt_publish":"2025-11-07 03:07:52.000",
+	"ts_update":1762457248686,
+	"dt_update":"2025-11-07 03:26:28.370",
 	"count_dep":18,
-	"count_ref":57,
+	"count_ref":33,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,13 +26,29 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-pure/legend-engine-pure-code-functions-json/legend-engine-pure-functions-json-pure",
 	"count_used_by":26,
 	"license":"Apache 2.0",
-	"ranking":"#17966 in MvnRepository",
+	"ranking":"#18036 in MvnRepository",
 	"tags":[
 		"json",
 		"functions",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"4.107.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"4.106.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251018",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":24,
 			"version":"4.97.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"4.97.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250821",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"4.96.5",
 			"vulnerabilities":""
 		}
 	]

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-xt-serviceStore-javaPlatformBinding-pure",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-serviceStore-javaPlatformBinding-pure",
-	"version_latest":"4.107.0",
-	"ts_publish":1762002780000,
-	"dt_publish":"2025-11-01 21:13:00.000",
-	"ts_update":1762004711707,
-	"dt_update":"2025-11-01 21:44:32.416",
-	"count_dep":18,
+	"version_latest":"4.107.1",
+	"ts_publish":1762456072000,
+	"dt_publish":"2025-11-07 03:07:52.000",
+	"ts_update":1762457280340,
+	"dt_update":"2025-11-07 03:26:29.332",
+	"count_dep":89,
 	"count_ref":6,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,11 +25,27 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-serviceStore/legend-engine-xt-serviceStore-javaPlatformBinding-pure",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#49425 in MvnRepository",
+	"ranking":"#49567 in MvnRepository",
 	"tags":[
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"4.107.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"4.106.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251018",
 			"repository":"Central",
@@ -171,22 +189,7 @@
 			"usage":7,
 			"version":"4.97.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.97.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250821",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"4.96.5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
 }

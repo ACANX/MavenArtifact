@@ -3,11 +3,11 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-tds-grammar",
-	"version_latest":"4.107.0",
-	"ts_publish":1762002780000,
-	"dt_publish":"2025-11-01 21:13:00.000",
-	"ts_update":1762004711350,
-	"dt_update":"2025-11-01 21:44:30.652",
+	"version_latest":"4.107.1",
+	"ts_publish":1762456071000,
+	"dt_publish":"2025-11-07 03:07:51.000",
+	"ts_update":1762457218705,
+	"dt_update":"2025-11-07 03:26:39.378",
 	"count_dep":56,
 	"count_ref":5,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-tds/legend-engine-xt-tds-grammar",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#102631 in MvnRepository",
+	"ranking":"#98556 in MvnRepository",
 	"tags":[
 		"grammar",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.107.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.97.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250807",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.96.1",
 			"vulnerabilities":""
 		}
 	]

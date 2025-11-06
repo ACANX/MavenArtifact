@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-xt-snowflake-pure",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-snowflake-pure",
-	"version_latest":"4.107.0",
-	"ts_publish":1762002780000,
-	"dt_publish":"2025-11-01 21:13:00.000",
-	"ts_update":1762004717930,
-	"dt_update":"2025-11-01 21:44:35.145",
-	"count_dep":18,
+	"version_latest":"4.107.1",
+	"ts_publish":1762456072000,
+	"dt_publish":"2025-11-07 03:07:52.000",
+	"ts_update":1762457262213,
+	"dt_update":"2025-11-07 03:26:28.837",
+	"count_dep":110,
 	"count_ref":4,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +25,28 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-snowflake/legend-engine-xt-snowflake-pure",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#121081 in MvnRepository",
+	"ranking":"#122920 in MvnRepository",
 	"tags":[
 		"snowflake",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.107.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.106.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251018",
 			"repository":"Central",
@@ -172,22 +190,7 @@
 			"usage":4,
 			"version":"4.97.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.97.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250821",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.96.5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
 }
