@@ -3,11 +3,11 @@
 	"description":"Facade over tracing concepts",
 	"group_id":"io.micrometer",
 	"artifact_id":"micrometer-tracing-bridge-otel",
-	"version_latest":"1.6.0-RC1",
-	"ts_publish":1760430908000,
-	"dt_publish":"2025-10-14 16:35:08.000",
-	"ts_update":1760432042234,
-	"dt_update":"2025-10-14 16:53:47.306",
+	"version_latest":"1.6.0",
+	"ts_publish":1762458416000,
+	"dt_publish":"2025-11-07 03:46:56.000",
+	"ts_update":1762460314799,
+	"dt_update":"2025-11-07 04:18:19.268",
 	"count_dep":19,
 	"count_ref":2,
 	"licenses":[
@@ -25,16 +25,24 @@
 		"Marcin Grzejszczak"
 	],
 	"url_scm":"git@github.com:micrometer-metrics/tracing.git",
-	"count_used_by":98,
+	"count_used_by":102,
 	"home_page":"https://github.com/micrometer-metrics/tracing",
 	"license":"Apache 2.0",
-	"ranking":"#5195 in MvnRepository",
+	"ranking":"#5217 in MvnRepository",
 	"tags":[
 		"bridge",
 		"metrics",
 		"tracing"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.6.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -60,6 +68,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.5.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250908",
 			"repository":"Central",
 			"type":"release",
@@ -79,7 +95,7 @@
 			"date":"20250714",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"1.5.2",
 			"vulnerabilities":""
 		},
@@ -121,6 +137,14 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"1.5.0-M2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.4.11",
 			"vulnerabilities":""
 		},
 		{
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"1.4.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250310",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"1.4.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250210",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"1.4.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"1.4.2",
 			"vulnerabilities":""
 		}
 	]
