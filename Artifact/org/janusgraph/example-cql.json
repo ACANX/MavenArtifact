@@ -3,11 +3,11 @@
 	"description":"JanusGraph is a distributed graph database optimized for processing massive-scale graphs represented over a machine\n        cluster.\n        JanusGraph separates the concerns of graph processing and manipulation from storing the graph on disk,\n        delegating that concern to an extensible set of persistence solutions.",
 	"group_id":"org.janusgraph",
 	"artifact_id":"example-cql",
-	"version_latest":"1.2.0-20251104-123735.00b3eec",
-	"ts_publish":1762260496000,
-	"dt_publish":"2025-11-04 20:48:16.000",
-	"ts_update":1762260995188,
-	"dt_update":"2025-11-04 20:56:23.560",
+	"version_latest":"1.2.0-20251106-171150.7f4c78d",
+	"ts_publish":1762449848000,
+	"dt_publish":"2025-11-07 01:24:08.000",
+	"ts_update":1762450535856,
+	"dt_update":"2025-11-07 01:35:22.800",
 	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
@@ -28,13 +28,21 @@
 	"url_scm":"git@github.com:JanusGraph/janusgraph.git/janusgraph-examples/example-cql",
 	"home_page":"https://janusgraph.org",
 	"license":"Apache 2.0",
-	"ranking":"#485303 in MvnRepository",
+	"ranking":"#485678 in MvnRepository",
 	"tags":[
 		"cql",
 		"graph",
 		"example"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"1.2.0-20251104-123735.00b...",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250815",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.2.0-20250113-050127.536...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250112",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.2.0-20250112-215947.0f4...",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"Spring Security",
 	"group_id":"org.springframework.security",
 	"artifact_id":"spring-security-oauth2-client",
-	"version_latest":"7.0.0-RC2",
-	"ts_publish":1762235643000,
-	"dt_publish":"2025-11-04 13:54:03.000",
-	"ts_update":1762239372104,
-	"dt_update":"2025-11-04 14:55:33.133",
-	"count_dep":21,
+	"version_latest":"7.0.0-RC3",
+	"ts_publish":1762450165000,
+	"dt_publish":"2025-11-07 01:29:25.000",
+	"ts_update":1762450539657,
+	"dt_update":"2025-11-07 01:35:21.914",
+	"count_dep":22,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,10 +25,10 @@
 		"Pivotal"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-security",
-	"count_used_by":410,
+	"count_used_by":411,
 	"home_page":"https://spring.io/projects/spring-security",
 	"license":"Apache 2.0",
-	"ranking":"#1661 in MvnRepository",
+	"ranking":"#1659 in MvnRepository",
 	"tags":[
 		"security",
 		"spring",
@@ -39,6 +39,14 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.0.0-RC2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -75,7 +83,7 @@
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"6.5.6",
 			"vulnerabilities":""
 		},
@@ -163,7 +171,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"6.4.8",
 			"vulnerabilities":""
 		},
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":17,
 			"version":"6.4.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250318",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"6.4.4",
 			"vulnerabilities":""
 		}
 	]
