@@ -3,13 +3,13 @@
 	"description":"Facade over tracing concepts",
 	"group_id":"io.micrometer",
 	"artifact_id":"micrometer-tracing-bridge-brave",
-	"version_latest":"1.6.0-RC1",
-	"ts_publish":1760430908000,
-	"dt_publish":"2025-10-14 16:35:08.000",
-	"ts_update":1760432047499,
-	"dt_update":"2025-10-14 16:53:47.788",
+	"version_latest":"1.6.0",
+	"ts_publish":1762458416000,
+	"dt_publish":"2025-11-07 03:46:56.000",
+	"ts_update":1762458983143,
+	"dt_update":"2025-11-07 03:56:13.526",
 	"count_dep":15,
-	"count_ref":2,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,16 +25,24 @@
 		"Marcin Grzejszczak"
 	],
 	"url_scm":"git@github.com:micrometer-metrics/tracing.git",
-	"count_used_by":223,
+	"count_used_by":224,
 	"home_page":"https://github.com/micrometer-metrics/tracing",
 	"license":"Apache 2.0",
-	"ranking":"#2559 in MvnRepository",
+	"ranking":"#2731 in MvnRepository",
 	"tags":[
 		"bridge",
 		"metrics",
 		"tracing"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.6.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -60,10 +68,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.5.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250908",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"1.5.4",
 			"vulnerabilities":""
 		},
@@ -124,6 +140,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.4.11",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250908",
 			"repository":"Central",
 			"type":"release",
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"1.4.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250310",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"1.4.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250210",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"1.4.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"1.4.2",
 			"vulnerabilities":""
 		}
 	]
