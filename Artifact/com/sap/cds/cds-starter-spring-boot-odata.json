@@ -3,12 +3,12 @@
 	"description":"Starter package to write Spring Boot based CAP applications with OData V4 service exposure",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-starter-spring-boot-odata",
-	"version_latest":"4.4.1",
-	"ts_publish":1760083893000,
-	"dt_publish":"2025-10-10 16:11:33.000",
-	"ts_update":1760085727835,
-	"dt_update":"2025-10-10 16:42:00.034",
-	"count_dep":2,
+	"version_latest":"4.4.2",
+	"ts_publish":1762453830000,
+	"dt_publish":"2025-11-07 02:30:30.000",
+	"ts_update":1762455327014,
+	"dt_update":"2025-11-07 02:55:16.252",
+	"count_dep":43,
 	"count_ref":0,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#489250 in MvnRepository",
+	"ranking":"#493030 in MvnRepository",
 	"tags":[
 		"data",
 		"spring",
@@ -32,6 +32,14 @@
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.4.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251007",
 			"repository":"Central",
@@ -94,6 +102,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.10.5",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.7.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250130",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.7.0",
 			"vulnerabilities":""
 		}
 	]
