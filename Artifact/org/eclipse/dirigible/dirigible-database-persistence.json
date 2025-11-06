@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-persistence",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-persistence",
-	"version_latest":"12.36.0",
-	"ts_publish":1761935220000,
-	"dt_publish":"2025-11-01 02:27:00.000",
-	"ts_update":1761936840615,
-	"dt_update":"2025-11-01 02:53:17.628",
-	"count_dep":64,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"12.40.0",
+	"ts_publish":1762441292000,
+	"dt_publish":"2025-11-06 23:01:32.000",
+	"ts_update":1762442817183,
+	"dt_update":"2025-11-06 23:26:31.968",
+	"count_dep":113,
+	"count_ref":3,
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,7 +26,7 @@
 	"count_used_by":46,
 	"home_page":"https://www.dirigible.io/",
 	"license":"EPL 2.0",
-	"ranking":"#10617 in MvnRepository",
+	"ranking":"#10653 in MvnRepository",
 	"tags":[
 		"database",
 		"persistence",
@@ -32,6 +34,38 @@
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.36.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.35.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.33.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.32.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -159,38 +193,7 @@
 			"usage":3,
 			"version":"12.13.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250822",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"12.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250821",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"12.11.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250819",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"12.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"12.10.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Core modules packaged with Dirigible"
 }
