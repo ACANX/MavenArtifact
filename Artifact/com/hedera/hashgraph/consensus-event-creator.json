@@ -3,10 +3,10 @@
 	"description":"Hedera Hashgraph is a software platform designed to build fully-distributed applications that harness the power of the cloud without servers. Now you can develop applications with fairness in decision making, speed, trust and reliability, at a fraction of the cost of traditional server-based platforms.",
 	"group_id":"com.hedera.hashgraph",
 	"artifact_id":"consensus-event-creator",
-	"version_latest":"0.68.0-rc.1",
-	"ts_publish":1762199739000,
-	"ts_update":1762202251102,
-	"count_dep":7,
+	"version_latest":"0.68.1-rc.1",
+	"ts_publish":1762466797000,
+	"ts_update":1762467334737,
+	"count_dep":28,
 	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,17 +22,25 @@
 		"The Hiero Team"
 	],
 	"url_scm":"https://github.com/hiero-ledger/hiero-consensus-node",
-	"dt_publish":"2025-11-04 03:55:39.000",
-	"dt_update":"2025-11-04 04:36:43.398",
+	"dt_publish":"2025-11-07 06:06:37.000",
+	"dt_update":"2025-11-07 06:15:22.462",
 	"count_used_by":2,
 	"home_page":"https://hiero.org/",
 	"license":"Apache 2.0",
-	"ranking":"#237894 in MvnRepository",
+	"ranking":"#253428 in MvnRepository",
 	"tags":[
 		"event",
 		"consensus"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.68.0-rc.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.64.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.64.2",
 			"vulnerabilities":""
 		}
 	]
