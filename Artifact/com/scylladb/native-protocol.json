@@ -3,11 +3,11 @@
 	"description":"A set of Java types representing the frames and messages of the Apache Cassandra® native\n    protocol, with the associated serialization and deserialization logic (this is a third-party\n    implementation, not related to the Apache Cassandra project).\n    It is fork of com.datastax.oss:native-protocol with patches for Scylla-specific features.",
 	"group_id":"com.scylladb",
 	"artifact_id":"native-protocol",
-	"version_latest":"1.5.2.0",
-	"ts_publish":1758132642000,
-	"dt_publish":"2025-09-18 02:10:42.000",
-	"ts_update":1758134710190,
-	"dt_update":"2025-09-18 02:44:22.131",
+	"version_latest":"1.5.2.1",
+	"ts_publish":1762452980000,
+	"dt_publish":"2025-11-07 02:16:20.000",
+	"ts_update":1762453477536,
+	"dt_update":"2025-11-07 02:24:01.656",
 	"count_dep":4,
 	"count_ref":0,
 	"licenses":[
@@ -22,5 +22,26 @@
 	"contributors":[
 		"Various"
 	],
-	"url_scm":"https://github.com/scylladb/java-native-protocol"
+	"url_scm":"https://github.com/scylladb/java-native-protocol",
+	"count_used_by":2,
+	"home_page":"https://github.com/scylladb/java-native-protocol",
+	"license":"Apache 2.0",
+	"ranking":"#247193 in MvnRepository",
+	"tags":[
+		"bundle",
+		"native",
+		"scylladb",
+		"protocol",
+		"osgi"
+	],
+	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.5.2.0",
+			"vulnerabilities":""
+		}
+	]
 }

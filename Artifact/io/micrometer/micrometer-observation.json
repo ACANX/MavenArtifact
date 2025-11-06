@@ -3,11 +3,11 @@
 	"description":"Module containing Observation related code",
 	"group_id":"io.micrometer",
 	"artifact_id":"micrometer-observation",
-	"version_latest":"1.16.0-RC1",
-	"ts_publish":1760418114000,
-	"dt_publish":"2025-10-14 13:01:54.000",
-	"ts_update":1760418926419,
-	"dt_update":"2025-10-14 13:15:09.615",
+	"version_latest":"1.16.0",
+	"ts_publish":1762452766000,
+	"dt_publish":"2025-11-07 02:12:46.000",
+	"ts_update":1762453473700,
+	"dt_update":"2025-11-07 02:24:02.232",
 	"count_dep":5,
 	"count_ref":31,
 	"licenses":[
@@ -23,15 +23,23 @@
 		"Tommy Ludwig"
 	],
 	"url_scm":"git@github.com:micrometer-metrics/micrometer.git",
-	"count_used_by":131,
+	"count_used_by":136,
 	"home_page":"https://github.com/micrometer-metrics/micrometer",
 	"license":"Apache 2.0",
-	"ranking":"#4050 in MvnRepository",
+	"ranking":"#4118 in MvnRepository",
 	"tags":[
 		"metrics",
 		"observable"
 	],
 	"versions":[
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"1.16.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -57,10 +65,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":17,
+			"version":"1.15.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250908",
 			"repository":"Central",
 			"type":"release",
-			"usage":25,
+			"usage":28,
 			"version":"1.15.4",
 			"vulnerabilities":""
 		},
@@ -76,7 +92,7 @@
 			"date":"20250714",
 			"repository":"Central",
 			"type":"release",
-			"usage":19,
+			"usage":20,
 			"version":"1.15.2",
 			"vulnerabilities":""
 		},
@@ -118,6 +134,14 @@
 			"type":"milestone",
 			"usage":16,
 			"version":"1.15.0-M2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"1.14.12",
 			"vulnerabilities":""
 		},
 		{
@@ -166,30 +190,6 @@
 			"type":"release",
 			"usage":41,
 			"version":"1.14.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250310",
-			"repository":"Central",
-			"type":"release",
-			"usage":33,
-			"version":"1.14.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250210",
-			"repository":"Central",
-			"type":"release",
-			"usage":33,
-			"version":"1.14.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":30,
-			"version":"1.14.3",
 			"vulnerabilities":""
 		}
 	]
