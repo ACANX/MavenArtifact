@@ -1,30 +1,35 @@
 {
 	"id":"pkg:maven/io.streamnative.pulsar.handlers/integration-tests",
-	"description":"Parent for Kafka on Pulsar implemented using Pulsar Protocol Handler.",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"integration-tests",
-	"version_latest":"4.1.0.5",
-	"ts_publish":1761714763000,
-	"ts_update":1761715595705,
+	"version_latest":"4.1.0.6",
+	"ts_publish":1762508609000,
+	"ts_update":1762509388543,
 	"count_dep":7,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/integration-tests/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/integration-tests@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/integration-tests",
-	"dt_publish":"2025-10-29 13:12:43.000",
-	"dt_update":"2025-10-29 13:26:24.895",
+	"dt_publish":"2025-11-07 17:43:29.000",
+	"dt_update":"2025-11-07 17:56:15.939",
 	"license":"Apache 2.0",
-	"ranking":"#475286 in MvnRepository",
+	"ranking":"#477059 in MvnRepository",
 	"tags":[
 		"integration",
 		"testing",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.1.0.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -175,14 +180,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250616",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.4.3",
 			"vulnerabilities":""
 		}
 	]
