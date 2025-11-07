@@ -3,16 +3,14 @@
 	"description":"Keycloak Dependencies Server Min",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-dependencies-server-min",
-	"version_latest":"26.4.2",
-	"ts_publish":1761202190000,
-	"dt_publish":"2025-10-23 14:49:50.000",
-	"ts_update":1761202605889,
-	"dt_update":"2025-10-23 14:56:27.147",
-	"count_dep":170,
-	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"26.4.4",
+	"ts_publish":1762505225000,
+	"dt_publish":"2025-11-07 16:47:05.000",
+	"ts_update":1762505633385,
+	"dt_update":"2025-11-07 16:53:35.064",
+	"count_dep":10,
+	"count_ref":0,
+	"licenses":[],
 	"categories":[
 		"Security",
 		"Identity Management"
@@ -27,7 +25,7 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-dependencies-parent/keycloak-dependencies-server-min/",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#212303 in MvnRepository",
+	"ranking":"#212972 in MvnRepository",
 	"tags":[
 		"bom",
 		"server",
@@ -36,6 +34,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"26.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -186,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"26.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.1.0",
 			"vulnerabilities":""
 		}
 	]

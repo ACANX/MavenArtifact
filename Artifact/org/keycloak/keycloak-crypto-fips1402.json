@@ -3,16 +3,14 @@
 	"description":"Keycloak Crypto FIPS 140-2 Integration",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-crypto-fips1402",
-	"version_latest":"26.4.2",
-	"ts_publish":1761202190000,
-	"dt_publish":"2025-10-23 14:49:50.000",
-	"ts_update":1761203798704,
-	"dt_update":"2025-10-23 15:16:05.600",
-	"count_dep":170,
-	"count_ref":23,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"26.4.4",
+	"ts_publish":1762505225000,
+	"dt_publish":"2025-11-07 16:47:05.000",
+	"ts_update":1762505629472,
+	"dt_update":"2025-11-07 16:53:35.062",
+	"count_dep":12,
+	"count_ref":0,
+	"licenses":[],
 	"categories":[
 		"Security",
 		"Identity Management"
@@ -27,12 +25,20 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-crypto-parent/keycloak-crypto-fips1402/",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#182973 in MvnRepository",
+	"ranking":"#183915 in MvnRepository",
 	"tags":[
 		"cryptography",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -183,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"26.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"26.1.0",
 			"vulnerabilities":""
 		}
 	]
