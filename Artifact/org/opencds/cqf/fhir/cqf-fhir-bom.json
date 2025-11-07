@@ -3,11 +3,11 @@
 	"description":"This bom can be used to simplify dependency management when using this project",
 	"group_id":"org.opencds.cqf.fhir",
 	"artifact_id":"cqf-fhir-bom",
-	"version_latest":"3.28.0",
-	"ts_publish":1761850106000,
-	"dt_publish":"2025-10-31 02:48:26.000",
-	"ts_update":1761854225535,
-	"dt_update":"2025-10-31 03:44:33.463",
+	"version_latest":"3.28.1",
+	"ts_publish":1762542835000,
+	"dt_publish":"2025-11-08 03:13:55.000",
+	"ts_update":1762543589394,
+	"dt_update":"2025-11-08 03:26:22.849",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"https://github.com/cqframework/clinical-reasoning/tree/master/cqf-fhir-bom",
 	"license":"Apache 2.0",
-	"ranking":"#549812 in MvnRepository",
+	"ranking":"#548052 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250925",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240816",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.10.0",
 			"vulnerabilities":""
 		}
 	]

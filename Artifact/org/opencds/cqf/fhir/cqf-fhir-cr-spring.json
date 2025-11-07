@@ -3,12 +3,12 @@
 	"description":"Spring configurations for FHIR Clinical Reasoning",
 	"group_id":"org.opencds.cqf.fhir",
 	"artifact_id":"cqf-fhir-cr-spring",
-	"version_latest":"3.28.0",
-	"ts_publish":1761850106000,
-	"dt_publish":"2025-10-31 02:48:26.000",
-	"ts_update":1761855508934,
-	"dt_update":"2025-10-31 03:44:33.463",
-	"count_dep":58,
+	"version_latest":"3.28.1",
+	"ts_publish":1762542835000,
+	"dt_publish":"2025-11-08 03:13:55.000",
+	"ts_update":1762543589521,
+	"dt_update":"2025-11-08 03:26:22.847",
+	"count_dep":121,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,11 +25,19 @@
 	],
 	"url_scm":"https://github.com/cqframework/clinical-reasoning/tree/master/cqf-fhir-cr-spring",
 	"license":"Apache 2.0",
-	"ranking":"#590652 in MvnRepository",
+	"ranking":"#588831 in MvnRepository",
 	"tags":[
 		"spring"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250925",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240816",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.10.0",
 			"vulnerabilities":""
 		}
 	]
