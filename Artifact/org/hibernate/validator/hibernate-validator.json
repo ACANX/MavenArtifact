@@ -3,11 +3,11 @@
 	"description":"Hibernate's Jakarta Validation reference implementation.",
 	"group_id":"org.hibernate.validator",
 	"artifact_id":"hibernate-validator",
-	"version_latest":"9.1.0.CR1",
-	"ts_publish":1761765818000,
-	"dt_publish":"2025-10-30 03:23:38.000",
-	"ts_update":1761767111067,
-	"dt_update":"2025-10-30 03:44:39.122",
+	"version_latest":"9.1.0.Final",
+	"ts_publish":1762554593000,
+	"dt_publish":"2025-11-08 06:29:53.000",
+	"ts_update":1762554857805,
+	"dt_update":"2025-11-08 06:34:01.630",
 	"count_dep":10,
 	"count_ref":1,
 	"licenses":[
@@ -30,7 +30,7 @@
 		"Hardy Ferentschik"
 	],
 	"url_scm":"http://github.com/hibernate/hibernate-validator",
-	"count_used_by":2929,
+	"count_used_by":2931,
 	"home_page":"https://hibernate.org/validator",
 	"license":"Apache 2.0",
 	"ranking":"#200 in MvnRepository",
@@ -40,6 +40,14 @@
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.1.0.CR1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -108,7 +116,7 @@
 			"date":"20250806",
 			"repository":"Central",
 			"type":"release",
-			"usage":91,
+			"usage":95,
 			"version":"8.0.3.Final",
 			"vulnerabilities":""
 		},
@@ -124,7 +132,7 @@
 			"date":"20230621",
 			"repository":"Central",
 			"type":"release",
-			"usage":581,
+			"usage":582,
 			"version":"8.0.1.Final",
 			"vulnerabilities":""
 		},
@@ -190,14 +198,6 @@
 			"type":"release",
 			"usage":114,
 			"version":"7.0.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220310",
-			"repository":"Central",
-			"type":"release",
-			"usage":71,
-			"version":"7.0.4.Final",
 			"vulnerabilities":""
 		}
 	]
