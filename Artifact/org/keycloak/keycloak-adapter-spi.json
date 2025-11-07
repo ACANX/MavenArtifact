@@ -3,16 +3,14 @@
 	"description":"Keycloak Adapter SPI",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-adapter-spi",
-	"version_latest":"26.4.2",
-	"ts_publish":1761202190000,
-	"dt_publish":"2025-10-23 14:49:50.000",
-	"ts_update":1761203778986,
-	"dt_update":"2025-10-23 15:16:06.042",
+	"version_latest":"26.4.4",
+	"ts_publish":1762505225000,
+	"dt_publish":"2025-11-07 16:47:05.000",
+	"ts_update":1762505813716,
+	"dt_update":"2025-11-07 16:56:28.352",
 	"count_dep":3,
-	"count_ref":7,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"count_ref":6,
+	"licenses":[],
 	"categories":[
 		"Security",
 		"Identity Management"
@@ -28,13 +26,21 @@
 	"count_used_by":138,
 	"home_page":"https://www.keycloak.org/",
 	"license":"Apache 2.0",
-	"ranking":"#3890 in MvnRepository",
+	"ranking":"#4076 in MvnRepository",
 	"tags":[
 		"interface",
 		"adapter",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"26.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -185,14 +191,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"26.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"26.1.0",
 			"vulnerabilities":""
 		}
 	]

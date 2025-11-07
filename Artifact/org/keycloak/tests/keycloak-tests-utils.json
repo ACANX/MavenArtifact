@@ -3,16 +3,14 @@
 	"description":"Keycloak Testsuite Utilities",
 	"group_id":"org.keycloak.tests",
 	"artifact_id":"keycloak-tests-utils",
-	"version_latest":"26.4.2",
-	"ts_publish":1761202190000,
-	"dt_publish":"2025-10-23 14:49:50.000",
-	"ts_update":1761203781820,
-	"dt_update":"2025-10-23 15:16:04.180",
-	"count_dep":635,
+	"version_latest":"26.4.4",
+	"ts_publish":1762505225000,
+	"dt_publish":"2025-11-07 16:47:05.000",
+	"ts_update":1762505819123,
+	"dt_update":"2025-11-07 16:56:27.289",
+	"count_dep":4,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"http://keycloak.org/keycloak-tests-parent/keycloak-tests-utils",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.keycloak.tests/keycloak-tests-utils@26.3.3",
@@ -23,12 +21,20 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-tests-parent/keycloak-tests-utils/",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#338789 in MvnRepository",
+	"ranking":"#339853 in MvnRepository",
 	"tags":[
 		"testing",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"26.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -179,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"26.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"26.1.0",
 			"vulnerabilities":""
 		}
 	]
