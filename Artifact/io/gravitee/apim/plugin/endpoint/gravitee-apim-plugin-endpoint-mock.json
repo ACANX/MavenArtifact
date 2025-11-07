@@ -3,16 +3,14 @@
 	"description":"Use a Mock backend to emulate the behaviour of a typical HTTP server and test processes",
 	"group_id":"io.gravitee.apim.plugin.endpoint",
 	"artifact_id":"gravitee-apim-plugin-endpoint-mock",
-	"version_latest":"4.9.2",
-	"ts_publish":1761326264000,
-	"dt_publish":"2025-10-25 01:17:44.000",
-	"ts_update":1761326809245,
-	"dt_update":"2025-10-25 01:26:30.178",
-	"count_dep":81,
-	"count_ref":3,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"4.9.3",
+	"ts_publish":1762533599000,
+	"dt_publish":"2025-11-08 00:39:59.000",
+	"ts_update":1762534424166,
+	"dt_update":"2025-11-08 00:53:29.092",
+	"count_dep":24,
+	"count_ref":2,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -29,13 +27,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-plugin/gravitee-apim-plugin-endpoint/gravitee-apim-plugin-endpoint-mock",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#39237 in MvnRepository",
+	"ranking":"#39532 in MvnRepository",
 	"tags":[
 		"plugin",
 		"mock",
 		"endpoint"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.9.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -82,6 +88,14 @@
 			"type":"alpha",
 			"usage":3,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.8.11",
 			"vulnerabilities":""
 		},
 		{
@@ -178,22 +192,6 @@
 			"type":"alpha",
 			"usage":3,
 			"version":"4.8.0-alpha.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250606",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":4,
-			"version":"4.8.0-alpha.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":3,
-			"version":"4.8.0-alpha.1",
 			"vulnerabilities":""
 		}
 	]

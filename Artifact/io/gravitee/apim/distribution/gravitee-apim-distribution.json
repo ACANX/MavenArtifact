@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.gravitee.apim.distribution/gravitee-apim-distribution",
-	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.distribution",
 	"artifact_id":"gravitee-apim-distribution",
-	"version_latest":"4.9.2",
-	"ts_publish":1761326264000,
-	"dt_publish":"2025-10-25 01:17:44.000",
-	"ts_update":1761326811439,
-	"dt_update":"2025-10-25 01:26:27.809",
+	"version_latest":"4.9.3",
+	"ts_publish":1762533599000,
+	"dt_publish":"2025-11-08 00:39:59.000",
+	"ts_update":1762534419487,
+	"dt_update":"2025-11-08 00:53:29.545",
 	"count_dep":106,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-distribution",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.gravitee.apim.distribution/gravitee-apim-distribution@4.8.4",
@@ -25,11 +22,19 @@
 	],
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-distribution",
 	"license":"Apache 2.0",
-	"ranking":"#443687 in MvnRepository",
+	"ranking":"#445319 in MvnRepository",
 	"tags":[
 		"distribution"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.9.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -76,6 +81,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.8.11",
 			"vulnerabilities":""
 		},
 		{
@@ -172,22 +185,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"4.8.0-alpha.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250606",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"4.8.0-alpha.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"4.8.0-alpha.1",
 			"vulnerabilities":""
 		}
 	]
