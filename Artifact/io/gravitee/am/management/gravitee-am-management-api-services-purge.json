@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.am.management/gravitee-am-management-api-services-purge",
 	"group_id":"io.gravitee.am.management",
 	"artifact_id":"gravitee-am-management-api-services-purge",
-	"version_latest":"4.6.25",
-	"ts_publish":1761834708000,
-	"dt_publish":"2025-10-30 22:31:48.000",
-	"ts_update":1761835912020,
-	"dt_update":"2025-10-30 22:51:43.023",
-	"count_dep":14,
+	"version_latest":"4.6.26",
+	"ts_publish":1762516293000,
+	"dt_publish":"2025-11-07 19:51:33.000",
+	"ts_update":1762518406620,
+	"dt_update":"2025-11-07 20:26:30.090",
+	"count_dep":20,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,13 +28,21 @@
 	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-management-api/gravitee-am-management-api-services/gravitee-am-management-api-services-purge",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#389678 in MvnRepository",
+	"ranking":"#389896 in MvnRepository",
 	"tags":[
 		"service",
 		"management",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.6.25",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -184,14 +194,7 @@
 			"usage":1,
 			"version":"4.6.5",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250311",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.6.4",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }
