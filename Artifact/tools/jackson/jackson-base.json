@@ -3,11 +3,11 @@
 	"description":"Parent pom for components of Jackson dataprocessor: includes base settings as well\nas consistent set of dependencies across components.\nNOTE: NOT to be used by components outside of Jackson: application code should only rely on `jackson-bom`",
 	"group_id":"tools.jackson",
 	"artifact_id":"jackson-base",
-	"version_latest":"3.0.1",
-	"ts_publish":1761097224000,
-	"dt_publish":"2025-10-22 09:40:24.000",
-	"ts_update":1761098205920,
-	"dt_update":"2025-10-22 09:56:25.649",
+	"version_latest":"3.0.2",
+	"ts_publish":1762552567000,
+	"dt_publish":"2025-11-08 05:56:07.000",
+	"ts_update":1762553698676,
+	"dt_update":"2025-11-08 06:14:35.969",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,12 +22,20 @@
 	],
 	"url_scm":"http://github.com/FasterXML/jackson-bom/jackson-base",
 	"license":"Apache 2.0",
-	"ranking":"#867143 in MvnRepository",
+	"ranking":"#726674 in MvnRepository",
 	"tags":[
 		"tools",
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251004",
 			"repository":"Central",
