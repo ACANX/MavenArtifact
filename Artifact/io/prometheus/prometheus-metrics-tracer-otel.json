@@ -3,14 +3,16 @@
 	"description":"Prometheus integration with the OpenTelemetry distributed tracing library.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-tracer-otel",
-	"version_latest":"1.4.2",
-	"ts_publish":1761670582000,
-	"dt_publish":"2025-10-29 00:56:22.000",
-	"ts_update":1761671759843,
-	"dt_update":"2025-10-29 01:15:40.451",
-	"count_dep":12,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"1.4.3",
+	"ts_publish":1762542370000,
+	"dt_publish":"2025-11-08 03:06:10.000",
+	"ts_update":1762542837486,
+	"dt_update":"2025-11-08 03:13:43.765",
+	"count_dep":13,
+	"count_ref":9,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Monitoring and Management"
 	],
@@ -25,7 +27,7 @@
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-tracer/prometheus-metrics-tracer-otel",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#111911 in MvnRepository",
+	"ranking":"#112189 in MvnRepository",
 	"tags":[
 		"bundle",
 		"monitoring",
@@ -35,6 +37,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -185,14 +195,6 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"1.0.0-alpha-5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230907",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"1.0.0-alpha-4",
 			"vulnerabilities":""
 		}
 	]

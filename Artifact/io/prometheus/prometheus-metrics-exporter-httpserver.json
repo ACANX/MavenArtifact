@@ -3,12 +3,12 @@
 	"description":"HTTP Server providing a Prometheus scrape endpoint.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-exporter-httpserver",
-	"version_latest":"1.4.2",
-	"ts_publish":1761670582000,
-	"dt_publish":"2025-10-29 00:56:22.000",
-	"ts_update":1761671757190,
-	"dt_update":"2025-10-29 01:15:40.452",
-	"count_dep":11,
+	"version_latest":"1.4.3",
+	"ts_publish":1762542370000,
+	"dt_publish":"2025-11-08 03:06:10.000",
+	"ts_update":1762542839902,
+	"dt_update":"2025-11-08 03:13:43.763",
+	"count_dep":14,
 	"count_ref":3,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,9 +25,9 @@
 		"Gregor Zeitlinger"
 	],
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-exporter-httpserver",
-	"count_used_by":21,
+	"count_used_by":22,
 	"license":"Apache 2.0",
-	"ranking":"#22281 in MvnRepository",
+	"ranking":"#21354 in MvnRepository",
 	"tags":[
 		"bundle",
 		"server",
@@ -40,10 +40,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.4.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250818",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":9,
 			"version":"1.4.1",
 			"vulnerabilities":""
 		},
@@ -59,7 +67,7 @@
 			"date":"20250707",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"1.3.10",
 			"vulnerabilities":""
 		},
@@ -189,14 +197,6 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"1.0.0-alpha-5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230907",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"1.0.0-alpha-4",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Configuration for Prometheus metrics and exposition formats.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-config",
-	"version_latest":"1.4.2",
-	"ts_publish":1761670582000,
-	"dt_publish":"2025-10-29 00:56:22.000",
-	"ts_update":1761671749398,
-	"dt_update":"2025-10-29 01:15:40.450",
+	"version_latest":"1.4.3",
+	"ts_publish":1762542370000,
+	"dt_publish":"2025-11-08 03:06:10.000",
+	"ts_update":1762542840610,
+	"dt_update":"2025-11-08 03:13:44.449",
 	"count_dep":10,
-	"count_ref":13,
+	"count_ref":18,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -27,7 +27,7 @@
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-config",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#41945 in MvnRepository",
+	"ranking":"#42052 in MvnRepository",
 	"tags":[
 		"bundle",
 		"monitoring",
@@ -37,6 +37,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250818",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"1.0.0-alpha-5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230907",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"1.0.0-alpha-4",
 			"vulnerabilities":""
 		}
 	]

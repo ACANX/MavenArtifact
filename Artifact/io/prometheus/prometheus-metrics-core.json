@@ -3,12 +3,12 @@
 	"description":"Core Prometheus metric types",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-core",
-	"version_latest":"1.4.2",
-	"ts_publish":1761670582000,
-	"dt_publish":"2025-10-29 00:56:22.000",
-	"ts_update":1761671775624,
-	"dt_update":"2025-10-29 01:15:40.454",
-	"count_dep":15,
+	"version_latest":"1.4.3",
+	"ts_publish":1762542370000,
+	"dt_publish":"2025-11-08 03:06:10.000",
+	"ts_update":1762542835667,
+	"dt_update":"2025-11-08 03:13:43.761",
+	"count_dep":18,
 	"count_ref":8,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -27,7 +27,7 @@
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-core",
 	"count_used_by":73,
 	"license":"Apache 2.0",
-	"ranking":"#7013 in MvnRepository",
+	"ranking":"#7047 in MvnRepository",
 	"tags":[
 		"bundle",
 		"monitoring",
@@ -37,10 +37,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"1.4.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250818",
 			"repository":"Central",
 			"type":"release",
-			"usage":25,
+			"usage":26,
 			"version":"1.4.1",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"1.0.0-alpha-5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230907",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"1.0.0-alpha-4",
 			"vulnerabilities":""
 		}
 	]
