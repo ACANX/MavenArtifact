@@ -3,11 +3,11 @@
 	"description":"S3 mock implementation to be used for hermetic testing",
 	"group_id":"com.adobe.testing",
 	"artifact_id":"s3mock-docker",
-	"version_latest":"4.9.1",
-	"ts_publish":1758289459268,
-	"dt_publish":"2025-09-19 21:44:19.268",
-	"ts_update":1758291348844,
-	"dt_update":"2025-09-19 22:15:11.497",
+	"version_latest":"4.10.0",
+	"ts_publish":1762558065450,
+	"dt_publish":"2025-11-08 07:27:45.450",
+	"ts_update":1762559127713,
+	"dt_update":"2025-11-08 07:44:55.170",
 	"count_dep":75,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/adobe/S3Mock/tree/main/s3mock-docker",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#224368 in MvnRepository",
+	"ranking":"#232141 in MvnRepository",
 	"tags":[
 		"quality",
 		"mock",
@@ -34,6 +34,14 @@
 		"docker"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240504",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.7.3",
 			"vulnerabilities":""
 		}
 	]
