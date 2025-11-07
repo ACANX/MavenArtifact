@@ -3,12 +3,12 @@
 	"description":"OpenTelemetry Prometheus Exporter",
 	"group_id":"io.opentelemetry",
 	"artifact_id":"opentelemetry-exporter-prometheus",
-	"version_latest":"1.55.0-alpha",
-	"ts_publish":1760379109000,
-	"dt_publish":"2025-10-14 02:11:49.000",
-	"ts_update":1760379709338,
-	"dt_update":"2025-10-14 02:21:34.780",
-	"count_dep":9,
+	"version_latest":"1.56.0-alpha",
+	"ts_publish":1762551315000,
+	"dt_publish":"2025-11-08 05:35:15.000",
+	"ts_update":1762551908872,
+	"dt_update":"2025-11-08 05:44:56.743",
+	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -26,7 +26,7 @@
 	"count_used_by":31,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java",
 	"license":"Apache 2.0",
-	"ranking":"#15058 in MvnRepository",
+	"ranking":"#15324 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"prometheus",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"1.55.0-alpha",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250918",
 			"repository":"Central",
 			"type":"alpha",
-			"usage":1,
+			"usage":2,
 			"version":"1.54.1-alpha",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"alpha",
 			"usage":4,
 			"version":"1.39.0-alpha",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240510",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"1.38.0-alpha",
 			"vulnerabilities":""
 		}
 	]
