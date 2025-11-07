@@ -3,11 +3,11 @@
 	"description":"A lightweight, vendor-neutral Java library providing unified access to JMS 1.x+ compliant message brokers through dynamic adapter pattern and dual javax/jakarta namespace support.",
 	"group_id":"at.conapi.oss",
 	"artifact_id":"jms-adapter",
-	"version_latest":"1.0.1",
-	"ts_publish":1760097709000,
-	"dt_publish":"2025-10-10 20:01:49.000",
-	"ts_update":1760099199112,
-	"dt_update":"2025-10-10 20:26:15.311",
+	"version_latest":"1.0.2",
+	"ts_publish":1762499765000,
+	"dt_publish":"2025-11-07 15:16:05.000",
+	"ts_update":1762500395592,
+	"dt_update":"2025-11-07 15:26:25.746",
 	"count_dep":13,
 	"count_ref":0,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/conapi-oss/jms-adapter/tree/main",
 	"home_page":"https://github.com/conapi-oss/jms-adapter",
 	"license":"Apache 2.0",
-	"ranking":"#695916 in MvnRepository",
+	"ranking":"#408510 in MvnRepository",
 	"tags":[
 		"jms",
 		"queue",
 		"adapter"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -37,5 +45,6 @@
 			"version":"1.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
