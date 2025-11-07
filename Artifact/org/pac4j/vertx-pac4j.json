@@ -3,11 +3,11 @@
 	"description":"Security library for Vert.x based on pac4j",
 	"group_id":"org.pac4j",
 	"artifact_id":"vertx-pac4j",
-	"version_latest":"7.0.1",
-	"ts_publish":1758891618000,
-	"dt_publish":"2025-09-26 21:00:18.000",
-	"ts_update":1758896161338,
-	"dt_update":"2025-09-26 21:26:15.705",
+	"version_latest":"7.0.2",
+	"ts_publish":1762498377000,
+	"dt_publish":"2025-11-07 14:52:57.000",
+	"ts_update":1762499800074,
+	"dt_update":"2025-11-07 15:16:15.632",
 	"count_dep":54,
 	"count_ref":0,
 	"licenses":[
@@ -24,13 +24,29 @@
 	],
 	"url_scm":"https://github.com/pac4j/vertx-pac4j.git",
 	"count_used_by":3,
-	"home_page":"http://maven.apache.org",
-	"ranking":"#171457 in MvnRepository",
+	"home_page":"https://github.com/pac4j/vertx-pac4j",
+	"ranking":"#165469 in MvnRepository",
 	"tags":[
 		"security",
 		"vertx"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20241213",
 			"repository":"Central",
@@ -175,5 +191,6 @@
 			"version":"1.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }
