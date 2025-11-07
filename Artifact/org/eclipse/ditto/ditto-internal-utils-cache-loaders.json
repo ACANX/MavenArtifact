@@ -3,13 +3,13 @@
 	"description":"Eclipse Ditto is a framework for creating and managing digital twins in the IoT.",
 	"group_id":"org.eclipse.ditto",
 	"artifact_id":"ditto-internal-utils-cache-loaders",
-	"version_latest":"3.8.3",
-	"ts_publish":1761562356000,
-	"dt_publish":"2025-10-27 18:52:36.000",
-	"ts_update":1761563684672,
-	"dt_update":"2025-10-27 19:14:36.335",
-	"count_dep":25,
-	"count_ref":9,
+	"version_latest":"3.8.4",
+	"ts_publish":1762501988000,
+	"dt_publish":"2025-11-07 15:53:08.000",
+	"ts_update":1762503748605,
+	"dt_update":"2025-11-07 16:22:13.863",
+	"count_dep":7,
+	"count_ref":6,
 	"licenses":[
 		"Eclipse Public License - Version 2.0"
 	],
@@ -20,16 +20,24 @@
 	"url_project":"https://eclipse.dev/ditto/ditto-bom/ditto-internal/ditto-internal-utils/ditto-internal-utils-cache-loaders/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.ditto/ditto-internal-utils-cache-loaders@3.8.0-M4",
 	"url_scm":"https://github.com/eclipse-ditto/ditto.git/ditto-bom/ditto-internal/ditto-internal-utils/ditto-internal-utils-cache-loaders",
-	"count_used_by":3,
+	"count_used_by":4,
 	"home_page":"https://eclipse.dev/ditto/ditto-bom/ditto-internal/ditto-internal-utils/ditto-internal-utils-cache-loaders/",
 	"license":"EPL 2.0",
-	"ranking":"#163891 in MvnRepository",
+	"ranking":"#124648 in MvnRepository",
 	"tags":[
 		"loader",
 		"eclipse",
 		"cache"
 	],
 	"versions":[
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.8.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.6.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250116",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.6.8",
 			"vulnerabilities":""
 		}
 	]
