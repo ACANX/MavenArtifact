@@ -3,13 +3,13 @@
 	"description":"Extensions to the FoundationDB Java API.",
 	"group_id":"org.foundationdb",
 	"artifact_id":"fdb-extensions",
-	"version_latest":"4.8.3.0",
-	"ts_publish":1761773380000,
-	"dt_publish":"2025-10-30 05:29:40.000",
-	"ts_update":1761775028157,
-	"dt_update":"2025-10-30 05:56:22.050",
+	"version_latest":"4.8.12.0",
+	"ts_publish":1762535465000,
+	"dt_publish":"2025-11-08 01:11:05.000",
+	"ts_update":1762536393774,
+	"dt_update":"2025-11-08 01:26:25.262",
 	"count_dep":4,
-	"count_ref":5,
+	"count_ref":8,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,15 +23,47 @@
 		"FoundationDB"
 	],
 	"url_scm":"https://github.com/FoundationDB/fdb-record-layer/",
-	"count_used_by":11,
+	"count_used_by":14,
 	"home_page":"https://foundationdb.github.io/fdb-record-layer/",
 	"license":"Apache 2.0",
-	"ranking":"#42759 in MvnRepository",
+	"ranking":"#33539 in MvnRepository",
 	"tags":[
 		"foundationdb",
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.8.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.8.6.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.8.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.8.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -158,38 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.5.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250821",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.5.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.5.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.5.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250730",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.5.3.0",
 			"vulnerabilities":""
 		}
 	]
