@@ -3,11 +3,11 @@
 	"description":"JanusGraph is a distributed graph database optimized for processing massive-scale graphs represented over a machine\n        cluster.\n        JanusGraph separates the concerns of graph processing and manipulation from storing the graph on disk,\n        delegating that concern to an extensible set of persistence solutions.",
 	"group_id":"org.janusgraph",
 	"artifact_id":"janusgraph-bigtable",
-	"version_latest":"1.2.0-20251106-225718.92a1b98",
-	"ts_publish":1762470449000,
-	"dt_publish":"2025-11-07 07:07:29.000",
-	"ts_update":1762471860296,
-	"dt_update":"2025-11-07 07:30:53.492",
+	"version_latest":"1.2.0-20251108-015359.2fa5bca",
+	"ts_publish":1762567392000,
+	"dt_publish":"2025-11-08 10:03:12.000",
+	"ts_update":1762568796750,
+	"dt_update":"2025-11-08 10:26:27.137",
 	"count_dep":13,
 	"count_ref":3,
 	"licenses":[
@@ -29,13 +29,21 @@
 	"count_used_by":1,
 	"home_page":"https://janusgraph.org",
 	"license":"Apache 2.0",
-	"ranking":"#417099 in MvnRepository",
+	"ranking":"#417728 in MvnRepository",
 	"tags":[
 		"graph",
 		"bigtable",
 		"bigdata"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.0-20251106-171150.7f4...",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.2.0-20250123-223839.613...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250123",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"1.2.0-20250123-014640.53a...",
 			"vulnerabilities":""
 		}
 	]
