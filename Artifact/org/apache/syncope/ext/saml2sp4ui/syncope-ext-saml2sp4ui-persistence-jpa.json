@@ -3,11 +3,11 @@
 	"description":"Apache Syncope Ext: SAML2 SP4UI Persistence JPA",
 	"group_id":"org.apache.syncope.ext.saml2sp4ui",
 	"artifact_id":"syncope-ext-saml2sp4ui-persistence-jpa",
-	"version_latest":"4.0.1",
-	"ts_publish":1754637875000,
-	"dt_publish":"2025-08-08 15:24:35.000",
-	"ts_update":1758385126945,
-	"dt_update":"2025-09-21 00:16:51.898",
+	"version_latest":"4.0.2",
+	"ts_publish":1760699445000,
+	"dt_publish":"2025-10-17 19:10:45.000",
+	"ts_update":1762619195666,
+	"dt_update":"2025-11-09 00:18:40.234",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
@@ -53,7 +53,7 @@
 	"url_scm":"https://gitbox.apache.org/repos/asf?p=syncope.git/syncope-ext/syncope-ext-saml2sp4ui/syncope-ext-saml2sp4ui-persistence-jpa",
 	"url_ci_management":"https://ci-builds.apache.org./job/Syncope/",
 	"license":"Apache 2.0",
-	"ranking":"#766312 in MvnRepository",
+	"ranking":"#958041 in MvnRepository",
 	"tags":[
 		"persistence",
 		"security",
@@ -63,6 +63,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -93,6 +101,14 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"4.0.0-M0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -205,22 +221,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"3.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221017",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"3.0.0-M1",
 			"vulnerabilities":""
 		}
 	]

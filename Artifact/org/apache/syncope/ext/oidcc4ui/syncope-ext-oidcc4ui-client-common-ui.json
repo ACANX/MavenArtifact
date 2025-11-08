@@ -3,12 +3,12 @@
 	"description":"Apache Syncope Ext: OIDC C4UI Common UI",
 	"group_id":"org.apache.syncope.ext.oidcc4ui",
 	"artifact_id":"syncope-ext-oidcc4ui-client-common-ui",
-	"version_latest":"4.0.1",
-	"ts_publish":1754637856000,
-	"dt_publish":"2025-08-08 15:24:16.000",
-	"ts_update":1758385114254,
-	"dt_update":"2025-09-21 00:16:51.899",
-	"count_dep":0,
+	"version_latest":"4.0.2",
+	"ts_publish":1760699427000,
+	"dt_publish":"2025-10-17 19:10:27.000",
+	"ts_update":1762619207932,
+	"dt_update":"2025-11-09 00:18:40.235",
+	"count_dep":3,
 	"count_ref":2,
 	"licenses":[],
 	"categories":[
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.syncope.ext.oidcc4ui/syncope-ext-oidcc4ui-client-common-ui@4.0.1",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#181812 in MvnRepository",
+	"ranking":"#184898 in MvnRepository",
 	"tags":[
 		"ui",
 		"apache",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -55,6 +63,14 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"4.0.0-M0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":2,
-			"version":"3.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221017",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":2,
-			"version":"3.0.0-M1",
 			"vulnerabilities":""
 		}
 	]
