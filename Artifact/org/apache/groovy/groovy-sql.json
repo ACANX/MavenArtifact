@@ -3,13 +3,13 @@
 	"description":"Groovy: A powerful multi-faceted language for the JVM",
 	"group_id":"org.apache.groovy",
 	"artifact_id":"groovy-sql",
-	"version_latest":"5.0.1",
-	"ts_publish":1757277791000,
-	"dt_publish":"2025-09-08 04:43:11.000",
-	"ts_update":1760201799315,
-	"dt_update":"2025-10-12 00:16:38.461",
-	"count_dep":1,
-	"count_ref":10,
+	"version_latest":"5.0.2",
+	"ts_publish":1760488045000,
+	"dt_publish":"2025-10-15 08:27:25.000",
+	"ts_update":1762618772799,
+	"dt_update":"2025-11-09 00:18:29.529",
+	"count_dep":0,
+	"count_ref":6,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -211,10 +211,10 @@
 		"Matt Foemmel"
 	],
 	"url_scm":"https://github.com/apache/groovy.git",
-	"count_used_by":502,
+	"count_used_by":506,
 	"home_page":"https://groovy-lang.org",
 	"license":"Apache 2.0",
-	"ranking":"#1208 in MvnRepository",
+	"ranking":"#1225 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -225,10 +225,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250911",
+			"date":"20251018",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"5.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250911",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
 			"version":"5.0.1",
 			"vulnerabilities":""
 		},
@@ -361,27 +369,19 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.29",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250720",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
-			"version":"4.0.28",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250527",
-			"repository":"Central",
-			"type":"release",
-			"usage":22,
-			"version":"4.0.27",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
 			"usage":13,
-			"version":"4.0.26",
+			"version":"4.0.28",
 			"vulnerabilities":""
 		}
 	]
