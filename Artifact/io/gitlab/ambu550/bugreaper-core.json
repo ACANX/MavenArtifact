@@ -3,13 +3,13 @@
 	"description":"Core part for \"BUGREAPER\" family modules used for testing",
 	"group_id":"io.gitlab.ambu550",
 	"artifact_id":"bugreaper-core",
-	"version_latest":"0.0.7",
-	"ts_publish":1762084566000,
-	"dt_publish":"2025-11-02 19:56:06.000",
-	"ts_update":1762088188171,
-	"dt_update":"2025-11-02 20:56:21.581",
+	"version_latest":"0.0.8-rc",
+	"ts_publish":1762622132000,
+	"dt_publish":"2025-11-09 01:15:32.000",
+	"ts_update":1762622793824,
+	"dt_update":"2025-11-09 01:26:24.787",
 	"count_dep":35,
-	"count_ref":2,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,16 +22,32 @@
 	"url_scm":"https://svn.apache.org/viewvc/maven",
 	"home_page":"https://gitlab.com/bug-reaper/java-bugreaper-core",
 	"license":"Apache 2.0",
-	"ranking":"#227708 in MvnRepository",
+	"ranking":"#128975 in MvnRepository",
 	"tags":[
 		"gitlab"
 	],
 	"versions":[
 		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"0.0.7",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251101",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"0.0.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"0.0.6-rc2",
 			"vulnerabilities":""
 		},
@@ -76,5 +92,5 @@
 			"vulnerabilities":""
 		}
 	],
-	"count_used_by":2
+	"count_used_by":4
 }
