@@ -3,13 +3,13 @@
 	"description":"一款基于mybatis的ORM框架",
 	"group_id":"cn.xbatis",
 	"artifact_id":"xbatis-sql-api-impl",
-	"version_latest":"1.9.2-RC2",
-	"ts_publish":1762520942000,
-	"dt_publish":"2025-11-07 21:09:02.000",
-	"ts_update":1762522000876,
-	"dt_update":"2025-11-07 21:26:25.610",
+	"version_latest":"1.9.2-RC3",
+	"ts_publish":1762610442000,
+	"dt_publish":"2025-11-08 22:00:42.000",
+	"ts_update":1762611245782,
+	"dt_update":"2025-11-08 22:13:55.517",
 	"count_dep":6,
-	"count_ref":1,
+	"count_ref":6,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -24,13 +24,29 @@
 	"count_used_by":1,
 	"home_page":"https://gitee.com/xbatis",
 	"license":"Apache 2.0",
-	"ranking":"#348925 in MvnRepository",
+	"ranking":"#348412 in MvnRepository",
 	"tags":[
 		"sql",
 		"implementation",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.9.2-RC2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.9.2-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"1.8.9-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"1.8.9-M1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250606",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.8.8",
 			"vulnerabilities":""
 		}
 	]
