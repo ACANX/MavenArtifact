@@ -3,11 +3,11 @@
 	"description":"This extensions is added by Quarkus automatically when quarkus-flyway and quarkus-jdbc-postgresql are on the classpath",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-flyway-postgresql",
-	"version_latest":"3.29.1",
-	"ts_publish":1762355408000,
-	"dt_publish":"2025-11-05 23:10:08.000",
-	"ts_update":1762359735059,
-	"dt_update":"2025-11-06 00:21:12.075",
+	"version_latest":"3.29.2",
+	"ts_publish":1762599519000,
+	"dt_publish":"2025-11-08 18:58:39.000",
+	"ts_update":1762602302166,
+	"dt_update":"2025-11-08 19:26:33.628",
 	"count_dep":4,
 	"count_ref":0,
 	"licenses":[],
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-flyway-postgresql@3.25.1",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#191711 in MvnRepository",
+	"ranking":"#191633 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -27,6 +27,14 @@
 		"postgresql"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.25.2",
 			"vulnerabilities":""
 		}
 	]

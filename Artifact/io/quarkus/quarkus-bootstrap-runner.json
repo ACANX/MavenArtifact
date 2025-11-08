@@ -3,13 +3,13 @@
 	"description":"The entry point for production applications using the custom ClassLoader.\n        This contains the production ClassLoader code and must not have any non\n        parent first dependencies.",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-bootstrap-runner",
-	"version_latest":"3.29.1",
-	"ts_publish":1762355407000,
-	"dt_publish":"2025-11-05 23:10:07.000",
-	"ts_update":1762361320684,
-	"dt_update":"2025-11-06 00:21:17.691",
+	"version_latest":"3.29.2",
+	"ts_publish":1762599519000,
+	"dt_publish":"2025-11-08 18:58:39.000",
+	"ts_update":1762602307637,
+	"dt_update":"2025-11-08 19:26:24.592",
 	"count_dep":10,
-	"count_ref":119,
+	"count_ref":142,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-bootstrap-runner@3.25.1",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#101538 in MvnRepository",
+	"ranking":"#101847 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"bootstrap",
 		"runner"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.25.2",
 			"vulnerabilities":""
 		}
 	]

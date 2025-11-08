@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-vertx-kotlin-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-vertx-kotlin-deployment",
-	"version_latest":"3.29.1",
-	"ts_publish":1762355407000,
-	"dt_publish":"2025-11-05 23:10:07.000",
-	"ts_update":1762359728595,
-	"dt_update":"2025-11-06 00:21:18.140",
-	"count_dep":4,
+	"version_latest":"3.29.2",
+	"ts_publish":1762599519000,
+	"dt_publish":"2025-11-08 18:58:39.000",
+	"ts_update":1762602300607,
+	"dt_update":"2025-11-08 19:26:27.358",
+	"count_dep":99,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#224900 in MvnRepository",
+	"ranking":"#225956 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -31,6 +33,14 @@
 		"kotlin"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -182,14 +192,7 @@
 			"usage":2,
 			"version":"3.25.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.25.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }
