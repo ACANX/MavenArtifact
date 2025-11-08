@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.artemis/quarkus-artemis-core-deployment",
 	"group_id":"io.quarkiverse.artemis",
 	"artifact_id":"quarkus-artemis-core-deployment",
-	"version_latest":"3.10.2",
-	"ts_publish":1762275116000,
-	"dt_publish":"2025-11-05 00:51:56.000",
-	"ts_update":1762277197468,
-	"dt_update":"2025-11-05 01:26:25.393",
-	"count_dep":9,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"3.10.3",
+	"ts_publish":1762607441000,
+	"dt_publish":"2025-11-08 21:10:41.000",
+	"ts_update":1762608394054,
+	"dt_update":"2025-11-08 21:26:23.674",
+	"count_dep":141,
+	"count_ref":2,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +25,20 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-artemis",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#246458 in MvnRepository",
+	"ranking":"#247107 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251028",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":2,
 			"version":"3.6.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241024",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.6.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

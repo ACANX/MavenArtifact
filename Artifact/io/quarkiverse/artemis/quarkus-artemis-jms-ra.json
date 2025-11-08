@@ -3,12 +3,12 @@
 	"description":"Use JMS ActiveMQ Artemis RA with Quarkus JCA",
 	"group_id":"io.quarkiverse.artemis",
 	"artifact_id":"quarkus-artemis-jms-ra",
-	"version_latest":"3.10.2",
-	"ts_publish":1762275116000,
-	"dt_publish":"2025-11-05 00:51:56.000",
-	"ts_update":1762277191207,
-	"dt_update":"2025-11-05 01:26:25.393",
-	"count_dep":217,
+	"version_latest":"3.10.3",
+	"ts_publish":1762607441000,
+	"dt_publish":"2025-11-08 21:10:41.000",
+	"ts_update":1762608392621,
+	"dt_update":"2025-11-08 21:26:23.022",
+	"count_dep":204,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-artemis",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#170578 in MvnRepository",
+	"ranking":"#150576 in MvnRepository",
 	"tags":[
 		"jms",
 		"quarkus",
 		"queue"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251028",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241024",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.6.0",
 			"vulnerabilities":""
 		}
 	]
