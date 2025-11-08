@@ -3,11 +3,11 @@
 	"description":"Bundle parent (felix-based)",
 	"group_id":"org.opendaylight.controller",
 	"artifact_id":"eos-dom-akka",
-	"version_latest":"12.0.0",
-	"ts_publish":1758805095000,
-	"dt_publish":"2025-09-25 20:58:15.000",
-	"ts_update":1759436095185,
-	"dt_update":"2025-09-25 21:26:13.349",
+	"version_latest":"12.0.2",
+	"ts_publish":1762631684000,
+	"dt_publish":"2025-11-09 03:54:44.000",
+	"ts_update":1762633585878,
+	"dt_update":"2025-11-09 04:26:17.727",
 	"count_dep":63,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_ci_management":"https://jenkins.opendaylight.org/releng/",
 	"count_used_by":5,
 	"license":"EPL 1.0",
-	"ranking":"#99689 in MvnRepository",
+	"ranking":"#99546 in MvnRepository",
 	"tags":[
 		"actor",
 		"bundle",
@@ -40,6 +40,14 @@
 	],
 	"versions":[
 		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.0.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250925",
 			"repository":"Central",
 			"type":"release",
@@ -51,7 +59,7 @@
 			"date":"20250916",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"11.0.2",
 			"vulnerabilities":""
 		},
@@ -75,7 +83,7 @@
 			"date":"20250916",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"10.0.14",
 			"vulnerabilities":""
 		},
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"10.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.0.8",
 			"vulnerabilities":""
 		}
 	]
