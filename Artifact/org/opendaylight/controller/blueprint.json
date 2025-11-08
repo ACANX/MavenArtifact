@@ -3,13 +3,13 @@
 	"description":"OpenDaylight Blueprint Extension",
 	"group_id":"org.opendaylight.controller",
 	"artifact_id":"blueprint",
-	"version_latest":"12.0.0",
-	"ts_publish":1758805086000,
-	"dt_publish":"2025-09-25 20:58:06.000",
-	"ts_update":1758807725470,
-	"dt_update":"2025-09-25 21:26:13.351",
+	"version_latest":"12.0.2",
+	"ts_publish":1762631676000,
+	"dt_publish":"2025-11-09 03:54:36.000",
+	"ts_update":1762632971199,
+	"dt_update":"2025-11-09 04:15:58.121",
 	"count_dep":60,
-	"count_ref":1,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -25,11 +25,27 @@
 	"url_ci_management":"https://jenkins.opendaylight.org/releng/",
 	"count_used_by":5,
 	"license":"EPL 1.0",
-	"ranking":"#98394 in MvnRepository",
+	"ranking":"#102111 in MvnRepository",
 	"tags":[
 		"controller"
 	],
 	"versions":[
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"10.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.0.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250714",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.0.7",
 			"vulnerabilities":""
 		}
 	]
