@@ -3,13 +3,13 @@
 	"description":"This module contains the base code for bridging between Table API and DataStream API for\n\t\tboth Java and Scala.",
 	"group_id":"org.apache.flink",
 	"artifact_id":"flink-table-api-bridge-base",
-	"version_latest":"2.1.0",
-	"ts_publish":1753098003000,
-	"dt_publish":"2025-07-21 19:40:03.000",
-	"ts_update":1757178740176,
-	"dt_update":"2025-09-07 00:16:23.714",
-	"count_dep":15,
-	"count_ref":9,
+	"version_latest":"2.1.1",
+	"ts_publish":1760466665000,
+	"dt_publish":"2025-10-15 02:31:05.000",
+	"ts_update":1762620527564,
+	"dt_update":"2025-11-09 00:18:24.913",
+	"count_dep":50,
+	"count_ref":8,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/apache/flink/flink-table/flink-table-api-bridge-base",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#86436 in MvnRepository",
+	"ranking":"#88379 in MvnRepository",
 	"tags":[
 		"bridge",
 		"flink",
@@ -33,11 +33,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.1.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
 			"version":"2.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.0.1",
 			"vulnerabilities":""
 		},
 		{
@@ -54,6 +70,14 @@
 			"type":"preview",
 			"usage":3,
 			"version":"2.0-preview1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.20.3",
 			"vulnerabilities":""
 		},
 		{
@@ -166,30 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230130",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221026",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230314",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.15.4",
 			"vulnerabilities":""
 		}
 	]

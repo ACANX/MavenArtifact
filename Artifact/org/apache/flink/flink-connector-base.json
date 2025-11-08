@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.apache.flink/flink-connector-base",
-	"description":"The Apache Software Foundation provides support for the Apache community of open-source software projects.\n    The Apache projects are characterized by a collaborative, consensus based development process, an open and\n    pragmatic software license, and a desire to create high quality software that leads the way in its field.\n    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers\n    and users.",
 	"group_id":"org.apache.flink",
 	"artifact_id":"flink-connector-base",
-	"version_latest":"2.1.0",
-	"ts_publish":1753098425000,
-	"dt_publish":"2025-07-21 19:47:05.000",
-	"ts_update":1757177172648,
-	"dt_update":"2025-09-07 00:16:24.381",
-	"count_dep":37,
-	"count_ref":8,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"2.1.1",
+	"ts_publish":1760466991000,
+	"dt_publish":"2025-10-15 02:36:31.000",
+	"ts_update":1762620531648,
+	"dt_update":"2025-11-09 00:18:25.576",
+	"count_dep":21,
+	"count_ref":1,
+	"licenses":[],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -21,10 +18,10 @@
 	"url_project":"https://flink.apache.org/flink-connectors/flink-connector-base",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.flink/flink-connector-base@2.1.0",
 	"url_scm":"https://github.com/apache/flink/flink-connectors/flink-connector-base",
-	"count_used_by":202,
+	"count_used_by":230,
 	"home_page":"https://flink.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#2730 in MvnRepository",
+	"ranking":"#2666 in MvnRepository",
 	"tags":[
 		"flink",
 		"apache",
@@ -33,11 +30,27 @@
 	],
 	"versions":[
 		{
-			"date":"20250721",
+			"date":"20251030",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"2.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250721",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
 			"version":"2.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.0.1",
 			"vulnerabilities":""
 		},
 		{
@@ -57,10 +70,18 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250707",
+			"date":"20250920",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"1.20.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250707",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"1.20.2",
 			"vulnerabilities":""
 		},
@@ -68,7 +89,7 @@
 			"date":"20250211",
 			"repository":"Central",
 			"type":"release",
-			"usage":51,
+			"usage":61,
 			"version":"1.20.1",
 			"vulnerabilities":""
 		},
@@ -76,7 +97,7 @@
 			"date":"20240725",
 			"repository":"Central",
 			"type":"release",
-			"usage":23,
+			"usage":24,
 			"version":"1.20.0",
 			"vulnerabilities":""
 		},
@@ -92,7 +113,7 @@
 			"date":"20250211",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":9,
 			"version":"1.19.2",
 			"vulnerabilities":""
 		},
@@ -108,7 +129,7 @@
 			"date":"20240315",
 			"repository":"Central",
 			"type":"release",
-			"usage":18,
+			"usage":20,
 			"version":"1.19.0",
 			"vulnerabilities":""
 		},
@@ -116,7 +137,7 @@
 			"date":"20240116",
 			"repository":"Central",
 			"type":"release",
-			"usage":57,
+			"usage":65,
 			"version":"1.18.1",
 			"vulnerabilities":""
 		},
@@ -166,30 +187,6 @@
 			"type":"release",
 			"usage":66,
 			"version":"1.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230130",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"1.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221026",
-			"repository":"Central",
-			"type":"release",
-			"usage":36,
-			"version":"1.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230314",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"1.15.4",
 			"vulnerabilities":""
 		}
 	]

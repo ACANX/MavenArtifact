@@ -3,13 +3,13 @@
 	"description":"Apache Syncope Core Spring Boot Starter",
 	"group_id":"org.apache.syncope.core",
 	"artifact_id":"syncope-core-starter",
-	"version_latest":"4.0.1",
-	"ts_publish":1754637520000,
-	"dt_publish":"2025-08-08 15:18:40.000",
-	"ts_update":1758385121045,
-	"dt_update":"2025-09-21 00:16:49.660",
+	"version_latest":"4.0.2",
+	"ts_publish":1760699037000,
+	"dt_publish":"2025-10-17 19:03:57.000",
+	"ts_update":1762620543684,
+	"dt_update":"2025-11-09 00:18:38.236",
 	"count_dep":12,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[],
 	"categories":[
 		"Security",
@@ -17,14 +17,22 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.syncope.core/syncope-core-starter@4.0.1",
-	"count_used_by":1,
+	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#272256 in MvnRepository",
+	"ranking":"#186939 in MvnRepository",
 	"tags":[
 		"apache",
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -55,6 +63,14 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"4.0.0-M0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221017",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0.0-M1",
 			"vulnerabilities":""
 		}
 	]
