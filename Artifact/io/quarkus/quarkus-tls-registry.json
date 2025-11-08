@@ -3,14 +3,16 @@
 	"description":"An internal TLS certificate registry.",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-tls-registry",
-	"version_latest":"3.29.1",
-	"ts_publish":1762355407000,
-	"dt_publish":"2025-11-05 23:10:07.000",
-	"ts_update":1762360007722,
-	"dt_update":"2025-11-06 00:21:19.045",
-	"count_dep":8,
-	"count_ref":13,
-	"licenses":[],
+	"version_latest":"3.29.2",
+	"ts_publish":1762599519000,
+	"dt_publish":"2025-11-08 18:58:39.000",
+	"ts_update":1762601222158,
+	"dt_update":"2025-11-08 19:26:31.563",
+	"count_dep":82,
+	"count_ref":18,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -25,13 +27,21 @@
 	"count_used_by":30,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#15950 in MvnRepository",
+	"ranking":"#15916 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"tls",
 		"registry"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -182,14 +192,6 @@
 			"type":"release",
 			"usage":20,
 			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"3.25.2",
 			"vulnerabilities":""
 		}
 	]

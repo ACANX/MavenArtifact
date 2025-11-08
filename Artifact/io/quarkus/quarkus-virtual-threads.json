@@ -3,13 +3,13 @@
 	"description":"Virtual Threads Executor",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-virtual-threads",
-	"version_latest":"3.29.1",
-	"ts_publish":1762355407000,
-	"dt_publish":"2025-11-05 23:10:07.000",
-	"ts_update":1762361301312,
-	"dt_update":"2025-11-06 00:21:20.804",
+	"version_latest":"3.29.2",
+	"ts_publish":1762599519000,
+	"dt_publish":"2025-11-08 18:58:39.000",
+	"ts_update":1762601227470,
+	"dt_update":"2025-11-08 19:26:48.747",
 	"count_dep":59,
-	"count_ref":14,
+	"count_ref":21,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#59861 in MvnRepository",
+	"ranking":"#59900 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"virtual",
 		"thread"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.25.2",
 			"vulnerabilities":""
 		}
 	]

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-rest-parent",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-parent",
-	"version_latest":"3.29.1",
-	"ts_publish":1762355407000,
-	"dt_publish":"2025-11-05 23:10:07.000",
-	"ts_update":1762359992756,
-	"dt_update":"2025-11-06 00:21:26.598",
-	"count_dep":0,
+	"version_latest":"3.29.2",
+	"ts_publish":1762599518000,
+	"dt_publish":"2025-11-08 18:58:38.000",
+	"ts_update":1762601221984,
+	"dt_update":"2025-11-08 19:26:53.687",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,12 +24,20 @@
 	],
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"license":"Apache 2.0",
-	"ranking":"#436956 in MvnRepository",
+	"ranking":"#437013 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":0,
 			"version":"3.25.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.25.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }
