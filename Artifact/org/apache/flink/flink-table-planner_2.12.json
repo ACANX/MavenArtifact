@@ -3,12 +3,12 @@
 	"description":"This module connects Table/SQL API and runtime. It is responsible\n\t\tfor translating and optimizing a table program into a Flink pipeline.\n\t\tThe module can access all resources that are required during\n\t\tpre-flight and runtime phase for planning.",
 	"group_id":"org.apache.flink",
 	"artifact_id":"flink-table-planner_2.12",
-	"version_latest":"2.1.0",
-	"ts_publish":1753098816000,
-	"dt_publish":"2025-07-21 19:53:36.000",
-	"ts_update":1757177157988,
-	"dt_update":"2025-09-07 00:16:24.380",
-	"count_dep":67,
+	"version_latest":"2.1.1",
+	"ts_publish":1760467161000,
+	"dt_publish":"2025-10-15 02:39:21.000",
+	"ts_update":1762621001645,
+	"dt_update":"2025-11-09 00:18:25.575",
+	"count_dep":70,
 	"count_ref":16,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -21,10 +21,10 @@
 	"url_project":"https://flink.apache.org/flink-table/flink-table-planner_2.12",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.flink/flink-table-planner_2.12@2.1.0",
 	"url_scm":"https://github.com/apache/flink/flink-table/flink-table-planner_2.12",
-	"count_used_by":451,
+	"count_used_by":456,
 	"home_page":"https://flink.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#1326 in MvnRepository",
+	"ranking":"#1364 in MvnRepository",
 	"tags":[
 		"flink",
 		"planning",
@@ -33,11 +33,27 @@
 	],
 	"versions":[
 		{
-			"date":"20250721",
+			"date":"20251030",
 			"repository":"Central",
 			"type":"release",
 			"usage":16,
+			"version":"2.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250721",
+			"repository":"Central",
+			"type":"release",
+			"usage":17,
 			"version":"2.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"2.0.1",
 			"vulnerabilities":""
 		},
 		{
@@ -57,6 +73,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":17,
+			"version":"1.20.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250707",
 			"repository":"Central",
 			"type":"release",
@@ -68,7 +92,7 @@
 			"date":"20250211",
 			"repository":"Central",
 			"type":"release",
-			"usage":35,
+			"usage":37,
 			"version":"1.20.1",
 			"vulnerabilities":""
 		},
@@ -76,7 +100,7 @@
 			"date":"20240725",
 			"repository":"Central",
 			"type":"release",
-			"usage":50,
+			"usage":51,
 			"version":"1.20.0",
 			"vulnerabilities":""
 		},
@@ -116,7 +140,7 @@
 			"date":"20240116",
 			"repository":"Central",
 			"type":"release",
-			"usage":52,
+			"usage":53,
 			"version":"1.18.1",
 			"vulnerabilities":""
 		},

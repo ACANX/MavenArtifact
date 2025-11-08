@@ -3,13 +3,13 @@
 	"description":"Apache Syncope Common AM REST API",
 	"group_id":"org.apache.syncope.common.am",
 	"artifact_id":"syncope-common-am-rest-api",
-	"version_latest":"4.0.1",
-	"ts_publish":1754637405000,
-	"dt_publish":"2025-08-08 15:16:45.000",
-	"ts_update":1758386040540,
-	"dt_update":"2025-09-21 00:16:49.090",
+	"version_latest":"4.0.2",
+	"ts_publish":1760698925000,
+	"dt_publish":"2025-10-17 19:02:05.000",
+	"ts_update":1762621014062,
+	"dt_update":"2025-11-09 00:18:37.581",
 	"count_dep":2,
-	"count_ref":6,
+	"count_ref":5,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.syncope.common.am/syncope-common-am-rest-api@4.0.1",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#170876 in MvnRepository",
+	"ranking":"#160377 in MvnRepository",
 	"tags":[
 		"rest",
 		"apache",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -55,6 +63,14 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"4.0.0-M0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":3,
-			"version":"3.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221017",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":3,
-			"version":"3.0.0-M1",
 			"vulnerabilities":""
 		}
 	]
