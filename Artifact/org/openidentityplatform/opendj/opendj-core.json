@@ -3,13 +3,13 @@
 	"description":"This module provides the core APIs required for implementing LDAP Directory\n        client and server applications. Unlike the SDK this module does not\n        include a default network transport which must be obtained separately.",
 	"group_id":"org.openidentityplatform.opendj",
 	"artifact_id":"opendj-core",
-	"version_latest":"4.10.2",
-	"ts_publish":1757000989000,
-	"dt_publish":"2025-09-04 23:49:49.000",
-	"ts_update":1757001381786,
-	"dt_update":"2025-09-04 23:55:59.697",
-	"count_dep":28,
-	"count_ref":16,
+	"version_latest":"5.0.1",
+	"ts_publish":1762630994000,
+	"dt_publish":"2025-11-09 03:43:14.000",
+	"ts_update":1762631796017,
+	"dt_update":"2025-11-09 03:56:29.088",
+	"count_dep":29,
+	"count_ref":14,
 	"licenses":[
 		"CDDL-1.1"
 	],
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/OpenDJ/opendj-core",
 	"count_used_by":22,
 	"license":"CDDL 1.1",
-	"ranking":"#21350 in MvnRepository",
+	"ranking":"#21591 in MvnRepository",
 	"tags":[
 		"bundle",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"4.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"4.5.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230830",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"4.5.6",
 			"vulnerabilities":""
 		}
 	]

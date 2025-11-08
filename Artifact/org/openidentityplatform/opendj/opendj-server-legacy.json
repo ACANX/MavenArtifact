@@ -3,12 +3,12 @@
 	"description":"This module provides the OpenDJ LDAP Directory Server.",
 	"group_id":"org.openidentityplatform.opendj",
 	"artifact_id":"opendj-server-legacy",
-	"version_latest":"4.10.2",
-	"ts_publish":1757000989000,
-	"dt_publish":"2025-09-04 23:49:49.000",
-	"ts_update":1757002820309,
-	"dt_update":"2025-09-05 00:18:53.948",
-	"count_dep":137,
+	"version_latest":"5.0.1",
+	"ts_publish":1762630994000,
+	"dt_publish":"2025-11-09 03:43:14.000",
+	"ts_update":1762631797650,
+	"dt_update":"2025-11-09 03:56:28.652",
+	"count_dep":135,
 	"count_ref":6,
 	"licenses":[
 		"CDDL-1.1"
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/OpenDJ/opendj-server-legacy",
 	"count_used_by":11,
 	"license":"CDDL 1.1",
-	"ranking":"#44104 in MvnRepository",
+	"ranking":"#43635 in MvnRepository",
 	"tags":[
 		"legacy",
 		"server"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"4.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.5.7",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20230830",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.5.6",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]

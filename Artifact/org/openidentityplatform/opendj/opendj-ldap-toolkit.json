@@ -3,13 +3,13 @@
 	"description":"This module includes LDAP command line tools based on the OpenDJ LDAP SDK.",
 	"group_id":"org.openidentityplatform.opendj",
 	"artifact_id":"opendj-ldap-toolkit",
-	"version_latest":"4.10.2",
-	"ts_publish":1757000989000,
-	"dt_publish":"2025-09-04 23:49:49.000",
-	"ts_update":1757001456822,
-	"dt_update":"2025-09-04 23:55:59.700",
-	"count_dep":40,
-	"count_ref":7,
+	"version_latest":"5.0.1",
+	"ts_publish":1762630994000,
+	"dt_publish":"2025-11-09 03:43:14.000",
+	"ts_update":1762631807382,
+	"dt_update":"2025-11-09 03:56:28.650",
+	"count_dep":42,
+	"count_ref":3,
 	"licenses":[
 		"CDDL-1.1"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/OpenDJ/opendj-ldap-toolkit",
 	"count_used_by":1,
 	"license":"CDDL 1.1",
-	"ranking":"#400565 in MvnRepository",
+	"ranking":"#390400 in MvnRepository",
 	"tags":[
 		"tools",
 		"ldap",
@@ -34,6 +34,14 @@
 		"directory"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250805",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.5.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230830",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.5.6",
 			"vulnerabilities":""
 		}
 	]
