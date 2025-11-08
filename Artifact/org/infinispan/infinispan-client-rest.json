@@ -3,13 +3,13 @@
 	"description":"Infinispan REST Client",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-client-rest",
-	"version_latest":"16.0.0.Dev07",
-	"ts_publish":1762201883000,
-	"dt_publish":"2025-11-04 04:31:23.000",
-	"ts_update":1762202882558,
-	"dt_update":"2025-11-04 04:47:38.978",
+	"version_latest":"16.0.1",
+	"ts_publish":1762589690000,
+	"dt_publish":"2025-11-08 16:14:50.000",
+	"ts_update":1762590401273,
+	"dt_update":"2025-11-08 16:26:31.720",
 	"count_dep":13,
-	"count_ref":8,
+	"count_ref":10,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.infinispan/infinispan-client-rest@16.0.0.Dev03",
 	"count_used_by":14,
 	"license":"Apache 2.0",
-	"ranking":"#33600 in MvnRepository",
+	"ranking":"#33610 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"rest",
@@ -28,6 +28,22 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"dev",
+			"usage":6,
+			"version":"16.0.0.Dev08",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"dev",
+			"usage":6,
+			"version":"16.0.0.Dev07",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"15.1.6.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250130",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"15.1.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250121",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"15.1.4.Final",
 			"vulnerabilities":""
 		}
 	]

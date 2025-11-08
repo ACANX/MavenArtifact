@@ -3,13 +3,13 @@
 	"description":"Infinispan Multi Tenant Router",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-server-router",
-	"version_latest":"16.0.0.Dev07",
-	"ts_publish":1762201883000,
-	"dt_publish":"2025-11-04 04:31:23.000",
-	"ts_update":1762203393360,
-	"dt_update":"2025-11-04 04:56:25.911",
-	"count_dep":43,
-	"count_ref":3,
+	"version_latest":"16.0.1",
+	"ts_publish":1762589690000,
+	"dt_publish":"2025-11-08 16:14:50.000",
+	"ts_update":1762590403993,
+	"dt_update":"2025-11-08 16:26:32.361",
+	"count_dep":151,
+	"count_ref":5,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-server-parent/infinispan-server-router",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#55189 in MvnRepository",
+	"ranking":"#55262 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"server",
@@ -36,6 +36,22 @@
 		"routing"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev08",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.0.0.Dev07",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"15.1.6.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250130",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250121",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.1.4.Final",
 			"vulnerabilities":""
 		}
 	]

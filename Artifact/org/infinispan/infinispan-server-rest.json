@@ -3,14 +3,16 @@
 	"description":"REST interface for Infinispan",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-server-rest",
-	"version_latest":"16.0.0.Dev07",
-	"ts_publish":1762201883000,
-	"dt_publish":"2025-11-04 04:31:23.000",
-	"ts_update":1762202867355,
-	"dt_update":"2025-11-04 04:47:39.458",
-	"count_dep":44,
-	"count_ref":7,
-	"licenses":[],
+	"version_latest":"16.0.1",
+	"ts_publish":1762589690000,
+	"dt_publish":"2025-11-08 16:14:50.000",
+	"ts_update":1762590405941,
+	"dt_update":"2025-11-08 16:26:30.412",
+	"count_dep":147,
+	"count_ref":9,
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database",
@@ -26,7 +28,7 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-server-parent/infinispan-server-rest",
 	"count_used_by":28,
 	"license":"Apache 2.0",
-	"ranking":"#16813 in MvnRepository",
+	"ranking":"#16830 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"server",
@@ -34,6 +36,22 @@
 		"cache"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"dev",
+			"usage":7,
+			"version":"16.0.0.Dev08",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"dev",
+			"usage":7,
+			"version":"16.0.0.Dev07",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -176,22 +194,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"15.1.6.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250130",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"15.1.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250121",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"15.1.4.Final",
 			"vulnerabilities":""
 		}
 	]
