@@ -3,10 +3,10 @@
 	"description":"TBD",
 	"group_id":"com.daml",
 	"artifact_id":"base-grpc-utils_2.13",
-	"version_latest":"3.5.0-snapshot.20251106.14407.0.v69ff7d7a",
-	"ts_publish":1762496518000,
-	"ts_update":1762498525514,
-	"count_dep":30,
+	"version_latest":"3.5.0-snapshot.20251107.14409.0.vce1523c9",
+	"ts_publish":1762587483000,
+	"ts_update":1762587894441,
+	"count_dep":36,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,13 +24,29 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/digital-asset/daml",
 	"license":"Apache 2.0",
-	"ranking":"#179527 in MvnRepository",
+	"ranking":"#179504 in MvnRepository",
 	"tags":[
 		"grpc",
 		"rpc",
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"snapshot",
+			"usage":1,
+			"version":"3.5.0-snapshot.20251106.1...",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"snapshot",
+			"usage":2,
+			"version":"3.5.0-snapshot.20251105.1...",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -174,24 +190,8 @@
 			"usage":2,
 			"version":"3.5.0-snapshot.20251016.1...",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251014",
-			"repository":"Central",
-			"type":"snapshot",
-			"usage":2,
-			"version":"3.5.0-snapshot.20251014.1...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251105",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.4.4",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-11-07 14:21:58.000",
-	"dt_update":"2025-11-07 14:54:49.893"
+	"dt_publish":"2025-11-08 15:38:03.000",
+	"dt_update":"2025-11-08 15:44:34.992"
 }
