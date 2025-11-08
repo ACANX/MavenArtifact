@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-marshalling-spi",
-	"description":"WildFly Clustering: Marshalling: Marshalling: SPI",
+	"description":"WildFly Clustering: Marshalling: SPI",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-marshalling-spi",
-	"version_latest":"8.0.3.Final",
-	"ts_publish":1761460223000,
-	"dt_publish":"2025-10-26 14:30:23.000",
-	"ts_update":1761461111290,
-	"dt_update":"2025-10-26 14:44:55.549",
+	"version_latest":"9.0.0.Beta2",
+	"ts_publish":1762583438000,
+	"dt_publish":"2025-11-08 14:30:38.000",
+	"ts_update":1762584255419,
+	"dt_update":"2025-11-08 14:44:05.604",
 	"count_dep":9,
-	"count_ref":13,
+	"count_ref":9,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,13 +27,29 @@
 	"count_used_by":44,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#11147 in MvnRepository",
+	"ranking":"#11135 in MvnRepository",
 	"tags":[
 		"interface",
 		"wildfly",
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"beta",
+			"usage":12,
+			"version":"9.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251026",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"8.0.3.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":12,
 			"version":"7.0.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"7.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"7.0.0.Final",
 			"vulnerabilities":""
 		}
 	]

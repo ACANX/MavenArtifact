@@ -3,13 +3,13 @@
 	"description":"WildFly Clustering: Server: JGroups implementation",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-server-jgroups",
-	"version_latest":"8.0.3.Final",
-	"ts_publish":1761460223000,
-	"dt_publish":"2025-10-26 14:30:23.000",
-	"ts_update":1761461111396,
-	"dt_update":"2025-10-26 14:44:55.545",
-	"count_dep":25,
-	"count_ref":1,
+	"version_latest":"9.0.0.Beta2",
+	"ts_publish":1762583438000,
+	"dt_publish":"2025-11-08 14:30:38.000",
+	"ts_update":1762584253227,
+	"dt_update":"2025-11-08 14:44:04.976",
+	"count_dep":23,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#101078 in MvnRepository",
+	"ranking":"#101770 in MvnRepository",
 	"tags":[
 		"server",
 		"wildfly",
@@ -34,6 +34,22 @@
 		"jgroups"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"9.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251026",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.0.3.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"7.0.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"7.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"7.0.0.Final",
 			"vulnerabilities":""
 		}
 	]

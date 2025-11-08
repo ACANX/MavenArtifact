@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-context",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-context",
-	"version_latest":"8.0.3.Final",
-	"ts_publish":1761460222000,
-	"dt_publish":"2025-10-26 14:30:22.000",
-	"ts_update":1761461106344,
-	"dt_update":"2025-10-26 14:44:56.207",
+	"version_latest":"9.0.0.Beta2",
+	"ts_publish":1762583438000,
+	"dt_publish":"2025-11-08 14:30:38.000",
+	"ts_update":1762584258114,
+	"dt_update":"2025-11-08 14:44:04.970",
 	"count_dep":8,
-	"count_ref":22,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"count_ref":11,
+	"licenses":[],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -25,13 +23,29 @@
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
 	"count_used_by":18,
 	"license":"Apache 2.0",
-	"ranking":"#26773 in MvnRepository",
+	"ranking":"#26853 in MvnRepository",
 	"tags":[
 		"context",
 		"wildfly",
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"9.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251026",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.0.3.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -175,23 +189,6 @@
 			"usage":3,
 			"version":"7.0.2.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.0.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.0.0.Final",
-			"vulnerabilities":""
 		}
-	],
-	"description":"WildFly Clustering: Context propagation"
+	]
 }
