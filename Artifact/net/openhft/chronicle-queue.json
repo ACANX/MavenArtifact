@@ -3,13 +3,13 @@
 	"description":"Java library for persisted low latency messaging (Java 8+)",
 	"group_id":"net.openhft",
 	"artifact_id":"chronicle-queue",
-	"version_latest":"5.27ea10",
-	"ts_publish":1761825578000,
-	"dt_publish":"2025-10-30 19:59:38.000",
-	"ts_update":1761827217968,
-	"dt_update":"2025-10-30 20:26:14.420",
-	"count_dep":38,
-	"count_ref":10,
+	"version_latest":"5.27ea11",
+	"ts_publish":1762680885000,
+	"dt_publish":"2025-11-09 17:34:45.000",
+	"ts_update":1762681483259,
+	"dt_update":"2025-11-09 17:44:35.910",
+	"count_dep":36,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -31,13 +31,21 @@
 	"count_used_by":53,
 	"home_page":"https://github.com/OpenHFT/Chronicle-Queue",
 	"license":"Apache 2.0",
-	"ranking":"#9530 in MvnRepository",
+	"ranking":"#9563 in MvnRepository",
 	"tags":[
 		"bundle",
 		"queue",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"early",
+			"usage":1,
+			"version":"5.27ea10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250911",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"early",
 			"usage":0,
 			"version":"5.26ea1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240529",
-			"repository":"Central",
-			"type":"early",
-			"usage":1,
-			"version":"5.26ea0",
 			"vulnerabilities":""
 		}
 	]
