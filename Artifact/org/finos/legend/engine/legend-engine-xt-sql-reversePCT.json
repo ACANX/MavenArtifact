@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.finos.legend.engine/legend-engine-xt-sql-reversePCT",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-xt-sql-reversePCT",
-	"version_latest":"4.107.1",
-	"ts_publish":1762456071000,
-	"dt_publish":"2025-11-07 03:07:51.000",
-	"ts_update":1762457282176,
-	"dt_update":"2025-11-07 03:26:32.733",
-	"count_dep":23,
+	"version_latest":"4.108.0",
+	"ts_publish":1762717783000,
+	"dt_publish":"2025-11-10 03:49:43.000",
+	"ts_update":1762719398212,
+	"dt_update":"2025-11-10 04:16:15.921",
+	"count_dep":163,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +25,36 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-xts-sql/legend-engine-xt-sql-transformation/legend-engine-xt-sql-reversePCT",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#271696 in MvnRepository",
+	"ranking":"#272912 in MvnRepository",
 	"tags":[
 		"sql",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.107.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.107.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.106.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251018",
 			"repository":"Central",
@@ -157,5 +183,6 @@
 			"version":"4.98.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more"
 }
