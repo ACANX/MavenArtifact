@@ -3,11 +3,11 @@
 	"description":"mybatis-plus框架的拓展包，基于spring\n        boot、mybatis-plus，在框架原有基础上做了进一步的轻度封装，更加方便使用，针对代码（字段字符串、Mapper、Repository/Service）预生成、数据自动填充（类似JPA中的审计）、关联查询（类似sql中的join）、自动建表、冗余数据自动更新、固定条件等方面通过注解做了增强。",
 	"group_id":"org.dromara.mpe",
 	"artifact_id":"mybatis-plus-ext-condition-core",
-	"version_latest":"3.5.14-EXT883",
-	"ts_publish":1761382497000,
-	"dt_publish":"2025-10-25 16:54:57.000",
-	"ts_update":1761383690084,
-	"dt_update":"2025-10-25 17:14:34.881",
+	"version_latest":"3.5.14-EXT884",
+	"ts_publish":1762708482000,
+	"dt_publish":"2025-11-10 01:14:42.000",
+	"ts_update":1762709198634,
+	"dt_update":"2025-11-10 01:26:27.158",
 	"count_dep":31,
 	"count_ref":2,
 	"licenses":[
@@ -22,12 +22,20 @@
 	"url_scm":"https://gitee.com/tangzc/mybatis-plus-ext/mybatis-plus-ext-condition/mybatis-plus-ext-condition-core",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#250246 in MvnRepository",
+	"ranking":"#211821 in MvnRepository",
 	"tags":[
 		"persistence",
 		"mybatis"
 	],
 	"versions":[
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.5.14-EXT883",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.5.12-EXT840",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250514",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.5.12-EXT839",
 			"vulnerabilities":""
 		}
 	]
