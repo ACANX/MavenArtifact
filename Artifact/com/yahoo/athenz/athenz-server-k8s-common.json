@@ -3,11 +3,11 @@
 	"description":"Athenz Kubernetes Server Common Packages",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-server-k8s-common",
-	"version_latest":"1.12.28",
-	"ts_publish":1761359397000,
-	"dt_publish":"2025-10-25 10:29:57.000",
-	"ts_update":1761360994317,
-	"dt_update":"2025-10-25 10:56:26.681",
+	"version_latest":"1.12.29",
+	"ts_publish":1762716116000,
+	"dt_publish":"2025-11-10 03:21:56.000",
+	"ts_update":1762716350575,
+	"dt_update":"2025-11-10 03:25:43.366",
 	"count_dep":54,
 	"count_ref":0,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/AthenZ/athenz/athenz-server-k8s-common",
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
 	"license":"Apache 2.0",
-	"ranking":"#480556 in MvnRepository",
+	"ranking":"#483273 in MvnRepository",
 	"tags":[
 		"kubernetes",
 		"server"
 	],
 	"versions":[
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12.28",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251008",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.12.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250111",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.12.8",
 			"vulnerabilities":""
 		}
 	]

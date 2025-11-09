@@ -3,11 +3,11 @@
 	"description":"annotation processor generating source code for avaje-inject dependency injection",
 	"group_id":"io.avaje",
 	"artifact_id":"avaje-inject-generator",
-	"version_latest":"12.1-RC1",
-	"ts_publish":1762200034000,
-	"dt_publish":"2025-11-04 04:00:34.000",
-	"ts_update":1762202261591,
-	"dt_update":"2025-11-04 04:36:42.025",
+	"version_latest":"12.1-RC2",
+	"ts_publish":1762715483000,
+	"dt_publish":"2025-11-10 03:11:23.000",
+	"ts_update":1762716351766,
+	"dt_update":"2025-11-10 03:25:43.369",
 	"count_dep":17,
 	"count_ref":1,
 	"licenses":[
@@ -25,12 +25,36 @@
 	"url_scm":"git@github.com:avaje-pom/java11-oss.git/avaje-inject-parent/avaje-inject-generator",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#59513 in MvnRepository",
+	"ranking":"#61780 in MvnRepository",
 	"tags":[
 		"dependency-injection",
 		"generator"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.1-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.0-javax",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251007",
 			"repository":"Central",
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"11.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.5-javax",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250428",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.5-RC4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.5-RC3",
 			"vulnerabilities":""
 		}
 	]
