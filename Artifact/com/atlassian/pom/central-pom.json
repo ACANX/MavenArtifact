@@ -3,11 +3,11 @@
 	"description":"Base POM for Atlassian projects",
 	"group_id":"com.atlassian.pom",
 	"artifact_id":"central-pom",
-	"version_latest":"8.0.22",
-	"ts_publish":1761023926000,
-	"dt_publish":"2025-10-21 13:18:46.000",
-	"ts_update":1761026186671,
-	"dt_update":"2025-10-21 13:56:20.246",
+	"version_latest":"8.0.23",
+	"ts_publish":1762728707000,
+	"dt_publish":"2025-11-10 06:51:47.000",
+	"ts_update":1762728997063,
+	"dt_update":"2025-11-10 06:56:27.446",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -23,12 +23,20 @@
 	"url_scm":"https://bitbucket.org/atlassian/parent-poms/central-pom",
 	"url_ci_management":"https://staging-bamboo.internal.atlassian.com/browse/OTHER-BASEPOM",
 	"license":"Apache 2.0",
-	"ranking":"#769315 in MvnRepository",
+	"ranking":"#771100 in MvnRepository",
 	"tags":[
 		"pom",
 		"atlassian"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.0.22",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241126",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.0.1",
 			"vulnerabilities":""
 		}
 	]
