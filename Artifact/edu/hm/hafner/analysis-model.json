@@ -3,12 +3,12 @@
 	"description":"This library provides a Java object model to read, aggregate, filter, and query static analysis reports.\n    It is used by Jenkins' warnings next generation plug-in to visualize the warnings of individual builds.\n    Additionally, this library is used by a GitHub action to autograde student software projects based on a given set of\n    metrics (unit tests, code and mutation coverage, static analysis warnings).",
 	"group_id":"edu.hm.hafner",
 	"artifact_id":"analysis-model",
-	"version_latest":"13.12.0",
-	"ts_publish":1762359759000,
-	"dt_publish":"2025-11-06 00:22:39.000",
-	"ts_update":1762362963567,
-	"dt_update":"2025-11-06 01:15:49.280",
-	"count_dep":52,
+	"version_latest":"13.14.0",
+	"ts_publish":1762722334000,
+	"dt_publish":"2025-11-10 05:05:34.000",
+	"ts_update":1762723599703,
+	"dt_update":"2025-11-10 05:26:27.841",
+	"count_dep":53,
 	"count_ref":0,
 	"licenses":[
 		"MIT license",
@@ -27,12 +27,20 @@
 	"count_used_by":5,
 	"home_page":"https://cs.hm.edu/~hafner",
 	"license":"MIT",
-	"ranking":"#102388 in MvnRepository",
+	"ranking":"#102620 in MvnRepository",
 	"tags":[
 		"model",
 		"analysis"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"13.12.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"12.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240421",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"12.3.0",
 			"vulnerabilities":""
 		}
 	]
