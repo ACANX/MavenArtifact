@@ -3,14 +3,16 @@
 	"description":"Contains shared entity values classes",
 	"group_id":"ai.tock",
 	"artifact_id":"tock-nlp-entity-value",
-	"version_latest":"25.9.1",
-	"ts_publish":1760100978000,
-	"dt_publish":"2025-10-10 20:56:18.000",
-	"ts_update":1760102786899,
-	"dt_update":"2025-10-10 21:26:13.880",
-	"count_dep":12,
-	"count_ref":13,
-	"licenses":[],
+	"version_latest":"25.10.0",
+	"ts_publish":1762763608000,
+	"dt_publish":"2025-11-10 16:33:28.000",
+	"ts_update":1762764871280,
+	"dt_update":"2025-11-10 16:54:22.912",
+	"count_dep":16,
+	"count_ref":14,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,13 +20,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ai.tock/tock-nlp-entity-value@25.3.10",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#83603 in MvnRepository",
+	"ranking":"#84142 in MvnRepository",
 	"tags":[
 		"nlp",
 		"ai",
 		"entity"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"25.9.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -175,14 +185,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"24.3.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240711",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"24.3.4",
 			"vulnerabilities":""
 		}
 	]
