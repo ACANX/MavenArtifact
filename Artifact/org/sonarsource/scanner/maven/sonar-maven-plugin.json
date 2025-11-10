@@ -3,11 +3,11 @@
 	"description":"Trigger SonarQube analysis on Maven projects",
 	"group_id":"org.sonarsource.scanner.maven",
 	"artifact_id":"sonar-maven-plugin",
-	"version_latest":"5.2.0.4988",
-	"ts_publish":1756458408000,
-	"dt_publish":"2025-08-29 17:06:48.000",
-	"ts_update":1756460017338,
-	"dt_update":"2025-08-29 17:33:08.646",
+	"version_latest":"5.3.0.6276",
+	"ts_publish":1762777359000,
+	"dt_publish":"2025-11-10 20:22:39.000",
+	"ts_update":1762778031115,
+	"dt_update":"2025-11-10 20:33:42.238",
 	"count_dep":70,
 	"count_ref":0,
 	"licenses":[
@@ -31,7 +31,7 @@
 	"url_ci_management":"https://cirrus-ci.com/github/SonarSource/",
 	"count_used_by":15,
 	"license":"LGPL 3.0",
-	"ranking":"#31324 in MvnRepository",
+	"ranking":"#32101 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -41,6 +41,14 @@
 		"sonar"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.2.0.4988",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250325",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20160115",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.1",
 			"vulnerabilities":""
 		}
 	]
