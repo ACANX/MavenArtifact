@@ -3,13 +3,13 @@
 	"description":"This is the FSA library and tools, an implementation of finite state\n    automata (FSA) and related algorithms.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"fsa",
-	"version_latest":"8.603.19",
-	"ts_publish":1762312230000,
-	"dt_publish":"2025-11-05 11:10:30.000",
-	"ts_update":1762314992004,
-	"dt_update":"2025-11-05 11:56:24.308",
+	"version_latest":"8.605.24",
+	"ts_publish":1762761610000,
+	"dt_publish":"2025-11-10 16:00:10.000",
+	"ts_update":1762763063491,
+	"dt_update":"2025-11-10 16:24:01.663",
 	"count_dep":3,
-	"count_ref":6,
+	"count_ref":8,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,8 +26,24 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/fsa",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#368156 in MvnRepository",
+	"ranking":"#369051 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.604.22",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.603.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251103",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.578.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.577.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.576.45",
 			"vulnerabilities":""
 		}
 	]

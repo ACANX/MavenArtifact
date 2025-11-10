@@ -3,11 +3,11 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"standalone-container",
-	"version_latest":"8.603.19",
-	"ts_publish":1762312230000,
-	"dt_publish":"2025-11-05 11:10:30.000",
-	"ts_update":1762313208428,
-	"dt_update":"2025-11-05 11:26:29.325",
+	"version_latest":"8.605.24",
+	"ts_publish":1762761610000,
+	"dt_publish":"2025-11-10 16:00:10.000",
+	"ts_update":1762763063865,
+	"dt_update":"2025-11-10 16:24:03.567",
 	"count_dep":50,
 	"count_ref":1,
 	"licenses":[
@@ -26,11 +26,27 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/standalone-container",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#408614 in MvnRepository",
+	"ranking":"#410367 in MvnRepository",
 	"tags":[
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.604.22",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.603.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251103",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.578.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.577.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.576.45",
 			"vulnerabilities":""
 		}
 	]

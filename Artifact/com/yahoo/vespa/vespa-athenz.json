@@ -3,12 +3,12 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"vespa-athenz",
-	"version_latest":"8.603.19",
-	"ts_publish":1762312230000,
-	"dt_publish":"2025-11-05 11:10:30.000",
-	"ts_update":1762314997255,
-	"dt_update":"2025-11-05 11:56:24.309",
-	"count_dep":82,
+	"version_latest":"8.605.24",
+	"ts_publish":1762761610000,
+	"dt_publish":"2025-11-10 16:00:10.000",
+	"ts_update":1762763058788,
+	"dt_update":"2025-11-10 16:24:01.662",
+	"count_dep":138,
 	"count_ref":3,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -26,8 +26,24 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/vespa-athenz",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#41620 in MvnRepository",
+	"ranking":"#41665 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.604.22",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.603.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251103",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"8.578.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"8.577.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"8.576.45",
 			"vulnerabilities":""
 		}
 	]
