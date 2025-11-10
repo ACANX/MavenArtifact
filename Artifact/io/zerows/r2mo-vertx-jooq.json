@@ -3,11 +3,11 @@
 	"description":"参考在线项目：\n        -- vertx-jooq: 这个项目已经两年多没有更新，为了保证整体兼容性，重新编译\n        |-- 项目地址：https://github.com/jklingsporn/vertx-jooq.git\n        |-- 内嵌项目 /\n        |----- vertx-jooq-shared\n        |----- vertx-jooq-classic\n        1. 集成到 R2MO 体系中，追加实现方案：\n        -- / r2mo-vertx-jooq-jdbc\n        -- / r2mo-vertx-jooq-reactive（后续考虑，暂时不计划）\n        2. 单独开启一个项目：r2mo-vertx-jooq-generate 用于代码生成\n        3. 移除 rx 模式和 mutiny 模式的支持",
 	"group_id":"io.zerows",
 	"artifact_id":"r2mo-vertx-jooq",
-	"version_latest":"1.0-M25",
-	"ts_publish":1761567093000,
-	"dt_publish":"2025-10-27 20:11:33.000",
-	"ts_update":1761568454067,
-	"dt_update":"2025-10-27 20:34:05.385",
+	"version_latest":"1.0.29",
+	"ts_publish":1762757151000,
+	"dt_publish":"2025-11-10 14:45:51.000",
+	"ts_update":1762757796418,
+	"dt_update":"2025-11-10 14:55:56.562",
 	"count_dep":49,
 	"count_ref":0,
 	"licenses":[
@@ -19,5 +19,54 @@
 	"contributors":[
 		"lang.yu"
 	],
-	"url_scm":"https://www.zerows.io/r2mo-vertx-jooq"
+	"url_scm":"https://www.zerows.io/r2mo-vertx-jooq",
+	"home_page":"https://gitee.com/silentbalanceyh/r2mo-rapid/r2mo-vertx-jooq",
+	"license":"MIT",
+	"ranking":"#762948 in MvnRepository",
+	"tags":[
+		"jooq",
+		"vertx"
+	],
+	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.28",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"1.0-M27",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"1.0-M26",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"1.0-M25",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"1.0-M24",
+			"vulnerabilities":""
+		}
+	]
 }
