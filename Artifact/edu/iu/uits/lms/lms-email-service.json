@@ -3,12 +3,12 @@
 	"description":"Shared services for the lms-canvas LTI tools to send email",
 	"group_id":"edu.iu.uits.lms",
 	"artifact_id":"lms-email-service",
-	"version_latest":"6.3.2",
-	"ts_publish":1762186030000,
-	"dt_publish":"2025-11-04 00:07:10.000",
-	"ts_update":1762186840055,
-	"dt_update":"2025-11-04 00:19:37.192",
-	"count_dep":129,
+	"version_latest":"6.3.3",
+	"ts_publish":1762806178000,
+	"dt_publish":"2025-11-11 04:22:58.000",
+	"ts_update":1762807285360,
+	"dt_update":"2025-11-11 04:40:07.894",
+	"count_dep":113,
 	"count_ref":1,
 	"licenses":[
 		"BSD 3-Clause License"
@@ -23,12 +23,28 @@
 	"url_scm":"https://github.com/indiana-university/lms-embedded-services/lms-email-service",
 	"count_used_by":5,
 	"license":"BSD 3-clause",
-	"ranking":"#97492 in MvnRepository",
+	"ranking":"#99851 in MvnRepository",
 	"tags":[
 		"service",
 		"mail"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.3.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.3.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251006",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"6.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250117",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250116",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.1.0",
 			"vulnerabilities":""
 		}
 	]
