@@ -3,11 +3,11 @@
 	"description":"Application container for running; add maven {url \"https://repo.osgeo.org/repository/release/\"} and maven {url \"https://pkgs.dev.azure.com/OpenRemote/OpenRemote/_packaging/OpenRemote/maven/v1\"} to resolve all dependencies",
 	"group_id":"io.openremote",
 	"artifact_id":"openremote-container",
-	"version_latest":"1.10.0",
-	"ts_publish":1761821706000,
-	"dt_publish":"2025-10-30 18:55:06.000",
-	"ts_update":1761822872935,
-	"dt_update":"2025-10-30 19:14:15.144",
+	"version_latest":"1.11.0",
+	"ts_publish":1762793459000,
+	"dt_publish":"2025-11-11 00:50:59.000",
+	"ts_update":1762794938087,
+	"dt_update":"2025-11-11 01:15:18.185",
 	"count_dep":203,
 	"count_ref":2,
 	"licenses":[
@@ -26,11 +26,19 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/openremote/openremote",
 	"license":"AGPL 3.0",
-	"ranking":"#183515 in MvnRepository",
+	"ranking":"#183646 in MvnRepository",
 	"tags":[
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251006",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250130",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.2.2",
 			"vulnerabilities":""
 		}
 	]
