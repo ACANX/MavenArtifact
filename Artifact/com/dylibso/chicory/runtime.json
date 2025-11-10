@@ -3,13 +3,13 @@
 	"description":"Native JVM WebAssembly runtime",
 	"group_id":"com.dylibso.chicory",
 	"artifact_id":"runtime",
-	"version_latest":"1.5.2",
-	"ts_publish":1759230926000,
-	"dt_publish":"2025-09-30 19:15:26.000",
-	"ts_update":1759435428065,
-	"dt_update":"2025-09-30 19:26:07.085",
+	"version_latest":"1.6.0",
+	"ts_publish":1762775478000,
+	"dt_publish":"2025-11-10 19:51:18.000",
+	"ts_update":1762777599518,
+	"dt_update":"2025-11-10 20:26:28.439",
 	"count_dep":4,
-	"count_ref":10,
+	"count_ref":11,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,16 +23,24 @@
 	"url_scm":"http://github.com/dylibso/chicory/tree/main/runtime",
 	"count_used_by":47,
 	"license":"Apache 2.0",
-	"ranking":"#10299 in MvnRepository",
+	"ranking":"#10527 in MvnRepository",
 	"tags":[
 		"runtime"
 	],
 	"versions":[
 		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"1.5.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250930",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":10,
 			"version":"1.5.2",
 			"vulnerabilities":""
 		},
@@ -40,7 +48,7 @@
 			"date":"20250707",
 			"repository":"Central",
 			"type":"release",
-			"usage":21,
+			"usage":24,
 			"version":"1.5.1",
 			"vulnerabilities":""
 		},
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240120",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.0.5",
 			"vulnerabilities":""
 		}
 	]
