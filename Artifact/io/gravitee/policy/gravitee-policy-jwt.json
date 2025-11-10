@@ -3,11 +3,11 @@
 	"description":"Validate the token signature and expiration date before sending the API call to the target backend",
 	"group_id":"io.gravitee.policy",
 	"artifact_id":"gravitee-policy-jwt",
-	"version_latest":"6.2.0",
-	"ts_publish":1754644333000,
-	"dt_publish":"2025-08-08 17:12:13.000",
-	"ts_update":1754646840642,
-	"dt_update":"2025-08-08 17:53:21.422",
+	"version_latest":"6.2.1",
+	"ts_publish":1762762700000,
+	"dt_publish":"2025-11-10 16:18:20.000",
+	"ts_update":1762763193962,
+	"dt_update":"2025-11-10 16:26:26.396",
 	"count_dep":152,
 	"count_ref":0,
 	"licenses":[
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-policy-jwt",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#371661 in MvnRepository",
+	"ranking":"#388307 in MvnRepository",
 	"tags":[
 		"policy",
 		"jwt"
 	],
 	"versions":[
+		{
+			"date":"20250808",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240731",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.1.5",
 			"vulnerabilities":""
 		}
 	]
