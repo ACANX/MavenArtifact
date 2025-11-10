@@ -3,12 +3,12 @@
 	"description":"logback-core module",
 	"group_id":"ch.qos.logback",
 	"artifact_id":"logback-core",
-	"version_latest":"1.5.20",
-	"ts_publish":1760897664000,
-	"dt_publish":"2025-10-20 02:14:24.000",
-	"ts_update":1760899295526,
-	"dt_update":"2025-10-20 02:41:19.664",
-	"count_dep":13,
+	"version_latest":"1.5.21",
+	"ts_publish":1762794439000,
+	"dt_publish":"2025-11-11 01:07:19.000",
+	"ts_update":1762795599745,
+	"dt_update":"2025-11-11 01:26:29.951",
+	"count_dep":14,
 	"count_ref":1,
 	"licenses":[
 		"GNU Lesser General Public License",
@@ -25,20 +25,28 @@
 		"Joern Huxhorn"
 	],
 	"url_scm":"https://github.com/qos-ch/logback/logback-core",
-	"count_used_by":6621,
+	"count_used_by":6663,
 	"home_page":"https://logback.qos.ch/",
 	"license":"EPL 1.0",
-	"ranking":"#92 in MvnRepository",
+	"ranking":"#91 in MvnRepository",
 	"tags":[
 		"logback",
 		"logging"
 	],
 	"versions":[
 		{
+			"date":"20251019",
+			"repository":"Central",
+			"type":"release",
+			"usage":69,
+			"version":"1.5.20",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250930",
 			"repository":"Central",
 			"type":"release",
-			"usage":31,
+			"usage":50,
 			"version":"1.5.19",
 			"vulnerabilities":""
 		},
@@ -46,9 +54,9 @@
 			"date":"20250318",
 			"repository":"Central",
 			"type":"release",
-			"usage":316,
+			"usage":322,
 			"version":"1.5.18",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250225",
@@ -56,7 +64,7 @@
 			"type":"release",
 			"usage":74,
 			"version":"1.5.17",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250105",
@@ -64,7 +72,7 @@
 			"type":"release",
 			"usage":235,
 			"version":"1.5.16",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20241221",
@@ -72,7 +80,7 @@
 			"type":"release",
 			"usage":51,
 			"version":"1.5.15",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20241219",
@@ -80,7 +88,7 @@
 			"type":"release",
 			"usage":22,
 			"version":"1.5.14",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20241218",
@@ -88,23 +96,23 @@
 			"type":"release",
 			"usage":49,
 			"version":"1.5.13",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20241025",
 			"repository":"Central",
 			"type":"release",
-			"usage":149,
+			"usage":150,
 			"version":"1.5.12",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20241015",
 			"repository":"Central",
 			"type":"release",
-			"usage":41,
+			"usage":42,
 			"version":"1.5.11",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20241012",
@@ -112,7 +120,7 @@
 			"type":"release",
 			"usage":14,
 			"version":"1.5.10",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20241008",
@@ -120,7 +128,7 @@
 			"type":"release",
 			"usage":14,
 			"version":"1.5.9",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20240906",
@@ -128,7 +136,7 @@
 			"type":"release",
 			"usage":122,
 			"version":"1.5.8",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20240815",
@@ -136,15 +144,15 @@
 			"type":"release",
 			"usage":54,
 			"version":"1.5.7",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20240417",
 			"repository":"Central",
 			"type":"release",
-			"usage":249,
+			"usage":253,
 			"version":"1.5.6",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20240412",
@@ -152,7 +160,7 @@
 			"type":"release",
 			"usage":45,
 			"version":"1.5.5",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20240409",
@@ -160,7 +168,7 @@
 			"type":"release",
 			"usage":7,
 			"version":"1.5.4",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20240304",
@@ -168,7 +176,7 @@
 			"type":"release",
 			"usage":115,
 			"version":"1.5.3",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20240302",
@@ -176,7 +184,7 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.5.2",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		},
 		{
 			"date":"20240228",
@@ -184,15 +192,7 @@
 			"type":"release",
 			"usage":6,
 			"version":"1.5.1",
-			"vulnerabilities":"2 vulnerabilities"
-		},
-		{
-			"date":"20240216",
-			"repository":"Central",
-			"type":"release",
-			"usage":54,
-			"version":"1.5.0",
-			"vulnerabilities":"2 vulnerabilities"
+			"vulnerabilities":"3 vulnerabilities"
 		}
 	]
 }
