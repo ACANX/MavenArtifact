@@ -3,12 +3,12 @@
 	"description":"An implementation of the MicroProfile Reactive Streams Messaging specification",
 	"group_id":"io.smallrye.reactive",
 	"artifact_id":"smallrye-reactive-messaging-jms",
-	"version_latest":"4.30.0",
-	"ts_publish":1757942590000,
-	"dt_publish":"2025-09-15 21:23:10.000",
-	"ts_update":1757943431351,
-	"dt_update":"2025-09-15 21:36:37.534",
-	"count_dep":77,
+	"version_latest":"4.31.0",
+	"ts_publish":1762790307000,
+	"dt_publish":"2025-11-10 23:58:27.000",
+	"ts_update":1762791713500,
+	"dt_update":"2025-11-11 00:21:20.500",
+	"count_dep":79,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/smallrye/smallrye-reactive-messaging/smallrye-reactive-messaging-jms",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#127869 in MvnRepository",
+	"ranking":"#129784 in MvnRepository",
 	"tags":[
 		"jms",
 		"queue",
@@ -34,6 +34,14 @@
 		"reactive"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250914",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.20.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240319",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.19.0",
 			"vulnerabilities":""
 		}
 	]

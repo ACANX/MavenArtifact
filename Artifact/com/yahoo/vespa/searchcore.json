@@ -3,13 +3,13 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"searchcore",
-	"version_latest":"8.603.19",
-	"ts_publish":1762312230000,
-	"dt_publish":"2025-11-05 11:10:30.000",
-	"ts_update":1762313205910,
-	"dt_update":"2025-11-05 11:26:28.375",
+	"version_latest":"8.606.45",
+	"ts_publish":1762790791000,
+	"dt_publish":"2025-11-11 00:06:31.000",
+	"ts_update":1762791705142,
+	"dt_update":"2025-11-11 00:21:16.602",
 	"count_dep":2,
-	"count_ref":8,
+	"count_ref":10,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,8 +26,24 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/searchcore",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#87094 in MvnRepository",
+	"ranking":"#87250 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.604.22",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.603.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251103",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"8.578.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.577.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.576.45",
 			"vulnerabilities":""
 		}
 	]
