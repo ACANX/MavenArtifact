@@ -3,11 +3,11 @@
 	"description":"Shaded distribution of the ScyllaDB Java Driver core module with relocated third-party dependencies.",
 	"group_id":"com.scylladb",
 	"artifact_id":"java-driver-core-shaded",
-	"version_latest":"4.19.0.2",
-	"ts_publish":1762564589000,
-	"dt_publish":"2025-11-08 09:16:29.000",
-	"ts_update":1762567000076,
-	"dt_update":"2025-11-08 09:56:29.968",
+	"version_latest":"4.19.0.3",
+	"ts_publish":1762859676000,
+	"dt_publish":"2025-11-11 19:14:36.000",
+	"ts_update":1762860402739,
+	"dt_update":"2025-11-11 19:26:34.547",
 	"count_dep":50,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/scylladb/java-driver/java-driver-core-shaded",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#130142 in MvnRepository",
+	"ranking":"#130219 in MvnRepository",
 	"tags":[
 		"driver",
 		"shaded",
 		"scylladb"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.19.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250407",
 			"repository":"Central",
@@ -184,5 +192,6 @@
 			"version":"4.7.2.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/scylladb/java-driver"
 }

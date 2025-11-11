@@ -3,11 +3,11 @@
 	"description":"Micrometer metrics integration for the ScyllaDB Java Driver.",
 	"group_id":"com.scylladb",
 	"artifact_id":"java-driver-metrics-micrometer",
-	"version_latest":"4.19.0.2",
-	"ts_publish":1762564589000,
-	"dt_publish":"2025-11-08 09:16:29.000",
-	"ts_update":1762567001420,
-	"dt_update":"2025-11-08 09:56:29.968",
+	"version_latest":"4.19.0.3",
+	"ts_publish":1762859676000,
+	"dt_publish":"2025-11-11 19:14:36.000",
+	"ts_update":1762860405192,
+	"dt_update":"2025-11-11 19:26:34.549",
 	"count_dep":41,
 	"count_ref":0,
 	"licenses":[
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/scylladb/java-driver/java-driver-metrics-micrometer",
 	"license":"Apache 2.0",
-	"ranking":"#682779 in MvnRepository",
+	"ranking":"#686087 in MvnRepository",
 	"tags":[
 		"bundle",
 		"driver",
@@ -33,6 +33,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.19.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250407",
 			"repository":"Central",
@@ -177,5 +185,6 @@
 			"version":"4.8.0-scylla-0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/scylladb/java-driver"
 }

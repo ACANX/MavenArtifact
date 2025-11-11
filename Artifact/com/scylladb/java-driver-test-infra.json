@@ -3,11 +3,11 @@
 	"description":"Supporting utilities and fixtures used by ScyllaDB Java Driver integration and performance tests.",
 	"group_id":"com.scylladb",
 	"artifact_id":"java-driver-test-infra",
-	"version_latest":"4.19.0.2",
-	"ts_publish":1762564589000,
-	"dt_publish":"2025-11-08 09:16:29.000",
-	"ts_update":1762567007372,
-	"dt_update":"2025-11-08 09:56:29.969",
+	"version_latest":"4.19.0.3",
+	"ts_publish":1762859676000,
+	"dt_publish":"2025-11-11 19:14:36.000",
+	"ts_update":1762860403513,
+	"dt_update":"2025-11-11 19:26:34.548",
 	"count_dep":52,
 	"count_ref":0,
 	"licenses":[
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/scylladb/java-driver/java-driver-test-infra",
 	"license":"Apache 2.0",
-	"ranking":"#703221 in MvnRepository",
+	"ranking":"#871351 in MvnRepository",
 	"tags":[
 		"bundle",
 		"testing",
@@ -33,6 +33,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.19.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250407",
 			"repository":"Central",
@@ -185,5 +193,6 @@
 			"version":"4.7.2.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/scylladb/java-driver"
 }
