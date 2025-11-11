@@ -2,16 +2,14 @@
 	"id":"pkg:maven/com.yahoo.vespa/hosted-zone-api",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"hosted-zone-api",
-	"version_latest":"8.606.45",
-	"ts_publish":1762790791000,
-	"dt_publish":"2025-11-11 00:06:31.000",
-	"ts_update":1762791721823,
-	"dt_update":"2025-11-11 00:21:16.604",
+	"version_latest":"8.607.21",
+	"ts_publish":1762874066000,
+	"dt_publish":"2025-11-11 23:14:26.000",
+	"ts_update":1762874805130,
+	"dt_update":"2025-11-11 23:26:21.507",
 	"count_dep":4,
-	"count_ref":13,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"count_ref":12,
+	"licenses":[],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -25,11 +23,35 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/hosted-zone-api",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#63274 in MvnRepository",
+	"ranking":"#63367 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"8.605.24",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"8.604.22",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"8.603.19",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251103",
 			"repository":"Central",
@@ -165,31 +187,6 @@
 			"usage":7,
 			"version":"8.579.17",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250910",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"8.578.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"8.577.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"8.576.45",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent artifact for all Vespa maven projects."
+	]
 }

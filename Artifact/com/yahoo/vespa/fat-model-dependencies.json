@@ -2,11 +2,11 @@
 	"id":"pkg:maven/com.yahoo.vespa/fat-model-dependencies",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"fat-model-dependencies",
-	"version_latest":"8.606.45",
-	"ts_publish":1762790791000,
-	"dt_publish":"2025-11-11 00:06:31.000",
-	"ts_update":1762791710090,
-	"dt_update":"2025-11-11 00:21:17.012",
+	"version_latest":"8.607.21",
+	"ts_publish":1762874066000,
+	"dt_publish":"2025-11-11 23:14:26.000",
+	"ts_update":1762874797849,
+	"dt_update":"2025-11-11 23:26:20.392",
 	"count_dep":32,
 	"count_ref":0,
 	"licenses":[],
@@ -23,14 +23,20 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/fat-model-dependencies",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#272263 in MvnRepository",
+	"ranking":"#272813 in MvnRepository",
 	"tags":[
-		"bom",
 		"model",
-		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.605.24",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -181,14 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.579.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250910",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.578.22",
 			"vulnerabilities":""
 		}
 	]
