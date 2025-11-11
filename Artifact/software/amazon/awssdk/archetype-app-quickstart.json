@@ -3,12 +3,14 @@
 	"description":"The AWS SDK for Java - Maven archetype for a sample application using AWS Java SDK 2.x",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"archetype-app-quickstart",
-	"version_latest":"2.38.2",
-	"ts_publish":1762556387000,
-	"ts_update":1762558005449,
+	"version_latest":"2.38.3",
+	"ts_publish":1762825994000,
+	"ts_update":1762828025997,
 	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Software Development Kit"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/archetype-app-quickstart@2.32.16",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/archetypes/archetype-app-quickstart",
 	"license":"Apache 2.0",
-	"ranking":"#719239 in MvnRepository",
+	"ranking":"#717160 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,6 +30,14 @@
 		"example"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.38.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -179,16 +189,8 @@
 			"usage":0,
 			"version":"2.35.5",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251010",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.35.4",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-11-08 06:59:47.000",
-	"dt_update":"2025-11-08 07:26:30.450"
+	"dt_publish":"2025-11-11 09:53:14.000",
+	"dt_update":"2025-11-11 10:26:38.147"
 }

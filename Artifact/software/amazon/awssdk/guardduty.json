@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for Amazon GuardDuty module holds the client classes that are used for communicating\n        with Amazon GuardDuty Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"guardduty",
-	"version_latest":"2.38.2",
-	"ts_publish":1762556387000,
-	"dt_publish":"2025-11-08 06:59:47.000",
-	"ts_update":1762558008870,
-	"dt_update":"2025-11-08 07:26:28.158",
-	"count_dep":3,
+	"version_latest":"2.38.3",
+	"ts_publish":1762825994000,
+	"dt_publish":"2025-11-11 09:53:14.000",
+	"ts_update":1762828017495,
+	"dt_update":"2025-11-11 10:26:33.469",
+	"count_dep":33,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -20,7 +20,7 @@
 	"count_used_by":5,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#88069 in MvnRepository",
+	"ranking":"#88113 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.38.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251106",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.38.1",
 			"vulnerabilities":""
 		},
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.35.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251009",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.35.4",
 			"vulnerabilities":""
 		}
 	]

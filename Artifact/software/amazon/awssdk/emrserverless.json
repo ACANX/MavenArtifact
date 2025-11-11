@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for EMR Serverless module holds the client classes that are used for\n        communicating with EMR Serverless.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"emrserverless",
-	"version_latest":"2.38.2",
-	"ts_publish":1762556386000,
-	"dt_publish":"2025-11-08 06:59:46.000",
-	"ts_update":1762558022937,
-	"dt_update":"2025-11-08 07:26:35.378",
-	"count_dep":3,
+	"version_latest":"2.38.3",
+	"ts_publish":1762825994000,
+	"dt_publish":"2025-11-11 09:53:14.000",
+	"ts_update":1762828019090,
+	"dt_update":"2025-11-11 10:26:33.902",
+	"count_dep":33,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -20,7 +20,7 @@
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#104109 in MvnRepository",
+	"ranking":"#104200 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.38.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251106",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
+			"version":"2.38.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.38.0",
 			"vulnerabilities":""
 		},
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.35.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251009",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.35.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251008",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.35.3",
 			"vulnerabilities":""
 		}
 	]
