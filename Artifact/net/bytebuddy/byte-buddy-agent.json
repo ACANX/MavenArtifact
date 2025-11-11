@@ -3,11 +3,11 @@
 	"description":"The Byte Buddy agent offers convenience for attaching an agent to the local or a remote VM.",
 	"group_id":"net.bytebuddy",
 	"artifact_id":"byte-buddy-agent",
-	"version_latest":"1.17.8",
-	"ts_publish":1759962803000,
-	"dt_publish":"2025-10-09 06:33:23.000",
-	"ts_update":1759964174886,
-	"dt_update":"2025-10-09 06:56:09.006",
+	"version_latest":"1.18.0",
+	"ts_publish":1762846215000,
+	"dt_publish":"2025-11-11 15:30:15.000",
+	"ts_update":1762847201822,
+	"dt_update":"2025-11-11 15:46:27.854",
 	"count_dep":7,
 	"count_ref":1,
 	"licenses":[
@@ -24,10 +24,10 @@
 		"Rafael Winterhalter"
 	],
 	"url_scm":"git@github.com:raphw/byte-buddy.git/byte-buddy-agent",
-	"count_used_by":941,
+	"count_used_by":963,
 	"home_page":"https://bytebuddy.net/",
 	"license":"Apache 2.0",
-	"ranking":"#658 in MvnRepository",
+	"ranking":"#653 in MvnRepository",
 	"tags":[
 		"jvm",
 		"agent",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"1.17.8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250816",
 			"repository":"Central",
 			"type":"release",
-			"usage":107,
+			"usage":123,
 			"version":"1.17.7",
 			"vulnerabilities":""
 		},
@@ -47,7 +55,7 @@
 			"date":"20250616",
 			"repository":"Central",
 			"type":"release",
-			"usage":95,
+			"usage":98,
 			"version":"1.17.6",
 			"vulnerabilities":""
 		},
@@ -55,7 +63,7 @@
 			"date":"20250331",
 			"repository":"Central",
 			"type":"release",
-			"usage":62,
+			"usage":63,
 			"version":"1.17.5",
 			"vulnerabilities":""
 		},
@@ -103,7 +111,7 @@
 			"date":"20250119",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":12,
 			"version":"1.16.1",
 			"vulnerabilities":""
 		},
@@ -175,7 +183,7 @@
 			"date":"20240926",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":13,
 			"version":"1.15.3",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"1.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240829",
-			"repository":"Central",
-			"type":"release",
-			"usage":21,
-			"version":"1.15.1",
 			"vulnerabilities":""
 		}
 	]
