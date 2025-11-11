@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.appform.ranger/ranger-drove-client",
 	"group_id":"io.appform.ranger",
 	"artifact_id":"ranger-drove-client",
-	"version_latest":"1.1.2",
-	"ts_publish":1761720021000,
-	"dt_publish":"2025-10-29 14:40:21.000",
-	"ts_update":1761720979129,
-	"dt_update":"2025-10-29 14:56:06.300",
-	"count_dep":46,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"2.0.0-RC1",
+	"ts_publish":1762842857000,
+	"dt_publish":"2025-11-11 14:34:17.000",
+	"ts_update":1762844157113,
+	"dt_update":"2025-11-11 14:55:39.078",
+	"count_dep":74,
+	"count_ref":3,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,11 +19,19 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.appform.ranger/ranger-drove-client@1.1.2",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#250913 in MvnRepository",
+	"ranking":"#218958 in MvnRepository",
 	"tags":[
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250728",
 			"repository":"Central",
@@ -70,5 +80,6 @@
 			"version":"1.1-RC2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Service Discovery for Java"
 }

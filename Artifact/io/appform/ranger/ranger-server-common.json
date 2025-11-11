@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.appform.ranger/ranger-server-common",
 	"group_id":"io.appform.ranger",
 	"artifact_id":"ranger-server-common",
-	"version_latest":"1.1.2",
-	"ts_publish":1761720021000,
-	"dt_publish":"2025-10-29 14:40:21.000",
-	"ts_update":1761720979997,
-	"dt_update":"2025-10-29 14:56:06.301",
-	"count_dep":0,
-	"count_ref":3,
-	"licenses":[],
+	"version_latest":"2.0.0-RC1",
+	"ts_publish":1762842857000,
+	"dt_publish":"2025-11-11 14:34:17.000",
+	"ts_update":1762844158643,
+	"dt_update":"2025-11-11 14:55:38.309",
+	"count_dep":40,
+	"count_ref":5,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,11 +19,19 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.appform.ranger/ranger-server-common@1.1.2",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#54162 in MvnRepository",
+	"ranking":"#53732 in MvnRepository",
 	"tags":[
 		"server"
 	],
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250728",
 			"repository":"Central",
@@ -173,14 +183,7 @@
 			"usage":2,
 			"version":"1.0-RC8",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20220201",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.0-RC7",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Service Discovery for Java"
 }
