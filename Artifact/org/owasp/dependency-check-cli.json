@@ -3,11 +3,11 @@
 	"description":"dependency-check-cli is an command line tool that uses dependency-check-core to detect publicly disclosed vulnerabilities associated with the scanned project dependencies. The tool will generate a report listing the dependency, any identified Common Platform Enumeration (CPE) identifiers, and the associated Common Vulnerability and Exposure (CVE) entries.",
 	"group_id":"org.owasp",
 	"artifact_id":"dependency-check-cli",
-	"version_latest":"12.1.8",
-	"ts_publish":1760367843000,
-	"dt_publish":"2025-10-13 23:04:03.000",
-	"ts_update":1760368604112,
-	"dt_update":"2025-10-13 23:16:27.712",
+	"version_latest":"12.1.9",
+	"ts_publish":1762864928000,
+	"dt_publish":"2025-11-11 20:42:08.000",
+	"ts_update":1762865815722,
+	"dt_update":"2025-11-11 20:56:32.240",
 	"count_dep":19,
 	"count_ref":0,
 	"licenses":[
@@ -30,13 +30,29 @@
 	"url_scm":"https://github.com/dependency-check/DependencyCheck/tree/main/cli",
 	"url_ci_management":"https://github.com/dependency-check/DependencyCheck/actions",
 	"license":"Apache 2.0",
-	"ranking":"#790106 in MvnRepository",
+	"ranking":"#799639 in MvnRepository",
 	"tags":[
 		"command-line",
 		"owasp",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251012",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"10.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240515",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240331",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.1.0",
 			"vulnerabilities":""
 		}
 	]
