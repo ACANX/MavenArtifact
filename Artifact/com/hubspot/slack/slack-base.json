@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.hubspot.slack/slack-base",
 	"group_id":"com.hubspot.slack",
 	"artifact_id":"slack-base",
-	"version_latest":"1.16.18",
-	"ts_publish":1762260118000,
-	"dt_publish":"2025-11-04 20:41:58.000",
-	"ts_update":1762260991645,
-	"dt_update":"2025-11-04 20:56:24.024",
-	"count_dep":16,
+	"version_latest":"1.17.0",
+	"ts_publish":1762891786000,
+	"dt_publish":"2025-11-12 04:09:46.000",
+	"ts_update":1762894065894,
+	"dt_update":"2025-11-12 04:47:24.887",
+	"count_dep":34,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,11 +24,27 @@
 	"url_scm":"git@github.com:HubSpot/basepom.git/slack-client/slack-base",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#157221 in MvnRepository",
+	"ranking":"#152256 in MvnRepository",
 	"tags":[
 		"slack"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.16.18",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.16.17",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -170,22 +188,7 @@
 			"usage":2,
 			"version":"1.15.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240417",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240409",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.14",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"An asynchronous HTTP client for Slack's web API"
 }
