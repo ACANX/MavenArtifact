@@ -3,13 +3,13 @@
 	"description":"This module provides the core implementation of loading, validating, traversing, mutating, and serializing a Smithy model.",
 	"group_id":"software.amazon.smithy",
 	"artifact_id":"smithy-model",
-	"version_latest":"1.63.0",
-	"ts_publish":1761163075000,
-	"dt_publish":"2025-10-23 03:57:55.000",
-	"ts_update":1761165415084,
-	"dt_update":"2025-10-23 04:35:56.216",
+	"version_latest":"1.64.0",
+	"ts_publish":1762896291000,
+	"dt_publish":"2025-11-12 05:24:51.000",
+	"ts_update":1762897528361,
+	"dt_update":"2025-11-12 05:45:16.046",
 	"count_dep":1,
-	"count_ref":25,
+	"count_ref":19,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -23,10 +23,10 @@
 		"Smithy"
 	],
 	"url_scm":"https://github.com/smithy-lang/smithy.git",
-	"count_used_by":484,
+	"count_used_by":486,
 	"home_page":"https://github.com/smithy-lang/smithy",
 	"license":"Apache 2.0",
-	"ranking":"#1254 in MvnRepository",
+	"ranking":"#1273 in MvnRepository",
 	"tags":[
 		"amazon",
 		"smithy",
@@ -34,10 +34,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250926",
+			"date":"20251022",
 			"repository":"Central",
 			"type":"release",
 			"usage":20,
+			"version":"1.63.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":21,
 			"version":"1.62.0",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":32,
 			"version":"1.49.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240426",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"1.48.0",
 			"vulnerabilities":""
 		}
 	]

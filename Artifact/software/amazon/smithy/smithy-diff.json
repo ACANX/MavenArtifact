@@ -3,13 +3,13 @@
 	"description":"This module detects differences between two Smithy models, identifying changes that are safe and changes that are backward incompatible.",
 	"group_id":"software.amazon.smithy",
 	"artifact_id":"smithy-diff",
-	"version_latest":"1.63.0",
-	"ts_publish":1761163075000,
-	"dt_publish":"2025-10-23 03:57:55.000",
-	"ts_update":1761165413426,
-	"dt_update":"2025-10-23 04:35:55.678",
+	"version_latest":"1.64.0",
+	"ts_publish":1762896291000,
+	"dt_publish":"2025-11-12 05:24:51.000",
+	"ts_update":1762897526257,
+	"dt_update":"2025-11-12 05:45:16.041",
 	"count_dep":2,
-	"count_ref":9,
+	"count_ref":4,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -26,13 +26,21 @@
 	"count_used_by":5,
 	"home_page":"https://github.com/smithy-lang/smithy",
 	"license":"Apache 2.0",
-	"ranking":"#85725 in MvnRepository",
+	"ranking":"#86923 in MvnRepository",
 	"tags":[
 		"amazon",
 		"smithy",
 		"diff"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.63.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"1.49.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240426",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.48.0",
 			"vulnerabilities":""
 		}
 	]

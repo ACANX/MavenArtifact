@@ -3,12 +3,12 @@
 	"description":"This module provides Smithy traits and validators for IAM.",
 	"group_id":"software.amazon.smithy",
 	"artifact_id":"smithy-aws-iam-traits",
-	"version_latest":"1.63.0",
-	"ts_publish":1761163075000,
-	"dt_publish":"2025-10-23 03:57:55.000",
-	"ts_update":1761165384876,
-	"dt_update":"2025-10-23 04:35:55.676",
-	"count_dep":5,
+	"version_latest":"1.64.0",
+	"ts_publish":1762896291000,
+	"dt_publish":"2025-11-12 05:24:51.000",
+	"ts_update":1762897528063,
+	"dt_update":"2025-11-12 05:45:16.039",
+	"count_dep":1,
 	"count_ref":1,
 	"licenses":[
 		"Apache License 2.0"
@@ -23,10 +23,10 @@
 		"Smithy"
 	],
 	"url_scm":"https://github.com/smithy-lang/smithy.git",
-	"count_used_by":816,
+	"count_used_by":817,
 	"home_page":"https://github.com/smithy-lang/smithy",
 	"license":"Apache 2.0",
-	"ranking":"#756 in MvnRepository",
+	"ranking":"#769 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -34,6 +34,14 @@
 		"iam"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.63.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.49.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240426",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.48.0",
 			"vulnerabilities":""
 		}
 	]
