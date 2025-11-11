@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/us.fatehi/schemacrawler-sqlite",
-	"description":"Free database schema discovery and comprehension tool",
+	"description":"SchemaCrawler database plugin for SQLite",
 	"group_id":"us.fatehi",
 	"artifact_id":"schemacrawler-sqlite",
-	"version_latest":"17.1.3",
-	"ts_publish":1761568549000,
-	"dt_publish":"2025-10-27 20:35:49.000",
-	"ts_update":1761569799949,
-	"dt_update":"2025-10-27 20:56:31.914",
+	"version_latest":"17.1.5",
+	"ts_publish":1762899899000,
+	"dt_publish":"2025-11-12 06:24:59.000",
+	"ts_update":1762900508701,
+	"dt_update":"2025-11-12 06:35:00.425",
 	"count_dep":23,
-	"count_ref":3,
+	"count_ref":4,
 	"licenses":[
 		"GNU General Public License",
 		"GNU Lesser General Public License",
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/schemacrawler/SchemaCrawler/schemacrawler-sqlite",
 	"count_used_by":19,
 	"license":"EPL 1.0",
-	"ranking":"#24603 in MvnRepository",
+	"ranking":"#24709 in MvnRepository",
 	"tags":[
 		"sqlite",
 		"database",
@@ -36,6 +36,30 @@
 		"crawler"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"17.1.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"17.1.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"17.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251007",
 			"repository":"Central",
@@ -170,30 +194,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"16.24.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241217",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"16.24.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241127",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"16.23.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241124",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"16.23.1",
 			"vulnerabilities":""
 		}
 	]
