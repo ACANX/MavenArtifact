@@ -3,11 +3,11 @@
 	"description":"Contains OpenRewrite recipes to help users migrate from the AWS SDK for Java v1 to the AWS SDK for Java v2",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"v2-migration",
-	"version_latest":"2.38.3",
-	"ts_publish":1762825994000,
-	"dt_publish":"2025-11-11 09:53:14.000",
-	"ts_update":1762828059794,
-	"dt_update":"2025-11-11 10:26:37.215",
+	"version_latest":"2.38.4",
+	"ts_publish":1762902398000,
+	"dt_publish":"2025-11-12 07:06:38.000",
+	"ts_update":1762903611329,
+	"dt_update":"2025-11-12 07:26:33.524",
 	"count_dep":77,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/v2-migration",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#408674 in MvnRepository",
+	"ranking":"#408799 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -30,6 +30,22 @@
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.38.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.38.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.35.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251010",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.35.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251008",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.35.3",
 			"vulnerabilities":""
 		}
 	]
