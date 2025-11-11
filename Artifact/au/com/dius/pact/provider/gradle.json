@@ -1,14 +1,14 @@
 {
-	"id":"pkg:maven/au.com.dius.pact.consumer/kotlin",
-	"description":"Pact-JVM - Kotlin DSL for Pact JVM consumer tests",
-	"group_id":"au.com.dius.pact.consumer",
-	"artifact_id":"kotlin",
+	"id":"pkg:maven/au.com.dius.pact.provider/gradle",
+	"description":"Gradle Pact plugin",
+	"group_id":"au.com.dius.pact.provider",
+	"artifact_id":"gradle",
 	"version_latest":"4.7.0-beta.2",
-	"ts_publish":1762832182000,
-	"dt_publish":"2025-11-11 11:36:22.000",
-	"ts_update":1762833394826,
-	"dt_update":"2025-11-11 11:56:26.103",
-	"count_dep":12,
+	"ts_publish":1762832682000,
+	"dt_publish":"2025-11-11 11:44:42.000",
+	"ts_update":1762833393875,
+	"dt_update":"2025-11-11 11:56:26.099",
+	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2"
@@ -18,25 +18,29 @@
 	],
 	"dsv":1,
 	"url_project":"https://github.com/pact-foundation/pact-jvm",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/au.com.dius.pact.consumer/kotlin@4.7.0-beta.2",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/au.com.dius.pact.provider/gradle@4.7.0-beta.2",
 	"contributors":[
 		"Travis Dixon",
 		"Ronald Holshausen"
 	],
 	"url_scm":"https://github.com/pact-foundation/pact-jvm",
+	"count_used_by":1,
 	"home_page":"https://github.com/pact-foundation/pact-jvm",
 	"license":"Apache 2.0",
-	"ranking":"#674770 in MvnRepository",
+	"ranking":"#397491 in MvnRepository",
 	"tags":[
-		"consumer",
-		"kotlin"
+		"provider",
+		"build",
+		"build-system",
+		"gradle",
+		"groovy"
 	],
 	"versions":[
 		{
 			"date":"20250523",
 			"repository":"Central",
 			"type":"beta",
-			"usage":0,
+			"usage":1,
 			"version":"4.7.0-beta.1",
 			"vulnerabilities":""
 		},
@@ -44,7 +48,7 @@
 			"date":"20241204",
 			"repository":"Central",
 			"type":"beta",
-			"usage":0,
+			"usage":1,
 			"version":"4.7.0-beta.0",
 			"vulnerabilities":""
 		},
@@ -52,7 +56,7 @@
 			"date":"20250214",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.17",
 			"vulnerabilities":""
 		},
@@ -60,7 +64,7 @@
 			"date":"20241204",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.16",
 			"vulnerabilities":""
 		},
@@ -68,7 +72,7 @@
 			"date":"20241029",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.15",
 			"vulnerabilities":""
 		},
@@ -76,7 +80,7 @@
 			"date":"20240827",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.14",
 			"vulnerabilities":""
 		},
@@ -84,7 +88,7 @@
 			"date":"20240809",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.13",
 			"vulnerabilities":""
 		},
@@ -92,7 +96,7 @@
 			"date":"20240806",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.12",
 			"vulnerabilities":""
 		},
@@ -100,7 +104,7 @@
 			"date":"20240705",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.11",
 			"vulnerabilities":""
 		},
@@ -108,7 +112,7 @@
 			"date":"20240531",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.10",
 			"vulnerabilities":""
 		},
@@ -116,7 +120,7 @@
 			"date":"20240418",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.9",
 			"vulnerabilities":""
 		},
@@ -124,7 +128,7 @@
 			"date":"20240327",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.8",
 			"vulnerabilities":""
 		},
@@ -132,7 +136,7 @@
 			"date":"20240216",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.7",
 			"vulnerabilities":""
 		},
@@ -140,7 +144,7 @@
 			"date":"20240130",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.6",
 			"vulnerabilities":""
 		},
@@ -148,7 +152,7 @@
 			"date":"20240118",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.5",
 			"vulnerabilities":""
 		},
@@ -156,7 +160,7 @@
 			"date":"20231211",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.4",
 			"vulnerabilities":""
 		},
@@ -164,7 +168,7 @@
 			"date":"20230922",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.3",
 			"vulnerabilities":""
 		},
@@ -172,7 +176,7 @@
 			"date":"20230818",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.2",
 			"vulnerabilities":""
 		},
@@ -180,7 +184,7 @@
 			"date":"20230623",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.1",
 			"vulnerabilities":""
 		},
@@ -188,7 +192,7 @@
 			"date":"20230508",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"4.6.0",
 			"vulnerabilities":""
 		}
