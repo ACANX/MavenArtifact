@@ -3,11 +3,11 @@
 	"description":"Multi-Target Application (MTA) deployment service for Cloud Foundry",
 	"group_id":"org.cloudfoundry.multiapps",
 	"artifact_id":"multiapps-controller-database-migration",
-	"version_latest":"2.35.0",
-	"ts_publish":1761641456000,
-	"dt_publish":"2025-10-28 16:50:56.000",
-	"ts_update":1761643098936,
-	"dt_update":"2025-10-28 17:17:46.538",
+	"version_latest":"2.36.0",
+	"ts_publish":1762845549000,
+	"dt_publish":"2025-11-11 15:19:09.000",
+	"ts_update":1762846419897,
+	"dt_update":"2025-11-11 15:33:22.932",
 	"count_dep":148,
 	"count_ref":2,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/cloudfoundry-incubator/multiapps-controller.git/multiapps-controller-database-migration",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#255008 in MvnRepository",
+	"ranking":"#255711 in MvnRepository",
 	"tags":[
 		"database",
 		"data",
@@ -33,6 +33,14 @@
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.35.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.186.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.186.0",
 			"vulnerabilities":""
 		}
 	]
