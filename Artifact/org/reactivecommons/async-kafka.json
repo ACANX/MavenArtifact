@@ -3,12 +3,12 @@
 	"description":"Abstract your broker with semantic async messages",
 	"group_id":"org.reactivecommons",
 	"artifact_id":"async-kafka",
-	"version_latest":"6.0.0",
-	"ts_publish":1758670929000,
-	"dt_publish":"2025-09-24 07:42:09.000",
-	"ts_update":1758673632081,
-	"dt_update":"2025-09-24 08:26:07.596",
-	"count_dep":15,
+	"version_latest":"6.1.0",
+	"ts_publish":1762867074000,
+	"dt_publish":"2025-11-11 21:17:54.000",
+	"ts_update":1762867591749,
+	"dt_update":"2025-11-11 21:26:17.794",
+	"count_dep":10,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -27,13 +27,29 @@
 	"count_used_by":1,
 	"home_page":"https://reactivecommons.org/reactive-commons-java",
 	"license":"Apache 2.0",
-	"ranking":"#383411 in MvnRepository",
+	"ranking":"#378079 in MvnRepository",
 	"tags":[
 		"streaming",
 		"kafka",
 		"asynchronous"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"6.0.0-beta.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"5.1.0-beta",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240823",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"5.0.3-alpha",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240823",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"5.0.2-alpha",
 			"vulnerabilities":""
 		}
 	]
