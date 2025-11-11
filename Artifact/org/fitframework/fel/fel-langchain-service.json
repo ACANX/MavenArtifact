@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.fitframework.fel/fel-langchain-service",
 	"group_id":"org.fitframework.fel",
 	"artifact_id":"fel-langchain-service",
-	"version_latest":"3.5.5",
-	"ts_publish":1762512751000,
-	"dt_publish":"2025-11-07 18:52:31.000",
-	"ts_update":1762514069084,
-	"dt_update":"2025-11-07 19:14:07.759",
+	"version_latest":"3.6.0",
+	"ts_publish":1762849544000,
+	"dt_publish":"2025-11-11 16:25:44.000",
+	"ts_update":1762850714494,
+	"dt_update":"2025-11-11 16:45:03.005",
 	"count_dep":1,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"MIT License"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/ModelEngine-Group/fit-framework/fel-services-parent/fel-langchain-service",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.fitframework.fel/fel-langchain-service@3.5.0",
@@ -19,13 +21,21 @@
 	"url_scm":"https://github.com/ModelEngine-Group/fit-framework/fel-services-parent/fel-langchain-service",
 	"count_used_by":2,
 	"license":"MIT",
-	"ranking":"#194480 in MvnRepository",
+	"ranking":"#194931 in MvnRepository",
 	"tags":[
 		"service",
 		"ai",
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.5.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -98,5 +108,6 @@
 			"version":"3.5.0-M3",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"FIT Expression for LLM."
 }

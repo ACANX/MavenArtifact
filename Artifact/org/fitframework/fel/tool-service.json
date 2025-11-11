@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.fitframework.fel/tool-service",
 	"group_id":"org.fitframework.fel",
 	"artifact_id":"tool-service",
-	"version_latest":"3.5.5",
-	"ts_publish":1762512751000,
-	"dt_publish":"2025-11-07 18:52:31.000",
-	"ts_update":1762514062316,
-	"dt_update":"2025-11-07 19:14:07.180",
+	"version_latest":"3.6.0",
+	"ts_publish":1762849544000,
+	"dt_publish":"2025-11-11 16:25:44.000",
+	"ts_update":1762850719293,
+	"dt_update":"2025-11-11 16:45:02.282",
 	"count_dep":16,
 	"count_ref":8,
-	"licenses":[],
+	"licenses":[
+		"MIT License"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/ModelEngine-Group/fit-framework/fel-services-parent/tool-service",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.fitframework.fel/tool-service@3.5.0",
@@ -19,11 +21,19 @@
 	"url_scm":"https://github.com/ModelEngine-Group/fit-framework/fel-services-parent/tool-service",
 	"count_used_by":8,
 	"license":"MIT",
-	"ranking":"#61989 in MvnRepository",
+	"ranking":"#62053 in MvnRepository",
 	"tags":[
 		"service"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"3.5.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -112,5 +122,6 @@
 			"version":"3.5.0-M2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"FIT Expression for LLM."
 }
