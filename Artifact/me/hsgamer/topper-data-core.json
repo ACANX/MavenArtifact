@@ -2,14 +2,16 @@
 	"id":"pkg:maven/me.hsgamer/topper-data-core",
 	"group_id":"me.hsgamer",
 	"artifact_id":"topper-data-core",
-	"version_latest":"4.9.1",
-	"ts_publish":1762360743000,
-	"dt_publish":"2025-11-06 00:39:03.000",
-	"ts_update":1762362968064,
-	"dt_update":"2025-11-06 01:15:43.468",
-	"count_dep":0,
+	"version_latest":"4.10.0",
+	"ts_publish":1762833338000,
+	"dt_publish":"2025-11-11 11:55:38.000",
+	"ts_update":1762834909204,
+	"dt_update":"2025-11-11 12:21:03.959",
+	"count_dep":1,
 	"count_ref":9,
-	"licenses":[],
+	"licenses":[
+		"MIT License"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/Topper-MC/Topper/topper-data/topper-data-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/me.hsgamer/topper-data-core@4.1.1",
@@ -20,11 +22,19 @@
 	"url_scm":"https://github.com/Topper-MC/Topper/topper-data/topper-data-core",
 	"count_used_by":3,
 	"license":"MIT",
-	"ranking":"#172353 in MvnRepository",
+	"ranking":"#172833 in MvnRepository",
 	"tags":[
 		"data"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.9.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251028",
 			"repository":"Central",
@@ -129,5 +139,6 @@
 			"version":"4.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A framework to handle single-value data tables"
 }

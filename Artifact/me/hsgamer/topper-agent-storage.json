@@ -2,14 +2,16 @@
 	"id":"pkg:maven/me.hsgamer/topper-agent-storage",
 	"group_id":"me.hsgamer",
 	"artifact_id":"topper-agent-storage",
-	"version_latest":"4.9.1",
-	"ts_publish":1762360743000,
-	"dt_publish":"2025-11-06 00:39:03.000",
-	"ts_update":1762440658080,
-	"dt_update":"2025-11-06 22:50:50.541",
-	"count_dep":5,
+	"version_latest":"4.10.0",
+	"ts_publish":1762833338000,
+	"dt_publish":"2025-11-11 11:55:38.000",
+	"ts_update":1762834900711,
+	"dt_update":"2025-11-11 12:21:03.452",
+	"count_dep":7,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"MIT License"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/Topper-MC/Topper/topper-agent/topper-agent-storage",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/me.hsgamer/topper-agent-storage@4.1.1",
@@ -20,12 +22,20 @@
 	"url_scm":"https://github.com/Topper-MC/Topper/topper-agent/topper-agent-storage",
 	"count_used_by":3,
 	"license":"MIT",
-	"ranking":"#165386 in MvnRepository",
+	"ranking":"#165438 in MvnRepository",
 	"tags":[
 		"agent",
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.9.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251028",
 			"repository":"Central",
@@ -177,14 +187,7 @@
 			"usage":1,
 			"version":"3.8.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250305",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.8.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A framework to handle single-value data tables"
 }

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/me.hsgamer/topper-storage-sql",
 	"group_id":"me.hsgamer",
 	"artifact_id":"topper-storage-sql",
-	"version_latest":"4.9.1",
-	"ts_publish":1762360743000,
-	"dt_publish":"2025-11-06 00:39:03.000",
-	"ts_update":1762440996917,
-	"dt_update":"2025-11-06 22:56:28.188",
-	"count_dep":1,
+	"version_latest":"4.10.0",
+	"ts_publish":1762833338000,
+	"dt_publish":"2025-11-11 11:55:38.000",
+	"ts_update":1762834907411,
+	"dt_update":"2025-11-11 12:21:03.454",
+	"count_dep":2,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"MIT License"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/Topper-MC/Topper/topper-storage/topper-storage-sql",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/me.hsgamer/topper-storage-sql@4.1.1",
@@ -19,12 +21,20 @@
 	],
 	"url_scm":"https://github.com/Topper-MC/Topper/topper-storage/topper-storage-sql",
 	"license":"MIT",
-	"ranking":"#929364 in MvnRepository",
+	"ranking":"#926818 in MvnRepository",
 	"tags":[
 		"sql",
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.9.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251028",
 			"repository":"Central",
@@ -129,5 +139,6 @@
 			"version":"4.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A framework to handle single-value data tables"
 }
