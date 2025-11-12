@@ -3,12 +3,12 @@
 	"description":"Vaadin Spreadsheet",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-spreadsheet-flow",
-	"version_latest":"25.0.0-beta4",
-	"ts_publish":1761905333000,
-	"dt_publish":"2025-10-31 18:08:53.000",
-	"ts_update":1761906410091,
-	"dt_update":"2025-10-31 18:26:24.649",
-	"count_dep":14,
+	"version_latest":"25.0.0-beta5",
+	"ts_publish":1762933465000,
+	"dt_publish":"2025-11-12 15:44:25.000",
+	"ts_update":1762934213040,
+	"dt_update":"2025-11-12 15:56:26.603",
+	"count_dep":51,
 	"count_ref":0,
 	"licenses":[
 		"Vaadin Commercial License and Service Terms"
@@ -20,14 +20,22 @@
 	"url_project":"https://vaadin.com/components/vaadin-spreadsheet-flow-parent/vaadin-spreadsheet-flow",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vaadin/vaadin-spreadsheet-flow@24.8.6",
 	"url_scm":"https://github.com/vaadin/flow-components/vaadin-spreadsheet-flow-parent/vaadin-spreadsheet-flow",
-	"count_used_by":5,
-	"ranking":"#101417 in MvnRepository",
+	"count_used_by":6,
+	"ranking":"#84101 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"spreadsheet"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"beta",
+			"usage":5,
+			"version":"25.0.0-beta4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -50,6 +58,14 @@
 			"type":"beta",
 			"usage":5,
 			"version":"25.0.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"24.9.5",
 			"vulnerabilities":""
 		},
 		{
@@ -88,7 +104,7 @@
 			"date":"20250916",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":6,
 			"version":"24.9.0",
 			"vulnerabilities":""
 		},
@@ -133,6 +149,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"24.8.13",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251029",
 			"repository":"Central",
 			"type":"release",
@@ -162,30 +186,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"24.8.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"24.8.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"24.8.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"24.8.6",
 			"vulnerabilities":""
 		}
 	]

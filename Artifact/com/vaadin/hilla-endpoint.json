@@ -3,13 +3,13 @@
 	"description":"A parent POM for all artifacts by Vaadin Ltd.",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-endpoint",
-	"version_latest":"25.0.0-beta3",
-	"ts_publish":1761905914000,
-	"dt_publish":"2025-10-31 18:18:34.000",
-	"ts_update":1761907804995,
-	"dt_update":"2025-10-31 18:49:52.991",
-	"count_dep":89,
-	"count_ref":1,
+	"version_latest":"25.0.0-beta4",
+	"ts_publish":1762933435000,
+	"dt_publish":"2025-11-12 15:43:55.000",
+	"ts_update":1762934218186,
+	"dt_update":"2025-11-12 15:56:29.827",
+	"count_dep":93,
+	"count_ref":2,
 	"licenses":[
 		"Apache License Version 2.0"
 	],
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/vaadin/hilla/hilla-endpoint",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#41176 in MvnRepository",
+	"ranking":"#41373 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"endpoint"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"beta",
+			"usage":4,
+			"version":"25.0.0-beta3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -43,6 +51,14 @@
 			"type":"beta",
 			"usage":7,
 			"version":"25.0.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"24.9.5",
 			"vulnerabilities":""
 		},
 		{
@@ -126,6 +142,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"24.8.13",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251029",
 			"repository":"Central",
 			"type":"release",
@@ -163,30 +187,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"24.8.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"24.8.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"24.8.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250731",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"24.8.5",
 			"vulnerabilities":""
 		}
 	]
