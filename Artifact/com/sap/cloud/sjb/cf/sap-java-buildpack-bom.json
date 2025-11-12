@@ -3,11 +3,11 @@
 	"description":"Versions control of SAP Java Buildpack dependencies",
 	"group_id":"com.sap.cloud.sjb.cf",
 	"artifact_id":"sap-java-buildpack-bom",
-	"version_latest":"2.43.0",
-	"ts_publish":1761701577000,
-	"dt_publish":"2025-10-29 09:32:57.000",
-	"ts_update":1761704796645,
-	"dt_update":"2025-10-29 10:26:25.840",
+	"version_latest":"2.44.0",
+	"ts_publish":1762943542000,
+	"dt_publish":"2025-11-12 18:32:22.000",
+	"ts_update":1762944238282,
+	"dt_update":"2025-11-12 18:43:45.310",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://www.sap.com",
 	"home_page":"https://www.sap.com",
 	"license":"SAP-Dev",
-	"ranking":"#502948 in MvnRepository",
+	"ranking":"#505379 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
@@ -31,6 +31,14 @@
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.43.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.22.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241029",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.21.0",
 			"vulnerabilities":""
 		}
 	]
