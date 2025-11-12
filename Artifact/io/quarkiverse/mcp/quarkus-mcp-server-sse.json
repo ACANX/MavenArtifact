@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-sse",
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.mcp",
 	"artifact_id":"quarkus-mcp-server-sse",
-	"version_latest":"1.7.0",
-	"ts_publish":1760520080000,
-	"dt_publish":"2025-10-15 17:21:20.000",
-	"ts_update":1760520895437,
-	"dt_update":"2025-10-15 17:34:47.760",
-	"count_dep":103,
+	"version_latest":"1.7.2",
+	"ts_publish":1762944608000,
+	"dt_publish":"2025-11-12 18:50:08.000",
+	"ts_update":1762946124281,
+	"dt_update":"2025-11-12 19:14:58.668",
+	"count_dep":3,
 	"count_ref":4,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-sse@1.5.1",
@@ -21,19 +18,35 @@
 		"Quarkus Community"
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-mcp-server",
-	"count_used_by":12,
+	"count_used_by":14,
 	"license":"Apache 2.0",
-	"ranking":"#38974 in MvnRepository",
+	"ranking":"#33639 in MvnRepository",
 	"tags":[
 		"server",
 		"quarkus"
 	],
 	"versions":[
 		{
-			"date":"20251008",
+			"date":"20251103",
 			"repository":"Central",
 			"type":"release",
 			"usage":4,
+			"version":"1.7.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.7.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251008",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
 			"version":"1.6.1",
 			"vulnerabilities":""
 		},
@@ -171,22 +184,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.0.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250313",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"1.0.0.Beta5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"beta",
-			"usage":3,
-			"version":"1.0.0.Beta4",
 			"vulnerabilities":""
 		}
 	]

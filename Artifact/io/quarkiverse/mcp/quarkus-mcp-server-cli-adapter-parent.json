@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-cli-adapter-parent",
 	"group_id":"io.quarkiverse.mcp",
 	"artifact_id":"quarkus-mcp-server-cli-adapter-parent",
-	"version_latest":"1.7.1",
-	"ts_publish":1762161230000,
-	"dt_publish":"2025-11-03 17:13:50.000",
-	"ts_update":1762161605252,
-	"dt_update":"2025-11-03 17:19:43.176",
+	"version_latest":"1.7.2",
+	"ts_publish":1762944608000,
+	"dt_publish":"2025-11-12 18:50:08.000",
+	"ts_update":1762946113482,
+	"dt_update":"2025-11-12 19:14:58.674",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-cli-adapter-parent@1.5.1",
@@ -21,7 +19,7 @@
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-mcp-server",
 	"license":"Apache 2.0",
-	"ranking":"#759429 in MvnRepository",
+	"ranking":"#755635 in MvnRepository",
 	"tags":[
 		"server",
 		"quarkus",
@@ -29,6 +27,14 @@
 		"command-line"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.7.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -157,6 +163,5 @@
 			"version":"1.1.0",
 			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
+	]
 }
