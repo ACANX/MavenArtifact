@@ -3,23 +3,25 @@
 	"description":"Jackson serialization support for Quarkus REST. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-rest-jackson",
-	"version_latest":"3.29.1",
-	"ts_publish":1762355408000,
-	"dt_publish":"2025-11-05 23:10:08.000",
-	"ts_update":1762359988454,
-	"dt_update":"2025-11-06 00:21:08.087",
+	"version_latest":"3.30.0.CR1",
+	"ts_publish":1762956091000,
+	"dt_publish":"2025-11-12 22:01:31.000",
+	"ts_update":1762957619078,
+	"dt_update":"2025-11-12 22:26:18.275",
 	"count_dep":3,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-rest-jackson@3.25.2",
-	"count_used_by":164,
+	"count_used_by":165,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#3536 in MvnRepository",
+	"ranking":"#3527 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -27,10 +29,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251022",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":7,
 			"version":"3.29.0",
 			"vulnerabilities":""
 		},
@@ -168,22 +186,6 @@
 			"type":"release",
 			"usage":12,
 			"version":"3.25.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"3.25.2",
 			"vulnerabilities":""
 		}
 	]

@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-smallrye-context-propagation-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-smallrye-context-propagation-deployment",
-	"version_latest":"3.29.2",
-	"ts_publish":1762599518000,
-	"dt_publish":"2025-11-08 18:58:38.000",
-	"ts_update":1762602310237,
-	"dt_update":"2025-11-08 19:26:51.833",
-	"count_dep":87,
-	"count_ref":13,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"3.30.0.CR1",
+	"ts_publish":1762956091000,
+	"dt_publish":"2025-11-12 22:01:31.000",
+	"ts_update":1762957667627,
+	"dt_update":"2025-11-12 22:26:21.637",
+	"count_dep":6,
+	"count_ref":11,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,13 +24,29 @@
 	"count_used_by":36,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#13392 in MvnRepository",
+	"ranking":"#13405 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
 		"context"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -176,23 +190,6 @@
 			"usage":5,
 			"version":"3.25.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.25.2",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Build parent to bring in required dependencies"
+	]
 }

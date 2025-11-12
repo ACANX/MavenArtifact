@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-resteasy-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-resteasy-deployment",
-	"version_latest":"3.29.2",
-	"ts_publish":1762599518000,
-	"dt_publish":"2025-11-08 18:58:38.000",
-	"ts_update":1762601224468,
-	"dt_update":"2025-11-08 19:26:51.832",
+	"version_latest":"3.30.0.CR1",
+	"ts_publish":1762956090000,
+	"dt_publish":"2025-11-12 22:01:30.000",
+	"ts_update":1762957641814,
+	"dt_update":"2025-11-12 22:26:34.300",
 	"count_dep":14,
-	"count_ref":23,
-	"licenses":[],
+	"count_ref":20,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,6 +28,14 @@
 		"deployment"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":37,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -177,14 +187,7 @@
 			"usage":37,
 			"version":"3.25.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":37,
-			"version":"3.25.3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

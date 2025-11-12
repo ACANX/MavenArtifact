@@ -3,13 +3,13 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-test-keycloak-server",
-	"version_latest":"3.29.2",
-	"ts_publish":1762599519000,
-	"dt_publish":"2025-11-08 18:58:39.000",
-	"ts_update":1762601233785,
-	"dt_update":"2025-11-08 19:26:31.562",
+	"version_latest":"3.30.0.CR1",
+	"ts_publish":1762956090000,
+	"dt_publish":"2025-11-12 22:01:30.000",
+	"ts_update":1762957682172,
+	"dt_update":"2025-11-12 22:26:32.139",
 	"count_dep":164,
-	"count_ref":3,
+	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -27,7 +27,7 @@
 	"count_used_by":24,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#19644 in MvnRepository",
+	"ranking":"#19679 in MvnRepository",
 	"tags":[
 		"server",
 		"quarkus",
@@ -35,6 +35,22 @@
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.25.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.25.2",
 			"vulnerabilities":""
 		}
 	]

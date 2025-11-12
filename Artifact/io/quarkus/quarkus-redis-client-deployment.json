@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-redis-client-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-redis-client-deployment",
-	"version_latest":"3.29.2",
-	"ts_publish":1762599518000,
-	"dt_publish":"2025-11-08 18:58:38.000",
-	"ts_update":1762601244189,
-	"dt_update":"2025-11-08 19:26:50.587",
-	"count_dep":24,
+	"version_latest":"3.30.0.CR1",
+	"ts_publish":1762956090000,
+	"dt_publish":"2025-11-12 22:01:30.000",
+	"ts_update":1762957611513,
+	"dt_update":"2025-11-12 22:26:30.536",
+	"count_dep":14,
 	"count_ref":1,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -25,7 +23,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#37148 in MvnRepository",
+	"ranking":"#37620 in MvnRepository",
 	"tags":[
 		"database",
 		"deployment",
@@ -34,6 +32,54 @@
 		"redis"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.29.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.28.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.28.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -78,7 +124,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":7,
 			"version":"3.27.0",
 			"vulnerabilities":""
 		},
@@ -145,55 +191,6 @@
 			"usage":6,
 			"version":"3.25.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.25.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.25.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.25.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.25.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.24.5",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Build parent to bring in required dependencies"
+	]
 }

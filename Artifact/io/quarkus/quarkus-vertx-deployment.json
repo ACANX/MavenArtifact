@@ -3,12 +3,12 @@
 	"description":"Build parent to bring in required dependencies",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-vertx-deployment",
-	"version_latest":"3.29.1",
-	"ts_publish":1762355408000,
-	"dt_publish":"2025-11-05 23:10:08.000",
-	"ts_update":1762359720581,
-	"dt_update":"2025-11-06 00:21:09.434",
-	"count_dep":123,
+	"version_latest":"3.30.0.CR1",
+	"ts_publish":1762956090000,
+	"dt_publish":"2025-11-12 22:01:30.000",
+	"ts_update":1762957689042,
+	"dt_update":"2025-11-12 22:26:32.139",
+	"count_dep":133,
 	"count_ref":23,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -27,13 +27,29 @@
 	"count_used_by":122,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#4520 in MvnRepository",
+	"ranking":"#4528 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
 		"vertx"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":38,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":38,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":38,
 			"version":"3.25.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":41,
-			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":39,
-			"version":"3.25.2",
 			"vulnerabilities":""
 		}
 	]

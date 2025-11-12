@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-virtual-threads-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-virtual-threads-deployment",
-	"version_latest":"3.29.2",
-	"ts_publish":1762599519000,
-	"dt_publish":"2025-11-08 18:58:39.000",
-	"ts_update":1762602296446,
-	"dt_update":"2025-11-08 19:26:43.624",
-	"count_dep":98,
-	"count_ref":11,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"3.30.0.CR1",
+	"ts_publish":1762956090000,
+	"dt_publish":"2025-11-12 22:01:30.000",
+	"ts_update":1762957645151,
+	"dt_update":"2025-11-12 22:26:40.341",
+	"count_dep":4,
+	"count_ref":9,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -25,7 +23,7 @@
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#51728 in MvnRepository",
+	"ranking":"#51810 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -33,6 +31,14 @@
 		"thread"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -184,15 +190,6 @@
 			"usage":6,
 			"version":"3.25.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.25.3",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Build parent to bring in required dependencies"
+	]
 }

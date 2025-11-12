@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-opentelemetry-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-opentelemetry-deployment",
-	"version_latest":"3.29.2",
-	"ts_publish":1762599519000,
-	"dt_publish":"2025-11-08 18:58:39.000",
-	"ts_update":1762602303817,
-	"dt_update":"2025-11-08 19:26:23.946",
-	"count_dep":101,
+	"version_latest":"3.30.0.CR1",
+	"ts_publish":1762956091000,
+	"dt_publish":"2025-11-12 22:01:31.000",
+	"ts_update":1762957633964,
+	"dt_update":"2025-11-12 22:26:18.809",
+	"count_dep":32,
 	"count_ref":1,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,7 +24,7 @@
 	"count_used_by":23,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#20716 in MvnRepository",
+	"ranking":"#20753 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -35,6 +33,14 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -186,15 +192,6 @@
 			"usage":5,
 			"version":"3.25.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.25.3",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Build parent to bring in required dependencies"
+	]
 }
