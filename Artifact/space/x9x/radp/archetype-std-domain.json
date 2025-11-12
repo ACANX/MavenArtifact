@@ -2,14 +2,16 @@
 	"id":"pkg:maven/space.x9x.radp/archetype-std-domain",
 	"group_id":"space.x9x.radp",
 	"artifact_id":"archetype-std-domain",
-	"version_latest":"3.26",
-	"ts_publish":1762710228000,
-	"dt_publish":"2025-11-10 01:43:48.000",
-	"ts_update":1762712438931,
-	"dt_update":"2025-11-10 02:20:22.727",
-	"count_dep":0,
+	"version_latest":"3.26.2",
+	"ts_publish":1762942129000,
+	"dt_publish":"2025-11-12 18:08:49.000",
+	"ts_update":1762942766205,
+	"dt_update":"2025-11-12 18:19:03.744",
+	"count_dep":55,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/xooooooooox/radp/radp-components/radp-dependencies/radp-parent/radp-tests/radp-smoke-tests/radp-smoke-tests-archetype/radp-smoke-tests-archetype-std/archetype-std-domain",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/space.x9x.radp/archetype-std-domain@3.24",
@@ -20,12 +22,20 @@
 	"url_scm":"https://github.com/xooooooooox/radp.git/radp-components/radp-dependencies/radp-parent/radp-tests/radp-smoke-tests/radp-smoke-tests-archetype/radp-smoke-tests-archetype-std/archetype-std-domain",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#131783 in MvnRepository",
+	"ranking":"#131874 in MvnRepository",
 	"tags":[
 		"domain",
 		"archetype"
 	],
 	"versions":[
+		{
+			"date":"20251109",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.26",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250921",
 			"repository":"Central",
@@ -88,6 +98,22 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.20.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.26.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251109",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.26",
 			"vulnerabilities":""
 		},
 		{
@@ -154,5 +180,6 @@
 			"version":"v2.22",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"冒烟测试"
 }
