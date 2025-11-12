@@ -3,13 +3,13 @@
 	"description":"Connect to Amazon EventBridge service",
 	"group_id":"io.quarkiverse.amazonservices",
 	"artifact_id":"quarkus-amazon-eventbridge",
-	"version_latest":"3.12.0.CR1",
-	"ts_publish":1760822628000,
-	"dt_publish":"2025-10-19 05:23:48.000",
-	"ts_update":1760823870214,
-	"dt_update":"2025-10-19 05:44:21.139",
+	"version_latest":"3.12.1",
+	"ts_publish":1762984317000,
+	"dt_publish":"2025-11-13 05:51:57.000",
+	"ts_update":1762985794564,
+	"dt_update":"2025-11-13 06:16:24.668",
 	"count_dep":9,
-	"count_ref":0,
+	"count_ref":3,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-eventbridge@3.10.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#150647 in MvnRepository",
+	"ranking":"#154835 in MvnRepository",
 	"tags":[
 		"amazon",
 		"quarkus",
@@ -26,6 +26,30 @@
 		"eventbridge"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251019",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.12.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -160,30 +184,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241027",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241027",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240929",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":3,
-			"version":"3.0.0.alpha1",
 			"vulnerabilities":""
 		}
 	]
