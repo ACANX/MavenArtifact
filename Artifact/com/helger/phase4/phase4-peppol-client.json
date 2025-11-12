@@ -3,12 +3,12 @@
 	"description":"Peppol AS4 client for outgoing transmissions",
 	"group_id":"com.helger.phase4",
 	"artifact_id":"phase4-peppol-client",
-	"version_latest":"4.0.1",
-	"ts_publish":1757429074000,
-	"dt_publish":"2025-09-09 22:44:34.000",
-	"ts_update":1757431051891,
-	"dt_update":"2025-09-09 23:17:09.270",
-	"count_dep":109,
+	"version_latest":"4.0.2",
+	"ts_publish":1762974814000,
+	"dt_publish":"2025-11-13 03:13:34.000",
+	"ts_update":1762975603977,
+	"dt_update":"2025-11-13 03:26:29.389",
+	"count_dep":158,
 	"count_ref":1,
 	"licenses":[
 		"Apache 2"
@@ -24,16 +24,24 @@
 		"Martin Bayerl"
 	],
 	"url_scm":"https://github.com/phax/phase4/phase4-peppol-client",
-	"count_used_by":1,
+	"count_used_by":2,
 	"home_page":"https://github.com/phax/phase4/phase4-peppol-client",
 	"license":"Apache 2.0",
-	"ranking":"#255437 in MvnRepository",
+	"ranking":"#176587 in MvnRepository",
 	"tags":[
 		"bundle",
 		"client",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250827",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"3.0.0-beta6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241104",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"3.0.0-beta5",
 			"vulnerabilities":""
 		}
 	]
