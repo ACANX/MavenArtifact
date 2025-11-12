@@ -3,13 +3,13 @@
 	"description":"Monitor service health",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-smallrye-health",
-	"version_latest":"3.29.2",
-	"ts_publish":1762599518000,
-	"dt_publish":"2025-11-08 18:58:38.000",
-	"ts_update":1762601227088,
-	"dt_update":"2025-11-08 19:26:49.963",
-	"count_dep":60,
-	"count_ref":10,
+	"version_latest":"3.30.0.CR1",
+	"ts_publish":1762956091000,
+	"dt_publish":"2025-11-12 22:01:31.000",
+	"ts_update":1762958505233,
+	"dt_update":"2025-11-12 22:26:19.917",
+	"count_dep":57,
+	"count_ref":9,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -21,12 +21,20 @@
 	"count_used_by":340,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#1976 in MvnRepository",
+	"ranking":"#1978 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"health"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":22,
 			"version":"3.25.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":22,
-			"version":"3.25.3",
 			"vulnerabilities":""
 		}
 	]
