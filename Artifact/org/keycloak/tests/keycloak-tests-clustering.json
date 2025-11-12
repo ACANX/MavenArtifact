@@ -3,14 +3,16 @@
 	"description":"Keycloak Clustering Tests",
 	"group_id":"org.keycloak.tests",
 	"artifact_id":"keycloak-tests-clustering",
-	"version_latest":"26.4.4",
-	"ts_publish":1762505225000,
-	"dt_publish":"2025-11-07 16:47:05.000",
-	"ts_update":1762505811774,
-	"dt_update":"2025-11-07 16:56:28.356",
+	"version_latest":"26.4.5",
+	"ts_publish":1762960258000,
+	"dt_publish":"2025-11-12 23:10:58.000",
+	"ts_update":1762961208125,
+	"dt_update":"2025-11-12 23:26:30.019",
 	"count_dep":7,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"http://keycloak.org/keycloak-tests-parent/keycloak-tests-clustering",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.keycloak.tests/keycloak-tests-clustering@26.3.3",
@@ -20,13 +22,29 @@
 	],
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-tests-parent/keycloak-tests-clustering/",
 	"license":"Apache 2.0",
-	"ranking":"#860076 in MvnRepository",
+	"ranking":"#821521 in MvnRepository",
 	"tags":[
 		"testing",
 		"cluster",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"26.4.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"26.4.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
