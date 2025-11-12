@@ -3,12 +3,12 @@
 	"description":"Client interface for Tock NLP Client",
 	"group_id":"ai.tock",
 	"artifact_id":"tock-nlp-core-client",
-	"version_latest":"25.10.0",
-	"ts_publish":1762763609000,
-	"dt_publish":"2025-11-10 16:33:29.000",
-	"ts_update":1762764876685,
-	"dt_update":"2025-11-10 16:54:21.840",
-	"count_dep":6,
+	"version_latest":"25.10.1",
+	"ts_publish":1762979755000,
+	"dt_publish":"2025-11-13 04:35:55.000",
+	"ts_update":1762980487048,
+	"dt_update":"2025-11-13 04:47:49.230",
+	"count_dep":2,
 	"count_ref":3,
 	"licenses":[],
 	"categories":[
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ai.tock/tock-nlp-core-client@25.3.10",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#233736 in MvnRepository",
+	"ranking":"#226029 in MvnRepository",
 	"tags":[
 		"nlp",
 		"client",
 		"ai"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"25.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"24.3.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240820",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"24.3.5",
 			"vulnerabilities":""
 		}
 	]
