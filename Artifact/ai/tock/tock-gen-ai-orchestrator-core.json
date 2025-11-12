@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ai.tock/tock-gen-ai-orchestrator-core",
 	"group_id":"ai.tock",
 	"artifact_id":"tock-gen-ai-orchestrator-core",
-	"version_latest":"25.10.0",
-	"ts_publish":1762763609000,
-	"dt_publish":"2025-11-10 16:33:29.000",
-	"ts_update":1762764878697,
-	"dt_update":"2025-11-10 16:54:20.263",
-	"count_dep":12,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"25.10.1",
+	"ts_publish":1762979755000,
+	"dt_publish":"2025-11-13 04:35:55.000",
+	"ts_update":1762980998255,
+	"dt_update":"2025-11-13 04:56:31.313",
+	"count_dep":113,
+	"count_ref":3,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,11 +19,19 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ai.tock/tock-gen-ai-orchestrator-core@25.3.10",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#283923 in MvnRepository",
+	"ranking":"#284280 in MvnRepository",
 	"tags":[
 		"ai"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"25.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -173,14 +183,7 @@
 			"usage":1,
 			"version":"24.3.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240820",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"24.3.5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Tock, The Open Conversation Kit"
 }
