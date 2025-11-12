@@ -3,14 +3,16 @@
 	"description":"The AWS SDK for Java - AWS CRT Core holds common types that are built on the AWS Common Runtime",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"crt-core",
-	"version_latest":"2.38.4",
-	"ts_publish":1762902398000,
-	"dt_publish":"2025-11-12 07:06:38.000",
-	"ts_update":1762903914188,
-	"dt_update":"2025-11-12 07:31:20.422",
+	"version_latest":"2.38.5",
+	"ts_publish":1762989328000,
+	"dt_publish":"2025-11-13 07:15:28.000",
+	"ts_update":1762991157378,
+	"dt_update":"2025-11-13 07:45:32.088",
 	"count_dep":7,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Software Development Kit"
 	],
@@ -21,13 +23,29 @@
 	"count_used_by":18,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#25951 in MvnRepository",
+	"ranking":"#26019 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.38.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.38.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251108",
 			"repository":"Central",
@@ -72,7 +90,7 @@
 			"date":"20251101",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"2.37.3",
 			"vulnerabilities":""
 		},
@@ -170,22 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.35.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251013",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.35.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251010",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.35.5",
 			"vulnerabilities":""
 		}
 	]
