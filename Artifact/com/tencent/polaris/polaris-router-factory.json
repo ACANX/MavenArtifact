@@ -3,12 +3,12 @@
 	"description":"Polaris Router Factory JAR",
 	"group_id":"com.tencent.polaris",
 	"artifact_id":"polaris-router-factory",
-	"version_latest":"2.1.0.0-RC2",
-	"ts_publish":1758272517000,
-	"dt_publish":"2025-09-19 17:01:57.000",
-	"ts_update":1758273974935,
-	"dt_update":"2025-09-19 17:26:07.418",
-	"count_dep":37,
+	"version_latest":"2.1.0.1",
+	"ts_publish":1762930205000,
+	"dt_publish":"2025-11-12 14:50:05.000",
+	"ts_update":1762931827802,
+	"dt_update":"2025-11-12 15:16:39.616",
+	"count_dep":6,
 	"count_ref":1,
 	"licenses":[
 		"BSD 3-Clause License"
@@ -24,12 +24,28 @@
 	"url_scm":"https://github.com/polarismesh/polaris-java/polaris-router/polaris-router-factory",
 	"count_used_by":6,
 	"license":"BSD 3-clause",
-	"ranking":"#75831 in MvnRepository",
+	"ranking":"#76907 in MvnRepository",
 	"tags":[
 		"factory",
 		"routing"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.1.0.0-RC2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250725",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.15.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240708",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.15.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240625",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.15.7",
 			"vulnerabilities":""
 		}
 	]
