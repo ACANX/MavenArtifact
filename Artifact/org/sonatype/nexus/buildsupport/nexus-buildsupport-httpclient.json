@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.sonatype.nexus.buildsupport/nexus-buildsupport-httpclient",
-	"description":"org.sonatype.nexus.buildsupport:nexus-buildsupport-httpclient",
 	"group_id":"org.sonatype.nexus.buildsupport",
 	"artifact_id":"nexus-buildsupport-httpclient",
-	"version_latest":"3.85.0-03",
-	"ts_publish":1759860393000,
-	"dt_publish":"2025-10-08 02:06:33.000",
-	"ts_update":1759861373057,
-	"dt_update":"2025-10-08 02:22:21.782",
+	"version_latest":"3.86.2-01",
+	"ts_publish":1762997768000,
+	"dt_publish":"2025-11-13 09:36:08.000",
+	"ts_update":1762999003148,
+	"dt_update":"2025-11-13 09:56:28.822",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"Eclipse Public License"
-	],
+	"licenses":[],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -27,13 +24,37 @@
 	"url_scm":"https://github.com/sonatype/nexus-public/nexus-buildsupport/nexus-buildsupport-httpclient",
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"license":"EPL 1.0",
-	"ranking":"#887914 in MvnRepository",
+	"ranking":"#887344 in MvnRepository",
 	"tags":[
 		"build",
 		"client",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.86.0-08",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.85.0-03",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.84.1-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -168,30 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.77.0-08",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250123",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.76.1-01",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250109",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.76.0-03",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241206",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.75.1-01",
 			"vulnerabilities":""
 		}
 	]

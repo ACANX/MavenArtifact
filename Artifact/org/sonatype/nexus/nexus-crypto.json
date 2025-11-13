@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-crypto",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-crypto",
-	"version_latest":"3.85.0-03",
-	"ts_publish":1759860393000,
-	"dt_publish":"2025-10-08 02:06:33.000",
-	"ts_update":1759861357381,
-	"dt_update":"2025-10-08 02:22:19.241",
+	"version_latest":"3.86.2-01",
+	"ts_publish":1762997768000,
+	"dt_publish":"2025-11-13 09:36:08.000",
+	"ts_update":1762998998307,
+	"dt_update":"2025-11-13 09:56:30.251",
 	"count_dep":13,
-	"count_ref":7,
+	"count_ref":32,
 	"licenses":[],
 	"categories":[
 		"Build Tools",
@@ -18,11 +18,27 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.sonatype.nexus/nexus-crypto@3.83.0-08",
 	"count_used_by":10,
 	"license":"EPL 1.0",
-	"ranking":"#47844 in MvnRepository",
+	"ranking":"#48550 in MvnRepository",
 	"tags":[
 		"cryptography"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.86.0-08",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.85.0-03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250917",
 			"repository":"Central",
@@ -165,22 +181,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"3.77.0-08",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250123",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.76.1-01",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250109",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.76.0-03",
 			"vulnerabilities":""
 		}
 	]
