@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-executionPlan-execution-authorizer",
-	"version_latest":"4.107.1",
-	"ts_publish":1762456071000,
-	"dt_publish":"2025-11-07 03:07:51.000",
-	"ts_update":1762457274768,
-	"dt_update":"2025-11-07 03:26:36.540",
+	"version_latest":"4.109.0",
+	"ts_publish":1763028458000,
+	"dt_publish":"2025-11-13 18:07:38.000",
+	"ts_update":1763029595038,
+	"dt_update":"2025-11-13 18:26:28.350",
 	"count_dep":8,
-	"count_ref":7,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,13 +26,37 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-base/legend-engine-core-executionPlan-execution/legend-engine-executionPlan-execution-authorizer",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#55704 in MvnRepository",
+	"ranking":"#55903 in MvnRepository",
 	"tags":[
 		"authorization",
 		"exec",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251109",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.108.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.107.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.107.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"4.98.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.97.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250826",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.97.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.97.0",
 			"vulnerabilities":""
 		}
 	]
