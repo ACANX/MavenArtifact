@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-api",
-	"version_latest":"9.4.0",
-	"ts_publish":1762949836000,
-	"dt_publish":"2025-11-12 20:17:16.000",
-	"ts_update":1762950854243,
-	"dt_update":"2025-11-12 20:34:06.861",
+	"version_latest":"10.0.0",
+	"ts_publish":1763044022000,
+	"dt_publish":"2025-11-13 22:27:02.000",
+	"ts_update":1763044518125,
+	"dt_update":"2025-11-13 22:35:09.790",
 	"count_dep":3,
 	"count_ref":5,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-api",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#187024 in MvnRepository",
+	"ranking":"#187239 in MvnRepository",
 	"tags":[
 		"admin",
 		"messaging",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251030",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.51.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.51.1",
 			"vulnerabilities":""
 		}
 	]

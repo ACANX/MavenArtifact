@@ -3,12 +3,12 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-aws-msk-iam-auth",
-	"version_latest":"9.4.0",
-	"ts_publish":1762949836000,
-	"dt_publish":"2025-11-12 20:17:16.000",
-	"ts_update":1762953640091,
-	"dt_update":"2025-11-12 21:20:11.463",
-	"count_dep":75,
+	"version_latest":"10.0.0",
+	"ts_publish":1763044022000,
+	"dt_publish":"2025-11-13 22:27:02.000",
+	"ts_update":1763044520469,
+	"dt_update":"2025-11-13 22:35:09.789",
+	"count_dep":76,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-aws-msk-iam-auth",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#372502 in MvnRepository",
+	"ranking":"#327592 in MvnRepository",
 	"tags":[
 		"admin",
 		"aws",
@@ -32,6 +32,14 @@
 		"iam"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251030",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.51.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.51.1",
 			"vulnerabilities":""
 		}
 	]
