@@ -3,12 +3,12 @@
 	"description":"Connect to the Derby database via JDBC",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-jdbc-derby",
-	"version_latest":"3.29.2",
-	"ts_publish":1762599519000,
-	"dt_publish":"2025-11-08 18:58:39.000",
-	"ts_update":1762601222889,
-	"dt_update":"2025-11-08 19:26:39.702",
-	"count_dep":6,
+	"version_latest":"3.29.3",
+	"ts_publish":1763049296000,
+	"dt_publish":"2025-11-13 23:54:56.000",
+	"ts_update":1763050841459,
+	"dt_update":"2025-11-14 00:20:27.800",
+	"count_dep":5,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-jdbc-derby@3.25.1",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#129116 in MvnRepository",
+	"ranking":"#129338 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"database",
@@ -26,6 +26,14 @@
 		"sql"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -176,14 +184,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.25.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.25.3",
 			"vulnerabilities":""
 		}
 	]
