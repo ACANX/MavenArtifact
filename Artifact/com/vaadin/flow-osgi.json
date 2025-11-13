@@ -3,12 +3,12 @@
 	"description":"A parent POM for all artifacts by Vaadin Ltd.",
 	"group_id":"com.vaadin",
 	"artifact_id":"flow-osgi",
-	"version_latest":"2.13.0-beta1",
-	"ts_publish":1762508059000,
-	"dt_publish":"2025-11-07 17:34:19.000",
-	"ts_update":1762508822646,
-	"dt_update":"2025-11-07 17:46:55.220",
-	"count_dep":15,
+	"version_latest":"2.13.0",
+	"ts_publish":1763037058000,
+	"dt_publish":"2025-11-13 20:30:58.000",
+	"ts_update":1763038612076,
+	"dt_update":"2025-11-13 20:56:33.523",
+	"count_dep":36,
 	"count_ref":3,
 	"licenses":[
 		"Vaadin Commercial License and Service Terms"
@@ -21,7 +21,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vaadin/flow-osgi@2.12.3",
 	"url_scm":"https://github.com/vaadin/flow/flow-osgi",
 	"count_used_by":20,
-	"ranking":"#23826 in MvnRepository",
+	"ranking":"#23898 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
@@ -125,6 +125,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"beta",
+			"usage":14,
+			"version":"2.13.0-beta1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250820",
 			"repository":"Central",
 			"type":"release",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.11.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241021",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"2.11.2",
 			"vulnerabilities":""
 		}
 	]

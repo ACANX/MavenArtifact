@@ -3,11 +3,11 @@
 	"description":"A parent POM for all artifacts by Vaadin Ltd.",
 	"group_id":"com.vaadin",
 	"artifact_id":"flow-migration",
-	"version_latest":"2.13.0-beta1",
-	"ts_publish":1762508059000,
-	"dt_publish":"2025-11-07 17:34:19.000",
-	"ts_update":1762508843231,
-	"dt_update":"2025-11-07 17:46:55.221",
+	"version_latest":"2.13.0",
+	"ts_publish":1763037058000,
+	"dt_publish":"2025-11-13 20:30:58.000",
+	"ts_update":1763038630920,
+	"dt_update":"2025-11-13 20:56:33.522",
 	"count_dep":29,
 	"count_ref":1,
 	"licenses":[
@@ -21,13 +21,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vaadin/flow-migration@2.12.3",
 	"url_scm":"https://github.com/vaadin/flow/flow-migration",
 	"count_used_by":2,
-	"ranking":"#245512 in MvnRepository",
+	"ranking":"#246249 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"2.13.0-beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.9.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230927",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.9.9",
 			"vulnerabilities":""
 		}
 	]
