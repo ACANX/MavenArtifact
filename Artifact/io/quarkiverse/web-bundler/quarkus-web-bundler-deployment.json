@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.quarkiverse.web-bundler/quarkus-web-bundler-deployment",
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.web-bundler",
 	"artifact_id":"quarkus-web-bundler-deployment",
-	"version_latest":"1.9.3",
-	"ts_publish":1758124160000,
-	"dt_publish":"2025-09-17 23:49:20.000",
-	"ts_update":1758125990129,
-	"dt_update":"2025-09-18 00:19:15.139",
-	"count_dep":159,
+	"version_latest":"2.0.0.CR1",
+	"ts_publish":1763031751000,
+	"dt_publish":"2025-11-13 19:02:31.000",
+	"ts_update":1763032523513,
+	"dt_update":"2025-11-13 19:15:08.096",
+	"count_dep":9,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.web-bundler/quarkus-web-bundler-deployment@1.9.2",
@@ -23,7 +20,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-web-bundler",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#247103 in MvnRepository",
+	"ranking":"#232143 in MvnRepository",
 	"tags":[
 		"bundle",
 		"deployment",
@@ -31,6 +28,14 @@
 		"web"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -181,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.5.0.CR3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240516",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.5.0.CR2",
 			"vulnerabilities":""
 		}
 	]
