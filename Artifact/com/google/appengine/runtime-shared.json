@@ -3,13 +3,13 @@
 	"description":"App Engine runtime shared components.",
 	"group_id":"com.google.appengine",
 	"artifact_id":"runtime-shared",
-	"version_latest":"3.0.1",
-	"ts_publish":1761239965000,
-	"dt_publish":"2025-10-24 01:19:25.000",
-	"ts_update":1761245672132,
-	"dt_update":"2025-10-24 02:53:23.373",
+	"version_latest":"3.0.2",
+	"ts_publish":1763063397000,
+	"dt_publish":"2025-11-14 03:49:57.000",
+	"ts_update":1763066368848,
+	"dt_update":"2025-11-14 04:38:19.661",
 	"count_dep":3,
-	"count_ref":5,
+	"count_ref":4,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -23,15 +23,47 @@
 		"Ludovic Champenois"
 	],
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/runtime-shared",
-	"count_used_by":7,
+	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#63189 in MvnRepository",
+	"ranking":"#57572 in MvnRepository",
 	"tags":[
 		"google",
 		"appengine",
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"beta",
+			"usage":5,
+			"version":"3.0.0-beta",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.0.39",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"beta",
+			"usage":4,
+			"version":"2.0.39-beta",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -159,38 +191,7 @@
 			"usage":4,
 			"version":"2.0.23",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20231113",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.0.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231017",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.0.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231004",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.0.20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230912",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.0.19",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://github.com/GoogleCloudPlatform/appengine-java-standard/"
 }

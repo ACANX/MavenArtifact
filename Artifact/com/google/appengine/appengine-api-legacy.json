@@ -3,11 +3,11 @@
 	"description":"Legacy appengine API's that have been removed from appengine-api-sdk-1.0",
 	"group_id":"com.google.appengine",
 	"artifact_id":"appengine-api-legacy",
-	"version_latest":"3.0.1",
-	"ts_publish":1761239965000,
-	"dt_publish":"2025-10-24 01:19:25.000",
-	"ts_update":1761245686271,
-	"dt_update":"2025-10-24 02:53:25.388",
+	"version_latest":"3.0.2",
+	"ts_publish":1763063397000,
+	"dt_publish":"2025-11-14 03:49:57.000",
+	"ts_update":1763066334191,
+	"dt_update":"2025-11-14 04:38:19.134",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[],
@@ -22,7 +22,7 @@
 	],
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/appengine-api-legacy",
 	"license":"Apache 2.0",
-	"ranking":"#522339 in MvnRepository",
+	"ranking":"#522754 in MvnRepository",
 	"tags":[
 		"legacy",
 		"google",
@@ -30,6 +30,14 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.0.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231113",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.22",
 			"vulnerabilities":""
 		}
 	],

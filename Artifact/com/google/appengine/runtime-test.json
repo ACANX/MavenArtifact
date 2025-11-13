@@ -3,14 +3,16 @@
 	"description":"Tests for the App Engine runtime.",
 	"group_id":"com.google.appengine",
 	"artifact_id":"runtime-test",
-	"version_latest":"3.0.1",
-	"ts_publish":1761239965000,
-	"dt_publish":"2025-10-24 01:19:25.000",
-	"ts_update":1761245672524,
-	"dt_update":"2025-10-24 02:53:25.388",
-	"count_dep":19,
+	"version_latest":"3.0.2",
+	"ts_publish":1763063397000,
+	"dt_publish":"2025-11-14 03:49:57.000",
+	"ts_update":1763066359303,
+	"dt_update":"2025-11-14 04:38:19.136",
+	"count_dep":30,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Other"
 	],
@@ -22,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/runtime-parent/runtime-test",
 	"license":"Apache 2.0",
-	"ranking":"#539756 in MvnRepository",
+	"ranking":"#556876 in MvnRepository",
 	"tags":[
 		"google",
 		"testing",
@@ -30,6 +32,30 @@
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.0.0-beta",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.39",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -164,30 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.0.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231113",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.22",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231017",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231004",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.20",
 			"vulnerabilities":""
 		}
 	],

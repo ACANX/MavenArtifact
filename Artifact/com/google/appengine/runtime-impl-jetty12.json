@@ -3,11 +3,11 @@
 	"description":"App Engine runtime implementation for Jetty 12.",
 	"group_id":"com.google.appengine",
 	"artifact_id":"runtime-impl-jetty12",
-	"version_latest":"3.0.1",
-	"ts_publish":1761239965000,
-	"dt_publish":"2025-10-24 01:19:25.000",
-	"ts_update":1761245655740,
-	"dt_update":"2025-10-24 02:53:25.394",
+	"version_latest":"3.0.2",
+	"ts_publish":1763063397000,
+	"dt_publish":"2025-11-14 03:49:57.000",
+	"ts_update":1763066361189,
+	"dt_update":"2025-11-14 04:38:20.795",
 	"count_dep":15,
 	"count_ref":3,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/runtime-parent/runtime-impl-jetty12",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#160992 in MvnRepository",
+	"ranking":"#159277 in MvnRepository",
 	"tags":[
 		"server",
 		"google",
@@ -36,6 +36,14 @@
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.0.23",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231113",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.0.22",
 			"vulnerabilities":""
 		}
 	],

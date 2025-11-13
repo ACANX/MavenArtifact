@@ -3,11 +3,11 @@
 	"description":"App Engine runtime shared components for Jetty 121 EE11.",
 	"group_id":"com.google.appengine",
 	"artifact_id":"runtime-shared-jetty121-ee11",
-	"version_latest":"3.0.1",
-	"ts_publish":1761239965000,
-	"dt_publish":"2025-10-24 01:19:25.000",
-	"ts_update":1761245847390,
-	"dt_update":"2025-10-24 02:53:25.390",
+	"version_latest":"3.0.2",
+	"ts_publish":1763063397000,
+	"dt_publish":"2025-11-14 03:49:57.000",
+	"ts_update":1763066344024,
+	"dt_update":"2025-11-14 04:38:19.135",
 	"count_dep":2,
 	"count_ref":1,
 	"licenses":[
@@ -22,5 +22,35 @@
 	"contributors":[
 		"Ludovic Champenois"
 	],
-	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/runtime-shared-jetty121-ee11"
+	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/runtime-shared-jetty121-ee11",
+	"count_used_by":1,
+	"home_page":"https://github.com/GoogleCloudPlatform/appengine-java-standard/",
+	"license":"Apache 2.0",
+	"ranking":"#376233 in MvnRepository",
+	"tags":[
+		"server",
+		"google",
+		"webserver",
+		"appengine",
+		"jetty",
+		"runtime"
+	],
+	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"3.0.0-beta",
+			"vulnerabilities":""
+		}
+	]
 }
