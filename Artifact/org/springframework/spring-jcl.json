@@ -3,13 +3,13 @@
 	"description":"Spring Commons Logging Bridge",
 	"group_id":"org.springframework",
 	"artifact_id":"spring-jcl",
-	"version_latest":"6.2.12",
-	"ts_publish":1760599277000,
-	"dt_publish":"2025-10-16 15:21:17.000",
-	"ts_update":1760599913789,
-	"dt_update":"2025-10-16 15:31:45.416",
+	"version_latest":"6.2.13",
+	"ts_publish":1763024573000,
+	"dt_publish":"2025-11-13 17:02:53.000",
+	"ts_update":1763025545343,
+	"dt_update":"2025-11-13 17:18:52.934",
 	"count_dep":0,
-	"count_ref":19,
+	"count_ref":15,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,10 +24,10 @@
 		"Juergen Hoeller"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-framework",
-	"count_used_by":622,
+	"count_used_by":623,
 	"home_page":"https://github.com/spring-projects/spring-framework",
 	"license":"Apache 2.0",
-	"ranking":"#986 in MvnRepository",
+	"ranking":"#1006 in MvnRepository",
 	"tags":[
 		"logging",
 		"bridge",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"6.2.12",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250911",
 			"repository":"Central",
 			"type":"release",
-			"usage":416,
+			"usage":417,
 			"version":"6.2.11",
 			"vulnerabilities":""
 		},
@@ -47,7 +55,7 @@
 			"date":"20250814",
 			"repository":"Central",
 			"type":"release",
-			"usage":417,
+			"usage":419,
 			"version":"6.2.10",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"6.1.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241017",
-			"repository":"Central",
-			"type":"release",
-			"usage":25,
-			"version":"6.1.14",
 			"vulnerabilities":""
 		}
 	]
