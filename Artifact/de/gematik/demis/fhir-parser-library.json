@@ -3,11 +3,11 @@
 	"description":"This library provides necessary dependencies to work with HAPI FHIR classes and a simple parser FHIR notifications in json or xml.",
 	"group_id":"de.gematik.demis",
 	"artifact_id":"fhir-parser-library",
-	"version_latest":"2.6.1",
-	"ts_publish":1758600027000,
-	"dt_publish":"2025-09-23 12:00:27.000",
-	"ts_update":1758601615914,
-	"dt_update":"2025-09-23 12:26:12.849",
+	"version_latest":"2.6.2",
+	"ts_publish":1763022456000,
+	"dt_publish":"2025-11-13 16:27:36.000",
+	"ts_update":1763023535643,
+	"dt_update":"2025-11-13 16:45:22.362",
 	"count_dep":66,
 	"count_ref":0,
 	"licenses":[
@@ -21,20 +21,28 @@
 		"gematik"
 	],
 	"url_scm":"https://github.com/gematik/DEMIS-FHIR-Parser-Library",
-	"count_used_by":1,
+	"count_used_by":2,
 	"home_page":"https://github.com/gematik/DEMIS-FHIR-Parser-Library",
 	"license":"EUPL 1.2",
-	"ranking":"#405802 in MvnRepository",
+	"ranking":"#234991 in MvnRepository",
 	"tags":[
 		"parser",
 		"library"
 	],
 	"versions":[
 		{
-			"date":"20250827",
+			"date":"20250923",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.6.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.6.0",
 			"vulnerabilities":""
 		},
