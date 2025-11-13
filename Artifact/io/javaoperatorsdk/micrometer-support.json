@@ -3,12 +3,12 @@
 	"description":"Java SDK for implementing Kubernetes operators",
 	"group_id":"io.javaoperatorsdk",
 	"artifact_id":"micrometer-support",
-	"version_latest":"5.1.4",
-	"ts_publish":1760369988000,
-	"dt_publish":"2025-10-13 23:39:48.000",
-	"ts_update":1760370986174,
-	"dt_update":"2025-10-13 23:56:13.095",
-	"count_dep":44,
+	"version_latest":"5.1.5",
+	"ts_publish":1763066392000,
+	"dt_publish":"2025-11-14 04:39:52.000",
+	"ts_update":1763067391732,
+	"dt_update":"2025-11-14 04:56:21.505",
+	"count_dep":45,
 	"count_ref":1,
 	"licenses":[
 		"Apache 2 License"
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/operator-framework/java-operator-sdk/tree/main/micrometer-support",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#144705 in MvnRepository",
+	"ranking":"#146246 in MvnRepository",
 	"tags":[
 		"metrics",
 		"support"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"5.1.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240415",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.3",
 			"vulnerabilities":""
 		}
 	]
