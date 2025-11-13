@@ -3,11 +3,11 @@
 	"description":"Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
 	"group_id":"io.quarkiverse.artemis",
 	"artifact_id":"quarkus-artemis-jms",
-	"version_latest":"3.10.3",
-	"ts_publish":1762607441000,
-	"dt_publish":"2025-11-08 21:10:41.000",
-	"ts_update":1762608863455,
-	"dt_update":"2025-11-08 21:34:17.082",
+	"version_latest":"3.11.0.CR1",
+	"ts_publish":1763064796000,
+	"dt_publish":"2025-11-14 04:13:16.000",
+	"ts_update":1763066984316,
+	"dt_update":"2025-11-14 04:49:34.287",
 	"count_dep":116,
 	"count_ref":1,
 	"licenses":[
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-artemis",
 	"count_used_by":15,
 	"license":"Apache 2.0",
-	"ranking":"#31862 in MvnRepository",
+	"ranking":"#31989 in MvnRepository",
 	"tags":[
 		"jms",
 		"quarkus",
 		"queue"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.10.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251104",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.6.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250118",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.6.1",
 			"vulnerabilities":""
 		}
 	]

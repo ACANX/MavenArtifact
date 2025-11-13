@@ -2,12 +2,12 @@
 	"id":"pkg:maven/io.quarkiverse.artemis/quarkus-artemis-jms-ra-deployment",
 	"group_id":"io.quarkiverse.artemis",
 	"artifact_id":"quarkus-artemis-jms-ra-deployment",
-	"version_latest":"3.10.3",
-	"ts_publish":1762607441000,
-	"dt_publish":"2025-11-08 21:10:41.000",
-	"ts_update":1762608863070,
-	"dt_update":"2025-11-08 21:34:17.086",
-	"count_dep":294,
+	"version_latest":"3.11.0.CR1",
+	"ts_publish":1763064796000,
+	"dt_publish":"2025-11-14 04:13:16.000",
+	"ts_update":1763066987157,
+	"dt_update":"2025-11-14 04:49:34.288",
+	"count_dep":189,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-artemis",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#376763 in MvnRepository",
+	"ranking":"#378024 in MvnRepository",
 	"tags":[
 		"jms",
 		"deployment",
@@ -33,6 +33,14 @@
 		"queue"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.10.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251104",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.6.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250118",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.6.1",
 			"vulnerabilities":""
 		}
 	],
