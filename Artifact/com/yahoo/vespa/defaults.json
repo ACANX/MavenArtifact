@@ -3,13 +3,13 @@
 	"description":"Library with the defaults for Vespa.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"defaults",
-	"version_latest":"8.607.21",
-	"ts_publish":1762874066000,
-	"dt_publish":"2025-11-11 23:14:26.000",
-	"ts_update":1762874803222,
-	"dt_update":"2025-11-11 23:26:21.508",
+	"version_latest":"8.608.33",
+	"ts_publish":1763050636000,
+	"dt_publish":"2025-11-14 00:17:16.000",
+	"ts_update":1763051217587,
+	"dt_update":"2025-11-14 00:26:28.205",
 	"count_dep":2,
-	"count_ref":28,
+	"count_ref":39,
 	"licenses":[],
 	"categories":[
 		"Big Data",
@@ -24,13 +24,29 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/defaults",
 	"count_used_by":29,
 	"license":"Apache 2.0",
-	"ranking":"#16324 in MvnRepository",
+	"ranking":"#16340 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":23,
+			"version":"8.607.21",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251110",
 			"repository":"Central",
 			"type":"release",
-			"usage":12,
+			"usage":23,
+			"version":"8.606.45",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":23,
 			"version":"8.605.24",
 			"vulnerabilities":""
 		},
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":23,
 			"version":"8.583.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":23,
-			"version":"8.582.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250911",
-			"repository":"Central",
-			"type":"release",
-			"usage":23,
-			"version":"8.579.17",
 			"vulnerabilities":""
 		}
 	]

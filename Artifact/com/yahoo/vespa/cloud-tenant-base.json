@@ -3,11 +3,11 @@
 	"description":"Parent POM for all Vespa Cloud applications.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"cloud-tenant-base",
-	"version_latest":"8.607.21",
-	"ts_publish":1762874066000,
-	"dt_publish":"2025-11-11 23:14:26.000",
-	"ts_update":1762874795427,
-	"dt_update":"2025-11-11 23:26:21.505",
+	"version_latest":"8.608.33",
+	"ts_publish":1763050636000,
+	"dt_publish":"2025-11-14 00:17:16.000",
+	"ts_update":1763051217834,
+	"dt_update":"2025-11-14 00:26:28.209",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[],
@@ -24,11 +24,27 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/cloud-tenant-base",
 	"home_page":"https://github.com/vespa-engine",
 	"license":"Apache 2.0",
-	"ranking":"#975112 in MvnRepository",
+	"ranking":"#975061 in MvnRepository",
 	"tags":[
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.607.21",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.606.45",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251110",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.583.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.582.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250911",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.579.17",
 			"vulnerabilities":""
 		}
 	]
