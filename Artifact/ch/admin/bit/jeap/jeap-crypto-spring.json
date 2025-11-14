@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-crypto-spring",
-	"version_latest":"4.3.0",
-	"ts_publish":1762942207000,
-	"dt_publish":"2025-11-12 18:10:07.000",
-	"ts_update":1762943201259,
-	"dt_update":"2025-11-12 18:26:28.579",
+	"version_latest":"4.4.0",
+	"ts_publish":1763111582000,
+	"dt_publish":"2025-11-14 17:13:02.000",
+	"ts_update":1763111904936,
+	"dt_update":"2025-11-14 17:17:52.075",
 	"count_dep":33,
 	"count_ref":2,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-crypto.git/jeap-crypto-spring",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#198266 in MvnRepository",
+	"ranking":"#198534 in MvnRepository",
 	"tags":[
 		"admin",
 		"cryptography",
 		"spring"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251002",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.18.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250526",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.17.0",
 			"vulnerabilities":""
 		}
 	]

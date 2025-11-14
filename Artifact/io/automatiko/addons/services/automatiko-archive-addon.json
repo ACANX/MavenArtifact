@@ -3,14 +3,16 @@
 	"description":"Archive Services Addon for Automatiko Engine",
 	"group_id":"io.automatiko.addons.services",
 	"artifact_id":"automatiko-archive-addon",
-	"version_latest":"0.47.0",
-	"ts_publish":1762093566000,
-	"dt_publish":"2025-11-02 22:26:06.000",
-	"ts_update":1762094686138,
-	"dt_update":"2025-11-02 22:44:31.731",
-	"count_dep":7,
+	"version_latest":"0.48.0",
+	"ts_publish":1763110400000,
+	"dt_publish":"2025-11-14 16:53:20.000",
+	"ts_update":1763111906615,
+	"dt_update":"2025-11-14 17:17:56.866",
+	"count_dep":41,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://automatiko.io/addons/services/automatiko-archive-addon",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.automatiko.addons.services/automatiko-archive-addon@0.45.1",
@@ -19,12 +21,20 @@
 	],
 	"url_scm":"https://github.com/automatiko-io/automatiko-engine/addons/services/automatiko-archive-addon",
 	"license":"Apache 2.0",
-	"ranking":"#900468 in MvnRepository",
+	"ranking":"#783640 in MvnRepository",
 	"tags":[
 		"addon",
 		"service"
 	],
 	"versions":[
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.47.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -175,14 +185,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.33.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230930",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.32.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,14 +3,16 @@
 	"description":"Common Deployment module for Quarkus Extension for Automatiko Engine",
 	"group_id":"io.automatiko.quarkus",
 	"artifact_id":"automatiko-common-deployment",
-	"version_latest":"0.47.0",
-	"ts_publish":1762093566000,
-	"dt_publish":"2025-11-02 22:26:06.000",
-	"ts_update":1762093921120,
-	"dt_update":"2025-11-02 22:31:49.740",
-	"count_dep":9,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"0.48.0",
+	"ts_publish":1763110400000,
+	"dt_publish":"2025-11-14 16:53:20.000",
+	"ts_update":1763111905789,
+	"dt_update":"2025-11-14 17:17:56.185",
+	"count_dep":198,
+	"count_ref":4,
+	"licenses":[
+		"Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +25,20 @@
 	"url_scm":"https://github.com/automatiko-io/automatiko-engine/automatiko-quarkus-parent/automatiko-common-deployment",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#153101 in MvnRepository",
+	"ranking":"#172163 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"0.47.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -179,14 +189,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"0.33.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230930",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"0.32.0",
 			"vulnerabilities":""
 		}
 	]

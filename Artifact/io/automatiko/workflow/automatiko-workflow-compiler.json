@@ -3,14 +3,16 @@
 	"description":"Workflow compiler for Automatiko Engine",
 	"group_id":"io.automatiko.workflow",
 	"artifact_id":"automatiko-workflow-compiler",
-	"version_latest":"0.47.0",
-	"ts_publish":1762093566000,
-	"dt_publish":"2025-11-02 22:26:06.000",
-	"ts_update":1762094682678,
-	"dt_update":"2025-11-02 22:44:33.920",
-	"count_dep":11,
-	"count_ref":7,
-	"licenses":[],
+	"version_latest":"0.48.0",
+	"ts_publish":1763110400000,
+	"dt_publish":"2025-11-14 16:53:20.000",
+	"ts_update":1763111899621,
+	"dt_update":"2025-11-14 17:17:56.191",
+	"count_dep":92,
+	"count_ref":9,
+	"licenses":[
+		"Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +25,20 @@
 	"url_scm":"https://github.com/automatiko-io/automatiko-engine/workflow/automatiko-workflow-compiler",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#62015 in MvnRepository",
+	"ranking":"#61805 in MvnRepository",
 	"tags":[
 		"workflow",
 		"compiler"
 	],
 	"versions":[
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"0.47.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -179,14 +189,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"0.33.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230930",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.32.0",
 			"vulnerabilities":""
 		}
 	]

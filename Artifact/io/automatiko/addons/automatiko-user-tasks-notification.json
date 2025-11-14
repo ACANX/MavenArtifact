@@ -3,14 +3,16 @@
 	"description":"User Task Notifications Common for Automatiko Engine",
 	"group_id":"io.automatiko.addons",
 	"artifact_id":"automatiko-user-tasks-notification",
-	"version_latest":"0.47.0",
-	"ts_publish":1762093566000,
-	"dt_publish":"2025-11-02 22:26:06.000",
-	"ts_update":1762094682307,
-	"dt_update":"2025-11-02 22:44:31.732",
-	"count_dep":4,
+	"version_latest":"0.48.0",
+	"ts_publish":1763110401000,
+	"dt_publish":"2025-11-14 16:53:21.000",
+	"ts_update":1763111894896,
+	"dt_update":"2025-11-14 17:17:55.495",
+	"count_dep":112,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	"url_scm":"https://github.com/automatiko-io/automatiko-engine/addons/user-tasks/automatiko-user-tasks-notification",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#143898 in MvnRepository",
+	"ranking":"#144499 in MvnRepository",
 	"tags":[
 		"task",
 		"notification",
@@ -31,6 +33,14 @@
 		"user"
 	],
 	"versions":[
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"0.47.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -181,14 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"0.33.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230930",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"0.32.0",
 			"vulnerabilities":""
 		}
 	]
