@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.digiexpress/thena-contract-client",
 	"group_id":"io.digiexpress",
 	"artifact_id":"thena-contract-client",
-	"version_latest":"5.2.11",
-	"ts_publish":1762961557000,
-	"dt_publish":"2025-11-12 23:32:37.000",
-	"ts_update":1762964807482,
-	"dt_update":"2025-11-13 00:26:27.999",
-	"count_dep":9,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"5.2.14",
+	"ts_publish":1763137541000,
+	"dt_publish":"2025-11-15 00:25:41.000",
+	"ts_update":1763138749326,
+	"dt_update":"2025-11-15 00:45:40.516",
+	"count_dep":76,
+	"count_ref":5,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/digiexpress-io/digiexpress-parent/digiexpress-build-parent/thena-parent/thena-contract-client",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.digiexpress/thena-contract-client@5.2.8",
@@ -23,12 +25,44 @@
 	],
 	"url_scm":"http://github.com/digiexpress-io/digiexpress-parent/tree/main/digiexpress-build-parent/thena-parent/thena-contract-client",
 	"license":"Apache 2.0",
-	"ranking":"#736164 in MvnRepository",
+	"ranking":"#373928 in MvnRepository",
 	"tags":[
 		"client",
 		"contract"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -37,5 +71,7 @@
 			"version":"5.2.8",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"DigiExpress",
+	"count_used_by":1
 }
