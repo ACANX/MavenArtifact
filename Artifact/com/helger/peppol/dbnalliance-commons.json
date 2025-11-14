@@ -2,12 +2,12 @@
 	"id":"pkg:maven/com.helger.peppol/dbnalliance-commons",
 	"group_id":"com.helger.peppol",
 	"artifact_id":"dbnalliance-commons",
-	"version_latest":"12.1.2",
-	"ts_publish":1763063640000,
-	"dt_publish":"2025-11-14 03:54:00.000",
-	"ts_update":1763066354364,
-	"dt_update":"2025-11-14 04:38:17.438",
-	"count_dep":4,
+	"version_latest":"12.1.3",
+	"ts_publish":1763142951000,
+	"dt_publish":"2025-11-15 01:55:51.000",
+	"ts_update":1763144595690,
+	"dt_update":"2025-11-15 02:23:09.478",
+	"count_dep":21,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2"
@@ -25,13 +25,21 @@
 	"count_used_by":3,
 	"home_page":"https://github.com/phax/peppol-commons/dbnalliance-commons",
 	"license":"Apache 2.0",
-	"ranking":"#135762 in MvnRepository",
+	"ranking":"#135730 in MvnRepository",
 	"tags":[
 		"bundle",
 		"commons",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -183,14 +191,7 @@
 			"usage":3,
 			"version":"10.4.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250510",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"10.4.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Base POM to build the peppol-commons projects"
 }

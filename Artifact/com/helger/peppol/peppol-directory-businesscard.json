@@ -3,13 +3,13 @@
 	"description":"The Peppol Directory Business Card data model",
 	"group_id":"com.helger.peppol",
 	"artifact_id":"peppol-directory-businesscard",
-	"version_latest":"12.1.1",
-	"ts_publish":1762973665000,
-	"dt_publish":"2025-11-13 02:54:25.000",
-	"ts_update":1762975611597,
-	"dt_update":"2025-11-13 03:14:01.541",
+	"version_latest":"12.1.3",
+	"ts_publish":1763142951000,
+	"dt_publish":"2025-11-15 01:55:51.000",
+	"ts_update":1763144600680,
+	"dt_update":"2025-11-15 02:23:09.480",
 	"count_dep":24,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[
 		"Apache 2"
 	],
@@ -26,13 +26,29 @@
 	"count_used_by":6,
 	"home_page":"https://github.com/phax/peppol-commons/peppol-directory-businesscard",
 	"license":"Apache 2.0",
-	"ranking":"#83037 in MvnRepository",
+	"ranking":"#79234 in MvnRepository",
 	"tags":[
 		"bundle",
 		"directory",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.1.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"10.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250510",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"10.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250509",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"10.4.0",
 			"vulnerabilities":""
 		}
 	]
