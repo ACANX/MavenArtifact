@@ -3,11 +3,11 @@
 	"description":"JanusGraph is a distributed graph database optimized for processing massive-scale graphs represented over a machine\n        cluster.\n        JanusGraph separates the concerns of graph processing and manipulation from storing the graph on disk,\n        delegating that concern to an extensible set of persistence solutions.",
 	"group_id":"org.janusgraph",
 	"artifact_id":"janusgraph-grpc",
-	"version_latest":"1.2.0-20251108-015359.2fa5bca",
-	"ts_publish":1762567392000,
-	"dt_publish":"2025-11-08 10:03:12.000",
-	"ts_update":1762568801451,
-	"dt_update":"2025-11-08 10:26:27.754",
+	"version_latest":"1.2.0-20251114-142114.b424a8f",
+	"ts_publish":1763130876000,
+	"dt_publish":"2025-11-14 22:34:36.000",
+	"ts_update":1763131588152,
+	"dt_update":"2025-11-14 22:46:11.267",
 	"count_dep":19,
 	"count_ref":4,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"count_used_by":2,
 	"home_page":"https://janusgraph.org",
 	"license":"Apache 2.0",
-	"ranking":"#225027 in MvnRepository",
+	"ranking":"#226029 in MvnRepository",
 	"tags":[
 		"graph",
 		"rpc",
@@ -38,10 +38,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.2.0-20251108-015359.2fa...",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251106",
 			"repository":"Central",
 			"type":"alpha",
-			"usage":1,
+			"usage":2,
 			"version":"1.2.0-20251106-225718.92a...",
 			"vulnerabilities":""
 		},
@@ -49,7 +57,7 @@
 			"date":"20251106",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"1.2.0-20251106-171150.7f4...",
 			"vulnerabilities":""
 		},
@@ -187,14 +195,6 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"1.2.0-20250206-130723.48d...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250126",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"1.2.0-20250126-150810.46a...",
 			"vulnerabilities":""
 		}
 	]
