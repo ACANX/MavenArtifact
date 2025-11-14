@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.gravitee.apim.rest.api.idp/gravitee-apim-rest-api-idp-repository",
-	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.rest.api.idp",
 	"artifact_id":"gravitee-apim-rest-api-idp-repository",
-	"version_latest":"4.9.3",
-	"ts_publish":1762533599000,
-	"dt_publish":"2025-11-08 00:39:59.000",
-	"ts_update":1762534435786,
-	"dt_update":"2025-11-08 00:53:28.149",
-	"count_dep":275,
+	"version_latest":"4.9.4",
+	"ts_publish":1763127793000,
+	"dt_publish":"2025-11-14 21:43:13.000",
+	"ts_update":1763128620036,
+	"dt_update":"2025-11-14 21:56:30.271",
+	"count_dep":2,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -29,13 +26,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-rest-api/gravitee-apim-rest-api-idp/gravitee-apim-rest-api-idp-repository",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#184462 in MvnRepository",
+	"ranking":"#185250 in MvnRepository",
 	"tags":[
 		"repository",
 		"rest",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -90,6 +95,14 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.8.12",
 			"vulnerabilities":""
 		},
 		{
@@ -178,22 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"4.8.0-alpha.3",
 			"vulnerabilities":""
 		}
 	]

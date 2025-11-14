@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.apim.gateway/gravitee-apim-gateway-dictionary",
 	"group_id":"io.gravitee.apim.gateway",
 	"artifact_id":"gravitee-apim-gateway-dictionary",
-	"version_latest":"4.9.3",
-	"ts_publish":1762533599000,
-	"dt_publish":"2025-11-08 00:39:59.000",
-	"ts_update":1762534430078,
-	"dt_update":"2025-11-08 00:53:28.618",
-	"count_dep":25,
-	"count_ref":9,
-	"licenses":[],
+	"version_latest":"4.9.4",
+	"ts_publish":1763127793000,
+	"dt_publish":"2025-11-14 21:43:13.000",
+	"ts_update":1763128614436,
+	"dt_update":"2025-11-14 21:56:29.786",
+	"count_dep":154,
+	"count_ref":11,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,12 +28,20 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-dictionary",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#84784 in MvnRepository",
+	"ranking":"#84997 in MvnRepository",
 	"tags":[
 		"dictionary",
 		"gateway"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -86,6 +96,14 @@
 			"type":"alpha",
 			"usage":6,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.8.12",
 			"vulnerabilities":""
 		},
 		{
@@ -175,22 +193,7 @@
 			"usage":6,
 			"version":"4.8.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":6,
-			"version":"4.8.0-alpha.3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }

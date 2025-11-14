@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.apim.gateway.handlers/gravitee-apim-gateway-handlers-api",
 	"group_id":"io.gravitee.apim.gateway.handlers",
 	"artifact_id":"gravitee-apim-gateway-handlers-api",
-	"version_latest":"4.9.3",
-	"ts_publish":1762533599000,
-	"dt_publish":"2025-11-08 00:39:59.000",
-	"ts_update":1762534433217,
-	"dt_update":"2025-11-08 00:53:29.098",
-	"count_dep":47,
+	"version_latest":"4.9.4",
+	"ts_publish":1763127793000,
+	"dt_publish":"2025-11-14 21:43:13.000",
+	"ts_update":1763128610390,
+	"dt_update":"2025-11-14 21:56:30.274",
+	"count_dep":217,
 	"count_ref":12,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,12 +28,20 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-handlers/gravitee-apim-gateway-handlers-api",
 	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#30007 in MvnRepository",
+	"ranking":"#30116 in MvnRepository",
 	"tags":[
 		"gateway",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"4.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -86,6 +96,14 @@
 			"type":"alpha",
 			"usage":12,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"4.8.12",
 			"vulnerabilities":""
 		},
 		{
@@ -175,22 +193,7 @@
 			"usage":12,
 			"version":"4.8.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"4.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":12,
-			"version":"4.8.0-alpha.3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }

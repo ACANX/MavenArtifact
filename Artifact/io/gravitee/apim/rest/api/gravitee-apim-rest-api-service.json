@@ -3,12 +3,12 @@
 	"description":"Gravitee IO Manager Service",
 	"group_id":"io.gravitee.apim.rest.api",
 	"artifact_id":"gravitee-apim-rest-api-service",
-	"version_latest":"4.9.3",
-	"ts_publish":1762533599000,
-	"dt_publish":"2025-11-08 00:39:59.000",
-	"ts_update":1762534432687,
-	"dt_update":"2025-11-08 00:53:29.095",
-	"count_dep":422,
+	"version_latest":"4.9.4",
+	"ts_publish":1763127793000,
+	"dt_publish":"2025-11-14 21:43:13.000",
+	"ts_update":1763128600818,
+	"dt_update":"2025-11-14 21:56:30.273",
+	"count_dep":433,
 	"count_ref":25,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-rest-api/gravitee-apim-rest-api-service",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#45969 in MvnRepository",
+	"ranking":"#46115 in MvnRepository",
 	"tags":[
 		"rest",
 		"service",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"4.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -90,6 +98,14 @@
 			"type":"alpha",
 			"usage":10,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"4.8.12",
 			"vulnerabilities":""
 		},
 		{
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"4.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":10,
-			"version":"4.8.0-alpha.3",
 			"vulnerabilities":""
 		}
 	]

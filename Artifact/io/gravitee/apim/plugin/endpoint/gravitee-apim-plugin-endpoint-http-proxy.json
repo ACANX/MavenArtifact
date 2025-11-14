@@ -3,14 +3,16 @@
 	"description":"Endpoint that allows exposing HTTP SyncApi.",
 	"group_id":"io.gravitee.apim.plugin.endpoint",
 	"artifact_id":"gravitee-apim-plugin-endpoint-http-proxy",
-	"version_latest":"4.9.3",
-	"ts_publish":1762533599000,
-	"dt_publish":"2025-11-08 00:39:59.000",
-	"ts_update":1762534438095,
-	"dt_update":"2025-11-08 00:53:30.006",
-	"count_dep":30,
-	"count_ref":3,
-	"licenses":[],
+	"version_latest":"4.9.4",
+	"ts_publish":1763127794000,
+	"dt_publish":"2025-11-14 21:43:14.000",
+	"ts_update":1763128601766,
+	"dt_update":"2025-11-14 21:56:28.266",
+	"count_dep":274,
+	"count_ref":4,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -27,7 +29,7 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-plugin/gravitee-apim-plugin-endpoint/gravitee-apim-plugin-endpoint-http-proxy",
 	"count_used_by":27,
 	"license":"Apache 2.0",
-	"ranking":"#17530 in MvnRepository",
+	"ranking":"#17574 in MvnRepository",
 	"tags":[
 		"plugin",
 		"proxy",
@@ -35,6 +37,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -89,6 +99,14 @@
 			"type":"alpha",
 			"usage":4,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.8.12",
 			"vulnerabilities":""
 		},
 		{
@@ -177,22 +195,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":4,
-			"version":"4.8.0-alpha.3",
 			"vulnerabilities":""
 		}
 	]
