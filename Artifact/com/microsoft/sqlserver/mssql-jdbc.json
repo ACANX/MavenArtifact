@@ -3,12 +3,12 @@
 	"description":"Microsoft JDBC Driver for SQL Server.",
 	"group_id":"com.microsoft.sqlserver",
 	"artifact_id":"mssql-jdbc",
-	"version_latest":"13.2.1.jre8",
-	"ts_publish":1760379528000,
-	"dt_publish":"2025-10-14 02:18:48.000",
-	"ts_update":1760384886069,
-	"dt_update":"2025-10-14 03:26:33.768",
-	"count_dep":0,
+	"version_latest":"13.3.0.jre11-preview",
+	"ts_publish":1763136572000,
+	"dt_publish":"2025-11-15 00:09:32.000",
+	"ts_update":1763137251430,
+	"dt_update":"2025-11-15 00:20:34.466",
+	"count_dep":95,
 	"count_ref":0,
 	"licenses":[
 		"MIT License"
@@ -22,10 +22,10 @@
 	"url_project":"https://github.com/Microsoft/mssql-jdbc",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.microsoft.sqlserver/mssql-jdbc@13.2.0.jre11",
 	"url_scm":"https://github.com/Microsoft/mssql-jdbc",
-	"count_used_by":983,
+	"count_used_by":989,
 	"home_page":"https://github.com/Microsoft/mssql-jdbc",
 	"license":"MIT",
-	"ranking":"#633 in MvnRepository",
+	"ranking":"#638 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -39,18 +39,34 @@
 	],
 	"versions":[
 		{
-			"date":"20250815",
+			"date":"20251013",
 			"repository":"Central",
 			"type":"release",
-			"usage":25,
-			"version":"13.2.0.jre11",
+			"usage":17,
+			"version":"13.2.1.jre11",
 			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"13.2.1.jre8",
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250815",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":32,
+			"version":"13.2.0.jre11",
+			"vulnerabilities":"1 vulnerability"
+		},
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"13.2.0.jre8",
 			"vulnerabilities":""
 		},
@@ -87,12 +103,28 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"12.10.2.jre11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.10.2.jre8",
+			"vulnerabilities":"1 vulnerability"
+		},
+		{
 			"date":"20250623",
 			"repository":"Central",
 			"type":"release",
-			"usage":38,
+			"usage":43,
 			"version":"12.10.1.jre11",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250623",
@@ -100,15 +132,15 @@
 			"type":"release",
 			"usage":5,
 			"version":"12.10.1.jre8",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250317",
 			"repository":"Central",
 			"type":"release",
-			"usage":62,
+			"usage":63,
 			"version":"12.10.0.jre11",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250317",
@@ -130,9 +162,25 @@
 			"date":"20241203",
 			"repository":"Central",
 			"type":"preview",
-			"usage":11,
+			"usage":12,
 			"version":"12.9.0.jre8-preview",
 			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.8.2.jre11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.8.2.jre8",
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20240823",
@@ -140,7 +188,7 @@
 			"type":"release",
 			"usage":94,
 			"version":"12.8.1.jre11",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20240823",
@@ -148,55 +196,7 @@
 			"type":"release",
 			"usage":32,
 			"version":"12.8.1.jre8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240731",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"12.8.0.jre11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240731",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"12.8.0.jre8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240709",
-			"repository":"Central",
-			"type":"preview",
-			"usage":2,
-			"version":"12.7.1.jre11-preview",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240709",
-			"repository":"Central",
-			"type":"preview",
-			"usage":6,
-			"version":"12.7.1.jre8-preview",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240408",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"12.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240406",
-			"repository":"Central",
-			"type":"preview",
-			"usage":10,
-			"version":"12.7.0.jre11-preview",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		}
 	]
 }
