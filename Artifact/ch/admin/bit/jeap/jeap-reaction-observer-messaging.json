@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-reaction-observer-messaging",
-	"version_latest":"3.0.0",
-	"ts_publish":1763045608000,
-	"dt_publish":"2025-11-13 22:53:28.000",
-	"ts_update":1763047172903,
-	"dt_update":"2025-11-13 23:19:07.980",
+	"version_latest":"3.0.1",
+	"ts_publish":1763105499000,
+	"dt_publish":"2025-11-14 15:31:39.000",
+	"ts_update":1763106331079,
+	"dt_update":"2025-11-14 15:45:24.764",
 	"count_dep":8,
 	"count_ref":1,
 	"licenses":[
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-reaction-observer.git/jeap-reaction-observer-messaging",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#288177 in MvnRepository",
+	"ranking":"#288204 in MvnRepository",
 	"tags":[
 		"admin",
 		"messaging"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251030",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.12.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.12.1",
 			"vulnerabilities":""
 		}
 	]
