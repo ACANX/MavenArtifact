@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for Amazon SNS module holds the client classes that are used for communicating with\n        Amazon Simple Notification Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"sns",
-	"version_latest":"2.38.5",
-	"ts_publish":1762989328000,
-	"dt_publish":"2025-11-13 07:15:28.000",
-	"ts_update":1762991183700,
-	"dt_update":"2025-11-13 07:45:34.282",
-	"count_dep":37,
+	"version_latest":"2.38.6",
+	"ts_publish":1763081325000,
+	"dt_publish":"2025-11-14 08:48:45.000",
+	"ts_update":1763082850811,
+	"dt_update":"2025-11-14 09:13:59.336",
+	"count_dep":34,
 	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/sns@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/sns",
-	"count_used_by":94,
+	"count_used_by":95,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#5632 in MvnRepository",
+	"ranking":"#5591 in MvnRepository",
 	"tags":[
 		"sns",
 		"aws",
@@ -31,6 +31,30 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.38.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.38.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.38.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"2.35.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251014",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.35.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251013",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.35.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251010",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"2.35.5",
 			"vulnerabilities":""
 		}
 	]
