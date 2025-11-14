@@ -3,12 +3,12 @@
 	"description":"Replay request when experiencing backend connection issue or if the response meets a given condition",
 	"group_id":"io.gravitee.policy",
 	"artifact_id":"gravitee-policy-retry",
-	"version_latest":"3.1.0",
-	"ts_publish":1762953465000,
-	"dt_publish":"2025-11-12 21:17:45.000",
-	"ts_update":1762955225102,
-	"dt_update":"2025-11-12 21:46:57.490",
-	"count_dep":91,
+	"version_latest":"4.0.0",
+	"ts_publish":1763115733000,
+	"dt_publish":"2025-11-14 18:22:13.000",
+	"ts_update":1763116013696,
+	"dt_update":"2025-11-14 18:26:23.536",
+	"count_dep":108,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,11 +29,19 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-policy-retry",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#303226 in MvnRepository",
+	"ranking":"#303717 in MvnRepository",
 	"tags":[
 		"policy"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250606",
 			"repository":"Central",
