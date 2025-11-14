@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.pure",
 	"artifact_id":"legend-pure-runtime-java-engine-interpreted",
-	"version_latest":"5.66.0",
-	"ts_publish":1762817083000,
-	"dt_publish":"2025-11-11 07:24:43.000",
-	"ts_update":1762818319723,
-	"dt_update":"2025-11-11 07:44:58.564",
-	"count_dep":21,
+	"version_latest":"5.67.0",
+	"ts_publish":1763145892000,
+	"dt_publish":"2025-11-15 02:44:52.000",
+	"ts_update":1763147627584,
+	"dt_update":"2025-11-15 03:13:36.380",
+	"count_dep":23,
 	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,19 +24,27 @@
 		"Maurizio Pillitu"
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-pure/legend-pure-runtime/legend-pure-runtime-java-engine-interpreted",
-	"count_used_by":47,
+	"count_used_by":48,
 	"license":"Apache 2.0",
-	"ranking":"#10631 in MvnRepository",
+	"ranking":"#10469 in MvnRepository",
 	"tags":[
 		"runtime",
 		"engine"
 	],
 	"versions":[
 		{
-			"date":"20251107",
+			"date":"20251111",
 			"repository":"Central",
 			"type":"release",
 			"usage":4,
+			"version":"5.66.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":29,
 			"version":"5.65.0",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"5.54.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250721",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.53.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.pure",
 	"artifact_id":"legend-pure-m2-dsl-path-pure",
-	"version_latest":"5.66.0",
-	"ts_publish":1762817083000,
-	"dt_publish":"2025-11-11 07:24:43.000",
-	"ts_update":1762819003544,
-	"dt_update":"2025-11-11 07:56:27.809",
-	"count_dep":18,
+	"version_latest":"5.67.0",
+	"ts_publish":1763145892000,
+	"dt_publish":"2025-11-15 02:44:52.000",
+	"ts_update":1763147634679,
+	"dt_update":"2025-11-15 03:13:37.101",
+	"count_dep":6,
 	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,17 +26,25 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-pure/legend-pure-dsl/legend-pure-dsl-path/legend-pure-m2-dsl-path-pure",
 	"count_used_by":26,
 	"license":"Apache 2.0",
-	"ranking":"#18382 in MvnRepository",
+	"ranking":"#18611 in MvnRepository",
 	"tags":[
 		"path",
 		"dsl"
 	],
 	"versions":[
 		{
-			"date":"20251107",
+			"date":"20251110",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"5.66.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":22,
 			"version":"5.65.0",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"5.54.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250721",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"5.53.0",
 			"vulnerabilities":""
 		}
 	]

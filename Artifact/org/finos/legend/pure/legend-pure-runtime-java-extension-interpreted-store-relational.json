@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.finos.legend.pure/legend-pure-runtime-java-extension-interpreted-store-relational",
-	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.pure",
 	"artifact_id":"legend-pure-runtime-java-extension-interpreted-store-relational",
-	"version_latest":"5.66.0",
-	"ts_publish":1762817083000,
-	"dt_publish":"2025-11-11 07:24:43.000",
-	"ts_update":1762817526238,
-	"dt_update":"2025-11-11 07:31:53.555",
-	"count_dep":30,
+	"version_latest":"5.67.0",
+	"ts_publish":1763145892000,
+	"dt_publish":"2025-11-15 02:44:52.000",
+	"ts_update":1763147624487,
+	"dt_update":"2025-11-15 03:13:36.385",
+	"count_dep":13,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,7 +23,7 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-pure/legend-pure-store/legend-pure-store-relational/legend-pure-runtime-java-extension-interpreted-store-relational",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#161438 in MvnRepository",
+	"ranking":"#161845 in MvnRepository",
 	"tags":[
 		"store",
 		"relational",
@@ -35,10 +32,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251107",
+			"date":"20251111",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"5.66.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"5.65.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.54.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250721",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.53.0",
 			"vulnerabilities":""
 		}
 	]

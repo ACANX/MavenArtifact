@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.pure",
 	"artifact_id":"legend-pure-m4",
-	"version_latest":"5.66.0",
-	"ts_publish":1762817083000,
-	"dt_publish":"2025-11-11 07:24:43.000",
-	"ts_update":1762817528125,
-	"dt_update":"2025-11-11 07:31:53.550",
+	"version_latest":"5.67.0",
+	"ts_publish":1763145892000,
+	"dt_publish":"2025-11-15 02:44:52.000",
+	"ts_update":1763147626973,
+	"dt_update":"2025-11-15 03:13:36.384",
 	"count_dep":5,
-	"count_ref":35,
+	"count_ref":34,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,16 +24,24 @@
 		"Maurizio Pillitu"
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-pure/legend-pure-core/legend-pure-m4",
-	"count_used_by":292,
+	"count_used_by":296,
 	"home_page":"https://github.com/finos/legend-pure",
 	"license":"Apache 2.0",
-	"ranking":"#2217 in MvnRepository",
+	"ranking":"#2203 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":31,
+			"version":"5.66.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251108",
 			"repository":"Central",
 			"type":"release",
-			"usage":31,
+			"usage":216,
 			"version":"5.65.0",
 			"vulnerabilities":""
 		},
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":30,
 			"version":"5.54.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250721",
-			"repository":"Central",
-			"type":"release",
-			"usage":30,
-			"version":"5.53.0",
 			"vulnerabilities":""
 		}
 	]
