@@ -3,14 +3,16 @@
 	"description":"This project allows a user to interact with ESP services in a controlled manner. The API calls available under org.hpccsystems.ws.client.platform allow for a user to target ESP's across multiple environments running a range of hpccsystems-platform versions. There is no guarantee that if a user utilizes org.hpccsystems.ws.client.gen generated stub code from wsdl, that the calls will be backwards compatible with older hpccsystems-platform versions.",
 	"group_id":"org.hpccsystems",
 	"artifact_id":"wsclient",
-	"version_latest":"10.0.6-1",
-	"ts_publish":1762349987000,
-	"dt_publish":"2025-11-05 21:39:47.000",
-	"ts_update":1762360011629,
-	"dt_update":"2025-11-06 00:21:36.189",
-	"count_dep":101,
+	"version_latest":"10.0.8-1",
+	"ts_publish":1763145787000,
+	"dt_publish":"2025-11-15 02:43:07.000",
+	"ts_update":1763146439685,
+	"dt_update":"2025-11-15 02:53:34.710",
+	"count_dep":106,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Other"
 	],
@@ -26,11 +28,27 @@
 	"url_scm":"scm:git:https://github.com/hpcc-systems/hpcc4j.git/wsclient",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#104633 in MvnRepository",
+	"ranking":"#105321 in MvnRepository",
 	"tags":[
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.0.6-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.0.4-1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -45,6 +63,22 @@
 			"type":"release",
 			"usage":2,
 			"version":"10.0.0-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.14.32-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.14.30-1",
 			"vulnerabilities":""
 		},
 		{
@@ -157,38 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"9.14.4-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250715",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.14.2-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250708",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.14.0-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251021",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.12.46-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251015",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"9.12.44-2",
 			"vulnerabilities":""
 		}
 	]
