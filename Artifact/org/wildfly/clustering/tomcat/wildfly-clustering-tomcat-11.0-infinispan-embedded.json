@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/org.wildfly.clustering.tomcat/wildfly-clustering-tomcat-11.0-infinispan-embedded",
-	"description":"WildFly Clustering: Tomcat 11.0: Embedded Infinispan session manager",
+	"description":"WildFly Clustering: Tomcat 11.0: Infinispan: Embedded",
 	"group_id":"org.wildfly.clustering.tomcat",
 	"artifact_id":"wildfly-clustering-tomcat-11.0-infinispan-embedded",
-	"version_latest":"27.0.1.Final",
-	"ts_publish":1756881021000,
-	"dt_publish":"2025-09-03 14:30:21.000",
-	"ts_update":1756881839521,
-	"dt_update":"2025-09-03 14:43:41.145",
-	"count_dep":79,
+	"version_latest":"28.0.0.Final",
+	"ts_publish":1763101824000,
+	"dt_publish":"2025-11-14 14:30:24.000",
+	"ts_update":1763103321438,
+	"dt_update":"2025-11-14 14:54:55.879",
+	"count_dep":82,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,7 +22,7 @@
 	],
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering-tomcat",
 	"license":"Apache 2.0",
-	"ranking":"#954754 in MvnRepository",
+	"ranking":"#788228 in MvnRepository",
 	"tags":[
 		"embedded",
 		"infinispan",
@@ -34,6 +34,14 @@
 		"tomcat"
 	],
 	"versions":[
+		{
+			"date":"20250903",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"27.0.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
