@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-language-pure-compiler-http-api",
-	"version_latest":"4.108.0",
-	"ts_publish":1762717784000,
-	"dt_publish":"2025-11-10 03:49:44.000",
-	"ts_update":1762719412053,
-	"dt_update":"2025-11-10 04:16:11.412",
+	"version_latest":"4.110.0",
+	"ts_publish":1763225751000,
+	"dt_publish":"2025-11-16 00:55:51.000",
+	"ts_update":1763226773239,
+	"dt_update":"2025-11-16 01:12:32.859",
 	"count_dep":43,
-	"count_ref":2,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,9 +24,9 @@
 		"Maurizio Pillitu"
 	],
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-base/legend-engine-core-language-pure/legend-engine-language-pure-compiler-http-api",
-	"count_used_by":1,
+	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#323362 in MvnRepository",
+	"ranking":"#206165 in MvnRepository",
 	"tags":[
 		"compiler",
 		"language",
@@ -35,6 +35,30 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.109.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251109",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.108.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.107.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251101",
 			"repository":"Central",
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.99.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250905",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.98.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.97.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250826",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.97.1",
 			"vulnerabilities":""
 		}
 	]
