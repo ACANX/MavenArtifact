@@ -3,11 +3,11 @@
 	"description":"The Apache Software Foundation provides support for the Apache community of open-source software projects.\n    The Apache projects are characterized by a collaborative, consensus based development process, an open and\n    pragmatic software license, and a desire to create high quality software that leads the way in its field.\n    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers\n    and users.",
 	"group_id":"org.apache.sshd",
 	"artifact_id":"sshd-git",
-	"version_latest":"3.0.0-M1",
-	"ts_publish":1756505007000,
-	"dt_publish":"2025-08-30 06:03:27.000",
-	"ts_update":1760201131190,
-	"dt_update":"2025-10-12 00:16:16.843",
+	"version_latest":"3.0.0-M2",
+	"ts_publish":1761150526000,
+	"dt_publish":"2025-10-23 00:28:46.000",
+	"ts_update":1763223996813,
+	"dt_update":"2025-11-16 00:18:02.019",
 	"count_dep":59,
 	"count_ref":1,
 	"licenses":[
@@ -23,9 +23,9 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.sshd/sshd-git@3.0.0-M1",
 	"url_issue_management":"https://github.com/apache/mina-sshd/issues",
 	"url_scm":"https://github.com/apache/mina-sshd/tree/sshd-3.0.0-M1/sshd-git",
-	"count_used_by":11,
+	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#44561 in MvnRepository",
+	"ranking":"#40709 in MvnRepository",
 	"tags":[
 		"network",
 		"ssh",
@@ -34,6 +34,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":1,
+			"version":"3.0.0-M2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250906",
 			"repository":"Central",
@@ -46,7 +54,7 @@
 			"date":"20250817",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"2.16.0",
 			"vulnerabilities":""
 		},
@@ -54,7 +62,7 @@
 			"date":"20250224",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"2.15.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20200622",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.5.0",
 			"vulnerabilities":""
 		}
 	]
