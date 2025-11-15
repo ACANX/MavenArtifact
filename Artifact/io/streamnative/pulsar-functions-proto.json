@@ -2,12 +2,14 @@
 	"id":"pkg:maven/io.streamnative/pulsar-functions-proto",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-functions-proto",
-	"version_latest":"4.1.0.6",
-	"ts_publish":1762507737000,
-	"ts_update":1762508838520,
-	"count_dep":17,
-	"count_ref":9,
-	"licenses":[],
+	"version_latest":"4.1.0.7",
+	"ts_publish":1763184956000,
+	"ts_update":1763185586472,
+	"count_dep":76,
+	"count_ref":8,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,17 +19,25 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-functions/pulsar-functions-proto",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-11-07 17:28:57.000",
-	"dt_update":"2025-11-07 17:46:56.601",
+	"dt_publish":"2025-11-15 13:35:56.000",
+	"dt_update":"2025-11-15 13:46:18.006",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#165076 in MvnRepository",
+	"ranking":"#165790 in MvnRepository",
 	"tags":[
 		"functions",
 		"pulsar",
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.1.0.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -74,6 +84,14 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.7.1",
 			"vulnerabilities":""
 		},
 		{
@@ -171,22 +189,7 @@
 			"usage":3,
 			"version":"4.0.5.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.5.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.5.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API."
 }
