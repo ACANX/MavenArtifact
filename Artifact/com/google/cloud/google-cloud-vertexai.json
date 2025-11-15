@@ -3,11 +3,11 @@
 	"description":"Vertex AI is an integrated suite of machine learning tools and services\n    for building and using ML models with AutoML or custom code. It offers both novices and experts\n    the best workbench for the entire machine learning development lifecycle.\n\n    --------------------------------------------------------------------------------------\n    DEPRECATION NOTICE:\n    The 'com.google.cloud.vertexai.generativeai' package and its classes are deprecated as of\n    June 24, 2025 and will be removed on June 24, 2026.\n\n    Please transition to the Google Gen AI SDK (com.google.genai:google-genai)\n    for GenAI functionality.\n\n    A detailed migration guide is available at:\n    https://cloud.google.com/vertex-ai/generative-ai/docs/deprecations/genai-vertexai-sdk#java\n    --------------------------------------------------------------------------------------",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-vertexai",
-	"version_latest":"1.39.0",
-	"ts_publish":1762972017000,
-	"dt_publish":"2025-11-13 02:26:57.000",
-	"ts_update":1762973822316,
-	"dt_update":"2025-11-13 02:52:40.254",
+	"version_latest":"1.40.0",
+	"ts_publish":1763182743000,
+	"dt_publish":"2025-11-15 12:59:03.000",
+	"ts_update":1763183756902,
+	"dt_update":"2025-11-15 13:15:45.584",
 	"count_dep":80,
 	"count_ref":0,
 	"licenses":[
@@ -27,12 +27,20 @@
 	"count_used_by":20,
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#23663 in MvnRepository",
+	"ranking":"#23684 in MvnRepository",
 	"tags":[
 		"google",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.39.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.19.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250214",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.18.0",
 			"vulnerabilities":""
 		}
 	]
