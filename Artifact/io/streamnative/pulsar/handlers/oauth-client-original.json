@@ -3,21 +3,21 @@
 	"description":"OAuth 2.0 login callback handler for Kafka client",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"oauth-client-original",
-	"version_latest":"4.1.0.6",
-	"ts_publish":1762508609000,
-	"ts_update":1762509385964,
+	"version_latest":"4.1.0.7",
+	"ts_publish":1763185943000,
+	"ts_update":1763187765115,
 	"count_dep":8,
-	"count_ref":4,
+	"count_ref":3,
 	"licenses":[],
 	"dsv":1,
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/oauth-client-original/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/oauth-client-original@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/oauth-client-original",
-	"dt_publish":"2025-11-07 17:43:29.000",
-	"dt_update":"2025-11-07 17:56:15.941",
+	"dt_publish":"2025-11-15 13:52:23.000",
+	"dt_update":"2025-11-15 14:22:32.995",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#132395 in MvnRepository",
+	"ranking":"#132902 in MvnRepository",
 	"tags":[
 		"authentication",
 		"client",
@@ -25,6 +25,14 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.1.0.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -71,6 +79,14 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.7.1",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.0.5.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.5.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.5.1",
 			"vulnerabilities":""
 		}
 	]

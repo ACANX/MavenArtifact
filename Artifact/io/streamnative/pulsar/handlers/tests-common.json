@@ -3,9 +3,9 @@
 	"description":"Parent for Kafka on Pulsar implemented using Pulsar Protocol Handler.",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"tests-common",
-	"version_latest":"4.1.0.6",
-	"ts_publish":1762508609000,
-	"ts_update":1762509403833,
+	"version_latest":"4.1.0.7",
+	"ts_publish":1763185943000,
+	"ts_update":1763187762855,
 	"count_dep":5,
 	"count_ref":2,
 	"licenses":[
@@ -15,16 +15,24 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/tests-common/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/tests-common@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/tests-common",
-	"dt_publish":"2025-11-07 17:43:29.000",
-	"dt_update":"2025-11-07 17:56:15.430",
+	"dt_publish":"2025-11-15 13:52:23.000",
+	"dt_update":"2025-11-15 14:22:32.991",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#219869 in MvnRepository",
+	"ranking":"#220115 in MvnRepository",
 	"tags":[
 		"testing",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.1.0.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -71,6 +79,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.7.1",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.0.5.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.5.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.5.1",
 			"vulnerabilities":""
 		}
 	]

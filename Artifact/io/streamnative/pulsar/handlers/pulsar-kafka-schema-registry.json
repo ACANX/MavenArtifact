@@ -3,9 +3,9 @@
 	"description":"Kafka Compatible Schema Registry",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"pulsar-kafka-schema-registry",
-	"version_latest":"4.1.0.6",
-	"ts_publish":1762508609000,
-	"ts_update":1762509386521,
+	"version_latest":"4.1.0.7",
+	"ts_publish":1763185943000,
+	"ts_update":1763187763487,
 	"count_dep":12,
 	"count_ref":2,
 	"licenses":[],
@@ -13,11 +13,11 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/pulsar-kafka-schema-registry/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/pulsar-kafka-schema-registry@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/pulsar-kafka-schema-registry",
-	"dt_publish":"2025-11-07 17:43:29.000",
-	"dt_update":"2025-11-07 17:56:15.427",
+	"dt_publish":"2025-11-15 13:52:23.000",
+	"dt_update":"2025-11-15 14:22:32.997",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#196061 in MvnRepository",
+	"ranking":"#196710 in MvnRepository",
 	"tags":[
 		"registry",
 		"streaming",
@@ -26,6 +26,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.1.0.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -72,6 +80,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.7.1",
 			"vulnerabilities":""
 		},
 		{
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.0.5.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.5.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.0.5.1",
 			"vulnerabilities":""
 		}
 	]
