@@ -3,12 +3,12 @@
 	"description":"Capture changes from an SQL Server database.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-debezium-sqlserver",
-	"version_latest":"3.27.0",
-	"ts_publish":1758273153000,
-	"dt_publish":"2025-09-19 17:12:33.000",
-	"ts_update":1761411380719,
-	"dt_update":"2025-10-26 00:18:48.922",
-	"count_dep":4,
+	"version_latest":"3.29.0",
+	"ts_publish":1761217887000,
+	"dt_publish":"2025-10-23 19:11:27.000",
+	"ts_update":1763225255649,
+	"dt_update":"2025-11-16 00:18:11.491",
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.quarkus/camel-quarkus-debezium-sqlserver@3.25.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#105212 in MvnRepository",
+	"ranking":"#106207 in MvnRepository",
 	"tags":[
 		"sql",
 		"server",
@@ -29,6 +29,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.27.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -75,6 +91,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.22.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.20.3",
 			"vulnerabilities":""
 		},
 		{
@@ -163,30 +187,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.15.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240923",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240826",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240729",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.13.0",
 			"vulnerabilities":""
 		}
 	]
