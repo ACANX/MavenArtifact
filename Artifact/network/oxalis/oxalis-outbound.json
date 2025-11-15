@@ -3,13 +3,13 @@
 	"description":"Component for handling sending.",
 	"group_id":"network.oxalis",
 	"artifact_id":"oxalis-outbound",
-	"version_latest":"7.2.0-RC5",
-	"ts_publish":1762680010000,
-	"dt_publish":"2025-11-09 17:20:10.000",
-	"ts_update":1762680656377,
-	"dt_update":"2025-11-09 17:30:47.021",
+	"version_latest":"7.2.0",
+	"ts_publish":1763198505000,
+	"dt_publish":"2025-11-15 17:21:45.000",
+	"ts_update":1763199072045,
+	"dt_update":"2025-11-15 17:31:01.737",
 	"count_dep":64,
-	"count_ref":3,
+	"count_ref":4,
 	"licenses":[
 		"GNU Lesser General Public License (LGPL), Version 3.0",
 		"European Union Public Licence (EUPL v.1.1)"
@@ -32,11 +32,19 @@
 	"count_used_by":4,
 	"home_page":"https://github.com/OxalisCommunity/oxalis",
 	"license":"EUPL 1.1",
-	"ranking":"#124180 in MvnRepository",
+	"ranking":"#124723 in MvnRepository",
 	"tags":[
 		"network"
 	],
 	"versions":[
+		{
+			"date":"20251109",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"7.2.0-RC5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250928",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"6.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231014",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"6.2.0",
 			"vulnerabilities":""
 		}
 	]
