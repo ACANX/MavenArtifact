@@ -6,10 +6,10 @@
 	"version_latest":"2.0.13",
 	"ts_publish":1759828240000,
 	"dt_publish":"2025-10-07 17:10:40.000",
-	"ts_update":1762620558993,
-	"dt_update":"2025-11-09 00:18:07.418",
+	"ts_update":1763225792069,
+	"dt_update":"2025-11-16 00:17:13.753",
 	"count_dep":24,
-	"count_ref":12,
+	"count_ref":19,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -117,10 +117,10 @@
 	],
 	"url_scm":"https://github.com/apache/maven-resolver/tree/maven-resolver-2.0.10/maven-resolver-impl",
 	"url_ci_management":"https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-resolver/",
-	"count_used_by":211,
+	"count_used_by":214,
 	"home_page":"https://maven.apache.org/resolver/",
 	"license":"Apache 2.0",
-	"ranking":"#2673 in MvnRepository",
+	"ranking":"#2847 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
@@ -131,10 +131,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"2.0.13",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250911",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"2.0.11",
 			"vulnerabilities":""
 		},
@@ -280,14 +288,6 @@
 			"type":"alpha",
 			"usage":9,
 			"version":"2.0.0-alpha-3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231118",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":3,
-			"version":"2.0.0-alpha-2",
 			"vulnerabilities":""
 		}
 	]
