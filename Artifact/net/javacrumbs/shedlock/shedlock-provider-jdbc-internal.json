@@ -3,11 +3,11 @@
 	"description":"Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
 	"group_id":"net.javacrumbs.shedlock",
 	"artifact_id":"shedlock-provider-jdbc-internal",
-	"version_latest":"7.0.0-RC1",
-	"ts_publish":1761824314000,
-	"dt_publish":"2025-10-30 19:38:34.000",
-	"ts_update":1761824714165,
-	"dt_update":"2025-10-30 19:44:30.947",
+	"version_latest":"7.0.0",
+	"ts_publish":1763306797000,
+	"dt_publish":"2025-11-16 23:26:37.000",
+	"ts_update":1763307888884,
+	"dt_update":"2025-11-16 23:44:38.069",
 	"count_dep":4,
 	"count_ref":3,
 	"licenses":[
@@ -24,9 +24,9 @@
 		"Lukas Krecan"
 	],
 	"url_scm":"scm:git:git@github.com:lukas-krecan/ShedLock.git/providers/jdbc/shedlock-provider-jdbc-internal",
-	"count_used_by":4,
+	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#113488 in MvnRepository",
+	"ranking":"#97005 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -34,6 +34,14 @@
 		"jdbc"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.0.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"5.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240724",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"5.14.0",
 			"vulnerabilities":""
 		}
 	]
