@@ -3,13 +3,13 @@
 	"description":"Java code generation library parent POM",
 	"group_id":"com.helger",
 	"artifact_id":"jcodemodel",
-	"version_latest":"4.0.0",
-	"ts_publish":1756116915000,
-	"dt_publish":"2025-08-25 18:15:15.000",
-	"ts_update":1756118107857,
-	"dt_update":"2025-08-25 18:34:38.443",
+	"version_latest":"4.1.0",
+	"ts_publish":1763291863000,
+	"dt_publish":"2025-11-16 19:17:43.000",
+	"ts_update":1763292390315,
+	"dt_update":"2025-11-16 19:26:19.057",
 	"count_dep":13,
-	"count_ref":0,
+	"count_ref":12,
 	"licenses":[
 		"CDDL+GPL 1.1"
 	],
@@ -32,14 +32,22 @@
 	],
 	"url_scm":"http://github.com/phax/jcodemodel/jcodemodel",
 	"count_used_by":62,
-	"home_page":"https://github.com/phax/jcodemodel",
+	"home_page":"https://github.com/phax/jcodemodel/jcodemodel",
 	"license":"CDDL",
-	"ranking":"#7976 in MvnRepository",
+	"ranking":"#8309 in MvnRepository",
 	"tags":[
 		"osgi",
 		"bundle"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20220119",
 			"repository":"Central",
@@ -190,14 +198,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20151012",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"2.8.0",
 			"vulnerabilities":""
 		}
 	]
