@@ -3,13 +3,13 @@
 	"description":"OpenPeppol validation rules for phive",
 	"group_id":"com.helger.phive.rules",
 	"artifact_id":"phive-rules-peppol",
-	"version_latest":"4.0.3",
-	"ts_publish":1759438939000,
-	"dt_publish":"2025-10-03 05:02:19.000",
-	"ts_update":1759441549550,
-	"dt_update":"2025-10-03 05:12:53.313",
-	"count_dep":58,
-	"count_ref":1,
+	"version_latest":"4.1.0",
+	"ts_publish":1763314470000,
+	"dt_publish":"2025-11-17 01:34:30.000",
+	"ts_update":1763315783289,
+	"dt_update":"2025-11-17 01:56:10.551",
+	"count_dep":43,
+	"count_ref":2,
 	"licenses":[
 		"Apache 2"
 	],
@@ -23,16 +23,32 @@
 		"Philip Helger"
 	],
 	"url_scm":"http://github.com/phax/phive-rules/phive-rules-peppol",
-	"count_used_by":7,
+	"count_used_by":9,
 	"home_page":"https://github.com/phax/phive-rules/phive-rules-peppol",
 	"license":"Apache 2.0",
-	"ranking":"#69014 in MvnRepository",
+	"ranking":"#53524 in MvnRepository",
 	"tags":[
 		"bundle",
 		"rules",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251002",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.0.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240906",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240729",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.1.12",
 			"vulnerabilities":""
 		}
 	]
