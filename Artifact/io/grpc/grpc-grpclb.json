@@ -3,11 +3,11 @@
 	"description":"gRPC: GRPCLB LoadBalancer plugin",
 	"group_id":"io.grpc",
 	"artifact_id":"grpc-grpclb",
-	"version_latest":"1.76.0",
-	"ts_publish":1759843045000,
-	"dt_publish":"2025-10-07 21:17:25.000",
-	"ts_update":1759844544581,
-	"dt_update":"2025-10-07 21:42:02.716",
+	"version_latest":"1.76.1",
+	"ts_publish":1763407016000,
+	"dt_publish":"2025-11-18 03:16:56.000",
+	"ts_update":1763407662346,
+	"dt_update":"2025-11-18 03:27:29.979",
 	"count_dep":7,
 	"count_ref":5,
 	"licenses":[
@@ -24,10 +24,10 @@
 		"gRPC Contributors"
 	],
 	"url_scm":"https://github.com/grpc/grpc-java",
-	"count_used_by":310,
+	"count_used_by":315,
 	"home_page":"https://github.com/grpc/grpc-java",
 	"license":"Apache 2.0",
-	"ranking":"#1929 in MvnRepository",
+	"ranking":"#2093 in MvnRepository",
 	"tags":[
 		"rpc",
 		"grpc",
@@ -35,10 +35,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":245,
+			"version":"1.76.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250820",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"1.75.0",
 			"vulnerabilities":""
 		},
@@ -70,7 +78,7 @@
 			"date":"20250304",
 			"repository":"Central",
 			"type":"release",
-			"usage":243,
+			"usage":245,
 			"version":"1.71.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"1.64.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240712",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"1.63.2",
 			"vulnerabilities":""
 		}
 	]

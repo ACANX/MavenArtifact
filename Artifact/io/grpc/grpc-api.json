@@ -3,11 +3,11 @@
 	"description":"gRPC: API",
 	"group_id":"io.grpc",
 	"artifact_id":"grpc-api",
-	"version_latest":"1.76.0",
-	"ts_publish":1759843045000,
-	"dt_publish":"2025-10-07 21:17:25.000",
-	"ts_update":1759844531599,
-	"dt_update":"2025-10-07 21:42:02.717",
+	"version_latest":"1.76.1",
+	"ts_publish":1763407016000,
+	"dt_publish":"2025-11-18 03:16:56.000",
+	"ts_update":1763407662576,
+	"dt_update":"2025-11-18 03:27:29.978",
 	"count_dep":3,
 	"count_ref":30,
 	"licenses":[
@@ -24,10 +24,10 @@
 		"gRPC Contributors"
 	],
 	"url_scm":"https://github.com/grpc/grpc-java",
-	"count_used_by":1107,
+	"count_used_by":1122,
 	"home_page":"https://github.com/grpc/grpc-java",
 	"license":"Apache 2.0",
-	"ranking":"#558 in MvnRepository",
+	"ranking":"#559 in MvnRepository",
 	"tags":[
 		"rpc",
 		"grpc",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":649,
+			"version":"1.76.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250820",
 			"repository":"Central",
 			"type":"release",
-			"usage":57,
+			"usage":76,
 			"version":"1.75.0",
 			"vulnerabilities":""
 		},
@@ -55,7 +63,7 @@
 			"date":"20250527",
 			"repository":"Central",
 			"type":"release",
-			"usage":59,
+			"usage":60,
 			"version":"1.73.0",
 			"vulnerabilities":""
 		},
@@ -63,7 +71,7 @@
 			"date":"20250415",
 			"repository":"Central",
 			"type":"release",
-			"usage":44,
+			"usage":45,
 			"version":"1.72.0",
 			"vulnerabilities":""
 		},
@@ -71,7 +79,7 @@
 			"date":"20250304",
 			"repository":"Central",
 			"type":"release",
-			"usage":662,
+			"usage":668,
 			"version":"1.71.0",
 			"vulnerabilities":""
 		},
@@ -167,7 +175,7 @@
 			"date":"20240711",
 			"repository":"Central",
 			"type":"release",
-			"usage":26,
+			"usage":27,
 			"version":"1.64.2",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":81,
 			"version":"1.64.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240712",
-			"repository":"Central",
-			"type":"release",
-			"usage":28,
-			"version":"1.63.2",
 			"vulnerabilities":""
 		}
 	]
