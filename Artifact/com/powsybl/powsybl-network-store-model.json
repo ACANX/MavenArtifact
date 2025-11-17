@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.powsybl/powsybl-network-store-model",
 	"group_id":"com.powsybl",
 	"artifact_id":"powsybl-network-store-model",
-	"version_latest":"1.33.0",
-	"ts_publish":1762259250000,
-	"dt_publish":"2025-11-04 20:27:30.000",
-	"ts_update":1762259746803,
-	"dt_update":"2025-11-04 20:35:37.817",
-	"count_dep":12,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"1.34.0",
+	"ts_publish":1763385618000,
+	"dt_publish":"2025-11-17 21:20:18.000",
+	"ts_update":1763387161327,
+	"dt_update":"2025-11-17 21:45:54.110",
+	"count_dep":69,
+	"count_ref":3,
+	"licenses":[
+		"Mozilla Public License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,13 +25,21 @@
 	"url_scm":"https://github.com/powsybl/powsybl-network-store/powsybl-network-store-model",
 	"count_used_by":3,
 	"license":"MPL 2.0",
-	"ranking":"#172659 in MvnRepository",
+	"ranking":"#156545 in MvnRepository",
 	"tags":[
 		"network",
 		"model",
 		"store"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.33.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251031",
 			"repository":"Central",
@@ -181,14 +191,7 @@
 			"usage":3,
 			"version":"1.19.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241017",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.18.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Network store client parent POM"
 }
