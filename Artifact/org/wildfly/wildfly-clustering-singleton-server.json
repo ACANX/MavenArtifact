@@ -3,13 +3,13 @@
 	"description":"Contains implementations of the clustering singleton services.",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-clustering-singleton-server",
-	"version_latest":"38.0.0.Beta1",
-	"ts_publish":1759315079000,
-	"dt_publish":"2025-10-01 18:37:59.000",
-	"ts_update":1759329698812,
-	"dt_update":"2025-10-01 18:56:07.725",
+	"version_latest":"38.0.1.Final",
+	"ts_publish":1763402038000,
+	"dt_publish":"2025-11-18 01:53:58.000",
+	"ts_update":1763403833013,
+	"dt_update":"2025-11-18 02:23:22.466",
 	"count_dep":29,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Application and Server Management"
@@ -18,13 +18,29 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-clustering-singleton-server@37.0.0.Final",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#170314 in MvnRepository",
+	"ranking":"#153863 in MvnRepository",
 	"tags":[
 		"server",
 		"wildfly",
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"38.0.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"38.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"32.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240405",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"32.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"31.0.1.Final",
 			"vulnerabilities":""
 		}
 	]

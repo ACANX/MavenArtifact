@@ -3,11 +3,11 @@
 	"description":"Spring for RabbitMQ (Bill of Materials)",
 	"group_id":"org.springframework.amqp",
 	"artifact_id":"spring-amqp-bom",
-	"version_latest":"4.0.0-RC1",
-	"ts_publish":1760989458000,
-	"dt_publish":"2025-10-21 03:44:18.000",
-	"ts_update":1760993298885,
-	"dt_update":"2025-10-21 04:48:09.851",
+	"version_latest":"4.0.0",
+	"ts_publish":1763401888000,
+	"dt_publish":"2025-11-18 01:51:28.000",
+	"ts_update":1763403825152,
+	"dt_update":"2025-11-18 02:23:27.386",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -31,7 +31,7 @@
 	"url_scm":"https://github.com/spring-projects/spring-amqp",
 	"home_page":"https://github.com/spring-projects/spring-amqp",
 	"license":"Apache 2.0",
-	"ranking":"#588189 in MvnRepository",
+	"ranking":"#593843 in MvnRepository",
 	"tags":[
 		"bom",
 		"queue",
@@ -43,6 +43,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -81,6 +89,14 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.8",
 			"vulnerabilities":""
 		},
 		{
@@ -185,22 +201,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240819",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240618",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.6",
 			"vulnerabilities":""
 		}
 	]

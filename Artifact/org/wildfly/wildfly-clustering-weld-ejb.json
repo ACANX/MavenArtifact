@@ -3,13 +3,13 @@
 	"description":"Marshalling optimizations for weld-ejb module.",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-clustering-weld-ejb",
-	"version_latest":"38.0.0.Final",
-	"ts_publish":1761302373000,
-	"dt_publish":"2025-10-24 18:39:33.000",
-	"ts_update":1761303405054,
-	"dt_update":"2025-10-24 18:56:26.984",
+	"version_latest":"38.0.1.Final",
+	"ts_publish":1763402037000,
+	"dt_publish":"2025-11-18 01:53:57.000",
+	"ts_update":1763403833898,
+	"dt_update":"2025-11-18 02:23:25.169",
 	"count_dep":28,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Application and Server Management"
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-clustering-weld-ejb@37.0.0.Final",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#207049 in MvnRepository",
+	"ranking":"#213655 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"ejb",
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"38.0.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"32.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240405",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"32.0.0.Beta1",
 			"vulnerabilities":""
 		}
 	]

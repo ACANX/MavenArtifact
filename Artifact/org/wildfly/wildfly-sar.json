@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.wildfly/wildfly-sar",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-sar",
-	"version_latest":"38.0.0.Final",
-	"ts_publish":1761302373000,
-	"dt_publish":"2025-10-24 18:39:33.000",
-	"ts_update":1761303396848,
-	"dt_update":"2025-10-24 18:56:26.988",
-	"count_dep":14,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"38.0.1.Final",
+	"ts_publish":1763402037000,
+	"dt_publish":"2025-11-18 01:53:57.000",
+	"ts_update":1763403836318,
+	"dt_update":"2025-11-18 02:23:25.166",
+	"count_dep":116,
+	"count_ref":1,
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -24,11 +26,19 @@
 	"url_scm":"https://github.com/wildfly/wildfly",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#85942 in MvnRepository",
+	"ranking":"#86839 in MvnRepository",
 	"tags":[
 		"wildfly"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"38.0.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":0,
 			"version":"32.0.0.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240405",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"32.0.0.Beta1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"WildFly: Parent Aggregator"
 }

@@ -3,12 +3,12 @@
 	"description":"Spring RabbitMQ Stream Support",
 	"group_id":"org.springframework.amqp",
 	"artifact_id":"spring-rabbit-stream",
-	"version_latest":"4.0.0-RC1",
-	"ts_publish":1760989458000,
-	"dt_publish":"2025-10-21 03:44:18.000",
-	"ts_update":1760993301086,
-	"dt_update":"2025-10-21 04:48:09.853",
-	"count_dep":0,
+	"version_latest":"4.0.0",
+	"ts_publish":1763401888000,
+	"dt_publish":"2025-11-18 01:51:28.000",
+	"ts_update":1763403828322,
+	"dt_update":"2025-11-18 02:23:27.822",
+	"count_dep":31,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -32,7 +32,7 @@
 	"count_used_by":16,
 	"home_page":"https://github.com/spring-projects/spring-amqp",
 	"license":"Apache 2.0",
-	"ranking":"#28882 in MvnRepository",
+	"ranking":"#29310 in MvnRepository",
 	"tags":[
 		"streaming",
 		"queue",
@@ -42,6 +42,14 @@
 		"framework"
 	],
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -80,6 +88,14 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.8",
 			"vulnerabilities":""
 		},
 		{
@@ -184,22 +200,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.1.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240819",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.1.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240618",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.1.6",
 			"vulnerabilities":""
 		}
 	]
