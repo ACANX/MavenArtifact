@@ -3,14 +3,16 @@
 	"description":"Use a Mock backend to emulate the behaviour of a typical HTTP server and test processes",
 	"group_id":"io.gravitee.apim.plugin.endpoint",
 	"artifact_id":"gravitee-apim-plugin-endpoint-mock",
-	"version_latest":"4.9.3",
-	"ts_publish":1762533599000,
-	"dt_publish":"2025-11-08 00:39:59.000",
-	"ts_update":1762534424166,
-	"dt_update":"2025-11-08 00:53:29.092",
-	"count_dep":24,
+	"version_latest":"4.9.5",
+	"ts_publish":1763395314000,
+	"dt_publish":"2025-11-18 00:01:54.000",
+	"ts_update":1763396539295,
+	"dt_update":"2025-11-18 00:21:53.221",
+	"count_dep":81,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -27,13 +29,29 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-plugin/gravitee-apim-plugin-endpoint/gravitee-apim-plugin-endpoint-mock",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#39532 in MvnRepository",
+	"ranking":"#39713 in MvnRepository",
 	"tags":[
 		"plugin",
 		"mock",
 		"endpoint"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.9.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -91,6 +109,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.8.12",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251024",
 			"repository":"Central",
 			"type":"release",
@@ -110,7 +136,7 @@
 			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"4.8.9",
 			"vulnerabilities":""
 		},
@@ -168,30 +194,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.8.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":3,
-			"version":"4.8.0-alpha.3",
 			"vulnerabilities":""
 		}
 	]

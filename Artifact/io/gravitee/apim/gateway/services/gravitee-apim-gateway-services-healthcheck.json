@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.gravitee.apim.gateway.services/gravitee-apim-gateway-services-healthcheck",
 	"group_id":"io.gravitee.apim.gateway.services",
 	"artifact_id":"gravitee-apim-gateway-services-healthcheck",
-	"version_latest":"4.9.4",
-	"ts_publish":1763127793000,
-	"dt_publish":"2025-11-14 21:43:13.000",
-	"ts_update":1763128626695,
-	"dt_update":"2025-11-14 21:56:30.273",
-	"count_dep":161,
+	"version_latest":"4.9.5",
+	"ts_publish":1763395314000,
+	"dt_publish":"2025-11-18 00:01:54.000",
+	"ts_update":1763396540839,
+	"dt_update":"2025-11-18 00:21:53.225",
+	"count_dep":34,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -28,13 +26,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-services/gravitee-apim-gateway-services-healthcheck",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#239855 in MvnRepository",
+	"ranking":"#238825 in MvnRepository",
 	"tags":[
 		"service",
 		"gateway",
 		"healthcheck"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -186,15 +192,6 @@
 			"usage":2,
 			"version":"4.8.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.1",
-			"vulnerabilities":""
 		}
-	],
-	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
+	]
 }

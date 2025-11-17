@@ -3,14 +3,16 @@
 	"description":"Web APIs can be accessed using the HTTP protocol. Defines endpoints, valid request and response formats.",
 	"group_id":"io.gravitee.apim.plugin.entrypoint",
 	"artifact_id":"gravitee-apim-plugin-entrypoint-http-proxy",
-	"version_latest":"4.9.3",
-	"ts_publish":1762533599000,
-	"dt_publish":"2025-11-08 00:39:59.000",
-	"ts_update":1762534425695,
-	"dt_update":"2025-11-08 00:53:29.092",
-	"count_dep":25,
+	"version_latest":"4.9.5",
+	"ts_publish":1763395314000,
+	"dt_publish":"2025-11-18 00:01:54.000",
+	"ts_update":1763396535231,
+	"dt_update":"2025-11-18 00:21:52.639",
+	"count_dep":82,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -27,13 +29,29 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-plugin/gravitee-apim-plugin-entrypoint/gravitee-apim-plugin-entrypoint-http-proxy",
 	"count_used_by":26,
 	"license":"Apache 2.0",
-	"ranking":"#18018 in MvnRepository",
+	"ranking":"#18060 in MvnRepository",
 	"tags":[
 		"plugin",
 		"proxy",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.9.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -54,7 +72,7 @@
 			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"4.9.0",
 			"vulnerabilities":""
 		},
@@ -88,6 +106,14 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.8.12",
 			"vulnerabilities":""
 		},
 		{
@@ -168,30 +194,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.8.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":2,
-			"version":"4.8.0-alpha.3",
 			"vulnerabilities":""
 		}
 	]
