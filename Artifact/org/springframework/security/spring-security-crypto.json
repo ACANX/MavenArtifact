@@ -3,13 +3,13 @@
 	"description":"Spring Security",
 	"group_id":"org.springframework.security",
 	"artifact_id":"spring-security-crypto",
-	"version_latest":"7.0.0-RC3",
-	"ts_publish":1762450165000,
-	"dt_publish":"2025-11-07 01:29:25.000",
-	"ts_update":1762450542377,
-	"dt_update":"2025-11-07 01:35:22.349",
+	"version_latest":"7.0.0",
+	"ts_publish":1763400413000,
+	"dt_publish":"2025-11-18 01:26:53.000",
+	"ts_update":1763400937329,
+	"dt_update":"2025-11-18 01:35:31.489",
 	"count_dep":0,
-	"count_ref":22,
+	"count_ref":21,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -25,10 +25,10 @@
 		"Pivotal"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-security",
-	"count_used_by":894,
+	"count_used_by":895,
 	"home_page":"https://spring.io/projects/spring-security",
 	"license":"Apache 2.0",
-	"ranking":"#690 in MvnRepository",
+	"ranking":"#691 in MvnRepository",
 	"tags":[
 		"security",
 		"cryptography",
@@ -38,6 +38,14 @@
 		"encryption"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"7.0.0-RC3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251104",
 			"repository":"Central",
@@ -114,7 +122,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":21,
+			"usage":22,
 			"version":"6.5.2",
 			"vulnerabilities":""
 		},
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":33,
 			"version":"6.4.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250421",
-			"repository":"Central",
-			"type":"release",
-			"usage":454,
-			"version":"6.4.5",
 			"vulnerabilities":""
 		}
 	]

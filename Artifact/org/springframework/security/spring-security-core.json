@@ -3,13 +3,13 @@
 	"description":"Spring Security",
 	"group_id":"org.springframework.security",
 	"artifact_id":"spring-security-core",
-	"version_latest":"7.0.0-RC3",
-	"ts_publish":1762450165000,
-	"dt_publish":"2025-11-07 01:29:25.000",
-	"ts_update":1762451267739,
-	"dt_update":"2025-11-07 01:47:40.092",
+	"version_latest":"7.0.0",
+	"ts_publish":1763400413000,
+	"dt_publish":"2025-11-18 01:26:53.000",
+	"ts_update":1763400947838,
+	"dt_update":"2025-11-18 01:35:30.922",
 	"count_dep":10,
-	"count_ref":21,
+	"count_ref":20,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -25,7 +25,7 @@
 		"Pivotal"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-security",
-	"count_used_by":2871,
+	"count_used_by":2873,
 	"home_page":"https://spring.io/projects/spring-security",
 	"license":"Apache 2.0",
 	"ranking":"#206 in MvnRepository",
@@ -35,6 +35,14 @@
 		"framework"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":22,
+			"version":"7.0.0-RC3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251104",
 			"repository":"Central",
@@ -79,7 +87,7 @@
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
-			"usage":32,
+			"usage":42,
 			"version":"6.5.6",
 			"vulnerabilities":""
 		},
@@ -87,7 +95,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":467,
+			"usage":477,
 			"version":"6.5.5",
 			"vulnerabilities":""
 		},
@@ -95,7 +103,7 @@
 			"date":"20250915",
 			"repository":"Central",
 			"type":"release",
-			"usage":24,
+			"usage":28,
 			"version":"6.5.4",
 			"vulnerabilities":""
 		},
@@ -111,7 +119,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":45,
+			"usage":47,
 			"version":"6.5.2",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -135,7 +143,7 @@
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
-			"usage":21,
+			"usage":24,
 			"version":"6.4.12",
 			"vulnerabilities":""
 		},
@@ -143,7 +151,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":22,
+			"usage":27,
 			"version":"6.4.11",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"usage":50,
 			"version":"6.4.6",
 			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20250421",
-			"repository":"Central",
-			"type":"release",
-			"usage":493,
-			"version":"6.4.5",
-			"vulnerabilities":"2 vulnerabilities"
 		}
 	]
 }
