@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.factcast/factcast-factus-event",
-	"description":"factcast is a 'good enough' event store using PostgreSQL\n    for persistence, and offers an GRPC interface and a java client\n    library for rapid application development.",
 	"group_id":"org.factcast",
 	"artifact_id":"factcast-factus-event",
-	"version_latest":"0.9.11",
-	"ts_publish":1761126377000,
-	"dt_publish":"2025-10-22 17:46:17.000",
-	"ts_update":1761127007617,
-	"dt_update":"2025-10-22 17:56:25.809",
-	"count_dep":18,
-	"count_ref":32,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"0.9.12",
+	"ts_publish":1763388612000,
+	"dt_publish":"2025-11-17 22:10:12.000",
+	"ts_update":1763389602140,
+	"dt_update":"2025-11-17 22:26:28.627",
+	"count_dep":16,
+	"count_ref":20,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,11 +23,19 @@
 	"url_scm":"https://github.com/factcast/factcast.git/factcast-factus-event",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#407343 in MvnRepository",
+	"ranking":"#261809 in MvnRepository",
 	"tags":[
 		"event"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.9.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -181,14 +186,6 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"0.8.0-M1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240701",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.7.9.1",
 			"vulnerabilities":""
 		}
 	]
