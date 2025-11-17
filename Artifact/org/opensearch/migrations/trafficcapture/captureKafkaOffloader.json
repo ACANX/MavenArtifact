@@ -3,11 +3,11 @@
 	"description":"Everything opensearch migrations",
 	"group_id":"org.opensearch.migrations.trafficcapture",
 	"artifact_id":"captureKafkaOffloader",
-	"version_latest":"0.2.5.11",
-	"ts_publish":1762892154000,
-	"dt_publish":"2025-11-12 04:15:54.000",
-	"ts_update":1762894072978,
-	"dt_update":"2025-11-12 04:47:21.036",
+	"version_latest":"0.2.5.12",
+	"ts_publish":1763414720000,
+	"dt_publish":"2025-11-18 05:25:20.000",
+	"ts_update":1763415147179,
+	"dt_update":"2025-11-18 05:32:14.188",
 	"count_dep":10,
 	"count_ref":2,
 	"licenses":[
@@ -23,13 +23,29 @@
 	"count_used_by":2,
 	"home_page":"http://github.com/opensearch-project/opensearch-migrations",
 	"license":"Apache 2.0",
-	"ranking":"#246786 in MvnRepository",
+	"ranking":"#233728 in MvnRepository",
 	"tags":[
 		"opensearch",
 		"migration",
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.2.5.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.2.5.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.2.3.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250529",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.2.3.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.2.3.9",
 			"vulnerabilities":""
 		}
 	]
