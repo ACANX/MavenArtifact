@@ -3,13 +3,13 @@
 	"description":"Apache Lucene (module: grouping)",
 	"group_id":"org.apache.lucene",
 	"artifact_id":"lucene-grouping",
-	"version_latest":"10.3.1",
-	"ts_publish":1759758091000,
-	"dt_publish":"2025-10-06 21:41:31.000",
-	"ts_update":1763224653272,
-	"dt_update":"2025-11-16 00:17:13.072",
+	"version_latest":"10.3.2",
+	"ts_publish":1763373059000,
+	"dt_publish":"2025-11-17 17:50:59.000",
+	"ts_update":1763374763775,
+	"dt_update":"2025-11-17 18:19:07.270",
 	"count_dep":2,
-	"count_ref":70,
+	"count_ref":1,
 	"licenses":[
 		"Apache 2"
 	],
@@ -25,13 +25,21 @@
 	"count_used_by":126,
 	"home_page":"https://lucene.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#4202 in MvnRepository",
+	"ranking":"#4409 in MvnRepository",
 	"tags":[
 		"lucene",
 		"apache",
 		"index"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"10.3.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250913",
 			"repository":"Central",
@@ -84,7 +92,7 @@
 			"date":"20250927",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":3,
 			"version":"9.12.3",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"9.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230130",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"9.5.0",
 			"vulnerabilities":""
 		}
 	]
