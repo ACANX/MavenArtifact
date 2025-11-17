@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.swisspush.gateleen/gateleen-hook-js",
 	"group_id":"org.swisspush.gateleen",
 	"artifact_id":"gateleen-hook-js",
-	"version_latest":"2.1.35",
-	"ts_publish":1762773601000,
-	"dt_publish":"2025-11-10 19:20:01.000",
-	"ts_update":1762775121617,
-	"dt_update":"2025-11-10 19:45:10.694",
+	"version_latest":"2.1.36",
+	"ts_publish":1763367059000,
+	"dt_publish":"2025-11-17 16:10:59.000",
+	"ts_update":1763367864121,
+	"dt_update":"2025-11-17 16:24:10.925",
 	"count_dep":1,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Web Frameworks",
 		"Rest"
@@ -25,11 +27,19 @@
 	"url_scm":"https://github.com/swisspush/gateleen.git/gateleen-hook-js",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#336803 in MvnRepository",
+	"ranking":"#346901 in MvnRepository",
 	"tags":[
 		"javascript"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.1.35",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -181,14 +191,7 @@
 			"usage":1,
 			"version":"2.1.16",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250113",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.1.15",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Middleware library based on Vert.x to build advanced JSON/REST communication servers"
 }
