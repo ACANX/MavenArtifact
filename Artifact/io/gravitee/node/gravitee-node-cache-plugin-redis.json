@@ -3,12 +3,12 @@
 	"description":"Redis Cache allows to use caches based on Redis instance.",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-cache-plugin-redis",
-	"version_latest":"7.17.0",
-	"ts_publish":1762954772000,
-	"dt_publish":"2025-11-12 21:39:32.000",
-	"ts_update":1762955810940,
-	"dt_update":"2025-11-12 21:56:32.503",
-	"count_dep":83,
+	"version_latest":"7.17.1",
+	"ts_publish":1763403843000,
+	"dt_publish":"2025-11-18 02:24:03.000",
+	"ts_update":1763405612871,
+	"dt_update":"2025-11-18 02:53:16.547",
+	"count_dep":66,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-cache/gravitee-node-cache-plugin-redis",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#273029 in MvnRepository",
+	"ranking":"#274228 in MvnRepository",
 	"tags":[
 		"plugin",
 		"database",
@@ -38,6 +38,14 @@
 		"redis"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.17.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.9.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.9.2",
 			"vulnerabilities":""
 		}
 	]

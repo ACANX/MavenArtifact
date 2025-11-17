@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.node/gravitee-node-plugins-service",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-plugins-service",
-	"version_latest":"7.17.0",
-	"ts_publish":1762954772000,
-	"dt_publish":"2025-11-12 21:39:32.000",
-	"ts_update":1762955812396,
-	"dt_update":"2025-11-12 21:56:32.055",
-	"count_dep":20,
+	"version_latest":"7.17.1",
+	"ts_publish":1763403843000,
+	"dt_publish":"2025-11-18 02:24:03.000",
+	"ts_update":1763405610756,
+	"dt_update":"2025-11-18 02:53:16.059",
+	"count_dep":42,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,13 +28,21 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-plugins/gravitee-node-plugins-service",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#97263 in MvnRepository",
+	"ranking":"#97189 in MvnRepository",
 	"tags":[
 		"plugin",
 		"service",
 		"node"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"7.17.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -184,14 +194,7 @@
 			"usage":3,
 			"version":"7.9.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.9.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }
