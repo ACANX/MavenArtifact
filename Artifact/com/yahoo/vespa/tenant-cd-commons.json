@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/tenant-cd-commons",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"tenant-cd-commons",
-	"version_latest":"8.608.33",
-	"ts_publish":1763050636000,
-	"dt_publish":"2025-11-14 00:17:16.000",
-	"ts_update":1763051203901,
-	"dt_update":"2025-11-14 00:26:27.769",
-	"count_dep":5,
+	"version_latest":"8.609.39",
+	"ts_publish":1763391426000,
+	"dt_publish":"2025-11-17 22:57:06.000",
+	"ts_update":1763392783992,
+	"dt_update":"2025-11-17 23:19:19.380",
+	"count_dep":11,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -188,5 +190,6 @@
 			"version":"8.583.10",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

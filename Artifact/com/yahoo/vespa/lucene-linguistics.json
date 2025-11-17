@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/lucene-linguistics",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"lucene-linguistics",
-	"version_latest":"8.608.33",
-	"ts_publish":1763050636000,
-	"dt_publish":"2025-11-14 00:17:16.000",
-	"ts_update":1763051212511,
-	"dt_update":"2025-11-14 00:26:28.208",
-	"count_dep":8,
+	"version_latest":"8.609.39",
+	"ts_publish":1763391426000,
+	"dt_publish":"2025-11-17 22:57:06.000",
+	"ts_update":1763392781282,
+	"dt_update":"2025-11-17 23:19:19.988",
+	"count_dep":17,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -22,12 +24,20 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/lucene-linguistics",
 	"license":"Apache 2.0",
-	"ranking":"#951156 in MvnRepository",
+	"ranking":"#949106 in MvnRepository",
 	"tags":[
 		"lucene",
 		"index"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.608.33",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251111",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":0,
 			"version":"8.584.45",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.583.10",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }
