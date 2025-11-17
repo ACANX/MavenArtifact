@@ -2,20 +2,18 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-milvus-parent",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-milvus-parent",
-	"version_latest":"1.4.0",
-	"ts_publish":1762930511000,
-	"dt_publish":"2025-11-12 14:55:11.000",
-	"ts_update":1762931832115,
-	"dt_update":"2025-11-12 15:16:37.338",
+	"version_latest":"1.4.1",
+	"ts_publish":1763408174000,
+	"dt_publish":"2025-11-18 03:36:14.000",
+	"ts_update":1763409427920,
+	"dt_update":"2025-11-18 03:56:37.799",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-milvus-parent@1.1.1",
 	"license":"Apache 2.0",
-	"ranking":"#841778 in MvnRepository",
+	"ranking":"#835643 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"milvus",
@@ -23,6 +21,14 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251103",
 			"repository":"Central",
@@ -174,15 +180,6 @@
 			"usage":0,
 			"version":"1.0.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
+	]
 }
