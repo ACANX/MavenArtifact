@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.hawt/hawtio-console-assembly",
 	"group_id":"io.hawt",
 	"artifact_id":"hawtio-console-assembly",
-	"version_latest":"4.6.1",
-	"ts_publish":1762239258000,
-	"dt_publish":"2025-11-04 14:54:18.000",
-	"ts_update":1762240641122,
-	"dt_update":"2025-11-04 15:16:59.483",
+	"version_latest":"4.6.2",
+	"ts_publish":1763453946000,
+	"dt_publish":"2025-11-18 16:19:06.000",
+	"ts_update":1763454394929,
+	"dt_update":"2025-11-18 16:26:24.558",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Console"
 	],
@@ -25,12 +23,20 @@
 	"url_scm":"git@github.com:hawtio/hawtio.git",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#213095 in MvnRepository",
+	"ranking":"#213421 in MvnRepository",
 	"tags":[
 		"assembly",
 		"console"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.6.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251030",
 			"repository":"Central",
@@ -182,15 +188,6 @@
 			"usage":1,
 			"version":"3.0.0-RC1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230703",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0-M8",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Hawtio :: hawtio-console-assembly"
+	]
 }
