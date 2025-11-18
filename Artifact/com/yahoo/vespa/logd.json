@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/logd",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"logd",
-	"version_latest":"8.609.39",
-	"ts_publish":1763391426000,
-	"dt_publish":"2025-11-17 22:57:06.000",
-	"ts_update":1763392784138,
-	"dt_update":"2025-11-17 23:19:18.659",
+	"version_latest":"8.610.23",
+	"ts_publish":1763483659000,
+	"dt_publish":"2025-11-19 00:34:19.000",
+	"ts_update":1763485006759,
+	"dt_update":"2025-11-19 00:56:04.032",
 	"count_dep":1,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,8 +25,16 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/logd",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#166359 in MvnRepository",
+	"ranking":"#166710 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.608.33",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251111",
 			"repository":"Central",
@@ -176,14 +186,7 @@
 			"usage":2,
 			"version":"8.584.45",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.583.10",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

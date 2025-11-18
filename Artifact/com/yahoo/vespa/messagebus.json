@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/messagebus",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"messagebus",
-	"version_latest":"8.609.39",
-	"ts_publish":1763391426000,
-	"dt_publish":"2025-11-17 22:57:06.000",
-	"ts_update":1763392774848,
-	"dt_update":"2025-11-17 23:19:17.250",
-	"count_dep":8,
+	"version_latest":"8.610.23",
+	"ts_publish":1763483659000,
+	"dt_publish":"2025-11-19 00:34:19.000",
+	"ts_update":1763485010427,
+	"dt_update":"2025-11-19 00:56:02.343",
+	"count_dep":15,
 	"count_ref":17,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -23,7 +25,7 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/messagebus",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#45510 in MvnRepository",
+	"ranking":"#45511 in MvnRepository",
 	"tags":[
 		"bus"
 	],
@@ -188,5 +190,6 @@
 			"version":"8.584.45",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }
