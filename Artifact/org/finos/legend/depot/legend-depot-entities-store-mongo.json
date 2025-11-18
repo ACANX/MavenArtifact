@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.depot",
 	"artifact_id":"legend-depot-entities-store-mongo",
-	"version_latest":"2.79.1",
-	"ts_publish":1762355281000,
-	"dt_publish":"2025-11-05 23:08:01.000",
-	"ts_update":1762359733729,
-	"dt_update":"2025-11-06 00:21:29.421",
-	"count_dep":7,
+	"version_latest":"2.81.1",
+	"ts_publish":1763449916000,
+	"dt_publish":"2025-11-18 15:11:56.000",
+	"ts_update":1763450794228,
+	"dt_update":"2025-11-18 15:26:25.321",
+	"count_dep":16,
 	"count_ref":6,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,13 +26,37 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-depot/legend-depot-entities-store-mongo",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#43676 in MvnRepository",
+	"ranking":"#43899 in MvnRepository",
 	"tags":[
 		"store",
 		"entity",
 		"mongodb"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"2.80.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"2.80.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"2.79.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251103",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"2.62.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250421",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.61.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250328",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.60.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.50.0",
 			"vulnerabilities":""
 		}
 	]
