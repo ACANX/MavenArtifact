@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.stargate.grpc/bridge-proto",
 	"group_id":"io.stargate.grpc",
 	"artifact_id":"bridge-proto",
-	"version_latest":"2.1.0-BETA-33",
-	"ts_publish":1762809301000,
-	"dt_publish":"2025-11-11 05:15:01.000",
-	"ts_update":1762809983024,
-	"dt_update":"2025-11-11 05:26:13.561",
-	"count_dep":7,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"2.1.0-BETA-34",
+	"ts_publish":1763506787000,
+	"dt_publish":"2025-11-19 06:59:47.000",
+	"ts_update":1763507710507,
+	"dt_update":"2025-11-19 07:14:59.014",
+	"count_dep":18,
+	"count_ref":3,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/stargate/stargate/bridge-proto",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.stargate.grpc/bridge-proto@2.1.0-BETA-28",
@@ -20,7 +22,7 @@
 	"url_scm":"https://github.com/stargate/stargate",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#123497 in MvnRepository",
+	"ranking":"#123742 in MvnRepository",
 	"tags":[
 		"grpc",
 		"bridge",
@@ -28,6 +30,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"2.1.0-BETA-33",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250917",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":3,
 			"version":"2.1.0-BETA-11",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240402",
-			"repository":"Central",
-			"type":"beta",
-			"usage":3,
-			"version":"2.1.0-BETA-10",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Stargate - An open source data API gateway"
 }

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.stargate/grpc-examples",
 	"group_id":"io.stargate",
 	"artifact_id":"grpc-examples",
-	"version_latest":"2.1.0-BETA-33",
-	"ts_publish":1762809301000,
-	"dt_publish":"2025-11-11 05:15:01.000",
-	"ts_update":1762809980521,
-	"dt_update":"2025-11-11 05:26:13.559",
-	"count_dep":4,
+	"version_latest":"2.1.0-BETA-34",
+	"ts_publish":1763506787000,
+	"dt_publish":"2025-11-19 06:59:47.000",
+	"ts_update":1763507727536,
+	"dt_update":"2025-11-19 07:14:59.015",
+	"count_dep":23,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/stargate/stargate/grpc-examples",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.stargate/grpc-examples@2.1.0-BETA-28",
@@ -19,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/stargate/stargate",
 	"license":"Apache 2.0",
-	"ranking":"#551781 in MvnRepository",
+	"ranking":"#553146 in MvnRepository",
 	"tags":[
 		"rpc",
 		"grpc",
@@ -27,6 +29,14 @@
 		"example"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"2.1.0-BETA-33",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250917",
 			"repository":"Central",
@@ -178,14 +188,7 @@
 			"usage":0,
 			"version":"2.1.0-BETA-11",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240402",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"2.1.0-BETA-10",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Stargate - An open source data API gateway"
 }
