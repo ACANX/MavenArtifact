@@ -3,9 +3,9 @@
 	"description":"The AWS SDK for Java - BOM module holds the dependency managements for individual java clients.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"bom",
-	"version_latest":"2.38.7",
-	"ts_publish":1763161591000,
-	"ts_update":1763162828338,
+	"version_latest":"2.38.8",
+	"ts_publish":1763424254000,
+	"ts_update":1763425617006,
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -18,12 +18,12 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/bom@2.32.16",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/bom",
-	"dt_publish":"2025-11-15 07:06:31.000",
-	"dt_update":"2025-11-15 07:26:12.461",
+	"dt_publish":"2025-11-18 08:04:14.000",
+	"dt_update":"2025-11-18 08:26:24.521",
 	"count_used_by":16,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#29240 in MvnRepository",
+	"ranking":"#29255 in MvnRepository",
 	"tags":[
 		"bom",
 		"aws",
@@ -33,6 +33,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.38.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.38.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.35.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251016",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.35.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251016",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.35.8",
 			"vulnerabilities":""
 		}
 	]
