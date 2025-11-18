@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-protocol-http-api",
-	"version_latest":"4.110.0",
-	"ts_publish":1763225751000,
-	"dt_publish":"2025-11-16 00:55:51.000",
-	"ts_update":1763226784583,
-	"dt_update":"2025-11-16 01:12:34.252",
+	"version_latest":"4.110.1",
+	"ts_publish":1763505213000,
+	"dt_publish":"2025-11-19 06:33:33.000",
+	"ts_update":1763506634653,
+	"dt_update":"2025-11-19 06:56:28.756",
 	"count_dep":7,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-base/legend-engine-core-language-pure/legend-engine-protocol-http-api",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#316206 in MvnRepository",
+	"ranking":"#316311 in MvnRepository",
 	"tags":[
 		"api",
 		"http",
@@ -34,6 +34,22 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.110.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.109.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251109",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.100.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250907",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.99.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250905",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.98.0",
 			"vulnerabilities":""
 		}
 	]

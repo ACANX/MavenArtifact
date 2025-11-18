@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-pure-runtime-java-extension-shared-functions-json",
-	"version_latest":"4.110.0",
-	"ts_publish":1763225752000,
-	"dt_publish":"2025-11-16 00:55:52.000",
-	"ts_update":1763226779781,
-	"dt_update":"2025-11-16 01:12:32.857",
-	"count_dep":25,
-	"count_ref":3,
+	"version_latest":"4.110.1",
+	"ts_publish":1763505214000,
+	"dt_publish":"2025-11-19 06:33:34.000",
+	"ts_update":1763506609918,
+	"dt_update":"2025-11-19 06:56:22.326",
+	"count_dep":26,
+	"count_ref":32,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-pure/legend-engine-pure-code-functions-json/legend-engine-pure-runtime-java-extension-shared-functions-json",
 	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#30474 in MvnRepository",
+	"ranking":"#30479 in MvnRepository",
 	"tags":[
 		"json",
 		"functions",
@@ -35,6 +35,14 @@
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"4.110.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":15,
 			"version":"4.100.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250907",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"4.99.0",
 			"vulnerabilities":""
 		}
 	]

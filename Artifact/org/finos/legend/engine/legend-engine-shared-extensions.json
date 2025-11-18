@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-shared-extensions",
-	"version_latest":"4.110.0",
-	"ts_publish":1763225751000,
-	"dt_publish":"2025-11-16 00:55:51.000",
-	"ts_update":1763226770361,
-	"dt_update":"2025-11-16 01:12:37.036",
+	"version_latest":"4.110.1",
+	"ts_publish":1763505213000,
+	"dt_publish":"2025-11-19 06:33:33.000",
+	"ts_update":1763506650454,
+	"dt_update":"2025-11-19 06:56:23.885",
 	"count_dep":4,
-	"count_ref":17,
+	"count_ref":57,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -32,6 +32,14 @@
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":33,
+			"version":"4.110.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":32,
 			"version":"4.100.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250907",
-			"repository":"Central",
-			"type":"release",
-			"usage":32,
-			"version":"4.99.0",
 			"vulnerabilities":""
 		}
 	]
