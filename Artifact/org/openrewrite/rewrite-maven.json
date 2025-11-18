@@ -3,12 +3,12 @@
 	"description":"Eliminate tech-debt. Automatically.",
 	"group_id":"org.openrewrite",
 	"artifact_id":"rewrite-maven",
-	"version_latest":"8.66.3",
-	"ts_publish":1763164175000,
-	"dt_publish":"2025-11-15 07:49:35.000",
-	"ts_update":1763166394890,
-	"dt_update":"2025-11-15 08:26:25.330",
-	"count_dep":21,
+	"version_latest":"8.66.4",
+	"ts_publish":1763481177000,
+	"dt_publish":"2025-11-18 23:52:57.000",
+	"ts_update":1763482980936,
+	"dt_update":"2025-11-19 00:22:27.959",
+	"count_dep":15,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,13 +26,29 @@
 	"count_used_by":70,
 	"home_page":"https://github.com/openrewrite/rewrite",
 	"license":"Apache 2.0",
-	"ranking":"#7448 in MvnRepository",
+	"ranking":"#7457 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.66.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.66.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251104",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.61.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250827",
-			"repository":"Central",
-			"type":"release",
-			"usage":22,
-			"version":"8.61.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250827",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.61.0",
 			"vulnerabilities":""
 		}
 	]
