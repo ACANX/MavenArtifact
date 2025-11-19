@@ -3,12 +3,12 @@
   "description": "微服务启动引导\n        由于微服务需要从配置中心获取配置后再启动，特别是依赖配置文件的自动配置，因此配置中心相关的自动配置需要最先被应用。\n        但此时各种 IOC 组件还未加载，或加载后无法再应用配置中心的配置，因此需要先预启动一个微型的引导 IOC，用于加载配置中心，或其他应该被最先加载的引导配置。\n        然后利用这些引导配置再去启动 IOC，此时各种自动配置才会被正确加载。",
   "group_id": "com.kfyty",
   "artifact_id": "loveqq-boot-cloud-bootstrap",
-  "version_latest": "1.1.6-M2-java8",
-  "ts_publish": 1761272399000,
-  "dt_publish": "2025-10-24 10:19:59.000",
-  "ts_update": 1761272788791,
-  "dt_update": "2025-10-24 10:26:28.791",
-  "count_dep": 12,
+  "version_latest": "1.1.6-M3",
+  "ts_publish": 1763538332000,
+  "dt_publish": "2025-11-19 15:45:32.000",
+  "ts_update": 1763538987117,
+  "dt_update": "2025-11-19 15:56:27.117",
+  "count_dep": 5,
   "count_ref": 4,
   "licenses": [
     "GNU GENERAL PUBLIC LICENSE Version 3"

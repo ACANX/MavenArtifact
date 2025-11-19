@@ -3,11 +3,11 @@
 	"description":"ScaleCube is a lightweight decentralized cluster membership, failure detection, messaging and\n    gossip protocol library for the Java VM.",
 	"group_id":"io.scalecube",
 	"artifact_id":"scalecube-services-transport-jackson",
-	"version_latest":"2.13.12.RC2",
-	"ts_publish":1763485568000,
-	"dt_publish":"2025-11-19 01:06:08.000",
-	"ts_update":1763486238208,
-	"dt_update":"2025-11-19 01:16:29.470",
+	"version_latest":"2.13.12.RC3",
+	"ts_publish":1763538184000,
+	"dt_publish":"2025-11-19 15:43:04.000",
+	"ts_update":1763538995115,
+	"dt_update":"2025-11-19 15:56:27.126",
 	"count_dep":9,
 	"count_ref":3,
 	"licenses":[
@@ -26,13 +26,29 @@
 	"count_used_by":20,
 	"home_page":"https://github.com/scalecube/scalecube",
 	"license":"Apache 2.0",
-	"ranking":"#23830 in MvnRepository",
+	"ranking":"#23693 in MvnRepository",
 	"tags":[
 		"service",
 		"transport",
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.13.12.RC2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.13.12.RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251111",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.13.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250417",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.12.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.12.7.auth-refactoring.RC5",
 			"vulnerabilities":""
 		}
 	]
