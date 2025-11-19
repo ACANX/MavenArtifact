@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-openshift-client-parent",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-openshift-client-parent",
-	"version_latest":"3.30.0.CR1",
-	"ts_publish":1762956091000,
-	"dt_publish":"2025-11-12 22:01:31.000",
-	"ts_update":1762958514130,
-	"dt_update":"2025-11-12 22:26:19.360",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763566864000,
+	"dt_publish":"2025-11-19 23:41:04.000",
+	"ts_update":1763571425164,
+	"dt_update":"2025-11-20 00:47:35.964",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -183,5 +185,6 @@
 			"version":"3.24.3",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }

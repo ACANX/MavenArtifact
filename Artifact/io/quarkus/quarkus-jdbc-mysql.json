@@ -3,11 +3,11 @@
 	"description":"Connect to the MySQL database via JDBC",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-jdbc-mysql",
-	"version_latest":"3.29.2",
-	"ts_publish":1762599519000,
-	"dt_publish":"2025-11-08 18:58:39.000",
-	"ts_update":1762601230568,
-	"dt_update":"2025-11-08 19:26:46.166",
+	"version_latest":"3.30.0",
+	"ts_publish":1763566865000,
+	"dt_publish":"2025-11-19 23:41:05.000",
+	"ts_update":1763571406911,
+	"dt_update":"2025-11-20 00:47:30.854",
 	"count_dep":7,
 	"count_ref":0,
 	"licenses":[],
@@ -16,10 +16,10 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-jdbc-mysql@3.25.1",
-	"count_used_by":19,
+	"count_used_by":23,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#25369 in MvnRepository",
+	"ranking":"#20849 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -28,6 +28,30 @@
 		"mysql"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.30.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.29.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -109,6 +133,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.27.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
@@ -154,38 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.26.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.26.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.26.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.25.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.25.3",
 			"vulnerabilities":""
 		}
 	]
