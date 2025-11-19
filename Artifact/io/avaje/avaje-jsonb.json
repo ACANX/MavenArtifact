@@ -3,13 +3,13 @@
 	"description":"JSON Streaming Generation and data binding library using source code generation",
 	"group_id":"io.avaje",
 	"artifact_id":"avaje-jsonb",
-	"version_latest":"3.8",
-	"ts_publish":1761081418000,
-	"dt_publish":"2025-10-22 05:16:58.000",
-	"ts_update":1761083808949,
-	"dt_update":"2025-10-22 05:56:25.947",
+	"version_latest":"3.9-RC1",
+	"ts_publish":1763592633000,
+	"dt_publish":"2025-11-20 06:50:33.000",
+	"ts_update":1763594793820,
+	"dt_update":"2025-11-20 07:26:22.090",
 	"count_dep":5,
-	"count_ref":3,
+	"count_ref":4,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -25,13 +25,21 @@
 	"url_scm":"git@github.com:avaje-pom/java11-oss.git/avaje-jsonb-parent/avaje-jsonb",
 	"count_used_by":25,
 	"license":"Apache 2.0",
-	"ranking":"#18659 in MvnRepository",
+	"ranking":"#18866 in MvnRepository",
 	"tags":[
 		"json",
 		"jsonb",
 		"binary"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"3.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"3.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250329",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.3-RC1",
 			"vulnerabilities":""
 		}
 	]
