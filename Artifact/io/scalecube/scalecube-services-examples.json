@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.scalecube/scalecube-services-examples",
 	"group_id":"io.scalecube",
 	"artifact_id":"scalecube-services-examples",
-	"version_latest":"2.13.12.RC2",
-	"ts_publish":1763485568000,
-	"dt_publish":"2025-11-19 01:06:08.000",
-	"ts_update":1763486224903,
-	"dt_update":"2025-11-19 01:16:29.469",
-	"count_dep":41,
+	"version_latest":"2.13.12",
+	"ts_publish":1763562675000,
+	"dt_publish":"2025-11-19 22:31:15.000",
+	"ts_update":1763563995744,
+	"dt_update":"2025-11-19 22:53:03.172",
+	"count_dep":10,
 	"count_ref":1,
-	"licenses":[
-		"The Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Distributed Computing"
 	],
@@ -24,12 +22,20 @@
 	"url_scm":"https://github.com/scalecube/scalecube-services/scalecube-services-examples",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#84140 in MvnRepository",
+	"ranking":"#81086 in MvnRepository",
 	"tags":[
 		"service",
 		"example"
 	],
 	"versions":[
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.13.12.RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251111",
 			"repository":"Central",
@@ -181,15 +187,6 @@
 			"usage":1,
 			"version":"2.12.7",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.12.7.auth-refactoring.RC5",
-			"vulnerabilities":""
 		}
-	],
-	"description":"ScaleCube is a lightweight decentralized cluster membership, failure detection, messaging and\n    gossip protocol library for the Java VM."
+	]
 }
