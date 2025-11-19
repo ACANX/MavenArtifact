@@ -3,11 +3,11 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.depot",
 	"artifact_id":"legend-depot-metrics-query-services",
-	"version_latest":"2.81.1",
-	"ts_publish":1763449916000,
-	"dt_publish":"2025-11-18 15:11:56.000",
-	"ts_update":1763450792078,
-	"dt_update":"2025-11-18 15:26:24.454",
+	"version_latest":"2.82.0",
+	"ts_publish":1763556646000,
+	"dt_publish":"2025-11-19 20:50:46.000",
+	"ts_update":1763556992515,
+	"dt_update":"2025-11-19 20:56:23.853",
 	"count_dep":27,
 	"count_ref":6,
 	"licenses":[
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-depot/legend-depot-metrics-query-services",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#84624 in MvnRepository",
+	"ranking":"#82148 in MvnRepository",
 	"tags":[
 		"query",
 		"service",
 		"metrics"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.81.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.63.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.62.0",
 			"vulnerabilities":""
 		}
 	]
