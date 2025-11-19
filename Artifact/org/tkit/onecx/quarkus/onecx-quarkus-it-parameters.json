@@ -2,23 +2,33 @@
 	"id":"pkg:maven/org.tkit.onecx.quarkus/onecx-quarkus-it-parameters",
 	"group_id":"org.tkit.onecx.quarkus",
 	"artifact_id":"onecx-quarkus-it-parameters",
-	"version_latest":"2.0.0",
-	"ts_publish":1762950369000,
-	"dt_publish":"2025-11-12 20:26:09.000",
-	"ts_update":1762953621666,
-	"dt_update":"2025-11-12 21:20:11.455",
-	"count_dep":57,
+	"version_latest":"2.1.0",
+	"ts_publish":1763551501000,
+	"dt_publish":"2025-11-19 19:25:01.000",
+	"ts_update":1763552709921,
+	"dt_update":"2025-11-19 19:44:47.944",
+	"count_dep":170,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.tkit.onecx.quarkus/onecx-quarkus-it-parameters@2.0.0",
 	"license":"Apache 2.0",
-	"ranking":"#612609 in MvnRepository",
+	"ranking":"#545273 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"parameters"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250725",
 			"repository":"Central",
@@ -170,14 +180,7 @@
 			"usage":0,
 			"version":"0.10.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240131",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.9.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Onecx Quarkus Extension"
 }
