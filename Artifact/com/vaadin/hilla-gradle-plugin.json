@@ -3,12 +3,12 @@
 	"description":"This maven module act as a proxy to test, build, and release the hilla gradle plugin,\n        which is written in Kotlin and is built by gradle natively. This makes development\n        and testing of the gradle plugin much easier against the changes of flow, especially\n        the engine-core. However, publishing the hilla-gradle-plugin to gradle plugin\n        central repo is done within platform final releases.",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-gradle-plugin",
-	"version_latest":"25.0.0-beta4",
-	"ts_publish":1762933435000,
-	"dt_publish":"2025-11-12 15:43:55.000",
-	"ts_update":1762934198701,
-	"dt_update":"2025-11-12 15:56:29.824",
-	"count_dep":60,
+	"version_latest":"25.0.0-beta5",
+	"ts_publish":1763570970000,
+	"dt_publish":"2025-11-20 00:49:30.000",
+	"ts_update":1763572585654,
+	"dt_update":"2025-11-20 01:15:57.171",
+	"count_dep":59,
 	"count_ref":1,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/vaadin/hilla/hilla-gradle-plugin",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#157020 in MvnRepository",
+	"ranking":"#147584 in MvnRepository",
 	"tags":[
 		"plugin",
 		"vaadin",
@@ -33,6 +33,14 @@
 		"groovy"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"beta",
+			"usage":2,
+			"version":"25.0.0-beta4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251031",
 			"repository":"Central",
@@ -61,7 +69,7 @@
 			"date":"20251110",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"24.9.5",
 			"vulnerabilities":""
 		},
@@ -149,7 +157,7 @@
 			"date":"20251110",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"24.8.13",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"24.8.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"24.8.8",
 			"vulnerabilities":""
 		}
 	]

@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-resteasy-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-resteasy-deployment",
-	"version_latest":"3.30.0.CR1",
-	"ts_publish":1762956090000,
-	"dt_publish":"2025-11-12 22:01:30.000",
-	"ts_update":1762957641814,
-	"dt_update":"2025-11-12 22:26:34.300",
+	"version_latest":"3.30.0",
+	"ts_publish":1763566864000,
+	"dt_publish":"2025-11-19 23:41:04.000",
+	"ts_update":1763572570585,
+	"dt_update":"2025-11-20 00:47:33.455",
 	"count_dep":14,
-	"count_ref":20,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"count_ref":22,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -20,7 +18,7 @@
 	"count_used_by":129,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#4297 in MvnRepository",
+	"ranking":"#4299 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"rest",
@@ -28,6 +26,22 @@
 		"deployment"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":37,
+			"version":"3.30.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":37,
+			"version":"3.29.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251108",
 			"repository":"Central",
@@ -117,6 +131,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":37,
+			"version":"3.27.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
@@ -163,31 +185,6 @@
 			"usage":38,
 			"version":"3.26.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":38,
-			"version":"3.26.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":37,
-			"version":"3.26.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":37,
-			"version":"3.25.4",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Build parent to bring in required dependencies"
+	]
 }

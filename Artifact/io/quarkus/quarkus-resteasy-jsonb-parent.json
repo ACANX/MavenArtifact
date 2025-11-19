@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkus/quarkus-resteasy-jsonb-parent",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-resteasy-jsonb-parent",
-	"version_latest":"3.30.0.CR1",
-	"ts_publish":1762956091000,
-	"dt_publish":"2025-11-12 22:01:31.000",
-	"ts_update":1762957636121,
-	"dt_update":"2025-11-12 22:26:19.914",
-	"count_dep":1,
+	"version_latest":"3.30.0",
+	"ts_publish":1763566864000,
+	"dt_publish":"2025-11-19 23:41:04.000",
+	"ts_update":1763572571950,
+	"dt_update":"2025-11-20 00:47:37.197",
+	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,7 +22,7 @@
 	],
 	"url_scm":"https://github.com/quarkusio/quarkus",
 	"license":"Apache 2.0",
-	"ranking":"#445511 in MvnRepository",
+	"ranking":"#949536 in MvnRepository",
 	"tags":[
 		"binary",
 		"quarkus",
@@ -34,6 +32,22 @@
 		"jsonb"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.30.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.29.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251108",
 			"repository":"Central",
@@ -123,6 +137,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.27.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
@@ -169,31 +191,6 @@
 			"usage":0,
 			"version":"3.26.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.26.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.26.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250820",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.25.4",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Build parent to bring in required dependencies"
+	]
 }
