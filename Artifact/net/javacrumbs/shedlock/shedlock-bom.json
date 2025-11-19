@@ -3,11 +3,11 @@
 	"description":"BOM for ShedLock modules",
 	"group_id":"net.javacrumbs.shedlock",
 	"artifact_id":"shedlock-bom",
-	"version_latest":"7.0.0",
-	"ts_publish":1763306797000,
-	"dt_publish":"2025-11-16 23:26:37.000",
-	"ts_update":1763307887991,
-	"dt_update":"2025-11-16 23:44:38.063",
+	"version_latest":"7.1.0",
+	"ts_publish":1763586301000,
+	"dt_publish":"2025-11-20 05:05:01.000",
+	"ts_update":1763587600037,
+	"dt_update":"2025-11-20 05:26:26.219",
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"scm:git:git@github.com:lukas-krecan/ShedLock.git/shedlock-bom",
 	"license":"Apache 2.0",
-	"ranking":"#892431 in MvnRepository",
+	"ranking":"#802251 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251116",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251030",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.15.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240815",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.15.0",
 			"vulnerabilities":""
 		}
 	]
