@@ -3,11 +3,11 @@
 	"description":"This package contains Microsoft Azure CosmosDB SDK. For documentation on how to use this package, please see https://aka.ms/azsdk/java/mgmt",
 	"group_id":"com.azure.resourcemanager",
 	"artifact_id":"azure-resourcemanager-cosmos",
-	"version_latest":"2.54.0-beta.1",
-	"ts_publish":1763027970000,
-	"dt_publish":"2025-11-13 17:59:30.000",
-	"ts_update":1763029594603,
-	"dt_update":"2025-11-13 18:26:29.024",
+	"version_latest":"2.54.0",
+	"ts_publish":1763525316000,
+	"dt_publish":"2025-11-19 12:08:36.000",
+	"ts_update":1763526034614,
+	"dt_update":"2025-11-19 12:20:26.009",
 	"count_dep":20,
 	"count_ref":0,
 	"licenses":[
@@ -28,13 +28,21 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/Azure/azure-sdk-for-java",
 	"license":"MIT",
-	"ranking":"#224618 in MvnRepository",
+	"ranking":"#214707 in MvnRepository",
 	"tags":[
 		"azure",
 		"resource",
 		"manager"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"2.54.0-beta.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.42.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240725",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.41.0",
 			"vulnerabilities":""
 		}
 	]
