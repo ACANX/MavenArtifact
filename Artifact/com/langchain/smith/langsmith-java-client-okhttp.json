@@ -3,11 +3,11 @@
 	"description":"The LangSmith API is used to programmatically create and manage LangSmith\nresources.\n\n## Host\n\nhttps://dev.api.smith.langchain.com\n\n## Authentication\n\nTo authenticate with the LangSmith API, set the `X-Api-Key` header to a valid\n[LangSmith API key](https://docs.langchain.com/langsmith/create-account-api-key#create-an-api-key).",
 	"group_id":"com.langchain.smith",
 	"artifact_id":"langsmith-java-client-okhttp",
-	"version_latest":"0.1.0-alpha.10",
-	"ts_publish":1763421153000,
-	"dt_publish":"2025-11-18 07:12:33.000",
-	"ts_update":1763422319379,
-	"dt_update":"2025-11-18 07:31:51.619",
+	"version_latest":"0.1.0-alpha.11",
+	"ts_publish":1763579103000,
+	"dt_publish":"2025-11-20 03:05:03.000",
+	"ts_update":1763579635831,
+	"dt_update":"2025-11-20 03:13:40.622",
 	"count_dep":24,
 	"count_ref":1,
 	"licenses":[
@@ -22,8 +22,8 @@
 	"url_scm":"https://github.com/langchain-ai/langsmith-java",
 	"count_used_by":1,
 	"home_page":"https://www.github.com/langchain-ai/langsmith-java",
-	"license":"Apache 2.0",
-	"ranking":"#369803 in MvnRepository",
+	"license":"MIT",
+	"ranking":"#315016 in MvnRepository",
 	"tags":[
 		"client",
 		"ai",
@@ -31,6 +31,14 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"0.1.0-alpha.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251111",
 			"repository":"Central",
