@@ -3,11 +3,11 @@
 	"description":"HTTP client wrapper around an Apache http client 5",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"http-client",
-	"version_latest":"8.610.23",
-	"ts_publish":1763483659000,
-	"dt_publish":"2025-11-19 00:34:19.000",
-	"ts_update":1763485010671,
-	"dt_update":"2025-11-19 00:56:02.345",
+	"version_latest":"8.611.13",
+	"ts_publish":1763581177000,
+	"dt_publish":"2025-11-20 03:39:37.000",
+	"ts_update":1763585168376,
+	"dt_update":"2025-11-20 04:45:43.444",
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[],
@@ -24,12 +24,28 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/http-client",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#422522 in MvnRepository",
+	"ranking":"#380473 in MvnRepository",
 	"tags":[
 		"client",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.610.23",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.609.39",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.586.25",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250929",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.585.41",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250924",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.584.45",
 			"vulnerabilities":""
 		}
 	]
