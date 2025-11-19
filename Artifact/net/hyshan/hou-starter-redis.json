@@ -3,13 +3,13 @@
 	"description":"注解式redis锁,依赖spring-data-redis，默认使用redisTemplate",
 	"group_id":"net.hyshan",
 	"artifact_id":"hou-starter-redis",
-	"version_latest":"1.10.1",
-	"ts_publish":1763157655000,
-	"dt_publish":"2025-11-15 06:00:55.000",
-	"ts_update":1763158542051,
-	"dt_update":"2025-11-15 06:15:31.448",
+	"version_latest":"1.10.2",
+	"ts_publish":1763560997000,
+	"dt_publish":"2025-11-19 22:03:17.000",
+	"ts_update":1763561833837,
+	"dt_update":"2025-11-19 22:16:57.876",
 	"count_dep":114,
-	"count_ref":3,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,13 +23,21 @@
 	"url_scm":"https://gitee.com/nethyshan/hou/hou-starter/hou-starter-redis",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#203023 in MvnRepository",
+	"ranking":"#193681 in MvnRepository",
 	"tags":[
 		"database",
 		"redis",
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.6.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250403",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.5",
 			"vulnerabilities":""
 		}
 	]
