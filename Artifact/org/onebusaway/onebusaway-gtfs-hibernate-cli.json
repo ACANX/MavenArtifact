@@ -3,12 +3,12 @@
 	"description":"A command-line utility for loading GTFS data into a database.",
 	"group_id":"org.onebusaway",
 	"artifact_id":"onebusaway-gtfs-hibernate-cli",
-	"version_latest":"10.3.0",
-	"ts_publish":1762346756000,
-	"dt_publish":"2025-11-05 20:45:56.000",
-	"ts_update":1762348748680,
-	"dt_update":"2025-11-05 21:19:01.374",
-	"count_dep":24,
+	"version_latest":"11.1.0",
+	"ts_publish":1763563297000,
+	"dt_publish":"2025-11-19 22:41:37.000",
+	"ts_update":1763564208730,
+	"dt_update":"2025-11-19 22:56:41.156",
+	"count_dep":28,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,13 +26,29 @@
 	],
 	"url_scm":"https://github.com/OneBusAway/onebusaway-gtfs-modules/onebusaway-gtfs-hibernate-cli",
 	"license":"Apache 2.0",
-	"ranking":"#819886 in MvnRepository",
+	"ranking":"#756837 in MvnRepository",
 	"tags":[
 		"persistence",
 		"hibernate",
 		"command-line"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"11.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"10.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241212",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.3.1",
 			"vulnerabilities":""
 		}
 	]
