@@ -3,11 +3,11 @@
 	"description":"Hedera API",
 	"group_id":"com.hedera.hashgraph",
 	"artifact_id":"hapi",
-	"version_latest":"0.68.1",
-	"ts_publish":1763412335000,
-	"ts_update":1763414780803,
+	"version_latest":"0.68.2-rc.1",
+	"ts_publish":1763522763000,
+	"ts_update":1763523790322,
 	"count_dep":19,
-	"count_ref":37,
+	"count_ref":35,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,13 +22,21 @@
 		"The Hiero Team"
 	],
 	"url_scm":"https://github.com/hiero-ledger/hiero-consensus-node",
-	"dt_publish":"2025-11-18 04:45:35.000",
-	"dt_update":"2025-11-18 05:26:14.055",
+	"dt_publish":"2025-11-19 11:26:03.000",
+	"dt_update":"2025-11-19 11:43:00.837",
 	"count_used_by":40,
 	"home_page":"https://hiero.org/",
 	"license":"Apache 2.0",
-	"ranking":"#12224 in MvnRepository",
+	"ranking":"#12228 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":31,
+			"version":"0.68.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":28,
 			"version":"0.65.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250815",
-			"repository":"Central",
-			"type":"release",
-			"usage":28,
-			"version":"0.65.0-rc1",
 			"vulnerabilities":""
 		}
 	]
