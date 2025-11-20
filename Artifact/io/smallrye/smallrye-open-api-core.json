@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.smallrye/smallrye-open-api-core",
 	"group_id":"io.smallrye",
 	"artifact_id":"smallrye-open-api-core",
-	"version_latest":"4.2.2",
-	"ts_publish":1763389726000,
-	"dt_publish":"2025-11-17 22:28:46.000",
-	"ts_update":1763390402345,
-	"dt_update":"2025-11-17 22:39:44.850",
-	"count_dep":33,
-	"count_ref":5,
-	"licenses":[],
+	"version_latest":"4.2.3",
+	"ts_publish":1763653915000,
+	"dt_publish":"2025-11-20 23:51:55.000",
+	"ts_update":1763657247049,
+	"dt_update":"2025-11-21 00:47:02.342",
+	"count_dep":36,
+	"count_ref":6,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,11 +25,19 @@
 	"url_scm":"https://github.com/smallrye/smallrye-open-api/smallrye-open-api-core/",
 	"count_used_by":33,
 	"license":"Apache 2.0",
-	"ranking":"#14757 in MvnRepository",
+	"ranking":"#14641 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251104",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":6,
 			"version":"4.0.0-beta2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241010",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":6,
-			"version":"4.0.0-alpha6",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"SmallRye Parent POM"
 }
