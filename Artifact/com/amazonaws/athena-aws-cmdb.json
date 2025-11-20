@@ -2,26 +2,44 @@
 	"id":"pkg:maven/com.amazonaws/athena-aws-cmdb",
 	"group_id":"com.amazonaws",
 	"artifact_id":"athena-aws-cmdb",
-	"version_latest":"2025.43.1",
-	"ts_publish":1761861125000,
-	"dt_publish":"2025-10-31 05:52:05.000",
-	"ts_update":1761866833562,
-	"dt_update":"2025-10-31 07:26:38.919",
-	"count_dep":21,
+	"version_latest":"2025.46.1",
+	"ts_publish":1763661021000,
+	"dt_publish":"2025-11-21 01:50:21.000",
+	"ts_update":1763661394021,
+	"dt_update":"2025-11-21 01:56:25.504",
+	"count_dep":49,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Cloud Computing"
 	],
 	"dsv":1,
 	"license":"Apache 2.0",
-	"ranking":"#696585 in MvnRepository",
+	"ranking":"#442587 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"athena"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.43.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.41.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -165,22 +183,7 @@
 			"usage":0,
 			"version":"2025.2.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250107",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.1.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Amazon Athena Query Federation SDK allows you to customize Amazon Athena with your own code."
 }
