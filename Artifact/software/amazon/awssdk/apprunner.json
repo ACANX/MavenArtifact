@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for App Runner module holds the client classes that are used for\n        communicating with App Runner.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"apprunner",
-	"version_latest":"2.38.9",
-	"ts_publish":1763510955000,
-	"ts_update":1763512008926,
-	"count_dep":3,
-	"count_ref":0,
+	"version_latest":"2.39.0",
+	"ts_publish":1763597832000,
+	"ts_update":1763600209925,
+	"count_dep":33,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,12 +15,12 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/apprunner@2.32.16",
-	"dt_publish":"2025-11-19 08:09:15.000",
-	"dt_update":"2025-11-19 08:26:23.809",
+	"dt_publish":"2025-11-20 08:17:12.000",
+	"dt_update":"2025-11-20 08:56:40.279",
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#123660 in MvnRepository",
+	"ranking":"#113792 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,6 +28,22 @@
 		"runner"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.38.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.38.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.36.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251021",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.35.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251017",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.35.10",
 			"vulnerabilities":""
 		}
 	]
