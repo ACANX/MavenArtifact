@@ -3,13 +3,13 @@
 	"description":"Part of the ORT Server, the reference implementation of Eclipse Apoapsis.",
 	"group_id":"org.eclipse.apoapsis.ortserver.clients",
 	"artifact_id":"keycloak",
-	"version_latest":"0.41.0",
-	"ts_publish":1763550709000,
-	"dt_publish":"2025-11-19 19:11:49.000",
-	"ts_update":1763552706619,
-	"dt_update":"2025-11-19 19:44:55.719",
+	"version_latest":"0.42.0",
+	"ts_publish":1763645407000,
+	"dt_publish":"2025-11-20 21:30:07.000",
+	"ts_update":1763646217211,
+	"dt_update":"2025-11-20 21:43:11.677",
 	"count_dep":88,
-	"count_ref":4,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,13 +23,21 @@
 	"count_used_by":6,
 	"home_page":"https://projects.eclipse.org/projects/technology.apoapsis",
 	"license":"Apache 2.0",
-	"ranking":"#73880 in MvnRepository",
+	"ranking":"#82653 in MvnRepository",
 	"tags":[
 		"eclipse",
 		"keycloak",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.41.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251111",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"0.25.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250812",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.24.0",
 			"vulnerabilities":""
 		}
 	]
