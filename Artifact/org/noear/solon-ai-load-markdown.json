@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.noear/solon-ai-load-markdown",
 	"group_id":"org.noear",
 	"artifact_id":"solon-ai-load-markdown",
-	"version_latest":"3.7.2-M6",
-	"ts_publish":1763541620000,
-	"dt_publish":"2025-11-19 16:40:20.000",
-	"ts_update":1763542604372,
-	"dt_update":"2025-11-19 16:56:31.621",
+	"version_latest":"3.7.2-M7",
+	"ts_publish":1763640008000,
+	"dt_publish":"2025-11-20 20:00:08.000",
+	"ts_update":1763641613950,
+	"dt_update":"2025-11-20 20:26:33.780",
 	"count_dep":4,
-	"count_ref":0,
-	"licenses":[],
+	"count_ref":4,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -20,14 +22,22 @@
 		"noear"
 	],
 	"url_scm":"https://github.com/opensolon/solon/solon-ai-parent/solon-ai-load-markdown",
-	"count_used_by":4,
+	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#127398 in MvnRepository",
+	"ranking":"#94879 in MvnRepository",
 	"tags":[
 		"ai",
 		"markdown"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":5,
+			"version":"3.7.2-M6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251118",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":4,
 			"version":"3.6.0-M1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251105",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.5.8",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Java project for solon"
 }
