@@ -3,11 +3,11 @@
 	"description":"Starter for using Spring Security's OAuth2/OpenID Connect client features (deprecated in favor of spring-boot-starter-security-oauth2-client)",
 	"group_id":"org.springframework.boot",
 	"artifact_id":"spring-boot-starter-oauth2-client",
-	"version_latest":"4.0.0-RC2",
-	"ts_publish":1762463584000,
-	"dt_publish":"2025-11-07 05:13:04.000",
-	"ts_update":1762466208301,
-	"dt_update":"2025-11-07 05:44:37.892",
+	"version_latest":"4.0.0",
+	"ts_publish":1763661467000,
+	"dt_publish":"2025-11-21 01:57:47.000",
+	"ts_update":1763663070353,
+	"dt_update":"2025-11-21 02:24:08.813",
 	"count_dep":43,
 	"count_ref":0,
 	"licenses":[
@@ -24,10 +24,10 @@
 		"Spring"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-boot",
-	"count_used_by":321,
+	"count_used_by":324,
 	"home_page":"https://spring.io/projects/spring-boot",
 	"license":"Apache 2.0",
-	"ranking":"#2057 in MvnRepository",
+	"ranking":"#2050 in MvnRepository",
 	"tags":[
 		"spring",
 		"framework",
@@ -37,6 +37,14 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.0-RC2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -73,7 +81,7 @@
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":16,
 			"version":"3.5.7",
 			"vulnerabilities":""
 		},
@@ -81,7 +89,7 @@
 			"date":"20250918",
 			"repository":"Central",
 			"type":"release",
-			"usage":28,
+			"usage":29,
 			"version":"3.5.6",
 			"vulnerabilities":""
 		},
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":27,
 			"version":"3.4.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250321",
-			"repository":"Central",
-			"type":"release",
-			"usage":32,
-			"version":"3.4.4",
 			"vulnerabilities":""
 		}
 	]
