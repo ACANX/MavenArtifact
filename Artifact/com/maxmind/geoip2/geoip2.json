@@ -3,11 +3,11 @@
 	"description":"GeoIP2 webservice client and database reader",
 	"group_id":"com.maxmind.geoip2",
 	"artifact_id":"geoip2",
-	"version_latest":"4.4.0",
-	"ts_publish":1756391875000,
-	"dt_publish":"2025-08-28 22:37:55.000",
-	"ts_update":1756392992752,
-	"dt_update":"2025-08-28 22:55:57.059",
+	"version_latest":"5.0.0",
+	"ts_publish":1763659522000,
+	"dt_publish":"2025-11-21 01:25:22.000",
+	"ts_update":1763659953317,
+	"dt_update":"2025-11-21 01:32:25.848",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
@@ -25,19 +25,27 @@
 		"Gregory J. Oschwald"
 	],
 	"url_scm":"https://github.com/maxmind/GeoIP2-java",
-	"count_used_by":163,
+	"count_used_by":169,
 	"home_page":"https://dev.maxmind.com/geoip?lang=en",
 	"license":"Apache 2.0",
-	"ranking":"#3310 in MvnRepository",
+	"ranking":"#3449 in MvnRepository",
 	"tags":[
 		"geo"
 	],
 	"versions":[
 		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"4.4.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250528",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":13,
 			"version":"4.3.1",
 			"vulnerabilities":""
 		},
@@ -133,7 +141,7 @@
 			"date":"20211118",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.16.0",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":30,
 			"version":"2.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20180119",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.11.0",
 			"vulnerabilities":""
 		}
 	]
