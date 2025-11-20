@@ -3,11 +3,11 @@
 	"description":"An open-source implementation of the FHIR specification in Java.",
 	"group_id":"ca.uhn.hapi.fhir",
 	"artifact_id":"hapi-fhir-client-okhttp",
-	"version_latest":"8.4.0",
-	"ts_publish":1755831491000,
-	"dt_publish":"2025-08-22 10:58:11.000",
-	"ts_update":1755833203820,
-	"dt_update":"2025-08-22 11:25:48.322",
+	"version_latest":"8.4.1",
+	"ts_publish":1763604610000,
+	"dt_publish":"2025-11-20 10:10:10.000",
+	"ts_update":1763605596084,
+	"dt_update":"2025-11-20 10:26:24.493",
 	"count_dep":46,
 	"count_ref":3,
 	"licenses":[
@@ -199,12 +199,28 @@
 	"url_scm":"scm:git:git@github.com:hapifhir/hapi-fhir.git/hapi-deployable-pom/hapi-fhir-client-okhttp",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#98468 in MvnRepository",
+	"ranking":"#98367 in MvnRepository",
 	"tags":[
 		"client",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250720",
 			"repository":"Central",
@@ -347,22 +363,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"7.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240224",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"6.10.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240202",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"6.10.4",
 			"vulnerabilities":""
 		}
 	]

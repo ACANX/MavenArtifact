@@ -3,11 +3,11 @@
 	"description":"An open-source implementation of the FHIR specification in Java.",
 	"group_id":"ca.uhn.hapi.fhir",
 	"artifact_id":"hapi-tinder-plugin",
-	"version_latest":"8.4.0",
-	"ts_publish":1755831491000,
-	"dt_publish":"2025-08-22 10:58:11.000",
-	"ts_update":1755833202543,
-	"dt_update":"2025-08-22 11:25:46.468",
+	"version_latest":"8.4.1",
+	"ts_publish":1763604610000,
+	"dt_publish":"2025-11-20 10:10:10.000",
+	"ts_update":1763605601297,
+	"dt_update":"2025-11-20 10:26:25.105",
 	"count_dep":180,
 	"count_ref":0,
 	"licenses":[
@@ -198,13 +198,29 @@
 	],
 	"url_scm":"scm:git:git@github.com:hapifhir/hapi-fhir.git/hapi-tinder-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#444697 in MvnRepository",
+	"ranking":"#901852 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250720",
 			"repository":"Central",
@@ -347,22 +363,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240224",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.10.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240202",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.10.4",
 			"vulnerabilities":""
 		}
 	]
