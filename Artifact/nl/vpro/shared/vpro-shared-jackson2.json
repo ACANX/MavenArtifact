@@ -2,14 +2,16 @@
 	"id":"pkg:maven/nl.vpro.shared/vpro-shared-jackson2",
 	"group_id":"nl.vpro.shared",
 	"artifact_id":"vpro-shared-jackson2",
-	"version_latest":"5.13.0",
-	"ts_publish":1763119294000,
-	"dt_publish":"2025-11-14 19:21:34.000",
-	"ts_update":1763120737839,
-	"dt_update":"2025-11-14 19:45:18.633",
-	"count_dep":21,
+	"version_latest":"5.13.1",
+	"ts_publish":1763634683000,
+	"dt_publish":"2025-11-20 18:31:23.000",
+	"ts_update":1763635296267,
+	"dt_update":"2025-11-20 18:41:16.654",
+	"count_dep":35,
 	"count_ref":8,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,11 +26,19 @@
 	"url_ci_management":"https://github.com/vpro/vpro-shared/actions",
 	"count_used_by":28,
 	"license":"Apache 2.0",
-	"ranking":"#17315 in MvnRepository",
+	"ranking":"#17116 in MvnRepository",
 	"tags":[
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
+			"version":"5.13.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":9,
 			"version":"5.5.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250124",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"5.4.6",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"These are various shared utility modules which are used on several places in VPRO artifacts."
 }
