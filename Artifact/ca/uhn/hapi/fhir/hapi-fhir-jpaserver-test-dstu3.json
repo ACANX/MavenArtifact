@@ -3,11 +3,11 @@
 	"description":"An open-source implementation of the FHIR specification in Java.",
 	"group_id":"ca.uhn.hapi.fhir",
 	"artifact_id":"hapi-fhir-jpaserver-test-dstu3",
-	"version_latest":"8.4.1",
-	"ts_publish":1763604610000,
-	"dt_publish":"2025-11-20 10:10:10.000",
-	"ts_update":1763605597309,
-	"dt_update":"2025-11-20 10:26:25.780",
+	"version_latest":"8.6.0",
+	"ts_publish":1763679355000,
+	"dt_publish":"2025-11-21 06:55:55.000",
+	"ts_update":1763680560762,
+	"dt_update":"2025-11-21 07:15:41.483",
 	"count_dep":11,
 	"count_ref":0,
 	"licenses":[
@@ -198,13 +198,21 @@
 	],
 	"url_scm":"scm:git:git@github.com:hapifhir/hapi-fhir.git/hapi-deployable-pom/hapi-fhir-jpaserver-test-dstu3",
 	"license":"Apache 2.0",
-	"ranking":"#988995 in MvnRepository",
+	"ranking":"#808945 in MvnRepository",
 	"tags":[
 		"server",
 		"jpa",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.4.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -355,14 +363,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.0",
 			"vulnerabilities":""
 		}
 	]

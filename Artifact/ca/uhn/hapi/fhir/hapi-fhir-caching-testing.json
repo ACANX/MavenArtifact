@@ -3,11 +3,11 @@
 	"description":"An open-source implementation of the FHIR specification in Java.",
 	"group_id":"ca.uhn.hapi.fhir",
 	"artifact_id":"hapi-fhir-caching-testing",
-	"version_latest":"8.4.1",
-	"ts_publish":1763604610000,
-	"dt_publish":"2025-11-20 10:10:10.000",
-	"ts_update":1763605598403,
-	"dt_update":"2025-11-20 10:26:25.107",
+	"version_latest":"8.6.0",
+	"ts_publish":1763679355000,
+	"dt_publish":"2025-11-21 06:55:55.000",
+	"ts_update":1763680553936,
+	"dt_update":"2025-11-21 07:15:40.789",
 	"count_dep":10,
 	"count_ref":19,
 	"licenses":[
@@ -199,13 +199,21 @@
 	"url_scm":"scm:git:git@github.com:hapifhir/hapi-fhir.git/hapi-fhir-caching-testing",
 	"count_used_by":19,
 	"license":"Apache 2.0",
-	"ranking":"#24570 in MvnRepository",
+	"ranking":"#25704 in MvnRepository",
 	"tags":[
 		"quality",
 		"testing",
 		"cache"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"8.4.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -356,14 +364,6 @@
 			"type":"release",
 			"usage":19,
 			"version":"7.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240213",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"7.0.0",
 			"vulnerabilities":""
 		}
 	]
