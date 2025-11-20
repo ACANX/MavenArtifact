@@ -3,10 +3,10 @@
 	"description":"腾讯TDSQL PostgreSQL(TBase), 基于postgresql",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-jdbc-tdsql",
-	"version_latest":"8.7.3-20251115",
-	"ts_publish":1763175119000,
-	"ts_update":1763177180382,
-	"count_dep":0,
+	"version_latest":"8.7.3-20251120",
+	"ts_publish":1763649919000,
+	"ts_update":1763650626932,
+	"count_dep":8,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -16,7 +16,7 @@
 	"url_project":"http://www.anyline.org/tdsql",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-jdbc-tdsql@8.7.2-20250806",
 	"home_page":"http://www.anyline.org/tdsql",
-	"ranking":"#899289 in MvnRepository",
+	"ranking":"#680770 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -24,6 +24,14 @@
 		"data"
 	],
 	"versions":[
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-jdk21-20251115",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -38,6 +46,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.7.3-jdk21-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-jdk17-20251115",
 			"vulnerabilities":""
 		},
 		{
@@ -57,6 +73,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-jdk11-20251115",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251022",
 			"repository":"Central",
 			"type":"release",
@@ -70,6 +94,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.7.3-jdk11-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-20251115",
 			"vulnerabilities":""
 		},
 		{
@@ -151,41 +183,9 @@
 			"usage":0,
 			"version":"8.7.2-jdk21-20250806",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250805",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250722",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250722",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250719",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250719",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250715",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.2-jdk21-20250715",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-11-15 10:51:59.000",
-	"dt_update":"2025-11-15 11:26:09.248",
+	"dt_publish":"2025-11-20 22:45:19.000",
+	"dt_update":"2025-11-20 22:56:29.361",
 	"license":"Apache 2.0"
 }
