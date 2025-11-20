@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.roq/quarkus-roq-plugin-asciidoc-jruby-deployment",
 	"group_id":"io.quarkiverse.roq",
 	"artifact_id":"quarkus-roq-plugin-asciidoc-jruby-deployment",
-	"version_latest":"1.10.2",
-	"ts_publish":1762937238000,
-	"dt_publish":"2025-11-12 16:47:18.000",
-	"ts_update":1762939128420,
-	"dt_update":"2025-11-12 17:18:35.249",
-	"count_dep":6,
+	"version_latest":"1.10.3",
+	"ts_publish":1763642898000,
+	"dt_publish":"2025-11-20 20:48:18.000",
+	"ts_update":1763644681849,
+	"dt_update":"2025-11-20 21:17:31.277",
+	"count_dep":235,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.roq/quarkus-roq-plugin-asciidoc-jruby-deployment@1.7.1",
@@ -19,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-roq",
 	"license":"Apache 2.0",
-	"ranking":"#469576 in MvnRepository",
+	"ranking":"#822298 in MvnRepository",
 	"tags":[
 		"plugin",
 		"deployment",
@@ -29,6 +31,14 @@
 		"ruby"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":0,
 			"version":"1.5.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.5.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Generate static websites out of your Quarkus web application."
 }
