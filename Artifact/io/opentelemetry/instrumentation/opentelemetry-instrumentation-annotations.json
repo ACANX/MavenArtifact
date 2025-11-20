@@ -3,13 +3,13 @@
 	"description":"Instrumentation of Java libraries using OpenTelemetry.",
 	"group_id":"io.opentelemetry.instrumentation",
 	"artifact_id":"opentelemetry-instrumentation-annotations",
-	"version_latest":"2.21.0",
-	"ts_publish":1760749781000,
-	"dt_publish":"2025-10-18 09:09:41.000",
-	"ts_update":1760750791676,
-	"dt_update":"2025-10-18 09:26:24.425",
+	"version_latest":"2.22.0",
+	"ts_publish":1763611111000,
+	"dt_publish":"2025-11-20 11:58:31.000",
+	"ts_update":1763612780174,
+	"dt_update":"2025-11-20 12:25:59.527",
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"OpenTelemetry"
 	],
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java-instrumentation.git",
-	"count_used_by":114,
+	"count_used_by":115,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java-instrumentation",
 	"license":"Apache 2.0",
-	"ranking":"#4589 in MvnRepository",
+	"ranking":"#4731 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"annotations",
@@ -35,6 +35,14 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.21.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"2.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240816",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.7.0",
 			"vulnerabilities":""
 		}
 	]

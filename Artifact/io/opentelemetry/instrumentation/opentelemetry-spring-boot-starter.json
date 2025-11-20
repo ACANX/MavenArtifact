@@ -3,13 +3,13 @@
 	"description":"Instrumentation of Java libraries using OpenTelemetry.",
 	"group_id":"io.opentelemetry.instrumentation",
 	"artifact_id":"opentelemetry-spring-boot-starter",
-	"version_latest":"2.21.0",
-	"ts_publish":1760946223000,
-	"dt_publish":"2025-10-20 15:43:43.000",
-	"ts_update":1760954224906,
-	"dt_update":"2025-10-20 17:56:22.556",
+	"version_latest":"2.22.0",
+	"ts_publish":1763611111000,
+	"dt_publish":"2025-11-20 11:58:31.000",
+	"ts_update":1763612772140,
+	"dt_update":"2025-11-20 12:26:02.342",
 	"count_dep":25,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"OpenTelemetry"
 	],
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java-instrumentation.git",
-	"count_used_by":12,
+	"count_used_by":13,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java-instrumentation",
 	"license":"Apache 2.0",
-	"ranking":"#40539 in MvnRepository",
+	"ranking":"#37346 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"spring",
@@ -36,6 +36,14 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.21.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -104,7 +112,7 @@
 			"date":"20250410",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":6,
 			"version":"2.15.0",
 			"vulnerabilities":""
 		},
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240816",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.7.0",
 			"vulnerabilities":""
 		}
 	]
