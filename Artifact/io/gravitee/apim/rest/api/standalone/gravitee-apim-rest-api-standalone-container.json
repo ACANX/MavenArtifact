@@ -3,12 +3,12 @@
 	"description":"Gravitee IO APIs in Standalone mode (based on Jetty).",
 	"group_id":"io.gravitee.apim.rest.api.standalone",
 	"artifact_id":"gravitee-apim-rest-api-standalone-container",
-	"version_latest":"4.9.5",
-	"ts_publish":1763395314000,
-	"dt_publish":"2025-11-18 00:01:54.000",
-	"ts_update":1763396538264,
-	"dt_update":"2025-11-18 00:21:53.822",
-	"count_dep":447,
+	"version_latest":"4.9.6",
+	"ts_publish":1763756139000,
+	"dt_publish":"2025-11-22 04:15:39.000",
+	"ts_update":1763759754704,
+	"dt_update":"2025-11-22 05:14:36.005",
+	"count_dep":460,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-rest-api/gravitee-apim-rest-api-standalone/gravitee-apim-rest-api-standalone-container",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#206259 in MvnRepository",
+	"ranking":"#245630 in MvnRepository",
 	"tags":[
 		"rest",
 		"container",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250718",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.2",
 			"vulnerabilities":""
 		}
 	]

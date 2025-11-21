@@ -3,11 +3,11 @@
 	"description":"Api Service dedicated to manage http health check for apis",
 	"group_id":"io.gravitee.apim.plugin.apiservice",
 	"artifact_id":"gravitee-apim-plugin-apiservice-healthcheck-http",
-	"version_latest":"4.9.5",
-	"ts_publish":1763395314000,
-	"dt_publish":"2025-11-18 00:01:54.000",
-	"ts_update":1763396533243,
-	"dt_update":"2025-11-18 00:21:55.068",
+	"version_latest":"4.9.6",
+	"ts_publish":1763756139000,
+	"dt_publish":"2025-11-22 04:15:39.000",
+	"ts_update":1763759732550,
+	"dt_update":"2025-11-22 05:14:38.271",
 	"count_dep":29,
 	"count_ref":1,
 	"licenses":[],
@@ -27,13 +27,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-plugin/gravitee-apim-plugin-apiservice/gravitee-apim-plugin-apiservice-healthcheck-http",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#226084 in MvnRepository",
+	"ranking":"#187311 in MvnRepository",
 	"tags":[
 		"plugin",
 		"http",
 		"healthcheck"
 	],
 	"versions":[
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250718",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.2",
 			"vulnerabilities":""
 		}
 	]
