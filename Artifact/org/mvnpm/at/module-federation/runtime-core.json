@@ -3,13 +3,13 @@
 	"description":"- Can be combined with the build plug-in to share basic dependencies according to policies to reduce the number of module downloads and improve the loading speed of modules. - Only consume part of the export of the remote module and will not fully downloa",
 	"group_id":"org.mvnpm.at.module-federation",
 	"artifact_id":"runtime-core",
-	"version_latest":"0.21.4",
-	"ts_publish":1762862986000,
-	"dt_publish":"2025-11-11 20:09:46.000",
-	"ts_update":1762864004626,
-	"dt_update":"2025-11-11 20:26:27.009",
+	"version_latest":"0.21.5",
+	"ts_publish":1763698030000,
+	"dt_publish":"2025-11-21 12:07:10.000",
+	"ts_update":1763699191471,
+	"dt_update":"2025-11-21 12:26:16.744",
 	"count_dep":2,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[
 		"MIT"
 	],
@@ -30,7 +30,7 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/module-federation/core#readme",
 	"license":"MIT",
-	"ranking":"#416543 in MvnRepository",
+	"ranking":"#261360 in MvnRepository",
 	"tags":[
 		"module",
 		"assets",
@@ -41,6 +41,14 @@
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.21.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.13.1",
 			"vulnerabilities":""
 		}
 	]
