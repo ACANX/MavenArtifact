@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.groovy/quarkus-groovy-junit5-parent",
 	"group_id":"io.quarkiverse.groovy",
 	"artifact_id":"quarkus-groovy-junit5-parent",
-	"version_latest":"3.28.4",
-	"ts_publish":1761390673000,
-	"dt_publish":"2025-10-25 19:11:13.000",
-	"ts_update":1761391602714,
-	"dt_update":"2025-10-25 19:26:30.264",
+	"version_latest":"3.30.0",
+	"ts_publish":1763722077000,
+	"dt_publish":"2025-11-21 18:47:57.000",
+	"ts_update":1763722597644,
+	"dt_update":"2025-11-21 18:56:29.403",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.groovy/quarkus-groovy-junit5-parent@3.25.1",
@@ -19,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-groovy",
 	"license":"Apache 2.0",
-	"ranking":"#644606 in MvnRepository",
+	"ranking":"#909200 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"junit",
@@ -27,6 +29,14 @@
 		"groovy"
 	],
 	"versions":[
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.28.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -178,14 +188,7 @@
 			"usage":0,
 			"version":"3.23.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250512",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.22.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
