@@ -3,13 +3,13 @@
 	"description":"The AWS SDK for Java - HTTP Auth AWS module contains interfaces and implementations for HTTP\n        authentication specific to AWS.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"http-auth-aws",
-	"version_latest":"2.39.0",
-	"ts_publish":1763597833000,
-	"dt_publish":"2025-11-20 08:17:13.000",
-	"ts_update":1763600216489,
-	"dt_update":"2025-11-20 08:56:25.602",
+	"version_latest":"2.39.2",
+	"ts_publish":1763767357000,
+	"dt_publish":"2025-11-22 07:22:37.000",
+	"ts_update":1763768698505,
+	"dt_update":"2025-11-22 07:44:38.353",
 	"count_dep":22,
-	"count_ref":412,
+	"count_ref":104,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/http-auth-aws@2.32.17",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/http-auth-aws",
-	"count_used_by":469,
+	"count_used_by":471,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#1326 in MvnRepository",
+	"ranking":"#1324 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -35,6 +35,22 @@
 		"access"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":411,
+			"version":"2.39.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":411,
+			"version":"2.39.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251119",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":415,
 			"version":"2.36.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251023",
-			"repository":"Central",
-			"type":"release",
-			"usage":414,
-			"version":"2.36.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251023",
-			"repository":"Central",
-			"type":"release",
-			"usage":414,
-			"version":"2.36.0",
 			"vulnerabilities":""
 		}
 	]
