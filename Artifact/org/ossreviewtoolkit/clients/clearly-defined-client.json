@@ -3,13 +3,13 @@
 	"description":"A client to communicate with the API of the ClearlyDefined service.",
 	"group_id":"org.ossreviewtoolkit.clients",
 	"artifact_id":"clearly-defined-client",
-	"version_latest":"71.5.0",
-	"ts_publish":1763628506000,
-	"dt_publish":"2025-11-20 16:48:26.000",
-	"ts_update":1763630299843,
-	"dt_update":"2025-11-20 17:17:52.290",
+	"version_latest":"72.0.0",
+	"ts_publish":1763732527000,
+	"dt_publish":"2025-11-21 21:42:07.000",
+	"ts_update":1763733405854,
+	"dt_update":"2025-11-21 21:56:19.064",
 	"count_dep":20,
-	"count_ref":8,
+	"count_ref":9,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,11 +23,27 @@
 	"count_used_by":5,
 	"home_page":"https://oss-review-toolkit.org/",
 	"license":"Apache 2.0",
-	"ranking":"#92821 in MvnRepository",
+	"ranking":"#89910 in MvnRepository",
 	"tags":[
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"71.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"71.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251111",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"66.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"66.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"66.0.0",
 			"vulnerabilities":""
 		}
 	]
