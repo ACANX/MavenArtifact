@@ -3,12 +3,12 @@
 	"description":"Spring openapi documentation",
 	"group_id":"org.springdoc",
 	"artifact_id":"springdoc-openapi-starter-webmvc-ui",
-	"version_latest":"3.0.0-M1",
-	"ts_publish":1755958440000,
-	"dt_publish":"2025-08-23 22:14:00.000",
-	"ts_update":1755959167036,
-	"dt_update":"2025-08-23 22:25:48.577",
-	"count_dep":45,
+	"version_latest":"3.0.0",
+	"ts_publish":1763690123000,
+	"dt_publish":"2025-11-21 09:55:23.000",
+	"ts_update":1763691988623,
+	"dt_update":"2025-11-21 10:26:16.185",
+	"count_dep":49,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -23,10 +23,10 @@
 		"Badr NASS LAHSEN"
 	],
 	"url_scm":"git@github.com:springdoc/springdoc-openapi.git/springdoc-openapi-starter-webmvc-ui",
-	"count_used_by":529,
+	"count_used_by":625,
 	"home_page":"https://springdoc.org/",
 	"license":"Apache 2.0",
-	"ranking":"#1133 in MvnRepository",
+	"ranking":"#1006 in MvnRepository",
 	"tags":[
 		"spring",
 		"openapi",
@@ -39,10 +39,58 @@
 	],
 	"versions":[
 		{
-			"date":"20250820",
+			"date":"20251104",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"3.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250823",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"3.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"2.8.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250907",
+			"repository":"Central",
+			"type":"release",
+			"usage":72,
+			"version":"2.8.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2.8.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250823",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2.8.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
 			"version":"2.8.10",
 			"vulnerabilities":""
 		},
@@ -50,7 +98,7 @@
 			"date":"20250610",
 			"repository":"Central",
 			"type":"release",
-			"usage":58,
+			"usage":89,
 			"version":"2.8.9",
 			"vulnerabilities":""
 		},
@@ -58,7 +106,7 @@
 			"date":"20250504",
 			"repository":"Central",
 			"type":"release",
-			"usage":83,
+			"usage":91,
 			"version":"2.8.8",
 			"vulnerabilities":""
 		},
@@ -74,7 +122,7 @@
 			"date":"20250323",
 			"repository":"Central",
 			"type":"release",
-			"usage":50,
+			"usage":52,
 			"version":"2.8.6",
 			"vulnerabilities":""
 		},
@@ -82,7 +130,7 @@
 			"date":"20250216",
 			"repository":"Central",
 			"type":"release",
-			"usage":62,
+			"usage":63,
 			"version":"2.8.5",
 			"vulnerabilities":""
 		},
@@ -90,7 +138,7 @@
 			"date":"20250126",
 			"repository":"Central",
 			"type":"release",
-			"usage":38,
+			"usage":39,
 			"version":"2.8.4",
 			"vulnerabilities":""
 		},
@@ -98,7 +146,7 @@
 			"date":"20250112",
 			"repository":"Central",
 			"type":"release",
-			"usage":28,
+			"usage":29,
 			"version":"2.8.3",
 			"vulnerabilities":""
 		},
@@ -122,7 +170,7 @@
 			"date":"20250104",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"2.8.0",
 			"vulnerabilities":""
 		},
@@ -130,7 +178,7 @@
 			"date":"20241123",
 			"repository":"Central",
 			"type":"release",
-			"usage":87,
+			"usage":96,
 			"version":"2.7.0",
 			"vulnerabilities":""
 		},
@@ -146,56 +194,8 @@
 			"date":"20240630",
 			"repository":"Central",
 			"type":"release",
-			"usage":146,
+			"usage":162,
 			"version":"2.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240401",
-			"repository":"Central",
-			"type":"release",
-			"usage":118,
-			"version":"2.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240312",
-			"repository":"Central",
-			"type":"release",
-			"usage":33,
-			"version":"2.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231203",
-			"repository":"Central",
-			"type":"release",
-			"usage":95,
-			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230806",
-			"repository":"Central",
-			"type":"release",
-			"usage":109,
-			"version":"2.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230402",
-			"repository":"Central",
-			"type":"release",
-			"usage":78,
-			"version":"2.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230315",
-			"repository":"Central",
-			"type":"release",
-			"usage":25,
-			"version":"2.0.4",
 			"vulnerabilities":""
 		}
 	]
