@@ -3,11 +3,11 @@
 	"description":"Advanced and thread-safe Java Redis client for synchronous, asynchronous,\n        and reactive usage. Supports Cluster, Sentinel, Pipelining, Auto-Reconnect, Codecs\n        and much more.",
 	"group_id":"io.lettuce",
 	"artifact_id":"lettuce-core",
-	"version_latest":"7.0.0.RELEASE",
-	"ts_publish":1761231426000,
-	"dt_publish":"2025-10-23 22:57:06.000",
-	"ts_update":1761232664238,
-	"dt_update":"2025-10-23 23:17:10.654",
+	"version_latest":"7.1.0.RELEASE",
+	"ts_publish":1763717704000,
+	"dt_publish":"2025-11-21 17:35:04.000",
+	"ts_update":1763718491880,
+	"dt_update":"2025-11-21 17:47:57.150",
 	"count_dep":56,
 	"count_ref":0,
 	"licenses":[
@@ -27,16 +27,24 @@
 		"Tihomir Mateev"
 	],
 	"url_scm":"https://github.com/redis/lettuce",
-	"count_used_by":616,
+	"count_used_by":621,
 	"home_page":"https://github.com/redis/lettuce",
 	"license":"MIT",
-	"ranking":"#1001 in MvnRepository",
+	"ranking":"#1020 in MvnRepository",
 	"tags":[
 		"redis",
 		"database",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"7.0.0.RELEASE",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -49,7 +57,7 @@
 			"date":"20250902",
 			"repository":"Central",
 			"type":"release",
-			"usage":51,
+			"usage":54,
 			"version":"6.8.1.RELEASE",
 			"vulnerabilities":""
 		},
@@ -81,7 +89,7 @@
 			"date":"20250430",
 			"repository":"Central",
 			"type":"release",
-			"usage":52,
+			"usage":53,
 			"version":"6.6.0.RELEASE",
 			"vulnerabilities":""
 		},
@@ -185,16 +193,8 @@
 			"date":"20241230",
 			"repository":"Central",
 			"type":"release",
-			"usage":35,
+			"usage":38,
 			"version":"6.4.2.RELEASE",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241101",
-			"repository":"Central",
-			"type":"release",
-			"usage":30,
-			"version":"6.4.1.RELEASE",
 			"vulnerabilities":""
 		}
 	]
