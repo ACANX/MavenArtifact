@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.dromara.warm/warm-flow-mybatis-plus-core",
 	"group_id":"org.dromara.warm",
 	"artifact_id":"warm-flow-mybatis-plus-core",
-	"version_latest":"1.8.4-m3",
-	"ts_publish":1763086980000,
-	"dt_publish":"2025-11-14 10:23:00.000",
-	"ts_update":1763088709689,
-	"dt_update":"2025-11-14 10:51:43.135",
-	"count_dep":3,
+	"version_latest":"1.8.4",
+	"ts_publish":1763687233000,
+	"dt_publish":"2025-11-21 09:07:13.000",
+	"ts_update":1763687616593,
+	"dt_update":"2025-11-21 09:13:15.267",
+	"count_dep":7,
 	"count_ref":5,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/dromara/warm-flow",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.dromara.warm/warm-flow-mybatis-plus-core@1.8.0-m3",
@@ -18,12 +20,20 @@
 	"count_used_by":4,
 	"home_page":"https://github.com/dromara/warm-flow",
 	"license":"Apache 2.0",
-	"ranking":"#117161 in MvnRepository",
+	"ranking":"#129853 in MvnRepository",
 	"tags":[
 		"persistence",
 		"mybatis"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":4,
+			"version":"1.8.4-m3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -175,14 +185,7 @@
 			"usage":4,
 			"version":"1.8.0-m3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":4,
-			"version":"1.8.0-m2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Warm-Flow is a flow"
 }
