@@ -3,12 +3,12 @@
 	"description":"Distributed and fault-tolerant realtime computation",
 	"group_id":"org.apache.storm",
 	"artifact_id":"storm-jdbc",
-	"version_latest":"2.8.2",
-	"ts_publish":1753538621000,
-	"dt_publish":"2025-07-26 22:03:41.000",
-	"ts_update":1757781241336,
-	"dt_update":"2025-09-14 00:15:35.006",
-	"count_dep":34,
+	"version_latest":"2.8.3",
+	"ts_publish":1761430015000,
+	"dt_publish":"2025-10-26 06:06:55.000",
+	"ts_update":1763830246931,
+	"dt_update":"2025-11-23 00:19:38.605",
+	"count_dep":33,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/storm/external/storm-jdbc",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#401176 in MvnRepository",
+	"ranking":"#260147 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -34,6 +34,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.8.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250726",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.2.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20190718",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.2.3",
 			"vulnerabilities":""
 		}
 	]
