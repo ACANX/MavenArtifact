@@ -1,87 +1,163 @@
 {
-	"id":"pkg:maven/com.statsig/serversdk",
-	"description":"A feature gating and a/b testing library for statsig",
-	"group_id":"com.statsig",
-	"artifact_id":"serversdk",
-	"version_latest":"3.1.2",
-	"ts_publish":1763779819000,
-	"dt_publish":"2025-11-22 10:50:19.000",
-	"ts_update":1763782571359,
-	"dt_update":"2025-11-22 11:36:03.738",
-	"count_dep":14,
+	"id":"pkg:maven/com.github.tsantalis/refactoring-miner",
+	"description":"RefactoringMiner is a library/API written in Java that can detect refactorings applied in the history of a Java project.",
+	"group_id":"com.github.tsantalis",
+	"artifact_id":"refactoring-miner",
+	"version_latest":"3.0.12",
+	"ts_publish":1763781250000,
+	"dt_publish":"2025-11-22 11:14:10.000",
+	"ts_update":1763782573671,
+	"dt_update":"2025-11-22 11:36:03.737",
+	"count_dep":15,
 	"count_ref":0,
 	"licenses":[
-		"ISC License (ISC)"
+		"The MIT License (MIT)"
 	],
 	"dsv":1,
-	"url_project":"https://github.com/statsig-io/java-server-sdk",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.statsig/serversdk@2.2.2",
+	"url_project":"https://github.com/tsantalis/RefactoringMiner",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.github.tsantalis/refactoring-miner@3.0.12",
 	"contributors":[
-		"Statsig"
+		"Nikolaos Tsantalis"
 	],
-	"url_scm":"https://github.com/statsig-io/java-server-sdk/",
+	"url_scm":"https://github.com/tsantalis/RefactoringMiner/tree/master",
 	"count_used_by":1,
-	"home_page":"https://github.com/statsig-io/java-server-sdk",
-	"ranking":"#333309 in MvnRepository",
+	"home_page":"https://github.com/tsantalis/RefactoringMiner",
+	"license":"MIT",
+	"ranking":"#378150 in MvnRepository",
+	"tags":[
+		"github"
+	],
 	"versions":[
 		{
-			"date":"20251014",
+			"date":"20250613",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
-			"version":"3.1.1",
+			"usage":1,
+			"version":"3.0.11",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20251010",
+			"date":"20241128",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"3.1.0",
+			"version":"3.0.10",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20251008",
+			"date":"20240917",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"3.0.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240914",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240622",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240621",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240516",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20231216",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20231121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20231102",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"3.0.1",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250905",
+			"date":"20231027",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"3.0.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20251014",
+			"date":"20230304",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.2.3",
+			"version":"2.4.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250811",
+			"date":"20220817",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.2.2",
+			"version":"2.3.2",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250729",
+			"date":"20220802",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.3.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20220801",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.2.1",
+			"version":"2.3.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250723",
+			"date":"20211207",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
@@ -89,47 +165,15 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250528",
+			"date":"20210308",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"2.0.8",
+			"version":"2.1.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250526",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250422",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250419",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250417",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250411",
+			"date":"20201228",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
@@ -137,51 +181,11 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250405",
+			"date":"20201004",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"2.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250325",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250319",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251024",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.36.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.36.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250304",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.36.3",
 			"vulnerabilities":""
 		}
 	]
