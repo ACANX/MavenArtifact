@@ -3,11 +3,11 @@
 	"description":"DCB (Dynamic Consistency Boundary) compliant EventStore (Java/Postgres)",
 	"group_id":"org.sliceworkz",
 	"artifact_id":"sliceworkz-eventstore-infra-postgres",
-	"version_latest":"0.3.3",
-	"ts_publish":1763452419000,
-	"dt_publish":"2025-11-18 15:53:39.000",
-	"ts_update":1763454150151,
-	"dt_update":"2025-11-18 16:22:00.130",
+	"version_latest":"0.3.5",
+	"ts_publish":1763830471000,
+	"dt_publish":"2025-11-23 00:54:31.000",
+	"ts_update":1763831616103,
+	"dt_update":"2025-11-23 01:13:14.181",
 	"count_dep":13,
 	"count_ref":1,
 	"licenses":[
@@ -20,16 +20,32 @@
 		"Günther Van Roey"
 	],
 	"url_scm":"https://github.com/sliceworkz/eventstore/sliceworkz-eventstore-parent-pom/sliceworkz-eventstore-infra-postgres",
-	"count_used_by":1,
+	"count_used_by":2,
 	"home_page":"https://sliceworkz.github.io/eventstore",
 	"license":"LGPL 3.0",
-	"ranking":"#341710 in MvnRepository",
+	"ranking":"#228473 in MvnRepository",
 	"tags":[
 		"database",
 		"event",
 		"postgresql"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.3.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.3.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",

@@ -6,8 +6,8 @@
 	"version_latest":"3.0.0-M2",
 	"ts_publish":1761150536000,
 	"dt_publish":"2025-10-23 00:28:56.000",
-	"ts_update":1763224639418,
-	"dt_update":"2025-11-16 00:18:02.018",
+	"ts_update":1763831604583,
+	"dt_update":"2025-11-23 00:18:56.440",
 	"count_dep":17,
 	"count_ref":1,
 	"licenses":[
@@ -23,9 +23,9 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.sshd/sshd-cli@3.0.0-M1",
 	"url_issue_management":"https://github.com/apache/mina-sshd/issues",
 	"url_scm":"https://github.com/apache/mina-sshd/tree/sshd-3.0.0-M1/sshd-cli",
-	"count_used_by":4,
+	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#129116 in MvnRepository",
+	"ranking":"#102294 in MvnRepository",
 	"tags":[
 		"network",
 		"ssh",
@@ -33,6 +33,14 @@
 		"command-line"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":1,
+			"version":"3.0.0-M2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -45,7 +53,7 @@
 			"date":"20250817",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.16.0",
 			"vulnerabilities":""
 		},
@@ -53,7 +61,7 @@
 			"date":"20250224",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.15.0",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20200622",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.5.0",
 			"vulnerabilities":""
 		}
 	]
