@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.depot",
 	"artifact_id":"legend-depot-artifacts-services",
-	"version_latest":"2.82.0",
-	"ts_publish":1763556646000,
-	"dt_publish":"2025-11-19 20:50:46.000",
-	"ts_update":1763556993497,
-	"dt_update":"2025-11-19 20:56:23.308",
-	"count_dep":176,
+	"version_latest":"2.84.0",
+	"ts_publish":1763825037000,
+	"dt_publish":"2025-11-22 23:23:57.000",
+	"ts_update":1763825467855,
+	"dt_update":"2025-11-22 23:30:57.911",
+	"count_dep":178,
 	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,11 +26,19 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-depot/legend-depot-artifacts-services",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#250641 in MvnRepository",
+	"ranking":"#190013 in MvnRepository",
 	"tags":[
 		"service"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.82.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251118",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.64.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.63.0",
 			"vulnerabilities":""
 		}
 	]

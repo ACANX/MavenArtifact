@@ -3,12 +3,12 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.depot",
 	"artifact_id":"legend-depot-notifications-queue-mongo",
-	"version_latest":"2.82.0",
-	"ts_publish":1763556646000,
-	"dt_publish":"2025-11-19 20:50:46.000",
-	"ts_update":1763558344860,
-	"dt_update":"2025-11-19 21:18:54.312",
-	"count_dep":220,
+	"version_latest":"2.84.0",
+	"ts_publish":1763825037000,
+	"dt_publish":"2025-11-22 23:23:57.000",
+	"ts_update":1763825468041,
+	"dt_update":"2025-11-22 23:30:58.534",
+	"count_dep":223,
 	"count_ref":5,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-depot/legend-depot-notifications-queue-mongo",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#110720 in MvnRepository",
+	"ranking":"#122116 in MvnRepository",
 	"tags":[
 		"queue",
 		"notification",
 		"mongodb"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.82.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251118",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2.64.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.63.0",
 			"vulnerabilities":""
 		}
 	]

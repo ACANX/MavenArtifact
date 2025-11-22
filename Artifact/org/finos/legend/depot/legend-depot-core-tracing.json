@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.depot",
 	"artifact_id":"legend-depot-core-tracing",
-	"version_latest":"2.82.0",
-	"ts_publish":1763556646000,
-	"dt_publish":"2025-11-19 20:50:46.000",
-	"ts_update":1763556995779,
-	"dt_update":"2025-11-19 20:56:23.853",
+	"version_latest":"2.84.0",
+	"ts_publish":1763825037000,
+	"dt_publish":"2025-11-22 23:23:57.000",
+	"ts_update":1763825470241,
+	"dt_update":"2025-11-22 23:30:58.537",
 	"count_dep":180,
-	"count_ref":18,
+	"count_ref":22,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,11 +26,19 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-depot/legend-depot-core-tracing",
 	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#30557 in MvnRepository",
+	"ranking":"#29319 in MvnRepository",
 	"tags":[
 		"tracing"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"2.82.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251118",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":13,
 			"version":"2.64.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"2.63.0",
 			"vulnerabilities":""
 		}
 	]
