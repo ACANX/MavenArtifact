@@ -3,14 +3,16 @@
 	"description":"Combines the commons, jms-client and core-client as they contain too many duplicate packages\n      to be deployed separately.",
 	"group_id":"org.apache.activemq",
 	"artifact_id":"artemis-jms-client-osgi",
-	"version_latest":"2.42.0",
-	"ts_publish":1752520518000,
-	"dt_publish":"2025-07-15 03:15:18.000",
-	"ts_update":1755968193817,
-	"dt_update":"2025-08-24 00:16:15.525",
-	"count_dep":8,
+	"version_latest":"2.44.0",
+	"ts_publish":1761737154000,
+	"dt_publish":"2025-10-29 19:25:54.000",
+	"ts_update":1763828404359,
+	"dt_update":"2025-11-23 00:19:47.096",
+	"count_dep":29,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache-2.0"
+	],
 	"categories":[
 		"Data Transport"
 	],
@@ -18,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.activemq/artemis-jms-client-osgi@2.42.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#169449 in MvnRepository",
+	"ranking":"#137700 in MvnRepository",
 	"tags":[
 		"jms",
 		"bundle",
@@ -29,6 +31,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.44.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.43.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250718",
 			"repository":"Central",
@@ -171,22 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.27.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221114",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.27.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220926",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.26.0",
 			"vulnerabilities":""
 		}
 	]
