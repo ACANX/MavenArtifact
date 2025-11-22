@@ -3,12 +3,12 @@
 	"description":"Free database schema discovery and comprehension tool",
 	"group_id":"us.fatehi",
 	"artifact_id":"schemacrawler-cassandra",
-	"version_latest":"17.1.5",
-	"ts_publish":1762902952000,
-	"dt_publish":"2025-11-12 07:15:52.000",
-	"ts_update":1762904721951,
-	"dt_update":"2025-11-12 07:45:11.673",
-	"count_dep":29,
+	"version_latest":"17.1.6",
+	"ts_publish":1763822569000,
+	"dt_publish":"2025-11-22 22:42:49.000",
+	"ts_update":1763823389990,
+	"dt_update":"2025-11-22 22:56:23.535",
+	"count_dep":26,
 	"count_ref":0,
 	"licenses":[
 		"GNU General Public License",
@@ -26,7 +26,7 @@
 	],
 	"url_scm":"https://github.com/schemacrawler/SchemaCrawler/schemacrawler-cassandra",
 	"count_used_by":1,
-	"ranking":"#306716 in MvnRepository",
+	"ranking":"#334915 in MvnRepository",
 	"tags":[
 		"database",
 		"cassandra",
@@ -34,6 +34,22 @@
 		"crawler"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"17.1.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"17.1.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250622",
 			"repository":"Central",
@@ -177,22 +193,7 @@
 			"usage":0,
 			"version":"16.21.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240113",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"16.21.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240101",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"16.20.8",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"EPL 1.0"
 }

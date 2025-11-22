@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.sdlc",
 	"artifact_id":"legend-sdlc-generation-shared",
-	"version_latest":"0.210.0",
-	"ts_publish":1763032730000,
-	"dt_publish":"2025-11-13 19:18:50.000",
-	"ts_update":1763033492041,
-	"dt_update":"2025-11-13 19:31:24.976",
+	"version_latest":"0.211.0",
+	"ts_publish":1763822417000,
+	"dt_publish":"2025-11-22 22:40:17.000",
+	"ts_update":1763823391119,
+	"dt_update":"2025-11-22 22:56:24.258",
 	"count_dep":3,
-	"count_ref":4,
+	"count_ref":5,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,11 +26,27 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-sdlc/legend-sdlc-generation-shared",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#188882 in MvnRepository",
+	"ranking":"#202175 in MvnRepository",
 	"tags":[
 		"generator"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.210.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.209.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251103",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.197.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.197.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250616",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"0.196.0",
 			"vulnerabilities":""
 		}
 	]
