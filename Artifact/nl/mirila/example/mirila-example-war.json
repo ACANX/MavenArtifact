@@ -2,16 +2,14 @@
 	"id":"pkg:maven/nl.mirila.example/mirila-example-war",
 	"group_id":"nl.mirila.example",
 	"artifact_id":"mirila-example-war",
-	"version_latest":"3.3.0",
-	"ts_publish":1763595536000,
-	"dt_publish":"2025-11-20 07:38:56.000",
-	"ts_update":1763596599493,
-	"dt_update":"2025-11-20 07:56:24.056",
-	"count_dep":77,
+	"version_latest":"3.5.0",
+	"ts_publish":1763803629000,
+	"dt_publish":"2025-11-22 17:27:09.000",
+	"ts_update":1763804695365,
+	"dt_update":"2025-11-22 17:44:39.538",
+	"count_dep":54,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://gitlab.com/mirila/mirila/mirila-example/mirila-example-war",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/nl.mirila.example/mirila-example-war@3.0.0",
@@ -20,7 +18,7 @@
 	],
 	"url_scm":"https://gitlab.com/mirila/mirila/mirila-example/mirila-example-war",
 	"license":"Apache 2.0",
-	"ranking":"#686099 in MvnRepository",
+	"ranking":"#842906 in MvnRepository",
 	"tags":[
 		"application",
 		"war",
@@ -29,6 +27,14 @@
 		"example"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251109",
 			"repository":"Central",
@@ -117,6 +123,5 @@
 			"version":"1.1.2",
 			"vulnerabilities":""
 		}
-	],
-	"description":"A Java framework that can be used as a foundation for Rest APIs and microservices."
+	]
 }
