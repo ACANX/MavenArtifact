@@ -3,13 +3,13 @@
 	"description":"The goal of the Oak effort within the Apache Jackrabbit project is\n    to implement a scalable and performant hierarchical content repository\n    for use as the foundation of modern world-class web sites and other\n    demanding content applications.",
 	"group_id":"org.apache.jackrabbit",
 	"artifact_id":"oak-core-spi",
-	"version_latest":"1.86.0",
-	"ts_publish":1758137240000,
-	"dt_publish":"2025-09-18 03:27:20.000",
-	"ts_update":1761410928849,
-	"dt_update":"2025-10-26 00:17:55.823",
-	"count_dep":0,
-	"count_ref":37,
+	"version_latest":"1.88.0",
+	"ts_publish":1761818634000,
+	"dt_publish":"2025-10-30 18:03:54.000",
+	"ts_update":1763830592989,
+	"dt_update":"2025-11-23 00:19:47.609",
+	"count_dep":19,
+	"count_ref":14,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -21,9 +21,9 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.jackrabbit/oak-core-spi@1.82.0",
 	"url_issue_management":"http://issues.apache.org/jira/browse/OAK",
 	"url_scm":"https://github.com/apache/jackrabbit/tree/jackrabbit-oak-1.82.0/oak-core-spi",
-	"count_used_by":18,
+	"count_used_by":19,
 	"license":"Apache 2.0",
-	"ranking":"#25248 in MvnRepository",
+	"ranking":"#24685 in MvnRepository",
 	"tags":[
 		"bundle",
 		"interface",
@@ -33,10 +33,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250922",
+			"date":"20251104",
 			"repository":"Central",
 			"type":"release",
 			"usage":14,
+			"version":"1.88.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":15,
 			"version":"1.86.0",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":14,
 			"version":"1.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230127",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"1.48.0",
 			"vulnerabilities":""
 		}
 	]
