@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.roq/quarkus-roq-plugin-markdown-deployment",
 	"group_id":"io.quarkiverse.roq",
 	"artifact_id":"quarkus-roq-plugin-markdown-deployment",
-	"version_latest":"1.10.3",
-	"ts_publish":1763642898000,
-	"dt_publish":"2025-11-20 20:48:18.000",
-	"ts_update":1763644675708,
-	"dt_update":"2025-11-20 21:17:31.723",
-	"count_dep":7,
+	"version_latest":"2.0.0.BETA1",
+	"ts_publish":1763903094000,
+	"dt_publish":"2025-11-23 21:04:54.000",
+	"ts_update":1763904397175,
+	"dt_update":"2025-11-23 21:26:28.643",
+	"count_dep":245,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.roq/quarkus-roq-plugin-markdown-deployment@1.7.1",
@@ -20,7 +22,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-roq",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#387980 in MvnRepository",
+	"ranking":"#352299 in MvnRepository",
 	"tags":[
 		"plugin",
 		"deployment",
@@ -28,6 +30,14 @@
 		"markdown"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.10.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":1,
 			"version":"1.5.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250501",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.5.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Generate static websites out of your Quarkus web application."
 }
