@@ -3,11 +3,11 @@
 	"description":"A simple Event Store implementation in Java using hexagonal architecture principles",
 	"group_id":"me.xingzhou",
 	"artifact_id":"simple-event-store-postgres-storage",
-	"version_latest":"1.0.0",
-	"ts_publish":1756689166000,
-	"dt_publish":"2025-09-01 09:12:46.000",
-	"ts_update":1756689993806,
-	"dt_update":"2025-09-01 09:26:02.899",
+	"version_latest":"2.0.1",
+	"ts_publish":1763864846000,
+	"dt_publish":"2025-11-23 10:27:26.000",
+	"ts_update":1763866595361,
+	"dt_update":"2025-11-23 10:56:24.739",
 	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
@@ -19,5 +19,33 @@
 	"contributors":[
 		"Xing Zhou"
 	],
-	"url_scm":"https://github.com/ohdyno/simple-event-store/tree/main/adapters/storage/simple-event-store-postgres-storage"
+	"url_scm":"https://github.com/ohdyno/simple-event-store/tree/main/adapters/storage/simple-event-store-postgres-storage",
+	"home_page":"https://github.com/ohdyno/simple-event-store/adapters/storage/simple-event-store-postgres-storage",
+	"license":"MIT",
+	"ranking":"#486630 in MvnRepository",
+	"tags":[
+		"database",
+		"event",
+		"store",
+		"postgresql",
+		"storage"
+	],
+	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		}
+	]
 }
