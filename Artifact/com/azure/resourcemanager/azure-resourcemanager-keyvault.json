@@ -3,13 +3,13 @@
 	"description":"This package contains Microsoft Azure Key Vault Management SDK. For documentation on how to use this package, please see https://aka.ms/azsdk/java/mgmt",
 	"group_id":"com.azure.resourcemanager",
 	"artifact_id":"azure-resourcemanager-keyvault",
-	"version_latest":"2.54.0",
-	"ts_publish":1762748394000,
-	"dt_publish":"2025-11-10 12:19:54.000",
-	"ts_update":1762752392709,
-	"dt_update":"2025-11-10 13:26:25.423",
+	"version_latest":"2.54.1",
+	"ts_publish":1763961542000,
+	"dt_publish":"2025-11-24 13:19:02.000",
+	"ts_update":1763961998575,
+	"dt_update":"2025-11-24 13:26:26.812",
 	"count_dep":44,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[
 		"The MIT License (MIT)"
 	],
@@ -28,7 +28,7 @@
 	"count_used_by":11,
 	"home_page":"https://github.com/Azure/azure-sdk-for-java",
 	"license":"MIT",
-	"ranking":"#44102 in MvnRepository",
+	"ranking":"#42924 in MvnRepository",
 	"tags":[
 		"azure",
 		"resource",
@@ -36,6 +36,14 @@
 		"vault"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.54.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"2.39.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240416",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.38.0",
 			"vulnerabilities":""
 		}
 	]
