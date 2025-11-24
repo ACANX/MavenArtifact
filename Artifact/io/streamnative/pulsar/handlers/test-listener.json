@@ -2,9 +2,9 @@
 	"id":"pkg:maven/io.streamnative.pulsar.handlers/test-listener",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"test-listener",
-	"version_latest":"4.1.0.7",
-	"ts_publish":1763185943000,
-	"ts_update":1763189471377,
+	"version_latest":"4.1.0.8",
+	"ts_publish":1763982793000,
+	"ts_update":1763983597220,
 	"count_dep":293,
 	"count_ref":9,
 	"licenses":[
@@ -14,17 +14,25 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/test-listener/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/test-listener@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/test-listener",
-	"dt_publish":"2025-11-15 13:52:23.000",
-	"dt_update":"2025-11-15 14:50:47.260",
+	"dt_publish":"2025-11-24 19:13:13.000",
+	"dt_update":"2025-11-24 19:26:27.060",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#48407 in MvnRepository",
+	"ranking":"#50208 in MvnRepository",
 	"tags":[
 		"listener",
 		"testing",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"4.1.0.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -79,6 +87,14 @@
 			"type":"release",
 			"usage":9,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251122",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"4.0.7.2",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"4.0.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250725",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"4.0.5.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250711",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"4.0.5.3",
 			"vulnerabilities":""
 		}
 	],
