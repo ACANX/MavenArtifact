@@ -3,11 +3,11 @@
 	"description":"SDK for sentry.io",
 	"group_id":"io.sentry",
 	"artifact_id":"sentry-okhttp",
-	"version_latest":"8.27.0",
-	"ts_publish":1763728069000,
-	"dt_publish":"2025-11-21 20:27:49.000",
-	"ts_update":1763729806444,
-	"dt_update":"2025-11-21 20:56:26.625",
+	"version_latest":"8.27.1",
+	"ts_publish":1763990476000,
+	"dt_publish":"2025-11-24 21:21:16.000",
+	"ts_update":1763992093826,
+	"dt_update":"2025-11-24 21:47:28.701",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
@@ -23,15 +23,23 @@
 		"Sentry Team and Contributors"
 	],
 	"url_scm":"https://github.com/getsentry/sentry-java",
-	"count_used_by":4,
+	"count_used_by":5,
 	"home_page":"https://github.com/getsentry/sentry-java",
 	"license":"MIT",
-	"ranking":"#112152 in MvnRepository",
+	"ranking":"#88840 in MvnRepository",
 	"tags":[
 		"sentry",
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.27.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -124,7 +132,7 @@
 			"date":"20250812",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"8.19.1",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250617",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.14.0",
 			"vulnerabilities":""
 		}
 	]
