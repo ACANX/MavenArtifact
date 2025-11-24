@@ -2,12 +2,12 @@
 	"id":"pkg:maven/com.vaadin/flow-client",
 	"group_id":"com.vaadin",
 	"artifact_id":"flow-client",
-	"version_latest":"25.0.0-beta6",
-	"ts_publish":1763566843000,
-	"dt_publish":"2025-11-19 23:40:43.000",
-	"ts_update":1763570909908,
-	"dt_update":"2025-11-20 00:47:57.837",
-	"count_dep":10,
+	"version_latest":"25.0.0-beta7",
+	"ts_publish":1763970705000,
+	"dt_publish":"2025-11-24 15:51:45.000",
+	"ts_update":1763972662043,
+	"dt_update":"2025-11-24 16:24:13.439",
+	"count_dep":64,
 	"count_ref":2,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -22,13 +22,37 @@
 	"count_used_by":90,
 	"home_page":"https://vaadin.com/",
 	"license":"Apache 2.0",
-	"ranking":"#5911 in MvnRepository",
+	"ranking":"#5892 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"25.0.0-beta6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"25.0.0-beta5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"beta",
+			"usage":2,
+			"version":"25.0.0-beta4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251031",
 			"repository":"Central",
@@ -164,30 +188,7 @@
 			"usage":3,
 			"version":"24.8.10",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251003",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"24.8.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250926",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"24.8.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"24.8.7",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Flow Client"
 }
