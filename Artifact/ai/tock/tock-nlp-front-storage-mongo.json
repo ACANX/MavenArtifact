@@ -3,14 +3,16 @@
 	"description":"Mongo storage implementation for Tock NLP Front",
 	"group_id":"ai.tock",
 	"artifact_id":"tock-nlp-front-storage-mongo",
-	"version_latest":"25.10.1",
-	"ts_publish":1762979755000,
-	"dt_publish":"2025-11-13 04:35:55.000",
-	"ts_update":1762980478640,
-	"dt_update":"2025-11-13 04:47:48.750",
-	"count_dep":62,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"25.10.2",
+	"ts_publish":1764016122000,
+	"dt_publish":"2025-11-25 04:28:42.000",
+	"ts_update":1764017838259,
+	"dt_update":"2025-11-25 04:47:08.745",
+	"count_dep":83,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ai.tock/tock-nlp-front-storage-mongo@25.3.10",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#275837 in MvnRepository",
+	"ranking":"#338192 in MvnRepository",
 	"tags":[
 		"nlp",
 		"ai",
@@ -26,6 +28,14 @@
 		"mongodb"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"25.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251110",
 			"repository":"Central",
@@ -176,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"24.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240909",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"24.3.6",
 			"vulnerabilities":""
 		}
 	]
