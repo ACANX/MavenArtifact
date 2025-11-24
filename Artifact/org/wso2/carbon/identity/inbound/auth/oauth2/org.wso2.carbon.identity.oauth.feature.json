@@ -3,12 +3,12 @@
 	"description":"This feature contains the bundles required for Identity OAuth functionality",
 	"group_id":"org.wso2.carbon.identity.inbound.auth.oauth2",
 	"artifact_id":"org.wso2.carbon.identity.oauth.feature",
-	"version_latest":"7.0.397",
-	"ts_publish":1763637248000,
-	"dt_publish":"2025-11-20 19:14:08.000",
-	"ts_update":1763638236832,
-	"dt_update":"2025-11-20 19:30:29.502",
-	"count_dep":4,
+	"version_latest":"7.0.398",
+	"ts_publish":1763968086000,
+	"dt_publish":"2025-11-24 15:08:06.000",
+	"ts_update":1763969197424,
+	"dt_update":"2025-11-24 15:26:28.847",
+	"count_dep":135,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,13 +25,29 @@
 	"url_scm":"https://github.com/wso2-extensions/identity-inbound-auth-oauth.git/features/org.wso2.carbon.identity.oauth.feature",
 	"home_page":"http://wso2.org",
 	"license":"Apache 2.0",
-	"ranking":"#449169 in MvnRepository",
+	"ranking":"#907720 in MvnRepository",
 	"tags":[
 		"authentication",
 		"identity",
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.0.397",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.0.396",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251118",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.0.211",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250108",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.210",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250107",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.209",
 			"vulnerabilities":""
 		}
 	]
