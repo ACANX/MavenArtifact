@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.appform.ranger/ranger-zookeeper",
 	"group_id":"io.appform.ranger",
 	"artifact_id":"ranger-zookeeper",
-	"version_latest":"2.0.0-RC2",
-	"ts_publish":1763614456000,
-	"dt_publish":"2025-11-20 12:54:16.000",
-	"ts_update":1763617022129,
-	"dt_update":"2025-11-20 13:36:56.483",
+	"version_latest":"2.0.0-RC3",
+	"ts_publish":1763954697000,
+	"dt_publish":"2025-11-24 11:24:57.000",
+	"ts_update":1763956599758,
+	"dt_update":"2025-11-24 11:56:24.862",
 	"count_dep":50,
-	"count_ref":5,
+	"count_ref":9,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -17,13 +17,21 @@
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.appform.ranger/ranger-zookeeper@1.1.2",
-	"count_used_by":2,
+	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#220861 in MvnRepository",
+	"ranking":"#174616 in MvnRepository",
 	"tags":[
 		"zookeeper"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.0.0-RC2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251111",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.0-RC10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220801",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.0-RC9",
 			"vulnerabilities":""
 		}
 	],
