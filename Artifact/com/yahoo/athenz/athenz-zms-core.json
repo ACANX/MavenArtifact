@@ -3,13 +3,13 @@
 	"description":"Core ZMS Interfaces",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-zms-core",
-	"version_latest":"1.12.29",
-	"ts_publish":1762711805000,
-	"dt_publish":"2025-11-10 02:10:05.000",
-	"ts_update":1762713647938,
-	"dt_update":"2025-11-10 02:40:40.422",
+	"version_latest":"1.12.30",
+	"ts_publish":1764026255000,
+	"dt_publish":"2025-11-25 07:17:35.000",
+	"ts_update":1764027138780,
+	"dt_update":"2025-11-25 07:32:07.929",
 	"count_dep":10,
-	"count_ref":1,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,8 +27,16 @@
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#127538 in MvnRepository",
+	"ranking":"#110304 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251109",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.12.29",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251025",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.12.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250125",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.12.9",
 			"vulnerabilities":""
 		}
 	]
