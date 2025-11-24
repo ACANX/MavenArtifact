@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.wildfly.arquillian/wildfly-arquillian-common",
-	"description":"An Arquillian adaptor for WildFly.",
 	"group_id":"org.wildfly.arquillian",
 	"artifact_id":"wildfly-arquillian-common",
-	"version_latest":"5.1.0.Final",
-	"ts_publish":1757377200000,
-	"dt_publish":"2025-09-09 08:20:00.000",
-	"ts_update":1757379421065,
-	"dt_update":"2025-09-09 08:55:58.807",
-	"count_dep":180,
-	"count_ref":5,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"version_latest":"6.0.0.Alpha1",
+	"ts_publish":1764006562000,
+	"dt_publish":"2025-11-25 01:49:22.000",
+	"ts_update":1764006988715,
+	"dt_update":"2025-11-25 01:56:17.483",
+	"count_dep":14,
+	"count_ref":2,
+	"licenses":[],
 	"categories":[
 		"Test and Quality Management"
 	],
@@ -27,12 +24,20 @@
 	"url_scm":"https://github.com/wildfly/wildfly-arquillian/",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#37254 in MvnRepository",
+	"ranking":"#39525 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"arquillian"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"5.1.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250405",
 			"repository":"Central",
@@ -183,14 +188,6 @@
 			"type":"alpha",
 			"usage":5,
 			"version":"5.0.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230706",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.0.1.Final",
 			"vulnerabilities":""
 		}
 	]

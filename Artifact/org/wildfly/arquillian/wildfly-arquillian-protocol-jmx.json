@@ -3,13 +3,13 @@
 	"description":"An Arquillian adaptor for WildFly.",
 	"group_id":"org.wildfly.arquillian",
 	"artifact_id":"wildfly-arquillian-protocol-jmx",
-	"version_latest":"5.1.0.Final",
-	"ts_publish":1757377200000,
-	"dt_publish":"2025-09-09 08:20:00.000",
-	"ts_update":1757379448686,
-	"dt_update":"2025-09-09 08:55:58.809",
-	"count_dep":207,
-	"count_ref":3,
+	"version_latest":"6.0.0.Alpha1",
+	"ts_publish":1764006562000,
+	"dt_publish":"2025-11-25 01:49:22.000",
+	"ts_update":1764006986999,
+	"dt_update":"2025-11-25 01:56:17.484",
+	"count_dep":218,
+	"count_ref":1,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -28,7 +28,7 @@
 	"count_used_by":16,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#28869 in MvnRepository",
+	"ranking":"#30246 in MvnRepository",
 	"tags":[
 		"jmx",
 		"monitoring",
@@ -37,6 +37,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"5.1.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250405",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"alpha",
 			"usage":5,
 			"version":"5.0.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230706",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.0.1.Final",
 			"vulnerabilities":""
 		}
 	]
