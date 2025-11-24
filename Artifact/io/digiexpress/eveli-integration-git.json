@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.digiexpress/eveli-integration-git",
 	"group_id":"io.digiexpress",
 	"artifact_id":"eveli-integration-git",
-	"version_latest":"5.2.14",
-	"ts_publish":1763137541000,
-	"dt_publish":"2025-11-15 00:25:41.000",
-	"ts_update":1763138756716,
-	"dt_update":"2025-11-15 00:45:41.497",
-	"count_dep":16,
+	"version_latest":"5.2.15",
+	"ts_publish":1763972709000,
+	"dt_publish":"2025-11-24 16:25:09.000",
+	"ts_update":1763974592328,
+	"dt_update":"2025-11-24 16:56:06.211",
+	"count_dep":30,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/digiexpress-io/digiexpress-parent/digiexpress-build-parent/eveli-parent/eveli-integration-git",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.digiexpress/eveli-integration-git@5.1.88",
@@ -24,13 +26,21 @@
 	"url_scm":"http://github.com/digiexpress-io/digiexpress-parent/tree/main/digiexpress-build-parent/eveli-parent/eveli-integration-git",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#401976 in MvnRepository",
+	"ranking":"#283960 in MvnRepository",
 	"tags":[
 		"integration",
 		"scm",
 		"git"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.14",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -182,14 +192,7 @@
 			"usage":1,
 			"version":"5.1.88",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.1.87",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"DigiExpress"
 }
