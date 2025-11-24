@@ -2,14 +2,16 @@
 	"id":"pkg:maven/nl.mirila.files/mirila-files-core",
 	"group_id":"nl.mirila.files",
 	"artifact_id":"mirila-files-core",
-	"version_latest":"3.5.0",
-	"ts_publish":1763803629000,
-	"dt_publish":"2025-11-22 17:27:09.000",
-	"ts_update":1763804695914,
-	"dt_update":"2025-11-22 17:44:39.532",
-	"count_dep":1,
+	"version_latest":"3.5.1",
+	"ts_publish":1764026129000,
+	"dt_publish":"2025-11-25 07:15:29.000",
+	"ts_update":1764026803311,
+	"dt_update":"2025-11-25 07:26:28.403",
+	"count_dep":65,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://gitlab.com/mirila/mirila/mirila-files/mirila-files-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/nl.mirila.files/mirila-files-core@3.0.0",
@@ -19,12 +21,20 @@
 	"url_scm":"https://gitlab.com/mirila/mirila/mirila-files/mirila-files-core",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#205691 in MvnRepository",
+	"ranking":"#221818 in MvnRepository",
 	"tags":[
 		"file",
 		"io"
 	],
 	"versions":[
+		{
+			"date":"20251122",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251119",
 			"repository":"Central",
@@ -121,5 +131,6 @@
 			"version":"1.1.2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A Java framework that can be used as a foundation for Rest APIs and microservices."
 }

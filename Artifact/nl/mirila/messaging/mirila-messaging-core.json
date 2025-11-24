@@ -2,14 +2,16 @@
 	"id":"pkg:maven/nl.mirila.messaging/mirila-messaging-core",
 	"group_id":"nl.mirila.messaging",
 	"artifact_id":"mirila-messaging-core",
-	"version_latest":"3.5.0",
-	"ts_publish":1763803629000,
-	"dt_publish":"2025-11-22 17:27:09.000",
-	"ts_update":1763804693724,
-	"dt_update":"2025-11-22 17:44:38.972",
-	"count_dep":3,
+	"version_latest":"3.5.1",
+	"ts_publish":1764026129000,
+	"dt_publish":"2025-11-25 07:15:29.000",
+	"ts_update":1764026807524,
+	"dt_update":"2025-11-25 07:26:27.792",
+	"count_dep":67,
 	"count_ref":7,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://gitlab.com/mirila/mirila/mirila-messaging/mirila-messaging-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/nl.mirila.messaging/mirila-messaging-core@3.0.0",
@@ -19,11 +21,19 @@
 	"url_scm":"https://gitlab.com/mirila/mirila/mirila-messaging/mirila-messaging-core",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#73048 in MvnRepository",
+	"ranking":"#65325 in MvnRepository",
 	"tags":[
 		"messaging"
 	],
 	"versions":[
+		{
+			"date":"20251122",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -120,5 +130,6 @@
 			"version":"1.1.2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A Java framework that can be used as a foundation for Rest APIs and microservices."
 }
