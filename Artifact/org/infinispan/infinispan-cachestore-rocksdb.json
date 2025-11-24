@@ -3,13 +3,13 @@
 	"description":"Infinispan RocksDB CacheStore module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-cachestore-rocksdb",
-	"version_latest":"16.0.1",
-	"ts_publish":1762589690000,
-	"dt_publish":"2025-11-08 16:14:50.000",
-	"ts_update":1762591196088,
-	"dt_update":"2025-11-08 16:39:45.964",
+	"version_latest":"16.0.2",
+	"ts_publish":1763978597000,
+	"dt_publish":"2025-11-24 18:03:17.000",
+	"ts_update":1763979615119,
+	"dt_update":"2025-11-24 18:19:53.822",
 	"count_dep":23,
-	"count_ref":9,
+	"count_ref":6,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.infinispan/infinispan-cachestore-rocksdb@16.0.0.Dev03",
 	"count_used_by":23,
 	"license":"Apache 2.0",
-	"ranking":"#20280 in MvnRepository",
+	"ranking":"#20666 in MvnRepository",
 	"tags":[
 		"database",
 		"infinispan",
@@ -29,6 +29,22 @@
 		"rocksdb"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"16.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"16.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"dev",
 			"usage":5,
 			"version":"15.2.0.Dev01",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"15.1.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"15.1.6.Final",
 			"vulnerabilities":""
 		}
 	]

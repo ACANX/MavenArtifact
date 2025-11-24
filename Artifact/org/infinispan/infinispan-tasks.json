@@ -3,13 +3,13 @@
 	"description":"Infinispan project",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-tasks",
-	"version_latest":"16.0.1",
-	"ts_publish":1762589690000,
-	"dt_publish":"2025-11-08 16:14:50.000",
-	"ts_update":1762591198561,
-	"dt_update":"2025-11-08 16:39:47.886",
+	"version_latest":"16.0.2",
+	"ts_publish":1763978597000,
+	"dt_publish":"2025-11-24 18:03:17.000",
+	"ts_update":1763979624473,
+	"dt_update":"2025-11-24 18:19:54.719",
 	"count_dep":41,
-	"count_ref":12,
+	"count_ref":6,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -28,13 +28,29 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-tasks",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#37996 in MvnRepository",
+	"ranking":"#39485 in MvnRepository",
 	"tags":[
 		"cache",
 		"infinispan",
 		"task"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"16.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"16.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"dev",
 			"usage":4,
 			"version":"15.2.0.Dev01",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"15.1.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"15.1.6.Final",
 			"vulnerabilities":""
 		}
 	]
