@@ -2,10 +2,10 @@
 	"id":"pkg:maven/io.streamnative/pulsar-package-bookkeeper-storage",
 	"group_id":"io.streamnative",
 	"artifact_id":"pulsar-package-bookkeeper-storage",
-	"version_latest":"4.1.0.7",
-	"ts_publish":1763184956000,
-	"ts_update":1763186188395,
-	"count_dep":114,
+	"version_latest":"4.1.0.8",
+	"ts_publish":1763981810000,
+	"ts_update":1763982918989,
+	"count_dep":118,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -19,16 +19,24 @@
 	"url_issue_management":"https://github.com/apache/pulsar/issues",
 	"url_scm":"https://github.com/streamnative/pulsar/pulsar-package-management/pulsar-package-bookkeeper-storage",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
-	"dt_publish":"2025-11-15 13:35:56.000",
-	"dt_update":"2025-11-15 13:56:19.871",
+	"dt_publish":"2025-11-24 18:56:50.000",
+	"dt_update":"2025-11-24 19:14:57.735",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#420170 in MvnRepository",
+	"ranking":"#303876 in MvnRepository",
 	"tags":[
 		"storage",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -83,6 +91,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251122",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.7.2",
 			"vulnerabilities":""
 		},
 		{
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.0.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250725",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.5.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250711",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.0.5.3",
 			"vulnerabilities":""
 		}
 	],
