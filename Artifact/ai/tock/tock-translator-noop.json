@@ -3,14 +3,16 @@
 	"description":"No operation translator implementation",
 	"group_id":"ai.tock",
 	"artifact_id":"tock-translator-noop",
-	"version_latest":"25.10.1",
-	"ts_publish":1762979755000,
-	"dt_publish":"2025-11-13 04:35:55.000",
-	"ts_update":1762980997703,
-	"dt_update":"2025-11-13 04:56:31.317",
-	"count_dep":9,
+	"version_latest":"25.10.2",
+	"ts_publish":1764016122000,
+	"dt_publish":"2025-11-25 04:28:42.000",
+	"ts_update":1764017312933,
+	"dt_update":"2025-11-25 04:47:09.888",
+	"count_dep":56,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +25,20 @@
 	"url_scm":"git@github.com:theopenconversationkit/tock.git/tock-translator/tock-translator-noop",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#226031 in MvnRepository",
+	"ranking":"#237649 in MvnRepository",
 	"tags":[
 		"ai",
 		"translation"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"25.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251110",
 			"repository":"Central",
@@ -179,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"24.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240909",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"24.3.6",
 			"vulnerabilities":""
 		}
 	]

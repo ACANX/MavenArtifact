@@ -3,13 +3,13 @@
 	"description":"Bot Test helpers and mocks with any connector",
 	"group_id":"ai.tock",
 	"artifact_id":"bot-test-base",
-	"version_latest":"25.10.1",
-	"ts_publish":1762979755000,
-	"dt_publish":"2025-11-13 04:35:55.000",
-	"ts_update":1762980492368,
-	"dt_update":"2025-11-13 04:47:48.751",
-	"count_dep":10,
-	"count_ref":0,
+	"version_latest":"25.10.2",
+	"ts_publish":1764016122000,
+	"dt_publish":"2025-11-25 04:28:42.000",
+	"ts_update":1764017291148,
+	"dt_update":"2025-11-25 04:47:09.349",
+	"count_dep":14,
+	"count_ref":2,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ai.tock/bot-test-base@25.3.10",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#238908 in MvnRepository",
+	"ranking":"#185821 in MvnRepository",
 	"tags":[
 		"testing",
 		"ai",
 		"bot"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"25.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251110",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"24.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240909",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"24.3.6",
 			"vulnerabilities":""
 		}
 	]

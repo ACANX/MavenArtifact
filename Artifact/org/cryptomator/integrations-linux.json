@@ -3,11 +3,11 @@
 	"description":"Provides optional Linux services used by Cryptomator",
 	"group_id":"org.cryptomator",
 	"artifact_id":"integrations-linux",
-	"version_latest":"1.7.0-beta1",
-	"ts_publish":1763990872000,
-	"dt_publish":"2025-11-24 21:27:52.000",
-	"ts_update":1763992101968,
-	"dt_update":"2025-11-24 21:47:27.058",
+	"version_latest":"1.7.0-beta2",
+	"ts_publish":1764014308000,
+	"dt_publish":"2025-11-25 03:58:28.000",
+	"ts_update":1764017277481,
+	"dt_update":"2025-11-25 04:47:18.037",
 	"count_dep":22,
 	"count_ref":0,
 	"licenses":[
@@ -26,13 +26,21 @@
 	"url_scm":"git@github.com:cryptomator/integrations-linux.git",
 	"home_page":"http://www.cryptomator.org",
 	"license":"AGPL 3.0",
-	"ranking":"#684495 in MvnRepository",
+	"ranking":"#870674 in MvnRepository",
 	"tags":[
 		"integration",
 		"unix",
 		"linux"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.6.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250530",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"1.3.0-beta6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230712",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"1.3.0-beta5",
 			"vulnerabilities":""
 		}
 	]
