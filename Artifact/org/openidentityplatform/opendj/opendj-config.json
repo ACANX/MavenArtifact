@@ -3,16 +3,14 @@
 	"description":"This module includes Configuration APIs for implementing LDAP Directory\n    client and server applications.",
 	"group_id":"org.openidentityplatform.opendj",
 	"artifact_id":"opendj-config",
-	"version_latest":"5.0.1",
-	"ts_publish":1762630994000,
-	"dt_publish":"2025-11-09 03:43:14.000",
-	"ts_update":1762631798135,
-	"dt_update":"2025-11-09 03:56:29.092",
-	"count_dep":33,
+	"version_latest":"5.0.2",
+	"ts_publish":1764059956000,
+	"dt_publish":"2025-11-25 16:39:16.000",
+	"ts_update":1764061012170,
+	"dt_update":"2025-11-25 16:56:20.207",
+	"count_dep":11,
 	"count_ref":6,
-	"licenses":[
-		"CDDL-1.1"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,13 +24,21 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/OpenDJ/opendj-config",
 	"count_used_by":4,
 	"license":"CDDL 1.1",
-	"ranking":"#112050 in MvnRepository",
+	"ranking":"#122553 in MvnRepository",
 	"tags":[
 		"bundle",
 		"config",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"5.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250904",
 			"repository":"Central",
@@ -183,14 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.5.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230919",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.5.7",
 			"vulnerabilities":""
 		}
 	]

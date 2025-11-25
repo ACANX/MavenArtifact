@@ -3,11 +3,11 @@
 	"description":"This module contains OpenDJ legacy code that needs to be kept for compatibility reasons\n    but will never be used again. DO NOT USE THIS CODE AT ALL, it could be removed any time.\n    All code must be marked as deprecated with a link to the bug tracker.",
 	"group_id":"org.openidentityplatform.opendj",
 	"artifact_id":"opendj-legacy",
-	"version_latest":"5.0.1",
-	"ts_publish":1762630994000,
-	"dt_publish":"2025-11-09 03:43:14.000",
-	"ts_update":1762631800893,
-	"dt_update":"2025-11-09 03:56:29.087",
+	"version_latest":"5.0.2",
+	"ts_publish":1764059956000,
+	"dt_publish":"2025-11-25 16:39:16.000",
+	"ts_update":1764060999896,
+	"dt_update":"2025-11-25 16:56:20.198",
 	"count_dep":4,
 	"count_ref":3,
 	"licenses":[
@@ -26,11 +26,19 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/OpenDJ/opendj-legacy",
 	"count_used_by":1,
 	"license":"CDDL 1.1",
-	"ranking":"#384414 in MvnRepository",
+	"ranking":"#395848 in MvnRepository",
 	"tags":[
 		"legacy"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250904",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.5.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230919",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.5.7",
 			"vulnerabilities":""
 		}
 	]
