@@ -3,11 +3,11 @@
 	"description":"Bill of Materials (BOM) for YOJ Project. Use this artifact with <scope>import</scope> to ensure\n        you have a consistent version of all YOJ artifacts at once.",
 	"group_id":"tech.ydb.yoj",
 	"artifact_id":"yoj-bom",
-	"version_latest":"2.6.52-beta",
-	"ts_publish":1763663814000,
-	"dt_publish":"2025-11-21 02:36:54.000",
-	"ts_update":1763664906492,
-	"dt_update":"2025-11-21 02:54:53.461",
+	"version_latest":"2.7.0",
+	"ts_publish":1764099342000,
+	"dt_publish":"2025-11-26 03:35:42.000",
+	"ts_update":1764103259075,
+	"dt_update":"2025-11-26 04:40:23.990",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,13 +24,29 @@
 	"url_scm":"https://github.com/ydb-platform/yoj-project",
 	"home_page":"https://github.com/ydb-platform/yoj-project",
 	"license":"Apache 2.0",
-	"ranking":"#751862 in MvnRepository",
+	"ranking":"#636055 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"2.6.52-beta",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.51",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251117",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.6.33",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250905",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.6.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.6.31",
 			"vulnerabilities":""
 		}
 	]
