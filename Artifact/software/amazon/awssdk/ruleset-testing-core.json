@@ -3,13 +3,13 @@
 	"description":"Test package for testing correctness of RuleSet usage in the service clients.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"ruleset-testing-core",
-	"version_latest":"2.39.2",
-	"ts_publish":1763767357000,
-	"dt_publish":"2025-11-22 07:22:37.000",
-	"ts_update":1763768731037,
-	"dt_update":"2025-11-22 07:44:35.080",
+	"version_latest":"2.39.4",
+	"ts_publish":1764112371000,
+	"dt_publish":"2025-11-26 07:12:51.000",
+	"ts_update":1764114387203,
+	"dt_update":"2025-11-26 07:46:08.198",
 	"count_dep":24,
-	"count_ref":98,
+	"count_ref":154,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/test/ruleset-testing-core",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#128462 in MvnRepository",
+	"ranking":"#110620 in MvnRepository",
 	"tags":[
 		"quality",
 		"aws",
@@ -32,6 +32,62 @@
 		"rules"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.39.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.39.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.39.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.38.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.38.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.38.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.38.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -134,62 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.36.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251025",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.36.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251023",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.36.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251023",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.36.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251021",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.35.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251017",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.35.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251016",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.35.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251016",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.35.8",
 			"vulnerabilities":""
 		}
 	]
