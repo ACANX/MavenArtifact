@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/jrt",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"jrt",
-	"version_latest":"8.612.20",
-	"ts_publish":1763672516000,
-	"dt_publish":"2025-11-21 05:01:56.000",
-	"ts_update":1763673368486,
-	"dt_update":"2025-11-21 05:15:38.960",
+	"version_latest":"8.613.57",
+	"ts_publish":1764065074000,
+	"dt_publish":"2025-11-25 18:04:34.000",
+	"ts_update":1764066087770,
+	"dt_update":"2025-11-25 18:20:22.128",
 	"count_dep":5,
-	"count_ref":24,
-	"licenses":[],
+	"count_ref":25,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -185,5 +187,6 @@
 			"version":"8.586.25",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }
