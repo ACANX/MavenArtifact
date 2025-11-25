@@ -3,13 +3,13 @@
 	"description":"WSO2 Carbon - User DCR Rest API",
 	"group_id":"org.wso2.carbon.identity.inbound.auth.oauth2",
 	"artifact_id":"org.wso2.carbon.identity.api.server.dcr",
-	"version_latest":"7.0.399",
-	"ts_publish":1764004044000,
-	"dt_publish":"2025-11-25 01:07:24.000",
-	"ts_update":1764005195835,
-	"dt_update":"2025-11-25 01:26:25.582",
+	"version_latest":"7.0.400",
+	"ts_publish":1764078833000,
+	"dt_publish":"2025-11-25 21:53:53.000",
+	"ts_update":1764080251026,
+	"dt_update":"2025-11-25 22:17:16.331",
 	"count_dep":61,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/wso2-extensions/identity-inbound-auth-oauth.git/components/org.wso2.carbon.identity.api.server.dcr",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#198590 in MvnRepository",
+	"ranking":"#176981 in MvnRepository",
 	"tags":[
 		"server",
 		"authentication",
@@ -34,6 +34,14 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.0.398",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"7.0.212",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250109",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.0.211",
 			"vulnerabilities":""
 		}
 	]
