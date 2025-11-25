@@ -3,16 +3,14 @@
 	"description":"Keycloak Ipatuura Federation",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-ipatuura-federation",
-	"version_latest":"26.4.5",
-	"ts_publish":1762960258000,
-	"dt_publish":"2025-11-12 23:10:58.000",
-	"ts_update":1762961213551,
-	"dt_update":"2025-11-12 23:26:30.624",
-	"count_dep":14,
-	"count_ref":17,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"26.4.6",
+	"ts_publish":1764091355000,
+	"dt_publish":"2025-11-26 01:22:35.000",
+	"ts_update":1764092228678,
+	"dt_update":"2025-11-26 01:36:55.106",
+	"count_dep":6,
+	"count_ref":14,
+	"licenses":[],
 	"categories":[
 		"Security",
 		"Identity Management"
@@ -27,12 +25,20 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-ipatuura-federation/",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#208490 in MvnRepository",
+	"ranking":"#186607 in MvnRepository",
 	"tags":[
 		"keycloak",
 		"federation"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.4.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -183,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"26.1.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"26.1.3",
 			"vulnerabilities":""
 		}
 	]

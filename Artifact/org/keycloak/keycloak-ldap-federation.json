@@ -3,16 +3,14 @@
 	"description":"Keycloak LDAP UserStoreProvider",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-ldap-federation",
-	"version_latest":"26.4.5",
-	"ts_publish":1762960258000,
-	"dt_publish":"2025-11-12 23:10:58.000",
-	"ts_update":1762961207491,
-	"dt_update":"2025-11-12 23:26:32.331",
-	"count_dep":35,
-	"count_ref":18,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"26.4.6",
+	"ts_publish":1764091355000,
+	"dt_publish":"2025-11-26 01:22:35.000",
+	"ts_update":1764092221673,
+	"dt_update":"2025-11-26 01:36:55.528",
+	"count_dep":12,
+	"count_ref":15,
+	"licenses":[],
 	"categories":[
 		"Security",
 		"Identity Management"
@@ -28,7 +26,7 @@
 	"count_used_by":31,
 	"home_page":"https://www.keycloak.org/",
 	"license":"Apache 2.0",
-	"ranking":"#15645 in MvnRepository",
+	"ranking":"#15385 in MvnRepository",
 	"tags":[
 		"keycloak",
 		"ldap",
@@ -36,6 +34,14 @@
 		"directory"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -186,14 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.1.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"26.1.3",
 			"vulnerabilities":""
 		}
 	]

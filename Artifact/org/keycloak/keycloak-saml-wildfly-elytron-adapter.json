@@ -3,11 +3,11 @@
 	"description":"Keycloak WildFly Elytron SAML Adapter",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-saml-wildfly-elytron-adapter",
-	"version_latest":"26.4.5",
-	"ts_publish":1762960258000,
-	"dt_publish":"2025-11-12 23:10:58.000",
-	"ts_update":1762961209805,
-	"dt_update":"2025-11-12 23:26:31.795",
+	"version_latest":"26.4.6",
+	"ts_publish":1764091355000,
+	"dt_publish":"2025-11-26 01:22:35.000",
+	"ts_update":1764092238515,
+	"dt_update":"2025-11-26 01:36:53.771",
 	"count_dep":174,
 	"count_ref":4,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-saml-wildfly-elytron-adapter/",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#120012 in MvnRepository",
+	"ranking":"#130349 in MvnRepository",
 	"tags":[
 		"security",
 		"wildfly",
@@ -36,6 +36,14 @@
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.1.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.1.3",
 			"vulnerabilities":""
 		}
 	]

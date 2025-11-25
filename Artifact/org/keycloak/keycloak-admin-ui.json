@@ -3,13 +3,13 @@
 	"description":"The user interface to administrate the Keycloak server.",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-admin-ui",
-	"version_latest":"26.4.5",
-	"ts_publish":1762960258000,
-	"dt_publish":"2025-11-12 23:10:58.000",
-	"ts_update":1762961215319,
-	"dt_update":"2025-11-12 23:26:29.432",
+	"version_latest":"26.4.6",
+	"ts_publish":1764091355000,
+	"dt_publish":"2025-11-26 01:22:35.000",
+	"ts_update":1764092225209,
+	"dt_update":"2025-11-26 01:36:54.678",
 	"count_dep":0,
-	"count_ref":17,
+	"count_ref":14,
 	"licenses":[],
 	"categories":[
 		"Security",
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-js-parent/keycloak-admin-ui/",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#71253 in MvnRepository",
+	"ranking":"#65329 in MvnRepository",
 	"tags":[
 		"admin",
 		"keycloak",
 		"ui"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.4.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"26.1.4",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"26.1.3",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]
