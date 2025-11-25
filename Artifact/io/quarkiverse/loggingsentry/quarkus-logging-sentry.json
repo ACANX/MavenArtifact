@@ -3,12 +3,12 @@
 	"description":"Use Sentry, a self-hosted or cloud-based error monitoring solution",
 	"group_id":"io.quarkiverse.loggingsentry",
 	"artifact_id":"quarkus-logging-sentry",
-	"version_latest":"2.2.0",
-	"ts_publish":1763310199000,
-	"dt_publish":"2025-11-17 00:23:19.000",
-	"ts_update":1763311778305,
-	"dt_update":"2025-11-17 00:49:30.699",
-	"count_dep":44,
+	"version_latest":"2.3.0",
+	"ts_publish":1764087260000,
+	"dt_publish":"2025-11-26 00:14:20.000",
+	"ts_update":1764089826275,
+	"dt_update":"2025-11-26 00:56:33.123",
+	"count_dep":43,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,13 +23,21 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-logging-sentry",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#94302 in MvnRepository",
+	"ranking":"#90278 in MvnRepository",
 	"tags":[
 		"logging",
 		"quarkus",
 		"sentry"
 	],
 	"versions":[
+		{
+			"date":"20251116",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251002",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230316",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.2.2",
 			"vulnerabilities":""
 		}
 	]
