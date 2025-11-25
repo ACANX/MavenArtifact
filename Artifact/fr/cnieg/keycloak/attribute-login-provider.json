@@ -3,11 +3,11 @@
 	"description":"Adds the possibility for Keycloak to connect via a user attribute",
 	"group_id":"fr.cnieg.keycloak",
 	"artifact_id":"attribute-login-provider",
-	"version_latest":"1.11.14",
-	"ts_publish":1763005673000,
-	"dt_publish":"2025-11-13 11:47:53.000",
-	"ts_update":1763007734003,
-	"dt_update":"2025-11-13 12:22:01.814",
+	"version_latest":"1.11.15",
+	"ts_publish":1764106489000,
+	"dt_publish":"2025-11-26 05:34:49.000",
+	"ts_update":1764107147675,
+	"dt_update":"2025-11-26 05:45:39.451",
 	"count_dep":161,
 	"count_ref":0,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/cnieg/keycloak-login-attribute",
 	"home_page":"https://github.com/cnieg/keycloak-login-attribute",
 	"license":"Apache 2.0",
-	"ranking":"#536894 in MvnRepository",
+	"ranking":"#731490 in MvnRepository",
 	"tags":[
 		"provider",
 		"keycloak",
 		"login"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.11.14",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.4.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240326",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.4.6",
 			"vulnerabilities":""
 		}
 	]
