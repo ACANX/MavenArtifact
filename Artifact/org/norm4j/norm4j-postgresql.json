@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/org.norm4j/norm4j-postgresql",
-	"description":"norm4j (Not an ORM for Java) is a lightweight, SQL-centric alternative to JPA",
+	"description":"norm4j (Not an ORM for Java) is a lightweight, SQL-centric persistence library that keeps SQL and database schema as first-class citizens",
 	"group_id":"org.norm4j",
 	"artifact_id":"norm4j-postgresql",
-	"version_latest":"1.1.16",
-	"ts_publish":1763505140000,
-	"dt_publish":"2025-11-19 06:32:20.000",
-	"ts_update":1763506605745,
-	"dt_update":"2025-11-19 06:56:31.996",
-	"count_dep":4,
+	"version_latest":"1.1.17",
+	"ts_publish":1764084013000,
+	"dt_publish":"2025-11-25 23:20:13.000",
+	"ts_update":1764085285716,
+	"dt_update":"2025-11-25 23:41:17.912",
+	"count_dep":7,
 	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -22,13 +22,37 @@
 	"url_scm":"https://github.com/aprilsoftware/norm4j/tree/main",
 	"home_page":"http://www.norm4j.org",
 	"license":"Apache 2.0",
-	"ranking":"#552478 in MvnRepository",
+	"ranking":"#355462 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
 		"postgresql"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.1.16",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.1.15",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.14",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -149,5 +173,6 @@
 			"version":"1.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
