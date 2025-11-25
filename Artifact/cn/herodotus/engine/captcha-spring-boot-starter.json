@@ -3,14 +3,16 @@
 	"description":"基于 Spring Authorization Server 的 Dante Cloud 基础核心组件模块",
 	"group_id":"cn.herodotus.engine",
 	"artifact_id":"captcha-spring-boot-starter",
-	"version_latest":"3.5.8.0",
-	"ts_publish":1763711222000,
-	"dt_publish":"2025-11-21 15:47:02.000",
-	"ts_update":1763711804328,
-	"dt_update":"2025-11-21 15:56:26.142",
-	"count_dep":1,
+	"version_latest":"4.0.0.0-M1",
+	"ts_publish":1764082963000,
+	"dt_publish":"2025-11-25 23:02:43.000",
+	"ts_update":1764083952554,
+	"dt_update":"2025-11-25 23:18:42.771",
+	"count_dep":107,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	"url_scm":"https://github.com/dromara/dante-cloud/engine-captcha/captcha-spring-boot-starter",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#78095 in MvnRepository",
+	"ranking":"#76672 in MvnRepository",
 	"tags":[
 		"captcha",
 		"spring",
@@ -32,6 +34,14 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251030",
 			"repository":"Central",
@@ -182,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.5.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250530",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.5.0.0",
 			"vulnerabilities":""
 		}
 	]
