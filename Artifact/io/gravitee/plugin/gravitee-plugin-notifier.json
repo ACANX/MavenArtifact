@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.plugin",
 	"artifact_id":"gravitee-plugin-notifier",
-	"version_latest":"4.9.1",
-	"ts_publish":1763108428000,
-	"dt_publish":"2025-11-14 16:20:28.000",
-	"ts_update":1763108786088,
-	"dt_update":"2025-11-14 16:26:18.915",
-	"count_dep":24,
+	"version_latest":"4.10.0",
+	"ts_publish":1764074698000,
+	"dt_publish":"2025-11-25 20:44:58.000",
+	"ts_update":1764075398136,
+	"dt_update":"2025-11-25 20:56:25.210",
+	"count_dep":35,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-plugin/gravitee-plugin-notifier",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#92956 in MvnRepository",
+	"ranking":"#91981 in MvnRepository",
 	"tags":[
 		"plugin",
 		"notification"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.9.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251008",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.0.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240404",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.2",
 			"vulnerabilities":""
 		}
 	]
