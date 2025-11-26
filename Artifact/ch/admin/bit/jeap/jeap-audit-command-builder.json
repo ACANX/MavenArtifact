@@ -3,13 +3,13 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-audit-command-builder",
-	"version_latest":"2.2.0",
-	"ts_publish":1763114794000,
-	"dt_publish":"2025-11-14 18:06:34.000",
-	"ts_update":1763116020294,
-	"dt_update":"2025-11-14 18:26:24.046",
+	"version_latest":"2.2.1",
+	"ts_publish":1764169580000,
+	"dt_publish":"2025-11-26 23:06:20.000",
+	"ts_update":1764170189716,
+	"dt_update":"2025-11-26 23:16:07.855",
 	"count_dep":77,
-	"count_ref":2,
+	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,5 +19,49 @@
 	"contributors":[
 		"BIT"
 	],
-	"url_scm":"https://github.com/jeap-admin-ch/jeap-audit.git/jeap-audit-command-builder"
+	"url_scm":"https://github.com/jeap-admin-ch/jeap-audit.git/jeap-audit-command-builder",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#249937 in MvnRepository",
+	"tags":[
+		"admin",
+		"build",
+		"builder",
+		"command",
+		"audit"
+	],
+	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		}
+	]
 }

@@ -3,14 +3,16 @@
 	"description":"optionfactory-spring OpenID Connect autohorization code flow",
 	"group_id":"net.optionfactory.spring",
 	"artifact_id":"authentication-authorization-code",
-	"version_latest":"23.1",
-	"ts_publish":1764000589000,
-	"dt_publish":"2025-11-25 00:09:49.000",
-	"ts_update":1764001592418,
-	"dt_update":"2025-11-25 00:26:25.558",
-	"count_dep":6,
+	"version_latest":"23.2",
+	"ts_publish":1764166931000,
+	"dt_publish":"2025-11-26 22:22:11.000",
+	"ts_update":1764170183728,
+	"dt_update":"2025-11-26 23:16:11.014",
+	"count_dep":30,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Simplified BSD License"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/optionfactory/optionfactory-spring/authentication-authorization-code",
 	"license":"BSD 3-clause",
-	"ranking":"#739968 in MvnRepository",
+	"ranking":"#743723 in MvnRepository",
 	"tags":[
 		"spring",
 		"authorization",
@@ -30,6 +32,14 @@
 		"authentication"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"23.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251121",
 			"repository":"Central",
@@ -180,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"21.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250120",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"21.8",
 			"vulnerabilities":""
 		}
 	]
