@@ -3,13 +3,13 @@
 	"description":"Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
 	"group_id":"io.ktor",
 	"artifact_id":"ktor-server-call-logging-jvm",
-	"version_latest":"3.3.2",
-	"ts_publish":1762333924000,
-	"dt_publish":"2025-11-05 17:12:04.000",
-	"ts_update":1762335581825,
-	"dt_update":"2025-11-05 17:39:12.560",
+	"version_latest":"3.3.3",
+	"ts_publish":1764157055000,
+	"dt_publish":"2025-11-26 19:37:35.000",
+	"ts_update":1764158212387,
+	"dt_update":"2025-11-26 19:56:31.196",
 	"count_dep":9,
-	"count_ref":3,
+	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"Jetbrains Team"
 	],
 	"url_scm":"https://github.com/ktorio/ktor.git",
-	"count_used_by":31,
+	"count_used_by":32,
 	"home_page":"https://github.com/ktorio/ktor",
 	"license":"Apache 2.0",
-	"ranking":"#15447 in MvnRepository",
+	"ranking":"#15243 in MvnRepository",
 	"tags":[
 		"ktor",
 		"jvm",
@@ -35,6 +35,14 @@
 		"kotlin"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.3.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251008",
 			"repository":"Central",
@@ -47,7 +55,7 @@
 			"date":"20250911",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"3.3.0",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2.3.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240620",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.3.12",
 			"vulnerabilities":""
 		}
 	]

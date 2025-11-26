@@ -3,11 +3,11 @@
 	"description":"A Debezium connector for CockroachDB using native changefeeds",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-cockroachdb",
-	"version_latest":"3.4.0.Alpha2",
-	"ts_publish":1762342391000,
-	"dt_publish":"2025-11-05 19:33:11.000",
-	"ts_update":1762345656386,
-	"dt_update":"2025-11-05 20:26:30.385",
+	"version_latest":"3.4.0.Beta1",
+	"ts_publish":1764157112000,
+	"dt_publish":"2025-11-26 19:38:32.000",
+	"ts_update":1764158211056,
+	"dt_update":"2025-11-26 19:56:27.663",
 	"count_dep":49,
 	"count_ref":0,
 	"licenses":[
@@ -29,7 +29,7 @@
 	"url_scm":"https://github.com/debezium/debezium-connector-cockroachdb",
 	"home_page":"https://debezium.io",
 	"license":"Apache 2.0",
-	"ranking":"#454200 in MvnRepository",
+	"ranking":"#655301 in MvnRepository",
 	"tags":[
 		"debezium",
 		"connector",
@@ -37,6 +37,22 @@
 		"cockroachdb"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
