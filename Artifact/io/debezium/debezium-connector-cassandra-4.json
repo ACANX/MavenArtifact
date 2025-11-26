@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.debezium/debezium-connector-cassandra-4",
-	"description":"Debezium Cassandra connector is an open source change data capture connector Cassandra databases",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-cassandra-4",
-	"version_latest":"3.4.0.Alpha1",
-	"ts_publish":1761375172000,
-	"dt_publish":"2025-10-25 14:52:52.000",
-	"ts_update":1761376487643,
-	"dt_update":"2025-10-25 15:14:35.867",
-	"count_dep":191,
+	"version_latest":"3.4.0.Beta1",
+	"ts_publish":1764155763000,
+	"dt_publish":"2025-11-26 19:16:03.000",
+	"ts_update":1764157543775,
+	"dt_update":"2025-11-26 19:45:34.889",
+	"count_dep":104,
 	"count_ref":0,
-	"licenses":[
-		"Apache Software License 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database"
@@ -27,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium-connector-cassandra/debezium-connector-cassandra-4",
 	"license":"Apache 2.0",
-	"ranking":"#540274 in MvnRepository",
+	"ranking":"#739643 in MvnRepository",
 	"tags":[
 		"database",
 		"cassandra",
@@ -36,6 +33,22 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -82,6 +95,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.5.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -170,30 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0.CR1",
 			"vulnerabilities":""
 		}
 	]
