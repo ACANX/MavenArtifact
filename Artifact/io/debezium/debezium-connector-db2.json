@@ -3,11 +3,11 @@
 	"description":"Debezium Db2 connector is an open source change data capture connector for Db2 LUW databases",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-db2",
-	"version_latest":"3.4.0.Alpha2",
-	"ts_publish":1762345420000,
-	"dt_publish":"2025-11-05 20:23:40.000",
-	"ts_update":1762347438485,
-	"dt_update":"2025-11-05 20:56:26.799",
+	"version_latest":"3.4.0.Beta1",
+	"ts_publish":1764158002000,
+	"dt_publish":"2025-11-26 19:53:22.000",
+	"ts_update":1764160037582,
+	"dt_update":"2025-11-26 20:26:37.451",
 	"count_dep":44,
 	"count_ref":0,
 	"licenses":[
@@ -27,10 +27,10 @@
 		"Randall Hauch"
 	],
 	"url_scm":"https://github.com/debezium/debezium-connector-db2",
-	"count_used_by":12,
+	"count_used_by":13,
 	"home_page":"https://debezium.io",
 	"license":"Apache 2.0",
-	"ranking":"#37524 in MvnRepository",
+	"ranking":"#36439 in MvnRepository",
 	"tags":[
 		"database",
 		"connector",
@@ -38,6 +38,30 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -76,6 +100,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.5.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -164,38 +196,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"3.1.0.Beta1",
 			"vulnerabilities":""
 		}
 	]
