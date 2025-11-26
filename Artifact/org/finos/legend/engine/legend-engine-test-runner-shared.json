@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-test-runner-shared",
-	"version_latest":"4.110.1",
-	"ts_publish":1763505213000,
-	"dt_publish":"2025-11-19 06:33:33.000",
-	"ts_update":1763506615742,
-	"dt_update":"2025-11-19 06:56:30.381",
+	"version_latest":"4.113.1",
+	"ts_publish":1764178660000,
+	"dt_publish":"2025-11-27 01:37:40.000",
+	"ts_update":1764179810323,
+	"dt_update":"2025-11-27 01:56:35.364",
 	"count_dep":4,
-	"count_ref":5,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -26,13 +26,37 @@
 	"url_scm":"https://github.com/finos/finos-parent-pom/legend-engine/legend-engine-core/legend-engine-core-testable/legend-engine-test-runner-shared",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#49418 in MvnRepository",
+	"ranking":"#46468 in MvnRepository",
 	"tags":[
 		"runner",
 		"testing",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251122",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.112.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.111.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.110.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251115",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.101.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250915",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.101.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250926",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.100.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250912",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.100.0",
 			"vulnerabilities":""
 		}
 	]
