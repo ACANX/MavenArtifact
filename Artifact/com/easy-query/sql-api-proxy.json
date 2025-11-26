@@ -2,14 +2,12 @@
 	"id":"pkg:maven/com.easy-query/sql-api-proxy",
 	"group_id":"com.easy-query",
 	"artifact_id":"sql-api-proxy",
-	"version_latest":"3.1.61",
-	"ts_publish":1763961414000,
-	"ts_update":1763961997176,
-	"count_dep":2,
+	"version_latest":"3.1.62",
+	"ts_publish":1764137746000,
+	"ts_update":1764138375819,
+	"count_dep":1,
 	"count_ref":3,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/xuejmnet/easy-query/sql-platform/sql-api-proxy",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.easy-query/sql-api-proxy@3.0.66",
@@ -17,11 +15,11 @@
 		"xuejiaming"
 	],
 	"url_scm":"https://github.com/xuejmnet/easy-query/sql-platform/sql-api-proxy",
-	"dt_publish":"2025-11-24 13:16:54.000",
-	"dt_update":"2025-11-24 13:26:27.281",
+	"dt_publish":"2025-11-26 14:15:46.000",
+	"dt_update":"2025-11-26 14:26:00.046",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#59408 in MvnRepository",
+	"ranking":"#59447 in MvnRepository",
 	"tags":[
 		"sql",
 		"query",
@@ -29,6 +27,30 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.1.61",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251123",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.1.60",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251122",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.1.59",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251119",
 			"repository":"Central",
@@ -164,31 +186,6 @@
 			"usage":3,
 			"version":"3.1.42",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251018",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.1.41",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251018",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.1.40",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251017",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.1.39",
-			"vulnerabilities":""
 		}
-	],
-	"description":"java object query distributed connector"
+	]
 }

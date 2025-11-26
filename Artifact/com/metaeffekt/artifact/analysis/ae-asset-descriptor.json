@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/com.metaeffekt.artifact.analysis/ae-asset-descriptor",
-	"description":"Support for artifact analysis",
 	"group_id":"com.metaeffekt.artifact.analysis",
 	"artifact_id":"ae-asset-descriptor",
-	"version_latest":"0.151.0",
-	"ts_publish":1763738706000,
-	"dt_publish":"2025-11-21 23:25:06.000",
-	"ts_update":1763739893601,
-	"dt_update":"2025-11-21 23:44:45.436",
-	"count_dep":60,
-	"count_ref":3,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"version_latest":"0.152.0",
+	"ts_publish":1764136418000,
+	"dt_publish":"2025-11-26 13:53:38.000",
+	"ts_update":1764138378018,
+	"dt_update":"2025-11-26 14:26:03.559",
+	"count_dep":13,
+	"count_ref":4,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,12 +19,20 @@
 	"url_scm":"http://ae-server:7990/projects/AE/repos/metaeffekt-artifact-analysis/browse/ae-modules-pom/ae-asset-descriptor",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#218486 in MvnRepository",
+	"ranking":"#202024 in MvnRepository",
 	"tags":[
 		"descriptor",
 		"analysis"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.151.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -58,6 +63,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.148.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.147.6",
 			"vulnerabilities":""
 		},
 		{
@@ -170,22 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.141.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.140.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250628",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.139.0",
 			"vulnerabilities":""
 		}
 	]
