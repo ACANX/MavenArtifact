@@ -3,11 +3,11 @@
 	"description":"Utility library for reading and writing X509 certificates as well as reading, writing and generating RSA and EC keys. Also provides a simple certificate authority implementation and RSA-KEM AES GCM based on BouncyCastle as well as a ECDH-KEM AES GCM implementation based on JEP 452.",
 	"group_id":"de.hs-heilbronn.mi",
 	"artifact_id":"crypto-utils",
-	"version_latest":"5.2.0",
-	"ts_publish":1757156273000,
-	"dt_publish":"2025-09-06 18:57:53.000",
-	"ts_update":1757157102049,
-	"dt_update":"2025-09-06 19:10:44.359",
+	"version_latest":"5.2.1",
+	"ts_publish":1764177589000,
+	"dt_publish":"2025-11-27 01:19:49.000",
+	"ts_update":1764178514485,
+	"dt_update":"2025-11-27 01:35:07.036",
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
@@ -26,11 +26,19 @@
 	"count_used_by":9,
 	"home_page":"https://github.com/hhund/crypto-utils",
 	"license":"Apache 2.0",
-	"ranking":"#49587 in MvnRepository",
+	"ranking":"#50512 in MvnRepository",
 	"tags":[
 		"cryptography"
 	],
 	"versions":[
+		{
+			"date":"20250906",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250517",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20191112",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.3.0",
 			"vulnerabilities":""
 		}
 	]
