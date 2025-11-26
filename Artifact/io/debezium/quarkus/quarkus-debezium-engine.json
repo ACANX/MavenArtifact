@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.debezium.quarkus/quarkus-debezium-engine",
 	"group_id":"io.debezium.quarkus",
 	"artifact_id":"quarkus-debezium-engine",
-	"version_latest":"3.4.0.Alpha2",
-	"ts_publish":1762338801000,
-	"dt_publish":"2025-11-05 18:33:21.000",
-	"ts_update":1762340012296,
-	"dt_update":"2025-11-05 18:53:10.765",
+	"version_latest":"3.4.0.Beta1",
+	"ts_publish":1764154855000,
+	"dt_publish":"2025-11-26 19:00:55.000",
+	"ts_update":1764155706219,
+	"dt_update":"2025-11-26 19:14:53.473",
 	"count_dep":10,
-	"count_ref":11,
+	"count_ref":15,
 	"licenses":[],
 	"dsv":1,
 	"url_project":"https://debezium.io/debezium-parent/quarkus-debezium-parent/quarkus-debezium-engine-parent/quarkus-debezium-engine",
@@ -19,15 +19,23 @@
 		"Randall Hauch"
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/quarkus-debezium-parent/quarkus-debezium-engine-parent/quarkus-debezium-engine",
-	"count_used_by":5,
+	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#94937 in MvnRepository",
+	"ranking":"#55172 in MvnRepository",
 	"tags":[
 		"debezium",
 		"quarkus",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":9,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -82,6 +90,14 @@
 			"type":"alpha",
 			"usage":2,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.2.5.Final",
 			"vulnerabilities":""
 		},
 		{

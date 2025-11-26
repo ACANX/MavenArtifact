@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.debezium/debezium-interceptor",
-	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-interceptor",
-	"version_latest":"3.4.0.Alpha2",
-	"ts_publish":1762338801000,
-	"dt_publish":"2025-11-05 18:33:21.000",
-	"ts_update":1762340009277,
-	"dt_update":"2025-11-05 18:53:09.848",
-	"count_dep":4,
+	"version_latest":"3.4.0.Beta1",
+	"ts_publish":1764154855000,
+	"dt_publish":"2025-11-26 19:00:55.000",
+	"ts_update":1764155704510,
+	"dt_update":"2025-11-26 19:14:51.568",
+	"count_dep":3,
 	"count_ref":0,
-	"licenses":[
-		"Apache Software License 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database"
@@ -27,12 +24,20 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-interceptor",
 	"license":"Apache 2.0",
-	"ranking":"#490839 in MvnRepository",
+	"ranking":"#689470 in MvnRepository",
 	"tags":[
 		"debezium",
 		"interceptor"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -87,6 +92,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.5.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -175,22 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0.Final",
 			"vulnerabilities":""
 		}
 	]

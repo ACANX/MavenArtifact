@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.debezium.quarkus/quarkus-debezium-mongodb",
-	"description":"Debezium Parent Module for Quarkus extensions",
 	"group_id":"io.debezium.quarkus",
 	"artifact_id":"quarkus-debezium-mongodb",
-	"version_latest":"3.4.0.Alpha1",
-	"ts_publish":1761327746000,
-	"dt_publish":"2025-10-25 01:42:26.000",
-	"ts_update":1761328627568,
-	"dt_update":"2025-10-25 01:56:29.958",
-	"count_dep":99,
-	"count_ref":1,
-	"licenses":[
-		"Apache Software License 2.0"
-	],
+	"version_latest":"3.4.0.Beta1",
+	"ts_publish":1764154855000,
+	"dt_publish":"2025-11-26 19:00:55.000",
+	"ts_update":1764155706886,
+	"dt_update":"2025-11-26 19:14:52.823",
+	"count_dep":5,
+	"count_ref":2,
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://debezium.io/debezium-parent/quarkus-debezium-parent/quarkus-debezium-mongodb-parent/quarkus-debezium-mongodb",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.debezium.quarkus/quarkus-debezium-mongodb@3.4.0.Alpha1",
@@ -21,5 +18,32 @@
 		"Gunnar Morling",
 		"Randall Hauch"
 	],
-	"url_scm":"https://github.com/debezium/debezium/debezium-parent/quarkus-debezium-parent/quarkus-debezium-mongodb-parent/quarkus-debezium-mongodb"
+	"url_scm":"https://github.com/debezium/debezium/debezium-parent/quarkus-debezium-parent/quarkus-debezium-mongodb-parent/quarkus-debezium-mongodb",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#256680 in MvnRepository",
+	"tags":[
+		"debezium",
+		"quarkus",
+		"mongodb",
+		"database"
+	],
+	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		}
+	]
 }

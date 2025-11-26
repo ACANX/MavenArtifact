@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.debezium/debezium-connector-oracle",
-	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-oracle",
-	"version_latest":"3.4.0.Alpha2",
-	"ts_publish":1762338801000,
-	"dt_publish":"2025-11-05 18:33:21.000",
-	"ts_update":1762339999896,
-	"dt_update":"2025-11-05 18:53:10.291",
-	"count_dep":116,
+	"version_latest":"3.4.0.Beta1",
+	"ts_publish":1764154855000,
+	"dt_publish":"2025-11-26 19:00:55.000",
+	"ts_update":1764155705993,
+	"dt_update":"2025-11-26 19:14:53.468",
+	"count_dep":35,
 	"count_ref":1,
-	"licenses":[
-		"Apache Software License 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database"
@@ -28,7 +25,7 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-connector-oracle",
 	"count_used_by":29,
 	"license":"Apache 2.0",
-	"ranking":"#16258 in MvnRepository",
+	"ranking":"#16543 in MvnRepository",
 	"tags":[
 		"debezium",
 		"connector",
@@ -36,6 +33,14 @@
 		"oracle"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -48,7 +53,7 @@
 			"date":"20251015",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"3.3.1.Final",
 			"vulnerabilities":""
 		},
@@ -93,10 +98,18 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20251007",
+			"date":"20251124",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"3.2.5.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"3.2.4.Final",
 			"vulnerabilities":""
 		},
@@ -178,22 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.1.0.Final",
 			"vulnerabilities":""
 		}
 	]
