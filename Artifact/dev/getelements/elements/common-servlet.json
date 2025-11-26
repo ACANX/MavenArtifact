@@ -2,12 +2,14 @@
 	"id":"pkg:maven/dev.getelements.elements/common-servlet",
 	"group_id":"dev.getelements.elements",
 	"artifact_id":"common-servlet",
-	"version_latest":"3.5.2",
-	"ts_publish":1763323636000,
-	"ts_update":1763324789656,
-	"count_dep":10,
+	"version_latest":"3.5.4",
+	"ts_publish":1764151999000,
+	"ts_update":1764152802094,
+	"count_dep":12,
 	"count_ref":10,
-	"licenses":[],
+	"licenses":[
+		"Modified GNU AGPL v3.0"
+	],
 	"dsv":1,
 	"url_project":"https://namazustudios.com",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/dev.getelements.elements/common-servlet@3.3.5",
@@ -16,15 +18,31 @@
 		"Keith Hudnall"
 	],
 	"url_scm":"ssh://git@bitbucket.org:eci-elements/web-services.git/common-servlet",
-	"dt_publish":"2025-11-17 04:07:16.000",
-	"dt_update":"2025-11-17 04:26:21.211",
+	"dt_publish":"2025-11-26 18:13:19.000",
+	"dt_update":"2025-11-26 18:26:29.614",
 	"count_used_by":9,
 	"home_page":"https://namazustudios.com",
-	"ranking":"#53082 in MvnRepository",
+	"ranking":"#50891 in MvnRepository",
 	"tags":[
 		"servlet"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"3.5.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251116",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"3.5.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251115",
 			"repository":"Central",
@@ -153,5 +171,6 @@
 			"version":"3.0.49",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Elements is an Open Source Backend for Games"
 }

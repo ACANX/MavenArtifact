@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.jooby/jooby-openapi",
 	"group_id":"io.jooby",
 	"artifact_id":"jooby-openapi",
-	"version_latest":"4.0.10",
-	"ts_publish":1761580410000,
-	"dt_publish":"2025-10-27 23:53:30.000",
-	"ts_update":1761582134703,
-	"dt_update":"2025-10-28 00:21:06.356",
-	"count_dep":107,
-	"count_ref":2,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"4.0.12",
+	"ts_publish":1764152439000,
+	"dt_publish":"2025-11-26 18:20:39.000",
+	"ts_update":1764152815500,
+	"dt_update":"2025-11-26 18:26:27.843",
+	"count_dep":19,
+	"count_ref":0,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,12 +22,28 @@
 	"url_scm":"scm:git:git@github.com:jooby-project/jooby.git/modules/jooby-openapi",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#125579 in MvnRepository",
+	"ranking":"#114347 in MvnRepository",
 	"tags":[
 		"api",
 		"openapi"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -111,6 +125,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.11.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
@@ -165,31 +187,6 @@
 			"usage":3,
 			"version":"3.9.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250527",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250512",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250505",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.8.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"The modular web framework for Java and Kotlin"
+	]
 }
