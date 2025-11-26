@@ -3,11 +3,11 @@
 	"description":"Byte Buddy is a Java library for creating Java classes at run time.\n        This artifact is a build of Byte Buddy with all ASM dependencies repackaged into its own name space.",
 	"group_id":"net.bytebuddy",
 	"artifact_id":"byte-buddy",
-	"version_latest":"1.18.0",
-	"ts_publish":1762846215000,
-	"dt_publish":"2025-11-11 15:30:15.000",
-	"ts_update":1762847798590,
-	"dt_update":"2025-11-11 15:56:30.003",
+	"version_latest":"1.18.2",
+	"ts_publish":1764192721000,
+	"dt_publish":"2025-11-27 05:32:01.000",
+	"ts_update":1764193501825,
+	"dt_update":"2025-11-27 05:44:54.272",
 	"count_dep":4,
 	"count_ref":4,
 	"licenses":[
@@ -24,7 +24,7 @@
 		"Rafael Winterhalter"
 	],
 	"url_scm":"git@github.com:raphw/byte-buddy.git/byte-buddy",
-	"count_used_by":2956,
+	"count_used_by":2963,
 	"home_page":"https://bytebuddy.net/",
 	"license":"Apache 2.0",
 	"ranking":"#197 in MvnRepository",
@@ -35,10 +35,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":30,
+			"version":"1.18.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"1.18.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251009",
 			"repository":"Central",
 			"type":"release",
-			"usage":78,
+			"usage":93,
 			"version":"1.17.8",
 			"vulnerabilities":""
 		},
@@ -46,7 +62,7 @@
 			"date":"20250816",
 			"repository":"Central",
 			"type":"release",
-			"usage":205,
+			"usage":209,
 			"version":"1.17.7",
 			"vulnerabilities":""
 		},
@@ -62,7 +78,7 @@
 			"date":"20250331",
 			"repository":"Central",
 			"type":"release",
-			"usage":162,
+			"usage":163,
 			"version":"1.17.5",
 			"vulnerabilities":""
 		},
@@ -166,7 +182,7 @@
 			"date":"20241017",
 			"repository":"Central",
 			"type":"release",
-			"usage":126,
+			"usage":127,
 			"version":"1.15.5",
 			"vulnerabilities":""
 		},
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":33,
 			"version":"1.15.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240926",
-			"repository":"Central",
-			"type":"release",
-			"usage":45,
-			"version":"1.15.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240925",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"1.15.2",
 			"vulnerabilities":""
 		}
 	]
