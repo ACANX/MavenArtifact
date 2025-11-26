@@ -3,14 +3,16 @@
 	"description":"Model Context Protocol implementation for OpenMetadata",
 	"group_id":"org.open-metadata",
 	"artifact_id":"openmetadata-mcp",
-	"version_latest":"1.10.8",
-	"ts_publish":1763708754000,
-	"dt_publish":"2025-11-21 15:05:54.000",
-	"ts_update":1763710000120,
-	"dt_update":"2025-11-21 15:26:28.710",
-	"count_dep":25,
+	"version_latest":"1.11.0-rc1",
+	"ts_publish":1764143051000,
+	"dt_publish":"2025-11-26 15:44:11.000",
+	"ts_update":1764143795580,
+	"dt_update":"2025-11-26 15:56:28.595",
+	"count_dep":567,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +25,20 @@
 	"url_scm":"scm:git:git@github.com:Open-Metadata/OpenMetadata/openmetadata-mcp",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#425584 in MvnRepository",
+	"ranking":"#418846 in MvnRepository",
 	"tags":[
 		"data",
 		"metadata"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.10.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -179,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.9.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250904",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.9.6",
 			"vulnerabilities":""
 		}
 	]
