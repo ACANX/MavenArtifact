@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-messaging-sequential-inbox",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-sequential-inbox",
-	"version_latest":"11.1.0",
-	"ts_publish":1763115099000,
-	"dt_publish":"2025-11-14 18:11:39.000",
-	"ts_update":1763116010892,
-	"dt_update":"2025-11-14 18:26:23.545",
-	"count_dep":21,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"12.0.0",
+	"ts_publish":1764146832000,
+	"dt_publish":"2025-11-26 16:47:12.000",
+	"ts_update":1764147340402,
+	"dt_update":"2025-11-26 16:55:02.477",
+	"count_dep":77,
+	"count_ref":2,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-messaging-sequential-inbox/tree/main/jeap-messaging-sequential-inbox",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-messaging-sequential-inbox@8.52.1",
@@ -19,13 +21,37 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging-sequential-inbox.git/jeap-messaging-sequential-inbox",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#398269 in MvnRepository",
+	"ranking":"#265923 in MvnRepository",
 	"tags":[
 		"admin",
 		"inbox",
 		"messaging"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -161,30 +187,7 @@
 			"usage":1,
 			"version":"8.52.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.52.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250724",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.51.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.50.4",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies."
 }
