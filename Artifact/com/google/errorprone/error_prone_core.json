@@ -3,11 +3,11 @@
 	"description":"Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
 	"group_id":"com.google.errorprone",
 	"artifact_id":"error_prone_core",
-	"version_latest":"2.44.0",
-	"ts_publish":1762517120000,
-	"dt_publish":"2025-11-07 20:05:20.000",
-	"ts_update":1762518406329,
-	"dt_update":"2025-11-07 20:26:29.678",
+	"version_latest":"2.45.0",
+	"ts_publish":1764258579000,
+	"dt_publish":"2025-11-27 23:49:39.000",
+	"ts_update":1764260437651,
+	"dt_update":"2025-11-28 00:20:23.342",
 	"count_dep":62,
 	"count_ref":1,
 	"licenses":[
@@ -24,9 +24,9 @@
 		"Eddie Aftandilian"
 	],
 	"url_scm":"https://github.com/google/error-prone/error_prone_core",
-	"count_used_by":102,
+	"count_used_by":103,
 	"license":"Apache 2.0",
-	"ranking":"#5247 in MvnRepository",
+	"ranking":"#5206 in MvnRepository",
 	"tags":[
 		"quality",
 		"analyzer",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251022",
+			"date":"20251107",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"2.44.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
 			"version":"2.43.0",
 			"vulnerabilities":""
 		},
@@ -47,7 +55,7 @@
 			"date":"20250919",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":11,
 			"version":"2.42.0",
 			"vulnerabilities":""
 		},
@@ -87,7 +95,7 @@
 			"date":"20250319",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":8,
 			"version":"2.37.0",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"2.28.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240501",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.27.1",
 			"vulnerabilities":""
 		}
 	]
