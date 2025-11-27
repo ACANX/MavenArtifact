@@ -3,11 +3,11 @@
 	"description":"The core module of Hibernate Reactive",
 	"group_id":"org.hibernate.reactive",
 	"artifact_id":"hibernate-reactive-core",
-	"version_latest":"4.1.7.Final",
-	"ts_publish":1763860284000,
-	"dt_publish":"2025-11-23 09:11:24.000",
-	"ts_update":1763864806232,
-	"dt_update":"2025-11-23 10:26:37.965",
+	"version_latest":"4.2.0.CR1",
+	"ts_publish":1764233754000,
+	"dt_publish":"2025-11-27 16:55:54.000",
+	"ts_update":1764235146460,
+	"dt_update":"2025-11-27 17:19:00.372",
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"count_used_by":6,
 	"home_page":"https://github.com/hibernate/hibernate-reactive",
 	"license":"Apache 2.0",
-	"ranking":"#74188 in MvnRepository",
+	"ranking":"#76633 in MvnRepository",
 	"tags":[
 		"persistence",
 		"reactive",
@@ -35,10 +35,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251117",
+			"date":"20251123",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"4.1.7.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"4.1.6.Final",
 			"vulnerabilities":""
 		},
@@ -104,6 +112,14 @@
 			"type":"beta",
 			"usage":0,
 			"version":"4.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251123",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.1.9.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0.CR2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250801",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0.CR1",
 			"vulnerabilities":""
 		}
 	]
