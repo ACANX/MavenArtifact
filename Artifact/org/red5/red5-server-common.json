@@ -3,11 +3,11 @@
 	"description":"Classes common for multiple red5 projects",
 	"group_id":"org.red5",
 	"artifact_id":"red5-server-common",
-	"version_latest":"2.0.23",
-	"ts_publish":1762113985000,
-	"dt_publish":"2025-11-03 04:06:25.000",
-	"ts_update":1762122780079,
-	"dt_update":"2025-11-03 06:32:51.300",
+	"version_latest":"2.0.24",
+	"ts_publish":1764265351000,
+	"dt_publish":"2025-11-28 01:42:31.000",
+	"ts_update":1764266199899,
+	"dt_update":"2025-11-28 01:56:31.181",
 	"count_dep":32,
 	"count_ref":3,
 	"licenses":[
@@ -21,13 +21,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.red5/red5-server-common@2.0.22",
 	"url_issue_management":"https://github.com/Red5/red5-server/issues",
 	"url_scm":"https://github.com/Red5/red5-parent.git/red5-server-common",
-	"count_used_by":4,
+	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#126304 in MvnRepository",
+	"ranking":"#89192 in MvnRepository",
 	"tags":[
 		"server"
 	],
 	"versions":[
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.0.23",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.3.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240318",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.3.31",
 			"vulnerabilities":""
 		}
 	]
