@@ -3,11 +3,11 @@
 	"description":"Workflow Tracing",
 	"group_id":"com.squareup.workflow1",
 	"artifact_id":"workflow-tracing",
-	"version_latest":"1.22.0",
-	"ts_publish":1755270719000,
-	"dt_publish":"2025-08-15 23:11:59.000",
-	"ts_update":1755271594307,
-	"dt_update":"2025-08-15 23:25:47.519",
+	"version_latest":"1.23.01",
+	"ts_publish":1764281797000,
+	"dt_publish":"2025-11-28 06:16:37.000",
+	"ts_update":1764282395447,
+	"dt_update":"2025-11-28 06:26:27.340",
 	"count_dep":13,
 	"count_ref":1,
 	"licenses":[
@@ -25,12 +25,31 @@
 	"url_scm":"https://github.com/square/workflow/",
 	"home_page":"https://github.com/square/workflow/",
 	"license":"Apache 2.0",
-	"ranking":"#781981 in MvnRepository",
+	"ranking":"#436387 in MvnRepository",
 	"tags":[
 		"workflow",
-		"tracing"
+		"aar",
+		"tracing",
+		"mobile",
+		"android"
 	],
 	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.22.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.21.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250602",
 			"repository":"Central",
@@ -174,22 +193,7 @@
 			"usage":0,
 			"version":"1.12.1-beta11",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240629",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"1.12.1-beta10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240429",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"1.12.1-beta09",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
