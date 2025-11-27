@@ -3,11 +3,11 @@
 	"description":"The debug version of Bouncy Castle Java APIs for the TLS, including a JSSE provider (except in Java 4). The APIs are designed primarily to be used in conjunction with the BC Java provider but may also be used with other providers providing cryptographic services. This jar is designed to best work with Java 1.5 to Java 1.8.",
 	"group_id":"org.bouncycastle",
 	"artifact_id":"bctls-debug-jdk15to18",
-	"version_latest":"1.82",
-	"ts_publish":1758160722000,
-	"dt_publish":"2025-09-18 09:58:42.000",
-	"ts_update":1758162376111,
-	"dt_update":"2025-09-18 10:26:09.996",
+	"version_latest":"1.83",
+	"ts_publish":1764216383000,
+	"dt_publish":"2025-11-27 12:06:23.000",
+	"ts_update":1764217251965,
+	"dt_update":"2025-11-27 12:20:42.031",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
@@ -27,12 +27,20 @@
 	"url_scm":"https://github.com/bcgit/bc-java",
 	"home_page":"https://www.bouncycastle.org/download/bouncy-castle-java/",
 	"license":"BouncyCastle",
-	"ranking":"#521744 in MvnRepository",
+	"ranking":"#713757 in MvnRepository",
 	"tags":[
 		"debug",
 		"jdk"
 	],
 	"versions":[
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.82",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250605",
 			"repository":"Central",
