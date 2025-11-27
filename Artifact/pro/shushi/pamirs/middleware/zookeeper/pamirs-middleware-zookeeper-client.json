@@ -2,14 +2,16 @@
 	"id":"pkg:maven/pro.shushi.pamirs.middleware.zookeeper/pamirs-middleware-zookeeper-client",
 	"group_id":"pro.shushi.pamirs.middleware.zookeeper",
 	"artifact_id":"pamirs-middleware-zookeeper-client",
-	"version_latest":"6.3.5",
-	"ts_publish":1763382782000,
-	"dt_publish":"2025-11-17 20:33:02.000",
-	"ts_update":1763384214441,
-	"dt_update":"2025-11-17 20:56:26.362",
-	"count_dep":22,
-	"count_ref":3,
-	"licenses":[],
+	"version_latest":"6.3.6",
+	"ts_publish":1764246875000,
+	"dt_publish":"2025-11-27 20:34:35.000",
+	"ts_update":1764248251396,
+	"dt_update":"2025-11-27 20:56:32.831",
+	"count_dep":58,
+	"count_ref":4,
+	"licenses":[
+		"GNU AFFERO GENERAL PUBLIC LICENSE, Version 3"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/oinone/pamirs-middleware/pamirs-middleware-zookeeper/pamirs-middleware-zookeeper-client",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/pro.shushi.pamirs.middleware.zookeeper/pamirs-middleware-zookeeper-client@6.2.15",
@@ -19,12 +21,20 @@
 	"url_scm":"https://github.com/oinone/pamirs-middleware/pamirs-middleware-zookeeper/pamirs-middleware-zookeeper-client",
 	"count_used_by":6,
 	"license":"AGPL 3.0",
-	"ranking":"#79417 in MvnRepository",
+	"ranking":"#84230 in MvnRepository",
 	"tags":[
 		"client",
 		"zookeeper"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"6.3.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -176,14 +186,7 @@
 			"usage":6,
 			"version":"6.2.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250626",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"6.2.5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"oinone pamirs"
 }

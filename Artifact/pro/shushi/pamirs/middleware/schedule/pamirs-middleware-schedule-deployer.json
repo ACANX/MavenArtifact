@@ -2,14 +2,16 @@
 	"id":"pkg:maven/pro.shushi.pamirs.middleware.schedule/pamirs-middleware-schedule-deployer",
 	"group_id":"pro.shushi.pamirs.middleware.schedule",
 	"artifact_id":"pamirs-middleware-schedule-deployer",
-	"version_latest":"6.3.5",
-	"ts_publish":1763382782000,
-	"dt_publish":"2025-11-17 20:33:02.000",
-	"ts_update":1763384196345,
-	"dt_update":"2025-11-17 20:56:22.717",
-	"count_dep":21,
+	"version_latest":"6.3.6",
+	"ts_publish":1764246875000,
+	"dt_publish":"2025-11-27 20:34:35.000",
+	"ts_update":1764248207582,
+	"dt_update":"2025-11-27 20:56:36.044",
+	"count_dep":114,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"GNU AFFERO GENERAL PUBLIC LICENSE, Version 3"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/oinone/pamirs-middleware/pamirs-middleware-schedule/pamirs-middleware-schedule-deployer",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/pro.shushi.pamirs.middleware.schedule/pamirs-middleware-schedule-deployer@6.2.12",
@@ -18,12 +20,20 @@
 	],
 	"url_scm":"https://github.com/oinone/pamirs-middleware/pamirs-middleware-schedule/pamirs-middleware-schedule-deployer",
 	"license":"AGPL 3.0",
-	"ranking":"#977938 in MvnRepository",
+	"ranking":"#597828 in MvnRepository",
 	"tags":[
 		"deployment",
 		"scheduling"
 	],
 	"versions":[
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.3.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -175,14 +185,7 @@
 			"usage":0,
 			"version":"6.2.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250626",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.2.5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"oinone pamirs"
 }
