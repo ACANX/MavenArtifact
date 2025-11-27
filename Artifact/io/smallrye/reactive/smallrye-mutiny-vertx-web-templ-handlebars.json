@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.smallrye.reactive/smallrye-mutiny-vertx-web-templ-handlebars",
 	"group_id":"io.smallrye.reactive",
 	"artifact_id":"smallrye-mutiny-vertx-web-templ-handlebars",
-	"version_latest":"3.20.3",
-	"ts_publish":1763654265000,
-	"dt_publish":"2025-11-20 23:57:45.000",
-	"ts_update":1763657276764,
-	"dt_update":"2025-11-21 00:47:00.993",
-	"count_dep":31,
+	"version_latest":"3.20.4",
+	"ts_publish":1764261916000,
+	"dt_publish":"2025-11-28 00:45:16.000",
+	"ts_update":1764262599076,
+	"dt_update":"2025-11-28 00:56:28.192",
+	"count_dep":6,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,7 +22,7 @@
 	],
 	"url_scm":"https://github.com/smallrye/smallrye-mutiny-vertx-bindings/vertx-mutiny-clients/smallrye-mutiny-vertx-web-templ-handlebars",
 	"license":"Apache 2.0",
-	"ranking":"#572773 in MvnRepository",
+	"ranking":"#496584 in MvnRepository",
 	"tags":[
 		"handlebars",
 		"reactive",
@@ -32,6 +30,14 @@
 		"vertx"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.20.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -183,15 +189,6 @@
 			"usage":0,
 			"version":"3.11.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240222",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.10.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"SmallRye Mutiny Vert.x Bindings"
+	]
 }
