@@ -3,13 +3,13 @@
 	"description":"Open Source API & Schema Registry",
 	"group_id":"io.apicurio",
 	"artifact_id":"apicurio-registry-serde-common-jsonschema",
-	"version_latest":"3.1.3",
-	"ts_publish":1764179682000,
-	"dt_publish":"2025-11-27 01:54:42.000",
-	"ts_update":1764181604904,
-	"dt_update":"2025-11-27 02:26:18.881",
-	"count_dep":48,
-	"count_ref":1,
+	"version_latest":"3.1.4",
+	"ts_publish":1764253901000,
+	"dt_publish":"2025-11-27 22:31:41.000",
+	"ts_update":1764255067714,
+	"dt_update":"2025-11-27 22:50:49.942",
+	"count_dep":11,
+	"count_ref":2,
 	"licenses":[
 		"Apache License Version 2.0"
 	],
@@ -29,7 +29,7 @@
 	"url_scm":"scm:git:git@github.com:apicurio/apicurio-registry.git/apicurio-registry-serde-common-jsonschema",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#310609 in MvnRepository",
+	"ranking":"#308691 in MvnRepository",
 	"tags":[
 		"registry",
 		"json",
@@ -37,6 +37,14 @@
 		"schema"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251104",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240918",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0.0.M5",
 			"vulnerabilities":""
 		}
 	]
