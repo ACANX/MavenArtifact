@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-message-exchange-adapter-kafka",
-	"description":"A common parent project",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-message-exchange-adapter-kafka",
-	"version_latest":"3.0.0",
-	"ts_publish":1762497579000,
-	"dt_publish":"2025-11-07 14:39:39.000",
-	"ts_update":1762498513609,
-	"dt_update":"2025-11-07 14:54:47.699",
-	"count_dep":125,
+	"version_latest":"3.2.1",
+	"ts_publish":1764237341000,
+	"dt_publish":"2025-11-27 17:55:41.000",
+	"ts_update":1764238778471,
+	"dt_update":"2025-11-27 18:19:14.104",
+	"count_dep":51,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-message-exchange-service/tree/main/jeap-message-exchange-adapter-kafka",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-message-exchange-adapter-kafka@2.27.0",
@@ -22,7 +19,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-message-exchange-service.git/jeap-message-exchange-adapter-kafka",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#308657 in MvnRepository",
+	"ranking":"#371717 in MvnRepository",
 	"tags":[
 		"admin",
 		"streaming",
@@ -31,6 +28,22 @@
 		"kafka"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -173,22 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.20.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250606",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.19.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.18.1",
 			"vulnerabilities":""
 		}
 	]
