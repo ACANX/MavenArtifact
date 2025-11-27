@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.camunda/spring-boot-starter-camunda-test-pom",
 	"group_id":"io.camunda",
 	"artifact_id":"spring-boot-starter-camunda-test-pom",
-	"version_latest":"8.9.0-alpha1",
-	"ts_publish":1762509382000,
-	"dt_publish":"2025-11-07 17:56:22.000",
-	"ts_update":1762510710513,
-	"dt_update":"2025-11-07 18:18:21.985",
-	"count_dep":0,
+	"version_latest":"8.9.0-alpha2-rc2",
+	"ts_publish":1764255276000,
+	"dt_publish":"2025-11-27 22:54:36.000",
+	"ts_update":1764256667445,
+	"dt_update":"2025-11-27 23:17:24.633",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -21,7 +23,7 @@
 	],
 	"url_scm":"https://github.com/camunda/zeebe-process-test/spring-boot-starter-camunda-test-pom",
 	"license":"Apache 2.0",
-	"ranking":"#934626 in MvnRepository",
+	"ranking":"#558024 in MvnRepository",
 	"tags":[
 		"pom",
 		"spring",
@@ -31,11 +33,43 @@
 	],
 	"versions":[
 		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.9.0-alpha2-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"8.9.0-alpha1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251029",
 			"repository":"Central",
 			"type":"alpha",
 			"usage":0,
 			"version":"8.9.0-alpha1-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.8.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.8.3",
 			"vulnerabilities":""
 		},
 		{
@@ -157,38 +191,7 @@
 			"usage":0,
 			"version":"8.8.0-alpha6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250702",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha6-rc3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha6-rc2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha6-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"8.8.0-alpha5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"This pom should be the parent of all specified modules. It defines all versions and provides\n    plugins that are required for the child modules."
 }
