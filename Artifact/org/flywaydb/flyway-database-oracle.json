@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.flywaydb/flyway-database-oracle",
-	"description":"Flyway: Database Migrations Made Easy.",
 	"group_id":"org.flywaydb",
 	"artifact_id":"flyway-database-oracle",
-	"version_latest":"11.12.0",
-	"ts_publish":1756988892000,
-	"dt_publish":"2025-09-04 20:28:12.000",
-	"ts_update":1756990616719,
-	"dt_update":"2025-09-04 20:56:11.595",
-	"count_dep":6,
+	"version_latest":"11.18.0",
+	"ts_publish":1764240586000,
+	"dt_publish":"2025-11-27 18:49:46.000",
+	"ts_update":1764240997074,
+	"dt_update":"2025-11-27 18:56:28.053",
+	"count_dep":3,
 	"count_ref":2,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database"
@@ -21,9 +18,9 @@
 	"url_project":"https://flywaydb.org/flyway-database-oracle",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.flywaydb/flyway-database-oracle@11.12.0",
 	"url_scm":"https://github.com/flyway/flyway/flyway-database-oracle",
-	"count_used_by":10,
+	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#46212 in MvnRepository",
+	"ranking":"#36408 in MvnRepository",
 	"tags":[
 		"database",
 		"oracle",
@@ -32,10 +29,106 @@
 	],
 	"versions":[
 		{
-			"date":"20250821",
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.17.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.17.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.17.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.16.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
 			"usage":5,
+			"version":"11.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"11.14.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.14.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.13.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"11.13.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.13.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.13.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"11.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
 			"version":"11.11.2",
 			"vulnerabilities":""
 		},
@@ -93,102 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"11.10.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250626",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.9.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"11.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"11.8.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250506",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250424",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250417",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"11.7.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250414",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"11.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250409",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250403",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250326",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.5.0",
 			"vulnerabilities":""
 		}
 	]
