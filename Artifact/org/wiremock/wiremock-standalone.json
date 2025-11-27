@@ -3,11 +3,11 @@
 	"description":"A web service test double for all occasions - standalone edition",
 	"group_id":"org.wiremock",
 	"artifact_id":"wiremock-standalone",
-	"version_latest":"4.0.0-beta.17",
-	"ts_publish":1763115306000,
-	"dt_publish":"2025-11-14 18:15:06.000",
-	"ts_update":1763116020917,
-	"dt_update":"2025-11-14 18:26:23.539",
+	"version_latest":"4.0.0-beta.19",
+	"ts_publish":1764240700000,
+	"dt_publish":"2025-11-27 18:51:40.000",
+	"ts_update":1764242118718,
+	"dt_update":"2025-11-27 19:15:00.947",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,15 +24,23 @@
 		"Tom Akehurst"
 	],
 	"url_scm":"https://github.com/wiremock/wiremock",
-	"count_used_by":362,
+	"count_used_by":367,
 	"home_page":"https://wiremock.org",
 	"license":"Apache 2.0",
-	"ranking":"#1879 in MvnRepository",
+	"ranking":"#1857 in MvnRepository",
 	"tags":[
 		"mock",
 		"wiremock"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"4.0.0-beta.17",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -162,10 +170,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":23,
+			"version":"3.13.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250611",
 			"repository":"Central",
 			"type":"release",
-			"usage":134,
+			"usage":141,
 			"version":"3.13.1",
 			"vulnerabilities":""
 		},
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":62,
 			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250303",
-			"repository":"Central",
-			"type":"release",
-			"usage":116,
-			"version":"3.12.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250212",
-			"repository":"Central",
-			"type":"release",
-			"usage":51,
-			"version":"3.12.0",
 			"vulnerabilities":""
 		}
 	]
