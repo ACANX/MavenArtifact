@@ -3,13 +3,13 @@
 	"description":"Support for launching an Equinox runtime as new process",
 	"group_id":"org.eclipse.tycho",
 	"artifact_id":"sisu-equinox-launching",
-	"version_latest":"5.0.0",
-	"ts_publish":1756449396000,
-	"dt_publish":"2025-08-29 14:36:36.000",
-	"ts_update":1756450374561,
-	"dt_update":"2025-08-29 14:52:00.551",
+	"version_latest":"5.0.1",
+	"ts_publish":1764339480000,
+	"dt_publish":"2025-11-28 22:18:00.000",
+	"ts_update":1764340007171,
+	"dt_update":"2025-11-28 22:26:28.993",
 	"count_dep":44,
-	"count_ref":26,
+	"count_ref":12,
 	"licenses":[
 		"EPL-2.0"
 	],
@@ -27,17 +27,25 @@
 	"url_ci_management":"https://ci.eclipse.org/tycho",
 	"count_used_by":20,
 	"license":"EPL 2.0",
-	"ranking":"#23452 in MvnRepository",
+	"ranking":"#24337 in MvnRepository",
 	"tags":[
 		"eclipse",
 		"equinox"
 	],
 	"versions":[
 		{
-			"date":"20250524",
+			"date":"20250829",
 			"repository":"Central",
 			"type":"release",
 			"usage":8,
+			"version":"5.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250524",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
 			"version":"4.0.13",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"3.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220930",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.0.0",
 			"vulnerabilities":""
 		}
 	]
