@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-crypto-s3",
-	"version_latest":"4.4.0",
-	"ts_publish":1763111582000,
-	"dt_publish":"2025-11-14 17:13:02.000",
-	"ts_update":1763112393080,
-	"dt_update":"2025-11-14 17:26:13.205",
+	"version_latest":"4.5.0",
+	"ts_publish":1764338551000,
+	"dt_publish":"2025-11-28 22:02:31.000",
+	"ts_update":1764339412657,
+	"dt_update":"2025-11-28 22:16:39.354",
 	"count_dep":42,
 	"count_ref":0,
 	"licenses":[
@@ -21,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-crypto.git/jeap-crypto-s3",
 	"license":"Apache 2.0",
-	"ranking":"#517170 in MvnRepository",
+	"ranking":"#718960 in MvnRepository",
 	"tags":[
 		"admin",
 		"aws",
@@ -30,6 +30,14 @@
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.19.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.18.0",
 			"vulnerabilities":""
 		}
 	]
