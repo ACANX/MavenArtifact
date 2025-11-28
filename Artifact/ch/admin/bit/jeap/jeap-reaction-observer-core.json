@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-reaction-observer-core",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-reaction-observer-core",
-	"version_latest":"3.1.0",
-	"ts_publish":1763115167000,
-	"dt_publish":"2025-11-14 18:12:47.000",
-	"ts_update":1763116011108,
-	"dt_update":"2025-11-14 18:26:23.542",
+	"version_latest":"3.2.0",
+	"ts_publish":1764341694000,
+	"dt_publish":"2025-11-28 22:54:54.000",
+	"ts_update":1764343089163,
+	"dt_update":"2025-11-28 23:17:21.992",
 	"count_dep":7,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-reaction-observer/tree/main/jeap-reaction-observer-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-reaction-observer-core@1.14.1",
@@ -19,11 +21,35 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-reaction-observer.git/jeap-reaction-observer-core",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#202958 in MvnRepository",
+	"ranking":"#233810 in MvnRepository",
 	"tags":[
 		"admin"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -159,30 +185,7 @@
 			"usage":2,
 			"version":"1.14.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250724",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.12.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.12.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies."
 }
