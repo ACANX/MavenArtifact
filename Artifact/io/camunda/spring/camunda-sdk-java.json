@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.camunda.spring/camunda-sdk-java",
-	"description":"This POM defines the required plugins and profiles to allow a Camunda Community Hub release build.\n        Inherit this POM when you want to use https://github.com/camunda-community-hub/community-action-maven-release",
 	"group_id":"io.camunda.spring",
 	"artifact_id":"camunda-sdk-java",
-	"version_latest":"8.5.22",
-	"ts_publish":1757019769000,
-	"dt_publish":"2025-09-05 05:02:49.000",
-	"ts_update":1757020493354,
-	"dt_update":"2025-09-05 05:13:44.353",
+	"version_latest":"8.5.23",
+	"ts_publish":1764340421000,
+	"dt_publish":"2025-11-28 22:33:41.000",
+	"ts_update":1764341338268,
+	"dt_update":"2025-11-28 22:48:48.113",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"Apache License"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,13 +21,21 @@
 	],
 	"url_scm":"https://github.com/camunda-community-hub/spring-zeebe/camunda-sdk-java",
 	"license":"Apache",
-	"ranking":"#650371 in MvnRepository",
+	"ranking":"#873625 in MvnRepository",
 	"tags":[
 		"sdk",
 		"spring",
 		"camunda"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.5.22",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -181,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.5.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.5.5",
 			"vulnerabilities":""
 		}
 	]
