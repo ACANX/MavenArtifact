@@ -3,14 +3,16 @@
 	"description":"Code Analyzer for Java :: Plugin :: Integration Tests parent",
 	"group_id":"org.sonarsource.java",
 	"artifact_id":"it-java-plugin-plugins",
-	"version_latest":"8.20.0.40630",
-	"ts_publish":1761830173000,
-	"dt_publish":"2025-10-30 21:16:13.000",
-	"ts_update":1761831885518,
-	"dt_update":"2025-10-30 21:44:38.953",
+	"version_latest":"8.21.0.41869",
+	"ts_publish":1764331679000,
+	"dt_publish":"2025-11-28 20:07:59.000",
+	"ts_update":1764332817929,
+	"dt_update":"2025-11-28 20:26:34.653",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"SSALv1"
+	],
 	"categories":[
 		"Build Tools",
 		"Code Analysis"
@@ -39,12 +41,20 @@
 	"url_scm":"https://github.com/SonarSource/sonar-java/java-its/it-java-plugin/it-java-plugin-plugins",
 	"url_ci_management":"https://cirrus-ci.com/github/SonarSource/sonar-java",
 	"count_used_by":1,
-	"ranking":"#267606 in MvnRepository",
+	"ranking":"#333702 in MvnRepository",
 	"tags":[
 		"plugin",
 		"sonar"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.20.0.40630",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -83,6 +93,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.16.0.39645",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.9.4.40912",
 			"vulnerabilities":""
 		},
 		{
@@ -187,22 +205,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.16.0.30901",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221101",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.15.0.30507",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220930",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.14.0.30229",
 			"vulnerabilities":""
 		}
 	]

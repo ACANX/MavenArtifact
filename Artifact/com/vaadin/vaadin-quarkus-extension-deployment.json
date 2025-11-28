@@ -3,12 +3,12 @@
 	"description":"Deployment dependency for a Quarkus project.",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-quarkus-extension-deployment",
-	"version_latest":"25.0.0-beta7",
-	"ts_publish":1764063849000,
-	"dt_publish":"2025-11-25 17:44:09.000",
-	"ts_update":1764064369458,
-	"dt_update":"2025-11-25 17:52:40.468",
-	"count_dep":280,
+	"version_latest":"25.0.0-beta8",
+	"ts_publish":1764330705000,
+	"dt_publish":"2025-11-28 19:51:45.000",
+	"ts_update":1764332820524,
+	"dt_update":"2025-11-28 20:26:42.902",
+	"count_dep":270,
 	"count_ref":0,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -21,7 +21,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vaadin/vaadin-quarkus-extension-deployment@24.8.6",
 	"url_scm":"https://github.com/vaadin/platform/vaadin-quarkus-extension-parent/vaadin-quarkus-extension-deployment",
 	"license":"Apache 2.0",
-	"ranking":"#541037 in MvnRepository",
+	"ranking":"#292234 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"deployment",
@@ -31,10 +31,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251120",
+			"date":"20251125",
 			"repository":"Central",
 			"type":"beta",
 			"usage":0,
+			"version":"25.0.0-beta7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
 			"version":"25.0.0-beta6",
 			"vulnerabilities":""
 		},
@@ -68,6 +76,14 @@
 			"type":"beta",
 			"usage":0,
 			"version":"25.0.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251127",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"24.9.6",
 			"vulnerabilities":""
 		},
 		{
@@ -159,36 +175,21 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"24.8.14",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251110",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"24.8.13",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251029",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"24.8.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251017",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"24.8.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251003",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"24.8.10",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }

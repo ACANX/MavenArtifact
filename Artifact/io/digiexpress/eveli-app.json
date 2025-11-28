@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.digiexpress/eveli-app",
 	"group_id":"io.digiexpress",
 	"artifact_id":"eveli-app",
-	"version_latest":"5.2.15",
-	"ts_publish":1763972709000,
-	"dt_publish":"2025-11-24 16:25:09.000",
-	"ts_update":1763974585429,
-	"dt_update":"2025-11-24 16:56:06.211",
-	"count_dep":21,
+	"version_latest":"5.2.16",
+	"ts_publish":1764332139000,
+	"dt_publish":"2025-11-28 20:15:39.000",
+	"ts_update":1764332823785,
+	"dt_update":"2025-11-28 20:26:33.841",
+	"count_dep":115,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/digiexpress-io/digiexpress-parent/digiexpress-build-parent/eveli-parent/eveli-app",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.digiexpress/eveli-app@5.1.88",
@@ -23,8 +25,16 @@
 	],
 	"url_scm":"http://github.com/digiexpress-io/digiexpress-parent/tree/main/digiexpress-build-parent/eveli-parent/eveli-app",
 	"license":"Apache 2.0",
-	"ranking":"#712823 in MvnRepository",
+	"ranking":"#721222 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.2.15",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -176,14 +186,7 @@
 			"usage":0,
 			"version":"5.1.90",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.1.88",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"DigiExpress"
 }
