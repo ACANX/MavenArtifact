@@ -3,11 +3,11 @@
 	"description":"Add-on module for Jackson (https://github.com/FasterXML/jackson/) to support\n        Kotlin language, specifically introspection of method/constructor parameter names,\n        without having to add explicit property name annotation.",
 	"group_id":"tools.jackson.module",
 	"artifact_id":"jackson-module-kotlin",
-	"version_latest":"3.0.2",
-	"ts_publish":1762556044000,
-	"dt_publish":"2025-11-08 06:54:04.000",
-	"ts_update":1762557263068,
-	"dt_update":"2025-11-08 07:14:15.961",
+	"version_latest":"3.0.3",
+	"ts_publish":1764358298000,
+	"dt_publish":"2025-11-29 03:31:38.000",
+	"ts_update":1764359090069,
+	"dt_update":"2025-11-29 03:44:38.782",
 	"count_dep":12,
 	"count_ref":0,
 	"licenses":[
@@ -26,10 +26,10 @@
 		"Tatu Saloranta"
 	],
 	"url_scm":"https://github.com/FasterXML/jackson-module-kotlin",
-	"count_used_by":6,
+	"count_used_by":10,
 	"home_page":"https://github.com/FasterXML/jackson-module-kotlin",
 	"license":"Apache 2.0",
-	"ranking":"#78373 in MvnRepository",
+	"ranking":"#45970 in MvnRepository",
 	"tags":[
 		"module",
 		"tools",
@@ -38,10 +38,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.0.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251022",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":4,
 			"version":"3.0.1",
 			"vulnerabilities":""
 		},
