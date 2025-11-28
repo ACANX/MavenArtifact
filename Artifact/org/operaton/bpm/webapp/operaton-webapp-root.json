@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.operaton.bpm.webapp/operaton-webapp-root",
 	"group_id":"org.operaton.bpm.webapp",
 	"artifact_id":"operaton-webapp-root",
-	"version_latest":"1.0.0-rc-2",
-	"ts_publish":1761913466000,
-	"dt_publish":"2025-10-31 20:24:26.000",
-	"ts_update":1761913982782,
-	"dt_update":"2025-10-31 20:32:52.909",
-	"count_dep":0,
+	"version_latest":"1.0.1",
+	"ts_publish":1764327051000,
+	"dt_publish":"2025-11-28 18:50:51.000",
+	"ts_update":1764327382630,
+	"dt_update":"2025-11-28 18:56:12.862",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://www.operaton.org/operaton-database-settings/operaton-webapp-root",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.operaton.bpm.webapp/operaton-webapp-root@1.0.0-beta-5",
@@ -19,13 +21,29 @@
 	],
 	"url_scm":"https://github.com/operaton/operaton/operaton-parent/operaton-database-settings/operaton-webapp-root",
 	"license":"Apache 2.0",
-	"ranking":"#652250 in MvnRepository",
+	"ranking":"#477438 in MvnRepository",
 	"tags":[
 		"bpm",
 		"web",
 		"webapp"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.0-rc-2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -74,5 +92,6 @@
 			"version":"1.0.0-beta-1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Operaton - Webapp - Root"
 }

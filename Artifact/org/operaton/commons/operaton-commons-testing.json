@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.operaton.commons/operaton-commons-testing",
 	"group_id":"org.operaton.commons",
 	"artifact_id":"operaton-commons-testing",
-	"version_latest":"1.0.0",
-	"ts_publish":1762510931000,
-	"dt_publish":"2025-11-07 18:22:11.000",
-	"ts_update":1762512071914,
-	"dt_update":"2025-11-07 18:41:02.654",
-	"count_dep":5,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"1.0.1",
+	"ts_publish":1764327051000,
+	"dt_publish":"2025-11-28 18:50:51.000",
+	"ts_update":1764327385453,
+	"dt_update":"2025-11-28 18:56:11.648",
+	"count_dep":7,
+	"count_ref":3,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://www.operaton.org/operaton-commons-root/operaton-commons-testing",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.operaton.commons/operaton-commons-testing@1.0.0-beta-5",
@@ -20,13 +22,21 @@
 	"url_scm":"https://github.com/operaton/operaton/operaton-commons-testing",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#54093 in MvnRepository",
+	"ranking":"#52709 in MvnRepository",
 	"tags":[
 		"quality",
 		"testing",
 		"commons"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251031",
 			"repository":"Central",
@@ -83,5 +93,6 @@
 			"version":"1.0.0-beta-1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Operaton - Commons - Testing"
 }
