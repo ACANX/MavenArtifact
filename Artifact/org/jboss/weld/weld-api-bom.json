@@ -3,11 +3,11 @@
 	"description":"Weld APIs \"bill of materials\" which can be imported by any project using the Weld implementation of\n        CDI. It provides dependency management for the developer APIs and SPIs, as well as container integrator SPIs",
 	"group_id":"org.jboss.weld",
 	"artifact_id":"weld-api-bom",
-	"version_latest":"7.0.Alpha3",
-	"ts_publish":1763491422000,
-	"dt_publish":"2025-11-19 02:43:42.000",
-	"ts_update":1763493258255,
-	"dt_update":"2025-11-19 03:14:00.567",
+	"version_latest":"7.0.Alpha4",
+	"ts_publish":1764329818000,
+	"dt_publish":"2025-11-28 19:36:58.000",
+	"ts_update":1764330311407,
+	"dt_update":"2025-11-28 19:44:55.033",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"count_used_by":1,
 	"home_page":"http://weld.cdi-spec.org",
 	"license":"Apache 2.0",
-	"ranking":"#355016 in MvnRepository",
+	"ranking":"#260951 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
@@ -35,6 +35,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"7.0.Alpha3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250515",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"5.0.Beta3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211124",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"5.0.Beta2",
 			"vulnerabilities":""
 		}
 	]
