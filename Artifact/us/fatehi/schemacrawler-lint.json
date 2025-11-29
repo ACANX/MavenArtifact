@@ -2,14 +2,18 @@
 	"id":"pkg:maven/us.fatehi/schemacrawler-lint",
 	"group_id":"us.fatehi",
 	"artifact_id":"schemacrawler-lint",
-	"version_latest":"17.1.6",
-	"ts_publish":1763774128000,
-	"dt_publish":"2025-11-22 09:15:28.000",
-	"ts_update":1763776595546,
-	"dt_update":"2025-11-22 09:56:26.342",
-	"count_dep":7,
+	"version_latest":"17.1.7",
+	"ts_publish":1764456087000,
+	"dt_publish":"2025-11-30 06:41:27.000",
+	"ts_update":1764456996410,
+	"dt_update":"2025-11-30 06:56:27.572",
+	"count_dep":20,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"GNU General Public License",
+		"GNU Lesser General Public License",
+		"Eclipse Public License - v 1.0"
+	],
 	"categories":[
 		"Other"
 	],
@@ -22,13 +26,21 @@
 	"url_scm":"https://github.com/schemacrawler/SchemaCrawler/schemacrawler-lint",
 	"count_used_by":11,
 	"license":"EPL 1.0",
-	"ranking":"#41881 in MvnRepository",
+	"ranking":"#42736 in MvnRepository",
 	"tags":[
 		"schema",
 		"crawler",
 		"lint"
 	],
 	"versions":[
+		{
+			"date":"20251122",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"17.1.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -180,14 +192,7 @@
 			"usage":3,
 			"version":"16.25.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241228",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"16.24.3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Free database schema discovery and comprehension tool"
 }
