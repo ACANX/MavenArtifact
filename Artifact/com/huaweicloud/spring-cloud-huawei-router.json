@@ -1,15 +1,15 @@
 {
-	"id":"pkg:maven/com.huaweicloud/spring-cloud-starter-huawei-nacos",
+	"id":"pkg:maven/com.huaweicloud/spring-cloud-huawei-router",
 	"description":"Spring Cloud parent pom, managing plugins and dependencies for Spring\n\t\tCloud projects",
 	"group_id":"com.huaweicloud",
-	"artifact_id":"spring-cloud-starter-huawei-nacos",
+	"artifact_id":"spring-cloud-huawei-router",
 	"version_latest":"1.11.13-2021.0.x",
 	"ts_publish":1764402263000,
 	"dt_publish":"2025-11-29 15:44:23.000",
-	"ts_update":1764402992397,
-	"dt_update":"2025-11-29 15:56:23.478",
-	"count_dep":176,
-	"count_ref":0,
+	"ts_update":1764402994274,
+	"dt_update":"2025-11-29 15:56:24.031",
+	"count_dep":116,
+	"count_ref":15,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -17,8 +17,8 @@
 		"Uncategorized"
 	],
 	"dsv":1,
-	"url_project":"https://spring.io/spring-cloud/spring-cloud-huawei/spring-cloud-huawei-dependencies/spring-cloud-huawei-parents/spring-cloud-starter-huawei/spring-cloud-starter-huawei-nacos",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.huaweicloud/spring-cloud-starter-huawei-nacos@1.11.12-2024.0.x",
+	"url_project":"https://spring.io/spring-cloud/spring-cloud-huawei/spring-cloud-huawei-dependencies/spring-cloud-huawei-parents/spring-cloud-huawei-router",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.huaweicloud/spring-cloud-huawei-router@1.11.13-2021.0.x",
 	"contributors":[
 		"Spencer Gibb",
 		"Dave Syer",
@@ -26,13 +26,14 @@
 		"Olga Maciaszek-Sharma",
 		"Ryan Baxter"
 	],
-	"url_scm":"https://github.com/huaweicloud/spring-cloud-huawei/spring-cloud-huawei-dependencies/spring-cloud-huawei-parents/spring-cloud-starter-huawei/spring-cloud-starter-huawei-nacos",
+	"url_scm":"https://github.com/huaweicloud/spring-cloud-huawei/spring-cloud-huawei-dependencies/spring-cloud-huawei-parents/spring-cloud-huawei-router",
+	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#917658 in MvnRepository",
+	"ranking":"#118913 in MvnRepository",
 	"tags":[
 		"spring",
 		"cloud",
-		"starter",
+		"routing",
 		"huawei"
 	],
 	"versions":[
@@ -40,7 +41,7 @@
 			"date":"20250904",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.12-2024.0.x",
 			"vulnerabilities":""
 		},
@@ -48,7 +49,7 @@
 			"date":"20250904",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.12-2023.0.x",
 			"vulnerabilities":""
 		},
@@ -56,7 +57,7 @@
 			"date":"20250904",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.12-2021.0.x",
 			"vulnerabilities":""
 		},
@@ -64,7 +65,7 @@
 			"date":"20250429",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.11-2024.0.x",
 			"vulnerabilities":""
 		},
@@ -72,7 +73,7 @@
 			"date":"20250429",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.11-2023.0.x",
 			"vulnerabilities":""
 		},
@@ -80,7 +81,7 @@
 			"date":"20250429",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.11-2021.0.x",
 			"vulnerabilities":""
 		},
@@ -88,7 +89,7 @@
 			"date":"20250121",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.10-2024.0.x",
 			"vulnerabilities":""
 		},
@@ -96,7 +97,7 @@
 			"date":"20241026",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.10-2023.0.x",
 			"vulnerabilities":""
 		},
@@ -104,7 +105,7 @@
 			"date":"20241026",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.10-2022.0.x",
 			"vulnerabilities":""
 		},
@@ -112,7 +113,7 @@
 			"date":"20241026",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.10-2021.0.x",
 			"vulnerabilities":""
 		},
@@ -120,7 +121,7 @@
 			"date":"20240819",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.9-2023.0.x",
 			"vulnerabilities":""
 		},
@@ -128,7 +129,7 @@
 			"date":"20240819",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.9-2022.0.x",
 			"vulnerabilities":""
 		},
@@ -136,7 +137,7 @@
 			"date":"20240819",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.9-2021.0.x",
 			"vulnerabilities":""
 		},
@@ -144,7 +145,7 @@
 			"date":"20240629",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.8-2023.0.x",
 			"vulnerabilities":""
 		},
@@ -152,7 +153,7 @@
 			"date":"20240629",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.8-2022.0.x",
 			"vulnerabilities":""
 		},
@@ -160,7 +161,7 @@
 			"date":"20240619",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.8-2021.0.x",
 			"vulnerabilities":""
 		},
@@ -168,7 +169,7 @@
 			"date":"20240422",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.7-2023.0.x",
 			"vulnerabilities":""
 		},
@@ -176,7 +177,7 @@
 			"date":"20240422",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.7-2022.0.x",
 			"vulnerabilities":""
 		},
@@ -184,7 +185,7 @@
 			"date":"20240422",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.7-2021.0.x",
 			"vulnerabilities":""
 		},
@@ -192,7 +193,7 @@
 			"date":"20240125",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"1.11.6-2023.0.x",
 			"vulnerabilities":""
 		}
