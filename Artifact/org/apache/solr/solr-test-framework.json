@@ -3,13 +3,13 @@
 	"description":"Apache Solr (module: test-framework)",
 	"group_id":"org.apache.solr",
 	"artifact_id":"solr-test-framework",
-	"version_latest":"9.9.0",
-	"ts_publish":1753381163000,
-	"dt_publish":"2025-07-25 02:19:23.000",
-	"ts_update":1757781242371,
-	"dt_update":"2025-09-14 00:15:30.847",
-	"count_dep":48,
-	"count_ref":1,
+	"version_latest":"9.10.0",
+	"ts_publish":1762453037000,
+	"dt_publish":"2025-11-07 02:17:17.000",
+	"ts_update":1764433623237,
+	"dt_update":"2025-11-30 00:20:36.420",
+	"count_dep":49,
+	"count_ref":0,
 	"licenses":[
 		"Apache 2"
 	],
@@ -22,10 +22,10 @@
 	"url_issue_management":"https://issues.apache.org/jira/browse/SOLR",
 	"url_scm":"https://gitbox.apache.org/repos/asf?p=solr.git",
 	"url_ci_management":"https://builds.apache.org/job/Solr/",
-	"count_used_by":176,
+	"count_used_by":179,
 	"home_page":"https://solr.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#3104 in MvnRepository",
+	"ranking":"#3292 in MvnRepository",
 	"tags":[
 		"framework",
 		"testing",
@@ -34,6 +34,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250724",
 			"repository":"Central",
@@ -158,7 +166,7 @@
 			"date":"20240925",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"8.11.4",
 			"vulnerabilities":""
 		},
@@ -166,7 +174,7 @@
 			"date":"20240209",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":9,
 			"version":"8.11.3",
 			"vulnerabilities":""
 		},
@@ -182,16 +190,8 @@
 			"date":"20211219",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":15,
 			"version":"8.11.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211114",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"8.11.0",
 			"vulnerabilities":""
 		}
 	]

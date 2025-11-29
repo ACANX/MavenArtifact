@@ -3,16 +3,14 @@
 	"description":"ActiveMQ HTTP Protocol Support",
 	"group_id":"org.apache.activemq",
 	"artifact_id":"activemq-http",
-	"version_latest":"6.1.8",
-	"ts_publish":1760891946000,
-	"dt_publish":"2025-10-20 00:39:06.000",
-	"ts_update":1762619892394,
-	"dt_update":"2025-11-09 00:18:42.199",
-	"count_dep":68,
+	"version_latest":"6.2.0",
+	"ts_publish":1762673728000,
+	"dt_publish":"2025-11-09 15:35:28.000",
+	"ts_update":1764433622818,
+	"dt_update":"2025-11-30 00:20:41.373",
+	"count_dep":20,
 	"count_ref":4,
-	"licenses":[
-		"Apache-2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Transport"
 	],
@@ -23,7 +21,7 @@
 	"url_scm":"https://github.com/apache/activemq/activemq-http",
 	"count_used_by":25,
 	"license":"Apache 2.0",
-	"ranking":"#19258 in MvnRepository",
+	"ranking":"#18856 in MvnRepository",
 	"tags":[
 		"jms",
 		"activemq",
@@ -32,6 +30,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"6.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251019",
 			"repository":"Central",
@@ -124,7 +130,7 @@
 			"date":"20251011",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"5.19.1",
 			"vulnerabilities":""
 		},
@@ -182,14 +188,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"5.18.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230414",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.18.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"Pure Java compression support using XZ for Java",
 	"group_id":"org.apache.hbase",
 	"artifact_id":"hbase-compression-xz",
-	"version_latest":"2.5.12-hadoop3",
-	"ts_publish":1752873044000,
-	"dt_publish":"2025-07-19 05:10:44.000",
-	"ts_update":1755968221140,
-	"dt_update":"2025-08-24 00:16:24.304",
-	"count_dep":7,
+	"version_latest":"2.5.13-hadoop3",
+	"ts_publish":1762224572000,
+	"dt_publish":"2025-11-04 10:49:32.000",
+	"ts_update":1764433616090,
+	"dt_update":"2025-11-30 00:20:22.522",
+	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -87,7 +87,7 @@
 	"count_used_by":1,
 	"home_page":"https://hbase.apache.org/hbase-build-configuration/hbase-compression/hbase-compression-xz",
 	"license":"Apache 2.0",
-	"ranking":"#332318 in MvnRepository",
+	"ranking":"#423615 in MvnRepository",
 	"tags":[
 		"database",
 		"compression",
@@ -126,6 +126,22 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.0.0-alpha-2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.5.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.5.13-hadoop3",
 			"vulnerabilities":""
 		},
 		{
@@ -238,22 +254,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.5.6-hadoop3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230613",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230613",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.5.5-hadoop3",
 			"vulnerabilities":""
 		}
 	]
