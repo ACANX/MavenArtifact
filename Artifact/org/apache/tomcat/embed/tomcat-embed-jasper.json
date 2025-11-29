@@ -3,13 +3,13 @@
 	"description":"Core Tomcat implementation",
 	"group_id":"org.apache.tomcat.embed",
 	"artifact_id":"tomcat-embed-jasper",
-	"version_latest":"11.0.13",
-	"ts_publish":1760106354000,
-	"dt_publish":"2025-10-10 22:25:54.000",
-	"ts_update":1762618790841,
-	"dt_update":"2025-11-09 00:18:22.905",
-	"count_dep":0,
-	"count_ref":0,
+	"version_latest":"11.0.14",
+	"ts_publish":1762371102000,
+	"dt_publish":"2025-11-06 03:31:42.000",
+	"ts_update":1764433254389,
+	"dt_update":"2025-11-30 00:20:31.408",
+	"count_dep":3,
+	"count_ref":2,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,10 +19,10 @@
 	"dsv":1,
 	"url_project":"https://tomcat.apache.org/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@11.0.10",
-	"count_used_by":585,
+	"count_used_by":590,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#1040 in MvnRepository",
+	"ranking":"#1065 in MvnRepository",
 	"tags":[
 		"embedded",
 		"server",
@@ -32,10 +32,34 @@
 	],
 	"versions":[
 		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.0.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.0.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.0.12",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250901",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":17,
 			"version":"11.0.11",
 			"vulnerabilities":""
 		},
@@ -165,30 +189,6 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"11.0.0-M21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240508",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"11.0.0-M20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240416",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"11.0.0-M19",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240314",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"11.0.0-M18",
 			"vulnerabilities":""
 		}
 	]

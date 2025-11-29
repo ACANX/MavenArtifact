@@ -1,18 +1,16 @@
 {
 	"id":"pkg:maven/org.apache.unomi/unomi-groovy-actions",
-	"description":"Apache Karaf Feature and KAR archive for the Apache Unomi Context Server extension that provides the possibility to use\n        Groovy for actions",
+	"description":"Apache Karaf Feature and KAR archive for the Apache Unomi Context Server extension that provides the possibility to use Groovy for actions",
 	"group_id":"org.apache.unomi",
 	"artifact_id":"unomi-groovy-actions",
-	"version_latest":"2.7.0",
-	"ts_publish":1756363249000,
-	"dt_publish":"2025-08-28 14:40:49.000",
-	"ts_update":1759596383114,
-	"dt_update":"2025-10-05 00:16:52.479",
-	"count_dep":1,
+	"version_latest":"3.0.0",
+	"ts_publish":1762250090000,
+	"dt_publish":"2025-11-04 17:54:50.000",
+	"ts_update":1764433253592,
+	"dt_update":"2025-11-30 00:20:27.421",
+	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Management"
 	],
@@ -41,13 +39,21 @@
 	"url_scm":"https://gitbox.apache.org/repos/asf/unomi.git/unomi-extensions/unomi-groovy-actions-root/unomi-groovy-actions",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#379751 in MvnRepository",
+	"ranking":"#280626 in MvnRepository",
 	"tags":[
 		"apache",
 		"groovy",
 		"action"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -198,14 +204,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20201123",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.5.4",
 			"vulnerabilities":""
 		}
 	]
