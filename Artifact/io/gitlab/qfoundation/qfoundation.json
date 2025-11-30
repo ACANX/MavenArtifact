@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gitlab.qfoundation/qfoundation",
 	"group_id":"io.gitlab.qfoundation",
 	"artifact_id":"qfoundation",
-	"version_latest":"3.29.3",
-	"ts_publish":1764108709000,
-	"dt_publish":"2025-11-26 06:11:49.000",
-	"ts_update":1764109762611,
-	"dt_update":"2025-11-26 06:29:08.786",
-	"count_dep":23,
+	"version_latest":"3.30.0",
+	"ts_publish":1764511423000,
+	"dt_publish":"2025-11-30 22:03:43.000",
+	"ts_update":1764512090848,
+	"dt_update":"2025-11-30 22:14:38.310",
+	"count_dep":153,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://gitlab.com/qfoundation/qfoundation/qfoundation",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.gitlab.qfoundation/qfoundation@3.25.1",
@@ -19,11 +21,19 @@
 	"url_scm":"https://gitlab.com/qfoundation/qfoundation/-/tree/main/qfoundation",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#338687 in MvnRepository",
+	"ranking":"#338841 in MvnRepository",
 	"tags":[
 		"gitlab"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.29.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -175,14 +185,7 @@
 			"usage":1,
 			"version":"3.20.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250326",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.20.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"QFoundation parent project"
 }
