@@ -3,11 +3,11 @@
 	"description":"jquick curl is a self-developed high-performance http client library\n        that focuses on low memory consumption and millisecond level request processing.\n        it is designed specifically for scenarios that require strict network i/o performance, such as financial payments,\n        microservice communication, and data collection.\n        while maintaining simplicity in development,\n        it provides a java implementation that rivals curl's native performance.",
 	"group_id":"io.github.paohaijiao",
 	"artifact_id":"jquick-curl",
-	"version_latest":"1.3.0",
-	"ts_publish":1754826866000,
-	"dt_publish":"2025-08-10 19:54:26.000",
-	"ts_update":1754828755956,
-	"dt_update":"2025-08-10 20:25:40.675",
+	"version_latest":"1.4.0",
+	"ts_publish":1764503468000,
+	"dt_publish":"2025-11-30 19:51:08.000",
+	"ts_update":1764503785535,
+	"dt_update":"2025-11-30 19:56:15.484",
 	"count_dep":37,
 	"count_ref":0,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/paohaijiao/jquick-json",
 	"home_page":"https://github.com/paohaijiao/jquick-xml",
 	"license":"Apache 2.0",
-	"ranking":"#690268 in MvnRepository",
+	"ranking":"#282613 in MvnRepository",
 	"tags":[
 		"github",
 		"url",
 		"curl"
 	],
 	"versions":[
+		{
+			"date":"20250810",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250709",
 			"repository":"Central",
@@ -45,5 +53,6 @@
 			"version":"1.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
