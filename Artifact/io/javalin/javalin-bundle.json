@@ -3,14 +3,16 @@
 	"description":"Javalin with commonly used optional dependencies included",
 	"group_id":"io.javalin",
 	"artifact_id":"javalin-bundle",
-	"version_latest":"7.0.0-alpha.1",
-	"ts_publish":1761864044000,
-	"dt_publish":"2025-10-31 06:40:44.000",
-	"ts_update":1761867039699,
-	"dt_update":"2025-10-31 07:30:24.579",
-	"count_dep":13,
+	"version_latest":"7.0.0-alpha.2",
+	"ts_publish":1764536290000,
+	"dt_publish":"2025-12-01 04:58:10.000",
+	"ts_update":1764537282493,
+	"dt_update":"2025-12-01 05:14:34.795",
+	"count_dep":55,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Data Protocols"
 	],
@@ -18,11 +20,19 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.javalin/javalin-bundle@7.0.0-alpha.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#343288 in MvnRepository",
+	"ranking":"#421184 in MvnRepository",
 	"tags":[
 		"bundle"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"7.0.0-alpha.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250622",
 			"repository":"Central",
@@ -173,14 +183,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.6.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240225",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.6.4",
 			"vulnerabilities":""
 		}
 	]
