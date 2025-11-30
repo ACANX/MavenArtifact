@@ -3,12 +3,12 @@
 	"description":"Provides a large number of convenient redis tools:\n        distributed locks,\n        distributed count,\n        distributed cache,\n        distributed id generator,\n        jdk collection implements,\n        the enhanced RedisTemplate based on a specified key prefix and the agileway-codec module",
 	"group_id":"io.github.qhsword.agileway",
 	"artifact_id":"agileway-redis-springdata",
-	"version_latest":"5.3.3",
-	"ts_publish":1763384090000,
-	"dt_publish":"2025-11-17 20:54:50.000",
-	"ts_update":1763385554814,
-	"dt_update":"2025-11-17 21:18:56.894",
-	"count_dep":32,
+	"version_latest":"5.3.4",
+	"ts_publish":1764519473000,
+	"dt_publish":"2025-12-01 00:17:53.000",
+	"ts_update":1764519997284,
+	"dt_update":"2025-12-01 00:26:27.933",
+	"count_dep":33,
 	"count_ref":2,
 	"licenses":[
 		"Apache 2"
@@ -19,5 +19,24 @@
 	"contributors":[
 		"bes2008"
 	],
-	"url_scm":"scm:git:https://github.com/bes2008/agileway.git/agileway-redis-springdata"
+	"url_scm":"scm:git:https://github.com/bes2008/agileway.git/agileway-redis-springdata",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#178088 in MvnRepository",
+	"tags":[
+		"database",
+		"github",
+		"spring",
+		"redis"
+	],
+	"versions":[
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"5.3.3",
+			"vulnerabilities":""
+		}
+	]
 }
