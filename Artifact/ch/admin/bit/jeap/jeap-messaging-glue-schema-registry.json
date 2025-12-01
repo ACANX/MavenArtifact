@@ -3,12 +3,12 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-glue-schema-registry",
-	"version_latest":"10.2.0",
-	"ts_publish":1764340624000,
-	"dt_publish":"2025-11-28 22:37:04.000",
-	"ts_update":1764341341945,
-	"dt_update":"2025-11-28 22:48:47.449",
-	"count_dep":161,
+	"version_latest":"10.3.0",
+	"ts_publish":1764607044000,
+	"dt_publish":"2025-12-02 00:37:24.000",
+	"ts_update":1764608211186,
+	"dt_update":"2025-12-02 00:56:33.772",
+	"count_dep":124,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-glue-schema-registry",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#303231 in MvnRepository",
+	"ranking":"#303675 in MvnRepository",
 	"tags":[
 		"registry",
 		"admin",
@@ -30,6 +30,14 @@
 		"schema"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"10.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.53.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.53.0",
 			"vulnerabilities":""
 		}
 	]

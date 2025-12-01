@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-registry-maven-plugin",
-	"version_latest":"10.2.0",
-	"ts_publish":1764340624000,
-	"dt_publish":"2025-11-28 22:37:04.000",
-	"ts_update":1764341344031,
-	"dt_update":"2025-11-28 22:48:47.445",
+	"version_latest":"10.3.0",
+	"ts_publish":1764607044000,
+	"dt_publish":"2025-12-02 00:37:24.000",
+	"ts_update":1764608213470,
+	"dt_update":"2025-12-02 00:56:33.769",
 	"count_dep":81,
 	"count_ref":0,
 	"licenses":[
@@ -21,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-registry-maven-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#867108 in MvnRepository",
+	"ranking":"#875863 in MvnRepository",
 	"tags":[
 		"plugin",
 		"registry",
@@ -32,6 +32,14 @@
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"10.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.53.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250805",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.53.0",
 			"vulnerabilities":""
 		}
 	]
