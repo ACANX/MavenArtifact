@@ -3,11 +3,11 @@
 	"description":"parent pom for avaje inject library",
 	"group_id":"io.avaje",
 	"artifact_id":"avaje-inject-aop",
-	"version_latest":"12.1-RC3",
-	"ts_publish":1763742498000,
-	"dt_publish":"2025-11-22 00:28:18.000",
-	"ts_update":1763744075428,
-	"dt_update":"2025-11-22 00:54:06.844",
+	"version_latest":"12.1-RC4",
+	"ts_publish":1764564186000,
+	"dt_publish":"2025-12-01 12:43:06.000",
+	"ts_update":1764565002346,
+	"dt_update":"2025-12-01 12:56:32.252",
 	"count_dep":4,
 	"count_ref":4,
 	"licenses":[
@@ -25,12 +25,20 @@
 	"url_scm":"git@github.com:avaje-pom/java11-oss.git/avaje-inject-parent/avaje-inject-aop",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#227648 in MvnRepository",
+	"ranking":"#210591 in MvnRepository",
 	"tags":[
 		"dependency-injection",
 		"aop"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.1-RC3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251109",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"11.6-RC2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250526",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.6-RC1",
 			"vulnerabilities":""
 		}
 	]
