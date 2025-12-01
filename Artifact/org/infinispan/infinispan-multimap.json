@@ -3,11 +3,11 @@
 	"description":"Infinispan Multimap module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-multimap",
-	"version_latest":"16.0.2",
-	"ts_publish":1763978597000,
-	"dt_publish":"2025-11-24 18:03:17.000",
-	"ts_update":1763979615561,
-	"dt_update":"2025-11-24 18:19:53.818",
+	"version_latest":"16.0.3",
+	"ts_publish":1764601449000,
+	"dt_publish":"2025-12-01 23:04:09.000",
+	"ts_update":1764602347757,
+	"dt_update":"2025-12-01 23:18:51.709",
 	"count_dep":42,
 	"count_ref":8,
 	"licenses":[
@@ -28,13 +28,21 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-multimap",
 	"count_used_by":17,
 	"license":"Apache 2.0",
-	"ranking":"#28935 in MvnRepository",
+	"ranking":"#28960 in MvnRepository",
 	"tags":[
 		"cache",
 		"infinispan",
 		"multimap"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"16.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251108",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"dev",
 			"usage":4,
 			"version":"15.2.0.Dev02",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250318",
-			"repository":"Central",
-			"type":"dev",
-			"usage":4,
-			"version":"15.2.0.Dev01",
 			"vulnerabilities":""
 		}
 	]

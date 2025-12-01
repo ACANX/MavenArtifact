@@ -3,11 +3,11 @@
 	"description":"Infinispan Clustered Lock module",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-clustered-lock",
-	"version_latest":"16.0.2",
-	"ts_publish":1763978597000,
-	"dt_publish":"2025-11-24 18:03:17.000",
-	"ts_update":1763979618723,
-	"dt_update":"2025-11-24 18:19:54.267",
+	"version_latest":"16.0.3",
+	"ts_publish":1764601449000,
+	"dt_publish":"2025-12-01 23:04:09.000",
+	"ts_update":1764602347119,
+	"dt_update":"2025-12-01 23:18:50.308",
 	"count_dep":24,
 	"count_ref":1,
 	"licenses":[],
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.infinispan/infinispan-clustered-lock@16.0.0.Dev03",
 	"count_used_by":20,
 	"license":"Apache 2.0",
-	"ranking":"#23477 in MvnRepository",
+	"ranking":"#24229 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"cache",
@@ -28,6 +28,14 @@
 		"locking"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"16.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251108",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"dev",
 			"usage":1,
 			"version":"15.2.0.Dev02",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250318",
-			"repository":"Central",
-			"type":"dev",
-			"usage":1,
-			"version":"15.2.0.Dev01",
 			"vulnerabilities":""
 		}
 	]
