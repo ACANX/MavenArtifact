@@ -3,13 +3,13 @@
 	"description":"Parent artifact for all Vespa maven projects.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"vespa-3party-bundles",
-	"version_latest":"8.613.57",
-	"ts_publish":1764065074000,
-	"dt_publish":"2025-11-25 18:04:34.000",
-	"ts_update":1764066054146,
-	"dt_update":"2025-11-25 18:20:20.319",
+	"version_latest":"8.614.22",
+	"ts_publish":1764558382000,
+	"dt_publish":"2025-12-01 11:06:22.000",
+	"ts_update":1764559607567,
+	"dt_update":"2025-12-01 11:26:29.577",
 	"count_dep":7,
-	"count_ref":9,
+	"count_ref":7,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,11 +26,19 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/vespa-3party-bundles",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#205818 in MvnRepository",
+	"ranking":"#206059 in MvnRepository",
 	"tags":[
 		"bundle"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"8.613.57",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"8.589.18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251001",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.588.8",
 			"vulnerabilities":""
 		}
 	]

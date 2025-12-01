@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa.hosted/vespa-testrunner-components",
 	"group_id":"com.yahoo.vespa.hosted",
 	"artifact_id":"vespa-testrunner-components",
-	"version_latest":"8.613.57",
-	"ts_publish":1764065074000,
-	"dt_publish":"2025-11-25 18:04:34.000",
-	"ts_update":1764066073682,
-	"dt_update":"2025-11-25 18:20:22.131",
+	"version_latest":"8.614.22",
+	"ts_publish":1764558382000,
+	"dt_publish":"2025-12-01 11:06:22.000",
+	"ts_update":1764559606864,
+	"dt_update":"2025-12-01 11:26:29.575",
 	"count_dep":3,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -21,13 +23,21 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/vespa-testrunner-components",
 	"license":"Apache 2.0",
-	"ranking":"#568103 in MvnRepository",
+	"ranking":"#1006074 in MvnRepository",
 	"tags":[
 		"runner",
 		"testing",
 		"component"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.613.57",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":0,
 			"version":"8.589.18",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251001",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.588.8",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }

@@ -2,11 +2,11 @@
 	"id":"pkg:maven/com.yahoo.vespa/container-apache-http-client-bundle",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"container-apache-http-client-bundle",
-	"version_latest":"8.613.57",
-	"ts_publish":1764065074000,
-	"dt_publish":"2025-11-25 18:04:34.000",
-	"ts_update":1764066084695,
-	"dt_update":"2025-11-25 18:20:20.326",
+	"version_latest":"8.614.22",
+	"ts_publish":1764558382000,
+	"dt_publish":"2025-12-01 11:06:22.000",
+	"ts_update":1764559597717,
+	"dt_update":"2025-12-01 11:26:30.149",
 	"count_dep":6,
 	"count_ref":16,
 	"licenses":[],
@@ -23,7 +23,7 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/container-apache-http-client-bundle",
 	"count_used_by":24,
 	"license":"Apache 2.0",
-	"ranking":"#19801 in MvnRepository",
+	"ranking":"#19680 in MvnRepository",
 	"tags":[
 		"bundle",
 		"container",
@@ -32,6 +32,22 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.613.57",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"8.612.20",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251119",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":13,
 			"version":"8.589.18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251001",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.588.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250930",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"8.587.11",
 			"vulnerabilities":""
 		}
 	]
