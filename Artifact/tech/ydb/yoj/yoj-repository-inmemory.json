@@ -3,11 +3,11 @@
 	"description":"YOJ (YDB ORM for Java) In-Memory Repository API implementation, currently using Eclipse Collections.\n        Has YDB-like semantics for data modification, to easily and quickly test your business logic without spinning\n        YDB container or accessing a real YDB installation.",
 	"group_id":"tech.ydb.yoj",
 	"artifact_id":"yoj-repository-inmemory",
-	"version_latest":"2.7.1",
-	"ts_publish":1764159982000,
-	"dt_publish":"2025-11-26 20:26:22.000",
-	"ts_update":1764160539234,
-	"dt_update":"2025-11-26 20:35:23.141",
+	"version_latest":"2.7.2",
+	"ts_publish":1764632448000,
+	"dt_publish":"2025-12-02 07:40:48.000",
+	"ts_update":1764633399830,
+	"dt_update":"2025-12-02 07:56:26.181",
 	"count_dep":27,
 	"count_ref":0,
 	"licenses":[
@@ -23,12 +23,20 @@
 	],
 	"url_scm":"https://github.com/ydb-platform/yoj-project/yoj-repository-inmemory",
 	"license":"Apache 2.0",
-	"ranking":"#476071 in MvnRepository",
+	"ranking":"#477628 in MvnRepository",
 	"tags":[
 		"repository",
 		"memory"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.7.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251125",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.6.35",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250910",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.6.34",
 			"vulnerabilities":""
 		}
 	]
