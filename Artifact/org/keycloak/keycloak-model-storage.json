@@ -3,14 +3,16 @@
 	"description":"Keycloak Database Support",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-model-storage",
-	"version_latest":"26.4.6",
-	"ts_publish":1764091355000,
-	"dt_publish":"2025-11-26 01:22:35.000",
-	"ts_update":1764092236495,
-	"dt_update":"2025-11-26 01:36:53.774",
-	"count_dep":8,
-	"count_ref":23,
-	"licenses":[],
+	"version_latest":"26.4.7",
+	"ts_publish":1764576118000,
+	"dt_publish":"2025-12-01 16:01:58.000",
+	"ts_update":1764577591976,
+	"dt_update":"2025-12-01 16:26:11.540",
+	"count_dep":17,
+	"count_ref":20,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Security",
 		"Identity Management"
@@ -25,13 +27,21 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-model-pom/keycloak-model-storage/",
 	"count_used_by":15,
 	"license":"Apache 2.0",
-	"ranking":"#32670 in MvnRepository",
+	"ranking":"#32699 in MvnRepository",
 	"tags":[
 		"model",
 		"keycloak",
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"26.4.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -182,14 +192,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"26.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250313",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"26.1.4",
 			"vulnerabilities":""
 		}
 	]

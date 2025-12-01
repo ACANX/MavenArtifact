@@ -3,14 +3,16 @@
 	"description":"Keycloak LDAP UserStoreProvider",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-ldap-federation",
-	"version_latest":"26.4.6",
-	"ts_publish":1764091355000,
-	"dt_publish":"2025-11-26 01:22:35.000",
-	"ts_update":1764092915964,
-	"dt_update":"2025-11-26 01:48:25.648",
-	"count_dep":12,
-	"count_ref":15,
-	"licenses":[],
+	"version_latest":"26.4.7",
+	"ts_publish":1764576118000,
+	"dt_publish":"2025-12-01 16:01:58.000",
+	"ts_update":1764577582513,
+	"dt_update":"2025-12-01 16:26:09.633",
+	"count_dep":27,
+	"count_ref":11,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Security",
 		"Identity Management"
@@ -26,7 +28,7 @@
 	"count_used_by":31,
 	"home_page":"https://www.keycloak.org/",
 	"license":"Apache 2.0",
-	"ranking":"#15385 in MvnRepository",
+	"ranking":"#15412 in MvnRepository",
 	"tags":[
 		"keycloak",
 		"ldap",
@@ -35,12 +37,20 @@
 	],
 	"versions":[
 		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251112",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
 			"version":"26.4.5",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20251107",
@@ -48,7 +58,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.4.4",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20251106",
@@ -56,7 +66,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.4.3",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20251023",
@@ -64,7 +74,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.4.2",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20251016",
@@ -72,7 +82,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.4.1",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250930",
@@ -80,7 +90,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.4.0",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250925",
@@ -88,7 +98,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.3.5",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250912",
@@ -96,7 +106,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.3.4",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250820",
@@ -104,7 +114,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.3.3",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250724",
@@ -112,7 +122,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.3.2",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250709",
@@ -120,7 +130,7 @@
 			"type":"release",
 			"usage":5,
 			"version":"26.3.1",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250701",
@@ -128,7 +138,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.3.0",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250528",
@@ -136,7 +146,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.2.5",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250508",
@@ -144,7 +154,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.2.4",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250505",
@@ -152,7 +162,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.2.3",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250430",
@@ -160,7 +170,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.2.2",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250423",
@@ -168,7 +178,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.2.1",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250411",
@@ -176,7 +186,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.2.0",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250411",
@@ -184,15 +194,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250313",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.1.4",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		}
 	]
 }

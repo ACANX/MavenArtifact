@@ -3,13 +3,13 @@
 	"description":"KeyCloak AuthZ: Common Policy Providers",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-authz-policy-common",
-	"version_latest":"26.4.6",
-	"ts_publish":1764091355000,
-	"dt_publish":"2025-11-26 01:22:35.000",
-	"ts_update":1764092224224,
-	"dt_update":"2025-11-26 01:36:54.680",
+	"version_latest":"26.4.7",
+	"ts_publish":1764576118000,
+	"dt_publish":"2025-12-01 16:01:58.000",
+	"ts_update":1764577592345,
+	"dt_update":"2025-12-01 16:26:09.632",
 	"count_dep":5,
-	"count_ref":14,
+	"count_ref":10,
 	"licenses":[],
 	"categories":[
 		"Security",
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-authz-parent/keycloak-authz-provider-parent/keycloak-authz-policy-common/",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#42846 in MvnRepository",
+	"ranking":"#42937 in MvnRepository",
 	"tags":[
 		"authorization",
 		"keycloak",
 		"policy"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.4.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"26.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250313",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"26.1.4",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Preview Keycloak testing framework based on JUnit 5",
 	"group_id":"org.keycloak.testframework",
 	"artifact_id":"keycloak-test-framework-core",
-	"version_latest":"26.4.6",
-	"ts_publish":1764091355000,
-	"dt_publish":"2025-11-26 01:22:35.000",
-	"ts_update":1764092234418,
-	"dt_update":"2025-11-26 01:36:53.382",
+	"version_latest":"26.4.7",
+	"ts_publish":1764576118000,
+	"dt_publish":"2025-12-01 16:01:58.000",
+	"ts_update":1764577592122,
+	"dt_update":"2025-12-01 16:26:10.260",
 	"count_dep":634,
-	"count_ref":16,
+	"count_ref":15,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,13 +24,21 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-test-framework-parent/keycloak-test-framework-core/",
 	"count_used_by":17,
 	"license":"Apache 2.0",
-	"ranking":"#28710 in MvnRepository",
+	"ranking":"#27411 in MvnRepository",
 	"tags":[
 		"framework",
 		"testing",
 		"keycloak"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"26.4.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"26.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250313",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"26.1.4",
 			"vulnerabilities":""
 		}
 	]

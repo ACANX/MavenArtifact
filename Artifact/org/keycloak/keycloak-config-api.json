@@ -3,13 +3,13 @@
 	"description":"Keycloak Configuration API",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-config-api",
-	"version_latest":"26.4.6",
-	"ts_publish":1764091355000,
-	"dt_publish":"2025-11-26 01:22:35.000",
-	"ts_update":1764092223220,
-	"dt_update":"2025-11-26 01:36:54.226",
+	"version_latest":"26.4.7",
+	"ts_publish":1764576118000,
+	"dt_publish":"2025-12-01 16:01:58.000",
+	"ts_update":1764577580959,
+	"dt_update":"2025-12-01 16:26:09.039",
 	"count_dep":3,
-	"count_ref":17,
+	"count_ref":14,
 	"licenses":[],
 	"categories":[
 		"Security",
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-quarkus-parent/keycloak-config-api/",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#202116 in MvnRepository",
+	"ranking":"#202916 in MvnRepository",
 	"tags":[
 		"config",
 		"keycloak",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"26.4.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"26.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250313",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"26.1.4",
 			"vulnerabilities":""
 		}
 	]
