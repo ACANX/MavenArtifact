@@ -3,12 +3,12 @@
 	"description":"The elasticsearch build tools",
 	"group_id":"org.elasticsearch.gradle",
 	"artifact_id":"build-tools",
-	"version_latest":"9.2.1",
-	"ts_publish":1762940041000,
-	"dt_publish":"2025-11-12 17:34:01.000",
-	"ts_update":1762940957257,
-	"dt_update":"2025-11-12 17:49:03.250",
-	"count_dep":0,
+	"version_latest":"9.2.2",
+	"ts_publish":1764691427000,
+	"dt_publish":"2025-12-03 00:03:47.000",
+	"ts_update":1764692591472,
+	"dt_update":"2025-12-03 00:22:56.192",
+	"count_dep":11,
 	"count_ref":0,
 	"licenses":[
 		"Elastic License 2.0",
@@ -24,7 +24,7 @@
 	"url_scm":"git@github.com:elastic/elasticsearch.git",
 	"home_page":"https://github.com/elastic/elasticsearch",
 	"license":"AGPL 3.0",
-	"ranking":"#702246 in MvnRepository",
+	"ranking":"#898199 in MvnRepository",
 	"tags":[
 		"elasticsearch",
 		"tools",
@@ -37,11 +37,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.2.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"9.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.1.7",
 			"vulnerabilities":""
 		},
 		{
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.0.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"9.0.0-beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251024",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.19.6",
 			"vulnerabilities":""
 		}
 	]

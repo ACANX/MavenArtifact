@@ -3,12 +3,12 @@
 	"description":"The plugin that powers ESQL for Elasticsearch",
 	"group_id":"org.elasticsearch.plugin",
 	"artifact_id":"x-pack-esql",
-	"version_latest":"9.2.1",
-	"ts_publish":1762940041000,
-	"dt_publish":"2025-11-12 17:34:01.000",
-	"ts_update":1762941397136,
-	"dt_update":"2025-11-12 17:56:27.775",
-	"count_dep":0,
+	"version_latest":"9.2.2",
+	"ts_publish":1764691427000,
+	"dt_publish":"2025-12-03 00:03:47.000",
+	"ts_update":1764692593422,
+	"dt_update":"2025-12-03 00:22:55.579",
+	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
 		"Elastic License 2.0"
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"git@github.com:elastic/elasticsearch.git",
 	"home_page":"https://github.com/elastic/elasticsearch",
-	"ranking":"#866805 in MvnRepository",
+	"ranking":"#874999 in MvnRepository",
 	"tags":[
 		"plugin",
 		"elasticsearch",
@@ -33,11 +33,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.2.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"9.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.1.7",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.0.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"9.0.0-beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251023",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.19.6",
 			"vulnerabilities":""
 		}
 	]

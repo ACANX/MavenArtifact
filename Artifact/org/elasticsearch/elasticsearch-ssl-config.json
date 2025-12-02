@@ -3,12 +3,12 @@
 	"description":"Elasticsearch subproject :libs:ssl-config",
 	"group_id":"org.elasticsearch",
 	"artifact_id":"elasticsearch-ssl-config",
-	"version_latest":"9.2.1",
-	"ts_publish":1762940041000,
-	"dt_publish":"2025-11-12 17:34:01.000",
-	"ts_update":1762940954427,
-	"dt_update":"2025-11-12 17:49:03.250",
-	"count_dep":0,
+	"version_latest":"9.2.2",
+	"ts_publish":1764691427000,
+	"dt_publish":"2025-12-03 00:03:47.000",
+	"ts_update":1764692595453,
+	"dt_update":"2025-12-03 00:22:56.192",
+	"count_dep":2,
 	"count_ref":5,
 	"licenses":[
 		"Elastic License 2.0",
@@ -28,7 +28,7 @@
 	"count_used_by":11,
 	"home_page":"https://github.com/elastic/elasticsearch",
 	"license":"AGPL 3.0",
-	"ranking":"#43032 in MvnRepository",
+	"ranking":"#44678 in MvnRepository",
 	"tags":[
 		"ssl",
 		"elasticsearch",
@@ -38,11 +38,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"9.2.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
 			"version":"9.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"9.1.7",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"9.0.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"beta",
-			"usage":3,
-			"version":"9.0.0-beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251023",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"8.19.6",
 			"vulnerabilities":""
 		}
 	]

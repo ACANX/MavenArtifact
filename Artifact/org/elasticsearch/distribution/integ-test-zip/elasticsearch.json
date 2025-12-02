@@ -3,11 +3,11 @@
 	"description":"Elasticsearch subproject :distribution:archives:integ-test-zip",
 	"group_id":"org.elasticsearch.distribution.integ-test-zip",
 	"artifact_id":"elasticsearch",
-	"version_latest":"9.2.1",
-	"ts_publish":1762940041000,
-	"dt_publish":"2025-11-12 17:34:01.000",
-	"ts_update":1762941403811,
-	"dt_update":"2025-11-12 17:56:27.778",
+	"version_latest":"9.2.2",
+	"ts_publish":1764691427000,
+	"dt_publish":"2025-12-03 00:03:47.000",
+	"ts_update":1764692587488,
+	"dt_update":"2025-12-03 00:22:55.581",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_scm":"git@github.com:elastic/elasticsearch.git",
 	"home_page":"https://github.com/elastic/elasticsearch",
 	"license":"AGPL 3.0",
-	"ranking":"#902460 in MvnRepository",
+	"ranking":"#527423 in MvnRepository",
 	"tags":[
 		"zip",
 		"distribution",
@@ -38,11 +38,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.2.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"9.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.1.7",
 			"vulnerabilities":""
 		},
 		{
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.0.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"9.0.0-beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251024",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.19.6",
 			"vulnerabilities":""
 		}
 	]
