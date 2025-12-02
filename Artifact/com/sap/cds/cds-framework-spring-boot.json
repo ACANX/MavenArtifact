@@ -3,12 +3,12 @@
 	"description":"Integration into the Spring Boot framework for CDS Services Java",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-framework-spring-boot",
-	"version_latest":"4.4.2",
-	"ts_publish":1762453758000,
-	"dt_publish":"2025-11-07 02:29:18.000",
-	"ts_update":1762455327279,
-	"dt_update":"2025-11-07 02:55:16.837",
-	"count_dep":103,
+	"version_latest":"4.5.0",
+	"ts_publish":1764702226000,
+	"dt_publish":"2025-12-03 03:03:46.000",
+	"ts_update":1764703599783,
+	"dt_update":"2025-12-03 03:26:31.329",
+	"count_dep":199,
 	"count_ref":2,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
@@ -25,13 +25,21 @@
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"count_used_by":4,
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#122999 in MvnRepository",
+	"ranking":"#105575 in MvnRepository",
 	"tags":[
 		"spring",
 		"framework",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.7.2",
 			"vulnerabilities":""
 		}
 	]

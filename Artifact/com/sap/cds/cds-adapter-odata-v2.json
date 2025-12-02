@@ -3,12 +3,12 @@
 	"description":"OData V2 adapter for CDS Services Java",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-adapter-odata-v2",
-	"version_latest":"4.4.2",
-	"ts_publish":1762453735000,
-	"dt_publish":"2025-11-07 02:28:55.000",
-	"ts_update":1762455328241,
-	"dt_update":"2025-11-07 02:55:16.839",
-	"count_dep":9,
+	"version_latest":"4.5.0",
+	"ts_publish":1764702201000,
+	"dt_publish":"2025-12-03 03:03:21.000",
+	"ts_update":1764703606472,
+	"dt_update":"2025-12-03 03:26:31.762",
+	"count_dep":20,
 	"count_ref":1,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
@@ -25,13 +25,21 @@
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"count_used_by":1,
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#400390 in MvnRepository",
+	"ranking":"#284825 in MvnRepository",
 	"tags":[
 		"data",
 		"adapter",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.7.2",
 			"vulnerabilities":""
 		}
 	]

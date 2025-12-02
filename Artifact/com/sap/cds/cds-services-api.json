@@ -3,13 +3,13 @@
 	"description":"API of CDS Services Java",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-services-api",
-	"version_latest":"4.4.2",
-	"ts_publish":1762453689000,
-	"dt_publish":"2025-11-07 02:28:09.000",
-	"ts_update":1762455325820,
-	"dt_update":"2025-11-07 02:55:16.842",
-	"count_dep":4,
-	"count_ref":31,
+	"version_latest":"4.5.0",
+	"ts_publish":1764702179000,
+	"dt_publish":"2025-12-03 03:02:59.000",
+	"ts_update":1764703602840,
+	"dt_update":"2025-12-03 03:26:32.272",
+	"count_dep":10,
+	"count_ref":34,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
 	],
@@ -25,13 +25,21 @@
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"count_used_by":49,
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#10277 in MvnRepository",
+	"ranking":"#10199 in MvnRepository",
 	"tags":[
 		"service",
 		"api",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":33,
+			"version":"4.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -108,7 +116,7 @@
 			"date":"20251103",
 			"repository":"Central",
 			"type":"release",
-			"usage":30,
+			"usage":32,
 			"version":"3.10.5",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":30,
 			"version":"3.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"release",
-			"usage":30,
-			"version":"3.7.2",
 			"vulnerabilities":""
 		}
 	]

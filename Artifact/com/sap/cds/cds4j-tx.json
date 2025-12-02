@@ -3,13 +3,13 @@
 	"description":"CDS4J JDBC based Transaction Management",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds4j-tx",
-	"version_latest":"4.4.2",
-	"ts_publish":1762453858000,
-	"dt_publish":"2025-11-07 02:30:58.000",
-	"ts_update":1762455322822,
-	"dt_update":"2025-11-07 02:55:15.603",
-	"count_dep":2,
-	"count_ref":1,
+	"version_latest":"4.5.0",
+	"ts_publish":1764702122000,
+	"dt_publish":"2025-12-03 03:02:02.000",
+	"ts_update":1764703608209,
+	"dt_update":"2025-12-03 03:26:32.277",
+	"count_dep":5,
+	"count_ref":3,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
 	],
@@ -25,11 +25,19 @@
 	"url_scm":"https://cap.cloud.sap/docs/java/",
 	"count_used_by":2,
 	"home_page":"http://www.sap.com",
-	"ranking":"#246179 in MvnRepository",
+	"ranking":"#193188 in MvnRepository",
 	"tags":[
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251008",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.7.2",
 			"vulnerabilities":""
 		}
 	]

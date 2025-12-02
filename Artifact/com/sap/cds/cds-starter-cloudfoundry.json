@@ -3,12 +3,12 @@
 	"description":"Platform package to run CAP applications on CloudFoundry",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-starter-cloudfoundry",
-	"version_latest":"4.4.2",
-	"ts_publish":1762453842000,
-	"dt_publish":"2025-11-07 02:30:42.000",
-	"ts_update":1762455323415,
-	"dt_update":"2025-11-07 02:55:15.605",
-	"count_dep":59,
+	"version_latest":"4.5.0",
+	"ts_publish":1764702316000,
+	"dt_publish":"2025-12-03 03:05:16.000",
+	"ts_update":1764703599257,
+	"dt_update":"2025-12-03 03:26:30.872",
+	"count_dep":131,
 	"count_ref":0,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
@@ -25,12 +25,20 @@
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"count_used_by":2,
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#177705 in MvnRepository",
+	"ranking":"#208331 in MvnRepository",
 	"tags":[
 		"starter",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250218",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.7.2",
 			"vulnerabilities":""
 		}
 	]
