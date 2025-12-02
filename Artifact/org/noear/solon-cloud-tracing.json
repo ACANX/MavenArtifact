@@ -3,12 +3,12 @@
 	"description":"Java project for solon",
 	"group_id":"org.noear",
 	"artifact_id":"solon-cloud-tracing",
-	"version_latest":"3.7.2",
-	"ts_publish":1763743837000,
-	"dt_publish":"2025-11-22 00:50:37.000",
-	"ts_update":1763745301765,
-	"dt_update":"2025-11-22 01:14:45.062",
-	"count_dep":5,
+	"version_latest":"3.7.3-M1",
+	"ts_publish":1764651230000,
+	"dt_publish":"2025-12-02 12:53:50.000",
+	"ts_update":1764652682064,
+	"dt_update":"2025-12-02 13:17:32.976",
+	"count_dep":14,
 	"count_ref":5,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,17 +25,33 @@
 	"url_scm":"https://github.com/opensolon/solon/solon-cloud-tracing",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#81491 in MvnRepository",
+	"ranking":"#78826 in MvnRepository",
 	"tags":[
 		"cloud",
 		"tracing"
 	],
 	"versions":[
 		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.7.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.7.2-RC",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251120",
 			"repository":"Central",
 			"type":"milestone",
-			"usage":0,
+			"usage":3,
 			"version":"3.7.2-M7",
 			"vulnerabilities":""
 		},
@@ -120,6 +136,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251122",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.6.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251106",
 			"repository":"Central",
 			"type":"release",
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"3.6.0-RC",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250928",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":6,
-			"version":"3.6.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250925",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":6,
-			"version":"3.6.0-M1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251105",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.5.8",
 			"vulnerabilities":""
 		}
 	]
