@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-testsupport",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-testsupport",
-	"version_latest":"3.86.2-01",
-	"ts_publish":1762997768000,
-	"dt_publish":"2025-11-13 09:36:08.000",
-	"ts_update":1762999006465,
-	"dt_update":"2025-11-13 09:56:31.524",
-	"count_dep":40,
+	"version_latest":"3.87.0-03",
+	"ts_publish":1764704781000,
+	"dt_publish":"2025-12-03 03:46:21.000",
+	"ts_update":1764705403912,
+	"dt_update":"2025-12-03 03:56:28.417",
+	"count_dep":4,
 	"count_ref":67,
-	"licenses":[
-		"Eclipse Public License"
-	],
+	"licenses":[],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -28,11 +26,19 @@
 	"count_used_by":102,
 	"home_page":"https://www.sonatype.com/nexus-repository-oss",
 	"license":"EPL 1.0",
-	"ranking":"#5250 in MvnRepository",
+	"ranking":"#5236 in MvnRepository",
 	"tags":[
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":67,
+			"version":"3.86.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -184,15 +190,6 @@
 			"usage":64,
 			"version":"3.77.1-01",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":64,
-			"version":"3.77.0-08",
-			"vulnerabilities":""
 		}
-	],
-	"description":"org.sonatype.nexus:nexus-testsupport"
+	]
 }

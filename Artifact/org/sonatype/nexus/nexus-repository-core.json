@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-repository-core",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-repository-core",
-	"version_latest":"3.86.2-01",
-	"ts_publish":1762997768000,
-	"dt_publish":"2025-11-13 09:36:08.000",
-	"ts_update":1762999002731,
-	"dt_update":"2025-11-13 09:56:30.876",
-	"count_dep":334,
+	"version_latest":"3.87.0-03",
+	"ts_publish":1764704781000,
+	"dt_publish":"2025-12-03 03:46:21.000",
+	"ts_update":1764705409214,
+	"dt_update":"2025-12-03 03:56:27.805",
+	"count_dep":93,
 	"count_ref":0,
-	"licenses":[
-		"Eclipse Public License"
-	],
+	"licenses":[],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -19,11 +17,19 @@
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.sonatype.nexus/nexus-repository-core@3.83.0-08",
 	"license":"EPL 1.0",
-	"ranking":"#468481 in MvnRepository",
+	"ranking":"#663993 in MvnRepository",
 	"tags":[
 		"repository"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.86.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -160,6 +166,5 @@
 			"version":"3.78.0-14",
 			"vulnerabilities":""
 		}
-	],
-	"description":"org.sonatype.nexus:nexus-repository-core"
+	]
 }

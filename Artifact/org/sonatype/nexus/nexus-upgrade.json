@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-upgrade",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-upgrade",
-	"version_latest":"3.86.2-01",
-	"ts_publish":1762997768000,
-	"dt_publish":"2025-11-13 09:36:08.000",
-	"ts_update":1762999003377,
-	"dt_update":"2025-11-13 09:56:30.253",
-	"count_dep":94,
-	"count_ref":23,
-	"licenses":[
-		"Eclipse Public License"
-	],
+	"version_latest":"3.87.0-03",
+	"ts_publish":1764704781000,
+	"dt_publish":"2025-12-03 03:46:21.000",
+	"ts_update":1764705403055,
+	"dt_update":"2025-12-03 03:56:27.109",
+	"count_dep":14,
+	"count_ref":20,
+	"licenses":[],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -27,8 +25,16 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":9,
 	"license":"EPL 1.0",
-	"ranking":"#55513 in MvnRepository",
+	"ranking":"#55954 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"3.86.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -180,15 +186,6 @@
 			"usage":8,
 			"version":"3.77.1-01",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.77.0-08",
-			"vulnerabilities":""
 		}
-	],
-	"description":"org.sonatype.nexus:nexus-upgrade"
+	]
 }

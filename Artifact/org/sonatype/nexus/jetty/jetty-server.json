@@ -3,13 +3,13 @@
 	"description":"Jetty Server with custom modifications",
 	"group_id":"org.sonatype.nexus.jetty",
 	"artifact_id":"jetty-server",
-	"version_latest":"3.86.2-01",
-	"ts_publish":1762997768000,
-	"dt_publish":"2025-11-13 09:36:08.000",
-	"ts_update":1762999003478,
-	"dt_update":"2025-11-13 09:56:28.820",
+	"version_latest":"3.87.0-03",
+	"ts_publish":1764704781000,
+	"dt_publish":"2025-12-03 03:46:21.000",
+	"ts_update":1764705406617,
+	"dt_update":"2025-12-03 03:56:29.117",
 	"count_dep":4,
-	"count_ref":47,
+	"count_ref":20,
 	"licenses":[],
 	"dsv":1,
 	"url_project":"http://nexus.sonatype.org/jetty-modifications/jetty-server/",
@@ -22,13 +22,21 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":6,
 	"license":"EPL 1.0",
-	"ranking":"#82707 in MvnRepository",
+	"ranking":"#82892 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
 		"jetty"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.86.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",

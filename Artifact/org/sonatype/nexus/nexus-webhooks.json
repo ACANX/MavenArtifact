@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-webhooks",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-webhooks",
-	"version_latest":"3.86.2-01",
-	"ts_publish":1762997768000,
-	"dt_publish":"2025-11-13 09:36:08.000",
-	"ts_update":1762998998794,
-	"dt_update":"2025-11-13 09:56:29.560",
-	"count_dep":74,
-	"count_ref":15,
-	"licenses":[
-		"Eclipse Public License"
-	],
+	"version_latest":"3.87.0-03",
+	"ts_publish":1764704781000,
+	"dt_publish":"2025-12-03 03:46:21.000",
+	"ts_update":1764705401350,
+	"dt_update":"2025-12-03 03:56:30.395",
+	"count_dep":3,
+	"count_ref":13,
+	"licenses":[],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -27,13 +25,21 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":5,
 	"license":"EPL 1.0",
-	"ranking":"#97550 in MvnRepository",
+	"ranking":"#86101 in MvnRepository",
 	"tags":[
 		"web",
 		"webhook",
 		"hooks"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.86.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -185,15 +191,6 @@
 			"usage":3,
 			"version":"3.77.1-01",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.77.0-08",
-			"vulnerabilities":""
 		}
-	],
-	"description":"org.sonatype.nexus:nexus-webhooks"
+	]
 }

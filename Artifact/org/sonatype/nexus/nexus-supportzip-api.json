@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-supportzip-api",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-supportzip-api",
-	"version_latest":"3.86.2-01",
-	"ts_publish":1762997768000,
-	"dt_publish":"2025-11-13 09:36:08.000",
-	"ts_update":1762998997938,
-	"dt_update":"2025-11-13 09:56:31.524",
-	"count_dep":87,
-	"count_ref":25,
-	"licenses":[
-		"Eclipse Public License"
-	],
+	"version_latest":"3.87.0-03",
+	"ts_publish":1764704781000,
+	"dt_publish":"2025-12-03 03:46:21.000",
+	"ts_update":1764705403166,
+	"dt_update":"2025-12-03 03:56:28.417",
+	"count_dep":7,
+	"count_ref":21,
+	"licenses":[],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -27,11 +25,19 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":7,
 	"license":"EPL 1.0",
-	"ranking":"#69773 in MvnRepository",
+	"ranking":"#63856 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.86.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -183,15 +189,6 @@
 			"usage":6,
 			"version":"3.77.1-01",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.77.0-08",
-			"vulnerabilities":""
 		}
-	],
-	"description":"org.sonatype.nexus:nexus-supportzip-api"
+	]
 }

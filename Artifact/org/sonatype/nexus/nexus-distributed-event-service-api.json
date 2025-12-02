@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-distributed-event-service-api",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-distributed-event-service-api",
-	"version_latest":"3.86.2-01",
-	"ts_publish":1762997768000,
-	"dt_publish":"2025-11-13 09:36:08.000",
-	"ts_update":1762999001959,
-	"dt_update":"2025-11-13 09:56:28.096",
-	"count_dep":77,
-	"count_ref":28,
-	"licenses":[
-		"Eclipse Public License"
-	],
+	"version_latest":"3.87.0-03",
+	"ts_publish":1764704781000,
+	"dt_publish":"2025-12-03 03:46:21.000",
+	"ts_update":1764705406241,
+	"dt_update":"2025-12-03 03:56:28.423",
+	"count_dep":4,
+	"count_ref":18,
+	"licenses":[],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -20,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.sonatype.nexus/nexus-distributed-event-service-api@3.83.0-08",
 	"count_used_by":4,
 	"license":"EPL 1.0",
-	"ranking":"#124306 in MvnRepository",
+	"ranking":"#106779 in MvnRepository",
 	"tags":[
 		"event",
 		"service",
@@ -28,6 +26,14 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.86.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -179,15 +185,6 @@
 			"usage":3,
 			"version":"3.77.1-01",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.77.0-08",
-			"vulnerabilities":""
 		}
-	],
-	"description":"org.sonatype.nexus:nexus-distributed-event-service-api"
+	]
 }

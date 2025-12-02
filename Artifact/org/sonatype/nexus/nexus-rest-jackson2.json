@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-rest-jackson2",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-rest-jackson2",
-	"version_latest":"3.86.2-01",
-	"ts_publish":1762997768000,
-	"dt_publish":"2025-11-13 09:36:08.000",
-	"ts_update":1762999004746,
-	"dt_update":"2025-11-13 09:56:29.569",
-	"count_dep":98,
+	"version_latest":"3.87.0-03",
+	"ts_publish":1764704781000,
+	"dt_publish":"2025-12-03 03:46:21.000",
+	"ts_update":1764705401789,
+	"dt_update":"2025-12-03 03:56:27.798",
+	"count_dep":6,
 	"count_ref":4,
-	"licenses":[
-		"Eclipse Public License"
-	],
+	"licenses":[],
 	"categories":[
 		"Build Tools",
 		"Source Control System Integration"
@@ -20,12 +18,20 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.sonatype.nexus/nexus-rest-jackson2@3.83.0-08",
 	"count_used_by":6,
 	"license":"EPL 1.0",
-	"ranking":"#73476 in MvnRepository",
+	"ranking":"#78218 in MvnRepository",
 	"tags":[
 		"rest",
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.86.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -177,15 +183,6 @@
 			"usage":3,
 			"version":"3.77.1-01",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.77.0-08",
-			"vulnerabilities":""
 		}
-	],
-	"description":"org.sonatype.nexus:nexus-rest-jackson2"
+	]
 }
