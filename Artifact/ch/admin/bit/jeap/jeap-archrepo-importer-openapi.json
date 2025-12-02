@@ -2,19 +2,21 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-archrepo-importer-openapi",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-archrepo-importer-openapi",
-	"version_latest":"4.3.0",
-	"ts_publish":1764345906000,
-	"ts_update":1764346847049,
-	"count_dep":42,
-	"count_ref":2,
-	"licenses":[],
+	"version_latest":"4.4.0",
+	"ts_publish":1764673038000,
+	"ts_update":1764674227340,
+	"count_dep":128,
+	"count_ref":3,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-archrepo-service/tree/main/jeap-archrepo-importer-openapi",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-archrepo-importer-openapi@1.29.0",
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-archrepo-service.git/jeap-archrepo-importer-openapi",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#412235 in MvnRepository",
+	"ranking":"#435298 in MvnRepository",
 	"tags":[
 		"admin",
 		"openapi",
@@ -185,6 +187,14 @@
 	],
 	"versions":[
 		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.3.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251125",
 			"repository":"Central",
 			"type":"release",
@@ -335,16 +345,9 @@
 			"usage":1,
 			"version":"2.6.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250918",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.5.3",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-11-29 00:05:06.000",
-	"dt_update":"2025-11-29 00:20:32.823"
+	"dt_publish":"2025-12-02 18:57:18.000",
+	"dt_update":"2025-12-02 19:16:50.342",
+	"description":"A common parent project"
 }
