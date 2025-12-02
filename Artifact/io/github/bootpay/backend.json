@@ -1,107 +1,47 @@
 {
-	"id":"pkg:maven/io.micronaut.starter/micronaut-cli",
-	"description":"Generates Micronaut applications",
-	"group_id":"io.micronaut.starter",
-	"artifact_id":"micronaut-cli",
-	"version_latest":"4.10.3",
-	"ts_publish":1764654460000,
-	"dt_publish":"2025-12-02 13:47:40.000",
-	"ts_update":1764656796494,
-	"dt_update":"2025-12-02 14:26:27.346",
-	"count_dep":52,
+	"id":"pkg:maven/io.github.bootpay/backend",
+	"description":"Bootpay Backend Library",
+	"group_id":"io.github.bootpay",
+	"artifact_id":"backend",
+	"version_latest":"3.0.3",
+	"ts_publish":1764656377000,
+	"dt_publish":"2025-12-02 14:19:37.000",
+	"ts_update":1764656793439,
+	"dt_update":"2025-12-02 14:26:27.344",
+	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
-	"categories":[
-		"Uncategorized"
+		"MIT License"
 	],
 	"dsv":1,
-	"url_project":"https://micronaut-projects.github.io/micronaut-starter/latest/guide/",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.micronaut.starter/micronaut-cli@4.9.4",
+	"url_project":"https://github.com/bootpay/android",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.github.bootpay/backend@3.0.3",
 	"contributors":[
-		"James Kleeh"
+		"ehowlsla"
 	],
-	"url_scm":"scm:git@github.com:micronaut-projects/micronaut-starter.git",
-	"home_page":"https://micronaut.io",
-	"license":"Apache 2.0",
-	"ranking":"#1008819 in MvnRepository",
+	"url_scm":"https://github.com/bootpay/backend-java/tree/main",
+	"home_page":"https://github.com/bootpay/android",
+	"license":"MIT",
+	"ranking":"#815980 in MvnRepository",
 	"tags":[
-		"micronaut",
-		"starter",
-		"command-line"
+		"github",
+		"backend"
 	],
 	"versions":[
 		{
-			"date":"20251113",
+			"date":"20250801",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.10.2",
+			"version":"3.0.2",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20251029",
+			"date":"20250516",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.10.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251022",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251003",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.9.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250827",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.9.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250731",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.9.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250708",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.3",
+			"version":"3.0.1",
 			"vulnerabilities":""
 		},
 		{
@@ -109,87 +49,143 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.8.2",
+			"version":"3.0.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250401",
+			"date":"20250312",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.8.0",
+			"version":"2.4.4",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250212",
+			"date":"20250217",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.7.6",
+			"version":"2.4.3",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250204",
+			"date":"20250214",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.7.5",
+			"version":"2.4.2",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250111",
+			"date":"20250214",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.7.4",
+			"version":"2.4.1",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241223",
+			"date":"20250213",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.7.3",
+			"version":"2.4.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241213",
+			"date":"20240925",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.7.2",
+			"version":"2.3.3",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241122",
+			"date":"20240802",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.7.1",
+			"version":"2.3.2",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241113",
+			"date":"20240605",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.7.0",
+			"version":"2.3.1",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20241007",
+			"date":"20240529",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.6.3",
+			"version":"2.3.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20240913",
+			"date":"20240528",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"4.6.2",
+			"version":"2.2.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240527",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.2.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240527",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.2.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240205",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.2.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240201",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.2.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20230619",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.2.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20230413",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20221108",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.1.4",
 			"vulnerabilities":""
 		}
 	]
