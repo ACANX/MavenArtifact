@@ -3,11 +3,11 @@
 	"description":"This module contains client library for Microsoft Azure Blob Storage.",
 	"group_id":"com.azure",
 	"artifact_id":"azure-storage-blob",
-	"version_latest":"12.32.0",
-	"ts_publish":1761073557000,
-	"dt_publish":"2025-10-22 03:05:57.000",
-	"ts_update":1761074802332,
-	"dt_update":"2025-10-22 03:26:26.267",
+	"version_latest":"12.33.0-beta.1",
+	"ts_publish":1764793078000,
+	"dt_publish":"2025-12-04 04:17:58.000",
+	"ts_update":1764793601581,
+	"dt_update":"2025-12-04 04:26:31.623",
 	"count_dep":44,
 	"count_ref":6,
 	"licenses":[
@@ -24,10 +24,10 @@
 		"Microsoft Corporation"
 	],
 	"url_scm":"scm:git:https://github.com/Azure/azure-sdk-for-java",
-	"count_used_by":218,
+	"count_used_by":223,
 	"home_page":"https://github.com/Azure/azure-sdk-for-java",
 	"license":"MIT",
-	"ranking":"#2613 in MvnRepository",
+	"ranking":"#2761 in MvnRepository",
 	"tags":[
 		"persistence",
 		"binary",
@@ -38,6 +38,14 @@
 		"blob"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":21,
+			"version":"12.32.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250709",
 			"repository":"Central",
@@ -50,7 +58,7 @@
 			"date":"20250926",
 			"repository":"Central",
 			"type":"release",
-			"usage":15,
+			"usage":24,
 			"version":"12.31.3",
 			"vulnerabilities":""
 		},
@@ -58,7 +66,7 @@
 			"date":"20250821",
 			"repository":"Central",
 			"type":"release",
-			"usage":30,
+			"usage":32,
 			"version":"12.31.2",
 			"vulnerabilities":""
 		},
@@ -66,7 +74,7 @@
 			"date":"20250730",
 			"repository":"Central",
 			"type":"release",
-			"usage":32,
+			"usage":33,
 			"version":"12.31.1",
 			"vulnerabilities":""
 		},
@@ -98,7 +106,7 @@
 			"date":"20250311",
 			"repository":"Central",
 			"type":"release",
-			"usage":55,
+			"usage":56,
 			"version":"12.30.0",
 			"vulnerabilities":""
 		},
@@ -138,7 +146,7 @@
 			"date":"20241009",
 			"repository":"Central",
 			"type":"release",
-			"usage":37,
+			"usage":38,
 			"version":"12.28.1",
 			"vulnerabilities":""
 		},
@@ -146,7 +154,7 @@
 			"date":"20240918",
 			"repository":"Central",
 			"type":"release",
-			"usage":32,
+			"usage":33,
 			"version":"12.28.0",
 			"vulnerabilities":""
 		},
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":39,
 			"version":"12.26.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240517",
-			"repository":"Central",
-			"type":"release",
-			"usage":36,
-			"version":"12.26.0",
 			"vulnerabilities":""
 		}
 	]

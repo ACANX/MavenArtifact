@@ -3,11 +3,11 @@
 	"description":"This module contains common code based for all Microsoft Azure Storage client libraries.",
 	"group_id":"com.azure",
 	"artifact_id":"azure-storage-common",
-	"version_latest":"12.31.0",
-	"ts_publish":1761073557000,
-	"dt_publish":"2025-10-22 03:05:57.000",
-	"ts_update":1761074797368,
-	"dt_update":"2025-10-22 03:26:26.266",
+	"version_latest":"12.32.0-beta.1",
+	"ts_publish":1764793078000,
+	"dt_publish":"2025-12-04 04:17:58.000",
+	"ts_update":1764793603974,
+	"dt_update":"2025-12-04 04:26:31.622",
 	"count_dep":38,
 	"count_ref":4,
 	"licenses":[
@@ -27,12 +27,20 @@
 	"count_used_by":43,
 	"home_page":"https://github.com/Azure/azure-sdk-for-java",
 	"license":"MIT",
-	"ranking":"#11091 in MvnRepository",
+	"ranking":"#11454 in MvnRepository",
 	"tags":[
 		"azure",
 		"storage"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"12.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250709",
 			"repository":"Central",
@@ -45,7 +53,7 @@
 			"date":"20250926",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":9,
 			"version":"12.30.3",
 			"vulnerabilities":""
 		},
@@ -53,7 +61,7 @@
 			"date":"20250821",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"12.30.2",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":14,
 			"version":"12.25.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240517",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"12.25.0",
 			"vulnerabilities":""
 		}
 	]
