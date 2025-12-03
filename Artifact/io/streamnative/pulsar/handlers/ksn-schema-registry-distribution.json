@@ -3,9 +3,9 @@
 	"description":"Distribution package for Kafka Compatible Schema Registry",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"ksn-schema-registry-distribution",
-	"version_latest":"4.1.0.8",
-	"ts_publish":1763982793000,
-	"ts_update":1763983595373,
+	"version_latest":"4.1.0.9",
+	"ts_publish":1764759424000,
+	"ts_update":1764760577319,
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[],
@@ -13,10 +13,10 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/ksn-schema-registry-distribution/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/ksn-schema-registry-distribution@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/ksn-schema-registry-distribution",
-	"dt_publish":"2025-11-24 19:13:13.000",
-	"dt_update":"2025-11-24 19:26:27.057",
+	"dt_publish":"2025-12-03 18:57:04.000",
+	"dt_update":"2025-12-03 19:16:03.683",
 	"license":"Apache 2.0",
-	"ranking":"#916680 in MvnRepository",
+	"ranking":"#474428 in MvnRepository",
 	"tags":[
 		"registry",
 		"distribution",
@@ -24,6 +24,14 @@
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.1.0.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251115",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.5.5",
 			"vulnerabilities":""
 		}
 	]
