@@ -2,14 +2,12 @@
 	"id":"pkg:maven/com.easy-query/sql-api-proxy",
 	"group_id":"com.easy-query",
 	"artifact_id":"sql-api-proxy",
-	"version_latest":"3.1.64",
-	"ts_publish":1764599615000,
-	"ts_update":1764600236785,
-	"count_dep":2,
+	"version_latest":"3.1.65",
+	"ts_publish":1764769014000,
+	"ts_update":1764770215253,
+	"count_dep":1,
 	"count_ref":3,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/xuejmnet/easy-query/sql-platform/sql-api-proxy",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.easy-query/sql-api-proxy@3.0.66",
@@ -17,11 +15,11 @@
 		"xuejiaming"
 	],
 	"url_scm":"https://github.com/xuejmnet/easy-query/sql-platform/sql-api-proxy",
-	"dt_publish":"2025-12-01 22:33:35.000",
-	"dt_update":"2025-12-01 22:43:27.908",
+	"dt_publish":"2025-12-03 21:36:54.000",
+	"dt_update":"2025-12-03 21:56:27.652",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#59469 in MvnRepository",
+	"ranking":"#59603 in MvnRepository",
 	"tags":[
 		"sql",
 		"query",
@@ -29,6 +27,14 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251201",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.1.64",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251127",
 			"repository":"Central",
@@ -180,15 +186,6 @@
 			"usage":3,
 			"version":"3.1.45",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251024",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.1.44",
-			"vulnerabilities":""
 		}
-	],
-	"description":"java object query distributed connector"
+	]
 }

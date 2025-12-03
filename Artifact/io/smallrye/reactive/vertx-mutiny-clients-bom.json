@@ -3,11 +3,11 @@
 	"description":"Bill of materials for the Mutiny Vert.x client modules.",
 	"group_id":"io.smallrye.reactive",
 	"artifact_id":"vertx-mutiny-clients-bom",
-	"version_latest":"3.21.0",
-	"ts_publish":1764754762000,
-	"dt_publish":"2025-12-03 17:39:22.000",
-	"ts_update":1764755475973,
-	"dt_update":"2025-12-03 17:50:52.090",
+	"version_latest":"3.21.1",
+	"ts_publish":1764768318000,
+	"dt_publish":"2025-12-03 21:25:18.000",
+	"ts_update":1764770219219,
+	"dt_update":"2025-12-03 21:56:31.296",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/smallrye/smallrye-mutiny-vertx-bindings",
 	"home_page":"https://smallrye.io/smallrye-mutiny-vertx-bindings",
 	"license":"Apache 2.0",
-	"ranking":"#491482 in MvnRepository",
+	"ranking":"#657004 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
@@ -37,6 +37,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251127",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.20.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240315",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]
