@@ -3,16 +3,14 @@
 	"description":"Drift annotations and exceptions for use in Thrift interfaces and types",
 	"group_id":"com.facebook.airlift.drift",
 	"artifact_id":"drift-api",
-	"version_latest":"0.223",
-	"ts_publish":1757688834000,
-	"dt_publish":"2025-09-12 22:53:54.000",
-	"ts_update":1757690116779,
-	"dt_update":"2025-09-12 23:14:54.664",
+	"version_latest":"0.224",
+	"ts_publish":1764784768000,
+	"dt_publish":"2025-12-04 01:59:28.000",
+	"ts_update":1764786422011,
+	"dt_update":"2025-12-04 02:26:40.188",
 	"count_dep":0,
-	"count_ref":26,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"count_ref":17,
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/prestodb/airlift/drift-root/drift-api",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.facebook.airlift.drift/drift-api@0.221",
@@ -20,14 +18,22 @@
 		"Airlift"
 	],
 	"url_scm":"https://github.com/prestodb/drift/drift-api",
-	"count_used_by":14,
+	"count_used_by":63,
 	"license":"Apache 2.0",
-	"ranking":"#34189 in MvnRepository",
+	"ranking":"#8188 in MvnRepository",
 	"tags":[
 		"facebook",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"0.223",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250821",
 			"repository":"Central",
@@ -40,7 +46,7 @@
 			"date":"20250809",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":63,
 			"version":"0.221",
 			"vulnerabilities":""
 		},
