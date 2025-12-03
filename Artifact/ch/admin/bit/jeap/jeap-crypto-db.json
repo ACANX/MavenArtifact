@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-crypto-db",
-	"version_latest":"4.5.0",
-	"ts_publish":1764338551000,
-	"dt_publish":"2025-11-28 22:02:31.000",
-	"ts_update":1764339412102,
-	"dt_update":"2025-11-28 22:16:39.353",
+	"version_latest":"5.0.0",
+	"ts_publish":1764758010000,
+	"dt_publish":"2025-12-03 18:33:30.000",
+	"ts_update":1764758777536,
+	"dt_update":"2025-12-03 18:45:59.145",
 	"count_dep":42,
 	"count_ref":0,
 	"licenses":[
@@ -21,13 +21,21 @@
 	],
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-crypto.git/jeap-crypto-db",
 	"license":"Apache 2.0",
-	"ranking":"#796323 in MvnRepository",
+	"ranking":"#795395 in MvnRepository",
 	"tags":[
 		"database",
 		"admin",
 		"cryptography"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.20.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.19.0",
 			"vulnerabilities":""
 		}
 	]
