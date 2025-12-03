@@ -3,11 +3,11 @@
 	"description":"The core module of the Cypher DSL, including all supported elements and the default renderer.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-cypher-dsl",
-	"version_latest":"2025.2.0",
-	"ts_publish":1761901192000,
-	"dt_publish":"2025-10-31 16:59:52.000",
-	"ts_update":1761902282966,
-	"dt_update":"2025-10-31 17:17:40.737",
+	"version_latest":"2025.2.1",
+	"ts_publish":1764753442000,
+	"dt_publish":"2025-12-03 17:17:22.000",
+	"ts_update":1764753741341,
+	"dt_update":"2025-12-03 17:22:05.929",
 	"count_dep":10,
 	"count_ref":4,
 	"licenses":[
@@ -32,7 +32,7 @@
 	"url_scm":"https://github.com/neo4j/cypher-dsl/neo4j-cypher-dsl",
 	"count_used_by":23,
 	"license":"Apache 2.0",
-	"ranking":"#20241 in MvnRepository",
+	"ranking":"#20726 in MvnRepository",
 	"tags":[
 		"database",
 		"graph",
@@ -40,6 +40,14 @@
 		"dsl"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2025.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251013",
 			"repository":"Central",
@@ -68,7 +76,7 @@
 			"date":"20250901",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"2025.0.1",
 			"vulnerabilities":""
 		},
@@ -190,14 +198,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2024.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240930",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2024.2.0",
 			"vulnerabilities":""
 		}
 	]
