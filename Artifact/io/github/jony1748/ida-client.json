@@ -3,11 +3,11 @@
 	"description":"Java SDK for Fayda IDA (Identity Authentication) services. Provides a simple and intuitive interface\n\t\tfor OTP generation, Yes/No authentication, and eKYC (Electronic Know Your Customer) operations.\n\n\t\tFeatures:\n\t\t- OTP Management: Request and validate OTPs for Fayda ID verification\n\t\t- Yes/No Authentication: Perform authentication using OTP challenges\n\t\t- eKYC Services: Retrieve verified identity details securely\n\t\t- Cryptographic Security: Supports RSA-OAEP encryption, AES-GCM decryption, and JWT signing/verification\n\t\t- PKCS12 Key Support: Secure key and certificate management using PKCS12 keystores\n\t\t- Flexible Configuration: Supports environment variables and programmatic configuration\n\t\t- Robust Reliability: Comprehensive error handling, logging, and response validation\n\n\t\tDesigned for seamless integration with Java and Spring Boot applications interacting with Fayda IDA services.",
 	"group_id":"io.github.jony1748",
 	"artifact_id":"ida-client",
-	"version_latest":"1.0.1",
-	"ts_publish":1762949793000,
-	"dt_publish":"2025-11-12 20:16:33.000",
-	"ts_update":1762952203108,
-	"dt_update":"2025-11-12 20:56:35.060",
+	"version_latest":"1.0.2",
+	"ts_publish":1764746118000,
+	"dt_publish":"2025-12-03 15:15:18.000",
+	"ts_update":1764746377806,
+	"dt_update":"2025-12-03 15:19:30.223",
 	"count_dep":210,
 	"count_ref":0,
 	"licenses":[
@@ -23,12 +23,20 @@
 	"url_scm":"https://github.com/National-ID-Program-Ethiopia/ida-client-service-java",
 	"home_page":"https://github.com/National-ID-Program-Ethiopia/ida-client-service-java.git",
 	"license":"Apache 2.0",
-	"ranking":"#812923 in MvnRepository",
+	"ranking":"#452196 in MvnRepository",
 	"tags":[
 		"github",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251110",
 			"repository":"Central",
