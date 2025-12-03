@@ -3,11 +3,11 @@
 	"description":"A Maven plugin for checking whether project files comply with\n        format rules defined in .editorconfig\n        files and eventually also for fixing the violations",
 	"group_id":"org.ec4j.maven",
 	"artifact_id":"editorconfig-maven-plugin",
-	"version_latest":"0.1.17",
-	"ts_publish":1764280335000,
-	"dt_publish":"2025-11-28 05:52:15.000",
-	"ts_update":1764281747750,
-	"dt_update":"2025-11-28 06:15:38.362",
+	"version_latest":"0.2.0",
+	"ts_publish":1764766322000,
+	"dt_publish":"2025-12-03 20:52:02.000",
+	"ts_update":1764768183551,
+	"dt_update":"2025-12-03 21:22:56.626",
 	"count_dep":34,
 	"count_ref":1,
 	"licenses":[
@@ -25,7 +25,7 @@
 	],
 	"url_scm":"https://github.com/ec4j/editorconfig-maven-plugin/editorconfig-maven-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#878760 in MvnRepository",
+	"ranking":"#400052 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -35,6 +35,22 @@
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.1.17",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251127",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.1.16",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20230306",
 			"repository":"Central",
@@ -155,5 +171,6 @@
 			"version":"0.0.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
