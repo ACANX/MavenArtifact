@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.noear/solon-view-jsp-jakarta",
 	"group_id":"org.noear",
 	"artifact_id":"solon-view-jsp-jakarta",
-	"version_latest":"3.7.3-M2",
-	"ts_publish":1764740819000,
-	"dt_publish":"2025-12-03 13:46:59.000",
-	"ts_update":1764743190943,
-	"dt_update":"2025-12-03 14:26:23.898",
+	"version_latest":"3.7.3",
+	"ts_publish":1764852356000,
+	"dt_publish":"2025-12-04 20:45:56.000",
+	"ts_update":1764854804506,
+	"dt_update":"2025-12-04 21:23:05.865",
 	"count_dep":11,
 	"count_ref":5,
 	"licenses":[
@@ -23,13 +23,21 @@
 	],
 	"url_scm":"https://github.com/opensolon/solon/solon-view-jsp-jakarta",
 	"license":"Apache 2.0",
-	"ranking":"#828064 in MvnRepository",
+	"ranking":"#98411 in MvnRepository",
 	"tags":[
 		"jakarta",
 		"jsp",
 		"view"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":5,
+			"version":"3.7.3-M1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251121",
 			"repository":"Central",
@@ -181,15 +189,8 @@
 			"usage":0,
 			"version":"3.6.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251001",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.6.0",
-			"vulnerabilities":""
 		}
 	],
-	"description":"Java project for solon"
+	"description":"Java project for solon",
+	"count_used_by":5
 }
