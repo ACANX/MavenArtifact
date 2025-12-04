@@ -3,12 +3,12 @@
 	"description":"Snowflake Kafka Connect Sink Connector",
 	"group_id":"com.snowflake",
 	"artifact_id":"snowflake-kafka-connector",
-	"version_latest":"4.0.0-rc3",
-	"ts_publish":1764027434000,
-	"dt_publish":"2025-11-25 07:37:14.000",
-	"ts_update":1764028594728,
-	"dt_update":"2025-11-25 07:56:26.116",
-	"count_dep":78,
+	"version_latest":"4.0.0-rc4",
+	"ts_publish":1764872752000,
+	"dt_publish":"2025-12-05 02:25:52.000",
+	"ts_update":1764876403670,
+	"dt_update":"2025-12-05 03:26:32.451",
+	"count_dep":79,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/snowflakedb/snowflake-kafka-connector",
 	"home_page":"https://www.snowflake.com/",
 	"license":"Apache 2.0",
-	"ranking":"#882191 in MvnRepository",
+	"ranking":"#523122 in MvnRepository",
 	"tags":[
 		"streaming",
 		"kafka",
@@ -34,6 +34,14 @@
 		"snowflake"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.0-rc3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251119",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240507",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.2.2",
 			"vulnerabilities":""
 		}
 	]
