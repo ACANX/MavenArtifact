@@ -3,11 +3,11 @@
 	"description":"plugin for avaje-inject to provide a default validator",
 	"group_id":"io.avaje",
 	"artifact_id":"avaje-validator-inject-plugin",
-	"version_latest":"2.15-RC2",
-	"ts_publish":1764604202000,
-	"dt_publish":"2025-12-01 23:50:02.000",
-	"ts_update":1764606203843,
-	"dt_update":"2025-12-02 00:23:12.039",
+	"version_latest":"2.15-RC3",
+	"ts_publish":1764810871000,
+	"dt_publish":"2025-12-04 09:14:31.000",
+	"ts_update":1764811596185,
+	"dt_update":"2025-12-04 09:26:30.173",
 	"count_dep":12,
 	"count_ref":4,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"git@github.com:avaje-pom/java11-oss.git/avaje-validator-parent/avaje-validator-inject-plugin",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#139874 in MvnRepository",
+	"ranking":"#135180 in MvnRepository",
 	"tags":[
 		"plugin",
 		"dependency-injection",
 		"validation"
 	],
 	"versions":[
+		{
+			"date":"20251201",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.15-RC2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251121",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.2-RC1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240729",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.1",
 			"vulnerabilities":""
 		}
 	]
