@@ -3,11 +3,11 @@
 	"description":"cffu executor wrapper provider for TTL",
 	"group_id":"io.foldright",
 	"artifact_id":"cffu2-ttl-executor-wrapper",
-	"version_latest":"2.1.0-Alpha1",
-	"ts_publish":1764444345000,
-	"dt_publish":"2025-11-30 03:25:45.000",
-	"ts_update":1764447457637,
-	"dt_update":"2025-11-30 04:17:29.973",
+	"version_latest":"2.1.0-Alpha2",
+	"ts_publish":1764866647000,
+	"dt_publish":"2025-12-05 00:44:07.000",
+	"ts_update":1764867400308,
+	"dt_update":"2025-12-05 00:56:27.475",
 	"count_dep":13,
 	"count_ref":0,
 	"licenses":[
@@ -24,11 +24,27 @@
 	"url_ci_management":"https://github.com/foldright/cffu/actions",
 	"home_page":"https://github.com/foldright/cffu",
 	"license":"Apache 2.0",
-	"ranking":"#619013 in MvnRepository",
+	"ranking":"#318423 in MvnRepository",
 	"tags":[
 		"executor"
 	],
 	"versions":[
+		{
+			"date":"20251129",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"2.1.0-Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251130",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -41,7 +57,7 @@
 			"date":"20251108",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.0.3",
 			"vulnerabilities":""
 		},
@@ -117,5 +133,6 @@
 			"version":"2.0.0-Alpha1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
