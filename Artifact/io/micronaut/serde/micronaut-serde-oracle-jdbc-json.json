@@ -3,12 +3,12 @@
 	"description":"Enables serialization/deserialization in Micronaut applications using build time information",
 	"group_id":"io.micronaut.serde",
 	"artifact_id":"micronaut-serde-oracle-jdbc-json",
-	"version_latest":"2.16.2",
-	"ts_publish":1762792065000,
-	"dt_publish":"2025-11-11 00:27:45.000",
-	"ts_update":1762793188906,
-	"dt_update":"2025-11-11 00:46:21.547",
-	"count_dep":15,
+	"version_latest":"3.0.0-M1",
+	"ts_publish":1764845280000,
+	"dt_publish":"2025-12-04 18:48:00.000",
+	"ts_update":1764845810209,
+	"dt_update":"2025-12-04 18:56:30.198",
+	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,7 +25,7 @@
 	"url_scm":"scm:git@github.com:micronaut-projects/micronaut-serialization.git",
 	"home_page":"https://micronaut.io",
 	"license":"Apache 2.0",
-	"ranking":"#501107 in MvnRepository",
+	"ranking":"#700811 in MvnRepository",
 	"tags":[
 		"micronaut",
 		"database",
@@ -36,6 +36,14 @@
 		"serialization"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.16.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251016",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.10.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240530",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.10.0",
 			"vulnerabilities":""
 		}
 	]
