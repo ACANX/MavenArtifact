@@ -3,11 +3,11 @@
 	"description":"Asynchronous HTTP/2 RPC/REST client/server library built on top of Java 8, Netty, Thrift and gRPC (armeria-logback14)",
 	"group_id":"com.linecorp.armeria",
 	"artifact_id":"armeria-logback14",
-	"version_latest":"1.34.0",
-	"ts_publish":1764321177000,
-	"dt_publish":"2025-11-28 17:12:57.000",
-	"ts_update":1764322004518,
-	"dt_update":"2025-11-28 17:26:28.327",
+	"version_latest":"1.34.1",
+	"ts_publish":1764829477000,
+	"dt_publish":"2025-12-04 14:24:37.000",
+	"ts_update":1764831422366,
+	"dt_update":"2025-12-04 14:56:31.730",
 	"count_dep":31,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/line/armeria",
 	"home_page":"https://armeria.dev/",
 	"license":"Apache 2.0",
-	"ranking":"#929462 in MvnRepository",
+	"ranking":"#614306 in MvnRepository",
 	"tags":[
 		"logback",
 		"logging",
 		"armeria"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.34.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250925",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.30.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240812",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.30.0",
 			"vulnerabilities":""
 		}
 	]

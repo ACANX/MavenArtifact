@@ -3,12 +3,12 @@
 	"description":"Distributed Database with Strong Consistency Based on Raft Protocol",
 	"group_id":"net.xdob.ratly",
 	"artifact_id":"ratly-jdbc",
-	"version_latest":"3.21.0",
-	"ts_publish":1764049942000,
-	"dt_publish":"2025-11-25 13:52:22.000",
-	"ts_update":1764052009201,
-	"dt_update":"2025-11-25 14:26:18.906",
-	"count_dep":48,
+	"version_latest":"3.22.0",
+	"ts_publish":1764830144000,
+	"dt_publish":"2025-12-04 14:35:44.000",
+	"ts_update":1764831418381,
+	"dt_update":"2025-12-04 14:56:29.449",
+	"count_dep":42,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/dibyang/ratly",
 	"home_page":"https://github.com/dibyang/ratly",
 	"license":"Apache 2.0",
-	"ranking":"#463699 in MvnRepository",
+	"ranking":"#445930 in MvnRepository",
 	"tags":[
 		"database",
 		"jdbc",
 		"sql"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.21.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250904",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0",
 			"vulnerabilities":""
 		}
 	]
