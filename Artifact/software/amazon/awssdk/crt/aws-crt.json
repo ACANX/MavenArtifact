@@ -3,11 +3,11 @@
 	"description":"Java bindings for the AWS SDK Common Runtime",
 	"group_id":"software.amazon.awssdk.crt",
 	"artifact_id":"aws-crt",
-	"version_latest":"0.40.1",
-	"ts_publish":1764045459000,
-	"dt_publish":"2025-11-25 12:37:39.000",
-	"ts_update":1764046595643,
-	"dt_update":"2025-11-25 12:56:27.684",
+	"version_latest":"0.40.2",
+	"ts_publish":1764812983000,
+	"dt_publish":"2025-12-04 09:49:43.000",
+	"ts_update":1764813388504,
+	"dt_update":"2025-12-04 09:56:18.955",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"AWS SDK Common Runtime Team"
 	],
 	"url_scm":"https://github.com/awslabs/aws-crt-java/tree/main",
-	"count_used_by":81,
+	"count_used_by":83,
 	"home_page":"https://github.com/awslabs/aws-crt-java",
 	"license":"Apache 2.0",
-	"ranking":"#6469 in MvnRepository",
+	"ranking":"#6349 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -34,10 +34,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"0.40.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251121",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":4,
 			"version":"0.40.0",
 			"vulnerabilities":""
 		},
@@ -45,7 +53,7 @@
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":15,
+			"usage":19,
 			"version":"0.39.4",
 			"vulnerabilities":""
 		},
@@ -53,7 +61,7 @@
 			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":12,
 			"version":"0.39.3",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.38.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"0.37.0",
 			"vulnerabilities":""
 		}
 	]
