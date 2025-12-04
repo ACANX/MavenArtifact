@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-res",
 	"group_id":"com.huaweicloud.sdk",
 	"artifact_id":"huaweicloud-sdk-res",
-	"version_latest":"3.1.176",
-	"ts_publish":1764234667000,
-	"dt_publish":"2025-11-27 17:11:07.000",
-	"ts_update":1764236309789,
-	"dt_update":"2025-11-27 17:38:19.946",
-	"count_dep":1,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"3.1.177",
+	"ts_publish":1764841693000,
+	"dt_publish":"2025-12-04 17:48:13.000",
+	"ts_update":1764843656204,
+	"dt_update":"2025-12-04 18:20:39.748",
+	"count_dep":21,
+	"count_ref":0,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,13 +19,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-res@3.1.160",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#294689 in MvnRepository",
+	"ranking":"#296219 in MvnRepository",
 	"tags":[
 		"sdk",
 		"cloud",
 		"huawei"
 	],
 	"versions":[
+		{
+			"date":"20251127",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.1.176",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -175,14 +185,7 @@
 			"usage":1,
 			"version":"3.1.157",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250710",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.156",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Services code for Huawei Cloud SDK for Java"
 }
