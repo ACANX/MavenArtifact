@@ -3,11 +3,11 @@
 	"description":"The New Relic Android instrumentation agent instruments and rewrites classes for Android applications",
 	"group_id":"com.newrelic.agent.android",
 	"artifact_id":"instrumentation",
-	"version_latest":"7.6.13",
-	"ts_publish":1763133687000,
-	"dt_publish":"2025-11-14 23:21:27.000",
-	"ts_update":1763134380471,
-	"dt_update":"2025-11-14 23:32:52.567",
+	"version_latest":"7.6.14",
+	"ts_publish":1764859962000,
+	"dt_publish":"2025-12-04 22:52:42.000",
+	"ts_update":1764861614427,
+	"dt_update":"2025-12-04 23:19:59.980",
 	"count_dep":0,
 	"count_ref":1,
 	"licenses":[],
@@ -24,7 +24,7 @@
 	"url_scm":"scm:git:https://github.com/newrelic/newrelic-android-agent.git",
 	"count_used_by":2,
 	"home_page":"https://newrelic.com",
-	"ranking":"#215538 in MvnRepository",
+	"ranking":"#241983 in MvnRepository",
 	"tags":[
 		"agent",
 		"newrelic",
@@ -33,10 +33,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251105",
+			"date":"20251114",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"7.6.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"7.6.12",
 			"vulnerabilities":""
 		},
@@ -44,7 +52,7 @@
 			"date":"20251031",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"7.6.11",
 			"vulnerabilities":""
 		},
@@ -52,7 +60,7 @@
 			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"7.6.10",
 			"vulnerabilities":""
 		},
@@ -60,7 +68,7 @@
 			"date":"20250915",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"7.6.9",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240206",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.2.1",
 			"vulnerabilities":""
 		}
 	]
