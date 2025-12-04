@@ -1,15 +1,15 @@
 {
-	"id":"pkg:maven/com.iussoft/iussoft-common-plugins-big",
-	"description":"Iussoft Open API for Java\n\t\tCopyright (C) http://www.iussoft.com\n\t\tAll rights reserved.",
+	"id":"pkg:maven/com.iussoft/iussoft-big-core",
+	"description":"Iussoft Open API for Java\n        Copyright (C) http://www.iussoft.com\n        All rights reserved.",
 	"group_id":"com.iussoft",
-	"artifact_id":"iussoft-common-plugins-big",
+	"artifact_id":"iussoft-big-core",
 	"version_latest":"3.3.25090901",
-	"ts_publish":1764827159000,
-	"dt_publish":"2025-12-04 13:45:59.000",
-	"ts_update":1764827797406,
-	"dt_update":"2025-12-04 13:56:29.129",
-	"count_dep":40,
-	"count_ref":0,
+	"ts_publish":1764827311000,
+	"dt_publish":"2025-12-04 13:48:31.000",
+	"ts_update":1764827796098,
+	"dt_update":"2025-12-04 13:56:29.128",
+	"count_dep":123,
+	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -18,25 +18,31 @@
 	],
 	"dsv":1,
 	"url_project":"http://www.iussoft.com",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.iussoft/iussoft-common-plugins-big@3.3.25090901",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.iussoft/iussoft-big-core@3.3.25090901",
 	"contributors":[
 		"qcb",
 		"dyhou",
 		"hexin"
 	],
-	"url_scm":"https://gitee.com/iussoft/iussoft-source/iussoft-common-plugins-big",
+	"url_scm":"https://gitee.com/iussoft/iussoft-source/iussoft-big-core",
+	"count_used_by":2,
 	"home_page":"http://www.iussoft.com",
 	"license":"Apache 2.0",
-	"ranking":"#579660 in MvnRepository",
-	"tags":[
-		"plugin"
-	],
+	"ranking":"#195324 in MvnRepository",
 	"versions":[
+		{
+			"date":"20241104",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.240100101",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"3.3.25060601",
 			"vulnerabilities":""
 		},
@@ -44,7 +50,7 @@
 			"date":"20250313",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"3.3.25020201",
 			"vulnerabilities":""
 		},
@@ -52,7 +58,7 @@
 			"date":"20250107",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"3.3.25010101",
 			"vulnerabilities":""
 		},
@@ -60,7 +66,7 @@
 			"date":"20240731",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"3.3.24030303",
 			"vulnerabilities":""
 		},
@@ -68,8 +74,16 @@
 			"date":"20240723",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"3.3.24030301",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20220415",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.22041501",
 			"vulnerabilities":""
 		}
 	]
