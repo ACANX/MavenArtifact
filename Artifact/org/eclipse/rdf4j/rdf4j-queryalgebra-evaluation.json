@@ -3,13 +3,13 @@
 	"description":"Evaluation strategy API and implementations for the query algebra model.",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-queryalgebra-evaluation",
-	"version_latest":"5.1.6",
-	"ts_publish":1758745482000,
-	"dt_publish":"2025-09-25 04:24:42.000",
-	"ts_update":1758752219233,
-	"dt_update":"2025-09-25 04:44:47.419",
-	"count_dep":51,
-	"count_ref":23,
+	"version_latest":"5.2.1",
+	"ts_publish":1764933883000,
+	"dt_publish":"2025-12-05 19:24:43.000",
+	"ts_update":1764935184423,
+	"dt_update":"2025-12-05 19:46:10.584",
+	"count_dep":32,
+	"count_ref":20,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
 	],
@@ -28,7 +28,7 @@
 	"count_used_by":36,
 	"home_page":"https://rdf4j.org/",
 	"license":"EDL 1.0",
-	"ranking":"#13221 in MvnRepository",
+	"ranking":"#13400 in MvnRepository",
 	"tags":[
 		"rdf",
 		"eclipse",
@@ -36,6 +36,22 @@
 		"evaluation"
 	],
 	"versions":[
+		{
+			"date":"20251005",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"5.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"5.1.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250906",
 			"repository":"Central",
@@ -48,7 +64,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":12,
 			"version":"5.1.4",
 			"vulnerabilities":""
 		},
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"4.3.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240723",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"4.3.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240601",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"4.3.12",
 			"vulnerabilities":""
 		}
 	]

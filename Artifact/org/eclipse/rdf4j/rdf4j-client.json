@@ -3,13 +3,13 @@
 	"description":"Parent POM for all RDF4J parsers, APIs and client libraries",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-client",
-	"version_latest":"5.1.6",
-	"ts_publish":1758745482000,
-	"dt_publish":"2025-09-25 04:24:42.000",
-	"ts_update":1758750341689,
-	"dt_update":"2025-09-25 04:44:47.422",
-	"count_dep":67,
-	"count_ref":3,
+	"version_latest":"5.2.1",
+	"ts_publish":1764933883000,
+	"dt_publish":"2025-12-05 19:24:43.000",
+	"ts_update":1764935200710,
+	"dt_update":"2025-12-05 19:46:10.584",
+	"count_dep":53,
+	"count_ref":2,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
 	],
@@ -28,13 +28,29 @@
 	"count_used_by":27,
 	"home_page":"https://rdf4j.org/",
 	"license":"EDL 1.0",
-	"ranking":"#17011 in MvnRepository",
+	"ranking":"#17734 in MvnRepository",
 	"tags":[
 		"rdf",
 		"eclipse",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251005",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"5.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250924",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"5.1.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250906",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.3.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240723",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.3.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240601",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.3.12",
 			"vulnerabilities":""
 		}
 	]
