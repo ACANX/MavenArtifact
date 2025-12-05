@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.gravitee.am.gateway/gravitee-am-gateway-services-sync",
 	"group_id":"io.gravitee.am.gateway",
 	"artifact_id":"gravitee-am-gateway-services-sync",
-	"version_latest":"4.10.0-alpha.2",
-	"ts_publish":1761207575000,
-	"dt_publish":"2025-10-23 16:19:35.000",
-	"ts_update":1761208011274,
-	"dt_update":"2025-10-23 16:26:30.647",
-	"count_dep":87,
+	"version_latest":"4.10.0-alpha.3",
+	"ts_publish":1764936503000,
+	"dt_publish":"2025-12-05 20:08:23.000",
+	"ts_update":1764938114899,
+	"dt_update":"2025-12-05 20:35:01.616",
+	"count_dep":4,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Network Management",
 		"Proxies"
@@ -20,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.gravitee.am.gateway/gravitee-am-gateway-services-sync@4.8.4-alpha.1",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#370024 in MvnRepository",
+	"ranking":"#435021 in MvnRepository",
 	"tags":[
 		"service",
 		"gateway",
@@ -28,11 +26,51 @@
 	],
 	"versions":[
 		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"4.10.0-alpha.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251017",
 			"repository":"Central",
 			"type":"alpha",
 			"usage":1,
 			"version":"4.10.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.9.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.9.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.9.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.9.1",
 			"vulnerabilities":""
 		},
 		{
@@ -49,6 +87,38 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"4.9.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.8.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.8.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.8.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.8.11",
 			"vulnerabilities":""
 		},
 		{
@@ -114,79 +184,6 @@
 			"usage":1,
 			"version":"4.8.4-alpha.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250801",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"4.8.0-alpha.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251013",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.7.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251010",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.7.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250926",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.7.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250918",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.7.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.7.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250826",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.7.12",
-			"vulnerabilities":""
 		}
-	],
-	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
+	]
 }
