@@ -3,13 +3,13 @@
 	"description":"The AWS Java SDK for Amazon DynamoDB module holds the client classes that are used for communicating\n        with Amazon DynamoDB\n        Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"dynamodb",
-	"version_latest":"2.40.0",
-	"ts_publish":1764731628000,
-	"dt_publish":"2025-12-03 11:13:48.000",
-	"ts_update":1764733821405,
-	"dt_update":"2025-12-03 11:49:44.828",
-	"count_dep":35,
-	"count_ref":2,
+	"version_latest":"2.40.3",
+	"ts_publish":1764977859000,
+	"dt_publish":"2025-12-06 07:37:39.000",
+	"ts_update":1764979001191,
+	"dt_update":"2025-12-06 07:56:29.440",
+	"count_dep":6,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -17,10 +17,10 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/dynamodb@2.32.17",
-	"count_used_by":293,
+	"count_used_by":295,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#2229 in MvnRepository",
+	"ranking":"#2230 in MvnRepository",
 	"tags":[
 		"database",
 		"aws",
@@ -31,10 +31,34 @@
 	],
 	"versions":[
 		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.40.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.40.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251201",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.39.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251127",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"2.39.5",
 			"vulnerabilities":""
 		},
@@ -164,30 +188,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.37.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251103",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.37.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251101",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.37.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251030",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.37.2",
 			"vulnerabilities":""
 		}
 	]

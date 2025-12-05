@@ -2,13 +2,13 @@
 	"id":"pkg:maven/software.amazon.awssdk/dynamodb-enhanced",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"dynamodb-enhanced",
-	"version_latest":"2.40.0",
-	"ts_publish":1764731629000,
-	"dt_publish":"2025-12-03 11:13:49.000",
-	"ts_update":1764733803967,
-	"dt_update":"2025-12-03 11:49:42.968",
-	"count_dep":32,
-	"count_ref":1,
+	"version_latest":"2.40.3",
+	"ts_publish":1764977859000,
+	"dt_publish":"2025-12-06 07:37:39.000",
+	"ts_update":1764979016059,
+	"dt_update":"2025-12-06 07:56:32.020",
+	"count_dep":28,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -16,10 +16,10 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/dynamodb-enhanced@2.32.17",
-	"count_used_by":75,
+	"count_used_by":76,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#6906 in MvnRepository",
+	"ranking":"#6837 in MvnRepository",
 	"tags":[
 		"database",
 		"aws",
@@ -30,10 +30,26 @@
 	],
 	"versions":[
 		{
-			"date":"20251201",
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.40.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.40.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251201",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.39.6",
 			"vulnerabilities":""
 		},
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.37.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251103",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.37.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251101",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.37.3",
 			"vulnerabilities":""
 		}
 	]
