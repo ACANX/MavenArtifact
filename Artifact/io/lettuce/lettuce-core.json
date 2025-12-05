@@ -3,11 +3,11 @@
 	"description":"Advanced and thread-safe Java Redis client for synchronous, asynchronous,\n        and reactive usage. Supports Cluster, Sentinel, Pipelining, Auto-Reconnect, Codecs\n        and much more.",
 	"group_id":"io.lettuce",
 	"artifact_id":"lettuce-core",
-	"version_latest":"7.1.0.RELEASE",
-	"ts_publish":1763717704000,
-	"dt_publish":"2025-11-21 17:35:04.000",
-	"ts_update":1763718994720,
-	"dt_update":"2025-11-21 17:56:26.563",
+	"version_latest":"7.2.0.RELEASE",
+	"ts_publish":1764942624000,
+	"dt_publish":"2025-12-05 21:50:24.000",
+	"ts_update":1764944273751,
+	"dt_update":"2025-12-05 22:17:36.177",
 	"count_dep":56,
 	"count_ref":0,
 	"licenses":[
@@ -27,16 +27,24 @@
 		"Tihomir Mateev"
 	],
 	"url_scm":"https://github.com/redis/lettuce",
-	"count_used_by":621,
+	"count_used_by":623,
 	"home_page":"https://github.com/redis/lettuce",
 	"license":"MIT",
-	"ranking":"#1020 in MvnRepository",
+	"ranking":"#1018 in MvnRepository",
 	"tags":[
 		"redis",
 		"database",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"7.1.0.RELEASE",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -57,7 +65,7 @@
 			"date":"20250902",
 			"repository":"Central",
 			"type":"release",
-			"usage":54,
+			"usage":59,
 			"version":"6.8.1.RELEASE",
 			"vulnerabilities":""
 		},
@@ -129,7 +137,7 @@
 			"date":"20250311",
 			"repository":"Central",
 			"type":"release",
-			"usage":51,
+			"usage":50,
 			"version":"6.5.5.RELEASE",
 			"vulnerabilities":""
 		},
@@ -153,7 +161,7 @@
 			"date":"20241230",
 			"repository":"Central",
 			"type":"release",
-			"usage":19,
+			"usage":22,
 			"version":"6.5.2.RELEASE",
 			"vulnerabilities":""
 		},
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"6.5.0.RC1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241230",
-			"repository":"Central",
-			"type":"release",
-			"usage":38,
-			"version":"6.4.2.RELEASE",
 			"vulnerabilities":""
 		}
 	]
