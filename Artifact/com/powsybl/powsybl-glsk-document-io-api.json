@@ -3,11 +3,11 @@
 	"description":"Single entry point for GLSK document imports with interface for GLSK document importers.",
 	"group_id":"com.powsybl",
 	"artifact_id":"powsybl-glsk-document-io-api",
-	"version_latest":"3.0.0",
-	"ts_publish":1760628031000,
-	"dt_publish":"2025-10-16 23:20:31.000",
-	"ts_update":1760628882697,
-	"dt_update":"2025-10-16 23:34:32.237",
+	"version_latest":"3.1.0",
+	"ts_publish":1764928286000,
+	"dt_publish":"2025-12-05 17:51:26.000",
+	"ts_update":1764929925166,
+	"dt_update":"2025-12-05 18:18:34.633",
 	"count_dep":60,
 	"count_ref":6,
 	"licenses":[
@@ -25,9 +25,9 @@
 		"Hugo SCHINDLER"
 	],
 	"url_scm":"https://github.com/powsybl/powsybl-entsoe/powsybl-glsk/powsybl-glsk-document-io-api",
-	"count_used_by":14,
+	"count_used_by":16,
 	"license":"MPL 2.0",
-	"ranking":"#34329 in MvnRepository",
+	"ranking":"#29495 in MvnRepository",
 	"tags":[
 		"document",
 		"doc",
@@ -35,6 +35,22 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250722",
 			"repository":"Central",
@@ -47,7 +63,7 @@
 			"date":"20250711",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":13,
 			"version":"2.14.0",
 			"vulnerabilities":""
 		},
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230203",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"2.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230110",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.1.0",
 			"vulnerabilities":""
 		}
 	]
