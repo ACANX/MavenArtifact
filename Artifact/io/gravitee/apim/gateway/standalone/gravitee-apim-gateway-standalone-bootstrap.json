@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.apim.gateway.standalone/gravitee-apim-gateway-standalone-bootstrap",
 	"group_id":"io.gravitee.apim.gateway.standalone",
 	"artifact_id":"gravitee-apim-gateway-standalone-bootstrap",
-	"version_latest":"4.9.7",
-	"ts_publish":1764166244000,
-	"dt_publish":"2025-11-26 22:10:44.000",
-	"ts_update":1764170202041,
-	"dt_update":"2025-11-26 23:16:13.984",
-	"count_dep":0,
+	"version_latest":"4.9.8",
+	"ts_publish":1764952036000,
+	"dt_publish":"2025-12-06 00:27:16.000",
+	"ts_update":1764953210457,
+	"dt_update":"2025-12-06 00:46:30.902",
+	"count_dep":19,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,12 +28,20 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-standalone/gravitee-apim-gateway-standalone-bootstrap",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#198557 in MvnRepository",
+	"ranking":"#198369 in MvnRepository",
 	"tags":[
 		"gateway",
 		"bootstrap"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251121",
 			"repository":"Central",
@@ -121,6 +131,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.8.14",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251121",
 			"repository":"Central",
 			"type":"release",
@@ -175,22 +193,7 @@
 			"usage":2,
 			"version":"4.8.7",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250901",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.5",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }
