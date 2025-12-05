@@ -3,12 +3,12 @@
 	"description":"The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference\nfor more details.",
 	"group_id":"com.openai",
 	"artifact_id":"openai-java",
-	"version_latest":"4.8.0",
-	"ts_publish":1763059371000,
-	"dt_publish":"2025-11-14 02:42:51.000",
-	"ts_update":1763060045850,
-	"dt_update":"2025-11-14 02:53:50.633",
-	"count_dep":12,
+	"version_latest":"4.9.0",
+	"ts_publish":1764895370000,
+	"dt_publish":"2025-12-05 08:42:50.000",
+	"ts_update":1764896206502,
+	"dt_update":"2025-12-05 08:56:29.966",
+	"count_dep":6,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -20,15 +20,31 @@
 		"OpenAI"
 	],
 	"url_scm":"https://github.com/openai/openai-java",
-	"count_used_by":18,
+	"count_used_by":22,
 	"home_page":"https://platform.openai.com/docs",
 	"license":"Apache 2.0",
-	"ranking":"#26667 in MvnRepository",
+	"ranking":"#21256 in MvnRepository",
 	"tags":[
 		"ai",
 		"openai"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.7.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251104",
 			"repository":"Central",
@@ -49,7 +65,7 @@
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":8,
 			"version":"4.6.1",
 			"vulnerabilities":""
 		},
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.0",
 			"vulnerabilities":""
 		}
 	]
