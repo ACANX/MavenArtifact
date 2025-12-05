@@ -3,13 +3,13 @@
 	"description":"A common parent project",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-archrepo-metamodel",
-	"version_latest":"4.5.0",
-	"ts_publish":1764768262000,
-	"dt_publish":"2025-12-03 21:24:22.000",
-	"ts_update":1764770207688,
-	"dt_update":"2025-12-03 21:56:33.179",
+	"version_latest":"4.6.0",
+	"ts_publish":1764930651000,
+	"dt_publish":"2025-12-05 18:30:51.000",
+	"ts_update":1764931353105,
+	"dt_update":"2025-12-05 18:42:14.330",
 	"count_dep":75,
-	"count_ref":7,
+	"count_ref":13,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,12 +22,28 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-archrepo-service.git/jeap-archrepo-metamodel",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#107791 in MvnRepository",
+	"ranking":"#104992 in MvnRepository",
 	"tags":[
 		"admin",
 		"model"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.6.0",
 			"vulnerabilities":""
 		}
 	]

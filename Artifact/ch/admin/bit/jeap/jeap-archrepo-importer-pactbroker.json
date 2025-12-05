@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-archrepo-importer-pactbroker",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-archrepo-importer-pactbroker",
-	"version_latest":"4.5.0",
-	"ts_publish":1764768262000,
-	"dt_publish":"2025-12-03 21:24:22.000",
-	"ts_update":1764770220763,
-	"dt_update":"2025-12-03 21:56:33.180",
-	"count_dep":38,
+	"version_latest":"4.6.0",
+	"ts_publish":1764930651000,
+	"dt_publish":"2025-12-05 18:30:51.000",
+	"ts_update":1764931357795,
+	"dt_update":"2025-12-05 18:42:14.789",
+	"count_dep":96,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-archrepo-service/tree/main/jeap-archrepo-importer-pactbroker",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-archrepo-importer-pactbroker@1.31.0",
@@ -19,12 +21,28 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-archrepo-service.git/jeap-archrepo-importer-pactbroker",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#340571 in MvnRepository",
+	"ranking":"#339687 in MvnRepository",
 	"tags":[
 		"admin",
 		"import"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -168,22 +186,7 @@
 			"usage":1,
 			"version":"2.7.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.6.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A common parent project"
 }

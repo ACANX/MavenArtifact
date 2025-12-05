@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-archrepo-dbschema-model",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-archrepo-dbschema-model",
-	"version_latest":"4.5.0",
-	"ts_publish":1764768262000,
-	"dt_publish":"2025-12-03 21:24:22.000",
-	"ts_update":1764770225259,
-	"dt_update":"2025-12-03 21:56:33.175",
-	"count_dep":36,
+	"version_latest":"4.6.0",
+	"ts_publish":1764930651000,
+	"dt_publish":"2025-12-05 18:30:51.000",
+	"ts_update":1764931343362,
+	"dt_update":"2025-12-05 18:42:14.788",
+	"count_dep":50,
 	"count_ref":4,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-archrepo-service/tree/main/jeap-archrepo-dbschema-model",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-archrepo-dbschema-model@1.31.0",
@@ -19,13 +21,45 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-archrepo-service.git/jeap-archrepo-dbschema-model",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#254886 in MvnRepository",
+	"ranking":"#187956 in MvnRepository",
 	"tags":[
 		"admin",
 		"model",
 		"schema"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251119",
 			"repository":"Central",
@@ -153,38 +187,7 @@
 			"usage":2,
 			"version":"2.7.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250919",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250918",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.5.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.5.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A common parent project"
 }

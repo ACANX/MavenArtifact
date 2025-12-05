@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-process-archive-adapter-kafka",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-process-archive-adapter-kafka",
-	"version_latest":"10.6.0",
-	"ts_publish":1764768389000,
-	"dt_publish":"2025-12-03 21:26:29.000",
-	"ts_update":1764770223824,
-	"dt_update":"2025-12-03 21:56:29.497",
-	"count_dep":44,
+	"version_latest":"10.7.0",
+	"ts_publish":1764930647000,
+	"dt_publish":"2025-12-05 18:30:47.000",
+	"ts_update":1764931347520,
+	"dt_update":"2025-12-05 18:42:15.269",
+	"count_dep":111,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-process-archive-service/tree/main/jeap-process-archive-adapter-kafka",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-process-archive-adapter-kafka@8.19.0",
@@ -19,7 +21,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-process-archive-service/tree/master.git/jeap-process-archive-adapter-kafka",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#245926 in MvnRepository",
+	"ranking":"#239174 in MvnRepository",
 	"tags":[
 		"admin",
 		"streaming",
@@ -28,6 +30,30 @@
 		"kafka"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.6.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -163,30 +189,7 @@
 			"usage":2,
 			"version":"8.15.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250703",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250617",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.12.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"JEAP Process Archive Service"
 }
