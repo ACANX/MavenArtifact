@@ -3,12 +3,12 @@
 	"description":"The resource is used to maintain a cache and link it to the API lifecycle. Redis provides a different range of persistence options, it means that the cache can keep data after reboot.",
 	"group_id":"io.gravitee.resource",
 	"artifact_id":"gravitee-resource-cache-redis",
-	"version_latest":"4.0.2",
-	"ts_publish":1763469643000,
-	"dt_publish":"2025-11-18 20:40:43.000",
-	"ts_update":1763470590745,
-	"dt_update":"2025-11-18 20:56:23.136",
-	"count_dep":124,
+	"version_latest":"4.0.3",
+	"ts_publish":1764917637000,
+	"dt_publish":"2025-12-05 14:53:57.000",
+	"ts_update":1764919182514,
+	"dt_update":"2025-12-05 15:19:31.978",
+	"count_dep":167,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,7 +29,7 @@
 	],
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-resource-cache-redis",
 	"license":"Apache 2.0",
-	"ranking":"#937556 in MvnRepository",
+	"ranking":"#610202 in MvnRepository",
 	"tags":[
 		"database",
 		"cache",
@@ -37,6 +37,14 @@
 		"redis"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250117",
 			"repository":"Central",
