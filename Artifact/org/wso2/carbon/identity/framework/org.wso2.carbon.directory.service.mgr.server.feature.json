@@ -3,12 +3,12 @@
 	"description":"This feature contains the core bundles required to manage service principles in LDAP",
 	"group_id":"org.wso2.carbon.identity.framework",
 	"artifact_id":"org.wso2.carbon.directory.service.mgr.server.feature",
-	"version_latest":"7.8.630",
-	"ts_publish":1764879038000,
-	"dt_publish":"2025-12-05 04:10:38.000",
-	"ts_update":1764880920465,
-	"dt_update":"2025-12-05 04:41:38.913",
-	"count_dep":4,
+	"version_latest":"7.8.631",
+	"ts_publish":1764924536000,
+	"dt_publish":"2025-12-05 16:48:56.000",
+	"ts_update":1764926364082,
+	"dt_update":"2025-12-05 17:19:08.824",
+	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"count_used_by":1,
 	"home_page":"http://wso2.org",
 	"license":"Apache 2.0",
-	"ranking":"#332946 in MvnRepository",
+	"ranking":"#332968 in MvnRepository",
 	"tags":[
 		"server",
 		"framework",
@@ -35,6 +35,14 @@
 		"directory"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.8.629",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251124",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.8.100",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250405",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.8.99",
 			"vulnerabilities":""
 		}
 	]
