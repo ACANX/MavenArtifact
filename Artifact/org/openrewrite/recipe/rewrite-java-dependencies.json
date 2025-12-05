@@ -3,11 +3,11 @@
 	"description":"A rewrite module automating Java dependency management.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-java-dependencies",
-	"version_latest":"1.46.0",
-	"ts_publish":1763638284000,
-	"dt_publish":"2025-11-20 19:31:24.000",
-	"ts_update":1763639119511,
-	"dt_update":"2025-11-20 19:44:55.310",
+	"version_latest":"1.47.0",
+	"ts_publish":1764929834000,
+	"dt_publish":"2025-12-05 18:17:14.000",
+	"ts_update":1764930402745,
+	"dt_update":"2025-12-05 18:26:32.055",
 	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
@@ -23,14 +23,22 @@
 		"Moderne"
 	],
 	"url_scm":"https://github.com/openrewrite/rewrite-java-dependencies.git",
-	"count_used_by":47,
+	"count_used_by":48,
 	"home_page":"https://github.com/openrewrite/rewrite-java-dependencies",
 	"license":"Apache 2.0",
-	"ranking":"#10523 in MvnRepository",
+	"ranking":"#10504 in MvnRepository",
 	"tags":[
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":33,
+			"version":"1.46.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251104",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":23,
 			"version":"1.32.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":23,
-			"version":"1.31.0",
 			"vulnerabilities":""
 		}
 	]
