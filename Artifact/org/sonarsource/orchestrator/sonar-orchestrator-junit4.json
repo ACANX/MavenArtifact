@@ -3,11 +3,11 @@
 	"description":"Parent pom of SonarSource public projects",
 	"group_id":"org.sonarsource.orchestrator",
 	"artifact_id":"sonar-orchestrator-junit4",
-	"version_latest":"6.0.2.3904",
-	"ts_publish":1764923820000,
-	"dt_publish":"2025-12-05 16:37:00.000",
-	"ts_update":1764924923779,
-	"dt_update":"2025-12-05 16:54:44.788",
+	"version_latest":"6.0.3.3907",
+	"ts_publish":1764941454000,
+	"dt_publish":"2025-12-05 21:30:54.000",
+	"ts_update":1764943004286,
+	"dt_update":"2025-12-05 21:56:33.874",
 	"count_dep":31,
 	"count_ref":0,
 	"licenses":[
@@ -32,13 +32,21 @@
 	"url_ci_management":"https://cirrus-ci.com/github/SonarSource/",
 	"count_used_by":3,
 	"license":"LGPL 3.0",
-	"ranking":"#149299 in MvnRepository",
+	"ranking":"#149990 in MvnRepository",
 	"tags":[
 		"junit",
 		"testing",
 		"sonar"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.0.1.3892",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.2.0.542",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230830",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.1.0.495",
 			"vulnerabilities":""
 		}
 	]
