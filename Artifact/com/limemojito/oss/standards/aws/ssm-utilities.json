@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.limemojito.oss.standards.aws/ssm-utilities",
 	"group_id":"com.limemojito.oss.standards.aws",
 	"artifact_id":"ssm-utilities",
-	"version_latest":"16.0.0",
-	"ts_publish":1764820842000,
-	"dt_publish":"2025-12-04 12:00:42.000",
-	"ts_update":1764822395052,
-	"dt_update":"2025-12-04 12:26:27.322",
-	"count_dep":11,
+	"version_latest":"16.0.2",
+	"ts_publish":1764903442000,
+	"dt_publish":"2025-12-05 10:57:22.000",
+	"ts_update":1764905206405,
+	"dt_update":"2025-12-05 11:26:28.878",
+	"count_dep":46,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/ssm-utilities",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.limemojito.oss.standards.aws/ssm-utilities@15.3.2",
@@ -19,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/ssm-utilities",
 	"license":"Apache 2.0",
-	"ranking":"#655191 in MvnRepository",
+	"ranking":"#653103 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon"
@@ -185,5 +187,6 @@
 			"version":"14.2.2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build."
 }

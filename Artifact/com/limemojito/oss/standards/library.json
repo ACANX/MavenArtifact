@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.limemojito.oss.standards/library",
 	"group_id":"com.limemojito.oss.standards",
 	"artifact_id":"library",
-	"version_latest":"16.0.0",
-	"ts_publish":1764820842000,
-	"dt_publish":"2025-12-04 12:00:42.000",
-	"ts_update":1764822397387,
-	"dt_update":"2025-12-04 12:26:27.326",
+	"version_latest":"16.0.2",
+	"ts_publish":1764903442000,
+	"dt_publish":"2025-12-05 10:57:22.000",
+	"ts_update":1764905198210,
+	"dt_update":"2025-12-05 11:26:29.502",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/LimeMojito/oss-maven-standards/library",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.limemojito.oss.standards/library@15.3.2",
@@ -19,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/LimeMojito/oss-maven-standards/library",
 	"license":"Apache 2.0",
-	"ranking":"#762008 in MvnRepository",
+	"ranking":"#759192 in MvnRepository",
 	"tags":[
 		"library"
 	],
@@ -184,5 +186,6 @@
 			"version":"14.2.2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build."
 }
