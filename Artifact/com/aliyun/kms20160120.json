@@ -1,14 +1,14 @@
 {
-	"id":"pkg:maven/com.aliyun/alibabacloud-kms20160120",
-	"description":"Alibaba Cloud Kms (20160120) Async SDK for Java",
+	"id":"pkg:maven/com.aliyun/kms20160120",
+	"description":"Aliyun KMS for Java\n\n        Copyright (C) Alibaba Cloud Computing\n        All rights reserved.\n\n        版权所有 （C）阿里云计算有限公司\n\n        http://www.aliyun.com",
 	"group_id":"com.aliyun",
-	"artifact_id":"alibabacloud-kms20160120",
-	"version_latest":"1.0.12",
-	"ts_publish":1764904526000,
-	"dt_publish":"2025-12-05 11:15:26.000",
-	"ts_update":1764906629090,
+	"artifact_id":"kms20160120",
+	"version_latest":"1.4.0",
+	"ts_publish":1764904905000,
+	"dt_publish":"2025-12-05 11:21:45.000",
+	"ts_update":1764906630815,
 	"dt_update":"2025-12-05 11:50:21.825",
-	"count_dep":13,
+	"count_dep":29,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -17,18 +17,17 @@
 		"Software Development Kit"
 	],
 	"dsv":1,
-	"url_project":"https://github.com/aliyun/alibabacloud-java-async-sdk",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.aliyun/alibabacloud-kms20160120@1.0.12",
+	"url_project":"http://www.aliyun.com",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.aliyun/kms20160120@1.4.0",
 	"contributors":[
 		"Aliyun SDK"
 	],
-	"url_scm":"https://github.com/aliyun/alibabacloud-java-async-sdk",
-	"count_used_by":3,
-	"home_page":"https://github.com/aliyun/alibabacloud-java-async-sdk",
+	"url_scm":"https://github.com/aliyun/alibabacloud-java-sdk",
+	"count_used_by":2,
+	"home_page":"http://www.aliyun.com",
 	"license":"Apache 2.0",
-	"ranking":"#156265 in MvnRepository",
+	"ranking":"#222869 in MvnRepository",
 	"tags":[
-		"cloud",
 		"alibaba"
 	],
 	"versions":[
@@ -37,7 +36,7 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"1.0.11",
+			"version":"1.3.1",
 			"vulnerabilities":""
 		},
 		{
@@ -45,23 +44,31 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"1.0.10",
+			"version":"1.3.0",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250603",
+			"date":"20240830",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
-			"version":"1.0.9",
+			"usage":1,
+			"version":"1.2.3",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20240813",
+			"date":"20240814",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"1.0.8",
+			"version":"1.2.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240614",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.1",
 			"vulnerabilities":""
 		},
 		{
@@ -69,7 +76,7 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"1.0.7",
+			"version":"1.2.0",
 			"vulnerabilities":""
 		},
 		{
@@ -77,23 +84,23 @@
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"1.0.6",
+			"version":"1.1.2",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20240221",
+			"date":"20240306",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
-			"version":"1.0.5",
+			"version":"1.1.1",
 			"vulnerabilities":""
 		},
 		{
 			"date":"20230911",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
-			"version":"1.0.4",
+			"usage":0,
+			"version":"1.1.0",
 			"vulnerabilities":""
 		},
 		{
@@ -108,7 +115,7 @@
 			"date":"20230224",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"1.0.2",
 			"vulnerabilities":""
 		},
@@ -121,11 +128,19 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20220221",
+			"date":"20210304",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20200512",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.0.1",
 			"vulnerabilities":""
 		}
 	]
