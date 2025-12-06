@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/com.limemojito.oss.standards.lock/lock-api",
-	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build.",
 	"group_id":"com.limemojito.oss.standards.lock",
 	"artifact_id":"lock-api",
-	"version_latest":"16.0.2",
-	"ts_publish":1764903442000,
-	"dt_publish":"2025-12-05 10:57:22.000",
-	"ts_update":1764905205479,
-	"dt_update":"2025-12-05 11:26:29.507",
-	"count_dep":9,
+	"version_latest":"16.0.3",
+	"ts_publish":1764982557000,
+	"dt_publish":"2025-12-06 08:55:57.000",
+	"ts_update":1764983570559,
+	"dt_update":"2025-12-06 09:12:37.816",
+	"count_dep":0,
 	"count_ref":2,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/lock-api",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.limemojito.oss.standards.lock/lock-api@15.3.2",
@@ -23,12 +20,20 @@
 	"url_scm":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/lock-api",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#182359 in MvnRepository",
+	"ranking":"#182277 in MvnRepository",
 	"tags":[
 		"locking",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"16.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -179,14 +184,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"14.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240914",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"14.2.2",
 			"vulnerabilities":""
 		}
 	]
