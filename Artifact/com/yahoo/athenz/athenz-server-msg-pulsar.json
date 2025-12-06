@@ -3,11 +3,11 @@
 	"description":"Athenz Server Messaging/ChangeLog Implementation using Pulsar",
 	"group_id":"com.yahoo.athenz",
 	"artifact_id":"athenz-server-msg-pulsar",
-	"version_latest":"1.12.30",
-	"ts_publish":1764035741000,
-	"dt_publish":"2025-11-25 09:55:41.000",
-	"ts_update":1764037600998,
-	"dt_update":"2025-11-25 10:26:30.813",
+	"version_latest":"1.12.31",
+	"ts_publish":1764980989000,
+	"dt_publish":"2025-12-06 08:29:49.000",
+	"ts_update":1764982598657,
+	"dt_update":"2025-12-06 08:56:30.441",
 	"count_dep":127,
 	"count_ref":0,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/AthenZ/athenz/athenz-server-msg-pulsar",
 	"url_ci_management":"https://cd.screwdriver.cd/pipelines/6418",
 	"license":"Apache 2.0",
-	"ranking":"#980430 in MvnRepository",
+	"ranking":"#983856 in MvnRepository",
 	"tags":[
 		"server",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.12.30",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251109",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.12.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250208",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.12.10",
 			"vulnerabilities":""
 		}
 	]
