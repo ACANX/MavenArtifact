@@ -3,13 +3,13 @@
 	"description":"Apache CXF Runtime SOAP Binding",
 	"group_id":"org.apache.cxf",
 	"artifact_id":"cxf-rt-bindings-soap",
-	"version_latest":"4.1.3",
-	"ts_publish":1753890981000,
-	"dt_publish":"2025-07-30 23:56:21.000",
-	"ts_update":1758385593411,
-	"dt_update":"2025-09-21 00:16:22.628",
+	"version_latest":"4.1.4",
+	"ts_publish":1762893341000,
+	"dt_publish":"2025-11-12 04:35:41.000",
+	"ts_update":1765040215472,
+	"dt_update":"2025-12-07 00:20:43.540",
 	"count_dep":0,
-	"count_ref":249,
+	"count_ref":64,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -28,7 +28,7 @@
 	"count_used_by":330,
 	"home_page":"https://cxf.apache.org",
 	"license":"Apache 2.0",
-	"ranking":"#1817 in MvnRepository",
+	"ranking":"#2028 in MvnRepository",
 	"tags":[
 		"binding",
 		"bundle",
@@ -38,6 +38,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":31,
+			"version":"4.1.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -71,10 +79,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":31,
+			"version":"4.0.10",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250730",
 			"repository":"Central",
 			"type":"release",
-			"usage":34,
+			"usage":36,
 			"version":"4.0.9",
 			"vulnerabilities":""
 		},
@@ -98,7 +114,7 @@
 			"date":"20241209",
 			"repository":"Central",
 			"type":"release",
-			"usage":41,
+			"usage":42,
 			"version":"4.0.6",
 			"vulnerabilities":""
 		},
@@ -151,6 +167,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":33,
+			"version":"3.6.9",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250730",
 			"repository":"Central",
 			"type":"release",
@@ -172,30 +196,6 @@
 			"type":"release",
 			"usage":34,
 			"version":"3.6.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"release",
-			"usage":33,
-			"version":"3.6.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240717",
-			"repository":"Central",
-			"type":"release",
-			"usage":39,
-			"version":"3.6.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240313",
-			"repository":"Central",
-			"type":"release",
-			"usage":34,
-			"version":"3.6.3",
 			"vulnerabilities":""
 		}
 	]

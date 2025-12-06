@@ -6,8 +6,8 @@
 	"version_latest":"11.0.14",
 	"ts_publish":1762371055000,
 	"dt_publish":"2025-11-06 03:30:55.000",
-	"ts_update":1764435230393,
-	"dt_update":"2025-11-30 00:20:30.586",
+	"ts_update":1765040212506,
+	"dt_update":"2025-12-07 00:20:20.071",
 	"count_dep":5,
 	"count_ref":3,
 	"licenses":[
@@ -19,10 +19,10 @@
 	"dsv":1,
 	"url_project":"https://tomcat.apache.org/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.tomcat/tomcat-websocket@11.0.10",
-	"count_used_by":39,
+	"count_used_by":40,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#12359 in MvnRepository",
+	"ranking":"#12209 in MvnRepository",
 	"tags":[
 		"socket",
 		"server",
@@ -34,10 +34,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.0.14",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251013",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"11.0.13",
 			"vulnerabilities":""
 		},
@@ -53,7 +61,7 @@
 			"date":"20250905",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"11.0.11",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"11.0.0-M21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240508",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"11.0.0-M20",
 			"vulnerabilities":""
 		}
 	]
