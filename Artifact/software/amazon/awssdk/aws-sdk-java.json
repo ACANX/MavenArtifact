@@ -3,11 +3,11 @@
 	"description":"The Amazon Web Services SDK for Java provides Java APIs for building software on AWS' cost-effective,\nscalable, and reliable infrastructure products. The AWS Java SDK allows developers to code against APIs for all\nof Amazon's infrastructure web services (Amazon S3, Amazon EC2, Amazon SQS, Amazon Relational Database Service,\nAmazon AutoScaling, etc).",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"aws-sdk-java",
-	"version_latest":"2.40.0",
-	"ts_publish":1764731628000,
-	"dt_publish":"2025-12-03 11:13:48.000",
-	"ts_update":1764733804261,
-	"dt_update":"2025-12-03 11:49:45.268",
+	"version_latest":"2.40.3",
+	"ts_publish":1764977859000,
+	"dt_publish":"2025-12-06 07:37:39.000",
+	"ts_update":1764980802655,
+	"dt_update":"2025-12-06 08:26:32.145",
 	"count_dep":421,
 	"count_ref":1,
 	"licenses":[
@@ -20,16 +20,32 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/aws-sdk-java@2.32.17",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/aws-sdk-java",
-	"count_used_by":32,
+	"count_used_by":33,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#15043 in MvnRepository",
+	"ranking":"#14606 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251201",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.37.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251104",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.37.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251101",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.37.3",
 			"vulnerabilities":""
 		}
 	]
