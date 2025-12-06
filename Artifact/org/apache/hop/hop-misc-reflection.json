@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.apache.hop/hop-misc-reflection",
-	"description":"Maven POM for the Hop Orchestration Platform",
 	"group_id":"org.apache.hop",
 	"artifact_id":"hop-misc-reflection",
-	"version_latest":"2.15.0",
-	"ts_publish":1755005499000,
-	"dt_publish":"2025-08-12 21:31:39.000",
-	"ts_update":1758385111475,
-	"dt_update":"2025-09-21 00:16:58.404",
-	"count_dep":106,
+	"version_latest":"2.16.0",
+	"ts_publish":1762780280000,
+	"dt_publish":"2025-11-10 21:11:20.000",
+	"ts_update":1765038412525,
+	"dt_update":"2025-12-07 00:20:35.526",
+	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://hop.apache.org/hop-plugins/hop-plugins-misc/hop-misc-reflection",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.hop/hop-misc-reflection@2.15.0",
@@ -21,5 +18,70 @@
 		"The Apache Hop Team"
 	],
 	"url_scm":"https://gitbox.apache.org/repos/asf?p=hop.git;a=summary/hop-plugins/hop-plugins-misc/hop-misc-reflection",
-	"url_ci_management":"https://builds.apache.org/job/Hop/"
+	"url_ci_management":"https://builds.apache.org/job/Hop/",
+	"count_used_by":1,
+	"license":"Apache 2.0",
+	"ranking":"#317781 in MvnRepository",
+	"tags":[
+		"reflection",
+		"apache"
+	],
+	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.16.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250812",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250519",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.14.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250422",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.13.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250217",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20241209",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20241008",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.10.0",
+			"vulnerabilities":""
+		}
+	]
 }

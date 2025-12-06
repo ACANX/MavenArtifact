@@ -3,13 +3,13 @@
 	"description":"Apache CXF Runtime HTTP Transport",
 	"group_id":"org.apache.cxf",
 	"artifact_id":"cxf-rt-transports-http",
-	"version_latest":"4.1.3",
-	"ts_publish":1753891442000,
-	"dt_publish":"2025-07-31 00:04:02.000",
-	"ts_update":1758386052165,
-	"dt_update":"2025-09-21 00:16:22.622",
+	"version_latest":"4.1.4",
+	"ts_publish":1762893524000,
+	"dt_publish":"2025-11-12 04:38:44.000",
+	"ts_update":1765038403773,
+	"dt_update":"2025-12-07 00:20:44.249",
 	"count_dep":0,
-	"count_ref":359,
+	"count_ref":85,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -25,10 +25,10 @@
 	],
 	"url_scm":"https://gitbox.apache.org/repos/asf?p=cxf.git;a=summary/cxf-parent/cxf-rt-transports-http",
 	"url_ci_management":"https://builds.apache.org/view/A-D/view/CXF/",
-	"count_used_by":1274,
+	"count_used_by":1277,
 	"home_page":"https://cxf.apache.org",
 	"license":"Apache 2.0",
-	"ranking":"#464 in MvnRepository",
+	"ranking":"#475 in MvnRepository",
 	"tags":[
 		"bundle",
 		"cxf",
@@ -39,10 +39,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":51,
+			"version":"4.1.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250730",
 			"repository":"Central",
 			"type":"release",
-			"usage":73,
+			"usage":80,
 			"version":"4.1.3",
 			"vulnerabilities":""
 		},
@@ -71,10 +79,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":45,
+			"version":"4.0.10",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250730",
 			"repository":"Central",
 			"type":"release",
-			"usage":49,
+			"usage":53,
 			"version":"4.0.9",
 			"vulnerabilities":""
 		},
@@ -90,7 +106,7 @@
 			"date":"20250307",
 			"repository":"Central",
 			"type":"release",
-			"usage":51,
+			"usage":52,
 			"version":"4.0.7",
 			"vulnerabilities":""
 		},
@@ -98,7 +114,7 @@
 			"date":"20241209",
 			"repository":"Central",
 			"type":"release",
-			"usage":73,
+			"usage":74,
 			"version":"4.0.6",
 			"vulnerabilities":""
 		},
@@ -151,10 +167,18 @@
 			"vulnerabilities":"1 vulnerability"
 		},
 		{
-			"date":"20250730",
+			"date":"20251118",
 			"repository":"Central",
 			"type":"release",
 			"usage":49,
+			"version":"3.6.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250730",
+			"repository":"Central",
+			"type":"release",
+			"usage":57,
 			"version":"3.6.8",
 			"vulnerabilities":""
 		},
@@ -173,30 +197,6 @@
 			"usage":51,
 			"version":"3.6.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241209",
-			"repository":"Central",
-			"type":"release",
-			"usage":57,
-			"version":"3.6.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240717",
-			"repository":"Central",
-			"type":"release",
-			"usage":65,
-			"version":"3.6.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240313",
-			"repository":"Central",
-			"type":"release",
-			"usage":59,
-			"version":"3.6.3",
-			"vulnerabilities":"1 vulnerability"
 		}
 	]
 }
