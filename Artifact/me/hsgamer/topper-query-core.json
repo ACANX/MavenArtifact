@@ -2,14 +2,16 @@
 	"id":"pkg:maven/me.hsgamer/topper-query-core",
 	"group_id":"me.hsgamer",
 	"artifact_id":"topper-query-core",
-	"version_latest":"4.11.1",
-	"ts_publish":1762876897000,
-	"dt_publish":"2025-11-12 00:01:37.000",
-	"ts_update":1762878070229,
-	"dt_update":"2025-11-12 00:20:57.659",
-	"count_dep":0,
+	"version_latest":"4.12.0",
+	"ts_publish":1765123279000,
+	"dt_publish":"2025-12-08 00:01:19.000",
+	"ts_update":1765124322387,
+	"dt_update":"2025-12-08 00:18:30.640",
+	"count_dep":1,
 	"count_ref":6,
-	"licenses":[],
+	"licenses":[
+		"MIT License"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/Topper-MC/Topper/topper-query/topper-query-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/me.hsgamer/topper-query-core@4.1.1",
@@ -20,11 +22,35 @@
 	"url_scm":"https://github.com/Topper-MC/Topper/topper-query/topper-query-core",
 	"count_used_by":3,
 	"license":"MIT",
-	"ranking":"#136829 in MvnRepository",
+	"ranking":"#153090 in MvnRepository",
 	"tags":[
 		"query"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.11.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -160,30 +186,7 @@
 			"usage":2,
 			"version":"3.9.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250501",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250408",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.8.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250322",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.8.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A framework to handle single-value data tables"
 }
