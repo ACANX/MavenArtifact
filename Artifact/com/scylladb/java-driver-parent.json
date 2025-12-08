@@ -3,11 +3,11 @@
 	"description":"A driver for Scylla and Apache Cassandra(R) 2.1+ that works exclusively with the Cassandra Query Language version 3 (CQL3) and Cassandra's native protocol versions 3 and above.",
 	"group_id":"com.scylladb",
 	"artifact_id":"java-driver-parent",
-	"version_latest":"4.19.0.3",
-	"ts_publish":1762859676000,
-	"dt_publish":"2025-11-11 19:14:36.000",
-	"ts_update":1762860666604,
-	"dt_update":"2025-11-11 19:31:01.019",
+	"version_latest":"4.19.0.4",
+	"ts_publish":1765230810000,
+	"dt_publish":"2025-12-09 05:53:30.000",
+	"ts_update":1765232215506,
+	"dt_update":"2025-12-09 06:16:44.423",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,12 +25,20 @@
 	"url_scm":"https://github.com/scylladb/java-driver",
 	"home_page":"https://github.com/scylladb/java-driver",
 	"license":"Apache 2.0",
-	"ranking":"#698012 in MvnRepository",
+	"ranking":"#527249 in MvnRepository",
 	"tags":[
 		"driver",
 		"scylladb"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.19.0.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251108",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.8.0-scylla-0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210527",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.7.2.0",
 			"vulnerabilities":""
 		}
 	]
