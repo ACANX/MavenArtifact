@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-process-archive-adapter-kafka-test",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-process-archive-adapter-kafka-test",
-	"version_latest":"10.7.0",
-	"ts_publish":1764930647000,
-	"dt_publish":"2025-12-05 18:30:47.000",
-	"ts_update":1764931348543,
-	"dt_update":"2025-12-05 18:42:15.272",
-	"count_dep":37,
+	"version_latest":"10.8.0",
+	"ts_publish":1765196894000,
+	"dt_publish":"2025-12-08 20:28:14.000",
+	"ts_update":1765197316251,
+	"dt_update":"2025-12-08 20:35:07.265",
+	"count_dep":109,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-process-archive-service/tree/main/jeap-process-archive-adapter-kafka-test",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-process-archive-adapter-kafka-test@8.19.0",
@@ -19,7 +21,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-process-archive-service/tree/master.git/jeap-process-archive-adapter-kafka-test",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#385427 in MvnRepository",
+	"ranking":"#386243 in MvnRepository",
 	"tags":[
 		"admin",
 		"streaming",
@@ -29,6 +31,14 @@
 		"kafka"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"10.7.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251203",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":1,
 			"version":"8.16.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.15.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"JEAP Process Archive Service"
 }
