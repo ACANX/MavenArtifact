@@ -3,13 +3,13 @@
 	"description":"The AWS Java SDK for AWS GameLift module holds the client classes that are used for communicating with\n        AWS GameLift service.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"gamelift",
-	"version_latest":"2.40.3",
-	"ts_publish":1764977858000,
-	"dt_publish":"2025-12-06 07:37:38.000",
-	"ts_update":1764979001941,
-	"dt_update":"2025-12-06 07:56:33.371",
+	"version_latest":"2.40.4",
+	"ts_publish":1765236299000,
+	"dt_publish":"2025-12-09 07:24:59.000",
+	"ts_update":1765238211353,
+	"dt_update":"2025-12-09 07:56:35.780",
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -20,13 +20,21 @@
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#130722 in MvnRepository",
+	"ranking":"#130833 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251203",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.38.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251104",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.37.5",
 			"vulnerabilities":""
 		}
 	]
