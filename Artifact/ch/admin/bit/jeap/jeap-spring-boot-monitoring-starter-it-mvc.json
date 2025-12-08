@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-spring-boot-monitoring-starter-it-mvc",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-spring-boot-monitoring-starter-it-mvc",
-	"version_latest":"19.2.0",
-	"ts_publish":1765181730000,
-	"dt_publish":"2025-12-08 16:15:30.000",
-	"ts_update":1765184281477,
-	"dt_update":"2025-12-08 16:56:49.814",
-	"count_dep":6,
+	"version_latest":"19.3.0",
+	"ts_publish":1765188011000,
+	"dt_publish":"2025-12-08 18:00:11.000",
+	"ts_update":1765189613065,
+	"dt_update":"2025-12-08 18:26:42.578",
+	"count_dep":92,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-spring-boot-starters/tree/main/jeap-spring-boot-monitoring-starter-it-mvc",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-spring-boot-monitoring-starter-it-mvc@17.40.0",
@@ -18,7 +20,7 @@
 	],
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-spring-boot-starters.git/jeap-spring-boot-monitoring-starter-it-mvc",
 	"license":"Apache 2.0",
-	"ranking":"#814151 in MvnRepository",
+	"ranking":"#815671 in MvnRepository",
 	"tags":[
 		"admin",
 		"monitoring",
@@ -27,6 +29,22 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"19.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"19.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -170,22 +188,7 @@
 			"usage":0,
 			"version":"17.36.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"17.35.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"17.34.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Spring Boot starters that pre-configure and standardise logging, monitoring, security and other\n        cross-cutting concerns for jEAP-based apps."
 }
