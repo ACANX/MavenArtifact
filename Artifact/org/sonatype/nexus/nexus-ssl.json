@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.sonatype.nexus/nexus-ssl",
 	"group_id":"org.sonatype.nexus",
 	"artifact_id":"nexus-ssl",
-	"version_latest":"3.87.0-03",
-	"ts_publish":1764704781000,
-	"dt_publish":"2025-12-03 03:46:21.000",
-	"ts_update":1764705401907,
-	"dt_update":"2025-12-03 03:56:29.725",
+	"version_latest":"3.87.1-01",
+	"ts_publish":1765224003000,
+	"dt_publish":"2025-12-09 04:00:03.000",
+	"ts_update":1765227410708,
+	"dt_update":"2025-12-09 04:56:25.076",
 	"count_dep":5,
-	"count_ref":16,
+	"count_ref":3,
 	"licenses":[],
 	"categories":[
 		"Build Tools",
@@ -25,11 +25,19 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":6,
 	"license":"EPL 1.0",
-	"ranking":"#78576 in MvnRepository",
+	"ranking":"#78831 in MvnRepository",
 	"tags":[
 		"ssl"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.87.0-03",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.77.2-02",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250207",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.77.1-01",
 			"vulnerabilities":""
 		}
 	]

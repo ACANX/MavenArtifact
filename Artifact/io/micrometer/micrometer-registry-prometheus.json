@@ -3,11 +3,11 @@
 	"description":"MeterRegistry implementation for Prometheus using io.prometheus:prometheus-metrics-core. If you have compatibility issues with this module, you can go back to io.micrometer:micrometer-registry-prometheus-simpleclient that uses io.prometheus:simpleclient_common.",
 	"group_id":"io.micrometer",
 	"artifact_id":"micrometer-registry-prometheus",
-	"version_latest":"1.16.0",
-	"ts_publish":1762452766000,
-	"dt_publish":"2025-11-07 02:12:46.000",
-	"ts_update":1762453453524,
-	"dt_update":"2025-11-07 02:24:02.728",
+	"version_latest":"1.16.1",
+	"ts_publish":1765226264000,
+	"dt_publish":"2025-12-09 04:37:44.000",
+	"ts_update":1765227410302,
+	"dt_update":"2025-12-09 04:56:21.936",
 	"count_dep":12,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"Tommy Ludwig"
 	],
 	"url_scm":"git@github.com:micrometer-metrics/micrometer.git",
-	"count_used_by":1421,
+	"count_used_by":1430,
 	"home_page":"https://github.com/micrometer-metrics/micrometer",
 	"license":"Apache 2.0",
-	"ranking":"#423 in MvnRepository",
+	"ranking":"#422 in MvnRepository",
 	"tags":[
 		"metrics",
 		"registry",
@@ -34,6 +34,14 @@
 		"prometheus"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":21,
+			"version":"1.16.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -67,10 +75,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.15.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251013",
 			"repository":"Central",
 			"type":"release",
-			"usage":16,
+			"usage":22,
 			"version":"1.15.5",
 			"vulnerabilities":""
 		},
@@ -102,7 +118,7 @@
 			"date":"20250609",
 			"repository":"Central",
 			"type":"release",
-			"usage":23,
+			"usage":24,
 			"version":"1.15.1",
 			"vulnerabilities":""
 		},
@@ -139,6 +155,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.14.13",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251013",
 			"repository":"Central",
 			"type":"release",
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"1.14.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250609",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"1.14.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250512",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"1.14.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250414",
-			"repository":"Central",
-			"type":"release",
-			"usage":32,
-			"version":"1.14.6",
 			"vulnerabilities":""
 		}
 	]

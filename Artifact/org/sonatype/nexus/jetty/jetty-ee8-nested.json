@@ -3,13 +3,13 @@
 	"description":"Jetty EE 8 module with custom modifications",
 	"group_id":"org.sonatype.nexus.jetty",
 	"artifact_id":"jetty-ee8-nested",
-	"version_latest":"3.87.0-03",
-	"ts_publish":1764704781000,
-	"dt_publish":"2025-12-03 03:46:21.000",
-	"ts_update":1764705412140,
-	"dt_update":"2025-12-03 03:56:29.117",
+	"version_latest":"3.87.1-01",
+	"ts_publish":1765224003000,
+	"dt_publish":"2025-12-09 04:00:03.000",
+	"ts_update":1765227409381,
+	"dt_update":"2025-12-09 04:56:25.078",
 	"count_dep":5,
-	"count_ref":16,
+	"count_ref":2,
 	"licenses":[],
 	"dsv":1,
 	"url_project":"http://nexus.sonatype.org/jetty-modifications/jetty-ee8-nested/",
@@ -22,13 +22,29 @@
 	"url_ci_management":"https://jenkins.ci.sonatype.dev",
 	"count_used_by":2,
 	"license":"EPL 1.0",
-	"ranking":"#206054 in MvnRepository",
+	"ranking":"#258633 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
 		"jetty"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.87.0-03",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.86.2-01",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
