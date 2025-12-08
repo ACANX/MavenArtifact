@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.flywaydb/flyway-database-sybasease",
 	"group_id":"org.flywaydb",
 	"artifact_id":"flyway-database-sybasease",
-	"version_latest":"11.18.0",
-	"ts_publish":1764240586000,
-	"dt_publish":"2025-11-27 18:49:46.000",
-	"ts_update":1764240994720,
-	"dt_update":"2025-11-27 18:56:28.052",
-	"count_dep":2,
+	"version_latest":"11.19.0",
+	"ts_publish":1765191091000,
+	"dt_publish":"2025-12-08 18:51:31.000",
+	"ts_update":1765192570293,
+	"dt_update":"2025-12-08 19:15:56.858",
+	"count_dep":5,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database"
@@ -20,13 +22,21 @@
 	"url_scm":"https://github.com/flyway/flyway/flyway-database-sybasease",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#335490 in MvnRepository",
+	"ranking":"#337700 in MvnRepository",
 	"tags":[
 		"database",
 		"data",
 		"flyway"
 	],
 	"versions":[
+		{
+			"date":"20251127",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.18.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251125",
 			"repository":"Central",
@@ -178,14 +188,7 @@
 			"usage":0,
 			"version":"11.10.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250703",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"11.10.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Flyway: Database Migrations Made Easy."
 }
