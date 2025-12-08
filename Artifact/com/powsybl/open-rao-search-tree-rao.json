@@ -3,12 +3,12 @@
 	"description":"Implementation of search tree remedial action optimisation with modular approach",
 	"group_id":"com.powsybl",
 	"artifact_id":"open-rao-search-tree-rao",
-	"version_latest":"7.0.0",
-	"ts_publish":1761138299000,
-	"dt_publish":"2025-10-22 21:04:59.000",
-	"ts_update":1761139609304,
-	"dt_update":"2025-10-22 21:26:29.651",
-	"count_dep":99,
+	"version_latest":"7.1.0",
+	"ts_publish":1765212209000,
+	"dt_publish":"2025-12-09 00:43:29.000",
+	"ts_update":1765213029362,
+	"dt_update":"2025-12-09 00:56:33.951",
+	"count_dep":118,
 	"count_ref":2,
 	"licenses":[
 		"Mozilla Public License, Version 2.0"
@@ -26,19 +26,27 @@
 		"Sebastien MURGEY"
 	],
 	"url_scm":"https://github.com/powsybl/powsybl-open-rao.git/open-rao-ra-optimisation/open-rao-search-tree-rao",
-	"count_used_by":11,
+	"count_used_by":13,
 	"license":"MPL 2.0",
-	"ranking":"#43752 in MvnRepository",
+	"ranking":"#35939 in MvnRepository",
 	"tags":[
 		"tree",
 		"search"
 	],
 	"versions":[
 		{
-			"date":"20250715",
+			"date":"20251022",
 			"repository":"Central",
 			"type":"release",
 			"usage":9,
+			"version":"7.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250715",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
 			"version":"6.6.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"5.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240409",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"5.4.0",
 			"vulnerabilities":""
 		}
 	]

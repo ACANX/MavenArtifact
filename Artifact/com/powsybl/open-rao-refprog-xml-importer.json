@@ -3,16 +3,14 @@
 	"description":"Module that contains RefProg file importer",
 	"group_id":"com.powsybl",
 	"artifact_id":"open-rao-refprog-xml-importer",
-	"version_latest":"7.0.0",
-	"ts_publish":1761138299000,
-	"dt_publish":"2025-10-22 21:04:59.000",
-	"ts_update":1761139605042,
-	"dt_update":"2025-10-22 21:26:29.225",
-	"count_dep":64,
+	"version_latest":"7.1.0",
+	"ts_publish":1765212209000,
+	"dt_publish":"2025-12-09 00:43:29.000",
+	"ts_update":1765213025465,
+	"dt_update":"2025-12-09 00:56:33.949",
+	"count_dep":6,
 	"count_ref":2,
-	"licenses":[
-		"Mozilla Public License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,19 +24,27 @@
 		"Sebastien MURGEY"
 	],
 	"url_scm":"https://github.com/powsybl/powsybl-open-rao.git/open-rao-data/open-rao-refprog/open-rao-refprog-xml-importer",
-	"count_used_by":5,
+	"count_used_by":7,
 	"license":"MPL 2.0",
-	"ranking":"#93654 in MvnRepository",
+	"ranking":"#67173 in MvnRepository",
 	"tags":[
 		"import",
 		"xml"
 	],
 	"versions":[
 		{
-			"date":"20250715",
+			"date":"20251022",
 			"repository":"Central",
 			"type":"release",
 			"usage":5,
+			"version":"7.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250715",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
 			"version":"6.6.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"5.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240409",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"5.4.0",
 			"vulnerabilities":""
 		}
 	]
