@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.tkit.quarkus.lib/tkit-quarkus-log-cdi",
 	"group_id":"org.tkit.quarkus.lib",
 	"artifact_id":"tkit-quarkus-log-cdi",
-	"version_latest":"4.4.0",
-	"ts_publish":1763719478000,
-	"dt_publish":"2025-11-21 18:04:38.000",
-	"ts_update":1763720277899,
-	"dt_update":"2025-11-21 18:17:34.974",
+	"version_latest":"4.5.0",
+	"ts_publish":1765204008000,
+	"dt_publish":"2025-12-08 22:26:48.000",
+	"ts_update":1765205007073,
+	"dt_update":"2025-12-08 22:43:11.028",
 	"count_dep":46,
 	"count_ref":7,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/1000kit/tkit-quarkus/tkit-quarkus-extensions-parent/tkit-quarkus-log-parent/tkit-quarkus-log-cdi-parent/tkit-quarkus-log-cdi",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.tkit.quarkus.lib/tkit-quarkus-log-cdi@4.0.0",
@@ -20,7 +22,7 @@
 	"count_used_by":24,
 	"home_page":"https://github.com/1000kit/tkit-quarkus",
 	"license":"Apache 2.0",
-	"ranking":"#20150 in MvnRepository",
+	"ranking":"#20147 in MvnRepository",
 	"tags":[
 		"logging",
 		"quarkus",
@@ -28,6 +30,22 @@
 		"library"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"4.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":17,
+			"version":"4.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251119",
 			"repository":"Central",
@@ -171,22 +189,7 @@
 			"usage":10,
 			"version":"2.34.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240927",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.33.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240912",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"2.32.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Tkit-Quarkus : Productivity extensions for Quarkus"
 }
