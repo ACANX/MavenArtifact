@@ -3,11 +3,11 @@
 	"description":"API and support runtime classes for implementing immutable objects as\n    set enum-like object values, accumulated in so called \"domains\". This\n    allows for special performance optiomization, like using bit-sets to\n    efficiently calculate inclusion in set or set differences.",
 	"group_id":"org.immutables",
 	"artifact_id":"ordinal",
-	"version_latest":"2.11.7",
-	"ts_publish":1763426135000,
-	"dt_publish":"2025-11-18 08:35:35.000",
-	"ts_update":1763428467572,
-	"dt_update":"2025-11-18 09:14:13.569",
+	"version_latest":"2.12.0-rc0",
+	"ts_publish":1765218655000,
+	"dt_publish":"2025-12-09 02:30:55.000",
+	"ts_update":1765220165711,
+	"dt_update":"2025-12-09 02:55:38.653",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
@@ -20,8 +20,16 @@
 	"dsv":1,
 	"home_page":"https://github.com/immutables/immutables/tree/mongo",
 	"license":"Apache 2.0",
-	"ranking":"#914203 in MvnRepository",
+	"ranking":"#544620 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.11.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251008",
 			"repository":"Central",
@@ -172,14 +180,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"2.9.0-beta3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210420",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"2.9.0-beta2",
 			"vulnerabilities":""
 		}
 	]

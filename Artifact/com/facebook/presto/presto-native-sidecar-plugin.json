@@ -3,13 +3,13 @@
 	"description":"Presto - Native Sidecar Plugin",
 	"group_id":"com.facebook.presto",
 	"artifact_id":"presto-native-sidecar-plugin",
-	"version_latest":"0.294",
-	"ts_publish":1756321037000,
-	"dt_publish":"2025-08-28 02:57:17.000",
-	"ts_update":1756322016805,
-	"dt_update":"2025-08-28 03:13:05.018",
-	"count_dep":34,
-	"count_ref":2,
+	"version_latest":"0.296",
+	"ts_publish":1765218384000,
+	"dt_publish":"2025-12-09 02:26:24.000",
+	"ts_update":1765220168177,
+	"dt_update":"2025-12-09 02:55:41.458",
+	"count_dep":41,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Big Data",
@@ -18,7 +18,7 @@
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.facebook.presto/presto-native-sidecar-plugin@0.294",
 	"license":"Apache 2.0",
-	"ranking":"#600142 in MvnRepository",
+	"ranking":"#160877 in MvnRepository",
 	"tags":[
 		"plugin",
 		"native",
@@ -26,6 +26,22 @@
 		"presto"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"0.295",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"0.294",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250614",
 			"repository":"Central",
@@ -58,5 +74,6 @@
 			"version":"0.290",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":3
 }
