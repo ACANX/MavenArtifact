@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.finos.vuu/order",
 	"group_id":"org.finos.vuu",
 	"artifact_id":"order",
-	"version_latest":"0.9.103",
-	"ts_publish":1764932427000,
-	"dt_publish":"2025-12-05 19:00:27.000",
-	"ts_update":1764933392823,
-	"dt_update":"2025-12-05 19:16:21.528",
-	"count_dep":53,
+	"version_latest":"0.9.104",
+	"ts_publish":1765200388000,
+	"dt_publish":"2025-12-08 21:26:28.000",
+	"ts_update":1765201785410,
+	"dt_update":"2025-12-08 21:49:39.361",
+	"count_dep":7,
 	"count_ref":4,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/finos/vuu/example/order",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.finos.vuu/order@0.9.77",
@@ -22,8 +20,16 @@
 	"url_scm":"https://github.com/finos/vuu/tree/master/example/order",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#77401 in MvnRepository",
+	"ranking":"#77503 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"0.9.103",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251204",
 			"repository":"Central",
@@ -175,15 +181,6 @@
 			"usage":6,
 			"version":"0.9.84",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.9.83",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Vuu - A View Server in Scala and React"
+	]
 }
