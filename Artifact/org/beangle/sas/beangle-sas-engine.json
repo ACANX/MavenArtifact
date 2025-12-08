@@ -3,13 +3,13 @@
 	"description":"The Beangle Simple Application Server (SAS)",
 	"group_id":"org.beangle.sas",
 	"artifact_id":"beangle-sas-engine",
-	"version_latest":"0.13.6",
-	"ts_publish":1764056746000,
-	"dt_publish":"2025-11-25 15:45:46.000",
-	"ts_update":1764057402071,
-	"dt_update":"2025-11-25 15:56:28.445",
+	"version_latest":"0.13.7",
+	"ts_publish":1765157557000,
+	"dt_publish":"2025-12-08 09:32:37.000",
+	"ts_update":1765159014992,
+	"dt_update":"2025-12-08 09:56:31.921",
 	"count_dep":17,
-	"count_ref":0,
+	"count_ref":4,
 	"licenses":[
 		"GNU Lesser General Public License version 3"
 	],
@@ -23,19 +23,27 @@
 		"Tihua Duan"
 	],
 	"url_scm":"https://github.com/beangle/sas",
-	"count_used_by":46,
+	"count_used_by":47,
 	"home_page":"https://beangle.github.io/sas/index.html",
 	"license":"LGPL 3.0",
-	"ranking":"#10864 in MvnRepository",
+	"ranking":"#10679 in MvnRepository",
 	"tags":[
 		"engine"
 	],
 	"versions":[
 		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.13.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251112",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":40,
 			"version":"0.13.5",
 			"vulnerabilities":""
 		},
@@ -51,7 +59,7 @@
 			"date":"20250805",
 			"repository":"Central",
 			"type":"release",
-			"usage":17,
+			"usage":18,
 			"version":"0.13.3",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221106",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"0.11.2",
 			"vulnerabilities":""
 		}
 	]
