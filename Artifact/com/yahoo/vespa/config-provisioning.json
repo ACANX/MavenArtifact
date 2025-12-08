@@ -3,11 +3,11 @@
 	"description":"Provisioning APIs.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"config-provisioning",
-	"version_latest":"8.617.12",
-	"ts_publish":1764772783000,
-	"dt_publish":"2025-12-03 22:39:43.000",
-	"ts_update":1764773846747,
-	"dt_update":"2025-12-03 22:56:49.481",
+	"version_latest":"8.618.24",
+	"ts_publish":1765163164000,
+	"dt_publish":"2025-12-08 11:06:04.000",
+	"ts_update":1765164418754,
+	"dt_update":"2025-12-08 11:26:34.095",
 	"count_dep":9,
 	"count_ref":18,
 	"licenses":[],
@@ -24,12 +24,28 @@
 	"url_scm":"git@github.com:vespa-engine/vespa.git/config-provisioning",
 	"count_used_by":32,
 	"license":"Apache 2.0",
-	"ranking":"#15020 in MvnRepository",
+	"ranking":"#15050 in MvnRepository",
 	"tags":[
 		"config",
 		"provisioning"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
+			"version":"8.617.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251201",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
+			"version":"8.614.22",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251125",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":18,
 			"version":"8.592.33",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251013",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"8.591.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251014",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"8.589.18",
 			"vulnerabilities":""
 		}
 	]
