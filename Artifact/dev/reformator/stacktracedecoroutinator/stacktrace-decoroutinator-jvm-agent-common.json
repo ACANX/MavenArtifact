@@ -3,11 +3,11 @@
 	"description":"Library for recovering stack trace in exceptions thrown in Kotlin coroutines.",
 	"group_id":"dev.reformator.stacktracedecoroutinator",
 	"artifact_id":"stacktrace-decoroutinator-jvm-agent-common",
-	"version_latest":"2.5.9",
-	"ts_publish":1764731527000,
-	"dt_publish":"2025-12-03 11:12:07.000",
-	"ts_update":1764733821419,
-	"dt_update":"2025-12-03 11:49:47.609",
+	"version_latest":"2.6.0",
+	"ts_publish":1765220820000,
+	"dt_publish":"2025-12-09 03:07:00.000",
+	"ts_update":1765221289158,
+	"dt_update":"2025-12-09 03:14:32.763",
 	"count_dep":11,
 	"count_ref":1,
 	"licenses":[
@@ -24,15 +24,31 @@
 	],
 	"url_scm":"http://github.com/Anamorphosee/stacktrace-decoroutinator/tree/master",
 	"count_used_by":1,
-	"home_page":"https://stacktracedecoroutinator.reformator.dev",
+	"home_page":"https://github.com/Anamorphosee/stacktrace-decoroutinator",
 	"license":"Apache 2.0",
-	"ranking":"#310612 in MvnRepository",
+	"ranking":"#376072 in MvnRepository",
 	"tags":[
 		"jvm",
 		"agent",
 		"stacktrace"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.5.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.5.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240530",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.3.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231209",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.3.8",
 			"vulnerabilities":""
 		}
 	]
