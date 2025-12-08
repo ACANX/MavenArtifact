@@ -2,16 +2,14 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-process-context-adapter-kafka",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-process-context-adapter-kafka",
-	"version_latest":"14.5.0",
-	"ts_publish":1764840818000,
-	"dt_publish":"2025-12-04 17:33:38.000",
-	"ts_update":1764841335105,
-	"dt_update":"2025-12-04 17:41:55.932",
-	"count_dep":53,
+	"version_latest":"14.7.0",
+	"ts_publish":1765197268000,
+	"dt_publish":"2025-12-08 20:34:28.000",
+	"ts_update":1765198645107,
+	"dt_update":"2025-12-08 20:56:57.758",
+	"count_dep":41,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-process-context-service/tree/main/jeap-process-context-adapter-kafka",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-process-context-adapter-kafka@13.17.0",
@@ -21,7 +19,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-process-context-service/tree/master.git/jeap-process-context-adapter-kafka",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#411453 in MvnRepository",
+	"ranking":"#412921 in MvnRepository",
 	"tags":[
 		"admin",
 		"streaming",
@@ -31,6 +29,22 @@
 		"kafka"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"14.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"14.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251202",
 			"repository":"Central",
@@ -174,23 +188,6 @@
 			"usage":1,
 			"version":"13.12.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"13.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250617",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"13.10.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"JEAP Process Context Service"
+	]
 }
