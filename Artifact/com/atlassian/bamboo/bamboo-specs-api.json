@@ -3,11 +3,11 @@
 	"description":"Base POM for Atlassian projects",
 	"group_id":"com.atlassian.bamboo",
 	"artifact_id":"bamboo-specs-api",
-	"version_latest":"12.0.1",
-	"ts_publish":1764681680000,
-	"dt_publish":"2025-12-02 21:21:20.000",
-	"ts_update":1764683803044,
-	"dt_update":"2025-12-02 21:56:27.303",
+	"version_latest":"12.0.2",
+	"ts_publish":1765206780000,
+	"dt_publish":"2025-12-08 23:13:00.000",
+	"ts_update":1765207163312,
+	"dt_update":"2025-12-08 23:19:13.639",
 	"count_dep":6,
 	"count_ref":2,
 	"licenses":[
@@ -27,13 +27,21 @@
 	"url_ci_management":"https://staging-bamboo.internal.atlassian.com/browse/OTHER-BASEPOM",
 	"count_used_by":45,
 	"license":"Apache 2.0",
-	"ranking":"#10977 in MvnRepository",
+	"ranking":"#10992 in MvnRepository",
 	"tags":[
 		"atlassian",
 		"api",
 		"specs"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"11.0.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250418",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":5,
-			"version":"11.0.0-m05",
 			"vulnerabilities":""
 		}
 	]
