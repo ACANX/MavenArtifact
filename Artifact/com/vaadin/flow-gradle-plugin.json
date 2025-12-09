@@ -3,11 +3,11 @@
 	"description":"This maven module act as a proxy to test, build, and release the flow gradle plugin,\n        which is written in Kotlin and is built by gradle natively. This makes development\n        and testing of the gradle plugin much easier against the changes of flow, especially\n        the flow-plugin-base. However, publishing the vaadin-gradle-plugin to gradle plugin\n        central repo is done within platform final releases.",
 	"group_id":"com.vaadin",
 	"artifact_id":"flow-gradle-plugin",
-	"version_latest":"25.0.0-beta9",
-	"ts_publish":1764843722000,
-	"dt_publish":"2025-12-04 18:22:02.000",
-	"ts_update":1764845112784,
-	"dt_update":"2025-12-04 18:45:01.568",
+	"version_latest":"25.0.0-rc1",
+	"ts_publish":1765299412000,
+	"dt_publish":"2025-12-10 00:56:52.000",
+	"ts_update":1765300673002,
+	"dt_update":"2025-12-10 01:17:42.821",
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/vaadin/flow/flow-plugins/flow-gradle-plugin",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#92029 in MvnRepository",
+	"ranking":"#92178 in MvnRepository",
 	"tags":[
 		"plugin",
 		"vaadin",
@@ -33,6 +33,14 @@
 		"groovy"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"beta",
+			"usage":2,
+			"version":"25.0.0-beta9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"beta",
 			"usage":3,
 			"version":"24.9.0-beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"beta",
-			"usage":3,
-			"version":"24.9.0-beta1",
 			"vulnerabilities":""
 		}
 	]

@@ -2,11 +2,11 @@
 	"id":"pkg:maven/com.vaadin/flow-dnd",
 	"group_id":"com.vaadin",
 	"artifact_id":"flow-dnd",
-	"version_latest":"25.0.0-beta9",
-	"ts_publish":1764843722000,
-	"dt_publish":"2025-12-04 18:22:02.000",
-	"ts_update":1764845120074,
-	"dt_update":"2025-12-04 18:45:01.564",
+	"version_latest":"25.0.0-rc1",
+	"ts_publish":1765299412000,
+	"dt_publish":"2025-12-10 00:56:52.000",
+	"ts_update":1765300673354,
+	"dt_update":"2025-12-10 01:17:43.314",
 	"count_dep":4,
 	"count_ref":2,
 	"licenses":[
@@ -21,13 +21,21 @@
 	"url_scm":"https://github.com/vaadin/flow/flow-dnd",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#58883 in MvnRepository",
+	"ranking":"#58976 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"dnd"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"beta",
+			"usage":4,
+			"version":"25.0.0-beta9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -179,15 +187,6 @@
 			"usage":4,
 			"version":"24.9.0-beta2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"beta",
-			"usage":4,
-			"version":"24.9.0-beta1",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Generic HTML 5 Drag and Drop support for Flow"
+	]
 }

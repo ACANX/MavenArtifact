@@ -3,11 +3,11 @@
 	"description":"This is a wrapper project for the web-fragment.xml file that sets productionMode=true. When this jar is\n    added to the classpath of a web application, it will run in production mode automatically. This is better\n    used in conjunction with the compilation and minification of resources for production deployment. See\n    the documentation about ES5 compilation and resource minification at\n    https://vaadin.com/docs/v10/flow/web-components/tutorial-webcomponents-es5.html for more\n    information.",
 	"group_id":"com.vaadin",
 	"artifact_id":"flow-server-production-mode",
-	"version_latest":"25.0.0-beta9",
-	"ts_publish":1764843722000,
-	"dt_publish":"2025-12-04 18:22:02.000",
-	"ts_update":1764845111183,
-	"dt_update":"2025-12-04 18:45:02.287",
+	"version_latest":"25.0.0-rc1",
+	"ts_publish":1765299412000,
+	"dt_publish":"2025-12-10 00:56:52.000",
+	"ts_update":1765300683851,
+	"dt_update":"2025-12-10 01:17:42.303",
 	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/vaadin/flow/flow-server-production-mode",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#72127 in MvnRepository",
+	"ranking":"#72247 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"server",
 		"web-framework"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"25.0.0-beta9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"24.9.0-beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"24.9.0-beta1",
 			"vulnerabilities":""
 		}
 	]
