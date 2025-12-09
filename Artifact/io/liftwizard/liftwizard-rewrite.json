@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.liftwizard/liftwizard-rewrite",
 	"group_id":"io.liftwizard",
 	"artifact_id":"liftwizard-rewrite",
-	"version_latest":"2.1.34",
-	"ts_publish":1763073991000,
-	"dt_publish":"2025-11-14 06:46:31.000",
-	"ts_update":1763074638986,
-	"dt_update":"2025-11-14 06:56:19.601",
-	"count_dep":10,
+	"version_latest":"2.1.35",
+	"ts_publish":1765253615000,
+	"dt_publish":"2025-12-09 12:13:35.000",
+	"ts_update":1765254385243,
+	"dt_update":"2025-12-09 12:26:00.833",
+	"count_dep":49,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,11 +25,19 @@
 	"url_scm":"https://github.com/liftwizard/liftwizard/liftwizard-profile-parent/liftwizard-rewrite",
 	"url_ci_management":"https://github.com/liftwizard/liftwizard/actions",
 	"license":"Apache 2.0",
-	"ranking":"#438526 in MvnRepository",
+	"ranking":"#511729 in MvnRepository",
 	"tags":[
 		"wizard"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.1.34",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":0,
 			"version":"2.1.15",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240704",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.1.14",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Liftwizard profiles parent is a published parent pom with profiles that are off by default that enable several linters and validators."
 }
