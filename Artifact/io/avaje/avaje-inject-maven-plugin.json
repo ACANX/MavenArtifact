@@ -3,11 +3,11 @@
 	"description":"parent pom for avaje inject library",
 	"group_id":"io.avaje",
 	"artifact_id":"avaje-inject-maven-plugin",
-	"version_latest":"12.1-RC6",
-	"ts_publish":1764654374000,
-	"dt_publish":"2025-12-02 13:46:14.000",
-	"ts_update":1764658624968,
-	"dt_update":"2025-12-02 14:56:34.148",
+	"version_latest":"12.1-javax",
+	"ts_publish":1765270734000,
+	"dt_publish":"2025-12-09 16:58:54.000",
+	"ts_update":1765272118470,
+	"dt_update":"2025-12-09 17:21:46.908",
 	"count_dep":40,
 	"count_ref":0,
 	"licenses":[
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"git@github.com:avaje-pom/java11-oss.git/avaje-inject-parent/avaje-inject-maven-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#719077 in MvnRepository",
+	"ranking":"#723207 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -33,6 +33,14 @@
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1-RC6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251201",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"11.6-RC5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250622",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"11.6-RC4",
 			"vulnerabilities":""
 		}
 	]
