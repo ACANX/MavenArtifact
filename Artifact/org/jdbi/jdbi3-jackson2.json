@@ -3,12 +3,12 @@
 	"description":"Use Jackson 2.x for JSON column serialization/deserialization.",
 	"group_id":"org.jdbi",
 	"artifact_id":"jdbi3-jackson2",
-	"version_latest":"3.50.0",
-	"ts_publish":1762323568000,
-	"dt_publish":"2025-11-05 14:19:28.000",
-	"ts_update":1762325729651,
-	"dt_update":"2025-11-05 14:54:49.326",
-	"count_dep":27,
+	"version_latest":"3.51.0",
+	"ts_publish":1765320274000,
+	"dt_publish":"2025-12-10 06:44:34.000",
+	"ts_update":1765321002266,
+	"dt_update":"2025-12-10 06:56:31.539",
+	"count_dep":28,
 	"count_ref":1,
 	"licenses":[
 		"Apache License 2.0"
@@ -24,19 +24,27 @@
 		"The Jdbi Team"
 	],
 	"url_scm":"https://github.com/jdbi/jdbi/",
-	"count_used_by":14,
+	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#34114 in MvnRepository",
+	"ranking":"#30836 in MvnRepository",
 	"tags":[
 		"jackson",
 		"jdbi"
 	],
 	"versions":[
 		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.50.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251002",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"3.49.6",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.42.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231003",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.41.3",
 			"vulnerabilities":""
 		}
 	]

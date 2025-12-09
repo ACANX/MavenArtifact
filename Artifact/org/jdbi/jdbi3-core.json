@@ -3,13 +3,13 @@
 	"description":"The Jdbi core API.\n\n        Jdbi 3 is designed to provide convenient tabular data access in\n        Java(tm) and other JVM based languages.\n        It uses the Java collections framework for query results,\n        provides a convenient means of externalizing SQL statements, and\n        named parameter support for any database that supports JDBC.",
 	"group_id":"org.jdbi",
 	"artifact_id":"jdbi3-core",
-	"version_latest":"3.50.0",
-	"ts_publish":1762323568000,
-	"dt_publish":"2025-11-05 14:19:28.000",
-	"ts_update":1762325721747,
-	"dt_update":"2025-11-05 14:54:49.996",
+	"version_latest":"3.51.0",
+	"ts_publish":1765320274000,
+	"dt_publish":"2025-12-10 06:44:34.000",
+	"ts_update":1765321002184,
+	"dt_update":"2025-12-10 06:56:32.185",
 	"count_dep":23,
-	"count_ref":33,
+	"count_ref":34,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -24,10 +24,10 @@
 		"The Jdbi Team"
 	],
 	"url_scm":"https://github.com/jdbi/jdbi/",
-	"count_used_by":240,
+	"count_used_by":241,
 	"home_page":"https://jdbi.org/",
 	"license":"Apache 2.0",
-	"ranking":"#2583 in MvnRepository",
+	"ranking":"#2587 in MvnRepository",
 	"tags":[
 		"format",
 		"delimited",
@@ -38,10 +38,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":39,
+			"version":"3.50.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251002",
 			"repository":"Central",
 			"type":"release",
-			"usage":37,
+			"usage":39,
 			"version":"3.49.6",
 			"vulnerabilities":""
 		},
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":47,
 			"version":"3.42.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231003",
-			"repository":"Central",
-			"type":"release",
-			"usage":60,
-			"version":"3.41.3",
 			"vulnerabilities":""
 		}
 	]
