@@ -3,12 +3,12 @@
 	"description":"Spring SAML Identity Provider Core",
 	"group_id":"se.swedenconnect.spring.saml.idp",
 	"artifact_id":"spring-saml-idp",
-	"version_latest":"2.3.11",
-	"ts_publish":1764780850000,
-	"dt_publish":"2025-12-04 00:54:10.000",
-	"ts_update":1764782491898,
-	"dt_update":"2025-12-04 01:21:21.167",
-	"count_dep":142,
+	"version_latest":"2.3.12",
+	"ts_publish":1765290328000,
+	"dt_publish":"2025-12-09 22:25:28.000",
+	"ts_update":1765292210773,
+	"dt_update":"2025-12-09 22:56:23.616",
+	"count_dep":145,
 	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -23,13 +23,21 @@
 	"count_used_by":3,
 	"home_page":"https://docs.swedenconnect.se/saml-identity-provider",
 	"license":"Apache 2.0",
-	"ranking":"#166598 in MvnRepository",
+	"ranking":"#171794 in MvnRepository",
 	"tags":[
 		"security",
 		"spring",
 		"saml"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.3.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251118",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231120",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.0.1",
 			"vulnerabilities":""
 		}
 	]
