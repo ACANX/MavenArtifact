@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for App Integrations module holds the client classes that are used for\n        communicating with App Integrations.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"appintegrations",
-	"version_latest":"2.40.4",
-	"ts_publish":1765236299000,
-	"ts_update":1765237581913,
+	"version_latest":"2.40.5",
+	"ts_publish":1765322462000,
+	"ts_update":1765323910530,
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -18,13 +18,21 @@
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#114741 in MvnRepository",
+	"ranking":"#114727 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.40.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251205",
 			"repository":"Central",
@@ -176,16 +184,8 @@
 			"usage":2,
 			"version":"2.38.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251106",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.38.0",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-12-09 07:24:59.000",
-	"dt_update":"2025-12-09 07:46:12.724"
+	"dt_publish":"2025-12-10 07:21:02.000",
+	"dt_update":"2025-12-10 07:44:57.832"
 }
