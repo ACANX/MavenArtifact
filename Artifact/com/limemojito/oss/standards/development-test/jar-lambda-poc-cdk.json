@@ -2,16 +2,14 @@
 	"id":"pkg:maven/com.limemojito.oss.standards.development-test/jar-lambda-poc-cdk",
 	"group_id":"com.limemojito.oss.standards.development-test",
 	"artifact_id":"jar-lambda-poc-cdk",
-	"version_latest":"16.0.3",
-	"ts_publish":1764982557000,
-	"dt_publish":"2025-12-06 08:55:57.000",
-	"ts_update":1764983569424,
-	"dt_update":"2025-12-06 09:12:37.818",
-	"count_dep":122,
+	"version_latest":"17.0.0",
+	"ts_publish":1765245739000,
+	"dt_publish":"2025-12-09 10:02:19.000",
+	"ts_update":1765247236351,
+	"dt_update":"2025-12-09 10:26:31.022",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/java-cdk-development/jar-lambda-poc-cdk",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.limemojito.oss.standards.development-test/jar-lambda-poc-cdk@15.3.2",
@@ -21,13 +19,21 @@
 	],
 	"url_scm":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/java-cdk-development/jar-lambda-poc-cdk",
 	"license":"Apache 2.0",
-	"ranking":"#491265 in MvnRepository",
+	"ranking":"#486161 in MvnRepository",
 	"tags":[
 		"lambda",
 		"cdk",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"16.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251204",
 			"repository":"Central",
@@ -179,15 +185,6 @@
 			"usage":0,
 			"version":"15.0.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240917",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"14.3.1",
-			"vulnerabilities":""
 		}
-	],
-	"description":"* A basic setup for cdk development using a simple automated deployment to the \"current\" account as setup in\n        aws credentials. Requires cdk.json file to be configured to match pom.xml. Example cdk.json file included\n        for java based cdk deployment using maven. Note JAVA_HOME must be set to match the version of java in use so\n        that CDK's spawned maven process does not become confused with the compile java version.\n        * Packaging for child projects should be jar.\n        * Set cdk main class in properties of pom.xml.\n        * Code jar dependencies as dependencies, these will be included in the build to target/dependencies which may\n        be referenced from CDK code.\n        * See development-test/jar-lambda-poc-cdk for an example."
+	]
 }
