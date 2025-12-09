@@ -3,11 +3,11 @@
 	"description":"Bill of Materials for managing Tileverse module versions",
 	"group_id":"io.tileverse",
 	"artifact_id":"tileverse-bom",
-	"version_latest":"1.1.0",
-	"ts_publish":1759732871000,
-	"dt_publish":"2025-10-06 14:41:11.000",
-	"ts_update":1759734972183,
-	"dt_update":"2025-10-06 15:16:01.676",
+	"version_latest":"1.1.1",
+	"ts_publish":1765318044000,
+	"dt_publish":"2025-12-10 06:07:24.000",
+	"ts_update":1765318666195,
+	"dt_update":"2025-12-10 06:17:29.254",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/tileverse-io/tileverse/tileverse-bom",
 	"home_page":"https://tileverse.io/tileverse-bom",
 	"license":"Apache 2.0",
-	"ranking":"#711550 in MvnRepository",
+	"ranking":"#108780 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251005",
 			"repository":"Central",
@@ -37,5 +45,6 @@
 			"version":"1.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":4
 }
