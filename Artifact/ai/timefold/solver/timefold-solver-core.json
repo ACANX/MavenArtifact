@@ -3,16 +3,14 @@
 	"description":"Timefold solves planning problems.\n    This lightweight, embeddable planning engine implements powerful and scalable algorithms\n    to optimize business resource scheduling and planning.\n\n    This module contains the planning engine itself.",
 	"group_id":"ai.timefold.solver",
 	"artifact_id":"timefold-solver-core",
-	"version_latest":"1.28.0",
-	"ts_publish":1762838684000,
-	"dt_publish":"2025-11-11 13:24:44.000",
-	"ts_update":1762839388286,
-	"dt_update":"2025-11-11 13:36:10.889",
-	"count_dep":26,
-	"count_ref":19,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"1.29.0",
+	"ts_publish":1765266856000,
+	"dt_publish":"2025-12-09 15:54:16.000",
+	"ts_update":1765268700207,
+	"dt_update":"2025-12-09 16:24:46.002",
+	"count_dep":17,
+	"count_ref":18,
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://solver.timefold.ai",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ai.timefold.solver/timefold-solver-core@1.25.0",
@@ -24,7 +22,7 @@
 	"count_used_by":16,
 	"home_page":"https://solver.timefold.ai",
 	"license":"Apache 2.0",
-	"ranking":"#29387 in MvnRepository",
+	"ranking":"#30288 in MvnRepository",
 	"tags":[
 		"planning",
 		"solver",
@@ -33,6 +31,14 @@
 		"constraint"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"1.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -183,14 +189,6 @@
 			"type":"release",
 			"usage":14,
 			"version":"1.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240709",
-			"repository":"Central",
-			"type":"release",
-			"usage":12,
-			"version":"1.12.0",
 			"vulnerabilities":""
 		}
 	]
