@@ -3,12 +3,12 @@
 	"description":"WildFly Clustering: Session: Infinispan: Modules",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-session-infinispan",
-	"version_latest":"9.0.0.Beta2",
-	"ts_publish":1762583438000,
-	"dt_publish":"2025-11-08 14:30:38.000",
-	"ts_update":1762584253344,
-	"dt_update":"2025-11-08 14:44:05.606",
-	"count_dep":7,
+	"version_latest":"9.0.0.Beta3",
+	"ts_publish":1765261884000,
+	"dt_publish":"2025-12-09 14:31:24.000",
+	"ts_update":1765263412685,
+	"dt_update":"2025-12-09 14:56:31.751",
+	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -25,7 +25,7 @@
 	],
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
 	"license":"Apache 2.0",
-	"ranking":"#883332 in MvnRepository",
+	"ranking":"#507730 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"wildfly",
@@ -35,11 +35,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"9.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251106",
 			"repository":"Central",
 			"type":"beta",
 			"usage":0,
 			"version":"9.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251109",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.0.4.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.0.4.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250531",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250531",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.2.Final",
 			"vulnerabilities":""
 		}
 	]

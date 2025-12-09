@@ -3,11 +3,11 @@
 	"description":"Core library for establishing secure connections. End users should depend on the\n    driver-specific socket factory artifacts.",
 	"group_id":"com.google.cloud.sql",
 	"artifact_id":"jdbc-socket-factory-core",
-	"version_latest":"1.27.0",
-	"ts_publish":1761771424000,
-	"dt_publish":"2025-10-30 04:57:04.000",
-	"ts_update":1761774323070,
-	"dt_update":"2025-10-30 05:44:54.707",
+	"version_latest":"1.27.1",
+	"ts_publish":1765261288000,
+	"dt_publish":"2025-12-09 14:21:28.000",
+	"ts_update":1765263405959,
+	"dt_update":"2025-12-09 14:56:32.679",
 	"count_dep":93,
 	"count_ref":9,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/GoogleCloudPlatform/cloud-sql-mysql-socket-factory.git/jdbc-socket-factory-core",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#39631 in MvnRepository",
+	"ranking":"#41396 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -39,6 +39,14 @@
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"1.27.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"1.18.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240416",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"1.18.0",
 			"vulnerabilities":""
 		}
 	]

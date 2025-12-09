@@ -2,12 +2,12 @@
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-marshalling-java",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-marshalling-java",
-	"version_latest":"9.0.0.Beta2",
-	"ts_publish":1762583438000,
-	"dt_publish":"2025-11-08 14:30:38.000",
-	"ts_update":1762584258300,
-	"dt_update":"2025-11-08 14:44:05.604",
-	"count_dep":10,
+	"version_latest":"9.0.0.Beta3",
+	"ts_publish":1765261884000,
+	"dt_publish":"2025-12-09 14:31:24.000",
+	"ts_update":1765263404844,
+	"dt_update":"2025-12-09 14:56:31.752",
+	"count_dep":9,
 	"count_ref":3,
 	"licenses":[],
 	"categories":[
@@ -21,20 +21,36 @@
 		"JBoss.org Community"
 	],
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
-	"count_used_by":14,
+	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#34745 in MvnRepository",
+	"ranking":"#30452 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"cluster"
 	],
 	"versions":[
 		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"beta",
+			"usage":3,
+			"version":"9.0.0.Beta2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251106",
 			"repository":"Central",
 			"type":"beta",
 			"usage":3,
 			"version":"9.0.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251109",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.0.4.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"7.0.4.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250531",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.0.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250531",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.0.2.Final",
 			"vulnerabilities":""
 		}
 	]
