@@ -3,13 +3,13 @@
 	"description":"ArcadeDB",
 	"group_id":"com.arcadedb",
 	"artifact_id":"arcadedb-server",
-	"version_latest":"25.9.1",
-	"ts_publish":1760029422000,
-	"dt_publish":"2025-10-10 01:03:42.000",
-	"ts_update":1760030795140,
-	"dt_update":"2025-10-10 01:26:17.168",
-	"count_dep":60,
-	"count_ref":9,
+	"version_latest":"25.11.1",
+	"ts_publish":1765308770000,
+	"dt_publish":"2025-12-10 03:32:50.000",
+	"ts_update":1765309505606,
+	"dt_update":"2025-12-10 03:44:38.431",
+	"count_dep":65,
+	"count_ref":10,
 	"licenses":[
 		"Apache 2"
 	],
@@ -24,13 +24,29 @@
 		"Luca Garulli"
 	],
 	"url_scm":"https://github.com/ArcadeData/arcadedb/arcadedb-server",
-	"count_used_by":9,
+	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#50084 in MvnRepository",
+	"ranking":"#48013 in MvnRepository",
 	"tags":[
 		"server"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"25.10.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"25.9.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"23.12.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240103",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"23.12.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231205",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"23.11.1",
 			"vulnerabilities":""
 		}
 	]
