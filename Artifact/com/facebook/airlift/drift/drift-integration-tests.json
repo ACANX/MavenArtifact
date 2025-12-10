@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.facebook.airlift.drift/drift-integration-tests",
 	"group_id":"com.facebook.airlift.drift",
 	"artifact_id":"drift-integration-tests",
-	"version_latest":"0.224",
-	"ts_publish":1764784768000,
-	"dt_publish":"2025-12-04 01:59:28.000",
-	"ts_update":1764786439514,
-	"dt_update":"2025-12-04 02:26:40.188",
+	"version_latest":"0.225",
+	"ts_publish":1765346193000,
+	"dt_publish":"2025-12-10 13:56:33.000",
+	"ts_update":1765348010166,
+	"dt_update":"2025-12-10 14:26:37.071",
 	"count_dep":24,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/prestodb/airlift/drift-root/drift-integration-tests",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.facebook.airlift.drift/drift-integration-tests@0.221",
@@ -18,13 +20,29 @@
 	],
 	"url_scm":"https://github.com/prestodb/drift/drift-integration-tests",
 	"license":"Apache 2.0",
-	"ranking":"#462856 in MvnRepository",
+	"ranking":"#673083 in MvnRepository",
 	"tags":[
 		"integration",
 		"testing",
 		"facebook"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.224",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.223",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250821",
 			"repository":"Central",
@@ -73,5 +91,6 @@
 			"version":"0.217",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Annotation based Thrift implementation"
 }
