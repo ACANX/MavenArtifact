@@ -3,11 +3,11 @@
 	"description":"A parent POM for all artifacts by Vaadin Ltd.",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-quarkus-deployment",
-	"version_latest":"3.0.0-beta5",
-	"ts_publish":1764923007000,
-	"dt_publish":"2025-12-05 16:23:27.000",
-	"ts_update":1764924913866,
-	"dt_update":"2025-12-05 16:54:48.739",
+	"version_latest":"3.0.0-rc1",
+	"ts_publish":1765361805000,
+	"dt_publish":"2025-12-10 18:16:45.000",
+	"ts_update":1765362065332,
+	"dt_update":"2025-12-10 18:20:32.542",
 	"count_dep":195,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/vaadin/quarkus/vaadin-quarkus-deployment",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#165622 in MvnRepository",
+	"ranking":"#134814 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"deployment",
@@ -30,6 +30,14 @@
 		"web-framework"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.0.0-beta5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220704",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.1.1",
 			"vulnerabilities":""
 		}
 	]
