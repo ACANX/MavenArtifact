@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-operator-core",
-	"version_latest":"3.4.0.Beta1",
-	"ts_publish":1764163879000,
-	"dt_publish":"2025-11-26 21:31:19.000",
-	"ts_update":1764164965693,
-	"dt_update":"2025-11-26 21:48:59.199",
+	"version_latest":"3.4.0.CR1",
+	"ts_publish":1765370893000,
+	"dt_publish":"2025-12-10 20:48:13.000",
+	"ts_update":1765371407813,
+	"dt_update":"2025-12-10 20:56:35.476",
 	"count_dep":256,
 	"count_ref":1,
 	"licenses":[
@@ -28,12 +28,20 @@
 	"url_scm":"https://github.com/debezium/debezium-operator/debezium-operator-core",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#332714 in MvnRepository",
+	"ranking":"#332817 in MvnRepository",
 	"tags":[
 		"debezium",
 		"operator"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -48,6 +56,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.3.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.2.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.2.Final",
 			"vulnerabilities":""
 		}
 	]
