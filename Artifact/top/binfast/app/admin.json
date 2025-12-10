@@ -3,14 +3,16 @@
 	"description":"业务层：管理端",
 	"group_id":"top.binfast.app",
 	"artifact_id":"admin",
-	"version_latest":"1.2.9",
-	"ts_publish":1765266440000,
-	"dt_publish":"2025-12-09 15:47:20.000",
-	"ts_update":1765268699777,
-	"dt_update":"2025-12-09 16:24:46.921",
-	"count_dep":8,
+	"version_latest":"1.2.10",
+	"ts_publish":1765353377000,
+	"dt_publish":"2025-12-10 15:56:17.000",
+	"ts_update":1765355055843,
+	"dt_update":"2025-12-10 16:24:02.941",
+	"count_dep":29,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"git@gitee.com:tuhe32/binfast.git/app/admin",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/top.binfast.app/admin@1.1.9",
@@ -19,11 +21,19 @@
 	],
 	"url_scm":"https://gitee.com/tuhe32/binfast/app/admin",
 	"license":"Apache 2.0",
-	"ranking":"#733759 in MvnRepository",
+	"ranking":"#730652 in MvnRepository",
 	"tags":[
 		"admin"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251203",
 			"repository":"Central",
@@ -174,14 +184,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.0.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241022",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.8",
 			"vulnerabilities":""
 		}
 	]
