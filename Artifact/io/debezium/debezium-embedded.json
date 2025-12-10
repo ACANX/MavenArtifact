@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.debezium/debezium-embedded",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-embedded",
-	"version_latest":"3.4.0.Beta1",
-	"ts_publish":1764154855000,
-	"dt_publish":"2025-11-26 19:00:55.000",
-	"ts_update":1764155704729,
-	"dt_update":"2025-11-26 19:14:51.568",
-	"count_dep":14,
-	"count_ref":25,
-	"licenses":[],
+	"version_latest":"3.4.0.CR1",
+	"ts_publish":1765362371000,
+	"dt_publish":"2025-12-10 18:26:11.000",
+	"ts_update":1765363573542,
+	"dt_update":"2025-12-10 18:46:02.796",
+	"count_dep":25,
+	"count_ref":27,
+	"licenses":[
+		"Apache Software License 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database"
@@ -26,12 +28,20 @@
 	"count_used_by":82,
 	"home_page":"https://debezium.io/",
 	"license":"Apache 2.0",
-	"ranking":"#6410 in MvnRepository",
+	"ranking":"#6427 in MvnRepository",
 	"tags":[
 		"debezium",
 		"embedded"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":24,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -46,6 +56,14 @@
 			"type":"alpha",
 			"usage":24,
 			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"3.3.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -175,22 +193,7 @@
 			"usage":20,
 			"version":"3.2.0.Alpha1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":24,
-			"version":"3.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":20,
-			"version":"3.1.2.Final",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for all modules and connectors"
 }

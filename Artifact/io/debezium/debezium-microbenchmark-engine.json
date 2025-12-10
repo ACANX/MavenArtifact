@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-microbenchmark-engine",
-	"version_latest":"3.4.0.Beta1",
-	"ts_publish":1764154855000,
-	"dt_publish":"2025-11-26 19:00:55.000",
-	"ts_update":1764155707873,
-	"dt_update":"2025-11-26 19:14:52.824",
+	"version_latest":"3.4.0.CR1",
+	"ts_publish":1765362371000,
+	"dt_publish":"2025-12-10 18:26:11.000",
+	"ts_update":1765363581309,
+	"dt_update":"2025-12-10 18:46:03.859",
 	"count_dep":26,
 	"count_ref":0,
 	"licenses":[
@@ -27,13 +27,21 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-microbenchmark-engine",
 	"license":"Apache 2.0",
-	"ranking":"#823973 in MvnRepository",
+	"ranking":"#823124 in MvnRepository",
 	"tags":[
 		"debezium",
 		"benchmark",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -48,6 +56,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.2.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.2.Final",
 			"vulnerabilities":""
 		}
 	]

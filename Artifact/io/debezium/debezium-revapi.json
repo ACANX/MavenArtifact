@@ -3,11 +3,11 @@
 	"description":"Contains the configuration of the Revapi API checker and the list of the API changes in the Debezium APIs.",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-revapi",
-	"version_latest":"3.4.0.Beta1",
-	"ts_publish":1764154854000,
-	"dt_publish":"2025-11-26 19:00:54.000",
-	"ts_update":1764155706314,
-	"dt_update":"2025-11-26 19:14:54.820",
+	"version_latest":"3.4.0.CR1",
+	"ts_publish":1765362371000,
+	"dt_publish":"2025-12-10 18:26:11.000",
+	"ts_update":1765363576628,
+	"dt_update":"2025-12-10 18:46:03.860",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -29,11 +29,19 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-revapi",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#58265 in MvnRepository",
+	"ranking":"#58416 in MvnRepository",
 	"tags":[
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":6,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -48,6 +56,14 @@
 			"type":"alpha",
 			"usage":6,
 			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.3.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -176,22 +192,6 @@
 			"type":"alpha",
 			"usage":5,
 			"version":"3.2.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.1.2.Final",
 			"vulnerabilities":""
 		}
 	]

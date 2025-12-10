@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.debezium/debezium-api",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-api",
-	"version_latest":"3.4.0.Beta1",
-	"ts_publish":1764154855000,
-	"dt_publish":"2025-11-26 19:00:55.000",
-	"ts_update":1764155706633,
-	"dt_update":"2025-11-26 19:14:53.470",
+	"version_latest":"3.4.0.CR1",
+	"ts_publish":1765362371000,
+	"dt_publish":"2025-12-10 18:26:11.000",
+	"ts_update":1765363580304,
+	"dt_update":"2025-12-10 18:46:04.385",
 	"count_dep":6,
-	"count_ref":40,
+	"count_ref":43,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -25,12 +25,20 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-api",
 	"count_used_by":59,
 	"license":"Apache 2.0",
-	"ranking":"#8704 in MvnRepository",
+	"ranking":"#8732 in MvnRepository",
 	"tags":[
 		"debezium",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":23,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -45,6 +53,14 @@
 			"type":"alpha",
 			"usage":20,
 			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"3.3.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -173,22 +189,6 @@
 			"type":"alpha",
 			"usage":14,
 			"version":"3.2.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":17,
-			"version":"3.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"3.1.2.Final",
 			"vulnerabilities":""
 		}
 	]
