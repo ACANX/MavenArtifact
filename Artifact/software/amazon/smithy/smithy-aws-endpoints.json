@@ -3,11 +3,11 @@
 	"description":"AWS specific components for managing endpoints in Smithy",
 	"group_id":"software.amazon.smithy",
 	"artifact_id":"smithy-aws-endpoints",
-	"version_latest":"1.64.0",
-	"ts_publish":1762896291000,
-	"dt_publish":"2025-11-12 05:24:51.000",
-	"ts_update":1762897523841,
-	"dt_update":"2025-11-12 05:45:16.039",
+	"version_latest":"1.65.0",
+	"ts_publish":1765404656000,
+	"dt_publish":"2025-12-11 06:10:56.000",
+	"ts_update":1765405083659,
+	"dt_update":"2025-12-11 06:17:50.937",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"Smithy"
 	],
 	"url_scm":"https://github.com/smithy-lang/smithy.git",
-	"count_used_by":808,
+	"count_used_by":817,
 	"home_page":"https://github.com/smithy-lang/smithy",
 	"license":"Apache 2.0",
-	"ranking":"#779 in MvnRepository",
+	"ranking":"#777 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -35,10 +35,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.64.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251022",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"1.63.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240509",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.49.0",
 			"vulnerabilities":""
 		}
 	]

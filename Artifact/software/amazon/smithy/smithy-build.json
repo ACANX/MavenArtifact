@@ -3,13 +3,13 @@
 	"description":"This module is a library used to validate Smithy models, create filtered projections of a model, and generate build artifacts.",
 	"group_id":"software.amazon.smithy",
 	"artifact_id":"smithy-build",
-	"version_latest":"1.64.0",
-	"ts_publish":1762896291000,
-	"dt_publish":"2025-11-12 05:24:51.000",
-	"ts_update":1762898181711,
-	"dt_update":"2025-11-12 05:56:14.096",
+	"version_latest":"1.65.0",
+	"ts_publish":1765404656000,
+	"dt_publish":"2025-12-11 06:10:56.000",
+	"ts_update":1765405081793,
+	"dt_update":"2025-12-11 06:17:50.939",
 	"count_dep":2,
-	"count_ref":4,
+	"count_ref":3,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -26,13 +26,21 @@
 	"count_used_by":34,
 	"home_page":"https://github.com/smithy-lang/smithy",
 	"license":"Apache 2.0",
-	"ranking":"#14276 in MvnRepository",
+	"ranking":"#14116 in MvnRepository",
 	"tags":[
 		"amazon",
 		"smithy",
 		"build"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.64.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"1.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240509",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"1.49.0",
 			"vulnerabilities":""
 		}
 	]
