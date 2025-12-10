@@ -3,11 +3,11 @@
 	"description":"一个自动生成工厂类的小工具\n        现在微服务基本都是springframework的天下,很少手动创建类.但有不少场景还是需要手动创建类,省去重复性的创建类的工作.这时就需要使用到tulang-auto-sh.tulang.auto.factory.\n\n        如:\n        APP SDK开发场景中\n        给第三方提供的 jar\n        使用spring框架动态创建类,是使用反射,性能会有损耗,而使用本工具手动创建就不会有这个损耗\n        本工具借鉴了google auto的思想, 跟google auto的不同点在于,google auto是针对单个类创建工厂类,我提供的这个工具是对接口,给实现了指定接口的所有类创建一个工厂类,请看后续介绍",
 	"group_id":"io.gitee.ygypc",
 	"artifact_id":"tulang-auto-factory",
-	"version_latest":"1.0.5",
-	"ts_publish":1764929439000,
-	"dt_publish":"2025-12-05 18:10:39.000",
-	"ts_update":1764930402534,
-	"dt_update":"2025-12-05 18:26:32.806",
+	"version_latest":"1.0.6",
+	"ts_publish":1765366682000,
+	"dt_publish":"2025-12-10 19:38:02.000",
+	"ts_update":1765367811510,
+	"dt_update":"2025-12-10 19:56:31.121",
 	"count_dep":11,
 	"count_ref":1,
 	"licenses":[
@@ -23,12 +23,20 @@
 	"count_used_by":1,
 	"home_page":"https://gitee.com/ygypc/ygypc-auto.git",
 	"license":"Apache 2.0",
-	"ranking":"#375480 in MvnRepository",
+	"ranking":"#375351 in MvnRepository",
 	"tags":[
 		"gitee",
 		"factory"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.0.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20241203",
 			"repository":"Central",
