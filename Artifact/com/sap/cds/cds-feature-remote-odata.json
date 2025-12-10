@@ -3,12 +3,12 @@
 	"description":"Consuming remote OData V2/V4 services using SAP Cloud SDK",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-feature-remote-odata",
-	"version_latest":"4.5.0",
-	"ts_publish":1764702290000,
-	"dt_publish":"2025-12-03 03:04:50.000",
-	"ts_update":1764703600303,
-	"dt_update":"2025-12-03 03:26:30.875",
-	"count_dep":42,
+	"version_latest":"4.5.1",
+	"ts_publish":1765405486000,
+	"dt_publish":"2025-12-11 06:24:46.000",
+	"ts_update":1765406362886,
+	"dt_update":"2025-12-11 06:39:09.725",
+	"count_dep":74,
 	"count_ref":0,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
@@ -24,13 +24,21 @@
 	],
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#735308 in MvnRepository",
+	"ranking":"#736304 in MvnRepository",
 	"tags":[
 		"data",
 		"remote",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250305",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.8.0",
 			"vulnerabilities":""
 		}
 	]
