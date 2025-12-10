@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.avaje/avaje-http-api",
 	"group_id":"io.avaje",
 	"artifact_id":"avaje-http-api",
-	"version_latest":"3.6",
-	"ts_publish":1765272795000,
-	"dt_publish":"2025-12-09 17:33:15.000",
-	"ts_update":1765274200900,
-	"dt_update":"2025-12-09 17:56:32.389",
+	"version_latest":"3.7-RC1",
+	"ts_publish":1765392488000,
+	"dt_publish":"2025-12-11 02:48:08.000",
+	"ts_update":1765394161291,
+	"dt_update":"2025-12-11 03:15:35.392",
 	"count_dep":2,
-	"count_ref":4,
+	"count_ref":7,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -22,12 +22,20 @@
 	"url_scm":"git@github.com:avaje-pom/java11-oss.git/avaje-http-parent/avaje-http-api",
 	"count_used_by":14,
 	"license":"Apache 2.0",
-	"ranking":"#35217 in MvnRepository",
+	"ranking":"#35228 in MvnRepository",
 	"tags":[
 		"http",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251204",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250318",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.1",
 			"vulnerabilities":""
 		}
 	]

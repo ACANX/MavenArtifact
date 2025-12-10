@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/org.clojure/tools.deps",
-	"description":"Parent POM for projects contributed to Clojure",
+	"description":"Clojure dependencies as data and classpath generation tools.",
 	"group_id":"org.clojure",
 	"artifact_id":"tools.deps",
-	"version_latest":"0.26.1553",
-	"ts_publish":1758824434000,
-	"dt_publish":"2025-09-26 02:20:34.000",
-	"ts_update":1758827634023,
-	"dt_update":"2025-09-26 02:52:18.053",
+	"version_latest":"0.27.1560",
+	"ts_publish":1765393140000,
+	"dt_publish":"2025-12-11 02:59:00.000",
+	"ts_update":1765394160491,
+	"dt_update":"2025-12-11 03:15:33.109",
 	"count_dep":92,
 	"count_ref":0,
 	"licenses":[
@@ -25,14 +25,31 @@
 		"Alex Miller"
 	],
 	"url_scm":"git@github.com:clojure/tools.deps.git",
-	"count_used_by":23,
+	"count_used_by":24,
 	"license":"EPL 1.0",
-	"ranking":"#20327 in MvnRepository",
+	"ranking":"#19803 in MvnRepository",
 	"tags":[
 		"clojure",
-		"tools"
+		"tools",
+		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.26.1553",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.26.1549",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -45,7 +62,7 @@
 			"date":"20250826",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"0.25.1539",
 			"vulnerabilities":""
 		},
@@ -69,7 +86,7 @@
 			"date":"20250603",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"0.24.1523",
 			"vulnerabilities":""
 		},
@@ -175,22 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"0.21.1460",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241121",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.21.1456",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240905",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.21.1449",
 			"vulnerabilities":""
 		}
 	]
