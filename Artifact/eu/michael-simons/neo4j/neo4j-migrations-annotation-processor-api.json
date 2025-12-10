@@ -3,14 +3,16 @@
 	"description":"Infrastructure that can be used to change functionality of the processor",
 	"group_id":"eu.michael-simons.neo4j",
 	"artifact_id":"neo4j-migrations-annotation-processor-api",
-	"version_latest":"3.0.0",
-	"ts_publish":1763710963000,
-	"dt_publish":"2025-11-21 15:42:43.000",
-	"ts_update":1763711795412,
-	"dt_update":"2025-11-21 15:56:27.920",
+	"version_latest":"3.1.0",
+	"ts_publish":1765356321000,
+	"dt_publish":"2025-12-10 16:45:21.000",
+	"ts_update":1765357004569,
+	"dt_update":"2025-12-10 16:56:31.098",
 	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	"url_scm":"https://github.com/michael-simons/neo4j-migrations/extensions/neo4j-migrations-annotation-processing/neo4j-migrations-annotation-processor-api",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#346041 in MvnRepository",
+	"ranking":"#304656 in MvnRepository",
 	"tags":[
 		"database",
 		"annotations",
@@ -34,6 +36,14 @@
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -184,14 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241130",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.14.1",
 			"vulnerabilities":""
 		}
 	]

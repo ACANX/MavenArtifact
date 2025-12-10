@@ -3,11 +3,11 @@
 	"description":"A parent POM for all artifacts by Vaadin Ltd.",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-maven-plugin",
-	"version_latest":"25.0.0-beta8",
-	"ts_publish":1764845592000,
-	"dt_publish":"2025-12-04 18:53:12.000",
-	"ts_update":1764847018581,
-	"dt_update":"2025-12-04 19:16:42.912",
+	"version_latest":"25.0.0-rc1",
+	"ts_publish":1765356049000,
+	"dt_publish":"2025-12-10 16:40:49.000",
+	"ts_update":1765357001510,
+	"dt_update":"2025-12-10 16:56:31.819",
 	"count_dep":99,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/vaadin/hilla/hilla-maven-plugin",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#403279 in MvnRepository",
+	"ranking":"#318736 in MvnRepository",
 	"tags":[
 		"plugin",
 		"vaadin",
@@ -32,6 +32,14 @@
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"25.0.0-beta8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"24.9.0-beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251126",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"24.8.14",
 			"vulnerabilities":""
 		}
 	]
