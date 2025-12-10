@@ -3,11 +3,11 @@
 	"description":"testing support for avaje-inject dependency injection",
 	"group_id":"io.avaje",
 	"artifact_id":"avaje-inject-test",
-	"version_latest":"12.1-javax",
-	"ts_publish":1765270734000,
-	"dt_publish":"2025-12-09 16:58:54.000",
-	"ts_update":1765272114118,
-	"dt_update":"2025-12-09 17:21:46.907",
+	"version_latest":"12.2-RC1",
+	"ts_publish":1765349197000,
+	"dt_publish":"2025-12-10 14:46:37.000",
+	"ts_update":1765349801787,
+	"dt_update":"2025-12-10 14:56:30.525",
 	"count_dep":29,
 	"count_ref":0,
 	"licenses":[
@@ -25,12 +25,28 @@
 	"url_scm":"git@github.com:avaje-pom/java11-oss.git/avaje-inject-parent/avaje-inject-test",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#92791 in MvnRepository",
+	"ranking":"#92920 in MvnRepository",
 	"tags":[
 		"dependency-injection",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.1-javax",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251202",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"11.6-RC7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250713",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"11.6-RC6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"11.6-RC5",
 			"vulnerabilities":""
 		}
 	]
