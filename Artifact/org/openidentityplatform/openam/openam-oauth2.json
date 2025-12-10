@@ -3,13 +3,13 @@
 	"description":"OpenAM OAuth2 integration",
 	"group_id":"org.openidentityplatform.openam",
 	"artifact_id":"openam-oauth2",
-	"version_latest":"16.0.2",
-	"ts_publish":1762848040000,
-	"dt_publish":"2025-11-11 16:00:40.000",
-	"ts_update":1762849346512,
-	"dt_update":"2025-11-11 16:21:51.621",
+	"version_latest":"16.0.4",
+	"ts_publish":1765352260000,
+	"dt_publish":"2025-12-10 15:37:40.000",
+	"ts_update":1765352932916,
+	"dt_update":"2025-12-10 15:48:36.088",
 	"count_dep":112,
-	"count_ref":4,
+	"count_ref":3,
 	"licenses":[
 		"CC BY-NC-ND 3.0",
 		"CDDL-1.0"
@@ -27,19 +27,43 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/OpenAM/openam-oauth2",
 	"count_used_by":4,
 	"license":"CC-BY-NC-ND 3.0",
-	"ranking":"#124900 in MvnRepository",
+	"ranking":"#108697 in MvnRepository",
 	"tags":[
 		"authentication",
 		"oauth"
 	],
 	"versions":[
 		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"16.0.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"16.0.2",
+			"vulnerabilities":"1 vulnerability"
+		},
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"16.0.1",
+			"vulnerabilities":"1 vulnerability"
+		},
+		{
 			"date":"20250905",
 			"repository":"Central",
 			"type":"release",
 			"usage":4,
 			"version":"15.2.2",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250809",
@@ -47,7 +71,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.2.1",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250717",
@@ -55,7 +79,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.2.0",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250424",
@@ -63,7 +87,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.1.6",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250319",
@@ -71,7 +95,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.1.5",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250217",
@@ -79,7 +103,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.1.4",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20241224",
@@ -87,7 +111,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.1.3",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20241125",
@@ -95,7 +119,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.1.2",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20241018",
@@ -103,7 +127,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.1.1",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20240909",
@@ -111,7 +135,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.1.0",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20240725",
@@ -119,7 +143,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.0.4",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20240717",
@@ -127,7 +151,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.0.3",
-			"vulnerabilities":"1 vulnerability"
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20240626",
@@ -135,7 +159,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.0.2",
-			"vulnerabilities":"1 vulnerability"
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20240606",
@@ -143,7 +167,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.0.1",
-			"vulnerabilities":"1 vulnerability"
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20240521",
@@ -151,7 +175,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"15.0.0",
-			"vulnerabilities":"1 vulnerability"
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20240312",
@@ -159,7 +183,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"14.8.4",
-			"vulnerabilities":"1 vulnerability"
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20240123",
@@ -167,31 +191,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"14.8.3",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20231212",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"14.8.2",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20231031",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"14.8.1",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20231011",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"14.7.4",
-			"vulnerabilities":"1 vulnerability"
+			"vulnerabilities":"2 vulnerabilities"
 		}
 	]
 }
