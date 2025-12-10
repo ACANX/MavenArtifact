@@ -3,11 +3,11 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.reactivemessaging.nats-jetstream",
 	"artifact_id":"quarkus-messaging-nats-jetstream-parent",
-	"version_latest":"3.29.1",
-	"ts_publish":1764155538000,
-	"dt_publish":"2025-11-26 19:12:18.000",
-	"ts_update":1764157544961,
-	"dt_update":"2025-11-26 19:45:36.200",
+	"version_latest":"3.30.0",
+	"ts_publish":1765350195000,
+	"dt_publish":"2025-12-10 15:03:15.000",
+	"ts_update":1765351364387,
+	"dt_update":"2025-12-10 15:22:38.267",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,13 +22,21 @@
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-reactive-messaging-nats-jetstream",
 	"license":"Apache 2.0",
-	"ranking":"#480607 in MvnRepository",
+	"ranking":"#539174 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"messaging",
 		"nats"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.17.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250119",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.17.14",
 			"vulnerabilities":""
 		}
 	]
