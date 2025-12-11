@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.telicent.smart-caches/event-sources-core",
 	"group_id":"io.telicent.smart-caches",
 	"artifact_id":"event-sources-core",
-	"version_latest":"0.32.5",
-	"ts_publish":1765278986000,
-	"dt_publish":"2025-12-09 19:16:26.000",
-	"ts_update":1765279984699,
-	"dt_update":"2025-12-09 19:32:57.582",
-	"count_dep":9,
+	"version_latest":"0.32.6",
+	"ts_publish":1765472859000,
+	"dt_publish":"2025-12-12 01:07:39.000",
+	"ts_update":1765474004223,
+	"dt_update":"2025-12-12 01:26:37.317",
+	"count_dep":41,
 	"count_ref":6,
-	"licenses":[],
+	"licenses":[
+		"Apache-2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/telicent-oss/smart-caches-core/event-sources/event-sources-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.telicent.smart-caches/event-sources-core@0.29.4",
@@ -19,12 +21,28 @@
 	"url_scm":"https://github.com/telicent-oss/smart-caches-core/event-sources/event-sources-core",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#62607 in MvnRepository",
+	"ranking":"#62654 in MvnRepository",
 	"tags":[
 		"event",
 		"cache"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"0.32.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"0.32.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251204",
 			"repository":"Central",
@@ -168,22 +186,7 @@
 			"usage":6,
 			"version":"0.27.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.27.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.26.2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Provides common libraries for building Java based Smart Caches for the Telicent Core platform"
 }

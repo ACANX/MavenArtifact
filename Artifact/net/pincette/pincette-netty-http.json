@@ -3,13 +3,13 @@
 	"description":"A simple Netty HTTP server and client",
 	"group_id":"net.pincette",
 	"artifact_id":"pincette-netty-http",
-	"version_latest":"3.2.14",
-	"ts_publish":1765197676000,
-	"dt_publish":"2025-12-08 20:41:16.000",
-	"ts_update":1765198634382,
-	"dt_update":"2025-12-08 20:56:56.857",
+	"version_latest":"3.2.15",
+	"ts_publish":1765472431000,
+	"dt_publish":"2025-12-12 01:00:31.000",
+	"ts_update":1765474013909,
+	"dt_update":"2025-12-12 01:26:37.765",
 	"count_dep":26,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"BSD-style"
 	],
@@ -26,7 +26,7 @@
 	"count_used_by":3,
 	"home_page":"https://github.com/wdonne/pincette-netty-http",
 	"license":"BSD",
-	"ranking":"#168511 in MvnRepository",
+	"ranking":"#176155 in MvnRepository",
 	"tags":[
 		"network",
 		"socket",
@@ -34,6 +34,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.14",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250925",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231031",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1",
 			"vulnerabilities":""
 		}
 	]

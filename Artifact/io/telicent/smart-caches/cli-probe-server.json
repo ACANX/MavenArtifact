@@ -3,11 +3,11 @@
 	"description":"Provides a minimalist HTTP server that can be run in the background by CLI applications to provide\n        usable liveness and readiness probes for use by container deployments.",
 	"group_id":"io.telicent.smart-caches",
 	"artifact_id":"cli-probe-server",
-	"version_latest":"0.32.5",
-	"ts_publish":1765278986000,
-	"dt_publish":"2025-12-09 19:16:26.000",
-	"ts_update":1765279603685,
-	"dt_update":"2025-12-09 19:26:34.503",
+	"version_latest":"0.32.6",
+	"ts_publish":1765472859000,
+	"dt_publish":"2025-12-12 01:07:39.000",
+	"ts_update":1765474014524,
+	"dt_update":"2025-12-12 01:26:36.878",
 	"count_dep":10,
 	"count_ref":1,
 	"licenses":[],
@@ -20,13 +20,29 @@
 	"url_scm":"https://github.com/telicent-oss/smart-caches-core/cli/cli-probe-server",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#433406 in MvnRepository",
+	"ranking":"#434210 in MvnRepository",
 	"tags":[
 		"server",
 		"cache",
 		"command-line"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.32.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.32.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251204",
 			"repository":"Central",
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.27.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250204",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.27.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.26.2",
 			"vulnerabilities":""
 		}
 	]
