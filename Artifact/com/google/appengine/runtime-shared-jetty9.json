@@ -3,11 +3,11 @@
 	"description":"App Engine runtime shared components for Jetty 9.",
 	"group_id":"com.google.appengine",
 	"artifact_id":"runtime-shared-jetty9",
-	"version_latest":"3.0.2",
-	"ts_publish":1763063397000,
-	"dt_publish":"2025-11-14 03:49:57.000",
-	"ts_update":1763066347245,
-	"dt_update":"2025-11-14 04:38:19.141",
+	"version_latest":"3.0.3",
+	"ts_publish":1765446541000,
+	"dt_publish":"2025-12-11 17:49:01.000",
+	"ts_update":1765448409035,
+	"dt_update":"2025-12-11 18:20:00.639",
 	"count_dep":2,
 	"count_ref":2,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/GoogleCloudPlatform/appengine-java-standard/runtime-shared-jetty9",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#249591 in MvnRepository",
+	"ranking":"#188633 in MvnRepository",
 	"tags":[
 		"server",
 		"google",
@@ -35,6 +35,14 @@
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.0.24",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231206",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.0.23",
 			"vulnerabilities":""
 		}
 	],
