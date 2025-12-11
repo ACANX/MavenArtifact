@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-arquillian",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-arquillian",
-	"version_latest":"9.0.0.Beta3",
-	"ts_publish":1765261884000,
-	"dt_publish":"2025-12-09 14:31:24.000",
-	"ts_update":1765263411107,
-	"dt_update":"2025-12-09 14:56:31.750",
+	"version_latest":"9.0.0.CR1",
+	"ts_publish":1765434624000,
+	"dt_publish":"2025-12-11 14:30:24.000",
+	"ts_update":1765436204987,
+	"dt_update":"2025-12-11 14:56:34.143",
 	"count_dep":9,
-	"count_ref":4,
+	"count_ref":3,
 	"licenses":[],
 	"categories":[
 		"Application and Server Management"
@@ -23,13 +23,21 @@
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
 	"count_used_by":26,
 	"license":"Apache 2.0",
-	"ranking":"#18153 in MvnRepository",
+	"ranking":"#18252 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"cluster",
 		"arquillian"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"beta",
+			"usage":5,
+			"version":"9.0.0.Beta3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251108",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"7.0.5.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"7.0.4.Final",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"A table format for huge analytic datasets",
 	"group_id":"com.linkedin.iceberg",
 	"artifact_id":"iceberg-common",
-	"version_latest":"1.5.2.2",
-	"ts_publish":1763680661000,
-	"dt_publish":"2025-11-21 07:17:41.000",
-	"ts_update":1763682318971,
-	"dt_update":"2025-11-21 07:45:09.189",
+	"version_latest":"1.5.2.3",
+	"ts_publish":1765435476000,
+	"dt_publish":"2025-12-11 14:44:36.000",
+	"ts_update":1765436204104,
+	"dt_update":"2025-12-11 14:56:31.964",
 	"count_dep":2,
 	"count_ref":18,
 	"licenses":[
@@ -28,20 +28,28 @@
 	],
 	"url_scm":"https://github.com/linkedin/iceberg.git",
 	"url_ci_management":"https://github.com/linkedin/iceberg/actions",
-	"count_used_by":29,
+	"count_used_by":42,
 	"home_page":"https://github.com/linkedin/iceberg",
 	"license":"Apache 2.0",
-	"ranking":"#16286 in MvnRepository",
+	"ranking":"#11715 in MvnRepository",
 	"tags":[
 		"linkedin",
 		"iceberg"
 	],
 	"versions":[
 		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":28,
+			"version":"1.5.2.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251103",
 			"repository":"Central",
 			"type":"release",
-			"usage":18,
+			"usage":28,
 			"version":"1.5.2.1",
 			"vulnerabilities":""
 		},
@@ -54,10 +62,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":17,
+			"version":"1.2.0.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250925",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":17,
 			"version":"1.2.0.4",
 			"vulnerabilities":""
 		},
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"0.11.1.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240111",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.11.1.31",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231206",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.11.1.30",
 			"vulnerabilities":""
 		}
 	]

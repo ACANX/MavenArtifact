@@ -3,11 +3,11 @@
 	"description":"A table format for huge analytic datasets",
 	"group_id":"com.linkedin.iceberg",
 	"artifact_id":"iceberg-data",
-	"version_latest":"1.5.2.2",
-	"ts_publish":1763680661000,
-	"dt_publish":"2025-11-21 07:17:41.000",
-	"ts_update":1763682319617,
-	"dt_update":"2025-11-21 07:45:09.193",
+	"version_latest":"1.5.2.3",
+	"ts_publish":1765435476000,
+	"dt_publish":"2025-12-11 14:44:36.000",
+	"ts_update":1765436201172,
+	"dt_update":"2025-12-11 14:56:32.564",
 	"count_dep":6,
 	"count_ref":4,
 	"licenses":[
@@ -28,10 +28,10 @@
 	],
 	"url_scm":"https://github.com/linkedin/iceberg.git",
 	"url_ci_management":"https://github.com/linkedin/iceberg/actions",
-	"count_used_by":15,
+	"count_used_by":28,
 	"home_page":"https://github.com/linkedin/iceberg",
 	"license":"Apache 2.0",
-	"ranking":"#31308 in MvnRepository",
+	"ranking":"#16992 in MvnRepository",
 	"tags":[
 		"linkedin",
 		"data",
@@ -39,10 +39,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"1.5.2.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251103",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":14,
 			"version":"1.5.2.1",
 			"vulnerabilities":""
 		},
@@ -55,10 +63,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.2.0.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250925",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":5,
 			"version":"1.2.0.4",
 			"vulnerabilities":""
 		},
@@ -180,22 +196,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"0.11.1.32",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240111",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.11.1.31",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231206",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"0.11.1.30",
 			"vulnerabilities":""
 		}
 	]
