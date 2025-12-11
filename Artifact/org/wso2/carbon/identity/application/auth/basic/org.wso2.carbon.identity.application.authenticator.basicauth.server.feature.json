@@ -3,11 +3,11 @@
 	"description":"This feature contains the core bundles required for BasicAuth Application Authenticator",
 	"group_id":"org.wso2.carbon.identity.application.auth.basic",
 	"artifact_id":"org.wso2.carbon.identity.application.authenticator.basicauth.server.feature",
-	"version_latest":"6.8.50",
-	"ts_publish":1763972452000,
-	"dt_publish":"2025-11-24 16:20:52.000",
-	"ts_update":1763974589416,
-	"dt_update":"2025-11-24 16:56:06.877",
+	"version_latest":"6.8.51",
+	"ts_publish":1765432812000,
+	"dt_publish":"2025-12-11 14:00:12.000",
+	"ts_update":1765434404673,
+	"dt_update":"2025-12-11 14:26:34.985",
 	"count_dep":230,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/wso2-extensions/identity-local-auth-basicauth.git/features/org.wso2.carbon.identity.application.authenticator.basicauth.server.feature",
 	"home_page":"http://wso2.org",
 	"license":"Apache 2.0",
-	"ranking":"#637868 in MvnRepository",
+	"ranking":"#645711 in MvnRepository",
 	"tags":[
 		"server",
 		"authentication",
 		"identity"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.8.50",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250331",
 			"repository":"Central",
@@ -94,6 +102,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.8.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.7.34",
 			"vulnerabilities":""
 		},
 		{
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220926",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.6.0",
 			"vulnerabilities":""
 		}
 	]
