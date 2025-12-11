@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for SSO module holds the client classes that are used for\n        communicating with SSO.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"sso",
-	"version_latest":"2.40.4",
-	"ts_publish":1765236300000,
-	"dt_publish":"2025-12-09 07:25:00.000",
-	"ts_update":1765238206786,
-	"dt_update":"2025-12-09 07:56:33.108",
+	"version_latest":"2.40.6",
+	"ts_publish":1765411919000,
+	"dt_publish":"2025-12-11 08:11:59.000",
+	"ts_update":1765414613590,
+	"dt_update":"2025-12-11 08:56:38.469",
 	"count_dep":37,
 	"count_ref":1,
 	"licenses":[
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/sso@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/sso",
-	"count_used_by":74,
+	"count_used_by":76,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#7046 in MvnRepository",
+	"ranking":"#6883 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -31,6 +31,22 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251206",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.40.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251204",
 			"repository":"Central",
@@ -67,7 +83,7 @@
 			"date":"20251127",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"2.39.5",
 			"vulnerabilities":""
 		},
@@ -91,7 +107,7 @@
 			"date":"20251121",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"2.39.2",
 			"vulnerabilities":""
 		},
@@ -131,7 +147,7 @@
 			"date":"20251114",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"2.38.7",
 			"vulnerabilities":""
 		},
@@ -171,24 +187,8 @@
 			"date":"20251108",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"2.38.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251106",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.38.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251106",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.38.0",
 			"vulnerabilities":""
 		}
 	]

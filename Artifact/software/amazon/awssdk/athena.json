@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Amazon Athena module holds the client classes that are used for communicating\n        with Amazon Athena Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"athena",
-	"version_latest":"2.40.4",
-	"ts_publish":1765236299000,
-	"ts_update":1765237589080,
-	"count_dep":3,
-	"count_ref":0,
+	"version_latest":"2.40.6",
+	"ts_publish":1765411919000,
+	"ts_update":1765414630884,
+	"count_dep":33,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,12 +15,12 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/athena@2.32.16",
-	"dt_publish":"2025-12-09 07:24:59.000",
-	"dt_update":"2025-12-09 07:46:12.726",
+	"dt_publish":"2025-12-11 08:11:59.000",
+	"dt_update":"2025-12-11 08:56:38.893",
 	"count_used_by":17,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#28249 in MvnRepository",
+	"ranking":"#28255 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,6 +28,22 @@
 		"athena"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251206",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.40.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251205",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.38.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251106",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.38.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251106",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.38.0",
 			"vulnerabilities":""
 		}
 	]
