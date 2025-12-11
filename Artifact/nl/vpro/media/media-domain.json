@@ -3,16 +3,14 @@
 	"description":"The basic domain classes for 'media', the core of POMS. Also, the 'update' XML bindings for it.\n    It also contains some closely related domain classes like the enum to contain NICAM kijkwijzer settings.",
 	"group_id":"nl.vpro.media",
 	"artifact_id":"media-domain",
-	"version_latest":"8.11.0",
-	"ts_publish":1763122119000,
-	"dt_publish":"2025-11-14 20:08:39.000",
-	"ts_update":1763123227459,
-	"dt_update":"2025-11-14 20:26:24.779",
-	"count_dep":85,
-	"count_ref":11,
-	"licenses":[
-		"GPLv3"
-	],
+	"version_latest":"8.11.1",
+	"ts_publish":1765495251000,
+	"dt_publish":"2025-12-12 07:20:51.000",
+	"ts_update":1765496026331,
+	"dt_update":"2025-12-12 07:33:38.610",
+	"count_dep":41,
+	"count_ref":7,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,12 +24,28 @@
 	"url_scm":"https://github.com/npo-poms/poms-shared.git/media-domain",
 	"count_used_by":16,
 	"license":"GPL 3.0",
-	"ranking":"#30078 in MvnRepository",
+	"ranking":"#29742 in MvnRepository",
 	"tags":[
 		"domain",
 		"media"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"8.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"8.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -174,22 +188,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"8.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240830",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"8.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241018",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.2.4",
 			"vulnerabilities":""
 		}
 	]

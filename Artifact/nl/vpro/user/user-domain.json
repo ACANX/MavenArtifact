@@ -3,13 +3,13 @@
 	"description":"Domain classes and interfaces related to accountability, users and organizations.",
 	"group_id":"nl.vpro.user",
 	"artifact_id":"user-domain",
-	"version_latest":"8.11.0",
-	"ts_publish":1763122119000,
-	"dt_publish":"2025-11-14 20:08:39.000",
-	"ts_update":1763123227132,
-	"dt_update":"2025-11-14 20:26:24.779",
+	"version_latest":"8.11.1",
+	"ts_publish":1765495251000,
+	"dt_publish":"2025-12-12 07:20:51.000",
+	"ts_update":1765496026563,
+	"dt_update":"2025-12-12 07:33:38.608",
 	"count_dep":47,
-	"count_ref":11,
+	"count_ref":5,
 	"licenses":[
 		"GPLv3"
 	],
@@ -26,12 +26,28 @@
 	"url_scm":"https://github.com/npo-poms/poms-shared.git/user-domain",
 	"count_used_by":7,
 	"license":"GPL 3.0",
-	"ranking":"#62918 in MvnRepository",
+	"ranking":"#67788 in MvnRepository",
 	"tags":[
 		"domain",
 		"user"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"8.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"8.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"8.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240830",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"8.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241018",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.2.4",
 			"vulnerabilities":""
 		}
 	]

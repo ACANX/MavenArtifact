@@ -3,16 +3,14 @@
 	"description":"Provides access to the POMS organization interfaces. The most basic example of an organization in the context of POMS is a 'broadcaster'.",
 	"group_id":"nl.vpro.media",
 	"artifact_id":"media-organizations",
-	"version_latest":"8.11.0",
-	"ts_publish":1763122119000,
-	"dt_publish":"2025-11-14 20:08:39.000",
-	"ts_update":1763123206139,
-	"dt_update":"2025-11-14 20:26:24.778",
-	"count_dep":44,
+	"version_latest":"8.11.1",
+	"ts_publish":1765495251000,
+	"dt_publish":"2025-12-12 07:20:51.000",
+	"ts_update":1765496028686,
+	"dt_update":"2025-12-12 07:33:38.609",
+	"count_dep":11,
 	"count_ref":1,
-	"licenses":[
-		"GPLv3"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,12 +24,20 @@
 	"url_scm":"https://github.com/npo-poms/poms-shared.git/media-organizations",
 	"count_used_by":1,
 	"license":"GPL 3.0",
-	"ranking":"#266324 in MvnRepository",
+	"ranking":"#331321 in MvnRepository",
 	"tags":[
 		"organization",
 		"media"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -182,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240830",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.3.0",
 			"vulnerabilities":""
 		}
 	]
