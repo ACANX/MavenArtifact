@@ -3,11 +3,11 @@
 	"description":"Java bindings for the AWS SDK Common Runtime",
 	"group_id":"software.amazon.awssdk.crt",
 	"artifact_id":"aws-crt",
-	"version_latest":"0.40.2",
-	"ts_publish":1764812983000,
-	"dt_publish":"2025-12-04 09:49:43.000",
-	"ts_update":1764815210464,
-	"dt_update":"2025-12-04 10:26:35.455",
+	"version_latest":"0.41.0",
+	"ts_publish":1765495792000,
+	"dt_publish":"2025-12-12 07:29:52.000",
+	"ts_update":1765496829999,
+	"dt_update":"2025-12-12 07:47:01.500",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"AWS SDK Common Runtime Team"
 	],
 	"url_scm":"https://github.com/awslabs/aws-crt-java/tree/main",
-	"count_used_by":83,
+	"count_used_by":92,
 	"home_page":"https://github.com/awslabs/aws-crt-java",
 	"license":"Apache 2.0",
-	"ranking":"#6349 in MvnRepository",
+	"ranking":"#5801 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -34,10 +34,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"0.40.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"0.40.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251125",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":10,
 			"version":"0.40.1",
 			"vulnerabilities":""
 		},
@@ -45,7 +61,7 @@
 			"date":"20251121",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":7,
 			"version":"0.40.0",
 			"vulnerabilities":""
 		},
@@ -53,7 +69,7 @@
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":19,
+			"usage":20,
 			"version":"0.39.4",
 			"vulnerabilities":""
 		},
@@ -85,7 +101,7 @@
 			"date":"20250913",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":5,
 			"version":"0.38.13",
 			"vulnerabilities":""
 		},
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"0.38.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250409",
-			"repository":"Central",
-			"type":"release",
-			"usage":25,
-			"version":"0.38.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250408",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.38.0",
 			"vulnerabilities":""
 		}
 	]
