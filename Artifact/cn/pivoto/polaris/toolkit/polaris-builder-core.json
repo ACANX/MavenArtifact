@@ -2,14 +2,16 @@
 	"id":"pkg:maven/cn.pivoto.polaris.toolkit/polaris-builder-core",
 	"group_id":"cn.pivoto.polaris.toolkit",
 	"artifact_id":"polaris-builder-core",
-	"version_latest":"3.5.14",
-	"ts_publish":1765185453000,
-	"dt_publish":"2025-12-08 17:17:33.000",
-	"ts_update":1765187613496,
-	"dt_update":"2025-12-08 17:53:22.164",
-	"count_dep":36,
+	"version_latest":"3.5.15",
+	"ts_publish":1765448608000,
+	"dt_publish":"2025-12-11 18:23:28.000",
+	"ts_update":1765449980818,
+	"dt_update":"2025-12-11 18:45:40.805",
+	"count_dep":85,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://www.pivoto.cn/polaris-builder/polaris-builder-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/cn.pivoto.polaris.toolkit/polaris-builder-core@3.3.15",
@@ -21,7 +23,7 @@
 	"url_ci_management":"http://www.pivoto.cn",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#305895 in MvnRepository",
+	"ranking":"#403718 in MvnRepository",
 	"tags":[
 		"tools",
 		"build",
@@ -29,6 +31,14 @@
 		"toolkit"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.14",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":1,
 			"version":"3.4.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250905",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"pivoto"
 }
