@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.tkit.quarkus.lib/tkit-quarkus-jpa-deployment",
 	"group_id":"org.tkit.quarkus.lib",
 	"artifact_id":"tkit-quarkus-jpa-deployment",
-	"version_latest":"4.5.0",
-	"ts_publish":1765204008000,
-	"dt_publish":"2025-12-08 22:26:48.000",
-	"ts_update":1765205007471,
-	"dt_update":"2025-12-08 22:43:11.492",
-	"count_dep":176,
+	"version_latest":"4.6.0",
+	"ts_publish":1765459282000,
+	"dt_publish":"2025-12-11 21:21:22.000",
+	"ts_update":1765461416029,
+	"dt_update":"2025-12-11 21:56:38.082",
+	"count_dep":45,
 	"count_ref":1,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/1000kit/tkit-quarkus/tkit-quarkus-extensions-parent/tkit-quarkus-jpa-parent/tkit-quarkus-jpa-deployment",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.tkit.quarkus.lib/tkit-quarkus-jpa-deployment@4.1.0",
@@ -21,7 +19,7 @@
 	"url_scm":"https://github.com/1000kit/tkit-quarkus/tkit-quarkus-extensions-parent/tkit-quarkus-jpa-parent/tkit-quarkus-jpa-deployment",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#301969 in MvnRepository",
+	"ranking":"#311925 in MvnRepository",
 	"tags":[
 		"persistence",
 		"deployment",
@@ -30,6 +28,14 @@
 		"library"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251121",
 			"repository":"Central",
@@ -181,15 +187,6 @@
 			"usage":1,
 			"version":"2.35.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241012",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.34.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Tkit-Quarkus : Productivity extensions for Quarkus"
+	]
 }
