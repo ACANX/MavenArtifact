@@ -3,11 +3,11 @@
 	"description":"Maven Plugin for ensuring ABI stability.",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"abi-check-plugin",
-	"version_latest":"8.619.77",
-	"ts_publish":1765272658000,
-	"dt_publish":"2025-12-09 17:30:58.000",
-	"ts_update":1765274040544,
-	"dt_update":"2025-12-09 17:53:26.851",
+	"version_latest":"8.620.35",
+	"ts_publish":1765451996000,
+	"dt_publish":"2025-12-11 19:19:56.000",
+	"ts_update":1765452847656,
+	"dt_update":"2025-12-11 19:33:59.207",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[],
@@ -23,13 +23,29 @@
 	],
 	"url_scm":"git@github.com:vespa-engine/vespa.git/abi-check-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#876755 in MvnRepository",
+	"ranking":"#886908 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
 		"maven"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.619.77",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.618.24",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251203",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.596.20",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251014",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.593.34",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251013",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.592.33",
 			"vulnerabilities":""
 		}
 	]
