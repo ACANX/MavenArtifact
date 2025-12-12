@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for Grafana module holds the client classes that are used for\n        communicating with Grafana.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"grafana",
-	"version_latest":"2.40.7",
-	"ts_publish":1765492410000,
-	"dt_publish":"2025-12-12 06:33:30.000",
-	"ts_update":1765495046155,
-	"dt_update":"2025-12-12 07:16:45.962",
-	"count_dep":33,
+	"version_latest":"2.40.8",
+	"ts_publish":1765578758000,
+	"dt_publish":"2025-12-13 06:32:38.000",
+	"ts_update":1765580221559,
+	"dt_update":"2025-12-13 06:56:37.428",
+	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -19,8 +19,8 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/grafana@2.32.18",
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache",
-	"ranking":"#117453 in MvnRepository",
+	"license":"Apache 2.0",
+	"ranking":"#117811 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -30,10 +30,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251209",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"2.40.5",
 			"vulnerabilities":""
 		},
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.38.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251111",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.38.3",
 			"vulnerabilities":""
 		}
 	]

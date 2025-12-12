@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for SSO module holds the client classes that are used for\n        communicating with SSO.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"sso",
-	"version_latest":"2.40.7",
-	"ts_publish":1765492410000,
-	"dt_publish":"2025-12-12 06:33:30.000",
-	"ts_update":1765495041337,
-	"dt_update":"2025-12-12 07:16:49.707",
+	"version_latest":"2.40.8",
+	"ts_publish":1765578758000,
+	"dt_publish":"2025-12-13 06:32:38.000",
+	"ts_update":1765580231864,
+	"dt_update":"2025-12-13 06:56:42.172",
 	"count_dep":37,
 	"count_ref":1,
 	"licenses":[
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/sso@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/sso",
-	"count_used_by":76,
+	"count_used_by":78,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#6883 in MvnRepository",
+	"ranking":"#6737 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -31,6 +31,22 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.40.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251208",
 			"repository":"Central",
@@ -51,7 +67,7 @@
 			"date":"20251204",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.40.2",
 			"vulnerabilities":""
 		},
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.38.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251111",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.38.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251108",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.38.2",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"The AWS Java SDK for Amazon S3 module holds the client classes that are used for communicating with\n        Amazon Simple Storage Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"s3",
-	"version_latest":"2.40.7",
-	"ts_publish":1765492410000,
-	"dt_publish":"2025-12-12 06:33:30.000",
-	"ts_update":1765495023185,
-	"dt_update":"2025-12-12 07:16:47.782",
+	"version_latest":"2.40.8",
+	"ts_publish":1765578758000,
+	"dt_publish":"2025-12-13 06:32:38.000",
+	"ts_update":1765580211987,
+	"dt_update":"2025-12-13 06:56:40.006",
 	"count_dep":61,
-	"count_ref":8,
+	"count_ref":3,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -17,7 +17,7 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/s3@2.32.18",
-	"count_used_by":881,
+	"count_used_by":882,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
 	"ranking":"#707 in MvnRepository",
@@ -32,10 +32,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"2.40.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251210",
 			"repository":"Central",
 			"type":"release",
-			"usage":13,
+			"usage":16,
 			"version":"2.40.5",
 			"vulnerabilities":""
 		},
@@ -43,7 +51,7 @@
 			"date":"20251208",
 			"repository":"Central",
 			"type":"release",
-			"usage":12,
+			"usage":14,
 			"version":"2.40.4",
 			"vulnerabilities":""
 		},
@@ -51,7 +59,7 @@
 			"date":"20251206",
 			"repository":"Central",
 			"type":"release",
-			"usage":16,
+			"usage":17,
 			"version":"2.40.3",
 			"vulnerabilities":""
 		},
@@ -75,7 +83,7 @@
 			"date":"20251203",
 			"repository":"Central",
 			"type":"release",
-			"usage":15,
+			"usage":16,
 			"version":"2.40.0",
 			"vulnerabilities":""
 		},
@@ -83,7 +91,7 @@
 			"date":"20251201",
 			"repository":"Central",
 			"type":"release",
-			"usage":18,
+			"usage":19,
 			"version":"2.39.6",
 			"vulnerabilities":""
 		},
@@ -115,7 +123,7 @@
 			"date":"20251121",
 			"repository":"Central",
 			"type":"release",
-			"usage":25,
+			"usage":26,
 			"version":"2.39.2",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":15,
 			"version":"2.38.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251111",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"2.38.3",
 			"vulnerabilities":""
 		}
 	]
