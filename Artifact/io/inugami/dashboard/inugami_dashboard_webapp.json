@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.inugami.dashboard/inugami_dashboard_webapp",
 	"group_id":"io.inugami.dashboard",
 	"artifact_id":"inugami_dashboard_webapp",
-	"version_latest":"4.2.0",
-	"ts_publish":1765425799000,
-	"dt_publish":"2025-12-11 12:03:19.000",
-	"ts_update":1765427202871,
-	"dt_update":"2025-12-11 12:26:32.599",
-	"count_dep":29,
+	"version_latest":"4.2.1",
+	"ts_publish":1765542023000,
+	"dt_publish":"2025-12-12 20:20:23.000",
+	"ts_update":1765542974234,
+	"dt_update":"2025-12-12 20:36:02.618",
+	"count_dep":169,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"GNU GENERAL PUBLIC LICENSE, Version 3"
+	],
 	"dsv":1,
 	"url_project":"http://inugami.io/inugami/inugami_api",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.inugami.dashboard/inugami_dashboard_webapp@4.0.0",
@@ -20,13 +22,21 @@
 	"url_scm":"https://github.com/inugamiio/inugami-maven-plugin/inugami_dashboard/inugami_dashboard_webapp",
 	"home_page":"http://inugami.io/inugami/inugami_api",
 	"license":"GPL 3.0",
-	"ranking":"#938743 in MvnRepository",
+	"ranking":"#931265 in MvnRepository",
 	"tags":[
 		"dashboard",
 		"web",
 		"webapp"
 	],
 	"versions":[
+		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -59,5 +69,6 @@
 			"version":"4.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Specifics maven lifecycle to package and run inugami project"
 }
