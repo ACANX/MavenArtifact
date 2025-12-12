@@ -3,12 +3,12 @@
 	"description":"This feature contains the common bundles required for OAuth BE and FE functionality",
 	"group_id":"org.wso2.carbon.identity.inbound.auth.oauth2",
 	"artifact_id":"org.wso2.carbon.identity.oauth.common.feature",
-	"version_latest":"7.0.402",
-	"ts_publish":1765215985000,
-	"dt_publish":"2025-12-09 01:46:25.000",
-	"ts_update":1765218389874,
-	"dt_update":"2025-12-09 02:26:12.841",
-	"count_dep":6,
+	"version_latest":"7.0.403",
+	"ts_publish":1765522331000,
+	"dt_publish":"2025-12-12 14:52:11.000",
+	"ts_update":1765522746214,
+	"dt_update":"2025-12-12 14:58:58.893",
+	"count_dep":114,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,13 +26,21 @@
 	"count_used_by":1,
 	"home_page":"http://wso2.org",
 	"license":"Apache 2.0",
-	"ranking":"#266671 in MvnRepository",
+	"ranking":"#267221 in MvnRepository",
 	"tags":[
 		"authentication",
 		"identity",
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.0.402",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251205",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.0.216",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250120",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.0.215",
 			"vulnerabilities":""
 		}
 	]
