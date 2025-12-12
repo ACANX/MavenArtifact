@@ -3,14 +3,16 @@
 	"description":"Spring Data Implementation for Elasticsearch",
 	"group_id":"org.springframework.data",
 	"artifact_id":"spring-data-elasticsearch",
-	"version_latest":"6.0.0-RC2",
-	"ts_publish":1761907141000,
-	"dt_publish":"2025-10-31 18:39:01.000",
-	"ts_update":1761908187533,
-	"dt_update":"2025-10-31 18:56:21.181",
-	"count_dep":41,
+	"version_latest":"6.0.1",
+	"ts_publish":1765539631000,
+	"dt_publish":"2025-12-12 19:40:31.000",
+	"ts_update":1765540067408,
+	"dt_update":"2025-12-12 19:47:36.525",
+	"count_dep":76,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database Access"
@@ -27,10 +29,10 @@
 	],
 	"url_scm":"https://github.com/spring-projects/spring-data-elasticsearch",
 	"url_ci_management":"https://build.spring.io/browse/SPRINGDATAES",
-	"count_used_by":112,
+	"count_used_by":118,
 	"home_page":"https://github.com/spring-projects/spring-data-elasticsearch",
 	"license":"Apache 2.0",
-	"ranking":"#4819 in MvnRepository",
+	"ranking":"#4656 in MvnRepository",
 	"tags":[
 		"data",
 		"elasticsearch",
@@ -40,6 +42,22 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"6.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.0.0-RC2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -97,10 +115,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"5.5.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251017",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"5.5.5",
 			"vulnerabilities":""
 		},
@@ -145,6 +171,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.4.12",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251017",
 			"repository":"Central",
 			"type":"release",
@@ -166,38 +200,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"5.4.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250718",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.4.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.4.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250516",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"5.4.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250422",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"5.4.5",
 			"vulnerabilities":""
 		}
 	]

@@ -3,14 +3,16 @@
 	"description":"Spring Data module for Redis",
 	"group_id":"org.springframework.data",
 	"artifact_id":"spring-data-redis",
-	"version_latest":"4.0.0-RC2",
-	"ts_publish":1761907141000,
-	"dt_publish":"2025-10-31 18:39:01.000",
-	"ts_update":1761908188460,
-	"dt_update":"2025-10-31 18:56:21.178",
-	"count_dep":45,
+	"version_latest":"4.0.1",
+	"ts_publish":1765539631000,
+	"dt_publish":"2025-12-12 19:40:31.000",
+	"ts_update":1765540068000,
+	"dt_update":"2025-12-12 19:47:35.991",
+	"count_dep":86,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database Access"
@@ -24,10 +26,10 @@
 		"Mark Paluch"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-data-redis",
-	"count_used_by":1142,
+	"count_used_by":1156,
 	"home_page":"https://spring.io/projects/spring-data-redis",
 	"license":"Apache 2.0",
-	"ranking":"#540 in MvnRepository",
+	"ranking":"#538 in MvnRepository",
 	"tags":[
 		"database",
 		"data",
@@ -38,10 +40,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"4.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.0-RC2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251017",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"4.0.0-RC1",
 			"vulnerabilities":""
 		},
@@ -94,10 +112,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"3.5.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251017",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":12,
 			"version":"3.5.5",
 			"vulnerabilities":""
 		},
@@ -113,7 +139,7 @@
 			"date":"20250815",
 			"repository":"Central",
 			"type":"release",
-			"usage":26,
+			"usage":28,
 			"version":"3.5.3",
 			"vulnerabilities":""
 		},
@@ -142,6 +168,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.4.12",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251017",
 			"repository":"Central",
 			"type":"release",
@@ -163,38 +197,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.4.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250718",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.4.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.4.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250516",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"3.4.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250422",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"3.4.5",
 			"vulnerabilities":""
 		}
 	]
