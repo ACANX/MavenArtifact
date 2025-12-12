@@ -3,12 +3,12 @@
 	"description":"SCIM 2.0 Implementation for C4",
 	"group_id":"org.wso2.carbon.identity.inbound.provisioning.scim2",
 	"artifact_id":"org.wso2.carbon.identity.scim2.common",
-	"version_latest":"3.4.221",
-	"ts_publish":1763634527000,
-	"dt_publish":"2025-11-20 18:28:47.000",
-	"ts_update":1763635292936,
-	"dt_update":"2025-11-20 18:41:17.967",
-	"count_dep":47,
+	"version_latest":"3.4.222",
+	"ts_publish":1765521535000,
+	"dt_publish":"2025-12-12 14:38:55.000",
+	"ts_update":1765522616813,
+	"dt_update":"2025-12-12 14:56:34.510",
+	"count_dep":48,
 	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -23,9 +23,9 @@
 		"WSO2 Developer"
 	],
 	"url_scm":"https://github.com/wso2-extensions/identity-inbound-provisioning-scim2.git/components/org.wso2.carbon.identity.scim2.common",
-	"count_used_by":9,
+	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#50999 in MvnRepository",
+	"ranking":"#45144 in MvnRepository",
 	"tags":[
 		"bundle",
 		"identity",
@@ -33,6 +33,14 @@
 		"provisioning"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.4.221",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250408",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.4.78",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240415",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.4.77",
 			"vulnerabilities":""
 		}
 	]

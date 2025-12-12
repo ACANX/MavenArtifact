@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-marshalling-jboss",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-marshalling-jboss",
-	"version_latest":"9.0.0.CR1",
-	"ts_publish":1765434624000,
-	"dt_publish":"2025-12-11 14:30:24.000",
-	"ts_update":1765436204161,
-	"dt_update":"2025-12-11 14:56:34.720",
+	"version_latest":"9.0.0.CR2",
+	"ts_publish":1765521027000,
+	"dt_publish":"2025-12-12 14:30:27.000",
+	"ts_update":1765522610336,
+	"dt_update":"2025-12-12 14:56:35.540",
 	"count_dep":12,
 	"count_ref":3,
 	"licenses":[],
@@ -24,13 +24,21 @@
 	"count_used_by":31,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#15823 in MvnRepository",
+	"ranking":"#15826 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"cluster",
 		"jboss"
 	],
 	"versions":[
+		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"9.0.0.CR1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251209",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"7.0.6.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250608",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.0.5.Final",
 			"vulnerabilities":""
 		}
 	]
