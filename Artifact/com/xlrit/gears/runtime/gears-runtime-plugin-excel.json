@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.xlrit.gears.runtime/gears-runtime-plugin-excel",
 	"group_id":"com.xlrit.gears.runtime",
 	"artifact_id":"gears-runtime-plugin-excel",
-	"version_latest":"1.22.0",
-	"ts_publish":1763730093000,
-	"dt_publish":"2025-11-21 21:01:33.000",
-	"ts_update":1763730563115,
-	"dt_update":"2025-11-21 21:09:15.058",
-	"count_dep":6,
+	"version_latest":"1.22.1",
+	"ts_publish":1765564326000,
+	"dt_publish":"2025-12-13 02:32:06.000",
+	"ts_update":1765565791047,
+	"dt_update":"2025-12-13 02:56:21.740",
+	"count_dep":157,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +25,7 @@
 	],
 	"url_scm":"https://gitlab.com/xlrit/gears/runtime.git/gears-runtime-plugins/gears-runtime-plugin-excel",
 	"license":"Apache 2.0",
-	"ranking":"#745707 in MvnRepository",
+	"ranking":"#684785 in MvnRepository",
 	"tags":[
 		"plugin",
 		"excel",
@@ -31,6 +33,22 @@
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.22.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.21.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -174,22 +192,7 @@
 			"usage":0,
 			"version":"1.18.10",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250314",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.18.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250222",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.18.8",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"GEARS Runtime Plugins"
 }
