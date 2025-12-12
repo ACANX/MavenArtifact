@@ -3,9 +3,9 @@
 	"description":"Integration for JDK JFR into Hibernate O/RM",
 	"group_id":"org.hibernate.orm",
 	"artifact_id":"hibernate-jfr",
-	"version_latest":"7.2.0.CR3",
-	"ts_publish":1764064436000,
-	"ts_update":1764066066679,
+	"version_latest":"7.2.0.Final",
+	"ts_publish":1765568331000,
+	"ts_update":1765569399806,
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
@@ -24,13 +24,29 @@
 	"url_scm":"https://github.com/hibernate/hibernate-orm",
 	"home_page":"https://hibernate.org/orm",
 	"license":"Apache 2.0",
-	"ranking":"#494444 in MvnRepository",
+	"ranking":"#496868 in MvnRepository",
 	"tags":[
 		"persistence",
 		"orm",
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.2.0.CR4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.2.0.CR3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251110",
 			"repository":"Central",
@@ -45,6 +61,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.2.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251201",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.1.11.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -166,32 +190,8 @@
 			"usage":0,
 			"version":"7.0.9.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250727",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.8.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250713",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.6.Final",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-11-25 17:53:56.000",
-	"dt_update":"2025-11-25 18:20:25.306"
+	"dt_publish":"2025-12-13 03:38:51.000",
+	"dt_update":"2025-12-13 03:56:32.115"
 }

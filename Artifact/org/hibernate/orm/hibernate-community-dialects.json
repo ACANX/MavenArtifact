@@ -3,9 +3,9 @@
 	"description":"Hibernate's community supported dialects",
 	"group_id":"org.hibernate.orm",
 	"artifact_id":"hibernate-community-dialects",
-	"version_latest":"7.2.0.CR3",
-	"ts_publish":1764064436000,
-	"ts_update":1764066037891,
+	"version_latest":"7.2.0.Final",
+	"ts_publish":1765568331000,
+	"ts_update":1765569402453,
 	"count_dep":4,
 	"count_ref":1,
 	"licenses":[
@@ -22,18 +22,34 @@
 		"The Hibernate Development Team"
 	],
 	"url_scm":"https://github.com/hibernate/hibernate-orm",
-	"dt_publish":"2025-11-25 17:53:56.000",
-	"dt_update":"2025-11-25 18:20:25.311",
-	"count_used_by":32,
+	"dt_publish":"2025-12-13 03:38:51.000",
+	"dt_update":"2025-12-13 03:56:32.110",
+	"count_used_by":35,
 	"home_page":"https://hibernate.org/orm",
 	"license":"Apache 2.0",
-	"ranking":"#15185 in MvnRepository",
+	"ranking":"#14071 in MvnRepository",
 	"tags":[
 		"persistence",
 		"orm",
 		"hibernate"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.2.0.CR4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.2.0.CR3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251110",
 			"repository":"Central",
@@ -48,6 +64,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.2.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251201",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.1.11.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -70,7 +94,7 @@
 			"date":"20251116",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":3,
 			"version":"7.1.8.Final",
 			"vulnerabilities":""
 		},
@@ -102,7 +126,7 @@
 			"date":"20251012",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":5,
 			"version":"7.1.4.Final",
 			"vulnerabilities":""
 		},
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"7.0.9.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250727",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.0.8.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250713",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"7.0.6.Final",
 			"vulnerabilities":""
 		}
 	]
