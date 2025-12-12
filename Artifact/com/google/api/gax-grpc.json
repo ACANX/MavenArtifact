@@ -3,12 +3,12 @@
 	"description":"Google Api eXtensions for Java (gRPC)",
 	"group_id":"com.google.api",
 	"artifact_id":"gax-grpc",
-	"version_latest":"2.72.2",
-	"ts_publish":1765407811000,
-	"dt_publish":"2025-12-11 07:03:31.000",
-	"ts_update":1765409200808,
-	"dt_update":"2025-12-11 07:26:33.150",
-	"count_dep":65,
+	"version_latest":"2.73.0-rc1",
+	"ts_publish":1765515322000,
+	"dt_publish":"2025-12-12 12:55:22.000",
+	"ts_update":1765516743210,
+	"dt_update":"2025-12-12 13:18:53.088",
+	"count_dep":66,
 	"count_ref":2,
 	"licenses":[
 		"BSD-3-Clause"
@@ -21,7 +21,7 @@
 	"count_used_by":409,
 	"home_page":"https://github.com/googleapis/gax-java",
 	"license":"BSD 3-clause",
-	"ranking":"#1687 in MvnRepository",
+	"ranking":"#1695 in MvnRepository",
 	"tags":[
 		"grpc",
 		"google",
@@ -30,6 +30,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.72.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":14,
 			"version":"2.64.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.64.1",
 			"vulnerabilities":""
 		}
 	]
