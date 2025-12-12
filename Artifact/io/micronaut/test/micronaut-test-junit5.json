@@ -3,12 +3,12 @@
 	"description":"Testing Framework Extensions for Micronaut",
 	"group_id":"io.micronaut.test",
 	"artifact_id":"micronaut-test-junit5",
-	"version_latest":"4.10.2",
-	"ts_publish":1761564463000,
-	"dt_publish":"2025-10-27 19:27:43.000",
-	"ts_update":1761565521344,
-	"dt_update":"2025-10-27 19:45:09.150",
-	"count_dep":11,
+	"version_latest":"5.0.0-M1",
+	"ts_publish":1765530406000,
+	"dt_publish":"2025-12-12 17:06:46.000",
+	"ts_update":1765531400607,
+	"dt_update":"2025-12-12 17:23:03.940",
+	"count_dep":12,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -23,16 +23,24 @@
 		"Graeme Rocher"
 	],
 	"url_scm":"scm:git@github.com:micronaut-projects/micronaut-test.git",
-	"count_used_by":68,
+	"count_used_by":69,
 	"home_page":"https://micronaut.io",
 	"license":"Apache 2.0",
-	"ranking":"#7524 in MvnRepository",
+	"ranking":"#7569 in MvnRepository",
 	"tags":[
 		"micronaut",
 		"junit",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -61,7 +69,7 @@
 			"date":"20250620",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":6,
 			"version":"4.8.1",
 			"vulnerabilities":""
 		},
@@ -77,7 +85,7 @@
 			"date":"20250207",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":9,
 			"version":"4.7.0",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230706",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":2,
-			"version":"4.0.0-M9",
 			"vulnerabilities":""
 		}
 	]
