@@ -3,11 +3,11 @@
 	"description":"Databricks JDBC Driver.",
 	"group_id":"com.databricks",
 	"artifact_id":"databricks-jdbc",
-	"version_latest":"3.0.5",
-	"ts_publish":1763712141000,
-	"dt_publish":"2025-11-21 16:02:21.000",
-	"ts_update":1763713412337,
-	"dt_update":"2025-11-21 16:22:53.548",
+	"version_latest":"3.0.6",
+	"ts_publish":1765532509000,
+	"dt_publish":"2025-12-12 17:41:49.000",
+	"ts_update":1765533157495,
+	"dt_update":"2025-12-12 17:52:09.971",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/databricks/databricks-jdbc",
 	"count_used_by":10,
 	"home_page":"https://github.com/databricks/databricks-jdbc",
-	"ranking":"#45974 in MvnRepository",
+	"ranking":"#48160 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -36,6 +36,22 @@
 		"rdbms"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.6.25-1",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20220504",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.6.25",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20220505",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"2.6.25-beta-4",
 			"vulnerabilities":"1 vulnerability"
 		}
 	],
