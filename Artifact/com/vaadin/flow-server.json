@@ -3,11 +3,11 @@
 	"description":"Flow Server",
 	"group_id":"com.vaadin",
 	"artifact_id":"flow-server",
-	"version_latest":"25.0.0-rc1",
-	"ts_publish":1765299412000,
-	"dt_publish":"2025-12-10 00:56:52.000",
-	"ts_update":1765300678254,
-	"dt_update":"2025-12-10 01:17:42.820",
+	"version_latest":"25.0.0-rc2",
+	"ts_publish":1765547112000,
+	"dt_publish":"2025-12-12 21:45:12.000",
+	"ts_update":1765547413523,
+	"dt_update":"2025-12-12 21:50:04.381",
 	"count_dep":24,
 	"count_ref":15,
 	"licenses":[
@@ -20,16 +20,24 @@
 	"url_project":"https://vaadin.com/flow/flow-server",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vaadin/flow-server@24.8.5",
 	"url_scm":"https://github.com/vaadin/flow/flow-server",
-	"count_used_by":241,
+	"count_used_by":242,
 	"home_page":"https://vaadin.com/flow",
 	"license":"Apache 2.0",
-	"ranking":"#2592 in MvnRepository",
+	"ranking":"#2588 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"server",
 		"web-framework"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":63,
+			"version":"25.0.0-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251204",
 			"repository":"Central",
@@ -103,10 +111,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":53,
+			"version":"24.9.7",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251126",
 			"repository":"Central",
 			"type":"release",
-			"usage":54,
+			"usage":55,
 			"version":"24.9.6",
 			"vulnerabilities":""
 		},
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":57,
 			"version":"24.9.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250905",
-			"repository":"Central",
-			"type":"beta",
-			"usage":54,
-			"version":"24.9.0-beta3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"beta",
-			"usage":56,
-			"version":"24.9.0-beta2",
 			"vulnerabilities":""
 		}
 	]

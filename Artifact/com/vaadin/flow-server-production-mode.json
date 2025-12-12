@@ -3,11 +3,11 @@
 	"description":"This is a wrapper project for the web-fragment.xml file that sets productionMode=true. When this jar is\n    added to the classpath of a web application, it will run in production mode automatically. This is better\n    used in conjunction with the compilation and minification of resources for production deployment. See\n    the documentation about ES5 compilation and resource minification at\n    https://vaadin.com/docs/v10/flow/web-components/tutorial-webcomponents-es5.html for more\n    information.",
 	"group_id":"com.vaadin",
 	"artifact_id":"flow-server-production-mode",
-	"version_latest":"25.0.0-rc1",
-	"ts_publish":1765299412000,
-	"dt_publish":"2025-12-10 00:56:52.000",
-	"ts_update":1765300683851,
-	"dt_update":"2025-12-10 01:17:42.303",
+	"version_latest":"25.0.0-rc2",
+	"ts_publish":1765547112000,
+	"dt_publish":"2025-12-12 21:45:12.000",
+	"ts_update":1765547421338,
+	"dt_update":"2025-12-12 21:50:04.981",
 	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/vaadin/flow/flow-server-production-mode",
 	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#72247 in MvnRepository",
+	"ranking":"#72402 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"server",
 		"web-framework"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"25.0.0-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251204",
 			"repository":"Central",
@@ -102,6 +110,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"24.9.7",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251126",
 			"repository":"Central",
 			"type":"release",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"24.9.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250905",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"24.9.0-beta3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"24.9.0-beta2",
 			"vulnerabilities":""
 		}
 	]
