@@ -3,12 +3,12 @@
 	"description":"Native code and CUDA kernels specific to the RAPIDS Accelerator for Apache Spark",
 	"group_id":"com.nvidia",
 	"artifact_id":"spark-rapids-jni",
-	"version_latest":"25.10.0",
-	"ts_publish":1760070387000,
-	"dt_publish":"2025-10-10 12:26:27.000",
-	"ts_update":1760071707215,
-	"dt_update":"2025-10-10 12:48:20.141",
-	"count_dep":13,
+	"version_latest":"25.12.0",
+	"ts_publish":1765502024000,
+	"dt_publish":"2025-12-12 09:13:44.000",
+	"ts_update":1765504601470,
+	"dt_update":"2025-12-12 09:56:33.604",
+	"count_dep":14,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -28,7 +28,7 @@
 	"count_used_by":2,
 	"home_page":"http://github.com/NVIDIA/spark-rapids-jni",
 	"license":"Apache 2.0",
-	"ranking":"#251874 in MvnRepository",
+	"ranking":"#247329 in MvnRepository",
 	"tags":[
 		"native",
 		"jni",
@@ -36,6 +36,14 @@
 		"spark"
 	],
 	"versions":[
+		{
+			"date":"20251010",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"25.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"23.04.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"23.02.0",
 			"vulnerabilities":""
 		}
 	]
