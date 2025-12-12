@@ -3,11 +3,11 @@
 	"description":"A BOM that describes all of the dependencies used by google-cloud-bigtable. It's\n    mainly intended to be used by java-bigtable-hbase to align dependencies",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-bigtable-deps-bom",
-	"version_latest":"2.70.0",
-	"ts_publish":1763502994000,
-	"dt_publish":"2025-11-19 05:56:34.000",
-	"ts_update":1763504195559,
-	"dt_update":"2025-11-19 06:16:25.991",
+	"version_latest":"2.70.1",
+	"ts_publish":1765558540000,
+	"dt_publish":"2025-12-13 00:55:40.000",
+	"ts_update":1765559798432,
+	"dt_update":"2025-12-13 01:16:30.728",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	],
 	"url_scm":"https://github.com/googleapis/java-bigtable",
 	"license":"Apache 2.0",
-	"ranking":"#1004922 in MvnRepository",
+	"ranking":"#632395 in MvnRepository",
 	"tags":[
 		"bigdata",
 		"bom",
@@ -38,6 +38,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.70.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.69.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -180,22 +196,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.57.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.57.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250318",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.56.0",
 			"vulnerabilities":""
 		}
 	]
