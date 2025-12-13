@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.apache.pulsar/pulsar-io-debezium-oracle",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-io-debezium-oracle",
-	"version_latest":"4.1.1",
-	"ts_publish":1759422833000,
-	"dt_publish":"2025-10-03 00:33:53.000",
-	"ts_update":1763225812134,
-	"dt_update":"2025-11-16 00:17:09.741",
+	"version_latest":"4.1.2",
+	"ts_publish":1762900039000,
+	"dt_publish":"2025-11-12 06:27:19.000",
+	"ts_update":1765644188427,
+	"dt_update":"2025-12-14 00:20:52.315",
 	"count_dep":0,
-	"count_ref":2,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.pulsar/pulsar-io-debezium-oracle@4.0.6",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#271942 in MvnRepository",
+	"ranking":"#337182 in MvnRepository",
 	"tags":[
 		"oracle",
 		"apache",
@@ -28,6 +28,14 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251002",
 			"repository":"Central",
@@ -42,6 +50,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.8",
 			"vulnerabilities":""
 		},
 		{
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.3.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241004",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240801",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.3.1",
 			"vulnerabilities":""
 		}
 	],
