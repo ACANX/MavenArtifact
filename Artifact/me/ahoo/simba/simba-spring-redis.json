@@ -3,12 +3,12 @@
 	"description":"Simba aims to provide easy-to-use and flexible distributed lock services and supports multiple storage implementations: relational databases, Redis, and Zookeeper.",
 	"group_id":"me.ahoo.simba",
 	"artifact_id":"simba-spring-redis",
-	"version_latest":"2.9.8",
-	"ts_publish":1764046607000,
-	"dt_publish":"2025-11-25 12:56:47.000",
-	"ts_update":1764047845694,
-	"dt_update":"2025-11-25 13:17:18.688",
-	"count_dep":18,
+	"version_latest":"3.0.0",
+	"ts_publish":1765612030000,
+	"dt_publish":"2025-12-13 15:47:10.000",
+	"ts_update":1765612602847,
+	"dt_update":"2025-12-13 15:56:31.617",
+	"count_dep":19,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -27,13 +27,21 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/Ahoo-Wang/Simba",
 	"license":"Apache 2.0",
-	"ranking":"#384042 in MvnRepository",
+	"ranking":"#386998 in MvnRepository",
 	"tags":[
 		"database",
 		"spring",
 		"redis"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.9.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250701",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.2.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240223",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.2.4",
 			"vulnerabilities":""
 		}
 	]
