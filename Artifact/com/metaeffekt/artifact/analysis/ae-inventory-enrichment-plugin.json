@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.metaeffekt.artifact.analysis/ae-inventory-enrichment-plugin",
 	"group_id":"com.metaeffekt.artifact.analysis",
 	"artifact_id":"ae-inventory-enrichment-plugin",
-	"version_latest":"0.152.0",
-	"ts_publish":1764136418000,
-	"dt_publish":"2025-11-26 13:53:38.000",
-	"ts_update":1764138400854,
-	"dt_update":"2025-11-26 14:26:03.999",
-	"count_dep":9,
+	"version_latest":"0.153.0",
+	"ts_publish":1765736713000,
+	"dt_publish":"2025-12-15 02:25:13.000",
+	"ts_update":1765738394800,
+	"dt_update":"2025-12-15 02:52:56.628",
+	"count_dep":159,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.metaeffekt.artifact.analysis/ae-inventory-enrichment-plugin@0.145.0",
 	"url_scm":"http://ae-server:7990/projects/AE/repos/metaeffekt-artifact-analysis/browse/ae-plugins-pom/ae-inventory-enrichment-plugin",
 	"license":"Apache 2.0",
-	"ranking":"#723652 in MvnRepository",
+	"ranking":"#661223 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -26,6 +28,22 @@
 		"analysis"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.152.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.151.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251029",
 			"repository":"Central",
@@ -56,6 +74,22 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.148.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.147.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.147.6",
 			"vulnerabilities":""
 		},
 		{
@@ -153,38 +187,7 @@
 			"usage":0,
 			"version":"0.143.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250708",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.142.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250703",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.141.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.140.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250628",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.139.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Support for artifact analysis"
 }
