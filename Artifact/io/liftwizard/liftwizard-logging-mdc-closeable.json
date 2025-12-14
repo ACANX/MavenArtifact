@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.liftwizard/liftwizard-logging-mdc-closeable",
 	"group_id":"io.liftwizard",
 	"artifact_id":"liftwizard-logging-mdc-closeable",
-	"version_latest":"2.1.36",
-	"ts_publish":1765324447000,
-	"dt_publish":"2025-12-10 07:54:07.000",
-	"ts_update":1765326410858,
-	"dt_update":"2025-12-10 08:26:38.373",
+	"version_latest":"2.1.37",
+	"ts_publish":1765742281000,
+	"dt_publish":"2025-12-15 03:58:01.000",
+	"ts_update":1765743512858,
+	"dt_update":"2025-12-15 04:18:23.046",
 	"count_dep":1,
 	"count_ref":4,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -19,12 +17,28 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.liftwizard/liftwizard-logging-mdc-closeable@2.1.33",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#51738 in MvnRepository",
+	"ranking":"#51073 in MvnRepository",
 	"tags":[
 		"logging",
 		"wizard"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.1.36",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.1.35",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -168,23 +182,6 @@
 			"usage":6,
 			"version":"2.1.17",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240717",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.1.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240716",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.1.15",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Liftwizard profiles parent is a published parent pom with profiles that are off by default that enable several linters and validators."
+	]
 }
