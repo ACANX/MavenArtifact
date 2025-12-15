@@ -3,13 +3,13 @@
 	"description":"Sail implementation that stores data to disk using LMDB.",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-sail-lmdb",
-	"version_latest":"5.2.1",
-	"ts_publish":1764933883000,
-	"dt_publish":"2025-12-05 19:24:43.000",
-	"ts_update":1764935202670,
-	"dt_update":"2025-12-05 19:46:11.565",
+	"version_latest":"5.2.2",
+	"ts_publish":1765810488000,
+	"dt_publish":"2025-12-15 22:54:48.000",
+	"ts_update":1765812156572,
+	"dt_update":"2025-12-15 23:22:21.615",
 	"count_dep":88,
-	"count_ref":4,
+	"count_ref":6,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
 	],
@@ -27,12 +27,20 @@
 	"url_scm":"https://github.com/eclipse/rdf4j/rdf4j-core/rdf4j-sail/rdf4j-sail-lmdb",
 	"count_used_by":3,
 	"license":"EDL 1.0",
-	"ranking":"#165105 in MvnRepository",
+	"ranking":"#169166 in MvnRepository",
 	"tags":[
 		"rdf",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"5.2.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251005",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.3.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241002",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.3.14",
 			"vulnerabilities":""
 		}
 	]
