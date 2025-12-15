@@ -3,13 +3,13 @@
 	"description":"Test resources integration (like Testcontainers) for Micronaut",
 	"group_id":"io.micronaut.testresources",
 	"artifact_id":"micronaut-test-resources-core",
-	"version_latest":"2.10.1",
-	"ts_publish":1756453062000,
-	"dt_publish":"2025-08-29 15:37:42.000",
-	"ts_update":1756454211347,
-	"dt_update":"2025-08-29 15:55:58.870",
+	"version_latest":"3.0.0-M1",
+	"ts_publish":1765806961000,
+	"dt_publish":"2025-12-15 21:56:01.000",
+	"ts_update":1765808815122,
+	"dt_update":"2025-12-15 22:26:37.107",
 	"count_dep":0,
-	"count_ref":44,
+	"count_ref":42,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -23,16 +23,32 @@
 		"CÃ©dric Champeau"
 	],
 	"url_scm":"scm:git@github.com:micronaut-projects/micronaut-test-resources.git",
-	"count_used_by":44,
+	"count_used_by":45,
 	"home_page":"https://micronaut.io",
 	"license":"Apache 2.0",
-	"ranking":"#10856 in MvnRepository",
+	"ranking":"#11076 in MvnRepository",
 	"tags":[
 		"micronaut",
 		"testing",
 		"resource"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":45,
+			"version":"2.10.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250828",
+			"repository":"Central",
+			"type":"release",
+			"usage":43,
+			"version":"2.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250620",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":35,
 			"version":"2.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231130",
-			"repository":"Central",
-			"type":"release",
-			"usage":35,
-			"version":"2.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231113",
-			"repository":"Central",
-			"type":"release",
-			"usage":35,
-			"version":"2.2.0",
 			"vulnerabilities":""
 		}
 	]
