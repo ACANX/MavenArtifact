@@ -3,11 +3,11 @@
 	"description":"This feature contains the common bundles required for event publishing",
 	"group_id":"org.wso2.carbon.apimgt",
 	"artifact_id":"org.wso2.carbon.apimgt.eventing.feature",
-	"version_latest":"9.32.154",
-	"ts_publish":1765197121000,
-	"dt_publish":"2025-12-08 20:32:01.000",
-	"ts_update":1765198643296,
-	"dt_update":"2025-12-08 20:56:58.205",
+	"version_latest":"9.32.155",
+	"ts_publish":1765779760000,
+	"dt_publish":"2025-12-15 14:22:40.000",
+	"ts_update":1765781818542,
+	"dt_update":"2025-12-15 14:56:37.054",
 	"count_dep":41,
 	"count_ref":0,
 	"licenses":[
@@ -24,11 +24,19 @@
 	],
 	"url_scm":"https://github.com/wso2/carbon-apimgt.git/apimgt-feature/org.wso2.carbon.apimgt.eventing.feature",
 	"home_page":"http://wso2.org",
-	"ranking":"#964624 in MvnRepository",
+	"ranking":"#966726 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.32.154",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251205",
 			"repository":"Central",
@@ -180,14 +188,7 @@
 			"usage":0,
 			"version":"9.30.15",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241002",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.30.14",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }
