@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.noear/solon-ai-dialect-dashscope",
 	"group_id":"org.noear",
 	"artifact_id":"solon-ai-dialect-dashscope",
-	"version_latest":"3.7.3",
-	"ts_publish":1764852191000,
-	"dt_publish":"2025-12-04 20:43:11.000",
-	"ts_update":1764854624000,
-	"dt_update":"2025-12-04 21:23:08.059",
+	"version_latest":"3.8.0-M1",
+	"ts_publish":1765786860000,
+	"dt_publish":"2025-12-15 16:21:00.000",
+	"ts_update":1765789008556,
+	"dt_update":"2025-12-15 16:56:35.251",
 	"count_dep":1,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,12 +24,36 @@
 	"url_scm":"https://github.com/opensolon/solon/solon-ai-parent/solon-ai-dialect-dashscope",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#378545 in MvnRepository",
+	"ranking":"#380676 in MvnRepository",
 	"tags":[
 		"ai",
 		"dialect"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.7.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":1,
+			"version":"3.7.3-M2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":1,
+			"version":"3.7.3-M1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251121",
 			"repository":"Central",
@@ -141,6 +167,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.6.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251122",
 			"repository":"Central",
 			"type":"release",
@@ -155,38 +189,7 @@
 			"usage":1,
 			"version":"3.6.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251105",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.6.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251104",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.6.3-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251023",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.6.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251022",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.6.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Java project for solon"
 }
