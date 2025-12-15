@@ -3,13 +3,13 @@
 	"description":"CDS QL Execution Engine",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds4j-runtime",
-	"version_latest":"4.5.0",
-	"ts_publish":1764702151000,
-	"dt_publish":"2025-12-03 03:02:31.000",
-	"ts_update":1764703598708,
-	"dt_update":"2025-12-03 03:26:32.274",
+	"version_latest":"4.6.0",
+	"ts_publish":1765822468000,
+	"dt_publish":"2025-12-16 02:14:28.000",
+	"ts_update":1765823207609,
+	"dt_update":"2025-12-16 02:26:21.749",
 	"count_dep":15,
-	"count_ref":9,
+	"count_ref":11,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
 	],
@@ -25,12 +25,20 @@
 	"url_scm":"https://cap.cloud.sap/docs/java/",
 	"count_used_by":12,
 	"home_page":"http://www.sap.com",
-	"ranking":"#40552 in MvnRepository",
+	"ranking":"#40680 in MvnRepository",
 	"tags":[
 		"sap",
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251106",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250303",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.8.0",
 			"vulnerabilities":""
 		}
 	]

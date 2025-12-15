@@ -3,11 +3,11 @@
 	"description":"FileSystemProvider for Java NIO to access Google Cloud Storage transparently.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-nio",
-	"version_latest":"0.128.8",
-	"ts_publish":1762790218000,
-	"dt_publish":"2025-11-10 23:56:58.000",
-	"ts_update":1762791715411,
-	"dt_update":"2025-11-11 00:21:21.770",
+	"version_latest":"0.128.9",
+	"ts_publish":1765821595000,
+	"dt_publish":"2025-12-16 01:59:55.000",
+	"ts_update":1765823194659,
+	"dt_update":"2025-12-16 02:26:22.695",
 	"count_dep":103,
 	"count_ref":0,
 	"licenses":[
@@ -26,10 +26,10 @@
 		"Jean-Philippe Martin"
 	],
 	"url_scm":"https://github.com/googleapis/java-storage-nio/google-cloud-nio",
-	"count_used_by":51,
+	"count_used_by":53,
 	"home_page":"https://github.com/googleapis/java-storage-nio",
 	"license":"Apache 2.0",
-	"ranking":"#9887 in MvnRepository",
+	"ranking":"#9663 in MvnRepository",
 	"tags":[
 		"google",
 		"nio",
@@ -38,10 +38,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251021",
+			"date":"20251110",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"0.128.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
 			"version":"0.128.7",
 			"vulnerabilities":""
 		},
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.127.28",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241119",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.127.27",
 			"vulnerabilities":""
 		}
 	]
