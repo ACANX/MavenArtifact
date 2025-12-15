@@ -3,11 +3,11 @@
 	"description":"Provides core container services and is the main component of the OpenRemote backend; add maven {url \"https://repo.osgeo.org/repository/release/\"} and maven {url \"https://pkgs.dev.azure.com/OpenRemote/OpenRemote/_packaging/OpenRemote/maven/v1\"} to resolve all dependencies",
 	"group_id":"io.openremote",
 	"artifact_id":"openremote-manager",
-	"version_latest":"1.11.3",
-	"ts_publish":1764074181000,
-	"dt_publish":"2025-11-25 20:36:21.000",
-	"ts_update":1764075401375,
-	"dt_update":"2025-11-25 20:56:25.215",
+	"version_latest":"1.12.0",
+	"ts_publish":1765808695000,
+	"dt_publish":"2025-12-15 22:24:55.000",
+	"ts_update":1765810613953,
+	"dt_update":"2025-12-15 22:56:39.682",
 	"count_dep":66,
 	"count_ref":1,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/openremote/openremote",
 	"license":"AGPL 3.0",
-	"ranking":"#388269 in MvnRepository",
+	"ranking":"#309249 in MvnRepository",
 	"tags":[
 		"manager",
 		"management"
 	],
 	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.11.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250221",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.3.1",
 			"vulnerabilities":""
 		}
 	]
