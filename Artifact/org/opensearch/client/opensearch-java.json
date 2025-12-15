@@ -3,11 +3,11 @@
 	"description":"High level OpenSearch Java Client.",
 	"group_id":"org.opensearch.client",
 	"artifact_id":"opensearch-java",
-	"version_latest":"3.3.0",
-	"ts_publish":1761775491000,
-	"dt_publish":"2025-10-30 06:04:51.000",
-	"ts_update":1761776792106,
-	"dt_update":"2025-10-30 06:26:16.550",
+	"version_latest":"3.4.0",
+	"ts_publish":1765842453000,
+	"dt_publish":"2025-12-16 07:47:33.000",
+	"ts_update":1765843001830,
+	"dt_update":"2025-12-16 07:56:34.368",
 	"count_dep":13,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"opensearch-project"
 	],
 	"url_scm":"git@github.com:opensearch-project/opensearch-java.git",
-	"count_used_by":90,
+	"count_used_by":96,
 	"home_page":"https://github.com/opensearch-project/opensearch-java/",
 	"license":"Apache 2.0",
-	"ranking":"#5839 in MvnRepository",
+	"ranking":"#5587 in MvnRepository",
 	"tags":[
 		"client",
 		"opensearch",
@@ -34,10 +34,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.3.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250709",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":12,
 			"version":"3.2.0",
 			"vulnerabilities":""
 		},
@@ -61,7 +69,7 @@
 			"date":"20250709",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":6,
 			"version":"2.26.0",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2.11.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240620",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.11.0",
 			"vulnerabilities":""
 		}
 	]
