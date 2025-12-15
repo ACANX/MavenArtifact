@@ -2,12 +2,12 @@
 	"id":"pkg:maven/com.vaadin/vaadin-gradle-plugin",
 	"group_id":"com.vaadin",
 	"artifact_id":"vaadin-gradle-plugin",
-	"version_latest":"25.0.0-rc1",
-	"ts_publish":1765373475000,
-	"dt_publish":"2025-12-10 21:31:15.000",
-	"ts_update":1765380129375,
-	"dt_update":"2025-12-10 23:21:19.836",
-	"count_dep":4,
+	"version_latest":"25.0.0-rc2",
+	"ts_publish":1765792969000,
+	"dt_publish":"2025-12-15 18:02:49.000",
+	"ts_update":1765794127676,
+	"dt_update":"2025-12-15 18:21:55.375",
+	"count_dep":62,
 	"count_ref":1,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -21,7 +21,7 @@
 	"url_scm":"https://github.com/vaadin/platform/vaadin-gradle-plugin",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#90295 in MvnRepository",
+	"ranking":"#90609 in MvnRepository",
 	"tags":[
 		"plugin",
 		"vaadin",
@@ -32,6 +32,22 @@
 		"groovy"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"25.0.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"25.0.0-beta9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251128",
 			"repository":"Central",
@@ -86,6 +102,14 @@
 			"type":"beta",
 			"usage":1,
 			"version":"25.0.0-beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"24.9.7",
 			"vulnerabilities":""
 		},
 		{
@@ -167,30 +191,7 @@
 			"usage":1,
 			"version":"24.9.0-beta3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"24.9.0-beta2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250828",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"24.9.0-beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251126",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"24.8.14",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Vaadin Platform"
 }
