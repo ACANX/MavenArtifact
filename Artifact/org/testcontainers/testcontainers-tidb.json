@@ -1,13 +1,13 @@
 {
-	"id":"pkg:maven/org.testcontainers/testcontainers-yugabytedb",
+	"id":"pkg:maven/org.testcontainers/testcontainers-tidb",
 	"description":"Isolated container management for Java code testing",
 	"group_id":"org.testcontainers",
-	"artifact_id":"testcontainers-yugabytedb",
+	"artifact_id":"testcontainers-tidb",
 	"version_latest":"2.0.3",
-	"ts_publish":1765838501000,
-	"dt_publish":"2025-12-16 06:41:41.000",
-	"ts_update":1765839081101,
-	"dt_update":"2025-12-16 06:51:08.257",
+	"ts_publish":1765838129000,
+	"dt_publish":"2025-12-16 06:35:29.000",
+	"ts_update":1765839082093,
+	"dt_update":"2025-12-16 06:51:08.260",
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -19,7 +19,7 @@
 	],
 	"dsv":1,
 	"url_project":"https://java.testcontainers.org",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.testcontainers/testcontainers-yugabytedb@2.0.0",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.testcontainers/testcontainers-tidb@2.0.3",
 	"url_issue_management":"https://github.com/testcontainers/testcontainers-java/issues",
 	"contributors":[
 		"Richard North"
@@ -27,17 +27,18 @@
 	"url_scm":"https://github.com/testcontainers/testcontainers-java/",
 	"home_page":"https://java.testcontainers.org",
 	"license":"MIT",
-	"ranking":"#266930 in MvnRepository",
+	"ranking":"#502772 in MvnRepository",
 	"tags":[
 		"testing",
-		"container"
+		"container",
+		"tidb"
 	],
 	"versions":[
 		{
 			"date":"20251113",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":0,
 			"version":"2.0.2",
 			"vulnerabilities":""
 		},
@@ -57,6 +58,5 @@
 			"version":"2.0.0",
 			"vulnerabilities":""
 		}
-	],
-	"count_used_by":1
+	]
 }
