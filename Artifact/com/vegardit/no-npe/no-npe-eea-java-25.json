@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.vegardit.no-npe/no-npe-eea-java-25",
 	"group_id":"com.vegardit.no-npe",
 	"artifact_id":"no-npe-eea-java-25",
-	"version_latest":"1.3.10",
-	"ts_publish":1765369395000,
-	"dt_publish":"2025-12-10 20:23:15.000",
-	"ts_update":1765370179144,
-	"dt_update":"2025-12-10 20:36:08.179",
+	"version_latest":"1.3.11",
+	"ts_publish":1765828102000,
+	"dt_publish":"2025-12-16 03:48:22.000",
+	"ts_update":1765832219973,
+	"dt_update":"2025-12-16 04:56:43.166",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/vegardit/no-npe/no-npe-eea-java-25",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vegardit.no-npe/no-npe-eea-java-25@1.3.7",
@@ -20,8 +22,16 @@
 	"url_scm":"https://github.com/vegardit/no-npe/no-npe-eea-java-25",
 	"url_ci_management":"https://github.com/vegardit/no-npe/actions",
 	"license":"EPL 2.0",
-	"ranking":"#534916 in MvnRepository",
+	"ranking":"#972497 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.3.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251126",
 			"repository":"Central",
@@ -46,5 +56,6 @@
 			"version":"1.3.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Eclipse External (null) Annotations for better static Null Analysis"
 }

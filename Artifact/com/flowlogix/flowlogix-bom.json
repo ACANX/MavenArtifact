@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/com.flowlogix/flowlogix-bom",
-	"description":"Flow Logix Jakarta EE Components Root POM",
+	"description":"Bill of Materials for Jakarta EE projects",
 	"group_id":"com.flowlogix",
 	"artifact_id":"flowlogix-bom",
-	"version_latest":"11",
-	"ts_publish":1763504165000,
-	"dt_publish":"2025-11-19 06:16:05.000",
-	"ts_update":1763505396730,
-	"dt_update":"2025-11-19 06:36:29.942",
+	"version_latest":"12",
+	"ts_publish":1765827668000,
+	"dt_publish":"2025-12-16 03:41:08.000",
+	"ts_update":1765832218704,
+	"dt_update":"2025-12-16 04:56:45.087",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,13 +24,21 @@
 	],
 	"url_scm":"https://github.com/flowlogix/flowlogix",
 	"license":"Apache 2.0",
-	"ranking":"#701313 in MvnRepository",
+	"ranking":"#450243 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251109",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240603",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.1",
 			"vulnerabilities":""
 		}
 	]
