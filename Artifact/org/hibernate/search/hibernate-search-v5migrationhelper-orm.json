@@ -3,11 +3,11 @@
 	"description":"Helper to migrate from Hibernate Search 5 to 6, providing partial support for Hibernate Search 5 ORM APIs on top of Hibernate Search 6",
 	"group_id":"org.hibernate.search",
 	"artifact_id":"hibernate-search-v5migrationhelper-orm",
-	"version_latest":"8.2.0.CR1",
-	"ts_publish":1764582167000,
-	"dt_publish":"2025-12-01 17:42:47.000",
-	"ts_update":1764582804328,
-	"dt_update":"2025-12-01 17:52:55.241",
+	"version_latest":"8.2.0.Final",
+	"ts_publish":1765812098000,
+	"dt_publish":"2025-12-15 23:21:38.000",
+	"ts_update":1765814099485,
+	"dt_update":"2025-12-15 23:54:47.170",
 	"count_dep":23,
 	"count_ref":0,
 	"licenses":[
@@ -34,7 +34,7 @@
 	"count_used_by":1,
 	"home_page":"https://hibernate.org/search/",
 	"license":"Apache 2.0",
-	"ranking":"#304594 in MvnRepository",
+	"ranking":"#305541 in MvnRepository",
 	"tags":[
 		"persistence",
 		"orm",
@@ -42,6 +42,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251201",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.2.0.CR1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -192,14 +200,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"7.2.0.Alpha2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240516",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"7.2.0.Alpha1",
 			"vulnerabilities":""
 		}
 	]
