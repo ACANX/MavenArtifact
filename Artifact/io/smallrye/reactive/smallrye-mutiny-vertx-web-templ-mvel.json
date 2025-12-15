@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.smallrye.reactive/smallrye-mutiny-vertx-web-templ-mvel",
 	"group_id":"io.smallrye.reactive",
 	"artifact_id":"smallrye-mutiny-vertx-web-templ-mvel",
-	"version_latest":"3.21.1",
-	"ts_publish":1764768318000,
-	"dt_publish":"2025-12-03 21:25:18.000",
-	"ts_update":1764770225445,
-	"dt_update":"2025-12-03 21:56:30.085",
-	"count_dep":23,
+	"version_latest":"3.21.2",
+	"ts_publish":1765817407000,
+	"dt_publish":"2025-12-16 00:50:07.000",
+	"ts_update":1765818084900,
+	"dt_update":"2025-12-16 01:01:12.033",
+	"count_dep":6,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,13 +22,37 @@
 	],
 	"url_scm":"https://github.com/smallrye/smallrye-mutiny-vertx-bindings/vertx-mutiny-clients/smallrye-mutiny-vertx-web-templ-mvel",
 	"license":"Apache 2.0",
-	"ranking":"#608059 in MvnRepository",
+	"ranking":"#576237 in MvnRepository",
 	"tags":[
 		"reactive",
 		"web",
 		"vertx"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.21.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.21.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251127",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.20.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -166,31 +188,6 @@
 			"usage":0,
 			"version":"3.13.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240611",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240318",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240315",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.11.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"SmallRye Mutiny Vert.x Bindings"
+	]
 }
