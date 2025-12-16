@@ -3,13 +3,13 @@
 	"description":"Common Maven parent.",
 	"group_id":"eu.maveniverse.maven.mima.extensions",
 	"artifact_id":"mmr",
-	"version_latest":"2.4.37",
-	"ts_publish":1764852379000,
-	"dt_publish":"2025-12-04 20:46:19.000",
-	"ts_update":1764854626938,
-	"dt_update":"2025-12-04 21:23:05.315",
+	"version_latest":"2.4.38",
+	"ts_publish":1765894640000,
+	"dt_publish":"2025-12-16 22:17:20.000",
+	"ts_update":1765896974878,
+	"dt_update":"2025-12-16 22:55:55.427",
 	"count_dep":36,
-	"count_ref":0,
+	"count_ref":4,
 	"licenses":[
 		"EPL-2.0"
 	],
@@ -24,7 +24,7 @@
 	"url_ci_management":"https://github.com/maveniverse/mima/actions",
 	"count_used_by":5,
 	"license":"EPL 2.0",
-	"ranking":"#96798 in MvnRepository",
+	"ranking":"#101098 in MvnRepository",
 	"tags":[
 		"build",
 		"build-system",
@@ -32,6 +32,22 @@
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.4.37",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.4.36",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251018",
 			"repository":"Central",
@@ -174,14 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.4.18",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240828",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.4.17",
 			"vulnerabilities":""
 		}
 	]
