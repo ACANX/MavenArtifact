@@ -3,12 +3,12 @@
 	"description":"Enforce logging best practices and migrate between logging frameworks. Automatically.",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-logging-frameworks",
-	"version_latest":"3.19.1",
-	"ts_publish":1764933800000,
-	"dt_publish":"2025-12-05 19:23:20.000",
-	"ts_update":1764935182960,
-	"dt_update":"2025-12-05 19:46:13.484",
-	"count_dep":8,
+	"version_latest":"3.20.0",
+	"ts_publish":1765904588000,
+	"dt_publish":"2025-12-17 01:03:08.000",
+	"ts_update":1765905951657,
+	"dt_update":"2025-12-17 01:25:37.110",
+	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
 		"Moderne Source Available License"
@@ -25,12 +25,20 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-logging-frameworks.git",
 	"count_used_by":4,
 	"home_page":"https://github.com/openrewrite/rewrite-logging-frameworks",
-	"ranking":"#116855 in MvnRepository",
+	"ranking":"#117238 in MvnRepository",
 	"tags":[
 		"logging",
 		"framework"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.19.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250328",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.5.0",
 			"vulnerabilities":""
 		}
 	]

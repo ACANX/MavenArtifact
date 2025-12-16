@@ -3,11 +3,11 @@
 	"description":"A rewrite module automating best practices and major version migrations for popular Java test frameworks like JUnit and Mockito",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-testing-frameworks",
-	"version_latest":"3.23.0",
-	"ts_publish":1764934130000,
-	"dt_publish":"2025-12-05 19:28:50.000",
-	"ts_update":1764935799762,
-	"dt_update":"2025-12-05 19:56:30.931",
+	"version_latest":"3.24.0",
+	"ts_publish":1765904910000,
+	"dt_publish":"2025-12-17 01:08:30.000",
+	"ts_update":1765905958871,
+	"dt_update":"2025-12-17 01:25:36.479",
 	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-testing-frameworks.git",
 	"count_used_by":8,
 	"home_page":"https://github.com/openrewrite/rewrite-testing-frameworks",
-	"ranking":"#63687 in MvnRepository",
+	"ranking":"#57491 in MvnRepository",
 	"tags":[
 		"quality",
 		"framework",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.23.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -76,7 +84,7 @@
 			"date":"20251022",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"3.20.0",
 			"vulnerabilities":""
 		},
@@ -84,7 +92,7 @@
 			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"3.19.0",
 			"vulnerabilities":""
 		},
@@ -100,7 +108,7 @@
 			"date":"20250924",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"3.17.0",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"3.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250625",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.11.0",
 			"vulnerabilities":""
 		}
 	]
