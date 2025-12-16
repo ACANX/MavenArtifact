@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-sql-mariadb",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-sql-mariadb",
-	"version_latest":"12.52.0",
-	"ts_publish":1765551127000,
-	"dt_publish":"2025-12-12 22:52:07.000",
-	"ts_update":1765552746857,
-	"dt_update":"2025-12-12 23:18:48.465",
-	"count_dep":44,
-	"count_ref":1,
-	"licenses":[],
+	"version_latest":"12.53.0",
+	"ts_publish":1765885445000,
+	"dt_publish":"2025-12-16 19:44:05.000",
+	"ts_update":1765886224518,
+	"dt_update":"2025-12-16 19:56:32.578",
+	"count_dep":125,
+	"count_ref":0,
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.dirigible/dirigible-database-sql-mariadb@12.6.0",
 	"count_used_by":1,
 	"license":"EPL 2.0",
-	"ranking":"#368698 in MvnRepository",
+	"ranking":"#368108 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -27,6 +29,30 @@
 		"mysql"
 	],
 	"versions":[
+		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.52.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.51.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"12.50.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -162,30 +188,7 @@
 			"usage":1,
 			"version":"12.29.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251020",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.28.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251017",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.24.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251016",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.23.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Core modules packaged with Dirigible"
 }

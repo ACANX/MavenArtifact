@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-mongodb-jdbc",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-mongodb-jdbc",
-	"version_latest":"12.52.0",
-	"ts_publish":1765551127000,
-	"dt_publish":"2025-12-12 22:52:07.000",
-	"ts_update":1765552744580,
-	"dt_update":"2025-12-12 23:18:51.250",
-	"count_dep":44,
-	"count_ref":2,
+	"version_latest":"12.53.0",
+	"ts_publish":1765885445000,
+	"dt_publish":"2025-12-16 19:44:05.000",
+	"ts_update":1765886210914,
+	"dt_update":"2025-12-16 19:56:35.296",
+	"count_dep":5,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -23,7 +23,7 @@
 	"url_scm":"http://svn.sonatype.org/spice/trunk/oss/oss-parent-9/dirigible-parent/dirigible-modules-parent/dirigible-database-parent/dirigible-database-mongodb-jdbc",
 	"count_used_by":6,
 	"license":"EPL 2.0",
-	"ranking":"#73852 in MvnRepository",
+	"ranking":"#73918 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -34,10 +34,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.52.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"12.51.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251211",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"12.50.0",
 			"vulnerabilities":""
 		},
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"12.29.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251020",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"12.28.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251017",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"12.24.0",
 			"vulnerabilities":""
 		}
 	]
