@@ -3,11 +3,11 @@
 	"description":"Parent pom of SonarSource public projects",
 	"group_id":"org.sonarsource.python",
 	"artifact_id":"python-frontend",
-	"version_latest":"5.14.2.29072",
-	"ts_publish":1764957917000,
-	"dt_publish":"2025-12-06 02:05:17.000",
-	"ts_update":1764970043064,
-	"dt_update":"2025-12-06 05:27:12.179",
+	"version_latest":"5.15.0.29514",
+	"ts_publish":1765912219000,
+	"dt_publish":"2025-12-17 03:10:19.000",
+	"ts_update":1765912785194,
+	"dt_update":"2025-12-17 03:19:22.743",
 	"count_dep":25,
 	"count_ref":4,
 	"licenses":[
@@ -41,13 +41,21 @@
 	"url_scm":"https://github.com/SonarSource/sonar-python/python-frontend",
 	"url_ci_management":"https://cirrus-ci.com/github/SonarSource/sonar-python",
 	"count_used_by":4,
-	"ranking":"#127594 in MvnRepository",
+	"ranking":"#127904 in MvnRepository",
 	"tags":[
 		"sonar",
 		"python",
 		"frontend"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"5.14.2.29072",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251202",
 			"repository":"Central",
@@ -198,14 +206,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"5.0.0.20426",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.26.1.20337",
 			"vulnerabilities":""
 		}
 	]

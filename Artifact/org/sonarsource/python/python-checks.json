@@ -3,11 +3,11 @@
 	"description":"Parent pom of SonarSource public projects",
 	"group_id":"org.sonarsource.python",
 	"artifact_id":"python-checks",
-	"version_latest":"5.14.2.29072",
-	"ts_publish":1764957917000,
-	"dt_publish":"2025-12-06 02:05:17.000",
-	"ts_update":1764970042803,
-	"dt_update":"2025-12-06 05:27:12.180",
+	"version_latest":"5.15.0.29514",
+	"ts_publish":1765912219000,
+	"dt_publish":"2025-12-17 03:10:19.000",
+	"ts_update":1765912781345,
+	"dt_update":"2025-12-17 03:19:22.742",
 	"count_dep":26,
 	"count_ref":2,
 	"licenses":[
@@ -41,12 +41,20 @@
 	"url_scm":"https://github.com/SonarSource/sonar-python/python-checks",
 	"url_ci_management":"https://cirrus-ci.com/github/SonarSource/sonar-python",
 	"count_used_by":2,
-	"ranking":"#253024 in MvnRepository",
+	"ranking":"#253942 in MvnRepository",
 	"tags":[
 		"sonar",
 		"python"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"5.14.2.29072",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251202",
 			"repository":"Central",
@@ -197,14 +205,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"5.0.0.20426",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250227",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.26.1.20337",
 			"vulnerabilities":""
 		}
 	]
