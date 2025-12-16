@@ -3,13 +3,13 @@
 	"description":"HTTP auth support",
 	"group_id":"aws.smithy.kotlin",
 	"artifact_id":"http-auth-jvm",
-	"version_latest":"1.5.22",
-	"ts_publish":1764966103000,
-	"dt_publish":"2025-12-06 04:21:43.000",
-	"ts_update":1764973639944,
-	"dt_update":"2025-12-06 06:26:44.003",
+	"version_latest":"1.5.24",
+	"ts_publish":1765907895000,
+	"dt_publish":"2025-12-17 01:58:15.000",
+	"ts_update":1765909593133,
+	"dt_update":"2025-12-17 02:26:09.062",
 	"count_dep":6,
-	"count_ref":4,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,10 +23,10 @@
 		"AWS SDK Kotlin Team"
 	],
 	"url_scm":"https://github.com/smithy-lang/smithy-kotlin",
-	"count_used_by":855,
+	"count_used_by":856,
 	"home_page":"https://github.com/smithy-lang/smithy-kotlin",
 	"license":"Apache 2.0",
-	"ranking":"#733 in MvnRepository",
+	"ranking":"#736 in MvnRepository",
 	"tags":[
 		"jvm",
 		"aws",
@@ -38,10 +38,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251206",
+			"repository":"Central",
+			"type":"release",
+			"usage":418,
+			"version":"1.5.22",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":418,
+			"version":"1.5.21",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251110",
 			"repository":"Central",
 			"type":"release",
-			"usage":417,
+			"usage":418,
 			"version":"1.5.20",
 			"vulnerabilities":""
 		},
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.5.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":416,
-			"version":"1.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.5.0",
 			"vulnerabilities":""
 		}
 	]
