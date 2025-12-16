@@ -3,12 +3,12 @@
 	"description":"Spring Boot Webflux Auto Configuration for Logbook",
 	"group_id":"org.zalando",
 	"artifact_id":"logbook-spring-boot-webflux-autoconfigure",
-	"version_latest":"3.12.3",
-	"ts_publish":1757001184000,
-	"dt_publish":"2025-09-04 23:53:04.000",
-	"ts_update":1757002847863,
-	"dt_update":"2025-09-05 00:18:53.509",
-	"count_dep":79,
+	"version_latest":"4.0.0-RC.0",
+	"ts_publish":1765903076000,
+	"dt_publish":"2025-12-17 00:37:56.000",
+	"ts_update":1765904210431,
+	"dt_update":"2025-12-17 00:56:33.431",
+	"count_dep":114,
 	"count_ref":0,
 	"licenses":[
 		"MIT License"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/zalando/logbook",
 	"count_used_by":5,
 	"license":"MIT",
-	"ranking":"#87762 in MvnRepository",
+	"ranking":"#97132 in MvnRepository",
 	"tags":[
 		"webflux",
 		"spring",
@@ -34,6 +34,14 @@
 		"web"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.12.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.0-RC.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230327",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.0-RC.0",
 			"vulnerabilities":""
 		}
 	]
