@@ -3,12 +3,12 @@
 	"description":"Galleon Maven Plugin",
 	"group_id":"org.jboss.galleon",
 	"artifact_id":"galleon-maven-plugin",
-	"version_latest":"7.0.0.Beta3",
-	"ts_publish":1764972920000,
-	"dt_publish":"2025-12-06 06:15:20.000",
-	"ts_update":1764974217682,
-	"dt_update":"2025-12-06 06:36:38.792",
-	"count_dep":62,
+	"version_latest":"7.0.0.Final",
+	"ts_publish":1765923324000,
+	"dt_publish":"2025-12-17 06:15:24.000",
+	"ts_update":1765924000787,
+	"dt_update":"2025-12-17 06:26:33.554",
+	"count_dep":68,
 	"count_ref":1,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/wildfly/galleon",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#43227 in MvnRepository",
+	"ranking":"#43394 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -35,6 +35,14 @@
 		"jboss"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"beta",
+			"usage":2,
+			"version":"7.0.0.Beta3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251119",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"5.2.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230706",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.2.0.Final",
 			"vulnerabilities":""
 		}
 	]
