@@ -3,11 +3,11 @@
 	"description":"A parent POM for all artifacts by Vaadin Ltd.",
 	"group_id":"com.vaadin",
 	"artifact_id":"kubernetes-kit",
-	"version_latest":"3.0.0-rc1",
-	"ts_publish":1765362729000,
-	"dt_publish":"2025-12-10 18:32:09.000",
-	"ts_update":1765364215307,
-	"dt_update":"2025-12-10 18:56:30.139",
+	"version_latest":"3.0.0",
+	"ts_publish":1765905643000,
+	"dt_publish":"2025-12-17 01:20:43.000",
+	"ts_update":1765907555954,
+	"dt_update":"2025-12-17 01:52:25.361",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -20,13 +20,21 @@
 	"url_project":"http://vaadin.com/kubernetes-kit",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vaadin/kubernetes-kit@2.5.0-beta1",
 	"url_scm":"https://github.com/vaadin/maven-integration/kubernetes-kit",
-	"ranking":"#716283 in MvnRepository",
+	"ranking":"#718955 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"kubernetes",
 		"web-framework"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.0-rc1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251126",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230307",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.0",
 			"vulnerabilities":""
 		}
 	]
