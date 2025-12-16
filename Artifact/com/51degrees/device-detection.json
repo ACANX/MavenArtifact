@@ -3,11 +3,11 @@
 	"description":"Parse HTTP headers to detect the device type, model, OS, browser, and crawler information. This is an alternative to popular UAParser, DeviceAtlas, and WURFL packages.",
 	"group_id":"com.51degrees",
 	"artifact_id":"device-detection",
-	"version_latest":"4.5.11",
-	"ts_publish":1765515106000,
-	"dt_publish":"2025-12-12 12:51:46.000",
-	"ts_update":1765516749858,
-	"dt_update":"2025-12-12 13:18:53.733",
+	"version_latest":"4.5.12",
+	"ts_publish":1765861422000,
+	"dt_publish":"2025-12-16 13:03:42.000",
+	"ts_update":1765862392469,
+	"dt_update":"2025-12-16 13:19:39.172",
 	"count_dep":32,
 	"count_ref":0,
 	"licenses":[
@@ -26,12 +26,20 @@
 	"count_used_by":3,
 	"home_page":"https://51degrees.com",
 	"license":"EUPL 1.2",
-	"ranking":"#140353 in MvnRepository",
+	"ranking":"#140358 in MvnRepository",
 	"tags":[
 		"analyzer",
 		"device"
 	],
 	"versions":[
+		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.5.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251209",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"4.5.0-alpha.402",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251027",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"4.5.0-alpha.401",
 			"vulnerabilities":""
 		}
 	]
