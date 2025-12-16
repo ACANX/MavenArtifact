@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-container",
-	"version_latest":"7.18.2",
-	"ts_publish":1765474879000,
-	"dt_publish":"2025-12-12 01:41:19.000",
-	"ts_update":1765475803486,
-	"dt_update":"2025-12-12 01:56:26.574",
-	"count_dep":131,
+	"version_latest":"7.18.3",
+	"ts_publish":1765862422000,
+	"dt_publish":"2025-12-16 13:20:22.000",
+	"ts_update":1765862792594,
+	"dt_update":"2025-12-16 13:26:19.761",
+	"count_dep":111,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -27,14 +27,22 @@
 		"Titouan COMPIEGNE"
 	],
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-container",
-	"count_used_by":18,
+	"count_used_by":19,
 	"license":"Apache 2.0",
-	"ranking":"#26489 in MvnRepository",
+	"ranking":"#25140 in MvnRepository",
 	"tags":[
 		"node",
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.18.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251210",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.9.8",
 			"vulnerabilities":""
 		}
 	]

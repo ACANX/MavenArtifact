@@ -3,13 +3,13 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-vertx",
-	"version_latest":"7.18.2",
-	"ts_publish":1765474879000,
-	"dt_publish":"2025-12-12 01:41:19.000",
-	"ts_update":1765475800150,
-	"dt_update":"2025-12-12 01:56:26.100",
+	"version_latest":"7.18.3",
+	"ts_publish":1765862422000,
+	"dt_publish":"2025-12-16 13:20:22.000",
+	"ts_update":1765862791062,
+	"dt_update":"2025-12-16 13:26:19.261",
 	"count_dep":88,
-	"count_ref":6,
+	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,19 +27,27 @@
 		"Titouan COMPIEGNE"
 	],
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-vertx",
-	"count_used_by":25,
+	"count_used_by":26,
 	"license":"Apache 2.0",
-	"ranking":"#18934 in MvnRepository",
+	"ranking":"#18274 in MvnRepository",
 	"tags":[
 		"node",
 		"vertx"
 	],
 	"versions":[
 		{
-			"date":"20251210",
+			"date":"20251211",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
+			"version":"7.18.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
 			"version":"7.18.1",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"7.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251210",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.9.8",
 			"vulnerabilities":""
 		}
 	]

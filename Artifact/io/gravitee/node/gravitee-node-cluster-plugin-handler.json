@@ -3,13 +3,13 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.node",
 	"artifact_id":"gravitee-node-cluster-plugin-handler",
-	"version_latest":"7.18.2",
-	"ts_publish":1765474879000,
-	"dt_publish":"2025-12-12 01:41:19.000",
-	"ts_update":1765475794397,
-	"dt_update":"2025-12-12 01:56:26.574",
+	"version_latest":"7.18.3",
+	"ts_publish":1765862422000,
+	"dt_publish":"2025-12-16 13:20:22.000",
+	"ts_update":1765862788198,
+	"dt_update":"2025-12-16 13:26:19.762",
 	"count_dep":55,
-	"count_ref":2,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-node/gravitee-node-cluster/gravitee-node-cluster-plugin-handler",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#331477 in MvnRepository",
+	"ranking":"#331498 in MvnRepository",
 	"tags":[
 		"plugin",
 		"cluster",
 		"node"
 	],
 	"versions":[
+		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.18.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251210",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.9.8",
 			"vulnerabilities":""
 		}
 	]
