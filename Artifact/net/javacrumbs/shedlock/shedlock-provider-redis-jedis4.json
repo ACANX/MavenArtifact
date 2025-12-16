@@ -3,12 +3,12 @@
 	"description":"Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
 	"group_id":"net.javacrumbs.shedlock",
 	"artifact_id":"shedlock-provider-redis-jedis4",
-	"version_latest":"7.2.2",
-	"ts_publish":1765476965000,
-	"dt_publish":"2025-12-12 02:16:05.000",
-	"ts_update":1765477536785,
-	"dt_update":"2025-12-12 02:25:27.294",
-	"count_dep":12,
+	"version_latest":"7.3.0",
+	"ts_publish":1765914507000,
+	"dt_publish":"2025-12-17 03:48:27.000",
+	"ts_update":1765915008522,
+	"dt_update":"2025-12-17 03:56:36.571",
+	"count_dep":14,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"scm:git:git@github.com:lukas-krecan/ShedLock.git/providers/redis/shedlock-provider-redis-jedis4",
 	"license":"Apache 2.0",
-	"ranking":"#497471 in MvnRepository",
+	"ranking":"#502489 in MvnRepository",
 	"tags":[
 		"database",
 		"provider",
 		"redis"
 	],
 	"versions":[
+		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251201",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241126",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.0.2",
 			"vulnerabilities":""
 		}
 	]
