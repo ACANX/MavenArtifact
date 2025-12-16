@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.eclipse.dirigible/dirigible-database-sql-postgres",
 	"group_id":"org.eclipse.dirigible",
 	"artifact_id":"dirigible-database-sql-postgres",
-	"version_latest":"12.52.0",
-	"ts_publish":1765551127000,
-	"dt_publish":"2025-12-12 22:52:07.000",
-	"ts_update":1765552751204,
-	"dt_update":"2025-12-12 23:18:53.513",
-	"count_dep":44,
+	"version_latest":"12.53.0",
+	"ts_publish":1765885445000,
+	"dt_publish":"2025-12-16 19:44:05.000",
+	"ts_update":1765888021673,
+	"dt_update":"2025-12-16 20:26:42.332",
+	"count_dep":125,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Eclipse Public License - v 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,7 +19,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.eclipse.dirigible/dirigible-database-sql-postgres@12.6.0",
 	"count_used_by":8,
 	"license":"EPL 2.0",
-	"ranking":"#62013 in MvnRepository",
+	"ranking":"#61995 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -27,10 +29,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.52.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"12.51.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251211",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"12.50.0",
 			"vulnerabilities":""
 		},
@@ -169,22 +187,7 @@
 			"usage":2,
 			"version":"12.29.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251020",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"12.28.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251017",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"12.24.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Core modules packaged with Dirigible"
 }
