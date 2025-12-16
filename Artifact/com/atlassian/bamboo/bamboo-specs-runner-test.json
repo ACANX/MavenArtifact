@@ -3,11 +3,11 @@
 	"description":"Base POM for Atlassian projects",
 	"group_id":"com.atlassian.bamboo",
 	"artifact_id":"bamboo-specs-runner-test",
-	"version_latest":"12.0.2",
-	"ts_publish":1765206797000,
-	"dt_publish":"2025-12-08 23:13:17.000",
-	"ts_update":1765207611179,
-	"dt_update":"2025-12-08 23:26:39.791",
+	"version_latest":"12.1.0",
+	"ts_publish":1765872699000,
+	"dt_publish":"2025-12-16 16:11:39.000",
+	"ts_update":1765873532478,
+	"dt_update":"2025-12-16 16:25:15.626",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_ci_management":"https://staging-bamboo.internal.atlassian.com/browse/OTHER-BASEPOM",
 	"home_page":"http://www.atlassian.com/bamboo",
 	"license":"Apache 2.0",
-	"ranking":"#564531 in MvnRepository",
+	"ranking":"#564169 in MvnRepository",
 	"tags":[
 		"atlassian",
 		"runner",
@@ -35,6 +35,14 @@
 		"specs"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"12.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251202",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"11.0.0-rc2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250331",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"11.0.0-rc1",
 			"vulnerabilities":""
 		}
 	]
