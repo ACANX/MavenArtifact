@@ -3,11 +3,11 @@
 	"description":"Hilla Platform (Bill of Materials)",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-bom",
-	"version_latest":"25.0.0-rc2",
-	"ts_publish":1765784452000,
-	"dt_publish":"2025-12-15 15:40:52.000",
-	"ts_update":1765785403651,
-	"dt_update":"2025-12-15 15:56:32.498",
+	"version_latest":"25.0.0",
+	"ts_publish":1765893617000,
+	"dt_publish":"2025-12-16 22:00:17.000",
+	"ts_update":1765895111257,
+	"dt_update":"2025-12-16 22:24:56.974",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/vaadin/maven-integration/hilla-bom",
 	"home_page":"https://vaadin.com/hilla",
 	"license":"Apache 2.0",
-	"ranking":"#462733 in MvnRepository",
+	"ranking":"#462473 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"bom",
@@ -31,6 +31,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"25.0.0-rc2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"24.9.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"24.9.0-beta3",
 			"vulnerabilities":""
 		}
 	]

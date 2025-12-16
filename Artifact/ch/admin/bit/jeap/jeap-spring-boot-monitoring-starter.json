@@ -3,14 +3,16 @@
 	"description":"jeap starter for Spring Boot applications with monitoring.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-spring-boot-monitoring-starter",
-	"version_latest":"19.4.0",
-	"ts_publish":1765809198000,
-	"dt_publish":"2025-12-15 22:33:18.000",
-	"ts_update":1765810644448,
-	"dt_update":"2025-12-15 22:56:37.818",
-	"count_dep":16,
+	"version_latest":"19.4.1",
+	"ts_publish":1765893857000,
+	"dt_publish":"2025-12-16 22:04:17.000",
+	"ts_update":1765895122891,
+	"dt_update":"2025-12-16 22:24:55.903",
+	"count_dep":66,
 	"count_ref":5,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-spring-boot-starters/tree/main/jeap-spring-boot-monitoring-starter",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-spring-boot-monitoring-starter@17.40.0",
@@ -20,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-spring-boot-starters.git/jeap-spring-boot-monitoring-starter",
 	"count_used_by":32,
 	"license":"Apache 2.0",
-	"ranking":"#15233 in MvnRepository",
+	"ranking":"#15368 in MvnRepository",
 	"tags":[
 		"admin",
 		"monitoring",
@@ -28,6 +30,22 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":26,
+			"version":"19.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"19.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251204",
 			"repository":"Central",
@@ -170,22 +188,6 @@
 			"type":"release",
 			"usage":20,
 			"version":"17.38.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250617",
-			"repository":"Central",
-			"type":"release",
-			"usage":25,
-			"version":"17.37.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"17.36.0",
 			"vulnerabilities":""
 		}
 	]
