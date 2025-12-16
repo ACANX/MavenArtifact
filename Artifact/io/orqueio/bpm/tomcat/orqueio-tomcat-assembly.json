@@ -3,12 +3,12 @@
 	"description":"Assembles the Orque IO Platform and makes it ready for qa.\n    The assembly is installed to maven later in the reactor, if the integration tests pass successfully.",
 	"group_id":"io.orqueio.bpm.tomcat",
 	"artifact_id":"orqueio-tomcat-assembly",
-	"version_latest":"1.0.4",
-	"ts_publish":1760547745000,
-	"dt_publish":"2025-10-16 01:02:25.000",
-	"ts_update":1760548479901,
-	"dt_update":"2025-10-16 01:14:23.777",
-	"count_dep":49,
+	"version_latest":"1.0.5",
+	"ts_publish":1765878765000,
+	"dt_publish":"2025-12-16 17:52:45.000",
+	"ts_update":1765880478532,
+	"dt_update":"2025-12-16 18:21:02.558",
+	"count_dep":48,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/orqueio/orqueio/orqueio-tomcat/orqueio-tomcat-assembly",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#225649 in MvnRepository",
+	"ranking":"#190590 in MvnRepository",
 	"tags":[
 		"server",
 		"assembly",
@@ -32,6 +32,14 @@
 		"tomcat"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
