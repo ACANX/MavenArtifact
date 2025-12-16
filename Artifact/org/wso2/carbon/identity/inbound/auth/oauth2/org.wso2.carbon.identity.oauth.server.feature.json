@@ -3,12 +3,12 @@
 	"description":"This feature contains the core bundles required for Back-end OAuth functionality",
 	"group_id":"org.wso2.carbon.identity.inbound.auth.oauth2",
 	"artifact_id":"org.wso2.carbon.identity.oauth.server.feature",
-	"version_latest":"7.0.405",
-	"ts_publish":1765614739000,
-	"dt_publish":"2025-12-13 16:32:19.000",
-	"ts_update":1765617417656,
-	"dt_update":"2025-12-13 17:16:47.783",
-	"count_dep":73,
+	"version_latest":"7.0.406",
+	"ts_publish":1765874433000,
+	"dt_publish":"2025-12-16 16:40:33.000",
+	"ts_update":1765875420864,
+	"dt_update":"2025-12-16 16:56:21.604",
+	"count_dep":300,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"count_used_by":1,
 	"home_page":"http://wso2.org",
 	"license":"Apache 2.0",
-	"ranking":"#270129 in MvnRepository",
+	"ranking":"#270833 in MvnRepository",
 	"tags":[
 		"server",
 		"authentication",
@@ -34,6 +34,14 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251213",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.0.405",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251212",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.0.247",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250217",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.0.246",
 			"vulnerabilities":""
 		}
 	]
