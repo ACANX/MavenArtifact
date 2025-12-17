@@ -3,11 +3,11 @@
 	"description":"BOM for Google Cloud Firestore",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-firestore-bom",
-	"version_latest":"3.34.0",
-	"ts_publish":1765578702000,
-	"dt_publish":"2025-12-13 06:31:42.000",
-	"ts_update":1765580234452,
-	"dt_update":"2025-12-13 06:56:42.180",
+	"version_latest":"3.35.0-rc1",
+	"ts_publish":1765945854000,
+	"dt_publish":"2025-12-17 12:30:54.000",
+	"ts_update":1765947413196,
+	"dt_update":"2025-12-17 12:56:39.586",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/googleapis/java-firestore",
 	"home_page":"https://github.com/googleapis/java-firestore",
 	"license":"Apache 2.0",
-	"ranking":"#798577 in MvnRepository",
+	"ranking":"#1000759 in MvnRepository",
 	"tags":[
 		"bom",
 		"google",
@@ -35,6 +35,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251213",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.34.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.33.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.30.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250325",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.30.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250320",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.30.11",
 			"vulnerabilities":""
 		}
 	]
