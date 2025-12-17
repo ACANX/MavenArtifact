@@ -3,11 +3,11 @@
 	"description":"Jedis is a blazingly small and sane Redis java client.",
 	"group_id":"redis.clients",
 	"artifact_id":"jedis",
-	"version_latest":"7.1.0",
-	"ts_publish":1763640364000,
-	"dt_publish":"2025-11-20 20:06:04.000",
-	"ts_update":1763641625095,
-	"dt_update":"2025-11-20 20:26:33.344",
+	"version_latest":"7.2.0",
+	"ts_publish":1765970462000,
+	"dt_publish":"2025-12-17 19:21:02.000",
+	"ts_update":1765972086792,
+	"dt_update":"2025-12-17 19:47:58.827",
 	"count_dep":28,
 	"count_ref":0,
 	"licenses":[
@@ -25,10 +25,10 @@
 		"Redis Ltd."
 	],
 	"url_scm":"scm:git:git@github.com:redis/jedis.git",
-	"count_used_by":2649,
+	"count_used_by":2669,
 	"home_page":"https://github.com/redis/jedis",
 	"license":"MIT",
-	"ranking":"#228 in MvnRepository",
+	"ranking":"#229 in MvnRepository",
 	"tags":[
 		"redis",
 		"database",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":28,
+			"version":"7.1.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
-			"usage":26,
+			"usage":42,
 			"version":"7.0.0",
 			"vulnerabilities":""
 		},
@@ -63,7 +71,7 @@
 			"date":"20250430",
 			"repository":"Central",
 			"type":"release",
-			"usage":76,
+			"usage":78,
 			"version":"6.0.0",
 			"vulnerabilities":""
 		},
@@ -95,7 +103,7 @@
 			"date":"20240927",
 			"repository":"Central",
 			"type":"release",
-			"usage":145,
+			"usage":147,
 			"version":"5.2.0",
 			"vulnerabilities":""
 		},
@@ -167,7 +175,7 @@
 			"date":"20240729",
 			"repository":"Central",
 			"type":"release",
-			"usage":18,
+			"usage":19,
 			"version":"5.1.4",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":48,
 			"version":"5.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240226",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"5.1.1",
 			"vulnerabilities":""
 		}
 	]
