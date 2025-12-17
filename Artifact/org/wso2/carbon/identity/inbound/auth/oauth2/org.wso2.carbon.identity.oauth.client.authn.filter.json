@@ -3,12 +3,12 @@
 	"description":"Proxy Filter Which Invokes OAuth Client Authenticators",
 	"group_id":"org.wso2.carbon.identity.inbound.auth.oauth2",
 	"artifact_id":"org.wso2.carbon.identity.oauth.client.authn.filter",
-	"version_latest":"7.0.406",
-	"ts_publish":1765874284000,
-	"dt_publish":"2025-12-16 16:38:04.000",
-	"ts_update":1765875425901,
-	"dt_update":"2025-12-16 16:56:22.080",
-	"count_dep":20,
+	"version_latest":"7.0.407",
+	"ts_publish":1765960679000,
+	"dt_publish":"2025-12-17 16:37:59.000",
+	"ts_update":1765961817063,
+	"dt_update":"2025-12-17 16:56:36.396",
+	"count_dep":263,
 	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,7 +26,7 @@
 	"count_used_by":4,
 	"home_page":"http://wso2.org",
 	"license":"Apache 2.0",
-	"ranking":"#116257 in MvnRepository",
+	"ranking":"#116522 in MvnRepository",
 	"tags":[
 		"authentication",
 		"client",
@@ -35,6 +35,14 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"7.0.406",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251213",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"7.0.248",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250217",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"7.0.247",
 			"vulnerabilities":""
 		}
 	]
