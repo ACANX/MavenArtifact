@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.evitadb/evita_external_api",
 	"group_id":"io.evitadb",
 	"artifact_id":"evita_external_api",
-	"version_latest":"2025.8.1",
-	"ts_publish":1765900614000,
-	"dt_publish":"2025-12-16 23:56:54.000",
-	"ts_update":1765902269974,
-	"dt_update":"2025-12-17 00:23:30.504",
-	"count_dep":0,
+	"version_latest":"2025.8.2",
+	"ts_publish":1765981143000,
+	"dt_publish":"2025-12-17 22:19:03.000",
+	"ts_update":1765981618525,
+	"dt_update":"2025-12-17 22:26:38.999",
+	"count_dep":6,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Business Source License 1.1"
+	],
 	"dsv":1,
 	"url_project":"https://evitadb.io/evita_external_api",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.evitadb/evita_external_api@2025.6.0",
@@ -21,11 +23,75 @@
 	],
 	"url_scm":"https://evitadb.io/evita_external_api/",
 	"license":"BUSL 1.1",
-	"ranking":"#902038 in MvnRepository",
+	"ranking":"#531208 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.7.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.7.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.7.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.7.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.7.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.7.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.7.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -56,6 +122,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"2025.6.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.5.9",
 			"vulnerabilities":""
 		},
 		{
@@ -113,78 +187,7 @@
 			"usage":0,
 			"version":"2025.5.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250604",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.4.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250530",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.4.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250523",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.3.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.3.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250425",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.3.7",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Evita is a specialized database with easy-to-use API for e-commerce systems. Purpose of this research is\n\t\tcreating fast and scalable engine that handles all complex tasks that e-commerce systems has to deal with on\n\t\tdaily basis.\n\n\t\tEvita should operate as a fast secondary lookup / search index used by application frontends. We aim for order\n\t\tof magnitude better latency (10x faster or better) for common e-commerce tasks than other solutions based on SQL\n\t\tor NoSQL databases on the same hardware specification. Evita should not be used for storing and handling primary\n\t\tdata, and we don't aim for ACID properties nor data corruption guarantees. Evita \"index\" must be treated\n\t\tas something that could be dropped any time and built up from scratch easily again."
 }
