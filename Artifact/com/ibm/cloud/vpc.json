@@ -3,11 +3,11 @@
 	"description":"Java Client Library to access the IBM Cloud VPC",
 	"group_id":"com.ibm.cloud",
 	"artifact_id":"vpc",
-	"version_latest":"0.27.0",
-	"ts_publish":1765169368000,
-	"dt_publish":"2025-12-08 12:49:28.000",
-	"ts_update":1765172548990,
-	"dt_update":"2025-12-08 13:42:21.686",
+	"version_latest":"0.28.0",
+	"ts_publish":1766006416000,
+	"dt_publish":"2025-12-18 05:20:16.000",
+	"ts_update":1766007322267,
+	"dt_update":"2025-12-18 05:35:13.773",
 	"count_dep":24,
 	"count_ref":1,
 	"licenses":[
@@ -26,13 +26,29 @@
 	"url_scm":"https://github.com/IBM/vpc-java-sdk/tree/master/modules/vpc",
 	"url_ci_management":"https://github.com/IBM/vpc-java-sdk/actions",
 	"license":"Apache 2.0",
-	"ranking":"#912701 in MvnRepository",
+	"ranking":"#328315 in MvnRepository",
 	"tags":[
 		"cloud",
 		"vpc",
 		"ibm"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.27.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.26.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250428",
 			"repository":"Central",
@@ -176,22 +192,7 @@
 			"usage":0,
 			"version":"0.9.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20211201",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211130",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.8.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
