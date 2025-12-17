@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-confluent-schema-registry",
-	"version_latest":"11.3.1",
-	"ts_publish":1765898635000,
-	"dt_publish":"2025-12-16 23:23:55.000",
-	"ts_update":1765902239700,
-	"dt_update":"2025-12-17 00:23:46.906",
+	"version_latest":"11.4.0",
+	"ts_publish":1765957781000,
+	"dt_publish":"2025-12-17 15:49:41.000",
+	"ts_update":1765958222298,
+	"dt_update":"2025-12-17 15:56:55.476",
 	"count_dep":8,
 	"count_ref":1,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging.git/jeap-messaging-confluent-schema-registry",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#376478 in MvnRepository",
+	"ranking":"#378068 in MvnRepository",
 	"tags":[
 		"confluent",
 		"registry",
@@ -31,6 +31,14 @@
 		"schema"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.3.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251208",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"8.57.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"8.56.1",
 			"vulnerabilities":""
 		}
 	]
