@@ -3,12 +3,12 @@
 	"description":"The AWS Java SDK for Amazon CloudWatch module holds the client classes that are used for communicating\n        with Amazon CloudWatch Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"cloudwatch",
-	"version_latest":"2.40.9",
-	"ts_publish":1765839936000,
-	"dt_publish":"2025-12-16 07:05:36.000",
-	"ts_update":1765841643753,
-	"dt_update":"2025-12-16 07:33:57.830",
-	"count_dep":4,
+	"version_latest":"2.40.10",
+	"ts_publish":1765927199000,
+	"dt_publish":"2025-12-17 07:19:59.000",
+	"ts_update":1765931216751,
+	"dt_update":"2025-12-17 08:26:41.155",
+	"count_dep":34,
 	"count_ref":2,
 	"licenses":[],
 	"categories":[
@@ -20,7 +20,7 @@
 	"count_used_by":81,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#6486 in MvnRepository",
+	"ranking":"#6493 in MvnRepository",
 	"tags":[
 		"observability",
 		"aws",
@@ -32,6 +32,14 @@
 		"metrics"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.40.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251213",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2.38.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251114",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.38.6",
 			"vulnerabilities":""
 		}
 	]
