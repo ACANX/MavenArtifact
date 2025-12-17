@@ -3,11 +3,11 @@
 	"description":"Provides file system storage for cryptographic data",
 	"group_id":"org.xwiki.commons",
 	"artifact_id":"xwiki-commons-crypto-store-filesystem",
-	"version_latest":"17.10.0",
-	"ts_publish":1763977975000,
-	"dt_publish":"2025-11-24 17:52:55.000",
-	"ts_update":1763979610731,
-	"dt_update":"2025-11-24 18:19:56.193",
+	"version_latest":"17.10.1",
+	"ts_publish":1765967704000,
+	"dt_publish":"2025-12-17 18:35:04.000",
+	"ts_update":1765968378111,
+	"dt_update":"2025-12-17 18:45:53.819",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[],
@@ -24,7 +24,7 @@
 	"url_scm":"https://github.com/xwiki/xwiki-commons/tree/master/xwiki-commons-pom/xwiki-commons-core/xwiki-commons-crypto/xwiki-commons-crypto-store/xwiki-commons-crypto-store-filesystem/",
 	"count_used_by":6,
 	"license":"LGPL 2.1",
-	"ranking":"#84030 in MvnRepository",
+	"ranking":"#84592 in MvnRepository",
 	"tags":[
 		"cryptography",
 		"filesystem",
@@ -35,10 +35,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"17.10.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251118",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"17.10.0-rc-1",
 			"vulnerabilities":""
 		},
@@ -118,7 +126,7 @@
 			"date":"20251031",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"17.4.7",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"17.4.0-rc-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250428",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"17.3.0",
 			"vulnerabilities":""
 		}
 	]
