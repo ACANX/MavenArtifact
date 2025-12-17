@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.apim.rest.api.automation/gravitee-apim-rest-api-automation",
 	"group_id":"io.gravitee.apim.rest.api.automation",
 	"artifact_id":"gravitee-apim-rest-api-automation",
-	"version_latest":"4.10.0-alpha.1",
-	"ts_publish":1765377752000,
-	"dt_publish":"2025-12-10 22:42:32.000",
-	"ts_update":1765380416782,
-	"dt_update":"2025-12-10 23:26:36.409",
-	"count_dep":0,
+	"version_latest":"4.10.0-alpha.2",
+	"ts_publish":1766009188000,
+	"dt_publish":"2025-12-18 06:06:28.000",
+	"ts_update":1766010420937,
+	"dt_update":"2025-12-18 06:26:42.690",
+	"count_dep":24,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-rest-api/gravitee-apim-rest-api-automation",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.gravitee.apim.rest.api.automation/gravitee-apim-rest-api-automation@4.8.4",
@@ -22,13 +24,29 @@
 	],
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-rest-api/gravitee-apim-rest-api-automation",
 	"license":"Apache 2.0",
-	"ranking":"#907743 in MvnRepository",
+	"ranking":"#463938 in MvnRepository",
 	"tags":[
 		"rest",
 		"automation",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"4.10.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.9.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251205",
 			"repository":"Central",
@@ -134,6 +152,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.8.16",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251205",
 			"repository":"Central",
 			"type":"release",
@@ -164,30 +190,7 @@
 			"usage":0,
 			"version":"4.8.12",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251024",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251017",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251010",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.9",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }

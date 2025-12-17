@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.gravitee.apim.gateway.security/gravitee-apim-gateway-security-core",
 	"group_id":"io.gravitee.apim.gateway.security",
 	"artifact_id":"gravitee-apim-gateway-security-core",
-	"version_latest":"4.10.0-alpha.1",
-	"ts_publish":1765377752000,
-	"dt_publish":"2025-12-10 22:42:32.000",
-	"ts_update":1765380413003,
-	"dt_update":"2025-12-10 23:26:37.732",
+	"version_latest":"4.10.0-alpha.2",
+	"ts_publish":1766009188000,
+	"dt_publish":"2025-12-18 06:06:28.000",
+	"ts_update":1766010418570,
+	"dt_update":"2025-12-18 06:26:41.079",
 	"count_dep":22,
 	"count_ref":8,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -28,12 +26,28 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-security/gravitee-apim-gateway-security-core",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#84519 in MvnRepository",
+	"ranking":"#84830 in MvnRepository",
 	"tags":[
 		"security",
 		"gateway"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":6,
+			"version":"4.10.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.9.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251205",
 			"repository":"Central",
@@ -139,6 +153,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"4.8.16",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251205",
 			"repository":"Central",
 			"type":"release",
@@ -169,31 +191,6 @@
 			"usage":6,
 			"version":"4.8.12",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251024",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.8.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251017",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.8.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251010",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"4.8.9",
-			"vulnerabilities":""
 		}
-	],
-	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
+	]
 }
