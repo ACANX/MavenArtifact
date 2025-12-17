@@ -3,13 +3,13 @@
 	"description":"edc :: callback-static-endpoint",
 	"group_id":"org.eclipse.edc",
 	"artifact_id":"callback-static-endpoint",
-	"version_latest":"0.15.0",
-	"ts_publish":1764668256000,
-	"dt_publish":"2025-12-02 17:37:36.000",
-	"ts_update":1764669212786,
-	"dt_update":"2025-12-02 17:53:12.649",
+	"version_latest":"0.15.1",
+	"ts_publish":1765989492000,
+	"dt_publish":"2025-12-18 00:38:12.000",
+	"ts_update":1765990626670,
+	"dt_update":"2025-12-18 00:56:41.174",
 	"count_dep":2,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -26,13 +26,21 @@
 	"count_used_by":2,
 	"home_page":"https://projects.eclipse.org/projects/technology.edc",
 	"license":"Apache 2.0",
-	"ranking":"#248579 in MvnRepository",
+	"ranking":"#197871 in MvnRepository",
 	"tags":[
 		"static",
 		"eclipse",
 		"endpoint"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.15.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.6.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240415",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.6.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"edc :: core-spi",
 	"group_id":"org.eclipse.edc",
 	"artifact_id":"core-spi",
-	"version_latest":"0.15.0",
-	"ts_publish":1764668255000,
-	"dt_publish":"2025-12-02 17:37:35.000",
-	"ts_update":1764669219478,
-	"dt_update":"2025-12-02 17:53:13.104",
+	"version_latest":"0.15.1",
+	"ts_publish":1765989492000,
+	"dt_publish":"2025-12-18 00:38:12.000",
+	"ts_update":1765990614903,
+	"dt_update":"2025-12-18 00:56:40.770",
 	"count_dep":15,
-	"count_ref":20,
+	"count_ref":65,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,15 +23,23 @@
 		"Markus Spiekermann"
 	],
 	"url_scm":"https://github.com/eclipse-edc/Connector.git",
-	"count_used_by":291,
+	"count_used_by":303,
 	"home_page":"https://projects.eclipse.org/projects/technology.edc",
 	"license":"Apache 2.0",
-	"ranking":"#2237 in MvnRepository",
+	"ranking":"#2185 in MvnRepository",
 	"tags":[
 		"interface",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":147,
+			"version":"0.15.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":103,
 			"version":"0.6.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240415",
-			"repository":"Central",
-			"type":"release",
-			"usage":124,
-			"version":"0.6.1",
 			"vulnerabilities":""
 		}
 	]
