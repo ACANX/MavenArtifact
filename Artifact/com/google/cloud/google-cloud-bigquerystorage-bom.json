@@ -3,11 +3,11 @@
 	"description":"BOM for BigQuery Storage",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-bigquerystorage-bom",
-	"version_latest":"3.19.0",
-	"ts_publish":1765515170000,
-	"dt_publish":"2025-12-12 12:52:50.000",
-	"ts_update":1765516752910,
-	"dt_update":"2025-12-12 13:18:53.731",
+	"version_latest":"3.20.0-rc1",
+	"ts_publish":1765933862000,
+	"dt_publish":"2025-12-17 09:11:02.000",
+	"ts_update":1765934794679,
+	"dt_update":"2025-12-17 09:26:22.958",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/googleapis/java-bigquerystorage",
 	"home_page":"https://github.com/googleapis/java-bigquerystorage",
 	"license":"Apache 2.0",
-	"ranking":"#929240 in MvnRepository",
+	"ranking":"#931576 in MvnRepository",
 	"tags":[
 		"bom",
 		"google",
@@ -37,6 +37,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.19.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251113",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.11.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250213",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.11.3",
 			"vulnerabilities":""
 		}
 	]
