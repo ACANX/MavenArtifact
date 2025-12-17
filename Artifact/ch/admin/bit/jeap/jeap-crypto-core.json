@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-crypto-core",
-	"version_latest":"5.4.1",
-	"ts_publish":1765896420000,
-	"dt_publish":"2025-12-16 22:47:00.000",
-	"ts_update":1765898448357,
-	"dt_update":"2025-12-16 23:20:36.670",
+	"version_latest":"5.5.0",
+	"ts_publish":1765955458000,
+	"dt_publish":"2025-12-17 15:10:58.000",
+	"ts_update":1765956231823,
+	"dt_update":"2025-12-17 15:23:34.566",
 	"count_dep":15,
 	"count_ref":7,
 	"licenses":[
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-crypto.git/jeap-crypto-core",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#51108 in MvnRepository",
+	"ranking":"#51155 in MvnRepository",
 	"tags":[
 		"admin",
 		"cryptography"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"5.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251208",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"3.24.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.23.0",
 			"vulnerabilities":""
 		}
 	]
