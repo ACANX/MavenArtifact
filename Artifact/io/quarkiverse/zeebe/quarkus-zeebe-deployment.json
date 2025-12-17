@@ -3,11 +3,11 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.zeebe",
 	"artifact_id":"quarkus-zeebe-deployment",
-	"version_latest":"1.7.0",
-	"ts_publish":1760714488000,
-	"dt_publish":"2025-10-17 23:21:28.000",
-	"ts_update":1760715217926,
-	"dt_update":"2025-10-17 23:33:26.201",
+	"version_latest":"1.8.0",
+	"ts_publish":1765964590000,
+	"dt_publish":"2025-12-17 17:43:10.000",
+	"ts_update":1765965267482,
+	"dt_update":"2025-12-17 17:54:06.018",
 	"count_dep":299,
 	"count_ref":0,
 	"licenses":[
@@ -23,13 +23,21 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-zeebe",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#369213 in MvnRepository",
+	"ranking":"#288033 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
 		"zeebe"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.7.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20241205",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211108",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.1.0",
 			"vulnerabilities":""
 		}
 	]
