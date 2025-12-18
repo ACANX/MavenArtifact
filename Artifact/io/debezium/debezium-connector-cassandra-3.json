@@ -2,12 +2,12 @@
 	"id":"pkg:maven/io.debezium/debezium-connector-cassandra-3",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-cassandra-3",
-	"version_latest":"3.4.0.Beta1",
-	"ts_publish":1764155763000,
-	"dt_publish":"2025-11-26 19:16:03.000",
-	"ts_update":1764157550828,
-	"dt_update":"2025-11-26 19:45:34.889",
-	"count_dep":104,
+	"version_latest":"3.4.0.Final",
+	"ts_publish":1766046738000,
+	"dt_publish":"2025-12-18 16:32:18.000",
+	"ts_update":1766048198103,
+	"dt_update":"2025-12-18 16:56:25.546",
+	"count_dep":106,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -24,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium-connector-cassandra/debezium-connector-cassandra-3",
 	"license":"Apache 2.0",
-	"ranking":"#739641 in MvnRepository",
+	"ranking":"#751557 in MvnRepository",
 	"tags":[
 		"database",
 		"cassandra",
@@ -33,6 +33,22 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251105",
 			"repository":"Central",
@@ -47,6 +63,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -167,30 +191,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"3.2.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.2.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.2.Final",
 			"vulnerabilities":""
 		}
 	]
