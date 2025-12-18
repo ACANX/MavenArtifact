@@ -3,11 +3,11 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.kafkastreamsprocessor",
 	"artifact_id":"quarkus-kafka-streams-processor-parent",
-	"version_latest":"5.1.0",
-	"ts_publish":1760516929000,
-	"dt_publish":"2025-10-15 16:28:49.000",
-	"ts_update":1760517939281,
-	"dt_update":"2025-10-15 16:45:25.109",
+	"version_latest":"6.0.4",
+	"ts_publish":1766048544000,
+	"dt_publish":"2025-12-18 17:02:24.000",
+	"ts_update":1766049928000,
+	"dt_update":"2025-12-18 17:25:12.868",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -22,7 +22,7 @@
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-kafka-streams-processor",
 	"license":"Apache 2.0",
-	"ranking":"#721550 in MvnRepository",
+	"ranking":"#921707 in MvnRepository",
 	"tags":[
 		"streaming",
 		"quarkus",
@@ -30,6 +30,14 @@
 		"processor"
 	],
 	"versions":[
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250806",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240118",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.0.4",
 			"vulnerabilities":""
 		}
 	]
