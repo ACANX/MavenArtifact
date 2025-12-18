@@ -5,9 +5,9 @@
 	"artifact_id":"apigatewayv2",
 	"version_latest":"2.40.12",
 	"ts_publish":1766096848000,
-	"ts_update":1766098234029,
+	"ts_update":1766098610553,
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -16,11 +16,11 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/apigatewayv2@2.32.16",
 	"dt_publish":"2025-12-19 06:27:28.000",
-	"dt_update":"2025-12-19 06:50:08.098",
+	"dt_update":"2025-12-19 06:56:39.377",
 	"count_used_by":10,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#47903 in MvnRepository",
+	"ranking":"#47854 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,10 +29,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251216",
+			"date":"20251218",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.40.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.40.10",
 			"vulnerabilities":""
 		},
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.38.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251118",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.38.8",
 			"vulnerabilities":""
 		}
 	]
