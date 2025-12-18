@@ -3,9 +3,9 @@
 	"description":"The Amazon Web Services SDK for Java provides Java APIs\n        for building software on AWS' cost-effective, scalable, and reliable\n        infrastructure products. The AWS Java SDK allows developers to code\n        against APIs for all of Amazon's infrastructure web services (Amazon\n        S3, Amazon EC2, Amazon SQS, Amazon Relational Database Service, Amazon\n        AutoScaling, etc).",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"bom-internal",
-	"version_latest":"2.40.9",
-	"ts_publish":1765839937000,
-	"ts_update":1765841660938,
+	"version_latest":"2.40.12",
+	"ts_publish":1766096848000,
+	"ts_update":1766098224660,
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -18,10 +18,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/bom-internal",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/bom-internal@2.32.16",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/bom-internal",
-	"dt_publish":"2025-12-16 07:05:37.000",
-	"dt_update":"2025-12-16 07:33:47.770",
+	"dt_publish":"2025-12-19 06:27:28.000",
+	"dt_update":"2025-12-19 06:50:08.098",
 	"license":"Apache 2.0",
-	"ranking":"#655733 in MvnRepository",
+	"ranking":"#664208 in MvnRepository",
 	"tags":[
 		"bom",
 		"aws",
@@ -29,6 +29,22 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.40.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.40.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251213",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.38.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251115",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.38.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251114",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.38.6",
 			"vulnerabilities":""
 		}
 	]
