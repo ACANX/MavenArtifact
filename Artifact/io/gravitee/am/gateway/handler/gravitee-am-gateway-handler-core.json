@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.am.gateway.handler/gravitee-am-gateway-handler-core",
 	"group_id":"io.gravitee.am.gateway.handler",
 	"artifact_id":"gravitee-am-gateway-handler-core",
-	"version_latest":"4.10.0-alpha.5",
-	"ts_publish":1765819614000,
-	"dt_publish":"2025-12-16 01:26:54.000",
-	"ts_update":1765821162387,
-	"dt_update":"2025-12-16 01:52:28.315",
-	"count_dep":34,
+	"version_latest":"4.10.0-alpha.6",
+	"ts_publish":1766069692000,
+	"dt_publish":"2025-12-18 22:54:52.000",
+	"ts_update":1766071195301,
+	"dt_update":"2025-12-18 23:19:32.780",
+	"count_dep":117,
 	"count_ref":4,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -17,11 +19,19 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.gravitee.am.gateway.handler/gravitee-am-gateway-handler-core@4.8.4",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#59750 in MvnRepository",
+	"ranking":"#59955 in MvnRepository",
 	"tags":[
 		"gateway"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":4,
+			"version":"4.10.0-alpha.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251208",
 			"repository":"Central",
@@ -173,14 +183,7 @@
 			"usage":4,
 			"version":"4.8.10",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251013",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.8.9",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }

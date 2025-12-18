@@ -3,12 +3,12 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.am.identityprovider",
 	"artifact_id":"gravitee-am-identityprovider-jdbc",
-	"version_latest":"4.10.0-alpha.5",
-	"ts_publish":1765819614000,
-	"dt_publish":"2025-12-16 01:26:54.000",
-	"ts_update":1765821164094,
-	"dt_update":"2025-12-16 01:52:29.196",
-	"count_dep":198,
+	"version_latest":"4.10.0-alpha.6",
+	"ts_publish":1766069692000,
+	"dt_publish":"2025-12-18 22:54:52.000",
+	"ts_update":1766071196016,
+	"dt_update":"2025-12-18 23:19:34.399",
+	"count_dep":154,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -30,7 +30,7 @@
 	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-identityprovider/gravitee-am-identityprovider-jdbc",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#199729 in MvnRepository",
+	"ranking":"#199860 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -39,6 +39,14 @@
 		"identity"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"4.10.0-alpha.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251208",
 			"repository":"Central",
@@ -189,14 +197,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.8.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251013",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.9",
 			"vulnerabilities":""
 		}
 	]

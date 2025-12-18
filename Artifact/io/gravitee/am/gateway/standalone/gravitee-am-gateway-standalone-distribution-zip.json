@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.am.gateway.standalone",
 	"artifact_id":"gravitee-am-gateway-standalone-distribution-zip",
-	"version_latest":"4.10.0-alpha.5",
-	"ts_publish":1765819614000,
-	"dt_publish":"2025-12-16 01:26:54.000",
-	"ts_update":1765821157710,
-	"dt_update":"2025-12-16 01:52:28.759",
+	"version_latest":"4.10.0-alpha.6",
+	"ts_publish":1766069692000,
+	"dt_publish":"2025-12-18 22:54:52.000",
+	"ts_update":1766071199417,
+	"dt_update":"2025-12-18 23:19:36.059",
 	"count_dep":100,
 	"count_ref":0,
 	"licenses":[
@@ -29,13 +29,21 @@
 	],
 	"url_scm":"https://github.com/gravitee-io/graviteeio-access-management/gravitee-am-gateway/gravitee-am-gateway-standalone/gravitee-am-gateway-standalone-distribution/gravitee-am-gateway-standalone-distribution-zip",
 	"license":"Apache 2.0",
-	"ranking":"#950319 in MvnRepository",
+	"ranking":"#953710 in MvnRepository",
 	"tags":[
 		"zip",
 		"distribution",
 		"gateway"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"4.10.0-alpha.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251208",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.8.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251013",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.9",
 			"vulnerabilities":""
 		}
 	]
