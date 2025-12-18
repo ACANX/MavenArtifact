@@ -3,11 +3,11 @@
 	"description":"BOM for Backup and DR Service API",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-backupdr-bom",
-	"version_latest":"0.40.0",
-	"ts_publish":1765926084000,
-	"dt_publish":"2025-12-17 07:01:24.000",
-	"ts_update":1765926993902,
-	"dt_update":"2025-12-17 07:16:20.549",
+	"version_latest":"0.41.0-rc1",
+	"ts_publish":1766093525000,
+	"dt_publish":"2025-12-19 05:32:05.000",
+	"ts_update":1766095021226,
+	"dt_update":"2025-12-19 05:56:50.426",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	],
 	"url_scm":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#463443 in MvnRepository",
+	"ranking":"#463736 in MvnRepository",
 	"tags":[
 		"bom",
 		"google",
@@ -35,6 +35,14 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.40.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251115",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.19.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.18.0",
 			"vulnerabilities":""
 		}
 	]

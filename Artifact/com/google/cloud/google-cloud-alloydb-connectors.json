@@ -3,12 +3,12 @@
 	"description":"AlloyDB connectors AlloyDB is a fully-managed, PostgreSQL-compatible database for demanding transactional workloads. It provides enterprise-grade performance and availability while maintaining 100% compatibility with open-source PostgreSQL.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-alloydb-connectors",
-	"version_latest":"0.59.0",
-	"ts_publish":1765926084000,
-	"dt_publish":"2025-12-17 07:01:24.000",
-	"ts_update":1765927612219,
-	"dt_update":"2025-12-17 07:26:34.831",
-	"count_dep":80,
+	"version_latest":"0.60.0-rc1",
+	"ts_publish":1766093526000,
+	"dt_publish":"2025-12-19 05:32:06.000",
+	"ts_update":1766095032647,
+	"dt_update":"2025-12-19 05:56:35.725",
+	"count_dep":76,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/googleapis/google-cloud-java",
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#864159 in MvnRepository",
+	"ranking":"#869385 in MvnRepository",
 	"tags":[
 		"database",
 		"alloydb",
@@ -35,6 +35,14 @@
 		"connector"
 	],
 	"versions":[
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.59.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251115",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.38.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.37.0",
 			"vulnerabilities":""
 		}
 	]

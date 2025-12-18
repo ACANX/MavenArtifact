@@ -3,12 +3,12 @@
 	"description":"provides a unified way to work with Kubernetes clusters as part of Anthos, extending GKE to work in multiple environments. You have consistent, unified, and secure infrastructure, cluster, and container management, whether you're using Anthos on Google Cloud (with traditional GKE), hybrid cloud, or multiple public clouds.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-gkehub",
-	"version_latest":"1.80.0",
-	"ts_publish":1763182743000,
-	"dt_publish":"2025-11-15 12:59:03.000",
-	"ts_update":1763184403670,
-	"dt_update":"2025-11-15 13:26:25.447",
-	"count_dep":81,
+	"version_latest":"1.82.0-rc1",
+	"ts_publish":1766093526000,
+	"dt_publish":"2025-12-19 05:32:06.000",
+	"ts_update":1766095038130,
+	"dt_update":"2025-12-19 05:56:46.017",
+	"count_dep":77,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -27,12 +27,28 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#402491 in MvnRepository",
+	"ranking":"#293331 in MvnRepository",
 	"tags":[
 		"google",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.81.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.80.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.60.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.59.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250214",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.58.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"is a foundational platform for creating, managing, securing, and consuming APIs and services across organizations. It is used by Google APIs, Cloud APIs, Cloud Endpoints, and API Gateway. Service Infrastructure provides a wide range of features to service consumers and service producers, including authentication, authorization, auditing, rate limiting, analytics, billing, logging, and monitoring.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-service-management",
-	"version_latest":"3.78.0",
-	"ts_publish":1763182743000,
-	"dt_publish":"2025-11-15 12:59:03.000",
-	"ts_update":1763184910882,
-	"dt_update":"2025-11-15 13:34:35.617",
-	"count_dep":78,
+	"version_latest":"3.80.0-rc1",
+	"ts_publish":1766093526000,
+	"dt_publish":"2025-12-19 05:32:06.000",
+	"ts_update":1766095032524,
+	"dt_update":"2025-12-19 05:56:46.542",
+	"count_dep":74,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -27,7 +27,7 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#431134 in MvnRepository",
+	"ranking":"#319408 in MvnRepository",
 	"tags":[
 		"google",
 		"service",
@@ -35,6 +35,22 @@
 		"management"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.79.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.78.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.58.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.57.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250214",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.56.0",
 			"vulnerabilities":""
 		}
 	]

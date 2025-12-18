@@ -3,11 +3,11 @@
 	"description":"BOM for IAM Admin API",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-iam-admin-bom",
-	"version_latest":"3.75.0",
-	"ts_publish":1763182743000,
-	"dt_publish":"2025-11-15 12:59:03.000",
-	"ts_update":1763184410877,
-	"dt_update":"2025-11-15 13:26:32.179",
+	"version_latest":"3.77.0-rc1",
+	"ts_publish":1766093526000,
+	"dt_publish":"2025-12-19 05:32:06.000",
+	"ts_update":1766095026419,
+	"dt_update":"2025-12-19 05:56:40.086",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	],
 	"url_scm":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#876717 in MvnRepository",
+	"ranking":"#476341 in MvnRepository",
 	"tags":[
 		"bom",
 		"admin",
@@ -37,6 +37,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.76.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.75.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -179,22 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.55.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.54.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250214",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.53.0",
 			"vulnerabilities":""
 		}
 	]

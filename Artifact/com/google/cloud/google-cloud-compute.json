@@ -3,12 +3,12 @@
 	"description":"Compute Engine delivers configurable virtual machines running in\n    Google's data centers with access to high-performance.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-compute",
-	"version_latest":"1.90.0",
-	"ts_publish":1763182743000,
-	"dt_publish":"2025-11-15 12:59:03.000",
-	"ts_update":1763184900552,
-	"dt_update":"2025-11-15 13:34:33.125",
-	"count_dep":51,
+	"version_latest":"1.92.0-rc1",
+	"ts_publish":1766093526000,
+	"dt_publish":"2025-12-19 05:32:06.000",
+	"ts_update":1766095026691,
+	"dt_update":"2025-12-19 05:56:39.551",
+	"count_dep":46,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -27,13 +27,29 @@
 	"count_used_by":14,
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#34986 in MvnRepository",
+	"ranking":"#33674 in MvnRepository",
 	"tags":[
 		"google",
 		"computing",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.91.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.90.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.70.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.69.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250214",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.68.0",
 			"vulnerabilities":""
 		}
 	]

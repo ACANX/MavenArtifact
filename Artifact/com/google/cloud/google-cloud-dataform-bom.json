@@ -3,11 +3,11 @@
 	"description":"BOM for Cloud Dataform",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-dataform-bom",
-	"version_latest":"0.79.0",
-	"ts_publish":1763182742000,
-	"dt_publish":"2025-11-15 12:59:02.000",
-	"ts_update":1763183761084,
-	"dt_update":"2025-11-15 13:15:46.160",
+	"version_latest":"0.81.0-rc1",
+	"ts_publish":1766093526000,
+	"dt_publish":"2025-12-19 05:32:06.000",
+	"ts_update":1766095038264,
+	"dt_update":"2025-12-19 05:56:43.323",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	],
 	"url_scm":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#513086 in MvnRepository",
+	"ranking":"#722826 in MvnRepository",
 	"tags":[
 		"bom",
 		"google",
@@ -35,6 +35,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.80.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251115",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.79.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.59.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.58.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250214",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.57.0",
 			"vulnerabilities":""
 		}
 	]
