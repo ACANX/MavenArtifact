@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/org.sonarsource.iac/sonar-iac-plugin",
-	"description":"Analyzer for Cloud Native Files",
+	"description":"Analyzer for Cloud Security Files",
 	"group_id":"org.sonarsource.iac",
 	"artifact_id":"sonar-iac-plugin",
-	"version_latest":"2.2.0.18377",
-	"ts_publish":1764713536000,
-	"dt_publish":"2025-12-03 06:12:16.000",
-	"ts_update":1764717356747,
-	"dt_update":"2025-12-03 07:15:49.497",
+	"version_latest":"2.3.0.18572",
+	"ts_publish":1766064311000,
+	"dt_publish":"2025-12-18 21:25:11.000",
+	"ts_update":1766066313595,
+	"dt_update":"2025-12-18 21:58:14.915",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,12 +24,20 @@
 	],
 	"url_scm":"https://github.com/SonarSource/sonar-iac",
 	"home_page":"http://www.sonarqube.org/",
-	"ranking":"#494033 in MvnRepository",
+	"ranking":"#910963 in MvnRepository",
 	"tags":[
 		"plugin",
 		"sonar"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.2.0.18377",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251111",
 			"repository":"Central",
@@ -103,6 +111,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.48.1.18410",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250724",
 			"repository":"Central",
 			"type":"release",
@@ -159,35 +175,19 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.41.2.18417",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250226",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"1.41.1.14587",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250107",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.41.0.14206",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241217",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.40.0.13983",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241127",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.39.0.13718",
 			"vulnerabilities":""
 		}
 	]
