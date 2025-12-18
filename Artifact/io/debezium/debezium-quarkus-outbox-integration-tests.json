@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-quarkus-outbox-integration-tests",
-	"version_latest":"3.4.0.CR1",
-	"ts_publish":1765362371000,
-	"dt_publish":"2025-12-10 18:26:11.000",
-	"ts_update":1765364223088,
-	"dt_update":"2025-12-10 18:56:38.954",
+	"version_latest":"3.4.0.Final",
+	"ts_publish":1766045726000,
+	"dt_publish":"2025-12-18 16:15:26.000",
+	"ts_update":1766046280726,
+	"dt_update":"2025-12-18 16:24:29.039",
 	"count_dep":104,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-quarkus-outbox-parent/debezium-quarkus-outbox-integration-tests",
 	"license":"Apache 2.0",
-	"ranking":"#888195 in MvnRepository",
+	"ranking":"#620026 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"integration",
@@ -35,6 +35,14 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.0.CR1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251126",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"3.2.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.2.0.Alpha1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-scripting",
-	"version_latest":"3.4.0.CR1",
-	"ts_publish":1765362371000,
-	"dt_publish":"2025-12-10 18:26:11.000",
-	"ts_update":1765364220252,
-	"dt_update":"2025-12-10 18:56:40.823",
+	"version_latest":"3.4.0.Final",
+	"ts_publish":1766045726000,
+	"dt_publish":"2025-12-18 16:15:26.000",
+	"ts_update":1766046285535,
+	"dt_update":"2025-12-18 16:24:28.604",
 	"count_dep":34,
 	"count_ref":1,
 	"licenses":[
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-scripting-parent/debezium-scripting",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#324195 in MvnRepository",
+	"ranking":"#327598 in MvnRepository",
 	"tags":[
 		"debezium",
 		"scripting"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.4.0.CR1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251126",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"3.2.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"3.2.0.Alpha1",
 			"vulnerabilities":""
 		}
 	]
