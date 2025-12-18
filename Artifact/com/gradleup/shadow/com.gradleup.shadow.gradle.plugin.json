@@ -3,11 +3,11 @@
 	"description":"Gradle plugin to create fat/uber JARs, apply file transforms, and relocate packages for applications and libraries. Gradle version of Maven's Shade plugin.",
 	"group_id":"com.gradleup.shadow",
 	"artifact_id":"com.gradleup.shadow.gradle.plugin",
-	"version_latest":"9.2.2",
-	"ts_publish":1758878949000,
-	"dt_publish":"2025-09-26 17:29:09.000",
-	"ts_update":1758881833367,
-	"dt_update":"2025-09-26 17:56:12.311",
+	"version_latest":"9.3.0",
+	"ts_publish":1764948562000,
+	"dt_publish":"2025-12-05 23:29:22.000",
+	"ts_update":1764951732238,
+	"dt_update":"2025-12-06 00:21:33.696",
 	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
@@ -20,10 +20,10 @@
 		"GradleUp developers"
 	],
 	"url_scm":"https://github.com/GradleUp/shadow",
-	"count_used_by":8,
+	"count_used_by":10,
 	"home_page":"https://github.com/GradleUp/shadow",
 	"license":"Apache 2.0",
-	"ranking":"#57328 in MvnRepository",
+	"ranking":"#48887 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -32,6 +32,14 @@
 		"groovy"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"9.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250924",
 			"repository":"Central",
@@ -52,7 +60,7 @@
 			"date":"20250829",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"9.1.0",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"9.0.0-beta8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250202",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"9.0.0-beta7",
 			"vulnerabilities":""
 		}
 	]

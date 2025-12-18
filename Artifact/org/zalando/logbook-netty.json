@@ -3,11 +3,11 @@
 	"description":"HTTP Client interceptor for request and response logging",
 	"group_id":"org.zalando",
 	"artifact_id":"logbook-netty",
-	"version_latest":"3.12.3",
-	"ts_publish":1757001184000,
-	"dt_publish":"2025-09-04 23:53:04.000",
-	"ts_update":1757002938786,
-	"dt_update":"2025-09-05 00:18:53.509",
+	"version_latest":"4.0.0-RC.1",
+	"ts_publish":1765983299000,
+	"dt_publish":"2025-12-17 22:54:59.000",
+	"ts_update":1765984779803,
+	"dt_update":"2025-12-17 23:19:20.366",
 	"count_dep":29,
 	"count_ref":1,
 	"licenses":[
@@ -26,13 +26,21 @@
 	"url_scm":"https://github.com/zalando/logbook",
 	"count_used_by":7,
 	"license":"MIT",
-	"ranking":"#64546 in MvnRepository",
+	"ranking":"#70022 in MvnRepository",
 	"tags":[
 		"network",
 		"socket",
 		"netty"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.12.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.0-RC.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230327",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.0-RC.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,10 +3,10 @@
 	"description":"Asynchronous HTTP/2 RPC/REST client/server library built on top of Java 8, Netty, Thrift and gRPC (armeria-scala_2.13)",
 	"group_id":"com.linecorp.armeria",
 	"artifact_id":"armeria-scala_2.13",
-	"version_latest":"1.33.4",
-	"ts_publish":1758783340000,
-	"ts_update":1758787088324,
-	"count_dep":30,
+	"version_latest":"1.34.1",
+	"ts_publish":1764829477000,
+	"ts_update":1764831422601,
+	"count_dep":31,
 	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -24,12 +24,28 @@
 	"count_used_by":2,
 	"home_page":"https://armeria.dev/",
 	"license":"Apache 2.0",
-	"ranking":"#248176 in MvnRepository",
+	"ranking":"#198350 in MvnRepository",
 	"tags":[
 		"armeria",
 		"scala"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.34.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.33.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250917",
 			"repository":"Central",
@@ -703,6 +719,6 @@
 			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-09-25 14:55:40.000",
-	"dt_update":"2025-09-25 15:15:31.284"
+	"dt_publish":"2025-12-04 14:24:37.000",
+	"dt_update":"2025-12-04 14:56:32.252"
 }

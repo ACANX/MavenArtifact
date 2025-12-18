@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/com.limemojito.oss.standards.aws/lambda-utilities",
-	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build.",
 	"group_id":"com.limemojito.oss.standards.aws",
 	"artifact_id":"lambda-utilities",
-	"version_latest":"15.3.5",
-	"ts_publish":1761605793000,
-	"dt_publish":"2025-10-28 06:56:33.000",
-	"ts_update":1761606885379,
-	"dt_update":"2025-10-28 07:14:29.486",
-	"count_dep":104,
-	"count_ref":5,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"17.0.0",
+	"ts_publish":1765245739000,
+	"dt_publish":"2025-12-09 10:02:19.000",
+	"ts_update":1765247253980,
+	"dt_update":"2025-12-09 10:26:31.020",
+	"count_dep":25,
+	"count_ref":3,
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/lambda-utilities",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.limemojito.oss.standards.aws/lambda-utilities@15.3.2",
@@ -23,13 +20,29 @@
 	"url_scm":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/lambda-utilities",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#151909 in MvnRepository",
+	"ranking":"#171800 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"lambda"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"16.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"15.3.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -172,22 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"14.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240914",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"14.2.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240819",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"14.2.1",
 			"vulnerabilities":""
 		}
 	]

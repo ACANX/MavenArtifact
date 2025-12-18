@@ -3,13 +3,13 @@
 	"description":"JDBC Driver adapter module, which abstracts the details of implementing a JDBC driver.\n        It allows non-relational databases to be quickly integrated into JDBC services using a request/response model,\n        and simplifies database access operations by integrating with dbVisitor.",
 	"group_id":"net.hasor",
 	"artifact_id":"dbvisitor-driver",
-	"version_latest":"6.1.0",
-	"ts_publish":1762235186000,
-	"dt_publish":"2025-11-04 13:46:26.000",
-	"ts_update":1762239418197,
-	"dt_update":"2025-11-04 14:55:34.126",
+	"version_latest":"6.3.1",
+	"ts_publish":1765615988000,
+	"dt_publish":"2025-12-13 16:53:08.000",
+	"ts_update":1765617415655,
+	"dt_update":"2025-12-13 17:16:47.774",
 	"count_dep":2,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -22,5 +22,37 @@
 	"contributors":[
 		"赵永春(Mr.Zhao)"
 	],
-	"url_scm":"https://www.dbvisitor.net/dbvisitor-driver/"
+	"url_scm":"https://www.dbvisitor.net/dbvisitor-driver/",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#186124 in MvnRepository",
+	"tags":[
+		"driver"
+	],
+	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"6.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251122",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.1.0",
+			"vulnerabilities":""
+		}
+	]
 }

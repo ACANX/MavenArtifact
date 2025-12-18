@@ -3,11 +3,11 @@
 	"description":"Apache Syncope parent POM",
 	"group_id":"org.apache.syncope",
 	"artifact_id":"syncope",
-	"version_latest":"4.0.1",
-	"ts_publish":1754637345000,
-	"dt_publish":"2025-08-08 15:15:45.000",
-	"ts_update":1758388349359,
-	"dt_update":"2025-09-21 00:16:48.538",
+	"version_latest":"4.0.2",
+	"ts_publish":1760698872000,
+	"dt_publish":"2025-10-17 19:01:12.000",
+	"ts_update":1763830268629,
+	"dt_update":"2025-11-23 00:18:18.567",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -57,11 +57,19 @@
 	"url_ci_management":"https://ci-builds.apache.org./job/Syncope/",
 	"home_page":"https://syncope.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#545084 in MvnRepository",
+	"ranking":"#560890 in MvnRepository",
 	"tags":[
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -92,6 +100,14 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"4.0.0-M0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -204,22 +220,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"3.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221017",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"3.0.0-M1",
 			"vulnerabilities":""
 		}
 	]

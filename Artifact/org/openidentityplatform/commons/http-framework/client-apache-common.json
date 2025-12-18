@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.openidentityplatform.commons.http-framework/client-apache-common",
-	"description":"The HTTP framework provides a uniform client/server HTTP API, which is\n       script friendly, and includes adapters for various common HTTP libraries\n       such as Servlet, Apache HTTP Clients, and Grizzly.",
 	"group_id":"org.openidentityplatform.commons.http-framework",
 	"artifact_id":"client-apache-common",
-	"version_latest":"2.4.1",
-	"ts_publish":1756975402000,
-	"dt_publish":"2025-09-04 16:43:22.000",
-	"ts_update":1760201131887,
-	"dt_update":"2025-10-12 00:16:26.228",
-	"count_dep":32,
-	"count_ref":26,
-	"licenses":[
-		"CDDL-1.0"
-	],
+	"version_latest":"3.0.2",
+	"ts_publish":1765443585000,
+	"dt_publish":"2025-12-11 16:59:45.000",
+	"ts_update":1765445009806,
+	"dt_update":"2025-12-11 17:22:32.777",
+	"count_dep":4,
+	"count_ref":5,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,7 +23,7 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/commons/commons/http-framework/client-apache-common",
 	"count_used_by":2,
 	"license":"CDDL 1.0",
-	"ranking":"#249376 in MvnRepository",
+	"ranking":"#205075 in MvnRepository",
 	"tags":[
 		"bundle",
 		"framework",
@@ -37,6 +34,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250904",
 			"repository":"Central",
@@ -187,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.0.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220409",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.0.13",
 			"vulnerabilities":""
 		}
 	]

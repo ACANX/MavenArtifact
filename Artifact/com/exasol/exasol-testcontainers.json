@@ -3,11 +3,11 @@
 	"description":"This module provides abstraction for generation, startup, shutdown and use of an\n        Exasol database running on Docker.",
 	"group_id":"com.exasol",
 	"artifact_id":"exasol-testcontainers",
-	"version_latest":"7.2.0",
-	"ts_publish":1761669420000,
-	"dt_publish":"2025-10-29 00:37:00.000",
-	"ts_update":1761670629620,
-	"dt_update":"2025-10-29 00:56:26.864",
+	"version_latest":"7.2.2",
+	"ts_publish":1765552029000,
+	"dt_publish":"2025-12-12 23:07:09.000",
+	"ts_update":1765553240538,
+	"dt_update":"2025-12-12 23:27:09.802",
 	"count_dep":22,
 	"count_ref":0,
 	"licenses":[
@@ -26,12 +26,28 @@
 	"count_used_by":13,
 	"home_page":"https://github.com/exasol/exasol-testcontainers/",
 	"license":"MIT",
-	"ranking":"#36850 in MvnRepository",
+	"ranking":"#36479 in MvnRepository",
 	"tags":[
 		"testing",
 		"container"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.2.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"6.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221205",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221102",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"6.3.1",
 			"vulnerabilities":""
 		}
 	]

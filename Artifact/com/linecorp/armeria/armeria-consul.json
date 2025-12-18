@@ -3,10 +3,10 @@
 	"description":"Asynchronous HTTP/2 RPC/REST client/server library built on top of Java 8, Netty, Thrift and gRPC (armeria-consul)",
 	"group_id":"com.linecorp.armeria",
 	"artifact_id":"armeria-consul",
-	"version_latest":"1.33.4",
-	"ts_publish":1758783340000,
-	"ts_update":1758789828928,
-	"count_dep":4,
+	"version_latest":"1.34.1",
+	"ts_publish":1764829477000,
+	"ts_update":1764831424053,
+	"count_dep":28,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -23,12 +23,28 @@
 	"url_scm":"https://github.com/line/armeria",
 	"home_page":"https://armeria.dev/",
 	"license":"Apache 2.0",
-	"ranking":"#919649 in MvnRepository",
+	"ranking":"#618999 in MvnRepository",
 	"tags":[
 		"armeria",
 		"consul"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.34.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.33.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250917",
 			"repository":"Central",
@@ -172,24 +188,8 @@
 			"usage":0,
 			"version":"1.30.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240812",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.30.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.29.5",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-09-25 14:55:40.000",
-	"dt_update":"2025-09-25 15:15:33.202"
+	"dt_publish":"2025-12-04 14:24:37.000",
+	"dt_update":"2025-12-04 14:56:31.169"
 }

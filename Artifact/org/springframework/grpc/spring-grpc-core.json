@@ -3,13 +3,13 @@
 	"description":"Core module for gRPC programming",
 	"group_id":"org.springframework.grpc",
 	"artifact_id":"spring-grpc-core",
-	"version_latest":"0.12.0",
-	"ts_publish":1761309337000,
-	"dt_publish":"2025-10-24 20:35:37.000",
-	"ts_update":1761310600533,
-	"dt_update":"2025-10-24 20:56:25.053",
-	"count_dep":65,
-	"count_ref":7,
+	"version_latest":"1.0.0",
+	"ts_publish":1764805790000,
+	"dt_publish":"2025-12-04 07:49:50.000",
+	"ts_update":1764808010296,
+	"dt_update":"2025-12-04 08:26:32.979",
+	"count_dep":60,
+	"count_ref":9,
 	"licenses":[
 		"Apache 2.0"
 	],
@@ -22,10 +22,10 @@
 	],
 	"url_scm":"https://github.com/spring-projects/spring-grpc",
 	"url_ci_management":"https://github.com/spring-projects/spring-grpc/actions",
-	"count_used_by":5,
-	"home_page":"https://github.com/spring-projects/spring-grpc",
+	"count_used_by":7,
+	"home_page":"https://github.com/spring-projects/spring-grpc/spring-grpc-core",
 	"license":"Apache 2.0",
-	"ranking":"#96165 in MvnRepository",
+	"ranking":"#65862 in MvnRepository",
 	"tags":[
 		"grpc",
 		"spring",
@@ -34,6 +34,22 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"0.12.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",

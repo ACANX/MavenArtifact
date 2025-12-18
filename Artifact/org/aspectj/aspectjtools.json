@@ -3,11 +3,11 @@
 	"description":"AspectJ tools most notably contains the AspectJ compiler (AJC). AJC applies aspects to Java classes during\n\t\tcompilation, fully replacing Javac for plain Java classes and also compiling native AspectJ or annotation-based\n\t\t@AspectJ syntax. Furthermore, AJC can weave aspects into existing class files in a post-compile binary weaving step.\n\t\tThis library is a superset of AspectJ weaver and hence also of AspectJ runtime.",
 	"group_id":"org.aspectj",
 	"artifact_id":"aspectjtools",
-	"version_latest":"1.9.25",
-	"ts_publish":1762226281000,
-	"dt_publish":"2025-11-04 11:18:01.000",
-	"ts_update":1762239402687,
-	"dt_update":"2025-11-04 14:55:37.264",
+	"version_latest":"1.9.25.1",
+	"ts_publish":1765930809000,
+	"dt_publish":"2025-12-17 08:20:09.000",
+	"ts_update":1765933026339,
+	"dt_update":"2025-12-17 08:56:53.679",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,10 +24,10 @@
 		"Andy Clement"
 	],
 	"url_scm":"https://github.com/eclipse/org.aspectj",
-	"count_used_by":415,
+	"count_used_by":418,
 	"home_page":"https://www.eclipse.org/aspectj/",
 	"license":"EPL 2.0",
-	"ranking":"#1578 in MvnRepository",
+	"ranking":"#1546 in MvnRepository",
 	"tags":[
 		"aspect",
 		"aop",
@@ -35,6 +35,14 @@
 		"programming"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.9.25",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250412",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"milestone",
 			"usage":2,
 			"version":"1.9.8.M1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210625",
-			"repository":"Central",
-			"type":"release",
-			"usage":26,
-			"version":"1.9.7",
 			"vulnerabilities":""
 		}
 	]

@@ -2,12 +2,14 @@
 	"id":"pkg:maven/com.fluxtion/serverlibrary-pnl",
 	"group_id":"com.fluxtion",
 	"artifact_id":"serverlibrary-pnl",
-	"version_latest":"0.2.10",
-	"ts_publish":1761736271000,
-	"ts_update":1761737190051,
-	"count_dep":43,
+	"version_latest":"0.2.13",
+	"ts_publish":1764867687000,
+	"ts_update":1764868930322,
+	"count_dep":45,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"GNU AFFERO GENERAL PUBLIC LICENSE, Version 3.0"
+	],
 	"categories":[
 		"Build Tools"
 	],
@@ -19,8 +21,32 @@
 	],
 	"url_scm":"https://github.com/gregv12/fluxtion-server-plugins/serverlibrary-pnl",
 	"license":"AGPL 3.0",
-	"ranking":"#438964 in MvnRepository",
+	"ranking":"#520692 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.2.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.2.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.2.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -156,32 +182,9 @@
 			"usage":0,
 			"version":"0.1.52",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250714",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.1.51",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250714",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.1.50",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250713",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.1.49",
-			"vulnerabilities":""
 		}
 	],
-	"dt_publish":"2025-10-29 19:11:11.000",
-	"dt_update":"2025-10-29 19:26:20.503"
+	"dt_publish":"2025-12-05 01:01:27.000",
+	"dt_update":"2025-12-05 01:21:49.935",
+	"description":"A set of plugins for the Fluxtion server"
 }

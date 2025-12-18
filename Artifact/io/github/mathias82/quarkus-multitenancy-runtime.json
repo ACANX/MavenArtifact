@@ -1,0 +1,65 @@
+{
+	"id":"pkg:maven/io.github.mathias82/quarkus-multitenancy-runtime",
+	"description":"Generic and configurable multi-tenant resolution support for Quarkus.\n\n        Provides a runtime abstraction for resolving tenant identifiers and making them\n        available through a CDI-managed TenantContext. The abstraction can be integrated\n        by different transports and extensions (such as HTTP or security), while keeping\n        the core tenant resolution mechanism independent of any specific technology.",
+	"group_id":"io.github.mathias82",
+	"artifact_id":"quarkus-multitenancy-runtime",
+	"version_latest":"0.1.6",
+	"ts_publish":1765923639000,
+	"dt_publish":"2025-12-17 06:20:39.000",
+	"ts_update":1765924610729,
+	"dt_update":"2025-12-17 06:36:42.146",
+	"count_dep":107,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/mathias82/quarkus-multitenancy/quarkus-multitenancy-runtime",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.github.mathias82/quarkus-multitenancy-runtime@0.1.0",
+	"contributors":[
+		"Matthaios Stavrou"
+	],
+	"url_scm":"https://github.com/mathias82/quarkus-multitenancy/quarkus-multitenancy-runtime",
+	"count_used_by":1,
+	"license":"Apache 2.0",
+	"ranking":"#294216 in MvnRepository",
+	"tags":[
+		"github",
+		"quarkus",
+		"runtime"
+	],
+	"versions":[
+		{
+			"date":"20251207",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.1.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251206",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.1.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251206",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251206",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.1.0",
+			"vulnerabilities":""
+		}
+	]
+}

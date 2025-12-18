@@ -3,11 +3,11 @@
 	"description":"The AspectJ matcher can be used for matching pointcuts independently of any AspectJ compilation or weaving steps.\n\t\tMost notably, this can be used by frameworks such as Spring AOP which utilise the @AspectJ pointcut syntax but\n\t\timplement aspect weaving in a way independent of AspectJ, e.g. using dynamic proxies.",
 	"group_id":"org.aspectj",
 	"artifact_id":"aspectjmatcher",
-	"version_latest":"1.9.25",
-	"ts_publish":1762226238000,
-	"dt_publish":"2025-11-04 11:17:18.000",
-	"ts_update":1762239420519,
-	"dt_update":"2025-11-04 14:55:37.269",
+	"version_latest":"1.9.25.1",
+	"ts_publish":1765930809000,
+	"dt_publish":"2025-12-17 08:20:09.000",
+	"ts_update":1765933054829,
+	"dt_update":"2025-12-17 08:56:53.679",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -27,13 +27,21 @@
 	"count_used_by":1,
 	"home_page":"https://www.eclipse.org/aspectj/",
 	"license":"EPL 2.0",
-	"ranking":"#342877 in MvnRepository",
+	"ranking":"#423965 in MvnRepository",
 	"tags":[
 		"aspect",
 		"aop",
 		"aspectj"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.9.25",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250412",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"1.9.8.M1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210625",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.9.7",
 			"vulnerabilities":""
 		}
 	]

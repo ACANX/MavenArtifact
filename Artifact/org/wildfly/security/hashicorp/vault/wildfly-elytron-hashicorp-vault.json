@@ -3,13 +3,13 @@
 	"description":"An integration library that provides WildFly Elytron credential store backed by HashiCorp Vault.",
 	"group_id":"org.wildfly.security.hashicorp.vault",
 	"artifact_id":"wildfly-elytron-hashicorp-vault",
-	"version_latest":"0.1.0-Alpha",
-	"ts_publish":1761261304000,
-	"dt_publish":"2025-10-24 07:15:04.000",
-	"ts_update":1761262173712,
-	"dt_update":"2025-10-24 07:29:27.019",
-	"count_dep":23,
-	"count_ref":0,
+	"version_latest":"1.0.0.Alpha2",
+	"ts_publish":1765567555000,
+	"dt_publish":"2025-12-13 03:25:55.000",
+	"ts_update":1765569407139,
+	"dt_update":"2025-12-13 03:56:32.807",
+	"count_dep":25,
+	"count_ref":2,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -21,5 +21,41 @@
 		"JBoss.org Community",
 		"Diana Krepinska"
 	],
-	"url_scm":"https://github.com/wildfly-security-incubator/wildfly-elytron-hashicorp-vault"
+	"url_scm":"https://github.com/wildfly-security-incubator/wildfly-elytron-hashicorp-vault",
+	"home_page":"https://wildfly-security.github.io/wildfly-elytron/",
+	"license":"Apache 2.0",
+	"ranking":"#237938 in MvnRepository",
+	"tags":[
+		"hashicorp",
+		"security",
+		"wildfly",
+		"vault"
+	],
+	"versions":[
+		{
+			"date":"20251129",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"1.0.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"0.1.1-Alpha",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"0.1.0-Alpha",
+			"vulnerabilities":""
+		}
+	],
+	"count_used_by":2
 }

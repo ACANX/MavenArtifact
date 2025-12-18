@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.jooby/jooby",
 	"group_id":"io.jooby",
 	"artifact_id":"jooby",
-	"version_latest":"4.0.10",
-	"ts_publish":1761580410000,
-	"dt_publish":"2025-10-27 23:53:30.000",
-	"ts_update":1761582129103,
-	"dt_update":"2025-10-28 00:21:06.354",
-	"count_dep":14,
-	"count_ref":56,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"4.0.12",
+	"ts_publish":1764152439000,
+	"dt_publish":"2025-11-26 18:20:39.000",
+	"ts_update":1764152808735,
+	"dt_update":"2025-11-26 18:26:27.407",
+	"count_dep":13,
+	"count_ref":10,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,15 +20,31 @@
 		"Edgar Espina"
 	],
 	"url_scm":"scm:git:git@github.com:jooby-project/jooby.git/jooby",
-	"count_used_by":64,
+	"count_used_by":66,
 	"home_page":"https://jooby.io/",
 	"license":"Apache 2.0",
-	"ranking":"#7974 in MvnRepository",
+	"ranking":"#7842 in MvnRepository",
 	"tags":[
 		"web",
 		"framework"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":52,
+			"version":"4.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":51,
+			"version":"4.0.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -112,6 +126,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":50,
+			"version":"3.11.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
@@ -147,7 +169,7 @@
 			"date":"20250721",
 			"repository":"Central",
 			"type":"release",
-			"usage":52,
+			"usage":53,
 			"version":"3.11.0",
 			"vulnerabilities":""
 		},
@@ -166,31 +188,6 @@
 			"usage":54,
 			"version":"3.9.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250527",
-			"repository":"Central",
-			"type":"release",
-			"usage":51,
-			"version":"3.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250512",
-			"repository":"Central",
-			"type":"release",
-			"usage":51,
-			"version":"3.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250505",
-			"repository":"Central",
-			"type":"release",
-			"usage":51,
-			"version":"3.8.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"The modular web framework for Java and Kotlin"
+	]
 }

@@ -3,12 +3,12 @@
 	"description":"logstash-logback-encoder support for request and response logging",
 	"group_id":"org.zalando",
 	"artifact_id":"logbook-logstash",
-	"version_latest":"3.12.3",
-	"ts_publish":1757001184000,
-	"dt_publish":"2025-09-04 23:53:04.000",
-	"ts_update":1757002801865,
-	"dt_update":"2025-09-05 00:18:53.505",
-	"count_dep":31,
+	"version_latest":"4.0.0-RC.1",
+	"ts_publish":1765983299000,
+	"dt_publish":"2025-12-17 22:54:59.000",
+	"ts_update":1765984781446,
+	"dt_update":"2025-12-17 23:19:20.857",
+	"count_dep":30,
 	"count_ref":0,
 	"licenses":[
 		"MIT License"
@@ -26,12 +26,20 @@
 	"url_scm":"https://github.com/zalando/logbook",
 	"count_used_by":3,
 	"license":"MIT",
-	"ranking":"#130778 in MvnRepository",
+	"ranking":"#149413 in MvnRepository",
 	"tags":[
 		"logging",
 		"logstash"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.12.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.0-RC.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230327",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.0-RC.0",
 			"vulnerabilities":""
 		}
 	]

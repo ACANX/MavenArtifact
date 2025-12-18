@@ -3,11 +3,11 @@
 	"description":"R2DBC ConnectionFactory to connect to a Cloud SQL database without having to deal with IP allowlisting or SSL\n    certificates manually.",
 	"group_id":"com.google.cloud.sql",
 	"artifact_id":"cloud-sql-connector-r2dbc-core",
-	"version_latest":"1.27.0",
-	"ts_publish":1761771424000,
-	"dt_publish":"2025-10-30 04:57:04.000",
-	"ts_update":1761774323225,
-	"dt_update":"2025-10-30 05:44:54.705",
+	"version_latest":"1.27.1",
+	"ts_publish":1765261288000,
+	"dt_publish":"2025-12-09 14:21:28.000",
+	"ts_update":1765263405228,
+	"dt_update":"2025-12-09 14:56:32.680",
 	"count_dep":57,
 	"count_ref":4,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/GoogleCloudPlatform/cloud-sql-mysql-socket-factory.git/cloud-sql-connector-r2dbc-core",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#106645 in MvnRepository",
+	"ranking":"#117750 in MvnRepository",
 	"tags":[
 		"sql",
 		"r2dbc",
@@ -38,6 +38,14 @@
 		"connection"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.27.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"1.18.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240416",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"1.18.0",
 			"vulnerabilities":""
 		}
 	]

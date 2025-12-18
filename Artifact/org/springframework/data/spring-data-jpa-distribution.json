@@ -3,14 +3,16 @@
 	"description":"Distribution build for Spring Data JPA",
 	"group_id":"org.springframework.data",
 	"artifact_id":"spring-data-jpa-distribution",
-	"version_latest":"4.0.0-RC2",
-	"ts_publish":1761907141000,
-	"dt_publish":"2025-10-31 18:39:01.000",
-	"ts_update":1761908187819,
-	"dt_update":"2025-10-31 18:56:21.182",
-	"count_dep":0,
+	"version_latest":"4.0.1",
+	"ts_publish":1765539631000,
+	"dt_publish":"2025-12-12 19:40:31.000",
+	"ts_update":1765540598187,
+	"dt_update":"2025-12-12 19:56:30.148",
+	"count_dep":10,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database Access"
@@ -25,7 +27,7 @@
 	],
 	"url_scm":"https://github.com/spring-projects/spring-data-jpa/spring-data-jpa-distribution",
 	"license":"Apache 2.0",
-	"ranking":"#843253 in MvnRepository",
+	"ranking":"#542028 in MvnRepository",
 	"tags":[
 		"persistence",
 		"distribution",
@@ -35,6 +37,22 @@
 		"framework"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.0-RC2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -92,6 +110,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.5.6",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251017",
 			"repository":"Central",
 			"type":"release",
@@ -140,6 +166,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.12",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251017",
 			"repository":"Central",
 			"type":"release",
@@ -161,38 +195,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.4.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250718",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250516",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250422",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.5",
 			"vulnerabilities":""
 		}
 	]

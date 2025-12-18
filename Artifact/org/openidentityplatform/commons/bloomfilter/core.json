@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.openidentityplatform.commons.bloomfilter/core",
-	"description":"Thread-safe implementations of scalable and rolling Bloom Filters.",
 	"group_id":"org.openidentityplatform.commons.bloomfilter",
 	"artifact_id":"core",
-	"version_latest":"2.4.1",
-	"ts_publish":1756975402000,
-	"dt_publish":"2025-09-04 16:43:22.000",
-	"ts_update":1756976057112,
-	"dt_update":"2025-09-04 16:53:36.187",
-	"count_dep":20,
+	"version_latest":"3.0.2",
+	"ts_publish":1765443585000,
+	"dt_publish":"2025-12-11 16:59:45.000",
+	"ts_update":1765444972518,
+	"dt_update":"2025-12-11 17:22:33.683",
+	"count_dep":7,
 	"count_ref":1,
-	"licenses":[
-		"CDDL-1.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,12 +23,28 @@
 	"url_scm":"https://github.com/OpenIdentityPlatform/commons/bloomfilter/core",
 	"count_used_by":2,
 	"license":"CDDL 1.0",
-	"ranking":"#231441 in MvnRepository",
+	"ranking":"#247853 in MvnRepository",
 	"tags":[
 		"bloomfilter",
 		"commons"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.4.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250715",
 			"repository":"Central",
@@ -174,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.0.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220409",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.0.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210616",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.0.12",
 			"vulnerabilities":""
 		}
 	]

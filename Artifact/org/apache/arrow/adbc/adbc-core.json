@@ -3,13 +3,13 @@
 	"description":"The core API for ADBC.",
 	"group_id":"org.apache.arrow.adbc",
 	"artifact_id":"adbc-core",
-	"version_latest":"0.20.0",
-	"ts_publish":1757399303000,
-	"dt_publish":"2025-09-09 14:28:23.000",
-	"ts_update":1760200006826,
-	"dt_update":"2025-10-12 00:16:39.155",
+	"version_latest":"0.21.0",
+	"ts_publish":1762154132000,
+	"dt_publish":"2025-11-03 15:15:32.000",
+	"ts_update":1765644186516,
+	"dt_update":"2025-12-14 00:20:09.054",
 	"count_dep":13,
-	"count_ref":8,
+	"count_ref":9,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -18,14 +18,30 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.arrow.adbc/adbc-core@0.19.0",
 	"url_issue_management":"https://issues.apache.org/jira/browse/arrow",
 	"url_scm":"https://github.com/apache/arrow-adbc/adbc-core",
-	"count_used_by":8,
+	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#56078 in MvnRepository",
+	"ranking":"#48789 in MvnRepository",
 	"tags":[
 		"apache",
 		"arrow"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"0.21.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"0.20.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250707",
 			"repository":"Central",
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"0.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230215",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"0.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230110",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"0.1.0",
 			"vulnerabilities":""
 		}
 	]

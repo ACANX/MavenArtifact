@@ -1,13 +1,12 @@
 {
 	"id":"pkg:maven/org.flywaydb/flyway-mysql",
-	"description":"Flyway: Database Migrations Made Easy.",
 	"group_id":"org.flywaydb",
 	"artifact_id":"flyway-mysql",
-	"version_latest":"11.14.1",
-	"ts_publish":1760533290000,
-	"dt_publish":"2025-10-15 21:01:30.000",
-	"ts_update":1760534796828,
-	"dt_update":"2025-10-15 21:26:19.676",
+	"version_latest":"11.19.0",
+	"ts_publish":1765191091000,
+	"dt_publish":"2025-12-08 18:51:31.000",
+	"ts_update":1765192582365,
+	"dt_update":"2025-12-08 19:15:56.395",
 	"count_dep":5,
 	"count_ref":1,
 	"licenses":[
@@ -21,10 +20,10 @@
 	"url_project":"https://flywaydb.org/flyway-mysql",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.flywaydb/flyway-mysql@11.12.0",
 	"url_scm":"https://github.com/flyway/flyway/flyway-mysql",
-	"count_used_by":136,
+	"count_used_by":147,
 	"home_page":"https://flywaydb.org/",
 	"license":"Apache 2.0",
-	"ranking":"#3933 in MvnRepository",
+	"ranking":"#3885 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -35,10 +34,66 @@
 	],
 	"versions":[
 		{
-			"date":"20251009",
+			"date":"20251127",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.18.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251124",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"11.17.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.17.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"11.17.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.16.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"11.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"11.14.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
 			"version":"11.14.0",
 			"vulnerabilities":""
 		},
@@ -46,7 +101,7 @@
 			"date":"20251007",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":3,
 			"version":"11.13.3",
 			"vulnerabilities":""
 		},
@@ -54,7 +109,7 @@
 			"date":"20250926",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":7,
 			"version":"11.13.2",
 			"vulnerabilities":""
 		},
@@ -62,7 +117,7 @@
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"11.13.1",
 			"vulnerabilities":""
 		},
@@ -94,7 +149,7 @@
 			"date":"20250814",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":5,
 			"version":"11.11.1",
 			"vulnerabilities":""
 		},
@@ -137,62 +192,7 @@
 			"usage":4,
 			"version":"11.10.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250703",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"11.10.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250626",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"11.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"11.9.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"11.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250513",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"11.8.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250506",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.8.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Flyway: Database Migrations Made Easy."
 }

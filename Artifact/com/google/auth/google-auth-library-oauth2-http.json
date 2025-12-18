@@ -3,11 +3,11 @@
 	"description":"Client libraries providing authentication and\n    authorization to enable calling Google APIs.",
 	"group_id":"com.google.auth",
 	"artifact_id":"google-auth-library-oauth2-http",
-	"version_latest":"1.40.0",
-	"ts_publish":1760477176000,
-	"dt_publish":"2025-10-15 05:26:16.000",
-	"ts_update":1760478297137,
-	"dt_update":"2025-10-15 05:44:46.366",
+	"version_latest":"1.42.0-rc1",
+	"ts_publish":1765477418000,
+	"dt_publish":"2025-12-12 02:23:38.000",
+	"ts_update":1765479411688,
+	"dt_update":"2025-12-12 02:56:37.390",
 	"count_dep":32,
 	"count_ref":2,
 	"licenses":[
@@ -25,10 +25,10 @@
 		"Jeff Ching"
 	],
 	"url_scm":"https://github.com/googleapis/google-auth-library-java/google-auth-library-oauth2-http",
-	"count_used_by":692,
+	"count_used_by":704,
 	"home_page":"https://github.com/googleapis/google-auth-library-java",
 	"license":"BSD 3-clause",
-	"ranking":"#892 in MvnRepository",
+	"ranking":"#903 in MvnRepository",
 	"tags":[
 		"google",
 		"authentication",
@@ -38,10 +38,34 @@
 	],
 	"versions":[
 		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.41.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.41.0-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251014",
+			"repository":"Central",
+			"type":"release",
+			"usage":281,
+			"version":"1.40.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":261,
+			"usage":274,
 			"version":"1.39.1",
 			"vulnerabilities":""
 		},
@@ -57,7 +81,7 @@
 			"date":"20250821",
 			"repository":"Central",
 			"type":"release",
-			"usage":14,
+			"usage":15,
 			"version":"1.38.0",
 			"vulnerabilities":""
 		},
@@ -65,7 +89,7 @@
 			"date":"20250620",
 			"repository":"Central",
 			"type":"release",
-			"usage":274,
+			"usage":276,
 			"version":"1.37.1",
 			"vulnerabilities":""
 		},
@@ -81,7 +105,7 @@
 			"date":"20250529",
 			"repository":"Central",
 			"type":"release",
-			"usage":247,
+			"usage":248,
 			"version":"1.36.0",
 			"vulnerabilities":""
 		},
@@ -171,30 +195,6 @@
 			"type":"release",
 			"usage":235,
 			"version":"1.28.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240920",
-			"repository":"Central",
-			"type":"release",
-			"usage":233,
-			"version":"1.27.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240918",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.26.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240905",
-			"repository":"Central",
-			"type":"release",
-			"usage":236,
-			"version":"1.25.0",
 			"vulnerabilities":""
 		}
 	]

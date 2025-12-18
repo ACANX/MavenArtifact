@@ -2,19 +2,21 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-ollama-deployment",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-ollama-deployment",
-	"version_latest":"1.4.0.CR2",
-	"ts_publish":1762157688000,
-	"dt_publish":"2025-11-03 16:14:48.000",
-	"ts_update":1762158410758,
-	"dt_update":"2025-11-03 16:26:28.129",
-	"count_dep":9,
+	"version_latest":"1.5.0.CR1",
+	"ts_publish":1765798377000,
+	"dt_publish":"2025-12-15 19:32:57.000",
+	"ts_update":1765801627009,
+	"dt_update":"2025-12-15 20:26:35.135",
+	"count_dep":208,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-ollama-deployment@1.1.1",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#104390 in MvnRepository",
+	"ranking":"#122742 in MvnRepository",
 	"tags":[
 		"deployment",
 		"ollama",
@@ -24,6 +26,30 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.4.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.4.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.4.0.CR2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251030",
 			"repository":"Central",
@@ -159,30 +185,7 @@
 			"usage":0,
 			"version":"1.0.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250616",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250521",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.0.CR2",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

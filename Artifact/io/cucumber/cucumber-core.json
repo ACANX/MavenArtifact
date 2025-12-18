@@ -1,15 +1,14 @@
 {
 	"id":"pkg:maven/io.cucumber/cucumber-core",
-	"description":"Cucumber for the JVM",
 	"group_id":"io.cucumber",
 	"artifact_id":"cucumber-core",
-	"version_latest":"7.31.0",
-	"ts_publish":1761583217000,
-	"dt_publish":"2025-10-28 00:40:17.000",
-	"ts_update":1761584193073,
-	"dt_update":"2025-10-28 00:56:24.001",
+	"version_latest":"7.33.0",
+	"ts_publish":1765239881000,
+	"dt_publish":"2025-12-09 08:24:41.000",
+	"ts_update":1765241798166,
+	"dt_update":"2025-12-09 08:56:29.489",
 	"count_dep":30,
-	"count_ref":12,
+	"count_ref":11,
 	"licenses":[
 		"MIT License"
 	],
@@ -27,13 +26,29 @@
 	"count_used_by":175,
 	"home_page":"https://cucumber.io/",
 	"license":"MIT",
-	"ranking":"#3311 in MvnRepository",
+	"ranking":"#3358 in MvnRepository",
 	"tags":[
 		"cucumber",
 		"testing",
 		"quality"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"7.32.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
+			"version":"7.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -177,22 +192,7 @@
 			"usage":26,
 			"version":"7.20.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241004",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"7.20.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240919",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"7.19.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Cucumber for the JVM"
 }

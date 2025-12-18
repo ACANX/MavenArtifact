@@ -3,11 +3,11 @@
 	"description":"Implementation of unified queryDSL for postgRest API",
 	"group_id":"fr.ouestfrance.querydsl",
 	"artifact_id":"querydsl-postgrest",
-	"version_latest":"1.4.9",
-	"ts_publish":1762164172000,
-	"dt_publish":"2025-11-03 18:02:52.000",
-	"ts_update":1762165202311,
-	"dt_update":"2025-11-03 18:19:48.916",
+	"version_latest":"2.0.0",
+	"ts_publish":1764255036000,
+	"dt_publish":"2025-11-27 22:50:36.000",
+	"ts_update":1764256662903,
+	"dt_update":"2025-11-27 23:17:24.634",
 	"count_dep":5,
 	"count_ref":2,
 	"licenses":[
@@ -22,13 +22,29 @@
 	"url_scm":"https://github.com/ouest-france/querydsl-postgrest.git/querydsl-postgrest",
 	"count_used_by":2,
 	"license":"MIT",
-	"ranking":"#201165 in MvnRepository",
+	"ranking":"#231467 in MvnRepository",
 	"tags":[
 		"query",
 		"postgresql",
 		"dsl"
 	],
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.4.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.4.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250430",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231222",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231207",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.1.0",
 			"vulnerabilities":""
 		}
 	]

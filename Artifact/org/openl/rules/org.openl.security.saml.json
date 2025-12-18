@@ -3,12 +3,12 @@
 	"description":"SAML integration",
 	"group_id":"org.openl.rules",
 	"artifact_id":"org.openl.security.saml",
-	"version_latest":"5.27.14-jakarta",
-	"ts_publish":1760301405000,
-	"dt_publish":"2025-10-13 04:36:45.000",
-	"ts_update":1760304379461,
-	"dt_update":"2025-10-13 05:26:13.627",
-	"count_dep":25,
+	"version_latest":"5.27.15-jakarta",
+	"ts_publish":1765915517000,
+	"dt_publish":"2025-12-17 04:05:17.000",
+	"ts_update":1765916426311,
+	"dt_update":"2025-12-17 04:20:18.953",
+	"count_dep":31,
 	"count_ref":1,
 	"licenses":[
 		"GNU Lesser General Public License"
@@ -31,7 +31,7 @@
 	"count_used_by":1,
 	"home_page":"https://openl-tablets.org",
 	"license":"LGPL",
-	"ranking":"#388182 in MvnRepository",
+	"ranking":"#413722 in MvnRepository",
 	"tags":[
 		"security",
 		"saml",
@@ -44,6 +44,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"5.27.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251012",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.27.14-jakarta",
 			"vulnerabilities":""
 		},
 		{
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"5.26.17",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240422",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.26.16",
 			"vulnerabilities":""
 		}
 	]

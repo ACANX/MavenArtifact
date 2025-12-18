@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.gravitee.apim.gateway/gravitee-apim-gateway-connector",
-	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.gateway",
 	"artifact_id":"gravitee-apim-gateway-connector",
-	"version_latest":"4.9.2",
-	"ts_publish":1761326264000,
-	"dt_publish":"2025-10-25 01:17:44.000",
-	"ts_update":1761326811527,
-	"dt_update":"2025-10-25 01:26:27.112",
-	"count_dep":140,
-	"count_ref":30,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"4.10.0-alpha.2",
+	"ts_publish":1766009188000,
+	"dt_publish":"2025-12-18 06:06:28.000",
+	"ts_update":1766010415866,
+	"dt_update":"2025-12-18 06:26:39.913",
+	"count_dep":24,
+	"count_ref":9,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -29,13 +26,85 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-connector",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#100478 in MvnRepository",
+	"ranking":"#92705 in MvnRepository",
 	"tags":[
 		"gateway",
 		"connector",
 		"connection"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":5,
+			"version":"4.10.0-alpha.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.9.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.9.8",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.9.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.9.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.9.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.9.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.9.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"4.9.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251021",
 			"repository":"Central",
@@ -85,115 +154,43 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20251017",
+			"date":"20251210",
 			"repository":"Central",
 			"type":"release",
 			"usage":5,
-			"version":"4.8.10",
+			"version":"4.8.16",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20251010",
+			"date":"20251205",
 			"repository":"Central",
 			"type":"release",
 			"usage":5,
-			"version":"4.8.9",
+			"version":"4.8.15",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250926",
+			"date":"20251125",
 			"repository":"Central",
 			"type":"release",
 			"usage":5,
-			"version":"4.8.8",
+			"version":"4.8.14",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250912",
+			"date":"20251121",
 			"repository":"Central",
 			"type":"release",
 			"usage":5,
-			"version":"4.8.7",
+			"version":"4.8.13",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250901",
+			"date":"20251107",
 			"repository":"Central",
 			"type":"release",
 			"usage":5,
-			"version":"4.8.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250829",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250814",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250801",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250718",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250620",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":5,
-			"version":"4.8.0-alpha.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250606",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":5,
-			"version":"4.8.0-alpha.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":5,
-			"version":"4.8.0-alpha.1",
+			"version":"4.8.12",
 			"vulnerabilities":""
 		}
 	]

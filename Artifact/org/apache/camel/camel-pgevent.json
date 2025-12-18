@@ -3,13 +3,13 @@
 	"description":"Component for sending/receiving notifications in PostgreSQL",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-pgevent",
-	"version_latest":"4.15.0",
-	"ts_publish":1759504195000,
-	"dt_publish":"2025-10-03 23:09:55.000",
-	"ts_update":1762016216284,
-	"dt_update":"2025-11-02 00:17:49.257",
-	"count_dep":2,
-	"count_ref":4,
+	"version_latest":"4.16.0",
+	"ts_publish":1761995259000,
+	"dt_publish":"2025-11-01 19:07:39.000",
+	"ts_update":1765644212814,
+	"dt_update":"2025-12-14 00:19:48.496",
+	"count_dep":0,
+	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,18 +20,34 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-pgevent@4.13.0",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#45489 in MvnRepository",
+	"ranking":"#47594 in MvnRepository",
 	"tags":[
 		"apache",
 		"camel"
 	],
 	"versions":[
 		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.16.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251003",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
 			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.14.2",
 			"vulnerabilities":""
 		},
 		{
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.8.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250401",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250308",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.8.5",
 			"vulnerabilities":""
 		}
 	]

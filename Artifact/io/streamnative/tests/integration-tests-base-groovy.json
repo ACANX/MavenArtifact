@@ -3,11 +3,11 @@
 	"description":"The Apache Software Foundation provides support for the Apache community of open-source software projects.\n    The Apache projects are characterized by a collaborative, consensus based development process, an open and\n    pragmatic software license, and a desire to create high quality software that leads the way in its field.\n    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers\n    and users.",
 	"group_id":"io.streamnative.tests",
 	"artifact_id":"integration-tests-base-groovy",
-	"version_latest":"4.17.2.3",
-	"ts_publish":1758512279000,
-	"dt_publish":"2025-09-22 11:37:59.000",
-	"ts_update":1758513396945,
-	"dt_update":"2025-09-22 11:55:06.407",
+	"version_latest":"4.17.2.5",
+	"ts_publish":1764036822000,
+	"dt_publish":"2025-11-25 10:13:42.000",
+	"ts_update":1764037603348,
+	"dt_update":"2025-11-25 10:26:28.384",
 	"count_dep":160,
 	"count_ref":0,
 	"licenses":[
@@ -26,13 +26,29 @@
 	"url_scm":"https://github.com/streamnative/bookkeeper/tests-parent/integration-tests-base/integration-tests-base-groovy",
 	"url_ci_management":"https://builds.apache.org/job/bookkeeper-master",
 	"license":"Apache 2.0",
-	"ranking":"#650692 in MvnRepository",
+	"ranking":"#843576 in MvnRepository",
 	"tags":[
 		"integration",
 		"testing",
 		"groovy"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.17.2.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.17.2.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.15.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230531",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.15.4.1_arrowstreet",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240411",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.14.8.1",
 			"vulnerabilities":""
 		}
 	]

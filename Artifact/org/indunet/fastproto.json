@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/org.indunet/fastproto",
-	"description":"FastProto is a lightweight Java library that makes binary protocols effortless, with annotation-driven mapping and built-in checksum/CRC.",
+	"description":"FastProto is a high-performance serialization/deserialization library designed for binary communication protocols. By defining complex byte stream structures with simple annotations, it enables Java developers to read and write custom binary packets in the most natural way for scenarios such as IoT, automotive systems, industrial control and energy metering.",
 	"group_id":"org.indunet",
 	"artifact_id":"fastproto",
-	"version_latest":"3.12.2",
-	"ts_publish":1756224442000,
-	"dt_publish":"2025-08-27 00:07:22.000",
-	"ts_update":1756226658340,
-	"dt_update":"2025-08-27 00:41:59.802",
+	"version_latest":"3.12.3",
+	"ts_publish":1763893029000,
+	"dt_publish":"2025-11-23 18:17:09.000",
+	"ts_update":1763894797289,
+	"dt_update":"2025-11-23 18:46:20.607",
 	"count_dep":43,
 	"count_ref":0,
 	"licenses":[
@@ -20,10 +20,18 @@
 		"Deng Ran"
 	],
 	"url_scm":"https://github.com/indunet/fastproto",
-	"home_page":"http://fastproto.indunet.org",
+	"home_page":"https://indunet.github.io/fastproto",
 	"license":"Apache 2.0",
-	"ranking":"#725927 in MvnRepository",
+	"ranking":"#924146 in MvnRepository",
 	"versions":[
+		{
+			"date":"20250826",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.12.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250821",
 			"repository":"Central",
@@ -174,14 +182,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220930",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.5.0",
 			"vulnerabilities":""
 		}
 	]

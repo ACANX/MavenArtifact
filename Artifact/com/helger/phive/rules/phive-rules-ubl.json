@@ -3,13 +3,13 @@
 	"description":"UBL validation rules for phive",
 	"group_id":"com.helger.phive.rules",
 	"artifact_id":"phive-rules-ubl",
-	"version_latest":"4.0.3",
-	"ts_publish":1759438939000,
-	"dt_publish":"2025-10-03 05:02:19.000",
-	"ts_update":1759441562644,
-	"dt_update":"2025-10-03 05:12:53.772",
-	"count_dep":59,
-	"count_ref":0,
+	"version_latest":"4.1.2",
+	"ts_publish":1765667323000,
+	"dt_publish":"2025-12-14 07:08:43.000",
+	"ts_update":1765670200402,
+	"dt_update":"2025-12-14 07:56:31.851",
+	"count_dep":46,
+	"count_ref":1,
 	"licenses":[
 		"Apache 2"
 	],
@@ -25,13 +25,45 @@
 	"url_scm":"http://github.com/phax/phive-rules/phive-rules-ubl",
 	"home_page":"https://github.com/phax/phive-rules/phive-rules-ubl",
 	"license":"Apache 2.0",
-	"ranking":"#345200 in MvnRepository",
+	"ranking":"#237951 in MvnRepository",
 	"tags":[
 		"bundle",
 		"rules",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251116",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251002",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -159,39 +191,7 @@
 			"usage":0,
 			"version":"3.2.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241009",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240917",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240906",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240729",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.12",
-			"vulnerabilities":""
 		}
 	],
-	"count_used_by":1
+	"count_used_by":2
 }

@@ -3,13 +3,13 @@
 	"description":"Contains extensions to the HotRod client API.",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-clustering-infinispan-client-api",
-	"version_latest":"38.0.0.Beta1",
-	"ts_publish":1759315079000,
-	"dt_publish":"2025-10-01 18:37:59.000",
-	"ts_update":1759332835116,
-	"dt_update":"2025-10-01 18:56:07.138",
+	"version_latest":"38.0.1.Final",
+	"ts_publish":1763402037000,
+	"dt_publish":"2025-11-18 01:53:57.000",
+	"ts_update":1763403835374,
+	"dt_update":"2025-11-18 02:23:25.580",
 	"count_dep":12,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Application and Server Management"
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-clustering-infinispan-client-api@37.0.0.Final",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#72742 in MvnRepository",
+	"ranking":"#73208 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"wildfly",
@@ -28,6 +28,22 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"38.0.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"38.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"32.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240405",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"32.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"31.0.1.Final",
 			"vulnerabilities":""
 		}
 	]

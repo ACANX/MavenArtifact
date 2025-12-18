@@ -3,12 +3,12 @@
 	"description":"This module contains implementations of InputFormat, OutputFormat, Mapper, Reducer, etc which\n    are needed for running MR jobs on tables, WALs, HFiles and other HBase specific constructs.\n    It also contains a bunch of tools: RowCounter, ImportTsv, Import, Export, CompactionTool,\n    ExportSnapshot, WALPlayer, etc",
 	"group_id":"org.apache.hbase",
 	"artifact_id":"hbase-mapreduce",
-	"version_latest":"2.6.3-hadoop3",
-	"ts_publish":1752166674000,
-	"dt_publish":"2025-07-11 00:57:54.000",
-	"ts_update":1755362426138,
-	"dt_update":"2025-08-17 00:18:13.817",
-	"count_dep":0,
+	"version_latest":"2.6.4",
+	"ts_publish":1762230990000,
+	"dt_publish":"2025-11-04 12:36:30.000",
+	"ts_update":1765643213122,
+	"dt_update":"2025-12-14 00:20:15.234",
+	"count_dep":147,
 	"count_ref":6,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -84,10 +84,10 @@
 		"Heng Chen"
 	],
 	"url_scm":"https://gitbox.apache.org/repos/asf?p=hbase.git/hbase-build-configuration/hbase-mapreduce",
-	"count_used_by":95,
+	"count_used_by":97,
 	"home_page":"https://hbase.apache.org/hbase-build-configuration/hbase-mapreduce",
 	"license":"Apache 2.0",
-	"ranking":"#5341 in MvnRepository",
+	"ranking":"#5529 in MvnRepository",
 	"tags":[
 		"database",
 		"mapreduce",
@@ -138,6 +138,22 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.6.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"2.6.4-hadoop3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250710",
 			"repository":"Central",
 			"type":"release",
@@ -149,7 +165,7 @@
 			"date":"20250710",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":12,
 			"version":"2.6.3-hadoop3",
 			"vulnerabilities":""
 		},
@@ -202,6 +218,22 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.5.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.5.13-hadoop3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
@@ -213,7 +245,7 @@
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":7,
 			"version":"2.5.12-hadoop3",
 			"vulnerabilities":""
 		},
@@ -223,38 +255,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.5.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250306",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.5.11-hadoop3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240725",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.5.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240725",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.5.10-hadoop3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240706",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.5.9",
 			"vulnerabilities":""
 		}
 	]

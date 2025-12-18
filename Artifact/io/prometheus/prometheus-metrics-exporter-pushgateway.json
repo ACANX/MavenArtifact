@@ -3,12 +3,12 @@
 	"description":"Exporter for pushing metrics to a pushgateway.",
 	"group_id":"io.prometheus",
 	"artifact_id":"prometheus-metrics-exporter-pushgateway",
-	"version_latest":"1.4.2",
-	"ts_publish":1761670582000,
-	"dt_publish":"2025-10-29 00:56:22.000",
-	"ts_update":1761671771320,
-	"dt_update":"2025-10-29 01:15:40.451",
-	"count_dep":13,
+	"version_latest":"1.4.3",
+	"ts_publish":1762542370000,
+	"dt_publish":"2025-11-08 03:06:10.000",
+	"ts_update":1762542841364,
+	"dt_update":"2025-11-08 03:13:43.765",
+	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -27,7 +27,7 @@
 	"url_scm":"git@github.com:prometheus/client_java.git/client_java/prometheus-metrics-exporter-pushgateway",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#93508 in MvnRepository",
+	"ranking":"#97077 in MvnRepository",
 	"tags":[
 		"bundle",
 		"monitoring",
@@ -38,10 +38,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250818",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"1.4.1",
 			"vulnerabilities":""
 		},

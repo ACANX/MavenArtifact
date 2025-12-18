@@ -3,11 +3,11 @@
 	"description":"Byte Buddy is a Java library for creating Java classes at run time.\n        This artifact is a build of Byte Buddy with a remaining dependency onto ASM.\n        You should never depend on this module without repackaging Byte Buddy and ASM into your own namespace.",
 	"group_id":"net.bytebuddy",
 	"artifact_id":"byte-buddy-dep",
-	"version_latest":"1.17.8",
-	"ts_publish":1759962803000,
-	"dt_publish":"2025-10-09 06:33:23.000",
-	"ts_update":1759964174991,
-	"dt_update":"2025-10-09 06:56:09.006",
+	"version_latest":"1.18.2",
+	"ts_publish":1764192721000,
+	"dt_publish":"2025-11-27 05:32:01.000",
+	"ts_update":1764193502678,
+	"dt_update":"2025-11-27 05:44:54.273",
 	"count_dep":14,
 	"count_ref":0,
 	"licenses":[
@@ -26,16 +26,40 @@
 	"url_scm":"git@github.com:raphw/byte-buddy.git/byte-buddy-dep",
 	"count_used_by":39,
 	"license":"Apache 2.0",
-	"ranking":"#12420 in MvnRepository",
+	"ranking":"#12527 in MvnRepository",
 	"tags":[
 		"bytecode"
 	],
 	"versions":[
 		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.18.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.18.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251009",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.17.8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250816",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":9,
 			"version":"1.17.7",
 			"vulnerabilities":""
 		},
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.15.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240926",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.15.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240925",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240829",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"1.15.1",
 			"vulnerabilities":""
 		}
 	]

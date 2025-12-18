@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/de.knightsoft-net/gwt-commons-lang3",
-	"description":"Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.\n  This is a port for GWT, which enables program, to use Apache Commons Lang\n  also in the frontend compiled by the gwt compiler to java-script.\n\n  The code is tested using the latest revision of the JDK for supported\n  LTS releases: 8, 11, 17 and 21 currently.\n  See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml\n  \n  Please ensure your build environment is up-to-date and kindly report any build issues.",
+	"description":"Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.\n  This is a port for GWT, which enables program, to use Apache Commons Lang\n  also in the frontend compiled by the gwt compiler to java-script.\n\n  The code is tested using the latest revision of the JDK for supported\n  LTS releases: 8, 11, 17, 21 and 25 currently.\n  See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml\n  \n  Please ensure your build environment is up-to-date and kindly report any build issues.",
 	"group_id":"de.knightsoft-net",
 	"artifact_id":"gwt-commons-lang3",
-	"version_latest":"3.19.0-0",
-	"ts_publish":1761222639000,
-	"dt_publish":"2025-10-23 20:30:39.000",
-	"ts_update":1761224211657,
-	"dt_update":"2025-10-23 20:56:27.014",
-	"count_dep":82,
+	"version_latest":"3.20.0-0",
+	"ts_publish":1763631582000,
+	"dt_publish":"2025-11-20 17:39:42.000",
+	"ts_update":1763633904232,
+	"dt_update":"2025-11-20 18:18:16.587",
+	"count_dep":88,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -149,13 +149,21 @@
 	"count_used_by":8,
 	"home_page":"https://gitlab.com/ManfredTremmel/gwt-commons-lang3",
 	"license":"Apache 2.0",
-	"ranking":"#58541 in MvnRepository",
+	"ranking":"#63341 in MvnRepository",
 	"tags":[
 		"gwt",
 		"ui",
 		"commons"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.19.0-0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250717",
 			"repository":"Central",
@@ -306,14 +314,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.9-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20190505",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.9-0",
 			"vulnerabilities":""
 		}
 	]

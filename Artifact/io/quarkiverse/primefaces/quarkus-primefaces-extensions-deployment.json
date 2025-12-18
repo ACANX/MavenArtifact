@@ -1,14 +1,13 @@
 {
 	"id":"pkg:maven/io.quarkiverse.primefaces/quarkus-primefaces-extensions-deployment",
-	"description":"PrimeFaces - lets you utilize PrimeFaces and PF Extensions to make JavaServer Faces (JSF) development so much easier!",
 	"group_id":"io.quarkiverse.primefaces",
 	"artifact_id":"quarkus-primefaces-extensions-deployment",
-	"version_latest":"3.15.9",
-	"ts_publish":1761837116000,
-	"dt_publish":"2025-10-30 23:11:56.000",
-	"ts_update":1761838007964,
-	"dt_update":"2025-10-30 23:26:28.506",
-	"count_dep":343,
+	"version_latest":"4.15.10",
+	"ts_publish":1763578642000,
+	"dt_publish":"2025-11-20 02:57:22.000",
+	"ts_update":1763579630191,
+	"dt_update":"2025-11-20 03:13:41.060",
+	"count_dep":324,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,13 +22,29 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-primefaces",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#366011 in MvnRepository",
+	"ranking":"#338901 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
 		"extension"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.15.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.15.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250923",
 			"repository":"Central",
@@ -173,22 +188,7 @@
 			"usage":0,
 			"version":"3.14.6.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240910",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.14.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240805",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.14.4",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"PrimeFaces - lets you utilize PrimeFaces and PF Extensions to make JavaServer Faces (JSF) development\n        so much easier!"
 }

@@ -3,11 +3,11 @@
 	"description":"This is a Bill of Materials (BOM) for internal dependencies of Operaton.\n    All modules should import this BOM to ensure consistent versions of dependencies.\n    By using this BOM, you can omit the version tag in dependency declarations.",
 	"group_id":"org.operaton.bpm",
 	"artifact_id":"operaton-core-internal-dependencies",
-	"version_latest":"1.0.0-rc-2",
-	"ts_publish":1761913466000,
-	"dt_publish":"2025-10-31 20:24:26.000",
-	"ts_update":1761913985583,
-	"dt_update":"2025-10-31 20:32:51.867",
+	"version_latest":"1.0.1",
+	"ts_publish":1764327051000,
+	"dt_publish":"2025-11-28 18:50:51.000",
+	"ts_update":1764327381341,
+	"dt_update":"2025-11-28 18:56:13.443",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[],
@@ -21,7 +21,7 @@
 	"url_scm":"https://github.com/operaton/operaton/operaton-parent/operaton-core-internal-dependencies",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#243815 in MvnRepository",
+	"ranking":"#204264 in MvnRepository",
 	"tags":[
 		"bom",
 		"bpm",
@@ -29,6 +29,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.0.0-rc-2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",

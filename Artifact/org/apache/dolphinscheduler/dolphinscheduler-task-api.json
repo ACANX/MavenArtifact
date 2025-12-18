@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.apache.dolphinscheduler/dolphinscheduler-task-api",
-	"description":"Dolphin Scheduler is a distributed and easy-to-expand visual DAG workflow scheduling system, dedicated\n        to solving the complex dependencies in data processing, making the scheduling system out of the box for data\n        processing.",
 	"group_id":"org.apache.dolphinscheduler",
 	"artifact_id":"dolphinscheduler-task-api",
-	"version_latest":"3.3.1",
-	"ts_publish":1755850799000,
-	"dt_publish":"2025-08-22 16:19:59.000",
-	"ts_update":1759433191808,
-	"dt_update":"2025-09-28 00:16:53.387",
-	"count_dep":186,
-	"count_ref":43,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"version_latest":"3.3.2",
+	"ts_publish":1761462099000,
+	"dt_publish":"2025-10-26 15:01:39.000",
+	"ts_update":1765038410298,
+	"dt_update":"2025-12-07 00:19:15.529",
+	"count_dep":27,
+	"count_ref":48,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,7 +20,7 @@
 	"count_used_by":58,
 	"home_page":"https://dolphinscheduler.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#8592 in MvnRepository",
+	"ranking":"#8909 in MvnRepository",
 	"tags":[
 		"task",
 		"scheduling",
@@ -31,6 +28,14 @@
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251026",
+			"repository":"Central",
+			"type":"release",
+			"usage":41,
+			"version":"3.3.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -181,14 +186,6 @@
 			"type":"release",
 			"usage":25,
 			"version":"3.0.2",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20220926",
-			"repository":"Central",
-			"type":"release",
-			"usage":25,
-			"version":"3.0.1",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]

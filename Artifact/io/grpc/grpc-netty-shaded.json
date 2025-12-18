@@ -3,13 +3,13 @@
 	"description":"gRPC: Netty Shaded",
 	"group_id":"io.grpc",
 	"artifact_id":"grpc-netty-shaded",
-	"version_latest":"1.76.0",
-	"ts_publish":1759843045000,
-	"dt_publish":"2025-10-07 21:17:25.000",
-	"ts_update":1759844534193,
-	"dt_update":"2025-10-07 21:42:01.714",
+	"version_latest":"1.77.0",
+	"ts_publish":1763407469000,
+	"dt_publish":"2025-11-18 03:24:29.000",
+	"ts_update":1763408677807,
+	"dt_update":"2025-11-18 03:44:23.014",
 	"count_dep":8,
-	"count_ref":5,
+	"count_ref":4,
 	"licenses":[
 		"Apache 2.0"
 	],
@@ -24,7 +24,7 @@
 		"gRPC Contributors"
 	],
 	"url_scm":"https://github.com/grpc/grpc-java",
-	"count_used_by":1166,
+	"count_used_by":1182,
 	"home_page":"https://github.com/grpc/grpc-java",
 	"license":"Apache 2.0",
 	"ranking":"#515 in MvnRepository",
@@ -39,10 +39,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":275,
+			"version":"1.76.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250820",
 			"repository":"Central",
 			"type":"release",
-			"usage":37,
+			"usage":74,
 			"version":"1.75.0",
 			"vulnerabilities":""
 		},
@@ -58,7 +66,7 @@
 			"date":"20250527",
 			"repository":"Central",
 			"type":"release",
-			"usage":38,
+			"usage":39,
 			"version":"1.73.0",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -74,7 +82,7 @@
 			"date":"20250304",
 			"repository":"Central",
 			"type":"release",
-			"usage":279,
+			"usage":281,
 			"version":"1.71.0",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -98,7 +106,7 @@
 			"date":"20241210",
 			"repository":"Central",
 			"type":"release",
-			"usage":253,
+			"usage":254,
 			"version":"1.69.0",
 			"vulnerabilities":"1 vulnerability"
 		},
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":39,
 			"version":"1.64.0",
-			"vulnerabilities":"1 vulnerability"
-		},
-		{
-			"date":"20240712",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"1.63.2",
 			"vulnerabilities":"1 vulnerability"
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"This module only exists to house opentelemetry-aws-sdk-2.2 as a conditional dependency",
 	"group_id":"io.quarkiverse.amazonservices",
 	"artifact_id":"quarkus-amazon-opentelemetry-internal",
-	"version_latest":"3.12.0",
-	"ts_publish":1761169180000,
-	"dt_publish":"2025-10-23 05:39:40.000",
-	"ts_update":1761173826103,
-	"dt_update":"2025-10-23 06:56:33.964",
+	"version_latest":"3.12.1",
+	"ts_publish":1762984317000,
+	"dt_publish":"2025-11-13 05:51:57.000",
+	"ts_update":1762985871807,
+	"dt_update":"2025-11-13 06:16:22.925",
 	"count_dep":2,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-opentelemetry-internal@3.10.0",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#219867 in MvnRepository",
+	"ranking":"#249667 in MvnRepository",
 	"tags":[
 		"amazon",
 		"quarkus",
@@ -27,6 +27,14 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.12.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251018",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241027",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.0.1",
 			"vulnerabilities":""
 		}
 	]

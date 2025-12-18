@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/com.apollographql.apollo/apollo-runtime",
-	"description":"Apollo GraphQL runtime library to support generated code",
+	"description":"ApolloClient and related networking code",
 	"group_id":"com.apollographql.apollo",
 	"artifact_id":"apollo-runtime",
-	"version_latest":"5.0.0-alpha.2",
-	"ts_publish":1755791490000,
-	"dt_publish":"2025-08-21 23:51:30.000",
-	"ts_update":1755793640105,
-	"dt_update":"2025-08-22 00:25:57.410",
+	"version_latest":"5.0.0-alpha.3",
+	"ts_publish":1763053600000,
+	"dt_publish":"2025-11-14 01:06:40.000",
+	"ts_update":1763054796458,
+	"dt_update":"2025-11-14 01:26:22.893",
 	"count_dep":8,
 	"count_ref":4,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"Apollo"
 	],
 	"url_scm":"https://github.com/apollographql/apollo-kotlin/",
-	"count_used_by":68,
+	"count_used_by":74,
 	"home_page":"https://github.com/apollographql/apollo-kotlin/",
 	"license":"MIT",
-	"ranking":"#7275 in MvnRepository",
+	"ranking":"#7002 in MvnRepository",
 	"tags":[
 		"query",
 		"service",
@@ -35,6 +35,14 @@
 		"graphql"
 	],
 	"versions":[
+		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":4,
+			"version":"5.0.0-alpha.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250630",
 			"repository":"Central",
@@ -52,10 +60,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20250821",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"4.3.3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250725",
 			"repository":"Central",
 			"type":"release",
-			"usage":7,
+			"usage":10,
 			"version":"4.3.2",
 			"vulnerabilities":""
 		},
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":12,
 			"version":"2.5.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210602",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"2.5.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210521",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"2.5.7",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"Asynchronous HTTP/2 RPC/REST client/server library built on top of Java 8, Netty, Thrift and gRPC (armeria-graphql-protocol)",
 	"group_id":"com.linecorp.armeria",
 	"artifact_id":"armeria-graphql-protocol",
-	"version_latest":"1.33.4",
-	"ts_publish":1758783340000,
-	"dt_publish":"2025-09-25 14:55:40.000",
-	"ts_update":1758784540145,
-	"dt_update":"2025-09-25 15:15:32.532",
-	"count_dep":27,
+	"version_latest":"1.34.1",
+	"ts_publish":1764829477000,
+	"dt_publish":"2025-12-04 14:24:37.000",
+	"ts_update":1764831403613,
+	"dt_update":"2025-12-04 14:56:33.344",
+	"count_dep":28,
 	"count_ref":3,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -26,7 +26,7 @@
 	"count_used_by":2,
 	"home_page":"https://armeria.dev/",
 	"license":"Apache 2.0",
-	"ranking":"#246358 in MvnRepository",
+	"ranking":"#180991 in MvnRepository",
 	"tags":[
 		"query",
 		"armeria",
@@ -35,6 +35,22 @@
 		"graphql"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.34.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.33.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250917",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.30.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240812",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.30.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.29.5",
 			"vulnerabilities":""
 		}
 	]

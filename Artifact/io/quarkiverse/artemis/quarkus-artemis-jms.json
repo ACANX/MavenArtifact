@@ -3,14 +3,16 @@
 	"description":"Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
 	"group_id":"io.quarkiverse.artemis",
 	"artifact_id":"quarkus-artemis-jms",
-	"version_latest":"3.10.2",
-	"ts_publish":1762275116000,
-	"dt_publish":"2025-11-05 00:51:56.000",
-	"ts_update":1762277197248,
-	"dt_update":"2025-11-05 01:26:24.789",
-	"count_dep":3,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"3.11.1",
+	"ts_publish":1764875299000,
+	"dt_publish":"2025-12-05 03:08:19.000",
+	"ts_update":1764880001115,
+	"dt_update":"2025-12-05 04:26:32.115",
+	"count_dep":116,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -24,13 +26,45 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-artemis",
 	"count_used_by":15,
 	"license":"Apache 2.0",
-	"ranking":"#31812 in MvnRepository",
+	"ranking":"#32831 in MvnRepository",
 	"tags":[
 		"jms",
 		"quarkus",
 		"queue"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.11.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.10.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251028",
 			"repository":"Central",
@@ -157,38 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.6.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250205",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.6.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250203",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.6.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250118",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241024",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.6.0",
 			"vulnerabilities":""
 		}
 	]

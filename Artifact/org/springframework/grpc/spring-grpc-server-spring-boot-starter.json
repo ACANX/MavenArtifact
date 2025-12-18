@@ -3,12 +3,12 @@
 	"description":"Spring gRPC Server (Netty) Spring Boot Starter",
 	"group_id":"org.springframework.grpc",
 	"artifact_id":"spring-grpc-server-spring-boot-starter",
-	"version_latest":"0.12.0",
-	"ts_publish":1761309337000,
-	"dt_publish":"2025-10-24 20:35:37.000",
-	"ts_update":1761310604764,
-	"dt_update":"2025-10-24 20:56:25.054",
-	"count_dep":53,
+	"version_latest":"1.0.0",
+	"ts_publish":1764805790000,
+	"dt_publish":"2025-12-04 07:49:50.000",
+	"ts_update":1764808009207,
+	"dt_update":"2025-12-04 08:26:32.980",
+	"count_dep":48,
 	"count_ref":3,
 	"licenses":[
 		"Apache 2.0"
@@ -22,10 +22,10 @@
 	],
 	"url_scm":"https://github.com/spring-projects/spring-grpc/spring-grpc-server-spring-boot-starter",
 	"url_ci_management":"https://github.com/spring-projects/spring-grpc/actions",
-	"count_used_by":2,
+	"count_used_by":3,
 	"home_page":"https://github.com/spring-projects/spring-grpc/spring-grpc-server-spring-boot-starter",
 	"license":"Apache 2.0",
-	"ranking":"#196356 in MvnRepository",
+	"ranking":"#159713 in MvnRepository",
 	"tags":[
 		"grpc",
 		"server",
@@ -37,10 +37,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250910",
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"0.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"0.11.0",
 			"vulnerabilities":""
 		},

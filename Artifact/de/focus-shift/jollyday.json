@@ -3,11 +3,11 @@
 	"description":"This API determines the holidays for a given year, country/name and eventually state/region. The holiday data is\n    stored in XML files (one for each country) and will be read from the classpath. You can provide your own holiday\n    calendar XML file or use any of the provided ones.\n\n    Currently, there are over 90 countries supported like the following:\n    * United States\n    * Germany\n    * France\n    * India\n    * Australia\n    * and so on\n\n    Besides, those there will be more special calendars like currently existing NYSE calendar (New York Stock Exchange).",
 	"group_id":"de.focus-shift",
 	"artifact_id":"jollyday",
-	"version_latest":"1.7.0",
-	"ts_publish":1759831653000,
-	"dt_publish":"2025-10-07 18:07:33.000",
-	"ts_update":1759832784659,
-	"dt_update":"2025-10-07 18:26:13.572",
+	"version_latest":"1.8.0",
+	"ts_publish":1764185246000,
+	"dt_publish":"2025-11-27 03:27:26.000",
+	"ts_update":1764186286642,
+	"dt_update":"2025-11-27 03:44:33.177",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,8 +26,16 @@
 	"url_scm":"https://github.com/focus-shift/jollyday.git",
 	"home_page":"https://github.com/focus-shift/jollyday",
 	"license":"Apache 2.0",
-	"ranking":"#851750 in MvnRepository",
+	"ranking":"#583314 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.7.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.31.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240715",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.30.0",
 			"vulnerabilities":""
 		}
 	]

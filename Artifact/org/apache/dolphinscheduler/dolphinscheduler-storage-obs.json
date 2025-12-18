@@ -3,13 +3,13 @@
 	"description":"Dolphin Scheduler is a distributed and easy-to-expand visual DAG workflow scheduling system, dedicated\n        to solving the complex dependencies in data processing, making the scheduling system out of the box for data\n        processing.",
 	"group_id":"org.apache.dolphinscheduler",
 	"artifact_id":"dolphinscheduler-storage-obs",
-	"version_latest":"3.3.1",
-	"ts_publish":1755853917000,
-	"dt_publish":"2025-08-22 17:11:57.000",
-	"ts_update":1759435501232,
-	"dt_update":"2025-09-28 00:16:55.865",
+	"version_latest":"3.3.2",
+	"ts_publish":1761464198000,
+	"dt_publish":"2025-10-26 15:36:38.000",
+	"ts_update":1765038406257,
+	"dt_update":"2025-12-07 00:19:19.349",
 	"count_dep":158,
-	"count_ref":5,
+	"count_ref":7,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,5 +19,55 @@
 	"dsv":1,
 	"url_project":"https://dolphinscheduler.apache.org/dolphinscheduler-storage-plugin/dolphinscheduler-storage-obs",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.dolphinscheduler/dolphinscheduler-storage-obs@3.3.1",
-	"url_scm":"https://github.com/apache/dolphinscheduler/dolphinscheduler-storage-plugin/dolphinscheduler-storage-obs"
+	"url_scm":"https://github.com/apache/dolphinscheduler/dolphinscheduler-storage-plugin/dolphinscheduler-storage-obs",
+	"count_used_by":1,
+	"license":"Apache 2.0",
+	"ranking":"#409960 in MvnRepository",
+	"tags":[
+		"scheduling",
+		"apache",
+		"storage"
+	],
+	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.3.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.3.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250403",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"3.3.0-alpha",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240211",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20231017",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.0",
+			"vulnerabilities":""
+		}
+	]
 }

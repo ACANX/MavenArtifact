@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.scalecube/scalecube-services-transport-rsocket",
 	"group_id":"io.scalecube",
 	"artifact_id":"scalecube-services-transport-rsocket",
-	"version_latest":"2.13.10",
-	"ts_publish":1762094580000,
-	"dt_publish":"2025-11-02 22:43:00.000",
-	"ts_update":1762096454398,
-	"dt_update":"2025-11-02 23:14:00.553",
-	"count_dep":5,
+	"version_latest":"2.13.14",
+	"ts_publish":1764318780000,
+	"dt_publish":"2025-11-28 16:33:00.000",
+	"ts_update":1764320169074,
+	"dt_update":"2025-11-28 16:55:52.033",
+	"count_dep":47,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Distributed Computing"
 	],
@@ -23,13 +25,85 @@
 	"count_used_by":21,
 	"home_page":"https://github.com/scalecube/scalecube",
 	"license":"Apache 2.0",
-	"ranking":"#22331 in MvnRepository",
+	"ranking":"#22869 in MvnRepository",
 	"tags":[
 		"socket",
 		"service",
 		"transport"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.12.RC3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.12.RC2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.12.RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.11-rc2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.11-rc1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"2.13.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251031",
 			"repository":"Central",
@@ -117,78 +191,7 @@
 			"usage":3,
 			"version":"2.13.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250729",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.13.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250729",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.13.2.allowed-roles.rc2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250417",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.13.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250417",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.12.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.12.7.auth-refactoring.RC5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250407",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.12.7.auth-refactoring.RC4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250407",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.12.7.auth-refactoring.RC3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250406",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.12.7.auth-refactoring.RC2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250330",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.12.7.auth-refactoring.RC1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"ScaleCube is a lightweight decentralized cluster membership, failure detection, messaging and\n    gossip protocol library for the Java VM."
 }

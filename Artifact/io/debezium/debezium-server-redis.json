@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-server-redis",
-	"version_latest":"3.4.0.Alpha1",
-	"ts_publish":1761378475000,
-	"dt_publish":"2025-10-25 15:47:55.000",
-	"ts_update":1761380340758,
-	"dt_update":"2025-10-25 16:18:29.616",
+	"version_latest":"3.4.0.CR1",
+	"ts_publish":1765370417000,
+	"dt_publish":"2025-12-10 20:40:17.000",
+	"ts_update":1765371420481,
+	"dt_update":"2025-12-10 20:56:37.738",
 	"count_dep":236,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	],
 	"url_scm":"https://github.com/debezium/debezium-server/debezium-server-redis",
 	"license":"Apache 2.0",
-	"ranking":"#819996 in MvnRepository",
+	"ranking":"#450443 in MvnRepository",
 	"tags":[
 		"debezium",
 		"server",
@@ -35,6 +35,38 @@
 		"database"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.2.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251015",
 			"repository":"Central",
@@ -81,6 +113,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.2.5.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -153,46 +193,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"3.2.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0.CR1",
 			"vulnerabilities":""
 		}
 	]

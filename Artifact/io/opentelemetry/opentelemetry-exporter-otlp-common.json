@@ -3,12 +3,12 @@
 	"description":"OpenTelemetry Protocol Exporter",
 	"group_id":"io.opentelemetry",
 	"artifact_id":"opentelemetry-exporter-otlp-common",
-	"version_latest":"1.54.1",
-	"ts_publish":1758227141000,
-	"dt_publish":"2025-09-19 04:25:41.000",
-	"ts_update":1758228339336,
-	"dt_update":"2025-09-19 04:45:28.985",
-	"count_dep":10,
+	"version_latest":"1.57.0",
+	"ts_publish":1764970272000,
+	"dt_publish":"2025-12-06 05:31:12.000",
+	"ts_update":1764973623285,
+	"dt_update":"2025-12-06 06:26:32.002",
+	"count_dep":1,
 	"count_ref":2,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -23,10 +23,10 @@
 		"OpenTelemetry"
 	],
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java.git",
-	"count_used_by":65,
+	"count_used_by":67,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java",
 	"license":"Apache 2.0",
-	"ranking":"#7693 in MvnRepository",
+	"ranking":"#7766 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"export",
@@ -34,6 +34,30 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.56.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"1.55.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250918",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.54.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250905",
 			"repository":"Central",
@@ -46,7 +70,7 @@
 			"date":"20250808",
 			"repository":"Central",
 			"type":"release",
-			"usage":5,
+			"usage":6,
 			"version":"1.53.0",
 			"vulnerabilities":""
 		},
@@ -78,7 +102,7 @@
 			"date":"20250404",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"1.49.0",
 			"vulnerabilities":""
 		},
@@ -102,7 +126,7 @@
 			"date":"20250110",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"1.46.0",
 			"vulnerabilities":""
 		},
@@ -134,7 +158,7 @@
 			"date":"20241011",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"1.43.0",
 			"vulnerabilities":""
 		},
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"1.40.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240607",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"1.39.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240510",
-			"repository":"Central",
-			"type":"release",
-			"usage":13,
-			"version":"1.38.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240408",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"1.37.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"Debezium Db2 connector is an open source change data capture connector for Db2 LUW databases",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-connector-db2",
-	"version_latest":"3.3.1.Final",
-	"ts_publish":1760513115000,
-	"dt_publish":"2025-10-15 15:25:15.000",
-	"ts_update":1760514363313,
-	"dt_update":"2025-10-15 15:45:41.748",
-	"count_dep":43,
+	"version_latest":"3.4.0.Final",
+	"ts_publish":1766048072000,
+	"dt_publish":"2025-12-18 16:54:32.000",
+	"ts_update":1766049930748,
+	"dt_update":"2025-12-18 17:25:13.385",
+	"count_dep":45,
 	"count_ref":0,
 	"licenses":[
 		"Apache Software License 2.0"
@@ -27,10 +27,10 @@
 		"Randall Hauch"
 	],
 	"url_scm":"https://github.com/debezium/debezium-connector-db2",
-	"count_used_by":12,
+	"count_used_by":13,
 	"home_page":"https://debezium.io",
 	"license":"Apache 2.0",
-	"ranking":"#37524 in MvnRepository",
+	"ranking":"#36638 in MvnRepository",
 	"tags":[
 		"database",
 		"connector",
@@ -38,6 +38,54 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.4.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251025",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.3.2.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.3.1.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -76,6 +124,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.5.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -140,62 +196,6 @@
 			"type":"beta",
 			"usage":1,
 			"version":"3.2.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"3.2.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250312",
-			"repository":"Central",
-			"type":"beta",
-			"usage":1,
-			"version":"3.1.0.Beta1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"uw-task包是一个分布式任务框架，通过uw-task可以快速构建基于docker的分布式任务体系，同时支持基于influx的任务运维监控。",
 	"group_id":"com.umtone",
 	"artifact_id":"uw-task",
-	"version_latest":"5.0.120",
-	"ts_publish":1757929429000,
-	"dt_publish":"2025-09-15 17:43:49.000",
-	"ts_update":1757930209218,
-	"dt_update":"2025-09-15 17:56:04.194",
-	"count_dep":106,
+	"version_latest":"5.0.121",
+	"ts_publish":1764065883000,
+	"dt_publish":"2025-11-25 18:18:03.000",
+	"ts_update":1764066394949,
+	"dt_update":"2025-11-25 18:26:29.391",
+	"count_dep":139,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,11 +26,19 @@
 	],
 	"url_scm":"git@github.com:axeon/uw-base.git/uw-task",
 	"license":"Apache 2.0",
-	"ranking":"#485294 in MvnRepository",
+	"ranking":"#694088 in MvnRepository",
 	"tags":[
 		"task"
 	],
 	"versions":[
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.0.120",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250613",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.1.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20170427",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.1.5",
 			"vulnerabilities":""
 		}
 	]

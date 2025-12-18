@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.eclipse.tycho/org.eclipse.tycho.surefire.junit4",
-	"description":"Tycho integrates Maven with Eclipse and OSGi",
 	"group_id":"org.eclipse.tycho",
 	"artifact_id":"org.eclipse.tycho.surefire.junit4",
-	"version_latest":"5.0.0",
-	"ts_publish":1756449396000,
-	"dt_publish":"2025-08-29 14:36:36.000",
-	"ts_update":1756450381658,
-	"dt_update":"2025-08-29 14:52:01.078",
+	"version_latest":"5.0.1",
+	"ts_publish":1764339480000,
+	"dt_publish":"2025-11-28 22:18:00.000",
+	"ts_update":1764340005883,
+	"dt_update":"2025-11-28 22:26:29.395",
 	"count_dep":0,
 	"count_ref":1,
-	"licenses":[
-		"EPL-2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Build Tools"
 	],
@@ -27,13 +24,21 @@
 	"url_ci_management":"https://ci.eclipse.org/tycho",
 	"count_used_by":1,
 	"license":"EPL 2.0",
-	"ranking":"#316255 in MvnRepository",
+	"ranking":"#321697 in MvnRepository",
 	"tags":[
 		"junit",
 		"eclipse",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250524",
 			"repository":"Central",
@@ -184,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220930",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.0",
 			"vulnerabilities":""
 		}
 	]

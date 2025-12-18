@@ -1,14 +1,13 @@
 {
 	"id":"pkg:maven/com.limemojito.oss.standards.aws/ssm-utilities",
-	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build.",
 	"group_id":"com.limemojito.oss.standards.aws",
 	"artifact_id":"ssm-utilities",
-	"version_latest":"15.3.5",
-	"ts_publish":1761605793000,
-	"dt_publish":"2025-10-28 06:56:33.000",
-	"ts_update":1761606878465,
-	"dt_update":"2025-10-28 07:14:28.838",
-	"count_dep":45,
+	"version_latest":"16.0.3",
+	"ts_publish":1764982557000,
+	"dt_publish":"2025-12-06 08:55:57.000",
+	"ts_update":1764983565212,
+	"dt_update":"2025-12-06 09:12:37.817",
+	"count_dep":46,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -22,12 +21,28 @@
 	],
 	"url_scm":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/ssm-utilities",
 	"license":"Apache 2.0",
-	"ranking":"#543242 in MvnRepository",
+	"ranking":"#653057 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"16.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.3.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -171,22 +186,7 @@
 			"usage":0,
 			"version":"14.3.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240914",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"14.2.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240819",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"14.2.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build."
 }

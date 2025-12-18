@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.quarkiverse.jnosql/quarkus-jnosql-core-parent",
-	"description":"Parent project for Quarkus JNoSQL extensions, providing a unified framework for integrating JNoSQL with\n        Quarkus applications.\n        Manages dependencies and configurations for KeyValue, Document, and Column databases, offering seamless\n        integration and enhanced productivity\n        for developers.",
 	"group_id":"io.quarkiverse.jnosql",
 	"artifact_id":"quarkus-jnosql-core-parent",
-	"version_latest":"3.4.10",
-	"ts_publish":1757314423000,
-	"dt_publish":"2025-09-08 14:53:43.000",
-	"ts_update":1757315814465,
-	"dt_update":"2025-09-08 15:15:46.916",
+	"version_latest":"3.4.11",
+	"ts_publish":1763327760000,
+	"dt_publish":"2025-11-17 05:16:00.000",
+	"ts_update":1763328398837,
+	"dt_update":"2025-11-17 05:26:22.350",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.jnosql/quarkus-jnosql-core-parent@3.4.9",
@@ -22,12 +19,28 @@
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-jnosql",
 	"license":"Apache 2.0",
-	"ranking":"#866983 in MvnRepository",
+	"ranking":"#903720 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"nosql"
 	],
 	"versions":[
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.10",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250820",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250731",
 			"repository":"Central",
@@ -170,22 +183,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.0.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230625",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230419",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.1",
 			"vulnerabilities":""
 		}
 	]

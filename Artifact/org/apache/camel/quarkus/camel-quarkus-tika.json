@@ -3,12 +3,12 @@
 	"description":"Parse documents and extract metadata and text using Apache Tika.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-tika",
-	"version_latest":"3.27.0",
-	"ts_publish":1758274043000,
-	"dt_publish":"2025-09-19 17:27:23.000",
-	"ts_update":1761410247879,
-	"dt_update":"2025-10-26 00:19:08.499",
-	"count_dep":86,
+	"version_latest":"3.29.0",
+	"ts_publish":1761219031000,
+	"dt_publish":"2025-10-23 19:30:31.000",
+	"ts_update":1763828410464,
+	"dt_update":"2025-11-23 00:19:22.870",
+	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-tika-parent/camel-quarkus-tika",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#142845 in MvnRepository",
+	"ranking":"#150905 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"tika",
@@ -34,6 +34,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.27.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -80,6 +96,14 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.22.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.20.3",
 			"vulnerabilities":""
 		},
 		{
@@ -168,30 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.15.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240923",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240826",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240729",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.13.0",
 			"vulnerabilities":""
 		}
 	]

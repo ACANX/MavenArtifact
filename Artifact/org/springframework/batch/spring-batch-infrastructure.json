@@ -3,12 +3,12 @@
 	"description":"The Spring Batch Infrastructure is a set of\n\tlow-level components, interfaces and tools for batch processing\n\tapplications and optimisations",
 	"group_id":"org.springframework.batch",
 	"artifact_id":"spring-batch-infrastructure",
-	"version_latest":"6.0.0-RC1",
-	"ts_publish":1761166618000,
-	"dt_publish":"2025-10-23 04:56:58.000",
-	"ts_update":1761173856122,
-	"dt_update":"2025-10-23 06:56:45.895",
-	"count_dep":60,
+	"version_latest":"6.0.1",
+	"ts_publish":1765964267000,
+	"dt_publish":"2025-12-17 17:37:47.000",
+	"ts_update":1765965263197,
+	"dt_update":"2025-12-17 17:54:06.443",
+	"count_dep":63,
 	"count_ref":3,
 	"licenses":[
 		"Apache 2.0"
@@ -35,13 +35,37 @@
 	"count_used_by":98,
 	"home_page":"https://projects.spring.io/spring-batch",
 	"license":"Apache 2.0",
-	"ranking":"#5224 in MvnRepository",
+	"ranking":"#5485 in MvnRepository",
 	"tags":[
 		"spring",
 		"framework",
 		"batch"
 	],
 	"versions":[
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"6.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"6.0.0-RC2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"6.0.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -75,10 +99,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"5.2.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250917",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"5.2.3",
 			"vulnerabilities":""
 		},
@@ -168,38 +200,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"5.0.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230517",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"5.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230223",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"5.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221124",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231122",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.3.10",
 			"vulnerabilities":""
 		}
 	]

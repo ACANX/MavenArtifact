@@ -3,12 +3,12 @@
 	"description":"Spring Cloud Azure Starter for building applications with JDBC and Azure MySQL Services. Support authenticating with Azure AD.",
 	"group_id":"com.azure.spring",
 	"artifact_id":"spring-cloud-azure-starter-jdbc-mysql",
-	"version_latest":"6.0.0",
-	"ts_publish":1758591322000,
-	"dt_publish":"2025-09-23 09:35:22.000",
-	"ts_update":1758592605335,
-	"dt_update":"2025-09-23 09:56:05.018",
-	"count_dep":51,
+	"version_latest":"6.1.0",
+	"ts_publish":1766022170000,
+	"dt_publish":"2025-12-18 09:42:50.000",
+	"ts_update":1766023036980,
+	"dt_update":"2025-12-18 09:56:33.546",
+	"count_dep":73,
 	"count_ref":0,
 	"licenses":[
 		"The MIT License (MIT)"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/Azure/azure-sdk-for-java",
 	"home_page":"https://microsoft.github.io/spring-cloud-azure",
 	"license":"MIT",
-	"ranking":"#623346 in MvnRepository",
+	"ranking":"#832411 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -38,6 +38,14 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20221207",
 			"repository":"Central",
@@ -52,6 +60,22 @@
 			"type":"beta",
 			"usage":0,
 			"version":"6.0.0-beta.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.24.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.24.0",
 			"vulnerabilities":""
 		},
 		{
@@ -172,30 +196,6 @@
 			"type":"beta",
 			"usage":0,
 			"version":"5.12.0-beta.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240329",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240301",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240208",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.9.1",
 			"vulnerabilities":""
 		}
 	]

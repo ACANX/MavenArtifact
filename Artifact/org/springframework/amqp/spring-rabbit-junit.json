@@ -3,13 +3,13 @@
 	"description":"Spring Rabbit JUnit Support",
 	"group_id":"org.springframework.amqp",
 	"artifact_id":"spring-rabbit-junit",
-	"version_latest":"4.0.0-RC1",
-	"ts_publish":1760989458000,
-	"dt_publish":"2025-10-21 03:44:18.000",
-	"ts_update":1760993305083,
-	"dt_update":"2025-10-21 04:48:09.852",
-	"count_dep":0,
-	"count_ref":0,
+	"version_latest":"4.0.1",
+	"ts_publish":1765823159000,
+	"dt_publish":"2025-12-16 02:25:59.000",
+	"ts_update":1765825013311,
+	"dt_update":"2025-12-16 02:56:34.722",
+	"count_dep":48,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -32,7 +32,7 @@
 	"count_used_by":6,
 	"home_page":"https://github.com/spring-projects/spring-amqp",
 	"license":"Apache 2.0",
-	"ranking":"#72434 in MvnRepository",
+	"ranking":"#78421 in MvnRepository",
 	"tags":[
 		"queue",
 		"junit",
@@ -43,6 +43,22 @@
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251117",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.0-RC1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250915",
 			"repository":"Central",
@@ -81,6 +97,14 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"4.0.0-M1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.8",
 			"vulnerabilities":""
 		},
 		{
@@ -177,30 +201,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.1.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241119",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240819",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.1.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240618",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.6",
 			"vulnerabilities":""
 		}
 	]

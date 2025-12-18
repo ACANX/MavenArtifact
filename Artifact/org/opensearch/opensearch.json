@@ -3,13 +3,13 @@
 	"description":"OpenSearch subproject :server",
 	"group_id":"org.opensearch",
 	"artifact_id":"opensearch",
-	"version_latest":"3.3.1",
-	"ts_publish":1761161339000,
-	"dt_publish":"2025-10-23 03:28:59.000",
-	"ts_update":1761162303381,
-	"dt_update":"2025-10-23 03:44:29.444",
-	"count_dep":49,
-	"count_ref":14,
+	"version_latest":"3.4.0",
+	"ts_publish":1765934786000,
+	"dt_publish":"2025-12-17 09:26:26.000",
+	"ts_update":1765936616467,
+	"dt_update":"2025-12-17 09:56:37.986",
+	"count_dep":45,
+	"count_ref":13,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -26,7 +26,7 @@
 	"count_used_by":92,
 	"home_page":"https://github.com/opensearch-project/OpenSearch.git",
 	"license":"Apache 2.0",
-	"ranking":"#5542 in MvnRepository",
+	"ranking":"#5815 in MvnRepository",
 	"tags":[
 		"database",
 		"server",
@@ -36,10 +36,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"3.3.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"3.3.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251015",
 			"repository":"Central",
 			"type":"release",
-			"usage":18,
+			"usage":38,
 			"version":"3.3.0",
 			"vulnerabilities":""
 		},
@@ -81,6 +97,14 @@
 			"type":"alpha",
 			"usage":9,
 			"version":"3.0.0-alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"2.19.4",
 			"vulnerabilities":""
 		},
 		{
@@ -143,7 +167,7 @@
 			"date":"20240808",
 			"repository":"Central",
 			"type":"release",
-			"usage":34,
+			"usage":36,
 			"version":"2.16.0",
 			"vulnerabilities":""
 		},
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":34,
 			"version":"2.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240221",
-			"repository":"Central",
-			"type":"release",
-			"usage":35,
-			"version":"2.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231201",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"2.11.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231016",
-			"repository":"Central",
-			"type":"release",
-			"usage":38,
-			"version":"2.11.0",
 			"vulnerabilities":""
 		}
 	]

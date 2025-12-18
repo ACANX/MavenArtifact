@@ -3,12 +3,12 @@
 	"description":"Apache Syncope Ext: Flowable BPMN",
 	"group_id":"org.apache.syncope.ext.flowable",
 	"artifact_id":"syncope-ext-flowable-bpmn",
-	"version_latest":"4.0.1",
-	"ts_publish":1754637707000,
-	"dt_publish":"2025-08-08 15:21:47.000",
-	"ts_update":1758385127116,
-	"dt_update":"2025-09-21 00:16:50.414",
-	"count_dep":8,
+	"version_latest":"4.0.2",
+	"ts_publish":1760699280000,
+	"dt_publish":"2025-10-17 19:08:00.000",
+	"ts_update":1763830594481,
+	"dt_update":"2025-11-23 00:18:20.960",
+	"count_dep":7,
 	"count_ref":1,
 	"licenses":[],
 	"categories":[
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.syncope.ext.flowable/syncope-ext-flowable-bpmn@4.0.0",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#350384 in MvnRepository",
+	"ranking":"#409306 in MvnRepository",
 	"tags":[
 		"bpm",
 		"bpmn",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -55,6 +63,14 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"4.0.0-M0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221017",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0.0-M1",
 			"vulnerabilities":""
 		}
 	]

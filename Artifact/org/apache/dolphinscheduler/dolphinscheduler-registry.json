@@ -3,12 +3,12 @@
 	"description":"Dolphin Scheduler is a distributed and easy-to-expand visual DAG workflow scheduling system, dedicated\n        to solving the complex dependencies in data processing, making the scheduling system out of the box for data\n        processing.",
 	"group_id":"org.apache.dolphinscheduler",
 	"artifact_id":"dolphinscheduler-registry",
-	"version_latest":"3.3.1",
-	"ts_publish":1755850983000,
-	"dt_publish":"2025-08-22 16:23:03.000",
-	"ts_update":1759430577071,
-	"dt_update":"2025-09-28 00:16:53.381",
-	"count_dep":29,
+	"version_latest":"3.3.2",
+	"ts_publish":1761462187000,
+	"dt_publish":"2025-10-26 15:03:07.000",
+	"ts_update":1765038085261,
+	"dt_update":"2025-12-07 00:19:15.524",
+	"count_dep":20,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -21,13 +21,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.dolphinscheduler/dolphinscheduler-registry@3.3.1",
 	"url_scm":"https://github.com/apache/dolphinscheduler/dolphinscheduler-registry",
 	"license":"Apache 2.0",
-	"ranking":"#640963 in MvnRepository",
+	"ranking":"#843587 in MvnRepository",
 	"tags":[
 		"registry",
 		"scheduling",
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.3.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250822",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220926",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"The Apache Software Foundation provides support for the Apache community of open-source software projects.\n    The Apache projects are characterized by a collaborative, consensus based development process, an open and\n    pragmatic software license, and a desire to create high quality software that leads the way in its field.\n    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers\n    and users.",
 	"group_id":"org.apache.hive.shims",
 	"artifact_id":"hive-shims-common",
-	"version_latest":"4.1.0",
-	"ts_publish":1752915809000,
-	"dt_publish":"2025-07-19 17:03:29.000",
-	"ts_update":1755966986663,
-	"dt_update":"2025-08-24 00:16:25.097",
+	"version_latest":"4.2.0",
+	"ts_publish":1763419428000,
+	"dt_publish":"2025-11-18 06:43:48.000",
+	"ts_update":1765642906922,
+	"dt_update":"2025-12-14 00:21:11.492",
 	"count_dep":153,
-	"count_ref":38,
+	"count_ref":7,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,7 +23,7 @@
 	"count_used_by":39,
 	"home_page":"https://hive.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#12174 in MvnRepository",
+	"ranking":"#12515 in MvnRepository",
 	"tags":[
 		"hadoop",
 		"apache",
@@ -31,10 +31,18 @@
 	],
 	"versions":[
 		{
-			"date":"20250719",
+			"date":"20251123",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"4.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250719",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"4.1.0",
 			"vulnerabilities":""
 		},
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"2.3.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20171109",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.3.2",
 			"vulnerabilities":""
 		}
 	]

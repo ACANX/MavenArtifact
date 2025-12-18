@@ -3,13 +3,13 @@
 	"description":"Keycloak Server",
 	"group_id":"org.keycloak",
 	"artifact_id":"keycloak-quarkus-server",
-	"version_latest":"26.4.2",
-	"ts_publish":1761202190000,
-	"dt_publish":"2025-10-23 14:49:50.000",
-	"ts_update":1761203774618,
-	"dt_update":"2025-10-23 15:16:04.673",
-	"count_dep":429,
-	"count_ref":21,
+	"version_latest":"26.4.7",
+	"ts_publish":1764576118000,
+	"dt_publish":"2025-12-01 16:01:58.000",
+	"ts_update":1764577584252,
+	"dt_update":"2025-12-01 16:26:09.634",
+	"count_dep":422,
+	"count_ref":11,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/keycloak/keycloak/tree/master/keycloak-quarkus-parent/keycloak-quarkus-server/",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#50353 in MvnRepository",
+	"ranking":"#53127 in MvnRepository",
 	"tags":[
 		"server",
 		"quarkus",
@@ -35,12 +35,52 @@
 	],
 	"versions":[
 		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"26.4.4",
+			"vulnerabilities":"1 vulnerability"
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.3",
+			"vulnerabilities":"1 vulnerability"
+		},
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"26.4.2",
+			"vulnerabilities":"2 vulnerabilities"
+		},
+		{
 			"date":"20251016",
 			"repository":"Central",
 			"type":"release",
 			"usage":3,
 			"version":"26.4.1",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250930",
@@ -48,7 +88,7 @@
 			"type":"release",
 			"usage":6,
 			"version":"26.4.0",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250925",
@@ -56,7 +96,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.3.5",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250912",
@@ -64,7 +104,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.3.4",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250820",
@@ -72,7 +112,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.3.3",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250724",
@@ -80,7 +120,7 @@
 			"type":"release",
 			"usage":4,
 			"version":"26.3.2",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250709",
@@ -88,7 +128,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.3.1",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250701",
@@ -96,7 +136,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.3.0",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250528",
@@ -104,7 +144,7 @@
 			"type":"release",
 			"usage":5,
 			"version":"26.2.5",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250508",
@@ -112,7 +152,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.2.4",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250505",
@@ -120,7 +160,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.2.3",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250430",
@@ -128,7 +168,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.2.2",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250423",
@@ -136,7 +176,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.2.1",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250411",
@@ -144,7 +184,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.2.0",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		},
 		{
 			"date":"20250411",
@@ -152,47 +192,7 @@
 			"type":"release",
 			"usage":3,
 			"version":"26.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250313",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.1.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"26.1.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250211",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.1.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250205",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"26.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"26.1.0",
-			"vulnerabilities":""
+			"vulnerabilities":"2 vulnerabilities"
 		}
 	]
 }

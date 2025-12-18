@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.factcast/factcast-core",
-	"description":"factcast is a 'good enough' event store using PostgreSQL\n    for persistence, and offers an GRPC interface and a java client\n    library for rapid application development.",
 	"group_id":"org.factcast",
 	"artifact_id":"factcast-core",
-	"version_latest":"0.9.11",
-	"ts_publish":1761126377000,
-	"dt_publish":"2025-10-22 17:46:17.000",
-	"ts_update":1761126998374,
-	"dt_update":"2025-10-22 17:56:25.805",
-	"count_dep":28,
-	"count_ref":26,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"0.9.12",
+	"ts_publish":1763388612000,
+	"dt_publish":"2025-11-17 22:10:12.000",
+	"ts_update":1763389600140,
+	"dt_update":"2025-11-17 22:26:28.629",
+	"count_dep":21,
+	"count_ref":18,
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,8 +23,16 @@
 	"url_scm":"https://github.com/factcast/factcast.git/factcast-core",
 	"count_used_by":30,
 	"license":"Apache 2.0",
-	"ranking":"#15782 in MvnRepository",
+	"ranking":"#16064 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":12,
+			"version":"0.9.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250825",
 			"repository":"Central",
@@ -178,14 +183,6 @@
 			"type":"milestone",
 			"usage":6,
 			"version":"0.8.0-M1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240701",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"0.7.9.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"This module contains the mechanism for loading flink-table-planner through a separate classloader.\n\t\tThis allows arbitrary Scala versions in the classpath, hiding the Scala version used by the planner.",
 	"group_id":"org.apache.flink",
 	"artifact_id":"flink-table-planner-loader",
-	"version_latest":"2.1.0",
-	"ts_publish":1753099771000,
-	"dt_publish":"2025-07-21 20:09:31.000",
-	"ts_update":1757176535740,
-	"dt_update":"2025-09-07 00:16:25.803",
+	"version_latest":"2.1.1",
+	"ts_publish":1760468124000,
+	"dt_publish":"2025-10-15 02:55:24.000",
+	"ts_update":1763226777229,
+	"dt_update":"2025-11-16 00:17:29.028",
 	"count_dep":53,
 	"count_ref":1,
 	"licenses":[
@@ -24,7 +24,7 @@
 	"count_used_by":55,
 	"home_page":"https://flink.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#8894 in MvnRepository",
+	"ranking":"#9284 in MvnRepository",
 	"tags":[
 		"loader",
 		"flink",
@@ -34,11 +34,27 @@
 	],
 	"versions":[
 		{
-			"date":"20250721",
+			"date":"20251030",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250721",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.0.1",
 			"vulnerabilities":""
 		},
 		{
@@ -55,6 +71,14 @@
 			"type":"preview",
 			"usage":1,
 			"version":"2.0-preview1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250920",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.20.3",
 			"vulnerabilities":""
 		},
 		{
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230130",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"1.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221026",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"1.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230314",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.15.4",
 			"vulnerabilities":""
 		}
 	]

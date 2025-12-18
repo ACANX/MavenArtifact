@@ -3,13 +3,13 @@
 	"description":"edc :: jwt-spi",
 	"group_id":"org.eclipse.edc",
 	"artifact_id":"jwt-spi",
-	"version_latest":"0.14.0",
-	"ts_publish":1755599810000,
-	"dt_publish":"2025-08-19 18:36:50.000",
-	"ts_update":1755601012809,
-	"dt_update":"2025-08-19 18:55:55.136",
+	"version_latest":"0.15.1",
+	"ts_publish":1765989492000,
+	"dt_publish":"2025-12-18 00:38:12.000",
+	"ts_update":1765990793411,
+	"dt_update":"2025-12-18 00:59:37.742",
 	"count_dep":9,
-	"count_ref":10,
+	"count_ref":11,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,16 +23,40 @@
 		"Markus Spiekermann"
 	],
 	"url_scm":"https://github.com/eclipse-edc/Connector.git",
-	"count_used_by":46,
+	"count_used_by":50,
 	"home_page":"https://projects.eclipse.org/projects/technology.edc",
 	"license":"Apache 2.0",
-	"ranking":"#10321 in MvnRepository",
+	"ranking":"#10103 in MvnRepository",
 	"tags":[
 		"interface",
 		"eclipse",
 		"jwt"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"0.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":20,
+			"version":"0.14.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250819",
+			"repository":"Central",
+			"type":"release",
+			"usage":24,
+			"version":"0.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250730",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"0.6.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240415",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"0.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240327",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"0.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240212",
-			"repository":"Central",
-			"type":"release",
-			"usage":15,
-			"version":"0.5.1",
 			"vulnerabilities":""
 		}
 	]

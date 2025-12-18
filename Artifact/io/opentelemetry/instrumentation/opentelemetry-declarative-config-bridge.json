@@ -3,13 +3,13 @@
 	"description":"Instrumentation of Java libraries using OpenTelemetry.",
 	"group_id":"io.opentelemetry.instrumentation",
 	"artifact_id":"opentelemetry-declarative-config-bridge",
-	"version_latest":"2.21.0-alpha",
-	"ts_publish":1760749781000,
-	"dt_publish":"2025-10-18 09:09:41.000",
-	"ts_update":1760750790793,
-	"dt_update":"2025-10-18 09:26:24.010",
+	"version_latest":"2.23.0-alpha",
+	"ts_publish":1765578873000,
+	"dt_publish":"2025-12-13 06:34:33.000",
+	"ts_update":1765581434449,
+	"dt_update":"2025-12-13 07:16:47.907",
 	"count_dep":2,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -23,10 +23,10 @@
 		"OpenTelemetry"
 	],
 	"url_scm":"git@github.com:open-telemetry/opentelemetry-java-instrumentation.git",
-	"count_used_by":1,
+	"count_used_by":2,
 	"home_page":"https://github.com/open-telemetry/opentelemetry-java-instrumentation",
 	"license":"Apache 2.0",
-	"ranking":"#379325 in MvnRepository",
+	"ranking":"#192486 in MvnRepository",
 	"tags":[
 		"monitoring",
 		"bridge",
@@ -36,6 +36,22 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"2.22.0-alpha",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"2.21.0-alpha",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",

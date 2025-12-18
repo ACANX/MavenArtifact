@@ -3,12 +3,12 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-mongodb-deployment",
-	"version_latest":"3.27.0",
-	"ts_publish":1758272767000,
-	"dt_publish":"2025-09-19 17:06:07.000",
-	"ts_update":1761409200263,
-	"dt_update":"2025-10-26 00:18:39.502",
-	"count_dep":190,
+	"version_latest":"3.29.0",
+	"ts_publish":1761217399000,
+	"dt_publish":"2025-10-23 19:03:19.000",
+	"ts_update":1763830593304,
+	"dt_update":"2025-11-23 00:19:00.645",
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-mongodb-parent/camel-quarkus-support-mongodb-deployment",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#243905 in MvnRepository",
+	"ranking":"#176416 in MvnRepository",
 	"tags":[
 		"database",
 		"support",
@@ -37,6 +37,22 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.27.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -83,6 +99,14 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.22.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.20.3",
 			"vulnerabilities":""
 		},
 		{
@@ -171,30 +195,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.15.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240923",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240826",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240729",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.13.0",
 			"vulnerabilities":""
 		}
 	]

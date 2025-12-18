@@ -3,11 +3,11 @@
 	"description":"Apache Syncope Ext: SAML2 SP4UI Logic",
 	"group_id":"org.apache.syncope.ext.saml2sp4ui",
 	"artifact_id":"syncope-ext-saml2sp4ui-logic",
-	"version_latest":"4.0.1",
-	"ts_publish":1754637760000,
-	"dt_publish":"2025-08-08 15:22:40.000",
-	"ts_update":1758386777044,
-	"dt_update":"2025-09-21 00:16:51.159",
+	"version_latest":"4.0.2",
+	"ts_publish":1760699332000,
+	"dt_publish":"2025-10-17 19:08:52.000",
+	"ts_update":1763828825652,
+	"dt_update":"2025-11-23 00:18:21.777",
 	"count_dep":3,
 	"count_ref":1,
 	"licenses":[],
@@ -22,7 +22,7 @@
 	"url_ci_management":"https://ci-builds.apache.org./job/Syncope/",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#287238 in MvnRepository",
+	"ranking":"#289710 in MvnRepository",
 	"tags":[
 		"security",
 		"saml",
@@ -30,6 +30,14 @@
 		"apache"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -60,6 +68,14 @@
 			"type":"milestone",
 			"usage":1,
 			"version":"4.0.0-M0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221017",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":1,
-			"version":"3.0.0-M1",
 			"vulnerabilities":""
 		}
 	]

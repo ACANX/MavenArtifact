@@ -3,11 +3,11 @@
 	"description":"This POM defines the required plugins and profiles to allow a Camunda Community Hub release build.\n        Inherit this POM when you want to use https://github.com/camunda-community-hub/community-action-maven-release",
 	"group_id":"io.camunda.spring",
 	"artifact_id":"spring-boot-starter-camunda-test",
-	"version_latest":"8.5.22",
-	"ts_publish":1757019769000,
-	"dt_publish":"2025-09-05 05:02:49.000",
-	"ts_update":1757021204027,
-	"dt_update":"2025-09-05 05:26:05.226",
+	"version_latest":"8.5.23",
+	"ts_publish":1764340421000,
+	"dt_publish":"2025-11-28 22:33:41.000",
+	"ts_update":1764341344990,
+	"dt_update":"2025-11-28 22:48:48.118",
 	"count_dep":181,
 	"count_ref":0,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/camunda-community-hub/spring-zeebe/spring-boot-starter-camunda-test",
 	"count_used_by":9,
 	"license":"Apache",
-	"ranking":"#49739 in MvnRepository",
+	"ranking":"#53152 in MvnRepository",
 	"tags":[
 		"spring",
 		"testing",
@@ -35,10 +35,18 @@
 	],
 	"versions":[
 		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.5.22",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250808",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":3,
 			"version":"8.5.21",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.5.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240612",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"8.5.5",
 			"vulnerabilities":""
 		}
 	]

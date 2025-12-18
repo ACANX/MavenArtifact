@@ -3,11 +3,11 @@
 	"description":"Library for recovering stack trace in exceptions thrown in Kotlin coroutines.",
 	"group_id":"dev.reformator.stacktracedecoroutinator",
 	"artifact_id":"stacktrace-decoroutinator-spec-method-builder",
-	"version_latest":"2.5.8",
-	"ts_publish":1762174065000,
-	"dt_publish":"2025-11-03 20:47:45.000",
-	"ts_update":1762175869967,
-	"dt_update":"2025-11-03 21:17:31.677",
+	"version_latest":"2.6.0",
+	"ts_publish":1765220820000,
+	"dt_publish":"2025-12-09 03:07:00.000",
+	"ts_update":1765222004534,
+	"dt_update":"2025-12-09 03:26:33.017",
 	"count_dep":7,
 	"count_ref":2,
 	"licenses":[
@@ -22,5 +22,33 @@
 	"contributors":[
 		"Denis Berestinskii"
 	],
-	"url_scm":"http://github.com/Anamorphosee/stacktrace-decoroutinator/tree/master"
+	"url_scm":"http://github.com/Anamorphosee/stacktrace-decoroutinator/tree/master",
+	"count_used_by":2,
+	"home_page":"https://github.com/Anamorphosee/stacktrace-decoroutinator",
+	"license":"Apache 2.0",
+	"ranking":"#180455 in MvnRepository",
+	"tags":[
+		"method",
+		"build",
+		"builder",
+		"stacktrace"
+	],
+	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.5.9",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.5.8",
+			"vulnerabilities":""
+		}
+	]
 }

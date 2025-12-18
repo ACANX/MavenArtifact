@@ -2,19 +2,21 @@
 	"id":"pkg:maven/io.holunda.camunda-api/camunda-bpm-engine-api",
 	"group_id":"io.holunda.camunda-api",
 	"artifact_id":"camunda-bpm-engine-api",
-	"version_latest":"2025.10.1",
-	"ts_publish":1761923654000,
-	"dt_publish":"2025-10-31 23:14:14.000",
-	"ts_update":1761924871614,
-	"dt_update":"2025-10-31 23:34:12.454",
-	"count_dep":6,
+	"version_latest":"2025.12.1",
+	"ts_publish":1764945523000,
+	"dt_publish":"2025-12-05 22:38:43.000",
+	"ts_update":1764947916428,
+	"dt_update":"2025-12-05 23:18:17.380",
+	"count_dep":11,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.holunda.camunda-api/camunda-bpm-engine-api@2025.10.1",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#203356 in MvnRepository",
+	"ranking":"#234536 in MvnRepository",
 	"tags":[
 		"bpm",
 		"camunda",
@@ -22,6 +24,14 @@
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2025.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250711",
 			"repository":"Central",
@@ -134,5 +144,6 @@
 			"version":"7.14",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Camunda BPM Engine API"
 }

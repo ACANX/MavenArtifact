@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-core-deployment",
 	"group_id":"io.quarkiverse.mcp",
 	"artifact_id":"quarkus-mcp-server-core-deployment",
-	"version_latest":"1.7.0",
-	"ts_publish":1760520080000,
-	"dt_publish":"2025-10-15 17:21:20.000",
-	"ts_update":1760520899715,
-	"dt_update":"2025-10-15 17:34:47.759",
-	"count_dep":6,
-	"count_ref":5,
-	"licenses":[],
+	"version_latest":"1.8.1",
+	"ts_publish":1765370779000,
+	"dt_publish":"2025-12-10 20:46:19.000",
+	"ts_update":1765371413022,
+	"dt_update":"2025-12-10 20:56:36.383",
+	"count_dep":137,
+	"count_ref":4,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-core-deployment@1.5.1",
@@ -18,15 +20,55 @@
 		"Quarkus Community"
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-mcp-server",
-	"count_used_by":3,
+	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#138392 in MvnRepository",
+	"ranking":"#96146 in MvnRepository",
 	"tags":[
 		"deployment",
 		"server",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.7.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.7.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.7.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.7.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251008",
 			"repository":"Central",
@@ -146,46 +188,7 @@
 			"usage":2,
 			"version":"1.1.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250410",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250326",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"1.0.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250313",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"1.0.0.Beta5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250228",
-			"repository":"Central",
-			"type":"beta",
-			"usage":2,
-			"version":"1.0.0.Beta4",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

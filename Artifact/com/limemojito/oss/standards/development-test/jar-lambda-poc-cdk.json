@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/com.limemojito.oss.standards.development-test/jar-lambda-poc-cdk",
-	"description":"* A basic setup for cdk development using a simple automated deployment to the \"current\" account as setup in\n        aws credentials. Requires cdk.json file to be configured to match pom.xml. Example cdk.json file included\n        for java based cdk deployment using maven. Note JAVA_HOME must be set to match the version of java in use so\n        that CDK's spawned maven process does not become confused with the compile java version.\n        * Packaging for child projects should be jar.\n        * Set cdk main class in properties of pom.xml.\n        * Code jar dependencies as dependencies, these will be included in the build to target/dependencies which may\n        be referenced from CDK code.\n        * See development-test/jar-lambda-poc-cdk for an example.",
 	"group_id":"com.limemojito.oss.standards.development-test",
 	"artifact_id":"jar-lambda-poc-cdk",
-	"version_latest":"15.3.5",
-	"ts_publish":1761605793000,
-	"dt_publish":"2025-10-28 06:56:33.000",
-	"ts_update":1761606888020,
-	"dt_update":"2025-10-28 07:14:28.836",
-	"count_dep":96,
+	"version_latest":"17.0.0",
+	"ts_publish":1765245739000,
+	"dt_publish":"2025-12-09 10:02:19.000",
+	"ts_update":1765247236351,
+	"dt_update":"2025-12-09 10:26:31.022",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/java-cdk-development/jar-lambda-poc-cdk",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.limemojito.oss.standards.development-test/jar-lambda-poc-cdk@15.3.2",
@@ -22,13 +19,37 @@
 	],
 	"url_scm":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/java-cdk-development/jar-lambda-poc-cdk",
 	"license":"Apache 2.0",
-	"ranking":"#904677 in MvnRepository",
+	"ranking":"#486161 in MvnRepository",
 	"tags":[
 		"lambda",
 		"cdk",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"16.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"16.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.3.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -163,30 +184,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"15.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240917",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"14.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240914",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"14.2.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240819",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"14.2.1",
 			"vulnerabilities":""
 		}
 	]

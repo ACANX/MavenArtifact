@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/io.mokamint/io-mokamint-node-cli",
-	"description":"This module implements a command-line tool for controlling Mokamint nodes.",
+	"description":"This module implements the command-line tool for Mokamint nodes.",
 	"group_id":"io.mokamint",
 	"artifact_id":"io-mokamint-node-cli",
-	"version_latest":"1.6.1",
-	"ts_publish":1761743373000,
-	"dt_publish":"2025-10-29 21:09:33.000",
-	"ts_update":1761745679875,
-	"dt_update":"2025-10-29 21:47:21.743",
-	"count_dep":75,
+	"version_latest":"1.6.3",
+	"ts_publish":1763997065000,
+	"dt_publish":"2025-11-24 23:11:05.000",
+	"ts_update":1763998003978,
+	"dt_update":"2025-11-24 23:26:31.907",
+	"count_dep":70,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -22,13 +22,29 @@
 	"url_scm":"https://github.com/Mokamint-chain/mokamint/io-mokamint-node-cli",
 	"home_page":"https://github.com/Mokamint-chain/mokamint/io-mokamint-node-cli",
 	"license":"Apache 2.0",
-	"ranking":"#547525 in MvnRepository",
+	"ranking":"#354018 in MvnRepository",
 	"tags":[
 		"io",
 		"node",
 		"command-line"
 	],
 	"versions":[
+		{
+			"date":"20251113",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.6.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.6.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250925",
 			"repository":"Central",
@@ -117,5 +133,6 @@
 			"version":"1.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }

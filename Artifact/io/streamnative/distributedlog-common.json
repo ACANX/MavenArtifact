@@ -3,13 +3,13 @@
 	"description":"Apache DistributedLog provides a high performance replicated log service.",
 	"group_id":"io.streamnative",
 	"artifact_id":"distributedlog-common",
-	"version_latest":"4.17.2.3",
-	"ts_publish":1758512279000,
-	"dt_publish":"2025-09-22 11:37:59.000",
-	"ts_update":1758513371203,
-	"dt_update":"2025-09-22 11:55:06.407",
-	"count_dep":44,
-	"count_ref":13,
+	"version_latest":"4.17.2.5",
+	"ts_publish":1764036821000,
+	"dt_publish":"2025-11-25 10:13:41.000",
+	"ts_update":1764037611216,
+	"dt_update":"2025-11-25 10:26:29.348",
+	"count_dep":26,
+	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,11 +27,27 @@
 	"url_ci_management":"https://builds.apache.org/job/bookkeeper-master",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#185657 in MvnRepository",
+	"ranking":"#217316 in MvnRepository",
 	"tags":[
 		"distributed"
 	],
 	"versions":[
+		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.17.2.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.17.2.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.15.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230531",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.15.4.1_arrowstreet",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240411",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.14.8.1",
 			"vulnerabilities":""
 		}
 	]

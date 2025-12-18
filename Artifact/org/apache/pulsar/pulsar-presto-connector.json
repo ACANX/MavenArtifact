@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.apache.pulsar/pulsar-presto-connector",
-	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-presto-connector",
-	"version_latest":"3.0.14",
-	"ts_publish":1758665152000,
-	"dt_publish":"2025-09-24 06:05:52.000",
-	"ts_update":1762015005202,
-	"dt_update":"2025-11-02 00:17:09.188",
-	"count_dep":175,
+	"version_latest":"3.0.15",
+	"ts_publish":1762898628000,
+	"dt_publish":"2025-11-12 06:03:48.000",
+	"ts_update":1765644221311,
+	"dt_update":"2025-12-14 00:20:49.601",
+	"count_dep":2,
 	"count_ref":0,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Transport"
 	],
@@ -24,7 +21,7 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#384910 in MvnRepository",
+	"ranking":"#390762 in MvnRepository",
 	"tags":[
 		"apache",
 		"connector",
@@ -63,6 +60,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -183,14 +188,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.11.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240103",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.11.3",
 			"vulnerabilities":""
 		}
 	]

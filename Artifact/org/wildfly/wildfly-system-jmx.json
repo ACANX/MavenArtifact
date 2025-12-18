@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.wildfly/wildfly-system-jmx",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-system-jmx",
-	"version_latest":"38.0.0.Final",
-	"ts_publish":1761302373000,
-	"dt_publish":"2025-10-24 18:39:33.000",
-	"ts_update":1761303402760,
-	"dt_update":"2025-10-24 18:56:25.907",
-	"count_dep":3,
-	"count_ref":0,
-	"licenses":[],
+	"version_latest":"38.0.1.Final",
+	"ts_publish":1763402037000,
+	"dt_publish":"2025-11-18 01:53:57.000",
+	"ts_update":1763403841184,
+	"dt_update":"2025-11-18 02:23:26.040",
+	"count_dep":4,
+	"count_ref":1,
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -191,5 +193,6 @@
 			"version":"32.0.0.Beta1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"WildFly: Parent Aggregator"
 }

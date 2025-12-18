@@ -3,11 +3,11 @@
 	"description":"Snowflake JDBC Driver Thin",
 	"group_id":"net.snowflake",
 	"artifact_id":"snowflake-jdbc-thin",
-	"version_latest":"3.27.1",
-	"ts_publish":1761824897000,
-	"dt_publish":"2025-10-30 19:48:17.000",
-	"ts_update":1761827213785,
-	"dt_update":"2025-10-30 20:26:15.412",
+	"version_latest":"3.28.0",
+	"ts_publish":1765834295000,
+	"dt_publish":"2025-12-16 05:31:35.000",
+	"ts_update":1765835817052,
+	"dt_update":"2025-12-16 05:56:33.113",
 	"count_dep":133,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"Snowflake Support Team"
 	],
 	"url_scm":"http://github.com/snowflakedb/snowflake-jdbc/tree/master",
-	"count_used_by":3,
+	"count_used_by":6,
 	"home_page":"https://www.snowflake.net/",
 	"license":"Apache 2.0",
-	"ranking":"#164459 in MvnRepository",
+	"ranking":"#82820 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -34,6 +34,14 @@
 		"snowflake"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.27.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251006",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.19.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.18.1",
 			"vulnerabilities":""
 		}
 	]

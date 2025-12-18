@@ -3,13 +3,13 @@
 	"description":"A set of SPIs for managing distributable @Stateful bean instances for use by the the distributed Jakarta Enterprise Beans cache implementation found in the wildfly-ejb3 module.\n        This module decouples the mechanism for managing @Stateful bean instances from the Jakarta Enterprise Beans subsystem.",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-clustering-ejb-spi",
-	"version_latest":"38.0.0.Beta1",
-	"ts_publish":1759315079000,
-	"dt_publish":"2025-10-01 18:37:59.000",
-	"ts_update":1759321987827,
-	"dt_update":"2025-10-01 18:56:04.545",
+	"version_latest":"38.0.1.Final",
+	"ts_publish":1763402038000,
+	"dt_publish":"2025-11-18 01:53:58.000",
+	"ts_update":1763403816177,
+	"dt_update":"2025-11-18 02:23:22.915",
 	"count_dep":16,
-	"count_ref":1,
+	"count_ref":4,
 	"licenses":[],
 	"categories":[
 		"Application and Server Management"
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-clustering-ejb-spi@37.0.0.Final",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#39560 in MvnRepository",
+	"ranking":"#39306 in MvnRepository",
 	"tags":[
 		"interface",
 		"wildfly",
@@ -26,6 +26,22 @@
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"38.0.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"38.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"32.0.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240405",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"32.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"31.0.1.Final",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Debezium Parent Module for Quarkus extensions",
 	"group_id":"io.debezium.quarkus",
 	"artifact_id":"quarkus-debezium-testsuite-integration-tests",
-	"version_latest":"3.4.0.Alpha2",
-	"ts_publish":1762338801000,
-	"dt_publish":"2025-11-05 18:33:21.000",
-	"ts_update":1762340014619,
-	"dt_update":"2025-11-05 18:53:11.705",
+	"version_latest":"3.4.0.Final",
+	"ts_publish":1766045726000,
+	"dt_publish":"2025-12-18 16:15:26.000",
+	"ts_update":1766046405423,
+	"dt_update":"2025-12-18 16:26:34.929",
 	"count_dep":137,
-	"count_ref":6,
+	"count_ref":5,
 	"licenses":[
 		"Apache Software License 2.0"
 	],
@@ -22,9 +22,9 @@
 		"Randall Hauch"
 	],
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/quarkus-debezium-parent/quarkus-debezium-testsuite-parent/quarkus-debezium-testsuite-integration-tests",
-	"count_used_by":1,
+	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#389457 in MvnRepository",
+	"ranking":"#125248 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"integration",
@@ -32,6 +32,30 @@
 		"debezium"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"3.4.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":4,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":4,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",

@@ -3,13 +3,13 @@
 	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API.",
 	"group_id":"com.ascentstream.pulsar",
 	"artifact_id":"pulsar-client-admin-original",
-	"version_latest":"3.0.14.0",
-	"ts_publish":1758017378000,
-	"dt_publish":"2025-09-16 18:09:38.000",
-	"ts_update":1758018413229,
-	"dt_update":"2025-09-16 18:26:05.394",
-	"count_dep":111,
-	"count_ref":4,
+	"version_latest":"3.0.16.0",
+	"ts_publish":1764748688000,
+	"dt_publish":"2025-12-03 15:58:08.000",
+	"ts_update":1764750249737,
+	"dt_update":"2025-12-03 16:24:01.280",
+	"count_dep":54,
+	"count_ref":6,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -21,13 +21,29 @@
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#79542 in MvnRepository",
+	"ranking":"#75910 in MvnRepository",
 	"tags":[
 		"admin",
 		"client",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.0.14.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.0.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250624",
 			"repository":"Central",
@@ -170,22 +186,6 @@
 			"type":"snapshot",
 			"usage":5,
 			"version":"2.10.7.1-SNAPSHOT-3c76893",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240528",
-			"repository":"Central",
-			"type":"snapshot",
-			"usage":5,
-			"version":"2.10.7.1-SNAPSHOT-8da4484",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240229",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.10.6.10",
 			"vulnerabilities":""
 		}
 	]

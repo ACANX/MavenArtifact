@@ -3,12 +3,12 @@
 	"description":"is a statistical, low-overhead profiler that continuously gathers CPU usage and memory-allocation information from your production applications. It attributes that information to the application's source code, helping you identify the parts of the application consuming the most resources, and otherwise illuminating the performance characteristics of the code.",
 	"group_id":"com.google.cloud",
 	"artifact_id":"google-cloud-profiler",
-	"version_latest":"2.78.0",
-	"ts_publish":1761080831000,
-	"dt_publish":"2025-10-22 05:07:11.000",
-	"ts_update":1761082028843,
-	"dt_update":"2025-10-22 05:26:28.326",
-	"count_dep":82,
+	"version_latest":"2.80.0",
+	"ts_publish":1763182743000,
+	"dt_publish":"2025-11-15 12:59:03.000",
+	"ts_update":1763184935705,
+	"dt_update":"2025-11-15 13:34:38.555",
+	"count_dep":77,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -27,13 +27,21 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/googleapis/google-cloud-java",
 	"license":"Apache 2.0",
-	"ranking":"#347980 in MvnRepository",
+	"ranking":"#350823 in MvnRepository",
 	"tags":[
 		"google",
 		"profiling",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.78.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251014",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.57.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250110",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.56.0",
 			"vulnerabilities":""
 		}
 	]

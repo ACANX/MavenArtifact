@@ -3,13 +3,13 @@
 	"description":"This module only exists to house quarkus-apache-httpclient as a conditional dependency",
 	"group_id":"io.quarkiverse.amazonservices",
 	"artifact_id":"quarkus-amazon-apache-client-internal-deployment",
-	"version_latest":"3.12.0",
-	"ts_publish":1761169180000,
-	"dt_publish":"2025-10-23 05:39:40.000",
-	"ts_update":1761173824156,
-	"dt_update":"2025-10-23 06:56:31.309",
+	"version_latest":"3.12.1",
+	"ts_publish":1762984317000,
+	"dt_publish":"2025-11-13 05:51:57.000",
+	"ts_update":1762985848507,
+	"dt_update":"2025-11-13 06:16:20.114",
 	"count_dep":4,
-	"count_ref":1,
+	"count_ref":2,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-apache-client-internal-deployment@3.11.0",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#226339 in MvnRepository",
+	"ranking":"#216137 in MvnRepository",
 	"tags":[
 		"amazon",
 		"deployment",
@@ -27,6 +27,14 @@
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.12.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251018",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241027",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.1",
 			"vulnerabilities":""
 		}
 	]

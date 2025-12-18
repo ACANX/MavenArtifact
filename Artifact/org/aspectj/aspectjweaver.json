@@ -3,11 +3,11 @@
 	"description":"The AspectJ weaver applies aspects to Java classes. It can be used as a Java agent in order to apply load-time\n\t\tweaving (LTW) during class-loading and also contains the AspectJ runtime classes.",
 	"group_id":"org.aspectj",
 	"artifact_id":"aspectjweaver",
-	"version_latest":"1.9.25",
-	"ts_publish":1762226258000,
-	"dt_publish":"2025-11-04 11:17:38.000",
-	"ts_update":1762239365295,
-	"dt_update":"2025-11-04 14:55:37.269",
+	"version_latest":"1.9.25.1",
+	"ts_publish":1765930809000,
+	"dt_publish":"2025-12-17 08:20:09.000",
+	"ts_update":1765933038205,
+	"dt_update":"2025-12-17 08:56:53.678",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -24,7 +24,7 @@
 		"Alexander Kriegisch"
 	],
 	"url_scm":"https://github.com/eclipse/org.aspectj",
-	"count_used_by":3974,
+	"count_used_by":4009,
 	"home_page":"https://www.eclipse.org/aspectj/",
 	"license":"EPL 2.0",
 	"ranking":"#151 in MvnRepository",
@@ -36,10 +36,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":54,
+			"version":"1.9.25",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250412",
 			"repository":"Central",
 			"type":"release",
-			"usage":574,
+			"usage":579,
 			"version":"1.9.24",
 			"vulnerabilities":""
 		},
@@ -63,7 +71,7 @@
 			"date":"20240323",
 			"repository":"Central",
 			"type":"release",
-			"usage":502,
+			"usage":505,
 			"version":"1.9.22",
 			"vulnerabilities":""
 		},
@@ -111,7 +119,7 @@
 			"date":"20230904",
 			"repository":"Central",
 			"type":"release",
-			"usage":478,
+			"usage":481,
 			"version":"1.9.20.1",
 			"vulnerabilities":""
 		},
@@ -127,7 +135,7 @@
 			"date":"20221221",
 			"repository":"Central",
 			"type":"release",
-			"usage":628,
+			"usage":629,
 			"version":"1.9.19",
 			"vulnerabilities":""
 		},
@@ -185,14 +193,6 @@
 			"type":"milestone",
 			"usage":5,
 			"version":"1.9.8.M1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210625",
-			"repository":"Central",
-			"type":"release",
-			"usage":896,
-			"version":"1.9.7",
 			"vulnerabilities":""
 		}
 	]

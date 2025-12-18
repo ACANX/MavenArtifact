@@ -3,11 +3,11 @@
 	"description":"A table format for huge analytic datasets",
 	"group_id":"com.linkedin.iceberg",
 	"artifact_id":"iceberg-spark-runtime-3.1_2.12",
-	"version_latest":"1.2.0.4",
-	"ts_publish":1758815947000,
-	"dt_publish":"2025-09-25 23:59:07.000",
-	"ts_update":1758818790790,
-	"dt_update":"2025-09-26 00:18:52.053",
+	"version_latest":"1.2.0.9",
+	"ts_publish":1766014107000,
+	"dt_publish":"2025-12-18 07:28:27.000",
+	"ts_update":1766017587617,
+	"dt_update":"2025-12-18 08:26:22.382",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -28,10 +28,10 @@
 	],
 	"url_scm":"https://github.com/linkedin/iceberg.git",
 	"url_ci_management":"https://github.com/linkedin/iceberg/actions",
-	"count_used_by":1,
+	"count_used_by":4,
 	"home_page":"https://github.com/linkedin/iceberg",
 	"license":"Apache 2.0",
-	"ranking":"#342963 in MvnRepository",
+	"ranking":"#127113 in MvnRepository",
 	"tags":[
 		"linkedin",
 		"spark",
@@ -40,19 +40,35 @@
 	],
 	"versions":[
 		{
-			"date":"20250923",
+			"date":"20251215",
 			"repository":"Central",
-			"type":"beta",
+			"type":"release",
 			"usage":0,
-			"version":"vv1.2.0.1-1-gadc43b8-1-gf...",
+			"version":"1.2.0.8",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250922",
+			"date":"20251211",
 			"repository":"Central",
-			"type":"beta",
+			"type":"release",
 			"usage":0,
-			"version":"v1.2.0.1-1-gadc43b8",
+			"version":"1.2.0.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.2.0.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"1.2.0.4",
 			"vulnerabilities":""
 		},
 		{
@@ -157,6 +173,22 @@
 			"type":"release",
 			"usage":0,
 			"version":"0.14.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"vv1.2.0.1-1-gadc43b8-1-gf...",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"v1.2.0.1-1-gadc43b8",
 			"vulnerabilities":""
 		}
 	]

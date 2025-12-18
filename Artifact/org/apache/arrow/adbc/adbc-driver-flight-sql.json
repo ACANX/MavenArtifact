@@ -3,11 +3,11 @@
 	"description":"An ADBC driver wrapping Flight SQL.",
 	"group_id":"org.apache.arrow.adbc",
 	"artifact_id":"adbc-driver-flight-sql",
-	"version_latest":"0.20.0",
-	"ts_publish":1757399313000,
-	"dt_publish":"2025-09-09 14:28:33.000",
-	"ts_update":1760200010751,
-	"dt_update":"2025-10-12 00:16:39.155",
+	"version_latest":"0.21.0",
+	"ts_publish":1762154143000,
+	"dt_publish":"2025-11-03 15:15:43.000",
+	"ts_update":1765645019219,
+	"dt_update":"2025-12-14 00:20:09.053",
 	"count_dep":57,
 	"count_ref":1,
 	"licenses":[
@@ -20,7 +20,7 @@
 	"url_scm":"https://github.com/apache/arrow-adbc/adbc-driver-flight-sql",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#340039 in MvnRepository",
+	"ranking":"#305750 in MvnRepository",
 	"tags":[
 		"sql",
 		"driver",
@@ -28,6 +28,14 @@
 		"arrow"
 	],
 	"versions":[
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.21.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250909",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230215",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"0.2.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"Smack IM.\nClasses and methods for XMPP-IM (RFC 6121):\nRoster, Chat and other functionality.",
 	"group_id":"org.igniterealtime.smack",
 	"artifact_id":"smack-im",
-	"version_latest":"4.5.0-beta9",
-	"ts_publish":1760272355000,
-	"dt_publish":"2025-10-12 20:32:35.000",
-	"ts_update":1760273782982,
-	"dt_update":"2025-10-12 20:56:13.239",
+	"version_latest":"4.5.0-rc1",
+	"ts_publish":1762881027000,
+	"dt_publish":"2025-11-12 01:10:27.000",
+	"ts_update":1762881998154,
+	"dt_update":"2025-11-12 01:26:26.194",
 	"count_dep":8,
-	"count_ref":4,
+	"count_ref":5,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
 	],
@@ -27,8 +27,16 @@
 	"count_used_by":31,
 	"home_page":"http://www.igniterealtime.org/projects/smack/",
 	"license":"Apache 2.0",
-	"ranking":"#15078 in MvnRepository",
+	"ranking":"#15357 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251012",
+			"repository":"Central",
+			"type":"beta",
+			"usage":4,
+			"version":"4.5.0-beta9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"4.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20201206",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.4.0",
 			"vulnerabilities":""
 		}
 	]

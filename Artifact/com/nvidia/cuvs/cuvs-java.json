@@ -3,11 +3,11 @@
 	"description":"This project provides Java bindings for cuVS, enabling approximate nearest neighbors search and clustering\n        on the GPU. As this is experimental, some APIs may change.",
 	"group_id":"com.nvidia.cuvs",
 	"artifact_id":"cuvs-java",
-	"version_latest":"25.10.0",
-	"ts_publish":1760367023000,
-	"dt_publish":"2025-10-13 22:50:23.000",
-	"ts_update":1760368621882,
-	"dt_update":"2025-10-13 23:16:34.230",
+	"version_latest":"25.12.0",
+	"ts_publish":1765999711000,
+	"dt_publish":"2025-12-18 03:28:31.000",
+	"ts_update":1766000819435,
+	"dt_update":"2025-12-18 03:46:48.048",
 	"count_dep":4,
 	"count_ref":0,
 	"licenses":[
@@ -22,11 +22,19 @@
 	"url_scm":"https://github.com/rapidsai/cuvs",
 	"home_page":"https://rapids.ai",
 	"license":"Apache 2.0",
-	"ranking":"#692558 in MvnRepository",
+	"ranking":"#406613 in MvnRepository",
 	"tags":[
 		"nvidia"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"25.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250807",
 			"repository":"Central",
@@ -43,5 +51,6 @@
 			"version":"25.06.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }

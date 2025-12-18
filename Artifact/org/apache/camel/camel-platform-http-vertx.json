@@ -3,13 +3,13 @@
 	"description":"Implementation of the Platform HTTP Engine based on Vert.x Web",
 	"group_id":"org.apache.camel",
 	"artifact_id":"camel-platform-http-vertx",
-	"version_latest":"4.15.0",
-	"ts_publish":1759503829000,
-	"dt_publish":"2025-10-03 23:03:49.000",
-	"ts_update":1762014971857,
-	"dt_update":"2025-11-02 00:17:47.031",
-	"count_dep":4,
-	"count_ref":7,
+	"version_latest":"4.16.0",
+	"ts_publish":1761994855000,
+	"dt_publish":"2025-11-01 19:00:55.000",
+	"ts_update":1765642903838,
+	"dt_update":"2025-12-14 00:19:46.412",
+	"count_dep":0,
+	"count_ref":11,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -20,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel/camel-platform-http-vertx@4.13.0",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#53965 in MvnRepository",
+	"ranking":"#52348 in MvnRepository",
 	"tags":[
 		"vertx",
 		"apache",
@@ -30,11 +30,27 @@
 	],
 	"versions":[
 		{
+			"date":"20251101",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.16.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251007",
 			"repository":"Central",
 			"type":"release",
 			"usage":4,
 			"version":"4.15.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.14.2",
 			"vulnerabilities":""
 		},
 		{
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.8.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250401",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.8.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250308",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.5",
 			"vulnerabilities":""
 		}
 	]

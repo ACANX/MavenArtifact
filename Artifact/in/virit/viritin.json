@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/in.virit/viritin",
-	"description":"General purpose helpers for Vaadin Flow users.",
+	"description":"General purpose helpers for Vaadin users. Java only additions, that don't require custom client-bundle.",
 	"group_id":"in.virit",
 	"artifact_id":"viritin",
-	"version_latest":"2.21.1",
-	"ts_publish":1760942687000,
-	"dt_publish":"2025-10-20 14:44:47.000",
-	"ts_update":1760951929973,
-	"dt_update":"2025-10-20 17:18:43.061",
-	"count_dep":15,
+	"version_latest":"3.0.0",
+	"ts_publish":1765568693000,
+	"dt_publish":"2025-12-13 03:44:53.000",
+	"ts_update":1765572737365,
+	"dt_update":"2025-12-13 04:52:08.782",
+	"count_dep":66,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2"
@@ -24,11 +24,27 @@
 		"Matti Tahvonen"
 	],
 	"url_scm":"https://github.com/viritin/flow-viritin",
-	"count_used_by":10,
+	"count_used_by":11,
 	"home_page":"https://github.com/viritin/flow-viritin",
 	"license":"Apache 2.0",
-	"ranking":"#45130 in MvnRepository",
+	"ranking":"#43439 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.21.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251019",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.21.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251011",
 			"repository":"Central",
@@ -129,7 +145,7 @@
 			"date":"20250626",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"2.16.0",
 			"vulnerabilities":""
 		},
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.14.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250508",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.14.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250507",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.14.2",
 			"vulnerabilities":""
 		}
 	]

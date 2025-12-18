@@ -3,11 +3,11 @@
 	"description":"S3 mock implementation to be used for hermetic testing",
 	"group_id":"com.adobe.testing",
 	"artifact_id":"s3mock-testsupport-common",
-	"version_latest":"4.9.1",
-	"ts_publish":1758289457394,
-	"dt_publish":"2025-09-19 21:44:17.394",
-	"ts_update":1758291371076,
-	"dt_update":"2025-09-19 22:15:11.499",
+	"version_latest":"4.11.0",
+	"ts_publish":1764857514403,
+	"dt_publish":"2025-12-04 22:11:54.403",
+	"ts_update":1764858408427,
+	"dt_update":"2025-12-04 22:26:34.472",
 	"count_dep":97,
 	"count_ref":3,
 	"licenses":[
@@ -26,13 +26,29 @@
 	"url_scm":"https://github.com/adobe/S3Mock/tree/main/s3mock-testsupport-reactor/s3mock-testsupport-common",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#126419 in MvnRepository",
+	"ranking":"#110118 in MvnRepository",
 	"tags":[
 		"quality",
 		"mock",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.10.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.9.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250829",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240512",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240504",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.7.3",
 			"vulnerabilities":""
 		}
 	]

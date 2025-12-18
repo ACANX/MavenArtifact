@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.wildfly/wildfly-microprofile-telemetry-cdi-provider",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-microprofile-telemetry-cdi-provider",
-	"version_latest":"38.0.0.Beta1",
-	"ts_publish":1759315079000,
-	"dt_publish":"2025-10-01 18:37:59.000",
-	"ts_update":1759323506246,
-	"dt_update":"2025-10-01 18:56:05.154",
-	"count_dep":38,
+	"version_latest":"38.0.1.Final",
+	"ts_publish":1763402038000,
+	"dt_publish":"2025-11-18 01:53:58.000",
+	"ts_update":1763403821700,
+	"dt_update":"2025-11-18 02:23:23.806",
+	"count_dep":14,
 	"count_ref":1,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -25,7 +23,7 @@
 	"url_scm":"https://github.com/wildfly/wildfly",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#149956 in MvnRepository",
+	"ranking":"#159462 in MvnRepository",
 	"tags":[
 		"provider",
 		"microprofile",
@@ -35,6 +33,22 @@
 		"telemetry"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"38.0.0.Final",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"beta",
+			"usage":0,
+			"version":"38.0.0.Beta1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250903",
 			"repository":"Central",
@@ -178,23 +192,6 @@
 			"usage":0,
 			"version":"32.0.0.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240405",
-			"repository":"Central",
-			"type":"beta",
-			"usage":0,
-			"version":"32.0.0.Beta1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240227",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"31.0.1.Final",
-			"vulnerabilities":""
 		}
-	],
-	"description":"WildFly: Parent Aggregator"
+	]
 }

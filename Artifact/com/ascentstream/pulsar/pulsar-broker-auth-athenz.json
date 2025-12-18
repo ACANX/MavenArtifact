@@ -3,12 +3,12 @@
 	"description":"Athenz authentication plugin for broker",
 	"group_id":"com.ascentstream.pulsar",
 	"artifact_id":"pulsar-broker-auth-athenz",
-	"version_latest":"3.0.14.0",
-	"ts_publish":1758017378000,
-	"dt_publish":"2025-09-16 18:09:38.000",
-	"ts_update":1758018439969,
-	"dt_update":"2025-09-16 18:26:05.400",
-	"count_dep":283,
+	"version_latest":"3.0.16.0",
+	"ts_publish":1764748688000,
+	"dt_publish":"2025-12-03 15:58:08.000",
+	"ts_update":1764750253686,
+	"dt_update":"2025-12-03 16:24:01.284",
+	"count_dep":34,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -20,13 +20,29 @@
 	"url_scm":"https://github.com/ascentstream/pulsar/pulsar-broker-auth-athenz",
 	"url_ci_management":"https://github.com/apache/pulsar/actions",
 	"license":"Apache 2.0",
-	"ranking":"#981231 in MvnRepository",
+	"ranking":"#492403 in MvnRepository",
 	"tags":[
 		"authentication",
 		"broker",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.14.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250916",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.0.14.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250624",
 			"repository":"Central",
@@ -169,22 +185,6 @@
 			"type":"snapshot",
 			"usage":0,
 			"version":"2.10.7.1-SNAPSHOT-3c76893",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240528",
-			"repository":"Central",
-			"type":"snapshot",
-			"usage":0,
-			"version":"2.10.7.1-SNAPSHOT-8da4484",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240229",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.10.6.10",
 			"vulnerabilities":""
 		}
 	]

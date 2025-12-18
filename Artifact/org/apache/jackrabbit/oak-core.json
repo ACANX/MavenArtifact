@@ -3,13 +3,13 @@
 	"description":"The goal of the Oak effort within the Apache Jackrabbit project is\n    to implement a scalable and performant hierarchical content repository\n    for use as the foundation of modern world-class web sites and other\n    demanding content applications.",
 	"group_id":"org.apache.jackrabbit",
 	"artifact_id":"oak-core",
-	"version_latest":"1.86.0",
-	"ts_publish":1758137999000,
-	"dt_publish":"2025-09-18 03:39:59.000",
-	"ts_update":1761410927358,
-	"dt_update":"2025-10-26 00:17:55.820",
-	"count_dep":0,
-	"count_ref":20,
+	"version_latest":"1.88.0",
+	"ts_publish":1761819189000,
+	"dt_publish":"2025-10-30 18:13:09.000",
+	"ts_update":1765040230183,
+	"dt_update":"2025-12-07 00:19:25.920",
+	"count_dep":36,
+	"count_ref":18,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -21,10 +21,10 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.jackrabbit/oak-core@1.82.0",
 	"url_issue_management":"http://issues.apache.org/jira/browse/OAK",
 	"url_scm":"https://github.com/apache/jackrabbit/tree/jackrabbit-oak-1.82.0/oak-core",
-	"count_used_by":68,
+	"count_used_by":70,
 	"home_page":"https://jackrabbit.apache.org/oak/",
 	"license":"Apache 2.0",
-	"ranking":"#7286 in MvnRepository",
+	"ranking":"#7452 in MvnRepository",
 	"tags":[
 		"bundle",
 		"apache",
@@ -32,6 +32,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"1.88.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250922",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"1.86.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250809",
 			"repository":"Central",
@@ -174,22 +190,6 @@
 			"type":"release",
 			"usage":20,
 			"version":"1.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230127",
-			"repository":"Central",
-			"type":"release",
-			"usage":21,
-			"version":"1.48.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221221",
-			"repository":"Central",
-			"type":"release",
-			"usage":20,
-			"version":"1.46.0",
 			"vulnerabilities":""
 		}
 	]

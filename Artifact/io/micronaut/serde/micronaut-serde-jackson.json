@@ -3,12 +3,12 @@
 	"description":"Enables serialization/deserialization in Micronaut applications using build time information",
 	"group_id":"io.micronaut.serde",
 	"artifact_id":"micronaut-serde-jackson",
-	"version_latest":"2.16.1",
-	"ts_publish":1760611148000,
-	"dt_publish":"2025-10-16 18:39:08.000",
-	"ts_update":1760613234317,
-	"dt_update":"2025-10-16 19:13:46.052",
-	"count_dep":17,
+	"version_latest":"3.0.0-M1",
+	"ts_publish":1764845280000,
+	"dt_publish":"2025-12-04 18:48:00.000",
+	"ts_update":1764847027993,
+	"dt_update":"2025-12-04 19:16:43.545",
+	"count_dep":18,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -26,13 +26,37 @@
 	"count_used_by":62,
 	"home_page":"https://micronaut.io",
 	"license":"Apache 2.0",
-	"ranking":"#8083 in MvnRepository",
+	"ranking":"#8366 in MvnRepository",
 	"tags":[
 		"micronaut",
 		"serialization",
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"2.16.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"2.16.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.16.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251012",
 			"repository":"Central",
@@ -167,30 +191,6 @@
 			"type":"release",
 			"usage":10,
 			"version":"2.10.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240530",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240402",
-			"repository":"Central",
-			"type":"release",
-			"usage":18,
-			"version":"2.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240312",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.8.2",
 			"vulnerabilities":""
 		}
 	]

@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/io.github.smsmithee.expositura/schema2model-maven-plugin",
-	"description":">A set of components for a clinical data analytics platform. Many of the components can be used\n    individually",
+	"description":"Parent pom providing dependency and plugin management for applications built with Maven",
 	"group_id":"io.github.smsmithee.expositura",
 	"artifact_id":"schema2model-maven-plugin",
-	"version_latest":"0.1.0",
-	"ts_publish":1760562402000,
-	"dt_publish":"2025-10-16 05:06:42.000",
-	"ts_update":1760562857285,
-	"dt_update":"2025-10-16 05:14:07.580",
-	"count_dep":64,
+	"version_latest":"0.4.0",
+	"ts_publish":1765319578000,
+	"dt_publish":"2025-12-10 06:32:58.000",
+	"ts_update":1765320407987,
+	"dt_update":"2025-12-10 06:46:41.049",
+	"count_dep":57,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
@@ -20,5 +20,43 @@
 	"contributors":[
 		"Sean Smith"
 	],
-	"url_scm":"http://github.com/smsmithee/Expositura/tree/main/schema2model-maven-plugin"
+	"url_scm":"http://github.com/smsmithee/Expositura/tree/main/schema2model-maven-plugin",
+	"license":"Apache 2.0",
+	"ranking":"#494080 in MvnRepository",
+	"tags":[
+		"plugin",
+		"github",
+		"model",
+		"build",
+		"build-system",
+		"maven",
+		"schema"
+	],
+	"versions":[
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.1.0",
+			"vulnerabilities":""
+		}
+	],
+	"home_page":"https://github.com/smsmithee/ExposituraSchema2Model"
 }

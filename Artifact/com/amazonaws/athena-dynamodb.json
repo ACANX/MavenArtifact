@@ -2,20 +2,22 @@
 	"id":"pkg:maven/com.amazonaws/athena-dynamodb",
 	"group_id":"com.amazonaws",
 	"artifact_id":"athena-dynamodb",
-	"version_latest":"2025.43.1",
-	"ts_publish":1761861125000,
-	"dt_publish":"2025-10-31 05:52:05.000",
-	"ts_update":1761866841078,
-	"dt_update":"2025-10-31 07:26:39.463",
-	"count_dep":27,
+	"version_latest":"2025.46.1",
+	"ts_publish":1763661021000,
+	"dt_publish":"2025-11-21 01:50:21.000",
+	"ts_update":1763663082735,
+	"dt_update":"2025-11-21 02:24:14.024",
+	"count_dep":100,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Cloud Computing"
 	],
 	"dsv":1,
 	"license":"Apache 2.0",
-	"ranking":"#909915 in MvnRepository",
+	"ranking":"#548874 in MvnRepository",
 	"tags":[
 		"database",
 		"aws",
@@ -24,6 +26,22 @@
 		"athena"
 	],
 	"versions":[
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.43.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.41.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -167,22 +185,7 @@
 			"usage":0,
 			"version":"2025.2.2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250107",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.1.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Amazon Athena Query Federation SDK allows you to customize Amazon Athena with your own code."
 }

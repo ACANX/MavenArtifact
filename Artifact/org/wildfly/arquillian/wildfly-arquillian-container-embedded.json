@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.wildfly.arquillian/wildfly-arquillian-container-embedded",
-	"description":"An Arquillian adaptor for WildFly.",
 	"group_id":"org.wildfly.arquillian",
 	"artifact_id":"wildfly-arquillian-container-embedded",
-	"version_latest":"5.1.0.Final",
-	"ts_publish":1757377200000,
-	"dt_publish":"2025-09-09 08:20:00.000",
-	"ts_update":1757380206236,
-	"dt_update":"2025-09-09 08:55:58.166",
-	"count_dep":81,
+	"version_latest":"6.0.0.Alpha1",
+	"ts_publish":1764006562000,
+	"dt_publish":"2025-11-25 01:49:22.000",
+	"ts_update":1764008724433,
+	"dt_update":"2025-11-25 02:25:10.675",
+	"count_dep":8,
 	"count_ref":0,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Test and Quality Management"
 	],
@@ -27,7 +24,7 @@
 	"url_scm":"https://github.com/wildfly/wildfly-arquillian/",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#95168 in MvnRepository",
+	"ranking":"#87243 in MvnRepository",
 	"tags":[
 		"embedded",
 		"wildfly",
@@ -35,6 +32,14 @@
 		"arquillian"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.1.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250405",
 			"repository":"Central",
@@ -185,14 +190,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"5.0.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230706",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.1.Final",
 			"vulnerabilities":""
 		}
 	]

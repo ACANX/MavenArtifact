@@ -3,12 +3,12 @@
 	"description":"Server-side Includes module",
 	"group_id":"org.apache.tomcat",
 	"artifact_id":"tomcat-ssi",
-	"version_latest":"11.0.13",
-	"ts_publish":1760106009000,
-	"dt_publish":"2025-10-10 22:20:09.000",
-	"ts_update":1762014948839,
-	"dt_update":"2025-11-02 00:18:26.998",
-	"count_dep":0,
+	"version_latest":"11.0.14",
+	"ts_publish":1762370962000,
+	"dt_publish":"2025-11-06 03:29:22.000",
+	"ts_update":1765038421115,
+	"dt_update":"2025-12-07 00:20:19.328",
+	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -22,7 +22,7 @@
 	"count_used_by":4,
 	"home_page":"https://tomcat.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#106140 in MvnRepository",
+	"ranking":"#116544 in MvnRepository",
 	"tags":[
 		"server",
 		"webserver",
@@ -30,6 +30,14 @@
 		"tomcat"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"11.0.14",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251013",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"milestone",
 			"usage":0,
 			"version":"11.0.0-M21",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240508",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":0,
-			"version":"11.0.0-M20",
 			"vulnerabilities":""
 		}
 	]

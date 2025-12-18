@@ -3,12 +3,12 @@
 	"description":"Annotation based Thrift implementation",
 	"group_id":"com.facebook.airlift.drift",
 	"artifact_id":"drift-server",
-	"version_latest":"0.223",
-	"ts_publish":1757688834000,
-	"dt_publish":"2025-09-12 22:53:54.000",
-	"ts_update":1757690152700,
-	"dt_update":"2025-09-12 23:14:54.142",
-	"count_dep":44,
+	"version_latest":"0.225",
+	"ts_publish":1765346193000,
+	"dt_publish":"2025-12-10 13:56:33.000",
+	"ts_update":1765348005190,
+	"dt_update":"2025-12-10 14:26:36.624",
+	"count_dep":30,
 	"count_ref":1,
 	"licenses":[
 		"Apache License 2.0"
@@ -20,14 +20,30 @@
 		"Airlift"
 	],
 	"url_scm":"https://github.com/prestodb/drift/drift-server",
-	"count_used_by":1,
+	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#286516 in MvnRepository",
+	"ranking":"#80495 in MvnRepository",
 	"tags":[
 		"server",
 		"facebook"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.224",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.223",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250821",
 			"repository":"Central",
@@ -40,7 +56,7 @@
 			"date":"20250809",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":6,
 			"version":"0.221",
 			"vulnerabilities":""
 		},

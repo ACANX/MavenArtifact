@@ -3,11 +3,11 @@
 	"description":"This module provides a code generation framework for generating clients, servers, documentation, and other artifacts for various languages from Smithy models.",
 	"group_id":"software.amazon.smithy",
 	"artifact_id":"smithy-codegen-core",
-	"version_latest":"1.63.0",
-	"ts_publish":1761163075000,
-	"dt_publish":"2025-10-23 03:57:55.000",
-	"ts_update":1761165401372,
-	"dt_update":"2025-10-23 04:35:56.209",
+	"version_latest":"1.65.0",
+	"ts_publish":1765404656000,
+	"dt_publish":"2025-12-11 06:10:56.000",
+	"ts_update":1765405620694,
+	"dt_update":"2025-12-11 06:26:41.707",
 	"count_dep":3,
 	"count_ref":2,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"Smithy"
 	],
 	"url_scm":"https://github.com/smithy-lang/smithy.git",
-	"count_used_by":21,
+	"count_used_by":22,
 	"home_page":"https://github.com/smithy-lang/smithy",
 	"license":"Apache 2.0",
-	"ranking":"#22501 in MvnRepository",
+	"ranking":"#22016 in MvnRepository",
 	"tags":[
 		"generator",
 		"amazon",
@@ -34,6 +34,22 @@
 		"code"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.64.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"1.63.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -126,7 +142,7 @@
 			"date":"20250227",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":9,
 			"version":"1.55.0",
 			"vulnerabilities":""
 		},
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"1.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240509",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"1.49.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240426",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.48.0",
 			"vulnerabilities":""
 		}
 	]

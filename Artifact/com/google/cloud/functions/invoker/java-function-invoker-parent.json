@@ -3,11 +3,11 @@
 	"description":"Parent POM for the GCF Java Invoker. The project is structured like this so\n    that we can have modules that build jar files for use in tests.",
 	"group_id":"com.google.cloud.functions.invoker",
 	"artifact_id":"java-function-invoker-parent",
-	"version_latest":"1.4.3",
-	"ts_publish":1761005563000,
-	"dt_publish":"2025-10-21 08:12:43.000",
-	"ts_update":1761008193544,
-	"dt_update":"2025-10-21 08:56:23.381",
+	"version_latest":"2.0.0",
+	"ts_publish":1762446171000,
+	"dt_publish":"2025-11-07 00:22:51.000",
+	"ts_update":1762447693504,
+	"dt_update":"2025-11-07 00:48:03.458",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"http://github.com/GoogleCloudPlatform/functions-framework-java",
 	"home_page":"https://github.com/GoogleCloudPlatform/functions-framework-java/tree/main/invoker",
-	"ranking":"#627984 in MvnRepository",
+	"ranking":"#628243 in MvnRepository",
 	"tags":[
 		"google",
 		"cloud",
 		"functions"
 	],
 	"versions":[
+		{
+			"date":"20251021",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.4.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250308",
 			"repository":"Central",
@@ -183,14 +191,7 @@
 			"usage":0,
 			"version":"1.0.0-alpha-2-rc2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20200205",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"1.0.0-alpha-2-rc1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"license":"Apache 2.0"
 }

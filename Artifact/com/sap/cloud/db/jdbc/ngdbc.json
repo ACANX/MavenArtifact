@@ -3,11 +3,11 @@
 	"description":"Provides connectivity to HANA Databases in Java applications",
 	"group_id":"com.sap.cloud.db.jdbc",
 	"artifact_id":"ngdbc",
-	"version_latest":"2.26.11",
-	"ts_publish":1761940660000,
-	"dt_publish":"2025-11-01 03:57:40.000",
-	"ts_update":1761941922321,
-	"dt_update":"2025-11-01 04:18:19.122",
+	"version_latest":"2.27.6",
+	"ts_publish":1765984787000,
+	"dt_publish":"2025-12-17 23:19:47.000",
+	"ts_update":1765986186189,
+	"dt_update":"2025-12-17 23:43:00.673",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -23,10 +23,10 @@
 		"SAP HANA Interfaces"
 	],
 	"url_scm":"https://www.sap.com/",
-	"count_used_by":72,
+	"count_used_by":73,
 	"home_page":"https://help.sap.com/viewer/f1b440ded6144a54ada97ff95dac7adf/latest/en-US/434e2962074540e18c802fd478de86d6.html",
 	"license":"SAP-Dev",
-	"ranking":"#7116 in MvnRepository",
+	"ranking":"#7166 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -35,6 +35,22 @@
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.26.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251031",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.26.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250916",
 			"repository":"Central",
@@ -79,7 +95,7 @@
 			"date":"20250403",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"2.24.7",
 			"vulnerabilities":""
 		},
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"2.19.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231214",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"2.19.15",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231206",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"2.19.11",
 			"vulnerabilities":""
 		}
 	]

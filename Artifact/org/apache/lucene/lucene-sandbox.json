@@ -3,13 +3,13 @@
 	"description":"Apache Lucene (module: sandbox)",
 	"group_id":"org.apache.lucene",
 	"artifact_id":"lucene-sandbox",
-	"version_latest":"10.3.1",
-	"ts_publish":1759758155000,
-	"dt_publish":"2025-10-06 21:42:35.000",
-	"ts_update":1762015660099,
-	"dt_update":"2025-11-02 00:18:12.848",
+	"version_latest":"10.3.2",
+	"ts_publish":1763373085000,
+	"dt_publish":"2025-11-17 17:51:25.000",
+	"ts_update":1765646121974,
+	"dt_update":"2025-12-14 00:21:07.436",
 	"count_dep":3,
-	"count_ref":74,
+	"count_ref":40,
 	"licenses":[
 		"Apache 2"
 	],
@@ -25,13 +25,21 @@
 	"count_used_by":210,
 	"home_page":"https://lucene.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#2696 in MvnRepository",
+	"ranking":"#2890 in MvnRepository",
 	"tags":[
 		"lucene",
 		"apache",
 		"index"
 	],
 	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"10.3.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250913",
 			"repository":"Central",
@@ -84,7 +92,7 @@
 			"date":"20250927",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"9.12.3",
 			"vulnerabilities":""
 		},
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"9.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230130",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"9.5.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"Includes tcnative bindings so that netty TLS can use OpenSSL",
 	"group_id":"org.apache.hbase",
 	"artifact_id":"hbase-openssl",
-	"version_latest":"2.6.3",
-	"ts_publish":1752164355000,
-	"dt_publish":"2025-07-11 00:19:15.000",
-	"ts_update":1755363166654,
-	"dt_update":"2025-08-17 00:18:12.848",
-	"count_dep":2,
+	"version_latest":"2.6.4-hadoop3",
+	"ts_publish":1762232513000,
+	"dt_publish":"2025-11-04 13:01:53.000",
+	"ts_update":1765642909542,
+	"dt_update":"2025-12-14 00:20:15.228",
+	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -87,7 +87,7 @@
 	"count_used_by":1,
 	"home_page":"https://hbase.apache.org/hbase-build-configuration/hbase-extensions/hbase-openssl",
 	"license":"Apache 2.0",
-	"ranking":"#376671 in MvnRepository",
+	"ranking":"#437987 in MvnRepository",
 	"tags":[
 		"database",
 		"ssl",
@@ -96,6 +96,22 @@
 		"hbase"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.6.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.6.4-hadoop3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250710",
 			"repository":"Central",

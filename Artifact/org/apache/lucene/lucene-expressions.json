@@ -3,13 +3,13 @@
 	"description":"Apache Lucene (module: expressions)",
 	"group_id":"org.apache.lucene",
 	"artifact_id":"lucene-expressions",
-	"version_latest":"10.3.1",
-	"ts_publish":1759758079000,
-	"dt_publish":"2025-10-06 21:41:19.000",
-	"ts_update":1762014010640,
-	"dt_update":"2025-11-02 00:18:12.089",
+	"version_latest":"10.3.2",
+	"ts_publish":1763373054000,
+	"dt_publish":"2025-11-17 17:50:54.000",
+	"ts_update":1765646095641,
+	"dt_update":"2025-12-14 00:21:07.443",
 	"count_dep":5,
-	"count_ref":9,
+	"count_ref":2,
 	"licenses":[
 		"Apache 2"
 	],
@@ -25,7 +25,7 @@
 	"count_used_by":90,
 	"home_page":"https://lucene.apache.org/",
 	"license":"Apache 2.0",
-	"ranking":"#5860 in MvnRepository",
+	"ranking":"#5955 in MvnRepository",
 	"tags":[
 		"lucene",
 		"expression",
@@ -33,6 +33,14 @@
 		"index"
 	],
 	"versions":[
+		{
+			"date":"20251118",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"10.3.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251006",
 			"repository":"Central",
@@ -93,7 +101,7 @@
 			"date":"20250927",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":3,
 			"version":"9.12.3",
 			"vulnerabilities":""
 		},
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"9.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230509",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"9.6.0",
 			"vulnerabilities":""
 		}
 	]

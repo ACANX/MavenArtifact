@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-sqs-deployment",
 	"group_id":"io.quarkiverse.amazonservices",
 	"artifact_id":"quarkus-amazon-sqs-deployment",
-	"version_latest":"3.12.0.CR1",
-	"ts_publish":1760822628000,
-	"dt_publish":"2025-10-19 05:23:48.000",
-	"ts_update":1760823880113,
-	"dt_update":"2025-10-19 05:44:22.486",
-	"count_dep":12,
+	"version_latest":"3.12.1",
+	"ts_publish":1762984317000,
+	"dt_publish":"2025-11-13 05:51:57.000",
+	"ts_update":1762985804881,
+	"dt_update":"2025-11-13 06:16:21.206",
+	"count_dep":142,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -20,7 +22,7 @@
 	],
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#255486 in MvnRepository",
+	"ranking":"#257366 in MvnRepository",
 	"tags":[
 		"amazon",
 		"deployment",
@@ -28,6 +30,30 @@
 		"sqs"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.12.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251018",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250930",
 			"repository":"Central",
@@ -163,30 +189,7 @@
 			"usage":1,
 			"version":"3.1.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241027",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241027",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240929",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"3.0.0.alpha1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

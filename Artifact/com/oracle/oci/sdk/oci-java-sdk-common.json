@@ -3,12 +3,12 @@
 	"description":"This project contains the common runtime components of the SDK used for Oracle Cloud Infrastructure",
 	"group_id":"com.oracle.oci.sdk",
 	"artifact_id":"oci-java-sdk-common",
-	"version_latest":"3.76.0",
-	"ts_publish":1762290279000,
-	"dt_publish":"2025-11-05 05:04:39.000",
-	"ts_update":1762294517785,
-	"dt_update":"2025-11-05 06:14:55.462",
-	"count_dep":21,
+	"version_latest":"3.76.1",
+	"ts_publish":1762803918000,
+	"dt_publish":"2025-11-11 03:45:18.000",
+	"ts_update":1762807256584,
+	"dt_update":"2025-11-11 04:40:19.034",
+	"count_dep":25,
 	"count_ref":171,
 	"licenses":[
 		"Apache License 2.0",
@@ -24,10 +24,10 @@
 		"Oracle"
 	],
 	"url_scm":"https://github.com/oracle/oci-java-sdk/oci-java-sdk-common",
-	"count_used_by":209,
+	"count_used_by":211,
 	"home_page":"https://docs.oracle.com/iaas/Content/API/SDKDocs/javasdk.htm",
 	"license":"Apache 2.0",
-	"ranking":"#2898 in MvnRepository",
+	"ranking":"#2871 in MvnRepository",
 	"tags":[
 		"oracle",
 		"sdk",
@@ -35,6 +35,14 @@
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":172,
+			"version":"3.76.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251028",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":169,
 			"version":"3.67.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250610",
-			"repository":"Central",
-			"type":"release",
-			"usage":167,
-			"version":"3.67.1",
 			"vulnerabilities":""
 		}
 	]

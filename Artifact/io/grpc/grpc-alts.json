@@ -3,13 +3,13 @@
 	"description":"gRPC: ALTS",
 	"group_id":"io.grpc",
 	"artifact_id":"grpc-alts",
-	"version_latest":"1.76.0",
-	"ts_publish":1759843045000,
-	"dt_publish":"2025-10-07 21:17:25.000",
-	"ts_update":1759844556732,
-	"dt_update":"2025-10-07 21:42:02.723",
-	"count_dep":37,
-	"count_ref":5,
+	"version_latest":"1.77.0",
+	"ts_publish":1763407469000,
+	"dt_publish":"2025-11-18 03:24:29.000",
+	"ts_update":1763408673824,
+	"dt_update":"2025-11-18 03:44:23.020",
+	"count_dep":29,
+	"count_ref":4,
 	"licenses":[
 		"Apache 2.0"
 	],
@@ -24,16 +24,24 @@
 		"gRPC Contributors"
 	],
 	"url_scm":"https://github.com/grpc/grpc-java",
-	"count_used_by":304,
+	"count_used_by":309,
 	"home_page":"https://github.com/grpc/grpc-java",
 	"license":"Apache 2.0",
-	"ranking":"#1963 in MvnRepository",
+	"ranking":"#2128 in MvnRepository",
 	"tags":[
 		"rpc",
 		"grpc",
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251007",
+			"repository":"Central",
+			"type":"release",
+			"usage":245,
+			"version":"1.76.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250820",
 			"repository":"Central",
@@ -70,7 +78,7 @@
 			"date":"20250304",
 			"repository":"Central",
 			"type":"release",
-			"usage":243,
+			"usage":245,
 			"version":"1.71.0",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"1.64.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240712",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"1.63.2",
 			"vulnerabilities":""
 		}
 	]

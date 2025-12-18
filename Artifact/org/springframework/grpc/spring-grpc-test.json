@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/org.springframework.grpc/spring-grpc-test",
-	"description":"Test support for gRPC programming",
+	"description":"Spring gRPC Test Spring Boot Starter",
 	"group_id":"org.springframework.grpc",
 	"artifact_id":"spring-grpc-test",
-	"version_latest":"0.12.0",
-	"ts_publish":1761309337000,
-	"dt_publish":"2025-10-24 20:35:37.000",
-	"ts_update":1761310603021,
-	"dt_update":"2025-10-24 20:56:25.055",
-	"count_dep":83,
+	"version_latest":"1.0.0",
+	"ts_publish":1764805790000,
+	"dt_publish":"2025-12-04 07:49:50.000",
+	"ts_update":1764808005239,
+	"dt_update":"2025-12-04 08:26:32.981",
+	"count_dep":64,
 	"count_ref":0,
 	"licenses":[
 		"Apache 2.0"
@@ -23,9 +23,9 @@
 	"url_scm":"https://github.com/spring-projects/spring-grpc",
 	"url_ci_management":"https://github.com/spring-projects/spring-grpc/actions",
 	"count_used_by":2,
-	"home_page":"https://github.com/spring-projects/spring-grpc",
+	"home_page":"https://github.com/spring-projects/spring-grpc/spring-grpc-test",
 	"license":"Apache 2.0",
-	"ranking":"#194004 in MvnRepository",
+	"ranking":"#225859 in MvnRepository",
 	"tags":[
 		"grpc",
 		"spring",
@@ -36,10 +36,26 @@
 	],
 	"versions":[
 		{
-			"date":"20250910",
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251024",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
+			"version":"0.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250910",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
 			"version":"0.11.0",
 			"vulnerabilities":""
 		},

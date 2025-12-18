@@ -3,13 +3,13 @@
 	"description":"The goal of the Oak effort within the Apache Jackrabbit project is\n    to implement a scalable and performant hierarchical content repository\n    for use as the foundation of modern world-class web sites and other\n    demanding content applications.",
 	"group_id":"org.apache.jackrabbit",
 	"artifact_id":"oak-store-composite",
-	"version_latest":"1.86.0",
-	"ts_publish":1758138775000,
-	"dt_publish":"2025-09-18 03:52:55.000",
-	"ts_update":1761409606141,
-	"dt_update":"2025-10-26 00:17:56.691",
-	"count_dep":0,
-	"count_ref":10,
+	"version_latest":"1.88.0",
+	"ts_publish":1761819837000,
+	"dt_publish":"2025-10-30 18:23:57.000",
+	"ts_update":1765039301059,
+	"dt_update":"2025-12-07 00:19:25.918",
+	"count_dep":37,
+	"count_ref":9,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/apache/jackrabbit/tree/jackrabbit-oak-1.82.0/oak-store-composite",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#46251 in MvnRepository",
+	"ranking":"#48650 in MvnRepository",
 	"tags":[
 		"bundle",
 		"store",
@@ -33,6 +33,14 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"1.88.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250922",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"1.50.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230127",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"1.48.0",
 			"vulnerabilities":""
 		}
 	]

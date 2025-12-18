@@ -2,25 +2,35 @@
 	"id":"pkg:maven/org.apache.hop/hop-databases-snowflake",
 	"group_id":"org.apache.hop",
 	"artifact_id":"hop-databases-snowflake",
-	"version_latest":"2.15.0",
-	"ts_publish":1755005224000,
-	"dt_publish":"2025-08-12 21:27:04.000",
-	"ts_update":1758385111451,
-	"dt_update":"2025-09-21 00:16:57.290",
-	"count_dep":107,
+	"version_latest":"2.16.0",
+	"ts_publish":1762780075000,
+	"dt_publish":"2025-11-10 21:07:55.000",
+	"ts_update":1765642921304,
+	"dt_update":"2025-12-14 00:20:33.217",
+	"count_dep":120,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.hop/hop-databases-snowflake@2.15.0",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#266034 in MvnRepository",
+	"ranking":"#336471 in MvnRepository",
 	"tags":[
 		"database",
 		"apache",
 		"snowflake"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.16.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250812",
 			"repository":"Central",
@@ -133,5 +143,6 @@
 			"version":"2.2.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Maven POM for the Hop Orchestration Platform"
 }

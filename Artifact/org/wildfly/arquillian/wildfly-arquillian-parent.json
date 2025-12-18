@@ -3,11 +3,11 @@
 	"description":"An Arquillian adaptor for WildFly.",
 	"group_id":"org.wildfly.arquillian",
 	"artifact_id":"wildfly-arquillian-parent",
-	"version_latest":"5.1.0.Final",
-	"ts_publish":1757377200000,
-	"dt_publish":"2025-09-09 08:20:00.000",
-	"ts_update":1757380219557,
-	"dt_update":"2025-09-09 08:55:58.814",
+	"version_latest":"6.0.0.Alpha1",
+	"ts_publish":1764006562000,
+	"dt_publish":"2025-11-25 01:49:22.000",
+	"ts_update":1764008724373,
+	"dt_update":"2025-11-25 02:25:10.049",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -26,12 +26,20 @@
 	],
 	"url_scm":"https://github.com/wildfly/wildfly-arquillian/",
 	"license":"Apache 2.0",
-	"ranking":"#684463 in MvnRepository",
+	"ranking":"#495465 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"arquillian"
 	],
 	"versions":[
+		{
+			"date":"20250909",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.1.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250405",
 			"repository":"Central",
@@ -183,14 +191,7 @@
 			"usage":0,
 			"version":"5.0.0.Alpha1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20230706",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.1.Final",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"home_page":"https://wildfly.org"
 }

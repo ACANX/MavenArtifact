@@ -1,14 +1,13 @@
 {
 	"id":"pkg:maven/io.cucumber/cucumber-guice",
-	"description":"Cucumber for the JVM",
 	"group_id":"io.cucumber",
 	"artifact_id":"cucumber-guice",
-	"version_latest":"7.31.0",
-	"ts_publish":1761583217000,
-	"dt_publish":"2025-10-28 00:40:17.000",
-	"ts_update":1761584202736,
-	"dt_update":"2025-10-28 00:56:24.669",
-	"count_dep":34,
+	"version_latest":"7.33.0",
+	"ts_publish":1765239881000,
+	"dt_publish":"2025-12-09 08:24:41.000",
+	"ts_update":1765241796165,
+	"dt_update":"2025-12-09 08:56:29.487",
+	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
 		"MIT License"
@@ -26,13 +25,29 @@
 	"url_scm":"git://github.com/cucumber/cucumber-jvm.git/cucumber-guice",
 	"count_used_by":27,
 	"license":"MIT",
-	"ranking":"#17743 in MvnRepository",
+	"ranking":"#17525 in MvnRepository",
 	"tags":[
 		"cucumber",
 		"guice",
 		"dependency-injection"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.32.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -157,7 +172,7 @@
 			"date":"20250207",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"7.21.1",
 			"vulnerabilities":""
 		},
@@ -176,22 +191,7 @@
 			"usage":0,
 			"version":"7.20.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241004",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.20.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240919",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.19.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Cucumber for the JVM"
 }

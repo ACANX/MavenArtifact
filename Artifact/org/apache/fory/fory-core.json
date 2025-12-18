@@ -3,13 +3,13 @@
 	"description":"Apache Fory™ is a blazingly fast multi-language serialization framework powered by jit and zero-copy.",
 	"group_id":"org.apache.fory",
 	"artifact_id":"fory-core",
-	"version_latest":"0.12.3",
-	"ts_publish":1758303372000,
-	"dt_publish":"2025-09-20 01:36:12.000",
-	"ts_update":1761410257776,
-	"dt_update":"2025-10-26 00:19:31.188",
+	"version_latest":"0.13.0",
+	"ts_publish":1761292553000,
+	"dt_publish":"2025-10-24 15:55:53.000",
+	"ts_update":1764433269499,
+	"dt_update":"2025-11-30 00:19:13.006",
 	"count_dep":9,
-	"count_ref":26,
+	"count_ref":43,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -17,20 +17,73 @@
 	"url_project":"https://github.com/apache/fory/fory-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.fory/fory-core@0.11.2",
 	"url_scm":"https://github.com/apache/fory/fory-core",
-	"count_used_by":11,
+	"count_used_by":27,
 	"license":"Apache 2.0",
-	"ranking":"#42576 in MvnRepository",
+	"ranking":"#17949 in MvnRepository",
 	"tags":[
+		"format",
+		"binary",
+		"data",
+		"object",
+		"serialization",
 		"apache"
 	],
 	"versions":[
 		{
-			"date":"20250701",
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":21,
+			"version":"0.13.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":13,
+			"version":"0.13.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250923",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"0.12.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"0.12.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250901",
+			"repository":"Central",
+			"type":"release",
+			"usage":21,
+			"version":"0.12.1",
+			"vulnerabilities":"1 vulnerability"
+		},
+		{
+			"date":"20250815",
 			"repository":"Central",
 			"type":"release",
 			"usage":8,
+			"version":"0.12.0",
+			"vulnerabilities":"1 vulnerability"
+		},
+		{
+			"date":"20250701",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
 			"version":"0.11.2",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250620",
@@ -38,7 +91,7 @@
 			"type":"release",
 			"usage":10,
 			"version":"0.11.1",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		},
 		{
 			"date":"20250617",
@@ -46,7 +99,7 @@
 			"type":"release",
 			"usage":10,
 			"version":"0.11.0",
-			"vulnerabilities":""
+			"vulnerabilities":"1 vulnerability"
 		}
 	]
 }

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.operatorsdk/quarkus-operator-sdk-docs",
 	"group_id":"io.quarkiverse.operatorsdk",
 	"artifact_id":"quarkus-operator-sdk-docs",
-	"version_latest":"7.3.0",
-	"ts_publish":1761227926000,
-	"dt_publish":"2025-10-23 21:58:46.000",
-	"ts_update":1761229011915,
-	"dt_update":"2025-10-23 22:16:40.221",
-	"count_dep":2,
+	"version_latest":"7.4.0",
+	"ts_publish":1764938860000,
+	"dt_publish":"2025-12-05 20:47:40.000",
+	"ts_update":1764940761972,
+	"dt_update":"2025-12-05 21:19:12.242",
+	"count_dep":290,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,7 +24,7 @@
 	],
 	"url_scm":"https://github.com/quarkiverse/quarkus-operator-sdk",
 	"license":"Apache 2.0",
-	"ranking":"#843607 in MvnRepository",
+	"ranking":"#544034 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"sdk",
@@ -30,6 +32,22 @@
 		"operator"
 	],
 	"versions":[
+		{
+			"date":"20251023",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.3.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251119",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.2.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251017",
 			"repository":"Central",
@@ -52,6 +70,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.1.5",
 			"vulnerabilities":""
 		},
 		{
@@ -165,30 +191,7 @@
 			"usage":0,
 			"version":"6.8.4",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20241008",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.8.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241004",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.8.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240925",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.8.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

@@ -3,11 +3,11 @@
 	"description":"Parent POM for all modules and connectors",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-quarkus-outbox-reactive-deployment",
-	"version_latest":"3.4.0.Alpha2",
-	"ts_publish":1762338801000,
-	"dt_publish":"2025-11-05 18:33:21.000",
-	"ts_update":1762340004935,
-	"dt_update":"2025-11-05 18:53:10.766",
+	"version_latest":"3.4.0.CR1",
+	"ts_publish":1765362371000,
+	"dt_publish":"2025-12-10 18:26:11.000",
+	"ts_update":1765364216322,
+	"dt_update":"2025-12-10 18:56:41.464",
 	"count_dep":223,
 	"count_ref":1,
 	"licenses":[
@@ -28,7 +28,7 @@
 	"url_scm":"https://github.com/debezium/debezium/debezium-parent/debezium-quarkus-outbox-reactive-parent/debezium-quarkus-outbox-reactive-deployment",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#293606 in MvnRepository",
+	"ranking":"#357845 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -37,11 +37,35 @@
 	],
 	"versions":[
 		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"3.4.0.Beta1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"3.4.0.Alpha2",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251024",
 			"repository":"Central",
 			"type":"alpha",
 			"usage":1,
 			"version":"3.4.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.3.2.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -90,6 +114,14 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.3.0.Alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.2.5.Final",
 			"vulnerabilities":""
 		},
 		{
@@ -162,38 +194,6 @@
 			"type":"alpha",
 			"usage":1,
 			"version":"3.2.0.Alpha1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250624",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.3.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250602",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.2.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250423",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250402",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.1.0.Final",
 			"vulnerabilities":""
 		}
 	]

@@ -3,16 +3,14 @@
 	"description":"Annotation based encoder and decoder for Thrift",
 	"group_id":"com.facebook.airlift.drift",
 	"artifact_id":"drift-codec",
-	"version_latest":"0.223",
-	"ts_publish":1757688834000,
-	"dt_publish":"2025-09-12 22:53:54.000",
-	"ts_update":1757690155476,
-	"dt_update":"2025-09-12 23:14:54.663",
-	"count_dep":31,
-	"count_ref":22,
-	"licenses":[
-		"Apache License 2.0"
-	],
+	"version_latest":"0.225",
+	"ts_publish":1765346193000,
+	"dt_publish":"2025-12-10 13:56:33.000",
+	"ts_update":1765348004172,
+	"dt_update":"2025-12-10 14:26:37.071",
+	"count_dep":13,
+	"count_ref":13,
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/prestodb/airlift/drift-root/drift-codec",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.facebook.airlift.drift/drift-codec@0.221",
@@ -20,14 +18,30 @@
 		"Airlift"
 	],
 	"url_scm":"https://github.com/prestodb/drift/drift-codec",
-	"count_used_by":11,
+	"count_used_by":23,
 	"license":"Apache 2.0",
-	"ranking":"#42557 in MvnRepository",
+	"ranking":"#20835 in MvnRepository",
 	"tags":[
 		"facebook",
 		"codec"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"0.224",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250912",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"0.223",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250821",
 			"repository":"Central",
@@ -40,7 +54,7 @@
 			"date":"20250809",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":23,
 			"version":"0.221",
 			"vulnerabilities":""
 		},

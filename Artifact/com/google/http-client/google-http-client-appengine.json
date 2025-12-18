@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/com.google.http-client/google-http-client-appengine",
-	"description":"Google HTTP Client Library for Java",
 	"group_id":"com.google.http-client",
 	"artifact_id":"google-http-client-appengine",
-	"version_latest":"2.0.2",
-	"ts_publish":1760391634000,
-	"dt_publish":"2025-10-14 05:40:34.000",
-	"ts_update":1760393719495,
-	"dt_update":"2025-10-14 06:14:16.142",
-	"count_dep":19,
+	"version_latest":"2.1.0-rc1",
+	"ts_publish":1765302272000,
+	"dt_publish":"2025-12-10 01:44:32.000",
+	"ts_update":1765304521579,
+	"dt_update":"2025-12-10 02:21:41.315",
+	"count_dep":6,
 	"count_ref":1,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Protocols",
 		"Clients",
@@ -28,7 +25,7 @@
 	"url_scm":"https://github.com/googleapis/google-http-java-client/google-http-client-appengine",
 	"count_used_by":38,
 	"license":"Apache 2.0",
-	"ranking":"#12473 in MvnRepository",
+	"ranking":"#12896 in MvnRepository",
 	"tags":[
 		"google",
 		"client",
@@ -36,6 +33,14 @@
 		"http"
 	],
 	"versions":[
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"2.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -56,7 +61,7 @@
 			"date":"20250623",
 			"repository":"Central",
 			"type":"release",
-			"usage":8,
+			"usage":10,
 			"version":"1.47.1",
 			"vulnerabilities":""
 		},
@@ -186,14 +191,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"1.42.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220714",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"1.42.2",
 			"vulnerabilities":""
 		}
 	]

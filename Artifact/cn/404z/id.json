@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/cn.404z/id",
-	"description":"High Performance Snowflake ID Generator 高性能雪花ID生成器",
+	"description":"High Performance Snowflake ID Generator (Single Version) 高性能雪花ID生成器(单机版)",
 	"group_id":"cn.404z",
 	"artifact_id":"id",
-	"version_latest":"3.4.0",
-	"ts_publish":1762329914000,
-	"dt_publish":"2025-11-05 16:05:14.000",
-	"ts_update":1762330926573,
-	"dt_update":"2025-11-05 16:21:49.192",
+	"version_latest":"3.4.0.single",
+	"ts_publish":1764829722000,
+	"dt_publish":"2025-12-04 14:28:42.000",
+	"ts_update":1764831407780,
+	"dt_update":"2025-12-04 14:56:29.459",
 	"count_dep":6,
 	"count_ref":0,
 	"licenses":[
@@ -23,8 +23,16 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/ALI1416/id",
 	"license":"Apache 2.0",
-	"ranking":"#369527 in MvnRepository",
+	"ranking":"#271296 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.4.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20241129",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210227",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.0.1",
 			"vulnerabilities":""
 		}
 	]

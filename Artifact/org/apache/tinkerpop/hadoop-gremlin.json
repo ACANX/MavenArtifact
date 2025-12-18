@@ -3,12 +3,12 @@
 	"description":"A Graph Computing Framework",
 	"group_id":"org.apache.tinkerpop",
 	"artifact_id":"hadoop-gremlin",
-	"version_latest":"3.7.4",
-	"ts_publish":1754106516000,
-	"dt_publish":"2025-08-02 11:48:36.000",
-	"ts_update":1758386071463,
-	"dt_update":"2025-09-21 00:16:28.328",
-	"count_dep":138,
+	"version_latest":"3.8.0",
+	"ts_publish":1763089763000,
+	"dt_publish":"2025-11-14 11:09:23.000",
+	"ts_update":1765644199885,
+	"dt_update":"2025-12-14 00:21:03.314",
+	"count_dep":0,
 	"count_ref":1,
 	"licenses":[
 		"Apache 2"
@@ -37,13 +37,29 @@
 	"url_scm":"https://github.com/apache/tinkerpop/hadoop-gremlin",
 	"count_used_by":21,
 	"license":"Apache 2.0",
-	"ranking":"#22572 in MvnRepository",
+	"ranking":"#22628 in MvnRepository",
 	"tags":[
 		"hadoop",
 		"apache",
 		"graph"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.7.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250802",
 			"repository":"Central",
@@ -186,22 +202,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220726",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.5.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220411",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.5.3",
 			"vulnerabilities":""
 		}
 	]

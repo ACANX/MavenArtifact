@@ -3,12 +3,12 @@
 	"description":"JAX-RS plugin using jboss resteasy.",
 	"group_id":"org.apache.causeway.viewer",
 	"artifact_id":"causeway-viewer-restfulobjects-jaxrsresteasy",
-	"version_latest":"3.4.0",
-	"ts_publish":1751359430000,
-	"dt_publish":"2025-07-01 16:43:50.000",
-	"ts_update":1755364400528,
-	"dt_update":"2025-08-17 00:17:39.915",
-	"count_dep":181,
+	"version_latest":"3.5.0",
+	"ts_publish":1762930540000,
+	"dt_publish":"2025-11-12 14:55:40.000",
+	"ts_update":1765643208445,
+	"dt_update":"2025-12-14 00:20:54.361",
+	"count_dep":185,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -37,19 +37,27 @@
 	],
 	"url_scm":"http://github.com/apache/causeway/causeway-core/causeway-viewer-restfulobjects/causeway-viewer-restfulobjects-jaxrsresteasy",
 	"url_ci_management":"https://github.com/apache-causeway-committers/causeway-nightly",
-	"count_used_by":2,
+	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#184588 in MvnRepository",
+	"ranking":"#176284 in MvnRepository",
 	"tags":[
 		"apache",
 		"viewer"
 	],
 	"versions":[
 		{
-			"date":"20250708",
+			"date":"20251112",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"3.5.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250708",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"3.4.0",
 			"vulnerabilities":""
 		},

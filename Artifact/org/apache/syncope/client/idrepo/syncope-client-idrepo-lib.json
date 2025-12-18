@@ -3,13 +3,13 @@
 	"description":"Apache Syncope Client IdRepo Lib",
 	"group_id":"org.apache.syncope.client.idrepo",
 	"artifact_id":"syncope-client-idrepo-lib",
-	"version_latest":"4.0.1",
-	"ts_publish":1754637537000,
-	"dt_publish":"2025-08-08 15:18:57.000",
-	"ts_update":1758386749303,
-	"dt_update":"2025-09-21 00:16:49.657",
+	"version_latest":"4.0.2",
+	"ts_publish":1760699061000,
+	"dt_publish":"2025-10-17 19:04:21.000",
+	"ts_update":1763829604193,
+	"dt_update":"2025-11-23 00:18:20.157",
 	"count_dep":10,
-	"count_ref":6,
+	"count_ref":5,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.syncope.client.idrepo/syncope-client-idrepo-lib@4.0.1",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#144629 in MvnRepository",
+	"ranking":"#153297 in MvnRepository",
 	"tags":[
 		"apache",
 		"client",
 		"library"
 	],
 	"versions":[
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -45,7 +53,7 @@
 			"date":"20250310",
 			"repository":"Central",
 			"type":"milestone",
-			"usage":3,
+			"usage":2,
 			"version":"4.0.0-M1",
 			"vulnerabilities":""
 		},
@@ -55,6 +63,14 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"4.0.0-M0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251020",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":3,
-			"version":"3.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221017",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":3,
-			"version":"3.0.0-M1",
 			"vulnerabilities":""
 		}
 	]

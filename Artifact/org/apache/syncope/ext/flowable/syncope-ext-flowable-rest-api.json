@@ -3,11 +3,11 @@
 	"description":"Apache Syncope Ext: Flowable REST API",
 	"group_id":"org.apache.syncope.ext.flowable",
 	"artifact_id":"syncope-ext-flowable-rest-api",
-	"version_latest":"4.0.1",
-	"ts_publish":1754637701000,
-	"dt_publish":"2025-08-08 15:21:41.000",
-	"ts_update":1758386060929,
-	"dt_update":"2025-09-21 00:16:50.414",
+	"version_latest":"4.0.2",
+	"ts_publish":1760699274000,
+	"dt_publish":"2025-10-17 19:07:54.000",
+	"ts_update":1763831601396,
+	"dt_update":"2025-11-23 00:18:20.960",
 	"count_dep":2,
 	"count_ref":3,
 	"licenses":[],
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.syncope.ext.flowable/syncope-ext-flowable-rest-api@4.0.1",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#89513 in MvnRepository",
+	"ranking":"#93920 in MvnRepository",
 	"tags":[
 		"rest",
 		"apache",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250808",
 			"repository":"Central",
@@ -55,6 +63,14 @@
 			"type":"milestone",
 			"usage":3,
 			"version":"4.0.0-M0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251017",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.0.14",
 			"vulnerabilities":""
 		},
 		{
@@ -167,22 +183,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221031",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":4,
-			"version":"3.0.0-M2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221017",
-			"repository":"Central",
-			"type":"milestone",
-			"usage":4,
-			"version":"3.0.0-M1",
 			"vulnerabilities":""
 		}
 	]

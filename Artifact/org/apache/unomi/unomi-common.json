@@ -3,16 +3,14 @@
 	"description":"Common Classes used in the Apache Unomi Context server",
 	"group_id":"org.apache.unomi",
 	"artifact_id":"unomi-common",
-	"version_latest":"2.7.0",
-	"ts_publish":1756362902000,
-	"dt_publish":"2025-08-28 14:35:02.000",
-	"ts_update":1759594714367,
-	"dt_update":"2025-10-05 00:16:49.942",
-	"count_dep":20,
-	"count_ref":6,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"version_latest":"3.0.0",
+	"ts_publish":1762249915000,
+	"dt_publish":"2025-11-04 17:51:55.000",
+	"ts_update":1765645014287,
+	"dt_update":"2025-12-14 00:20:17.350",
+	"count_dep":6,
+	"count_ref":3,
+	"licenses":[],
 	"categories":[
 		"Data Management"
 	],
@@ -39,15 +37,23 @@
 		"Damien GAILLARD"
 	],
 	"url_scm":"https://gitbox.apache.org/repos/asf/unomi.git/unomi-common",
-	"count_used_by":6,
+	"count_used_by":7,
 	"license":"Apache 2.0",
-	"ranking":"#72229 in MvnRepository",
+	"ranking":"#67614 in MvnRepository",
 	"tags":[
 		"bundle",
 		"apache",
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20251110",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250902",
 			"repository":"Central",
@@ -198,14 +204,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"1.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20201123",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"1.5.4",
 			"vulnerabilities":""
 		}
 	]

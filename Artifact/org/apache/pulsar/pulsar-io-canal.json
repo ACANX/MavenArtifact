@@ -2,13 +2,13 @@
 	"id":"pkg:maven/org.apache.pulsar/pulsar-io-canal",
 	"group_id":"org.apache.pulsar",
 	"artifact_id":"pulsar-io-canal",
-	"version_latest":"4.1.1",
-	"ts_publish":1759422493000,
-	"dt_publish":"2025-10-03 00:28:13.000",
-	"ts_update":1762014411238,
-	"dt_update":"2025-11-02 00:17:30.249",
+	"version_latest":"4.1.2",
+	"ts_publish":1762900021000,
+	"dt_publish":"2025-11-12 06:27:01.000",
+	"ts_update":1765643216407,
+	"dt_update":"2025-12-14 00:20:52.318",
 	"count_dep":0,
-	"count_ref":2,
+	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -19,13 +19,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.pulsar/pulsar-io-canal@4.0.6",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#403216 in MvnRepository",
+	"ranking":"#293483 in MvnRepository",
 	"tags":[
 		"apache",
 		"io",
 		"pulsar"
 	],
 	"versions":[
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251002",
 			"repository":"Central",
@@ -40,6 +48,14 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251111",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.8",
 			"vulnerabilities":""
 		},
 		{
@@ -168,22 +184,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.3.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241004",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240801",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.3.1",
 			"vulnerabilities":""
 		}
 	],

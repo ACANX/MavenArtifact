@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.jooby/jooby-redis",
 	"group_id":"io.jooby",
 	"artifact_id":"jooby-redis",
-	"version_latest":"4.0.10",
-	"ts_publish":1761580410000,
-	"dt_publish":"2025-10-27 23:53:30.000",
-	"ts_update":1761582082318,
-	"dt_update":"2025-10-28 00:21:06.353",
-	"count_dep":30,
+	"version_latest":"4.0.12",
+	"ts_publish":1764152439000,
+	"dt_publish":"2025-11-26 18:20:39.000",
+	"ts_update":1764152819407,
+	"dt_update":"2025-11-26 18:26:27.405",
+	"count_dep":8,
 	"count_ref":0,
-	"licenses":[
-		"The Apache Software License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Uncategorized"
 	],
@@ -23,12 +21,28 @@
 	],
 	"url_scm":"scm:git:git@github.com:jooby-project/jooby.git/modules/jooby-redis",
 	"license":"Apache 2.0",
-	"ranking":"#785668 in MvnRepository",
+	"ranking":"#453429 in MvnRepository",
 	"tags":[
 		"redis",
 		"database"
 	],
 	"versions":[
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.0.10",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -110,6 +124,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.11.5",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
@@ -164,31 +186,6 @@
 			"usage":0,
 			"version":"3.9.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250527",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250512",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250505",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.8.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"The modular web framework for Java and Kotlin"
+	]
 }

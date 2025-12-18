@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/io.cucumber/cucumber-bom",
-	"description":"Cucumber for the JVM",
 	"group_id":"io.cucumber",
 	"artifact_id":"cucumber-bom",
-	"version_latest":"7.31.0",
-	"ts_publish":1761583217000,
-	"dt_publish":"2025-10-28 00:40:17.000",
-	"ts_update":1761584197349,
-	"dt_update":"2025-10-28 00:56:24.004",
+	"version_latest":"7.33.0",
+	"ts_publish":1765239881000,
+	"dt_publish":"2025-12-09 08:24:41.000",
+	"ts_update":1765241796624,
+	"dt_update":"2025-12-09 08:56:28.815",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"MIT License"
-	],
+	"licenses":[],
 	"categories":[
 		"Test and Quality Management",
 		"Testing Utilities and Frameworks"
@@ -26,7 +23,7 @@
 	"url_scm":"git://github.com/cucumber/cucumber-jvm.git/cucumber-bom",
 	"count_used_by":1,
 	"license":"MIT",
-	"ranking":"#370855 in MvnRepository",
+	"ranking":"#420018 in MvnRepository",
 	"tags":[
 		"cucumber",
 		"bom",
@@ -34,6 +31,22 @@
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.32.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251027",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.31.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",
@@ -176,22 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.20.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241004",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.20.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240919",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.19.0",
 			"vulnerabilities":""
 		}
 	]

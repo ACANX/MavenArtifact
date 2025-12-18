@@ -3,15 +3,16 @@
 	"description":"SPL(Structured Process Language) A programming language specially for structured data computing.",
 	"group_id":"com.scudata.esproc",
 	"artifact_id":"esproc-bin",
-	"version_latest":"20250801",
-	"ts_publish":1755142549000,
-	"dt_publish":"2025-08-14 11:35:49.000",
-	"ts_update":1755145571319,
-	"dt_update":"2025-08-14 12:25:52.376",
+	"version_latest":"20251030",
+	"ts_publish":1762924461000,
+	"dt_publish":"2025-11-12 13:14:21.000",
+	"ts_update":1762926994932,
+	"dt_update":"2025-11-12 13:56:26.293",
 	"count_dep":0,
-	"count_ref":0,
+	"count_ref":2,
 	"licenses":[
-		"The Apache License, Version 2.0"
+		"The Apache License, Version 2.0",
+		"esProc (Standard Edition) End-User License Agreement"
 	],
 	"dsv":1,
 	"url_project":"http://www.esproc.com/",
@@ -19,5 +20,27 @@
 	"contributors":[
 		"SCUDATA"
 	],
-	"url_scm":"http://github.com/SPLWare/esProc"
+	"url_scm":"http://github.com/SPLWare/esProc",
+	"count_used_by":1,
+	"home_page":"http://www.esproc.com/",
+	"license":"Apache 2.0",
+	"ranking":"#431312 in MvnRepository",
+	"versions":[
+		{
+			"date":"20250815",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"20250815",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250814",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"20250801",
+			"vulnerabilities":""
+		}
+	]
 }

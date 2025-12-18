@@ -3,13 +3,13 @@
 	"description":"This module only exists as a separate module to house the configuration that needs to be present on the runtime classpath when the kubernetes extension is used",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-kubernetes-client-internal",
-	"version_latest":"3.29.0.CR1",
-	"ts_publish":1760559343000,
-	"dt_publish":"2025-10-16 04:15:43.000",
-	"ts_update":1760560578265,
-	"dt_update":"2025-10-16 04:35:47.817",
+	"version_latest":"3.30.0",
+	"ts_publish":1763566865000,
+	"dt_publish":"2025-11-19 23:41:05.000",
+	"ts_update":1763571425873,
+	"dt_update":"2025-11-20 00:47:17.005",
 	"count_dep":5,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,13 +18,61 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkus/quarkus-kubernetes-client-internal@3.25.1",
 	"count_used_by":9,
 	"license":"Apache 2.0",
-	"ranking":"#54547 in MvnRepository",
+	"ranking":"#55121 in MvnRepository",
 	"tags":[
 		"kubernetes",
 		"quarkus",
 		"client"
 	],
 	"versions":[
+		{
+			"date":"20251108",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.29.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.29.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.29.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251015",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.29.0.CR1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.28.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251016",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.28.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -135,54 +183,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"3.25.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250813",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.25.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250808",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.25.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250806",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.25.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.25.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250716",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.25.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250723",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.24.5",
 			"vulnerabilities":""
 		}
 	]

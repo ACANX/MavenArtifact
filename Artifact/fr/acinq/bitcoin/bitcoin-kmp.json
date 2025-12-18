@@ -3,11 +3,11 @@
 	"description":"A simple Kotlin Multiplatform library which implements most of the bitcoin protocol",
 	"group_id":"fr.acinq.bitcoin",
 	"artifact_id":"bitcoin-kmp",
-	"version_latest":"0.28.0",
-	"ts_publish":1761146297000,
-	"dt_publish":"2025-10-22 23:18:17.000",
-	"ts_update":1761147368072,
-	"dt_update":"2025-10-22 23:35:44.174",
+	"version_latest":"0.28.1",
+	"ts_publish":1762942891000,
+	"dt_publish":"2025-11-12 18:21:31.000",
+	"ts_update":1762944240871,
+	"dt_update":"2025-11-12 18:43:46.255",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
@@ -24,16 +24,24 @@
 		"ACINQ"
 	],
 	"url_scm":"https://github.com/ACINQ/bitcoin-kmp",
-	"count_used_by":5,
+	"count_used_by":7,
 	"home_page":"https://github.com/ACINQ/bitcoin-kmp",
 	"license":"Apache 2.0",
-	"ranking":"#92424 in MvnRepository",
+	"ranking":"#67214 in MvnRepository",
 	"tags":[
 		"bitcoin",
 		"cryptography",
 		"coin"
 	],
 	"versions":[
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"0.28.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251009",
 			"repository":"Central",
@@ -54,7 +62,7 @@
 			"date":"20250707",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":5,
 			"version":"0.25.1",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"0.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230313",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.11.1",
 			"vulnerabilities":""
 		}
 	]

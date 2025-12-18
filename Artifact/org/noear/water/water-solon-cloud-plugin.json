@@ -1,15 +1,14 @@
 {
 	"id":"pkg:maven/org.noear.water/water-solon-cloud-plugin",
-	"description":"Java project for water",
 	"group_id":"org.noear.water",
 	"artifact_id":"water-solon-cloud-plugin",
-	"version_latest":"2.18.0",
-	"ts_publish":1759337140000,
-	"dt_publish":"2025-10-02 00:45:40.000",
-	"ts_update":1759345012787,
-	"dt_update":"2025-10-02 00:53:20.228",
-	"count_dep":33,
-	"count_ref":2,
+	"version_latest":"2.19.2",
+	"ts_publish":1765454723000,
+	"dt_publish":"2025-12-11 20:05:23.000",
+	"ts_update":1765456002806,
+	"dt_update":"2025-12-11 20:26:31.517",
+	"count_dep":35,
+	"count_ref":1,
 	"licenses":[
 		"GNU AFFERO GENERAL PUBLIC LICENSE Version 3"
 	],
@@ -20,14 +19,38 @@
 		"noear"
 	],
 	"url_scm":"https://github.com/noear/water-solon-cloud-plugin",
-	"count_used_by":1,
+	"count_used_by":5,
 	"license":"AGPL 3.0",
-	"ranking":"#420624 in MvnRepository",
+	"ranking":"#89660 in MvnRepository",
 	"tags":[
 		"plugin",
 		"cloud"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.19.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251107",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.19.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251001",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.18.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250910",
 			"repository":"Central",
@@ -36,5 +59,6 @@
 			"version":"2.17.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Java project for water"
 }

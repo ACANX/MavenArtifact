@@ -3,12 +3,12 @@
 	"description":"Defines optional service interfaces that may be used by Cryptomator",
 	"group_id":"org.cryptomator",
 	"artifact_id":"integrations-api",
-	"version_latest":"1.7.0",
-	"ts_publish":1758101865000,
-	"dt_publish":"2025-09-17 17:37:45.000",
-	"ts_update":1758105383495,
-	"dt_update":"2025-09-17 18:35:38.579",
-	"count_dep":5,
+	"version_latest":"1.8.0-beta1",
+	"ts_publish":1763987962000,
+	"dt_publish":"2025-11-24 20:39:22.000",
+	"ts_update":1763989013310,
+	"dt_update":"2025-11-24 20:56:16.523",
+	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
 		"GNU Affero General Public License (AGPL) version 3.0"
@@ -27,7 +27,7 @@
 	"count_used_by":6,
 	"home_page":"https://github.com/cryptomator/integrations-api",
 	"license":"AGPL 3.0",
-	"ranking":"#78221 in MvnRepository",
+	"ranking":"#82155 in MvnRepository",
 	"tags":[
 		"integration",
 		"api"
@@ -39,6 +39,14 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"2.0.0-alpha1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.7.0",
 			"vulnerabilities":""
 		},
 		{
@@ -183,14 +191,6 @@
 			"type":"alpha",
 			"usage":0,
 			"version":"1.2.0-alpha3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221101",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"1.2.0-alpha2",
 			"vulnerabilities":""
 		}
 	]

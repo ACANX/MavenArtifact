@@ -3,11 +3,11 @@
 	"description":"Incremental compiler of Scala",
 	"group_id":"org.scala-sbt",
 	"artifact_id":"compiler-bridge_2.10",
-	"version_latest":"2.0.0-M9",
-	"ts_publish":1759113131000,
-	"dt_publish":"2025-09-29 10:32:11.000",
-	"ts_update":1759119793480,
-	"dt_update":"2025-09-29 10:56:12.868",
+	"version_latest":"2.0.0-M10",
+	"ts_publish":1765857549000,
+	"dt_publish":"2025-12-16 11:59:09.000",
+	"ts_update":1765859193116,
+	"dt_update":"2025-12-16 12:26:20.944",
 	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
@@ -31,7 +31,7 @@
 	"count_used_by":6,
 	"home_page":"https://github.com/sbt/zinc",
 	"license":"Apache 2.0",
-	"ranking":"#74207 in MvnRepository",
+	"ranking":"#80517 in MvnRepository",
 	"tags":[
 		"compiler",
 		"bridge",
@@ -41,6 +41,14 @@
 		"scala"
 	],
 	"versions":[
+		{
+			"date":"20250929",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":0,
+			"version":"2.0.0-M9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -210,10 +218,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251102",
+			"repository":"Central",
+			"type":"milestone",
+			"usage":2,
+			"version":"1.12.0-M1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250927",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"1.11.0",
 			"vulnerabilities":""
 		},
@@ -1015,22 +1031,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.1.0-RC2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20171129",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.1.0-RC1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20171126",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.0.5",
 			"vulnerabilities":""
 		}
 	]

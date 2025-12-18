@@ -2,23 +2,23 @@
 	"id":"pkg:maven/org.apache.activemq/artemis-jakarta-client",
 	"group_id":"org.apache.activemq",
 	"artifact_id":"artemis-jakarta-client",
-	"version_latest":"2.42.0",
-	"ts_publish":1752520399000,
-	"dt_publish":"2025-07-15 03:13:19.000",
-	"ts_update":1755967691887,
-	"dt_update":"2025-08-24 00:16:14.677",
+	"version_latest":"2.44.0",
+	"ts_publish":1761737077000,
+	"dt_publish":"2025-10-29 19:24:37.000",
+	"ts_update":1765039296966,
+	"dt_update":"2025-12-07 00:19:23.671",
 	"count_dep":10,
-	"count_ref":28,
+	"count_ref":42,
 	"licenses":[],
 	"categories":[
 		"Data Transport"
 	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.activemq/artemis-jakarta-client@2.42.0",
-	"count_used_by":55,
+	"count_used_by":60,
 	"home_page":"https://activemq.apache.org/components/artemis/",
 	"license":"Apache 2.0",
-	"ranking":"#8872 in MvnRepository",
+	"ranking":"#8560 in MvnRepository",
 	"tags":[
 		"jakarta",
 		"jms",
@@ -29,10 +29,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251103",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"2.44.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251013",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"2.43.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":16,
 			"version":"2.42.0",
 			"vulnerabilities":""
 		},
@@ -40,7 +56,7 @@
 			"date":"20250429",
 			"repository":"Central",
 			"type":"release",
-			"usage":17,
+			"usage":19,
 			"version":"2.41.0",
 			"vulnerabilities":""
 		},
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"2.27.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221114",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"2.27.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220926",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"2.26.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"Integration and System tests for HBase",
 	"group_id":"org.apache.hbase",
 	"artifact_id":"hbase-it",
-	"version_latest":"2.6.3",
-	"ts_publish":1752163611000,
-	"dt_publish":"2025-07-11 00:06:51.000",
-	"ts_update":1755363360656,
-	"dt_update":"2025-08-17 00:18:12.849",
+	"version_latest":"2.6.4-hadoop3",
+	"ts_publish":1762233086000,
+	"dt_publish":"2025-11-04 13:11:26.000",
+	"ts_update":1765642884706,
+	"dt_update":"2025-12-14 00:20:16.657",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -87,7 +87,7 @@
 	"count_used_by":39,
 	"home_page":"https://hbase.apache.org/hbase-build-configuration/hbase-it",
 	"license":"Apache 2.0",
-	"ranking":"#12209 in MvnRepository",
+	"ranking":"#12572 in MvnRepository",
 	"tags":[
 		"database",
 		"hadoop",
@@ -136,6 +136,22 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.6.4-hadoop3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250710",
 			"repository":"Central",
 			"type":"release",
@@ -147,7 +163,7 @@
 			"date":"20250710",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.6.3-hadoop3",
 			"vulnerabilities":""
 		},
@@ -200,6 +216,22 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.5.13",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.5.13-hadoop3",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
@@ -211,7 +243,7 @@
 			"date":"20250718",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":1,
 			"version":"2.5.12-hadoop3",
 			"vulnerabilities":""
 		},
@@ -221,38 +253,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.5.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250306",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.5.11-hadoop3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240725",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.5.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240725",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.5.10-hadoop3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240706",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.5.9",
 			"vulnerabilities":""
 		}
 	]

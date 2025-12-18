@@ -3,13 +3,13 @@
 	"description":"Generic parent POM for Java 17+ applications",
 	"group_id":"com.helger.peppol",
 	"artifact_id":"peppol-reporting",
-	"version_latest":"4.0.1",
-	"ts_publish":1758279012000,
-	"dt_publish":"2025-09-19 18:50:12.000",
-	"ts_update":1758280436354,
-	"dt_update":"2025-09-19 19:12:47.822",
-	"count_dep":62,
-	"count_ref":0,
+	"version_latest":"4.1.0",
+	"ts_publish":1763311922000,
+	"dt_publish":"2025-11-17 00:52:02.000",
+	"ts_update":1763313986014,
+	"dt_update":"2025-11-17 01:26:13.372",
+	"count_dep":30,
+	"count_ref":1,
 	"licenses":[
 		"Apache 2"
 	],
@@ -26,7 +26,7 @@
 	"count_used_by":2,
 	"home_page":"https://github.com/phax/peppol-reporting/peppol-reporting",
 	"license":"Apache 2.0",
-	"ranking":"#221898 in MvnRepository",
+	"ranking":"#216371 in MvnRepository",
 	"tags":[
 		"bundle",
 		"reporting",
@@ -34,6 +34,22 @@
 		"osgi"
 	],
 	"versions":[
+		{
+			"date":"20250919",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250827",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250411",
 			"repository":"Central",
@@ -176,14 +192,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230721",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"OpenRewrite recipes for modernizing, upgrading, applying best practices for the fasterxml Jackson serialization/deserialization libraries",
 	"group_id":"org.openrewrite.recipe",
 	"artifact_id":"rewrite-jackson",
-	"version_latest":"1.9.0",
-	"ts_publish":1762267425000,
-	"dt_publish":"2025-11-04 22:43:45.000",
-	"ts_update":1762268025237,
-	"dt_update":"2025-11-04 22:53:34.513",
-	"count_dep":7,
+	"version_latest":"1.13.0",
+	"ts_publish":1765904508000,
+	"dt_publish":"2025-12-17 01:01:48.000",
+	"ts_update":1765905957695,
+	"dt_update":"2025-12-17 01:25:37.112",
+	"count_dep":8,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,11 +25,43 @@
 	"url_scm":"https://github.com/openrewrite/rewrite-jackson.git",
 	"home_page":"https://github.com/openrewrite/rewrite-jackson",
 	"license":"Apache 2.0",
-	"ranking":"#267594 in MvnRepository",
+	"ranking":"#211316 in MvnRepository",
 	"tags":[
 		"jackson"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.12.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.11.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251112",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.10.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251104",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.9.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251022",
 			"repository":"Central",
@@ -157,39 +189,7 @@
 			"usage":0,
 			"version":"0.16.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250311",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250220",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250207",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.13.1",
-			"vulnerabilities":""
 		}
 	],
-	"count_used_by":1
+	"count_used_by":2
 }

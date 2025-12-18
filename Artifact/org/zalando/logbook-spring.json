@@ -3,12 +3,12 @@
 	"description":"Spring implementations for request and response logging",
 	"group_id":"org.zalando",
 	"artifact_id":"logbook-spring",
-	"version_latest":"3.12.3",
-	"ts_publish":1757001184000,
-	"dt_publish":"2025-09-04 23:53:04.000",
-	"ts_update":1757002776076,
-	"dt_update":"2025-09-05 00:18:53.941",
-	"count_dep":32,
+	"version_latest":"4.0.0-RC.1",
+	"ts_publish":1765983299000,
+	"dt_publish":"2025-12-17 22:54:59.000",
+	"ts_update":1765984796036,
+	"dt_update":"2025-12-17 23:19:20.367",
+	"count_dep":30,
 	"count_ref":3,
 	"licenses":[
 		"MIT License"
@@ -24,13 +24,21 @@
 		"Willi Schönborn"
 	],
 	"url_scm":"https://github.com/zalando/logbook",
-	"count_used_by":4,
+	"count_used_by":3,
 	"license":"MIT",
-	"ranking":"#120081 in MvnRepository",
+	"ranking":"#134342 in MvnRepository",
 	"tags":[
 		"spring"
 	],
 	"versions":[
+		{
+			"date":"20250904",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.12.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250626",
 			"repository":"Central",
@@ -43,7 +51,7 @@
 			"date":"20250527",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":1,
 			"version":"3.12.1",
 			"vulnerabilities":""
 		},
@@ -51,7 +59,7 @@
 			"date":"20250425",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":1,
 			"version":"3.12.0",
 			"vulnerabilities":""
 		},
@@ -59,7 +67,7 @@
 			"date":"20250227",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":1,
 			"version":"3.11.0",
 			"vulnerabilities":""
 		},
@@ -67,7 +75,7 @@
 			"date":"20241105",
 			"repository":"Central",
 			"type":"release",
-			"usage":2,
+			"usage":1,
 			"version":"3.10.0",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.0.0-RC.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230327",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.0.0-RC.0",
 			"vulnerabilities":""
 		}
 	]

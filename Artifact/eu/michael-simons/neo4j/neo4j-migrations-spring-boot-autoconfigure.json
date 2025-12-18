@@ -3,12 +3,12 @@
 	"description":"Autoconfiguration for Spring Boot.",
 	"group_id":"eu.michael-simons.neo4j",
 	"artifact_id":"neo4j-migrations-spring-boot-autoconfigure",
-	"version_latest":"2.20.1",
-	"ts_publish":1761728576000,
-	"dt_publish":"2025-10-29 17:02:56.000",
-	"ts_update":1761729449991,
-	"dt_update":"2025-10-29 17:17:10.567",
-	"count_dep":50,
+	"version_latest":"3.1.0",
+	"ts_publish":1765356321000,
+	"dt_publish":"2025-12-10 16:45:21.000",
+	"ts_update":1765357000287,
+	"dt_update":"2025-12-10 16:56:31.812",
+	"count_dep":62,
 	"count_ref":1,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/michael-simons/neo4j-migrations/neo4j-migrations-spring-boot-starter-parent/neo4j-migrations-spring-boot-autoconfigure",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#417095 in MvnRepository",
+	"ranking":"#302838 in MvnRepository",
 	"tags":[
 		"database",
 		"spring",
@@ -35,6 +35,30 @@
 		"migration"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.20.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.20.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250923",
 			"repository":"Central",
@@ -169,30 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241130",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.14.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241129",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241112",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.13.4",
 			"vulnerabilities":""
 		}
 	]

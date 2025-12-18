@@ -3,13 +3,13 @@
 	"description":"Requirements for clustering singleton service configurators.",
 	"group_id":"org.wildfly",
 	"artifact_id":"wildfly-clustering-singleton-compat",
-	"version_latest":"38.0.0.Final",
-	"ts_publish":1761302373000,
-	"dt_publish":"2025-10-24 18:39:33.000",
-	"ts_update":1761303400067,
-	"dt_update":"2025-10-24 18:56:25.386",
+	"version_latest":"38.0.1.Final",
+	"ts_publish":1763402038000,
+	"dt_publish":"2025-11-18 01:53:58.000",
+	"ts_update":1763403831034,
+	"dt_update":"2025-11-18 02:23:24.257",
 	"count_dep":16,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Application and Server Management"
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.wildfly/wildfly-clustering-singleton-compat@37.0.0.Final",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#137151 in MvnRepository",
+	"ranking":"#138439 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"cluster",
 		"compatibility"
 	],
 	"versions":[
+		{
+			"date":"20251024",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"38.0.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251001",
 			"repository":"Central",

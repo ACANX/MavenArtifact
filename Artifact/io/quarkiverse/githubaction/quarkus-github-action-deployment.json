@@ -3,12 +3,12 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.githubaction",
 	"artifact_id":"quarkus-github-action-deployment",
-	"version_latest":"2.7.0",
-	"ts_publish":1758125624000,
-	"dt_publish":"2025-09-18 00:13:44.000",
-	"ts_update":1758128088261,
-	"dt_update":"2025-09-18 00:52:34.229",
-	"count_dep":219,
+	"version_latest":"2.8.1",
+	"ts_publish":1763748112000,
+	"dt_publish":"2025-11-22 02:01:52.000",
+	"ts_update":1763751091116,
+	"dt_update":"2025-11-22 02:51:23.257",
+	"count_dep":222,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-github-action",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#296416 in MvnRepository",
+	"ranking":"#379359 in MvnRepository",
 	"tags":[
 		"github",
 		"deployment",
@@ -31,6 +31,14 @@
 		"action"
 	],
 	"versions":[
+		{
+			"date":"20250917",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.7.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250418",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"1.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230104",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.0.1",
 			"vulnerabilities":""
 		}
 	]
