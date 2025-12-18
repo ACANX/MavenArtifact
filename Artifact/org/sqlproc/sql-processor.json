@@ -3,12 +3,12 @@
 	"description":"SQL Processor, Core Module",
 	"group_id":"org.sqlproc",
 	"artifact_id":"sql-processor",
-	"version_latest":"3.7.0",
-	"ts_publish":1756451915000,
-	"dt_publish":"2025-08-29 15:18:35.000",
-	"ts_update":1756452680103,
-	"dt_update":"2025-08-29 15:30:47.786",
-	"count_dep":24,
+	"version_latest":"3.9.0",
+	"ts_publish":1766062060000,
+	"dt_publish":"2025-12-18 20:47:40.000",
+	"ts_update":1766062605039,
+	"dt_update":"2025-12-18 20:56:33.591",
+	"count_dep":25,
 	"count_ref":2,
 	"licenses":[
 		"GNU Lesser General Public License"
@@ -27,12 +27,28 @@
 	"url_scm":"scm:git:https://github.com/hudec/sql-processor.git/sql-processor",
 	"count_used_by":3,
 	"license":"LGPL 2.1",
-	"ranking":"#142465 in MvnRepository",
+	"ranking":"#163225 in MvnRepository",
 	"tags":[
 		"sql",
 		"processor"
 	],
 	"versions":[
+		{
+			"date":"20250926",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.8.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250829",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.7.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20240404",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.1.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20160221",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.1.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20160210",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.1.5",
 			"vulnerabilities":""
 		}
 	]
