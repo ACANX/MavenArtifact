@@ -3,14 +3,16 @@
 	"description":"Local database based on PouchDB",
 	"group_id":"org.jboss.hal",
 	"artifact_id":"hal-fnd-db",
-	"version_latest":"0.0.6",
-	"ts_publish":1763637944000,
-	"dt_publish":"2025-11-20 19:25:44.000",
-	"ts_update":1763639129199,
-	"dt_update":"2025-11-20 19:45:00.569",
-	"count_dep":0,
-	"count_ref":5,
-	"licenses":[],
+	"version_latest":"0.0.8",
+	"ts_publish":1766015638000,
+	"dt_publish":"2025-12-18 07:53:58.000",
+	"ts_update":1766017587833,
+	"dt_update":"2025-12-18 08:26:21.872",
+	"count_dep":20,
+	"count_ref":6,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -22,14 +24,30 @@
 		"Harald Pehl"
 	],
 	"url_scm":"https://github.com/hal/foundation",
-	"count_used_by":2,
+	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#178558 in MvnRepository",
+	"ranking":"#148855 in MvnRepository",
 	"tags":[
 		"database",
 		"jboss"
 	],
 	"versions":[
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"0.0.7",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"0.0.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251109",
 			"repository":"Central",
