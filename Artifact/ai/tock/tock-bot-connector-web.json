@@ -3,13 +3,13 @@
 	"description":"Bot Connector for REST API",
 	"group_id":"ai.tock",
 	"artifact_id":"tock-bot-connector-web",
-	"version_latest":"25.10.2",
-	"ts_publish":1764016122000,
-	"dt_publish":"2025-11-25 04:28:42.000",
-	"ts_update":1764017368890,
-	"dt_update":"2025-11-25 04:47:11.611",
+	"version_latest":"25.10.3",
+	"ts_publish":1766023818000,
+	"dt_publish":"2025-12-18 10:10:18.000",
+	"ts_update":1766024810154,
+	"dt_update":"2025-12-18 10:26:36.750",
 	"count_dep":15,
-	"count_ref":2,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ai.tock/tock-bot-connector-web@25.3.10",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#224910 in MvnRepository",
+	"ranking":"#227995 in MvnRepository",
 	"tags":[
 		"web",
 		"connector",
@@ -27,6 +27,14 @@
 		"connection"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"25.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"24.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240925",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"24.9.0",
 			"vulnerabilities":""
 		}
 	]
