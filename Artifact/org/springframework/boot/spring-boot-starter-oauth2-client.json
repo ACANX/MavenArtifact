@@ -3,12 +3,12 @@
 	"description":"Starter for using Spring Security's OAuth2/OpenID Connect client features (deprecated in favor of spring-boot-starter-security-oauth2-client)",
 	"group_id":"org.springframework.boot",
 	"artifact_id":"spring-boot-starter-oauth2-client",
-	"version_latest":"4.0.0",
-	"ts_publish":1763661467000,
-	"dt_publish":"2025-11-21 01:57:47.000",
-	"ts_update":1763663070353,
-	"dt_update":"2025-11-21 02:24:08.813",
-	"count_dep":43,
+	"version_latest":"4.0.1",
+	"ts_publish":1766079245000,
+	"dt_publish":"2025-12-19 01:34:05.000",
+	"ts_update":1766080361319,
+	"dt_update":"2025-12-19 01:52:27.460",
+	"count_dep":38,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -24,10 +24,10 @@
 		"Spring"
 	],
 	"url_scm":"https://github.com/spring-projects/spring-boot",
-	"count_used_by":324,
+	"count_used_by":331,
 	"home_page":"https://spring.io/projects/spring-boot",
 	"license":"Apache 2.0",
-	"ranking":"#2050 in MvnRepository",
+	"ranking":"#2028 in MvnRepository",
 	"tags":[
 		"spring",
 		"framework",
@@ -37,6 +37,14 @@
 		"oauth"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"4.0.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -78,10 +86,18 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"3.5.8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
-			"usage":16,
+			"usage":21,
 			"version":"3.5.7",
 			"vulnerabilities":""
 		},
@@ -89,7 +105,7 @@
 			"date":"20250918",
 			"repository":"Central",
 			"type":"release",
-			"usage":29,
+			"usage":31,
 			"version":"3.5.6",
 			"vulnerabilities":""
 		},
@@ -105,7 +121,7 @@
 			"date":"20250724",
 			"repository":"Central",
 			"type":"release",
-			"usage":15,
+			"usage":16,
 			"version":"3.5.4",
 			"vulnerabilities":""
 		},
@@ -142,6 +158,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.4.12",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251023",
 			"repository":"Central",
 			"type":"release",
@@ -171,30 +195,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.4.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250619",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.4.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250522",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.4.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250424",
-			"repository":"Central",
-			"type":"release",
-			"usage":27,
-			"version":"3.4.5",
 			"vulnerabilities":""
 		}
 	]
