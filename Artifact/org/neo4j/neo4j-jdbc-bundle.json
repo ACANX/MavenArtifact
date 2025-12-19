@@ -3,11 +3,11 @@
 	"description":"Single jar package of the Neo4j JDBC Driver.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-jdbc-bundle",
-	"version_latest":"6.10.2",
-	"ts_publish":1765185988000,
-	"dt_publish":"2025-12-08 17:26:28.000",
-	"ts_update":1765187612707,
-	"dt_update":"2025-12-08 17:53:21.654",
+	"version_latest":"6.10.3",
+	"ts_publish":1766158611000,
+	"dt_publish":"2025-12-19 23:36:51.000",
+	"ts_update":1766159591397,
+	"dt_update":"2025-12-19 23:53:03.450",
 	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
@@ -31,7 +31,7 @@
 	],
 	"url_scm":"https://github.com/neo4j/neo4j-jdbc/bundles/neo4j-jdbc-bundle",
 	"license":"Apache 2.0",
-	"ranking":"#669132 in MvnRepository",
+	"ranking":"#673509 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -41,6 +41,14 @@
 		"neo4j"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"6.10.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251127",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"6.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250307",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"6.1.5",
 			"vulnerabilities":""
 		}
 	]
