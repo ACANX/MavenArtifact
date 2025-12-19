@@ -3,11 +3,11 @@
 	"description":"JDBC driver for Elasticsearch",
 	"group_id":"org.elasticsearch.plugin",
 	"artifact_id":"x-pack-sql-jdbc",
-	"version_latest":"9.2.2",
-	"ts_publish":1764691427000,
-	"dt_publish":"2025-12-03 00:03:47.000",
-	"ts_update":1764692596316,
-	"dt_update":"2025-12-03 00:22:55.580",
+	"version_latest":"9.2.3",
+	"ts_publish":1766136829000,
+	"dt_publish":"2025-12-19 17:33:49.000",
+	"ts_update":1766138024918,
+	"dt_update":"2025-12-19 17:53:34.237",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	"url_scm":"git@github.com:elastic/elasticsearch.git",
 	"count_used_by":8,
 	"home_page":"https://github.com/elastic/elasticsearch",
-	"ranking":"#58872 in MvnRepository",
+	"ranking":"#59231 in MvnRepository",
 	"tags":[
 		"plugin",
 		"database",
@@ -36,6 +36,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251112",
 			"repository":"Central",
@@ -50,6 +58,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251202",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"9.1.8",
 			"vulnerabilities":""
 		},
 		{
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"9.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250415",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250324",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"9.0.0-rc1",
 			"vulnerabilities":""
 		}
 	]
