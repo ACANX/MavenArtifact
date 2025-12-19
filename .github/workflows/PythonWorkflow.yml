@@ -80,7 +80,7 @@ jobs:
             echo "has_changes=false" >> $GITHUB_OUTPUT  # 改用环境文件设置输出
             echo "No changes to commit"
           else
-            git commit -m "Action:$TIMESTAMP"
+            git commit -m "Update:$TIMESTAMP"
             echo "has_changes=true" >> $GITHUB_OUTPUT   # 改用环境文件设置输出
           fi
 
