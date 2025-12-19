@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.operaton.connect/operaton-connect-connectors-all",
 	"group_id":"org.operaton.connect",
 	"artifact_id":"operaton-connect-connectors-all",
-	"version_latest":"1.0.1",
-	"ts_publish":1764327051000,
-	"dt_publish":"2025-11-28 18:50:51.000",
-	"ts_update":1764328510395,
-	"dt_update":"2025-11-28 19:14:53.607",
-	"count_dep":4,
+	"version_latest":"1.0.2",
+	"ts_publish":1766143344000,
+	"dt_publish":"2025-12-19 19:22:24.000",
+	"ts_update":1766143952883,
+	"dt_update":"2025-12-19 19:32:23.764",
+	"count_dep":10,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://www.operaton.org/operaton-connect-root/operaton-connect-connectors-all",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.operaton.connect/operaton-connect-connectors-all@1.0.0-beta-5",
@@ -20,12 +22,20 @@
 	"url_scm":"https://github.com/operaton/operaton/operaton-connect-connectors-all",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#304876 in MvnRepository",
+	"ranking":"#429109 in MvnRepository",
 	"tags":[
 		"connector",
 		"connection"
 	],
 	"versions":[
+		{
+			"date":"20251128",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -90,5 +100,6 @@
 			"version":"1.0.0-beta-1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Operaton - Connect - All connectors in one"
 }
