@@ -3,11 +3,11 @@
 	"description":"Spinnaker Kork",
 	"group_id":"io.spinnaker.kork",
 	"artifact_id":"kork-docker",
-	"version_latest":"2025.4-1",
-	"ts_publish":1765737469000,
-	"ts_update":1765738393676,
+	"version_latest":"2025.4-2",
+	"ts_publish":1766162114000,
+	"ts_update":1766163426719,
 	"count_dep":9,
-	"count_ref":1,
+	"count_ref":3,
 	"licenses":[
 		"The Apache License, Version 2.0",
 		"Apache License, Version 2.0"
@@ -23,17 +23,33 @@
 		"Technical Oversight Committee"
 	],
 	"url_scm":"http://github.com/spinnaker/kork/",
-	"dt_publish":"2025-12-15 02:37:49.000",
-	"dt_update":"2025-12-15 02:52:54.414",
+	"dt_publish":"2025-12-20 00:35:14.000",
+	"dt_update":"2025-12-20 00:56:37.608",
 	"count_used_by":4,
 	"home_page":"https://github.com/spinnaker/kork",
 	"license":"Apache 2.0",
-	"ranking":"#127136 in MvnRepository",
+	"ranking":"#127364 in MvnRepository",
 	"tags":[
 		"spinnaker",
 		"docker"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"main-135",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251213",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"main-134",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251209",
 			"repository":"Central",
@@ -176,22 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"main-116",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251104",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"main-115",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251104",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"main-114",
 			"vulnerabilities":""
 		}
 	]
