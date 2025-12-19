@@ -3,13 +3,13 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.plugin.entrypoint",
 	"artifact_id":"gravitee-apim-plugin-entrypoint-handler",
-	"version_latest":"4.10.0-alpha.2",
-	"ts_publish":1766009188000,
-	"dt_publish":"2025-12-18 06:06:28.000",
-	"ts_update":1766010414551,
-	"dt_update":"2025-12-18 06:26:42.179",
+	"version_latest":"4.10.0-alpha.3",
+	"ts_publish":1766162966000,
+	"dt_publish":"2025-12-20 00:49:26.000",
+	"ts_update":1766164607762,
+	"dt_update":"2025-12-20 01:16:26.262",
 	"count_dep":131,
-	"count_ref":32,
+	"count_ref":34,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -29,11 +29,19 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-plugin/gravitee-apim-plugin-entrypoint/gravitee-apim-plugin-entrypoint-handler",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#143323 in MvnRepository",
+	"ranking":"#143658 in MvnRepository",
 	"tags":[
 		"plugin"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"4.10.0-alpha.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.8.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251107",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.12",
 			"vulnerabilities":""
 		}
 	]

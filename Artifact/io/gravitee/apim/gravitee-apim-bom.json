@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim",
 	"artifact_id":"gravitee-apim-bom",
-	"version_latest":"4.10.0-alpha.2",
-	"ts_publish":1766009188000,
-	"dt_publish":"2025-12-18 06:06:28.000",
-	"ts_update":1766010416562,
-	"dt_update":"2025-12-18 06:26:40.515",
+	"version_latest":"4.10.0-alpha.3",
+	"ts_publish":1766162966000,
+	"dt_publish":"2025-12-20 00:49:26.000",
+	"ts_update":1766164603827,
+	"dt_update":"2025-12-20 01:16:24.297",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,13 +25,21 @@
 	],
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-bom",
 	"license":"Apache 2.0",
-	"ranking":"#690874 in MvnRepository",
+	"ranking":"#691580 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251218",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":0,
+			"version":"4.10.0-alpha.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.8.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251107",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.8.12",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components.",
 	"group_id":"io.gravitee.apim.rest.api",
 	"artifact_id":"gravitee-apim-rest-api-security",
-	"version_latest":"4.10.0-alpha.2",
-	"ts_publish":1766009188000,
-	"dt_publish":"2025-12-18 06:06:28.000",
-	"ts_update":1766011179764,
-	"dt_update":"2025-12-18 06:39:32.181",
+	"version_latest":"4.10.0-alpha.3",
+	"ts_publish":1766162966000,
+	"dt_publish":"2025-12-20 00:49:26.000",
+	"ts_update":1766164606529,
+	"dt_update":"2025-12-20 01:16:24.909",
 	"count_dep":301,
 	"count_ref":10,
 	"licenses":[
@@ -29,13 +29,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-rest-api/gravitee-apim-rest-api-security",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#103269 in MvnRepository",
+	"ranking":"#103237 in MvnRepository",
 	"tags":[
 		"security",
 		"rest",
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251218",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":5,
+			"version":"4.10.0-alpha.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -186,14 +194,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.8.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251107",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.8.12",
 			"vulnerabilities":""
 		}
 	]

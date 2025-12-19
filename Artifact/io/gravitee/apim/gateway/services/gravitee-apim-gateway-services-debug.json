@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.apim.gateway.services/gravitee-apim-gateway-services-debug",
 	"group_id":"io.gravitee.apim.gateway.services",
 	"artifact_id":"gravitee-apim-gateway-services-debug",
-	"version_latest":"4.10.0-alpha.2",
-	"ts_publish":1766009188000,
-	"dt_publish":"2025-12-18 06:06:28.000",
-	"ts_update":1766010408550,
-	"dt_update":"2025-12-18 06:26:40.517",
-	"count_dep":44,
+	"version_latest":"4.10.0-alpha.3",
+	"ts_publish":1766162966000,
+	"dt_publish":"2025-12-20 00:49:26.000",
+	"ts_update":1766164593241,
+	"dt_update":"2025-12-20 01:16:24.901",
+	"count_dep":255,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,13 +28,21 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-gateway/gravitee-apim-gateway-services/gravitee-apim-gateway-services-debug",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#235284 in MvnRepository",
+	"ranking":"#235624 in MvnRepository",
 	"tags":[
 		"service",
 		"gateway",
 		"debug"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":2,
+			"version":"4.10.0-alpha.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -184,14 +194,7 @@
 			"usage":2,
 			"version":"4.8.13",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251107",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"4.8.12",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }

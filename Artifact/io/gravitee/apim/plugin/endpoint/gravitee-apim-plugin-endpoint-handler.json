@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.gravitee.apim.plugin.endpoint/gravitee-apim-plugin-endpoint-handler",
 	"group_id":"io.gravitee.apim.plugin.endpoint",
 	"artifact_id":"gravitee-apim-plugin-endpoint-handler",
-	"version_latest":"4.10.0-alpha.2",
-	"ts_publish":1766009188000,
-	"dt_publish":"2025-12-18 06:06:28.000",
-	"ts_update":1766010412841,
-	"dt_update":"2025-12-18 06:26:39.344",
-	"count_dep":24,
-	"count_ref":32,
-	"licenses":[],
+	"version_latest":"4.10.0-alpha.3",
+	"ts_publish":1766162966000,
+	"dt_publish":"2025-12-20 00:49:26.000",
+	"ts_update":1766164609207,
+	"dt_update":"2025-12-20 01:16:23.614",
+	"count_dep":131,
+	"count_ref":34,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -26,12 +28,20 @@
 	"url_scm":"https://github.com/gravitee-io/gravitee-api-management/gravitee-apim-parent/gravitee-apim-plugin/gravitee-apim-plugin-endpoint/gravitee-apim-plugin-endpoint-handler",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#147562 in MvnRepository",
+	"ranking":"#147560 in MvnRepository",
 	"tags":[
 		"plugin",
 		"endpoint"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":3,
+			"version":"4.10.0-alpha.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -183,14 +193,7 @@
 			"usage":3,
 			"version":"4.8.13",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251107",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.8.12",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"The Gravitee.IO Parent POM provides common settings for all Gravitee components."
 }
