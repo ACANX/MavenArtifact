@@ -3,10 +3,10 @@
 	"description":"Kafka on Pulsar implemented using Pulsar Protocol Handler",
 	"group_id":"io.streamnative.pulsar.handlers",
 	"artifact_id":"pulsar-protocol-handler-kafka",
-	"version_latest":"4.1.0.9",
-	"ts_publish":1764759424000,
-	"ts_update":1764760576310,
-	"count_dep":419,
+	"version_latest":"4.1.0.10",
+	"ts_publish":1766110865000,
+	"ts_update":1766111203769,
+	"count_dep":425,
 	"count_ref":3,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -15,11 +15,11 @@
 	"url_project":"https://www.apache.org/pulsar-protocol-handler-kafka-parent/pulsar-protocol-handler-kafka/",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.streamnative.pulsar.handlers/pulsar-protocol-handler-kafka@4.0.5.5",
 	"url_scm":"https://svn.apache.org/viewvc/maven/pom/tags/apache-18/pulsar-protocol-handler-kafka-parent/pulsar-protocol-handler-kafka",
-	"dt_publish":"2025-12-03 18:57:04.000",
-	"dt_update":"2025-12-03 19:16:03.688",
+	"dt_publish":"2025-12-19 10:21:05.000",
+	"dt_update":"2025-12-19 10:26:35.372",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#168592 in MvnRepository",
+	"ranking":"#169217 in MvnRepository",
 	"tags":[
 		"streaming",
 		"kafka",
@@ -27,6 +27,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.1.0.9",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251124",
 			"repository":"Central",
@@ -100,6 +108,22 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251213",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.8.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.0.8.1",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251122",
 			"repository":"Central",
 			"type":"release",
@@ -161,30 +185,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"4.0.6.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250901",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.6.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250825",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.6.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250811",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.0.6.1",
 			"vulnerabilities":""
 		}
 	]
