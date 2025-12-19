@@ -3,14 +3,16 @@
 	"description":"Neo4j property value system.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-values",
-	"version_latest":"2025.10.1",
-	"ts_publish":1761819312000,
-	"dt_publish":"2025-10-30 18:15:12.000",
-	"ts_update":1761820840899,
-	"dt_update":"2025-10-30 18:40:23.939",
-	"count_dep":13,
-	"count_ref":34,
-	"licenses":[],
+	"version_latest":"2025.11.2",
+	"ts_publish":1766165629000,
+	"dt_publish":"2025-12-20 01:33:49.000",
+	"ts_update":1766167017842,
+	"dt_update":"2025-12-20 01:56:36.369",
+	"count_dep":20,
+	"count_ref":40,
+	"licenses":[
+		"GPL-3.0-or-later"
+	],
 	"categories":[
 		"Data Management",
 		"Database",
@@ -25,15 +27,23 @@
 	],
 	"url_scm":"https://github.com/neo4j/neo4j",
 	"count_used_by":37,
-	"home_page":"http://components.neo4j.org/neo4j-values/2025.09.0",
+	"home_page":"http://components.neo4j.org/neo4j-values/2025.10.1",
 	"license":"GPL 3.0",
-	"ranking":"#13044 in MvnRepository",
+	"ranking":"#13358 in MvnRepository",
 	"tags":[
 		"database",
 		"graph",
 		"neo4j"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":30,
+			"version":"2025.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -139,59 +149,51 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251218",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"5.26.19",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"5.26.18",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"5.26.17",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"5.26.16",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":16,
+			"version":"5.26.15",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
 			"usage":16,
 			"version":"5.26.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251006",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"5.26.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250904",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"5.26.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250826",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"5.26.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"5.26.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250710",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"5.26.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250609",
-			"repository":"Central",
-			"type":"release",
-			"usage":16,
-			"version":"5.26.8",
 			"vulnerabilities":""
 		}
 	]

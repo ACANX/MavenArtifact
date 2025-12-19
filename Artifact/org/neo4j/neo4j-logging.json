@@ -3,13 +3,13 @@
 	"description":"Logging interfaces and basic logger implementations.",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-logging",
-	"version_latest":"2025.10.1",
-	"ts_publish":1761819312000,
-	"dt_publish":"2025-10-30 18:15:12.000",
-	"ts_update":1761820837397,
-	"dt_update":"2025-10-30 18:40:22.603",
+	"version_latest":"2025.11.2",
+	"ts_publish":1766165629000,
+	"dt_publish":"2025-12-20 01:33:49.000",
+	"ts_update":1766167007995,
+	"dt_update":"2025-12-20 01:56:37.412",
 	"count_dep":12,
-	"count_ref":30,
+	"count_ref":34,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -21,9 +21,9 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.neo4j/neo4j-logging@2025.09.0",
 	"url_scm":"https://github.com/neo4j/neo4j",
 	"count_used_by":67,
-	"home_page":"http://components.neo4j.org/neo4j-logging/2025.09.0",
+	"home_page":"http://components.neo4j.org/neo4j-logging/2025.10.1",
 	"license":"GPL 3.0",
-	"ranking":"#7703 in MvnRepository",
+	"ranking":"#7736 in MvnRepository",
 	"tags":[
 		"database",
 		"logging",
@@ -31,6 +31,14 @@
 		"neo4j"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":25,
+			"version":"2025.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -136,59 +144,51 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251218",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"5.26.19",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"5.26.18",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"5.26.17",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"5.26.16",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"5.26.15",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
 			"usage":10,
 			"version":"5.26.14",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251006",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"5.26.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250904",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"5.26.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250826",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"5.26.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"5.26.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250710",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"5.26.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250609",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"5.26.8",
 			"vulnerabilities":""
 		}
 	]
