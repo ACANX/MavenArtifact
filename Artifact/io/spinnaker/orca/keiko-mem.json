@@ -3,13 +3,13 @@
 	"description":"Spinnaker Orca",
 	"group_id":"io.spinnaker.orca",
 	"artifact_id":"keiko-mem",
-	"version_latest":"2025.4-1",
-	"ts_publish":1765737805000,
-	"dt_publish":"2025-12-15 02:43:25.000",
-	"ts_update":1765738613041,
-	"dt_update":"2025-12-15 02:56:34.895",
+	"version_latest":"2025.4.1",
+	"ts_publish":1766172368000,
+	"dt_publish":"2025-12-20 03:26:08.000",
+	"ts_update":1766173533707,
+	"dt_update":"2025-12-20 03:45:19.986",
 	"count_dep":4,
-	"count_ref":0,
+	"count_ref":3,
 	"licenses":[
 		"The Apache License, Version 2.0",
 		"Apache License, Version 2.0"
@@ -28,11 +28,27 @@
 	"count_used_by":3,
 	"home_page":"https://github.com/spinnaker/orca",
 	"license":"Apache 2.0",
-	"ranking":"#146246 in MvnRepository",
+	"ranking":"#146585 in MvnRepository",
 	"tags":[
 		"spinnaker"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"main-135",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251213",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"main-134",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251209",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"main-116",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251105",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"main-115",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251104",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"main-114",
 			"vulnerabilities":""
 		}
 	]
