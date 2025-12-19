@@ -2,16 +2,14 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-process-context-adapter-micrometer",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-process-context-adapter-micrometer",
-	"version_latest":"14.9.0",
-	"ts_publish":1765966850000,
-	"dt_publish":"2025-12-17 18:20:50.000",
-	"ts_update":1765968377320,
-	"dt_update":"2025-12-17 18:45:58.024",
-	"count_dep":61,
+	"version_latest":"14.10.0",
+	"ts_publish":1766154655000,
+	"dt_publish":"2025-12-19 22:30:55.000",
+	"ts_update":1766155356069,
+	"dt_update":"2025-12-19 22:42:23.619",
+	"count_dep":33,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-process-context-service/tree/main/jeap-process-context-adapter-micrometer",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-process-context-adapter-micrometer@13.17.0",
@@ -21,7 +19,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-process-context-service/tree/master.git/jeap-process-context-adapter-micrometer",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#354634 in MvnRepository",
+	"ranking":"#354821 in MvnRepository",
 	"tags":[
 		"admin",
 		"process",
@@ -30,6 +28,22 @@
 		"metrics"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"14.9.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"14.8.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251208",
 			"repository":"Central",
@@ -173,23 +187,6 @@
 			"usage":1,
 			"version":"13.15.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250708",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"13.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250704",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"13.13.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"JEAP Process Context Service"
+	]
 }

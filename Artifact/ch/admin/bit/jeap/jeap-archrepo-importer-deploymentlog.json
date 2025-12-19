@@ -2,16 +2,14 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-archrepo-importer-deploymentlog",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-archrepo-importer-deploymentlog",
-	"version_latest":"4.9.0",
-	"ts_publish":1765965210000,
-	"dt_publish":"2025-12-17 17:53:30.000",
-	"ts_update":1765966872281,
-	"dt_update":"2025-12-17 18:20:56.972",
+	"version_latest":"4.10.0",
+	"ts_publish":1766154381000,
+	"dt_publish":"2025-12-19 22:26:21.000",
+	"ts_update":1766155383510,
+	"dt_update":"2025-12-19 22:42:25.354",
 	"count_dep":35,
 	"count_ref":2,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-archrepo-service/tree/main/jeap-archrepo-importer-deploymentlog",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-archrepo-importer-deploymentlog@1.31.0",
@@ -21,12 +19,20 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-archrepo-service.git/jeap-archrepo-importer-deploymentlog",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#220589 in MvnRepository",
+	"ranking":"#220928 in MvnRepository",
 	"tags":[
 		"admin",
 		"import"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"4.9.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251216",
 			"repository":"Central",
@@ -178,15 +184,6 @@
 			"usage":2,
 			"version":"2.9.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251003",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.9.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"A common parent project"
+	]
 }
