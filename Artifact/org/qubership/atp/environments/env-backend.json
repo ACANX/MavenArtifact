@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.qubership.atp.environments/env-backend",
 	"group_id":"org.qubership.atp.environments",
 	"artifact_id":"env-backend",
-	"version_latest":"1.5.98",
-	"ts_publish":1764922243000,
-	"dt_publish":"2025-12-05 16:10:43.000",
-	"ts_update":1764922991297,
-	"dt_update":"2025-12-05 16:23:02.269",
-	"count_dep":71,
+	"version_latest":"1.5.99",
+	"ts_publish":1766135308000,
+	"dt_publish":"2025-12-19 17:08:28.000",
+	"ts_update":1766136070838,
+	"dt_update":"2025-12-19 17:20:47.148",
+	"count_dep":537,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/Netcracker/qubership-testing-platform-environments/parent/parent-dependencies/parent-java/parent-db-properties/parent-db/env-backend",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.qubership.atp.environments/env-backend@1.5.93",
@@ -19,12 +21,20 @@
 	"url_scm":"scm:git:https://github.com/Netcracker/qubership-testing-platform-environments/tree/main/parent/parent-dependencies/parent-java/parent-db-properties/parent-db/env-backend",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#243896 in MvnRepository",
+	"ranking":"#196601 in MvnRepository",
 	"tags":[
 		"environment",
 		"backend"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"1.5.98",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251118",
 			"repository":"Central",
@@ -65,5 +75,6 @@
 			"version":"1.5.91",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Qubership Testing Platform Environments Service"
 }

@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.qubership.atp.environments/env-distribution",
 	"group_id":"org.qubership.atp.environments",
 	"artifact_id":"env-distribution",
-	"version_latest":"1.5.98",
-	"ts_publish":1764922243000,
-	"dt_publish":"2025-12-05 16:10:43.000",
-	"ts_update":1764922994716,
-	"dt_update":"2025-12-05 16:23:02.931",
-	"count_dep":3,
+	"version_latest":"1.5.99",
+	"ts_publish":1766135308000,
+	"dt_publish":"2025-12-19 17:08:28.000",
+	"ts_update":1766136071349,
+	"dt_update":"2025-12-19 17:20:47.145",
+	"count_dep":386,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/Netcracker/qubership-testing-platform-environments/parent/parent-dependencies/env-distribution",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.qubership.atp.environments/env-distribution@1.5.93",
@@ -18,12 +20,20 @@
 	],
 	"url_scm":"scm:git:https://github.com/Netcracker/qubership-testing-platform-environments/tree/main/parent/parent-dependencies/env-distribution",
 	"license":"Apache 2.0",
-	"ranking":"#702089 in MvnRepository",
+	"ranking":"#707993 in MvnRepository",
 	"tags":[
 		"distribution",
 		"environment"
 	],
 	"versions":[
+		{
+			"date":"20251205",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.5.98",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251118",
 			"repository":"Central",
@@ -64,5 +74,6 @@
 			"version":"1.5.91",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Qubership Testing Platform Environments Service"
 }
