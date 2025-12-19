@@ -3,11 +3,11 @@
 	"description":"A compatible set of Google Cloud open source libraries. This BOM is compatible with protobuf-java 3.x versions.\n    Document: https://cloud.google.com/java/docs/bom",
 	"group_id":"com.google.cloud",
 	"artifact_id":"libraries-bom-protobuf3",
-	"version_latest":"26.73.0",
-	"ts_publish":1765934618000,
-	"dt_publish":"2025-12-17 09:23:38.000",
-	"ts_update":1765936621768,
-	"dt_update":"2025-12-17 09:56:39.605",
+	"version_latest":"26.74.0-rc1",
+	"ts_publish":1766168838000,
+	"dt_publish":"2025-12-20 02:27:18.000",
+	"ts_update":1766170609577,
+	"dt_update":"2025-12-20 02:56:36.152",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -25,7 +25,7 @@
 	],
 	"url_scm":"https://github.com/googleapis/java-cloud-bom/libraries-bom-protobuf3",
 	"license":"Apache 2.0",
-	"ranking":"#586637 in MvnRepository",
+	"ranking":"#462796 in MvnRepository",
 	"tags":[
 		"bom",
 		"google",
@@ -38,6 +38,14 @@
 		"protocol"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"26.73.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251119",
 			"repository":"Central",
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"26.54.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250115",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"26.53.0",
 			"vulnerabilities":""
 		}
 	]
