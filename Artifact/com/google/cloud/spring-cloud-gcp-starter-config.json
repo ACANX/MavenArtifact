@@ -3,12 +3,12 @@
 	"description":"Starter for Spring Cloud Config Client using Google Runtime Configuration API",
 	"group_id":"com.google.cloud",
 	"artifact_id":"spring-cloud-gcp-starter-config",
-	"version_latest":"5.13.7",
-	"ts_publish":1761612507000,
-	"dt_publish":"2025-10-28 08:48:27.000",
-	"ts_update":1761613841962,
-	"dt_update":"2025-10-28 09:10:11.286",
-	"count_dep":28,
+	"version_latest":"5.13.8",
+	"ts_publish":1766113790000,
+	"dt_publish":"2025-12-19 11:09:50.000",
+	"ts_update":1766114810124,
+	"dt_update":"2025-12-19 11:26:37.138",
+	"count_dep":75,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/GoogleCloudPlatform/spring-cloud-gcp/spring-cloud-gcp-starters/spring-cloud-gcp-starter-config",
 	"home_page":"https://github.com/GoogleCloudPlatform/spring-cloud-gcp/tree/main/spring-cloud-gcp-starters/spring-cloud-gcp-starter-config",
 	"license":"Apache 2.0",
-	"ranking":"#809992 in MvnRepository",
+	"ranking":"#1002595 in MvnRepository",
 	"tags":[
 		"gcp",
 		"google",
@@ -33,6 +33,14 @@
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"5.13.7",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251010",
 			"repository":"Central",
@@ -122,6 +130,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251028",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"3.9.13",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251010",
 			"repository":"Central",
 			"type":"release",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"3.9.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250701",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.9.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250616",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.9.4",
 			"vulnerabilities":""
 		}
 	]
