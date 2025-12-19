@@ -3,13 +3,13 @@
 	"description":"This pom file is a licensing stand-in for the native zstd library that our com.github.luben:zstd-jni pulls in.\n    Because zstd is a native library that is statically linked into zstd-jni, it does not have its own pom.xml file, and therefore cannot declare its own\n    licenses to our licensing plugin.\n    This module is here to solve this, by standing in for the native zstd library, and declaring its licenses.",
 	"group_id":"org.neo4j.licensing-proxy",
 	"artifact_id":"zstd-proxy",
-	"version_latest":"2025.10.1",
-	"ts_publish":1761819312000,
-	"dt_publish":"2025-10-30 18:15:12.000",
-	"ts_update":1761820845252,
-	"dt_update":"2025-10-30 18:40:24.666",
+	"version_latest":"2025.11.2",
+	"ts_publish":1766165629000,
+	"dt_publish":"2025-12-20 01:33:49.000",
+	"ts_update":1766166285615,
+	"dt_update":"2025-12-20 01:44:33.806",
 	"count_dep":1,
-	"count_ref":2,
+	"count_ref":0,
 	"licenses":[
 		"BSD-3-Clause",
 		"GPL-2.0"
@@ -23,7 +23,7 @@
 	"count_used_by":1,
 	"home_page":"https://github.com/facebook/zstd",
 	"license":"BSD 3-clause",
-	"ranking":"#336078 in MvnRepository",
+	"ranking":"#418095 in MvnRepository",
 	"tags":[
 		"database",
 		"compression",
@@ -34,6 +34,14 @@
 		"zstd"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2025.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -139,59 +147,51 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250904",
+			"date":"20251218",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
-			"version":"5.26.12",
+			"version":"5.26.19",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250826",
+			"date":"20251203",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
-			"version":"5.26.11",
+			"version":"5.26.18",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250804",
+			"date":"20251121",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
-			"version":"5.26.10",
+			"version":"5.26.17",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250710",
+			"date":"20251106",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
-			"version":"5.26.9",
+			"version":"5.26.16",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250609",
+			"date":"20251030",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
-			"version":"5.26.8",
+			"version":"5.26.15",
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250527",
+			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
-			"version":"5.26.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250506",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.26.6",
+			"version":"5.26.14",
 			"vulnerabilities":""
 		}
 	]

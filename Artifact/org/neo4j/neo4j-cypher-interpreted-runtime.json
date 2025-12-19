@@ -3,13 +3,13 @@
 	"description":"The traditional cypher interpreted runtime",
 	"group_id":"org.neo4j",
 	"artifact_id":"neo4j-cypher-interpreted-runtime",
-	"version_latest":"2025.10.1",
-	"ts_publish":1761819312000,
-	"dt_publish":"2025-10-30 18:15:12.000",
-	"ts_update":1761820836246,
-	"dt_update":"2025-10-30 18:40:26.011",
+	"version_latest":"2025.11.2",
+	"ts_publish":1766165629000,
+	"dt_publish":"2025-12-20 01:33:49.000",
+	"ts_update":1766166284368,
+	"dt_update":"2025-12-20 01:44:34.279",
 	"count_dep":49,
-	"count_ref":5,
+	"count_ref":3,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -21,9 +21,9 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.neo4j/neo4j-cypher-interpreted-runtime@2025.09.0",
 	"url_scm":"https://github.com/neo4j/neo4j",
 	"count_used_by":7,
-	"home_page":"http://components.neo4j.org/neo4j-cypher-interpreted-runtime/2025.09.0",
+	"home_page":"http://components.neo4j.org/neo4j-cypher-interpreted-runtime/2025.10.1",
 	"license":"GPL 3.0",
-	"ranking":"#69886 in MvnRepository",
+	"ranking":"#65514 in MvnRepository",
 	"tags":[
 		"database",
 		"graph",
@@ -31,6 +31,14 @@
 		"runtime"
 	],
 	"versions":[
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2025.10.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250926",
 			"repository":"Central",
@@ -136,6 +144,38 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251203",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"5.26.18",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"5.26.17",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"5.26.16",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"5.26.15",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251020",
 			"repository":"Central",
 			"type":"release",
@@ -149,46 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"5.26.13",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250904",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.26.12",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250826",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.26.11",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250804",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.26.10",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250710",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.26.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250609",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.26.8",
 			"vulnerabilities":""
 		}
 	]
