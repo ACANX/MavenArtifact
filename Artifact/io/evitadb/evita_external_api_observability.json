@@ -3,12 +3,12 @@
 	"description":"Module contains Observability API for evitaDB.",
 	"group_id":"io.evitadb",
 	"artifact_id":"evita_external_api_observability",
-	"version_latest":"2025.8.2",
-	"ts_publish":1765981143000,
-	"dt_publish":"2025-12-17 22:19:03.000",
-	"ts_update":1765982699375,
-	"dt_update":"2025-12-17 22:44:24.902",
-	"count_dep":110,
+	"version_latest":"2025.8.3",
+	"ts_publish":1766183203000,
+	"dt_publish":"2025-12-20 06:26:43.000",
+	"ts_update":1766183915865,
+	"dt_update":"2025-12-20 06:38:20.745",
+	"count_dep":111,
 	"count_ref":3,
 	"licenses":[
 		"Business Source License 1.1"
@@ -25,12 +25,28 @@
 	"url_scm":"https://evitadb.io/evita_external_api/evita_external_api_observability/",
 	"count_used_by":2,
 	"license":"BUSL 1.1",
-	"ranking":"#188720 in MvnRepository",
+	"ranking":"#188390 in MvnRepository",
 	"tags":[
 		"api",
 		"observable"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2025.8.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2025.8.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
@@ -43,7 +59,7 @@
 			"date":"20251216",
 			"repository":"Central",
 			"type":"release",
-			"usage":0,
+			"usage":2,
 			"version":"2025.7.8",
 			"vulnerabilities":""
 		},
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2025.5.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250711",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2025.5.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250711",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2025.5.3",
 			"vulnerabilities":""
 		}
 	]
