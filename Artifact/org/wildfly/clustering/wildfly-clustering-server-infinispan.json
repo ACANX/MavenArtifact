@@ -3,11 +3,11 @@
 	"description":"WildFly Clustering: Server: Infinispan implementation",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-server-infinispan",
-	"version_latest":"9.0.0.CR2",
-	"ts_publish":1765521027000,
-	"dt_publish":"2025-12-12 14:30:27.000",
-	"ts_update":1765522615418,
-	"dt_update":"2025-12-12 14:56:35.543",
+	"version_latest":"9.0.0.CR3",
+	"ts_publish":1766125821000,
+	"dt_publish":"2025-12-19 14:30:21.000",
+	"ts_update":1766127410165,
+	"dt_update":"2025-12-19 14:56:35.215",
 	"count_dep":55,
 	"count_ref":1,
 	"licenses":[
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#38721 in MvnRepository",
+	"ranking":"#38810 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"server",
@@ -35,6 +35,14 @@
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"9.0.0.CR2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251211",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.0.6.Final",
 			"vulnerabilities":""
 		}
 	]
