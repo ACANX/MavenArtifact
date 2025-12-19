@@ -3,13 +3,13 @@
 	"description":"全链路追踪是一种通过记录和分析分布式系统中单个请求在多个服务及组件间的完整流转路径，以实现性能监控、故障诊断和系统优化的技术。",
 	"group_id":"tech.riemann",
 	"artifact_id":"etp-trace",
-	"version_latest":"3.5.8",
-	"ts_publish":1763694655000,
-	"dt_publish":"2025-11-21 11:10:55.000",
-	"ts_update":1763697572269,
-	"dt_update":"2025-11-21 11:59:26.561",
+	"version_latest":"3.5.9",
+	"ts_publish":1766150939000,
+	"dt_publish":"2025-12-19 21:28:59.000",
+	"ts_update":1766152089139,
+	"dt_update":"2025-12-19 21:47:47.627",
 	"count_dep":104,
-	"count_ref":1,
+	"count_ref":7,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -23,11 +23,19 @@
 	"url_scm":"https+git://gitea.riemann.tech/SWOFT/etp.git/etp-supports/etp-trace",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#396463 in MvnRepository",
+	"ranking":"#378963 in MvnRepository",
 	"tags":[
 		"tracing"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.5.8",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251024",
 			"repository":"Central",
