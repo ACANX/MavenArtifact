@@ -3,11 +3,11 @@
 	"description":"Parent POM for Spring SAML Identity Provider libraries",
 	"group_id":"se.swedenconnect.spring.saml.idp",
 	"artifact_id":"spring-saml-idp-parent",
-	"version_latest":"2.3.12",
-	"ts_publish":1765290328000,
-	"dt_publish":"2025-12-09 22:25:28.000",
-	"ts_update":1765292197649,
-	"dt_update":"2025-12-09 22:56:23.615",
+	"version_latest":"2.3.13",
+	"ts_publish":1766142945000,
+	"dt_publish":"2025-12-19 19:15:45.000",
+	"ts_update":1766143610045,
+	"dt_update":"2025-12-19 19:26:33.642",
 	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
@@ -22,13 +22,21 @@
 	"url_scm":"https://github.com/swedenconnect/saml-identity-provider/tree/main",
 	"home_page":"https://docs.swedenconnect.se/saml-identity-provider",
 	"license":"Apache 2.0",
-	"ranking":"#605649 in MvnRepository",
+	"ranking":"#610971 in MvnRepository",
 	"tags":[
 		"security",
 		"spring",
 		"saml"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.3.12",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251203",
 			"repository":"Central",
@@ -179,14 +187,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240318",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.0.2",
 			"vulnerabilities":""
 		}
 	]
