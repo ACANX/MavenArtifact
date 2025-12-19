@@ -3,13 +3,13 @@
 	"description":"Annotation processor for component and MBean annotations",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-component-processor",
-	"version_latest":"16.1.0.Dev01",
-	"ts_publish":1765301186000,
-	"dt_publish":"2025-12-10 01:26:26.000",
-	"ts_update":1765301949269,
-	"dt_update":"2025-12-10 01:38:59.461",
+	"version_latest":"16.1.0.Dev02",
+	"ts_publish":1766136179000,
+	"dt_publish":"2025-12-19 17:22:59.000",
+	"ts_update":1766137327829,
+	"dt_update":"2025-12-19 17:41:50.458",
 	"count_dep":4,
-	"count_ref":29,
+	"count_ref":28,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -26,9 +26,9 @@
 		"See https://github.com/infinispan/infinispan/graphs/contributors"
 	],
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-component-processor",
-	"count_used_by":47,
+	"count_used_by":50,
 	"license":"Apache 2.0",
-	"ranking":"#10685 in MvnRepository",
+	"ranking":"#10176 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"cache",
@@ -37,10 +37,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"dev",
+			"usage":26,
+			"version":"16.1.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":26,
+			"version":"16.0.4",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251201",
 			"repository":"Central",
 			"type":"release",
-			"usage":24,
+			"usage":25,
 			"version":"16.0.3",
 			"vulnerabilities":""
 		},
@@ -178,22 +194,6 @@
 			"type":"release",
 			"usage":27,
 			"version":"15.2.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":27,
-			"version":"15.2.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"dev",
-			"usage":27,
-			"version":"15.2.0.Dev03",
 			"vulnerabilities":""
 		}
 	]

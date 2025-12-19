@@ -2,19 +2,50 @@
 	"id":"pkg:maven/org.infinispan/infinispan-spring-boot4-starter-embedded",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-spring-boot4-starter-embedded",
-	"version_latest":"16.1.0.Dev01",
-	"ts_publish":1765301186000,
-	"dt_publish":"2025-12-10 01:26:26.000",
-	"ts_update":1765301960166,
-	"dt_update":"2025-12-10 01:38:56.720",
-	"count_dep":30,
+	"version_latest":"16.1.0.Dev02",
+	"ts_publish":1766136178000,
+	"dt_publish":"2025-12-19 17:22:58.000",
+	"ts_update":1766137328573,
+	"dt_update":"2025-12-19 17:41:51.687",
+	"count_dep":60,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database",
 		"NoSQL Databases"
 	],
 	"dsv":1,
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.infinispan/infinispan-spring-boot4-starter-embedded@16.1.0.Dev01"
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.infinispan/infinispan-spring-boot4-starter-embedded@16.1.0.Dev01",
+	"description":"Infinispan Spring Boot Starter 4 parent POM",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#240147 in MvnRepository",
+	"tags":[
+		"embedded",
+		"infinispan",
+		"spring",
+		"cache",
+		"starter"
+	],
+	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"dev",
+			"usage":2,
+			"version":"16.1.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"16.0.4",
+			"vulnerabilities":""
+		}
+	]
 }

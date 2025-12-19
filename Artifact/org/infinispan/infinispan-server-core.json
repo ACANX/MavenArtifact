@@ -3,13 +3,13 @@
 	"description":"Infinispan Server - Core Components",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-server-core",
-	"version_latest":"16.1.0.Dev01",
-	"ts_publish":1765301186000,
-	"dt_publish":"2025-12-10 01:26:26.000",
-	"ts_update":1765301957558,
-	"dt_update":"2025-12-10 01:38:58.110",
+	"version_latest":"16.1.0.Dev02",
+	"ts_publish":1766136179000,
+	"dt_publish":"2025-12-19 17:22:59.000",
+	"ts_update":1766137327725,
+	"dt_update":"2025-12-19 17:41:49.712",
 	"count_dep":101,
-	"count_ref":16,
+	"count_ref":18,
 	"licenses":[
 		"Apache License 2.0"
 	],
@@ -26,15 +26,31 @@
 		"See https://github.com/infinispan/infinispan/graphs/contributors"
 	],
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-server-parent/infinispan-server-core",
-	"count_used_by":48,
+	"count_used_by":50,
 	"license":"Apache 2.0",
-	"ranking":"#10389 in MvnRepository",
+	"ranking":"#10141 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"server",
 		"cache"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"dev",
+			"usage":19,
+			"version":"16.1.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":19,
+			"version":"16.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251201",
 			"repository":"Central",
@@ -177,22 +193,6 @@
 			"type":"release",
 			"usage":19,
 			"version":"15.2.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":19,
-			"version":"15.2.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"dev",
-			"usage":19,
-			"version":"15.2.0.Dev03",
 			"vulnerabilities":""
 		}
 	]

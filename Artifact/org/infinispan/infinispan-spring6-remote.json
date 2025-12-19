@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.infinispan/infinispan-spring6-remote",
 	"group_id":"org.infinispan",
 	"artifact_id":"infinispan-spring6-remote",
-	"version_latest":"16.1.0.Dev01",
-	"ts_publish":1765301186000,
-	"dt_publish":"2025-12-10 01:26:26.000",
-	"ts_update":1765301956115,
-	"dt_update":"2025-12-10 01:38:58.113",
+	"version_latest":"16.1.0.Dev02",
+	"ts_publish":1766136179000,
+	"dt_publish":"2025-12-19 17:22:59.000",
+	"ts_update":1766137321949,
+	"dt_update":"2025-12-19 17:41:50.455",
 	"count_dep":29,
 	"count_ref":2,
 	"licenses":[],
@@ -25,7 +25,7 @@
 	"url_scm":"https://github.com/infinispan/infinispan/infinispan-spring6-parent/infinispan-spring6-remote",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#195662 in MvnRepository",
+	"ranking":"#197142 in MvnRepository",
 	"tags":[
 		"infinispan",
 		"spring",
@@ -33,6 +33,22 @@
 		"remote"
 	],
 	"versions":[
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"dev",
+			"usage":1,
+			"version":"16.1.0.Dev01",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"16.0.4",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251201",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"15.2.1.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"15.2.0.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"dev",
-			"usage":1,
-			"version":"15.2.0.Dev03",
 			"vulnerabilities":""
 		}
 	]
