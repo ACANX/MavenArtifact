@@ -3,11 +3,11 @@
 	"description":"Configurer for the Hibernate Search Elasticsearch backend enabling connection to an AWS-hosted Elasticsearch/OpenSearch cluster",
 	"group_id":"org.hibernate.search",
 	"artifact_id":"hibernate-search-backend-elasticsearch-aws",
-	"version_latest":"8.2.0.Final",
-	"ts_publish":1765812098000,
-	"dt_publish":"2025-12-15 23:21:38.000",
-	"ts_update":1765814097686,
-	"dt_update":"2025-12-15 23:54:47.162",
+	"version_latest":"8.2.1.Final",
+	"ts_publish":1766182337000,
+	"dt_publish":"2025-12-20 06:12:17.000",
+	"ts_update":1766183205568,
+	"dt_update":"2025-12-20 06:26:34.337",
 	"count_dep":26,
 	"count_ref":0,
 	"licenses":[
@@ -34,7 +34,7 @@
 	"count_used_by":3,
 	"home_page":"https://hibernate.org/search/",
 	"license":"Apache 2.0",
-	"ranking":"#147596 in MvnRepository",
+	"ranking":"#146666 in MvnRepository",
 	"tags":[
 		"persistence",
 		"aws",
@@ -46,6 +46,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.2.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251201",
 			"repository":"Central",
@@ -196,14 +204,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.2.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240610",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":0,
-			"version":"7.2.0.Alpha2",
 			"vulnerabilities":""
 		}
 	]

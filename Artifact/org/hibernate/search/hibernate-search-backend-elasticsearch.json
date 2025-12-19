@@ -3,12 +3,12 @@
 	"description":"Hibernate Search Backend relying on remote Elasticsearch clusters",
 	"group_id":"org.hibernate.search",
 	"artifact_id":"hibernate-search-backend-elasticsearch",
-	"version_latest":"8.2.0.Final",
-	"ts_publish":1765812098000,
-	"dt_publish":"2025-12-15 23:21:38.000",
-	"ts_update":1765814115537,
-	"dt_update":"2025-12-15 23:54:47.169",
-	"count_dep":7,
+	"version_latest":"8.2.1.Final",
+	"ts_publish":1766182337000,
+	"dt_publish":"2025-12-20 06:12:17.000",
+	"ts_update":1766183204360,
+	"dt_update":"2025-12-20 06:26:34.774",
+	"count_dep":17,
 	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
@@ -34,7 +34,7 @@
 	"count_used_by":22,
 	"home_page":"https://hibernate.org/search/",
 	"license":"Apache 2.0",
-	"ranking":"#21815 in MvnRepository",
+	"ranking":"#21869 in MvnRepository",
 	"tags":[
 		"persistence",
 		"elasticsearch",
@@ -44,6 +44,14 @@
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"8.2.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251201",
 			"repository":"Central",
@@ -194,14 +202,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.2.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240610",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":1,
-			"version":"7.2.0.Alpha2",
 			"vulnerabilities":""
 		}
 	]

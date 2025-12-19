@@ -3,13 +3,13 @@
 	"description":"Hibernate Search common utilities",
 	"group_id":"org.hibernate.search",
 	"artifact_id":"hibernate-search-util-common",
-	"version_latest":"8.2.0.Final",
-	"ts_publish":1765812098000,
-	"dt_publish":"2025-12-15 23:21:38.000",
-	"ts_update":1765814111128,
-	"dt_update":"2025-12-15 23:54:46.679",
+	"version_latest":"8.2.1.Final",
+	"ts_publish":1766182337000,
+	"dt_publish":"2025-12-20 06:12:17.000",
+	"ts_update":1766183201852,
+	"dt_update":"2025-12-20 06:26:34.334",
 	"count_dep":3,
-	"count_ref":11,
+	"count_ref":13,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -34,13 +34,21 @@
 	"count_used_by":18,
 	"home_page":"https://hibernate.org/search/",
 	"license":"Apache 2.0",
-	"ranking":"#26504 in MvnRepository",
+	"ranking":"#26529 in MvnRepository",
 	"tags":[
 		"persistence",
 		"hibernate",
 		"search"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"8.2.0.Final",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251201",
 			"repository":"Central",
@@ -191,14 +199,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"7.2.0.CR1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240610",
-			"repository":"Central",
-			"type":"alpha",
-			"usage":4,
-			"version":"7.2.0.Alpha2",
 			"vulnerabilities":""
 		}
 	]
