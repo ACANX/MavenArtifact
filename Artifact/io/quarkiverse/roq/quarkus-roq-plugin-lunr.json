@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.quarkiverse.roq/quarkus-roq-plugin-lunr",
 	"group_id":"io.quarkiverse.roq",
 	"artifact_id":"quarkus-roq-plugin-lunr",
-	"version_latest":"2.0.2",
-	"ts_publish":1765198248000,
-	"dt_publish":"2025-12-08 20:50:48.000",
-	"ts_update":1765200135660,
-	"dt_update":"2025-12-08 21:21:48.088",
-	"count_dep":103,
+	"version_latest":"2.0.3",
+	"ts_publish":1766132498000,
+	"dt_publish":"2025-12-19 16:21:38.000",
+	"ts_update":1766134607854,
+	"dt_update":"2025-12-19 16:56:37.320",
+	"count_dep":4,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.roq/quarkus-roq-plugin-lunr@1.7.1",
@@ -22,12 +20,28 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-roq",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#408687 in MvnRepository",
+	"ranking":"#280306 in MvnRepository",
 	"tags":[
 		"plugin",
 		"quarkus"
 	],
 	"versions":[
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251206",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251205",
 			"repository":"Central",
@@ -171,23 +185,6 @@
 			"usage":1,
 			"version":"1.6.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250627",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.6.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250603",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"1.6.1",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Generate static websites out of your Quarkus web application."
+	]
 }
