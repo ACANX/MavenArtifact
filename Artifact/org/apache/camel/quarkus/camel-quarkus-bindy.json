@@ -3,12 +3,12 @@
 	"description":"Marshal and unmarshal between POJOs on one side and Comma separated values (CSV), fixed field length or key-value pair (KVP) formats on the other side using Camel Bindy",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-bindy",
-	"version_latest":"3.29.0",
-	"ts_publish":1761217714000,
-	"dt_publish":"2025-10-23 19:08:34.000",
-	"ts_update":1763830263804,
-	"dt_update":"2025-11-23 00:19:05.308",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763632206000,
+	"dt_publish":"2025-11-20 17:50:06.000",
+	"ts_update":1766248931735,
+	"dt_update":"2025-12-21 00:20:58.875",
+	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.quarkus/camel-quarkus-bindy@3.25.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#128264 in MvnRepository",
+	"ranking":"#110642 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"XML JAXP type converters and parsers",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-xml-jaxp",
-	"version_latest":"3.29.0",
-	"ts_publish":1761217217000,
-	"dt_publish":"2025-10-23 19:00:17.000",
-	"ts_update":1763828407259,
-	"dt_update":"2025-11-23 00:18:57.919",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763631706000,
+	"dt_publish":"2025-11-20 17:41:46.000",
+	"ts_update":1766248934915,
+	"dt_update":"2025-12-21 00:20:53.534",
+	"count_dep":66,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-core/camel-quarkus-xml-jaxp-parent/camel-quarkus-xml-jaxp",
 	"count_used_by":13,
 	"license":"Apache 2.0",
-	"ranking":"#36017 in MvnRepository",
+	"ranking":"#37760 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
@@ -34,6 +34,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]

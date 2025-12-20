@@ -3,12 +3,12 @@
 	"description":"The splunk component allows to publish events in Splunk using the HTTP Event Collector.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-splunk-hec",
-	"version_latest":"3.29.0",
-	"ts_publish":1761218950000,
-	"dt_publish":"2025-10-23 19:29:10.000",
-	"ts_update":1763828434031,
-	"dt_update":"2025-11-23 00:19:21.687",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763633430000,
+	"dt_publish":"2025-11-20 18:10:30.000",
+	"ts_update":1766248942276,
+	"dt_update":"2025-12-21 00:21:12.229",
+	"count_dep":78,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-splunk-hec-parent/camel-quarkus-splunk-hec",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#106388 in MvnRepository",
+	"ranking":"#111793 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
@@ -34,6 +34,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]
