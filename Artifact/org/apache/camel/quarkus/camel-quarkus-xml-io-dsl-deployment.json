@@ -3,12 +3,12 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-xml-io-dsl-deployment",
-	"version_latest":"3.29.0",
-	"ts_publish":1761217207000,
-	"dt_publish":"2025-10-23 19:00:07.000",
-	"ts_update":1763830598145,
-	"dt_update":"2025-11-23 00:18:57.187",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763631695000,
+	"dt_publish":"2025-11-20 17:41:35.000",
+	"ts_update":1766249801125,
+	"dt_update":"2025-12-21 00:20:53.049",
+	"count_dep":113,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-core/camel-quarkus-xml-io-dsl-parent/camel-quarkus-xml-io-dsl-deployment",
 	"count_used_by":10,
 	"license":"Apache 2.0",
-	"ranking":"#46118 in MvnRepository",
+	"ranking":"#47496 in MvnRepository",
 	"tags":[
 		"deployment",
 		"quarkus",
@@ -37,6 +37,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]

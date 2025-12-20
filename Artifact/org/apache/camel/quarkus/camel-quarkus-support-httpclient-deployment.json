@@ -3,13 +3,13 @@
 	"description":"Maven plugins configuration",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-support-httpclient-deployment",
-	"version_latest":"3.29.0",
-	"ts_publish":1761217264000,
-	"dt_publish":"2025-10-23 19:01:04.000",
-	"ts_update":1763828402038,
-	"dt_update":"2025-11-23 00:18:58.535",
-	"count_dep":0,
-	"count_ref":3,
+	"version_latest":"3.30.0",
+	"ts_publish":1763631753000,
+	"dt_publish":"2025-11-20 17:42:33.000",
+	"ts_update":1766249802101,
+	"dt_update":"2025-12-21 00:20:54.023",
+	"count_dep":87,
+	"count_ref":2,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions-support/camel-quarkus-support-httpclient-parent/camel-quarkus-support-httpclient-deployment",
 	"count_used_by":18,
 	"license":"Apache 2.0",
-	"ranking":"#25847 in MvnRepository",
+	"ranking":"#26287 in MvnRepository",
 	"tags":[
 		"support",
 		"deployment",
@@ -37,6 +37,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]
