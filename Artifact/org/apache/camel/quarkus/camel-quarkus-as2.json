@@ -3,12 +3,12 @@
 	"description":"Transfer data securely and reliably using the AS2 protocol (RFC4130).",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-as2",
-	"version_latest":"3.29.0",
-	"ts_publish":1761217476000,
-	"dt_publish":"2025-10-23 19:04:36.000",
-	"ts_update":1763828439793,
-	"dt_update":"2025-11-23 00:19:01.160",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763631971000,
+	"dt_publish":"2025-11-20 17:46:11.000",
+	"ts_update":1766247693874,
+	"dt_update":"2025-12-21 00:20:56.496",
+	"count_dep":6,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.quarkus/camel-quarkus-as2@3.25.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#133881 in MvnRepository",
+	"ranking":"#143442 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,12 +3,12 @@
 	"description":"The Apache Software Foundation provides support for the Apache community of open-source software projects.\n    The Apache projects are characterized by a collaborative, consensus based development process, an open and\n    pragmatic software license, and a desire to create high quality software that leads the way in its field.\n    We consider ourselves not simply a group of projects sharing a server, but rather a community of developers\n    and users.",
 	"group_id":"org.apache.hive.hcatalog",
 	"artifact_id":"hive-hcatalog-pig-adapter",
-	"version_latest":"4.1.0",
-	"ts_publish":1752916364000,
-	"dt_publish":"2025-07-19 17:12:44.000",
-	"ts_update":1755967678263,
-	"dt_update":"2025-08-24 00:16:25.968",
-	"count_dep":365,
+	"version_latest":"4.2.0",
+	"ts_publish":1763420061000,
+	"dt_publish":"2025-11-18 06:54:21.000",
+	"ts_update":1766247703291,
+	"dt_update":"2025-12-21 00:20:46.034",
+	"count_dep":181,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/apache/maven-apache-parent/tree/apache-23/hive/hive-hcatalog/hive-hcatalog-pig-adapter",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#38195 in MvnRepository",
+	"ranking":"#41150 in MvnRepository",
 	"tags":[
 		"catalog",
 		"adapter",
@@ -32,6 +32,14 @@
 		"hive"
 	],
 	"versions":[
+		{
+			"date":"20251123",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250719",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.3.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20171109",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.3.2",
 			"vulnerabilities":""
 		}
 	]
