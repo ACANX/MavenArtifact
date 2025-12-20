@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-marshalling-java",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-marshalling-java",
-	"version_latest":"9.0.0.CR3",
-	"ts_publish":1766125821000,
-	"dt_publish":"2025-12-19 14:30:21.000",
-	"ts_update":1766127406999,
-	"dt_update":"2025-12-19 14:56:35.219",
-	"count_dep":9,
+	"version_latest":"9.0.0.Final",
+	"ts_publish":1766212217000,
+	"dt_publish":"2025-12-20 14:30:17.000",
+	"ts_update":1766213717414,
+	"dt_update":"2025-12-20 14:55:06.795",
+	"count_dep":11,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Application and Server Management"
 	],
@@ -23,12 +25,20 @@
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
 	"count_used_by":16,
 	"license":"Apache 2.0",
-	"ranking":"#30768 in MvnRepository",
+	"ranking":"#30792 in MvnRepository",
 	"tags":[
 		"wildfly",
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251219",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"9.0.0.CR3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251212",
 			"repository":"Central",
@@ -180,14 +190,7 @@
 			"usage":3,
 			"version":"7.0.8.Final",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"7.0.7.Final",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"WildFly Clustering: Marshalling: Java Object Serialization"
 }

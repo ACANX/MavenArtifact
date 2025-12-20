@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.wildfly.clustering/wildfly-clustering-cache-infinispan-embedded",
 	"group_id":"org.wildfly.clustering",
 	"artifact_id":"wildfly-clustering-cache-infinispan-embedded",
-	"version_latest":"9.0.0.CR2",
-	"ts_publish":1765521027000,
-	"dt_publish":"2025-12-12 14:30:27.000",
-	"ts_update":1765522617517,
-	"dt_update":"2025-12-12 14:56:35.543",
+	"version_latest":"9.0.0.Final",
+	"ts_publish":1766212217000,
+	"dt_publish":"2025-12-20 14:30:17.000",
+	"ts_update":1766213718671,
+	"dt_update":"2025-12-20 14:55:06.262",
 	"count_dep":19,
 	"count_ref":1,
 	"licenses":[],
@@ -21,10 +21,10 @@
 		"JBoss.org Community"
 	],
 	"url_scm":"https://github.com/wildfly-clustering/wildfly-clustering",
-	"count_used_by":19,
+	"count_used_by":20,
 	"home_page":"https://www.wildfly.org/",
 	"license":"Apache 2.0",
-	"ranking":"#25064 in MvnRepository",
+	"ranking":"#23809 in MvnRepository",
 	"tags":[
 		"embedded",
 		"infinispan",
@@ -33,6 +33,22 @@
 		"cluster"
 	],
 	"versions":[
+		{
+			"date":"20251219",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.0.0.CR3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"9.0.0.CR2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251211",
 			"repository":"Central",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"7.0.8.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250630",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"7.0.7.Final",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250613",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"7.0.6.Final",
 			"vulnerabilities":""
 		}
 	]
