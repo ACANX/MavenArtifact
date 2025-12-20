@@ -3,13 +3,13 @@
 	"description":"SmallRye Parent POM",
 	"group_id":"io.smallrye.config",
 	"artifact_id":"smallrye-config-common",
-	"version_latest":"3.14.1",
-	"ts_publish":1759485748000,
-	"dt_publish":"2025-10-03 18:02:28.000",
-	"ts_update":1759486557197,
-	"dt_update":"2025-10-03 18:15:47.563",
+	"version_latest":"3.15.0",
+	"ts_publish":1766221482000,
+	"dt_publish":"2025-12-20 17:04:42.000",
+	"ts_update":1766222223038,
+	"dt_update":"2025-12-20 17:16:52.466",
 	"count_dep":4,
-	"count_ref":4,
+	"count_ref":10,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -24,13 +24,21 @@
 		"Roberto Cortez"
 	],
 	"url_scm":"https://github.com/smallrye/smallrye-config/",
-	"count_used_by":32,
+	"count_used_by":33,
 	"license":"Apache 2.0",
-	"ranking":"#14809 in MvnRepository",
+	"ranking":"#14937 in MvnRepository",
 	"tags":[
 		"config"
 	],
 	"versions":[
+		{
+			"date":"20251003",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"3.14.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250919",
 			"repository":"Central",
@@ -43,7 +51,7 @@
 			"date":"20250723",
 			"repository":"Central",
 			"type":"release",
-			"usage":10,
+			"usage":11,
 			"version":"3.13.4",
 			"vulnerabilities":""
 		},
@@ -163,7 +171,7 @@
 			"date":"20241129",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":10,
 			"version":"3.10.2",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"3.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240731",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.9.1",
 			"vulnerabilities":""
 		}
 	]
