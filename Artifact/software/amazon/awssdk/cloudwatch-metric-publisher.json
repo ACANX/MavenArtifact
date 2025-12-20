@@ -2,13 +2,13 @@
 	"id":"pkg:maven/software.amazon.awssdk/cloudwatch-metric-publisher",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"cloudwatch-metric-publisher",
-	"version_latest":"2.40.12",
-	"ts_publish":1766096848000,
-	"dt_publish":"2025-12-19 06:27:28.000",
-	"ts_update":1766098226975,
-	"dt_update":"2025-12-19 06:50:16.762",
-	"count_dep":5,
-	"count_ref":0,
+	"version_latest":"2.40.13",
+	"ts_publish":1766199247000,
+	"dt_publish":"2025-12-20 10:54:07.000",
+	"ts_update":1766201215609,
+	"dt_update":"2025-12-20 11:26:44.063",
+	"count_dep":18,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -17,7 +17,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/cloudwatch-metric-publisher@2.32.18",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#58188 in MvnRepository",
+	"ranking":"#58104 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -29,6 +29,22 @@
 		"metrics"
 	],
 	"versions":[
+		{
+			"date":"20251219",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251218",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.11",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251216",
 			"repository":"Central",
@@ -171,22 +187,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.39.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251119",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.38.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251118",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.38.8",
 			"vulnerabilities":""
 		}
 	]

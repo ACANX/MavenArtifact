@@ -3,13 +3,13 @@
 	"description":"The AWS Java SDK for Inspector Scan module holds the client classes that are used for\n        communicating with Inspector Scan.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"inspectorscan",
-	"version_latest":"2.40.12",
-	"ts_publish":1766096848000,
-	"dt_publish":"2025-12-19 06:27:28.000",
-	"ts_update":1766098227989,
-	"dt_update":"2025-12-19 06:50:13.530",
+	"version_latest":"2.40.13",
+	"ts_publish":1766199247000,
+	"dt_publish":"2025-12-20 10:54:07.000",
+	"ts_update":1766201225310,
+	"dt_update":"2025-12-20 11:26:37.020",
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -20,7 +20,7 @@
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#117196 in MvnRepository",
+	"ranking":"#116276 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,10 +28,26 @@
 	],
 	"versions":[
 		{
-			"date":"20251217",
+			"date":"20251219",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"2.40.12",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251218",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.11",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"2.40.10",
 			"vulnerabilities":""
 		},
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"2.39.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251119",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.38.9",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251118",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.38.8",
 			"vulnerabilities":""
 		}
 	]
