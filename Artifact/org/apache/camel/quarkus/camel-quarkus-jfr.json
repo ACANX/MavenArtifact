@@ -3,12 +3,12 @@
 	"description":"Diagnose Camel applications with Java Flight Recorder",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-jfr",
-	"version_latest":"3.29.0",
-	"ts_publish":1761218258000,
-	"dt_publish":"2025-10-23 19:17:38.000",
-	"ts_update":1763830269324,
-	"dt_update":"2025-11-23 00:19:12.802",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763632744000,
+	"dt_publish":"2025-11-20 17:59:04.000",
+	"ts_update":1766249628878,
+	"dt_update":"2025-12-21 00:21:05.322",
+	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.quarkus/camel-quarkus-jfr@3.25.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#121577 in MvnRepository",
+	"ranking":"#124979 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]

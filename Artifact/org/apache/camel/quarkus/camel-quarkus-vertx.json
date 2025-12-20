@@ -3,12 +3,12 @@
 	"description":"Send and receive messages to/from Vert.x Event Bus.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-vertx",
-	"version_latest":"3.29.0",
-	"ts_publish":1761219077000,
-	"dt_publish":"2025-10-23 19:31:17.000",
-	"ts_update":1763828824083,
-	"dt_update":"2025-11-23 00:19:23.392",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763633558000,
+	"dt_publish":"2025-11-20 18:12:38.000",
+	"ts_update":1766249662108,
+	"dt_update":"2025-12-21 00:21:13.780",
+	"count_dep":98,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-vertx-parent/camel-quarkus-vertx",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#162245 in MvnRepository",
+	"ranking":"#168853 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"vertx",
@@ -34,6 +34,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251027",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]

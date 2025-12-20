@@ -3,12 +3,12 @@
 	"description":"Query or transform JSON payloads using an JSLT.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-jslt",
-	"version_latest":"3.29.0",
-	"ts_publish":1761218315000,
-	"dt_publish":"2025-10-23 19:18:35.000",
-	"ts_update":1763828819598,
-	"dt_update":"2025-11-23 00:19:14.202",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763632801000,
+	"dt_publish":"2025-11-20 18:00:01.000",
+	"ts_update":1766249641048,
+	"dt_update":"2025-12-21 00:21:05.803",
+	"count_dep":2,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,13 +18,21 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.quarkus/camel-quarkus-jslt@3.25.0",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#108650 in MvnRepository",
+	"ranking":"#119577 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -175,14 +183,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]

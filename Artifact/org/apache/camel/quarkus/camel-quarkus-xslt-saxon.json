@@ -3,12 +3,12 @@
 	"description":"Transform XML payloads using an XSLT template using Saxon.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-xslt-saxon",
-	"version_latest":"3.29.0",
-	"ts_publish":1761219135000,
-	"dt_publish":"2025-10-23 19:32:15.000",
-	"ts_update":1763830609228,
-	"dt_update":"2025-11-23 00:19:23.915",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763633615000,
+	"dt_publish":"2025-11-20 18:13:35.000",
+	"ts_update":1766249610804,
+	"dt_update":"2025-12-21 00:21:14.269",
+	"count_dep":78,
 	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"
@@ -26,7 +26,7 @@
 	"url_scm":"https://github.com/apache/camel-quarkus/camel-quarkus-poms/camel-quarkus-build-parent/camel-quarkus-extensions/camel-quarkus-xslt-saxon-parent/camel-quarkus-xslt-saxon",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#41767 in MvnRepository",
+	"ranking":"#43569 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"apache",
@@ -34,6 +34,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":6,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":6,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]

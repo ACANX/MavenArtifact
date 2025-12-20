@@ -3,12 +3,12 @@
 	"description":"Send and receive events from Knative.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-knative",
-	"version_latest":"3.29.0",
-	"ts_publish":1761218376000,
-	"dt_publish":"2025-10-23 19:19:36.000",
-	"ts_update":1763828426523,
-	"dt_update":"2025-11-23 00:19:14.826",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763632862000,
+	"dt_publish":"2025-11-20 18:01:02.000",
+	"ts_update":1766249602549,
+	"dt_update":"2025-12-21 00:21:06.274",
+	"count_dep":5,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.quarkus/camel-quarkus-knative@3.25.0",
 	"count_used_by":19,
 	"license":"Apache 2.0",
-	"ranking":"#24892 in MvnRepository",
+	"ranking":"#25367 in MvnRepository",
 	"tags":[
 		"kubernetes",
 		"quarkus",
@@ -27,6 +27,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":12,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]
