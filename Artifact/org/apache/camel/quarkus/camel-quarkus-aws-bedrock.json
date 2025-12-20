@@ -3,12 +3,12 @@
 	"description":"Invoke Model of AWS Bedrock service.",
 	"group_id":"org.apache.camel.quarkus",
 	"artifact_id":"camel-quarkus-aws-bedrock",
-	"version_latest":"3.29.0",
-	"ts_publish":1761217502000,
-	"dt_publish":"2025-10-23 19:05:02.000",
-	"ts_update":1763829603207,
-	"dt_update":"2025-11-23 00:19:01.913",
-	"count_dep":0,
+	"version_latest":"3.30.0",
+	"ts_publish":1763631997000,
+	"dt_publish":"2025-11-20 17:46:37.000",
+	"ts_update":1766250874170,
+	"dt_update":"2025-12-21 00:20:56.491",
+	"count_dep":4,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -18,7 +18,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.camel.quarkus/camel-quarkus-aws-bedrock@3.25.0",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#152204 in MvnRepository",
+	"ranking":"#162049 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -28,6 +28,14 @@
 		"camel"
 	],
 	"versions":[
+		{
+			"date":"20251124",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251023",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.15.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241102",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.15.1",
 			"vulnerabilities":""
 		}
 	]
