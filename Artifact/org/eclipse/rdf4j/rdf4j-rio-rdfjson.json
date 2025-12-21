@@ -3,13 +3,13 @@
 	"description":"Rio parser and writer implementation for the RDF/JSON file format.",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-rio-rdfjson",
-	"version_latest":"5.2.2",
-	"ts_publish":1765810488000,
-	"dt_publish":"2025-12-15 22:54:48.000",
-	"ts_update":1765812167691,
-	"dt_update":"2025-12-15 23:22:20.243",
+	"version_latest":"5.3.0-M1",
+	"ts_publish":1766348229000,
+	"dt_publish":"2025-12-22 04:17:09.000",
+	"ts_update":1766348813096,
+	"dt_update":"2025-12-22 04:26:34.915",
 	"count_dep":32,
-	"count_ref":8,
+	"count_ref":5,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
 	],
@@ -28,12 +28,20 @@
 	"count_used_by":33,
 	"home_page":"https://rdf4j.org/",
 	"license":"EDL 1.0",
-	"ranking":"#14629 in MvnRepository",
+	"ranking":"#14668 in MvnRepository",
 	"tags":[
 		"rdf",
 		"eclipse"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"5.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251205",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"4.3.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241107",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"4.3.15",
 			"vulnerabilities":""
 		}
 	]

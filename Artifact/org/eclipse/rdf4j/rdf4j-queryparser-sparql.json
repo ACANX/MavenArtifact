@@ -3,13 +3,13 @@
 	"description":"Query language parser implementation for SPARQL.",
 	"group_id":"org.eclipse.rdf4j",
 	"artifact_id":"rdf4j-queryparser-sparql",
-	"version_latest":"5.2.2",
-	"ts_publish":1765810488000,
-	"dt_publish":"2025-12-15 22:54:48.000",
-	"ts_update":1765812162857,
-	"dt_update":"2025-12-15 23:22:21.154",
-	"count_dep":25,
-	"count_ref":23,
+	"version_latest":"5.3.0-M1",
+	"ts_publish":1766348229000,
+	"dt_publish":"2025-12-22 04:17:09.000",
+	"ts_update":1766348813185,
+	"dt_update":"2025-12-22 04:26:35.416",
+	"count_dep":31,
+	"count_ref":21,
 	"licenses":[
 		"Eclipse Distribution License v1.0"
 	],
@@ -28,7 +28,7 @@
 	"count_used_by":47,
 	"home_page":"https://rdf4j.org/",
 	"license":"EDL 1.0",
-	"ranking":"#10629 in MvnRepository",
+	"ranking":"#10658 in MvnRepository",
 	"tags":[
 		"rdf",
 		"parser",
@@ -37,6 +37,14 @@
 		"sparql"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"5.2.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251205",
 			"repository":"Central",
@@ -187,14 +195,6 @@
 			"type":"release",
 			"usage":5,
 			"version":"4.3.16",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241107",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"4.3.15",
 			"vulnerabilities":""
 		}
 	]
