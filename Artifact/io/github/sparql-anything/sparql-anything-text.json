@@ -2,12 +2,12 @@
 	"id":"pkg:maven/io.github.sparql-anything/sparql-anything-text",
 	"group_id":"io.github.sparql-anything",
 	"artifact_id":"sparql-anything-text",
-	"version_latest":"1.1-DEV-7",
-	"ts_publish":1761821780000,
-	"dt_publish":"2025-10-30 18:56:20.000",
-	"ts_update":1761822871837,
-	"dt_update":"2025-10-30 19:14:14.238",
-	"count_dep":4,
+	"version_latest":"1.2.0-DEV",
+	"ts_publish":1766345624000,
+	"dt_publish":"2025-12-22 03:33:44.000",
+	"ts_update":1766346300514,
+	"dt_update":"2025-12-22 03:44:51.156",
+	"count_dep":51,
 	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -16,7 +16,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.github.sparql-anything/sparql-anything-text@1.1-DEV-7",
 	"count_used_by":6,
 	"license":"Apache 2.0",
-	"ranking":"#84825 in MvnRepository",
+	"ranking":"#78812 in MvnRepository",
 	"tags":[
 		"github",
 		"text",
@@ -24,11 +24,43 @@
 	],
 	"versions":[
 		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"1.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"dev",
+			"usage":4,
+			"version":"1.1-DEV-7",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20250606",
 			"repository":"Central",
 			"type":"dev",
 			"usage":5,
 			"version":"1.1-DEV-4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"dev",
+			"usage":4,
+			"version":"1.1-DEV",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251030",
+			"repository":"Central",
+			"type":"dev",
+			"usage":4,
+			"version":"1.1-DEV-maven-test",
 			"vulnerabilities":""
 		},
 		{
@@ -150,14 +182,7 @@
 			"usage":1,
 			"version":"v1.0-DEV.3",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20240109",
-			"repository":"Central",
-			"type":"dev",
-			"usage":1,
-			"version":"v1.0-DEV.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"An opinionated approach to SPARQL any file"
 }
