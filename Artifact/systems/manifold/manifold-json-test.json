@@ -2,14 +2,16 @@
 	"id":"pkg:maven/systems.manifold/manifold-json-test",
 	"group_id":"systems.manifold",
 	"artifact_id":"manifold-json-test",
-	"version_latest":"2025.1.28",
-	"ts_publish":1765928567000,
-	"dt_publish":"2025-12-17 07:42:47.000",
-	"ts_update":1765931223491,
-	"dt_update":"2025-12-17 08:26:35.193",
-	"count_dep":6,
+	"version_latest":"2025.1.29",
+	"ts_publish":1766358534000,
+	"dt_publish":"2025-12-22 07:08:54.000",
+	"ts_update":1766358991781,
+	"dt_update":"2025-12-22 07:16:04.834",
+	"count_dep":23,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -21,13 +23,29 @@
 	],
 	"url_scm":"https://github.com/manifold-systems/manifold/manifold-deps-parent/manifold-json-test",
 	"license":"Apache 2.0",
-	"ranking":"#878116 in MvnRepository",
+	"ranking":"#519689 in MvnRepository",
 	"tags":[
 		"system",
 		"json",
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.1.28",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250915",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.1.27",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250803",
 			"repository":"Central",
@@ -171,22 +189,7 @@
 			"usage":0,
 			"version":"2025.1.9",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250331",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.1.8",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250331",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.1.7",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Manifold is a Java compiler plugin, its features include Metaprogramming, Properties, Extension\n    Methods, Operator Overloading, Templates, a Preprocessor, and more."
 }
