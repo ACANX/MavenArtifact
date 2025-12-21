@@ -3,11 +3,11 @@
 	"description":"易水公共组件是基于springboot的高度封装的通用型组件，在对spring security和spring security\n        oauth2高度可定制化的功能封装外，\n        还支持第三方登录和sso单点登录功能，使用户能够快速开启QQ登录和微信登录能力，搭建属于自己的认证/授权中心。\n        此外，工具还提供各种常见的图形验证码、短信验证码和邮件验证码功能，并支持跨域设置和全局异常捕获功能，实现自定义异常信息提示。\n        另外，组件还包含swagger接口文档功能，支持一键导出离线接口使用文档。最后，组件提供了大量丰富的配置属性，\n        支持通过属性配置完成各项功能设置，真正实现零侵入、无缝接入功能",
 	"group_id":"com.yishuifengxiao.common",
 	"artifact_id":"common-spring-boot-starter",
-	"version_latest":"8.1.0",
-	"ts_publish":1765555673000,
-	"dt_publish":"2025-12-13 00:07:53.000",
-	"ts_update":1765557910671,
-	"dt_update":"2025-12-13 00:44:50.324",
+	"version_latest":"8.1.1",
+	"ts_publish":1766293900000,
+	"dt_publish":"2025-12-21 13:11:40.000",
+	"ts_update":1766294299349,
+	"dt_update":"2025-12-21 13:18:11.862",
 	"count_dep":174,
 	"count_ref":0,
 	"licenses":[
@@ -27,12 +27,20 @@
 	"count_used_by":3,
 	"home_page":"http://www.yishuifengxiao.com",
 	"license":"Apache 2.0",
-	"ranking":"#133154 in MvnRepository",
+	"ranking":"#133582 in MvnRepository",
 	"tags":[
 		"spring",
 		"starter"
 	],
 	"versions":[
+		{
+			"date":"20251212",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20241117",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"5.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221122",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"5.6.0",
 			"vulnerabilities":""
 		}
 	]
