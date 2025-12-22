@@ -2,16 +2,14 @@
 	"id":"pkg:maven/com.vmware.pscoe.iac/vropkg",
 	"group_id":"com.vmware.pscoe.iac",
 	"artifact_id":"vropkg",
-	"version_latest":"4.15.0",
-	"ts_publish":1763112016000,
-	"dt_publish":"2025-11-14 17:20:16.000",
-	"ts_update":1763113007204,
-	"dt_update":"2025-11-14 17:36:37.970",
+	"version_latest":"4.16.0",
+	"ts_publish":1766411957000,
+	"dt_publish":"2025-12-22 21:59:17.000",
+	"ts_update":1766413608927,
+	"dt_update":"2025-12-22 22:26:41.296",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"BSD-2 License"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://github.com/vmware/build-tools-for-vmware-aria/lib/vropkg",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.vmware.pscoe.iac/vropkg@4.9.0",
@@ -21,8 +19,16 @@
 	"url_scm":"https://github.com/vmware/build-tools-for-vmware-aria/tree/main/lib/vropkg",
 	"count_used_by":7,
 	"license":"BSD 2-clause",
-	"ranking":"#64904 in MvnRepository",
+	"ranking":"#67797 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -174,15 +180,6 @@
 			"usage":7,
 			"version":"4.0.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250128",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"3.2.0",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Build Tools for VMware Aria provides development and release management tools for implementing automation solutions\n\t\tbased on the VMware Aria Suite and VMware Cloud Director. The solution enables Virtual Infrastructure Administrators and \n\t\tAutomation Developers to use standard DevOps practices for managing and deploying content."
+	]
 }

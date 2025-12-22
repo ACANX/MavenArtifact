@@ -3,11 +3,11 @@
 	"description":"Build Tools for VMware Aria provides development and release management tools for implementing automation solutions\n\t\tbased on the VMware Aria Suite and VMware Cloud Director. The solution enables Virtual Infrastructure Administrators and \n\t\tAutomation Developers to use standard DevOps practices for managing and deploying content.",
 	"group_id":"com.vmware.pscoe.o11n.archetypes",
 	"artifact_id":"package-mixed-archetype",
-	"version_latest":"4.15.0",
-	"ts_publish":1763112016000,
-	"dt_publish":"2025-11-14 17:20:16.000",
-	"ts_update":1763113007341,
-	"dt_update":"2025-11-14 17:36:37.970",
+	"version_latest":"4.16.0",
+	"ts_publish":1766411957000,
+	"dt_publish":"2025-12-22 21:59:17.000",
+	"ts_update":1766413613034,
+	"dt_update":"2025-12-22 22:26:41.295",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
@@ -21,13 +21,21 @@
 	],
 	"url_scm":"https://github.com/vmware/build-tools-for-vmware-aria/tree/main/base-archetype/package-mixed-archetype",
 	"license":"BSD 2-clause",
-	"ranking":"#838529 in MvnRepository",
+	"ranking":"#538390 in MvnRepository",
 	"tags":[
 		"archetype",
 		"maven",
 		"prototype"
 	],
 	"versions":[
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"4.15.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251020",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"4.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.0",
 			"vulnerabilities":""
 		}
 	]
