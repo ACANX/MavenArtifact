@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-messaging-outbox",
-	"version_latest":"11.5.0",
-	"ts_publish":1766146008000,
-	"dt_publish":"2025-12-19 20:06:48.000",
-	"ts_update":1766147211527,
-	"dt_update":"2025-12-19 20:26:33.556",
+	"version_latest":"11.6.0",
+	"ts_publish":1766396636000,
+	"dt_publish":"2025-12-22 17:43:56.000",
+	"ts_update":1766397262419,
+	"dt_update":"2025-12-22 17:54:04.642",
 	"count_dep":68,
 	"count_ref":1,
 	"licenses":[
@@ -22,12 +22,20 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-messaging-outbox.git/jeap-messaging-outbox",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#257358 in MvnRepository",
+	"ranking":"#252709 in MvnRepository",
 	"tags":[
 		"admin",
 		"messaging"
 	],
 	"versions":[
+		{
+			"date":"20251219",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"11.5.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251217",
 			"repository":"Central",
@@ -178,14 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"9.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250902",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"9.0.0",
 			"vulnerabilities":""
 		}
 	]
