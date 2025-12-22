@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-archrepo-docgen",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-archrepo-docgen",
-	"version_latest":"4.10.0",
-	"ts_publish":1766154381000,
-	"dt_publish":"2025-12-19 22:26:21.000",
-	"ts_update":1766155371025,
-	"dt_update":"2025-12-19 22:42:25.863",
-	"count_dep":37,
+	"version_latest":"4.11.0",
+	"ts_publish":1766414656000,
+	"dt_publish":"2025-12-22 22:44:16.000",
+	"ts_update":1766415226536,
+	"dt_update":"2025-12-22 22:53:37.829",
+	"count_dep":144,
 	"count_ref":3,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-archrepo-service/tree/main/jeap-archrepo-docgen",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-archrepo-docgen@1.31.0",
@@ -19,12 +21,20 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-archrepo-service.git/jeap-archrepo-docgen",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#386657 in MvnRepository",
+	"ranking":"#384615 in MvnRepository",
 	"tags":[
 		"admin",
 		"doc"
 	],
 	"versions":[
+		{
+			"date":"20251219",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251217",
 			"repository":"Central",
@@ -176,14 +186,7 @@
 			"usage":1,
 			"version":"2.10.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251006",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.9.1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A common parent project"
 }

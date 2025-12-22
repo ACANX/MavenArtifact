@@ -3,11 +3,11 @@
 	"description":"scala3-library-bootstrapped",
 	"group_id":"org.scala-lang",
 	"artifact_id":"scala3-library_3",
-	"version_latest":"3.8.0-RC1-bin-20250822-658c8bd-NIGHTLY",
-	"ts_publish":1755928328000,
-	"ts_update":1755930418379,
-	"count_dep":2,
-	"count_ref":7,
+	"version_latest":"3.8.0-RC4",
+	"ts_publish":1766413930000,
+	"ts_update":1766415224385,
+	"count_dep":1,
+	"count_ref":10,
 	"licenses":[
 		"Apache-2.0"
 	],
@@ -30,12 +30,12 @@
 		"Dmitry Petrashko"
 	],
 	"url_scm":"https://github.com/scala/scala3",
-	"dt_publish":"2025-08-23 13:52:08.000",
-	"dt_update":"2025-08-23 14:25:45.977",
-	"count_used_by":10455,
-	"home_page":"https://github.com/scala/scala3",
+	"dt_publish":"2025-12-22 22:32:10.000",
+	"dt_update":"2025-12-22 22:53:38.480",
+	"count_used_by":11167,
+	"home_page":"https://scala-lang.org/",
 	"license":"Apache 2.0",
-	"ranking":"#59 in MvnRepository",
+	"ranking":"#58 in MvnRepository",
 	"tags":[
 		"jvm",
 		"language",
@@ -45,6 +45,46 @@
 		"functional"
 	],
 	"versions":[
+		{
+			"date":"20251204",
+			"repository":"Central",
+			"type":"release",
+			"usage":88,
+			"version":"3.8.0-RC3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251125",
+			"repository":"Central",
+			"type":"release",
+			"usage":71,
+			"version":"3.8.0-RC2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251114",
+			"repository":"Central",
+			"type":"release",
+			"usage":75,
+			"version":"3.8.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250823",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.8.0-RC1-bin-20250822-65...",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250822",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"3.8.0-RC1-bin-20250821-0a...",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250819",
 			"repository":"Central",
@@ -174,10 +214,58 @@
 			"vulnerabilities":""
 		},
 		{
-			"date":"20250813",
+			"date":"20251105",
+			"repository":"Central",
+			"type":"release",
+			"usage":398,
+			"version":"3.7.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251029",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"3.7.4-RC3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251022",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"3.7.4-RC2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250925",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"3.7.4-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250908",
+			"repository":"Central",
+			"type":"release",
+			"usage":517,
+			"version":"3.7.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250903",
 			"repository":"Central",
 			"type":"release",
 			"usage":6,
+			"version":"3.7.3-RC3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250813",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
 			"version":"3.7.3-RC2",
 			"vulnerabilities":""
 		},
@@ -457,7 +545,7 @@
 			"date":"20250729",
 			"repository":"Central",
 			"type":"release",
-			"usage":206,
+			"usage":388,
 			"version":"3.7.2",
 			"vulnerabilities":""
 		},
@@ -465,7 +553,7 @@
 			"date":"20250717",
 			"repository":"Central",
 			"type":"release",
-			"usage":156,
+			"usage":158,
 			"version":"3.7.2-RC2",
 			"vulnerabilities":""
 		},
@@ -721,7 +809,7 @@
 			"date":"20250602",
 			"repository":"Central",
 			"type":"release",
-			"usage":528,
+			"usage":568,
 			"version":"3.7.1",
 			"vulnerabilities":""
 		},
@@ -985,7 +1073,7 @@
 			"date":"20250505",
 			"repository":"Central",
 			"type":"release",
-			"usage":488,
+			"usage":509,
 			"version":"3.7.0",
 			"vulnerabilities":""
 		},
@@ -1329,7 +1417,7 @@
 			"date":"20250306",
 			"repository":"Central",
 			"type":"release",
-			"usage":627,
+			"usage":673,
 			"version":"3.6.4",
 			"vulnerabilities":""
 		},
@@ -1625,7 +1713,7 @@
 			"date":"20250116",
 			"repository":"Central",
 			"type":"release",
-			"usage":333,
+			"usage":370,
 			"version":"3.6.3",
 			"vulnerabilities":""
 		},
@@ -1721,7 +1809,7 @@
 			"date":"20241209",
 			"repository":"Central",
 			"type":"release",
-			"usage":580,
+			"usage":617,
 			"version":"3.6.2",
 			"vulnerabilities":""
 		},
@@ -1955,94 +2043,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"3.6.0-RC1-bin-20241001-82...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241001",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240930-56...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240929",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240927-5e...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240927",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240926-eb...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240926",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240925-f6...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240925",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240924-3f...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240924",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240923-e5...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240923",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240922-22...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240921",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240920-42...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240920",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240919-ba...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240919",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240918-be...",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240918",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"3.6.0-RC1-bin-20240917-6e...",
 			"vulnerabilities":""
 		}
 	]
