@@ -3,11 +3,11 @@
 	"description":"A common parent project for jEAP libs. Does not include any jEAP dependencies to avoid circular dependencies.",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-crypto-vault-starter",
-	"version_latest":"5.6.0",
-	"ts_publish":1766135420000,
-	"dt_publish":"2025-12-19 17:10:20.000",
-	"ts_update":1766136402880,
-	"dt_update":"2025-12-19 17:26:35.616",
+	"version_latest":"5.7.0",
+	"ts_publish":1766393225000,
+	"dt_publish":"2025-12-22 16:47:05.000",
+	"ts_update":1766393811994,
+	"dt_update":"2025-12-22 16:56:36.372",
 	"count_dep":52,
 	"count_ref":1,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-crypto.git/jeap-crypto-vault-starter",
 	"count_used_by":2,
 	"license":"Apache 2.0",
-	"ranking":"#250732 in MvnRepository",
+	"ranking":"#244619 in MvnRepository",
 	"tags":[
 		"admin",
 		"cryptography",
@@ -30,6 +30,14 @@
 		"vault"
 	],
 	"versions":[
+		{
+			"date":"20251219",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"5.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251217",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"3.24.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.24.2",
 			"vulnerabilities":""
 		}
 	]
