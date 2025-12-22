@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.wso2.carbon.identity.framework/configuration-mgt-feature",
 	"group_id":"org.wso2.carbon.identity.framework",
 	"artifact_id":"configuration-mgt-feature",
-	"version_latest":"7.8.645",
-	"ts_publish":1766388540000,
-	"dt_publish":"2025-12-22 15:29:00.000",
-	"ts_update":1766389774835,
-	"dt_update":"2025-12-22 15:48:45.899",
-	"count_dep":0,
+	"version_latest":"7.8.646",
+	"ts_publish":1766411645000,
+	"dt_publish":"2025-12-22 21:54:05.000",
+	"ts_update":1766413109144,
+	"dt_update":"2025-12-22 22:18:06.575",
+	"count_dep":1,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -22,13 +24,29 @@
 	"url_scm":"https://github.com/wso2/carbon-identity-framework.git/configuration-mgt-feature",
 	"home_page":"http://wso2.org",
 	"license":"Apache 2.0",
-	"ranking":"#536802 in MvnRepository",
+	"ranking":"#500650 in MvnRepository",
 	"tags":[
 		"config",
 		"framework",
 		"identity"
 	],
 	"versions":[
+		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.8.645",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"7.8.644",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251216",
 			"repository":"Central",
@@ -172,22 +190,7 @@
 			"usage":0,
 			"version":"7.8.626",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251121",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.8.625",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251121",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.8.624",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"WSO2 is an open source application development software company focused on providing service-oriented\n        architecture solutions for professional developers."
 }
