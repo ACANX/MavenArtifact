@@ -3,13 +3,13 @@
 	"description":"Test package for testing correctness of RuleSet usage in the service clients.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"ruleset-testing-core",
-	"version_latest":"2.40.13",
-	"ts_publish":1766199247000,
-	"dt_publish":"2025-12-20 10:54:07.000",
-	"ts_update":1766201229202,
-	"dt_update":"2025-12-20 11:26:47.716",
+	"version_latest":"2.40.14",
+	"ts_publish":1766443738000,
+	"dt_publish":"2025-12-23 06:48:58.000",
+	"ts_update":1766445442103,
+	"dt_update":"2025-12-23 07:17:01.867",
 	"count_dep":24,
-	"count_ref":236,
+	"count_ref":160,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/test/ruleset-testing-core",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#92402 in MvnRepository",
+	"ranking":"#90560 in MvnRepository",
 	"tags":[
 		"quality",
 		"aws",
@@ -32,6 +32,14 @@
 		"rules"
 	],
 	"versions":[
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"2.40.13",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251219",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.39.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251120",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"2.39.0",
 			"vulnerabilities":""
 		}
 	]
