@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.metaeffekt.artifact.analysis/ae-inventory-overview-html-report",
 	"group_id":"com.metaeffekt.artifact.analysis",
 	"artifact_id":"ae-inventory-overview-html-report",
-	"version_latest":"0.153.1",
-	"ts_publish":1765869154000,
-	"dt_publish":"2025-12-16 15:12:34.000",
-	"ts_update":1765870012053,
-	"dt_update":"2025-12-16 15:26:33.928",
-	"count_dep":13,
+	"version_latest":"0.153.2",
+	"ts_publish":1766399043000,
+	"dt_publish":"2025-12-22 18:24:03.000",
+	"ts_update":1766400253181,
+	"dt_update":"2025-12-22 18:43:49.644",
+	"count_dep":160,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -18,7 +20,7 @@
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.metaeffekt.artifact.analysis/ae-inventory-overview-html-report@0.145.0",
 	"url_scm":"http://ae-server:7990/projects/AE/repos/metaeffekt-artifact-analysis/browse/ae-modules-pom/ae-html-report/ae-inventory-overview-html-report",
 	"license":"Apache 2.0",
-	"ranking":"#699824 in MvnRepository",
+	"ranking":"#703391 in MvnRepository",
 	"tags":[
 		"plugin",
 		"build",
@@ -28,6 +30,14 @@
 		"html"
 	],
 	"versions":[
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.153.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251214",
 			"repository":"Central",
@@ -179,14 +189,7 @@
 			"usage":0,
 			"version":"0.144.1",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250715",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"0.144.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Support for artifact analysis"
 }

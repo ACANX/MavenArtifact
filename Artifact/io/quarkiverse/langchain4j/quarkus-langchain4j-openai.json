@@ -3,12 +3,12 @@
 	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-openai",
-	"version_latest":"1.5.0.CR1",
-	"ts_publish":1765798377000,
-	"dt_publish":"2025-12-15 19:32:57.000",
-	"ts_update":1765799297244,
-	"dt_update":"2025-12-15 19:47:46.996",
-	"count_dep":123,
+	"version_latest":"1.5.0.CR2",
+	"ts_publish":1766399675000,
+	"dt_publish":"2025-12-22 18:34:35.000",
+	"ts_update":1766400256389,
+	"dt_update":"2025-12-22 18:43:45.950",
+	"count_dep":4,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/quarkiverse/quarkus-langchain4j",
 	"count_used_by":11,
 	"license":"Apache 2.0",
-	"ranking":"#42259 in MvnRepository",
+	"ranking":"#42382 in MvnRepository",
 	"tags":[
 		"quarkus",
 		"openai",
@@ -31,6 +31,14 @@
 		"langchain"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.5.0.CR1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":7,
 			"version":"1.1.0.CR2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250707",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"1.1.0.CR1",
 			"vulnerabilities":""
 		}
 	]
