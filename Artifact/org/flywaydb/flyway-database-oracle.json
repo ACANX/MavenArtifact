@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.flywaydb/flyway-database-oracle",
 	"group_id":"org.flywaydb",
 	"artifact_id":"flyway-database-oracle",
-	"version_latest":"11.19.1",
-	"ts_publish":1766066397000,
-	"dt_publish":"2025-12-18 21:59:57.000",
-	"ts_update":1766067738511,
-	"dt_update":"2025-12-18 22:21:35.019",
+	"version_latest":"11.20.0",
+	"ts_publish":1766416569000,
+	"dt_publish":"2025-12-22 23:16:09.000",
+	"ts_update":1766417982204,
+	"dt_update":"2025-12-22 23:39:15.789",
 	"count_dep":3,
 	"count_ref":2,
 	"licenses":[],
@@ -18,9 +18,9 @@
 	"url_project":"https://flywaydb.org/flyway-database-oracle",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.flywaydb/flyway-database-oracle@11.12.0",
 	"url_scm":"https://github.com/flyway/flyway/flyway-database-oracle",
-	"count_used_by":13,
+	"count_used_by":14,
 	"license":"Apache 2.0",
-	"ranking":"#36482 in MvnRepository",
+	"ranking":"#35297 in MvnRepository",
 	"tags":[
 		"database",
 		"oracle",
@@ -29,10 +29,26 @@
 	],
 	"versions":[
 		{
-			"date":"20251127",
+			"date":"20251218",
 			"repository":"Central",
 			"type":"release",
 			"usage":2,
+			"version":"11.19.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.19.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251127",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
 			"version":"11.18.0",
 			"vulnerabilities":""
 		},
@@ -170,22 +186,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"11.10.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.10.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250710",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"11.10.2",
 			"vulnerabilities":""
 		}
 	]
