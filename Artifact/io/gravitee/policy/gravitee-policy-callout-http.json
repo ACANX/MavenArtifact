@@ -3,12 +3,12 @@
 	"description":"Invoke an HTTP(S) URL and place a subset or all of the content in one or more variables of the request execution context",
 	"group_id":"io.gravitee.policy",
 	"artifact_id":"gravitee-policy-callout-http",
-	"version_latest":"5.1.0",
-	"ts_publish":1765485939000,
-	"dt_publish":"2025-12-12 04:45:39.000",
-	"ts_update":1765487950691,
-	"dt_update":"2025-12-12 05:18:48.534",
-	"count_dep":174,
+	"version_latest":"5.2.0",
+	"ts_publish":1766393921000,
+	"dt_publish":"2025-12-22 16:58:41.000",
+	"ts_update":1766395612379,
+	"dt_update":"2025-12-22 17:26:35.616",
+	"count_dep":148,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
@@ -29,12 +29,20 @@
 	"url_scm":"https://github.com/gravitee-io/parent/gravitee-policy-callout-http",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#164647 in MvnRepository",
+	"ranking":"#149433 in MvnRepository",
 	"tags":[
 		"http",
 		"policy"
 	],
 	"versions":[
+		{
+			"date":"20251211",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"5.1.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251107",
 			"repository":"Central",
@@ -185,14 +193,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"1.10.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20201014",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.10.0",
 			"vulnerabilities":""
 		}
 	]
