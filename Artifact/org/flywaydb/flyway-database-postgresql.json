@@ -2,11 +2,11 @@
 	"id":"pkg:maven/org.flywaydb/flyway-database-postgresql",
 	"group_id":"org.flywaydb",
 	"artifact_id":"flyway-database-postgresql",
-	"version_latest":"11.19.1",
-	"ts_publish":1766066397000,
-	"dt_publish":"2025-12-18 21:59:57.000",
-	"ts_update":1766067739650,
-	"dt_update":"2025-12-18 22:21:35.012",
+	"version_latest":"11.20.0",
+	"ts_publish":1766416569000,
+	"dt_publish":"2025-12-22 23:16:09.000",
+	"ts_update":1766417207910,
+	"dt_update":"2025-12-22 23:26:38.309",
 	"count_dep":2,
 	"count_ref":1,
 	"licenses":[],
@@ -18,10 +18,10 @@
 	"url_project":"https://flywaydb.org/flyway-database-postgresql",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.flywaydb/flyway-database-postgresql@11.12.0",
 	"url_scm":"https://github.com/flyway/flyway/flyway-database-postgresql",
-	"count_used_by":175,
+	"count_used_by":182,
 	"home_page":"https://flywaydb.org/",
 	"license":"Apache 2.0",
-	"ranking":"#3370 in MvnRepository",
+	"ranking":"#3259 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -31,10 +31,26 @@
 	],
 	"versions":[
 		{
+			"date":"20251218",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"11.19.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251208",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"11.19.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251127",
 			"repository":"Central",
 			"type":"release",
-			"usage":4,
+			"usage":8,
 			"version":"11.18.0",
 			"vulnerabilities":""
 		},
@@ -42,7 +58,7 @@
 			"date":"20251125",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"11.17.2",
 			"vulnerabilities":""
 		},
@@ -50,7 +66,7 @@
 			"date":"20251120",
 			"repository":"Central",
 			"type":"release",
-			"usage":9,
+			"usage":10,
 			"version":"11.17.1",
 			"vulnerabilities":""
 		},
@@ -58,7 +74,7 @@
 			"date":"20251111",
 			"repository":"Central",
 			"type":"release",
-			"usage":11,
+			"usage":12,
 			"version":"11.17.0",
 			"vulnerabilities":""
 		},
@@ -66,7 +82,7 @@
 			"date":"20251106",
 			"repository":"Central",
 			"type":"release",
-			"usage":6,
+			"usage":7,
 			"version":"11.16.0",
 			"vulnerabilities":""
 		},
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":8,
 			"version":"11.10.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":10,
-			"version":"11.10.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250710",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"11.10.2",
 			"vulnerabilities":""
 		}
 	]

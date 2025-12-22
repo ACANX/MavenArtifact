@@ -1,18 +1,15 @@
 {
 	"id":"pkg:maven/org.flywaydb/flyway-gcp-spanner",
-	"description":"Flyway: Database Migrations Made Easy.",
 	"group_id":"org.flywaydb",
 	"artifact_id":"flyway-gcp-spanner",
-	"version_latest":"11.19.1",
-	"ts_publish":1766066397000,
-	"dt_publish":"2025-12-18 21:59:57.000",
-	"ts_update":1766067725065,
-	"dt_update":"2025-12-18 22:21:35.019",
-	"count_dep":66,
+	"version_latest":"11.20.0",
+	"ts_publish":1766416569000,
+	"dt_publish":"2025-12-22 23:16:09.000",
+	"ts_update":1766417207336,
+	"dt_update":"2025-12-22 23:26:38.802",
+	"count_dep":3,
 	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Data Management",
 		"Database"
@@ -23,13 +20,21 @@
 	"url_scm":"https://github.com/flyway/flyway/flyway-gcp-spanner",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#353060 in MvnRepository",
+	"ranking":"#371221 in MvnRepository",
 	"tags":[
 		"gcp",
 		"flyway",
 		"spanner"
 	],
 	"versions":[
+		{
+			"date":"20251218",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"11.19.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251208",
 			"repository":"Central",
@@ -180,14 +185,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"11.10.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250717",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"11.10.3",
 			"vulnerabilities":""
 		}
 	]
