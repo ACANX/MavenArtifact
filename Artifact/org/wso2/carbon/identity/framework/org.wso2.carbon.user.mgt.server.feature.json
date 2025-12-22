@@ -3,14 +3,16 @@
 	"description":"This feature contains the core bundles required for Back-end user management\n        functionality",
 	"group_id":"org.wso2.carbon.identity.framework",
 	"artifact_id":"org.wso2.carbon.user.mgt.server.feature",
-	"version_latest":"7.8.644",
-	"ts_publish":1766238905000,
-	"dt_publish":"2025-12-20 21:55:05.000",
-	"ts_update":1766240167394,
-	"dt_update":"2025-12-20 22:15:29.784",
-	"count_dep":6,
+	"version_latest":"7.8.645",
+	"ts_publish":1766388497000,
+	"dt_publish":"2025-12-22 15:28:17.000",
+	"ts_update":1766389744943,
+	"dt_update":"2025-12-22 15:48:46.842",
+	"count_dep":160,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -20,7 +22,7 @@
 	"count_used_by":1,
 	"home_page":"http://wso2.org",
 	"license":"Apache 2.0",
-	"ranking":"#409136 in MvnRepository",
+	"ranking":"#408202 in MvnRepository",
 	"tags":[
 		"server",
 		"framework",
@@ -28,6 +30,14 @@
 		"user"
 	],
 	"versions":[
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"7.8.644",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251216",
 			"repository":"Central",
@@ -178,14 +188,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"7.8.625",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251121",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"7.8.624",
 			"vulnerabilities":""
 		}
 	]
