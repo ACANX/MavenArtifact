@@ -2,12 +2,12 @@
 	"id":"pkg:maven/com.vaadin/hilla-endpoint",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-endpoint",
-	"version_latest":"25.0.0",
-	"ts_publish":1765893617000,
-	"dt_publish":"2025-12-16 22:00:17.000",
-	"ts_update":1765895122694,
-	"dt_update":"2025-12-16 22:24:56.467",
-	"count_dep":34,
+	"version_latest":"25.0.1",
+	"ts_publish":1766409426000,
+	"dt_publish":"2025-12-22 21:17:06.000",
+	"ts_update":1766410008128,
+	"dt_update":"2025-12-22 21:26:34.748",
+	"count_dep":85,
 	"count_ref":2,
 	"licenses":[
 		"Apache License Version 2.0"
@@ -21,13 +21,29 @@
 	"url_scm":"https://github.com/vaadin/hilla/hilla-endpoint",
 	"count_used_by":12,
 	"license":"Apache 2.0",
-	"ranking":"#39478 in MvnRepository",
+	"ranking":"#40282 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
 		"endpoint"
 	],
 	"versions":[
+		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"25.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"25.0.0-rc2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -171,22 +187,7 @@
 			"usage":4,
 			"version":"24.9.0-rc2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"24.9.0-rc1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"beta",
-			"usage":4,
-			"version":"24.9.0-beta3",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A parent POM for all artifacts by Vaadin Ltd."
 }

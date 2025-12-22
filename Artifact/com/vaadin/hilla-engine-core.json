@@ -2,13 +2,13 @@
 	"id":"pkg:maven/com.vaadin/hilla-engine-core",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-engine-core",
-	"version_latest":"25.0.0",
-	"ts_publish":1765893617000,
-	"dt_publish":"2025-12-16 22:00:17.000",
-	"ts_update":1765895116580,
-	"dt_update":"2025-12-16 22:24:56.972",
-	"count_dep":3,
-	"count_ref":4,
+	"version_latest":"25.0.1",
+	"ts_publish":1766409426000,
+	"dt_publish":"2025-12-22 21:17:06.000",
+	"ts_update":1766410004968,
+	"dt_update":"2025-12-22 21:26:34.748",
+	"count_dep":45,
+	"count_ref":6,
 	"licenses":[
 		"Apache License Version 2.0"
 	],
@@ -21,7 +21,7 @@
 	"url_scm":"https://github.com/vaadin/hilla/hilla-engine-core",
 	"count_used_by":5,
 	"license":"Apache 2.0",
-	"ranking":"#94644 in MvnRepository",
+	"ranking":"#92517 in MvnRepository",
 	"tags":[
 		"vaadin",
 		"web-framework",
@@ -29,10 +29,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251216",
+			"repository":"Central",
+			"type":"release",
+			"usage":4,
+			"version":"25.0.0",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251215",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"25.0.0-rc2",
 			"vulnerabilities":""
 		},
@@ -179,14 +187,7 @@
 			"usage":4,
 			"version":"24.9.0-rc2",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"24.9.0-rc1",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A parent POM for all artifacts by Vaadin Ltd."
 }
