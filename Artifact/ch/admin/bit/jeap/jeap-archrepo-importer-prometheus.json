@@ -3,11 +3,11 @@
 	"description":"A common parent project",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-archrepo-importer-prometheus",
-	"version_latest":"4.11.0",
-	"ts_publish":1766414656000,
-	"dt_publish":"2025-12-22 22:44:16.000",
-	"ts_update":1766415404812,
-	"dt_update":"2025-12-22 22:56:35.819",
+	"version_latest":"4.12.0",
+	"ts_publish":1766489371000,
+	"dt_publish":"2025-12-23 19:29:31.000",
+	"ts_update":1766490466635,
+	"dt_update":"2025-12-23 19:47:37.193",
 	"count_dep":81,
 	"count_ref":3,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-archrepo-service.git/jeap-archrepo-importer-prometheus",
 	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#106667 in MvnRepository",
+	"ranking":"#106656 in MvnRepository",
 	"tags":[
 		"admin",
 		"monitoring",
@@ -30,6 +30,14 @@
 		"import"
 	],
 	"versions":[
+		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"4.11.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251219",
 			"repository":"Central",
@@ -180,14 +188,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251013",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"2.10.0",
 			"vulnerabilities":""
 		}
 	]
