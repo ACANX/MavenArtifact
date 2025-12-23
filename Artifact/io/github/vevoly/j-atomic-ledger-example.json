@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/io.github.vevoly/j-atomic-ledger-example",
-	"description":"Example module for j-atomic-ledger",
+	"description":"Example module for j-atomic-ledger\n            [DEPRECATED] This is an example module and should not be used as a dependency. Please use j-atomic-ledger-spring-boot-starter instead.\n            [已废弃] 这是一个示例模块，不应作为依赖使用。请使用 j-atomic-ledger-spring-boot-starter。",
 	"group_id":"io.github.vevoly",
 	"artifact_id":"j-atomic-ledger-example",
-	"version_latest":"1.2.0",
-	"ts_publish":1766413551000,
-	"dt_publish":"2025-12-22 22:25:51.000",
-	"ts_update":1766414491675,
-	"dt_update":"2025-12-22 22:41:12.600",
-	"count_dep":124,
+	"version_latest":"1.2.1",
+	"ts_publish":1766517315000,
+	"dt_publish":"2025-12-24 03:15:15.000",
+	"ts_update":1766518007190,
+	"dt_update":"2025-12-24 03:26:38.834",
+	"count_dep":2,
 	"count_ref":0,
 	"licenses":[
 		"The Apache Software License, Version 2.0"
@@ -22,13 +22,21 @@
 	"url_scm":"http://github.com/vevoly/j-atomic-ledger/tree/master/j-atomic-ledger-example",
 	"home_page":"https://github.com/vevoly/j-atomic-ledger",
 	"license":"Apache 2.0",
-	"ranking":"#612137 in MvnRepository",
+	"ranking":"#605363 in MvnRepository",
 	"tags":[
 		"ledger",
 		"github",
 		"example"
 	],
 	"versions":[
+		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251219",
 			"repository":"Central",
