@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Account module holds the client classes that are used for\n        communicating with Account.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"account",
-	"version_latest":"2.40.13",
-	"ts_publish":1766199247000,
-	"ts_update":1766201216248,
+	"version_latest":"2.40.15",
+	"ts_publish":1766532752000,
+	"ts_update":1766533659164,
 	"count_dep":3,
-	"count_ref":1,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Software Development Kit"
@@ -15,18 +15,34 @@
 	"dsv":1,
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/account@2.32.16",
-	"dt_publish":"2025-12-20 10:54:07.000",
-	"dt_update":"2025-12-20 11:26:40.296",
+	"dt_publish":"2025-12-24 07:32:32.000",
+	"dt_update":"2025-12-24 07:47:31.308",
 	"count_used_by":5,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#89849 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#88705 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.40.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.13",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251219",
 			"repository":"Central",
@@ -169,22 +185,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.39.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251120",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.39.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251120",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.39.0",
 			"vulnerabilities":""
 		}
 	]
