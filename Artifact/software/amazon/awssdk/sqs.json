@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for Amazon SQS module holds the client classes that are used for communicating with\n        Amazon Simple Queue\n        Service",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"sqs",
-	"version_latest":"2.40.14",
-	"ts_publish":1766443737000,
-	"dt_publish":"2025-12-23 06:48:57.000",
-	"ts_update":1766445468723,
-	"dt_update":"2025-12-23 07:17:07.856",
+	"version_latest":"2.40.15",
+	"ts_publish":1766532751000,
+	"dt_publish":"2025-12-24 07:32:31.000",
+	"ts_update":1766534216657,
+	"dt_update":"2025-12-24 07:56:41.235",
 	"count_dep":40,
 	"count_ref":3,
 	"licenses":[
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/sqs@2.32.18",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/sqs",
-	"count_used_by":208,
+	"count_used_by":210,
 	"home_page":"https://aws.amazon.com/sdkforjava",
 	"license":"Apache 2.0",
-	"ranking":"#2926 in MvnRepository",
+	"ranking":"#2903 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -35,10 +35,18 @@
 	],
 	"versions":[
 		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":5,
+			"version":"2.40.13",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251219",
 			"repository":"Central",
 			"type":"release",
-			"usage":3,
+			"usage":4,
 			"version":"2.40.12",
 			"vulnerabilities":""
 		},
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":4,
 			"version":"2.39.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251120",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"2.39.0",
 			"vulnerabilities":""
 		}
 	]

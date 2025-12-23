@@ -3,11 +3,11 @@
 	"description":"The AWS Java SDK for WAFV2 module holds the client classes that are used for\n        communicating with WAFV2.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"wafv2",
-	"version_latest":"2.40.13",
-	"ts_publish":1766199247000,
-	"dt_publish":"2025-12-20 10:54:07.000",
-	"ts_update":1766201227995,
-	"dt_update":"2025-12-20 11:26:37.610",
+	"version_latest":"2.40.15",
+	"ts_publish":1766532752000,
+	"dt_publish":"2025-12-24 07:32:32.000",
+	"ts_update":1766534208626,
+	"dt_update":"2025-12-24 07:56:37.939",
 	"count_dep":43,
 	"count_ref":1,
 	"licenses":[
@@ -22,14 +22,30 @@
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/services/wafv2",
 	"count_used_by":4,
 	"home_page":"https://aws.amazon.com/sdkforjava",
-	"license":"Apache 2.0",
-	"ranking":"#107220 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#106568 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.40.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"2.40.13",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251219",
 			"repository":"Central",
@@ -172,22 +188,6 @@
 			"type":"release",
 			"usage":2,
 			"version":"2.39.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251121",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.39.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251120",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"2.39.0",
 			"vulnerabilities":""
 		}
 	]

@@ -3,13 +3,13 @@
 	"description":"The AWS SDK for Java - Core is an umbrella module that contains child modules which are considered as\n        core of the library.",
 	"group_id":"software.amazon.awssdk",
 	"artifact_id":"retries-spi",
-	"version_latest":"2.40.14",
-	"ts_publish":1766443737000,
-	"dt_publish":"2025-12-23 06:48:57.000",
-	"ts_update":1766445476396,
-	"dt_update":"2025-12-23 07:17:08.306",
+	"version_latest":"2.40.15",
+	"ts_publish":1766532752000,
+	"dt_publish":"2025-12-24 07:32:32.000",
+	"ts_update":1766534210090,
+	"dt_update":"2025-12-24 07:56:41.231",
 	"count_dep":4,
-	"count_ref":164,
+	"count_ref":150,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -20,10 +20,10 @@
 	"url_project":"https://aws.amazon.com/sdkforjava/core/retries-spi",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awssdk/retries-spi@2.32.17",
 	"url_scm":"https://github.com/aws/aws-sdk-java-v2/core/retries-spi",
-	"count_used_by":38,
+	"count_used_by":39,
 	"home_page":"https://github.com/aws/aws-sdk-java-v2",
-	"license":"Apache 2.0",
-	"ranking":"#12823 in MvnRepository",
+	"license":"Apache",
+	"ranking":"#12536 in MvnRepository",
 	"tags":[
 		"aws",
 		"amazon",
@@ -31,6 +31,22 @@
 		"sdk"
 	],
 	"versions":[
+		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.40.14",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":9,
+			"version":"2.40.13",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251219",
 			"repository":"Central",
@@ -173,22 +189,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"2.39.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251121",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"2.39.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251120",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"2.39.0",
 			"vulnerabilities":""
 		}
 	]
