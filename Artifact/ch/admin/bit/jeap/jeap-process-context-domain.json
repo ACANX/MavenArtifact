@@ -2,14 +2,16 @@
 	"id":"pkg:maven/ch.admin.bit.jeap/jeap-process-context-domain",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-process-context-domain",
-	"version_latest":"14.10.0",
-	"ts_publish":1766154655000,
-	"dt_publish":"2025-12-19 22:30:55.000",
-	"ts_update":1766156216541,
-	"dt_update":"2025-12-19 22:56:42.126",
-	"count_dep":48,
+	"version_latest":"14.11.0",
+	"ts_publish":1766476254000,
+	"dt_publish":"2025-12-23 15:50:54.000",
+	"ts_update":1766478317837,
+	"dt_update":"2025-12-23 16:24:56.670",
+	"count_dep":142,
 	"count_ref":7,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/jeap-admin-ch/jeap-process-context-service/tree/main/jeap-process-context-domain",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/ch.admin.bit.jeap/jeap-process-context-domain@13.17.0",
@@ -19,7 +21,7 @@
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-process-context-service/tree/master.git/jeap-process-context-domain",
 	"count_used_by":8,
 	"license":"Apache 2.0",
-	"ranking":"#58723 in MvnRepository",
+	"ranking":"#61923 in MvnRepository",
 	"tags":[
 		"admin",
 		"process",
@@ -27,6 +29,14 @@
 		"context"
 	],
 	"versions":[
+		{
+			"date":"20251219",
+			"repository":"Central",
+			"type":"release",
+			"usage":7,
+			"version":"14.10.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251217",
 			"repository":"Central",
@@ -178,14 +188,7 @@
 			"usage":7,
 			"version":"13.16.0",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250725",
-			"repository":"Central",
-			"type":"release",
-			"usage":7,
-			"version":"13.15.0",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"JEAP Process Context Service"
 }
