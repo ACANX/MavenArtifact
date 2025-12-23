@@ -3,11 +3,11 @@
 	"description":"This maven module act as a proxy to test, build, and release the hilla gradle plugin,\n        which is written in Kotlin and is built by gradle natively. This makes development\n        and testing of the gradle plugin much easier against the changes of flow, especially\n        the engine-core. However, publishing the hilla-gradle-plugin to gradle plugin\n        central repo is done within platform final releases.",
 	"group_id":"com.vaadin",
 	"artifact_id":"hilla-gradle-plugin",
-	"version_latest":"25.0.1",
-	"ts_publish":1766409426000,
-	"dt_publish":"2025-12-22 21:17:06.000",
-	"ts_update":1766410005606,
-	"dt_update":"2025-12-22 21:26:34.747",
+	"version_latest":"25.0.2",
+	"ts_publish":1766491487000,
+	"dt_publish":"2025-12-23 20:04:47.000",
+	"ts_update":1766492819084,
+	"dt_update":"2025-12-23 20:26:44.185",
 	"count_dep":58,
 	"count_ref":1,
 	"licenses":[
@@ -22,7 +22,7 @@
 	"url_scm":"https://github.com/vaadin/hilla/hilla-gradle-plugin",
 	"count_used_by":3,
 	"license":"Apache 2.0",
-	"ranking":"#175394 in MvnRepository",
+	"ranking":"#174120 in MvnRepository",
 	"tags":[
 		"plugin",
 		"vaadin",
@@ -33,6 +33,14 @@
 		"groovy"
 	],
 	"versions":[
+		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"25.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251216",
 			"repository":"Central",
@@ -122,6 +130,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"24.9.8",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251211",
 			"repository":"Central",
 			"type":"release",
@@ -175,22 +191,6 @@
 			"type":"release",
 			"usage":3,
 			"version":"24.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250916",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"24.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250911",
-			"repository":"Central",
-			"type":"release",
-			"usage":3,
-			"version":"24.9.0-rc2",
 			"vulnerabilities":""
 		}
 	]

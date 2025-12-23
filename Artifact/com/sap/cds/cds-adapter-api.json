@@ -3,13 +3,13 @@
 	"description":"API of Protocol Adapters",
 	"group_id":"com.sap.cds",
 	"artifact_id":"cds-adapter-api",
-	"version_latest":"4.6.0",
-	"ts_publish":1765822595000,
-	"dt_publish":"2025-12-16 02:16:35.000",
-	"ts_update":1765823209000,
-	"dt_update":"2025-12-16 02:26:20.259",
+	"version_latest":"4.6.1",
+	"ts_publish":1766491446000,
+	"dt_publish":"2025-12-23 20:04:06.000",
+	"ts_update":1766492816018,
+	"dt_update":"2025-12-23 20:26:44.189",
 	"count_dep":2,
-	"count_ref":13,
+	"count_ref":18,
 	"licenses":[
 		"SAP DEVELOPER LICENSE AGREEMENT for CAP"
 	],
@@ -25,13 +25,21 @@
 	"url_scm":"https://cap.cloud.sap/docs/java",
 	"count_used_by":14,
 	"home_page":"https://cap.cloud.sap/docs/java",
-	"ranking":"#33428 in MvnRepository",
+	"ranking":"#33367 in MvnRepository",
 	"tags":[
 		"adapter",
 		"api",
 		"sap"
 	],
 	"versions":[
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":10,
+			"version":"4.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251210",
 			"repository":"Central",
@@ -182,14 +190,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"3.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250418",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"3.9.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,14 +3,16 @@
 	"description":"Module contains external API of the evitaDB.",
 	"group_id":"io.evitadb",
 	"artifact_id":"evita_common",
-	"version_latest":"2025.8.3",
-	"ts_publish":1766183203000,
-	"dt_publish":"2025-12-20 06:26:43.000",
-	"ts_update":1766183909541,
-	"dt_update":"2025-12-20 06:38:20.745",
-	"count_dep":11,
+	"version_latest":"2025.8.4",
+	"ts_publish":1766491911000,
+	"dt_publish":"2025-12-23 20:11:51.000",
+	"ts_update":1766492815510,
+	"dt_update":"2025-12-23 20:26:38.100",
+	"count_dep":16,
 	"count_ref":21,
-	"licenses":[],
+	"licenses":[
+		"Business Source License 1.1"
+	],
 	"dsv":1,
 	"url_project":"https://evitadb.io/evita_common",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.evitadb/evita_common@2025.6.0",
@@ -23,8 +25,16 @@
 	"url_scm":"https://evitadb.io/evita_common/",
 	"count_used_by":11,
 	"license":"BUSL 1.1",
-	"ranking":"#44411 in MvnRepository",
+	"ranking":"#43983 in MvnRepository",
 	"versions":[
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":11,
+			"version":"2025.8.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251217",
 			"repository":"Central",
@@ -175,14 +185,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"2025.5.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250714",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"2025.5.5",
 			"vulnerabilities":""
 		}
 	]

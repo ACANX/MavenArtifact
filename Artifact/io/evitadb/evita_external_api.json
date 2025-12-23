@@ -2,16 +2,14 @@
 	"id":"pkg:maven/io.evitadb/evita_external_api",
 	"group_id":"io.evitadb",
 	"artifact_id":"evita_external_api",
-	"version_latest":"2025.8.3",
-	"ts_publish":1766183203000,
-	"dt_publish":"2025-12-20 06:26:43.000",
-	"ts_update":1766183915441,
-	"dt_update":"2025-12-20 06:38:20.748",
-	"count_dep":6,
+	"version_latest":"2025.8.4",
+	"ts_publish":1766491911000,
+	"dt_publish":"2025-12-23 20:11:51.000",
+	"ts_update":1766492820910,
+	"dt_update":"2025-12-23 20:26:38.096",
+	"count_dep":0,
 	"count_ref":0,
-	"licenses":[
-		"Business Source License 1.1"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://evitadb.io/evita_external_api",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.evitadb/evita_external_api@2025.6.0",
@@ -23,11 +21,19 @@
 	],
 	"url_scm":"https://evitadb.io/evita_external_api/",
 	"license":"BUSL 1.1",
-	"ranking":"#525918 in MvnRepository",
+	"ranking":"#491924 in MvnRepository",
 	"tags":[
 		"api"
 	],
 	"versions":[
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2025.8.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251217",
 			"repository":"Central",
@@ -179,15 +185,6 @@
 			"usage":0,
 			"version":"2025.5.6",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250714",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2025.5.5",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Evita is a specialized database with easy-to-use API for e-commerce systems. Purpose of this research is\n\t\tcreating fast and scalable engine that handles all complex tasks that e-commerce systems has to deal with on\n\t\tdaily basis.\n\n\t\tEvita should operate as a fast secondary lookup / search index used by application frontends. We aim for order\n\t\tof magnitude better latency (10x faster or better) for common e-commerce tasks than other solutions based on SQL\n\t\tor NoSQL databases on the same hardware specification. Evita should not be used for storing and handling primary\n\t\tdata, and we don't aim for ACID properties nor data corruption guarantees. Evita \"index\" must be treated\n\t\tas something that could be dropped any time and built up from scratch easily again."
+	]
 }
