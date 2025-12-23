@@ -3,13 +3,13 @@
 	"description":"A drop-in shiro user database for apache karaf web whiteboard, with user administration UI and user self-service password and user info change. In addition can serve as forms based authentication for nginx",
 	"group_id":"no.priv.bang.authservice",
 	"artifact_id":"authservice.definitions",
-	"version_latest":"3.0.5",
-	"ts_publish":1762467378000,
-	"dt_publish":"2025-11-07 06:16:18.000",
-	"ts_update":1762468521348,
-	"dt_update":"2025-11-07 06:35:11.937",
+	"version_latest":"3.0.6",
+	"ts_publish":1766527634000,
+	"dt_publish":"2025-12-24 06:07:14.000",
+	"ts_update":1766528243677,
+	"dt_update":"2025-12-24 06:17:02.442",
 	"count_dep":5,
-	"count_ref":14,
+	"count_ref":13,
 	"licenses":[
 		"Apache License version 2"
 	],
@@ -25,14 +25,22 @@
 	],
 	"url_scm":"https://github.com/steinarb/authservice/authservice/authservice.definitions",
 	"url_ci_management":"https://travis-ci.org/steinarb/authservice",
-	"count_used_by":18,
+	"count_used_by":19,
 	"license":"Apache 2.0",
-	"ranking":"#26388 in MvnRepository",
+	"ranking":"#25685 in MvnRepository",
 	"tags":[
 		"service",
 		"authentication"
 	],
 	"versions":[
+		{
+			"date":"20251106",
+			"repository":"Central",
+			"type":"release",
+			"usage":14,
+			"version":"3.0.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250920",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":9,
 			"version":"2.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240406",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"1.15.20",
 			"vulnerabilities":""
 		}
 	]
