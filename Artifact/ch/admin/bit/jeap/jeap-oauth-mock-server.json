@@ -3,11 +3,11 @@
 	"description":"OAuth / OpenID Connect Server to use as a mock in tests and local development",
 	"group_id":"ch.admin.bit.jeap",
 	"artifact_id":"jeap-oauth-mock-server",
-	"version_latest":"3.30.0",
-	"ts_publish":1766151702000,
-	"dt_publish":"2025-12-19 21:41:42.000",
-	"ts_update":1766152589422,
-	"dt_update":"2025-12-19 21:56:22.503",
+	"version_latest":"3.31.0",
+	"ts_publish":1766475569000,
+	"dt_publish":"2025-12-23 15:39:29.000",
+	"ts_update":1766476160218,
+	"dt_update":"2025-12-23 15:49:09.081",
 	"count_dep":111,
 	"count_ref":1,
 	"licenses":[
@@ -20,9 +20,9 @@
 		"BIT"
 	],
 	"url_scm":"https://github.com/jeap-admin-ch/jeap-oauth-mock-server.git/jeap-oauth-mock-server",
-	"count_used_by":3,
+	"count_used_by":4,
 	"license":"Apache 2.0",
-	"ranking":"#152808 in MvnRepository",
+	"ranking":"#132694 in MvnRepository",
 	"tags":[
 		"admin",
 		"mock",
@@ -32,10 +32,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251217",
+			"date":"20251219",
 			"repository":"Central",
 			"type":"release",
 			"usage":1,
+			"version":"3.30.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
 			"version":"3.29.0",
 			"vulnerabilities":""
 		},
@@ -181,14 +189,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"3.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250704",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.10.0",
 			"vulnerabilities":""
 		}
 	]
