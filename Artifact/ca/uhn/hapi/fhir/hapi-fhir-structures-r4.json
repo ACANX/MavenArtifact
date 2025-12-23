@@ -3,11 +3,11 @@
 	"description":"An open-source implementation of the FHIR specification in Java.",
 	"group_id":"ca.uhn.hapi.fhir",
 	"artifact_id":"hapi-fhir-structures-r4",
-	"version_latest":"8.6.0",
-	"ts_publish":1763679355000,
-	"dt_publish":"2025-11-21 06:55:55.000",
-	"ts_update":1763680561921,
-	"dt_update":"2025-11-21 07:15:42.975",
+	"version_latest":"8.6.1",
+	"ts_publish":1766452205000,
+	"dt_publish":"2025-12-23 09:10:05.000",
+	"ts_update":1766452736753,
+	"dt_update":"2025-12-23 09:18:37.590",
 	"count_dep":135,
 	"count_ref":15,
 	"licenses":[
@@ -197,10 +197,10 @@
 		"Jesse Bonzo"
 	],
 	"url_scm":"scm:git:git@github.com:hapifhir/hapi-fhir.git/hapi-deployable-pom/hapi-fhir-structures-r4",
-	"count_used_by":143,
+	"count_used_by":144,
 	"home_page":"https://hapifhir.io/",
 	"license":"Apache 2.0",
-	"ranking":"#3958 in MvnRepository",
+	"ranking":"#3961 in MvnRepository",
 	"tags":[
 		"bundle",
 		"osgi"
@@ -210,7 +210,23 @@
 			"date":"20251120",
 			"repository":"Central",
 			"type":"release",
+			"usage":30,
+			"version":"8.6.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
 			"usage":15,
+			"version":"8.4.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251120",
+			"repository":"Central",
+			"type":"release",
+			"usage":18,
 			"version":"8.4.1",
 			"vulnerabilities":""
 		},
@@ -218,7 +234,7 @@
 			"date":"20250822",
 			"repository":"Central",
 			"type":"release",
-			"usage":39,
+			"usage":42,
 			"version":"8.4.0",
 			"vulnerabilities":""
 		},
@@ -250,7 +266,7 @@
 			"date":"20250220",
 			"repository":"Central",
 			"type":"release",
-			"usage":29,
+			"usage":30,
 			"version":"8.0.0",
 			"vulnerabilities":""
 		},
@@ -348,22 +364,6 @@
 			"type":"release",
 			"usage":14,
 			"version":"7.0.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240306",
-			"repository":"Central",
-			"type":"release",
-			"usage":35,
-			"version":"7.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240305",
-			"repository":"Central",
-			"type":"release",
-			"usage":14,
-			"version":"7.0.1",
 			"vulnerabilities":""
 		}
 	]

@@ -3,11 +3,11 @@
 	"description":"An open-source implementation of the FHIR specification in Java.",
 	"group_id":"ca.uhn.hapi.fhir",
 	"artifact_id":"hapi-fhir-bom",
-	"version_latest":"8.6.0",
-	"ts_publish":1763679355000,
-	"dt_publish":"2025-11-21 06:55:55.000",
-	"ts_update":1763680556375,
-	"dt_update":"2025-11-21 07:15:41.479",
+	"version_latest":"8.6.1",
+	"ts_publish":1766452205000,
+	"dt_publish":"2025-12-23 09:10:05.000",
+	"ts_update":1766452733355,
+	"dt_update":"2025-12-23 09:18:36.299",
 	"count_dep":9,
 	"count_ref":0,
 	"licenses":[
@@ -198,13 +198,29 @@
 	],
 	"url_scm":"scm:git:git@github.com:hapifhir/hapi-fhir.git/hapi-deployable-pom/hapi-fhir-bom",
 	"license":"Apache 2.0",
-	"ranking":"#847299 in MvnRepository",
+	"ranking":"#736256 in MvnRepository",
 	"tags":[
 		"bom",
 		"build",
 		"dependencies"
 	],
 	"versions":[
+		{
+			"date":"20251121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.6.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251215",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.4.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251120",
 			"repository":"Central",
@@ -347,22 +363,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"7.0.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240306",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240305",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"7.0.1",
 			"vulnerabilities":""
 		}
 	]
