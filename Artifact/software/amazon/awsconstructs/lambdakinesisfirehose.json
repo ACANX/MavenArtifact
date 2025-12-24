@@ -3,10 +3,10 @@
 	"description":"CDK constructs for defining an interaction between an AWS Lambda function and an existing Amazon Kinesis Firehose Delivery Stream.",
 	"group_id":"software.amazon.awsconstructs",
 	"artifact_id":"lambdakinesisfirehose",
-	"version_latest":"2.96.0",
-	"ts_publish":1764183408000,
-	"ts_update":1764184414359,
-	"count_dep":20,
+	"version_latest":"2.97.0",
+	"ts_publish":1766591881000,
+	"ts_update":1766593291945,
+	"count_dep":16,
 	"count_ref":0,
 	"licenses":[
 		"Apache License 2.0"
@@ -18,15 +18,23 @@
 	"url_project":"https://github.com/awslabs/aws-solutions-constructs.git",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/software.amazon.awsconstructs/lambdakinesisfirehose@2.90.4",
 	"url_scm":"https://github.com/awslabs/aws-solutions-constructs.git",
-	"dt_publish":"2025-11-27 02:56:48.000",
-	"dt_update":"2025-11-27 03:13:19.381",
+	"dt_publish":"2025-12-24 23:58:01.000",
+	"dt_update":"2025-12-25 00:21:17.843",
 	"home_page":"https://github.com/awslabs/aws-solutions-constructs.git",
 	"license":"Apache 2.0",
-	"ranking":"#774846 in MvnRepository",
+	"ranking":"#725356 in MvnRepository",
 	"tags":[
 		"amazon"
 	],
 	"versions":[
+		{
+			"date":"20251126",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.96.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.85.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250429",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.85.0",
 			"vulnerabilities":""
 		}
 	]
