@@ -2,10 +2,10 @@
 	"id":"pkg:maven/org.anyline/anyline-data-mongodb",
 	"group_id":"org.anyline",
 	"artifact_id":"anyline-data-mongodb",
-	"version_latest":"8.7.3-20251210",
-	"ts_publish":1765375057000,
-	"ts_update":1765380411026,
-	"count_dep":0,
+	"version_latest":"8.7.3-20251225",
+	"ts_publish":1766592976000,
+	"ts_update":1766593607545,
+	"count_dep":12,
 	"count_ref":0,
 	"licenses":[],
 	"categories":[
@@ -14,17 +14,25 @@
 	"dsv":1,
 	"url_project":"http://www.anyline.org/mongodb",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.anyline/anyline-data-mongodb@8.7.2-20250806",
-	"dt_publish":"2025-12-10 21:57:37.000",
-	"dt_update":"2025-12-10 23:21:11.094",
+	"dt_publish":"2025-12-25 00:16:16.000",
+	"dt_update":"2025-12-25 00:26:41.584",
 	"home_page":"http://www.anyline.org/mongodb",
 	"license":"Apache 2.0",
-	"ranking":"#650733 in MvnRepository",
+	"ranking":"#310161 in MvnRepository",
 	"tags":[
 		"database",
 		"data",
 		"mongodb"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"8.7.3-jdk21-20251210",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251206",
 			"repository":"Central",
@@ -63,6 +71,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"8.7.3-jdk21-20251011",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-jdk17-20251210",
 			"vulnerabilities":""
 		},
 		{
@@ -106,6 +122,14 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-jdk11-20251210",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251206",
 			"repository":"Central",
 			"type":"release",
@@ -146,44 +170,21 @@
 			"vulnerabilities":""
 		},
 		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"8.7.3-20251210",
+			"vulnerabilities":""
+		},
+		{
 			"date":"20251206",
 			"repository":"Central",
 			"type":"release",
 			"usage":0,
 			"version":"8.7.3-20251206",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20251120",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.3-20251120",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251115",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.3-20251115",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251022",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.3-20251022",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251011",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"8.7.3-20251011",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"count_used_by":1
 }
