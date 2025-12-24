@@ -3,13 +3,13 @@
 	"description":"Module with some empty JUnit4 classes to allow Testcontainers\n    to run without needing to include JUnit4 on the class path",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-junit4-mock",
-	"version_latest":"3.30.4",
-	"ts_publish":1765979261000,
-	"dt_publish":"2025-12-17 21:47:41.000",
-	"ts_update":1765981618972,
-	"dt_update":"2025-12-17 22:19:10.876",
+	"version_latest":"3.30.5",
+	"ts_publish":1766569569000,
+	"dt_publish":"2025-12-24 17:46:09.000",
+	"ts_update":1766572015002,
+	"dt_update":"2025-12-24 18:18:58.338",
 	"count_dep":0,
-	"count_ref":4,
+	"count_ref":5,
 	"licenses":[],
 	"categories":[
 		"Uncategorized"
@@ -19,7 +19,7 @@
 	"count_used_by":128,
 	"home_page":"https://quarkus.io/",
 	"license":"Apache 2.0",
-	"ranking":"#4354 in MvnRepository",
+	"ranking":"#4361 in MvnRepository",
 	"tags":[
 		"mock",
 		"quarkus",
@@ -28,10 +28,18 @@
 	],
 	"versions":[
 		{
-			"date":"20251210",
+			"date":"20251217",
 			"repository":"Central",
 			"type":"release",
 			"usage":11,
+			"version":"3.30.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":21,
 			"version":"3.30.3",
 			"vulnerabilities":""
 		},
@@ -177,14 +185,6 @@
 			"type":"release",
 			"usage":11,
 			"version":"3.27.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250917",
-			"repository":"Central",
-			"type":"release",
-			"usage":11,
-			"version":"3.27.0",
 			"vulnerabilities":""
 		}
 	]
