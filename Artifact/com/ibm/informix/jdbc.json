@@ -3,11 +3,11 @@
 	"description":"Informix® JDBC Driver is a native-protocol, pure-Java driver (Type 4) that supports the JDBC specification. You can use the JDBC driver for Java applications that access the Informix database server.",
 	"group_id":"com.ibm.informix",
 	"artifact_id":"jdbc",
-	"version_latest":"15.0.0.2",
-	"ts_publish":1756144608000,
-	"dt_publish":"2025-08-26 01:56:48.000",
-	"ts_update":1756146295178,
-	"dt_update":"2025-08-26 02:22:24.107",
+	"version_latest":"15.0.1.0",
+	"ts_publish":1766594072000,
+	"dt_publish":"2025-12-25 00:34:32.000",
+	"ts_update":1766594766748,
+	"dt_update":"2025-12-25 00:45:37.802",
 	"count_dep":1,
 	"count_ref":0,
 	"licenses":[
@@ -27,7 +27,7 @@
 	"url_scm":"https://github.com/informix",
 	"count_used_by":18,
 	"home_page":"https://www.ibm.com/informix",
-	"ranking":"#25613 in MvnRepository",
+	"ranking":"#27446 in MvnRepository",
 	"tags":[
 		"database",
 		"sql",
@@ -38,6 +38,14 @@
 		"informix"
 	],
 	"versions":[
+		{
+			"date":"20250825",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"15.0.0.2",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250401",
 			"repository":"Central",
@@ -66,7 +74,7 @@
 			"date":"20250714",
 			"repository":"Central",
 			"type":"release",
-			"usage":1,
+			"usage":2,
 			"version":"4.50.12",
 			"vulnerabilities":""
 		},
@@ -188,14 +196,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"4.50.2.fix-1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20190322",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.50.1",
 			"vulnerabilities":""
 		}
 	]
