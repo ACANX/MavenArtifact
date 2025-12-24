@@ -3,13 +3,13 @@
 	"description":"Integration tests using the httpclient module",
 	"group_id":"com.okta.sdk",
 	"artifact_id":"okta-sdk-integration-tests",
-	"version_latest":"24.0.1",
-	"ts_publish":1764253065000,
-	"dt_publish":"2025-11-27 22:17:45.000",
-	"ts_update":1764254333705,
-	"dt_update":"2025-11-27 22:38:46.959",
-	"count_dep":48,
-	"count_ref":0,
+	"version_latest":"25.0.0",
+	"ts_publish":1766562611000,
+	"dt_publish":"2025-12-24 15:50:11.000",
+	"ts_update":1766564709781,
+	"dt_update":"2025-12-24 16:24:33.291",
+	"count_dep":52,
+	"count_ref":1,
 	"licenses":[
 		"The Apache License, Version 2.0"
 	],
@@ -25,7 +25,7 @@
 	"url_scm":"http://github.com/okta/okta-sdk-java/tree/master/okta-parent/okta-sdk-root/okta-sdk-integration-tests",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#296343 in MvnRepository",
+	"ranking":"#425452 in MvnRepository",
 	"tags":[
 		"integration",
 		"okta",
@@ -33,6 +33,14 @@
 		"testing"
 	],
 	"versions":[
+		{
+			"date":"20251127",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"24.0.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20250728",
 			"repository":"Central",
@@ -183,14 +191,6 @@
 			"type":"release",
 			"usage":1,
 			"version":"13.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230715",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"12.0.2",
 			"vulnerabilities":""
 		}
 	]

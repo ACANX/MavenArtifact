@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/org.qubership.integration.platform/qip-sessions-management",
-	"description":"Parent pom providing dependency and plugin management for applications built with Maven",
+	"description":"Managing recorded sessions of integration flows' execution stored in OpenSearch index",
 	"group_id":"org.qubership.integration.platform",
 	"artifact_id":"qip-sessions-management",
-	"version_latest":"0.3.3",
-	"ts_publish":1765271696000,
-	"dt_publish":"2025-12-09 17:14:56.000",
-	"ts_update":1765273335849,
-	"dt_update":"2025-12-09 17:42:04.889",
+	"version_latest":"0.3.5",
+	"ts_publish":1766563444000,
+	"dt_publish":"2025-12-24 16:04:04.000",
+	"ts_update":1766564704268,
+	"dt_update":"2025-12-24 16:24:31.570",
 	"count_dep":177,
 	"count_ref":0,
 	"licenses":[
@@ -21,7 +21,7 @@
 	],
 	"url_scm":"https://github.com/spring-projects/spring-boot/qip-sessions-management",
 	"license":"Apache 2.0",
-	"ranking":"#906637 in MvnRepository",
+	"ranking":"#666359 in MvnRepository",
 	"tags":[
 		"integration",
 		"management",
@@ -29,6 +29,22 @@
 		"platform"
 	],
 	"versions":[
+		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.3.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251209",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"0.3.3",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251114",
 			"repository":"Central",
