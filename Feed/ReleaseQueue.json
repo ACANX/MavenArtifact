@@ -18,6 +18,38 @@
   ],
   "items": [
     {
+      "id": "pkg:maven/org.httprpc/sierra@3.6.2",
+      "url": "https://central.sonatype.com/artifact/org.httprpc/sierra",
+      "title": "org.httprpc:sierra 3.6.2 发布, Declarative UI for Java",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.httprpc:sierra@3.6.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/httprpc/sierra.svg\" alt=\"org.httprpc:sierra 3.6.2 发布, Declarative UI for Java\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/httprpc/sierra/3.6.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.httprpc/sierra\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.httprpc/sierra/3.6.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/HTTP-RPC/Sierra\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/HTTP-RPC/Sierra\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/HTTP-RPC/Sierra\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.httprpc&lt;/groupId&gt;\n        &lt;artifactId&gt;sierra&lt;/artifactId&gt;\n        &lt;version&gt;3.6.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "org.httprpc:sierra 3.6.2 发布, Declarative UI for Java",
+      "summary": "org.httprpc:sierra 3.6.2 发布, Declarative UI for Java",
+      "date_published": "2025-12-24T20:27:00Z",
+      "date_modified": "2025-12-24T20:38:38Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Greg Brown"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
       "id": "pkg:maven/io.github.mathias82/quarkus-multitenancy-core-deployment@0.1.12",
       "url": "https://central.sonatype.com/artifact/io.github.mathias82/quarkus-multitenancy-core-deployment",
       "title": "io.github.mathias82:quarkus-multitenancy-core-deployment 0.1.12 发布, Build-time integration for the core multitenancy runtime.",
@@ -25,7 +57,7 @@
       "content_text": "io.github.mathias82:quarkus-multitenancy-core-deployment 0.1.12 发布, Build-time integration for the core multitenancy runtime.",
       "summary": "io.github.mathias82:quarkus-multitenancy-core-deployment 0.1.12 发布, Build-time integration for the core multitenancy runtime.",
       "date_published": "2025-12-24T20:12:01Z",
-      "date_modified": "2025-12-24T20:26:41Z",
+      "date_modified": "2025-12-24T20:38:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -57,7 +89,7 @@
       "content_text": "io.github.mathias82:quarkus-multitenancy-orm-deployment 0.1.12 发布, ORM layer for tenant resolution",
       "summary": "io.github.mathias82:quarkus-multitenancy-orm-deployment 0.1.12 发布, ORM layer for tenant resolution",
       "date_published": "2025-12-24T20:12:01Z",
-      "date_modified": "2025-12-24T20:26:42Z",
+      "date_modified": "2025-12-24T20:38:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -89,7 +121,7 @@
       "content_text": "io.github.mathias82:quarkus-multitenancy-http-deployment 0.1.12 发布, Build-time processor for HTTP tenant resolution support.",
       "summary": "io.github.mathias82:quarkus-multitenancy-http-deployment 0.1.12 发布, Build-time processor for HTTP tenant resolution support.",
       "date_published": "2025-12-24T20:12:01Z",
-      "date_modified": "2025-12-24T20:26:43Z",
+      "date_modified": "2025-12-24T20:38:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -122,7 +154,7 @@
       "content_text": "io.github.mathias82:quarkus-multitenancy-http-runtime 0.1.12 发布, HTTP layer for tenant resolution via headers, cookies, or JWT.",
       "summary": "io.github.mathias82:quarkus-multitenancy-http-runtime 0.1.12 发布, HTTP layer for tenant resolution via headers, cookies, or JWT.",
       "date_published": "2025-12-24T20:12:01Z",
-      "date_modified": "2025-12-24T20:26:42Z",
+      "date_modified": "2025-12-24T20:38:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -155,7 +187,7 @@
       "content_text": "io.github.mathias82:quarkus-multitenancy 0.1.12 发布, Generic and configurable multi-tenant resolution support for Quarkus.\n\n        Provides a runtime abstraction for resolving tenant identifiers and making them\n        available through a CDI-managed TenantContext. The abstraction can be integrated\n        by different transports and extensions such as HTTP or ORM or Security, while keeping\n        the core tenant resolution mechanism independent of any specific technology.",
       "summary": "io.github.mathias82:quarkus-multitenancy 0.1.12 发布, Generic and configurable multi-tenant resolution support for Quarkus.\n\n        Provides a runtime abstraction for resolving tenant identifiers and making them\n        available through a CDI-managed TenantContext. The abstraction can be integrated\n        by different transports and extensions such as HTTP or ORM or Security, while keeping\n        the core tenant resolution mechanism independent of any specific technology.",
       "date_published": "2025-12-24T20:12:01Z",
-      "date_modified": "2025-12-24T20:26:42Z",
+      "date_modified": "2025-12-24T20:38:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -186,7 +218,7 @@
       "content_text": "io.github.mathias82:quarkus-multitenancy-orm-runtime 0.1.12 发布, ORM layer for tenant resolution",
       "summary": "io.github.mathias82:quarkus-multitenancy-orm-runtime 0.1.12 发布, ORM layer for tenant resolution",
       "date_published": "2025-12-24T20:12:01Z",
-      "date_modified": "2025-12-24T20:26:41Z",
+      "date_modified": "2025-12-24T20:38:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -218,7 +250,7 @@
       "content_text": "io.github.mathias82:quarkus-multitenancy-core-runtime 0.1.12 发布, Core runtime module providing the tenant resolution API and context management.",
       "summary": "io.github.mathias82:quarkus-multitenancy-core-runtime 0.1.12 发布, Core runtime module providing the tenant resolution API and context management.",
       "date_published": "2025-12-24T20:12:01Z",
-      "date_modified": "2025-12-24T20:26:42Z",
+      "date_modified": "2025-12-24T20:38:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -250,7 +282,7 @@
       "content_text": "io.github.blackeden-studios:fulcrum-api 0.5.2-BETA 发布, API for the Fulcrum Minecraft Framework",
       "summary": "io.github.blackeden-studios:fulcrum-api 0.5.2-BETA 发布, API for the Fulcrum Minecraft Framework",
       "date_published": "2025-12-24T20:07:40Z",
-      "date_modified": "2025-12-24T20:26:43Z",
+      "date_modified": "2025-12-24T20:38:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -281,7 +313,7 @@
       "content_text": "com.kohlschutter:kohlschutter-parent-multirelease 1.8.4 发布, Parent POM for multi-release jar projects",
       "summary": "com.kohlschutter:kohlschutter-parent-multirelease 1.8.4 发布, Parent POM for multi-release jar projects",
       "date_published": "2025-12-24T19:59:52Z",
-      "date_modified": "2025-12-24T20:26:43Z",
+      "date_modified": "2025-12-24T20:38:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -313,7 +345,7 @@
       "content_text": "com.kohlschutter:compiler-annotations 1.8.4 发布, Annotations that are only needed at compile-time",
       "summary": "com.kohlschutter:compiler-annotations 1.8.4 发布, Annotations that are only needed at compile-time",
       "date_published": "2025-12-24T19:59:52Z",
-      "date_modified": "2025-12-24T20:26:43Z",
+      "date_modified": "2025-12-24T20:38:36Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -344,7 +376,7 @@
       "content_text": "com.kohlschutter:kohlschutter-util 1.8.4 发布, Common helpers",
       "summary": "com.kohlschutter:kohlschutter-util 1.8.4 发布, Common helpers",
       "date_published": "2025-12-24T19:59:52Z",
-      "date_modified": "2025-12-24T20:26:43Z",
+      "date_modified": "2025-12-24T20:38:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -376,7 +408,7 @@
       "content_text": "com.kohlschutter:maven-plugin-config 1.8.4 发布, Supplemental files used by Maven plugins defined in kohlschutter-parent",
       "summary": "com.kohlschutter:maven-plugin-config 1.8.4 发布, Supplemental files used by Maven plugins defined in kohlschutter-parent",
       "date_published": "2025-12-24T19:59:52Z",
-      "date_modified": "2025-12-24T20:26:41Z",
+      "date_modified": "2025-12-24T20:38:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -410,7 +442,7 @@
       "content_text": "com.kohlschutter:kohlschutter-test-util 1.8.4 发布, Helper classes used for unit testing",
       "summary": "com.kohlschutter:kohlschutter-test-util 1.8.4 发布, Helper classes used for unit testing",
       "date_published": "2025-12-24T19:59:52Z",
-      "date_modified": "2025-12-24T20:26:41Z",
+      "date_modified": "2025-12-24T20:38:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -440,7 +472,7 @@
       "content_text": "com.kohlschutter:kohlschutter-parent 1.8.4 发布, The parent POM for Kohlschütter projects.",
       "summary": "com.kohlschutter:kohlschutter-parent 1.8.4 发布, The parent POM for Kohlschütter projects.",
       "date_published": "2025-12-24T19:59:52Z",
-      "date_modified": "2025-12-24T20:26:43Z",
+      "date_modified": "2025-12-24T20:38:36Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -570,7 +602,7 @@
       "content_text": "io.github.darriousliu:mmkv-kotlin-android 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "summary": "io.github.darriousliu:mmkv-kotlin-android 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "date_published": "2025-12-24T19:57:06Z",
-      "date_modified": "2025-12-24T20:26:42Z",
+      "date_modified": "2025-12-24T20:38:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -604,7 +636,7 @@
       "content_text": "io.github.darriousliu:mmkv-kotlin 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "summary": "io.github.darriousliu:mmkv-kotlin 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "date_published": "2025-12-24T19:57:06Z",
-      "date_modified": "2025-12-24T20:26:42Z",
+      "date_modified": "2025-12-24T20:38:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -635,7 +667,7 @@
       "content_text": "io.github.darriousliu:mmkv-kotlin-jvm 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "summary": "io.github.darriousliu:mmkv-kotlin-jvm 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "date_published": "2025-12-24T19:57:06Z",
-      "date_modified": "2025-12-24T20:26:42Z",
+      "date_modified": "2025-12-24T20:38:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -667,7 +699,7 @@
       "content_text": "io.github.darriousliu:mmkv-kotlin-macosx64 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "summary": "io.github.darriousliu:mmkv-kotlin-macosx64 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "date_published": "2025-12-24T19:57:06Z",
-      "date_modified": "2025-12-24T20:26:43Z",
+      "date_modified": "2025-12-24T20:38:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -699,7 +731,7 @@
       "content_text": "io.github.darriousliu:mmkv-kotlin-iossimulatorarm64 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "summary": "io.github.darriousliu:mmkv-kotlin-iossimulatorarm64 1.4.1 发布, MMKV for Kotlin Multiplatform",
       "date_published": "2025-12-24T19:57:06Z",
-      "date_modified": "2025-12-24T20:26:43Z",
+      "date_modified": "2025-12-24T20:38:36Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -3431,1317 +3463,6 @@
         "gradle",
         "groovy",
         "io"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.aliyun/slb20140515@3.3.30",
-      "url": "https://central.sonatype.com/artifact/com.aliyun/slb20140515",
-      "title": "com.aliyun:slb20140515 3.3.30 发布, Alibaba Cloud Server Load Balancer (20140515) SDK for Java",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.aliyun:slb20140515@3.3.30\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/aliyun/slb20140515.svg\" alt=\"com.aliyun:slb20140515 3.3.30 发布, Alibaba Cloud Server Load Balancer (20140515) SDK for Java\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/aliyun/slb20140515/3.3.30/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.aliyun/slb20140515\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.aliyun/slb20140515/3.3.30\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.aliyun&lt;/groupId&gt;\n        &lt;artifactId&gt;slb20140515&lt;/artifactId&gt;\n        &lt;version&gt;3.3.30&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.aliyun:slb20140515 3.3.30 发布, Alibaba Cloud Server Load Balancer (20140515) SDK for Java",
-      "summary": "com.aliyun:slb20140515 3.3.30 发布, Alibaba Cloud Server Load Balancer (20140515) SDK for Java",
-      "date_published": "2025-12-24T17:34:58Z",
-      "date_modified": "2025-12-24T17:47:37Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Aliyun SDK"
-        }
-      ],
-      "tags": [
-        "alibaba"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.aliyun/live20161101@2.5.0",
-      "url": "https://central.sonatype.com/artifact/com.aliyun/live20161101",
-      "title": "com.aliyun:live20161101 2.5.0 发布, Alibaba Cloud ApsaraVideo for Live (20161101) SDK for Java",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.aliyun:live20161101@2.5.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/aliyun/live20161101.svg\" alt=\"com.aliyun:live20161101 2.5.0 发布, Alibaba Cloud ApsaraVideo for Live (20161101) SDK for Java\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/aliyun/live20161101/2.5.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.aliyun/live20161101\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.aliyun/live20161101/2.5.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/aliyun/alibabacloud-sdk\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.aliyun&lt;/groupId&gt;\n        &lt;artifactId&gt;live20161101&lt;/artifactId&gt;\n        &lt;version&gt;2.5.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.aliyun:live20161101 2.5.0 发布, Alibaba Cloud ApsaraVideo for Live (20161101) SDK for Java",
-      "summary": "com.aliyun:live20161101 2.5.0 发布, Alibaba Cloud ApsaraVideo for Live (20161101) SDK for Java",
-      "date_published": "2025-12-24T17:34:51Z",
-      "date_modified": "2025-12-24T17:47:36Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Aliyun SDK"
-        }
-      ],
-      "tags": [
-        "alibaba"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/configuration@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/configuration",
-      "title": "io.github.javifalces:configuration 1.0.6 发布, Configuration for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:configuration@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/configuration.svg\" alt=\"io.github.javifalces:configuration 1.0.6 发布, Configuration for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/configuration/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/configuration\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/configuration/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;configuration&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:configuration 1.0.6 发布, Configuration for HFTFramework",
-      "summary": "io.github.javifalces:configuration 1.0.6 发布, Configuration for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:34Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/connectors@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/connectors",
-      "title": "io.github.javifalces:connectors 1.0.6 发布, Connectors for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:connectors@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/connectors.svg\" alt=\"io.github.javifalces:connectors 1.0.6 发布, Connectors for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/connectors/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/connectors\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/connectors/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;connectors&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:connectors 1.0.6 发布, Connectors for HFTFramework",
-      "summary": "io.github.javifalces:connectors 1.0.6 发布, Connectors for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:23Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/trading_algorithms@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/trading_algorithms",
-      "title": "io.github.javifalces:trading_algorithms 1.0.6 发布, TradingAlgorithms for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:trading_algorithms@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/trading_algorithms.svg\" alt=\"io.github.javifalces:trading_algorithms 1.0.6 发布, TradingAlgorithms for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/trading_algorithms/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/trading_algorithms\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/trading_algorithms/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/trading_algorithms\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;trading_algorithms&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:trading_algorithms 1.0.6 发布, TradingAlgorithms for HFTFramework",
-      "summary": "io.github.javifalces:trading_algorithms 1.0.6 发布, TradingAlgorithms for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:29Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/AlgoTradingZeroMq@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/AlgoTradingZeroMq",
-      "title": "io.github.javifalces:AlgoTradingZeroMq 1.0.6 发布, AlgoTradingZeroMq for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:AlgoTradingZeroMq@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/AlgoTradingZeroMq.svg\" alt=\"io.github.javifalces:AlgoTradingZeroMq 1.0.6 发布, AlgoTradingZeroMq for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/AlgoTradingZeroMq/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/AlgoTradingZeroMq\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/AlgoTradingZeroMq/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;AlgoTradingZeroMq&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:AlgoTradingZeroMq 1.0.6 发布, AlgoTradingZeroMq for HFTFramework",
-      "summary": "io.github.javifalces:AlgoTradingZeroMq 1.0.6 发布, AlgoTradingZeroMq for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:25Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/PrivateTradingExecutables@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/PrivateTradingExecutables",
-      "title": "io.github.javifalces:PrivateTradingExecutables 1.0.6 发布, Private executables for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:PrivateTradingExecutables@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/PrivateTradingExecutables.svg\" alt=\"io.github.javifalces:PrivateTradingExecutables 1.0.6 发布, Private executables for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/PrivateTradingExecutables/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/PrivateTradingExecutables\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/PrivateTradingExecutables/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/executables/PrivateTradingExecutables\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;PrivateTradingExecutables&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:PrivateTradingExecutables 1.0.6 发布, Private executables for HFTFramework",
-      "summary": "io.github.javifalces:PrivateTradingExecutables 1.0.6 发布, Private executables for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:33Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/models@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/models",
-      "title": "io.github.javifalces:models 1.0.6 发布, Models for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:models@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/models.svg\" alt=\"io.github.javifalces:models 1.0.6 发布, Models for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/models/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/models\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/models/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/models\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;models&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:models 1.0.6 发布, Models for HFTFramework",
-      "summary": "io.github.javifalces:models 1.0.6 发布, Models for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:24Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/executables@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/executables",
-      "title": "io.github.javifalces:executables 1.0.6 发布, Executables for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:executables@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/executables.svg\" alt=\"io.github.javifalces:executables 1.0.6 发布, Executables for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/executables/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/executables\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/executables/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/executables\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;executables&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:executables 1.0.6 发布, Executables for HFTFramework",
-      "summary": "io.github.javifalces:executables 1.0.6 发布, Executables for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:22Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/backtest_engine@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/backtest_engine",
-      "title": "io.github.javifalces:backtest_engine 1.0.6 发布, BacktestEngine for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:backtest_engine@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/backtest_engine.svg\" alt=\"io.github.javifalces:backtest_engine 1.0.6 发布, BacktestEngine for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/backtest_engine/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/backtest_engine\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/backtest_engine/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;backtest_engine&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:backtest_engine 1.0.6 发布, BacktestEngine for HFTFramework",
-      "summary": "io.github.javifalces:backtest_engine 1.0.6 发布, BacktestEngine for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:23Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/BacktestBrokerEngine@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/BacktestBrokerEngine",
-      "title": "io.github.javifalces:BacktestBrokerEngine 1.0.6 发布, BacktestBrokerEngine for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:BacktestBrokerEngine@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/BacktestBrokerEngine.svg\" alt=\"io.github.javifalces:BacktestBrokerEngine 1.0.6 发布, BacktestBrokerEngine for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/BacktestBrokerEngine/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/BacktestBrokerEngine\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/BacktestBrokerEngine/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;BacktestBrokerEngine&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:BacktestBrokerEngine 1.0.6 发布, BacktestBrokerEngine for HFTFramework",
-      "summary": "io.github.javifalces:BacktestBrokerEngine 1.0.6 发布, BacktestBrokerEngine for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:36Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/CoreAlgoTradingZeroMq@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/CoreAlgoTradingZeroMq",
-      "title": "io.github.javifalces:CoreAlgoTradingZeroMq 1.0.6 发布, CoreAlgoTradingZeroMq for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:CoreAlgoTradingZeroMq@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/CoreAlgoTradingZeroMq.svg\" alt=\"io.github.javifalces:CoreAlgoTradingZeroMq 1.0.6 发布, CoreAlgoTradingZeroMq for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/CoreAlgoTradingZeroMq/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/CoreAlgoTradingZeroMq\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/CoreAlgoTradingZeroMq/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;CoreAlgoTradingZeroMq&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:CoreAlgoTradingZeroMq 1.0.6 发布, CoreAlgoTradingZeroMq for HFTFramework",
-      "summary": "io.github.javifalces:CoreAlgoTradingZeroMq 1.0.6 发布, CoreAlgoTradingZeroMq for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:37Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/machine_learning@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/machine_learning",
-      "title": "io.github.javifalces:machine_learning 1.0.6 发布, ML for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:machine_learning@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/machine_learning.svg\" alt=\"io.github.javifalces:machine_learning 1.0.6 发布, ML for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/machine_learning/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/machine_learning\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/machine_learning/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/machine_learning\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;machine_learning&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:machine_learning 1.0.6 发布, ML for HFTFramework",
-      "summary": "io.github.javifalces:machine_learning 1.0.6 发布, ML for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:31Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/trading_engine_connectors@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/trading_engine_connectors",
-      "title": "io.github.javifalces:trading_engine_connectors 1.0.6 发布, TE for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:trading_engine_connectors@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/trading_engine_connectors.svg\" alt=\"io.github.javifalces:trading_engine_connectors 1.0.6 发布, TE for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/trading_engine_connectors/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/trading_engine_connectors\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/trading_engine_connectors/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/trading_engine_connectors\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;trading_engine_connectors&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:trading_engine_connectors 1.0.6 发布, TE for HFTFramework",
-      "summary": "io.github.javifalces:trading_engine_connectors 1.0.6 发布, TE for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:27Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/market_data_connectors@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/market_data_connectors",
-      "title": "io.github.javifalces:market_data_connectors 1.0.6 发布, MD for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:market_data_connectors@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/market_data_connectors.svg\" alt=\"io.github.javifalces:market_data_connectors 1.0.6 发布, MD for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/market_data_connectors/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/market_data_connectors\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/market_data_connectors/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/market_data_connectors\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;market_data_connectors&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:market_data_connectors 1.0.6 发布, MD for HFTFramework",
-      "summary": "io.github.javifalces:market_data_connectors 1.0.6 发布, MD for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:33Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/algorithmic_trading_framework@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/algorithmic_trading_framework",
-      "title": "io.github.javifalces:algorithmic_trading_framework 1.0.6 发布, AlgorithmicTradingFramework for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:algorithmic_trading_framework@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/algorithmic_trading_framework.svg\" alt=\"io.github.javifalces:algorithmic_trading_framework 1.0.6 发布, AlgorithmicTradingFramework for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/algorithmic_trading_framework/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/algorithmic_trading_framework\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/algorithmic_trading_framework/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;algorithmic_trading_framework&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:algorithmic_trading_framework 1.0.6 发布, AlgorithmicTradingFramework for HFTFramework",
-      "summary": "io.github.javifalces:algorithmic_trading_framework 1.0.6 发布, AlgorithmicTradingFramework for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:35Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/common@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/common",
-      "title": "io.github.javifalces:common 1.0.6 发布, Common for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:common@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/common.svg\" alt=\"io.github.javifalces:common 1.0.6 发布, Common for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/common/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/common\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/common/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;common&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:common 1.0.6 发布, Common for HFTFramework",
-      "summary": "io.github.javifalces:common 1.0.6 发布, Common for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:30Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/broker_connector_instances@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/broker_connector_instances",
-      "title": "io.github.javifalces:broker_connector_instances 1.0.6 发布, Broker instances for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:broker_connector_instances@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/broker_connector_instances.svg\" alt=\"io.github.javifalces:broker_connector_instances 1.0.6 发布, Broker instances for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/broker_connector_instances/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/broker_connector_instances\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/broker_connector_instances/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;broker_connector_instances&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:broker_connector_instances 1.0.6 发布, Broker instances for HFTFramework",
-      "summary": "io.github.javifalces:broker_connector_instances 1.0.6 发布, Broker instances for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:28Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/data_manager@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/data_manager",
-      "title": "io.github.javifalces:data_manager 1.0.6 发布, DataManager for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:data_manager@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/data_manager.svg\" alt=\"io.github.javifalces:data_manager 1.0.6 发布, DataManager for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/data_manager/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/data_manager\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/data_manager/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/data_manager\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;data_manager&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:data_manager 1.0.6 发布, DataManager for HFTFramework",
-      "summary": "io.github.javifalces:data_manager 1.0.6 发布, DataManager for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:31Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/CoreBacktest@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/CoreBacktest",
-      "title": "io.github.javifalces:CoreBacktest 1.0.6 发布, CoreBacktest for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:CoreBacktest@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/CoreBacktest.svg\" alt=\"io.github.javifalces:CoreBacktest 1.0.6 发布, CoreBacktest for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/CoreBacktest/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/CoreBacktest\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/CoreBacktest/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/executables/PrivateTradingExecutables/CoreBacktest\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;CoreBacktest&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:CoreBacktest 1.0.6 发布, CoreBacktest for HFTFramework",
-      "summary": "io.github.javifalces:CoreBacktest 1.0.6 发布, CoreBacktest for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:34Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/parent_pom@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/parent_pom",
-      "title": "io.github.javifalces:parent_pom 1.0.6 发布, High Frequency Trading Framework for algorithmic trading.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:parent_pom@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/parent_pom.svg\" alt=\"io.github.javifalces:parent_pom 1.0.6 发布, High Frequency Trading Framework for algorithmic trading.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/parent_pom/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/parent_pom\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/parent_pom/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;parent_pom&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:parent_pom 1.0.6 发布, High Frequency Trading Framework for algorithmic trading.",
-      "summary": "io.github.javifalces:parent_pom 1.0.6 发布, High Frequency Trading Framework for algorithmic trading.",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:26Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/MetatraderEngine@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/MetatraderEngine",
-      "title": "io.github.javifalces:MetatraderEngine 1.0.6 发布, MTEngine for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:MetatraderEngine@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/MetatraderEngine.svg\" alt=\"io.github.javifalces:MetatraderEngine 1.0.6 发布, MTEngine for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/MetatraderEngine/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/MetatraderEngine\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/MetatraderEngine/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/executables/MetatraderEngine\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;MetatraderEngine&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:MetatraderEngine 1.0.6 发布, MTEngine for HFTFramework",
-      "summary": "io.github.javifalces:MetatraderEngine 1.0.6 发布, MTEngine for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:26Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/Backtest@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/Backtest",
-      "title": "io.github.javifalces:Backtest 1.0.6 发布, Backtest executable for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:Backtest@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/Backtest.svg\" alt=\"io.github.javifalces:Backtest 1.0.6 发布, Backtest executable for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/Backtest/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/Backtest\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/Backtest/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          \n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;Backtest&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:Backtest 1.0.6 发布, Backtest executable for HFTFramework",
-      "summary": "io.github.javifalces:Backtest 1.0.6 发布, Backtest executable for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:28Z",
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/XChangeEngine@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/XChangeEngine",
-      "title": "io.github.javifalces:XChangeEngine 1.0.6 发布, XChangeEngine for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:XChangeEngine@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/XChangeEngine.svg\" alt=\"io.github.javifalces:XChangeEngine 1.0.6 发布, XChangeEngine for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/XChangeEngine/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/XChangeEngine\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/XChangeEngine/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/executables/XChangeEngine\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;XChangeEngine&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:XChangeEngine 1.0.6 发布, XChangeEngine for HFTFramework",
-      "summary": "io.github.javifalces:XChangeEngine 1.0.6 发布, XChangeEngine for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:35Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.javifalces/InteractiveBrokersEngine@1.0.6",
-      "url": "https://central.sonatype.com/artifact/io.github.javifalces/InteractiveBrokersEngine",
-      "title": "io.github.javifalces:InteractiveBrokersEngine 1.0.6 发布, IBEngine for HFTFramework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.javifalces:InteractiveBrokersEngine@1.0.6\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/javifalces/InteractiveBrokersEngine.svg\" alt=\"io.github.javifalces:InteractiveBrokersEngine 1.0.6 发布, IBEngine for HFTFramework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/javifalces/InteractiveBrokersEngine/1.0.6/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.javifalces/InteractiveBrokersEngine\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.javifalces/InteractiveBrokersEngine/1.0.6\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/javifalces/HFTFramework/executables/InteractiveBrokersEngine\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.javifalces&lt;/groupId&gt;\n        &lt;artifactId&gt;InteractiveBrokersEngine&lt;/artifactId&gt;\n        &lt;version&gt;1.0.6&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.javifalces:InteractiveBrokersEngine 1.0.6 发布, IBEngine for HFTFramework",
-      "summary": "io.github.javifalces:InteractiveBrokersEngine 1.0.6 发布, IBEngine for HFTFramework",
-      "date_published": "2025-12-24T17:34:39Z",
-      "date_modified": "2025-12-24T17:47:25Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Javier Falces"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.aliyun/ess20220222@1.11.0",
-      "url": "https://central.sonatype.com/artifact/com.aliyun/ess20220222",
-      "title": "com.aliyun:ess20220222 1.11.0 发布, Alibaba Cloud Auto Scaling (20220222) SDK for Java",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.aliyun:ess20220222@1.11.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/aliyun/ess20220222.svg\" alt=\"com.aliyun:ess20220222 1.11.0 发布, Alibaba Cloud Auto Scaling (20220222) SDK for Java\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/aliyun/ess20220222/1.11.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.aliyun/ess20220222\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.aliyun/ess20220222/1.11.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.aliyun&lt;/groupId&gt;\n        &lt;artifactId&gt;ess20220222&lt;/artifactId&gt;\n        &lt;version&gt;1.11.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.aliyun:ess20220222 1.11.0 发布, Alibaba Cloud Auto Scaling (20220222) SDK for Java",
-      "summary": "com.aliyun:ess20220222 1.11.0 发布, Alibaba Cloud Auto Scaling (20220222) SDK for Java",
-      "date_published": "2025-12-24T17:34:05Z",
-      "date_modified": "2025-12-24T17:47:25Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Aliyun SDK"
-        }
-      ],
-      "tags": [
-        "alibaba"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.pulumi/rancher2@11.0.0",
-      "url": "https://central.sonatype.com/artifact/com.pulumi/rancher2",
-      "title": "com.pulumi:rancher2 11.0.0 发布, A Pulumi package for creating and managing rancher2 resources.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.pulumi:rancher2@11.0.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/pulumi/rancher2.svg\" alt=\"com.pulumi:rancher2 11.0.0 发布, A Pulumi package for creating and managing rancher2 resources.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/pulumi/rancher2/11.0.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.pulumi/rancher2\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.pulumi/rancher2/11.0.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/pulumi/pulumi-rancher2\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/pulumi/pulumi-rancher2\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/pulumi/pulumi-rancher2\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.pulumi&lt;/groupId&gt;\n        &lt;artifactId&gt;rancher2&lt;/artifactId&gt;\n        &lt;version&gt;11.0.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.pulumi:rancher2 11.0.0 发布, A Pulumi package for creating and managing rancher2 resources.",
-      "summary": "com.pulumi:rancher2 11.0.0 发布, A Pulumi package for creating and managing rancher2 resources.",
-      "date_published": "2025-12-24T17:33:30Z",
-      "date_modified": "2025-12-24T17:47:23Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Pulumi"
-        }
-      ],
-      "tags": [
-        "rancher",
-        "pulumi"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.aliyun/ecs20140526@8.4.2",
-      "url": "https://central.sonatype.com/artifact/com.aliyun/ecs20140526",
-      "title": "com.aliyun:ecs20140526 8.4.2 发布, Alibaba Cloud Elastic Compute Service (20140526) SDK for Java",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.aliyun:ecs20140526@8.4.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/aliyun/ecs20140526.svg\" alt=\"com.aliyun:ecs20140526 8.4.2 发布, Alibaba Cloud Elastic Compute Service (20140526) SDK for Java\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/aliyun/ecs20140526/8.4.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.aliyun/ecs20140526\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.aliyun/ecs20140526/8.4.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/aliyun/alibabacloud-sdk\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.aliyun&lt;/groupId&gt;\n        &lt;artifactId&gt;ecs20140526&lt;/artifactId&gt;\n        &lt;version&gt;8.4.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.aliyun:ecs20140526 8.4.2 发布, Alibaba Cloud Elastic Compute Service (20140526) SDK for Java",
-      "summary": "com.aliyun:ecs20140526 8.4.2 发布, Alibaba Cloud Elastic Compute Service (20140526) SDK for Java",
-      "date_published": "2025-12-24T17:33:18Z",
-      "date_modified": "2025-12-24T17:47:23Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Aliyun SDK"
-        }
-      ],
-      "tags": [
-        "alibaba"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.pulumi/linode@5.6.0",
-      "url": "https://central.sonatype.com/artifact/com.pulumi/linode",
-      "title": "com.pulumi:linode 5.6.0 发布, A Pulumi package for creating and managing linode cloud resources.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.pulumi:linode@5.6.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/pulumi/linode.svg\" alt=\"com.pulumi:linode 5.6.0 发布, A Pulumi package for creating and managing linode cloud resources.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/pulumi/linode/5.6.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.pulumi/linode\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.pulumi/linode/5.6.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/pulumi/pulumi-linode\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/pulumi/pulumi-linode\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/pulumi/pulumi-linode\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.pulumi&lt;/groupId&gt;\n        &lt;artifactId&gt;linode&lt;/artifactId&gt;\n        &lt;version&gt;5.6.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.pulumi:linode 5.6.0 发布, A Pulumi package for creating and managing linode cloud resources.",
-      "summary": "com.pulumi:linode 5.6.0 发布, A Pulumi package for creating and managing linode cloud resources.",
-      "date_published": "2025-12-24T17:32:32Z",
-      "date_modified": "2025-12-24T17:47:37Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Pulumi"
-        }
-      ],
-      "tags": [
-        "pulumi",
-        "linode"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.aliyun/ecd20200930@4.19.2",
-      "url": "https://central.sonatype.com/artifact/com.aliyun/ecd20200930",
-      "title": "com.aliyun:ecd20200930 4.19.2 发布, Alibaba Cloud ecd (20200930) SDK for Java",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.aliyun:ecd20200930@4.19.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/aliyun/ecd20200930.svg\" alt=\"com.aliyun:ecd20200930 4.19.2 发布, Alibaba Cloud ecd (20200930) SDK for Java\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/aliyun/ecd20200930/4.19.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.aliyun/ecd20200930\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.aliyun/ecd20200930/4.19.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/aliyun/alibabacloud-sdk\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.aliyun&lt;/groupId&gt;\n        &lt;artifactId&gt;ecd20200930&lt;/artifactId&gt;\n        &lt;version&gt;4.19.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.aliyun:ecd20200930 4.19.2 发布, Alibaba Cloud ecd (20200930) SDK for Java",
-      "summary": "com.aliyun:ecd20200930 4.19.2 发布, Alibaba Cloud ecd (20200930) SDK for Java",
-      "date_published": "2025-12-24T17:32:15Z",
-      "date_modified": "2025-12-24T17:47:31Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Aliyun SDK"
-        }
-      ],
-      "tags": [
-        "alibaba"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.pulumi/newrelic@5.58.0",
-      "url": "https://central.sonatype.com/artifact/com.pulumi/newrelic",
-      "title": "com.pulumi:newrelic 5.58.0 发布, A Pulumi package for creating and managing New Relic resources.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.pulumi:newrelic@5.58.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/pulumi/newrelic.svg\" alt=\"com.pulumi:newrelic 5.58.0 发布, A Pulumi package for creating and managing New Relic resources.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/pulumi/newrelic/5.58.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.pulumi/newrelic\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.pulumi/newrelic/5.58.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/pulumi/pulumi-newrelic\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/pulumi/pulumi-newrelic\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/pulumi/pulumi-newrelic\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.pulumi&lt;/groupId&gt;\n        &lt;artifactId&gt;newrelic&lt;/artifactId&gt;\n        &lt;version&gt;5.58.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.pulumi:newrelic 5.58.0 发布, A Pulumi package for creating and managing New Relic resources.",
-      "summary": "com.pulumi:newrelic 5.58.0 发布, A Pulumi package for creating and managing New Relic resources.",
-      "date_published": "2025-12-24T17:32:06Z",
-      "date_modified": "2025-12-24T17:47:24Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Pulumi"
-        }
-      ],
-      "tags": [
-        "pulumi",
-        "newrelic"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.jraf.k2o/k2o-jvm@1.1.0",
-      "url": "https://central.sonatype.com/artifact/org.jraf.k2o/k2o-jvm",
-      "title": "org.jraf.k2o:k2o-jvm 1.1.0 发布, An OpenSCAD Kotlin DSL",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.jraf.k2o:k2o-jvm@1.1.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/jraf/k2o/k2o-jvm.svg\" alt=\"org.jraf.k2o:k2o-jvm 1.1.0 发布, An OpenSCAD Kotlin DSL\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/jraf/k2o/k2o-jvm/1.1.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.jraf.k2o/k2o-jvm\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.jraf.k2o/k2o-jvm/1.1.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/BoD/k2o\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/BoD/k2o\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/BoD/k2o\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.jraf.k2o&lt;/groupId&gt;\n        &lt;artifactId&gt;k2o-jvm&lt;/artifactId&gt;\n        &lt;version&gt;1.1.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.jraf.k2o:k2o-jvm 1.1.0 发布, An OpenSCAD Kotlin DSL",
-      "summary": "org.jraf.k2o:k2o-jvm 1.1.0 发布, An OpenSCAD Kotlin DSL",
-      "date_published": "2025-12-24T17:32:06Z",
-      "date_modified": "2025-12-24T17:47:25Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Benoit 'BoD' Lubek"
-        }
-      ],
-      "tags": [
-        "jvm"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.jraf.k2o/k2o@1.1.0",
-      "url": "https://central.sonatype.com/artifact/org.jraf.k2o/k2o",
-      "title": "org.jraf.k2o:k2o 1.1.0 发布, An OpenSCAD Kotlin DSL",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.jraf.k2o:k2o@1.1.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/jraf/k2o/k2o.svg\" alt=\"org.jraf.k2o:k2o 1.1.0 发布, An OpenSCAD Kotlin DSL\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/jraf/k2o/k2o/1.1.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.jraf.k2o/k2o\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.jraf.k2o/k2o/1.1.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/BoD/k2o\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/BoD/k2o\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/BoD/k2o\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.jraf.k2o&lt;/groupId&gt;\n        &lt;artifactId&gt;k2o&lt;/artifactId&gt;\n        &lt;version&gt;1.1.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.jraf.k2o:k2o 1.1.0 发布, An OpenSCAD Kotlin DSL",
-      "summary": "org.jraf.k2o:k2o 1.1.0 发布, An OpenSCAD Kotlin DSL",
-      "date_published": "2025-12-24T17:32:06Z",
-      "date_modified": "2025-12-24T17:47:34Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Benoit 'BoD' Lubek"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.jraf.k2o/kdoc@1.1.0",
-      "url": "https://central.sonatype.com/artifact/org.jraf.k2o/kdoc",
-      "title": "org.jraf.k2o:kdoc 1.1.0 发布, An OpenSCAD Kotlin DSL",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.jraf.k2o:kdoc@1.1.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/jraf/k2o/kdoc.svg\" alt=\"org.jraf.k2o:kdoc 1.1.0 发布, An OpenSCAD Kotlin DSL\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/jraf/k2o/kdoc/1.1.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.jraf.k2o/kdoc\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.jraf.k2o/kdoc/1.1.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/BoD/k2o\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/BoD/k2o\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/BoD/k2o\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.jraf.k2o&lt;/groupId&gt;\n        &lt;artifactId&gt;kdoc&lt;/artifactId&gt;\n        &lt;version&gt;1.1.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.jraf.k2o:kdoc 1.1.0 发布, An OpenSCAD Kotlin DSL",
-      "summary": "org.jraf.k2o:kdoc 1.1.0 发布, An OpenSCAD Kotlin DSL",
-      "date_published": "2025-12-24T17:32:06Z",
-      "date_modified": "2025-12-24T17:47:27Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Benoit 'BoD' Lubek"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.ireaderorg/plugin-api-iossimulatorarm64@1.0.8",
-      "url": "https://central.sonatype.com/artifact/io.github.ireaderorg/plugin-api-iossimulatorarm64",
-      "title": "io.github.ireaderorg:plugin-api-iossimulatorarm64 1.0.8 发布, Plugin API for IReader app plugins - themes, TTS, translation, and custom features",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.ireaderorg:plugin-api-iossimulatorarm64@1.0.8\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/ireaderorg/plugin-api-iossimulatorarm64.svg\" alt=\"io.github.ireaderorg:plugin-api-iossimulatorarm64 1.0.8 发布, Plugin API for IReader app plugins - themes, TTS, translation, and custom features\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/ireaderorg/plugin-api-iossimulatorarm64/1.0.8/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.ireaderorg/plugin-api-iossimulatorarm64\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.ireaderorg/plugin-api-iossimulatorarm64/1.0.8\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/IReaderorg/IReader\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/IReaderorg/IReader\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/IReaderorg/IReader\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.ireaderorg&lt;/groupId&gt;\n        &lt;artifactId&gt;plugin-api-iossimulatorarm64&lt;/artifactId&gt;\n        &lt;version&gt;1.0.8&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.ireaderorg:plugin-api-iossimulatorarm64 1.0.8 发布, Plugin API for IReader app plugins - themes, TTS, translation, and custom features",
-      "summary": "io.github.ireaderorg:plugin-api-iossimulatorarm64 1.0.8 发布, Plugin API for IReader app plugins - themes, TTS, translation, and custom features",
-      "date_published": "2025-12-24T17:31:52Z",
-      "date_modified": "2025-12-24T17:47:23Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "kazem.codes"
-        }
-      ],
-      "tags": [
-        "plugin",
-        "github",
-        "ios",
-        "arm",
-        "api",
-        "kotlin"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.aliyun/eas20210701@7.4.0",
-      "url": "https://central.sonatype.com/artifact/com.aliyun/eas20210701",
-      "title": "com.aliyun:eas20210701 7.4.0 发布, Alibaba Cloud eas (20210701) SDK for Java",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.aliyun:eas20210701@7.4.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/aliyun/eas20210701.svg\" alt=\"com.aliyun:eas20210701 7.4.0 发布, Alibaba Cloud eas (20210701) SDK for Java\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/aliyun/eas20210701/7.4.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.aliyun/eas20210701\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.aliyun/eas20210701/7.4.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.aliyun&lt;/groupId&gt;\n        &lt;artifactId&gt;eas20210701&lt;/artifactId&gt;\n        &lt;version&gt;7.4.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.aliyun:eas20210701 7.4.0 发布, Alibaba Cloud eas (20210701) SDK for Java",
-      "summary": "com.aliyun:eas20210701 7.4.0 发布, Alibaba Cloud eas (20210701) SDK for Java",
-      "date_published": "2025-12-24T17:31:16Z",
-      "date_modified": "2025-12-24T17:47:30Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Aliyun SDK"
-        }
-      ],
-      "tags": [
-        "alibaba"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/de.splatgames.aether.pack/aether-pack@0.1.0",
-      "url": "https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack",
-      "title": "de.splatgames.aether.pack:aether-pack 0.1.0 发布, File format based on chunked binary data with compression and encryption support",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"de.splatgames.aether.pack:aether-pack@0.1.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/de/splatgames/aether/pack/aether-pack.svg\" alt=\"de.splatgames.aether.pack:aether-pack 0.1.0 发布, File format based on chunked binary data with compression and encryption support\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/de/splatgames/aether/pack/aether-pack/0.1.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/de.splatgames.aether.pack/aether-pack/0.1.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://software.splatgames.de/products/aether-pack/\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aether-framework/aether-pack/\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;de.splatgames.aether.pack&lt;/groupId&gt;\n        &lt;artifactId&gt;aether-pack&lt;/artifactId&gt;\n        &lt;version&gt;0.1.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "de.splatgames.aether.pack:aether-pack 0.1.0 发布, File format based on chunked binary data with compression and encryption support",
-      "summary": "de.splatgames.aether.pack:aether-pack 0.1.0 发布, File format based on chunked binary data with compression and encryption support",
-      "date_published": "2025-12-24T17:30:50Z",
-      "date_modified": "2025-12-24T17:47:27Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Erik Pförtner"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/de.splatgames.aether.pack/aether-pack-cli@0.1.0",
-      "url": "https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-cli",
-      "title": "de.splatgames.aether.pack:aether-pack-cli 0.1.0 发布, Command-line interface for Aether Pack (pack, unpack, list, info, verify)",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"de.splatgames.aether.pack:aether-pack-cli@0.1.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/de/splatgames/aether/pack/aether-pack-cli.svg\" alt=\"de.splatgames.aether.pack:aether-pack-cli 0.1.0 发布, Command-line interface for Aether Pack (pack, unpack, list, info, verify)\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/de/splatgames/aether/pack/aether-pack-cli/0.1.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-cli\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/de.splatgames.aether.pack/aether-pack-cli/0.1.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://software.splatgames.de/products/aether-pack/aether-pack-cli/\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aether-framework/aether-pack/aether-pack-cli/\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;de.splatgames.aether.pack&lt;/groupId&gt;\n        &lt;artifactId&gt;aether-pack-cli&lt;/artifactId&gt;\n        &lt;version&gt;0.1.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "de.splatgames.aether.pack:aether-pack-cli 0.1.0 发布, Command-line interface for Aether Pack (pack, unpack, list, info, verify)",
-      "summary": "de.splatgames.aether.pack:aether-pack-cli 0.1.0 发布, Command-line interface for Aether Pack (pack, unpack, list, info, verify)",
-      "date_published": "2025-12-24T17:30:50Z",
-      "date_modified": "2025-12-24T17:47:37Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Erik Pförtner"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/de.splatgames.aether.pack/aether-pack-core@0.1.0",
-      "url": "https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-core",
-      "title": "de.splatgames.aether.pack:aether-pack-core 0.1.0 发布, Core module containing format definitions, I/O, and SPI interfaces",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"de.splatgames.aether.pack:aether-pack-core@0.1.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/de/splatgames/aether/pack/aether-pack-core.svg\" alt=\"de.splatgames.aether.pack:aether-pack-core 0.1.0 发布, Core module containing format definitions, I/O, and SPI interfaces\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/de/splatgames/aether/pack/aether-pack-core/0.1.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-core\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/de.splatgames.aether.pack/aether-pack-core/0.1.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://software.splatgames.de/products/aether-pack/aether-pack-core/\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aether-framework/aether-pack/aether-pack-core/\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;de.splatgames.aether.pack&lt;/groupId&gt;\n        &lt;artifactId&gt;aether-pack-core&lt;/artifactId&gt;\n        &lt;version&gt;0.1.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "de.splatgames.aether.pack:aether-pack-core 0.1.0 发布, Core module containing format definitions, I/O, and SPI interfaces",
-      "summary": "de.splatgames.aether.pack:aether-pack-core 0.1.0 发布, Core module containing format definitions, I/O, and SPI interfaces",
-      "date_published": "2025-12-24T17:30:50Z",
-      "date_modified": "2025-12-24T17:47:35Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Erik Pförtner"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/de.splatgames.aether.pack/aether-pack-crypto@0.1.0",
-      "url": "https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-crypto",
-      "title": "de.splatgames.aether.pack:aether-pack-crypto 0.1.0 发布, Encryption providers for Aether Pack (AES-GCM, ChaCha20-Poly1305, Argon2id, PBKDF2)",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"de.splatgames.aether.pack:aether-pack-crypto@0.1.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/de/splatgames/aether/pack/aether-pack-crypto.svg\" alt=\"de.splatgames.aether.pack:aether-pack-crypto 0.1.0 发布, Encryption providers for Aether Pack (AES-GCM, ChaCha20-Poly1305, Argon2id, PBKDF2)\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/de/splatgames/aether/pack/aether-pack-crypto/0.1.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-crypto\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/de.splatgames.aether.pack/aether-pack-crypto/0.1.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://software.splatgames.de/products/aether-pack/aether-pack-crypto/\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aether-framework/aether-pack/aether-pack-crypto/\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;de.splatgames.aether.pack&lt;/groupId&gt;\n        &lt;artifactId&gt;aether-pack-crypto&lt;/artifactId&gt;\n        &lt;version&gt;0.1.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "de.splatgames.aether.pack:aether-pack-crypto 0.1.0 发布, Encryption providers for Aether Pack (AES-GCM, ChaCha20-Poly1305, Argon2id, PBKDF2)",
-      "summary": "de.splatgames.aether.pack:aether-pack-crypto 0.1.0 发布, Encryption providers for Aether Pack (AES-GCM, ChaCha20-Poly1305, Argon2id, PBKDF2)",
-      "date_published": "2025-12-24T17:30:50Z",
-      "date_modified": "2025-12-24T17:47:27Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Erik Pförtner"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/de.splatgames.aether.pack/aether-pack-integration-tests@0.1.0",
-      "url": "https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-integration-tests",
-      "title": "de.splatgames.aether.pack:aether-pack-integration-tests 0.1.0 发布, Integration tests for Aether Pack",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"de.splatgames.aether.pack:aether-pack-integration-tests@0.1.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/de/splatgames/aether/pack/aether-pack-integration-tests.svg\" alt=\"de.splatgames.aether.pack:aether-pack-integration-tests 0.1.0 发布, Integration tests for Aether Pack\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/de/splatgames/aether/pack/aether-pack-integration-tests/0.1.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-integration-tests\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/de.splatgames.aether.pack/aether-pack-integration-tests/0.1.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://software.splatgames.de/products/aether-pack/aether-pack-integration-tests/\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aether-framework/aether-pack/aether-pack-integration-tests/\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;de.splatgames.aether.pack&lt;/groupId&gt;\n        &lt;artifactId&gt;aether-pack-integration-tests&lt;/artifactId&gt;\n        &lt;version&gt;0.1.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "de.splatgames.aether.pack:aether-pack-integration-tests 0.1.0 发布, Integration tests for Aether Pack",
-      "summary": "de.splatgames.aether.pack:aether-pack-integration-tests 0.1.0 发布, Integration tests for Aether Pack",
-      "date_published": "2025-12-24T17:30:50Z",
-      "date_modified": "2025-12-24T17:47:25Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Erik Pförtner"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/de.splatgames.aether.pack/aether-pack-compression@0.1.0",
-      "url": "https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-compression",
-      "title": "de.splatgames.aether.pack:aether-pack-compression 0.1.0 发布, Compression providers for Aether Pack (ZSTD, LZ4)",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"de.splatgames.aether.pack:aether-pack-compression@0.1.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/de/splatgames/aether/pack/aether-pack-compression.svg\" alt=\"de.splatgames.aether.pack:aether-pack-compression 0.1.0 发布, Compression providers for Aether Pack (ZSTD, LZ4)\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/de/splatgames/aether/pack/aether-pack-compression/0.1.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/de.splatgames.aether.pack/aether-pack-compression\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/de.splatgames.aether.pack/aether-pack-compression/0.1.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://software.splatgames.de/products/aether-pack/aether-pack-compression/\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aether-framework/aether-pack/aether-pack-compression/\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;de.splatgames.aether.pack&lt;/groupId&gt;\n        &lt;artifactId&gt;aether-pack-compression&lt;/artifactId&gt;\n        &lt;version&gt;0.1.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "de.splatgames.aether.pack:aether-pack-compression 0.1.0 发布, Compression providers for Aether Pack (ZSTD, LZ4)",
-      "summary": "de.splatgames.aether.pack:aether-pack-compression 0.1.0 发布, Compression providers for Aether Pack (ZSTD, LZ4)",
-      "date_published": "2025-12-24T17:30:50Z",
-      "date_modified": "2025-12-24T17:47:29Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Erik Pförtner"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.aliyun/schedulerx320240624@1.4.0",
-      "url": "https://central.sonatype.com/artifact/com.aliyun/schedulerx320240624",
-      "title": "com.aliyun:schedulerx320240624 1.4.0 发布, Alibaba Cloud SchedulerX3 (20240624) SDK for Java",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.aliyun:schedulerx320240624@1.4.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/aliyun/schedulerx320240624.svg\" alt=\"com.aliyun:schedulerx320240624 1.4.0 发布, Alibaba Cloud SchedulerX3 (20240624) SDK for Java\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/aliyun/schedulerx320240624/1.4.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.aliyun/schedulerx320240624\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.aliyun/schedulerx320240624/1.4.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.aliyun&lt;/groupId&gt;\n        &lt;artifactId&gt;schedulerx320240624&lt;/artifactId&gt;\n        &lt;version&gt;1.4.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.aliyun:schedulerx320240624 1.4.0 发布, Alibaba Cloud SchedulerX3 (20240624) SDK for Java",
-      "summary": "com.aliyun:schedulerx320240624 1.4.0 发布, Alibaba Cloud SchedulerX3 (20240624) SDK for Java",
-      "date_published": "2025-12-24T17:30:18Z",
-      "date_modified": "2025-12-24T17:47:31Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Aliyun SDK"
-        }
-      ],
-      "tags": [
-        "alibaba",
-        "scheduling"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.aliyun/hitsdb20200615@5.9.0",
-      "url": "https://central.sonatype.com/artifact/com.aliyun/hitsdb20200615",
-      "title": "com.aliyun:hitsdb20200615 5.9.0 发布, Alibaba Cloud Time  Series and Spatial-Temporal  Database (20200615) SDK for Java",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.aliyun:hitsdb20200615@5.9.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/aliyun/hitsdb20200615.svg\" alt=\"com.aliyun:hitsdb20200615 5.9.0 发布, Alibaba Cloud Time  Series and Spatial-Temporal  Database (20200615) SDK for Java\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/aliyun/hitsdb20200615/5.9.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.aliyun/hitsdb20200615\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.aliyun/hitsdb20200615/5.9.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/aliyun/alibabacloud-java-sdk\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.aliyun&lt;/groupId&gt;\n        &lt;artifactId&gt;hitsdb20200615&lt;/artifactId&gt;\n        &lt;version&gt;5.9.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.aliyun:hitsdb20200615 5.9.0 发布, Alibaba Cloud Time  Series and Spatial-Temporal  Database (20200615) SDK for Java",
-      "summary": "com.aliyun:hitsdb20200615 5.9.0 发布, Alibaba Cloud Time  Series and Spatial-Temporal  Database (20200615) SDK for Java",
-      "date_published": "2025-12-24T17:29:57Z",
-      "date_modified": "2025-12-24T17:34:34Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Aliyun SDK"
-        }
-      ],
-      "tags": [
-        "alibaba"
       ],
       "attachments": [
         {
