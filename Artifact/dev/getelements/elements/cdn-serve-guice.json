@@ -2,14 +2,12 @@
 	"id":"pkg:maven/dev.getelements.elements/cdn-serve-guice",
 	"group_id":"dev.getelements.elements",
 	"artifact_id":"cdn-serve-guice",
-	"version_latest":"3.5.6",
-	"ts_publish":1765324536000,
-	"ts_update":1765326414341,
-	"count_dep":11,
+	"version_latest":"3.6.15",
+	"ts_publish":1766558080000,
+	"ts_update":1766559419742,
+	"count_dep":4,
 	"count_ref":2,
-	"licenses":[
-		"Modified GNU AGPL v3.0"
-	],
+	"licenses":[],
 	"dsv":1,
 	"url_project":"https://namazustudios.com",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/dev.getelements.elements/cdn-serve-guice@3.3.5",
@@ -18,17 +16,25 @@
 		"Keith Hudnall"
 	],
 	"url_scm":"ssh://git@bitbucket.org:eci-elements/web-services.git/cdn-serve-guice",
-	"dt_publish":"2025-12-10 07:55:36.000",
-	"dt_update":"2025-12-10 08:26:37.148",
+	"dt_publish":"2025-12-24 14:34:40.000",
+	"dt_update":"2025-12-24 14:56:40.730",
 	"count_used_by":2,
 	"home_page":"https://namazustudios.com",
-	"ranking":"#205309 in MvnRepository",
+	"ranking":"#215072 in MvnRepository",
 	"tags":[
 		"dependency-injection",
 		"cdn",
 		"guice"
 	],
 	"versions":[
+		{
+			"date":"20251210",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"3.5.6",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251203",
 			"repository":"Central",
@@ -180,15 +186,6 @@
 			"usage":2,
 			"version":"3.0.52",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250328",
-			"repository":"Central",
-			"type":"release",
-			"usage":2,
-			"version":"3.0.49",
-			"vulnerabilities":""
 		}
-	],
-	"description":"Elements is an Open Source Backend for Games"
+	]
 }
