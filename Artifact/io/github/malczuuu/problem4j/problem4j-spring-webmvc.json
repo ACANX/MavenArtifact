@@ -1,13 +1,13 @@
 {
 	"id":"pkg:maven/io.github.malczuuu.problem4j/problem4j-spring-webmvc",
-	"description":"Spring WebMVC integration for library implementing RFC7807",
+	"description":"[Deprecated] Spring WebMVC integration for library implementing RFC7807. Migrated to io.github.problem4j:problem4j-spring-webmvc namespace.",
 	"group_id":"io.github.malczuuu.problem4j",
 	"artifact_id":"problem4j-spring-webmvc",
-	"version_latest":"2.0.6",
-	"ts_publish":1766007003000,
-	"dt_publish":"2025-12-18 05:30:03.000",
-	"ts_update":1766008084402,
-	"dt_update":"2025-12-18 05:47:52.952",
+	"version_latest":"2.0.7",
+	"ts_publish":1766775051000,
+	"dt_publish":"2025-12-27 02:50:51.000",
+	"ts_update":1766775335576,
+	"dt_update":"2025-12-27 02:55:26.719",
 	"count_dep":3,
 	"count_ref":0,
 	"licenses":[
@@ -23,7 +23,7 @@
 	"url_scm":"https://github.com/malczuuu/problem4j-spring",
 	"home_page":"https://github.com/malczuuu/problem4j-spring",
 	"license":"MIT",
-	"ranking":"#487557 in MvnRepository",
+	"ranking":"#536535 in MvnRepository",
 	"tags":[
 		"github",
 		"spring",
@@ -31,6 +31,22 @@
 		"mvc"
 	],
 	"versions":[
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.6",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"2.0.5",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251207",
 			"repository":"Central",
@@ -77,6 +93,14 @@
 			"type":"release",
 			"usage":0,
 			"version":"2.0.0-RC1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251217",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.7",
 			"vulnerabilities":""
 		},
 		{
@@ -165,30 +189,6 @@
 			"type":"release",
 			"usage":0,
 			"version":"1.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251012",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.0-rc3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251009",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.0-rc2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251007",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"1.0.0-rc1",
 			"vulnerabilities":""
 		}
 	]
