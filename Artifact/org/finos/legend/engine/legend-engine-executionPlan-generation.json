@@ -3,13 +3,13 @@
 	"description":"Parent POM for FINOS hosted project that deliver release, publishing automation and more",
 	"group_id":"org.finos.legend.engine",
 	"artifact_id":"legend-engine-executionPlan-generation",
-	"version_latest":"4.116.1",
-	"ts_publish":1766250109000,
-	"dt_publish":"2025-12-21 01:01:49.000",
-	"ts_update":1766251621176,
-	"dt_update":"2025-12-21 01:26:42.693",
+	"version_latest":"4.117.0",
+	"ts_publish":1766738155000,
+	"dt_publish":"2025-12-26 16:35:55.000",
+	"ts_update":1766739388366,
+	"dt_update":"2025-12-26 16:56:09.673",
 	"count_dep":43,
-	"count_ref":12,
+	"count_ref":44,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
@@ -27,13 +27,21 @@
 	"count_used_by":77,
 	"home_page":"https://github.com/finos/legend-engine",
 	"license":"Apache 2.0",
-	"ranking":"#6852 in MvnRepository",
+	"ranking":"#6870 in MvnRepository",
 	"tags":[
 		"generator",
 		"exec",
 		"engine"
 	],
 	"versions":[
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":44,
+			"version":"4.116.1",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251217",
 			"repository":"Central",
@@ -184,14 +192,6 @@
 			"type":"release",
 			"usage":47,
 			"version":"4.103.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20251008",
-			"repository":"Central",
-			"type":"release",
-			"usage":44,
-			"version":"4.103.0",
 			"vulnerabilities":""
 		}
 	]
