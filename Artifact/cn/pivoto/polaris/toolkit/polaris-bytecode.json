@@ -2,14 +2,16 @@
 	"id":"pkg:maven/cn.pivoto.polaris.toolkit/polaris-bytecode",
 	"group_id":"cn.pivoto.polaris.toolkit",
 	"artifact_id":"polaris-bytecode",
-	"version_latest":"3.6.1",
-	"ts_publish":1766236569000,
-	"dt_publish":"2025-12-20 21:16:09.000",
-	"ts_update":1766237203978,
-	"dt_update":"2025-12-20 21:26:34.816",
-	"count_dep":25,
+	"version_latest":"3.6.2",
+	"ts_publish":1766998756000,
+	"dt_publish":"2025-12-29 16:59:16.000",
+	"ts_update":1767000409248,
+	"dt_update":"2025-12-29 17:26:34.058",
+	"count_dep":31,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://www.pivoto.cn/polaris-extra/polaris-bytecode",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/cn.pivoto.polaris.toolkit/polaris-bytecode@3.3.15",
@@ -21,13 +23,29 @@
 	"url_ci_management":"http://www.pivoto.cn",
 	"count_used_by":1,
 	"license":"Apache 2.0",
-	"ranking":"#425104 in MvnRepository",
+	"ranking":"#414990 in MvnRepository",
 	"tags":[
 		"tools",
 		"bytecode",
 		"toolkit"
 	],
 	"versions":[
+		{
+			"date":"20251220",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.6.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251219",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"3.6.0",
+			"vulnerabilities":""
+		},
 		{
 			"date":"20251215",
 			"repository":"Central",
@@ -171,22 +189,7 @@
 			"usage":1,
 			"version":"3.4.8",
 			"vulnerabilities":""
-		},
-		{
-			"date":"20250910",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"3.4.6",
-			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"pivoto"
 }
