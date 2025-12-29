@@ -3,12 +3,12 @@
   "description": "This is a simple orchestrator for  Web Service API calls.\n\t\n\tIt supports hierarchy of flows and steps with wiring of request response objects using templated variable replacement.\n\tPeer steps in a flow are executed in sequence and the peer flows are executed in parallel across multiple threads.\n\t\n\tA flow can have series of steps and sub-flows. They are executed in the natural ordering of their names.\n\tBased on natural ordering,\n\t\tif there are sequence of steps,\n\t\tfollowed by sequence of sub-flows,\n\t\tfollowed by another set of steps,\n\t\t\tthen the first set of steps will be executed in sequence,\n\t\t\tthen the sub-flows will be executed in parallel,\n\t\t\tthen wait for all the sub-flows to finish\n\t\t\tand execute the second set of steps in sequence.",
   "group_id": "org.simple4j",
   "artifact_id": "WSOrchestrator",
-  "version_latest": "25.12.22.0",
-  "ts_publish": 1766445955000,
-  "dt_publish": "2025-12-23 07:25:55.000",
-  "ts_update": 1766447795187,
-  "dt_update": "2025-12-23 07:56:35.187",
-  "count_dep": 33,
+  "version_latest": "25.12.29.0",
+  "ts_publish": 1767026927000,
+  "dt_publish": "2025-12-30 00:48:47.000",
+  "ts_update": 1767027389332,
+  "dt_update": "2025-12-30 00:56:29.332",
+  "count_dep": 36,
   "count_ref": 0,
   "licenses": [
     "MIT License"
