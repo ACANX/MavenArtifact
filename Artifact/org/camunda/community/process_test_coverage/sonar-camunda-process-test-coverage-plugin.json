@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.camunda.community.process_test_coverage/sonar-camunda-process-test-coverage-plugin",
 	"group_id":"org.camunda.community.process_test_coverage",
 	"artifact_id":"sonar-camunda-process-test-coverage-plugin",
-	"version_latest":"3.0.0",
-	"ts_publish":1760696264000,
-	"dt_publish":"2025-10-17 18:17:44.000",
-	"ts_update":1760697438883,
-	"dt_update":"2025-10-17 18:37:09.740",
-	"count_dep":8,
+	"version_latest":"3.0.1",
+	"ts_publish":1767972839000,
+	"dt_publish":"2026-01-09 23:33:59.000",
+	"ts_update":1768299666442,
+	"dt_update":"2026-01-09 23:43:26.038",
+	"count_dep":20,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -106,5 +108,6 @@
 			"version":"2.2.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Helper library to visualize and assert which parts of a BPMN process have been covered by a test."
 }
