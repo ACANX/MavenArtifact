@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.camunda.community.process_test_coverage/camunda-process-test-coverage-junit5-platform-7",
 	"group_id":"org.camunda.community.process_test_coverage",
 	"artifact_id":"camunda-process-test-coverage-junit5-platform-7",
-	"version_latest":"3.0.0",
-	"ts_publish":1760696264000,
-	"dt_publish":"2025-10-17 18:17:44.000",
-	"ts_update":1760698049471,
-	"dt_update":"2025-10-17 18:47:18.673",
-	"count_dep":10,
+	"version_latest":"3.0.1",
+	"ts_publish":1767972839000,
+	"dt_publish":"2026-01-09 23:33:59.000",
+	"ts_update":1768332949591,
+	"dt_update":"2026-01-09 23:56:33.106",
+	"count_dep":58,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -122,5 +124,6 @@
 			"version":"2.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Helper library to visualize and assert which parts of a BPMN process have been covered by a test."
 }
