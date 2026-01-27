@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/net.xdob.directory.api/api-ldap-codec-standalone",
+  "description": "This module was created to fix issue DIRSHARED-91 where the embedded Felix\n    instance inside the default LdapCodecService implementation was making it \n    very problematic to deploy the ldap-codec inside an RCP (OSGi) environment\n    and hence Apache Directory Studio could not use it.\n\n    This module is most likely temporary and will disappear once we are fully\n    OSGi enabled. This module is a plain old jar, not a bundle to avoid \n    accidental reuse as an OSGi module because it contains the version of the\n    LdapCodecService that embeds Felix to make controls and extended ops \n    pluggable in the codec.",
+  "group_id": "net.xdob.directory.api",
+  "artifact_id": "api-ldap-codec-standalone",
+  "version_latest": "1.0.0-M20V20260126",
+  "ts_publish": 1769498016000,
+  "dt_publish": "2026-01-27 15:13:36.000",
+  "ts_update": 1769498800527,
+  "dt_update": "2026-01-27 15:26:40.527",
+  "count_dep": 6,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
