@@ -1,16 +1,18 @@
 {
   "id": "pkg:maven/com.limemojito.oss.standards.development-test/jar-lambda-poc-cdk",
-  "description": null,
+  "description": "* A basic setup for cdk development using a simple automated deployment to the \"current\" account as setup in\n        aws credentials. Requires cdk.json file to be configured to match pom.xml. Example cdk.json file included\n        for java based cdk deployment using maven. Note JAVA_HOME must be set to match the version of java in use so\n        that CDK's spawned maven process does not become confused with the compile java version.\n        * Packaging for child projects should be jar.\n        * Set cdk main class in properties of pom.xml.\n        * Code jar dependencies as dependencies, these will be included in the build to target/dependencies which may\n        be referenced from CDK code.\n        * See development-test/jar-lambda-poc-cdk for an example.",
   "group_id": "com.limemojito.oss.standards.development-test",
   "artifact_id": "jar-lambda-poc-cdk",
-  "version_latest": "17.0.7",
-  "ts_publish": 1772275180000,
-  "dt_publish": "2026-02-28 18:39:40.000",
-  "ts_update": 1772299052076,
-  "dt_update": "2026-03-01 01:17:32.076",
-  "count_dep": 0,
+  "version_latest": "17.0.8",
+  "ts_publish": 1773078360000,
+  "dt_publish": "2026-03-10 01:46:00.000",
+  "ts_update": 1773079377746,
+  "dt_update": "2026-03-10 02:02:57.746",
+  "count_dep": 120,
   "count_ref": 0,
-  "licenses": [],
+  "licenses": [
+    "The Apache Software License, Version 2.0"
+  ],
   "categories": null,
   "dsv": 1
 }
