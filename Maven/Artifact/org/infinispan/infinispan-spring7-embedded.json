@@ -1,18 +1,16 @@
 {
   "id": "pkg:maven/org.infinispan/infinispan-spring7-embedded",
-  "description": "The Infinispan Spring Integration project provides Spring\n        integration for Infinispan, a high performance distributed cache.\n        Its primary features are\n\n        * An implementation of org.springframework.cache.CacheManager,\n        Spring's central caching abstraction, backed by Infinispan's\n        EmbeddedCacheManager. To be used if your Spring-powered\n        application and Infinispan are colocated, i.e. running within\n        the same VM.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by Infinispan's RemoteCacheManager. To bes used if your\n        Spring-powered application accesses Infinispan remotely, i.e.\n        over the network.\n        * An implementation of org.springframework.cache.CacheManager\n        backed by a CacheContainer reference. To be used if your Spring-\n        powered application needs access to a CacheContainer defined\n        outside the application (e.g. retrieved from JNDI)\n        * Spring namespace support allowing shortcut definitions for all the\n        components above\n\n        In addition, Infinispan Spring Integration offers various FactoryBeans\n        for facilitating creation of Infinispan core classes - Cache, CacheManager,\n        ... - within a Spring context.",
+  "description": null,
   "group_id": "org.infinispan",
   "artifact_id": "infinispan-spring7-embedded",
-  "version_latest": "16.1.0.Dev02",
-  "ts_publish": 1766136179000,
-  "dt_publish": "2025-12-19 17:22:59.000",
-  "ts_update": 1766137311063,
-  "dt_update": "2025-12-19 17:41:51.063",
-  "count_dep": 47,
+  "version_latest": "16.1.1",
+  "ts_publish": 1773247300000,
+  "dt_publish": "2026-03-12 00:41:40.000",
+  "ts_update": 1773249219286,
+  "dt_update": "2026-03-12 01:13:39.286",
+  "count_dep": 29,
   "count_ref": 3,
-  "licenses": [
-    "Apache License 2.0"
-  ],
+  "licenses": [],
   "categories": [
     "Data Management",
     "Database",
