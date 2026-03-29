@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/tr.kontas.cache/mmap-cache",
+	"description":"A compact, production-ready Java caching library designed to store and serve very large key-value datasets with minimal heap pressure. Data is written as fixed-size binary records to memory-mapped shard files (mmap) while an optional in-heap Caffeine layer serves hot keys. An off-heap ChronicleMap index can be used for very large key sets.",
+	"group_id":"tr.kontas.cache",
+	"artifact_id":"mmap-cache",
+	"version_latest":"1.1.1",
+	"ts_publish":1774631782000,
+	"dt_publish":"2026-03-28 01:16:22.000",
+	"ts_update":1774790823054,
+	"dt_update":"2026-03-28 01:56:58.134",
+	"count_dep":31,
+	"count_ref":0,
+	"licenses":[
+		"GPL-3.0 license"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/BurakKontas/mmap-cache",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/tr.kontas.cache:mmap-cache/1.1.1",
+	"contributors":[
+		"Arda Burak Kontaş"
+	],
+	"url_scm":"https://github.com/BurakKontas/mmap-cache"
+}
