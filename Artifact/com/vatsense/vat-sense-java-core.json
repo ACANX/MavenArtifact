@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.vatsense/vat-sense-java-core",
+	"description":"Developer-friendly REST API for VAT/GST compliance. VAT Sense helps businesses\nselling internationally with VAT number validation, VAT/GST rate lookups,\ncurrency conversion, country data, and VAT-compliant invoicing.\n\n## Authentication\n\nAll API requests require authentication via HTTP Basic Auth:\n\n- **Username:** `user`\n- **Password:** Your API key\n\nAll requests must be made over HTTPS. Requests made over plain HTTP will fail.\n\n## Rate limits\n\n- **General:** 300 requests per minute (all endpoints)\n- **UK VAT validation:** 3 requests per second (to comply with HMRC upstream\n  limits)\n\nExceeding either limit returns a `429 Too Many Requests` response.\n\n## Base URL\n\nAll API URLs referenced in this documentation have the following base:\n\n`https://api.vatsense.com/1.0/`",
+	"group_id":"com.vatsense",
+	"artifact_id":"vat-sense-java-core",
+	"version_latest":"0.1.0",
+	"ts_publish":1773920275000,
+	"dt_publish":"2026-03-19 19:37:55.000",
+	"ts_update":1774798094174,
+	"dt_update":"2026-03-19 19:53:23.262",
+	"count_dep":12,
+	"count_ref":2,
+	"licenses":[
+		"Apache-2.0"
+	],
+	"dsv":1,
+	"url_project":"https://vatsense.com",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.vatsense:vat-sense-java-core/0.1.0",
+	"contributors":[
+		"Vat Sense"
+	],
+	"url_scm":"https://github.com/VAT-Sense/vatsense-java"
+}
