@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-neo4j-deployment",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-neo4j-deployment",
-	"version_latest":"1.8.4",
-	"ts_publish":1774543195000,
-	"dt_publish":"2026-03-27 00:39:55.000",
-	"ts_update":1774823858763,
-	"dt_update":"2026-03-27 00:56:44.802",
-	"count_dep":9,
+	"version_latest":"1.9.0.CR2",
+	"ts_publish":1776155603000,
+	"dt_publish":"2026-04-14 16:33:23.000",
+	"ts_update":1776161631627,
+	"dt_update":"2026-04-14 16:57:09.196",
+	"count_dep":243,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-neo4j-deployment@1.1.1",
 	"count_used_by":1,
@@ -185,5 +187,6 @@
 			"version":"1.1.0.CR2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Provides the Neo4j embedding store for LangChain4j"
 }
