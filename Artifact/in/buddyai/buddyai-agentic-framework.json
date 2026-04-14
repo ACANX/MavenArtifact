@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/in.buddyai/buddyai-agentic-framework",
+	"description":"Parent POM for BuddyAI Agentic Framework.\n\n        Directory layout:\n        buddyai-agentic-framework/\n        ├── pom.xml                  ← this file\n        ├── buddyai-agent-sdk/       ← shared SDK, zero deps\n        ├── buddyai-platform/        ← Spring Boot orchestration platform\n        ├── buddyai-runner/          ← CLI + web runner (buddyai agent run/web)\n        └── agents/\n               └── payment-agent/      ← example agent (NOT in modules — builds independently)",
+	"group_id":"in.buddyai",
+	"artifact_id":"buddyai-agentic-framework",
+	"version_latest":"1.0.1",
+	"ts_publish":1776114883000,
+	"dt_publish":"2026-04-14 05:14:43.000",
+	"ts_update":1776180532956,
+	"dt_update":"2026-04-14 05:27:00.495",
+	"count_dep":0,
+	"count_ref":0,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/buddyai-in/buddyai-agentic-framework",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/in.buddyai:buddyai-agentic-framework/1.0.1",
+	"contributors":[
+		"Jitendra Sagoriya"
+	],
+	"url_scm":"https://github.com/buddyai-in/buddyai-agentic-framework"
+}
