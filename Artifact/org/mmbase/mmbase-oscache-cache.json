@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/org.mmbase/mmbase-oscache-cache",
-	"description":"MMBase contains a pluggable architecture for it's caches, where you can write your own cache\n    implementation to store MMBase objects in memory. This implementation uses the popular 'oscache'\n    library, that can fall back to disk storage when needed. This allows you to cache a lot more\n    inside MMBase without filling the internal memory. Note that you must only do this for objects\n    which are more expensive to retrieve from Database than from disk (for instance difficult\n    multilevel queries).",
+	"description":"MMBase contains a pluggable architecture for its caches, where you can write your own cache\n    implementation to store MMBase objects in memory. This implementation uses the (once) popular 'oscache'\n    library, that can fall back to disk storage when needed. This allows you to cache a lot more\n    inside MMBase without filling the internal memory. Note that you must only do this for objects\n    which are more expensive to retrieve from Database than from disk (for instance difficult\n    multilevel queries).",
 	"group_id":"org.mmbase",
 	"artifact_id":"mmbase-oscache-cache",
-	"version_latest":"1.9.7-rc2",
-	"ts_publish":1767182049000,
-	"dt_publish":"2025-12-31 19:54:09.000",
-	"ts_update":1767183990710,
-	"dt_update":"2025-12-31 20:26:21.701",
-	"count_dep":10,
+	"version_latest":"1.9.7-rc3",
+	"ts_publish":1774990809000,
+	"dt_publish":"2026-04-01 05:00:09.000",
+	"ts_update":1776175045300,
+	"dt_update":"2026-04-01 05:27:00.652",
+	"count_dep":20,
 	"count_ref":1,
 	"licenses":[
 		"Mozilla Public License 1.0 (MPL)"
