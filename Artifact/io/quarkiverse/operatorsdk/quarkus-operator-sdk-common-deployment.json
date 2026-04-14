@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.operatorsdk/quarkus-operator-sdk-common-deployment",
 	"group_id":"io.quarkiverse.operatorsdk",
 	"artifact_id":"quarkus-operator-sdk-common-deployment",
-	"version_latest":"7.5.2",
-	"ts_publish":1770126712000,
-	"dt_publish":"2026-02-03 21:51:52.000",
-	"ts_update":1770316018822,
-	"dt_update":"2026-02-03 22:02:21.498",
-	"count_dep":8,
-	"count_ref":4,
-	"licenses":[],
+	"version_latest":"7.7.3",
+	"ts_publish":1774439661000,
+	"dt_publish":"2026-03-25 19:54:21.000",
+	"ts_update":1774848491747,
+	"dt_update":"2026-03-25 20:26:33.487",
+	"count_dep":236,
+	"count_ref":6,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -191,5 +193,6 @@
 			"version":"6.8.4",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

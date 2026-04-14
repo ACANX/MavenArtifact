@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.limemojito.oss.standards.development-test/jar-lambda-poc",
 	"group_id":"com.limemojito.oss.standards.development-test",
 	"artifact_id":"jar-lambda-poc",
-	"version_latest":"17.0.0",
-	"ts_publish":1765245739000,
-	"dt_publish":"2025-12-09 10:02:19.000",
-	"ts_update":1765247256651,
-	"dt_update":"2025-12-09 10:26:31.462",
-	"count_dep":0,
+	"version_latest":"17.0.17",
+	"ts_publish":1775444123000,
+	"dt_publish":"2026-04-06 10:55:23.000",
+	"ts_update":1775631462181,
+	"dt_update":"2026-04-06 11:27:08.798",
+	"count_dep":164,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/jar-lambda-development/jar-lambda-poc",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.limemojito.oss.standards.development-test/jar-lambda-poc@15.3.2",
@@ -186,5 +188,6 @@
 			"version":"14.3.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build."
 }

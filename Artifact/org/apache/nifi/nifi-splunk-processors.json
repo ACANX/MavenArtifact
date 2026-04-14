@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-splunk-processors",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-splunk-processors",
-	"version_latest":"2.7.2",
-	"ts_publish":1765909173000,
-	"dt_publish":"2025-12-17 02:19:33.000",
-	"ts_update":1770175626394,
-	"dt_update":"2026-02-01 00:24:16.244",
-	"count_dep":116,
+	"version_latest":"2.8.0",
+	"ts_publish":1770934168000,
+	"dt_publish":"2026-02-13 06:09:28.000",
+	"ts_update":1774754901234,
+	"dt_update":"2026-03-15 00:26:39.782",
+	"count_dep":110,
 	"count_ref":2,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Analytics"
 	],
@@ -190,6 +188,5 @@
 			"version":"1.23.0",
 			"vulnerabilities":""
 		}
-	],
-	"description":"BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars"
+	]
 }

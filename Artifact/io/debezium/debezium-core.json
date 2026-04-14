@@ -2,13 +2,13 @@
 	"id":"pkg:maven/io.debezium/debezium-core",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-core",
-	"version_latest":"3.4.0.Final",
-	"ts_publish":1766045726000,
-	"dt_publish":"2025-12-18 16:15:26.000",
-	"ts_update":1766046279709,
-	"dt_update":"2025-12-18 16:24:29.043",
-	"count_dep":25,
-	"count_ref":19,
+	"version_latest":"3.5.0.Final",
+	"ts_publish":1774939655000,
+	"dt_publish":"2026-03-31 14:47:35.000",
+	"ts_update":1775642803295,
+	"dt_update":"2026-03-31 15:27:00.392",
+	"count_dep":3,
+	"count_ref":0,
 	"licenses":[],
 	"categories":[
 		"Data Management",
@@ -191,5 +191,6 @@
 			"version":"3.2.0.Beta1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"This module has been renamed to debezium-connector-common.\n        Please update your dependencies to use io.debezium:debezium-connector-common instead."
 }

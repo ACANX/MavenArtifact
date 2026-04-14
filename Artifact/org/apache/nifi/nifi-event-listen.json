@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-event-listen",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-event-listen",
-	"version_latest":"2.7.2",
-	"ts_publish":1765907165000,
-	"dt_publish":"2025-12-17 01:46:05.000",
-	"ts_update":1770310556150,
-	"dt_update":"2026-02-01 00:24:09.604",
-	"count_dep":70,
+	"version_latest":"2.8.0",
+	"ts_publish":1770934343000,
+	"dt_publish":"2026-02-13 06:12:23.000",
+	"ts_update":1774819631157,
+	"dt_update":"2026-03-22 00:24:31.808",
+	"count_dep":65,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Analytics"
 	],
@@ -187,5 +189,6 @@
 			"version":"1.23.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"This module contains reusable utilities related to extensions that can be shared across NARs."
 }

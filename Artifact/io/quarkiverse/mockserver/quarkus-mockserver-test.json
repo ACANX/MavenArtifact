@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.mockserver/quarkus-mockserver-test",
 	"group_id":"io.quarkiverse.mockserver",
 	"artifact_id":"quarkus-mockserver-test",
-	"version_latest":"1.15.0",
-	"ts_publish":1759756002000,
-	"dt_publish":"2025-10-06 21:06:42.000",
-	"ts_update":1759757219990,
-	"dt_update":"2025-10-06 21:26:11.808",
-	"count_dep":3,
+	"version_latest":"1.16.0",
+	"ts_publish":1772536430000,
+	"dt_publish":"2026-03-03 19:13:50.000",
+	"ts_update":1774790858246,
+	"dt_update":"2026-03-03 20:27:04.558",
+	"count_dep":232,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.mockserver/quarkus-mockserver-test@1.15.0",
 	"count_used_by":14,
@@ -182,5 +184,6 @@
 			"version":"0.4.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }

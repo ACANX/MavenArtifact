@@ -2,16 +2,14 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-snowflake-processors",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-snowflake-processors",
-	"version_latest":"2.7.2",
-	"ts_publish":1765909465000,
-	"dt_publish":"2025-12-17 02:24:25.000",
-	"ts_update":1770307036415,
-	"dt_update":"2026-02-01 00:24:17.453",
-	"count_dep":315,
+	"version_latest":"2.8.0",
+	"ts_publish":1770933960000,
+	"dt_publish":"2026-02-13 06:06:00.000",
+	"ts_update":1774772850117,
+	"dt_update":"2026-03-15 00:26:35.518",
+	"count_dep":118,
 	"count_ref":2,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
+	"licenses":[],
 	"categories":[
 		"Analytics"
 	],
@@ -187,6 +185,5 @@
 			"version":"1.23.0",
 			"vulnerabilities":""
 		}
-	],
-	"description":"BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars"
+	]
 }
