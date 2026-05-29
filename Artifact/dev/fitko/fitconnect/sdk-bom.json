@@ -1,0 +1,28 @@
+{
+	"id":"pkg:maven/dev.fitko.fitconnect/sdk-bom",
+	"description":"Bill of Materials for the FIT-Connect modular SDK. Importing this BOM into a\n        consumer's dependencyManagement locks in a tested-together set of module\n        versions, so integrators can list FIT-Connect modules without specifying\n        individual versions.\n\n        The BOM is bumped on every coordinated SDK release. Individual module\n        releases between coordinated releases do NOT bump the BOM; the BOM expresses\n        the official \"this works with that\" combination.",
+	"group_id":"dev.fitko.fitconnect",
+	"artifact_id":"sdk-bom",
+	"version_latest":"4.0.0-alpha.2",
+	"ts_publish":1777988412000,
+	"dt_publish":"2026-05-05 21:40:12.000",
+	"ts_update":1777996772410,
+	"dt_update":"2026-05-05 23:58:50.267",
+	"count_dep":0,
+	"count_ref":0,
+	"licenses":[
+		"Apache-2.0",
+		"CC0-1.0",
+		"EUPL-1.2"
+	],
+	"categories":[
+		"Uncategorized"
+	],
+	"dsv":1,
+	"url_project":"https://git.fitko.de/fit-connect/egov-modules/sdk-bom",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/dev.fitko.fitconnect:sdk-bom/4.0.0-alpha.2",
+	"contributors":[
+		"FIT-Connect Contributors"
+	],
+	"url_scm":"https://git.fitko.de/fit-connect/egov-modules/sdk-bom"
+}

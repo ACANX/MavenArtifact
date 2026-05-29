@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.captainssingapura-hue.homing.js/homing-workspace",
+	"description":"RFC 0025 — Workspace + Dynamic Widget Management. A strict downstream\n        of homing-studio-base providing the workspace shell pattern: a\n        per-page registry of WorkspaceWidget types, a controller that\n        dynamically loads modules on user pick, a picker UI, and the\n        WorkspaceShell AppModule base that ties it together.\n\n        Studios that don't need workspace capabilities (catalogue browsers,\n        doc readers, single-widget viewers) leave this dependency off and pay\n        nothing for the machinery. Studios that want workspace add this dep.\n\n        The WorkspaceWidget contract is distinct from RFC 0024's Widget — see\n        the Rfc0025Ext1Doc for the design and the rationale. Both contracts\n        coexist; a WorkspaceWidget can be hosted in a non-workspace context\n        by wrapping it in a degenerate mini-workspace (one widget, no picker,\n        no layout management).",
+	"group_id":"io.github.captainssingapura-hue.homing.js",
+	"artifact_id":"homing-workspace",
+	"version_latest":"0.2.0",
+	"ts_publish":1779779932000,
+	"dt_publish":"2026-05-26 15:18:52.000",
+	"ts_update":1779787665031,
+	"dt_update":"2026-05-26 16:27:27.762",
+	"count_dep":37,
+	"count_ref":0,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/captainssingapura-hue/homing-ssjs-core/homing-workspace",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.captainssingapura-hue.homing.js:homing-workspace/0.2.0",
+	"contributors":[
+		"captainssingapura-hue"
+	],
+	"url_scm":"https://github.com/captainssingapura-hue/homing-ssjs-core/homing-workspace"
+}

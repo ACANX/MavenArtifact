@@ -1,0 +1,18 @@
+{
+	"id":"pkg:maven/io.zerows/zero-boot",
+	"description":"1）扩展应用（微服务）启动\n        - zero-boot-extension-actor ( MBSE ), Actor启动器，内置所有功能模块\n        - / - Dependency: zero-boot-inst-load, 工具模块加载器\n        - / - Dependency: zero-boot-test-actor, Actor启动器（专用于测试环境）\n        - / - Dependency: zero-boot-elastic-actor, Actor启动器，ES专用，内部依赖 zero-plugins-elasticsearch\n        - / - Dependency: zero-boot-graphic-actor, Actor启动器，Neo4j专用，内部依赖 zero-plugins-neo4j\n        - / - |-- Dependency: zero-boot-extension, 统一依赖（非启动器），扩展模块底座依赖统一归口\n        - / ----- |-- Dependency: zero-boot-epoch-actor, Actor启动器（核心模块，不带任何扩展模块）\n\n        2）核心应用（微服务）启动\n        - zero-boot-epoch-actor, Actor启动器（核心模块，不带任何扩展模块）\n        - zero-boot-cloud-actor, Actor启动器（云端模块，内置云端配置中心等功能模块）\n\n        3）工具模块启动\n        - zero-boot-inst, 工具模块启动器\n        - / - Dependency: zero-boot-test-actor, Actor启动器（专用于测试环境）\n        ----- Child / - zero-boot-inst-load, 数据加载器\n        ----- Child / - zero-boot-inst-menu, 菜单规划器",
+	"group_id":"io.zerows",
+	"artifact_id":"zero-boot",
+	"version_latest":"1.0.50",
+	"ts_publish":1774596313000,
+	"dt_publish":"2026-03-27 15:25:13.000",
+	"ts_update":1775663880775,
+	"dt_update":"2026-03-27 15:45:25.847",
+	"count_dep":0,
+	"count_ref":0,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.zerows:zero-boot/1.0.50"
+}

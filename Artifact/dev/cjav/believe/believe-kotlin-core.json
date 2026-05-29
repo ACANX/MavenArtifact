@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/dev.cjav.believe/believe-kotlin-core",
+	"description":"## Believe in the Power of Positivity!\n\nA comprehensive API celebrating the wisdom, humor, and heart of Ted Lasso.\nPerfect for SDK demos showcasing various REST API features.\n\n### Features\n\n- **CRUD Operations**: Full Create, Read, Update, Delete for all resources\n- **Rich Data Models**: Characters, Teams, Matches, Episodes, and Quotes\n- **Union Types (oneOf)**: Team Members demonstrate discriminated unions\n- **Interactive Endpoints**: Believe Engine, Conflict Resolution, and more\n- **SSE Streaming**: Real-time pep talks and match commentary\n- **Custom Easter Eggs**: Special HTTP status codes for fun\n\n### Core Resources\n\n- **Characters**: Ted, Roy Kent, Rebecca, Jamie, and the whole gang\n- **Teams**: AFC Richmond, Manchester City, West Ham, and more\n- **Matches**: Historic matches with turning points and lessons learned\n- **Episodes**: Full episode guide with Ted's wisdom\n- **Quotes**: Searchable collection of memorable quotes\n\n### Interactive Endpoints\n\n- **POST /believe**: The Believe Engine - get motivational guidance\n- **POST /conflicts/resolve**: Diamond Dogs-style conflict resolution\n- **POST /reframe**: Transform negative thoughts positively\n- **POST /press**: Press conference simulator\n- **GET /coaching/principles**: Ted's coaching philosophy\n- **GET /biscuits**: Biscuits as a Service!\n\n### Streaming (Server-Sent Events)\n\n- **GET /pep-talk**: Pep talk from Ted (add `?stream=true` for SSE)\n- **POST /matches/{id}/commentary/stream**: Live match commentary\n\n### WebSocket (Real-time)\n\n- **WS /matches/live**: Live match simulation with real-time events (goals,\n  fouls, cards, etc.)\n- **WS /ws/test**: Simple WebSocket echo test endpoint\n\n### Data Types Coverage\n\nAll common API data types are integrated across our models:\n\n- **Characters**: date (birth), float (height), decimal (salary), email, URL\n  (profile image)\n- **Teams**: float (attendance, win %), decimal (budget), URL (website), email,\n  GeoLocation (lat/long)\n- **Episodes**: date (air date), float (viewer rating, viewers in millions)\n- **Matches**: datetime, float (possession, temperature), decimal (revenue)\n- **Quotes**: float (popularity score), int (shares)\n- **File uploads**: POST /teams/{id}/logo for image uploads\n\n### Easter Eggs\n\n- **429**: \"Too Much Negativity\" - when you need to be more positive\n- **403**: \"Judgment Without Curiosity\" - be curious, not judgmental\n- **418**: \"I'm a Believer!\" - when you believe too much (is that possible?)\n\n### API Versioning\n\nThis API supports header-based versioning using date format (YYYY-MM-DD).\nInclude one of these headers in your request:\n\n- `X-API-Version: 2026-01-20` (preferred)\n- `API-Version: 2026-01-20`\n\nResponse headers will include:\n\n- `X-API-Version`: The version used for the request\n- `X-API-Supported-Versions`: List of all supported versions\n\nIf no version header is provided, the API defaults to the latest stable version.\n\n_\"Be curious, not judgmental.\"_ - Ted Lasso",
+	"group_id":"dev.cjav.believe",
+	"artifact_id":"believe-kotlin-core",
+	"version_latest":"0.8.1",
+	"ts_publish":1777995768000,
+	"dt_publish":"2026-05-05 23:42:48.000",
+	"ts_update":1777997798246,
+	"dt_update":"2026-05-05 23:58:36.097",
+	"count_dep":13,
+	"count_ref":2,
+	"licenses":[
+		"MIT"
+	],
+	"dsv":1,
+	"url_project":"https://www.github.com/cjavdev/believe-kotlin",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/dev.cjav.believe:believe-kotlin-core/0.8.1",
+	"contributors":[
+		"Believe"
+	],
+	"url_scm":"https://github.com/cjavdev/believe-kotlin"
+}

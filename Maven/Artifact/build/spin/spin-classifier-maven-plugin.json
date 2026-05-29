@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/build.spin/spin-classifier-maven-plugin",
+  "description": "Maven plugin that invokes ModuleGraphClassifier to produce a curated --module-path / --class-path argfile for maven-compiler-plugin and maven-surefire-plugin. Closes the gap between spin's runtime classifier and the Maven build-time classifier so modular tests can run against dependency closures that contain split packages (e.g. Maven Core's maven-settings / maven-support overlap on org.apache.maven.settings.v4).",
+  "group_id": "build.spin",
+  "artifact_id": "spin-classifier-maven-plugin",
+  "version_latest": "0.1.5",
+  "ts_publish": 1779599435000,
+  "dt_publish": "2026-05-24 13:10:35.000",
+  "ts_update": 1779618451856,
+  "dt_update": "2026-05-24 18:27:31.856",
+  "count_dep": 52,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

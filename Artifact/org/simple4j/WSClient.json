@@ -1,0 +1,91 @@
+{
+	"id":"pkg:maven/org.simple4j/WSClient",
+	"description":"This is a simple Web Service Client library to call wide variety of web service behind HTTP.\n\tIn theory it can support any interface or payload.\n\t\n\tOn the request side, to convert java object to HTTP request components (URL, headers, body), \n\ttemplating is used which allows it to call XML, JSON, SOAP, REST or anyother custom interface.\n\t\n\tOn the response side, it uses pluggable parser and a mapper to only extract the fields that are \n\tof interest for the client program. The parser currently supports JSON and XML and returns a collections tree.",
+	"group_id":"org.simple4j",
+	"artifact_id":"WSClient",
+	"version_latest":"26.04.19.1",
+	"ts_publish":1777751813000,
+	"dt_publish":"2026-05-03 03:56:53.000",
+	"ts_update":1777777072291,
+	"dt_update":"2026-05-03 06:54:35.989",
+	"count_dep":27,
+	"count_ref":0,
+	"licenses":[
+		"MIT License"
+	],
+	"categories":[
+		"Uncategorized"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/simple4j/WSClient",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.simple4j/WSClient@25.12.29.2",
+	"contributors":[
+		"Srinivas Janakiraman"
+	],
+	"url_scm":"https://github.com/simple4j/WSClient",
+	"count_used_by":4,
+	"home_page":"https://github.com/simple4j/WSClient",
+	"license":"MIT",
+	"ranking":"#117653 in MvnRepository",
+	"tags":[
+		"client"
+	],
+	"versions":[
+		{
+			"date":"20250629",
+			"repository":"Central",
+			"type":"release",
+			"usage":3,
+			"version":"25.06.30.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20241129",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"24.11.28.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240928",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"24.09.19.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20191121",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20191106",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20191102",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20181110",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		}
+	]
+}

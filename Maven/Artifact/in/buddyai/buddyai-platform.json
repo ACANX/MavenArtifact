@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/in.buddyai/buddyai-platform",
+  "description": "Spring Boot orchestration platform.\n\n        Responsibilities:\n        - AgentPluginLoader: scans /agents/*.jar, loads via ServiceLoader\n        - AgentLoopService:  drives Claude tool-use loop (the agentic engine)\n        - AgentOrchestrator: routes chat messages to the loop\n        - SchedulerService:  Quartz cron scheduling\n        - ApprovalService:   HITL blocking, email/WS notifications\n        - REST controllers:  /api/agents, /api/chat/*, /api/schedules, /api/approval\n        - WebSocket STOMP:   /topic/agent-logs/{sessionId}",
+  "group_id": "in.buddyai",
+  "artifact_id": "buddyai-platform",
+  "version_latest": "1.0.1",
+  "ts_publish": 1776114883000,
+  "dt_publish": "2026-04-14 05:14:43.000",
+  "ts_update": 1776115620497,
+  "dt_update": "2026-04-14 05:27:00.497",
+  "count_dep": 157,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

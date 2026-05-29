@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.adobexp.loki/aem-loki-integrator.core",
+	"description":"OSGi bundle that forwards AEM/Sling/Felix log events to a Grafana Loki\n        push endpoint via two independent sources:\n        (1) a drop-in logging facade (com.adobexp.log.Logger /\n        com.adobexp.log.LoggerFactory) that first-party code imports instead\n        of SLF4J; every call is delegated to SLF4J (so Logback keeps writing\n        aemerror.log) and tee'd to Loki with zero file I/O;\n        (2) an opt-in file tailer for capturing third-party bundle logs\n        (com.adobe.*, com.day.*, org.apache.sling.*, ...) that do not use\n        the facade. The bundle has zero compile-time or runtime dependency\n        on Logback, SLF4J internals, or any third-party logging library,\n        which keeps AEMaaCS Code Quality rule S1874 green. All runtime\n        settings come from a single OSGi configuration.",
+	"group_id":"com.adobexp.loki",
+	"artifact_id":"aem-loki-integrator.core",
+	"version_latest":"3.2.0",
+	"ts_publish":1777031083000,
+	"dt_publish":"2026-04-24 19:44:43.000",
+	"ts_update":1777062506529,
+	"dt_update":"2026-04-24 20:41:57.250",
+	"count_dep":13,
+	"count_ref":1,
+	"licenses":[
+		"Apache License 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/adobexp/aem-loki-integrator/aem-loki-integrator.core",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.adobexp.loki:aem-loki-integrator.core/1.0.3",
+	"contributors":[
+		"AdobeXP Administrator"
+	],
+	"url_scm":"https://github.com/adobexp/aem-loki-integrator/aem-loki-integrator.core"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.adobexp.loki/aem-loki-integrator",
+  "description": "OSGi bundle and content package that forward every AEM log event to a\n        Grafana Loki push endpoint. From 2.x onwards the forwarder is built\n        entirely on the standard OSGi Log Reader Service and java.net.http -\n        no Logback, no SLF4J SPI, no third-party appender. Every runtime\n        setting (URL, credentials, labels, batching, per-logger levels) is\n        driven by a single OSGi configuration.",
+  "group_id": "com.adobexp.loki",
+  "artifact_id": "aem-loki-integrator",
+  "version_latest": "3.2.0",
+  "ts_publish": 1777031083000,
+  "dt_publish": "2026-04-24 19:44:43.000",
+  "ts_update": 1777034517249,
+  "dt_update": "2026-04-24 20:41:57.249",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

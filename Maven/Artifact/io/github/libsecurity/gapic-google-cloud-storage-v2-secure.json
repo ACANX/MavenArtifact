@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.libsecurity/gapic-google-cloud-storage-v2-secure",
+  "description": "Security-patched wrapper for com.google.api.grpc:gapic-google-cloud-storage-v2.\n        Forces grpc-netty-shaded to 1.78.0 to fix CVE-2025-55163.\n\n        Original package: com.google.api.grpc:gapic-google-cloud-storage-v2:2.53.0\n        AI Compatibility Assessment: CAUTION (주의)\n        - GAPIC 클라이언트가 gRPC 런타임 직접 호출\n        - 스트리밍/비동기 API에서 동작 변경 가능성\n        - 통합 테스트 필수, BOM 업그레이드 권장",
+  "group_id": "io.github.libsecurity",
+  "artifact_id": "gapic-google-cloud-storage-v2-secure",
+  "version_latest": "1.0.0",
+  "ts_publish": 1770091135000,
+  "dt_publish": "2026-02-03 11:58:55.000",
+  "ts_update": 1770091930916,
+  "dt_update": "2026-02-03 12:12:10.916",
+  "count_dep": 41,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

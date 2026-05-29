@@ -1,0 +1,30 @@
+{
+	"id":"pkg:maven/io.apicurio/apicurio-registry-java-sdk-adapter-jdk",
+	"description":"JDK HTTP adapter for the Apicurio Registry Java SDK.\n    Provides JdkAdapterFactory using java.net.http.HttpClient.\n    This module is isolated so that consumers using only the Vert.x adapter\n    do not need kiota-http-jdk on the classpath (important for GraalVM native image).",
+	"group_id":"io.apicurio",
+	"artifact_id":"apicurio-registry-java-sdk-adapter-jdk",
+	"version_latest":"3.2.4",
+	"ts_publish":1777904858000,
+	"dt_publish":"2026-05-04 22:27:38.000",
+	"ts_update":1777910274397,
+	"dt_update":"2026-05-04 23:27:36.395",
+	"count_dep":8,
+	"count_ref":13,
+	"licenses":[
+		"Apache License Version 2.0"
+	],
+	"categories":[
+		"Uncategorized"
+	],
+	"dsv":1,
+	"url_project":"https://www.apicur.io/apicurio-registry-java-sdk-adapter-jdk/",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.apicurio:apicurio-registry-java-sdk-adapter-jdk/3.2.1",
+	"url_issue_management":"https://github.com/apicurio/apicurio-registry/issues",
+	"contributors":[
+		"Carles Arnal",
+		"Andrea Peruffo",
+		"Jakub Senko",
+		"Eric Wittmann"
+	],
+	"url_scm":"scm:git:git@github.com:apicurio/apicurio-registry.git/apicurio-registry-java-sdk-adapter-jdk"
+}

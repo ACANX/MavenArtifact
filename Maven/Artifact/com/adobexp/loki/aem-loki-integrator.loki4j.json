@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.adobexp.loki/aem-loki-integrator.loki4j",
+  "description": "Repackages the loki-logback-appender (loki4j) as an OSGi fragment of\n        org.apache.sling.commons.log. Attaching it to the Sling log host\n        bundle makes the loki4j classes (and their Logback SPI references)\n        visible to the Logback context without the loki4j classes ever being\n        loaded by our own customer bundles.",
+  "group_id": "com.adobexp.loki",
+  "artifact_id": "aem-loki-integrator.loki4j",
+  "version_latest": "1.0.8",
+  "ts_publish": 1776854133000,
+  "dt_publish": "2026-04-22 18:35:33.000",
+  "ts_update": 1776857228722,
+  "dt_update": "2026-04-22 19:27:08.722",
+  "count_dep": 9,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

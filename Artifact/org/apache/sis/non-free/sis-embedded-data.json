@@ -1,0 +1,126 @@
+{
+	"id":"pkg:maven/org.apache.sis.non-free/sis-embedded-data",
+	"description":"Provides non-free data, including the EPSG geodetic dataset, in a single read-only JAR file. This module contains a copy of EPSG geodetic dataset in an embedded Apache Derby database. Having this artifact on the module path avoid the need to set the 'SIS_DATA' environment variable for using the Coordinate Reference Systems (CRS) and Coordinate Operations defined by EPSG. EPSG is maintained by the IOGP Surveying &amp; Positioning Committee and reproduced in this module with same content. See https://epsg.org/ for more information.",
+	"group_id":"org.apache.sis.non-free",
+	"artifact_id":"sis-embedded-data",
+	"version_latest":"1.6",
+	"ts_publish":1769530728000,
+	"dt_publish":"2026-01-28 00:18:48.000",
+	"ts_update":1774798084597,
+	"dt_update":"2026-02-22 00:24:44.898",
+	"count_dep":2,
+	"count_ref":0,
+	"licenses":[
+		"EPSG terms of use",
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"http://sis.apache.org/sis-embedded-data",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.sis.non-free/sis-embedded-data@1.5",
+	"url_issue_management":"https://issues.apache.org/jira/browse/SIS",
+	"contributors":[
+		"Minh Chinh Vu",
+		"Adrian Custer",
+		"Antoine Hnawia",
+		"Maxime Gavens",
+		"Thi Phuong Hao Nguyen",
+		"Kevan Miller",
+		"Cullen Rombach",
+		"Touraïvane",
+		"Cédric Briançon",
+		"Guilhem Legal",
+		"Smaniotto Enzo",
+		"Richard Deplanque",
+		"Christina Hough",
+		"Olivier Nouguier",
+		"Adam Estrada",
+		"Chris A. Mattmann",
+		"Nga Thien Chung",
+		"Charitha Madusanka",
+		"Suresh Marru",
+		"Patrick O'Leary",
+		"Johann Sorel",
+		"Martin Desruisseaux",
+		"Alexis Manin",
+		"Marc Le Bihan",
+		"Peter Karich",
+		"Sean William McCleese",
+		"Gregory D. Reddin",
+		"Paul Michael Ramirez",
+		"Ian Holsman",
+		"Travis L. Pinney",
+		"Joe Schaefer",
+		"Ross Laidlaw",
+		"Andrew Hart",
+		"Joseph F. White",
+		"Rémi Maréchal"
+	],
+	"url_scm":"https://gitbox.apache.org/repos/asf?p=sis.git/sis-embedded-data",
+	"url_ci_management":"https://ci-builds.apache.org/job/SIS/",
+	"count_used_by":12,
+	"license":"Apache 2.0",
+	"ranking":"#41059 in MvnRepository",
+	"tags":[
+		"embedded",
+		"data",
+		"apache"
+	],
+	"versions":[
+		{
+			"date":"20251006",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.5",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20231012",
+			"repository":"Central",
+			"type":"release",
+			"usage":8,
+			"version":"1.4",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20221225",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.3",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20220518",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20211006",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"1.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20190920",
+			"repository":"Central",
+			"type":"release",
+			"usage":6,
+			"version":"1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20171110",
+			"repository":"Central",
+			"type":"release",
+			"usage":2,
+			"version":"0.8",
+			"vulnerabilities":""
+		}
+	]
+}

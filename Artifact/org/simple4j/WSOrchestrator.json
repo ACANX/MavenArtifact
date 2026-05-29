@@ -1,0 +1,47 @@
+{
+	"id":"pkg:maven/org.simple4j/WSOrchestrator",
+	"description":"This is a simple orchestrator for  Web Service API calls.\n\t\n\tIt supports hierarchy of flows and steps with wiring of request response objects using templated variable replacement.\n\tPeer steps in a flow are executed in sequence and the peer flows are executed in parallel across multiple threads.\n\t\n\tA flow can have series of steps and sub-flows. They are executed in the natural ordering of their names.\n\tBased on natural ordering,\n\t\tif there are sequence of steps,\n\t\tfollowed by sequence of sub-flows,\n\t\tfollowed by another set of steps,\n\t\t\tthen the first set of steps will be executed in sequence,\n\t\t\tthen the sub-flows will be executed in parallel,\n\t\t\tthen wait for all the sub-flows to finish\n\t\t\tand execute the second set of steps in sequence.",
+	"group_id":"org.simple4j",
+	"artifact_id":"WSOrchestrator",
+	"version_latest":"26.04.19.0",
+	"ts_publish":1776635194000,
+	"dt_publish":"2026-04-20 05:46:34.000",
+	"ts_update":1776639462561,
+	"dt_update":"2026-04-20 06:27:24.601",
+	"count_dep":36,
+	"count_ref":0,
+	"licenses":[
+		"MIT License"
+	],
+	"categories":[
+		"Uncategorized"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/simple4j/WSOrchestrator",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.simple4j/WSOrchestrator@25.12.06.2",
+	"contributors":[
+		"Srinivas Janakiraman"
+	],
+	"url_scm":"https://github.com/simple4j/WSOrchestrator",
+	"home_page":"https://github.com/simple4j/WSOrchestrator",
+	"license":"MIT",
+	"ranking":"#568661 in MvnRepository",
+	"versions":[
+		{
+			"date":"20251222",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"25.12.22.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20251207",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"25.12.06.2",
+			"vulnerabilities":""
+		}
+	]
+}

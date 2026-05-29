@@ -1,0 +1,90 @@
+{
+	"id":"pkg:maven/org.apache.hive/hive-iceberg-shading",
+	"description":"This module collects all required Iceberg modules and their dependencies, and shades them.\n        Consuming modules only need to mark this module as their dependency to get any required Iceberg libs.\n        This module has no sources of its own, only the built jar file contains the gathered and shaded libs.\n        For Intellij this module is recommended to be ignored, to avoid the dependent modules considering this as a\n        module dependency, they should see this as a library dependency instead.",
+	"group_id":"org.apache.hive",
+	"artifact_id":"hive-iceberg-shading",
+	"version_latest":"4.2.0",
+	"ts_publish":1763420184000,
+	"dt_publish":"2025-11-18 06:56:24.000",
+	"ts_update":1768328819579,
+	"dt_update":"2026-01-11 00:20:50.271",
+	"count_dep":10,
+	"count_ref":3,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"categories":[
+		"Data Warehouse"
+	],
+	"dsv":1,
+	"url_project":"https://hive.apache.org/hive-iceberg/hive-iceberg-shading",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.apache.hive/hive-iceberg-shading@4.1.0",
+	"url_scm":"https://github.com/apache/maven-apache-parent/tree/apache-23/hive/hive-iceberg/hive-iceberg-shading",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#206109 in MvnRepository",
+	"tags":[
+		"hadoop",
+		"apache",
+		"hive",
+		"iceberg"
+	],
+	"versions":[
+		{
+			"date":"20251123",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.2.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20250719",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.1.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20241002",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20240329",
+			"repository":"Central",
+			"type":"release",
+			"usage":1,
+			"version":"4.0.0",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20230815",
+			"repository":"Central",
+			"type":"beta",
+			"usage":1,
+			"version":"4.0.0-beta-1",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20221116",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"4.0.0-alpha-2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20220331",
+			"repository":"Central",
+			"type":"alpha",
+			"usage":1,
+			"version":"4.0.0-alpha-1",
+			"vulnerabilities":""
+		}
+	]
+}

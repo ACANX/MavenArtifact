@@ -1,0 +1,22 @@
+{
+  "id": "pkg:maven/dev.fitko.fitconnect/sdk-build-parent",
+  "description": "Shared build infrastructure for the FIT-Connect modular SDK: plugin management,\n        third-party dependency versions, the GPG signing profile, and the Sonatype\n        Central publishing configuration. Each published module inherits from this POM.\n\n        This artifact is versioned independently from the SDK modules and is bumped\n        rarely (plugin upgrades, third-party version refreshes). It is published to\n        Maven Central so external consumers building against the SDK source can\n        reproduce the toolchain.",
+  "group_id": "dev.fitko.fitconnect",
+  "artifact_id": "sdk-build-parent",
+  "version_latest": "1.0.0-alpha.1",
+  "ts_publish": 1777988412000,
+  "dt_publish": "2026-05-05 21:40:12.000",
+  "ts_update": 1777996730268,
+  "dt_update": "2026-05-05 23:58:50.268",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "Apache-2.0",
+    "CC0-1.0",
+    "EUPL-1.2"
+  ],
+  "categories": [
+    "Uncategorized"
+  ],
+  "dsv": 1
+}

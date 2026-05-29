@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.libsecurity/google-http-client-jackson2-secure",
+	"description":"Security-patched wrapper for com.google.http-client:google-http-client-jackson2.\n        Forces grpc-netty-shaded to 1.78.0 to fix CVE-2025-55163.\n\n        Original package: com.google.http-client:google-http-client-jackson2:1.47.0\n        AI Compatibility Assessment: COMPATIBLE (호환)\n        - HTTP Client 라이브러리로 gRPC 직접 사용 안함\n        - 전이 의존성만 존재, 버전 오버라이드 안전\n        - 빌드/런타임 영향 없음",
+	"group_id":"io.github.libsecurity",
+	"artifact_id":"google-http-client-jackson2-secure",
+	"version_latest":"1.0.0",
+	"ts_publish":1770091135000,
+	"dt_publish":"2026-02-03 11:58:55.000",
+	"ts_update":1770304040000,
+	"dt_update":"2026-02-03 12:12:10.916",
+	"count_dep":18,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/libsecurity/secure-maven-wrappers/google-http-client-jackson2-secure",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.github.libsecurity/google-http-client-jackson2-secure@1.0.0",
+	"contributors":[
+		"Your Name"
+	],
+	"url_scm":"https://github.com/libsecurity/secure-maven-wrappers/google-http-client-jackson2-secure"
+}

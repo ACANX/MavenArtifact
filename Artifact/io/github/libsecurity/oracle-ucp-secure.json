@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.libsecurity/oracle-ucp-secure",
+	"description":"Security-patched wrapper for com.oracle.database.jdbc:ucp.\n        Forces grpc-netty-shaded to 1.78.0 to fix CVE-2025-55163.\n\n        Original package: com.oracle.database.jdbc:ucp:23.7.0.25.01\n        AI Compatibility Assessment: COMPATIBLE (호환)\n        - JDBC Connection Pool 전용 라이브러리\n        - gRPC는 선택적 모듈, 핵심 기능 무관\n        - DB 연결/풀링에 영향 없음",
+	"group_id":"io.github.libsecurity",
+	"artifact_id":"oracle-ucp-secure",
+	"version_latest":"1.0.0",
+	"ts_publish":1770091135000,
+	"dt_publish":"2026-02-03 11:58:55.000",
+	"ts_update":1776502633225,
+	"dt_update":"2026-02-03 12:12:10.917",
+	"count_dep":3,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/libsecurity/secure-maven-wrappers/oracle-ucp-secure",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.libsecurity:oracle-ucp-secure/1.0.0",
+	"contributors":[
+		"Your Name"
+	],
+	"url_scm":"https://github.com/libsecurity/secure-maven-wrappers/oracle-ucp-secure"
+}

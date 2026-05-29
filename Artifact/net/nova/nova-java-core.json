@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/net.nova/nova-java-core",
+	"description":"The Nova API exposes programmatic access to fund operations including\ndistributions, vehicles, entities, and contacts. Authentication is via OAuth2\nclient*credentials with per-scope authorization. Live and test mode share the\nsame host (`api.nova.net`); the mode is discriminated by the credential prefix\n(`sk_prod*_`vs`sk*test*_`). All write operations require an `X-Organization-Id`\nheader identifying the acting organization.",
+	"group_id":"net.nova",
+	"artifact_id":"nova-java-core",
+	"version_latest":"0.5.0",
+	"ts_publish":1778790459000,
+	"dt_publish":"2026-05-15 04:27:39.000",
+	"ts_update":1778795360934,
+	"dt_update":"2026-05-15 05:28:02.642",
+	"count_dep":12,
+	"count_ref":3,
+	"licenses":[
+		"Apache-2.0"
+	],
+	"dsv":1,
+	"url_project":"https://docs.nova.net",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/net.nova:nova-java-core/0.2.0",
+	"contributors":[
+		"Nova SDK"
+	],
+	"url_scm":"https://github.com/nova-net/nova-java"
+}

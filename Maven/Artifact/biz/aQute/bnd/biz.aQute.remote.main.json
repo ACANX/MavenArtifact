@@ -1,0 +1,21 @@
+{
+  "id": "pkg:maven/biz.aQute.bnd/biz.aQute.remote.main",
+  "description": "A main program (executable JAR) that will listen to port 29998. At first, it can only answer that it is an Envoy (a limited agent). The only function it supports is installing a -runpath. It will then create a framework + agent and transfer the connection to the just installed agent who will then install the bundles. This JAR is a main command for JPM called bndremote. In JPM, it will start up with debug enabled. This JAR does some highly complicated class loading wizardy to ensure that it does not enforce any constraints on the -runpath.",
+  "group_id": "biz.aQute.bnd",
+  "artifact_id": "biz.aQute.remote.main",
+  "version_latest": "7.2.2",
+  "ts_publish": 1774415480000,
+  "dt_publish": "2026-03-25 13:11:20.000",
+  "ts_update": 1774416410269,
+  "dt_update": "2026-03-25 13:26:50.269",
+  "count_dep": 16,
+  "count_ref": 0,
+  "licenses": [
+    "(Apache-2.0 OR EPL-2.0)"
+  ],
+  "categories": [
+    "Programming Language Utilities",
+    "OSGi Libraries"
+  ],
+  "dsv": 1
+}

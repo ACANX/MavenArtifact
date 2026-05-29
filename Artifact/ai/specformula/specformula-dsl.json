@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/ai.specformula/specformula-dsl",
+	"description":"DSL Compilation Layer — preprocesses .dsl.feature files by expanding\n        DSL steps into ISA step text before BDD frameworks parse them.\n        Also provides @Mojo for Maven generate-test-sources phase integration.\n\n        ADR-0024 之獨立性要求為「不依賴 Cucumber engine / ISA 執行引擎」；\n        對 specformula-core 之 compile-time 依賴（ADR-0026 error taxonomy）允許。",
+	"group_id":"ai.specformula",
+	"artifact_id":"specformula-dsl",
+	"version_latest":"0.0.3",
+	"ts_publish":1779128061000,
+	"dt_publish":"2026-05-19 02:14:21.000",
+	"ts_update":1779146862340,
+	"dt_update":"2026-05-19 04:58:13.271",
+	"count_dep":43,
+	"count_ref":0,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/SpecFormula/specformula-dev-framework/specformula-dsl",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/ai.specformula:specformula-dsl/0.0.3",
+	"contributors":[
+		"SpecFormula Team"
+	],
+	"url_scm":"https://github.com/SpecFormula/specformula-dev-framework/tree/ALPHA/specformula-dsl"
+}

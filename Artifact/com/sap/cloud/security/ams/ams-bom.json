@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.sap.cloud.security.ams/ams-bom",
+	"description":"Bill of Materials (BOM) for SAP Authorization Management Service (AMS) Client Libraries.\n\n        NOTE: This BOM only manages versions for AMS library artifacts. Due to Maven's BOM inheritance behavior,\n        dependency versions from AMS module parent POMs may still be visible to consumers. Applications should\n        explicitly declare versions for test dependencies (junit, logback, mockito) if they need different versions\n        than what the AMS library uses internally.",
+	"group_id":"com.sap.cloud.security.ams",
+	"artifact_id":"ams-bom",
+	"version_latest":"4.1.2",
+	"ts_publish":1778571067000,
+	"dt_publish":"2026-05-12 15:31:07.000",
+	"ts_update":1778587313955,
+	"dt_update":"2026-05-12 16:57:06.646",
+	"count_dep":0,
+	"count_ref":0,
+	"licenses":[
+		"SAP DEVELOPER LICENSE AGREEMENT"
+	],
+	"dsv":1,
+	"url_project":"https://sap.github.io/cloud-identity-developer-guide",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.sap.cloud.security.ams:ams-bom/4.1.0",
+	"contributors":[
+		"SAP"
+	],
+	"url_scm":"https://github.com/SAP/cloud-identity-developer-guide"
+}

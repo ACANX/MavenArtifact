@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.tailosoft/keycloak-cross-realm-impersonation-mapper",
+	"description":"OIDC protocol mapper that reads a `target_realm` form parameter at the token endpoint\n        and, when the user holds the `impersonation` client role on `{target_realm}-realm`,\n        narrows that role into the access token's `resource_access` claim. Enables a\n        master-realm user to impersonate users in any tenant realm without inflating the\n        default token with per-client role dumps for every tenant.",
+	"group_id":"com.tailosoft",
+	"artifact_id":"keycloak-cross-realm-impersonation-mapper",
+	"version_latest":"1.1.0",
+	"ts_publish":1777013274000,
+	"dt_publish":"2026-04-24 14:47:54.000",
+	"ts_update":1777021069604,
+	"dt_update":"2026-04-24 15:29:07.075",
+	"count_dep":159,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/tailosoft/keycloak-cross-realm-impersonation-mapper",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.tailosoft:keycloak-cross-realm-impersonation-mapper/1.1.0",
+	"contributors":[
+		"Tailosoft"
+	],
+	"url_scm":"https://github.com/tailosoft/keycloak-cross-realm-impersonation-mapper"
+}

@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.ralfspoeth/log-weaver",
+	"description":"Bytecode-level logging weaver driven by the Log/LogAll annotations from log-api.\n        Modules:\n        - log-api                 : the Log / LogAll annotation types\n        - log-weaver-core         : transformation engine (no build-tool dependencies)\n        - log-weaver-maven-plugin : @Mojo wrapping the core for the Maven build\n        - log-weaver-agent        : Java agent wrapping the core as a ClassFileTransformer\n        - log-weaver-bom          : Bill of Materials importing all of the above at one version",
+	"group_id":"io.github.ralfspoeth",
+	"artifact_id":"log-weaver",
+	"version_latest":"0.11",
+	"ts_publish":1778452390000,
+	"dt_publish":"2026-05-11 06:33:10.000",
+	"ts_update":1778468301604,
+	"dt_update":"2026-05-11 10:57:25.480",
+	"count_dep":0,
+	"count_ref":0,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/ralfspoeth/log-weaver",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.ralfspoeth:log-weaver/0.1",
+	"contributors":[
+		"Ralf Spöth"
+	],
+	"url_scm":"scm:git:https://github.com/ralfspoeth/log-weaver"
+}

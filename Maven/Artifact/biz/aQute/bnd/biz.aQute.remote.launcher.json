@@ -1,0 +1,21 @@
+{
+  "id": "pkg:maven/biz.aQute.bnd/biz.aQute.remote.launcher",
+  "description": "A launcher for the bnd launch architecture. This JAR contains a Launcher-Plugin. This plugin is found when you put this JAR on the -runpath of a launch specification in either a bndrun or bnd file. This launcher will read the -runremote header and contact a remote agent. The remote agent can be either a biz.aQute.remote.main, which will run as main, or a biz.aQute.remote.agent, which will run as a bundle. This JAR contains the agent so if the remote agent is a main then it will install the agent in this JAR.",
+  "group_id": "biz.aQute.bnd",
+  "artifact_id": "biz.aQute.remote.launcher",
+  "version_latest": "7.2.2",
+  "ts_publish": 1774415480000,
+  "dt_publish": "2026-03-25 13:11:20.000",
+  "ts_update": 1774416409617,
+  "dt_update": "2026-03-25 13:26:49.617",
+  "count_dep": 16,
+  "count_ref": 0,
+  "licenses": [
+    "(Apache-2.0 OR EPL-2.0)"
+  ],
+  "categories": [
+    "Programming Language Utilities",
+    "OSGi Libraries"
+  ],
+  "dsv": 1
+}

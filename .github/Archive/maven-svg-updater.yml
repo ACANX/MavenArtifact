@@ -1,0 +1,253 @@
+name: MavenArtifactSVGUpdater
+
+on:
+  repository_dispatch:
+    types: [update_maven_svg]  # 自定义事件类型
+
+jobs:
+  process-svg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 需要写入权限
+      pull-requests: write  # 需要PR权限
+    
+    steps:
+    # 1. 检出仓库
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        ref: dev  # 基于dev分支工作
+        fetch-depth: 0
+
+    # 2. 设置Python环境
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        
+    # 验证传入参数（增强安全性）
+    - name: Validate parameters
+      run: |
+        # 验证groupId格式
+        if [[ ! "${{ env.GROUP_ID }}" =~ ^[a-z0-9_]+(\.[a-z0-9_]+)*$ ]]; then
+          echo "::error::Invalid groupId format"
+          exit 1
+        fi
+        
+        # 验证artifactId格式
+        if [[ ! "${{ env.ARTIFACT_ID }}" =~ ^[a-z0-9_-]+$ ]]; then
+          echo "::error::Invalid artifactId format"
+          exit 1
+        fi
+        
+        # 防止路径遍历攻击
+        if [[ "${{ env.SVG_PATH }}" == *".."* ]]; then
+          echo "::error::Path traversal detected"
+          exit 1
+        fi
+
+
+    # 3. 解析传入的参数
+    - name: Parse input parameters
+      id: parse-params
+      run: |
+        # 从事件负载中提取参数
+        GROUP_ID=$(echo '${{ toJson(github.event.client_payload) }}' | jq -r '.groupId')
+        ARTIFACT_ID=$(echo '${{ toJson(github.event.client_payload) }}' | jq -r '.artifactId')
+        
+        # 验证参数
+        if [ -z "$GROUP_ID" ] || [ -z "$ARTIFACT_ID" ]; then
+          echo "::error::Missing required parameters: groupId or artifactId"
+          exit 1
+        fi
+        
+        # 标准化路径格式
+        GROUP_PATH=$(echo "$GROUP_ID" | tr '.' '/')
+        SVG_DIR="maven/$GROUP_PATH/$ARTIFACT_ID"
+        SVG_PATH="$SVG_DIR/$ARTIFACT_ID.svg"
+        
+        # 设置环境变量
+        echo "GROUP_ID=$GROUP_ID" >> $GITHUB_ENV
+        echo "ARTIFACT_ID=$ARTIFACT_ID" >> $GITHUB_ENV
+        echo "SVG_PATH=$SVG_PATH" >> $GITHUB_ENV
+        echo "SVG_DIR=$SVG_DIR" >> $GITHUB_ENV
+        
+        echo "SVG will be saved to: $SVG_PATH"
+
+#     # 4. 创建或更新SVG文件
+#     - name: GenerateSVGcontent
+#       run: |
+#         # 确保目录存在
+#         mkdir -p "${{ env.SVG_DIR }}"
+        
+#         # 获取当前时间
+#         TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+        
+#         # 生成SVG内容（实际应用中应替换为真实的版本和引用量数据）
+#         SVG_CONTENT=$(cat <<EOF
+# <svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+#   <!-- 背景 -->
+#   <rect width="100%" height="100%" fill="#f5f5f5" rx="10" ry="10"/>
+  
+#   <!-- 标题 -->
+#   <text x="50%" y="30" text-anchor="middle" font-family="Arial" font-size="20" fill="#333">
+#     Maven Artifact Info
+#   </text>
+  
+#   <!-- 信息框 -->
+#   <rect x="50" y="60" width="300" height="100" rx="5" ry="5" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+#   <!-- 构件信息 -->
+#   <g font-family="Arial" font-size="14" fill="#333">
+#     <text x="70" y="90">Group ID:</text>
+#     <text x="180" y="90" font-weight="bold">${{ env.GROUP_ID }}</text>
+    
+#     <text x="70" y="115">Artifact ID:</text>
+#     <text x="180" y="115" font-weight="bold">${{ env.ARTIFACT_ID }}</text>
+    
+#     <text x="70" y="140">Latest Version:</text>
+#     <text x="180" y="140" font-weight="bold">1.2.3</text>
+    
+#     <text x="70" y="165">Usage Count:</text>
+#     <text x="180" y="165" font-weight="bold">1,245</text>
+#   </g>
+  
+#   <!-- 时间戳 -->
+#   <text x="50%" y="190" text-anchor="middle" font-family="Arial" font-size="10" fill="#888">
+#     Generated at: $TIMESTAMP
+#   </text>
+# </svg>
+# EOF
+#         )
+        
+#         # 写入文件
+#         echo "$SVG_CONTENT" > "${{ env.SVG_PATH }}"
+        
+#         # 验证文件
+#         if ! xmllint --noout "${{ env.SVG_PATH }}"; then
+#           echo "::error::Invalid SVG generated!"
+#           exit 1
+#         fi
+
+
+    - name: GenerateSVGWithRealData
+      run: |
+        # 安装依赖
+        pip install requests beautifulsoup4
+        
+        # 创建Python脚本
+        cat > generate_svg.py <<EOF
+import os
+import requests
+from datetime import datetime
+from bs4 import BeautifulSoup
+
+# 从环境变量获取参数
+group_id = os.environ['GROUP_ID']
+artifact_id = os.environ['ARTIFACT_ID']
+svg_path = os.environ['SVG_PATH']
+svg_dir = os.environ['SVG_DIR']
+
+# 确保目录存在
+os.makedirs(svg_dir, exist_ok=True)
+
+# 获取Maven Central数据
+def get_maven_data(group_id, artifact_id):
+    base_url = f"https://search.maven.org/solrsearch/select?q=g:{group_id}+AND+a:{artifact_id}"
+    response = requests.get(base_url)
+    data = response.json()
+    
+    if data['response']['numFound'] == 0:
+        return None
+    
+    latest_version = data['response']['docs'][0]['latestVersion']
+    usage_url = f"https://mvnrepository.com/artifact/{group_id}/{artifact_id}"
+    
+    # 获取引用量（需要解析HTML）
+    usage_response = requests.get(usage_url)
+    soup = BeautifulSoup(usage_response.text, 'html.parser')
+    usage_element = soup.find('a', {'href': f'#usages-{artifact_id}'})
+    usage_count = usage_element.text.split()[0] if usage_element else "N/A"
+    
+    return {
+        'latest_version': latest_version,
+        'usage_count': usage_count
+    }
+
+# 获取数据
+maven_data = get_maven_data(group_id, artifact_id) or {
+    'latest_version': 'N/A',
+    'usage_count': 'N/A'
+}
+
+# 生成SVG内容
+timestamp = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="#f5f5f5" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="50%" y="30" text-anchor="middle" font-family="Arial" font-size="20" fill="#333">
+    Maven Artifact Info
+  </text>
+  
+  <!-- 信息框 -->
+  <rect x="50" y="60" width="300" height="100" rx="5" ry="5" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- 构件信息 -->
+  <g font-family="Arial" font-size="14" fill="#333">
+    <text x="70" y="90">Group ID:</text>
+    <text x="180" y="90" font-weight="bold">{group_id}</text>
+    
+    <text x="70" y="115">Artifact ID:</text>
+    <text x="180" y="115" font-weight="bold">{artifact_id}</text>
+    
+    <text x="70" y="140">Latest Version:</text>
+    <text x="180" y="140" font-weight="bold">{maven_data['latest_version']}</text>
+    
+    <text x="70" y="165">Usage Count:</text>
+    <text x="180" y="165" font-weight="bold">{maven_data['usage_count']}</text>
+  </g>
+  
+  <!-- 时间戳 -->
+  <text x="50%" y="190" text-anchor="middle" font-family="Arial" font-size="10" fill="#888">
+    Generated at: {timestamp}
+  </text>
+</svg>'''
+
+# 写入文件
+with open(svg_path, 'w') as f:
+    f.write(svg_content)
+    
+print(f"Generated SVG for {group_id}:{artifact_id} at {svg_path}")
+EOF
+
+    # 执行脚本
+    python generate_svg.py
+
+
+        
+    # 5. 提交更改
+    - name: Commit SVG changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: 'Maven SVG Updater'
+        author_email: 'actions@users.noreply.github.com'
+        message: "Update SVG for ${{ env.GROUP_ID }}:${{ env.ARTIFACT_ID }} [skip ci]"
+        add: "${{ env.SVG_PATH }}"
+        branch: "svg-update-${{ env.ARTIFACT_ID }}"  # 创建特性分支
+
+    # 6. 创建并合并PR
+    - name: Create and merge PR
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "Merge SVG update for ${{ env.GROUP_ID }}:${{ env.ARTIFACT_ID }}"
+        title: "Update SVG for ${{ env.GROUP_ID }}:${{ env.ARTIFACT_ID }}"
+        body: "Automatically generated SVG update for Maven artifact"
+        base: dev  # 目标分支
+        branch: "svg-update-${{ env.ARTIFACT_ID }}"  # 源分支
+        delete-branch: true  # 合并后删除分支
+        labels: automated
+        auto-merge: true  # 启用自动合并
+        merge-method: squash  # 合并方式

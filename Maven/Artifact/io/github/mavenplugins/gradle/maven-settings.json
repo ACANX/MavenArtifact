@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.mavenplugins.gradle/maven-settings",
+  "description": "Gradle plugin for exposing Maven settings file configuration to Gradle Settings and projects.\n    Originally forked from https://github.com/rmanibus/gradle-maven-settings-plugin.\n    The plugin has been extended to be used in Settings and Project scope.\n    Allows Gradle settings and build scripts to access and use the configuration defined in the user's Maven settings.xml file.\n    Repositories, server credentials, mirrors and active profile properties are provided to Gradle configuration.\n    The plugin supports global and user-specific Maven settings.xml files and respects Maven's rules for merging them.\n    Decryption of encrypted passwords in the Maven settings.xml file is implemented making use of the Maven settings-security.xml.\n    Look at the plugin's GitHub repository for usage instructions and details on enhancements of the original implementation.",
+  "group_id": "io.github.mavenplugins.gradle",
+  "artifact_id": "maven-settings",
+  "version_latest": "1.1.0",
+  "ts_publish": 1776346007000,
+  "dt_publish": "2026-04-16 21:26:47.000",
+  "ts_update": 1776347178479,
+  "dt_update": "2026-04-16 21:46:18.479",
+  "count_dep": 7,
+  "count_ref": 1,
+  "licenses": [
+    "Apache Software License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

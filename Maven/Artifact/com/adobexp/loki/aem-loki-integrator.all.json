@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.adobexp.loki/aem-loki-integrator.all",
+  "description": "Content package that installs the aem-loki-integrator.core bundle under\n        /apps/aem-loki-integrator-packages/application/install. The 2.x forwarder\n        uses only the OSGi Log Reader Service and java.net.http, so no fragment\n        or Logback appender is embedded. No default OSGi configuration is\n        shipped; the forwarder stays dormant until a configuration for\n        com.adobexp.aem.loki.LogbackLokiBootstrap is deployed by the consuming\n        project (see ../example-osgi-config).",
+  "group_id": "com.adobexp.loki",
+  "artifact_id": "aem-loki-integrator.all",
+  "version_latest": "3.2.0",
+  "ts_publish": 1777031083000,
+  "dt_publish": "2026-04-24 19:44:43.000",
+  "ts_update": 1777034517250,
+  "dt_update": "2026-04-24 20:41:57.250",
+  "count_dep": 1,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

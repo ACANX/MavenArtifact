@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.captainssingapura-hue.homing.js/homing-libs",
+	"description":"Bundled 3rd-party JavaScript libraries served self-contained from the homing.js classpath.\n\n        Each library is declared as a Java class implementing BundledExternalModule. The\n        LibDownloader tool reads the source URL from each declaration, downloads the bundle\n        at build time, verifies the SHA-512 against the pinned hash, and copies the file\n        onto the classpath at the declared resource path. Subsequent builds use the local\n        Maven cache and run fully offline.",
+	"group_id":"io.github.captainssingapura-hue.homing.js",
+	"artifact_id":"homing-libs",
+	"version_latest":"0.2.0",
+	"ts_publish":1779779932000,
+	"dt_publish":"2026-05-26 15:18:52.000",
+	"ts_update":1779823664989,
+	"dt_update":"2026-05-26 16:27:27.763",
+	"count_dep":3,
+	"count_ref":2,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/captainssingapura-hue/homing-ssjs-core/homing-libs",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.captainssingapura-hue.homing.js:homing-libs/0.0.1",
+	"contributors":[
+		"captainssingapura-hue"
+	],
+	"url_scm":"https://github.com/captainssingapura-hue/homing-ssjs-core/homing-libs"
+}

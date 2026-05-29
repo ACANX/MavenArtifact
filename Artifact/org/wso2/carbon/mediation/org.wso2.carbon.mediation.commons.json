@@ -1,0 +1,26 @@
+{
+	"id":"pkg:maven/org.wso2.carbon.mediation/org.wso2.carbon.mediation.commons",
+	"description":"This module is common library module used by both WSO2 EI and WSO2 MI.\n        This contains utility library modules.\n        Note: Please follow below guides when adding new packages\n            1. AVOID adding any OSGI Declarative services\n            2. AVOID adding WSO2 specific modules as dependencies.\n                For example: Carbon-Kernel, Carbon-Registry\n            3. No restrictions to add any third party dependencies (that comply with WSO2 license policies)\n                For example: Axis2, Synapse, Axiom, etc.",
+	"group_id":"org.wso2.carbon.mediation",
+	"artifact_id":"org.wso2.carbon.mediation.commons",
+	"version_latest":"4.8.18",
+	"ts_publish":1778044791000,
+	"dt_publish":"2026-05-06 13:19:51.000",
+	"ts_update":1778048888980,
+	"dt_update":"2026-05-06 14:27:33.227",
+	"count_dep":109,
+	"count_ref":5,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
+	"categories":[
+		"Uncategorized"
+	],
+	"dsv":1,
+	"url_project":"http://wso2.org/org.wso2.carbon.mediation.commons",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/org.wso2.carbon.mediation:org.wso2.carbon.mediation.commons/4.8.17",
+	"contributors":[
+		"WSO2 Developer"
+	],
+	"url_scm":"https://github.com/wso2/carbon-mediation.git/org.wso2.carbon.mediation.commons"
+}

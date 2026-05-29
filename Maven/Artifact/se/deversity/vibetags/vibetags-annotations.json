@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/se.deversity.vibetags/vibetags-annotations",
+  "description": "VibeTags annotation classes (@AILocked, @AIContext, @AIDraft, @AIAudit,\n        @AIIgnore, @AIPrivacy, @AICore, @AIPerformance). Zero third-party dependencies.\n        All annotations use RetentionPolicy.SOURCE so they leave no trace in the\n        consumer's compiled bytecode — this jar exists purely to give javac the\n        symbols it needs at compile time.\n\n        Pair this with vibetags-processor on the annotation-processor classpath:\n\n        Maven:\n            <dependency>\n                <groupId>se.deversity.vibetags</groupId>\n                <artifactId>vibetags-annotations</artifactId>\n                <version>0.9.7</version>\n            </dependency>\n\n        Gradle:\n            compileOnly 'se.deversity.vibetags:vibetags-annotations:0.9.7'\n            annotationProcessor 'se.deversity.vibetags:vibetags-processor:0.9.7'",
+  "group_id": "se.deversity.vibetags",
+  "artifact_id": "vibetags-annotations",
+  "version_latest": "0.9.8",
+  "ts_publish": 1779741364000,
+  "dt_publish": "2026-05-26 04:36:04.000",
+  "ts_update": 1779747603572,
+  "dt_update": "2026-05-26 06:20:03.572",
+  "count_dep": 0,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

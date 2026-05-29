@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.callibrity.mocapi/mocapi-jakarta-validation-spring-boot-starter",
+  "description": "Spring Boot starter that turns on Jakarta Bean Validation for a mocapi app: bundles the Hibernate-backed validator (spring-boot-starter-validation), methodical's method-level validator factory, and ripcurl's ConstraintViolationException-to-JSON-RPC translator. Adding this starter lets users annotate @ToolMethod / @PromptMethod / @ResourceTemplateMethod parameters with @NotBlank/@Size/@Pattern/etc.; violations in prompt and resource handlers surface as JSON-RPC -32602 Invalid params with per-violation detail in the response's data field, and violations in tool handlers surface as CallToolResult.isError=true via mocapi's existing exception path — matching the MCP 2025-11-25 spec's error-reporting model for each handler type.",
+  "group_id": "com.callibrity.mocapi",
+  "artifact_id": "mocapi-jakarta-validation-spring-boot-starter",
+  "version_latest": "0.10.0",
+  "ts_publish": 1776545401000,
+  "dt_publish": "2026-04-19 04:50:01.000",
+  "ts_update": 1776546376760,
+  "dt_update": "2026-04-19 05:06:16.760",
+  "count_dep": 45,
+  "count_ref": 0,
+  "licenses": [
+    "Apache 2"
+  ],
+  "categories": null,
+  "dsv": 1
+}

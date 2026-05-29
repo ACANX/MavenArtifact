@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/in.buddyai/buddyai-agent-sdk",
+	"description":"Plugin contract for BuddyAI agents.\n\n        Contains: AgentContract, AgentTool, AgentSkill, AgentContext,\n        AgentLogEvent, AgentLogSink, AgentManifest,\n        ToolResult, ToolInput,\n        ApprovalRequest, ApprovalResult.\n\n        Rules:\n        - ZERO external runtime dependencies (pure JDK 21)\n        - Only slf4j-api (no binding) and lombok (provided/compile-only)\n        - This is the ONLY BuddyAI jar that agents should depend on\n        - Never add platform, Spring, or Anthropic SDK here",
+	"group_id":"in.buddyai",
+	"artifact_id":"buddyai-agent-sdk",
+	"version_latest":"1.0.1",
+	"ts_publish":1776114883000,
+	"dt_publish":"2026-04-14 05:14:43.000",
+	"ts_update":1776622149633,
+	"dt_update":"2026-04-14 05:27:00.497",
+	"count_dep":3,
+	"count_ref":2,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/buddyai-in/buddyai-agentic-framework/buddyai-agent-sdk",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/in.buddyai:buddyai-agent-sdk/1.0.1",
+	"contributors":[
+		"Jitendra Sagoriya"
+	],
+	"url_scm":"https://github.com/buddyai-in/buddyai-agentic-framework/buddyai-agent-sdk"
+}

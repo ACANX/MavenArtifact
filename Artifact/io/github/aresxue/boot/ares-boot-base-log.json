@@ -1,0 +1,48 @@
+{
+	"id":"pkg:maven/io.github.aresxue.boot/ares-boot-base-log",
+	"description":"日志模块，集成log4j2,  提供工具类可静态打印日志, 业务可import通用日志配置(中间件配置和业务基础配置)开箱即用，\n    另外还提供http接口出入参打印和rpc提供者和消费者的出入参打印(有开关可以热启动和热关闭，同时可在线修改日志级别)，\n    traceId在日志中进行输出以及普通文件日志之外的结构化日志( 供运维采集分析可视化)，提供全链路信息（包括tid）跨线程跨线程池的能力\n    Log module, integrates log4j2, provides tool classes that can print logs statically,\n    business can import common log configurations (middleware configuration\n    and business basic configuration) out of the box, and also provides http interface input\n    and output parameter printing and rpc providers and consumers. Input and output\n    parameter printing (there is a switch for hot start and hot shutdown, and the log level can be\n    modified online), traceId is output in the log and structured logs other than ordinary file logs\n    (for operation and maintenance collection and analysis visualization). The ability to provide\n    full link information (including tid) across threads across thread pools.",
+	"group_id":"io.github.aresxue.boot",
+	"artifact_id":"ares-boot-base-log",
+	"version_latest":"1.1.1-base",
+	"ts_publish":1766478719000,
+	"dt_publish":"2025-12-23 16:31:59.000",
+	"ts_update":1766480224038,
+	"dt_update":"2025-12-23 16:56:41.126",
+	"count_dep":20,
+	"count_ref":3,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/Aresxue/ares-boot-dependency/ares-boot-dependency-management/ares-boot/ares-boot-base/ares-boot-base-log",
+	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.github.aresxue.boot/ares-boot-base-log@1.0.3",
+	"contributors":[
+		"Ares Xue"
+	],
+	"url_scm":"https://github.com/Aresxue/ares-parent/ares-boot-base/ares-boot-base-log",
+	"count_used_by":2,
+	"license":"Apache 2.0",
+	"ranking":"#191461 in MvnRepository",
+	"tags":[
+		"github",
+		"logging"
+	],
+	"versions":[
+		{
+			"date":"20240105",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.2",
+			"vulnerabilities":""
+		},
+		{
+			"date":"20230512",
+			"repository":"Central",
+			"type":"release",
+			"usage":0,
+			"version":"1.0.0",
+			"vulnerabilities":""
+		}
+	]
+}
