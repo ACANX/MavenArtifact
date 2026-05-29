@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.x-infra-lab/raft-storage-rocksdb",
+  "description": "RocksDB-backed implementation of the raft Storage interface.\n        Atomic Ready-cycle persistence via WriteBatchWithIndex; snapshots\n        stored as a single key (host should checkpoint to a separate\n        RocksDB column family for >GB snapshots).",
+  "group_id": "io.github.x-infra-lab",
+  "artifact_id": "raft-storage-rocksdb",
+  "version_latest": "0.1.0-alpha",
+  "ts_publish": 1780081698000,
+  "dt_publish": "2026-05-30 03:08:18.000",
+  "ts_update": 1780086432833,
+  "dt_update": "2026-05-30 04:27:12.833",
+  "count_dep": 4,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

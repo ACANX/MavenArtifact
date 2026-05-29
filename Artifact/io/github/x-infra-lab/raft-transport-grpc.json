@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.x-infra-lab/raft-transport-grpc",
+	"description":"gRPC implementation of the raft Transport interface. One unary RPC\n        per non-snapshot message; a server-side stream is used for\n        snapshot install so the >2GB protobuf single-message ceiling\n        doesn't cap snapshot size.",
+	"group_id":"io.github.x-infra-lab",
+	"artifact_id":"raft-transport-grpc",
+	"version_latest":"0.1.0-alpha",
+	"ts_publish":1780081698000,
+	"dt_publish":"2026-05-30 03:08:18.000",
+	"ts_update":1780086443951,
+	"dt_update":"2026-05-30 04:27:12.832",
+	"count_dep":18,
+	"count_ref":0,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/x-infra-lab/x-raft-lib/raft-transport-grpc",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.x-infra-lab:raft-transport-grpc/0.1.0-alpha",
+	"contributors":[
+		"JoeCqupt"
+	],
+	"url_scm":"https://github.com/x-infra-lab/x-raft-lib/raft-transport-grpc"
+}
