@@ -1,0 +1,27 @@
+{
+	"id":"pkg:maven/net.razorvine/serpent",
+	"description":"Serpent serializes an object tree into a Python ast.literal_eval() compatible literal expression. It is safe to send serpent data to other machines over the network for instance\n(because only 'safe' literals are encoded).\nThere is also a deserializer or parse provided that turns such a literal expression back into the appropriate Java object tree.\n\nIt is an alternative to JSON to provide easy data integration between Java and Python.  Serpent is more expressive as JSON (it supports more data types).",
+	"group_id":"net.razorvine",
+	"artifact_id":"serpent",
+	"version_latest":"1.43",
+	"ts_publish":1780157868000,
+	"dt_publish":"2026-05-31 00:17:48.000",
+	"ts_update":1780159236798,
+	"dt_update":"2026-05-31 00:40:09.490",
+	"count_dep":1,
+	"count_ref":0,
+	"licenses":[
+		"MIT License"
+	],
+	"categories":[
+		"Other"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/irmen/Serpent",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/net.razorvine:serpent/1.43",
+	"url_issue_management":"https://github.com/irmen/Serpent/issues",
+	"contributors":[
+		"Irmen de Jong"
+	],
+	"url_scm":"https://github.com/irmen/Serpent"
+}
