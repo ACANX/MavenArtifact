@@ -1,0 +1,24 @@
+{
+	"id":"pkg:maven/com.svenruppert/security-persistence-eclipsestore",
+	"description":"Eclipse-Store-backed implementations of every Phase-2 persistence\n    store (AuditEvent, Session, LoginAttempt, RoleAssignment,\n    BootstrapState, RememberMe / PasswordReset / EmailVerification\n    tokens, ApiKey, RefreshToken, RateLimit). Each implementation is\n    verified bit-for-bit against the contract shipped by\n    security-persistence-testkit. The runtime root object\n    (EclipseStoreSecurityRoot) is package-private — applications\n    consume the stores through their existing Phase-2 SPIs and\n    control the lifecycle through the public\n    EclipseStoreSecurityStorage facade.",
+	"group_id":"com.svenruppert",
+	"artifact_id":"security-persistence-eclipsestore",
+	"version_latest":"00.70.00",
+	"ts_publish":1780248239000,
+	"dt_publish":"2026-06-01 01:23:59.000",
+	"ts_update":1780250232664,
+	"dt_update":"2026-06-01 01:57:03.278",
+	"count_dep":26,
+	"count_ref":0,
+	"licenses":[
+		"European Union Public Licence 1.2"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/vaadin-developer/security-for-flow/security-persistence-eclipsestore",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.svenruppert:security-persistence-eclipsestore/00.70.00",
+	"url_issue_management":"https://github.com/vaadin-developer/security-for-flow/issues",
+	"contributors":[
+		"Sven Ruppert"
+	],
+	"url_scm":"https://github.com/vaadin-developer/security-for-flow/security-persistence-eclipsestore"
+}
