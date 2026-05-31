@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.captainssingapura-hue.homing.js/homing-workspace-persistence",
+	"description":"Hand-written ES module: the RFC 0029 workspace state persistence\n        layer (WidgetParamsCodecRegistry, LocalStorageStore,\n        captureLiveWorkspace, WorkspaceStatePersister, the\n        WorkspaceStatePersistence facade).\n\n        Sits in its own Maven module because it depends on the\n        generated codec module (homing-workspace-codecs) — placing it in\n        homing-workspace would create a Maven cycle (codec module\n        already depends on homing-workspace for the typed records).\n\n        Doctrine — \"Generated and Hand-Written Live Apart\": hand-written\n        side. The JS lives in src/main/resources committed to the repo.",
+	"group_id":"io.github.captainssingapura-hue.homing.js",
+	"artifact_id":"homing-workspace-persistence",
+	"version_latest":"0.3.0",
+	"ts_publish":1780233518000,
+	"dt_publish":"2026-05-31 21:18:38.000",
+	"ts_update":1780235833811,
+	"dt_update":"2026-05-31 21:56:58.381",
+	"count_dep":36,
+	"count_ref":1,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/captainssingapura-hue/homing-ssjs-core/homing-workspace-persistence",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.captainssingapura-hue.homing.js:homing-workspace-persistence/0.3.0",
+	"contributors":[
+		"captainssingapura-hue"
+	],
+	"url_scm":"https://github.com/captainssingapura-hue/homing-ssjs-core/homing-workspace-persistence"
+}
