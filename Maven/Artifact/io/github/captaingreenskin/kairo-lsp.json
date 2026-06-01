@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.captaingreenskin/kairo-lsp",
+  "description": "Internal LSP diagnostics subsystem. Spawns language servers as subprocesses, pools them\n        by (server, workspace-root), captures push + pull diagnostics, and exposes a baseline-diff\n        view so tool implementations can attach \"did this edit introduce new errors?\" to their\n        result. Not a model-facing tool surface — the agent never calls find_definition / rename.",
+  "group_id": "io.github.captaingreenskin",
+  "artifact_id": "kairo-lsp",
+  "version_latest": "0.8.0",
+  "ts_publish": 1780318092000,
+  "dt_publish": "2026-06-01 20:48:12.000",
+  "ts_update": 1780320433641,
+  "dt_update": "2026-06-01 21:27:13.641",
+  "count_dep": 11,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
