@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/jp.co.kyototech/saqura",
-	"description":"Post-quantum-ready cryptography library for Android and JVM. Wire-compatible with the SaQura .NET (NuGet) and Swift (SPM) packages — data encrypted in any of the three SDKs decrypts identically in the others. Surfaces: AES-256-GCM, RSA-4096 (OAEP encrypt + PSS sign), PBKDF2-SHA512 password hashing, FrodoKEM + Classic-McEliece post-quantum KEM, offline license activation.",
+	"description":"Post-quantum-ready cryptography library for Android and JVM. Wire-compatible with the SaQura .NET (NuGet) and Swift (SPM) packages — data encrypted in any of the three SDKs decrypts identically in the others. Surfaces: AES-256-GCM, RSA-4096 (OAEP encrypt + PSS sign), PBKDF2-SHA512 password hashing, FrodoKEM + Classic-McEliece + hybrid X25519/ML-KEM (FIPS 203) post-quantum KEM, ML-DSA (FIPS 204) and SLH-DSA (FIPS 205) signatures, offline license activation.",
 	"group_id":"jp.co.kyototech",
 	"artifact_id":"saqura",
-	"version_latest":"1.1.1",
-	"ts_publish":1780364685000,
-	"dt_publish":"2026-06-02 09:44:45.000",
-	"ts_update":1780369094737,
-	"dt_update":"2026-06-02 10:57:44.979",
-	"count_dep":6,
+	"version_latest":"1.1.2",
+	"ts_publish":1780651010000,
+	"dt_publish":"2026-06-05 17:16:50.000",
+	"ts_update":1780653453233,
+	"dt_update":"2026-06-05 17:57:11.127",
+	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
 		"Proprietary Commercial License"
