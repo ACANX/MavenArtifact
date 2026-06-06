@@ -1,0 +1,16 @@
+{
+	"id":"pkg:maven/io.vidocq.runtime/vidocq-runtime-cassini-rest-extension-codegen",
+	"description":"Companion codegen bundle for vidocq-runtime-cassini-rest-extension.\n        Declare this artifact in <annotationProcessorPaths> whenever the\n        application depends on the REST extension; Maven resolves the transitive\n        APT dependencies below automatically.\n\n        Pre-generates <Resource>$$CassiniAdapter + $$CassiniRoutes at compile\n        time (no runtime reflection, AOT-safe). Without this APT, AdapterRegistry\n        falls back to RuntimeAdapterGenerator at the first request (JVM-only path\n        with a JPMS warning); functionally OK, but off the nominal codegen path\n        documented in cassini/CLAUDE.md (M4).",
+	"group_id":"io.vidocq.runtime",
+	"artifact_id":"vidocq-runtime-cassini-rest-extension-codegen",
+	"version_latest":"0.1.1",
+	"ts_publish":1780711910000,
+	"dt_publish":"2026-06-06 10:11:50.000",
+	"ts_update":1780712837497,
+	"dt_update":"2026-06-06 10:27:03.552",
+	"count_dep":1,
+	"count_ref":0,
+	"licenses":[],
+	"dsv":1,
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.vidocq.runtime:vidocq-runtime-cassini-rest-extension-codegen/0.1.1"
+}
