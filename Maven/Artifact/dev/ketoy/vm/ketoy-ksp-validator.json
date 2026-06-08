@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/dev.ketoy.vm/ketoy-ksp-validator",
+  "description": "KSP processor that validates @KetoyCapabilityStub IDs against the host capability registry and checks annotation-target usage. Runs in the consumer's compileKotlin task; errors render in the Build Output panel after Build → Make. Body-level diagnostics (forbidden APIs, unregistered composables, etc.) are validated by the embedded KBC compiler at bundle-build time.",
+  "group_id": "dev.ketoy.vm",
+  "artifact_id": "ketoy-ksp-validator",
+  "version_latest": "0.4.0-alpha",
+  "ts_publish": 1780901183000,
+  "dt_publish": "2026-06-08 14:46:23.000",
+  "ts_update": 1780903619898,
+  "dt_update": "2026-06-08 15:26:59.898",
+  "count_dep": 5,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
