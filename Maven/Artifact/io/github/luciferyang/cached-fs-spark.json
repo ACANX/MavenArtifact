@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.luciferyang/cached-fs-spark",
+  "description": "Spark soft-affinity scheduling for cached-fs. Drives PROCESS_LOCAL task placement so\n    repeat reads of the same file land on the executor whose cached-fs cache likely holds it.\n    Combines a static consistent-hash ring (deterministic, no feedback required) with an\n    optional duplicate-reading detector (feedback-driven, opt-in) modeled on Apache Gluten.",
+  "group_id": "io.github.luciferyang",
+  "artifact_id": "cached-fs-spark",
+  "version_latest": "0.1.0",
+  "ts_publish": 1780898986000,
+  "dt_publish": "2026-06-08 14:09:46.000",
+  "ts_update": 1780900015419,
+  "dt_update": "2026-06-08 14:26:55.419",
+  "count_dep": 167,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
