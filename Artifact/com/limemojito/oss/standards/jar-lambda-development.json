@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.limemojito.oss.standards/jar-lambda-development",
 	"group_id":"com.limemojito.oss.standards",
 	"artifact_id":"jar-lambda-development",
-	"version_latest":"17.0.24",
-	"ts_publish":1779755272000,
-	"dt_publish":"2026-05-26 08:27:52.000",
-	"ts_update":1779784073901,
-	"dt_update":"2026-05-26 13:27:35.192",
-	"count_dep":10,
+	"version_latest":"17.0.26",
+	"ts_publish":1780943113000,
+	"dt_publish":"2026-06-09 02:25:13.000",
+	"ts_update":1780945053082,
+	"dt_update":"2026-06-09 02:57:21.387",
+	"count_dep":166,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/LimeMojito/oss-maven-standards/java-development/jar-development/jar-lambda-development",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.limemojito.oss.standards/jar-lambda-development@15.3.2",
@@ -184,5 +186,6 @@
 			"version":"14.3.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A set of maven poms that allow us to use an agile development methodology when we build our apps.\n        Checkstyle, unit test, coverage, etc. are all built into the build."
 }
