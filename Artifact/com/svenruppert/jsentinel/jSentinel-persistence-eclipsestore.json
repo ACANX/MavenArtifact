@@ -1,0 +1,24 @@
+{
+	"id":"pkg:maven/com.svenruppert.jsentinel/jSentinel-persistence-eclipsestore",
+	"description":"Eclipse-Store-backed implementations of every Phase-2 persistence\n    store (AuditEvent, Session, LoginAttempt, RoleAssignment,\n    BootstrapState, RememberMe / PasswordReset / EmailVerification\n    tokens, ApiKey, RefreshToken, RateLimit). Each implementation is\n    verified bit-for-bit against the contract shipped by\n    jSentinel-persistence-testkit. The runtime root object\n    (EclipseStoreJSentinelRoot) is package-private — applications\n    consume the stores through their existing Phase-2 SPIs and\n    control the lifecycle through the public\n    EclipseStoreJSentinelStorage facade.",
+	"group_id":"com.svenruppert.jsentinel",
+	"artifact_id":"jSentinel-persistence-eclipsestore",
+	"version_latest":"00.73.00",
+	"ts_publish":1781085097000,
+	"dt_publish":"2026-06-10 17:51:37.000",
+	"ts_update":1781087244983,
+	"dt_update":"2026-06-10 18:27:05.405",
+	"count_dep":26,
+	"count_ref":0,
+	"licenses":[
+		"European Union Public Licence 1.2"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/vaadin-developer/security-for-flow/jSentinel-persistence-eclipsestore",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.svenruppert.jsentinel:jSentinel-persistence-eclipsestore/00.73.00",
+	"url_issue_management":"https://github.com/vaadin-developer/security-for-flow/issues",
+	"contributors":[
+		"Sven Ruppert"
+	],
+	"url_scm":"https://github.com/vaadin-developer/security-for-flow/jSentinel-persistence-eclipsestore"
+}
