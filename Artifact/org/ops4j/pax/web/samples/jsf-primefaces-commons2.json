@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.ops4j.pax.web.samples/jsf-primefaces-commons2",
 	"group_id":"org.ops4j.pax.web.samples",
 	"artifact_id":"jsf-primefaces-commons2",
-	"version_latest":"11.1.1",
-	"ts_publish":1778152405000,
-	"dt_publish":"2026-05-07 19:13:25.000",
-	"ts_update":1778209049050,
-	"dt_update":"2026-05-07 20:28:18.266",
+	"version_latest":"11.1.2",
+	"ts_publish":1781171528000,
+	"dt_publish":"2026-06-11 17:52:08.000",
+	"ts_update":1781173638330,
+	"dt_update":"2026-06-11 18:27:07.122",
 	"count_dep":0,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"ALv2"
+	],
 	"categories":[
 		"Sample-Demo-Example"
 	],
@@ -186,5 +188,6 @@
 			"version":"9.0.7",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Since Pax Web 10, we no longer support JSF (because of OSGi/JakartaEE discrepancy).\n\t\tHowever these samples/libraries are used to show how complex OSGi WAB deployments work with Servlet API\n\t\tspecificaiton (jakarta.servlet.ServletContainerInitializer, web fragments, /META-INF/resources, ...).\n\t\tWhile jakarta.faces.webapp.FacesServlet initializes correctly, TLDs are loaded, we simply can't run\n\t\tactual JSF applications, because JSF 4.x simply needs CDI container for beans..."
 }
