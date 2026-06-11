@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.ascentstream.pulsar/pulsar-presto-connector",
 	"group_id":"com.ascentstream.pulsar",
 	"artifact_id":"pulsar-presto-connector",
-	"version_latest":"3.0.18.1",
-	"ts_publish":1779193608000,
-	"dt_publish":"2026-05-19 20:26:48.000",
-	"ts_update":1779199061475,
-	"dt_update":"2026-05-19 21:27:31.774",
-	"count_dep":2,
+	"version_latest":"3.0.18.2",
+	"ts_publish":1781162203000,
+	"dt_publish":"2026-06-11 15:16:43.000",
+	"ts_update":1781162841303,
+	"dt_update":"2026-06-11 15:27:02.149",
+	"count_dep":175,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/apache/pulsar/pulsar-sql/pulsar-presto-connector",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.ascentstream.pulsar/pulsar-presto-connector@3.0.16.0",
@@ -185,5 +187,6 @@
 			"version":"2.10.7.1-SNAPSHOT-3c76893",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Pulsar is a distributed pub-sub messaging platform with a very\nflexible messaging model and an intuitive client API."
 }
