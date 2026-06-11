@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/io.github.shenbinglife/copy-tools-processor",
+  "description": "注解处理器路线：编译期通过 javac AST 修改实现 @CopyTo，零配置。\n        用户只需在编译 classpath 引入本 jar，javac 通过 SPI 自动发现运行。\n\n        注意：访问 com.sun.tools.javac.* 内部 API。\n        - JDK 8：需 tools.jar（见下方 profile 自动激活）\n        - JDK 9+：需 maven-compiler-plugin 加 --add-exports=jdk.compiler/com.sun.tools.javac.*=ALL-UNNAMED",
+  "group_id": "io.github.shenbinglife",
+  "artifact_id": "copy-tools-processor",
+  "version_latest": "0.0.1-RELEASE",
+  "ts_publish": 1781189593000,
+  "dt_publish": "2026-06-11 22:53:13.000",
+  "ts_update": 1781191628756,
+  "dt_update": "2026-06-11 23:27:08.756",
+  "count_dep": 1,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": [
+    "Uncategorized"
+  ],
+  "dsv": 1
+}
