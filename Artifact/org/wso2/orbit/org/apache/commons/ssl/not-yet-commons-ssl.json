@@ -1,0 +1,17 @@
+{
+	"id":"pkg:maven/org.wso2.orbit.org.apache.commons.ssl/not-yet-commons-ssl",
+	"description":"This bundle exports org.apache.commons.ssl required by xmltooling (transitively via opensaml 2.6.6).\n        The upstream library (not-yet-commons-ssl 0.3.9) has a known CVE. The vulnerable code path has been\n        manually verified as not invoked by existing code. Export is intentionally restricted via x-friends\n        to xmltooling only. Do not add Import-Package: org.apache.commons.ssl to any new bundle without a\n        security review.",
+	"group_id":"org.wso2.orbit.org.apache.commons.ssl",
+	"artifact_id":"not-yet-commons-ssl",
+	"version_latest":"0.3.9.wso2v1",
+	"ts_publish":1781244619000,
+	"dt_publish":"2026-06-12 14:10:19.000",
+	"ts_update":1781245629592,
+	"dt_update":"2026-06-12 14:26:51.547",
+	"count_dep":1,
+	"count_ref":0,
+	"licenses":[],
+	"dsv":1,
+	"url_project":"http://wso2.org",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/org.wso2.orbit.org.apache.commons.ssl:not-yet-commons-ssl/0.3.9.wso2v1"
+}
