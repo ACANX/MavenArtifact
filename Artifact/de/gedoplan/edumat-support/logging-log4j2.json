@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/de.gedoplan.edumat-support/logging-log4j2",
+	"description":"Combined dependencies for using Apache Log4j2 as logging backend with redirection of Apache Commons Logging, \n    java.util.logging and SLF4J into Log4j2.\n    \n    Edumat projects should use this as dependency with appropriate scope, normally test.\n     \n    The projects must include any of the following logging api dependencies in appropriate scope:\n    - Apache Commons Logging: commons-logging:commons-logging (managed version; see edumat/pom.xml)\n    - java.util.logging: none\n    - SLF4J: org.slf4j:slf4j-api (managed version; see edumat/pom.xml)\n    - Log4j2: org.apache.logging.log4j:log4j-api (managed version; see edumat/pom.xml)\n    \n    All logging output is redirected into Log4j2, which can be configured by a log4j2.xml in src/xxx/resources.\n    \n    For java.util.logging, the system property java.util.logging.manager must be set to\n    org.apache.logging.log4j.jul.LogManager early (i. e. before calling one of the logging methods).",
+	"group_id":"de.gedoplan.edumat-support",
+	"artifact_id":"logging-log4j2",
+	"version_latest":"2026.6.1",
+	"ts_publish":1781246892000,
+	"dt_publish":"2026-06-12 14:48:12.000",
+	"ts_update":1781247441214,
+	"dt_update":"2026-06-12 14:57:02.907",
+	"count_dep":5,
+	"count_ref":0,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://wiki.gedoplan.de/bin/view/Training/",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/de.gedoplan.edumat-support:logging-log4j2/2026.6.1",
+	"contributors":[
+		"Dirk Weil"
+	],
+	"url_scm":"https://git.gedoplan.de/gp-libraries/build-master/parent/logging-log4j2"
+}
