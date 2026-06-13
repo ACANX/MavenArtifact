@@ -1,0 +1,22 @@
+{
+  "id": "pkg:maven/org.apache.axis2/axis2-mcp-bridge",
+  "description": "Stdio MCP (Model Context Protocol) bridge for Apache Axis2. Fetches the\n        /openapi-mcp.json tool catalog from a running Axis2 deployment and exposes\n        those operations as MCP tools to compatible MCP clients.\n        Runs as a subprocess launched by an MCP client; communicates via\n        newline-delimited JSON-RPC 2.0 on stdin/stdout.",
+  "group_id": "org.apache.axis2",
+  "artifact_id": "axis2-mcp-bridge",
+  "version_latest": "2.0.1",
+  "ts_publish": 1779061591000,
+  "dt_publish": "2026-05-18 07:46:31.000",
+  "ts_update": 1781368103082,
+  "dt_update": "2026-06-14 00:28:23.082",
+  "count_dep": 9,
+  "count_ref": 0,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": [
+    "Data Protocols",
+    "Clients",
+    "SOAP"
+  ],
+  "dsv": 1
+}
