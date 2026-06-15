@@ -1,0 +1,28 @@
+{
+	"id":"pkg:maven/org.mock-server/mockserver-bom",
+	"description":"Bill of Materials for MockServer. Import this BOM into the dependencyManagement section\n        of a consuming project to pin every MockServer module — and every third-party dependency MockServer\n        relies on — to a single, mutually consistent version. This makes downstream builds reproducible and\n        satisfies strict version-alignment checks such as the Maven Enforcer dependencyConvergence rule, which\n        would otherwise flag the differing transitive versions that MockServer's own parent POM resolves\n        internally but does not export to consumers.",
+	"group_id":"org.mock-server",
+	"artifact_id":"mockserver-bom",
+	"version_latest":"7.1.0",
+	"ts_publish":1781537680000,
+	"dt_publish":"2026-06-15 23:34:40.000",
+	"ts_update":1781539043560,
+	"dt_update":"2026-06-15 23:57:12.116",
+	"count_dep":0,
+	"count_ref":0,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
+	"categories":[
+		"Data Protocols",
+		"Servers",
+		"HTTP"
+	],
+	"dsv":1,
+	"url_project":"https://www.mock-server.com",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/org.mock-server:mockserver-bom/7.1.0",
+	"contributors":[
+		"James D Bloom"
+	],
+	"url_scm":"https://github.com/mock-server/mockserver-monorepo.git/mockserver-bom"
+}
