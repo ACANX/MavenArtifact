@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.flexemarkets/fm-spi",
+	"description":"The plugin contract between Flex-E-Markets service implementations\n        (e.g. trading robots) and their hosts. A host discovers a ServiceProvider\n        via ServiceLoader and runs the Service it creates, without compiling\n        against the implementation. Interfaces only — no implementation code, no\n        host internals. Published publicly so providers and hosts share one\n        contract without copying source; the implementations stay private and\n        are delivered to hosts as runtime plugin jars.",
+	"group_id":"com.flexemarkets",
+	"artifact_id":"fm-spi",
+	"version_latest":"0.0.3",
+	"ts_publish":1782025099000,
+	"dt_publish":"2026-06-21 14:58:19.000",
+	"ts_update":1782026828607,
+	"dt_update":"2026-06-21 15:27:01.173",
+	"count_dep":0,
+	"count_ref":0,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/flexemarkets/fm-sdk",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.flexemarkets:fm-spi/0.0.3",
+	"contributors":[
+		"Flexemarkets"
+	],
+	"url_scm":"https://github.com/flexemarkets/fm-sdk/tree/main"
+}
