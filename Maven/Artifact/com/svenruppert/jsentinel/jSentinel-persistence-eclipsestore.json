@@ -3,12 +3,12 @@
   "description": "Eclipse-Store-backed implementations of every Phase-2 persistence\n    store (AuditEvent, Session, LoginAttempt, RoleAssignment,\n    BootstrapState, RememberMe / PasswordReset / EmailVerification\n    tokens, ApiKey, RefreshToken, RateLimit). Each implementation is\n    verified bit-for-bit against the contract shipped by\n    jSentinel-persistence-testkit. The runtime root object\n    (EclipseStoreJSentinelRoot) is package-private — applications\n    consume the stores through their existing Phase-2 SPIs and\n    control the lifecycle through the public\n    EclipseStoreJSentinelStorage facade.",
   "group_id": "com.svenruppert.jsentinel",
   "artifact_id": "jSentinel-persistence-eclipsestore",
-  "version_latest": "00.75.00",
-  "ts_publish": 1782278144000,
-  "dt_publish": "2026-06-24 13:15:44.000",
-  "ts_update": 1782278820052,
-  "dt_update": "2026-06-24 13:27:00.052",
-  "count_dep": 26,
+  "version_latest": "00.75.10",
+  "ts_publish": 1782297227000,
+  "dt_publish": "2026-06-24 18:33:47.000",
+  "ts_update": 1782298628974,
+  "dt_update": "2026-06-24 18:57:08.974",
+  "count_dep": 27,
   "count_ref": 1,
   "licenses": [
     "European Union Public Licence 1.2"
