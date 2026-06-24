@@ -1,17 +1,18 @@
 {
 	"id":"pkg:maven/io.github.platinumhamburg/rocksdbjni-hidden",
-	"description":"RocksDB 10.10.1 JNI with hidden C++ symbols. 4 platforms: osx-arm64, osx-x86_64, linux-amd64, linux-aarch64.",
+	"description":"RocksDB JNI built from official source with C++ internal symbols hidden via linker\n        exported_symbols_list/version-script. Only JNI function symbols are exported, enabling safe\n        co-existence with other RocksDB versions in the same JVM via ClassLoader isolation.\n        Includes BlobDB API and all compression codecs (LZ4, Snappy, Zstd, Zlib, Bzip2).",
 	"group_id":"io.github.platinumhamburg",
 	"artifact_id":"rocksdbjni-hidden",
-	"version_latest":"10.10.1-20260607",
-	"ts_publish":1780824546000,
-	"dt_publish":"2026-06-07 17:29:06.000",
-	"ts_update":1780828026337,
-	"dt_update":"2026-06-07 18:27:00.276",
+	"version_latest":"10.10.1-20260624",
+	"ts_publish":1782292606000,
+	"dt_publish":"2026-06-24 17:16:46.000",
+	"ts_update":1782293247756,
+	"dt_update":"2026-06-24 17:27:07.573",
 	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
-		"Apache License, Version 2.0"
+		"Apache License, Version 2.0",
+		"GNU General Public License, version 2"
 	],
 	"dsv":1,
 	"url_project":"https://github.com/facebook/rocksdb",
