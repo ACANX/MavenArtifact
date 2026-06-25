@@ -3,12 +3,12 @@
 	"description":"Compile-time annotation processor that generates a Secured wrapper\n    subclass for each @Secured-annotated concrete class. The generated\n    wrapper routes every public, non-final, non-static method through\n    JSentinelEnforcer when the method (or class) carries a method-security\n    annotation (@RequiresRole, @RequiresPermission, @RequiresAnyPermission,\n    @RequiresAllPermissions, @RequiresPolicy).\n\n    Runtime sibling: SecuredProxy in jSentinel-standalone for the\n    JDK-dynamic-proxy path on interfaces.",
 	"group_id":"com.svenruppert.jsentinel",
 	"artifact_id":"jSentinel-processor",
-	"version_latest":"00.75.00",
-	"ts_publish":1782278144000,
-	"dt_publish":"2026-06-24 13:15:44.000",
-	"ts_update":1782280632859,
-	"dt_update":"2026-06-24 13:57:07.069",
-	"count_dep":21,
+	"version_latest":"00.76.00",
+	"ts_publish":1782418774000,
+	"dt_publish":"2026-06-26 04:19:34.000",
+	"ts_update":1782421052136,
+	"dt_update":"2026-06-26 04:57:14.740",
+	"count_dep":22,
 	"count_ref":0,
 	"licenses":[
 		"European Union Public Licence 1.2"
