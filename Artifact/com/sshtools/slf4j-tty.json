@@ -1,0 +1,25 @@
+{
+	"id":"pkg:maven/com.sshtools/slf4j-tty",
+	"description":"An SLF4J log provider that directly implements the SLF4J API\n\t\tand provides logging output suitable for console output (i.e. not to a\n\t\tfile).\n\n\t\tThe width of the output is restricted to the terminal width, with the\n\t\tpossibility to split the width into multiple sections, each which may be\n\t\ta fixed width, or 'auto' which divides all remaining space amongst other\n\t\tautomative sections.\n\n\t\tAny log attribute fields may then be placed in any of the sections with\n\t\ta particular alignment. Text will not overflow out of its section.\n\t\tSections may be colour or styled with other text attributes, including\n\t\thyperlinks for supported termins.\n\n\t\tEmoticons and other graphical sequences may be used in place of log\n\t\tlevels.\n\n\t\tConfiguration is achieved via 'ini' type files, which are reload\n\t\tautomatically when changed.",
+	"group_id":"com.sshtools",
+	"artifact_id":"slf4j-tty",
+	"version_latest":"0.0.9",
+	"ts_publish":1782470176000,
+	"dt_publish":"2026-06-26 18:36:16.000",
+	"ts_update":1782471437728,
+	"dt_update":"2026-06-26 18:57:06.394",
+	"count_dep":11,
+	"count_ref":0,
+	"licenses":[
+		"MIT"
+	],
+	"categories":[
+		"Data Protocols",
+		"Clients",
+		"SSH and SFTP"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/sshtools/slf4j-tty",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.sshtools:slf4j-tty/0.0.9",
+	"url_scm":"https://github.com/sshtools/slf4j-tty"
+}
