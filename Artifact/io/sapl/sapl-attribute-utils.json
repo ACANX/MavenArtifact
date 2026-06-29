@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.sapl/sapl-attribute-utils",
+	"description":"Runtime utilities for building attribute-fetching Policy Information Points.\n\t\tContains the synchronous HTTP and WebSocket transport (BlockingWebClient) on which\n\t\tthe HTTP and Traccar PIPs are built. Kept out of sapl-api so the contract module does\n\t\tnot carry a concrete java.net.http client; depends on sapl-api for the Value model and\n\t\tthe Stream abstraction every PIP returns.",
+	"group_id":"io.sapl",
+	"artifact_id":"sapl-attribute-utils",
+	"version_latest":"4.1.0",
+	"ts_publish":1782726448000,
+	"dt_publish":"2026-06-29 17:47:28.000",
+	"ts_update":1782727040188,
+	"dt_update":"2026-06-29 17:56:47.962",
+	"count_dep":11,
+	"count_ref":7,
+	"licenses":[
+		"Apache 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://sapl.io/sapl-attribute-utils",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.sapl:sapl-attribute-utils/4.1.0",
+	"contributors":[
+		"Dominic Heutelbeck"
+	],
+	"url_scm":"https://github.com/heutelbeck/sapl-policy-engine/sapl-attribute-utils"
+}
