@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.julien-dubois.bootui/bootui-quarkus-security-integration-tests",
+	"description":"Minimal, Docker-free Quarkus app that adds the quarkus-security extension on top of the\n        bootui-quarkus extension and proves the Security Logs panel light-up: with quarkus.security.events.enabled\n        the CDI security events fired on authentication/authorization are captured by QuarkusSecurityEventCapture\n        into the shared SecurityEventBuffer, assembled by the neutral SecurityLogsService and surfaced on\n        GET /bootui/api/security-logs, with the panel reported available in the manifest. Kept separate from\n        bootui-quarkus-integration-tests (which has NO security extension) so the security-absent unavailable path\n        and the security-present capture path are each proven in isolation.",
+	"group_id":"com.julien-dubois.bootui",
+	"artifact_id":"bootui-quarkus-security-integration-tests",
+	"version_latest":"1.8.0",
+	"ts_publish":1782907243000,
+	"dt_publish":"2026-07-01 20:00:43.000",
+	"ts_update":1782908849849,
+	"dt_update":"2026-07-01 20:27:07.783",
+	"count_dep":121,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/jdubois/boot-ui/bootui-quarkus-security-integration-tests",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.julien-dubois.bootui:bootui-quarkus-security-integration-tests/1.8.0",
+	"contributors":[
+		"Julien Dubois"
+	],
+	"url_scm":"https://github.com/jdubois/boot-ui/bootui-quarkus-security-integration-tests"
+}

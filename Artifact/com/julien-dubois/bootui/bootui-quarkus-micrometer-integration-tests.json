@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.julien-dubois.bootui/bootui-quarkus-micrometer-integration-tests",
+	"description":"Minimal, Docker-free Quarkus app that adds a quarkus-micrometer registry on top of the\n        bootui-quarkus extension and proves the Metrics panel light-up: meters registered on the live composite\n        MeterRegistry are read in process by the shared engine MetricsReportProvider, grouped and mapped onto\n        the neutral MetricsReport, and surfaced on GET /bootui/api/metrics — while meters describing BootUI's\n        own /bootui/** traffic are hidden by the shared engine MeterSelfFilter. Kept separate from\n        bootui-quarkus-integration-tests (which deliberately has NO Micrometer registry) so the registry-absent\n        unavailable path and the registry-present capture path are each proven in isolation — the same split\n        used for the SmallRye-Health-present/absent and OpenTelemetry-present/absent coverage.",
+	"group_id":"com.julien-dubois.bootui",
+	"artifact_id":"bootui-quarkus-micrometer-integration-tests",
+	"version_latest":"1.8.0",
+	"ts_publish":1782907243000,
+	"dt_publish":"2026-07-01 20:00:43.000",
+	"ts_update":1782908871911,
+	"dt_update":"2026-07-01 20:27:07.783",
+	"count_dep":112,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/jdubois/boot-ui/bootui-quarkus-micrometer-integration-tests",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.julien-dubois.bootui:bootui-quarkus-micrometer-integration-tests/1.8.0",
+	"contributors":[
+		"Julien Dubois"
+	],
+	"url_scm":"https://github.com/jdubois/boot-ui/bootui-quarkus-micrometer-integration-tests"
+}

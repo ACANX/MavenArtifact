@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.julien-dubois.bootui/bootui-quarkus-integration-tests-aggregator",
+	"description":"Aggregator for the Docker-free Quarkus integration-test apps. Each sub-module pins a different\n        extension set on its classpath to prove BootUI panel light-up in isolation: the base module deliberately\n        has no optional extensions (everything fails closed), and each per-extension module adds exactly one\n        (otel, health, micrometer, scheduler, cache, flyway, liquibase, datasource). The Hibernate module also\n        lives here but is wired into the reactor only on a Hibernate-capable JDK (see the root pom profile).",
+	"group_id":"com.julien-dubois.bootui",
+	"artifact_id":"bootui-quarkus-integration-tests-aggregator",
+	"version_latest":"1.8.0",
+	"ts_publish":1782907243000,
+	"dt_publish":"2026-07-01 20:00:43.000",
+	"ts_update":1782908869883,
+	"dt_update":"2026-07-01 20:27:07.177",
+	"count_dep":0,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/jdubois/boot-ui/bootui-quarkus-integration-tests-aggregator",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.julien-dubois.bootui:bootui-quarkus-integration-tests-aggregator/1.8.0",
+	"contributors":[
+		"Julien Dubois"
+	],
+	"url_scm":"https://github.com/jdubois/boot-ui/bootui-quarkus-integration-tests-aggregator"
+}

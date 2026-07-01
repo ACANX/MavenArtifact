@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.julien-dubois.bootui/bootui-quarkus-cache-integration-tests",
+	"description":"Minimal, Docker-free Quarkus app that adds quarkus-cache (Caffeine) on top of the\n        bootui-quarkus extension and proves the Cache panel light-up: the live cache topology read from the\n        application's io.quarkus.cache.CacheManager by the QuarkusCacheProvider is shaped by the shared engine\n        CacheService, Caffeine cache sizes + Micrometer cache metrics are overlaid, and the panel is surfaced on\n        GET /bootui/api/cache with a working POST /clear action. Kept separate from\n        bootui-quarkus-integration-tests (which deliberately has NO quarkus-cache, so the capability gate keeps\n        the cache panel unavailable) so the cache-present and cache-absent paths are each proven in\n        isolation — the same split used for the SmallRye-Health-present/absent and Micrometer-present/absent\n        coverage.",
+	"group_id":"com.julien-dubois.bootui",
+	"artifact_id":"bootui-quarkus-cache-integration-tests",
+	"version_latest":"1.8.0",
+	"ts_publish":1782907243000,
+	"dt_publish":"2026-07-01 20:00:43.000",
+	"ts_update":1782908838424,
+	"dt_update":"2026-07-01 20:27:07.181",
+	"count_dep":116,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/jdubois/boot-ui/bootui-quarkus-cache-integration-tests",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.julien-dubois.bootui:bootui-quarkus-cache-integration-tests/1.8.0",
+	"contributors":[
+		"Julien Dubois"
+	],
+	"url_scm":"https://github.com/jdubois/boot-ui/bootui-quarkus-cache-integration-tests"
+}

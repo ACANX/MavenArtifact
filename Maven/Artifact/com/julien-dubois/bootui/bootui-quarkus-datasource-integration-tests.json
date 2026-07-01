@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.julien-dubois.bootui/bootui-quarkus-datasource-integration-tests",
+  "description": "Minimal, Docker-free Quarkus app that adds a JDBC datasource (quarkus-jdbc-h2, backed by\n        Agroal) on top of the bootui-quarkus extension and proves the Database Connection Pools panel light-up:\n        the live Agroal pool configuration and AgroalDataSourceMetrics read by the QuarkusAgroalConnectionPoolProvider\n        are mapped into the shared HikariPool* wire contract by the engine ConnectionPoolService, the JDBC URL /\n        username are masked through the shared SecretMasker, and the panel is surfaced on\n        GET /bootui/api/database-connection-pools/pools (plus the per-pool /snapshot route). Kept separate from\n        bootui-quarkus-integration-tests (which deliberately has NO datasource, so the AGROAL capability gate\n        keeps the panel unavailable) so the datasource-present and datasource-absent paths are each proven in\n        isolation — the same split used for the cache-present/absent and SmallRye-Health-present/absent coverage.",
+  "group_id": "com.julien-dubois.bootui",
+  "artifact_id": "bootui-quarkus-datasource-integration-tests",
+  "version_latest": "1.8.0",
+  "ts_publish": 1782907243000,
+  "dt_publish": "2026-07-01 20:00:43.000",
+  "ts_update": 1782908827782,
+  "dt_update": "2026-07-01 20:27:07.782",
+  "count_dep": 76,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
