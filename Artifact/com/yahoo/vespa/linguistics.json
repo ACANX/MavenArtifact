@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/linguistics",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"linguistics",
-	"version_latest":"8.712.7",
-	"ts_publish":1782415920000,
-	"dt_publish":"2026-06-26 03:32:00.000",
-	"ts_update":1782417453257,
-	"dt_update":"2026-06-26 03:56:47.327",
-	"count_dep":14,
-	"count_ref":17,
-	"licenses":[],
+	"version_latest":"8.714.25",
+	"ts_publish":1782886423000,
+	"dt_publish":"2026-07-01 14:13:43.000",
+	"ts_update":1782886968286,
+	"dt_update":"2026-07-01 14:22:35.827",
+	"count_dep":23,
+	"count_ref":16,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -185,5 +187,6 @@
 			"version":"8.596.20",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }
