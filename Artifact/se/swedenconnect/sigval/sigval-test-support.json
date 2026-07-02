@@ -1,0 +1,27 @@
+{
+	"id":"pkg:maven/se.swedenconnect.sigval/sigval-test-support",
+	"description":"Embedded test CA infrastructure for signature validation testing. Provides a three-tier\n    certificate hierarchy (Root CA → Issuing CA → end-entity), in-memory CRL and OCSP support,\n    and custom CRLDataLoader / OCSPDataLoader implementations that route revocation requests\n    directly to the embedded CA without any HTTP network calls.",
+	"group_id":"se.swedenconnect.sigval",
+	"artifact_id":"sigval-test-support",
+	"version_latest":"3.0.0",
+	"ts_publish":1783033236000,
+	"dt_publish":"2026-07-03 07:00:36.000",
+	"ts_update":1783034850282,
+	"dt_update":"2026-07-03 07:27:09.132",
+	"count_dep":35,
+	"count_ref":3,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
+	"categories":[
+		"Uncategorized"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/swedenconnect/sig-validation-base/sigval-test-support",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/se.swedenconnect.sigval:sigval-test-support/3.0.0",
+	"contributors":[
+		"Martin Lindström",
+		"Stefan Santesson"
+	],
+	"url_scm":"https://github.com/swedenconnect/signature-validation/tree/master/sigval-test-support"
+}
