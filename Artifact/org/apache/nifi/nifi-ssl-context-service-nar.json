@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-ssl-context-service-nar",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-ssl-context-service-nar",
-	"version_latest":"2.9.0",
-	"ts_publish":1775576675000,
-	"dt_publish":"2026-04-07 23:44:35.000",
-	"ts_update":1778349452221,
-	"dt_update":"2026-05-10 00:27:47.154",
-	"count_dep":2,
+	"version_latest":"2.10.0",
+	"ts_publish":1781565957000,
+	"dt_publish":"2026-06-16 07:25:57.000",
+	"ts_update":1783187841528,
+	"dt_update":"2026-07-05 00:28:27.248",
+	"count_dep":69,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Analytics"
 	],
@@ -189,5 +191,6 @@
 			"version":"1.23.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"BOM to capture all standard controller service APIs and utils we want to make readily available to any nars that want to\n        leverage this common managed set of dependencies"
 }
