@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.simplj.flair/flair-cache-metrics",
+  "description": "JMX metrics registry wired to all FlairCache internals. Exposes CacheMetrics (hit/miss rate),\n        ReplicationMetrics (lag, pending/dropped frames), ClusterMetrics (alive/suspected nodes), and\n        EvictionMetrics (evicted/expired entries) under the com.simplj.flair.cache MBean domain.\n        Compositional module — depends on all other FlairCache modules.",
+  "group_id": "com.simplj.flair",
+  "artifact_id": "flair-cache-metrics",
+  "version_latest": "0.2",
+  "ts_publish": 1783144112000,
+  "dt_publish": "2026-07-04 13:48:32.000",
+  "ts_update": 1783144624527,
+  "dt_update": "2026-07-04 13:57:04.527",
+  "count_dep": 11,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
