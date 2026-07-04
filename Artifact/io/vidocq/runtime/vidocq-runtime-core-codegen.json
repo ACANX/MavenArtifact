@@ -3,14 +3,18 @@
 	"description":"Compile-time annotation-processor bundle that every Vidocq runtime module\n        needs (Vauban indexer — CDI bean discovery). Consumed via\n        <annotationProcessorPaths> in maven-compiler-plugin; Maven resolves\n        the transitive dependencies declared below into APT paths automatically.\n        Wired by default through the vidocq-runtime-parent pluginManagement so\n        downstream modules inherit it without restating anything.",
 	"group_id":"io.vidocq.runtime",
 	"artifact_id":"vidocq-runtime-core-codegen",
-	"version_latest":"0.1.1",
-	"ts_publish":1780711910000,
-	"dt_publish":"2026-06-06 10:11:50.000",
-	"ts_update":1780712849429,
-	"dt_update":"2026-06-06 10:27:03.553",
-	"count_dep":1,
+	"version_latest":"0.2.0",
+	"ts_publish":1783170412000,
+	"dt_publish":"2026-07-04 21:06:52.000",
+	"ts_update":1783171643255,
+	"dt_update":"2026-07-04 21:27:10.253",
+	"count_dep":11,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"GPL-2.0-or-later",
+		"EPL-2.0",
+		"EUPL-1.2"
+	],
 	"dsv":1,
 	"url_oss_index":"https://guide.sonatype.com/component/maven/io.vidocq.runtime:vidocq-runtime-core-codegen/0.1.1"
 }
