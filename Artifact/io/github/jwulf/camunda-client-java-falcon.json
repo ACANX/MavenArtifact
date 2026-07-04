@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.jwulf/camunda-client-java-falcon",
+	"description":"Drop-in replacement for io.camunda:camunda-client-java that auto-detects a\n    nanobpmn gateway and transparently upgrades createProcessInstance + job\n    workers to the Nano Falcon Protocol (WebSocket). Falls back to plain REST\n    against stock Camunda 8, and to REST when Falcon is blocked (e.g. by a\n    proxy) or forced off via CAMUNDA_FORCE_REST=1.",
+	"group_id":"io.github.jwulf",
+	"artifact_id":"camunda-client-java-falcon",
+	"version_latest":"1.0.0",
+	"ts_publish":1783179505000,
+	"dt_publish":"2026-07-04 23:38:25.000",
+	"ts_update":1783180637173,
+	"dt_update":"2026-07-04 23:57:05.059",
+	"count_dep":5,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/jwulf/camunda-client-java-falcon",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.jwulf:camunda-client-java-falcon/1.0.0",
+	"contributors":[
+		"Josh Wulf"
+	],
+	"url_scm":"https://github.com/jwulf/camunda-client-java-falcon"
+}
