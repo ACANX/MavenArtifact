@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.turkraft.springfilter/core",
 	"group_id":"com.turkraft.springfilter",
 	"artifact_id":"core",
-	"version_latest":"4.0.0",
-	"ts_publish":1783459920000,
-	"dt_publish":"2026-07-08 05:32:00.000",
-	"ts_update":1783461448510,
-	"dt_update":"2026-07-08 05:57:16.762",
-	"count_dep":5,
+	"version_latest":"4.0.1",
+	"ts_publish":1783463309000,
+	"dt_publish":"2026-07-08 06:28:29.000",
+	"ts_update":1783465022737,
+	"dt_update":"2026-07-08 06:56:48.516",
+	"count_dep":12,
 	"count_ref":10,
-	"licenses":[],
+	"licenses":[
+		"MIT License"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/turkraft/spring-filter/core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/com.turkraft.springfilter/core@3.2.1",
@@ -181,5 +183,6 @@
 			"version":"2.1.6",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Dynamically filters JPA entities and MongoDB collections with a simple query syntax.\n    Provides JPA/Hibernate predicates, Spring Data specifications, and MongoDB queries. Easily\n    integrates with Spring APIs."
 }
