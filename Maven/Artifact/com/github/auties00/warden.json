@@ -1,14 +1,14 @@
 {
   "id": "pkg:maven/com.github.auties00/warden",
-  "description": "Warden is a tiny, dependency-free, cross-platform library that runs the operating system's\n        native passkey (WebAuthn) assertion ceremony from Java. It drives Windows Hello through webauthn.dll,\n        macOS through AuthenticationServices, and Linux through libfido2, signing a server challenge with a\n        platform, synced, or roaming passkey and returning the assertion.",
+  "description": "Warden is a tiny, dependency-free, cross-platform library that runs the operating system's\n        native passkey (WebAuthn) assertion ceremony from Java. It drives Windows Hello through webauthn.dll,\n        macOS through AuthenticationServices, and Linux through libfido2, reaches roaming security keys over CTAP\n        and a nearby phone through its own cross-device hybrid (caBLE) transport, and signs a server challenge with\n        a platform, synced, or roaming passkey to return the assertion.",
   "group_id": "com.github.auties00",
   "artifact_id": "warden",
-  "version_latest": "1.0.0",
-  "ts_publish": 1782930864000,
-  "dt_publish": "2026-07-02 02:34:24.000",
-  "ts_update": 1782932230670,
-  "dt_update": "2026-07-02 02:57:10.670",
-  "count_dep": 1,
+  "version_latest": "1.1.0",
+  "ts_publish": 1783473012000,
+  "dt_publish": "2026-07-08 09:10:12.000",
+  "ts_update": 1783474030609,
+  "dt_update": "2026-07-08 09:27:10.609",
+  "count_dep": 3,
   "count_ref": 0,
   "licenses": [
     "MIT License"
