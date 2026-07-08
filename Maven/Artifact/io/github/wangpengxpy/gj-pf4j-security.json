@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.wangpengxpy/gj-pf4j-security",
+  "description": "gj.spring.pf4j — Pluggable Authentication for Plugin Controllers.\n\n  Two-layer provider API: AbstractPluginAuthenticationProvider (simple, single-strategy)\n  and IPluginAuthenticationProvider (advanced, multi-provider routing with supports()).\n  Strategy-driven provider chain: AtLeastOneSuccessfulStrategy (default) and\n  FirstSuccessfulStrategy, both pluggable via AuthenticationStrategy bean override.\n\n  Dual-stack auth filters: PluginDelegatingAuthFilter (MVC Servlet) and\n  PluginDelegatingAuthWebFilter (WebFlux Reactive). Shared provider chain execution\n  engine (AuthChainExecutor) for consistent behavior across both stacks.\n\n  Seven-position filter extension framework: FIRST, SESSION_RESTORE, FORM_LOGIN,\n  AUTHENTICATION (framework-reserved), ANONYMOUS, PRE_AUTHORIZE, LAST — each with\n  Servlet and WebFlux interfaces, registered via lifecycle PluginResourceRegistrar.\n  Three-tier host configuration: global on/off, per-position allowlist, per-plugin\n  authorization — all disabled by default.\n\n  Control-flow exceptions: PluginAuthChallenge (OAuth2/SAML redirect, non-error),\n  PluginBadCredentialsException (client fault), PluginAuthServiceException (server\n  fault). Authentication events (PluginAuthenticationSuccessEvent / FailureEvent)\n  for host audit and alerting integration.",
+  "group_id": "io.github.wangpengxpy",
+  "artifact_id": "gj-pf4j-security",
+  "version_latest": "1.0.0",
+  "ts_publish": 1783518606000,
+  "dt_publish": "2026-07-08 21:50:06.000",
+  "ts_update": 1783520833849,
+  "dt_update": "2026-07-08 22:27:13.849",
+  "count_dep": 97,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
