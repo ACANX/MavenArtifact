@@ -3,12 +3,12 @@
   "description": "Minimal, Docker-free Quarkus app that adds quarkus-flyway + quarkus-jdbc-h2 (in-memory) on top\n        of the bootui-quarkus extension and proves the Flyway panel light-up: the migration history read from\n        the application's active io.quarkus.flyway.runtime.FlywayContainer beans by the QuarkusFlywayProvider is\n        shaped by the shared engine FlywayService, and the panel is surfaced on\n        GET /bootui/api/flyway/migrations. Kept separate from bootui-quarkus-integration-tests (which\n        deliberately has NO quarkus-flyway, so the capability gate keeps the flyway panel unavailable) so the\n        flyway-present and flyway-absent paths are each proven in isolation — the same split used for the\n        Cache-present/absent and SmallRye-Health-present/absent coverage.",
   "group_id": "com.julien-dubois.bootui",
   "artifact_id": "bootui-quarkus-flyway-integration-tests",
-  "version_latest": "1.10.0",
-  "ts_publish": 1783416715000,
-  "dt_publish": "2026-07-07 17:31:55.000",
-  "ts_update": 1783418235158,
-  "dt_update": "2026-07-07 17:57:15.158",
-  "count_dep": 80,
+  "version_latest": "1.11.0",
+  "ts_publish": 1783617673000,
+  "dt_publish": "2026-07-10 01:21:13.000",
+  "ts_update": 1783619848067,
+  "dt_update": "2026-07-10 01:57:28.067",
+  "count_dep": 81,
   "count_ref": 0,
   "licenses": [
     "Apache License, Version 2.0"

@@ -3,12 +3,12 @@
   "description": "Minimal, Docker-free Quarkus app that adds quarkus-hibernate-orm (on an in-memory H2 database) on\n        top of the bootui-quarkus extension and proves the Hibernate (ORM mapping) advisor light-up end to end:\n        the app's mapped @Entity classes are read from the EntityManagerFactory metamodel by the engine\n        JpaMetamodelReader (via the capability-gated QuarkusEntityDiscovery), the shared engine HibernateScanner\n        runs its curated rule registry on POST /bootui/api/hibernate/scan, and the QuarkusHibernatePropertyLookup\n        maps the engine's config keys onto the quarkus.hibernate-orm.* namespace (proving, in particular, that the\n        Spring-only Open-Session-in-View rule HIB-CONFIG-001 stays inert). Kept separate from\n        bootui-quarkus-integration-tests (which deliberately has NO Hibernate ORM) so the ORM-absent\n        not-configured path and the ORM-present scan path are each proven in isolation — the same split used for\n        the SmallRye-Health and OpenTelemetry present/absent coverage.",
   "group_id": "com.julien-dubois.bootui",
   "artifact_id": "bootui-quarkus-hibernate-integration-tests",
-  "version_latest": "1.10.0",
-  "ts_publish": 1783416715000,
-  "dt_publish": "2026-07-07 17:31:55.000",
-  "ts_update": 1783418235155,
-  "dt_update": "2026-07-07 17:57:15.155",
-  "count_dep": 89,
+  "version_latest": "1.11.0",
+  "ts_publish": 1783617673000,
+  "dt_publish": "2026-07-10 01:21:13.000",
+  "ts_update": 1783619848668,
+  "dt_update": "2026-07-10 01:57:28.668",
+  "count_dep": 90,
   "count_ref": 0,
   "licenses": [
     "Apache License, Version 2.0"

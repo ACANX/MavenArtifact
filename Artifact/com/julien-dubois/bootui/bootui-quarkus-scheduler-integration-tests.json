@@ -3,12 +3,12 @@
 	"description":"Minimal, Docker-free Quarkus app that adds the quarkus-scheduler extension on top of the\n        bootui-quarkus extension and proves the Scheduled Tasks panel light-up: @Scheduled methods discovered at\n        build time by the deployment processor's Jandex scan are recorded into a synthetic QuarkusScheduledTasks\n        bean, mapped by QuarkusScheduledTaskProvider onto the neutral ScheduledTaskDto contract, and surfaced on\n        GET /bootui/api/scheduled, with the panel reported available in the manifest. Kept separate from\n        bootui-quarkus-integration-tests (which deliberately has NO scheduler) so the scheduler-absent\n        unavailable path and the scheduler-present capture path are each proven in isolation — the same split\n        used for the Micrometer-present/absent, SmallRye-Health-present/absent and OpenTelemetry-present/absent\n        coverage.",
 	"group_id":"com.julien-dubois.bootui",
 	"artifact_id":"bootui-quarkus-scheduler-integration-tests",
-	"version_latest":"1.10.0",
-	"ts_publish":1783416715000,
-	"dt_publish":"2026-07-07 17:31:55.000",
-	"ts_update":1783418252707,
-	"dt_update":"2026-07-07 17:57:15.643",
-	"count_dep":139,
+	"version_latest":"1.11.0",
+	"ts_publish":1783617673000,
+	"dt_publish":"2026-07-10 01:21:13.000",
+	"ts_update":1783619865441,
+	"dt_update":"2026-07-10 01:57:28.665",
+	"count_dep":210,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"

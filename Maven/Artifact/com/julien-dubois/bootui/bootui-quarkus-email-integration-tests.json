@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.julien-dubois.bootui/bootui-quarkus-email-integration-tests",
+  "description": "Minimal, Docker-free Quarkus app that adds quarkus-mailer on top of the bootui-quarkus\n        extension and proves the Email Viewer panel light-up: an outgoing message sent through the\n        application's Mailer fires a io.quarkus.mailer.SentMail CDI event that the QuarkusEmailCapture observer\n        maps into the shared engine EmailCaptureService, so the panel is surfaced on GET /bootui/api/email with\n        working detail + .eml download reads and a DELETE clear action. Kept separate from\n        bootui-quarkus-integration-tests (which deliberately has NO quarkus-mailer, so the class-presence gate\n        keeps the email panel unavailable) so the mailer-present and mailer-absent paths are each proven in\n        isolation — the same split used for the cache-present/absent coverage. The default test-mode mailer is\n        mock (quarkus.mailer.mock defaults to true under LaunchMode.TEST), so no SMTP server or Docker is\n        needed; the SentMail event still fires in mock mode.",
+  "group_id": "com.julien-dubois.bootui",
+  "artifact_id": "bootui-quarkus-email-integration-tests",
+  "version_latest": "1.11.0",
+  "ts_publish": 1783617673000,
+  "dt_publish": "2026-07-10 01:21:13.000",
+  "ts_update": 1783619848066,
+  "dt_update": "2026-07-10 01:57:28.066",
+  "count_dep": 89,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

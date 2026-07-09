@@ -3,12 +3,12 @@
 	"description":"Minimal, Docker-free Quarkus app that adds a quarkus-micrometer registry on top of the\n        bootui-quarkus extension and proves the Metrics panel light-up: meters registered on the live composite\n        MeterRegistry are read in process by the shared engine MetricsReportProvider, grouped and mapped onto\n        the neutral MetricsReport, and surfaced on GET /bootui/api/metrics — while meters describing BootUI's\n        own /bootui/** traffic are hidden by the shared engine MeterSelfFilter. Kept separate from\n        bootui-quarkus-integration-tests (which deliberately has NO Micrometer registry) so the registry-absent\n        unavailable path and the registry-present capture path are each proven in isolation — the same split\n        used for the SmallRye-Health-present/absent and OpenTelemetry-present/absent coverage.",
 	"group_id":"com.julien-dubois.bootui",
 	"artifact_id":"bootui-quarkus-micrometer-integration-tests",
-	"version_latest":"1.10.0",
-	"ts_publish":1783416715000,
-	"dt_publish":"2026-07-07 17:31:55.000",
-	"ts_update":1783418262130,
-	"dt_update":"2026-07-07 17:57:15.644",
-	"count_dep":111,
+	"version_latest":"1.11.0",
+	"ts_publish":1783617673000,
+	"dt_publish":"2026-07-10 01:21:13.000",
+	"ts_update":1783619860344,
+	"dt_update":"2026-07-10 01:57:28.062",
+	"count_dep":208,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"

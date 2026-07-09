@@ -3,12 +3,12 @@
 	"description":"Holds the one test in the whole bootui-quarkus-integration-tests reactor that boots a genuine\n        LaunchMode.NORMAL (production) artifact via QuarkusProdModeTest, proving BootUiProdShellGuardFilter\n        actually 404s /bootui and /bootui/** in a real production process (not just LaunchMode.TEST, which is\n        all every @QuarkusTest elsewhere in this reactor can exercise). Kept in its own module/JVM fork on\n        purpose: Quarkus's own test-framework ExclusivityChecker throws IllegalStateException if a\n        QuarkusProdModeTest and a @QuarkusTest run in the same JUnit Platform launcher session (i.e. the same\n        Surefire fork), so this test cannot live alongside base's (or any other submodule's) @QuarkusTest\n        classes. Never published.",
 	"group_id":"com.julien-dubois.bootui",
 	"artifact_id":"bootui-quarkus-prod-shell-guard-integration-tests",
-	"version_latest":"1.10.0",
-	"ts_publish":1783416715000,
-	"dt_publish":"2026-07-07 17:31:55.000",
-	"ts_update":1783418254231,
-	"dt_update":"2026-07-07 17:57:15.159",
-	"count_dep":128,
+	"version_latest":"1.11.0",
+	"ts_publish":1783617673000,
+	"dt_publish":"2026-07-10 01:21:13.000",
+	"ts_update":1783619865724,
+	"dt_update":"2026-07-10 01:57:28.068",
+	"count_dep":199,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
