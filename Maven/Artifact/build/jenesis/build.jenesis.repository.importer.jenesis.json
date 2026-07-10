@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/build.jenesis/build.jenesis.repository.importer.jenesis",
+  "description": "It is the read\nhalf of the exit story - the outbound mirror of the export endpoint the free server now serves - so a jenesis\nrepository migrates into another jenesis (or is drained by a forwarder) symmetrically with the Nexus and\nArtifactory connectors. Depends on the import SPI, the format SPI (for the shared fetcher) and Jackson; the\nserver discovers it with {@code ServiceLoader}, so jenesis-source support is present exactly when this module is\non the path.",
+  "group_id": "build.jenesis",
+  "artifact_id": "build.jenesis.repository.importer.jenesis",
+  "version_latest": "0.0.1",
+  "ts_publish": 1783647908000,
+  "dt_publish": "2026-07-10 09:45:08.000",
+  "ts_update": 1783648634263,
+  "dt_update": "2026-07-10 09:57:14.263",
+  "count_dep": 6,
+  "count_ref": 0,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

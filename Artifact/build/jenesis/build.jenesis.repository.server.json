@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/build.jenesis/build.jenesis.repository.server",
+	"description":"Headless and stateless over the ArtifactStore SPI\n(filesystem by default; a cloud backend is selected through ArtifactStoreProvider.resolve via\n{@code JENESIS_STORE}). It runs on a Spring Boot virtual-thread stack ({@code RepositoryApplication}, the module's\ndeclared main) with Actuator observability and Spring Security gating the wire, dispatching to the\nServiceLoader-discovered formats over the framework-neutral core. Open so Spring can reflect over the beans and\ncontroller.",
+	"group_id":"build.jenesis",
+	"artifact_id":"build.jenesis.repository.server",
+	"version_latest":"0.0.1",
+	"ts_publish":1783647908000,
+	"dt_publish":"2026-07-10 09:45:08.000",
+	"ts_update":1783648644234,
+	"dt_update":"2026-07-10 09:57:14.705",
+	"count_dep":66,
+	"count_ref":3,
+	"licenses":[
+		"Apache-2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/raphw/jenesis-repository",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/build.jenesis:build.jenesis.repository.server/0.0.1",
+	"contributors":[
+		"Rafael Winterhalter"
+	],
+	"url_scm":"https://github.com/raphw/jenesis-repository"
+}
