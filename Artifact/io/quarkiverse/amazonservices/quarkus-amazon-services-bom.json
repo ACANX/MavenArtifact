@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.amazonservices/quarkus-amazon-services-bom",
 	"group_id":"io.quarkiverse.amazonservices",
 	"artifact_id":"quarkus-amazon-services-bom",
-	"version_latest":"3.20.0",
-	"ts_publish":1782772250000,
-	"dt_publish":"2026-06-30 06:30:50.000",
-	"ts_update":1782773848063,
-	"dt_update":"2026-06-30 06:57:07.364",
+	"version_latest":"3.20.1",
+	"ts_publish":1783697291000,
+	"dt_publish":"2026-07-10 23:28:11.000",
+	"ts_update":1783699073970,
+	"dt_update":"2026-07-10 23:57:26.668",
 	"count_dep":0,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -186,5 +188,6 @@
 			"version":"3.1.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
