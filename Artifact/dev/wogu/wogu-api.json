@@ -1,0 +1,25 @@
+{
+	"id":"pkg:maven/dev.wogu/wogu-api",
+	"description":"Public SPI for WoGu: the WorkflowValidator contract, the Rule/RuleCategory metadata\n    WoGu is organized around, and the immutable model types (ValidationContext,\n    RuleResult, ValidatorRunOutcome, ValidationSummary, Violation, CallPathFrame,\n    Severity) that every workflow-engine integration (Temporal, and future Conductor/\n    Camunda/Airflow modules) is built against. This module has zero dependency on any\n    workflow engine, parser, or build tool.",
+	"group_id":"dev.wogu",
+	"artifact_id":"wogu-api",
+	"version_latest":"1.0.0",
+	"ts_publish":1784032024000,
+	"dt_publish":"2026-07-14 20:27:04.000",
+	"ts_update":1784033862299,
+	"dt_update":"2026-07-14 20:57:26.298",
+	"count_dep":2,
+	"count_ref":4,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/vikas0686/wogu/wogu-api",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/dev.wogu:wogu-api/1.0.0",
+	"url_issue_management":"https://github.com/vikas0686/wogu/issues",
+	"contributors":[
+		"Vikas Pandey"
+	],
+	"url_scm":"https://github.com/vikas0686/wogu/wogu-api",
+	"url_ci_management":"https://github.com/vikas0686/wogu/actions"
+}
