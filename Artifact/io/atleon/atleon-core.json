@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.atleon/atleon-core",
 	"group_id":"io.atleon",
 	"artifact_id":"atleon-core",
-	"version_latest":"0.44.0",
-	"ts_publish":1783098940000,
-	"dt_publish":"2026-07-04 01:15:40.000",
-	"ts_update":1783099647936,
-	"dt_update":"2026-07-04 01:27:13.700",
+	"version_latest":"0.45.0",
+	"ts_publish":1784145379000,
+	"dt_publish":"2026-07-16 03:56:19.000",
+	"ts_update":1784147278087,
+	"dt_update":"2026-07-16 04:27:28.750",
 	"count_dep":11,
 	"count_ref":13,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/atleon/atleon/atleon-parent/atleon-core",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.atleon/atleon-core@0.33.0",
@@ -181,5 +183,6 @@
 			"version":"0.31.1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Reactive streaming library targeting continuous pipelines with at-least-once processing guarantees. Backed by Project Reactor."
 }
