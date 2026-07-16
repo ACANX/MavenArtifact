@@ -3,12 +3,12 @@
   "description": "Tiger TestEnv-Mgr extension that adds the `canopy` and (consumed-by-canopy) `docker`-companion server\n        types: a CanopyServer that boots a tiger-canopy DNS container via Testcontainers, an auto-DNS\n        injector that wires a sibling docker server's container to use the canopy as resolver, and the\n        Cucumber glue (`CanopyGlue`) that lets feature files mutate the canopy's host registry. Optional\n        add-on — pull this artifact in only if your test suite needs CANOPY DNS interception.",
   "group_id": "de.gematik.test",
   "artifact_id": "tiger-canopy-extension",
-  "version_latest": "4.3.2",
-  "ts_publish": 1782309950000,
-  "dt_publish": "2026-06-24 22:05:50.000",
-  "ts_update": 1782311243137,
-  "dt_update": "2026-06-24 22:27:23.137",
-  "count_dep": 49,
+  "version_latest": "4.4.0",
+  "ts_publish": 1784206858000,
+  "dt_publish": "2026-07-16 21:00:58.000",
+  "ts_update": 1784208442420,
+  "dt_update": "2026-07-16 21:27:22.420",
+  "count_dep": 73,
   "count_ref": 1,
   "licenses": [
     "Apache License 2.0"
