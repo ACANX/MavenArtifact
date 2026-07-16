@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/logd",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"logd",
-	"version_latest":"8.723.37",
-	"ts_publish":1784003884000,
-	"dt_publish":"2026-07-14 12:38:04.000",
-	"ts_update":1784005038410,
-	"dt_update":"2026-07-14 12:57:10.027",
+	"version_latest":"8.725.12",
+	"ts_publish":1784167848000,
+	"dt_publish":"2026-07-16 10:10:48.000",
+	"ts_update":1784168846141,
+	"dt_update":"2026-07-16 10:27:11.444",
 	"count_dep":1,
 	"count_ref":4,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -185,5 +187,6 @@
 			"version":"8.596.20",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }
