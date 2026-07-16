@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/build.jenesis/build.jenesis.repository.walk",
+  "description": "Everywhere the whole artifact set must be enumerated - garbage collection, retention eviction, every\nderived-metadata rebuild - goes through {@code ArtifactWalk}, never a private {@code list()} loop. A walk pass is\ndurable in the walked store itself ({@code walks/<consumer>/...}): each segment is one compare-and-set state object\nembedding its claim ({@code range, state, holder, expiry, cursor}), so threads <em>and different VMs</em> take\ndisjoint segments, a checkpoint doubles as lease renewal, and a dead node's segment is reclaimed from its last\ncommitted cursor - the walk never restarts from scratch. Delivery is exactly-once per pass in the absence of a\ncrash and at-least-once for the uncommitted stride tail after a crash-resume, so every consumer must be idempotent\nper item. An implementation ships as its own module that {@code provides} a {@code WalkProvider}, discovered with\n{@code ServiceLoader} and selected with {@code jenesis.repository.walk=<name>}; with none installed\n{@code WalkProvider.resolve} is empty and every walk-riding surface degrades gracefully. {@code WalkConsumer} is\nthe walk half of the two-route derived-metadata contract (steady state = publication events; back-fill, periodic\nrefresh and self-heal = the walk), discovered the same way and driven by the shared {@code RebuildPass} - one\nenumeration of the pointer roots feeding every discovered consumer.",
+  "group_id": "build.jenesis",
+  "artifact_id": "build.jenesis.repository.walk",
+  "version_latest": "0.1.0",
+  "ts_publish": 1784223083000,
+  "dt_publish": "2026-07-17 01:31:23.000",
+  "ts_update": 1784224637380,
+  "dt_update": "2026-07-17 01:57:17.380",
+  "count_dep": 2,
+  "count_ref": 2,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

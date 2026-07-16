@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/build.jenesis/build.jenesis.repository.gc.store",
+	"description":"Sharded mark: references land as\nappend-only batch objects {@code gc/<pass>/refs/<hh>/...}, flushed before every walk checkpoint so no committed\ncursor ever lies about an unflushed reference; sweep memory is one leading-byte shard at a time, O(N/256), never\nan O(N) set. Condemn-then-collect: an unreferenced blob is first condemned ({@code gc/condemned/<hash>}, the\nmarker is the clock) and deleted only when a <em>later</em> pass confirms it still unreferenced - at least one\nfull collection interval of grace - with the marker re-read immediately before deletion and cleared on the write\npath by every pointer link, so a referenced, re-linked or in-flight blob is never deleted. Settings:\n{@code jenesis.gc.stride} (checkpoint stride of the collector's walk passes, default 20000).",
+	"group_id":"build.jenesis",
+	"artifact_id":"build.jenesis.repository.gc.store",
+	"version_latest":"0.1.0",
+	"ts_publish":1784223083000,
+	"dt_publish":"2026-07-17 01:31:23.000",
+	"ts_update":1784224647104,
+	"dt_update":"2026-07-17 01:57:17.866",
+	"count_dep":4,
+	"count_ref":0,
+	"licenses":[
+		"Apache-2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/raphw/jenesis-repository",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/build.jenesis:build.jenesis.repository.gc.store/0.1.0",
+	"contributors":[
+		"Rafael Winterhalter"
+	],
+	"url_scm":"https://github.com/raphw/jenesis-repository"
+}

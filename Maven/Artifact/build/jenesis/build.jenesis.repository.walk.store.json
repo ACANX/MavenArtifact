@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/build.jenesis/build.jenesis.repository.walk.store",
+  "description": "It enumerates exclusively through the {@code ArtifactStore.page} ordered-paging primitive, so a flat millions-entry\nnamespace is never materialised as one list and a resume deep inside it is a seek on a backend that pages natively.\nAll pass state lives in the walked store ({@code walks/<consumer>/...}, compare-and-set objects only) - persist\nonly through the store, so a pass survives process death on any node sharing it. Settings:\n{@code jenesis.walk.checkpoint} (cursor-commit stride, default 1000), {@code jenesis.walk.segments} (target\nsegment count per pass, default 32), {@code jenesis.walk.ttl} (claim lease seconds, default 900).",
+  "group_id": "build.jenesis",
+  "artifact_id": "build.jenesis.repository.walk.store",
+  "version_latest": "0.1.0",
+  "ts_publish": 1784223083000,
+  "dt_publish": "2026-07-17 01:31:23.000",
+  "ts_update": 1784224637377,
+  "dt_update": "2026-07-17 01:57:17.377",
+  "count_dep": 3,
+  "count_ref": 0,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

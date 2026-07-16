@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/build.jenesis/build.jenesis.repository.importer.index",
+  "description": "The requested ecosystem format is named up front; the\nprovider resolves it among the installed {@link build.jenesis.repository.format.RepositoryFormat}s and streams\neach enumerated coordinate lazily to the orchestrator, which routes it to that format's own importer - so the\nconnector itself knows no ecosystem, and a new format's repositories become importable the moment its module\nimplements {@code enumerate}. Because jenesis emits these same standard indexes to serve native clients, a\njenesis repository is walkable by this connector too: migration off jenesis works over plain format protocols,\nin both directions. Depends only on the import SPI and the format SPI.",
+  "group_id": "build.jenesis",
+  "artifact_id": "build.jenesis.repository.importer.index",
+  "version_latest": "0.1.0",
+  "ts_publish": 1784223083000,
+  "dt_publish": "2026-07-17 01:31:23.000",
+  "ts_update": 1784224637386,
+  "dt_update": "2026-07-17 01:57:17.386",
+  "count_dep": 4,
+  "count_ref": 1,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

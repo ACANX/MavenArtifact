@@ -1,15 +1,15 @@
 {
   "id": "pkg:maven/build.jenesis/build.jenesis.repository.store",
-  "description": "No dependencies beyond java.base, so a format plugin builds on the store and its {@code Publication} without\npulling in the server. A backend ships as its own module that {@code provides} an {@code ArtifactStoreProvider},\ndiscovered on the module path with {@code ServiceLoader}: the default filesystem backend, plus the optional s3\nand azure backends when on the graph. The {@code Tenants} directory of the shared\n{@code <tenant>/<repository>/...} layout is discovered the same way ({@code TenantsProvider}); with no module\ninstalled it is the fixed single tenant. A publication carries two discovered hook classes: the ordered\n{@code PublishInterceptor} screens (accept / quarantine / reject before the pointer links, withhold on read) and\nthe {@code PublicationObserver} after-commit observers (forwarding, webhooks, replication - notified only once an\naccepted artifact serves, contained so they never fail a publish); both chains are empty by default.",
+  "description": "Its only dependency beyond java.base is the equally minimal, registry-free\n{@code build.jenesis.repository.observation} SPI (so a capped store can report its {@code jenesis.quota.*}\nused-vs-available signals), so a format plugin builds on the store and its {@code Publication} without\npulling in the server. A backend ships as its own module that {@code provides} an {@code ArtifactStoreProvider},\ndiscovered on the module path with {@code ServiceLoader}: the default filesystem backend, plus the optional s3,\ngcs and azure backends when on the graph. The {@code Tenants} directory of the shared\n{@code <tenant>/<repository>/...} layout is discovered the same way ({@code TenantsProvider}); with no module\ninstalled it is the fixed single tenant. A publication carries two discovered hook classes: the ordered\n{@code PublishInterceptor} screens (accept / quarantine / reject before the pointer links, withhold on read) and\nthe {@code PublicationObserver} after-commit observers (forwarding, webhooks, replication - notified only once an\naccepted artifact serves, contained so they never fail a publish); both chains are empty by default.",
   "group_id": "build.jenesis",
   "artifact_id": "build.jenesis.repository.store",
-  "version_latest": "0.0.1",
-  "ts_publish": 1783647908000,
-  "dt_publish": "2026-07-10 09:45:08.000",
-  "ts_update": 1783648634260,
-  "dt_update": "2026-07-10 09:57:14.260",
-  "count_dep": 0,
-  "count_ref": 20,
+  "version_latest": "0.1.0",
+  "ts_publish": 1784223083000,
+  "dt_publish": "2026-07-17 01:31:23.000",
+  "ts_update": 1784224637378,
+  "dt_update": "2026-07-17 01:57:17.378",
+  "count_dep": 1,
+  "count_ref": 28,
   "licenses": [
     "Apache-2.0"
   ],

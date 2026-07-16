@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/build.jenesis/build.jenesis.repository.observation",
+  "description": "A plugin exposes them by\nimplementing {@link build.jenesis.repository.observation.ObservabilitySource} through the optional default-method\npattern its provider SPI already uses for {@code requiredConfig()}; it is discovered with {@link java.util.ServiceLoader}, and a <em>disabled or absent</em> plugin contributes nothing - so the overview never lists\na signal for something that is not running.\n\n<p>The module is deliberately registry-free and {@code java.base}-only, so every format / compliance / storage /\nmaintenance SPI can {@code requires} it without dragging in Micrometer or Spring. The distribution collects the\nsources into one {@link build.jenesis.repository.observation.ObservabilityReport} and bridges it onto Actuator\n({@code /actuator/health}, {@code /actuator/metrics}), the console overview page and the reference docs - one source\nof truth (name + description), three consumers - while the plugin itself never touches a meter registry.",
+  "group_id": "build.jenesis",
+  "artifact_id": "build.jenesis.repository.observation",
+  "version_latest": "0.1.0",
+  "ts_publish": 1784223083000,
+  "dt_publish": "2026-07-17 01:31:23.000",
+  "ts_update": 1784224637381,
+  "dt_update": "2026-07-17 01:57:17.381",
+  "count_dep": 0,
+  "count_ref": 29,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
