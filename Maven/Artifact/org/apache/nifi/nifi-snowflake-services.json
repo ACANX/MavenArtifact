@@ -1,16 +1,18 @@
 {
   "id": "pkg:maven/org.apache.nifi/nifi-snowflake-services",
-  "description": null,
+  "description": "BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars",
   "group_id": "org.apache.nifi",
   "artifact_id": "nifi-snowflake-services",
-  "version_latest": "2.9.0",
-  "ts_publish": 1775576366000,
-  "dt_publish": "2026-04-07 23:39:26.000",
-  "ts_update": 1778344059019,
-  "dt_update": "2026-05-10 00:27:39.019",
-  "count_dep": 116,
+  "version_latest": "2.10.0",
+  "ts_publish": 1781567752000,
+  "dt_publish": "2026-06-16 07:55:52.000",
+  "ts_update": 1784392092786,
+  "dt_update": "2026-07-19 00:28:12.786",
+  "count_dep": 330,
   "count_ref": 3,
-  "licenses": [],
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
   "categories": [
     "Analytics"
   ],
