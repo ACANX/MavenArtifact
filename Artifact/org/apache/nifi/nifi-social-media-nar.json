@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-social-media-nar",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-social-media-nar",
-	"version_latest":"2.9.0",
-	"ts_publish":1775576962000,
-	"dt_publish":"2026-04-07 23:49:22.000",
-	"ts_update":1778367446186,
-	"dt_update":"2026-05-10 00:27:54.691",
-	"count_dep":2,
+	"version_latest":"2.10.0",
+	"ts_publish":1781571861000,
+	"dt_publish":"2026-06-16 09:04:21.000",
+	"ts_update":1784393603900,
+	"dt_update":"2026-07-19 00:28:22.250",
+	"count_dep":111,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Analytics"
 	],
@@ -188,5 +190,6 @@
 			"version":"1.23.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars"
 }

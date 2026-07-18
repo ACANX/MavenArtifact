@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.apache.nifi/nifi-sql-reporting-bundle",
 	"group_id":"org.apache.nifi",
 	"artifact_id":"nifi-sql-reporting-bundle",
-	"version_latest":"2.9.0",
-	"ts_publish":1775576690000,
-	"dt_publish":"2026-04-07 23:44:50.000",
-	"ts_update":1778367461413,
-	"dt_update":"2026-05-10 00:27:47.150",
-	"count_dep":0,
+	"version_latest":"2.10.0",
+	"ts_publish":1781569229000,
+	"dt_publish":"2026-06-16 08:20:29.000",
+	"ts_update":1784393606564,
+	"dt_update":"2026-07-19 00:28:16.285",
+	"count_dep":66,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Analytics"
 	],
@@ -189,5 +191,6 @@
 			"version":"1.23.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"BOM to capture all standard controller service APIs and utils we want to make readily available to any nars that want to\n        leverage this common managed set of dependencies"
 }
