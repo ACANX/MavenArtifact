@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.eaopen/eap-boot-framework",
+	"description":"该包是技术组件，每个子包，代表一个组件。每个组件包括两部分：\n            1. core 包：是该组件的核心封装\n            2. config 包：是该组件基于 Spring 的配置\n\n        技术组件，也分成两类：\n            1. 框架组件：和我们熟悉的 MyBatis、Redis 等等的拓展\n            2. 业务组件：和业务相关的组件的封装，例如说数据字典、操作日志等等。\n        如果是业务组件，Maven 名字会包含 biz\n\n        将对system-api和infra-api的依赖API\n        合并到/eap-boot-common/eap-boot-common-api中",
+	"group_id":"io.github.eaopen",
+	"artifact_id":"eap-boot-framework",
+	"version_latest":"2.9.0",
+	"ts_publish":1784388562000,
+	"dt_publish":"2026-07-18 23:29:22.000",
+	"ts_update":1784389998425,
+	"dt_update":"2026-07-18 23:53:01.045",
+	"count_dep":1,
+	"count_ref":0,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/eaopen/openea-eap",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.eaopen:eap-boot-framework/2.9.0",
+	"contributors":[
+		"openea"
+	],
+	"url_scm":"https://github.com/eaopen/openea-eap/eap-boot-framework"
+}
