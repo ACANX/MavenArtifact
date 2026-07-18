@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/build.jenesis/build.jenesis.repository.gc",
+	"description":"No blob is deleted by a deployment that did not opt into a\ncollector. A {@code GarbageCollector} matches the retention sweeper's shape - {@code plan} is the dry run a\nmaintenance console previews, {@code collect} computes and applies - and is handed the pointer roots by its\ncaller (always {@code publish}; a blobs-namespace format's declared roots are added by the caller that knows\nthem), because which namespaces hold serving pointers is layout knowledge this free primitive deliberately does\nnot have. Deletion is the one unrecoverable act in the product, so an implementation is held to the invariant\nthat a referenced, re-linked or in-flight blob is never deleted; the write path cooperates by clearing the\ncollector's {@code gc/condemned/<hash>} marker whenever a pointer links a blob ({@code Publication.link}).",
+	"group_id":"build.jenesis",
+	"artifact_id":"build.jenesis.repository.gc",
+	"version_latest":"0.2.0",
+	"ts_publish":1784396686000,
+	"dt_publish":"2026-07-19 01:44:46.000",
+	"ts_update":1784397445982,
+	"dt_update":"2026-07-19 01:57:17.760",
+	"count_dep":2,
+	"count_ref":1,
+	"licenses":[
+		"Apache-2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/raphw/jenesis-repository",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/build.jenesis:build.jenesis.repository.gc/0.2.0",
+	"contributors":[
+		"Rafael Winterhalter"
+	],
+	"url_scm":"https://github.com/raphw/jenesis-repository"
+}
