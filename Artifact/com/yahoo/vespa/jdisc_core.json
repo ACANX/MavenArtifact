@@ -2,14 +2,16 @@
 	"id":"pkg:maven/com.yahoo.vespa/jdisc_core",
 	"group_id":"com.yahoo.vespa",
 	"artifact_id":"jdisc_core",
-	"version_latest":"8.725.12",
-	"ts_publish":1784167848000,
-	"dt_publish":"2026-07-16 10:10:48.000",
-	"ts_update":1784168840601,
-	"dt_update":"2026-07-16 10:27:10.918",
-	"count_dep":24,
-	"count_ref":25,
-	"licenses":[],
+	"version_latest":"8.727.33",
+	"ts_publish":1784605689000,
+	"dt_publish":"2026-07-21 11:48:09.000",
+	"ts_update":1784606248201,
+	"dt_update":"2026-07-21 11:57:11.538",
+	"count_dep":44,
+	"count_ref":24,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Big Data",
 		"Parallel Data Processing"
@@ -185,5 +187,6 @@
 			"version":"8.596.20",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent artifact for all Vespa maven projects."
 }
