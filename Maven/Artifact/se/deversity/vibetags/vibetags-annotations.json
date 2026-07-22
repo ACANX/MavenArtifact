@@ -1,15 +1,15 @@
 {
   "id": "pkg:maven/se.deversity.vibetags/vibetags-annotations",
-  "description": "VibeTags annotation classes (@AILocked, @AIContext, @AIDraft, @AIAudit,\n        @AIIgnore, @AIPrivacy, @AICore, @AIPerformance). Zero third-party dependencies.\n        All annotations use RetentionPolicy.SOURCE so they leave no trace in the\n        consumer's compiled bytecode — this jar exists purely to give javac the\n        symbols it needs at compile time.\n\n        Pair this with vibetags-processor on the annotation-processor classpath:\n\n        Maven:\n            <dependency>\n                <groupId>se.deversity.vibetags</groupId>\n                <artifactId>vibetags-annotations</artifactId>\n                <version>1.0.0-RC4</version>\n            </dependency>\n\n        Gradle:\n            compileOnly 'se.deversity.vibetags:vibetags-annotations:1.0.0-RC4'\n            annotationProcessor 'se.deversity.vibetags:vibetags-processor:1.0.0-RC4'",
+  "description": "VibeTags annotation classes (@AILocked, @AIContext, @AIDraft, @AIAudit,\n        @AIIgnore, @AIPrivacy, @AICore, @AIPerformance). Zero third-party dependencies.\n        All annotations use RetentionPolicy.SOURCE so they leave no trace in the\n        consumer's compiled bytecode — this jar exists purely to give javac the\n        symbols it needs at compile time.\n\n        Pair this with vibetags-processor on the annotation-processor classpath:\n\n        Maven:\n            <dependency>\n                <groupId>se.deversity.vibetags</groupId>\n                <artifactId>vibetags-annotations</artifactId>\n                <version>1.0.0-RC6</version>\n            </dependency>\n\n        Gradle:\n            compileOnly 'se.deversity.vibetags:vibetags-annotations:1.0.0-RC6'\n            annotationProcessor 'se.deversity.vibetags:vibetags-processor:1.0.0-RC6'",
   "group_id": "se.deversity.vibetags",
   "artifact_id": "vibetags-annotations",
-  "version_latest": "1.0.0-RC4",
-  "ts_publish": 1784406519000,
-  "dt_publish": "2026-07-19 04:28:39.000",
-  "ts_update": 1784408976307,
-  "dt_update": "2026-07-19 05:09:36.307",
+  "version_latest": "1.0.0-RC6",
+  "ts_publish": 1784706015000,
+  "dt_publish": "2026-07-22 15:40:15.000",
+  "ts_update": 1784707036187,
+  "dt_update": "2026-07-22 15:57:16.187",
   "count_dep": 0,
-  "count_ref": 1,
+  "count_ref": 0,
   "licenses": [
     "MIT License"
   ],
