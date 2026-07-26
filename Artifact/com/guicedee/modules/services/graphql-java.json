@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.guicedee.modules.services/graphql-java",
+	"description":"A JPMS modularized shade of GraphQL-Java (com.graphql-java:graphql-java) exposing the\n        com.graphqljava module for a clean GuicedEE / jlink pipeline. ANTLR remains relocated\n        internally by GraphQL-Java under the graphql.org.antlr.* namespace. The stale Guava copy\n        that GraphQL-Java bundles under graphql.com.google.common.* is stripped out of this shade and\n        its references are rewritten back to com.google.common.* so the module reuses the canonical\n        com.google.guava:guava (module com.google.common) already shipped by GuicedEE. This avoids\n        duplicating Guava and removes the security risk of an out-of-date, embedded copy.",
+	"group_id":"com.guicedee.modules.services",
+	"artifact_id":"graphql-java",
+	"version_latest":"2.2.0",
+	"ts_publish":1785104658000,
+	"dt_publish":"2026-07-27 06:24:18.000",
+	"ts_update":1785106654673,
+	"dt_update":"2026-07-27 06:57:22.428",
+	"count_dep":9,
+	"count_ref":1,
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://guicedee.com",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.guicedee.modules.services:graphql-java/2.2.0",
+	"contributors":[
+		"Marc Magon"
+	],
+	"url_scm":"https://github.com/GuicedEE/Parent/graphql-java"
+}
