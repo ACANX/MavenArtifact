@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/it.neckar.open/otel-agent-extension",
+  "description": "OpenTelemetry Java Agent extension — derives resource attributes from the runtime-context environment.\n\nPackaged as a self-contained OTel autoconfigure ResourceProvider. The resulting JAR is loaded two ways,\nboth from the single NeckarRuntimeContextResourceProvider source:\n  - deployed services: as an OTel Java Agent extension (-Dotel.javaagent.extensions=...), the only way the\n    agent picks up a ResourceProvider (application-classpath providers are NOT loaded by the agent).\n  - IDE / integration-test runs (no agent): via the plain autoconfigured SDK, which does load\n    application-classpath providers — consumers depend on this module so the provider is on their classpath.\n\nIntentionally free of first-party dependencies: the agent loads the extension in an isolated classloader\nthat has neither the application classpath nor other JARs, only the agent's own (shaded) OpenTelemetry SDK.\nEverything the provider needs must live in this JAR, so the runtime-context env keys are inlined here rather\nthan referenced from it.neckar.runtime.context.RuntimeContextEnv.",
+  "group_id": "it.neckar.open",
+  "artifact_id": "otel-agent-extension",
+  "version_latest": "10.0.1",
+  "ts_publish": 1785161602000,
+  "dt_publish": "2026-07-27 22:13:22.000",
+  "ts_update": 1785164264161,
+  "dt_update": "2026-07-27 22:57:44.161",
+  "count_dep": 2,
+  "count_ref": 1,
+  "licenses": [
+    "GPLv3 with Classpath Exception"
+  ],
+  "categories": null,
+  "dsv": 1
+}
