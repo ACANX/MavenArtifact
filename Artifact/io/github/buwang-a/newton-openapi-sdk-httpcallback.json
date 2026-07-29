@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.buwang-a/newton-openapi-sdk-httpcallback",
+	"description":"httpCallBack 通道 adapter：提供 Servlet 端点五步流水线（读 body → 验签 → parse → dispatch → ack），\n    接收开放平台 httpCallBack 推送并转为 newton-openapi-sdk 核心的 TaskNotification。\n    独立 Maven 工程，与 sdk-core 平级；依赖方向单向：adapter → sdk-core。\n    多 pod 生产 ISV 主推通道。",
+	"group_id":"io.github.buwang-a",
+	"artifact_id":"newton-openapi-sdk-httpcallback",
+	"version_latest":"1.0.0",
+	"ts_publish":1785328533000,
+	"dt_publish":"2026-07-29 20:35:33.000",
+	"ts_update":1785331683781,
+	"dt_update":"2026-07-29 20:56:56.182",
+	"count_dep":5,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/buwang-a/newton-openapi-sdk",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.buwang-a:newton-openapi-sdk-httpcallback/1.0.0",
+	"contributors":[
+		"Huang Gang"
+	],
+	"url_scm":"https://github.com/buwang-a/newton-openapi-sdk"
+}
