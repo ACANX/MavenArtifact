@@ -1,14 +1,14 @@
 {
   "id": "pkg:maven/ee.schimke.composeai/wear-preview-runtime",
-  "description": "Composable helper that hosts a Wear component in a real single-item TransformingLazyColumn so an isolated `@Preview` shows genuine TLC item scaling (scale + fade toward the edges) with the component authored in the normal list-item code — pair with a plain `@Preview`, `@ScrollingPreview(GIF)`, or a pinned scale position.",
+  "description": "Composable helpers for Wear previews: host a component in a real single-item TransformingLazyColumn so an isolated `@Preview` shows genuine TLC item scaling (scale + fade toward the edges) with the component authored in the normal list-item code; and preview a Glance Wear widget in its host container while capturing the widget's encoded RemoteCompose document as the render's `.rc` IR sidecar.",
   "group_id": "ee.schimke.composeai",
   "artifact_id": "wear-preview-runtime",
-  "version_latest": "0.19.3",
-  "ts_publish": 1785271706000,
-  "dt_publish": "2026-07-29 04:48:26.000",
-  "ts_update": 1785274061640,
-  "dt_update": "2026-07-29 05:27:41.640",
-  "count_dep": 2,
+  "version_latest": "0.19.4",
+  "ts_publish": 1785282279000,
+  "dt_publish": "2026-07-29 07:44:39.000",
+  "ts_update": 1785284847577,
+  "dt_update": "2026-07-29 08:27:27.577",
+  "count_dep": 4,
   "count_ref": 0,
   "licenses": [
     "The Apache License, Version 2.0"
