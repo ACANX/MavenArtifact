@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/org.cadenzaflow.bpm.extension/cadenzaflow-keycloak-4",
+	"description":"Spring Framework 7 line of the CadenzaFlow Keycloak identity plugin, for\n\t  Spring Boot 4 / the cadenzaflow starter-4 family. Identical sources to\n\t  the primary artifact, recompiled against spring-web 7: Spring 7 changed\n\t  binary signatures the 6-compiled jar depends on (HttpHeaders no longer\n\t  implements MultiValueMap, so e.g. the HttpEntity constructors take\n\t  HttpHeaders now), which makes the primary jar fail with\n\t  IncompatibleClassChangeError on a Spring 7 classpath.",
+	"group_id":"org.cadenzaflow.bpm.extension",
+	"artifact_id":"cadenzaflow-keycloak-4",
+	"version_latest":"1.1.2",
+	"ts_publish":1785401657000,
+	"dt_publish":"2026-07-30 16:54:17.000",
+	"ts_update":1785403668019,
+	"dt_update":"2026-07-30 17:27:37.936",
+	"count_dep":43,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/cadenzaflow/cadenzaflow-keycloak/cadenzaflow-keycloak-4",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/org.cadenzaflow.bpm.extension:cadenzaflow-keycloak-4/1.1.2",
+	"contributors":[
+		"CadenzaFlow Platform Community"
+	],
+	"url_scm":"https://github.com/cadenzaflow/cadenzaflow-keycloak/cadenzaflow-keycloak-4"
+}
