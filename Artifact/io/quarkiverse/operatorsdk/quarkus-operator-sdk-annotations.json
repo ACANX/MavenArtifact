@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.operatorsdk/quarkus-operator-sdk-annotations",
 	"group_id":"io.quarkiverse.operatorsdk",
 	"artifact_id":"quarkus-operator-sdk-annotations",
-	"version_latest":"7.7.5",
-	"ts_publish":1779221972000,
-	"dt_publish":"2026-05-20 04:19:32.000",
-	"ts_update":1779226063069,
-	"dt_update":"2026-05-20 04:57:33.778",
+	"version_latest":"7.8.0",
+	"ts_publish":1785488481000,
+	"dt_publish":"2026-07-31 17:01:21.000",
+	"ts_update":1785490084567,
+	"dt_update":"2026-07-31 17:27:31.653",
 	"count_dep":0,
-	"count_ref":6,
-	"licenses":[],
+	"count_ref":8,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -191,5 +193,6 @@
 			"version":"6.8.4",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
