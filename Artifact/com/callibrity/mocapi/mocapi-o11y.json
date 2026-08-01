@@ -3,12 +3,12 @@
 	"description":"Single-interceptor observability for MCP handler invocations via the Micrometer Observation API. Wraps every tool / prompt / resource / resource-template call in an Observation so the same code produces both metrics (via MeterObservationHandler) and distributed-tracing spans (via TracingObservationHandler) — whichever observation handlers the user has on their classpath participate automatically.",
 	"group_id":"com.callibrity.mocapi",
 	"artifact_id":"mocapi-o11y",
-	"version_latest":"0.17.0",
-	"ts_publish":1778161311000,
-	"dt_publish":"2026-05-07 21:41:51.000",
-	"ts_update":1778205470327,
-	"dt_update":"2026-05-07 22:57:35.065",
-	"count_dep":55,
+	"version_latest":"1.1.0",
+	"ts_publish":1785606359000,
+	"dt_publish":"2026-08-02 01:45:59.000",
+	"ts_update":1785607074593,
+	"dt_update":"2026-08-02 01:57:26.536",
+	"count_dep":53,
 	"count_ref":2,
 	"licenses":[
 		"Apache 2"
