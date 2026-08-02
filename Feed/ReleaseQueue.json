@@ -18,6 +18,134 @@
   ],
   "items": [
     {
+      "id": "pkg:maven/se.deversity.vibetags/vibetags-bom@1.0.0-RC9",
+      "url": "https://central.sonatype.com/artifact/se.deversity.vibetags/vibetags-bom",
+      "title": "se.deversity.vibetags:vibetags-bom 1.0.0-RC9 发布, Bill of Materials for the VibeTags annotation processor. Import this BOM to get\n        a coherent vibetags-annotations + vibetags-processor pair without specifying\n        each version individually.\n\n        Recommended setup — annotations on the compile classpath, processor on the\n        annotation-processor path only (the processor jar pulls in slf4j/logback,\n        which has no business on consumer code's compileClasspath):\n\n        Maven:\n            <dependencyManagement>\n                <dependencies>\n                    <dependency>\n                        <groupId>se.deversity.vibetags</groupId>\n                        <artifactId>vibetags-bom</artifactId>\n                        <version>1.0.0-RC9</version>\n                        <type>pom</type>\n                        <scope>import</scope>\n                    </dependency>\n                </dependencies>\n            </dependencyManagement>\n\n        Gradle:\n            implementation platform('se.deversity.vibetags:vibetags-bom:1.0.0-RC9')\n            annotationProcessor platform('se.deversity.vibetags:vibetags-bom:1.0.0-RC9')\n            compileOnly 'se.deversity.vibetags:vibetags-annotations'\n            annotationProcessor 'se.deversity.vibetags:vibetags-processor'",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"se.deversity.vibetags:vibetags-bom@1.0.0-RC9\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/se/deversity/vibetags/vibetags-bom.svg\" alt=\"se.deversity.vibetags:vibetags-bom 1.0.0-RC9 发布, Bill of Materials for the VibeTags annotation processor. Import this BOM to get\n        a coherent vibetags-annotations + vibetags-processor pair without specifying\n        each version individually.\n\n        Recommended setup — annotations on the compile classpath, processor on the\n        annotation-processor path only (the processor jar pulls in slf4j/logback,\n        which has no business on consumer code's compileClasspath):\n\n        Maven:\n            &lt;dependencyManagement&gt;\n                &lt;dependencies&gt;\n                    &lt;dependency&gt;\n                        &lt;groupId&gt;se.deversity.vibetags&lt;/groupId&gt;\n                        &lt;artifactId&gt;vibetags-bom&lt;/artifactId&gt;\n                        &lt;version&gt;1.0.0-RC9&lt;/version&gt;\n                        &lt;type&gt;pom&lt;/type&gt;\n                        &lt;scope&gt;import&lt;/scope&gt;\n                    &lt;/dependency&gt;\n                &lt;/dependencies&gt;\n            &lt;/dependencyManagement&gt;\n\n        Gradle:\n            implementation platform('se.deversity.vibetags:vibetags-bom:1.0.0-RC9')\n            annotationProcessor platform('se.deversity.vibetags:vibetags-bom:1.0.0-RC9')\n            compileOnly 'se.deversity.vibetags:vibetags-annotations'\n            annotationProcessor 'se.deversity.vibetags:vibetags-processor'\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/se/deversity/vibetags/vibetags-bom/1.0.0-RC9/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/se.deversity.vibetags/vibetags-bom\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/se.deversity.vibetags/vibetags-bom/1.0.0-RC9\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/PIsberg/vibetags\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/PIsberg/vibetags/tree/main\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;se.deversity.vibetags&lt;/groupId&gt;\n        &lt;artifactId&gt;vibetags-bom&lt;/artifactId&gt;\n        &lt;version&gt;1.0.0-RC9&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "se.deversity.vibetags:vibetags-bom 1.0.0-RC9 发布, Bill of Materials for the VibeTags annotation processor. Import this BOM to get\n        a coherent vibetags-annotations + vibetags-processor pair without specifying\n        each version individually.\n\n        Recommended setup — annotations on the compile classpath, processor on the\n        annotation-processor path only (the processor jar pulls in slf4j/logback,\n        which has no business on consumer code's compileClasspath):\n\n        Maven:\n            <dependencyManagement>\n                <dependencies>\n                    <dependency>\n                        <groupId>se.deversity.vibetags</groupId>\n                        <artifactId>vibetags-bom</artifactId>\n                        <version>1.0.0-RC9</version>\n                        <type>pom</type>\n                        <scope>import</scope>\n                    </dependency>\n                </dependencies>\n            </dependencyManagement>\n\n        Gradle:\n            implementation platform('se.deversity.vibetags:vibetags-bom:1.0.0-RC9')\n            annotationProcessor platform('se.deversity.vibetags:vibetags-bom:1.0.0-RC9')\n            compileOnly 'se.deversity.vibetags:vibetags-annotations'\n            annotationProcessor 'se.deversity.vibetags:vibetags-processor'",
+      "summary": "se.deversity.vibetags:vibetags-bom 1.0.0-RC9 发布, Bill of Materials for the VibeTags annotation processor. Import this BOM to get\n        a coherent vibetags-annotations + vibetags-processor pair without specifying\n        each version individually.\n\n        Recommended setup — annotations on the compile classpath, processor on the\n        annotation-processor path only (the processor jar pulls in slf4j/logback,\n        which has no business on consumer code's compileClasspath):\n\n        Maven:\n            <dependencyManagement>\n                <dependencies>\n                    <dependency>\n                        <groupId>se.deversity.vibetags</groupId>\n                        <artifactId>vibetags-bom</artifactId>\n                        <version>1.0.0-RC9</version>\n                        <type>pom</type>\n                        <scope>import</scope>\n                    </dependency>\n                </dependencies>\n            </dependencyManagement>\n\n        Gradle:\n            implementation platform('se.deversity.vibetags:vibetags-bom:1.0.0-RC9')\n            annotationProcessor platform('se.deversity.vibetags:vibetags-bom:1.0.0-RC9')\n            compileOnly 'se.deversity.vibetags:vibetags-annotations'\n            annotationProcessor 'se.deversity.vibetags:vibetags-processor'",
+      "date_published": "2026-08-02T22:27:29Z",
+      "date_modified": "2026-08-02T22:34:43Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Peter Isberg"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/org.modeljars/modeljars-catalog@0.1.2",
+      "url": "https://central.sonatype.com/artifact/org.modeljars/modeljars-catalog",
+      "title": "org.modeljars:modeljars-catalog 0.1.2 发布, Qualified aggregate catalog and generated ModelJars candidate markers",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.modeljars:modeljars-catalog@0.1.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/modeljars/modeljars-catalog.svg\" alt=\"org.modeljars:modeljars-catalog 0.1.2 发布, Qualified aggregate catalog and generated ModelJars candidate markers\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/modeljars/modeljars-catalog/0.1.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.modeljars/modeljars-catalog\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.modeljars/modeljars-catalog/0.1.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://modeljars.org\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ModelJars/modeljars\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.modeljars&lt;/groupId&gt;\n        &lt;artifactId&gt;modeljars-catalog&lt;/artifactId&gt;\n        &lt;version&gt;0.1.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "org.modeljars:modeljars-catalog 0.1.2 发布, Qualified aggregate catalog and generated ModelJars candidate markers",
+      "summary": "org.modeljars:modeljars-catalog 0.1.2 发布, Qualified aggregate catalog and generated ModelJars candidate markers",
+      "date_published": "2026-08-02T22:24:54Z",
+      "date_modified": "2026-08-02T22:34:45Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "ModelJars maintainers"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/org.modeljars/modeljars-core@0.1.2",
+      "url": "https://central.sonatype.com/artifact/org.modeljars/modeljars-core",
+      "title": "org.modeljars:modeljars-core 0.1.2 发布, Core ModelJars registry, locator, and verified installer APIs",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.modeljars:modeljars-core@0.1.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/modeljars/modeljars-core.svg\" alt=\"org.modeljars:modeljars-core 0.1.2 发布, Core ModelJars registry, locator, and verified installer APIs\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/modeljars/modeljars-core/0.1.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.modeljars/modeljars-core\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.modeljars/modeljars-core/0.1.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://modeljars.org\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ModelJars/modeljars\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.modeljars&lt;/groupId&gt;\n        &lt;artifactId&gt;modeljars-core&lt;/artifactId&gt;\n        &lt;version&gt;0.1.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "org.modeljars:modeljars-core 0.1.2 发布, Core ModelJars registry, locator, and verified installer APIs",
+      "summary": "org.modeljars:modeljars-core 0.1.2 发布, Core ModelJars registry, locator, and verified installer APIs",
+      "date_published": "2026-08-02T22:24:54Z",
+      "date_modified": "2026-08-02T22:34:45Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "ModelJars maintainers"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/org.modeljars/modeljars@0.1.2",
+      "url": "https://central.sonatype.com/artifact/org.modeljars/modeljars",
+      "title": "org.modeljars:modeljars 0.1.2 发布, Application-facing ModelJars JVM Runtime",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.modeljars:modeljars@0.1.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/modeljars/modeljars.svg\" alt=\"org.modeljars:modeljars 0.1.2 发布, Application-facing ModelJars JVM Runtime\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/modeljars/modeljars/0.1.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.modeljars/modeljars\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.modeljars/modeljars/0.1.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://modeljars.org\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ModelJars/modeljars\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.modeljars&lt;/groupId&gt;\n        &lt;artifactId&gt;modeljars&lt;/artifactId&gt;\n        &lt;version&gt;0.1.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "org.modeljars:modeljars 0.1.2 发布, Application-facing ModelJars JVM Runtime",
+      "summary": "org.modeljars:modeljars 0.1.2 发布, Application-facing ModelJars JVM Runtime",
+      "date_published": "2026-08-02T22:24:54Z",
+      "date_modified": "2026-08-02T22:34:43Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "ModelJars maintainers"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
       "id": "pkg:maven/com.linkbreakers/linkbreakers-sdk@1.110.3",
       "url": "https://central.sonatype.com/artifact/com.linkbreakers/linkbreakers-sdk",
       "title": "com.linkbreakers:linkbreakers-sdk 1.110.3 发布, Official Java SDK for the Linkbreakers API",
@@ -25,7 +153,7 @@
       "content_text": "com.linkbreakers:linkbreakers-sdk 1.110.3 发布, Official Java SDK for the Linkbreakers API",
       "summary": "com.linkbreakers:linkbreakers-sdk 1.110.3 发布, Official Java SDK for the Linkbreakers API",
       "date_published": "2026-08-02T22:22:48Z",
-      "date_modified": "2026-08-02T22:27:37Z",
+      "date_modified": "2026-08-02T22:34:45Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -57,7 +185,7 @@
       "content_text": "io.github.ciurlaro:codex-agent-client 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "summary": "io.github.ciurlaro:codex-agent-client 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "date_published": "2026-08-02T22:21:12Z",
-      "date_modified": "2026-08-02T22:27:40Z",
+      "date_modified": "2026-08-02T22:34:46Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -89,7 +217,7 @@
       "content_text": "io.github.ciurlaro:codex-agent-client-iosarm64 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "summary": "io.github.ciurlaro:codex-agent-client-iosarm64 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "date_published": "2026-08-02T22:21:12Z",
-      "date_modified": "2026-08-02T22:27:40Z",
+      "date_modified": "2026-08-02T22:34:44Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -121,7 +249,7 @@
       "content_text": "io.github.ciurlaro:codex-agent-runtime-android 0.1.0 发布, Android process runtime and verified Codex App Server distribution for Codex Agent.",
       "summary": "io.github.ciurlaro:codex-agent-runtime-android 0.1.0 发布, Android process runtime and verified Codex App Server distribution for Codex Agent.",
       "date_published": "2026-08-02T22:21:12Z",
-      "date_modified": "2026-08-02T22:27:38Z",
+      "date_modified": "2026-08-02T22:34:43Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -153,7 +281,7 @@
       "content_text": "io.github.ciurlaro:codex-agent-client-iossimulatorarm64 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "summary": "io.github.ciurlaro:codex-agent-client-iossimulatorarm64 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "date_published": "2026-08-02T22:21:12Z",
-      "date_modified": "2026-08-02T22:27:36Z",
+      "date_modified": "2026-08-02T22:34:43Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -185,7 +313,7 @@
       "content_text": "io.github.ciurlaro:codex-agent-client-android 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "summary": "io.github.ciurlaro:codex-agent-client-android 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "date_published": "2026-08-02T22:21:12Z",
-      "date_modified": "2026-08-02T22:27:39Z",
+      "date_modified": "2026-08-02T22:34:44Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -217,7 +345,7 @@
       "content_text": "io.github.ciurlaro:codex-agent-client-jvm 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "summary": "io.github.ciurlaro:codex-agent-client-jvm 0.1.0 发布, Portable Kotlin Multiplatform client for the Codex App Server.",
       "date_published": "2026-08-02T22:21:12Z",
-      "date_modified": "2026-08-02T22:27:39Z",
+      "date_modified": "2026-08-02T22:34:43Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -249,7 +377,7 @@
       "content_text": "io.github.lattice-hub:pole-specification 0.1.0-ALPHA.43 发布, Official Java Protobuf messages and gRPC stubs for Pole Specification",
       "summary": "io.github.lattice-hub:pole-specification 0.1.0-ALPHA.43 发布, Official Java Protobuf messages and gRPC stubs for Pole Specification",
       "date_published": "2026-08-02T22:20:13Z",
-      "date_modified": "2026-08-02T22:27:38Z",
+      "date_modified": "2026-08-02T22:34:42Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -281,7 +409,7 @@
       "content_text": "se.deversity.vibetags:vibetags-processor 1.0.0-RC9 发布, Java annotation processor that generates AI platform-specific guardrail configuration files at compile time.",
       "summary": "se.deversity.vibetags:vibetags-processor 1.0.0-RC9 发布, Java annotation processor that generates AI platform-specific guardrail configuration files at compile time.",
       "date_published": "2026-08-02T22:20:08Z",
-      "date_modified": "2026-08-02T22:27:40Z",
+      "date_modified": "2026-08-02T22:34:43Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -313,7 +441,7 @@
       "content_text": "io.github.ragin-lundf:ruleengine-ui 1.7.0 发布, Desktop UI for the rule engine",
       "summary": "io.github.ragin-lundf:ruleengine-ui 1.7.0 发布, Desktop UI for the rule engine",
       "date_published": "2026-08-02T22:18:59Z",
-      "date_modified": "2026-08-02T22:27:40Z",
+      "date_modified": "2026-08-02T22:34:46Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -345,7 +473,7 @@
       "content_text": "net.bugreaper:module-kafka 1.2.0 发布, BugReaper module for interaction with Kafka",
       "summary": "net.bugreaper:module-kafka 1.2.0 发布, BugReaper module for interaction with Kafka",
       "date_published": "2026-08-02T22:18:11Z",
-      "date_modified": "2026-08-02T22:27:38Z",
+      "date_modified": "2026-08-02T22:34:43Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -377,7 +505,7 @@
       "content_text": "org.danilopianini:template-for-kotlin-multiplatform-projects-watchossimulatorarm64 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "summary": "org.danilopianini:template-for-kotlin-multiplatform-projects-watchossimulatorarm64 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "date_published": "2026-08-02T22:17:41Z",
-      "date_modified": "2026-08-02T22:27:37Z",
+      "date_modified": "2026-08-02T22:34:43Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -411,7 +539,7 @@
       "content_text": "org.danilopianini:template-for-kotlin-multiplatform-projects-watchosarm32 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "summary": "org.danilopianini:template-for-kotlin-multiplatform-projects-watchosarm32 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "date_published": "2026-08-02T22:17:41Z",
-      "date_modified": "2026-08-02T22:27:39Z",
+      "date_modified": "2026-08-02T22:34:43Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -444,7 +572,7 @@
       "content_text": "org.danilopianini:template-for-kotlin-multiplatform-projects-mingwx64 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "summary": "org.danilopianini:template-for-kotlin-multiplatform-projects-mingwx64 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "date_published": "2026-08-02T22:17:41Z",
-      "date_modified": "2026-08-02T22:27:40Z",
+      "date_modified": "2026-08-02T22:34:43Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -881,7 +1009,7 @@
       "content_text": "org.danilopianini:template-for-kotlin-multiplatform-projects-linuxarm64 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "summary": "org.danilopianini:template-for-kotlin-multiplatform-projects-linuxarm64 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "date_published": "2026-08-02T22:17:41Z",
-      "date_modified": "2026-08-02T22:27:36Z",
+      "date_modified": "2026-08-02T22:34:44Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -914,7 +1042,7 @@
       "content_text": "org.danilopianini:template-for-kotlin-multiplatform-projects-macosx64 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "summary": "org.danilopianini:template-for-kotlin-multiplatform-projects-macosx64 0.3.13-dev07+526f216 发布, A template repository for Kotlin Multiplatform projects",
       "date_published": "2026-08-02T22:17:41Z",
-      "date_modified": "2026-08-02T22:27:40Z",
+      "date_modified": "2026-08-02T22:34:43Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -16741,102 +16869,6 @@
       ]
     },
     {
-      "id": "pkg:maven/org.modeljars/modeljars-catalog@0.1.1",
-      "url": "https://central.sonatype.com/artifact/org.modeljars/modeljars-catalog",
-      "title": "org.modeljars:modeljars-catalog 0.1.1 发布, Qualified aggregate catalog and generated ModelJars candidate markers",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.modeljars:modeljars-catalog@0.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/modeljars/modeljars-catalog.svg\" alt=\"org.modeljars:modeljars-catalog 0.1.1 发布, Qualified aggregate catalog and generated ModelJars candidate markers\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/modeljars/modeljars-catalog/0.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.modeljars/modeljars-catalog\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.modeljars/modeljars-catalog/0.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://modeljars.org\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ModelJars/modeljars\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.modeljars&lt;/groupId&gt;\n        &lt;artifactId&gt;modeljars-catalog&lt;/artifactId&gt;\n        &lt;version&gt;0.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.modeljars:modeljars-catalog 0.1.1 发布, Qualified aggregate catalog and generated ModelJars candidate markers",
-      "summary": "org.modeljars:modeljars-catalog 0.1.1 发布, Qualified aggregate catalog and generated ModelJars candidate markers",
-      "date_published": "2026-08-02T19:55:34Z",
-      "date_modified": "2026-08-02T20:27:35Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ModelJars maintainers"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.modeljars/modeljars-core@0.1.1",
-      "url": "https://central.sonatype.com/artifact/org.modeljars/modeljars-core",
-      "title": "org.modeljars:modeljars-core 0.1.1 发布, Core ModelJars registry, locator, and verified installer APIs",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.modeljars:modeljars-core@0.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/modeljars/modeljars-core.svg\" alt=\"org.modeljars:modeljars-core 0.1.1 发布, Core ModelJars registry, locator, and verified installer APIs\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/modeljars/modeljars-core/0.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.modeljars/modeljars-core\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.modeljars/modeljars-core/0.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://modeljars.org\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ModelJars/modeljars\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.modeljars&lt;/groupId&gt;\n        &lt;artifactId&gt;modeljars-core&lt;/artifactId&gt;\n        &lt;version&gt;0.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.modeljars:modeljars-core 0.1.1 发布, Core ModelJars registry, locator, and verified installer APIs",
-      "summary": "org.modeljars:modeljars-core 0.1.1 发布, Core ModelJars registry, locator, and verified installer APIs",
-      "date_published": "2026-08-02T19:55:34Z",
-      "date_modified": "2026-08-02T20:27:43Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ModelJars maintainers"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.modeljars/modeljars@0.1.1",
-      "url": "https://central.sonatype.com/artifact/org.modeljars/modeljars",
-      "title": "org.modeljars:modeljars 0.1.1 发布, Application-facing ModelJars JVM Runtime",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.modeljars:modeljars@0.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/modeljars/modeljars.svg\" alt=\"org.modeljars:modeljars 0.1.1 发布, Application-facing ModelJars JVM Runtime\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/modeljars/modeljars/0.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.modeljars/modeljars\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.modeljars/modeljars/0.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://modeljars.org\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ModelJars/modeljars\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.modeljars&lt;/groupId&gt;\n        &lt;artifactId&gt;modeljars&lt;/artifactId&gt;\n        &lt;version&gt;0.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.modeljars:modeljars 0.1.1 发布, Application-facing ModelJars JVM Runtime",
-      "summary": "org.modeljars:modeljars 0.1.1 发布, Application-facing ModelJars JVM Runtime",
-      "date_published": "2026-08-02T19:55:34Z",
-      "date_modified": "2026-08-02T20:27:35Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ModelJars maintainers"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
       "id": "pkg:maven/io.github.stellarsunset/auto-publish@0.0.13",
       "url": "https://central.sonatype.com/artifact/io.github.stellarsunset/auto-publish",
       "title": "io.github.stellarsunset:auto-publish 0.0.13 发布, Lightweight maven publication auto-configuration based on a standard developer setup.",
@@ -17235,166 +17267,6 @@
         },
         {
           "name": "Thomas Liphardt"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.christoph-sens/s3overflow@1.0.0",
-      "url": "https://central.sonatype.com/artifact/com.christoph-sens/s3overflow",
-      "title": "com.christoph-sens:s3overflow 1.0.0 发布, Kotlin library for offloading SQS/SNS message payloads that exceed the 256 KB inline limit to S3, based on aws-sdk-kotlin and coroutines.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.christoph-sens:s3overflow@1.0.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/christoph-sens/s3overflow.svg\" alt=\"com.christoph-sens:s3overflow 1.0.0 发布, Kotlin library for offloading SQS/SNS message payloads that exceed the 256 KB inline limit to S3, based on aws-sdk-kotlin and coroutines.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/christoph-sens/s3overflow/1.0.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.christoph-sens/s3overflow\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.christoph-sens/s3overflow/1.0.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/christoph-sens/s3overflow\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/christoph-sens/s3overflow\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.christoph-sens&lt;/groupId&gt;\n        &lt;artifactId&gt;s3overflow&lt;/artifactId&gt;\n        &lt;version&gt;1.0.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.christoph-sens:s3overflow 1.0.0 发布, Kotlin library for offloading SQS/SNS message payloads that exceed the 256 KB inline limit to S3, based on aws-sdk-kotlin and coroutines.",
-      "summary": "com.christoph-sens:s3overflow 1.0.0 发布, Kotlin library for offloading SQS/SNS message payloads that exceed the 256 KB inline limit to S3, based on aws-sdk-kotlin and coroutines.",
-      "date_published": "2026-08-02T19:32:35Z",
-      "date_modified": "2026-08-02T20:27:38Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Christoph Sens"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.hardik-vaghani/flexiscale-resources@1.0.0",
-      "url": "https://central.sonatype.com/artifact/io.github.hardik-vaghani/flexiscale-resources",
-      "title": "io.github.hardik-vaghani:flexiscale-resources 1.0.0 发布, Pre-generated XML dimension resources for FlexiScale.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.hardik-vaghani:flexiscale-resources@1.0.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/hardik-vaghani/flexiscale-resources.svg\" alt=\"io.github.hardik-vaghani:flexiscale-resources 1.0.0 发布, Pre-generated XML dimension resources for FlexiScale.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/hardik-vaghani/flexiscale-resources/1.0.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.hardik-vaghani/flexiscale-resources\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.hardik-vaghani/flexiscale-resources/1.0.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/hardik-vaghani/flexiscale\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/hardik-vaghani/flexiscale/tree/main\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.hardik-vaghani&lt;/groupId&gt;\n        &lt;artifactId&gt;flexiscale-resources&lt;/artifactId&gt;\n        &lt;version&gt;1.0.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.hardik-vaghani:flexiscale-resources 1.0.0 发布, Pre-generated XML dimension resources for FlexiScale.",
-      "summary": "io.github.hardik-vaghani:flexiscale-resources 1.0.0 发布, Pre-generated XML dimension resources for FlexiScale.",
-      "date_published": "2026-08-02T19:31:44Z",
-      "date_modified": "2026-08-02T20:27:39Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Hardik Vaghani"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.hardik-vaghani/flexiscale-runtime@1.0.0",
-      "url": "https://central.sonatype.com/artifact/io.github.hardik-vaghani/flexiscale-runtime",
-      "title": "io.github.hardik-vaghani:flexiscale-runtime 1.0.0 发布, Core responsive UI scaling engine for Android.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.hardik-vaghani:flexiscale-runtime@1.0.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/hardik-vaghani/flexiscale-runtime.svg\" alt=\"io.github.hardik-vaghani:flexiscale-runtime 1.0.0 发布, Core responsive UI scaling engine for Android.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/hardik-vaghani/flexiscale-runtime/1.0.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.hardik-vaghani/flexiscale-runtime\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.hardik-vaghani/flexiscale-runtime/1.0.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/hardik-vaghani/flexiscale\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/hardik-vaghani/flexiscale/tree/main\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.hardik-vaghani&lt;/groupId&gt;\n        &lt;artifactId&gt;flexiscale-runtime&lt;/artifactId&gt;\n        &lt;version&gt;1.0.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.hardik-vaghani:flexiscale-runtime 1.0.0 发布, Core responsive UI scaling engine for Android.",
-      "summary": "io.github.hardik-vaghani:flexiscale-runtime 1.0.0 发布, Core responsive UI scaling engine for Android.",
-      "date_published": "2026-08-02T19:31:44Z",
-      "date_modified": "2026-08-02T19:57:30Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Hardik Vaghani"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.hardik-vaghani/flexiscale-compose@1.0.0",
-      "url": "https://central.sonatype.com/artifact/io.github.hardik-vaghani/flexiscale-compose",
-      "title": "io.github.hardik-vaghani:flexiscale-compose 1.0.0 发布, Jetpack Compose integration for FlexiScale.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.hardik-vaghani:flexiscale-compose@1.0.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/hardik-vaghani/flexiscale-compose.svg\" alt=\"io.github.hardik-vaghani:flexiscale-compose 1.0.0 发布, Jetpack Compose integration for FlexiScale.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/hardik-vaghani/flexiscale-compose/1.0.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.hardik-vaghani/flexiscale-compose\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.hardik-vaghani/flexiscale-compose/1.0.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/hardik-vaghani/flexiscale\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/hardik-vaghani/flexiscale/tree/main\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.hardik-vaghani&lt;/groupId&gt;\n        &lt;artifactId&gt;flexiscale-compose&lt;/artifactId&gt;\n        &lt;version&gt;1.0.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.hardik-vaghani:flexiscale-compose 1.0.0 发布, Jetpack Compose integration for FlexiScale.",
-      "summary": "io.github.hardik-vaghani:flexiscale-compose 1.0.0 发布, Jetpack Compose integration for FlexiScale.",
-      "date_published": "2026-08-02T19:31:44Z",
-      "date_modified": "2026-08-02T19:57:30Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Hardik Vaghani"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.hardik-vaghani/flexiscale-tokens@1.0.0",
-      "url": "https://central.sonatype.com/artifact/io.github.hardik-vaghani/flexiscale-tokens",
-      "title": "io.github.hardik-vaghani:flexiscale-tokens 1.0.0 发布, Design system tokens for FlexiScale.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.hardik-vaghani:flexiscale-tokens@1.0.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/hardik-vaghani/flexiscale-tokens.svg\" alt=\"io.github.hardik-vaghani:flexiscale-tokens 1.0.0 发布, Design system tokens for FlexiScale.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/hardik-vaghani/flexiscale-tokens/1.0.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.hardik-vaghani/flexiscale-tokens\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.hardik-vaghani/flexiscale-tokens/1.0.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/hardik-vaghani/flexiscale\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/hardik-vaghani/flexiscale/tree/main\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.hardik-vaghani&lt;/groupId&gt;\n        &lt;artifactId&gt;flexiscale-tokens&lt;/artifactId&gt;\n        &lt;version&gt;1.0.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.hardik-vaghani:flexiscale-tokens 1.0.0 发布, Design system tokens for FlexiScale.",
-      "summary": "io.github.hardik-vaghani:flexiscale-tokens 1.0.0 发布, Design system tokens for FlexiScale.",
-      "date_published": "2026-08-02T19:31:44Z",
-      "date_modified": "2026-08-02T20:27:43Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Hardik Vaghani"
         }
       ],
       "tags": [
