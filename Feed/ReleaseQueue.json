@@ -18,6 +18,36 @@
   ],
   "items": [
     {
+      "id": "pkg:maven/to.unified/unified-java-sdk@0.48.5",
+      "url": "https://central.sonatype.com/artifact/to.unified/unified-java-sdk",
+      "title": "to.unified:unified-java-sdk 0.48.5 发布, SDK enabling Java developers to easily integrate with the Unified API Inc. API.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"to.unified:unified-java-sdk@0.48.5\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/to/unified/unified-java-sdk.svg\" alt=\"to.unified:unified-java-sdk 0.48.5 发布, SDK enabling Java developers to easily integrate with the Unified API Inc. API.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/to/unified/unified-java-sdk/0.48.5/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/to.unified/unified-java-sdk\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/to.unified/unified-java-sdk/0.48.5\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/unified-to/unified-java-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"github.com/unified-to/unified-java-sdk\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/unified-to/unified-java-sdk\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;to.unified&lt;/groupId&gt;\n        &lt;artifactId&gt;unified-java-sdk&lt;/artifactId&gt;\n        &lt;version&gt;0.48.5&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "to.unified:unified-java-sdk 0.48.5 发布, SDK enabling Java developers to easily integrate with the Unified API Inc. API.",
+      "summary": "to.unified:unified-java-sdk 0.48.5 发布, SDK enabling Java developers to easily integrate with the Unified API Inc. API.",
+      "date_published": "2026-08-02T00:57:44Z",
+      "date_modified": "2026-08-02T01:12:26Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Unified API Inc."
+        }
+      ],
+      "tags": [
+        "sdk"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
       "id": "pkg:maven/io.github.cdklabs/cdk-docker-image-deployment@0.0.997",
       "url": "https://central.sonatype.com/artifact/io.github.cdklabs/cdk-docker-image-deployment",
       "title": "io.github.cdklabs:cdk-docker-image-deployment 0.0.997 发布, This module allows you to copy docker image assets to a repository you control. This can be necessary if you want to build a Docker image in one CDK app and consume it in a different app or outside the CDK.",
@@ -25,7 +55,7 @@
       "content_text": "io.github.cdklabs:cdk-docker-image-deployment 0.0.997 发布, This module allows you to copy docker image assets to a repository you control. This can be necessary if you want to build a Docker image in one CDK app and consume it in a different app or outside the CDK.",
       "summary": "io.github.cdklabs:cdk-docker-image-deployment 0.0.997 发布, This module allows you to copy docker image assets to a repository you control. This can be necessary if you want to build a Docker image in one CDK app and consume it in a different app or outside the CDK.",
       "date_published": "2026-08-02T00:49:29Z",
-      "date_modified": "2026-08-02T00:57:31Z",
+      "date_modified": "2026-08-02T01:12:25Z",
       "tags": [
         "github",
         "deployment",
@@ -51,7 +81,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-studio-base 0.6.0 发布, Reusable studio infrastructure: actions and primitives that downstream\n        projects pick up by depending on this module. Adding the dependency\n        opts the project into the studio surface (currently: typed Doc serving\n        via DocGetAction). Projects that don't depend on this module get\n        nothing extra, which is the point — homing-server stays minimal.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-studio-base 0.6.0 发布, Reusable studio infrastructure: actions and primitives that downstream\n        projects pick up by depending on this module. Adding the dependency\n        opts the project into the studio surface (currently: typed Doc serving\n        via DocGetAction). Projects that don't depend on this module get\n        nothing extra, which is the point — homing-server stays minimal.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:29Z",
+      "date_modified": "2026-08-02T01:12:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -83,7 +113,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-tree-views 0.6.0 发布, Rigid tree substrate — typed leveled TreeNode value objects + a\n        canonical JSON serialiser that becomes the universal contract for\n        rendering any tree-shaped artifact on JS without a single line of\n        per-tree-kind JS code.\n\n        Borrows DomOpsParty's leveled-types pattern: TreeLevel is a sealed\n        sum (L0..L8); TreeNode<L extends TreeLevel> is parameterised on\n        its depth. Per-tree-kind adapter records (in studio-base and\n        downstream modules) map native shapes (catalogues, ComposedDoc\n        segments, future tree-shaped doc kinds) to TreeNode<L> — a\n        thin String-to-typed-wrapping boundary.\n\n        Substrate vocabulary:\n        - Dimension(key, value)      — typed metadata pair\n        - DimensionKey               — sealed; small substrate vocabulary\n        - DimensionValue             — non-sealed; extension point\n        - DisplayLabel / LevelDepth  — bundled DimensionKey constants\n        - NameValue / DepthValue     — bundled DimensionValue records\n        - TreeNodeJsonWriter         — canonical JSON serialiser\n\n        Doctrinal anchors: Names Are Types (no raw strings on the contract\n        surface), Make It Impossible Not Forbidden (level type enforces\n        per-depth shape), One Stone Two Birds (substrate consolidation +\n        future pivot/grid/outline transforms compound on the same shape).",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-tree-views 0.6.0 发布, Rigid tree substrate — typed leveled TreeNode value objects + a\n        canonical JSON serialiser that becomes the universal contract for\n        rendering any tree-shaped artifact on JS without a single line of\n        per-tree-kind JS code.\n\n        Borrows DomOpsParty's leveled-types pattern: TreeLevel is a sealed\n        sum (L0..L8); TreeNode<L extends TreeLevel> is parameterised on\n        its depth. Per-tree-kind adapter records (in studio-base and\n        downstream modules) map native shapes (catalogues, ComposedDoc\n        segments, future tree-shaped doc kinds) to TreeNode<L> — a\n        thin String-to-typed-wrapping boundary.\n\n        Substrate vocabulary:\n        - Dimension(key, value)      — typed metadata pair\n        - DimensionKey               — sealed; small substrate vocabulary\n        - DimensionValue             — non-sealed; extension point\n        - DisplayLabel / LevelDepth  — bundled DimensionKey constants\n        - NameValue / DepthValue     — bundled DimensionValue records\n        - TreeNodeJsonWriter         — canonical JSON serialiser\n\n        Doctrinal anchors: Names Are Types (no raw strings on the contract\n        surface), Make It Impossible Not Forbidden (level type enforces\n        per-depth shape), One Stone Two Birds (substrate consolidation +\n        future pivot/grid/outline transforms compound on the same shape).",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:30Z",
+      "date_modified": "2026-08-02T01:12:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -115,7 +145,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-workspace-persistence 0.6.0 发布, Hand-written ES module: the RFC 0029 workspace state persistence\n        layer (WidgetParamsCodecRegistry, LocalStorageStore,\n        captureLiveWorkspace, WorkspaceStatePersister, the\n        WorkspaceStatePersistence facade).\n\n        Sits in its own Maven module because it depends on the\n        generated codec module (homing-workspace-codecs) — placing it in\n        homing-workspace would create a Maven cycle (codec module\n        already depends on homing-workspace for the typed records).\n\n        Doctrine — \"Generated and Hand-Written Live Apart\": hand-written\n        side. The JS lives in src/main/resources committed to the repo.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-workspace-persistence 0.6.0 发布, Hand-written ES module: the RFC 0029 workspace state persistence\n        layer (WidgetParamsCodecRegistry, LocalStorageStore,\n        captureLiveWorkspace, WorkspaceStatePersister, the\n        WorkspaceStatePersistence facade).\n\n        Sits in its own Maven module because it depends on the\n        generated codec module (homing-workspace-codecs) — placing it in\n        homing-workspace would create a Maven cycle (codec module\n        already depends on homing-workspace for the typed records).\n\n        Doctrine — \"Generated and Hand-Written Live Apart\": hand-written\n        side. The JS lives in src/main/resources committed to the repo.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:29Z",
+      "date_modified": "2026-08-02T01:12:25Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -147,7 +177,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-studio-starter 0.6.0 发布, Batteries-included entry point for downstream studios (RFC 0040). The\n        workspace stack (homing-workspace / -shell / -studio-workspace) is a\n        strict downstream of homing-studio-base, so the \"studio + workspace\n        out of the box\" wiring cannot live in studio-base itself (it would\n        close a dependency cycle). This module sits ABOVE the whole stack and\n        ties it together:\n\n        - StudioStarterFixtures — a Fixtures that IS DefaultFixtures plus the\n          Studio Workspace pre-wired: GenericWorkspace served, StudioWorkspaceSpec\n          registered, and GET /catalogue-tree rooted at the studio forest.\n\n        A downstream studio depends on THIS module only, constructs\n        `new StudioStarterFixtures<>(umbrella)` instead of\n        `new DefaultFixtures<>(umbrella)`, and the catalogue Navigator,\n        tree feed, and leveled Open all light up with no per-studio wiring.\n\n        Doctrinal anchor: A Good Design Doesn't Pick Up Its Substrate — the\n        starter is the one place the application-assembly defaults are\n        composed; nothing below it knows the workspace exists.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-studio-starter 0.6.0 发布, Batteries-included entry point for downstream studios (RFC 0040). The\n        workspace stack (homing-workspace / -shell / -studio-workspace) is a\n        strict downstream of homing-studio-base, so the \"studio + workspace\n        out of the box\" wiring cannot live in studio-base itself (it would\n        close a dependency cycle). This module sits ABOVE the whole stack and\n        ties it together:\n\n        - StudioStarterFixtures — a Fixtures that IS DefaultFixtures plus the\n          Studio Workspace pre-wired: GenericWorkspace served, StudioWorkspaceSpec\n          registered, and GET /catalogue-tree rooted at the studio forest.\n\n        A downstream studio depends on THIS module only, constructs\n        `new StudioStarterFixtures<>(umbrella)` instead of\n        `new DefaultFixtures<>(umbrella)`, and the catalogue Navigator,\n        tree feed, and leveled Open all light up with no per-studio wiring.\n\n        Doctrinal anchor: A Good Design Doesn't Pick Up Its Substrate — the\n        starter is the one place the application-assembly defaults are\n        composed; nothing below it knows the workspace exists.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:29Z",
+      "date_modified": "2026-08-02T01:12:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -179,7 +209,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-codec 0.6.0 发布, Meta-Function ontology — the higher-level interface layer that names\n        the typed objects involved in moving data across language seams via\n        generated code rather than runtime reflection.\n\n        Four ontology objects:\n\n        1. ObjectDefinition<T> — typed source-of-truth\n        2. TransformationFunctions<T, W> — pure encode/decode pair\n        3. FunctionsCodeGen — produces source code of TransformationFunctions\n        4. DefinitionCodeGen — translates ObjectDefinition across languages\n\n        Pure-interface module — no implementations. Concrete codecs live\n        with their Value Objects in the modules that own those records\n        (Names Are Types in action: each Object Definition's codec is\n        co-located with the Object Definition itself).\n\n        Doctrinal anchor: CodeGen as Functions. Hand-written, automated,\n        and AI-assisted implementations all conform to the same interface;\n        provenance is invisible at the contract boundary.\n\n        Deferred: a Java-side JSON parser (for the day data flows back\n        from JS to Java). Not needed yet — only Java→JS direction is in\n        scope for the early consumers.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-codec 0.6.0 发布, Meta-Function ontology — the higher-level interface layer that names\n        the typed objects involved in moving data across language seams via\n        generated code rather than runtime reflection.\n\n        Four ontology objects:\n\n        1. ObjectDefinition<T> — typed source-of-truth\n        2. TransformationFunctions<T, W> — pure encode/decode pair\n        3. FunctionsCodeGen — produces source code of TransformationFunctions\n        4. DefinitionCodeGen — translates ObjectDefinition across languages\n\n        Pure-interface module — no implementations. Concrete codecs live\n        with their Value Objects in the modules that own those records\n        (Names Are Types in action: each Object Definition's codec is\n        co-located with the Object Definition itself).\n\n        Doctrinal anchor: CodeGen as Functions. Hand-written, automated,\n        and AI-assisted implementations all conform to the same interface;\n        provenance is invisible at the contract boundary.\n\n        Deferred: a Java-side JSON parser (for the day data flows back\n        from JS to Java). Not needed yet — only Java→JS direction is in\n        scope for the early consumers.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:31Z",
+      "date_modified": "2026-08-02T01:12:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -211,7 +241,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-rigid-tree 0.6.0 发布, The normalized rigid tree — RFC 0040. A dedicated, substrate-free\n        module holding only the definition and arithmetic of a leveled\n        rigid tree: pure values and functions, zero framework dependencies.\n\n        Borrows DomOpsParty's leveled-types pattern, capped at 18 levels\n        (L0..L18) to retain rigidity. Contents:\n        - TreeLevel              — sealed sum L0..L18 + atDepth/shifted/above\n        - TreeNode<L>       — typed leveled node contract\n        - NormalizedNode         — the one canonical node every source maps to\n        - Dimension / DimensionKey / DimensionValue + the bundled keys/values\n        - RigidTrees.shift(...)  — graft: a pure recursive level shift\n        - TreeNormalizer<SPEC> — the per-source-encoding seam\n\n        Everything else (TreeNodeJsonWriter serialization in\n        homing-tree-views, the studio-base normalizers, the JS TreeRenderer)\n        depends ON this module — never the reverse. Substrate doctrine made\n        physical: the tree value algebra cannot pick up serialization,\n        rendering, or any source encoding.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-rigid-tree 0.6.0 发布, The normalized rigid tree — RFC 0040. A dedicated, substrate-free\n        module holding only the definition and arithmetic of a leveled\n        rigid tree: pure values and functions, zero framework dependencies.\n\n        Borrows DomOpsParty's leveled-types pattern, capped at 18 levels\n        (L0..L18) to retain rigidity. Contents:\n        - TreeLevel              — sealed sum L0..L18 + atDepth/shifted/above\n        - TreeNode<L>       — typed leveled node contract\n        - NormalizedNode         — the one canonical node every source maps to\n        - Dimension / DimensionKey / DimensionValue + the bundled keys/values\n        - RigidTrees.shift(...)  — graft: a pure recursive level shift\n        - TreeNormalizer<SPEC> — the per-source-encoding seam\n\n        Everything else (TreeNodeJsonWriter serialization in\n        homing-tree-views, the studio-base normalizers, the JS TreeRenderer)\n        depends ON this module — never the reverse. Substrate doctrine made\n        physical: the tree value algebra cannot pick up serialization,\n        rendering, or any source encoding.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:30Z",
+      "date_modified": "2026-08-02T01:12:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -243,7 +273,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-workspace-shell 0.6.0 发布, Universal workspace chrome substrate — the orchestrator and its\n        sub-classes that every WorkspaceShell-derived AppModule shares.\n\n        Born from a refactor: prior to this module, the entire workspace\n        boot sequence (WorkspaceLayout mount, MTP wiring, picker plumbing,\n        persistence attach, identity resolution, event-log + replay,\n        checkpoint store, Web Lock + read-only fence) lived as ~2,100 lines\n        of JS-as-Java-string-literals inside per-workspace chrome widgets\n        (e.g. AnimalsPlaygroundChrome.bodyJs() in homing-demo). This\n        module promotes that mass into proper ES modules — one class per\n        responsibility, each independently testable.\n\n        Doctrines made concrete:\n\n        - Modest File Size: every class sits comfortably under the cap.\n        - Generated and Hand-Written Live Apart: JS lives in .js files,\n          not Java string-literal lists.\n        - Functional Objects: each JS class has explicit state, pure\n          behaviour, inspect() output (extended from the Java doctrine).\n        - Diligent Secretaries: every component is testable in isolation\n          via the GraalVM harness without a DOM.\n\n        Position in the dep graph: sits above homing-workspace-persistence\n        (the highest workspace utility module) so it can compose every\n        substrate piece below.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-workspace-shell 0.6.0 发布, Universal workspace chrome substrate — the orchestrator and its\n        sub-classes that every WorkspaceShell-derived AppModule shares.\n\n        Born from a refactor: prior to this module, the entire workspace\n        boot sequence (WorkspaceLayout mount, MTP wiring, picker plumbing,\n        persistence attach, identity resolution, event-log + replay,\n        checkpoint store, Web Lock + read-only fence) lived as ~2,100 lines\n        of JS-as-Java-string-literals inside per-workspace chrome widgets\n        (e.g. AnimalsPlaygroundChrome.bodyJs() in homing-demo). This\n        module promotes that mass into proper ES modules — one class per\n        responsibility, each independently testable.\n\n        Doctrines made concrete:\n\n        - Modest File Size: every class sits comfortably under the cap.\n        - Generated and Hand-Written Live Apart: JS lives in .js files,\n          not Java string-literal lists.\n        - Functional Objects: each JS class has explicit state, pure\n          behaviour, inspect() output (extended from the Java doctrine).\n        - Diligent Secretaries: every component is testable in isolation\n          via the GraalVM harness without a DOM.\n\n        Position in the dep graph: sits above homing-workspace-persistence\n        (the highest workspace utility module) so it can compose every\n        substrate piece below.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:30Z",
+      "date_modified": "2026-08-02T01:12:25Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -275,7 +305,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-codec-ecma 0.6.0 发布, Concrete codegen implementations targeting ECMAScript (ES module\n        classes). Provides:\n\n        - EcmaDefinitionCodeGen — emits a JS class declaration mirroring a\n          Java record (or sealed-of-records) ObjectDefinition.\n        - EcmaFunctionsCodeGen — emits a JS TransformationFunctions\n          implementation (transformTo / transformFrom) for the same.\n\n        Stateless FunctionalObject implementations. The \"Codegen as\n        Functions\" doctrine — same code runs at build time (Maven exec\n        plugin) and could run at request time if a downstream consumer\n        ever wants runtime generation.\n\n        Pure-Java module; produces JS source as String values. The build-\n        time invocation lives in the consumer module (e.g.,\n        homing-workspace-codecs), not here.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-codec-ecma 0.6.0 发布, Concrete codegen implementations targeting ECMAScript (ES module\n        classes). Provides:\n\n        - EcmaDefinitionCodeGen — emits a JS class declaration mirroring a\n          Java record (or sealed-of-records) ObjectDefinition.\n        - EcmaFunctionsCodeGen — emits a JS TransformationFunctions\n          implementation (transformTo / transformFrom) for the same.\n\n        Stateless FunctionalObject implementations. The \"Codegen as\n        Functions\" doctrine — same code runs at build time (Maven exec\n        plugin) and could run at request time if a downstream consumer\n        ever wants runtime generation.\n\n        Pure-Java module; produces JS source as String values. The build-\n        time invocation lives in the consumer module (e.g.,\n        homing-workspace-codecs), not here.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:29Z",
+      "date_modified": "2026-08-02T01:12:27Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -307,7 +337,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-ssjs-test-fixtures 0.6.0 发布, Test fixtures for pure-JavaScript code authored under the homing\n        ssjs (server-side-JS) substrate.\n\n        Vends a GraalVM-Polyglot-backed JUnit harness so any pure JS module\n        — Secretaries (RFC 0028), client-side reducers, validators,\n        serialisation helpers — can be unit-tested on the JVM against a real\n        ECMAScript runtime, without spinning up a browser or transpiling.\n\n        The harness is split into two layers:\n\n          - JsModuleTestBase — generic. Boots a JS context, loads a module\n            from the classpath, looks up named exports, ships an envelope()\n            helper that marshals Java Maps into native JS objects via\n            ProxyObject, and tears the context down on @AfterEach.\n\n          - SecretaryTestBase — Diligent-Secretaries-doctrine layer. Adds\n            the Step contract — initial(), dispatch(state, env) — and terse\n            assertions over { newState, actions }.\n\n        Dependencies (GraalVM Polyglot + js-community) are exposed at\n        compile scope intentionally: this module IS test fixtures, so a\n        downstream test module pulling it in (typically at test scope from\n        its own pom) automatically gets a working runtime with no further\n        config.\n\n        Public downstream projects can depend on this module identically to\n        any homing artifact; the test-fixtures naming makes the intent\n        legible at the dependency-graph level (vs. opaque test-jar\n        classifiers, which the dependency-as-test-jar refactor explicitly\n        replaced).",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-ssjs-test-fixtures 0.6.0 发布, Test fixtures for pure-JavaScript code authored under the homing\n        ssjs (server-side-JS) substrate.\n\n        Vends a GraalVM-Polyglot-backed JUnit harness so any pure JS module\n        — Secretaries (RFC 0028), client-side reducers, validators,\n        serialisation helpers — can be unit-tested on the JVM against a real\n        ECMAScript runtime, without spinning up a browser or transpiling.\n\n        The harness is split into two layers:\n\n          - JsModuleTestBase — generic. Boots a JS context, loads a module\n            from the classpath, looks up named exports, ships an envelope()\n            helper that marshals Java Maps into native JS objects via\n            ProxyObject, and tears the context down on @AfterEach.\n\n          - SecretaryTestBase — Diligent-Secretaries-doctrine layer. Adds\n            the Step contract — initial(), dispatch(state, env) — and terse\n            assertions over { newState, actions }.\n\n        Dependencies (GraalVM Polyglot + js-community) are exposed at\n        compile scope intentionally: this module IS test fixtures, so a\n        downstream test module pulling it in (typically at test scope from\n        its own pom) automatically gets a working runtime with no further\n        config.\n\n        Public downstream projects can depend on this module identically to\n        any homing artifact; the test-fixtures naming makes the intent\n        legible at the dependency-graph level (vs. opaque test-jar\n        classifiers, which the dependency-as-test-jar refactor explicitly\n        replaced).",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:29Z",
+      "date_modified": "2026-08-02T01:12:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -339,7 +369,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-studio-workspace 0.6.0 发布, The Studio Workspace — a reusable, spec-driven workspace for browsing\n        a studio's catalogues inside the V2 workspace shell. Composes existing\n        substrate pieces with zero new chrome JS:\n\n        - TreeWidget          — a WorkspaceWidget that fetches a catalogue\n                                 subtree as canonical TreeNode JSON and renders\n                                 it with the generic TreeRenderer (homing-core-js).\n        - CatalogueTreeGetAction — GET /catalogue-tree?id=<slug> — serializes\n                                 a Catalogue subtree via CatalogueTreeAdapter +\n                                 TreeNodeJsonWriter. Wired downstream via\n                                 Fixtures.harnessGetActions() with the studio's\n                                 root catalogue.\n        - StudioWorkspaceSpec — a WorkspaceSpec (kind \"studio\") that pins the\n                                 TreeWidget; mounted by GenericWorkspace at\n                                 ?app=genericWorkspace&ws_kind=studio.\n\n        First widget is the tree view; a studio-navigation Party (tree\n        selection -> open doc in a tab) lands in a follow-up.\n\n        Doctrinal anchors: A Good Design Doesn't Pick Up Its Substrate (the\n        spec declares only what's studio-specific), Make It Impossible Not\n        Forbidden (no hand-written chrome JS — only the declarative surface).",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-studio-workspace 0.6.0 发布, The Studio Workspace — a reusable, spec-driven workspace for browsing\n        a studio's catalogues inside the V2 workspace shell. Composes existing\n        substrate pieces with zero new chrome JS:\n\n        - TreeWidget          — a WorkspaceWidget that fetches a catalogue\n                                 subtree as canonical TreeNode JSON and renders\n                                 it with the generic TreeRenderer (homing-core-js).\n        - CatalogueTreeGetAction — GET /catalogue-tree?id=<slug> — serializes\n                                 a Catalogue subtree via CatalogueTreeAdapter +\n                                 TreeNodeJsonWriter. Wired downstream via\n                                 Fixtures.harnessGetActions() with the studio's\n                                 root catalogue.\n        - StudioWorkspaceSpec — a WorkspaceSpec (kind \"studio\") that pins the\n                                 TreeWidget; mounted by GenericWorkspace at\n                                 ?app=genericWorkspace&ws_kind=studio.\n\n        First widget is the tree view; a studio-navigation Party (tree\n        selection -> open doc in a tab) lands in a follow-up.\n\n        Doctrinal anchors: A Good Design Doesn't Pick Up Its Substrate (the\n        spec declares only what's studio-specific), Make It Impossible Not\n        Forbidden (no hand-written chrome JS — only the declarative surface).",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:30Z",
+      "date_modified": "2026-08-02T01:12:27Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -371,7 +401,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing.js 0.6.0 发布, Server-side JavaScript runtime built on top of ja-http.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing.js 0.6.0 发布, Server-side JavaScript runtime built on top of ja-http.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:31Z",
+      "date_modified": "2026-08-02T01:12:27Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -403,7 +433,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-conformance 0.6.0 发布, Conformance test fixtures for homing.js implementations.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-conformance 0.6.0 发布, Conformance test fixtures for homing.js implementations.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:30Z",
+      "date_modified": "2026-08-02T01:12:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -435,7 +465,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-workspace-codecs 0.6.0 发布, Generated JS codecs for the workspace's typed records. Doctrine —\n        \"Generated and Hand-Written Live Apart\": this module's\n        src/main/resources is empty; all served JS is produced by\n        WorkspaceCodecGen.main() into target/classes during the\n        generate-resources phase via the Maven exec plugin.\n\n        The manifest of records-to-be-codeced is declared in\n        WorkspaceStateCodecsManifest as a typed List of\n        ObjectDefinition<?> instances. The Java DomModule\n        (WorkspaceStateCodecsModule) declares the matching Exportable._Class\n        records so the framework's EsModuleWriter can wire imports across\n        the JS module boundary.\n\n        Cycle A — foundation slice. Manifest contains PaneId only; subsequent\n        cycles expand to all 18 workspace records and add specialised\n        codegens for sealed sums, enums, collections, Optionals, and Instant.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-workspace-codecs 0.6.0 发布, Generated JS codecs for the workspace's typed records. Doctrine —\n        \"Generated and Hand-Written Live Apart\": this module's\n        src/main/resources is empty; all served JS is produced by\n        WorkspaceCodecGen.main() into target/classes during the\n        generate-resources phase via the Maven exec plugin.\n\n        The manifest of records-to-be-codeced is declared in\n        WorkspaceStateCodecsManifest as a typed List of\n        ObjectDefinition<?> instances. The Java DomModule\n        (WorkspaceStateCodecsModule) declares the matching Exportable._Class\n        records so the framework's EsModuleWriter can wire imports across\n        the JS module boundary.\n\n        Cycle A — foundation slice. Manifest contains PaneId only; subsequent\n        cycles expand to all 18 workspace records and add specialised\n        codegens for sealed sums, enums, collections, Optionals, and Instant.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:31Z",
+      "date_modified": "2026-08-02T01:12:27Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -467,7 +497,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-server 0.6.0 发布, Vert.x-based server runtime for homing.js.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-server 0.6.0 发布, Vert.x-based server runtime for homing.js.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:31Z",
+      "date_modified": "2026-08-02T01:12:27Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -499,7 +529,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-workspace 0.6.0 发布, RFC 0025 — Workspace + Dynamic Widget Management. A strict downstream\n        of homing-studio-base providing the workspace shell pattern: a\n        per-page registry of WorkspaceWidget types, a controller that\n        dynamically loads modules on user pick, a picker UI, and the\n        WorkspaceShell AppModule base that ties it together.\n\n        Studios that don't need workspace capabilities (catalogue browsers,\n        doc readers, single-widget viewers) leave this dependency off and pay\n        nothing for the machinery. Studios that want workspace add this dep.\n\n        The WorkspaceWidget contract is distinct from RFC 0024's Widget — see\n        the Rfc0025Ext1Doc for the design and the rationale. Both contracts\n        coexist; a WorkspaceWidget can be hosted in a non-workspace context\n        by wrapping it in a degenerate mini-workspace (one widget, no picker,\n        no layout management).",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-workspace 0.6.0 发布, RFC 0025 — Workspace + Dynamic Widget Management. A strict downstream\n        of homing-studio-base providing the workspace shell pattern: a\n        per-page registry of WorkspaceWidget types, a controller that\n        dynamically loads modules on user pick, a picker UI, and the\n        WorkspaceShell AppModule base that ties it together.\n\n        Studios that don't need workspace capabilities (catalogue browsers,\n        doc readers, single-widget viewers) leave this dependency off and pay\n        nothing for the machinery. Studios that want workspace add this dep.\n\n        The WorkspaceWidget contract is distinct from RFC 0024's Widget — see\n        the Rfc0025Ext1Doc for the design and the rationale. Both contracts\n        coexist; a WorkspaceWidget can be hosted in a non-workspace context\n        by wrapping it in a degenerate mini-workspace (one widget, no picker,\n        no layout management).",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:30Z",
+      "date_modified": "2026-08-02T01:12:25Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -531,7 +561,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-core-js 0.6.0 发布, First-party JS-side runtime substrate. Currently ships the vendored\n        DomOpsParty branch-tree DOM-ownership library (RFC 0024) as two\n        EsModule records (DomOpsPartyBaseModule + DomOpsPartyModule).\n        Kept separate from homing-core so downstream apps that need only\n        the Java types can stay maximally lean.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-core-js 0.6.0 发布, First-party JS-side runtime substrate. Currently ships the vendored\n        DomOpsParty branch-tree DOM-ownership library (RFC 0024) as two\n        EsModule records (DomOpsPartyBaseModule + DomOpsPartyModule).\n        Kept separate from homing-core so downstream apps that need only\n        the Java types can stay maximally lean.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:30Z",
+      "date_modified": "2026-08-02T01:12:27Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -563,7 +593,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-core 0.6.0 发布, Core abstractions for the homing.js framework.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-core 0.6.0 发布, Core abstractions for the homing.js framework.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:30Z",
+      "date_modified": "2026-08-02T01:12:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -595,7 +625,7 @@
       "content_text": "io.github.captainssingapura-hue.homing.js:homing-libs 0.6.0 发布, Bundled 3rd-party JavaScript libraries served self-contained from the homing.js classpath.\n\n        Each library is declared as a Java class implementing BundledExternalModule. The\n        LibDownloader tool reads the source URL from each declaration, downloads the bundle\n        at build time, verifies the SHA-512 against the pinned hash, and copies the file\n        onto the classpath at the declared resource path. Subsequent builds use the local\n        Maven cache and run fully offline.",
       "summary": "io.github.captainssingapura-hue.homing.js:homing-libs 0.6.0 发布, Bundled 3rd-party JavaScript libraries served self-contained from the homing.js classpath.\n\n        Each library is declared as a Java class implementing BundledExternalModule. The\n        LibDownloader tool reads the source URL from each declaration, downloads the bundle\n        at build time, verifies the SHA-512 against the pinned hash, and copies the file\n        onto the classpath at the declared resource path. Subsequent builds use the local\n        Maven cache and run fully offline.",
       "date_published": "2026-08-02T00:49:25Z",
-      "date_modified": "2026-08-02T00:57:30Z",
+      "date_modified": "2026-08-02T01:12:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -14674,73 +14704,6 @@
         },
         {
           "name": "Ulrich"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.pambrose/srcref@2.2.0",
-      "url": "https://central.sonatype.com/artifact/com.pambrose/srcref",
-      "title": "com.pambrose:srcref 2.2.0 发布, Dynamic Line-Specific GitHub Permalinks",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.pambrose:srcref@2.2.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/pambrose/srcref.svg\" alt=\"com.pambrose:srcref 2.2.0 发布, Dynamic Line-Specific GitHub Permalinks\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/pambrose/srcref/2.2.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.pambrose/srcref\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.pambrose/srcref/2.2.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/pambrose/srcref\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/pambrose/srcref\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.pambrose&lt;/groupId&gt;\n        &lt;artifactId&gt;srcref&lt;/artifactId&gt;\n        &lt;version&gt;2.2.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.pambrose:srcref 2.2.0 发布, Dynamic Line-Specific GitHub Permalinks",
-      "summary": "com.pambrose:srcref 2.2.0 发布, Dynamic Line-Specific GitHub Permalinks",
-      "date_published": "2026-08-01T22:08:27Z",
-      "date_modified": "2026-08-01T22:57:30Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Paul Ambrose"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.mvnpm/ox@1.5.0",
-      "url": "https://central.sonatype.com/artifact/org.mvnpm/ox",
-      "title": "org.mvnpm:ox 1.5.0 发布, Ethereum Standard Library",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.mvnpm:ox@1.5.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/mvnpm/ox.svg\" alt=\"org.mvnpm:ox 1.5.0 发布, Ethereum Standard Library\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/mvnpm/ox/1.5.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.mvnpm/ox\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.mvnpm/ox/1.5.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://wevm.dev\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/wevm/ox\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.mvnpm&lt;/groupId&gt;\n        &lt;artifactId&gt;ox&lt;/artifactId&gt;\n        &lt;version&gt;1.5.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.mvnpm:ox 1.5.0 发布, Ethereum Standard Library",
-      "summary": "org.mvnpm:ox 1.5.0 发布, Ethereum Standard Library",
-      "date_published": "2026-08-01T22:06:28Z",
-      "date_modified": "2026-08-01T22:57:31Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "jmoxey"
-        },
-        {
-          "name": "awkweb"
         }
       ],
       "tags": [
