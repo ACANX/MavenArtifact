@@ -1,0 +1,19 @@
+{
+	"id":"pkg:maven/com.arcadedb/arcadedb-gremlin-consumer-it",
+	"description":"Check-only module (ships nothing). Simulates a third-party app that depends on BOTH\n        arcadedb-engine and the plain arcadedb-gremlin coordinate, and asserts via maven-enforcer\n        that antlr4-runtime 4.9.1 is NOT exported transitively by arcadedb-gremlin (issue #5217).\n        gremlin's antlr must be <optional>true</optional> so the only antlr edge left in a\n        both-modules consumer graph is the engine's 4.13.2. Must build after arcadedb-gremlin in\n        the reactor. Runs no code: the unshaded engine+gremlin combination is runtime-incompatible\n        by design, so this only ever asserts on the resolved dependency graph.",
+	"group_id":"com.arcadedb",
+	"artifact_id":"arcadedb-gremlin-consumer-it",
+	"version_latest":"26.8.1",
+	"ts_publish":1785791471000,
+	"dt_publish":"2026-08-04 05:11:11.000",
+	"ts_update":1785792462524,
+	"dt_update":"2026-08-04 05:27:33.022",
+	"count_dep":2,
+	"count_ref":0,
+	"licenses":[],
+	"categories":[
+		"Uncategorized"
+	],
+	"dsv":1,
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.arcadedb:arcadedb-gremlin-consumer-it/26.8.1"
+}
