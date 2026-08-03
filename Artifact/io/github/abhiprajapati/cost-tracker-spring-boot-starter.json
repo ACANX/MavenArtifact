@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.abhiprajapati/cost-tracker-spring-boot-starter",
+	"description":"Auto-configuration for the LLM cost tracker: wires TrackedLlmClient, the\n        UsageExtractors, MetricSink/MetricQueryService (Mongo or in-memory), and\n        serves a metrics REST+UI on its own dedicated port via a lightweight\n        embedded JDK HttpServer (deliberately not spring-boot-starter-web, so it\n        never collides with the host app's own web stack and works even in\n        non-web host apps).",
+	"group_id":"io.github.abhiprajapati",
+	"artifact_id":"cost-tracker-spring-boot-starter",
+	"version_latest":"0.1.0",
+	"ts_publish":1785751749000,
+	"dt_publish":"2026-08-03 18:09:09.000",
+	"ts_update":1785754675291,
+	"dt_update":"2026-08-03 18:57:24.183",
+	"count_dep":33,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/AbhiPrajapati/ai-metrics/cost-tracker-spring-boot-starter",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.abhiprajapati:cost-tracker-spring-boot-starter/0.1.0",
+	"contributors":[
+		"Abhishek Prajapati"
+	],
+	"url_scm":"https://github.com/AbhiPrajapati/ai-metrics/cost-tracker-spring-boot-starter"
+}
