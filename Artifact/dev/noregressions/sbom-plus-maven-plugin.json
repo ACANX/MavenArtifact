@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/dev.noregressions/sbom-plus-maven-plugin",
+	"description":"Standalone Maven plugin that produces a CycloneDX SBOM only. It\n    enumerates dependencies via whatever mechanism is native to Maven: the\n    resolved project dependency graph, the resolved plugin/build-tooling\n    graph, and the BOM import declarations - then writes them out as a\n    CycloneDX SBOM. No Gradle awareness, and no vendor/EOL/CVE annotation\n    logic lives here; this module has no dependency on scanner-core or any\n    other module in this reactor.",
+	"group_id":"dev.noregressions",
+	"artifact_id":"sbom-plus-maven-plugin",
+	"version_latest":"0.0.1",
+	"ts_publish":1785877170000,
+	"dt_publish":"2026-08-05 04:59:30.000",
+	"ts_update":1785878867809,
+	"dt_update":"2026-08-05 05:27:34.063",
+	"count_dep":38,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/noregressions/sbom-plus-maven-plugin",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/dev.noregressions:sbom-plus-maven-plugin/0.0.1",
+	"contributors":[
+		"Steve Poole"
+	],
+	"url_scm":"https://github.com/noregressions/sbom-plus-maven-plugin"
+}
