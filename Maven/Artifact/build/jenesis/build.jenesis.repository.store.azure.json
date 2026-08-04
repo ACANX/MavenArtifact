@@ -3,12 +3,12 @@
   "description": "azure-storage-blob ships a real Java module, so this is a plain\nrequires; the rest of the Azure SDK closure resolves transitively through Maven and is pinned here. A\npure storage provider: it implements the {@code ArtifactStore} SPI and is discovered through\n{@code provides}, so the server adds it to its module graph at deploy time and selects it with\n{@code jenesis.repository.store=azure-blob}. The version token is the blob ETag, giving a true\ncross-node compare-and-set on conditional writes (see {@code AzureArtifactStore}).",
   "group_id": "build.jenesis",
   "artifact_id": "build.jenesis.repository.store.azure",
-  "version_latest": "0.3.0",
-  "ts_publish": 1784542465000,
-  "dt_publish": "2026-07-20 18:14:25.000",
-  "ts_update": 1784544483813,
-  "dt_update": "2026-07-20 18:48:03.813",
-  "count_dep": 45,
+  "version_latest": "0.4.0",
+  "ts_publish": 1785881392000,
+  "dt_publish": "2026-08-05 06:09:52.000",
+  "ts_update": 1785882452199,
+  "dt_update": "2026-08-05 06:27:32.199",
+  "count_dep": 46,
   "count_ref": 1,
   "licenses": [
     "Apache-2.0"

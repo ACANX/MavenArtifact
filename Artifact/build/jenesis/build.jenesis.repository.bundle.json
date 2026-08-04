@@ -3,12 +3,12 @@
 	"description":"Nothing here names a plugin: the server keeps discovering everything through {@code ServiceLoader}, and the image\nis trimmed by configuration instead of rebuilt - {@code jenesis.repository.<feature>=false} (settable as\n{@code JENESIS_REPOSITORY_<FEATURE>=false} through relaxed binding) disables an implementation exactly as if its\nmodule were absent, and {@code jenesis.repository.<spi>=<feature>} selects among exclusive implementations\n(the store defaults to {@code filesystem}), per the {@code build.jenesis.repository.store.Features} convention.\n\n<p>{@link build.jenesis.repository.bundle.AllInOne} boots the repository server under the config name\n{@code allinone} ({@code allinone.properties} in this module), because with the server and the console both on\nthe module path two root {@code application.properties} would be ambiguous;\n{@link build.jenesis.repository.bundle.Console} boots the web console the same way ({@code allinone-console}),\nso the one image also runs the console node via {@code MAINMODULE}/{@code MAINCLASS}.",
 	"group_id":"build.jenesis",
 	"artifact_id":"build.jenesis.repository.bundle",
-	"version_latest":"0.3.0",
-	"ts_publish":1784542465000,
-	"dt_publish":"2026-07-20 18:14:25.000",
-	"ts_update":1784544497066,
-	"dt_update":"2026-07-20 18:48:03.813",
-	"count_dep":186,
+	"version_latest":"0.4.0",
+	"ts_publish":1785881392000,
+	"dt_publish":"2026-08-05 06:09:52.000",
+	"ts_update":1785882476061,
+	"dt_update":"2026-08-05 06:27:32.198",
+	"count_dep":190,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"

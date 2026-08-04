@@ -3,12 +3,12 @@
 	"description":"A pure storage provider: it\nimplements the {@code ArtifactStore} SPI and is discovered through {@code provides}, so the server\nadds it to its module graph at deploy time and selects it with {@code jenesis.repository.store=gcs},\nwith no compile-time dependency from the server. Unlike the {@code s3} backend, the version token is\nthe object <em>generation</em> ({@code x-goog-generation}), because GCS honours {@code If-Match} /\n{@code If-None-Match} only on reads - conditional writes go through GCS's own\n{@code x-goog-if-generation-match} precondition instead (see {@code GcsArtifactStore}). The AWS SDK\nclosure below is the {@code s3} backend's, resolved transitively through Maven and pinned here.",
 	"group_id":"build.jenesis",
 	"artifact_id":"build.jenesis.repository.store.gcs",
-	"version_latest":"0.3.0",
-	"ts_publish":1784542465000,
-	"dt_publish":"2026-07-20 18:14:25.000",
-	"ts_update":1784544490032,
-	"dt_update":"2026-07-20 18:48:02.455",
-	"count_dep":50,
+	"version_latest":"0.4.0",
+	"ts_publish":1785881392000,
+	"dt_publish":"2026-08-05 06:09:52.000",
+	"ts_update":1785882467003,
+	"dt_update":"2026-08-05 06:27:32.794",
+	"count_dep":51,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"

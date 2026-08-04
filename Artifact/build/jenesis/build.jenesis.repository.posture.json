@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/build.jenesis/build.jenesis.repository.posture",
+	"description":"A module implements\n{@link build.jenesis.repository.posture.SafetyAdvisor} through the same optional-method pattern the observation seam\nuses, is discovered with {@link java.util.ServiceLoader}, and is handed the effective\n{@link build.jenesis.repository.posture.Configuration}; a <em>disabled or absent</em> module contributes nothing, so\nthe console never advises about something that is not running.\n\n<p>This is deliberately <strong>not</strong> the {@code capabilities.advisories()} seam (which reports CVE /\nvulnerability advisories about published artifacts) - it reports the deployment's own configuration posture. The\nmodule is registry-free and {@code java.base}-only, so every format / compliance / storage / maintenance SPI can\n{@code requires} it without dragging in Spring; the distribution collects the sources into one\n{@link build.jenesis.repository.posture.PostureReport}, logs the deployment-wide advisories once at boot and surfaces\nthe same list on the console and an admin API - one source of truth, many consumers. Core owns only the\ndeployment-cross-cutting advisories ({@link build.jenesis.repository.posture.SecurityPosture}); a feature owns its\nown.",
+	"group_id":"build.jenesis",
+	"artifact_id":"build.jenesis.repository.posture",
+	"version_latest":"0.4.0",
+	"ts_publish":1785881392000,
+	"dt_publish":"2026-08-05 06:09:52.000",
+	"ts_update":1785882476193,
+	"dt_update":"2026-08-05 06:27:32.794",
+	"count_dep":0,
+	"count_ref":3,
+	"licenses":[
+		"Apache-2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/raphw/jenesis-repository",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/build.jenesis:build.jenesis.repository.posture/0.4.0",
+	"contributors":[
+		"Rafael Winterhalter"
+	],
+	"url_scm":"https://github.com/raphw/jenesis-repository"
+}
