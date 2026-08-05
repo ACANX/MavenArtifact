@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-cli-adapter-deployment",
 	"group_id":"io.quarkiverse.mcp",
 	"artifact_id":"quarkus-mcp-server-cli-adapter-deployment",
-	"version_latest":"2.0.0.Beta3",
-	"ts_publish":1783673247000,
-	"dt_publish":"2026-07-10 16:47:27.000",
-	"ts_update":1783675656057,
-	"dt_update":"2026-07-10 17:27:21.564",
-	"count_dep":4,
+	"version_latest":"2.0.0.CR1",
+	"ts_publish":1785920656000,
+	"dt_publish":"2026-08-05 17:04:16.000",
+	"ts_update":1785922061308,
+	"dt_update":"2026-08-05 17:27:30.733",
+	"count_dep":93,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-cli-adapter-deployment@1.5.1",
@@ -188,5 +190,6 @@
 			"version":"1.1.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
