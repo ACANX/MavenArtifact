@@ -3,12 +3,12 @@
   "description": "Minimal, Docker-free Quarkus app that adds quarkus-liquibase (over an in-memory H2 datasource)\n        on top of the bootui-quarkus extension and proves the Liquibase panel light-up: the change-log history\n        read from the application's io.quarkus.liquibase.LiquibaseFactory by the QuarkusLiquibaseProvider is\n        shaped by the shared engine LiquibaseService, the applied change sets are surfaced on\n        GET /bootui/api/liquibase/changesets, and the panel is reported available in the manifest. Kept separate\n        from bootui-quarkus-integration-tests (which deliberately has NO quarkus-liquibase, so the capability\n        gate keeps the liquibase panel unavailable) so the liquibase-present and liquibase-absent paths are each\n        proven in isolation — the same split used for the Cache-present/absent and SmallRye-Health-present/absent\n        coverage.",
   "group_id": "com.julien-dubois.bootui",
   "artifact_id": "bootui-quarkus-liquibase-integration-tests",
-  "version_latest": "1.13.0",
-  "ts_publish": 1786096768000,
-  "dt_publish": "2026-08-07 17:59:28.000",
-  "ts_update": 1786098453318,
-  "dt_update": "2026-08-07 18:27:33.318",
-  "count_dep": 236,
+  "version_latest": "1.13.1",
+  "ts_publish": 1786119112000,
+  "dt_publish": "2026-08-08 00:11:52.000",
+  "ts_update": 1786120025544,
+  "dt_update": "2026-08-08 00:27:05.544",
+  "count_dep": 95,
   "count_ref": 0,
   "licenses": [
     "Apache License, Version 2.0"
