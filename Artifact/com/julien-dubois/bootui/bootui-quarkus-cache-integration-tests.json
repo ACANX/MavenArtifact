@@ -3,12 +3,12 @@
 	"description":"Minimal, Docker-free Quarkus app that adds quarkus-cache (Caffeine) on top of the\n        bootui-quarkus extension and proves the Cache panel light-up: the live cache topology read from the\n        application's io.quarkus.cache.CacheManager by the QuarkusCacheProvider is shaped by the shared engine\n        CacheService, Caffeine cache sizes + Micrometer cache metrics are overlaid, and the panel is surfaced on\n        GET /bootui/api/cache with a working POST /clear action. Kept separate from\n        bootui-quarkus-integration-tests (which deliberately has NO quarkus-cache, so the capability gate keeps\n        the cache panel unavailable) so the cache-present and cache-absent paths are each proven in\n        isolation — the same split used for the SmallRye-Health-present/absent and Micrometer-present/absent\n        coverage.",
 	"group_id":"com.julien-dubois.bootui",
 	"artifact_id":"bootui-quarkus-cache-integration-tests",
-	"version_latest":"1.12.0",
-	"ts_publish":1783942286000,
-	"dt_publish":"2026-07-13 19:31:26.000",
-	"ts_update":1783943859449,
-	"dt_update":"2026-07-13 19:57:15.160",
-	"count_dep":116,
+	"version_latest":"1.13.0",
+	"ts_publish":1786096768000,
+	"dt_publish":"2026-08-07 17:59:28.000",
+	"ts_update":1786098464784,
+	"dt_update":"2026-08-07 18:27:33.316",
+	"count_dep":117,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"

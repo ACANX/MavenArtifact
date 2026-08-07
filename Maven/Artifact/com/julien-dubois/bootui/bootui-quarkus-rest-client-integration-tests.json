@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.julien-dubois.bootui/bootui-quarkus-rest-client-integration-tests",
+  "description": "Minimal, Docker-free Quarkus app that adds quarkus-rest-client on top of the\n        bootui-quarkus extension and proves the REST Client panel light-up: a @RegisterRestClient proxy is\n        registered and called from a test, the BootUI QuarkusRestClientTraceListener SPI hook registers a\n        QuarkusRestClientTraceFilter on the proxy, the filter feeds the shared RestClientTraceRecorder, and the\n        panel is surfaced on GET /bootui/api/rest-client-trace with working clear and recording-toggle actions.\n        Kept separate from bootui-quarkus-integration-tests (which deliberately has NO\n        quarkus-rest-client, so the class-presence gate keeps the REST Client panel unavailable) so\n        the present and absent paths are each proven in isolation — the same split used for the\n        cache-present/absent and email-present/absent coverage. No Docker is needed; the @RegisterRestClient\n        target is the test app's own loopback port.",
+  "group_id": "com.julien-dubois.bootui",
+  "artifact_id": "bootui-quarkus-rest-client-integration-tests",
+  "version_latest": "1.13.0",
+  "ts_publish": 1786096768000,
+  "dt_publish": "2026-08-07 17:59:28.000",
+  "ts_update": 1786098453321,
+  "dt_update": "2026-08-07 18:27:33.321",
+  "count_dep": 209,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

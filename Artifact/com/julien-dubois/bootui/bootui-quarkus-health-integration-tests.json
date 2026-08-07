@@ -3,12 +3,12 @@
 	"description":"Minimal, Docker-free Quarkus app that adds quarkus-smallrye-health on top of the bootui-quarkus\n        extension and proves the Health panel light-up: a custom MicroProfile @Liveness HealthCheck is read in\n        process via SmallRyeHealthReporter, mapped by QuarkusHealthProvider onto the neutral HealthNodeDto, and\n        surfaced on GET /bootui/api/health by the shared engine HealthService. Kept separate from\n        bootui-quarkus-integration-tests (which deliberately has NO SmallRye Health) so the SmallRye-absent\n        setup-guidance path and the SmallRye-present capture path are each proven in isolation — the same split\n        used for the OpenTelemetry-present/absent telemetry coverage.",
 	"group_id":"com.julien-dubois.bootui",
 	"artifact_id":"bootui-quarkus-health-integration-tests",
-	"version_latest":"1.12.0",
-	"ts_publish":1783942286000,
-	"dt_publish":"2026-07-13 19:31:26.000",
-	"ts_update":1783943855112,
-	"dt_update":"2026-07-13 19:57:14.466",
-	"count_dep":104,
+	"version_latest":"1.13.0",
+	"ts_publish":1786096768000,
+	"dt_publish":"2026-08-07 17:59:28.000",
+	"ts_update":1786098465558,
+	"dt_update":"2026-08-07 18:27:33.317",
+	"count_dep":106,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"

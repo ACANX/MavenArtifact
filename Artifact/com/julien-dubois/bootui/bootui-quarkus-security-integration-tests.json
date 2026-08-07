@@ -3,12 +3,12 @@
 	"description":"Minimal, Docker-free Quarkus app that adds the quarkus-security extension on top of the\n        bootui-quarkus extension and proves the Security Logs panel light-up: with quarkus.security.events.enabled\n        the CDI security events fired on authentication/authorization are captured by QuarkusSecurityEventCapture\n        into the shared SecurityEventBuffer, assembled by the neutral SecurityLogsService and surfaced on\n        GET /bootui/api/security-logs, with the panel reported available in the manifest. Kept separate from\n        bootui-quarkus-integration-tests (which has NO security extension) so the security-absent unavailable path\n        and the security-present capture path are each proven in isolation. Also adds quarkus-opentelemetry (like\n        the sibling otel module) so a real server-span trace id is available at capture time, proving the Live\n        Activity feed's security correlation: a captured security event nests under the REQUEST entry sharing its\n        trace id and stamps that request's securedPrincipal.",
 	"group_id":"com.julien-dubois.bootui",
 	"artifact_id":"bootui-quarkus-security-integration-tests",
-	"version_latest":"1.12.0",
-	"ts_publish":1783942286000,
-	"dt_publish":"2026-07-13 19:31:26.000",
-	"ts_update":1783943860877,
-	"dt_update":"2026-07-13 19:57:14.461",
-	"count_dep":161,
+	"version_latest":"1.13.0",
+	"ts_publish":1786096768000,
+	"dt_publish":"2026-08-07 17:59:28.000",
+	"ts_update":1786098465209,
+	"dt_update":"2026-08-07 18:27:32.753",
+	"count_dep":263,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"

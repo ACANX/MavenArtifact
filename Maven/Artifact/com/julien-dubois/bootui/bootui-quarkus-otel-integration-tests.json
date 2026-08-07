@@ -3,12 +3,12 @@
   "description": "Minimal, Docker-free Quarkus app that adds quarkus-opentelemetry on top of the bootui-quarkus\n        extension and proves the in-process span-capture path: a GenAI-style span emitted through the real OTel\n        SDK flows via the BootUI SpanProcessor into the shared TelemetryStore and surfaces on the Traces and AI\n        Usage panels. Kept separate from bootui-quarkus-integration-tests (which deliberately has NO OpenTelemetry)\n        so the OTel-absent safety path and the OTel-present capture path are each proven in isolation.",
   "group_id": "com.julien-dubois.bootui",
   "artifact_id": "bootui-quarkus-otel-integration-tests",
-  "version_latest": "1.12.0",
-  "ts_publish": 1783942286000,
-  "dt_publish": "2026-07-13 19:31:26.000",
-  "ts_update": 1783943834466,
-  "dt_update": "2026-07-13 19:57:14.466",
-  "count_dep": 146,
+  "version_latest": "1.13.0",
+  "ts_publish": 1786096768000,
+  "dt_publish": "2026-08-07 17:59:28.000",
+  "ts_update": 1786098452751,
+  "dt_update": "2026-08-07 18:27:32.751",
+  "count_dep": 150,
   "count_ref": 0,
   "licenses": [
     "Apache License, Version 2.0"
