@@ -2,19 +2,22 @@
 	"id":"pkg:maven/io.github.kzmlabs.flinkstatefun/statefun-flink-harness",
 	"group_id":"io.github.kzmlabs.flinkstatefun",
 	"artifact_id":"statefun-flink-harness",
-	"version_latest":"3.4.0-KZM-3.4",
-	"ts_publish":1784900916000,
-	"dt_publish":"2026-07-24 21:48:36.000",
-	"ts_update":1784903259849,
-	"dt_update":"2026-07-24 22:27:31.115",
-	"count_dep":5,
+	"version_latest":"3.4.0-KZM-3.5",
+	"ts_publish":1786208902000,
+	"dt_publish":"2026-08-09 01:08:22.000",
+	"ts_update":1786210047455,
+	"dt_update":"2026-08-09 01:27:15.225",
+	"count_dep":40,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://github.com/kzmlabs/flink-statefun/statefun-flink/statefun-flink-harness",
 	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.kzmlabs.flinkstatefun:statefun-flink-harness/3.4.0-KZM-2.0-RC7",
 	"contributors":[
 		"Kzmlabs Team"
 	],
-	"url_scm":"https://github.com/kzmlabs/flink-statefun/statefun-flink/statefun-flink-harness"
+	"url_scm":"https://github.com/kzmlabs/flink-statefun/statefun-flink/statefun-flink-harness",
+	"description":"Kzmlabs Flink StateFun — actively maintained continuation of the Stateful Functions framework for building distributed stateful applications and event-driven microservices on Apache Flink 2.2.0 with Java 21. Provides a function-as-actor programming model with durable state, exactly-once messaging, Kafka and Kinesis ingress/egress, and Kubernetes-native deployment via the Flink Kubernetes Operator."
 }
