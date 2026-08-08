@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/eu.ciechanowiec/airness-annotations",
+	"description":"The annotation the rule set expects to find in a consumer's source. This is the only Airness\n        artifact that reaches a consuming project's compile classpath, which is why it is an artifact of\n        its own rather than a package inside airness-config: folding it in would put the analyzer\n        configurations on that classpath as well, to no purpose.\n\n        It carries no dependencies and no runtime cost. The annotation has SOURCE retention, so it does\n        not survive compilation into the consumer's artifact.",
+	"group_id":"eu.ciechanowiec",
+	"artifact_id":"airness-annotations",
+	"version_latest":"1.0.0",
+	"ts_publish":1786217498000,
+	"dt_publish":"2026-08-09 03:31:38.000",
+	"ts_update":1786218491002,
+	"dt_update":"2026-08-09 03:48:02.653",
+	"count_dep":0,
+	"count_ref":2,
+	"licenses":[
+		"MIT-0"
+	],
+	"dsv":1,
+	"url_project":"https://ciechanowiec.eu/airness-annotations/",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/eu.ciechanowiec:airness-annotations/1.0.0",
+	"contributors":[
+		"Herman Ciechanowiec"
+	],
+	"url_scm":"https://github.com/ciechanowiec/airness/airness-annotations"
+}
