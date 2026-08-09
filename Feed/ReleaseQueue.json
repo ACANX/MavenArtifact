@@ -18,6 +18,486 @@
   ],
   "items": [
     {
+      "id": "pkg:maven/com.kholodilin/spring-boot-idempotency-starter-parent@0.1.1",
+      "url": "https://central.sonatype.com/artifact/com.kholodilin/spring-boot-idempotency-starter-parent",
+      "title": "com.kholodilin:spring-boot-idempotency-starter-parent 0.1.1 发布, Transactional idempotency Spring Boot starter for Java with JDBC/PostgreSQL persistence,\n        Redis distributed cache and Caffeine local cache.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.kholodilin:spring-boot-idempotency-starter-parent@0.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/kholodilin/spring-boot-idempotency-starter-parent.svg\" alt=\"com.kholodilin:spring-boot-idempotency-starter-parent 0.1.1 发布, Transactional idempotency Spring Boot starter for Java with JDBC/PostgreSQL persistence,\n        Redis distributed cache and Caffeine local cache.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/kholodilin/spring-boot-idempotency-starter-parent/0.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.kholodilin/spring-boot-idempotency-starter-parent\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.kholodilin/spring-boot-idempotency-starter-parent/0.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.kholodilin&lt;/groupId&gt;\n        &lt;artifactId&gt;spring-boot-idempotency-starter-parent&lt;/artifactId&gt;\n        &lt;version&gt;0.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.kholodilin:spring-boot-idempotency-starter-parent 0.1.1 发布, Transactional idempotency Spring Boot starter for Java with JDBC/PostgreSQL persistence,\n        Redis distributed cache and Caffeine local cache.",
+      "summary": "com.kholodilin:spring-boot-idempotency-starter-parent 0.1.1 发布, Transactional idempotency Spring Boot starter for Java with JDBC/PostgreSQL persistence,\n        Redis distributed cache and Caffeine local cache.",
+      "date_published": "2026-08-09T12:46:55Z",
+      "date_modified": "2026-08-09T12:57:33Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Valerii Kholodilin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.kholodilin/idempotency-local-cache-caffeine@0.1.1",
+      "url": "https://central.sonatype.com/artifact/com.kholodilin/idempotency-local-cache-caffeine",
+      "title": "com.kholodilin:idempotency-local-cache-caffeine 0.1.1 发布, LocalCache implementation backed by Caffeine: low-latency L1 cache and hot-key protection.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.kholodilin:idempotency-local-cache-caffeine@0.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/kholodilin/idempotency-local-cache-caffeine.svg\" alt=\"com.kholodilin:idempotency-local-cache-caffeine 0.1.1 发布, LocalCache implementation backed by Caffeine: low-latency L1 cache and hot-key protection.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/kholodilin/idempotency-local-cache-caffeine/0.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.kholodilin/idempotency-local-cache-caffeine\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.kholodilin/idempotency-local-cache-caffeine/0.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/idempotency-local-cache-caffeine\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/idempotency-local-cache-caffeine\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.kholodilin&lt;/groupId&gt;\n        &lt;artifactId&gt;idempotency-local-cache-caffeine&lt;/artifactId&gt;\n        &lt;version&gt;0.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.kholodilin:idempotency-local-cache-caffeine 0.1.1 发布, LocalCache implementation backed by Caffeine: low-latency L1 cache and hot-key protection.",
+      "summary": "com.kholodilin:idempotency-local-cache-caffeine 0.1.1 发布, LocalCache implementation backed by Caffeine: low-latency L1 cache and hot-key protection.",
+      "date_published": "2026-08-09T12:46:55Z",
+      "date_modified": "2026-08-09T12:57:30Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Valerii Kholodilin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.kholodilin/spring-boot-idempotency-starter@0.1.1",
+      "url": "https://central.sonatype.com/artifact/com.kholodilin/spring-boot-idempotency-starter",
+      "title": "com.kholodilin:spring-boot-idempotency-starter 0.1.1 发布, Auto-configuration and configuration properties for transactional idempotency with JDBC/PostgreSQL, Redis and Caffeine.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.kholodilin:spring-boot-idempotency-starter@0.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/kholodilin/spring-boot-idempotency-starter.svg\" alt=\"com.kholodilin:spring-boot-idempotency-starter 0.1.1 发布, Auto-configuration and configuration properties for transactional idempotency with JDBC/PostgreSQL, Redis and Caffeine.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/kholodilin/spring-boot-idempotency-starter/0.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.kholodilin/spring-boot-idempotency-starter\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.kholodilin/spring-boot-idempotency-starter/0.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/spring-boot-idempotency-starter\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/spring-boot-idempotency-starter\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.kholodilin&lt;/groupId&gt;\n        &lt;artifactId&gt;spring-boot-idempotency-starter&lt;/artifactId&gt;\n        &lt;version&gt;0.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.kholodilin:spring-boot-idempotency-starter 0.1.1 发布, Auto-configuration and configuration properties for transactional idempotency with JDBC/PostgreSQL, Redis and Caffeine.",
+      "summary": "com.kholodilin:spring-boot-idempotency-starter 0.1.1 发布, Auto-configuration and configuration properties for transactional idempotency with JDBC/PostgreSQL, Redis and Caffeine.",
+      "date_published": "2026-08-09T12:46:55Z",
+      "date_modified": "2026-08-09T12:57:37Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Valerii Kholodilin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.kholodilin/idempotency-persistence-jdbc@0.1.1",
+      "url": "https://central.sonatype.com/artifact/com.kholodilin/idempotency-persistence-jdbc",
+      "title": "com.kholodilin:idempotency-persistence-jdbc 0.1.1 发布, PersistenceStore implementation backed by JDBC/PostgreSQL: source of truth for idempotency records.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.kholodilin:idempotency-persistence-jdbc@0.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/kholodilin/idempotency-persistence-jdbc.svg\" alt=\"com.kholodilin:idempotency-persistence-jdbc 0.1.1 发布, PersistenceStore implementation backed by JDBC/PostgreSQL: source of truth for idempotency records.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/kholodilin/idempotency-persistence-jdbc/0.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.kholodilin/idempotency-persistence-jdbc\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.kholodilin/idempotency-persistence-jdbc/0.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/idempotency-persistence-jdbc\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/idempotency-persistence-jdbc\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.kholodilin&lt;/groupId&gt;\n        &lt;artifactId&gt;idempotency-persistence-jdbc&lt;/artifactId&gt;\n        &lt;version&gt;0.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.kholodilin:idempotency-persistence-jdbc 0.1.1 发布, PersistenceStore implementation backed by JDBC/PostgreSQL: source of truth for idempotency records.",
+      "summary": "com.kholodilin:idempotency-persistence-jdbc 0.1.1 发布, PersistenceStore implementation backed by JDBC/PostgreSQL: source of truth for idempotency records.",
+      "date_published": "2026-08-09T12:46:55Z",
+      "date_modified": "2026-08-09T12:57:29Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Valerii Kholodilin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.kholodilin/idempotency-distributed-cache-redis@0.1.1",
+      "url": "https://central.sonatype.com/artifact/com.kholodilin/idempotency-distributed-cache-redis",
+      "title": "com.kholodilin:idempotency-distributed-cache-redis 0.1.1 发布, DistributedCache implementation backed by Redis: shared cache between application instances.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.kholodilin:idempotency-distributed-cache-redis@0.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/kholodilin/idempotency-distributed-cache-redis.svg\" alt=\"com.kholodilin:idempotency-distributed-cache-redis 0.1.1 发布, DistributedCache implementation backed by Redis: shared cache between application instances.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/kholodilin/idempotency-distributed-cache-redis/0.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.kholodilin/idempotency-distributed-cache-redis\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.kholodilin/idempotency-distributed-cache-redis/0.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/idempotency-distributed-cache-redis\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/idempotency-distributed-cache-redis\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.kholodilin&lt;/groupId&gt;\n        &lt;artifactId&gt;idempotency-distributed-cache-redis&lt;/artifactId&gt;\n        &lt;version&gt;0.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.kholodilin:idempotency-distributed-cache-redis 0.1.1 发布, DistributedCache implementation backed by Redis: shared cache between application instances.",
+      "summary": "com.kholodilin:idempotency-distributed-cache-redis 0.1.1 发布, DistributedCache implementation backed by Redis: shared cache between application instances.",
+      "date_published": "2026-08-09T12:46:55Z",
+      "date_modified": "2026-08-09T12:57:28Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Valerii Kholodilin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/com.kholodilin/idempotency-core@0.1.1",
+      "url": "https://central.sonatype.com/artifact/com.kholodilin/idempotency-core",
+      "title": "com.kholodilin:idempotency-core 0.1.1 发布, Transport-independent transactional idempotency: domain model, orchestration and SPI contracts.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.kholodilin:idempotency-core@0.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/kholodilin/idempotency-core.svg\" alt=\"com.kholodilin:idempotency-core 0.1.1 发布, Transport-independent transactional idempotency: domain model, orchestration and SPI contracts.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/kholodilin/idempotency-core/0.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.kholodilin/idempotency-core\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.kholodilin/idempotency-core/0.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/idempotency-core\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/KHolodilin/spring-boot-idempotency-starter/idempotency-core\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.kholodilin&lt;/groupId&gt;\n        &lt;artifactId&gt;idempotency-core&lt;/artifactId&gt;\n        &lt;version&gt;0.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "com.kholodilin:idempotency-core 0.1.1 发布, Transport-independent transactional idempotency: domain model, orchestration and SPI contracts.",
+      "summary": "com.kholodilin:idempotency-core 0.1.1 发布, Transport-independent transactional idempotency: domain model, orchestration and SPI contracts.",
+      "date_published": "2026-08-09T12:46:55Z",
+      "date_modified": "2026-08-09T12:57:36Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Valerii Kholodilin"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/ir.smartech.intrack/android-sdk@3.1.1",
+      "url": "https://central.sonatype.com/artifact/ir.smartech.intrack/android-sdk",
+      "title": "ir.smartech.intrack:android-sdk 3.1.1 发布, InTrack Android SDK",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ir.smartech.intrack:android-sdk@3.1.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ir/smartech/intrack/android-sdk.svg\" alt=\"ir.smartech.intrack:android-sdk 3.1.1 发布, InTrack Android SDK\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ir/smartech/intrack/android-sdk/3.1.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ir.smartech.intrack/android-sdk\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ir.smartech.intrack/android-sdk/3.1.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://intrack.ir\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://g.smartech.ir/martech/intrack-android-sdk/tree/master\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ir.smartech.intrack&lt;/groupId&gt;\n        &lt;artifactId&gt;android-sdk&lt;/artifactId&gt;\n        &lt;version&gt;3.1.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "ir.smartech.intrack:android-sdk 3.1.1 发布, InTrack Android SDK",
+      "summary": "ir.smartech.intrack:android-sdk 3.1.1 发布, InTrack Android SDK",
+      "date_published": "2026-08-09T12:45:38Z",
+      "date_modified": "2026-08-09T12:57:26Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Smartech Development Team"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/dev.noregressions.paperband/core@0.0.1",
+      "url": "https://central.sonatype.com/artifact/dev.noregressions.paperband/core",
+      "title": "dev.noregressions.paperband:core 0.0.1 发布, Renderer SPI and shared models. No renderer implementations.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"dev.noregressions.paperband:core@0.0.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/dev/noregressions/paperband/core.svg\" alt=\"dev.noregressions.paperband:core 0.0.1 发布, Renderer SPI and shared models. No renderer implementations.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/dev/noregressions/paperband/core/0.0.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/dev.noregressions.paperband/core\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/dev.noregressions.paperband/core/0.0.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband/core\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;dev.noregressions.paperband&lt;/groupId&gt;\n        &lt;artifactId&gt;core&lt;/artifactId&gt;\n        &lt;version&gt;0.0.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "dev.noregressions.paperband:core 0.0.1 发布, Renderer SPI and shared models. No renderer implementations.",
+      "summary": "dev.noregressions.paperband:core 0.0.1 发布, Renderer SPI and shared models. No renderer implementations.",
+      "date_published": "2026-08-09T12:39:23Z",
+      "date_modified": "2026-08-09T12:57:34Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Steve Poole"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/dev.noregressions.paperband/parent@0.0.1",
+      "url": "https://central.sonatype.com/artifact/dev.noregressions.paperband/parent",
+      "title": "dev.noregressions.paperband:parent 0.0.1 发布, Pluggable static-site and PDF builder for structured content guides.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"dev.noregressions.paperband:parent@0.0.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/dev/noregressions/paperband/parent.svg\" alt=\"dev.noregressions.paperband:parent 0.0.1 发布, Pluggable static-site and PDF builder for structured content guides.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/dev/noregressions/paperband/parent/0.0.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/dev.noregressions.paperband/parent\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/dev.noregressions.paperband/parent/0.0.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;dev.noregressions.paperband&lt;/groupId&gt;\n        &lt;artifactId&gt;parent&lt;/artifactId&gt;\n        &lt;version&gt;0.0.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "dev.noregressions.paperband:parent 0.0.1 发布, Pluggable static-site and PDF builder for structured content guides.",
+      "summary": "dev.noregressions.paperband:parent 0.0.1 发布, Pluggable static-site and PDF builder for structured content guides.",
+      "date_published": "2026-08-09T12:39:23Z",
+      "date_modified": "2026-08-09T12:57:34Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Steve Poole"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/dev.noregressions.paperband/include@0.0.1",
+      "url": "https://central.sonatype.com/artifact/dev.noregressions.paperband/include",
+      "title": "dev.noregressions.paperband:include 0.0.1 发布, Content-include directive: pluggable ContentProviders + FragmentProcessors. Pulls fragments from working sources into markdown before flexmark parses it.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"dev.noregressions.paperband:include@0.0.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/dev/noregressions/paperband/include.svg\" alt=\"dev.noregressions.paperband:include 0.0.1 发布, Content-include directive: pluggable ContentProviders + FragmentProcessors. Pulls fragments from working sources into markdown before flexmark parses it.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/dev/noregressions/paperband/include/0.0.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/dev.noregressions.paperband/include\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/dev.noregressions.paperband/include/0.0.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband/include\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;dev.noregressions.paperband&lt;/groupId&gt;\n        &lt;artifactId&gt;include&lt;/artifactId&gt;\n        &lt;version&gt;0.0.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "dev.noregressions.paperband:include 0.0.1 发布, Content-include directive: pluggable ContentProviders + FragmentProcessors. Pulls fragments from working sources into markdown before flexmark parses it.",
+      "summary": "dev.noregressions.paperband:include 0.0.1 发布, Content-include directive: pluggable ContentProviders + FragmentProcessors. Pulls fragments from working sources into markdown before flexmark parses it.",
+      "date_published": "2026-08-09T12:39:23Z",
+      "date_modified": "2026-08-09T12:57:26Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Steve Poole"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/dev.noregressions.paperband/render-playwright@0.0.1",
+      "url": "https://central.sonatype.com/artifact/dev.noregressions.paperband/render-playwright",
+      "title": "dev.noregressions.paperband:render-playwright 0.0.1 发布, HTML to PDF renderer backed by Playwright + headless Chromium.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"dev.noregressions.paperband:render-playwright@0.0.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/dev/noregressions/paperband/render-playwright.svg\" alt=\"dev.noregressions.paperband:render-playwright 0.0.1 发布, HTML to PDF renderer backed by Playwright + headless Chromium.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/dev/noregressions/paperband/render-playwright/0.0.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/dev.noregressions.paperband/render-playwright\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/dev.noregressions.paperband/render-playwright/0.0.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband/render-playwright\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;dev.noregressions.paperband&lt;/groupId&gt;\n        &lt;artifactId&gt;render-playwright&lt;/artifactId&gt;\n        &lt;version&gt;0.0.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "dev.noregressions.paperband:render-playwright 0.0.1 发布, HTML to PDF renderer backed by Playwright + headless Chromium.",
+      "summary": "dev.noregressions.paperband:render-playwright 0.0.1 发布, HTML to PDF renderer backed by Playwright + headless Chromium.",
+      "date_published": "2026-08-09T12:39:23Z",
+      "date_modified": "2026-08-09T12:57:30Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Steve Poole"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/dev.noregressions.paperband/layout@0.0.1",
+      "url": "https://central.sonatype.com/artifact/dev.noregressions.paperband/layout",
+      "title": "dev.noregressions.paperband:layout 0.0.1 发布, Pebble-driven layout engine: turns a Card + RenderContext into a styled HTML page.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"dev.noregressions.paperband:layout@0.0.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/dev/noregressions/paperband/layout.svg\" alt=\"dev.noregressions.paperband:layout 0.0.1 发布, Pebble-driven layout engine: turns a Card + RenderContext into a styled HTML page.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/dev/noregressions/paperband/layout/0.0.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/dev.noregressions.paperband/layout\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/dev.noregressions.paperband/layout/0.0.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband/layout\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;dev.noregressions.paperband&lt;/groupId&gt;\n        &lt;artifactId&gt;layout&lt;/artifactId&gt;\n        &lt;version&gt;0.0.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "dev.noregressions.paperband:layout 0.0.1 发布, Pebble-driven layout engine: turns a Card + RenderContext into a styled HTML page.",
+      "summary": "dev.noregressions.paperband:layout 0.0.1 发布, Pebble-driven layout engine: turns a Card + RenderContext into a styled HTML page.",
+      "date_published": "2026-08-09T12:39:23Z",
+      "date_modified": "2026-08-09T12:57:32Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Steve Poole"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/dev.noregressions.paperband/cli@0.0.1",
+      "url": "https://central.sonatype.com/artifact/dev.noregressions.paperband/cli",
+      "title": "dev.noregressions.paperband:cli 0.0.1 发布, paperband command-line tool. Bundles the renderer modules it ships with.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"dev.noregressions.paperband:cli@0.0.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/dev/noregressions/paperband/cli.svg\" alt=\"dev.noregressions.paperband:cli 0.0.1 发布, paperband command-line tool. Bundles the renderer modules it ships with.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/dev/noregressions/paperband/cli/0.0.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/dev.noregressions.paperband/cli\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/dev.noregressions.paperband/cli/0.0.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband/cli\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;dev.noregressions.paperband&lt;/groupId&gt;\n        &lt;artifactId&gt;cli&lt;/artifactId&gt;\n        &lt;version&gt;0.0.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "dev.noregressions.paperband:cli 0.0.1 发布, paperband command-line tool. Bundles the renderer modules it ships with.",
+      "summary": "dev.noregressions.paperband:cli 0.0.1 发布, paperband command-line tool. Bundles the renderer modules it ships with.",
+      "date_published": "2026-08-09T12:39:23Z",
+      "date_modified": "2026-08-09T12:57:27Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Steve Poole"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/dev.noregressions.paperband/config@0.0.1",
+      "url": "https://central.sonatype.com/artifact/dev.noregressions.paperband/config",
+      "title": "dev.noregressions.paperband:config 0.0.1 发布, paperband.yaml cascade walker. Resolves per-card RenderContext.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"dev.noregressions.paperband:config@0.0.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/dev/noregressions/paperband/config.svg\" alt=\"dev.noregressions.paperband:config 0.0.1 发布, paperband.yaml cascade walker. Resolves per-card RenderContext.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/dev/noregressions/paperband/config/0.0.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/dev.noregressions.paperband/config\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/dev.noregressions.paperband/config/0.0.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband/config\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;dev.noregressions.paperband&lt;/groupId&gt;\n        &lt;artifactId&gt;config&lt;/artifactId&gt;\n        &lt;version&gt;0.0.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "dev.noregressions.paperband:config 0.0.1 发布, paperband.yaml cascade walker. Resolves per-card RenderContext.",
+      "summary": "dev.noregressions.paperband:config 0.0.1 发布, paperband.yaml cascade walker. Resolves per-card RenderContext.",
+      "date_published": "2026-08-09T12:39:23Z",
+      "date_modified": "2026-08-09T12:57:33Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Steve Poole"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/dev.noregressions.paperband/cards@0.0.1",
+      "url": "https://central.sonatype.com/artifact/dev.noregressions.paperband/cards",
+      "title": "dev.noregressions.paperband:cards 0.0.1 发布, Markdown card loader. Parses frontmatter + body into Card / Block model.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"dev.noregressions.paperband:cards@0.0.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/dev/noregressions/paperband/cards.svg\" alt=\"dev.noregressions.paperband:cards 0.0.1 发布, Markdown card loader. Parses frontmatter + body into Card / Block model.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/dev/noregressions/paperband/cards/0.0.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/dev.noregressions.paperband/cards\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/dev.noregressions.paperband/cards/0.0.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/noregressions/paperband/cards\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;dev.noregressions.paperband&lt;/groupId&gt;\n        &lt;artifactId&gt;cards&lt;/artifactId&gt;\n        &lt;version&gt;0.0.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "dev.noregressions.paperband:cards 0.0.1 发布, Markdown card loader. Parses frontmatter + body into Card / Block model.",
+      "summary": "dev.noregressions.paperband:cards 0.0.1 发布, Markdown card loader. Parses frontmatter + body into Card / Block model.",
+      "date_published": "2026-08-09T12:39:23Z",
+      "date_modified": "2026-08-09T12:57:35Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Steve Poole"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
       "id": "pkg:maven/no.beint.thim/spring@0.7.1",
       "url": "https://central.sonatype.com/artifact/no.beint.thim/spring",
       "title": "no.beint.thim:spring 0.7.1 发布, Spring MVC adapter for Thim templates.",
@@ -25,7 +505,7 @@
       "content_text": "no.beint.thim:spring 0.7.1 发布, Spring MVC adapter for Thim templates.",
       "summary": "no.beint.thim:spring 0.7.1 发布, Spring MVC adapter for Thim templates.",
       "date_published": "2026-08-09T12:36:51Z",
-      "date_modified": "2026-08-09T12:40:12Z",
+      "date_modified": "2026-08-09T12:57:35Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -57,7 +537,7 @@
       "content_text": "no.beint.thim:compiler 0.7.1 发布, Build-time Java and Kotlin template compiler for Thim.",
       "summary": "no.beint.thim:compiler 0.7.1 发布, Build-time Java and Kotlin template compiler for Thim.",
       "date_published": "2026-08-09T12:36:51Z",
-      "date_modified": "2026-08-09T12:40:12Z",
+      "date_modified": "2026-08-09T12:57:35Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -89,7 +569,7 @@
       "content_text": "no.beint.thim:runtime 0.7.1 发布, Dependency-free Java output API for Thim templates.",
       "summary": "no.beint.thim:runtime 0.7.1 发布, Dependency-free Java output API for Thim templates.",
       "date_published": "2026-08-09T12:36:51Z",
-      "date_modified": "2026-08-09T12:40:12Z",
+      "date_modified": "2026-08-09T12:57:29Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -121,7 +601,7 @@
       "content_text": "no.beint.thim:no.beint.thim.gradle.plugin 0.7.1 发布, Gradle plugin for compiling Thim templates.",
       "summary": "no.beint.thim:no.beint.thim.gradle.plugin 0.7.1 发布, Gradle plugin for compiling Thim templates.",
       "date_published": "2026-08-09T12:36:51Z",
-      "date_modified": "2026-08-09T12:40:11Z",
+      "date_modified": "2026-08-09T12:57:38Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -153,7 +633,7 @@
       "content_text": "no.beint.thim:gradle-plugin 0.7.1 发布, Gradle plugin for compiling Thim templates.",
       "summary": "no.beint.thim:gradle-plugin 0.7.1 发布, Gradle plugin for compiling Thim templates.",
       "date_published": "2026-08-09T12:36:51Z",
-      "date_modified": "2026-08-09T12:40:11Z",
+      "date_modified": "2026-08-09T12:57:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -185,7 +665,7 @@
       "content_text": "com.github.wix-maven.sdk.nar:balutil-vc14 4.0.6 发布, The WiX toolset builds Windows installation packages from XML source code. \nThe toolset integrates seamlessly into build processes.\nThis is a binary artifact capture.",
       "summary": "com.github.wix-maven.sdk.nar:balutil-vc14 4.0.6 发布, The WiX toolset builds Windows installation packages from XML source code. \nThe toolset integrates seamlessly into build processes.\nThis is a binary artifact capture.",
       "date_published": "2026-08-09T12:33:35Z",
-      "date_modified": "2026-08-09T12:40:11Z",
+      "date_modified": "2026-08-09T12:57:29Z",
       "tags": [
         "Artifact",
         "Maven",
@@ -209,7 +689,7 @@
       "content_text": "com.github.wix-maven.sdk.nar:dutil-vc14 4.0.6 发布, Utility functions for use in WiX Custom Actions (CA) or Bootstrap Applications (BA)",
       "summary": "com.github.wix-maven.sdk.nar:dutil-vc14 4.0.6 发布, Utility functions for use in WiX Custom Actions (CA) or Bootstrap Applications (BA)",
       "date_published": "2026-08-09T12:33:35Z",
-      "date_modified": "2026-08-09T12:40:12Z",
+      "date_modified": "2026-08-09T12:57:29Z",
       "tags": [
         "Artifact",
         "Maven",
@@ -233,7 +713,7 @@
       "content_text": "com.github.wix-maven:wix-toolset-parent 4.0.6 发布, The WiX toolset builds Windows installation packages from XML source code. \nThe toolset integrates seamlessly into build processes.\nThis is a binary artifact capture.",
       "summary": "com.github.wix-maven:wix-toolset-parent 4.0.6 发布, The WiX toolset builds Windows installation packages from XML source code. \nThe toolset integrates seamlessly into build processes.\nThis is a binary artifact capture.",
       "date_published": "2026-08-09T12:33:35Z",
-      "date_modified": "2026-08-09T12:40:14Z",
+      "date_modified": "2026-08-09T12:57:35Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -271,7 +751,7 @@
       "content_text": "com.github.wix-maven.sdk.nar:wcautil-vc14 4.0.6 发布, The WiX toolset builds Windows installation packages from XML source code. \nThe toolset integrates seamlessly into build processes.\nThis is a binary artifact capture.",
       "summary": "com.github.wix-maven.sdk.nar:wcautil-vc14 4.0.6 发布, The WiX toolset builds Windows installation packages from XML source code. \nThe toolset integrates seamlessly into build processes.\nThis is a binary artifact capture.",
       "date_published": "2026-08-09T12:33:35Z",
-      "date_modified": "2026-08-09T12:40:13Z",
+      "date_modified": "2026-08-09T12:57:34Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -309,7 +789,7 @@
       "content_text": "com.github.wix-maven.sdk.nar:bextutil-vc14 4.0.6 发布, The WiX toolset builds Windows installation packages from XML source code. \nThe toolset integrates seamlessly into build processes.\nThis is a binary artifact capture.",
       "summary": "com.github.wix-maven.sdk.nar:bextutil-vc14 4.0.6 发布, The WiX toolset builds Windows installation packages from XML source code. \nThe toolset integrates seamlessly into build processes.\nThis is a binary artifact capture.",
       "date_published": "2026-08-09T12:33:35Z",
-      "date_modified": "2026-08-09T12:40:12Z",
+      "date_modified": "2026-08-09T12:57:32Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -344,7 +824,7 @@
       "content_text": "com.github.wix-maven:wix-toolset4 4.0.6 发布, Bundle of command line executable tools for building WiX projects for use in Maven Plugins",
       "summary": "com.github.wix-maven:wix-toolset4 4.0.6 发布, Bundle of command line executable tools for building WiX projects for use in Maven Plugins",
       "date_published": "2026-08-09T12:33:35Z",
-      "date_modified": "2026-08-09T12:40:11Z",
+      "date_modified": "2026-08-09T12:57:26Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -379,7 +859,7 @@
       "content_text": "dev.amaro:atairu-android-core 0.1.0 发布, Content protocol models, theme-resolution engine, and network client for the Atairu Android SDK.",
       "summary": "dev.amaro:atairu-android-core 0.1.0 发布, Content protocol models, theme-resolution engine, and network client for the Atairu Android SDK.",
       "date_published": "2026-08-09T12:32:21Z",
-      "date_modified": "2026-08-09T12:40:14Z",
+      "date_modified": "2026-08-09T12:57:34Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -411,7 +891,7 @@
       "content_text": "dev.amaro:atairu-android 0.1.0 发布, Jetpack Compose render layer for the Atairu Android SDK.",
       "summary": "dev.amaro:atairu-android 0.1.0 发布, Jetpack Compose render layer for the Atairu Android SDK.",
       "date_published": "2026-08-09T12:32:21Z",
-      "date_modified": "2026-08-09T12:40:13Z",
+      "date_modified": "2026-08-09T12:57:33Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -443,7 +923,7 @@
       "content_text": "io.github.ralfspoeth:basix 1.5.6 发布, This project implements some basic data structures\n        missing in terms of purity in the Java libraries, and some\n        useful functions and predicates.",
       "summary": "io.github.ralfspoeth:basix 1.5.6 发布, This project implements some basic data structures\n        missing in terms of purity in the Java libraries, and some\n        useful functions and predicates.",
       "date_published": "2026-08-09T12:31:40Z",
-      "date_modified": "2026-08-09T12:40:11Z",
+      "date_modified": "2026-08-09T12:57:35Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -473,7 +953,7 @@
       "content_text": "com.linkbreakers:linkbreakers-sdk 1.112.0 发布, Official Java SDK for the Linkbreakers API",
       "summary": "com.linkbreakers:linkbreakers-sdk 1.112.0 发布, Official Java SDK for the Linkbreakers API",
       "date_published": "2026-08-09T12:24:38Z",
-      "date_modified": "2026-08-09T12:40:14Z",
+      "date_modified": "2026-08-09T12:57:35Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -505,7 +985,7 @@
       "content_text": "ai.novvy.android:sdk 1.1.4 发布, Programmatic advertising SDK for Android — interstitial and rewarded ads via real-time bidding.",
       "summary": "ai.novvy.android:sdk 1.1.4 发布, Programmatic advertising SDK for Android — interstitial and rewarded ads via real-time bidding.",
       "date_published": "2026-08-09T12:23:37Z",
-      "date_modified": "2026-08-09T12:40:12Z",
+      "date_modified": "2026-08-09T12:57:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -537,7 +1017,7 @@
       "content_text": "io.stigg:stigg-sidecar-sdk 7.160.1 发布, Sidecar SDK for Stigg",
       "summary": "io.stigg:stigg-sidecar-sdk 7.160.1 发布, Sidecar SDK for Stigg",
       "date_published": "2026-08-09T12:21:35Z",
-      "date_modified": "2026-08-09T12:40:14Z",
+      "date_modified": "2026-08-09T12:57:34Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -567,7 +1047,7 @@
       "content_text": "io.github.thevilledev:hayahash 0.5.0 发布, hayahash64 and hayahash128; bit-exact Java port of the C reference implementation",
       "summary": "io.github.thevilledev:hayahash 0.5.0 发布, hayahash64 and hayahash128; bit-exact Java port of the C reference implementation",
       "date_published": "2026-08-09T12:20:41Z",
-      "date_modified": "2026-08-09T12:40:11Z",
+      "date_modified": "2026-08-09T12:57:29Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -599,7 +1079,7 @@
       "content_text": "app.oreshkov:rabosh-core 0.2.0 发布, LSM storage core: WAL, memtable, SSTable, manifest, compaction, MVCC snapshots.",
       "summary": "app.oreshkov:rabosh-core 0.2.0 发布, LSM storage core: WAL, memtable, SSTable, manifest, compaction, MVCC snapshots.",
       "date_published": "2026-08-09T12:16:39Z",
-      "date_modified": "2026-08-09T12:27:27Z",
+      "date_modified": "2026-08-09T12:57:35Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -631,7 +1111,7 @@
       "content_text": "app.oreshkov:rabosh-query 0.2.0 发布, Predicate AST, planner, segment pruning and execution.",
       "summary": "app.oreshkov:rabosh-query 0.2.0 发布, Predicate AST, planner, segment pruning and execution.",
       "date_published": "2026-08-09T12:16:39Z",
-      "date_modified": "2026-08-09T12:27:26Z",
+      "date_modified": "2026-08-09T12:57:33Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -663,7 +1143,7 @@
       "content_text": "app.oreshkov:rabosh-api 0.2.0 发布, Public facade: one object owning the store, the schema catalog and the index catalog.",
       "summary": "app.oreshkov:rabosh-api 0.2.0 发布, Public facade: one object owning the store, the schema catalog and the index catalog.",
       "date_published": "2026-08-09T12:16:39Z",
-      "date_modified": "2026-08-09T12:27:27Z",
+      "date_modified": "2026-08-09T12:57:27Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -695,7 +1175,7 @@
       "content_text": "app.oreshkov:rabosh-catalog 0.2.0 发布, Schema inference: per-segment path sketches, cardinality estimation, merged collection model.",
       "summary": "app.oreshkov:rabosh-catalog 0.2.0 发布, Schema inference: per-segment path sketches, cardinality estimation, merged collection model.",
       "date_published": "2026-08-09T12:16:39Z",
-      "date_modified": "2026-08-09T12:27:24Z",
+      "date_modified": "2026-08-09T12:57:33Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -727,7 +1207,7 @@
       "content_text": "app.oreshkov:rabosh-variant 0.2.0 发布, Apache Open Variant binary encoding: codec, zero-copy path navigation, streaming JSON builder.",
       "summary": "app.oreshkov:rabosh-variant 0.2.0 发布, Apache Open Variant binary encoding: codec, zero-copy path navigation, streaming JSON builder.",
       "date_published": "2026-08-09T12:16:39Z",
-      "date_modified": "2026-08-09T12:40:11Z",
+      "date_modified": "2026-08-09T12:57:33Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -759,7 +1239,7 @@
       "content_text": "app.oreshkov:rabosh-jsonpath 0.2.0 发布, RFC 9535 JSONPath over a Variant document: compile a query, expand it to nodes.",
       "summary": "app.oreshkov:rabosh-jsonpath 0.2.0 发布, RFC 9535 JSONPath over a Variant document: compile a query, expand it to nodes.",
       "date_published": "2026-08-09T12:16:39Z",
-      "date_modified": "2026-08-09T12:40:13Z",
+      "date_modified": "2026-08-09T12:57:35Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -791,7 +1271,7 @@
       "content_text": "app.oreshkov:rabosh-index 0.2.0 发布, Retroactive index sidecars: compressed bitmap, inverted path indexes, shredded typed columns.",
       "summary": "app.oreshkov:rabosh-index 0.2.0 发布, Retroactive index sidecars: compressed bitmap, inverted path indexes, shredded typed columns.",
       "date_published": "2026-08-09T12:16:39Z",
-      "date_modified": "2026-08-09T12:27:27Z",
+      "date_modified": "2026-08-09T12:57:37Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -18746,1157 +19226,6 @@
         "Artifact",
         "Maven",
         "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.erudika/para-search-elasticsearch@1.43.0",
-      "url": "https://central.sonatype.com/artifact/com.erudika/para-search-elasticsearch",
-      "title": "com.erudika:para-search-elasticsearch 1.43.0 发布, A plugin for Para which enables support for Elasticsearch using the official Java client.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.erudika:para-search-elasticsearch@1.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/erudika/para-search-elasticsearch.svg\" alt=\"com.erudika:para-search-elasticsearch 1.43.0 发布, A plugin for Para which enables support for Elasticsearch using the official Java client.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/erudika/para-search-elasticsearch/1.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.erudika/para-search-elasticsearch\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.erudika/para-search-elasticsearch/1.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://paraio.org\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/erudika/para-search-elasticsearch\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://paraio.org\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.erudika&lt;/groupId&gt;\n        &lt;artifactId&gt;para-search-elasticsearch&lt;/artifactId&gt;\n        &lt;version&gt;1.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.erudika:para-search-elasticsearch 1.43.0 发布, A plugin for Para which enables support for Elasticsearch using the official Java client.",
-      "summary": "com.erudika:para-search-elasticsearch 1.43.0 发布, A plugin for Para which enables support for Elasticsearch using the official Java client.",
-      "date_published": "2026-08-09T09:57:35Z",
-      "date_modified": "2026-08-09T10:27:29Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Alex Bogdanovski"
-        }
-      ],
-      "tags": [
-        "elasticsearch",
-        "elastic",
-        "search"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.jeecgframework.jimureport/jimuchatbi-spring-boot4-starter@1.0.0",
-      "url": "https://central.sonatype.com/artifact/org.jeecgframework.jimureport/jimuchatbi-spring-boot4-starter",
-      "title": "org.jeecgframework.jimureport:jimuchatbi-spring-boot4-starter 1.0.0 发布, 积木报表 Chat2BI 对话式 BI 模块",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.jeecgframework.jimureport:jimuchatbi-spring-boot4-starter@1.0.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/jeecgframework/jimureport/jimuchatbi-spring-boot4-starter.svg\" alt=\"org.jeecgframework.jimureport:jimuchatbi-spring-boot4-starter 1.0.0 发布, 积木报表 Chat2BI 对话式 BI 模块\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/jeecgframework/jimureport/jimuchatbi-spring-boot4-starter/1.0.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.jeecgframework.jimureport/jimuchatbi-spring-boot4-starter\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.jeecgframework.jimureport/jimuchatbi-spring-boot4-starter/1.0.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://www.jimureport.com\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/jeecgboot/JimuReport\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.jeecgframework.jimureport&lt;/groupId&gt;\n        &lt;artifactId&gt;jimuchatbi-spring-boot4-starter&lt;/artifactId&gt;\n        &lt;version&gt;1.0.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.jeecgframework.jimureport:jimuchatbi-spring-boot4-starter 1.0.0 发布, 积木报表 Chat2BI 对话式 BI 模块",
-      "summary": "org.jeecgframework.jimureport:jimuchatbi-spring-boot4-starter 1.0.0 发布, 积木报表 Chat2BI 对话式 BI 模块",
-      "date_published": "2026-08-09T09:56:07Z",
-      "date_modified": "2026-08-09T10:27:25Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Spring"
-        },
-        {
-          "name": "jeecg"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.aa8043/cwafx@1.4.1",
-      "url": "https://central.sonatype.com/artifact/io.github.aa8043/cwafx",
-      "title": "io.github.aa8043:cwafx 1.4.1 发布, A JavaFX framework",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.aa8043:cwafx@1.4.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/aa8043/cwafx.svg\" alt=\"io.github.aa8043:cwafx 1.4.1 发布, A JavaFX framework\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/aa8043/cwafx/1.4.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.aa8043/cwafx\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.aa8043/cwafx/1.4.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/AA8043/CwaFX\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/AA8043/CwaFX\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.aa8043&lt;/groupId&gt;\n        &lt;artifactId&gt;cwafx&lt;/artifactId&gt;\n        &lt;version&gt;1.4.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.aa8043:cwafx 1.4.1 发布, A JavaFX framework",
-      "summary": "io.github.aa8043:cwafx 1.4.1 发布, A JavaFX framework",
-      "date_published": "2026-08-09T09:52:21Z",
-      "date_modified": "2026-08-09T10:27:28Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "AA8043"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/co.gemina/gemina-sdk@0.5.4",
-      "url": "https://central.sonatype.com/artifact/co.gemina/gemina-sdk",
-      "title": "co.gemina:gemina-sdk 0.5.4 发布, Official Java client for the Gemina API — invoice OCR and document intelligence: upload documents, get typed structured data back, then search, aggregate, and chat over everything you've processed.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"co.gemina:gemina-sdk@0.5.4\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/co/gemina/gemina-sdk.svg\" alt=\"co.gemina:gemina-sdk 0.5.4 发布, Official Java client for the Gemina API — invoice OCR and document intelligence: upload documents, get typed structured data back, then search, aggregate, and chat over everything you've processed.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/co/gemina/gemina-sdk/0.5.4/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/co.gemina/gemina-sdk\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/co.gemina/gemina-sdk/0.5.4\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://gemina.co\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/tommyil/gemina-sdk\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;co.gemina&lt;/groupId&gt;\n        &lt;artifactId&gt;gemina-sdk&lt;/artifactId&gt;\n        &lt;version&gt;0.5.4&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "co.gemina:gemina-sdk 0.5.4 发布, Official Java client for the Gemina API — invoice OCR and document intelligence: upload documents, get typed structured data back, then search, aggregate, and chat over everything you've processed.",
-      "summary": "co.gemina:gemina-sdk 0.5.4 发布, Official Java client for the Gemina API — invoice OCR and document intelligence: upload documents, get typed structured data back, then search, aggregate, and chat over everything you've processed.",
-      "date_published": "2026-08-09T09:51:56Z",
-      "date_modified": "2026-08-09T10:27:29Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Gemina"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.feldmandev/motion@beta5",
-      "url": "https://central.sonatype.com/artifact/io.github.feldmandev/motion",
-      "title": "io.github.feldmandev:motion beta5 发布, Expressive Jetpack Compose components for buttons, controls, navigation, toolbars, and physics-driven motion.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.feldmandev:motion@beta5\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/feldmandev/motion.svg\" alt=\"io.github.feldmandev:motion beta5 发布, Expressive Jetpack Compose components for buttons, controls, navigation, toolbars, and physics-driven motion.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/feldmandev/motion/beta5/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.feldmandev/motion\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.feldmandev/motion/beta5\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/feldmandev/motion-android\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/feldmandev/motion-android\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.feldmandev&lt;/groupId&gt;\n        &lt;artifactId&gt;motion&lt;/artifactId&gt;\n        &lt;version&gt;beta5&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.feldmandev:motion beta5 发布, Expressive Jetpack Compose components for buttons, controls, navigation, toolbars, and physics-driven motion.",
-      "summary": "io.github.feldmandev:motion beta5 发布, Expressive Jetpack Compose components for buttons, controls, navigation, toolbars, and physics-driven motion.",
-      "date_published": "2026-08-09T09:49:48Z",
-      "date_modified": "2026-08-09T10:27:26Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Feldman"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/top.lxyccc/tiny-security-boot3-starter@1.3.1",
-      "url": "https://central.sonatype.com/artifact/top.lxyccc/tiny-security-boot3-starter",
-      "title": "top.lxyccc:tiny-security-boot3-starter 1.3.1 发布, A simple and easy-to-use security tools",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"top.lxyccc:tiny-security-boot3-starter@1.3.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/top/lxyccc/tiny-security-boot3-starter.svg\" alt=\"top.lxyccc:tiny-security-boot3-starter 1.3.1 发布, A simple and easy-to-use security tools\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/top/lxyccc/tiny-security-boot3-starter/1.3.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/top.lxyccc/tiny-security-boot3-starter\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/top.lxyccc/tiny-security-boot3-starter/1.3.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/llllllxy/tiny-security/tiny-security-boot3-starter\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/llllllxy/tiny-security/tree/master/tiny-security-boot3-starter\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;top.lxyccc&lt;/groupId&gt;\n        &lt;artifactId&gt;tiny-security-boot3-starter&lt;/artifactId&gt;\n        &lt;version&gt;1.3.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "top.lxyccc:tiny-security-boot3-starter 1.3.1 发布, A simple and easy-to-use security tools",
-      "summary": "top.lxyccc:tiny-security-boot3-starter 1.3.1 发布, A simple and easy-to-use security tools",
-      "date_published": "2026-08-09T09:49:21Z",
-      "date_modified": "2026-08-09T10:27:28Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "llllllxy"
-        }
-      ],
-      "tags": [
-        "security",
-        "starter"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/top.lxyccc/tiny-security-parent3@1.3.1",
-      "url": "https://central.sonatype.com/artifact/top.lxyccc/tiny-security-parent3",
-      "title": "top.lxyccc:tiny-security-parent3 1.3.1 发布, A simple and easy-to-use security tools",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"top.lxyccc:tiny-security-parent3@1.3.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/top/lxyccc/tiny-security-parent3.svg\" alt=\"top.lxyccc:tiny-security-parent3 1.3.1 发布, A simple and easy-to-use security tools\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/top/lxyccc/tiny-security-parent3/1.3.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/top.lxyccc/tiny-security-parent3\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/top.lxyccc/tiny-security-parent3/1.3.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/llllllxy/tiny-security\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/llllllxy/tiny-security/tree/master\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/llllllxy/tiny-security\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;top.lxyccc&lt;/groupId&gt;\n        &lt;artifactId&gt;tiny-security-parent3&lt;/artifactId&gt;\n        &lt;version&gt;1.3.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "top.lxyccc:tiny-security-parent3 1.3.1 发布, A simple and easy-to-use security tools",
-      "summary": "top.lxyccc:tiny-security-parent3 1.3.1 发布, A simple and easy-to-use security tools",
-      "date_published": "2026-08-09T09:49:21Z",
-      "date_modified": "2026-08-09T10:27:25Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "llllllxy"
-        }
-      ],
-      "tags": [
-        "security"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/top.lxyccc/tiny-security-core3@1.3.1",
-      "url": "https://central.sonatype.com/artifact/top.lxyccc/tiny-security-core3",
-      "title": "top.lxyccc:tiny-security-core3 1.3.1 发布, A simple and easy-to-use security tools",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"top.lxyccc:tiny-security-core3@1.3.1\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/top/lxyccc/tiny-security-core3.svg\" alt=\"top.lxyccc:tiny-security-core3 1.3.1 发布, A simple and easy-to-use security tools\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/top/lxyccc/tiny-security-core3/1.3.1/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/top.lxyccc/tiny-security-core3\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/top.lxyccc/tiny-security-core3/1.3.1\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/llllllxy/tiny-security/tiny-security-core3\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/llllllxy/tiny-security/tree/master/tiny-security-core3\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;top.lxyccc&lt;/groupId&gt;\n        &lt;artifactId&gt;tiny-security-core3&lt;/artifactId&gt;\n        &lt;version&gt;1.3.1&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "top.lxyccc:tiny-security-core3 1.3.1 发布, A simple and easy-to-use security tools",
-      "summary": "top.lxyccc:tiny-security-core3 1.3.1 发布, A simple and easy-to-use security tools",
-      "date_published": "2026-08-09T09:49:21Z",
-      "date_modified": "2026-08-09T10:27:28Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "llllllxy"
-        }
-      ],
-      "tags": [
-        "security"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.mvnpm.at.tanstack/table-core@9.1.2",
-      "url": "https://central.sonatype.com/artifact/org.mvnpm.at.tanstack/table-core",
-      "title": "org.mvnpm.at.tanstack:table-core 9.1.2 发布, Headless UI for building powerful tables & datagrids for TS/JS.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.mvnpm.at.tanstack:table-core@9.1.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/mvnpm/at/tanstack/table-core.svg\" alt=\"org.mvnpm.at.tanstack:table-core 9.1.2 发布, Headless UI for building powerful tables & datagrids for TS/JS.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/mvnpm/at/tanstack/table-core/9.1.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.mvnpm.at.tanstack/table-core\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.mvnpm.at.tanstack/table-core/9.1.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://tanstack.com/table\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/TanStack/table\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.mvnpm.at.tanstack&lt;/groupId&gt;\n        &lt;artifactId&gt;table-core&lt;/artifactId&gt;\n        &lt;version&gt;9.1.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.mvnpm.at.tanstack:table-core 9.1.2 发布, Headless UI for building powerful tables & datagrids for TS/JS.",
-      "summary": "org.mvnpm.at.tanstack:table-core 9.1.2 发布, Headless UI for building powerful tables & datagrids for TS/JS.",
-      "date_published": "2026-08-09T09:49:13Z",
-      "date_modified": "2026-08-09T10:27:29Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "nksaraf"
-        },
-        {
-          "name": "tannerlinsley"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ru.astrainteractive.astralibs/benchmarks@3.43.0",
-      "url": "https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/benchmarks",
-      "title": "ru.astrainteractive.astralibs:benchmarks 3.43.0 发布, Core utilities for spigot development",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ru.astrainteractive.astralibs:benchmarks@3.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ru/astrainteractive/astralibs/benchmarks.svg\" alt=\"ru.astrainteractive.astralibs:benchmarks 3.43.0 发布, Core utilities for spigot development\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ru/astrainteractive/astralibs/benchmarks/3.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/benchmarks\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ru.astrainteractive.astralibs/benchmarks/3.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ru.astrainteractive.astralibs&lt;/groupId&gt;\n        &lt;artifactId&gt;benchmarks&lt;/artifactId&gt;\n        &lt;version&gt;3.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ru.astrainteractive.astralibs:benchmarks 3.43.0 发布, Core utilities for spigot development",
-      "summary": "ru.astrainteractive.astralibs:benchmarks 3.43.0 发布, Core utilities for spigot development",
-      "date_published": "2026-08-09T09:48:19Z",
-      "date_modified": "2026-08-09T10:27:29Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Makeev Roman"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ru.astrainteractive.astralibs/command@3.43.0",
-      "url": "https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/command",
-      "title": "ru.astrainteractive.astralibs:command 3.43.0 发布, Core utilities for spigot development",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ru.astrainteractive.astralibs:command@3.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ru/astrainteractive/astralibs/command.svg\" alt=\"ru.astrainteractive.astralibs:command 3.43.0 发布, Core utilities for spigot development\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ru/astrainteractive/astralibs/command/3.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/command\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ru.astrainteractive.astralibs/command/3.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ru.astrainteractive.astralibs&lt;/groupId&gt;\n        &lt;artifactId&gt;command&lt;/artifactId&gt;\n        &lt;version&gt;3.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ru.astrainteractive.astralibs:command 3.43.0 发布, Core utilities for spigot development",
-      "summary": "ru.astrainteractive.astralibs:command 3.43.0 发布, Core utilities for spigot development",
-      "date_published": "2026-08-09T09:48:19Z",
-      "date_modified": "2026-08-09T10:27:28Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Makeev Roman"
-        }
-      ],
-      "tags": [
-        "command"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ru.astrainteractive.astralibs/core@3.43.0",
-      "url": "https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core",
-      "title": "ru.astrainteractive.astralibs:core 3.43.0 发布, Core utilities for spigot development",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ru.astrainteractive.astralibs:core@3.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ru/astrainteractive/astralibs/core.svg\" alt=\"ru.astrainteractive.astralibs:core 3.43.0 发布, Core utilities for spigot development\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ru/astrainteractive/astralibs/core/3.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ru.astrainteractive.astralibs/core/3.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ru.astrainteractive.astralibs&lt;/groupId&gt;\n        &lt;artifactId&gt;core&lt;/artifactId&gt;\n        &lt;version&gt;3.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ru.astrainteractive.astralibs:core 3.43.0 发布, Core utilities for spigot development",
-      "summary": "ru.astrainteractive.astralibs:core 3.43.0 发布, Core utilities for spigot development",
-      "date_published": "2026-08-09T09:48:19Z",
-      "date_modified": "2026-08-09T10:27:25Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Makeev Roman"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ru.astrainteractive.astralibs/core-minecraft@3.43.0",
-      "url": "https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core-minecraft",
-      "title": "ru.astrainteractive.astralibs:core-minecraft 3.43.0 发布, Core utilities for spigot development",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ru.astrainteractive.astralibs:core-minecraft@3.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ru/astrainteractive/astralibs/core-minecraft.svg\" alt=\"ru.astrainteractive.astralibs:core-minecraft 3.43.0 发布, Core utilities for spigot development\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ru/astrainteractive/astralibs/core-minecraft/3.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core-minecraft\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ru.astrainteractive.astralibs/core-minecraft/3.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ru.astrainteractive.astralibs&lt;/groupId&gt;\n        &lt;artifactId&gt;core-minecraft&lt;/artifactId&gt;\n        &lt;version&gt;3.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ru.astrainteractive.astralibs:core-minecraft 3.43.0 发布, Core utilities for spigot development",
-      "summary": "ru.astrainteractive.astralibs:core-minecraft 3.43.0 发布, Core utilities for spigot development",
-      "date_published": "2026-08-09T09:48:19Z",
-      "date_modified": "2026-08-09T10:27:25Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Makeev Roman"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ru.astrainteractive.astralibs/command-bukkit@3.43.0",
-      "url": "https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/command-bukkit",
-      "title": "ru.astrainteractive.astralibs:command-bukkit 3.43.0 发布, Core utilities for spigot development",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ru.astrainteractive.astralibs:command-bukkit@3.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ru/astrainteractive/astralibs/command-bukkit.svg\" alt=\"ru.astrainteractive.astralibs:command-bukkit 3.43.0 发布, Core utilities for spigot development\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ru/astrainteractive/astralibs/command-bukkit/3.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/command-bukkit\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ru.astrainteractive.astralibs/command-bukkit/3.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ru.astrainteractive.astralibs&lt;/groupId&gt;\n        &lt;artifactId&gt;command-bukkit&lt;/artifactId&gt;\n        &lt;version&gt;3.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ru.astrainteractive.astralibs:command-bukkit 3.43.0 发布, Core utilities for spigot development",
-      "summary": "ru.astrainteractive.astralibs:command-bukkit 3.43.0 发布, Core utilities for spigot development",
-      "date_published": "2026-08-09T09:48:19Z",
-      "date_modified": "2026-08-09T10:27:28Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Makeev Roman"
-        }
-      ],
-      "tags": [
-        "bukkit",
-        "command"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ru.astrainteractive.astralibs/core-neoforge@3.43.0",
-      "url": "https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core-neoforge",
-      "title": "ru.astrainteractive.astralibs:core-neoforge 3.43.0 发布, Core utilities for spigot development",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ru.astrainteractive.astralibs:core-neoforge@3.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ru/astrainteractive/astralibs/core-neoforge.svg\" alt=\"ru.astrainteractive.astralibs:core-neoforge 3.43.0 发布, Core utilities for spigot development\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ru/astrainteractive/astralibs/core-neoforge/3.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core-neoforge\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ru.astrainteractive.astralibs/core-neoforge/3.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ru.astrainteractive.astralibs&lt;/groupId&gt;\n        &lt;artifactId&gt;core-neoforge&lt;/artifactId&gt;\n        &lt;version&gt;3.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ru.astrainteractive.astralibs:core-neoforge 3.43.0 发布, Core utilities for spigot development",
-      "summary": "ru.astrainteractive.astralibs:core-neoforge 3.43.0 发布, Core utilities for spigot development",
-      "date_published": "2026-08-09T09:48:19Z",
-      "date_modified": "2026-08-09T10:27:25Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Makeev Roman"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ru.astrainteractive.astralibs/core-forge@3.43.0",
-      "url": "https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core-forge",
-      "title": "ru.astrainteractive.astralibs:core-forge 3.43.0 发布, Core utilities for spigot development",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ru.astrainteractive.astralibs:core-forge@3.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ru/astrainteractive/astralibs/core-forge.svg\" alt=\"ru.astrainteractive.astralibs:core-forge 3.43.0 发布, Core utilities for spigot development\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ru/astrainteractive/astralibs/core-forge/3.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core-forge\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ru.astrainteractive.astralibs/core-forge/3.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ru.astrainteractive.astralibs&lt;/groupId&gt;\n        &lt;artifactId&gt;core-forge&lt;/artifactId&gt;\n        &lt;version&gt;3.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ru.astrainteractive.astralibs:core-forge 3.43.0 发布, Core utilities for spigot development",
-      "summary": "ru.astrainteractive.astralibs:core-forge 3.43.0 发布, Core utilities for spigot development",
-      "date_published": "2026-08-09T09:48:19Z",
-      "date_modified": "2026-08-09T10:27:29Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Makeev Roman"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ru.astrainteractive.astralibs/menu-bukkit@3.43.0",
-      "url": "https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/menu-bukkit",
-      "title": "ru.astrainteractive.astralibs:menu-bukkit 3.43.0 发布, Core utilities for spigot development",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ru.astrainteractive.astralibs:menu-bukkit@3.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ru/astrainteractive/astralibs/menu-bukkit.svg\" alt=\"ru.astrainteractive.astralibs:menu-bukkit 3.43.0 发布, Core utilities for spigot development\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ru/astrainteractive/astralibs/menu-bukkit/3.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/menu-bukkit\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ru.astrainteractive.astralibs/menu-bukkit/3.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ru.astrainteractive.astralibs&lt;/groupId&gt;\n        &lt;artifactId&gt;menu-bukkit&lt;/artifactId&gt;\n        &lt;version&gt;3.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ru.astrainteractive.astralibs:menu-bukkit 3.43.0 发布, Core utilities for spigot development",
-      "summary": "ru.astrainteractive.astralibs:menu-bukkit 3.43.0 发布, Core utilities for spigot development",
-      "date_published": "2026-08-09T09:48:19Z",
-      "date_modified": "2026-08-09T10:27:28Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Makeev Roman"
-        }
-      ],
-      "tags": [
-        "menu",
-        "bukkit"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ru.astrainteractive.astralibs/core-bukkit@3.43.0",
-      "url": "https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core-bukkit",
-      "title": "ru.astrainteractive.astralibs:core-bukkit 3.43.0 发布, Core utilities for spigot development",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ru.astrainteractive.astralibs:core-bukkit@3.43.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ru/astrainteractive/astralibs/core-bukkit.svg\" alt=\"ru.astrainteractive.astralibs:core-bukkit 3.43.0 发布, Core utilities for spigot development\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ru/astrainteractive/astralibs/core-bukkit/3.43.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ru.astrainteractive.astralibs/core-bukkit\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ru.astrainteractive.astralibs/core-bukkit/3.43.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/Astra-Interactive/AstraLibs\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ru.astrainteractive.astralibs&lt;/groupId&gt;\n        &lt;artifactId&gt;core-bukkit&lt;/artifactId&gt;\n        &lt;version&gt;3.43.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ru.astrainteractive.astralibs:core-bukkit 3.43.0 发布, Core utilities for spigot development",
-      "summary": "ru.astrainteractive.astralibs:core-bukkit 3.43.0 发布, Core utilities for spigot development",
-      "date_published": "2026-08-09T09:48:19Z",
-      "date_modified": "2026-08-09T10:27:26Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Makeev Roman"
-        }
-      ],
-      "tags": [
-        "bukkit"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/ai.monetrix/monetrix-ads@1.3.0.0",
-      "url": "https://central.sonatype.com/artifact/ai.monetrix/monetrix-ads",
-      "title": "ai.monetrix:monetrix-ads 1.3.0.0 发布, Monetrix Android Advertising SDK",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"ai.monetrix:monetrix-ads@1.3.0.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/ai/monetrix/monetrix-ads.svg\" alt=\"ai.monetrix:monetrix-ads 1.3.0.0 发布, Monetrix Android Advertising SDK\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/ai/monetrix/monetrix-ads/1.3.0.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/ai.monetrix/monetrix-ads\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/ai.monetrix/monetrix-ads/1.3.0.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/monetrix-ai/monetrix-ads\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/monetrix-ai/monetrix-ads\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/monetrix-ai/monetrix-ads\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;ai.monetrix&lt;/groupId&gt;\n        &lt;artifactId&gt;monetrix-ads&lt;/artifactId&gt;\n        &lt;version&gt;1.3.0.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "ai.monetrix:monetrix-ads 1.3.0.0 发布, Monetrix Android Advertising SDK",
-      "summary": "ai.monetrix:monetrix-ads 1.3.0.0 发布, Monetrix Android Advertising SDK",
-      "date_published": "2026-08-09T09:47:49Z",
-      "date_modified": "2026-08-09T10:01:45Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Monetrix Team"
-        }
-      ],
-      "tags": [
-        "ai",
-        "ads"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/io.github.aau-iq/babylai-android-sdk@1.1.20",
-      "url": "https://central.sonatype.com/artifact/io.github.aau-iq/babylai-android-sdk",
-      "title": "io.github.aau-iq:babylai-android-sdk 1.1.20 发布, Android SDK for BabylAI - AI-powered chat integration with support for multiple themes and languages",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"io.github.aau-iq:babylai-android-sdk@1.1.20\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/io/github/aau-iq/babylai-android-sdk.svg\" alt=\"io.github.aau-iq:babylai-android-sdk 1.1.20 发布, Android SDK for BabylAI - AI-powered chat integration with support for multiple themes and languages\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/io/github/aau-iq/babylai-android-sdk/1.1.20/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/io.github.aau-iq/babylai-android-sdk\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/io.github.aau-iq/babylai-android-sdk/1.1.20\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/AAU-IQ/BabylAI-Android\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/AAU-IQ/BabylAI-Android\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/AAU-IQ/BabylAI-Android\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;io.github.aau-iq&lt;/groupId&gt;\n        &lt;artifactId&gt;babylai-android-sdk&lt;/artifactId&gt;\n        &lt;version&gt;1.1.20&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "io.github.aau-iq:babylai-android-sdk 1.1.20 发布, Android SDK for BabylAI - AI-powered chat integration with support for multiple themes and languages",
-      "summary": "io.github.aau-iq:babylai-android-sdk 1.1.20 发布, Android SDK for BabylAI - AI-powered chat integration with support for multiple themes and languages",
-      "date_published": "2026-08-09T09:47:42Z",
-      "date_modified": "2026-08-09T10:01:45Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "BabylAI Team"
-        }
-      ],
-      "tags": [
-        "github",
-        "sdk",
-        "aar",
-        "mobile",
-        "android"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/net.vplaygames/maven-deploy@1.0.7",
-      "url": "https://central.sonatype.com/artifact/net.vplaygames/maven-deploy",
-      "title": "net.vplaygames:maven-deploy 1.0.7 发布, Parent POM for all my projects needing to be deployed on Maven Central",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"net.vplaygames:maven-deploy@1.0.7\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/net/vplaygames/maven-deploy.svg\" alt=\"net.vplaygames:maven-deploy 1.0.7 发布, Parent POM for all my projects needing to be deployed on Maven Central\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/net/vplaygames/maven-deploy/1.0.7/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/net.vplaygames/maven-deploy\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/net.vplaygames/maven-deploy/1.0.7\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/V-Play-Games/maven-deploy\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/V-Play-Games/maven-deploy\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;net.vplaygames&lt;/groupId&gt;\n        &lt;artifactId&gt;maven-deploy&lt;/artifactId&gt;\n        &lt;version&gt;1.0.7&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "net.vplaygames:maven-deploy 1.0.7 发布, Parent POM for all my projects needing to be deployed on Maven Central",
-      "summary": "net.vplaygames:maven-deploy 1.0.7 发布, Parent POM for all my projects needing to be deployed on Maven Central",
-      "date_published": "2026-08-09T09:46:34Z",
-      "date_modified": "2026-08-09T10:01:45Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Vaibhav Nargwani"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/jp.ecuacion.splib/ecuacion-splib-web-markdown@5.0.0-beta.11",
-      "url": "https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-web-markdown",
-      "title": "jp.ecuacion.splib:ecuacion-splib-web-markdown 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"jp.ecuacion.splib:ecuacion-splib-web-markdown@5.0.0-beta.11\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/jp/ecuacion/splib/ecuacion-splib-web-markdown.svg\" alt=\"jp.ecuacion.splib:ecuacion-splib-web-markdown 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/jp/ecuacion/splib/ecuacion-splib-web-markdown/5.0.0-beta.11/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-web-markdown\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/jp.ecuacion.splib/ecuacion-splib-web-markdown/5.0.0-beta.11\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-web-markdown\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-web-markdown\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;jp.ecuacion.splib&lt;/groupId&gt;\n        &lt;artifactId&gt;ecuacion-splib-web-markdown&lt;/artifactId&gt;\n        &lt;version&gt;5.0.0-beta.11&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "jp.ecuacion.splib:ecuacion-splib-web-markdown 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "summary": "jp.ecuacion.splib:ecuacion-splib-web-markdown 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "date_published": "2026-08-09T09:45:56Z",
-      "date_modified": "2026-08-09T10:01:44Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ecuacion.jp"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/jp.ecuacion.splib/ecuacion-splib-dependencies@5.0.0-beta.11",
-      "url": "https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-dependencies",
-      "title": "jp.ecuacion.splib:ecuacion-splib-dependencies 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"jp.ecuacion.splib:ecuacion-splib-dependencies@5.0.0-beta.11\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/jp/ecuacion/splib/ecuacion-splib-dependencies.svg\" alt=\"jp.ecuacion.splib:ecuacion-splib-dependencies 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/jp/ecuacion/splib/ecuacion-splib-dependencies/5.0.0-beta.11/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-dependencies\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/jp.ecuacion.splib/ecuacion-splib-dependencies/5.0.0-beta.11\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-lib/ecuacion-lib-dependencies/ecuacion-splib-dependencies\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-lib/ecuacion-lib-dependencies/ecuacion-splib-dependencies\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;jp.ecuacion.splib&lt;/groupId&gt;\n        &lt;artifactId&gt;ecuacion-splib-dependencies&lt;/artifactId&gt;\n        &lt;version&gt;5.0.0-beta.11&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "jp.ecuacion.splib:ecuacion-splib-dependencies 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "summary": "jp.ecuacion.splib:ecuacion-splib-dependencies 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "date_published": "2026-08-09T09:45:56Z",
-      "date_modified": "2026-08-09T09:57:26Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ecuacion.jp"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/jp.ecuacion.splib/ecuacion-splib-core@5.0.0-beta.11",
-      "url": "https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-core",
-      "title": "jp.ecuacion.splib:ecuacion-splib-core 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"jp.ecuacion.splib:ecuacion-splib-core@5.0.0-beta.11\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/jp/ecuacion/splib/ecuacion-splib-core.svg\" alt=\"jp.ecuacion.splib:ecuacion-splib-core 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/jp/ecuacion/splib/ecuacion-splib-core/5.0.0-beta.11/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-core\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/jp.ecuacion.splib/ecuacion-splib-core/5.0.0-beta.11\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-core\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-core\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;jp.ecuacion.splib&lt;/groupId&gt;\n        &lt;artifactId&gt;ecuacion-splib-core&lt;/artifactId&gt;\n        &lt;version&gt;5.0.0-beta.11&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "jp.ecuacion.splib:ecuacion-splib-core 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "summary": "jp.ecuacion.splib:ecuacion-splib-core 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "date_published": "2026-08-09T09:45:56Z",
-      "date_modified": "2026-08-09T09:57:32Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ecuacion.jp"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/jp.ecuacion.splib/ecuacion-splib-jpa@5.0.0-beta.11",
-      "url": "https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-jpa",
-      "title": "jp.ecuacion.splib:ecuacion-splib-jpa 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"jp.ecuacion.splib:ecuacion-splib-jpa@5.0.0-beta.11\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/jp/ecuacion/splib/ecuacion-splib-jpa.svg\" alt=\"jp.ecuacion.splib:ecuacion-splib-jpa 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/jp/ecuacion/splib/ecuacion-splib-jpa/5.0.0-beta.11/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-jpa\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/jp.ecuacion.splib/ecuacion-splib-jpa/5.0.0-beta.11\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-jpa\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-jpa\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;jp.ecuacion.splib&lt;/groupId&gt;\n        &lt;artifactId&gt;ecuacion-splib-jpa&lt;/artifactId&gt;\n        &lt;version&gt;5.0.0-beta.11&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "jp.ecuacion.splib:ecuacion-splib-jpa 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "summary": "jp.ecuacion.splib:ecuacion-splib-jpa 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "date_published": "2026-08-09T09:45:56Z",
-      "date_modified": "2026-08-09T09:57:27Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ecuacion.jp"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/jp.ecuacion.splib/ecuacion-splib-batch@5.0.0-beta.11",
-      "url": "https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-batch",
-      "title": "jp.ecuacion.splib:ecuacion-splib-batch 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"jp.ecuacion.splib:ecuacion-splib-batch@5.0.0-beta.11\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/jp/ecuacion/splib/ecuacion-splib-batch.svg\" alt=\"jp.ecuacion.splib:ecuacion-splib-batch 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/jp/ecuacion/splib/ecuacion-splib-batch/5.0.0-beta.11/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-batch\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/jp.ecuacion.splib/ecuacion-splib-batch/5.0.0-beta.11\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-batch\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-batch\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;jp.ecuacion.splib&lt;/groupId&gt;\n        &lt;artifactId&gt;ecuacion-splib-batch&lt;/artifactId&gt;\n        &lt;version&gt;5.0.0-beta.11&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "jp.ecuacion.splib:ecuacion-splib-batch 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "summary": "jp.ecuacion.splib:ecuacion-splib-batch 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "date_published": "2026-08-09T09:45:56Z",
-      "date_modified": "2026-08-09T09:57:32Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ecuacion.jp"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/jp.ecuacion.splib/ecuacion-splib-web@5.0.0-beta.11",
-      "url": "https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-web",
-      "title": "jp.ecuacion.splib:ecuacion-splib-web 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"jp.ecuacion.splib:ecuacion-splib-web@5.0.0-beta.11\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/jp/ecuacion/splib/ecuacion-splib-web.svg\" alt=\"jp.ecuacion.splib:ecuacion-splib-web 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/jp/ecuacion/splib/ecuacion-splib-web/5.0.0-beta.11/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-web\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/jp.ecuacion.splib/ecuacion-splib-web/5.0.0-beta.11\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-web\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-web\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;jp.ecuacion.splib&lt;/groupId&gt;\n        &lt;artifactId&gt;ecuacion-splib-web&lt;/artifactId&gt;\n        &lt;version&gt;5.0.0-beta.11&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "jp.ecuacion.splib:ecuacion-splib-web 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "summary": "jp.ecuacion.splib:ecuacion-splib-web 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "date_published": "2026-08-09T09:45:56Z",
-      "date_modified": "2026-08-09T09:57:29Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ecuacion.jp"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/jp.ecuacion.splib/ecuacion-splib-rest@5.0.0-beta.11",
-      "url": "https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-rest",
-      "title": "jp.ecuacion.splib:ecuacion-splib-rest 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"jp.ecuacion.splib:ecuacion-splib-rest@5.0.0-beta.11\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/jp/ecuacion/splib/ecuacion-splib-rest.svg\" alt=\"jp.ecuacion.splib:ecuacion-splib-rest 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/jp/ecuacion/splib/ecuacion-splib-rest/5.0.0-beta.11/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-rest\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/jp.ecuacion.splib/ecuacion-splib-rest/5.0.0-beta.11\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-rest\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-rest\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;jp.ecuacion.splib&lt;/groupId&gt;\n        &lt;artifactId&gt;ecuacion-splib-rest&lt;/artifactId&gt;\n        &lt;version&gt;5.0.0-beta.11&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "jp.ecuacion.splib:ecuacion-splib-rest 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "summary": "jp.ecuacion.splib:ecuacion-splib-rest 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "date_published": "2026-08-09T09:45:56Z",
-      "date_modified": "2026-08-09T09:57:27Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ecuacion.jp"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/jp.ecuacion.splib/ecuacion-splib-web-jpa@5.0.0-beta.11",
-      "url": "https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-web-jpa",
-      "title": "jp.ecuacion.splib:ecuacion-splib-web-jpa 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"jp.ecuacion.splib:ecuacion-splib-web-jpa@5.0.0-beta.11\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/jp/ecuacion/splib/ecuacion-splib-web-jpa.svg\" alt=\"jp.ecuacion.splib:ecuacion-splib-web-jpa 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/jp/ecuacion/splib/ecuacion-splib-web-jpa/5.0.0-beta.11/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-web-jpa\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/jp.ecuacion.splib/ecuacion-splib-web-jpa/5.0.0-beta.11\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-web-jpa\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib/ecuacion-splib-web-jpa\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;jp.ecuacion.splib&lt;/groupId&gt;\n        &lt;artifactId&gt;ecuacion-splib-web-jpa&lt;/artifactId&gt;\n        &lt;version&gt;5.0.0-beta.11&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "jp.ecuacion.splib:ecuacion-splib-web-jpa 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "summary": "jp.ecuacion.splib:ecuacion-splib-web-jpa 5.0.0-beta.11 发布, Jakarta Validation extension library providing conditional validators, multi-field validators, and business-friendly validation messages.",
-      "date_published": "2026-08-09T09:45:56Z",
-      "date_modified": "2026-08-09T09:57:28Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ecuacion.jp"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/jp.ecuacion.splib/ecuacion-splib-parent@5.0.0-beta.11",
-      "url": "https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-parent",
-      "title": "jp.ecuacion.splib:ecuacion-splib-parent 5.0.0-beta.11 发布, Spring Boot 4 based shared libraries for business application development.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"jp.ecuacion.splib:ecuacion-splib-parent@5.0.0-beta.11\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/jp/ecuacion/splib/ecuacion-splib-parent.svg\" alt=\"jp.ecuacion.splib:ecuacion-splib-parent 5.0.0-beta.11 发布, Spring Boot 4 based shared libraries for business application development.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/jp/ecuacion/splib/ecuacion-splib-parent/5.0.0-beta.11/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/jp.ecuacion.splib/ecuacion-splib-parent\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/jp.ecuacion.splib/ecuacion-splib-parent/5.0.0-beta.11\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/ecuacion-jp/ecuacion-splib\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;jp.ecuacion.splib&lt;/groupId&gt;\n        &lt;artifactId&gt;ecuacion-splib-parent&lt;/artifactId&gt;\n        &lt;version&gt;5.0.0-beta.11&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "jp.ecuacion.splib:ecuacion-splib-parent 5.0.0-beta.11 发布, Spring Boot 4 based shared libraries for business application development.",
-      "summary": "jp.ecuacion.splib:ecuacion-splib-parent 5.0.0-beta.11 发布, Spring Boot 4 based shared libraries for business application development.",
-      "date_published": "2026-08-09T09:45:56Z",
-      "date_modified": "2026-08-09T09:57:31Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "ecuacion.jp"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/org.mvnpm.at.tanstack/react-table@9.1.2",
-      "url": "https://central.sonatype.com/artifact/org.mvnpm.at.tanstack/react-table",
-      "title": "org.mvnpm.at.tanstack:react-table 9.1.2 发布, Headless UI for building powerful tables & datagrids for React.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"org.mvnpm.at.tanstack:react-table@9.1.2\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/org/mvnpm/at/tanstack/react-table.svg\" alt=\"org.mvnpm.at.tanstack:react-table 9.1.2 发布, Headless UI for building powerful tables & datagrids for React.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/org/mvnpm/at/tanstack/react-table/9.1.2/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/org.mvnpm.at.tanstack/react-table\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/org.mvnpm.at.tanstack/react-table/9.1.2\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://tanstack.com/table\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/TanStack/table\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;org.mvnpm.at.tanstack&lt;/groupId&gt;\n        &lt;artifactId&gt;react-table&lt;/artifactId&gt;\n        &lt;version&gt;9.1.2&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "org.mvnpm.at.tanstack:react-table 9.1.2 发布, Headless UI for building powerful tables & datagrids for React.",
-      "summary": "org.mvnpm.at.tanstack:react-table 9.1.2 发布, Headless UI for building powerful tables & datagrids for React.",
-      "date_published": "2026-08-09T09:42:38Z",
-      "date_modified": "2026-08-09T09:57:31Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "kevinvandy"
-        },
-        {
-          "name": "tannerlinsley"
-        },
-        {
-          "name": "alemtuzlak"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.erudika/para-dao-sql@1.51.0",
-      "url": "https://central.sonatype.com/artifact/com.erudika/para-dao-sql",
-      "title": "com.erudika:para-dao-sql 1.51.0 发布, A plugin for Para which enables generic support of SQL databases.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.erudika:para-dao-sql@1.51.0\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/erudika/para-dao-sql.svg\" alt=\"com.erudika:para-dao-sql 1.51.0 发布, A plugin for Para which enables generic support of SQL databases.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/erudika/para-dao-sql/1.51.0/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.erudika/para-dao-sql\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.erudika/para-dao-sql/1.51.0\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://paraio.org\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/erudika/para-dao-sql\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://paraio.org\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.erudika&lt;/groupId&gt;\n        &lt;artifactId&gt;para-dao-sql&lt;/artifactId&gt;\n        &lt;version&gt;1.51.0&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.erudika:para-dao-sql 1.51.0 发布, A plugin for Para which enables generic support of SQL databases.",
-      "summary": "com.erudika:para-dao-sql 1.51.0 发布, A plugin for Para which enables generic support of SQL databases.",
-      "date_published": "2026-08-09T09:41:48Z",
-      "date_modified": "2026-08-09T09:57:33Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Alex Bogdanovski"
-        },
-        {
-          "name": "Jeremy Wiesner"
-        }
-      ],
-      "tags": [
-        "sql",
-        "dao"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.infotel.seleniumRobot/seleniumRobot-linux-driver@5.1.55",
-      "url": "https://central.sonatype.com/artifact/com.infotel.seleniumRobot/seleniumRobot-linux-driver",
-      "title": "com.infotel.seleniumRobot:seleniumRobot-linux-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.infotel.seleniumRobot:seleniumRobot-linux-driver@5.1.55\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/infotel/seleniumRobot/seleniumRobot-linux-driver.svg\" alt=\"com.infotel.seleniumRobot:seleniumRobot-linux-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/infotel/seleniumRobot/seleniumRobot-linux-driver/5.1.55/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.infotel.seleniumRobot/seleniumRobot-linux-driver\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.infotel.seleniumRobot/seleniumRobot-linux-driver/5.1.55\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/bhecquet/seleniumRobot-drivers/seleniumRobot-linux-driver\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:bhecquet/seleniumRobot-drivers.git/seleniumRobot-linux-driver\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.infotel.seleniumRobot&lt;/groupId&gt;\n        &lt;artifactId&gt;seleniumRobot-linux-driver&lt;/artifactId&gt;\n        &lt;version&gt;5.1.55&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.infotel.seleniumRobot:seleniumRobot-linux-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "summary": "com.infotel.seleniumRobot:seleniumRobot-linux-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "date_published": "2026-08-09T09:41:13Z",
-      "date_modified": "2026-08-09T09:57:28Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Bertrand Hecquet"
-        }
-      ],
-      "tags": [
-        "unix",
-        "driver",
-        "linux"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.infotel.seleniumRobot/seleniumRobot-windows-driver@5.1.55",
-      "url": "https://central.sonatype.com/artifact/com.infotel.seleniumRobot/seleniumRobot-windows-driver",
-      "title": "com.infotel.seleniumRobot:seleniumRobot-windows-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.infotel.seleniumRobot:seleniumRobot-windows-driver@5.1.55\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/infotel/seleniumRobot/seleniumRobot-windows-driver.svg\" alt=\"com.infotel.seleniumRobot:seleniumRobot-windows-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/infotel/seleniumRobot/seleniumRobot-windows-driver/5.1.55/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.infotel.seleniumRobot/seleniumRobot-windows-driver\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.infotel.seleniumRobot/seleniumRobot-windows-driver/5.1.55\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/bhecquet/seleniumRobot-drivers/seleniumRobot-windows-driver\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:bhecquet/seleniumRobot-drivers.git/seleniumRobot-windows-driver\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.infotel.seleniumRobot&lt;/groupId&gt;\n        &lt;artifactId&gt;seleniumRobot-windows-driver&lt;/artifactId&gt;\n        &lt;version&gt;5.1.55&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.infotel.seleniumRobot:seleniumRobot-windows-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "summary": "com.infotel.seleniumRobot:seleniumRobot-windows-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "date_published": "2026-08-09T09:41:13Z",
-      "date_modified": "2026-08-09T09:57:28Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Bertrand Hecquet"
-        }
-      ],
-      "tags": [
-        "driver",
-        "windows"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.infotel.seleniumRobot/seleniumRobot-mac-driver@5.1.55",
-      "url": "https://central.sonatype.com/artifact/com.infotel.seleniumRobot/seleniumRobot-mac-driver",
-      "title": "com.infotel.seleniumRobot:seleniumRobot-mac-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.infotel.seleniumRobot:seleniumRobot-mac-driver@5.1.55\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/infotel/seleniumRobot/seleniumRobot-mac-driver.svg\" alt=\"com.infotel.seleniumRobot:seleniumRobot-mac-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/infotel/seleniumRobot/seleniumRobot-mac-driver/5.1.55/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.infotel.seleniumRobot/seleniumRobot-mac-driver\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.infotel.seleniumRobot/seleniumRobot-mac-driver/5.1.55\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/bhecquet/seleniumRobot-drivers/seleniumRobot-mac-driver\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:bhecquet/seleniumRobot-drivers.git/seleniumRobot-mac-driver\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.infotel.seleniumRobot&lt;/groupId&gt;\n        &lt;artifactId&gt;seleniumRobot-mac-driver&lt;/artifactId&gt;\n        &lt;version&gt;5.1.55&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.infotel.seleniumRobot:seleniumRobot-mac-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "summary": "com.infotel.seleniumRobot:seleniumRobot-mac-driver 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "date_published": "2026-08-09T09:41:13Z",
-      "date_modified": "2026-08-09T09:57:27Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Bertrand Hecquet"
-        }
-      ],
-      "tags": [
-        "driver"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/com.infotel.seleniumRobot/seleniumRobot-drivers@5.1.55",
-      "url": "https://central.sonatype.com/artifact/com.infotel.seleniumRobot/seleniumRobot-drivers",
-      "title": "com.infotel.seleniumRobot:seleniumRobot-drivers 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"com.infotel.seleniumRobot:seleniumRobot-drivers@5.1.55\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/com/infotel/seleniumRobot/seleniumRobot-drivers.svg\" alt=\"com.infotel.seleniumRobot:seleniumRobot-drivers 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/com/infotel/seleniumRobot/seleniumRobot-drivers/5.1.55/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/com.infotel.seleniumRobot/seleniumRobot-drivers\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/com.infotel.seleniumRobot/seleniumRobot-drivers/5.1.55\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/bhecquet/seleniumRobot-drivers\"><p><span>项目网址</span></p></a></br>\n          <a href=\"git@github.com:bhecquet/seleniumRobot-drivers.git\"><p><span>仓库地址</span></p></a><br>\n          <a href=\"https://github.com/bhecquet/seleniumRobot-drivers\"><p><span>HomePage</span></p></a></br>\n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;com.infotel.seleniumRobot&lt;/groupId&gt;\n        &lt;artifactId&gt;seleniumRobot-drivers&lt;/artifactId&gt;\n        &lt;version&gt;5.1.55&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "com.infotel.seleniumRobot:seleniumRobot-drivers 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "summary": "com.infotel.seleniumRobot:seleniumRobot-drivers 5.1.55 发布, Drivers which must be deployed with seleniumRobot core or with seleniumRobot grid",
-      "date_published": "2026-08-09T09:41:13Z",
-      "date_modified": "2026-08-09T09:57:33Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "Bertrand Hecquet"
-        }
-      ],
-      "tags": [
-        "driver"
       ],
       "attachments": [
         {
