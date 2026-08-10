@@ -1,0 +1,26 @@
+{
+	"id":"pkg:maven/org.graylog.shaded/lucene9",
+	"description":"Lucene 9 relocated into org.graylog.shaded.lucene9 so that it can coexist with Lucene 10 on the same\n        classpath. Lucene only reads indices of the current and the previous major version, so Lucene 10 alone\n        cannot open Lucene 8 segments (OpenSearch 1.x / Elasticsearch 7.x). The data node uses this artifact to\n        still detect and report such index directories instead of failing with an unspecific error.",
+	"group_id":"org.graylog.shaded",
+	"artifact_id":"lucene9",
+	"version_latest":"9.12.3-1",
+	"ts_publish":1786345618000,
+	"dt_publish":"2026-08-10 15:06:58.000",
+	"ts_update":1786346856392,
+	"dt_update":"2026-08-10 15:27:26.317",
+	"count_dep":0,
+	"count_ref":0,
+	"licenses":[
+		"GNU General Public License (GPL) version 3.0"
+	],
+	"categories":[
+		"Uncategorized"
+	],
+	"dsv":1,
+	"url_project":"http://github.com/Graylog2/graylog-shaded/lucene9",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/org.graylog.shaded:lucene9/9.12.3-1",
+	"contributors":[
+		"Graylog Inc"
+	],
+	"url_scm":"https://github.com/Graylog2/graylog-shaded/lucene9"
+}
