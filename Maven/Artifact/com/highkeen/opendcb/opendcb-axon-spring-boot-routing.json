@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.highkeen.opendcb/opendcb-axon-spring-boot-routing",
+  "description": "Spring Boot auto-configuration wiring Axon's own free JdbcTokenStore\n        against whichever eventstore-* DataSource is active, so\n        PooledStreamingEventProcessor segments can be claimed/rebalanced\n        across multiple JVM instances without Axon Server. Depends only on\n        eventstore-core and integrations/eventstore-axon (never on\n        opendcb-axon-spring-boot-starter or bootstrap-axon-postgres) — the\n        shared event store DataSource, if any, is located by bean name at\n        runtime, not by a compile-time dependency on that module.",
+  "group_id": "com.highkeen.opendcb",
+  "artifact_id": "opendcb-axon-spring-boot-routing",
+  "version_latest": "1.1.0-axon5.1",
+  "ts_publish": 1786460278000,
+  "dt_publish": "2026-08-11 22:57:58.000",
+  "ts_update": 1786463864878,
+  "dt_update": "2026-08-11 23:57:44.878",
+  "count_dep": 43,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.highkeen.opendcb/opendcb-scheduling-core",
+  "description": "OpenDCB's own framework-agnostic abstraction for scheduled/deferred event\n        firing. Not an implementation of any Axon SPI -- none exists, released or\n        otherwise, in any org.axonframework artifact. Firing a scheduled event is\n        just an EventStoreStorage.appendAtomically call, so this module depends\n        only on eventstore-core.",
+  "group_id": "com.highkeen.opendcb",
+  "artifact_id": "opendcb-scheduling-core",
+  "version_latest": "1.1.0",
+  "ts_publish": 1786460278000,
+  "dt_publish": "2026-08-11 22:57:58.000",
+  "ts_update": 1786463864876,
+  "dt_update": "2026-08-11 23:57:44.876",
+  "count_dep": 4,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
