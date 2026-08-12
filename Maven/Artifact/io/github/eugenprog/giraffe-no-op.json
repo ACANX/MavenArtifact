@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.eugenprog/giraffe-no-op",
+  "description": "Drop-in no-op counterpart to io.github.eugenprog:giraffe - same GiraffeInterceptor class and constructor, zero behavior. Wire it in via releaseImplementation (alongside debugImplementation on the real artifact) so the interceptor call site compiles unchanged for both variants, and Giraffe's real dependencies never ship in a release build.",
+  "group_id": "io.github.eugenprog",
+  "artifact_id": "giraffe-no-op",
+  "version_latest": "0.1.0-alpha04",
+  "ts_publish": 1786511968000,
+  "dt_publish": "2026-08-12 13:19:28.000",
+  "ts_update": 1786512450483,
+  "dt_update": "2026-08-12 13:27:30.483",
+  "count_dep": 3,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
