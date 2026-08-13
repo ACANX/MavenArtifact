@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.debezium/debezium-microbenchmark-oracle",
 	"group_id":"io.debezium",
 	"artifact_id":"debezium-microbenchmark-oracle",
-	"version_latest":"3.7.0.Alpha1",
-	"ts_publish":1785406442000,
-	"dt_publish":"2026-07-30 18:14:02.000",
-	"ts_update":1785409068721,
-	"dt_update":"2026-07-30 18:57:26.395",
-	"count_dep":5,
+	"version_latest":"3.7.0.Alpha2",
+	"ts_publish":1786611221000,
+	"dt_publish":"2026-08-13 16:53:41.000",
+	"ts_update":1786613266185,
+	"dt_update":"2026-08-13 17:27:34.381",
+	"count_dep":6,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"Apache Software License 2.0"
+	],
 	"categories":[
 		"Data Management",
 		"Database"
@@ -191,5 +193,6 @@
 			"version":"3.2.0.Beta1",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for all modules and connectors"
 }
