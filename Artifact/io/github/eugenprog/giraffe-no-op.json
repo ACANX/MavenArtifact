@@ -3,12 +3,12 @@
 	"description":"Drop-in no-op counterpart to io.github.eugenprog:giraffe - same GiraffeInterceptor class and constructor, zero behavior. Wire it in via releaseImplementation (alongside debugImplementation on the real artifact) so the interceptor call site compiles unchanged for both variants, and Giraffe's real dependencies never ship in a release build.",
 	"group_id":"io.github.eugenprog",
 	"artifact_id":"giraffe-no-op",
-	"version_latest":"0.1.0-alpha04",
-	"ts_publish":1786511968000,
-	"dt_publish":"2026-08-12 13:19:28.000",
-	"ts_update":1786514256198,
-	"dt_update":"2026-08-12 13:57:23.632",
-	"count_dep":3,
+	"version_latest":"0.1.0-alpha05",
+	"ts_publish":1786622549000,
+	"dt_publish":"2026-08-13 20:02:29.000",
+	"ts_update":1786624133828,
+	"dt_update":"2026-08-13 20:27:24.421",
+	"count_dep":5,
 	"count_ref":0,
 	"licenses":[
 		"The Apache License, Version 2.0"
