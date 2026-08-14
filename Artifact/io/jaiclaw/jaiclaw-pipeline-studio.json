@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.jaiclaw/jaiclaw-pipeline-studio",
+	"description":"React Flow SPA for the Pipeline Studio (Phase 2 of the buildout). Bundled as a jar of static resources under META-INF/resources/studio/ + a small autoconfig that maps unmatched /studio/** requests to index.html so any Spring Boot gateway with this dep + jaiclaw-pipeline-authoring on the classpath serves the SPA at /studio.",
+	"group_id":"io.jaiclaw",
+	"artifact_id":"jaiclaw-pipeline-studio",
+	"version_latest":"1.1.0",
+	"ts_publish":1786666805000,
+	"dt_publish":"2026-08-14 08:20:05.000",
+	"ts_update":1786669056900,
+	"dt_update":"2026-08-14 08:57:25.858",
+	"count_dep":19,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/glawson6/jaiclaw/jaiclaw-apps/jaiclaw-pipeline-studio",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.jaiclaw:jaiclaw-pipeline-studio/1.1.0",
+	"contributors":[
+		"JaiClaw"
+	],
+	"url_scm":"https://github.com/glawson6/jaiclaw/tree/main/jaiclaw-apps/jaiclaw-pipeline-studio"
+}
