@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.codenameone/cn1-retrace",
+  "description": "Zero-dependency symbolication for Codename One app hardening. Parses the\n        ProGuard mapping and the per-build synthetics map, reconstructs original\n        stack frames from an obfuscated crash report across every port, and\n        provides the ParparVM trace-string parser that the on-device\n        Throwable.getStackTrace() implementation mirrors. Consumed both by the\n        cloud crash service and as a standalone retrace CLI so a developer can\n        symbolicate a report without the server.",
+  "group_id": "com.codenameone",
+  "artifact_id": "cn1-retrace",
+  "version_latest": "7.0.266",
+  "ts_publish": 1786700295000,
+  "dt_publish": "2026-08-14 17:38:15.000",
+  "ts_update": 1786701445543,
+  "dt_update": "2026-08-14 17:57:25.543",
+  "count_dep": 1,
+  "count_ref": 0,
+  "licenses": [],
+  "categories": [
+    "Uncategorized"
+  ],
+  "dsv": 1
+}
