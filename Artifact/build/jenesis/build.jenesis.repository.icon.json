@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/build.jenesis/build.jenesis.repository.icon",
+	"description":"It carries three types and no marks of its\nown:\n{@link build.jenesis.repository.icon.IconContributor} - the interface a family's SPI <em>extends</em> so its\nimplementations may declare a mark, together with the identity the console attributes one to;\n{@link build.jenesis.repository.icon.IconResource} - the mark itself, a self-contained SVG document a contributor\nembeds in its own module; and {@link build.jenesis.repository.icon.Marks} / {@link build.jenesis.repository.icon.Mark} - the resolution helper that turns a contributor (or a bare recorded name)\ninto the inline document a console renders, with the neutral fallback and the deterministic generated-from-name\nscheme held once here.\n\n<p><strong>Why a module of its own.</strong> Two unrelated families contribute marks - repository formats\n({@code RepositoryFormat}, which extends {@link build.jenesis.repository.icon.IconContributor}) and the plug-ins\nthat contribute findings (advisory feeds, inspectors, gate policies, classifiers, scan markers). Neither may\ndepend on the other, and a console that resolved each family through its own copy of the fallback, the rendering\nrule and the generated scheme would be the parallel mechanism the shared-infrastructure rule (&sect;2) exists to\nrefuse: the second family would arrive not with a different scheme but with a second one. The seam therefore sits\nbelow both, is {@code java.base}-only, and is registry-free - it discovers nothing, so it never becomes a second\ndiscovery pipeline beside the family clauses that already find these implementations.\n\n<p><strong>The core stays mark-agnostic.</strong> A brand mark lives in the module that contributes it, with its\nsource and licence recorded next to that module. The only documents this module holds are the two that belong to\nno contributor: the <em>neutral</em> fallback rendered where nothing markable was identified at all, and the\n<em>generated</em> mark derived from a contributor's own name, whose provenance is recorded in this module's\n{@code ICONS.md}.",
+	"group_id":"build.jenesis",
+	"artifact_id":"build.jenesis.repository.icon",
+	"version_latest":"0.6.0",
+	"ts_publish":1786689626000,
+	"dt_publish":"2026-08-14 14:40:26.000",
+	"ts_update":1786690655442,
+	"dt_update":"2026-08-14 14:57:25.587",
+	"count_dep":0,
+	"count_ref":18,
+	"licenses":[
+		"Apache-2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/raphw/jenesis-repository",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/build.jenesis:build.jenesis.repository.icon/0.6.0",
+	"contributors":[
+		"Rafael Winterhalter"
+	],
+	"url_scm":"https://github.com/raphw/jenesis-repository"
+}

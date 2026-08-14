@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/build.jenesis/build.jenesis.repository.posture",
-	"description":"A module implements\n{@link build.jenesis.repository.posture.SafetyAdvisor} through the same optional-method pattern the observation seam\nuses, is discovered with {@link java.util.ServiceLoader}, and is handed the effective\n{@link build.jenesis.repository.posture.Configuration}; a <em>disabled or absent</em> module contributes nothing, so\nthe console never advises about something that is not running.\n\n<p>This is deliberately <strong>not</strong> the {@code capabilities.advisories()} seam (which reports CVE /\nvulnerability advisories about published artifacts) - it reports the deployment's own configuration posture. The\nmodule is registry-free and {@code java.base}-only, so every format / compliance / storage / maintenance SPI can\n{@code requires} it without dragging in Spring; the distribution collects the sources into one\n{@link build.jenesis.repository.posture.PostureReport}, logs the deployment-wide advisories once at boot and surfaces\nthe same list on the console and an admin API - one source of truth, many consumers. Core owns only the\ndeployment-cross-cutting advisories ({@link build.jenesis.repository.posture.SecurityPosture}); a feature owns its\nown.",
+	"description":"A module implements\n{@link build.jenesis.repository.posture.SafetyAdvisor} through the same optional-method pattern the observation seam\nuses, is discovered with {@link java.util.ServiceLoader}, and is handed the effective\n{@link build.jenesis.repository.posture.Configuration}; a <em>disabled or absent</em> module contributes nothing, so\nthe console never advises about something that is not running.\n\n<p>This is deliberately <strong>not</strong> the {@code capabilities.advisories()} seam (which reports CVE /\nvulnerability advisories about published artifacts) - it reports the deployment's own configuration posture. The\nmodule is registry-free and {@code java.base}-only (its single {@code requires} is the equally {@code java.base}-only\nobservation module, for the shared {@code Contributions} containment every collected report uses), so every format /\ncompliance / storage / maintenance SPI can {@code requires} it without dragging in Spring; the distribution collects\nthe sources into one\n{@link build.jenesis.repository.posture.PostureReport}, logs the deployment-wide advisories once at boot and surfaces\nthe same list on the console and an admin API - one source of truth, many consumers. Core owns only the\ndeployment-cross-cutting advisories ({@link build.jenesis.repository.posture.SecurityPosture}); a feature owns its\nown.",
 	"group_id":"build.jenesis",
 	"artifact_id":"build.jenesis.repository.posture",
-	"version_latest":"0.5.0",
-	"ts_publish":1786024011000,
-	"dt_publish":"2026-08-06 21:46:51.000",
-	"ts_update":1786024654333,
-	"dt_update":"2026-08-06 21:57:24.001",
-	"count_dep":0,
+	"version_latest":"0.6.0",
+	"ts_publish":1786689626000,
+	"dt_publish":"2026-08-14 14:40:26.000",
+	"ts_update":1786690655407,
+	"dt_update":"2026-08-14 14:57:25.590",
+	"count_dep":1,
 	"count_ref":3,
 	"licenses":[
 		"Apache-2.0"

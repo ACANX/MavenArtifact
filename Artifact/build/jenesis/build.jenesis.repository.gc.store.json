@@ -3,12 +3,12 @@
 	"description":"Sharded mark: references land as\nappend-only batch objects {@code gc/<pass>/refs/<hh>/...}, flushed before every walk checkpoint so no committed\ncursor ever lies about an unflushed reference; sweep memory is one leading-byte shard at a time, O(N/256), never\nan O(N) set. Condemn-then-collect: an unreferenced blob is first condemned ({@code gc/condemned/<hash>}, the\nmarker is the clock) and deleted only when a <em>later</em> pass confirms it still unreferenced - at least one\nfull collection interval of grace - with the marker re-read immediately before deletion and cleared on the write\npath by every pointer link, so a referenced, re-linked or in-flight blob is never deleted. Settings:\n{@code jenesis.gc.stride} (checkpoint stride of the collector's walk passes, default 20000).",
 	"group_id":"build.jenesis",
 	"artifact_id":"build.jenesis.repository.gc.store",
-	"version_latest":"0.5.0",
-	"ts_publish":1786024011000,
-	"dt_publish":"2026-08-06 21:46:51.000",
-	"ts_update":1786026455752,
-	"dt_update":"2026-08-06 22:27:23.843",
-	"count_dep":5,
+	"version_latest":"0.6.0",
+	"ts_publish":1786689627000,
+	"dt_publish":"2026-08-14 14:40:27.000",
+	"ts_update":1786690660306,
+	"dt_update":"2026-08-14 14:57:25.587",
+	"count_dep":7,
 	"count_ref":0,
 	"licenses":[
 		"Apache-2.0"

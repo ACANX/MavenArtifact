@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/build.jenesis/build.jenesis.repository.format.testkit",
+	"description":"<p>{@code FormatContract} states each documented clause once - publish serves the exact bytes, a {@code HEAD} is\nanswered from metadata without opening the blob, the shared traversal probe vectors are refused at both the request\nseam and the coordinate seam, a withheld version leaves every enumeration surface, a proxy leg holds an upstream\nbody to the digest its protocol advertises and streams it, and a generated index is stable enough to revalidate -\nand {@code FormatFixture} is how one format supplies the realistic corpus those checks run over. A format is covered\nby writing a fixture, never by copying assertions into another hand-written per-format suite, which is how the four\nfree layouts drifted apart before this kit existed.\n\n<p>The supporting doubles are part of the contract rather than conveniences: {@code WitnessStore} is the store\ndecorator that <em>throws</em> when a blob is opened (so HEAD-from-metadata is proven, not asserted) and that trips\non an artifact-sized buffered write or on a body the format materialised before handing it to the store (so\nstreaming is proven over a {@code GeneratedBody} that never exists as an array); {@code ContractExchange} is the\nin-memory {@code FormatExchange} that also records which response overload a format used and revalidates a buffered\none the way the servlet dispatcher does; {@code TraversalVectors} holds the probe vectors as plain data so every\nformat is probed with the same list rather than each fixture inventing its own.\n\n<p>The module depends only on the format SPI (and through it the store SPI) - no junit, no assertion library, no\nserver - so the enterprise distribution's test modules can require it for their own fixtures exactly as they already\nrequire the store testkit. The classes are test doubles; nothing here provides a service, so the module is inert on\na runtime graph.",
+	"group_id":"build.jenesis",
+	"artifact_id":"build.jenesis.repository.format.testkit",
+	"version_latest":"0.6.0",
+	"ts_publish":1786689626000,
+	"dt_publish":"2026-08-14 14:40:26.000",
+	"ts_update":1786690654583,
+	"dt_update":"2026-08-14 14:57:25.589",
+	"count_dep":5,
+	"count_ref":1,
+	"licenses":[
+		"Apache-2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/raphw/jenesis-repository",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/build.jenesis:build.jenesis.repository.format.testkit/0.6.0",
+	"contributors":[
+		"Rafael Winterhalter"
+	],
+	"url_scm":"https://github.com/raphw/jenesis-repository"
+}

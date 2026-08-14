@@ -1,15 +1,15 @@
 {
   "id": "pkg:maven/build.jenesis/build.jenesis.repository.format",
-  "description": "A format (Maven, OCI, npm, PyPI,\nNuGet) is a separate module that requires only this SPI and the storage SPI and {@code provides\nRepositoryFormat}; the dispatcher discovers them with {@link java.util.ServiceLoader}, so layouts plug in\nwithout the core, the dispatcher or the other formats knowing about them.",
+  "description": "A format (Maven, OCI, npm, PyPI,\nNuGet) is a separate module that requires only this SPI and the storage SPI and {@code provides\nRepositoryFormat}; the dispatcher discovers them with {@link java.util.ServiceLoader}, so layouts plug in\nwithout the core, the dispatcher or the other formats knowing about them. The optional role sub-interfaces a\nneutral consumer detects with {@code instanceof} live here beside it - {@code ArtifactLayout} (coordinate/path\nmapping), {@code ProxyFormat} (pull-through) and {@code BlobReferences} (which content blobs a format still\nserves, the answer garbage collection must never get wrong) - so a format opts into each without a core edit and\none {@code uses RepositoryFormat} clause discovers them all.\n\n<p>{@code RepositoryFormat} additionally <em>extends</em> the family-neutral\n{@link build.jenesis.repository.icon.IconContributor}, which is where its {@code name()} and its optional console\nmark come from - the same interface the plug-ins that contribute findings extend, so both families resolve a mark\nthrough one {@code Marks} rather than through a copy each. The requirement is transitive because a format\ndeclaring a mark needs {@code IconResource} on its own compile path.\n{@link build.jenesis.repository.format.FormatMarks} is this family's half of that: only the mapping from a\nstorage namespace or an ecosystem to the format that owns it, over the shared resolution.",
   "group_id": "build.jenesis",
   "artifact_id": "build.jenesis.repository.format",
-  "version_latest": "0.5.0",
-  "ts_publish": 1786024011000,
-  "dt_publish": "2026-08-06 21:46:51.000",
-  "ts_update": 1786024644611,
-  "dt_update": "2026-08-06 21:57:24.611",
-  "count_dep": 3,
-  "count_ref": 13,
+  "version_latest": "0.6.0",
+  "ts_publish": 1786689626000,
+  "dt_publish": "2026-08-14 14:40:26.000",
+  "ts_update": 1786690646427,
+  "dt_update": "2026-08-14 14:57:26.427",
+  "count_dep": 4,
+  "count_ref": 17,
   "licenses": [
     "Apache-2.0"
   ],

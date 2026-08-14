@@ -1,15 +1,15 @@
 {
   "id": "pkg:maven/build.jenesis/build.jenesis.repository.store",
-  "description": "Its only dependency beyond java.base is the equally minimal, registry-free\n{@code build.jenesis.repository.observation} SPI (so a capped store can report its {@code jenesis.quota.*}\nused-vs-available signals), so a format plugin builds on the store and its {@code Publication} without\npulling in the server. A backend ships as its own module that {@code provides} an {@code ArtifactStoreProvider},\ndiscovered on the module path with {@code ServiceLoader}: the default filesystem backend, plus the optional s3,\ngcs and azure backends when on the graph. The {@code Tenants} directory of the shared\n{@code <tenant>/<repository>/...} layout is discovered the same way ({@code TenantsProvider}); with no module\ninstalled it is the fixed single tenant. A publication carries one discovered hook class, the\n{@code PublicationObserver} after-commit observer (forwarding, webhooks, replication - notified only once an\naccepted artifact serves, contained so it never fails a publish), with the verdict-bearing\n{@code PublishInterceptor} (accept / quarantine / reject before the pointer links, withhold on read) as its\n{@code instanceof}-detected sub-interface: one {@code uses PublicationObserver} clause discovers both, and\n{@code Publication} splits the discovered list to drive the interceptor chain while notifying every observer.\nBoth are empty by default.",
+  "description": "Its only dependency beyond java.base is the equally minimal, registry-free\n{@code build.jenesis.repository.observation} SPI (so a capped store can report its {@code jenesis.quota.*}\nused-vs-available signals), so a format plugin builds on the store and its {@code Publication} without\npulling in the server. A backend ships as its own module that {@code provides} an {@code ArtifactStoreProvider},\ndiscovered on the module path with {@code ServiceLoader}: the default filesystem backend, plus the optional s3,\ngcs and azure backends when on the graph. The {@code Tenants} directory of the shared\n{@code <tenant>/<repository>/...} layout is discovered the same way ({@code TenantsProvider}); with no module\ninstalled it is the fixed single tenant. A publication carries one discovered hook class, the\n{@code PublicationObserver} after-commit observer (forwarding, webhooks, replication - notified only once an\naccepted artifact serves, contained so it never fails a publish), with the verdict-bearing\n{@code PublishInterceptor} (accept / quarantine / reject before the pointer links, withhold on read) as its\n{@code instanceof}-detected sub-interface: one {@code uses PublicationObserver} clause discovers both, and\n{@code Publication} splits the discovered list to drive the interceptor chain while notifying every observer.\nBoth are empty by default. Alongside them live the two halves of the shared SPI convention every discovered\nseam in the product reuses: {@code Features} (is an implementation switched on, and which one did the operator\nselect) and {@code Providers} (the per-policy resolution primitives - {@code all}, {@code optionalUnique},\n{@code namedUnique}, {@code exclusiveWithDefault}, {@code installedNames} - an SPI's own {@code resolve} /\n{@code installed} statics delegate to, so an explicitly selected implementation that is absent, switched off or\nmisconfigured fails loudly instead of silently degrading to the unselected default).",
   "group_id": "build.jenesis",
   "artifact_id": "build.jenesis.repository.store",
-  "version_latest": "0.5.0",
-  "ts_publish": 1786024011000,
-  "dt_publish": "2026-08-06 21:46:51.000",
-  "ts_update": 1786024644006,
-  "dt_update": "2026-08-06 21:57:24.006",
+  "version_latest": "0.6.0",
+  "ts_publish": 1786689626000,
+  "dt_publish": "2026-08-14 14:40:26.000",
+  "ts_update": 1786690646005,
+  "dt_update": "2026-08-14 14:57:26.005",
   "count_dep": 2,
-  "count_ref": 29,
+  "count_ref": 33,
   "licenses": [
     "Apache-2.0"
   ],

@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/build.jenesis/build.jenesis.repository.store.testkit",
-	"description":"It depends only on the store SPI - no junit, no format, no server - so both this repository's and the\nenterprise distribution's test modules can require the same fixture rather than each hand-rolling a bespoke throwing\ndecorator. The classes are test doubles; nothing here provides a service, so the module is inert on a runtime graph.",
+	"description":"<p><b>Fault fixtures:</b> a {@code FaultInjectingStore} decorator that injects a store fault at a chosen point (a\nwrite that never lands, a read that fails, a compare-and-set that loses its race) and a {@code StoreInvariants}\nchecker for the two store-primitive consistency invariants the {@code Publication} / {@code ArtifactStore} layer owns\n(no dangling {@code publish/} pointer, no unreferenced {@code blobs/} object after a GC).\n\n<p><b>The store contract kit:</b> {@code StoreContract} is the executable {@code ArtifactStore} contract - one\nparameterized body of checks covering content-addressed writes, compare-and-set conflict semantics, opaque version\ntokens, ordered paging, traversal rejection and the explicitly non-transactional per-entry batch outcomes - and\n{@code StoreFixture} is how one backend registers with it. A backend is covered by writing a fixture, never by\ncopying assertions, and the kit drives the two fault fixtures above rather than duplicating them. The JUnit driver\nand the four backend fixtures live in {@code test/store/contract}, which also carries the completeness census.\n\n<p><b>The publication-hook contract kit:</b> {@code PublicationHookContract} is the executable contract of the\n{@code PublicationObserver} family, and {@code PublicationHookFixture} is how one hook registers with it. The kit's\ndistinguishing property is that it <em>derives</em> which contract a hook is held to rather than letting the fixture\ndeclare it: the whole family rides one {@code uses PublicationObserver} clause and {@code Publication} splits it by\n{@code instanceof PublishInterceptor}, so a contained after-commit observer and a fail-closed pre-commit screen\narrive through the same seam with opposite failure semantics. {@code Role.of} asks an instance exactly what\n{@code Publication} asks it, and a fixture whose declaration disagrees is refused - a screen can never be run\nthrough the contained legs and reported green. A third role covers enterprise's pre-commit\n{@code HoldReleaseObserver} hooks, which are not {@code PublicationObserver}s at all and are reached through an\nadapter. The crash windows are armed on the <em>screen</em> path with the {@code FaultInjectingStore} above, and\neach is re-verified from durable state so a point that stopped biting fails. The JUnit driver, the synthetic\nfixtures and the census live in {@code test/publication}.\n\n<p>The module depends only on the store SPI - no junit, no assertion library, no format, no server - so both this\nrepository's and the enterprise distribution's test modules can require it rather than each hand-rolling a bespoke\nthrowing decorator. The classes are test doubles; nothing here provides a service, so the module is inert on a\nruntime graph.",
 	"group_id":"build.jenesis",
 	"artifact_id":"build.jenesis.repository.store.testkit",
-	"version_latest":"0.5.0",
-	"ts_publish":1786024011000,
-	"dt_publish":"2026-08-06 21:46:51.000",
-	"ts_update":1786026451556,
-	"dt_update":"2026-08-06 22:27:23.843",
+	"version_latest":"0.6.0",
+	"ts_publish":1786689626000,
+	"dt_publish":"2026-08-14 14:40:26.000",
+	"ts_update":1786690655586,
+	"dt_update":"2026-08-14 14:57:26.424",
 	"count_dep":3,
-	"count_ref":0,
+	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
 	],

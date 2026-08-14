@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/build.jenesis/build.jenesis.repository.ui",
-	"description":"It is an open module (Spring needs reflective access) and requires the\nSpring modules its code compiles against plus the Spring Boot starters that root the runtime closure (embedded\nTomcat, Thymeleaf, Jackson, Security, OAuth2 client). Built as an open shell with a panel-registration SPI\n({@code uses Panel}) discovered with ServiceLoader and bridged into Spring, so additional panels are registered by\nadding modules to the graph, with no fork of the console. Login mechanisms plug in the same way through the\n{@code LoginContributor} bean seam.",
+	"description":"It is an open module (Spring needs reflective access) and requires the\nSpring modules its code compiles against plus the Spring Boot starters that root the runtime closure (embedded\nTomcat, Thymeleaf, Jackson, Security, OAuth2 client). Built as an open shell with a panel-registration SPI\n({@code uses Panel}) discovered with ServiceLoader and bridged into Spring, so additional panels are registered by\nadding modules to the graph, with no fork of the console. Login mechanisms plug in the same way through the\n{@code LoginContributor} bean seam.\n\n<p>It requires the format SPI for one reason: the browse panel marks each published namespace with the mark of the\nformat that owns it, resolved through the shared {@code Marks} every contributing plug-in family renders through,\nso a namespace no installed format claims is shown as the orphan it is rather than as an ordinary row. That is an\nSPI dependency, not a plugin one - the console still requires no concrete format and discovers them all through\nthe SPI's own lookup.",
 	"group_id":"build.jenesis",
 	"artifact_id":"build.jenesis.repository.ui",
-	"version_latest":"0.5.0",
-	"ts_publish":1786024011000,
-	"dt_publish":"2026-08-06 21:46:51.000",
-	"ts_update":1786024654422,
-	"dt_update":"2026-08-06 21:57:24.002",
-	"count_dep":86,
+	"version_latest":"0.6.0",
+	"ts_publish":1786689626000,
+	"dt_publish":"2026-08-14 14:40:26.000",
+	"ts_update":1786690657759,
+	"dt_update":"2026-08-14 14:57:26.000",
+	"count_dep":89,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
