@@ -1,0 +1,118 @@
+name: SyncBadgeSvg
+
+on:
+  schedule:
+    - cron: '39 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: CheckoutRepository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: ConfigureGit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: SyncOrInitializeBadgeBranch
+        run: |
+          # 检查远程是否存在 badge 分支
+          if git ls-remote --heads origin badge | grep -q badge; then
+            echo "🔄 badge 分支已存在，开始增量同步..."
+
+            # 更新远程分支信息
+            git fetch origin
+
+            # 获取两个分支的最新提交哈希
+            latest_commit=$(git rev-parse origin/latest)
+            badge_commit=$(git rev-parse origin/badge)
+
+            # 找出从 badge 到 latest 之间新增或修改的 .svg 文件
+            # 注意：diff 方向为 badge..latest
+            git diff --name-only --diff-filter=AM $badge_commit $latest_commit -- Badge/*.svg > /tmp/sync_files.txt
+
+            if [ ! -s /tmp/sync_files.txt ]; then
+              echo "✅ 没有需要同步的新增或修改的 SVG 文件。"
+              exit 0
+            fi
+
+            echo "📦 待同步的文件列表："
+            cat /tmp/sync_files.txt
+
+            # ---------- 更新 badge 分支 ----------
+            git checkout badge
+            while IFS= read -r file; do
+              # 从 latest 分支检出最新版本到当前工作区
+              git checkout origin/latest -- "$file"
+            done < /tmp/sync_files.txt
+
+            # 检查是否有实际变更（避免空提交）
+            if git diff --quiet; then
+              echo "ℹ️ badge 分支无变更（文件内容已一致）。"
+            else
+              git add .
+              git commit -m "从 latest 同步 SVG 文件 [skip ci]"
+              git push origin badge
+              echo "✅ badge 分支已更新。"
+            fi
+
+            # ---------- 从 latest 删除已同步文件 ----------
+            git checkout latest
+            while IFS= read -r file; do
+              git rm --ignore-unmatch "$file"
+            done < /tmp/sync_files.txt
+
+            if git diff --cached --quiet; then
+              echo "ℹ️ latest 分支没有需要删除的文件（可能已被删除）。"
+            else
+              git commit -m "移除已同步到 badge 的 SVG 文件 [skip ci]"
+              git push origin latest
+              echo "✅ latest 分支已清理。"
+            fi
+
+          else
+            echo "🆕 badge 分支不存在，开始初始化..."
+
+            # ---------- 首次创建 badge 分支 ----------
+            # 获取 latest 上所有 .svg 文件的列表
+            git ls-tree -r origin/latest --name-only -- Badge/*.svg > /tmp/init_files.txt 2>/dev/null
+
+            if [ ! -s /tmp/init_files.txt ]; then
+              echo "❌ Badge/ 目录下未找到 SVG 文件，无需操作。"
+              exit 1
+            fi
+
+            # 创建孤立分支（无历史）
+            git checkout --orphan badge
+
+            # 从 latest 检出所有 .svg 文件
+            while IFS= read -r file; do
+              git checkout origin/latest -- "$file"
+            done < /tmp/init_files.txt
+
+            # 提交并推送 badge 分支
+            git add .
+            git commit -m "初始创建 badge 分支，包含所有 SVG 文件 [skip ci]"
+            git push origin badge
+            echo "✅ badge 分支已创建。"
+
+            # ---------- 从 latest 删除所有已迁移的 .svg 文件 ----------
+            git checkout latest
+            while IFS= read -r file; do
+              git rm --ignore-unmatch "$file"
+            done < /tmp/init_files.txt
+
+            if git diff --cached --quiet; then
+              echo "⚠️ latest 分支没有文件被删除（可能已经不存在）。"
+            else
+              git commit -m "删除已迁移到 badge 的初始 SVG 文件 [skip ci]"
+              git push origin latest
+              echo "✅ latest 分支已清理。"
+            fi
+          fi
