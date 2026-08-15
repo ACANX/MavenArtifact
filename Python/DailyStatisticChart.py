@@ -240,7 +240,8 @@ def generate_svg_chart(dates, metrics):
                 current_segment = []
 
             current_segment.append((x, y))
-            svg.append(f'<circle cx="{x}" cy="{y}" r="4" fill="{COLORS[idx]}" />')
+            # 数据点圆点直径减小为原来的三分之一：原半径4 -> 新半径约1.33
+            svg.append(f'<circle cx="{x}" cy="{y}" r="1.33" fill="{COLORS[idx]}" />')
             prev_ts = ts
 
         if current_segment:
