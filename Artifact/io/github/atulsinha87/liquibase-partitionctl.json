@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.atulsinha87/liquibase-partitionctl",
+	"description":"Liquibase extension that creates indexes on partitioned PostgreSQL tables without\n    blocking writes, by discovering the partition tree from the live catalog and driving\n    CREATE INDEX CONCURRENTLY + ALTER INDEX ... ATTACH PARTITION per leaf.",
+	"group_id":"io.github.atulsinha87",
+	"artifact_id":"liquibase-partitionctl",
+	"version_latest":"0.1.3",
+	"ts_publish":1786754190000,
+	"dt_publish":"2026-08-15 08:36:30.000",
+	"ts_update":1786755491761,
+	"dt_update":"2026-08-15 08:57:34.224",
+	"count_dep":9,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/atulsinha87/partitionctl",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.atulsinha87:liquibase-partitionctl/0.1.3",
+	"contributors":[
+		"Atul Sinha"
+	],
+	"url_scm":"https://github.com/atulsinha87/partitionctl"
+}
