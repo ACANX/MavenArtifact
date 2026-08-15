@@ -62,7 +62,8 @@ def main():
         {"name": "构件徽标", "values": [d['badge'] for d in data]},
         {"name": "构件扩展元数据", "values": [d['ext_metadata'] for d in data]},
         {"name": "构件版本信息", "values": [d['version'] for d in data]},
-        {"name": "数据量偏差", "values": [d['badge'] - d['aio'] for d in data]}
+        # 修改下面这一行，加入 abs()
+        {"name": "数据量偏差", "values": [abs(d['badge'] - d['aio']) for d in data]}
     ]
     
     # 生成SVG图表
