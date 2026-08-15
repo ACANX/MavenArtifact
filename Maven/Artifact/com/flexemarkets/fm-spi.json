@@ -1,14 +1,14 @@
 {
   "id": "pkg:maven/com.flexemarkets/fm-spi",
-  "description": "The plugin contract between Flex-E-Markets service implementations\n        (e.g. trading robots) and their hosts. A host discovers a ServiceProvider\n        via ServiceLoader and runs the Service it creates, without compiling\n        against the implementation. Interfaces only — no implementation code, no\n        host internals. Published publicly so providers and hosts share one\n        contract without copying source; the implementations stay private and\n        are delivered to hosts as runtime plugin jars.",
+  "description": "The plugin contract between Flex-E-Markets service implementations\n        (e.g. trading robots) and their hosts. A host discovers a ServiceProvider\n        via ServiceLoader and runs the Service it creates, without compiling\n        against the implementation.\n\n        Carries three things: the ServiceProvider/Service interfaces, the\n        manifest a service uses to describe itself, and CliBuilder, which turns\n        described parameters into the argument array the provider is created\n        with. The manifest and the builder are here because both sides must\n        agree on them exactly: a host that derived arguments its own way would\n        be a second implementation of the contract, differing from the first\n        only where it was wrong.\n\n        No host internals and no implementation of any service. Published\n        publicly so providers and hosts share one contract without copying\n        source; the implementations stay private and are delivered to hosts as\n        runtime plugin jars.",
   "group_id": "com.flexemarkets",
   "artifact_id": "fm-spi",
-  "version_latest": "0.0.7",
-  "ts_publish": 1786628486000,
-  "dt_publish": "2026-08-13 21:41:26.000",
-  "ts_update": 1786629421972,
-  "dt_update": "2026-08-13 21:57:01.972",
-  "count_dep": 0,
+  "version_latest": "0.0.8",
+  "ts_publish": 1786819474000,
+  "dt_publish": "2026-08-16 02:44:34.000",
+  "ts_update": 1786819962748,
+  "dt_update": "2026-08-16 02:52:42.749",
+  "count_dep": 1,
   "count_ref": 0,
   "licenses": [
     "MIT License"
