@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/dev.frostlake/frostlake-ai",
+  "description": "Optional Cortex AI function pack for Frostlake (SNOWFLAKE.CORTEX.COMPLETE, SENTIMENT,\n        SUMMARIZE, TRANSLATE, EMBED_TEXT_*, the AI_ family), contributed to the engine via the\n        FunctionProvider ServiceLoader SPI. The functions are answered by a locally-running Ollama server\n        configured through frostlake.properties, so Cortex-shaped SQL runs against a model you host rather\n        than a paid account. Add this module to the classpath to enable it. Dependency-free beyond the\n        engine itself — the Ollama transport is java.net.http.",
+  "group_id": "dev.frostlake",
+  "artifact_id": "frostlake-ai",
+  "version_latest": "0.0.7",
+  "ts_publish": 1786918197000,
+  "dt_publish": "2026-08-17 06:09:57.000",
+  "ts_update": 1786919241485,
+  "dt_update": "2026-08-17 06:27:21.485",
+  "count_dep": 13,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
