@@ -1,0 +1,18 @@
+{
+	"id":"pkg:maven/io.github.bams22/event-outboxer-lock-postgres-advisory",
+	"description":"EntityLocker backed by session-scoped PostgreSQL\n        pg_advisory_lock — the lock.type=postgres-advisory opt-out\n        (ADR-0022). Pins one pooled connection per held lock and is\n        incompatible with pgBouncer transaction pooling; the lease-table\n        locker in event-outboxer-lock-postgres-lease is the recommended\n        default.",
+	"group_id":"io.github.bams22",
+	"artifact_id":"event-outboxer-lock-postgres-advisory",
+	"version_latest":"0.3.0",
+	"ts_publish":1786900157000,
+	"dt_publish":"2026-08-17 01:09:17.000",
+	"ts_update":1786901253720,
+	"dt_update":"2026-08-17 01:27:27.385",
+	"count_dep":12,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.bams22:event-outboxer-lock-postgres-advisory/0.3.0"
+}

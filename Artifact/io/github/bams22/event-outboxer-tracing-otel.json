@@ -1,0 +1,24 @@
+{
+	"id":"pkg:maven/io.github.bams22/event-outboxer-tracing-otel",
+	"description":"OutboxTracer implementation on the OpenTelemetry API (ADR-0023):\n        PRODUCER span per publish with W3C context capture into the event\n        row, CONSUMER span per handler attempt restoring the stored\n        context. Works with the OTel Java agent and with Spring Boot's\n        micrometer-tracing-bridge-otel alike.",
+	"group_id":"io.github.bams22",
+	"artifact_id":"event-outboxer-tracing-otel",
+	"version_latest":"0.3.0",
+	"ts_publish":1786900157000,
+	"dt_publish":"2026-08-17 01:09:17.000",
+	"ts_update":1786901255439,
+	"dt_update":"2026-08-17 01:27:27.389",
+	"count_dep":10,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/bams22/event-outboxer/event-outboxer-tracing-otel",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.bams22:event-outboxer-tracing-otel/0.3.0",
+	"url_issue_management":"https://github.com/bams22/event-outboxer/issues",
+	"contributors":[
+		"bams22"
+	],
+	"url_scm":"https://github.com/bams22/event-outboxer/event-outboxer-tracing-otel"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.bams22/event-outboxer-tracing-micrometer",
+  "description": "OutboxTracer implementation on Micrometer's Observation API\n        (ADR-0023): PRODUCER observation per publish with context capture\n        into the event row, CONSUMER observation per handler attempt\n        restoring the stored context. Propagation format follows Spring\n        Boot's management.tracing.propagation settings and works with both\n        the OpenTelemetry and Brave bridges.",
+  "group_id": "io.github.bams22",
+  "artifact_id": "event-outboxer-tracing-micrometer",
+  "version_latest": "0.3.0",
+  "ts_publish": 1786900157000,
+  "dt_publish": "2026-08-17 01:09:17.000",
+  "ts_update": 1786901246965,
+  "dt_update": "2026-08-17 01:27:26.965",
+  "count_dep": 16,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

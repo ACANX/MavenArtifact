@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/io.github.bams22/event-outboxer-lock-postgres",
-	"description":"EntityLocker backed by PostgreSQL pg_advisory_lock. Suitable\n        for single-instance deployments and simple clustered setups.",
+	"description":"Relocation stub. Published up to 0.2.0 as the single PostgreSQL\n        EntityLocker; since 0.3.0 that adapter is named\n        event-outboxer-lock-postgres-advisory, alongside the new\n        event-outboxer-lock-postgres-lease (the PostgreSQL default, ADR-0022).\n        Carries no code — it only redirects Maven to the advisory\n        adapter.",
 	"group_id":"io.github.bams22",
 	"artifact_id":"event-outboxer-lock-postgres",
-	"version_latest":"0.2.0",
-	"ts_publish":1776872301000,
-	"dt_publish":"2026-04-22 23:38:21.000",
-	"ts_update":1776896841889,
-	"dt_update":"2026-04-23 00:08:03.517",
-	"count_dep":12,
-	"count_ref":1,
+	"version_latest":"0.3.0",
+	"ts_publish":1786900157000,
+	"dt_publish":"2026-08-17 01:09:17.000",
+	"ts_update":1786901253559,
+	"dt_update":"2026-08-17 01:27:27.387",
+	"count_dep":0,
+	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],

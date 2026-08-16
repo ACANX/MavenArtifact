@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/io.github.bams22/event-outboxer-storage-inmemory",
-	"description":"In-memory implementation of EventStore, WorkerRegistry and\n        EntityLocker. Intended for fast unit tests and for development\n        setups where durability is not required.",
+	"description":"TEST INFRASTRUCTURE for event-outboxer (ADR-0020): in-memory\n        EventStore/WorkerRegistry/OutboxAdmin used by the SPI contract\n        tests, the testkit and Spring test contexts via\n        OutboxInMemoryTestConfiguration. Deliberately not reachable\n        through starter configuration — never a production storage.",
 	"group_id":"io.github.bams22",
 	"artifact_id":"event-outboxer-storage-inmemory",
-	"version_latest":"0.2.0",
-	"ts_publish":1776872301000,
-	"dt_publish":"2026-04-22 23:38:21.000",
-	"ts_update":1776884256251,
-	"dt_update":"2026-04-23 00:08:03.518",
+	"version_latest":"0.3.0",
+	"ts_publish":1786900157000,
+	"dt_publish":"2026-08-17 01:09:17.000",
+	"ts_update":1786901254509,
+	"dt_update":"2026-08-17 01:27:26.965",
 	"count_dep":8,
-	"count_ref":3,
+	"count_ref":4,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],

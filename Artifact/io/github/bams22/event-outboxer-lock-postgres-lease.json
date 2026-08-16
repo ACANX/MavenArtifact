@@ -1,0 +1,24 @@
+{
+	"id":"pkg:maven/io.github.bams22/event-outboxer-lock-postgres-lease",
+	"description":"EntityLocker backed by a lease row in the\n        event_outboxer.entity_locks table (ADR-0022). Holds no connection\n        while the handler runs and is safe behind pgBouncer transaction\n        pooling; recommended default for PostgreSQL deployments.",
+	"group_id":"io.github.bams22",
+	"artifact_id":"event-outboxer-lock-postgres-lease",
+	"version_latest":"0.3.0",
+	"ts_publish":1786900157000,
+	"dt_publish":"2026-08-17 01:09:17.000",
+	"ts_update":1786901255102,
+	"dt_update":"2026-08-17 01:27:26.964",
+	"count_dep":12,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/bams22/event-outboxer/event-outboxer-lock-postgres-lease",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.bams22:event-outboxer-lock-postgres-lease/0.3.0",
+	"url_issue_management":"https://github.com/bams22/event-outboxer/issues",
+	"contributors":[
+		"bams22"
+	],
+	"url_scm":"https://github.com/bams22/event-outboxer/event-outboxer-lock-postgres-lease"
+}
