@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.guicedee.modules.services/bson",
+  "description": "JPMS modularized shade of org.mongodb:bson exposing the org.mongodb.bson module.\n\n        Upstream ships only an Automatic-Module-Name, which jlink refuses:\n        \"automatic module cannot be used with jlink\". The whole MongoDB driver chain\n        (bson -> bson-record-codec -> mongodb-driver-core -> mongodb-driver-reactivestreams)\n        arrives transitively through io.vertx:vertx-mongo-client, so each link needs a real\n        module descriptor for a clean runtime image.",
+  "group_id": "com.guicedee.modules.services",
+  "artifact_id": "bson",
+  "version_latest": "2.2.2",
+  "ts_publish": 1787007200000,
+  "dt_publish": "2026-08-18 06:53:20.000",
+  "ts_update": 1787008795496,
+  "dt_update": "2026-08-18 07:19:55.496",
+  "count_dep": 2,
+  "count_ref": 3,
+  "licenses": [
+    "The Apache Software License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
