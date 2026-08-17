@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.krishnakichuu/flowd-sdk-parent",
+  "description": "Java SDK for flowd (github.com/krishnakichuu/flowd). A standalone,\n    multi-module Maven project — a sibling of flowd-engine (the Go server),\n    not nested inside it and not part of its build graph.\n\n    Module layout:\n      flowd-sdk-core               framework-agnostic core: annotations,\n                                    replay engine, client, worker. The only\n                                    module every application depends on.\n      flowd-sdk-spring-boot-starter  optional auto-configuration for Spring\n                                    Boot, depends on core, adds zero\n                                    dependencies to it.\n      examples/plain-java           runnable examples with no DI framework.\n      examples/spring-boot-worker    consumer half of the Spring Boot\n                                    example: runs FlowdWorker, never starts\n                                    a workflow itself.\n      examples/spring-boot-client    producer half: starts workflow runs\n                                    via WorkflowClient, runs no worker.\n\n    See ARCHITECTURE.md for the full design rationale.",
+  "group_id": "io.github.krishnakichuu",
+  "artifact_id": "flowd-sdk-parent",
+  "version_latest": "0.1.0",
+  "ts_publish": 1786947092000,
+  "dt_publish": "2026-08-17 14:11:32.000",
+  "ts_update": 1786948046453,
+  "dt_update": "2026-08-17 14:27:26.453",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
