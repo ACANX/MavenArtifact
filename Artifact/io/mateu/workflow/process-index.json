@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.mateu.workflow/process-index",
+	"description":"The CQRS process-index read model, as a module of its own so that a projector can be run\n        outside the engine. It depends on `shared` and nothing else: an out-of-process projector must\n        not drag the engine, its beans or its write-side schema into a service whose entire purpose is\n        not to have them.",
+	"group_id":"io.mateu.workflow",
+	"artifact_id":"process-index",
+	"version_latest":"2.1.0",
+	"ts_publish":1787044685000,
+	"dt_publish":"2026-08-18 17:18:05.000",
+	"ts_update":1787045257039,
+	"dt_update":"2026-08-18 17:27:25.314",
+	"count_dep":51,
+	"count_ref":2,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/miguelperezcolom/eventconductor/modules/process-index",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.mateu.workflow:process-index/2.1.0",
+	"contributors":[
+		"Miguel Pérez Colom"
+	],
+	"url_scm":"https://github.com/miguelperezcolom/eventconductor/modules/process-index"
+}
