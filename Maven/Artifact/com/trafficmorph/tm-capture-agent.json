@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.trafficmorph/tm-capture-agent",
+  "description": "Low-overhead, non-blocking library for emitting JSONL traffic\n        captures consumable by TrafficMorph's capture-import flow.\n        Designed to live on hot paths: log() returns in O(100ns),\n        I/O happens on a separate daemon writer thread, the producer\n        thread never blocks on disk.",
+  "group_id": "com.trafficmorph",
+  "artifact_id": "tm-capture-agent",
+  "version_latest": "0.1.1",
+  "ts_publish": 1787037302000,
+  "dt_publish": "2026-08-18 15:15:02.000",
+  "ts_update": 1787037855765,
+  "dt_update": "2026-08-18 15:24:15.765",
+  "count_dep": 6,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache Software License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
