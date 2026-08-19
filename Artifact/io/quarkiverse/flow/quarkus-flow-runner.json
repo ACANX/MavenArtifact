@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.flow/quarkus-flow-runner",
 	"group_id":"io.quarkiverse.flow",
 	"artifact_id":"quarkus-flow-runner",
-	"version_latest":"0.15.1",
-	"ts_publish":1785434634000,
-	"dt_publish":"2026-07-31 02:03:54.000",
-	"ts_update":1785436056477,
-	"dt_update":"2026-07-31 02:27:27.556",
-	"count_dep":9,
+	"version_latest":"0.16.0",
+	"ts_publish":1787158645000,
+	"dt_publish":"2026-08-20 00:57:25.000",
+	"ts_update":1787160496855,
+	"dt_update":"2026-08-20 01:27:49.145",
+	"count_dep":205,
 	"count_ref":2,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://guide.sonatype.com/component/maven/io.quarkiverse.flow:quarkus-flow-runner/0.11.0",
@@ -17,5 +19,6 @@
 	"contributors":[
 		"Quarkus Community"
 	],
-	"url_scm":"https://github.com/quarkiverse/quarkus-flow"
+	"url_scm":"https://github.com/quarkiverse/quarkus-flow",
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
