@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/com.zqzqq/spring-boot3-brick-bootkit-distributed",
+	"description":"Brick BootKit 分布式插件模块：基于 gRPC + Redis 服务目录，实现插件的远程加载、\n        服务注册发现与跨节点调用。宿主节点可只装载自身轻量插件，把重插件分配到不同\n        执行节点，通过 gRPC 泛化调用透明地对远端插件的服务方法发起调用，彻底解耦\n        「插件部署位置」与「服务调用方式」。",
+	"group_id":"com.zqzqq",
+	"artifact_id":"spring-boot3-brick-bootkit-distributed",
+	"version_latest":"4.0.11",
+	"ts_publish":1787330451000,
+	"dt_publish":"2026-08-22 00:40:51.000",
+	"ts_update":1787331302132,
+	"dt_update":"2026-08-22 00:54:40.035",
+	"count_dep":77,
+	"count_ref":1,
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/v18268185209/brick-bootkit-springboot.git/spring-boot3-brick-bootkit-distributed",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/com.zqzqq:spring-boot3-brick-bootkit-distributed/4.0.11",
+	"contributors":[
+		"huzhenjie"
+	],
+	"url_scm":"https://github.com/v18268185209/brick-bootkit-springboot/spring-boot3-brick-bootkit-distributed"
+}
