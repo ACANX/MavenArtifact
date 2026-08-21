@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.sonarsource.python/it-python-plugin-test",
 	"group_id":"org.sonarsource.python",
 	"artifact_id":"it-python-plugin-test",
-	"version_latest":"5.29.0.35837",
-	"ts_publish":1786626817000,
-	"dt_publish":"2026-08-13 21:13:37.000",
-	"ts_update":1786629439616,
-	"dt_update":"2026-08-13 21:57:04.356",
+	"version_latest":"5.30.0.36259",
+	"ts_publish":1787316203000,
+	"dt_publish":"2026-08-21 20:43:23.000",
+	"ts_update":1787317045841,
+	"dt_update":"2026-08-21 20:57:18.919",
 	"count_dep":12,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"SSALv1"
+	],
 	"categories":[
 		"Build Tools",
 		"Code Analysis"
@@ -205,5 +207,6 @@
 			"version":"5.0.0.20426",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent pom of SonarSource public projects"
 }
