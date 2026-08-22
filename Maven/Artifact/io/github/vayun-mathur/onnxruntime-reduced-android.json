@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.vayun-mathur/onnxruntime-reduced-android",
+  "description": "A reduced-operator rebuild of Microsoft's ONNX Runtime 1.27.0 for Android arm64-v8a.\n    This is NOT a fork: the source is upstream onnxruntime v1.27.0, built with\n    --include_ops_by_config so that only the operator kernels required by a specific set of\n    models are registered. That takes libonnxruntime.so from about 28 MB to about 10 MB.\n\n    IMPORTANT: because operator kernels are pinned, a model using an operator outside the\n    configured set fails at session creation, not at inference time. The configured set is:\n\n      ai.onnx opset 11: Add, ArgMax, Cast, Concat, ConstantOfShape, ConvInteger,\n        DequantizeLinear, Div, DynamicQuantizeLinear, Equal, Erf, Expand, Flatten, Gather,\n        Less, MatMul, MatMulInteger, Mul, Pow, Range, ReduceMean, ReduceSum, Reshape, Shape,\n        Slice, Softmax, Sqrt, Squeeze, Sub, Transpose, Unsqueeze, Where\n\n      ai.onnx opset 14: Add, Cast, Concat, Constant, ConstantOfShape, ConvInteger,\n        DequantizeLinear, Div, DynamicQuantizeLinear, Equal, Erf, Expand, Gather, If, Less,\n        MatMul, MatMulInteger, Mul, Pow, Range, ReduceMean, Reshape, Shape, Slice, Softmax,\n        Sqrt, Squeeze, Sub, Transpose, Unsqueeze, Where\n\n    Built MinSizeRel with NDK r27c, minSdk 31, KleidiAI and SVE enabled, ML ops disabled.\n    Only the arm64-v8a ABI is included. If you need other ABIs or other operators, use the\n    upstream com.microsoft.onnxruntime:onnxruntime-android artifact instead.",
+  "group_id": "io.github.vayun-mathur",
+  "artifact_id": "onnxruntime-reduced-android",
+  "version_latest": "1.27.0-r1",
+  "ts_publish": 1787440194000,
+  "dt_publish": "2026-08-23 07:09:54.000",
+  "ts_update": 1787441237638,
+  "dt_update": "2026-08-23 07:27:17.638",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
