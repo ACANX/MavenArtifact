@@ -1,0 +1,21 @@
+{
+	"id":"pkg:maven/io.artifexlabs.inventory/inventory-impl-changeset",
+	"description":"The inventory schema as a versioned artifact: the Liquibase\n    changelogs (db/**) and NOTHING else — no code, no dependencies.\n    Consumers bring their own Liquibase; inventory-impl-pg depends on this\n    so the changelog rides every Pg classpath, and deploy-time migration\n    can consume this jar alone.",
+	"group_id":"io.artifexlabs.inventory",
+	"artifact_id":"inventory-impl-changeset",
+	"version_latest":"0.2.0",
+	"ts_publish":1787515853000,
+	"dt_publish":"2026-08-24 04:10:53.000",
+	"ts_update":1787516849768,
+	"dt_update":"2026-08-24 04:27:21.265",
+	"count_dep":5,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/artifexlabs/inventory-impl-changeset/inventory-impl-changeset",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.artifexlabs.inventory:inventory-impl-changeset/0.2.0",
+	"url_issue_management":"https://github.com/artifexlabs/inventory-impl-changeset/issues",
+	"url_scm":"scm:git:git@github.com:artifexlabs/inventory-impl-changeset.git/inventory-impl-changeset"
+}

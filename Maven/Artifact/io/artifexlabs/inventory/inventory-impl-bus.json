@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.artifexlabs.inventory/inventory-impl-bus",
+  "description": "The event-bus layer: every worker verticle, the admission\n    guard, the envelope wire types, and the publishers. Depends on the API\n    contracts, Vert.x, and the label-rendering plumbing — and deliberately\n    NOT on any domain implementation, so the build itself enforces that the\n    protocol layer cannot see Postgres from memory (MORE_VERTX).",
+  "group_id": "io.artifexlabs.inventory",
+  "artifact_id": "inventory-impl-bus",
+  "version_latest": "0.2.0",
+  "ts_publish": 1787515853000,
+  "dt_publish": "2026-08-24 04:10:53.000",
+  "ts_update": 1787516841267,
+  "dt_update": "2026-08-24 04:27:21.267",
+  "count_dep": 28,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
