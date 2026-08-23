@@ -18,6 +18,38 @@
   ],
   "items": [
     {
+      "id": "pkg:maven/tech.bubbl.sdk/bubbl-sdk@4.1.4",
+      "url": "https://central.sonatype.com/artifact/tech.bubbl.sdk/bubbl-sdk",
+      "title": "tech.bubbl.sdk:bubbl-sdk 4.1.4 发布, Native Android SDK for Bubbl v3 runtime, geofence, notification, and ingest flows.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"tech.bubbl.sdk:bubbl-sdk@4.1.4\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/tech/bubbl/sdk/bubbl-sdk.svg\" alt=\"tech.bubbl.sdk:bubbl-sdk 4.1.4 发布, Native Android SDK for Bubbl v3 runtime, geofence, notification, and ingest flows.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/tech/bubbl/sdk/bubbl-sdk/4.1.4/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/tech.bubbl.sdk/bubbl-sdk\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/tech.bubbl.sdk/bubbl-sdk/4.1.4\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://github.com/bubbl-repo/bubbl-android-sdk\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/bubbl-repo/bubbl-android-sdk\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;tech.bubbl.sdk&lt;/groupId&gt;\n        &lt;artifactId&gt;bubbl-sdk&lt;/artifactId&gt;\n        &lt;version&gt;4.1.4&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "tech.bubbl.sdk:bubbl-sdk 4.1.4 发布, Native Android SDK for Bubbl v3 runtime, geofence, notification, and ingest flows.",
+      "summary": "tech.bubbl.sdk:bubbl-sdk 4.1.4 发布, Native Android SDK for Bubbl v3 runtime, geofence, notification, and ingest flows.",
+      "date_published": "2026-08-23T05:54:38Z",
+      "date_modified": "2026-08-23T06:00:08Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "Bubbl Technologies"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
       "id": "pkg:maven/network.ike.platform/ike-parent@176",
       "url": "https://central.sonatype.com/artifact/network.ike.platform/ike-parent",
       "title": "network.ike.platform:ike-parent 176 发布, Standard parent POM for IKE Network projects. Inheriting this\n        POM provides build conventions (Java 25 compiler, test harness,\n        GPG signing, AsciiDoc documentation pipeline) from the\n        ike-platform reactor root and centralized dependency version\n        management declared inline. Declares ike-doc-maven-plugin\n        (from network.ike.docs) with extensions=true to provide the\n        ike-doc custom packaging type to external doc projects.",
@@ -25,7 +57,7 @@
       "content_text": "network.ike.platform:ike-parent 176 发布, Standard parent POM for IKE Network projects. Inheriting this\n        POM provides build conventions (Java 25 compiler, test harness,\n        GPG signing, AsciiDoc documentation pipeline) from the\n        ike-platform reactor root and centralized dependency version\n        management declared inline. Declares ike-doc-maven-plugin\n        (from network.ike.docs) with extensions=true to provide the\n        ike-doc custom packaging type to external doc projects.",
       "summary": "network.ike.platform:ike-parent 176 发布, Standard parent POM for IKE Network projects. Inheriting this\n        POM provides build conventions (Java 25 compiler, test harness,\n        GPG signing, AsciiDoc documentation pipeline) from the\n        ike-platform reactor root and centralized dependency version\n        management declared inline. Declares ike-doc-maven-plugin\n        (from network.ike.docs) with extensions=true to provide the\n        ike-doc custom packaging type to external doc projects.",
       "date_published": "2026-08-23T05:52:00Z",
-      "date_modified": "2026-08-23T05:57:25Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -57,7 +89,7 @@
       "content_text": "network.ike.platform:ike-bom 176 发布, Auto-generated BOM providing centralized dependency version\n        management for IKE Network projects. Import this POM for\n        version alignment without inheriting ike-parent build conventions.\n        Generated from ike-parent's dependencyManagement by ike:generate-bom.",
       "summary": "network.ike.platform:ike-bom 176 发布, Auto-generated BOM providing centralized dependency version\n        management for IKE Network projects. Import this POM for\n        version alignment without inheriting ike-parent build conventions.\n        Generated from ike-parent's dependencyManagement by ike:generate-bom.",
       "date_published": "2026-08-23T05:52:00Z",
-      "date_modified": "2026-08-23T05:57:24Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -89,7 +121,39 @@
       "content_text": "network.ike.platform:ike-platform 176 发布, Consumer-facing parent POM, BOM, and workspace management plugin\n        for the IKE Network. External doc and code projects inherit\n        from ike-parent (declared here); cross-repo workspace operations\n        use ike-workspace-maven-plugin (ws:* goals). Consumes ike-docs\n        as an external artifact — ike-parent declares ike-doc-maven-plugin\n        with extensions=true, resolving from Nexus at project-load time.\n        Split from the archived ike-pipeline; see IKE-Network/ike-issues#216.",
       "summary": "network.ike.platform:ike-platform 176 发布, Consumer-facing parent POM, BOM, and workspace management plugin\n        for the IKE Network. External doc and code projects inherit\n        from ike-parent (declared here); cross-repo workspace operations\n        use ike-workspace-maven-plugin (ws:* goals). Consumes ike-docs\n        as an external artifact — ike-parent declares ike-doc-maven-plugin\n        with extensions=true, resolving from Nexus at project-load time.\n        Split from the archived ike-pipeline; see IKE-Network/ike-issues#216.",
       "date_published": "2026-08-23T05:52:00Z",
-      "date_modified": "2026-08-23T05:57:26Z",
+      "date_modified": "2026-08-23T06:00:08Z",
+      "authors": [
+        {
+          "name": "MvnArtifactReleaseQueue"
+        },
+        {
+          "name": "IKE Network Team"
+        }
+      ],
+      "tags": [
+        "Artifact",
+        "Maven",
+        "Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
+          "mime_type": "image/svg+xml",
+          "title": "最新版本元数据信息SVG",
+          "size_in_bytes": 12345678,
+          "duration_in_seconds": 10
+        }
+      ]
+    },
+    {
+      "id": "pkg:maven/network.ike.platform/ike-workspace-maven-plugin@176",
+      "url": "https://central.sonatype.com/artifact/network.ike.platform/ike-workspace-maven-plugin",
+      "title": "network.ike.platform:ike-workspace-maven-plugin 176 发布, Cross-platform Maven plugin for multi-repository workspace management:\n        initialization, verification, feature branching, release orchestration,\n        and checkpoint creation.",
+      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"network.ike.platform:ike-workspace-maven-plugin@176\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/network/ike/platform/ike-workspace-maven-plugin.svg\" alt=\"network.ike.platform:ike-workspace-maven-plugin 176 发布, Cross-platform Maven plugin for multi-repository workspace management:\n        initialization, verification, feature branching, release orchestration,\n        and checkpoint creation.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/network/ike/platform/ike-workspace-maven-plugin/176/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/network.ike.platform/ike-workspace-maven-plugin\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/network.ike.platform/ike-workspace-maven-plugin/176\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://ike.network/ike-platform/ike-workspace-maven-plugin/\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/IKE-Network/ike-platform/ike-workspace-maven-plugin\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;network.ike.platform&lt;/groupId&gt;\n        &lt;artifactId&gt;ike-workspace-maven-plugin&lt;/artifactId&gt;\n        &lt;version&gt;176&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
+      "content_text": "network.ike.platform:ike-workspace-maven-plugin 176 发布, Cross-platform Maven plugin for multi-repository workspace management:\n        initialization, verification, feature branching, release orchestration,\n        and checkpoint creation.",
+      "summary": "network.ike.platform:ike-workspace-maven-plugin 176 发布, Cross-platform Maven plugin for multi-repository workspace management:\n        initialization, verification, feature branching, release orchestration,\n        and checkpoint creation.",
+      "date_published": "2026-08-23T05:52:00Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -121,7 +185,7 @@
       "content_text": "no.beint.adyen:adyen-java-api-library 44.0.0-beint.1 发布, Unofficial Beint fork of the Adyen Java API library with Java 17 and Jackson 3",
       "summary": "no.beint.adyen:adyen-java-api-library 44.0.0-beint.1 发布, Unofficial Beint fork of the Adyen Java API library with Java 17 and Jackson 3",
       "date_published": "2026-08-23T05:46:06Z",
-      "date_modified": "2026-08-23T05:57:24Z",
+      "date_modified": "2026-08-23T06:00:08Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -153,7 +217,7 @@
       "content_text": "com.zombieos:zsharp 1.0.0.1 发布, Run the Z# compiler and virtual machine from Java projects.",
       "summary": "com.zombieos:zsharp 1.0.0.1 发布, Run the Z# compiler and virtual machine from Java projects.",
       "date_published": "2026-08-23T05:40:40Z",
-      "date_modified": "2026-08-23T05:57:24Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -185,7 +249,7 @@
       "content_text": "org.webjars.npm:htmx-ext-form-json 1.0.10 发布, WebJar for htmx-ext-form-json",
       "summary": "org.webjars.npm:htmx-ext-form-json 1.0.10 发布, WebJar for htmx-ext-form-json",
       "date_published": "2026-08-23T05:34:36Z",
-      "date_modified": "2026-08-23T05:57:25Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "tags": [
         "Artifact",
         "Maven",
@@ -209,7 +273,7 @@
       "content_text": "io.github.mullerhai:pytorch-platform 2.13.0-1.5.14-beta-08.7 发布, JavaCPP Presets Platform for PyTorch (mullerhai fork release)",
       "summary": "io.github.mullerhai:pytorch-platform 2.13.0-1.5.14-beta-08.7 发布, JavaCPP Presets Platform for PyTorch (mullerhai fork release)",
       "date_published": "2026-08-23T05:29:24Z",
-      "date_modified": "2026-08-23T05:57:26Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -241,7 +305,7 @@
       "content_text": "io.github.odys-z:anclient.java 0.5.20 发布, [syndoc-lib] Anclient java version. A basic lib only depends on semantic.jserv",
       "summary": "io.github.odys-z:anclient.java 0.5.20 发布, [syndoc-lib] Anclient java version. A basic lib only depends on semantic.jserv",
       "date_published": "2026-08-23T05:27:36Z",
-      "date_modified": "2026-08-23T05:57:24Z",
+      "date_modified": "2026-08-23T06:00:09Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -271,7 +335,7 @@
       "content_text": "io.github.arun-skg:envdoctor 0.1.2 发布, Local-first consistency checker for environment variables (native Java port)",
       "summary": "io.github.arun-skg:envdoctor 0.1.2 发布, Local-first consistency checker for environment variables (native Java port)",
       "date_published": "2026-08-23T05:20:50Z",
-      "date_modified": "2026-08-23T05:57:24Z",
+      "date_modified": "2026-08-23T06:00:07Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -303,7 +367,7 @@
       "content_text": "io.github.mullerhai:pytorch 2.13.0-1.5.14-beta-08.7 发布, JavaCPP Presets for PyTorch (mullerhai fork release)",
       "summary": "io.github.mullerhai:pytorch 2.13.0-1.5.14-beta-08.7 发布, JavaCPP Presets for PyTorch (mullerhai fork release)",
       "date_published": "2026-08-23T05:17:51Z",
-      "date_modified": "2026-08-23T05:57:25Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -335,7 +399,7 @@
       "content_text": "network.ike.docs:semantic-linebreak 108 发布, Maven plugin that reformats AsciiDoc prose to one-sentence-per-line using AsciidoctorJ AST parsing",
       "summary": "network.ike.docs:semantic-linebreak 108 发布, Maven plugin that reformats AsciiDoc prose to one-sentence-per-line using AsciidoctorJ AST parsing",
       "date_published": "2026-08-23T05:15:08Z",
-      "date_modified": "2026-08-23T05:57:24Z",
+      "date_modified": "2026-08-23T06:00:08Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -367,7 +431,7 @@
       "content_text": "network.ike.docs:minimal-fonts 108 发布, Minimal Noto font subset for IKE documentation (~4MB)",
       "summary": "network.ike.docs:minimal-fonts 108 发布, Minimal Noto font subset for IKE documentation (~4MB)",
       "date_published": "2026-08-23T05:15:08Z",
-      "date_modified": "2026-08-23T05:57:24Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -399,7 +463,7 @@
       "content_text": "network.ike.docs:koncept-asciidoc-extension 108 发布, AsciidoctorJ extension providing inline Koncept markup (k:ConceptName[])\n        with SVG badge rendering and auto-generated Referenced Koncepts glossary\n        with description logic axiom display.",
       "summary": "network.ike.docs:koncept-asciidoc-extension 108 发布, AsciidoctorJ extension providing inline Koncept markup (k:ConceptName[])\n        with SVG badge rendering and auto-generated Referenced Koncepts glossary\n        with description logic axiom display.",
       "date_published": "2026-08-23T05:15:08Z",
-      "date_modified": "2026-08-23T05:57:26Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -431,7 +495,7 @@
       "content_text": "network.ike.docs:koncept-core 108 发布, Rendering-agnostic Koncept core (ike-issues#623): the shared, JavaFX-free component-kind\n        scheme (KonceptKind) and the locked stamp-sigil pentagon geometry (StampSigilGeometry),\n        consumed by the koncept AsciiDoc extension and — downstream in the release cascade — by Komet.",
       "summary": "network.ike.docs:koncept-core 108 发布, Rendering-agnostic Koncept core (ike-issues#623): the shared, JavaFX-free component-kind\n        scheme (KonceptKind) and the locked stamp-sigil pentagon geometry (StampSigilGeometry),\n        consumed by the koncept AsciiDoc extension and — downstream in the release cascade — by Komet.",
       "date_published": "2026-08-23T05:15:08Z",
-      "date_modified": "2026-08-23T05:57:22Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -463,7 +527,7 @@
       "content_text": "network.ike.docs:ike-docs 108 发布, Documentation plumbing for the IKE Network. Hosts the\n        ike-doc-maven-plugin (ike-doc packaging, AsciiDoc/render\n        pipeline, PDF dispatch), the Koncept AsciiDoc extension,\n        DocBook XSL + fonts, shared doc resources, and the semantic\n        linebreak reformatter. Split from ike-pipeline to resolve the\n        extensions=true reactor-load cycle. See IKE-Network/ike-issues#216.",
       "summary": "network.ike.docs:ike-docs 108 发布, Documentation plumbing for the IKE Network. Hosts the\n        ike-doc-maven-plugin (ike-doc packaging, AsciiDoc/render\n        pipeline, PDF dispatch), the Koncept AsciiDoc extension,\n        DocBook XSL + fonts, shared doc resources, and the semantic\n        linebreak reformatter. Split from ike-pipeline to resolve the\n        extensions=true reactor-load cycle. See IKE-Network/ike-issues#216.",
       "date_published": "2026-08-23T05:15:08Z",
-      "date_modified": "2026-08-23T05:57:26Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -495,7 +559,7 @@
       "content_text": "network.ike.docs:ike-doc-ingest 108 发布, Reusable infrastructure for ingesting external content into IKE\n        documentation corpus projects. Provides tarball download/extract,\n        AsciiDoc topic-fragment writing with IKE-INGEST provenance\n        attributes, topic-registry shard writing, and per-IG/per-source\n        _includes.adoc emission. Source-specific parsers (FHIR NPM\n        packages, FDA IFU PDFs, ISO standards, etc.) live in each\n        corpus project's own ingest module and consume this library.",
       "summary": "network.ike.docs:ike-doc-ingest 108 发布, Reusable infrastructure for ingesting external content into IKE\n        documentation corpus projects. Provides tarball download/extract,\n        AsciiDoc topic-fragment writing with IKE-INGEST provenance\n        attributes, topic-registry shard writing, and per-IG/per-source\n        _includes.adoc emission. Source-specific parsers (FHIR NPM\n        packages, FDA IFU PDFs, ISO standards, etc.) live in each\n        corpus project's own ingest module and consume this library.",
       "date_published": "2026-08-23T05:15:08Z",
-      "date_modified": "2026-08-23T05:57:24Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -527,7 +591,7 @@
       "content_text": "network.ike.docs:docbook-xsl 108 发布, DocBook XSL 1.79.2 stylesheets with IKE FO customization layer.\n        Ready-to-use artifact for the AsciiDoc → DocBook5 → XSL-FO → PDF pipeline.",
       "summary": "network.ike.docs:docbook-xsl 108 发布, DocBook XSL 1.79.2 stylesheets with IKE FO customization layer.\n        Ready-to-use artifact for the AsciiDoc → DocBook5 → XSL-FO → PDF pipeline.",
       "date_published": "2026-08-23T05:15:08Z",
-      "date_modified": "2026-08-23T05:57:23Z",
+      "date_modified": "2026-08-23T06:00:08Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -559,7 +623,7 @@
       "content_text": "network.ike.docs:ike-doc-maven-plugin 108 发布, Maven plugin (prefix idoc:) driving the IKE documentation pipeline:\n        AsciiDoctorJ rendering, 6 PDF renderer dispatch, SVG/DocBook\n        post-processing, breadcrumb injection, and ike-doc packaging.",
       "summary": "network.ike.docs:ike-doc-maven-plugin 108 发布, Maven plugin (prefix idoc:) driving the IKE documentation pipeline:\n        AsciiDoctorJ rendering, 6 PDF renderer dispatch, SVG/DocBook\n        post-processing, breadcrumb injection, and ike-doc packaging.",
       "date_published": "2026-08-23T05:15:08Z",
-      "date_modified": "2026-08-23T05:57:26Z",
+      "date_modified": "2026-08-23T06:00:10Z",
       "authors": [
         {
           "name": "MvnArtifactReleaseQueue"
@@ -2784,38 +2848,6 @@
         },
         {
           "name": "Moriafly"
-        }
-      ],
-      "tags": [
-        "Artifact",
-        "Maven",
-        "Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Feed/Artifact.svg",
-          "mime_type": "image/svg+xml",
-          "title": "最新版本元数据信息SVG",
-          "size_in_bytes": 12345678,
-          "duration_in_seconds": 10
-        }
-      ]
-    },
-    {
-      "id": "pkg:maven/network.ike.platform/ike-workspace-maven-plugin@175",
-      "url": "https://central.sonatype.com/artifact/network.ike.platform/ike-workspace-maven-plugin",
-      "title": "network.ike.platform:ike-workspace-maven-plugin 175 发布, Cross-platform Maven plugin for multi-repository workspace management:\n        initialization, verification, feature branching, release orchestration,\n        and checkpoint creation.",
-      "content_html": "<img src=\"https://mvnrepository.com/img/5fd7b8212ae965f2937e0384659a4fc8\" width=\"100\" height=\"100\" alt=\"network.ike.platform:ike-workspace-maven-plugin@175\"/></br>\n          <img src=\"https://raw.githubusercontent.com/ACANX/MavenArtifact/refs/heads/latest/Badge/network/ike/platform/ike-workspace-maven-plugin.svg\" alt=\"network.ike.platform:ike-workspace-maven-plugin 175 发布, Cross-platform Maven plugin for multi-repository workspace management:\n        initialization, verification, feature branching, release orchestration,\n        and checkpoint creation.\"/></br>\n          <a href=\"https://repo1.maven.org/maven2/network/ike/platform/ike-workspace-maven-plugin/175/\"><p><span>Maven中央仓库中下载此构件</span></p></a></br>\n          <a href=\"https://central.sonatype.com/artifact/network.ike.platform/ike-workspace-maven-plugin\"><p><span>SonaTypeMavenCentralRepository网站中查看此构件</span></p></a></br>\n          <a href=\"https://mvnrepository.com/artifact/network.ike.platform/ike-workspace-maven-plugin/175\"><p><span>MvnRepository中查看此构件</span></p></a></br>\n          <a href=\"https://ike.network/ike-platform/ike-workspace-maven-plugin/\"><p><span>项目网址</span></p></a></br>\n          <a href=\"https://github.com/IKE-Network/ike-platform/ike-workspace-maven-plugin\"><p><span>仓库地址</span></p></a><br>\n          \n          <h3>GAV坐标<h3>\n          <pre>\n            <code class=\"language-xml\">    &lt;dependency&gt;\n        &lt;groupId&gt;network.ike.platform&lt;/groupId&gt;\n        &lt;artifactId&gt;ike-workspace-maven-plugin&lt;/artifactId&gt;\n        &lt;version&gt;175&lt;/version&gt;\n    &lt;/dependency&gt;\n            </code>\n          </pre>\n        ",
-      "content_text": "network.ike.platform:ike-workspace-maven-plugin 175 发布, Cross-platform Maven plugin for multi-repository workspace management:\n        initialization, verification, feature branching, release orchestration,\n        and checkpoint creation.",
-      "summary": "network.ike.platform:ike-workspace-maven-plugin 175 发布, Cross-platform Maven plugin for multi-repository workspace management:\n        initialization, verification, feature branching, release orchestration,\n        and checkpoint creation.",
-      "date_published": "2026-08-23T04:20:31Z",
-      "date_modified": "2026-08-23T04:57:02Z",
-      "authors": [
-        {
-          "name": "MvnArtifactReleaseQueue"
-        },
-        {
-          "name": "IKE Network Team"
         }
       ],
       "tags": [
