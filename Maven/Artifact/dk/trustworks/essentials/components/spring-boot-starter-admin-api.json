@@ -1,0 +1,16 @@
+{
+  "id": "pkg:maven/dk.trustworks.essentials.components/spring-boot-starter-admin-api",
+  "description": "HTTP adapter for the Essentials admin/monitoring SPIs (fenced locks, durable queues, scheduler,\n        event store, CDC, PostgreSQL statistics). Exposes the contract defined by admin-api-spec over\n        Spring WebMVC, delegating to the existing *Api beans. Authentication is the host's concern:\n        the caller's principal is resolved through EssentialsAuthenticatedUser and authorized by role\n        through EssentialsSecurityProvider, both of which the consumer implements.",
+  "group_id": "dk.trustworks.essentials.components",
+  "artifact_id": "spring-boot-starter-admin-api",
+  "version_latest": "0.50.0",
+  "ts_publish": 1787582942000,
+  "dt_publish": "2026-08-24 22:49:02.000",
+  "ts_update": 1787584870297,
+  "dt_update": "2026-08-24 23:21:10.297",
+  "count_dep": 27,
+  "count_ref": 2,
+  "licenses": [],
+  "categories": null,
+  "dsv": 1
+}
