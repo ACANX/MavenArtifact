@@ -3,12 +3,12 @@
 	"description":"The annotation the rule set expects to find in a consumer's source. This is the only Airness\n        artifact that reaches a consuming project's compile classpath, which is why it is an artifact of\n        its own rather than a package inside airness-config: folding it in would put the analyzer\n        configurations on that classpath as well, to no purpose.\n\n        It carries no dependencies and no runtime cost. The annotation has SOURCE retention, so it does\n        not survive compilation into the consumer's artifact.",
 	"group_id":"eu.ciechanowiec",
 	"artifact_id":"airness-annotations",
-	"version_latest":"1.0.4",
-	"ts_publish":1787032488000,
-	"dt_publish":"2026-08-18 13:54:48.000",
-	"ts_update":1787034462257,
-	"dt_update":"2026-08-18 14:27:31.467",
-	"count_dep":0,
+	"version_latest":"1.0.5",
+	"ts_publish":1787649770000,
+	"dt_publish":"2026-08-25 17:22:50.000",
+	"ts_update":1787651727726,
+	"dt_update":"2026-08-25 17:55:20.466",
+	"count_dep":2,
 	"count_ref":3,
 	"licenses":[
 		"MIT-0"

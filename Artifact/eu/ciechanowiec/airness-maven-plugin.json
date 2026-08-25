@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/eu.ciechanowiec/airness-maven-plugin",
-	"description":"The Maven goals that bind governance checks and explicit repair operations to the build. Checks\n        are read-only. Repair goals run only when called directly.\n\n        A check that shipped as a test could be accidentally deselected by -Dtest=OneClass. As goals the\n        checks stay bound to their phases, their parameters are named and typed, and a failure names the\n        check in the line that reports it. Every check and writing goal explicitly honors -DskipTests as\n        the quality and governance bypass.",
+	"description":"The Maven goals that bind governance checks and explicit repair operations to the build. A check\n        reads the tree without changing it unless a repair switch is set for it, and no switch is set by\n        an ordinary build. The assets-sync goal writes only when called directly, and source-formatting\n        writes only under the format profile.\n\n        A check that shipped as a test could be accidentally deselected by -Dtest=OneClass. As goals the\n        checks stay bound to their phases, their parameters are named and typed, and a failure names the\n        check in the line that reports it. Every goal honors -DskipTests as the quality and governance\n        bypass, except the publication checks, which a release must answer even though it skips the tests\n        it already ran.",
 	"group_id":"eu.ciechanowiec",
 	"artifact_id":"airness-maven-plugin",
-	"version_latest":"1.0.4",
-	"ts_publish":1787032488000,
-	"dt_publish":"2026-08-18 13:54:48.000",
-	"ts_update":1787034463038,
-	"dt_update":"2026-08-18 14:27:31.466",
-	"count_dep":91,
+	"version_latest":"1.0.5",
+	"ts_publish":1787649770000,
+	"dt_publish":"2026-08-25 17:22:50.000",
+	"ts_update":1787651727955,
+	"dt_update":"2026-08-25 17:55:20.466",
+	"count_dep":94,
 	"count_ref":0,
 	"licenses":[
 		"MIT-0"
