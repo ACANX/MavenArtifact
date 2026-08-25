@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.micrometer.registry/quarkus-micrometer-registry-newrelic",
 	"group_id":"io.quarkiverse.micrometer.registry",
 	"artifact_id":"quarkus-micrometer-registry-newrelic",
-	"version_latest":"3.5.0",
-	"ts_publish":1772121462000,
-	"dt_publish":"2026-02-26 23:57:42.000",
-	"ts_update":1775644064628,
-	"dt_update":"2026-02-27 00:10:48.242",
-	"count_dep":2,
+	"version_latest":"3.6.0",
+	"ts_publish":1787662276000,
+	"dt_publish":"2026-08-25 20:51:16.000",
+	"ts_update":1787664508807,
+	"dt_update":"2026-08-25 21:27:39.717",
+	"count_dep":102,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -191,5 +193,6 @@
 			"version":"1.0.2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Send metrics to New Relic using the New Relic API"
 }
