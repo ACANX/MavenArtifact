@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/io.github.captainssingapura-hue.homing.js/homing-relation-grid",
+	"description":"The Relation Grid (RFC 0050) — the generic Excel-like table primitive\n        family. Two DomOpsParty branches merged visually (a layout branch owning\n        the td CellSlots; a cells branch owning every ActualCell for its whole\n        life), a Relation data model with typed primary keys, and a\n        placement-only (i,j) -> (PK, columnName) lookup so view operations are\n        pure remaps. Selection re-instantiates the workspace's RFC 0049\n        recompute model one level down.\n\n        This module is deliberately its own Maven module (one Crate per module):\n        the grid is a reusable primitive family, consumable by any downstream\n        without the studio or workspace shells. Phase 1 content: the typed\n        contracts (RelationGridContract / GridCellContract /\n        RelationAdapterContract) and GridViewMaps — the pure identity/position\n        seam, the ONLY place (i,j) meets (PK, columnName).",
+	"group_id":"io.github.captainssingapura-hue.homing.js",
+	"artifact_id":"homing-relation-grid",
+	"version_latest":"0.7.1",
+	"ts_publish":1787649176000,
+	"dt_publish":"2026-08-25 17:12:56.000",
+	"ts_update":1787650051777,
+	"dt_update":"2026-08-25 17:27:22.231",
+	"count_dep":5,
+	"count_ref":1,
+	"licenses":[
+		"MIT License"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/captainssingapura-hue/homing-ssjs-core/homing-relation-grid",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.github.captainssingapura-hue.homing.js:homing-relation-grid/0.7.1",
+	"contributors":[
+		"captainssingapura-hue"
+	],
+	"url_scm":"https://github.com/captainssingapura-hue/homing-ssjs-core/homing-relation-grid"
+}
