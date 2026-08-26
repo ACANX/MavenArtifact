@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkus/quarkus-opentelemetry-deployment",
 	"group_id":"io.quarkus",
 	"artifact_id":"quarkus-opentelemetry-deployment",
-	"version_latest":"3.38.0.CR1",
-	"ts_publish":1784104993000,
-	"dt_publish":"2026-07-15 16:43:13.000",
-	"ts_update":1784109458951,
-	"dt_update":"2026-07-15 17:27:40.575",
-	"count_dep":35,
+	"version_latest":"3.39.1",
+	"ts_publish":1787744418000,
+	"dt_publish":"2026-08-26 19:40:18.000",
+	"ts_update":1787747309689,
+	"dt_update":"2026-08-26 20:27:51.841",
+	"count_dep":42,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -193,5 +195,6 @@
 			"version":"3.27.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Build parent to bring in required dependencies"
 }
