@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-http",
 	"group_id":"io.quarkiverse.mcp",
 	"artifact_id":"quarkus-mcp-server-http",
-	"version_latest":"2.0.0.CR2",
-	"ts_publish":1786695084000,
-	"dt_publish":"2026-08-14 16:11:24.000",
-	"ts_update":1786696064570,
-	"dt_update":"2026-08-14 16:27:29.948",
-	"count_dep":3,
+	"version_latest":"2.0.0",
+	"ts_publish":1787815690000,
+	"dt_publish":"2026-08-27 15:28:10.000",
+	"ts_update":1787817472067,
+	"dt_update":"2026-08-27 15:57:37.477",
+	"count_dep":106,
 	"count_ref":9,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_project":"https://quarkiverse.io",
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.mcp/quarkus-mcp-server-http@1.8.0",
@@ -35,5 +37,6 @@
 			"version":"1.8.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
