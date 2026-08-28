@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/ai.mindconnect/mc-taskqueue-cluster-demo",
+	"description":"The task queue as a cluster: ONE jar, two roles. The master serves the\n        dashboard, submits tasks and starts/monitors worker JVMs as OS processes;\n        workers run the unchanged LocalTaskQueue against the shared Postgres\n        store. REST nudges are accelerators only — the store is the truth.",
+	"group_id":"ai.mindconnect",
+	"artifact_id":"mc-taskqueue-cluster-demo",
+	"version_latest":"0.0.2",
+	"ts_publish":1787869056000,
+	"dt_publish":"2026-08-28 06:17:36.000",
+	"ts_update":1787876910420,
+	"dt_update":"2026-08-28 08:27:43.177",
+	"count_dep":76,
+	"count_ref":0,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/mindconnect-ai/mindconnect/mc-taskqueue-cluster-demo",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/ai.mindconnect:mc-taskqueue-cluster-demo/0.0.2",
+	"contributors":[
+		"David Beisert"
+	],
+	"url_scm":"https://github.com/mindconnect-ai/mindconnect/mc-taskqueue-cluster-demo"
+}

@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/ai.mindconnect/mc-agent-tools-web-browser",
+	"description":"Browser-driven web tools — uses headless Chromium via Playwright to\n        fetch single-page-app sites that the plain-HTTP mc-agent-tools-web\n        can't see (JavaScript-rendered content, cookie/consent banners that\n        block static fetches, etc.).\n\n        Kept as a separate module from mc-agent-tools-web because it pulls\n        in a ~150MB Chromium download on first use — apps that don't want\n        that footprint can leave this off their classpath.",
+	"group_id":"ai.mindconnect",
+	"artifact_id":"mc-agent-tools-web-browser",
+	"version_latest":"0.0.2",
+	"ts_publish":1787869056000,
+	"dt_publish":"2026-08-28 06:17:36.000",
+	"ts_update":1787876882827,
+	"dt_update":"2026-08-28 08:27:42.570",
+	"count_dep":99,
+	"count_ref":1,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/mindconnect-ai/mindconnect/mc-agents-parent/mc-agent-tools-web-browser",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/ai.mindconnect:mc-agent-tools-web-browser/0.0.2",
+	"contributors":[
+		"David Beisert"
+	],
+	"url_scm":"https://github.com/mindconnect-ai/mindconnect/mc-agents-parent/mc-agent-tools-web-browser"
+}
