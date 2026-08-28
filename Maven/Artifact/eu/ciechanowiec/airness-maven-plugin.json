@@ -3,12 +3,12 @@
   "description": "The Maven goals that bind governance checks and explicit repair operations to the build. A check\n        reads the tree without changing it unless a repair switch is set for it, and no switch is set by\n        an ordinary build. The assets-sync goal writes only when called directly, and source-formatting\n        writes only under the format profile.\n\n        A check that shipped as a test could be accidentally deselected by -Dtest=OneClass. As goals the\n        checks stay bound to their phases, their parameters are named and typed, and a failure names the\n        check in the line that reports it. Every goal honors -DskipTests as the quality and governance\n        bypass, except the publication checks, which a release must answer even though it skips the tests\n        it already ran.",
   "group_id": "eu.ciechanowiec",
   "artifact_id": "airness-maven-plugin",
-  "version_latest": "1.0.5",
-  "ts_publish": 1787649770000,
-  "dt_publish": "2026-08-25 17:22:50.000",
-  "ts_update": 1787651720466,
-  "dt_update": "2026-08-25 17:55:20.466",
-  "count_dep": 94,
+  "version_latest": "1.0.6",
+  "ts_publish": 1787921384000,
+  "dt_publish": "2026-08-28 20:49:44.000",
+  "ts_update": 1787923732326,
+  "dt_update": "2026-08-28 21:28:52.326",
+  "count_dep": 97,
   "count_ref": 0,
   "licenses": [
     "MIT-0"
