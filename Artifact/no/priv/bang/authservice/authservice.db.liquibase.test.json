@@ -2,14 +2,16 @@
 	"id":"pkg:maven/no.priv.bang.authservice/authservice.db.liquibase.test",
 	"group_id":"no.priv.bang.authservice",
 	"artifact_id":"authservice.db.liquibase.test",
-	"version_latest":"3.0.17",
-	"ts_publish":1784541809000,
-	"dt_publish":"2026-07-20 18:03:29.000",
-	"ts_update":1784543246894,
-	"dt_update":"2026-07-20 18:27:16.503",
-	"count_dep":19,
+	"version_latest":"3.0.18",
+	"ts_publish":1787954643000,
+	"dt_publish":"2026-08-29 06:04:03.000",
+	"ts_update":1787956080156,
+	"dt_update":"2026-08-29 06:27:42.180",
+	"count_dep":38,
 	"count_ref":6,
-	"licenses":[],
+	"licenses":[
+		"Apache License version 2"
+	],
 	"categories":[
 		"Uncategorized"
 	],
@@ -193,5 +195,6 @@
 			"version":"2.0.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"A drop-in shiro user database for apache karaf web whiteboard, with user administration UI and user self-service password and user info change. In addition can serve as forms based authentication for nginx"
 }
