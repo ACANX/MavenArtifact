@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.souther-lang/souther-program-api-test",
+  "description": "Stands where an output outside souther-compiler stands. It depends on souther-compiler and on\n        nothing else of this project, reads a checked program through the boundary meant for it, and\n        holds that boundary to what it is for: a compiler is not something an output reads.\n\n        Nothing ships from here. It exists because the property being kept — that an artifact of its\n        own can consume a checked Souther program — is about what a separate artifact can compile\n        against, and no test living inside souther-compiler is separate from it.",
+  "group_id": "org.souther-lang",
+  "artifact_id": "souther-program-api-test",
+  "version_latest": "0.1.0",
+  "ts_publish": 1787970885000,
+  "dt_publish": "2026-08-29 10:34:45.000",
+  "ts_update": 1787972171640,
+  "dt_update": "2026-08-29 10:56:11.640",
+  "count_dep": 10,
+  "count_ref": 0,
+  "licenses": [
+    "Eclipse Public License - v 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
