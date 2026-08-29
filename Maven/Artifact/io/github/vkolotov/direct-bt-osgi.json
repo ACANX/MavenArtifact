@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.vkolotov/direct-bt-osgi",
+  "description": "OSGi bundle wrapping the Direct-BT library: it embeds the Direct-BT fat jar (Java API + platform\n    natives), declares the natives via Bundle-NativeCode so the framework loads them, and adds a small\n    activator so consumers (e.g. the openHAB Direct-BT binding) can use Direct-BT in an OSGi runtime.\n    This bundle is versioned independently of the embedded Direct-BT release (see directbt.version).",
+  "group_id": "io.github.vkolotov",
+  "artifact_id": "direct-bt-osgi",
+  "version_latest": "3.3.6",
+  "ts_publish": 1787990834000,
+  "dt_publish": "2026-08-29 16:07:14.000",
+  "ts_update": 1787992037857,
+  "dt_update": "2026-08-29 16:27:17.857",
+  "count_dep": 2,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
