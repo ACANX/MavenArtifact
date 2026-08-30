@@ -1,0 +1,16 @@
+{
+  "id": "pkg:maven/ai.mindconnect/mc-agent-chat-ui-rest",
+  "description": "The chat UI — message list, composer, attachments and the streaming\n        turn view, as UiNode-rendering components and the controllers that\n        serve them. A library, like mc-agent-api-rest: no Spring Boot main\n        class, so a host app decides how it is wired and secured.\n\n        This is the lower of the two UI modules: the admin UI depends on it\n        for its own chat page, not the other way round. A user-facing chat\n        must not have to ship agent CRUD, LLM configs, traces and migrations.",
+  "group_id": "ai.mindconnect",
+  "artifact_id": "mc-agent-chat-ui-rest",
+  "version_latest": "0.0.3",
+  "ts_publish": 1788072682000,
+  "dt_publish": "2026-08-30 14:51:22.000",
+  "ts_update": 1788074865112,
+  "dt_update": "2026-08-30 15:27:45.112",
+  "count_dep": 10,
+  "count_ref": 1,
+  "licenses": [],
+  "categories": null,
+  "dsv": 1
+}
