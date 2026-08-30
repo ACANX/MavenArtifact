@@ -1,0 +1,16 @@
+{
+	"id":"pkg:maven/io.vidocq.runtime.extensions.microprofile/vidocq-runtime-heisenberg-fault-tolerance-extension",
+	"description":"Maven/JPMS wrapper activating Heisenberg (MicroProfile Fault Tolerance 4.1) in a\n        vidocq deployment. No own Java class — the integration relies entirely on\n        heisenberg-cdi-vauban's BuildCompatibleExtension (discovery of @Retry/@Timeout/\n        @CircuitBreaker/@Bulkhead/@Fallback/@Asynchronous and registration of the fault-tolerance\n        interceptors). Mirrors vidocq-runtime-dirac-metrics-extension / knock-health-extension.",
+	"group_id":"io.vidocq.runtime.extensions.microprofile",
+	"artifact_id":"vidocq-runtime-heisenberg-fault-tolerance-extension",
+	"version_latest":"0.3.0",
+	"ts_publish":1788125103000,
+	"dt_publish":"2026-08-31 05:25:03.000",
+	"ts_update":1788127056166,
+	"dt_update":"2026-08-31 05:57:22.783",
+	"count_dep":3,
+	"count_ref":0,
+	"licenses":[],
+	"dsv":1,
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.vidocq.runtime.extensions.microprofile:vidocq-runtime-heisenberg-fault-tolerance-extension/0.3.0"
+}

@@ -1,0 +1,25 @@
+{
+	"id":"pkg:maven/io.vidocq.runtime.extensions.module.repackaged/vidocq-runtime-h2-module-repackaged",
+	"description":"Verbatim repackage of com.h2database:h2 with an added explicit module-info.class (module\n        name: com.h2database, generated with `jdeps --generate-module-info`). The official artifact\n        only declares Automatic-Module-Name, which jlink rejects — this turns it into an explicit\n        Java module WITHOUT modifying any H2 class, so runtimes/examples embedding H2 can be\n        jlink'd / jpackage'd. The H2 class files retain their original license (MPL 2.0 / EPL 1.0);\n        only the added module-info.java is Vidocq's, under the project license.",
+	"group_id":"io.vidocq.runtime.extensions.module.repackaged",
+	"artifact_id":"vidocq-runtime-h2-module-repackaged",
+	"version_latest":"0.3.0",
+	"ts_publish":1788125103000,
+	"dt_publish":"2026-08-31 05:25:03.000",
+	"ts_update":1788127058965,
+	"dt_update":"2026-08-31 05:57:22.205",
+	"count_dep":1,
+	"count_ref":0,
+	"licenses":[
+		"EPL 1.0",
+		"MPL 2.0"
+	],
+	"dsv":1,
+	"url_project":"https://codefloe.com/Vidocq/vidocq/vidocq-runtime-extensions/vidocq-runtime-extensions-module-repackaged/vidocq-runtime-h2-module-repackaged",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/io.vidocq.runtime.extensions.module.repackaged:vidocq-runtime-h2-module-repackaged/0.3.0",
+	"contributors":[
+		"Yann Blazart",
+		"Antoine Sabot Durand"
+	],
+	"url_scm":"https://codefloe.com/Vidocq/vidocq/vidocq-runtime-extensions/vidocq-runtime-extensions-module-repackaged/vidocq-runtime-h2-module-repackaged"
+}
