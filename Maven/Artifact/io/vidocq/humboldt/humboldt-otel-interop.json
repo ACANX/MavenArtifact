@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/io.vidocq.humboldt/humboldt-otel-interop",
+  "description": "OpenTelemetry SDK autoconfigure SPI interoperability layer. Discovers OTel SDK\n        autoconfigure providers (ConfigurableSpanExporterProvider, ConfigurableMetricExporterProvider,\n        ConfigurableSamplerProvider, ConfigurablePropagatorProvider, ResourceProvider,\n        AutoConfigurationCustomizerProvider) via ServiceLoader on a caller-supplied ClassLoader\n        and bridges them to the Humboldt SDK. The OTel SDK artifacts are provided-scope: the\n        consumer supplies them at runtime (Humboldt itself never bundles the OTel SDK).",
+  "group_id": "io.vidocq.humboldt",
+  "artifact_id": "humboldt-otel-interop",
+  "version_latest": "0.3.0",
+  "ts_publish": 1788121547000,
+  "dt_publish": "2026-08-31 04:25:47.000",
+  "ts_update": 1788123447013,
+  "dt_update": "2026-08-31 04:57:27.013",
+  "count_dep": 17,
+  "count_ref": 0,
+  "licenses": [
+    "GPL-2.0-or-later",
+    "EPL-2.0",
+    "EUPL-1.2"
+  ],
+  "categories": null,
+  "dsv": 1
+}
