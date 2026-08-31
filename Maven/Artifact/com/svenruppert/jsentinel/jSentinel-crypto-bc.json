@@ -1,16 +1,18 @@
 {
   "id": "pkg:maven/com.svenruppert.jsentinel/jSentinel-crypto-bc",
-  "description": "Optional Phase-1b extension that adds memory-hard and bcrypt-style\n    password hashing providers backed by BouncyCastle (Argon2id,\n    bcrypt, scrypt) on top of the V00.71 PasswordHashProvider SPI from\n    jSentinel-core. Strictly opt-in: applications that do not depend on\n    this module never pull in bcprov. Loading the module also does not\n    touch the global JCA provider order — every algorithm is invoked\n    through the BouncyCastle low-level Bouncy Castle Crypto APIs.",
+  "description": "jSentinel was rebranded to jCustos in V00.81.10. This artifact moved to eu.jsentinel:jCustos-crypto-bc. Update your dependency coordinates; packages moved from com.svenruppert.jsentinel to eu.jsentinel.jcustos.",
   "group_id": "com.svenruppert.jsentinel",
   "artifact_id": "jSentinel-crypto-bc",
-  "version_latest": "00.79.41",
-  "ts_publish": 1783330067000,
-  "dt_publish": "2026-07-06 17:27:47.000",
-  "ts_update": 1783331833889,
-  "dt_update": "2026-07-06 17:57:13.889",
-  "count_dep": 18,
-  "count_ref": 1,
-  "licenses": [],
+  "version_latest": "00.81.10",
+  "ts_publish": 1788191784000,
+  "dt_publish": "2026-08-31 23:56:24.000",
+  "ts_update": 1788193649362,
+  "dt_update": "2026-09-01 00:27:29.362",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "European Union Public License 1.2"
+  ],
   "categories": null,
   "dsv": 1
 }

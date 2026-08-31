@@ -1,17 +1,17 @@
 {
   "id": "pkg:maven/com.svenruppert.jsentinel/jSentinel-processor",
-  "description": "Compile-time annotation processor that generates a Secured wrapper\n    subclass for each @Secured-annotated concrete class. The generated\n    wrapper routes every public, non-final, non-static method through\n    JSentinelEnforcer when the method (or class) carries a method-security\n    annotation (@RequiresRole, @RequiresPermission, @RequiresAnyPermission,\n    @RequiresAllPermissions, @RequiresPolicy).\n\n    Runtime sibling: SecuredProxy in jSentinel-standalone for the\n    JDK-dynamic-proxy path on interfaces.",
+  "description": "jSentinel was rebranded to jCustos in V00.81.10. This artifact moved to eu.jsentinel:jCustos-processor. Update your dependency coordinates; packages moved from com.svenruppert.jsentinel to eu.jsentinel.jcustos.",
   "group_id": "com.svenruppert.jsentinel",
   "artifact_id": "jSentinel-processor",
-  "version_latest": "00.79.41",
-  "ts_publish": 1783330067000,
-  "dt_publish": "2026-07-06 17:27:47.000",
-  "ts_update": 1783331833892,
-  "dt_update": "2026-07-06 17:57:13.892",
-  "count_dep": 22,
+  "version_latest": "00.81.10",
+  "ts_publish": 1788191784000,
+  "dt_publish": "2026-08-31 23:56:24.000",
+  "ts_update": 1788193648766,
+  "dt_update": "2026-09-01 00:27:28.766",
+  "count_dep": 0,
   "count_ref": 0,
   "licenses": [
-    "European Union Public Licence 1.2"
+    "European Union Public License 1.2"
   ],
   "categories": null,
   "dsv": 1

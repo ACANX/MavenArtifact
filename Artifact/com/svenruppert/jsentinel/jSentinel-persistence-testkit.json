@@ -1,17 +1,17 @@
 {
 	"id":"pkg:maven/com.svenruppert.jsentinel/jSentinel-persistence-testkit",
-	"description":"JUnit-5 contract interfaces that every concrete implementation of\n    the Phase-2 persistence stores must satisfy. Consumers (the\n    in-memory defaults and the Eclipse-Store-backed implementations\n    alike) write one tiny adapter class per store that returns a\n    freshly-constructed instance from newStore(); JUnit picks up the\n    @Test default methods of the contract interface as test methods on\n    the adapter.",
+	"description":"jSentinel was rebranded to jCustos in V00.81.10. This artifact moved to eu.jsentinel:jCustos-persistence-testkit. Update your dependency coordinates; packages moved from com.svenruppert.jsentinel to eu.jsentinel.jcustos.",
 	"group_id":"com.svenruppert.jsentinel",
 	"artifact_id":"jSentinel-persistence-testkit",
-	"version_latest":"00.79.41",
-	"ts_publish":1783330067000,
-	"dt_publish":"2026-07-06 17:27:47.000",
-	"ts_update":1783331841967,
-	"dt_update":"2026-07-06 17:57:13.460",
-	"count_dep":23,
-	"count_ref":1,
+	"version_latest":"00.81.10",
+	"ts_publish":1788191784000,
+	"dt_publish":"2026-08-31 23:56:24.000",
+	"ts_update":1788193657708,
+	"dt_update":"2026-09-01 00:27:29.956",
+	"count_dep":0,
+	"count_ref":0,
 	"licenses":[
-		"European Union Public Licence 1.2"
+		"European Union Public License 1.2"
 	],
 	"dsv":1,
 	"url_project":"https://github.com/vaadin-developer/security-for-flow/jSentinel-persistence-testkit",
