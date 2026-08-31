@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.sonarsource.scanner.lib/sonar-scanner-java-library-shaded",
+  "description": "Fat jar of sonar-scanner-java-library with every third-party runtime dependency - direct (gson, commons-compress,\n    commons-lang3, fastcsv, ayza, BouncyCastle) and transitive (commons-io, commons-codec, sude,\n    error_prone_annotations) - relocated under org.sonarsource.scanner.lib.internal, so that the scanner never\n    conflicts with a different version of any of them already present on the classpath. This is meant for embedding\n    tools that don't isolate their plugins in separate classloaders (e.g. Gradle / AGP) - Maven and the CLI don't\n    need it, and keep depending on the plain sonar-scanner-java-library artifact instead.\n    This module has no main sources of its own: it only relocates sonar-scanner-java-library and its dependencies.",
+  "group_id": "org.sonarsource.scanner.lib",
+  "artifact_id": "sonar-scanner-java-library-shaded",
+  "version_latest": "4.2.1.1698",
+  "ts_publish": 1788166959000,
+  "dt_publish": "2026-08-31 17:02:39.000",
+  "ts_update": 1788168452287,
+  "dt_update": "2026-08-31 17:27:32.287",
+  "count_dep": 5,
+  "count_ref": 0,
+  "licenses": [
+    "GNU LGPL 3"
+  ],
+  "categories": null,
+  "dsv": 1
+}
