@@ -3,14 +3,16 @@
   "description": "Optional Phase-1b extension that adds memory-hard and bcrypt-style\n    password hashing providers backed by BouncyCastle (Argon2id,\n    bcrypt, scrypt) on top of the V00.71 PasswordHashProvider SPI from\n    jCustos-core. Strictly opt-in: applications that do not depend on\n    this module never pull in bcprov. Loading the module also does not\n    touch the global JCA provider order — every algorithm is invoked\n    through the BouncyCastle low-level Bouncy Castle Crypto APIs.",
   "group_id": "eu.jsentinel",
   "artifact_id": "jCustos-crypto-bc",
-  "version_latest": "00.81.10",
-  "ts_publish": 1788190037000,
-  "dt_publish": "2026-08-31 23:27:17.000",
-  "ts_update": 1788191848238,
-  "dt_update": "2026-08-31 23:57:28.238",
-  "count_dep": 18,
+  "version_latest": "00.81.20",
+  "ts_publish": 1788209831000,
+  "dt_publish": "2026-09-01 04:57:11.000",
+  "ts_update": 1788211652752,
+  "dt_update": "2026-09-01 05:27:32.752",
+  "count_dep": 20,
   "count_ref": 1,
-  "licenses": [],
+  "licenses": [
+    "European Union Public Licence 1.2"
+  ],
   "categories": null,
   "dsv": 1
 }

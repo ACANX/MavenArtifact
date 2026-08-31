@@ -3,14 +3,16 @@
   "description": "V00.75 contract test suites (JUnit-5 @Test default interfaces) for\n    the seven Security Event Bus SPIs: PayloadCodec, SignatureAlgorithm,\n    KeyManagement, ReplayStore, SequenceStore, ProducerPolicy,\n    EventStore. Persistence-tech-agnostic — every adapter\n    implementation hands a fresh SPI instance into a newStore() method\n    and inherits the full contract.",
   "group_id": "eu.jsentinel",
   "artifact_id": "jCustos-events-testkit",
-  "version_latest": "00.81.10",
-  "ts_publish": 1788190037000,
-  "dt_publish": "2026-08-31 23:27:17.000",
-  "ts_update": 1788191847733,
-  "dt_update": "2026-08-31 23:57:27.733",
-  "count_dep": 17,
-  "count_ref": 4,
-  "licenses": [],
+  "version_latest": "00.81.20",
+  "ts_publish": 1788209831000,
+  "dt_publish": "2026-09-01 04:57:11.000",
+  "ts_update": 1788211653323,
+  "dt_update": "2026-09-01 05:27:33.323",
+  "count_dep": 24,
+  "count_ref": 0,
+  "licenses": [
+    "European Union Public Licence 1.2"
+  ],
   "categories": null,
   "dsv": 1
 }
