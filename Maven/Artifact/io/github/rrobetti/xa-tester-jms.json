@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.rrobetti/xa-tester-jms",
+  "description": "Wraps Jakarta Messaging XAConnectionFactory/XAConnection/XASession chains\n    with java.lang.reflect.Proxy dynamic proxies so the XAResource they hand\n    out is fault-injecting. Main code has no compile-time dependency on the\n    Jakarta Messaging API (or any provider); jakarta.jms-api is a test-only\n    dependency used to write realistic adapter tests.",
+  "group_id": "io.github.rrobetti",
+  "artifact_id": "xa-tester-jms",
+  "version_latest": "0.1.0-alpha",
+  "ts_publish": 1788261082000,
+  "dt_publish": "2026-09-01 19:11:22.000",
+  "ts_update": 1788262046322,
+  "dt_update": "2026-09-01 19:27:26.322",
+  "count_dep": 5,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
