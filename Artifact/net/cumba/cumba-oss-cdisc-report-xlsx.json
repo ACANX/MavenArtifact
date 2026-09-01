@@ -1,0 +1,23 @@
+{
+	"id":"pkg:maven/net.cumba/cumba-oss-cdisc-report-xlsx",
+	"description":"Pluggable XLSX report writer for the Cumba OSS validation report. Registers\n        the \"xlsx\" format with the engine's ReportWriterSupplier SPI and ships\n        the report template; this is the only module in the reactor that puts\n        Apache POI's writer path on the engine's classpath, so an engine\n        without it validates normally and simply offers no Excel output.",
+	"group_id":"net.cumba",
+	"artifact_id":"cumba-oss-cdisc-report-xlsx",
+	"version_latest":"0.1.0",
+	"ts_publish":1788250914000,
+	"dt_publish":"2026-09-01 16:21:54.000",
+	"ts_update":1788253067533,
+	"dt_update":"2026-09-01 16:57:36.969",
+	"count_dep":35,
+	"count_ref":0,
+	"licenses":[
+		"AGPL-3.0-only"
+	],
+	"dsv":1,
+	"url_project":"https://github.com/cumba-oss/cumba-oss-corej",
+	"url_oss_index":"https://guide.sonatype.com/component/maven/net.cumba:cumba-oss-cdisc-report-xlsx/0.1.0",
+	"contributors":[
+		"Michael Weiss"
+	],
+	"url_scm":"https://github.com/cumba-oss/cumba-oss-corej"
+}
