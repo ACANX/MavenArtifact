@@ -3,14 +3,16 @@
 	"description":"V00.78 opt-in module: OpenID Connect Relying-Party identity on top of the\n    V00.76 JWT and V00.77 OAuth2 building blocks — discovery, ID-token validation\n    (nonce / azp / at_hash / auth_time / acr), UserInfo, RP-initiated logout and\n    claims-to-subject mapping. JDK HttpClient only; the in-tree JSON scanner parses\n    responses (no JSON library). ID-token validation composes the jCustos-jwt\n    JwtValidator SPI. Framework-neutral — no Vaadin / REST adapter types.",
 	"group_id":"eu.jsentinel",
 	"artifact_id":"jCustos-identity-oidc",
-	"version_latest":"00.81.10",
-	"ts_publish":1788190037000,
-	"dt_publish":"2026-08-31 23:27:17.000",
-	"ts_update":1788191893314,
-	"dt_update":"2026-08-31 23:57:27.243",
-	"count_dep":22,
+	"version_latest":"00.83.00",
+	"ts_publish":1788263510000,
+	"dt_publish":"2026-09-01 19:51:50.000",
+	"ts_update":1788265666160,
+	"dt_update":"2026-09-01 20:27:32.106",
+	"count_dep":23,
 	"count_ref":9,
-	"licenses":[],
+	"licenses":[
+		"European Union Public Licence 1.2"
+	],
 	"dsv":1,
 	"url_oss_index":"https://guide.sonatype.com/component/maven/eu.jsentinel:jCustos-identity-oidc/00.81.10"
 }
