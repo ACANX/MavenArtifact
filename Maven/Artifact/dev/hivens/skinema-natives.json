@@ -1,17 +1,18 @@
 {
   "id": "pkg:maven/dev.hivens/skinema-natives",
-  "description": "Trimmed FFmpeg runtimes for skinema in modular tiers (core/decode/full), one classifier jar per tier and platform.",
+  "description": "Trimmed FFmpeg runtimes for skinema in modular tiers, one classifier jar per tier and platform. The core and decode tiers are LGPL; the full tier adds x264/x265 software encode and is GPL. Each bundle carries its own licence texts.",
   "group_id": "dev.hivens",
   "artifact_id": "skinema-natives",
-  "version_latest": "8.1.1-1",
-  "ts_publish": 1784150986000,
-  "dt_publish": "2026-07-16 05:29:46.000",
-  "ts_update": 1784152556538,
-  "dt_update": "2026-07-16 05:55:56.538",
+  "version_latest": "9.0.1-1",
+  "ts_publish": 1788392346000,
+  "dt_publish": "2026-09-03 07:39:06.000",
+  "ts_update": 1788393454428,
+  "dt_update": "2026-09-03 07:57:34.428",
   "count_dep": 0,
   "count_ref": 0,
   "licenses": [
-    "Apache-2.0"
+    "LGPL-2.1-or-later",
+    "GPL-2.0-or-later"
   ],
   "categories": null,
   "dsv": 1

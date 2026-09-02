@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ai.ravenroot/ravenroot-plugin-bundle",
+  "description": "Manifest schema, checksum, path-safety and reserved-namespace validation for\n        drop-in plugin bundles (PLAT-12). A thin, zero-additional-dependency validator: it\n        depends only on ravenroot-application-api, reusing PayloadJson/PayloadValue/PayloadLimits\n        for manifest parsing rather than adding a YAML or JSON Schema library. Deliberately does\n        not depend on ravenroot-core: this module never loads a class, never touches\n        NodePackage/NodePackages, and is callable standalone by plugin.sh (build/validate/install)\n        without pulling in the runtime.",
+  "group_id": "ai.ravenroot",
+  "artifact_id": "ravenroot-plugin-bundle",
+  "version_latest": "0.1.0-alpha.1",
+  "ts_publish": 1788391921000,
+  "dt_publish": "2026-09-03 07:32:01.000",
+  "ts_update": 1788393455657,
+  "dt_update": "2026-09-03 07:57:35.657",
+  "count_dep": 2,
+  "count_ref": 3,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

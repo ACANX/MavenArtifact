@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ai.ravenroot/ravenroot-observability-otel",
+  "description": "PLAT-01: the OpenTelemetry export bridge, spans, metrics and\n        log-correlation identifiers derived from ai.ravenroot.api.application.ExecutionEvent, the\n        same event ai.ravenroot.server.audit.StructuredExecutionLogger already consumes. Depends on\n        ravenroot-application-api (the event shape) and ravenroot-core (ExecutionMonitor.subscribe,\n        the only extension point this module uses) and nothing else in the ai.ravenroot tree. Neither\n        of those two modules, nor ravenroot-application-api's other consumers, every third-party\n        node package, depends on this one: the OpenTelemetry SDK is reachable from exactly one kind\n        of caller, a composition root (RavenrootServerMain, RavenrootCliMain), which is what makes\n        \"no OpenTelemetry dependency in core\" a property the compiler enforces rather than prose.\n        Disabled unless RAVENROOT_OTEL_ENABLED is set; see\n        TelemetryConfiguration. Every OpenTelemetry artifact here is Apache License 2.0; this module\n        has not been through the release SBOM and licence scan and should be before it\n        ships in a tagged release.",
+  "group_id": "ai.ravenroot",
+  "artifact_id": "ravenroot-observability-otel",
+  "version_latest": "0.1.0-alpha.1",
+  "ts_publish": 1788391921000,
+  "dt_publish": "2026-09-03 07:32:01.000",
+  "ts_update": 1788393455234,
+  "dt_update": "2026-09-03 07:57:35.234",
+  "count_dep": 35,
+  "count_ref": 2,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
