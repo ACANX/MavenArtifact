@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/net.cumba/cumba-oss-datatable-testkit",
+  "description": "Test helpers for the corej-datatable contract, published as ordinary MAIN code so\n        consumers depend on a normal jar instead of a test-jar.\n\n        MockTable builds a Mockito-backed IDataTable from a fluent column spec;\n        TestMetadataFixtures builds in-memory IMetadataLibrary / IDataTableMetadata /\n        IColumnMetadata / ICodeList fixtures. Both were previously net.cumba.cdisc.core.*\n        classes in corej-cdisc-core's TEST tree, reached across the module boundary by a\n        test-jar dependency; they name nothing from cdisc-core, so they belong to datatable.\n\n        A published datatable artifact must not carry net.cumba.cdisc.core.* packages: that is\n        a permanent split package against cdisc-core's own test tree, and unfixable once on\n        Central. Hence net.cumba.datatable.testkit.",
+  "group_id": "net.cumba",
+  "artifact_id": "cumba-oss-datatable-testkit",
+  "version_latest": "0.2.0",
+  "ts_publish": 1788348398000,
+  "dt_publish": "2026-09-02 19:26:38.000",
+  "ts_update": 1788350260108,
+  "dt_update": "2026-09-02 19:57:40.108",
+  "count_dep": 12,
+  "count_ref": 0,
+  "licenses": [
+    "AGPL-3.0-only"
+  ],
+  "categories": null,
+  "dsv": 1
+}
