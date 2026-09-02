@@ -3,14 +3,16 @@
   "description": "RFC 0044 Phase 8 report I/O: ConformanceReportWriter serializes an\n        assembled ConformanceRun to files via the generated Java codec (one\n        summary + one file per module), and ConformanceReportSource reads them\n        back, mapping a module result by class id. Depends on the engine (to\n        assemble) and the output-only report-codec (to serialize). The studio\n        runs the export at build and reads via the source at runtime.",
   "group_id": "io.github.captainssingapura-hue.homing.js",
   "artifact_id": "homing-conformance-export",
-  "version_latest": "0.7.1",
-  "ts_publish": 1787649176000,
-  "dt_publish": "2026-08-25 17:12:56.000",
-  "ts_update": 1787650042891,
-  "dt_update": "2026-08-25 17:27:22.891",
-  "count_dep": 3,
+  "version_latest": "0.8.0",
+  "ts_publish": 1788352737000,
+  "dt_publish": "2026-09-02 20:38:57.000",
+  "ts_update": 1788355662977,
+  "dt_update": "2026-09-02 21:27:42.977",
+  "count_dep": 25,
   "count_ref": 1,
-  "licenses": [],
+  "licenses": [
+    "MIT License"
+  ],
   "categories": null,
   "dsv": 1
 }
