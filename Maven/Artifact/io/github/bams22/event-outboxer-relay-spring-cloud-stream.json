@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.bams22/event-outboxer-relay-spring-cloud-stream",
+  "description": "Ready-made broker relay over Spring Cloud Stream\n        (ADR-0032): a StreamOutboxPublisher facade stores messages\n        (binding, key, headers, payload) in the outbox inside the\n        caller's transaction, and a built-in EventHandler delivers\n        them to the broker through StreamBridge — no per-project\n        event DTO or handler required. Auto-activates when\n        StreamBridge is on the classpath; opt out with\n        event-outboxer.relay.stream.enabled=false.",
+  "group_id": "io.github.bams22",
+  "artifact_id": "event-outboxer-relay-spring-cloud-stream",
+  "version_latest": "0.7.0",
+  "ts_publish": 1788417137000,
+  "dt_publish": "2026-09-03 14:32:17.000",
+  "ts_update": 1788418654514,
+  "dt_update": "2026-09-03 14:57:34.514",
+  "count_dep": 70,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
