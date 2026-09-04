@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.jamal-wia/kmptoolkit-downloader-android",
+  "description": "A resumable background-download engine for large assets your app can't ship inside the binary: a bundled dataset, a downloadable model file, a media archive fetched from a server manifest. The transfer outlives the process — resumed after backgrounding, process death and restart — and a resource is verified before it counts as committed, so a consumer that gets pathOf(unit) back can open the file without defensive checks. Storage is shipped for you (Android and iOS); the platform transfer itself is a port you implement (BackgroundResourceDownloader), so the module has no HTTP client and no opinion about how bytes move. Pick this module if a resource must survive being backgrounded mid-download and must never be read half-written.",
+  "group_id": "io.github.jamal-wia",
+  "artifact_id": "kmptoolkit-downloader-android",
+  "version_latest": "1.0.2",
+  "ts_publish": 1788530980000,
+  "dt_publish": "2026-09-04 22:09:40.000",
+  "ts_update": 1788532072563,
+  "dt_update": "2026-09-04 22:27:52.563",
+  "count_dep": 6,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

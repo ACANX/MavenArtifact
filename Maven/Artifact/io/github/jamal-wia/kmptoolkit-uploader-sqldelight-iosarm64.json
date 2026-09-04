@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.jamal-wia/kmptoolkit-uploader-sqldelight-iosarm64",
+  "description": "The SQLDelight-backed UploaderStore for kmptoolkit-uploader: a durable queue table, an autoincrementing insertion sequence so same-millisecond enqueues keep their FIFO order, a single-statement compare-and-set behind recordFailure's lease guard, and a reentrant TransactionRunner that lets a domain write and the effect it owes commit together. Runs standalone on its own database file — named after your app, so two uploaders never collide — or on a SqlDriver you already own, which is what makes it a genuinely transactional uploader. Pick this module if you use kmptoolkit-uploader and do not want to implement its storage port yourself.",
+  "group_id": "io.github.jamal-wia",
+  "artifact_id": "kmptoolkit-uploader-sqldelight-iosarm64",
+  "version_latest": "1.0.2",
+  "ts_publish": 1788530980000,
+  "dt_publish": "2026-09-04 22:09:40.000",
+  "ts_update": 1788532071354,
+  "dt_update": "2026-09-04 22:27:51.354",
+  "count_dep": 6,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

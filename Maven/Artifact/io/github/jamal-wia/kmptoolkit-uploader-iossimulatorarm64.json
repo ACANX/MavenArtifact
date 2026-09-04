@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.jamal-wia/kmptoolkit-uploader-iossimulatorarm64",
+  "description": "A transactional uploader for shared Kotlin code: enqueue an outgoing effect, and it is persisted before the call returns and retried with exponential backoff until its handler confirms delivery — across process death, offline stretches, and OS-level wake-ups on Android WorkManager and iOS BGTaskScheduler. Storage is a port you implement (UploaderStore), so the module ships with no database dependency at all; ordering keys give strict FIFO channels per entity, and detached delivery hands a long upload to an external executor under a self-expiring lease. Pick this module if your app must not lose a message the user already believes was sent.",
+  "group_id": "io.github.jamal-wia",
+  "artifact_id": "kmptoolkit-uploader-iossimulatorarm64",
+  "version_latest": "1.0.2",
+  "ts_publish": 1788530980000,
+  "dt_publish": "2026-09-04 22:09:40.000",
+  "ts_update": 1788532072560,
+  "dt_update": "2026-09-04 22:27:52.560",
+  "count_dep": 4,
+  "count_ref": 2,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

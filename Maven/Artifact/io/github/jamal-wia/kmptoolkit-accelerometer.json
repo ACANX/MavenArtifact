@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.jamal-wia/kmptoolkit-accelerometer",
+  "description": "The raw accelerometer, and nothing else: an Accelerometer interface with an isAvailable gate and a cold observe(): Flow<AccelerometerSample> that registers the platform sensor on collection and releases it when collection ends. Pick this module if your shared Kotlin code wants raw acceleration in m/s² on both platforms without writing the SensorManager dance on Android and the CMMotionManager g-to-m/s² conversion on iOS — it interprets nothing, declares no permission or feature of its own, and reports missing hardware as a typed isAvailable flag instead of throwing.",
+  "group_id": "io.github.jamal-wia",
+  "artifact_id": "kmptoolkit-accelerometer",
+  "version_latest": "1.0.2",
+  "ts_publish": 1788530980000,
+  "dt_publish": "2026-09-04 22:09:40.000",
+  "ts_update": 1788532071993,
+  "dt_update": "2026-09-04 22:27:51.993",
+  "count_dep": 2,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

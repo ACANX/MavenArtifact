@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.jamal-wia/kmptoolkit-biometric-testing-android",
+  "description": "Test fixtures for kmptoolkit-biometric: ScriptedBiometricGate, a BiometricGate double that records the prompt copy it was handed and returns whichever BiometricResult the test dictates — per call, so one test can walk a retry loop from a rejected finger to a lockout to an authenticated user. Pick this module as a testImplementation dependency alongside kmptoolkit-biometric when you want to assert what your app does when biometrics are unenrolled, locked out or cancelled, none of which is reachable on an emulator without fighting it.",
+  "group_id": "io.github.jamal-wia",
+  "artifact_id": "kmptoolkit-biometric-testing-android",
+  "version_latest": "1.0.2",
+  "ts_publish": 1788530980000,
+  "dt_publish": "2026-09-04 22:09:40.000",
+  "ts_update": 1788532070806,
+  "dt_update": "2026-09-04 22:27:50.806",
+  "count_dep": 3,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
