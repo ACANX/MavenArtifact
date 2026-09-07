@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/build.jenesis/build.jenesis.repository.store.s3",
-	"description":"A pure\nstorage provider: it implements the {@code ArtifactStore} SPI and is discovered through {@code provides},\nso the server adds it to its module graph at deploy time and selects it with\n{@code jenesis.repository.store=s3}, with no compile-time dependency from the server. The version token\nis the object ETag, giving a true cross-node compare-and-set on conditional writes (see\n{@code S3ArtifactStore}). The rest of the AWS SDK closure resolves transitively through Maven (no\nexclusions are possible under the module resolver, so the full closure is pulled and pinned here).",
+	"description":"A pure\nstorage provider: it implements the {@code ArtifactStore} SPI and is discovered through {@code provides},\nso the server adds it to its module graph at deploy time and selects it with\n{@code jenreg.store=s3}, with no compile-time dependency from the server. The version token\nis the object ETag, giving a true cross-node compare-and-set on conditional writes (see\n{@code S3ArtifactStore}). The rest of the AWS SDK closure resolves transitively through Maven (no\nexclusions are possible under the module resolver, so the full closure is pulled and pinned here).",
 	"group_id":"build.jenesis",
 	"artifact_id":"build.jenesis.repository.store.s3",
-	"version_latest":"0.6.0",
-	"ts_publish":1786689626000,
-	"dt_publish":"2026-08-14 14:40:26.000",
-	"ts_update":1786690655882,
-	"dt_update":"2026-08-14 14:57:26.004",
-	"count_dep":51,
+	"version_latest":"0.7.0",
+	"ts_publish":1788781026000,
+	"dt_publish":"2026-09-07 19:37:06.000",
+	"ts_update":1788785032542,
+	"dt_update":"2026-09-07 19:57:29.203",
+	"count_dep":57,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
