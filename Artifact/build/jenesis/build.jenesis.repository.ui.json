@@ -1,14 +1,14 @@
 {
 	"id":"pkg:maven/build.jenesis/build.jenesis.repository.ui",
-	"description":"It is an open module (Spring needs reflective access) and requires the\nSpring modules its code compiles against plus the Spring Boot starters that root the runtime closure (embedded\nTomcat, Thymeleaf, Jackson, Security, OAuth2 client). Built as an open shell with a panel-registration SPI\n({@code uses Panel}) discovered with ServiceLoader and bridged into Spring, so additional panels are registered by\nadding modules to the graph, with no fork of the console. Login mechanisms plug in the same way through the\n{@code LoginContributor} bean seam.\n\n<p>It requires the format SPI for one reason: the browse panel marks each published namespace with the mark of the\nformat that owns it, resolved through the shared {@code Marks} every contributing plug-in family renders through,\nso a namespace no installed format claims is shown as the orphan it is rather than as an ordinary row. That is an\nSPI dependency, not a plugin one - the console still requires no concrete format and discovers them all through\nthe SPI's own lookup.",
+	"description":"It is an open module (Spring needs reflective access) and requires the\nSpring modules its code compiles against plus the Spring Boot starters that root the runtime closure (embedded\nJetty, Thymeleaf, Jackson, Security, OAuth2 client). Built as an open shell with a card-registration SPI\n({@code uses ConsoleCard}) - this console's own overview page, not the GUI extension seam, which is\n{@code ConsoleModuleProvider} - discovered with ServiceLoader and bridged into Spring, so additional cards are\nregistered by adding modules to the graph, with no fork of the console. A card names the Thymeleaf fragment its\nbody renders through and prepares the value that fragment reads, so no contribution to this console produces\nmarkup. Login mechanisms plug in the same way through the\n{@code LoginContributor} bean seam.\n\n<p>It requires the format SPI for one reason: the browse card marks each published namespace with the mark of the\nformat that owns it, resolved through the shared {@code Marks} every contributing plug-in family renders through,\nso a namespace no installed format claims is shown as the orphan it is rather than as an ordinary row. That is an\nSPI dependency, not a plugin one - the console still requires no concrete format and discovers them all through\nthe SPI's own lookup.",
 	"group_id":"build.jenesis",
 	"artifact_id":"build.jenesis.repository.ui",
-	"version_latest":"0.6.0",
-	"ts_publish":1786689626000,
-	"dt_publish":"2026-08-14 14:40:26.000",
-	"ts_update":1786690657759,
-	"dt_update":"2026-08-14 14:57:26.000",
-	"count_dep":89,
+	"version_latest":"0.7.0",
+	"ts_publish":1788781026000,
+	"dt_publish":"2026-09-07 19:37:06.000",
+	"ts_update":1788786011568,
+	"dt_update":"2026-09-07 19:57:28.621",
+	"count_dep":128,
 	"count_ref":1,
 	"licenses":[
 		"Apache-2.0"
