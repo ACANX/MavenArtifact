@@ -1,14 +1,14 @@
 {
   "id": "pkg:maven/build.jenesis/build.jenesis.repository.store.gcs",
-  "description": "A pure storage provider: it\nimplements the {@code ArtifactStore} SPI and is discovered through {@code provides}, so the server\nadds it to its module graph at deploy time and selects it with {@code jenesis.repository.store=gcs},\nwith no compile-time dependency from the server. Unlike the {@code s3} backend, the version token is\nthe object <em>generation</em> ({@code x-goog-generation}), because GCS honours {@code If-Match} /\n{@code If-None-Match} only on reads - conditional writes go through GCS's own\n{@code x-goog-if-generation-match} precondition instead (see {@code GcsArtifactStore}). The AWS SDK\nclosure below is the {@code s3} backend's, resolved transitively through Maven and pinned here.",
+  "description": "A pure storage provider: it implements the {@code ArtifactStore} SPI and is discovered\nthrough {@code provides}, so the server adds it to its module graph at deploy time and selects it with\n{@code jenreg.store=gcs}, with no compile-time dependency from the server.\n\n<p>Credentials are Application Default Credentials: a service-account key file named by\n{@code jenreg.gcs.credentials} or {@code GOOGLE_APPLICATION_CREDENTIALS}, a developer's {@code gcloud} login, or\nthe metadata server on GCE, GKE and Cloud Run - which is what lets a deployment run keyless under Workload\nIdentity. No HMAC interoperability key is involved. The version token is the object <em>generation</em>, GCS's own\nper-incarnation number, and a conditional write is {@code ifGenerationMatch} on the insert, so a lost\ncompare-and-set is the service's 412 (see {@code GcsArtifactStore}).\n\n<p>Why the API client and not the Cloud Client Library ({@code google-cloud-storage}): measured 2026-09-05 against\n2.73.0, its closure is 91 jars and 57 MB with the gRPC transport, 48 and 20 MB without, and it cannot load on the\nmodule path either way - {@code google-cloud-core} and {@code proto-google-common-protos} both own the package\n{@code com.google.cloud} (the latter through two compute-only classes), and the common protos are reached from\ngax's exception path, so neither can be excluded; the JDK refuses the graph with a {@code ResolutionException}.\nThe API client resolves cleanly once four jars this backend never loads are dropped: the Apache HTTP transport\n({@code google-http-client-apache-v2}, {@code httpclient}, {@code httpcore}, and the {@code commons-logging} only\nthey pull - the JDK transport is used) and two annotation-only jars, one of which splits {@code javax.annotation}\nagainst {@code jsr305}. What is left is 21 jars and 5.7 MB, and every module required below declares its name.\n{@code grpc-api} stays: OpenCensus, which the HTTP client instruments its requests with, reaches\n{@code io.grpc.Context} through it. Guava is stated as its JRE flavour: negotiated, a closure takes the Android one.",
   "group_id": "build.jenesis",
   "artifact_id": "build.jenesis.repository.store.gcs",
-  "version_latest": "0.6.0",
-  "ts_publish": 1786689626000,
-  "dt_publish": "2026-08-14 14:40:26.000",
-  "ts_update": 1786690646001,
-  "dt_update": "2026-08-14 14:57:26.001",
-  "count_dep": 51,
+  "version_latest": "0.7.0",
+  "ts_publish": 1788781026000,
+  "dt_publish": "2026-09-07 19:37:06.000",
+  "ts_update": 1788782248620,
+  "dt_update": "2026-09-07 19:57:28.620",
+  "count_dep": 72,
   "count_ref": 1,
   "licenses": [
     "Apache-2.0"

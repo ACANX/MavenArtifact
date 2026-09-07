@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/build.jenesis/build.jenesis.repository.net",
+  "description": "<p>It is its own module, and a tiny one, because the callers that need it sit on both sides of a boundary\nneither should have to cross. {@code PrivateHosts} lived in the format SPI, so the webhook, forwarding and\nemulator legs in {@code settings} could not reach it without dragging that SPI - eighty-nine test modules of\nreach - along for a range table. The alternative they took instead was a second private copy of the same\nranges, and that is not a stylistic duplication: the inline copy that predated {@code PrivateHosts} omitted\ncarrier-grade NAT and multicast, and consolidating is what closed a real SSRF gap. A second table re-opens it\nthe same way, because a range added to one and not the other is invisible until something reaches the wrong\nhalf.\n\n<p><b>The table is shared; the policy is not.</b> What the two sides do about a host that will not resolve, or\na URI with no host at all, genuinely differs - the format legs admit, the downstream guard refuses - and that\ndifference is deliberate rather than drift. It stays with each caller. Only the question \"is this address in a\nrange nobody should be steered into\" lives here, which is the half that must never disagree.\n\n<p>Nothing but {@code java.base}, so anything may require it.",
+  "group_id": "build.jenesis",
+  "artifact_id": "build.jenesis.repository.net",
+  "version_latest": "0.7.0",
+  "ts_publish": 1788781026000,
+  "dt_publish": "2026-09-07 19:37:06.000",
+  "ts_update": 1788782249210,
+  "dt_update": "2026-09-07 19:57:29.210",
+  "count_dep": 0,
+  "count_ref": 19,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

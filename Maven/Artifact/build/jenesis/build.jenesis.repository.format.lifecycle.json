@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/build.jenesis/build.jenesis.repository.format.lifecycle",
+  "description": "A format reads the flag for a coordinate/version at serve time and translates it to\nits own native signal (npm's {@code deprecated} string, Cargo's {@code yanked} boolean, ...), and the operator\nendpoint writes and clears it through the same store-key convention this module owns. A thin, dependency-minimal\nhelper over the store SPI; pure JDK, so the language format plugins can {@code requires} it without pulling in a\npeer format or the server.",
+  "group_id": "build.jenesis",
+  "artifact_id": "build.jenesis.repository.format.lifecycle",
+  "version_latest": "0.7.0",
+  "ts_publish": 1788781026000,
+  "dt_publish": "2026-09-07 19:37:06.000",
+  "ts_update": 1788782248627,
+  "dt_update": "2026-09-07 19:57:28.627",
+  "count_dep": 9,
+  "count_ref": 2,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
