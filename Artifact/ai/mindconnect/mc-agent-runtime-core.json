@@ -3,14 +3,16 @@
 	"description":"The agent runtime's core: agent and session domain, the ports around\n        it (chat, tools, token counting, memory strategies, repositories) and\n        the use cases — the turn loop, prompt assembly, tool dispatch. Free of\n        storage, HTTP, templating and tokenizer libraries; those live behind\n        the ports in mc-agent-runtime.",
 	"group_id":"ai.mindconnect",
 	"artifact_id":"mc-agent-runtime-core",
-	"version_latest":"0.0.3",
-	"ts_publish":1788072682000,
-	"dt_publish":"2026-08-30 14:51:22.000",
-	"ts_update":1788074875142,
-	"dt_update":"2026-08-30 15:27:44.014",
-	"count_dep":11,
-	"count_ref":5,
-	"licenses":[],
+	"version_latest":"0.5.1",
+	"ts_publish":1788810189000,
+	"dt_publish":"2026-09-08 03:43:09.000",
+	"ts_update":1788812905791,
+	"dt_update":"2026-09-08 04:27:33.714",
+	"count_dep":14,
+	"count_ref":13,
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://guide.sonatype.com/component/maven/ai.mindconnect:mc-agent-runtime-core/0.0.2"
 }
