@@ -1,15 +1,15 @@
 {
 	"id":"pkg:maven/ai.mindconnect/mc-file-store",
-	"description":"Id-addressed file storage (OpenAI-Files-API-style): upload once, reference the id\n        from chats and vector stores. Backend SPI via ServiceLoader — filesystem ships built-in,\n        object storage (s3) or database backends slot in as sibling modules.",
+	"description":"The filesystem adapter of the file store (ports in mc-file-store-core):Id-addressed file storage (OpenAI-Files-API-style): upload once, reference the id\n        from chats and vector stores. Backend SPI via ServiceLoader — filesystem ships built-in,\n        object storage (s3) or database backends slot in as sibling modules.",
 	"group_id":"ai.mindconnect",
 	"artifact_id":"mc-file-store",
-	"version_latest":"0.0.3",
-	"ts_publish":1788072682000,
-	"dt_publish":"2026-08-30 14:51:22.000",
-	"ts_update":1788074877442,
-	"dt_update":"2026-08-30 15:27:44.552",
-	"count_dep":7,
-	"count_ref":5,
+	"version_latest":"0.5.1",
+	"ts_publish":1788810189000,
+	"dt_publish":"2026-09-08 03:43:09.000",
+	"ts_update":1788829141496,
+	"dt_update":"2026-09-08 04:27:34.146",
+	"count_dep":8,
+	"count_ref":10,
 	"licenses":[
 		"Apache License, Version 2.0"
 	],
