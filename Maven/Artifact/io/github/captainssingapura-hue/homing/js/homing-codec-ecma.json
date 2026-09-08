@@ -3,14 +3,16 @@
   "description": "Concrete codegen implementations targeting ECMAScript (ES module\n        classes). Provides:\n\n        - EcmaDefinitionCodeGen — emits a JS class declaration mirroring a\n          Java record (or sealed-of-records) ObjectDefinition.\n        - EcmaFunctionsCodeGen — emits a JS TransformationFunctions\n          implementation (transformTo / transformFrom) for the same.\n\n        Stateless FunctionalObject implementations. The \"Codegen as\n        Functions\" doctrine — same code runs at build time (Maven exec\n        plugin) and could run at request time if a downstream consumer\n        ever wants runtime generation.\n\n        Pure-Java module; produces JS source as String values. The build-\n        time invocation lives in the consumer module (e.g.,\n        homing-workspace-codecs), not here.",
   "group_id": "io.github.captainssingapura-hue.homing.js",
   "artifact_id": "homing-codec-ecma",
-  "version_latest": "0.8.1",
-  "ts_publish": 1788765792000,
-  "dt_publish": "2026-09-07 15:23:12.000",
-  "ts_update": 1788767851476,
-  "dt_update": "2026-09-07 15:57:31.476",
+  "version_latest": "0.8.2",
+  "ts_publish": 1788877827000,
+  "dt_publish": "2026-09-08 22:30:27.000",
+  "ts_update": 1788879457564,
+  "dt_update": "2026-09-08 22:57:37.564",
   "count_dep": 3,
   "count_ref": 6,
-  "licenses": [],
+  "licenses": [
+    "MIT License"
+  ],
   "categories": null,
   "dsv": 1
 }
