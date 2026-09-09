@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.lolaf.ringos/ringos-unsafe-operations-impl-11-14",
+  "description": "UnsafeOperations implementation for JDK 11 to 14, where jdk.internal.misc.Unsafe\n        has getObject rather than getReference and no invokeCleaner, so a direct buffer is released through a\n        MethodHandle on the JDK 9 Cleaner. Depend on ringos-unsafe-operations-impl-all rather than on this\n        directly.",
+  "group_id": "org.lolaf.ringos",
+  "artifact_id": "ringos-unsafe-operations-impl-11-14",
+  "version_latest": "0.9.0",
+  "ts_publish": 1788979929000,
+  "dt_publish": "2026-09-10 02:52:09.000",
+  "ts_update": 1788982050594,
+  "dt_update": "2026-09-10 03:27:30.594",
+  "count_dep": 8,
+  "count_ref": 1,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

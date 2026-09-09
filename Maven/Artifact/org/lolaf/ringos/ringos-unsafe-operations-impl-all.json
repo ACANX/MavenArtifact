@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.lolaf.ringos/ringos-unsafe-operations-impl-all",
+  "description": "JDK-agnostic aggregator for the UnsafeOperations SPI: bundles every version-specific implementation and\n        selects the right one at runtime. Depend on this single artifact instead of a specific\n        unsafe-operations-impl-* module. Compiled to the lowest supported class-file version (Java 11) so its\n        provider classes load on every supported JDK; the version-specific implementations are pulled in at\n        runtime and loaded reflectively only when they match the running JDK.",
+  "group_id": "org.lolaf.ringos",
+  "artifact_id": "ringos-unsafe-operations-impl-all",
+  "version_latest": "0.9.0",
+  "ts_publish": 1788979929000,
+  "dt_publish": "2026-09-10 02:52:09.000",
+  "ts_update": 1788982050994,
+  "dt_update": "2026-09-10 03:27:30.994",
+  "count_dep": 11,
+  "count_ref": 4,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

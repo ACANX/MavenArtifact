@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.lolaf.ringos/ringos-unsafe-operations-impl-25",
+  "description": "Java 25+ UnsafeOperations, split so the two concerns can compile to different class-file versions:\n        the \"impl\" module holds the Java 25 implementation (Java 25 bytecode), and the \"provider\" module holds\n        the SPI provider compiled to Java 11 bytecode so it loads on any JDK and selects the implementation.",
+  "group_id": "org.lolaf.ringos",
+  "artifact_id": "ringos-unsafe-operations-impl-25",
+  "version_latest": "0.9.0",
+  "ts_publish": 1788979929000,
+  "dt_publish": "2026-09-10 02:52:09.000",
+  "ts_update": 1788982050595,
+  "dt_update": "2026-09-10 03:27:30.595",
+  "count_dep": 6,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
