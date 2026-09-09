@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/de.speedbanking/iban-commons-de-checkdigit",
+  "description": "Zero-dependency implementation of the German banking industry's account number\n        check digit methods (\"Prüfzifferberechnungsmethoden in der deutschen Kreditwirtschaft\"),\n        as catalogued by the Deutsche Bundesbank. Validates whether a Kontonummer is\n        structurally consistent for a given method, independently of any IBAN or BLZ\n        master-data lookup. Deliberately standalone: does not depend on iban-commons,\n        so it can be used on its own by callers that only have a BLZ and Kontonummer\n        (e.g. legacy domestic payment processing) and have obtained the applicable\n        method number from elsewhere (such as a BLZ master-data module).",
+  "group_id": "de.speedbanking",
+  "artifact_id": "iban-commons-de-checkdigit",
+  "version_latest": "1.8.10",
+  "ts_publish": 1788987147000,
+  "dt_publish": "2026-09-10 04:52:27.000",
+  "ts_update": 1788989251254,
+  "dt_update": "2026-09-10 05:27:31.254",
+  "count_dep": 2,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
