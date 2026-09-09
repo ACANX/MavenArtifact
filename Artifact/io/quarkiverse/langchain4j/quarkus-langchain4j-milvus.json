@@ -2,14 +2,16 @@
 	"id":"pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-milvus",
 	"group_id":"io.quarkiverse.langchain4j",
 	"artifact_id":"quarkus-langchain4j-milvus",
-	"version_latest":"1.13.1",
-	"ts_publish":1788172222000,
-	"dt_publish":"2026-08-31 18:30:22.000",
-	"ts_update":1788175656703,
-	"dt_update":"2026-08-31 18:57:36.330",
-	"count_dep":3,
+	"version_latest":"1.14.0.CR2",
+	"ts_publish":1788950401000,
+	"dt_publish":"2026-09-09 18:40:01.000",
+	"ts_update":1788957795877,
+	"dt_update":"2026-09-09 18:57:25.318",
+	"count_dep":79,
 	"count_ref":1,
-	"licenses":[],
+	"licenses":[
+		"Apache License, Version 2.0"
+	],
 	"dsv":1,
 	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.quarkiverse.langchain4j/quarkus-langchain4j-milvus@1.1.1",
 	"count_used_by":1,
@@ -182,5 +184,6 @@
 			"version":"1.1.0.CR2",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration"
 }
