@@ -2,14 +2,16 @@
 	"id":"pkg:maven/org.wicketstuff/googlecharts-parent",
 	"group_id":"org.wicketstuff",
 	"artifact_id":"googlecharts-parent",
-	"version_latest":"10.10.0",
-	"ts_publish":1785723360000,
-	"dt_publish":"2026-08-03 10:16:00.000",
-	"ts_update":1785725835297,
-	"dt_update":"2026-08-03 10:57:01.323",
-	"count_dep":0,
+	"version_latest":"10.11.0",
+	"ts_publish":1788924938000,
+	"dt_publish":"2026-09-09 11:35:38.000",
+	"ts_update":1788946175255,
+	"dt_update":"2026-09-09 11:57:36.424",
+	"count_dep":10,
 	"count_ref":0,
-	"licenses":[],
+	"licenses":[
+		"The Apache Software License, Version 2.0"
+	],
 	"categories":[
 		"Web Frameworks"
 	],
@@ -189,5 +191,6 @@
 			"version":"9.12.0",
 			"vulnerabilities":""
 		}
-	]
+	],
+	"description":"WicketStuff Core Parent is the parent project for all of the core WicketStuff projects.  It tries\n\t\tto unify the WS projects into a common structure that shares a common build / release cycle.  This\n\t\twill hopefully keep WicketStuff projects more in sync with Wicket and make it easier on new users."
 }
