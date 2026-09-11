@@ -3,12 +3,12 @@
 	"description":"Browser-driven web tools — uses headless Chromium via Playwright to\n        fetch single-page-app sites that the plain-HTTP mc-agent-tools-web\n        can't see (JavaScript-rendered content, cookie/consent banners that\n        block static fetches, etc.).\n\n        Kept as a separate module from mc-agent-tools-web because it pulls\n        in a ~150MB Chromium download on first use — apps that don't want\n        that footprint can leave this off their classpath.",
 	"group_id":"ai.mindconnect",
 	"artifact_id":"mc-agent-tools-web-browser",
-	"version_latest":"0.5.1",
-	"ts_publish":1788810189000,
-	"dt_publish":"2026-09-08 03:43:09.000",
-	"ts_update":1788815106664,
-	"dt_update":"2026-09-08 04:27:33.717",
-	"count_dep":99,
+	"version_latest":"0.7.1",
+	"ts_publish":1789148072000,
+	"dt_publish":"2026-09-12 01:34:32.000",
+	"ts_update":1789158545747,
+	"dt_update":"2026-09-12 02:27:40.199",
+	"count_dep":11,
 	"count_ref":1,
 	"licenses":[
 		"Apache License, Version 2.0"
