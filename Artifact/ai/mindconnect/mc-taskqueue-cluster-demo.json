@@ -3,12 +3,12 @@
 	"description":"The task queue as a cluster: ONE jar, two roles. The master serves the\n        dashboard, submits tasks and starts/monitors worker JVMs as OS processes;\n        workers run the unchanged LocalTaskQueue against the shared Postgres\n        store. REST nudges are accelerators only — the store is the truth.",
 	"group_id":"ai.mindconnect",
 	"artifact_id":"mc-taskqueue-cluster-demo",
-	"version_latest":"0.5.1",
-	"ts_publish":1788810189000,
-	"dt_publish":"2026-09-08 03:43:09.000",
-	"ts_update":1788843613484,
-	"dt_update":"2026-09-08 04:27:33.721",
-	"count_dep":76,
+	"version_latest":"0.7.1",
+	"ts_publish":1789148072000,
+	"dt_publish":"2026-09-12 01:34:32.000",
+	"ts_update":1789165737397,
+	"dt_update":"2026-09-12 01:57:23.578",
+	"count_dep":0,
 	"count_ref":0,
 	"licenses":[
 		"Apache License, Version 2.0"
