@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ai.mindconnect/mc-agent-domain",
+  "description": "The shared vocabulary of the agents area, package ai.mindconnect.agent:\n        Namespace (the tenant), NamespacedId (the shape every tenant-owned id\n        has), UserId and AuthenticationInfo. A type belongs here only when two\n        modules that do not depend on each other need it; every other id lives\n        beside its entity. Dependency-free — every other agents module builds\n        on it, nothing outside the area knows it.",
+  "group_id": "ai.mindconnect",
+  "artifact_id": "mc-agent-domain",
+  "version_latest": "0.7.1",
+  "ts_publish": 1789148072000,
+  "dt_publish": "2026-09-12 01:34:32.000",
+  "ts_update": 1789149444150,
+  "dt_update": "2026-09-12 01:57:24.150",
+  "count_dep": 4,
+  "count_ref": 11,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
