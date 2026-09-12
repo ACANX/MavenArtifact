@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.jamal-wia/kmptoolkit-language",
+  "description": "App language selection and the platform-locale side effect that goes with it: an AppLanguageHolder you create and own, an AppLanguage of just a BCP-47 code and a reading direction, and applyLanguageGlobally() to push it onto Locale.setDefault / AppleLanguages. Pick this module if your app lets a user choose a language and you need that choice to reach string-resource lookups outside Compose too. It carries no language list, no display names and no storage of its own — those are your app's call; see kmptoolkit-language-compose for the Compose-side layout-direction wiring.",
+  "group_id": "io.github.jamal-wia",
+  "artifact_id": "kmptoolkit-language",
+  "version_latest": "1.1.0",
+  "ts_publish": 1789233896000,
+  "dt_publish": "2026-09-13 01:24:56.000",
+  "ts_update": 1789237647839,
+  "dt_update": "2026-09-13 02:27:27.839",
+  "count_dep": 2,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

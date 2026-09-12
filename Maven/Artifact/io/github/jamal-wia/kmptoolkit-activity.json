@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.jamal-wia/kmptoolkit-activity",
+  "description": "Scoped access to the Android activity that is resumed right now, for code that is not itself an activity: an ActivityAccess you create from your Application, with no getter to leak through, a weak reference cleared by the framework's own lifecycle callbacks, and a predicate deciding which activities count — so a photo picker or a sign-in screen resuming inside your process does not become 'the' activity. Pick this if a controller, a permission launcher, or anything else has to reach a window whose identity changes on every rotation. Android only: there is no iOS counterpart to an Activity.",
+  "group_id": "io.github.jamal-wia",
+  "artifact_id": "kmptoolkit-activity",
+  "version_latest": "1.1.0",
+  "ts_publish": 1789233896000,
+  "dt_publish": "2026-09-13 01:24:56.000",
+  "ts_update": 1789237649056,
+  "dt_update": "2026-09-13 02:27:29.056",
+  "count_dep": 1,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

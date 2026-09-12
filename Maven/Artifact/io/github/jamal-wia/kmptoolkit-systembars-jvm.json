@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.jamal-wia/kmptoolkit-systembars-jvm",
+  "description": "Status-bar and navigation-bar control for Compose Multiplatform: a SystemBarsController you create and own, a base configuration one writer owns, and per-axis overrides a screen pushes and releases through a SystemBarsEffect. Pick this module if two screens in your app have ever fought over the bars — one sets light icons, the next sets dark, and navigating back leaves the wrong one on screen. Overrides are layered and scoped to composition, so leaving a screen restores exactly the state underneath it, and a screen that owns only the status bar never clobbers one that owns the navigation bar. It styles the bars; it is not a theming system and not an insets library. Also includes AutoSystemBarsIconStyle, an opt-in composable that derives each bar's icon style from the pixels actually drawn under it, and ScreenWakeLockController, an unrelated keep-screen-awake primitive.",
+  "group_id": "io.github.jamal-wia",
+  "artifact_id": "kmptoolkit-systembars-jvm",
+  "version_latest": "1.1.0",
+  "ts_publish": 1789233896000,
+  "dt_publish": "2026-09-13 01:24:56.000",
+  "ts_update": 1789237647845,
+  "dt_update": "2026-09-13 02:27:27.845",
+  "count_dep": 9,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
