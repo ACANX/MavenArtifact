@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.edeavilac/eclipse-cdt-standalone",
+  "description": "The nine jars needed to run the Eclipse CDT front end -parser, AST,\n        index, PDOM and the standalone indexer- OUTSIDE OSGi, as plain jars on\n        the classpath, each pinned to the version shipped in the Eclipse\n        2025-03 release. Nine of the 29 the Equinox container asks for.\n\n        Eight resolve from Maven Central under their official coordinates and\n        are byte-for-byte the jars Eclipse ships. The ninth is\n        org.eclipse.cdt.core, which is not on Central under any official\n        coordinates and is redistributed unmodified as\n        io.github.edeavilac:eclipse-cdt-core.\n\n        Versions are pinned, each with a wildcard exclusion, on purpose: letting\n        Maven resolve them does NOT reproduce the set Eclipse ships. Declaring\n        core.resources alone pulls equinox.common 3.19.200 and equinox.registry\n        3.12.200, from a different release, because the core.filesystem pom\n        pins them older. It still builds, and it fails silently.\n\n        Not endorsed by, nor affiliated with, the Eclipse Foundation.\n\n        --\n\n        Los nueve jars que hacen falta para correr el front end de Eclipse CDT\n        -parser, AST, indice, PDOM e indexador standalone- FUERA de OSGi, como\n        jars planos en el classpath, con la version de cada uno clavada a la de\n        la liberacion 2025-03 de Eclipse. Nueve de los 29 que pide el\n        contenedor de Equinox.\n\n        La lista no esta pensada, esta MEDIDA: con -verbose:class, en la bateria\n        con el barrido y la recarga de lv_conf.h, en un arranque en frio del\n        demo y en otro en frio con la lista de arranque, solo se cargan clases\n        de estos nueve.\n\n        Ocho salen de Maven Central con coordenadas oficiales y son byte a byte\n        los mismos que trae Eclipse -el script lo comprueba contra el SHA-1 que\n        publica Central-. El noveno es org.eclipse.cdt.core, que no esta en\n        Central con ninguna coordenada oficial y se republica sin modificar como\n        io.github.edeavilac:eclipse-cdt-core.\n\n        Las versiones van CLAVADAS y con exclusion comodin a proposito. Dejar\n        que Maven resuelva no devuelve el juego de Eclipse: declarando solo\n        core.resources se cuelan equinox.common 3.19.200 y equinox.registry\n        3.12.200, de otra liberacion, porque el pom de core.filesystem las fija\n        mas viejas. Construye igual y falla en silencio.",
+  "group_id": "io.github.edeavilac",
+  "artifact_id": "eclipse-cdt-standalone",
+  "version_latest": "2025-03",
+  "ts_publish": 1789188538000,
+  "dt_publish": "2026-09-12 12:48:58.000",
+  "ts_update": 1789190845633,
+  "dt_update": "2026-09-12 13:27:25.633",
+  "count_dep": 24,
+  "count_ref": 0,
+  "licenses": [
+    "Eclipse Public License - v 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
