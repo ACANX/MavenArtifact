@@ -3,14 +3,16 @@
   "description": "ML-based charset encoding detector.  MojibusterEncodingDetector\n    runs structural detectors for UTF-32 / UTF-16 / UTF-8 and then a\n    33-class byte-bigram Naive Bayes classifier covering CJK multi-byte,\n    EBCDIC, DOS OEM, Cyrillic, Windows single-byte, ISO-8859, and Mac\n    encodings.  This detector replaces ICU4J and juniversalchardet as the\n    default statistical encoding detector in Tika.",
   "group_id": "org.apache.tika",
   "artifact_id": "tika-encoding-detector-mojibuster",
-  "version_latest": "4.0.0-beta-1",
-  "ts_publish": 1782748873000,
-  "dt_publish": "2026-06-30 00:01:13.000",
-  "ts_update": 1786810753737,
-  "dt_update": "2026-08-16 00:19:13.737",
+  "version_latest": "4.0.0",
+  "ts_publish": 1787083882000,
+  "dt_publish": "2026-08-19 04:11:22.000",
+  "ts_update": 1789230533717,
+  "dt_update": "2026-09-13 00:28:53.717",
   "count_dep": 5,
-  "count_ref": 21,
-  "licenses": [],
+  "count_ref": 16,
+  "licenses": [
+    "Apache-2.0"
+  ],
   "categories": [
     "Analytics"
   ],
