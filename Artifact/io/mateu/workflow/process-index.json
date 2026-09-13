@@ -3,11 +3,11 @@
   "description" : "The CQRS process-index read model, as a module of its own so that a projector can be run\n        outside the engine. It depends on `shared` and nothing else: an out-of-process projector must\n        not drag the engine, its beans or its write-side schema into a service whose entire purpose is\n        not to have them.",
   "group_id" : "io.mateu.workflow",
   "artifact_id" : "process-index",
-  "version_latest" : "2.16.1",
-  "ts_publish" : 1789220167000,
-  "dt_publish" : "2026-09-12 21:36:07.000",
+  "version_latest" : "2.16.2",
+  "ts_publish" : 1789304697000,
+  "dt_publish" : "2026-09-13 21:04:57.000",
   "ts_update" : 1787045257486,
-  "dt_update" : "2026-09-13 03:08:50.808",
+  "dt_update" : "2026-09-13 21:29:50.242",
   "count_dep" : 54,
   "count_ref" : 2,
   "licenses" : [ "MIT License" ],
@@ -23,6 +23,6 @@
   "ranking" : null,
   "countUsedBy" : null,
   "redirectFlag" : null,
-  "tsUpdate" : 1789239955227,
+  "tsUpdate" : 1789306173588,
   "versions" : null
 }
