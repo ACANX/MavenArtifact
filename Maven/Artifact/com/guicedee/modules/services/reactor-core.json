@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.guicedee.modules.services/reactor-core",
+  "description": "JPMS modularized shade of io.projectreactor:reactor-core exposing the reactor.core module.\n\n        Reactor ships no module descriptor at all (not even an Automatic-Module-Name - the name\n        reactor.core is derived from the file name), so jlink rejects it. It is a non-optional\n        runtime dependency of org.mongodb:mongodb-driver-reactivestreams, which io.vertx:vertx-mongo-client\n        depends on, so it cannot be avoided while the Mongo client is in use.",
+  "group_id": "com.guicedee.modules.services",
+  "artifact_id": "reactor-core",
+  "version_latest": "2.2.3",
+  "ts_publish": 1789255813000,
+  "dt_publish": "2026-09-13 07:30:13.000",
+  "ts_update": 1789259245667,
+  "dt_update": "2026-09-13 08:27:25.667",
+  "count_dep": 2,
+  "count_ref": 1,
+  "licenses": [
+    "The Apache Software License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
