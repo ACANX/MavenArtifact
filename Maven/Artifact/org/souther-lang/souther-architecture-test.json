@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.souther-lang/souther-architecture-test",
+  "description": "Holds the checks whose population is the whole reactor, and nothing else — its compiled\n        output, or its sources where the fact a check is about is written in them rather than kept\n        in a class file. A check that reads compiled classes sees what has been built when it runs,\n        so where it lives is what it measures: one living in the module it is about reads that\n        module and passes over every module built after it, saying nothing about them while looking\n        as though it did. A check that a module can answer on its own belongs in that module.\n\n        The reactor had no such place. This is one: it depends on every other module and nothing\n        depends on it, so Maven builds it last and every module's classes are there when its tests\n        run. That every module is depended on is what the tests here assert of this pom's own\n        dependencies, rather than something the build order would show — an omitted dependency takes\n        an edge away, and the remaining edges go on sending this module to the end whenever one of\n        them names a module written after the one that was forgotten.\n\n        Nothing ships from here and there is no main source. The dependencies are test-scoped\n        because that is what they are for: compiling and running these tests, and telling Maven what\n        must be built before them.",
+  "group_id": "org.souther-lang",
+  "artifact_id": "souther-architecture-test",
+  "version_latest": "0.2.0",
+  "ts_publish": 1789353060000,
+  "dt_publish": "2026-09-14 10:31:00.000",
+  "ts_update": 1789354650400,
+  "dt_update": "2026-09-14 10:57:30.400",
+  "count_dep": 11,
+  "count_ref": 0,
+  "licenses": [
+    "Eclipse Public License - v 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
