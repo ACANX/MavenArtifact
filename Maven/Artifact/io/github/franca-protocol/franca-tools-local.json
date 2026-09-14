@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.franca-protocol/franca-tools-local",
+  "description": "Built-in local platform-function tools: hosted-tool handlers the\n        platform itself ships, executed in-process with no external\n        backend. Currently the local registration site\n        (LocalHostedToolRepository), the file-storage family\n        (FileStorage + FileMetadata + FileNotFoundException — the\n        storage a file-reading function resolves against; storage\n        maintenance rides with the function, so the family lives here,\n        not in the IR), and its default implementation (LocalFileStorage);\n        future built-ins (e.g. a read_file handler over FileStorage) land\n        here too. Pure implementations only — bean registration lives in\n        the franca-spring-tools-local registration jar.",
+  "group_id": "io.github.franca-protocol",
+  "artifact_id": "franca-tools-local",
+  "version_latest": "0.18.0",
+  "ts_publish": 1789382190000,
+  "dt_publish": "2026-09-14 18:36:30.000",
+  "ts_update": 1789383461648,
+  "dt_update": "2026-09-14 18:57:41.648",
+  "count_dep": 11,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.franca-protocol/franca-ir",
+  "description": "Intermediate Representation definitions for both transport and application\n        layers, plus the SPI surfaces that extensions implement against the IR,\n        the pure-function mapper between the two IRs (ir.mapper, relocated\n        from the removed franca-mapper module), and the pipeline\n        itself (ir.pipeline / ir.route, relocated from the dissolved\n        franca-core module — the narrow waist has exactly one home\n        now, and everything the pipeline operates on already lived here).\n        Key types: TransportFrame, TransportEvent, ApplicationFrame,\n        ApplicationEvent, InputItem, ContentBlock, ApplicationTransportMapper,\n        FrancaPipeline, TransportSink, PassExecutor, RouteRegistry,\n        RoutingExecutor, HookRegistry.\n\n        This is the single dependency an extension (a dialect adapter or a backend\n        driver) needs: it carries the IR data records and the two SPI surfaces\n        relocated out of the removed adapter-api / driver-api modules:\n        - ir.adapter.ApplicationAdapter, ProtocolRequestException — dialect SPI\n        - ir.driver.Driver, DriverInstance, HealthCheck, HealthStatus,\n          DriverAddresses, DriverErrors — backend driver SPI\n\n        Dependency direction: nothing below this module — the IR depends on no\n        other franca module, and every module above it (hosted,\n        adapters, drivers, tools, Spring) depends on this one. The pipeline\n        reaches the hosted-tool execution layer only through the\n        ir.pipeline.PassExecutor seam, which that layer implements.\n\n        Both SPI surfaces and the pipeline declare Flux/Mono return types, so\n        this module carries a compile-scope reactor-core dependency. The IR\n        data records themselves stay reactor-free; reactor-core is pulled in\n        only for the SPI method signatures and the pipeline.",
+  "group_id": "io.github.franca-protocol",
+  "artifact_id": "franca-ir",
+  "version_latest": "0.18.0",
+  "ts_publish": 1789382190000,
+  "dt_publish": "2026-09-14 18:36:30.000",
+  "ts_update": 1789383461639,
+  "dt_update": "2026-09-14 18:57:41.639",
+  "count_dep": 11,
+  "count_ref": 13,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

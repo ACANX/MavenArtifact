@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.franca-protocol/franca-thinking-retrieval",
+  "description": "The thinking family's one implementation of the ThinkingPhase\n        SPI: the deep-research RetrievalPhase, plus the two-phase\n        machinery (TwoPhaseThinkingExecutor) it builds on. A thinking\n        key activates a retrieval pass that searches and crawls through\n        the hosted web tools declared for it, streams its narration as\n        the response's reasoning events, and injects its consolidated\n        findings as a trailing conversation pair the answering pass\n        cites; the machinery keeps the original request byte-identical\n        across both passes (a KV-cache shared prefix) and exposes the\n        phase-1 tools posture and the injection wording as protected\n        seams. Pure implementation only — bean registration lives in\n        the franca-spring-thinking-retrieval registration jar.",
+  "group_id": "io.github.franca-protocol",
+  "artifact_id": "franca-thinking-retrieval",
+  "version_latest": "0.18.0",
+  "ts_publish": 1789382190000,
+  "dt_publish": "2026-09-14 18:36:30.000",
+  "ts_update": 1789383461636,
+  "dt_update": "2026-09-14 18:57:41.636",
+  "count_dep": 8,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

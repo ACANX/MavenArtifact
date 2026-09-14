@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.franca-protocol/franca-tools-mcp",
+  "description": "MCP-backed HostedToolRepository. Health-checks configured MCP\n        endpoints (MCP 2025-06-18 Streamable HTTP tools/list) in parallel\n        on a schedule, exposes the discovered tools under\n        namespace-sanitized callable names, applies per-endpoint\n        include/exclude filters, and resolves model-facing aliases to the\n        underlying tools. Discovery only — execution stays with the PTC\n        sandbox pipeline via the existing metadata contract.",
+  "group_id": "io.github.franca-protocol",
+  "artifact_id": "franca-tools-mcp",
+  "version_latest": "0.18.0",
+  "ts_publish": 1789382190000,
+  "dt_publish": "2026-09-14 18:36:30.000",
+  "ts_update": 1789383461636,
+  "dt_update": "2026-09-14 18:57:41.636",
+  "count_dep": 10,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

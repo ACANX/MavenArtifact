@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.franca-protocol/franca-tools",
+  "description": "Aggregator for server-side tool modules. Two module kinds live here:\n        repository modules, which implement HostedToolRepository (from\n        franca-hosted) and discover callable tools from an\n        external backend (the MCP module health-checks configured MCP\n        endpoints via tools/list; the FC module resolves tool declarations\n        from Function Compute functions on demand with a TTL cache), and\n        local tool modules, which implement the platform's own built-in\n        hosted-tool handlers executed in-process (the local module ships\n        the registration site). Discovery, declaration, and handler\n        implementations live here; the execution engine stays with the\n        hosted-tool pipeline.",
+  "group_id": "io.github.franca-protocol",
+  "artifact_id": "franca-tools",
+  "version_latest": "0.18.0",
+  "ts_publish": 1789382190000,
+  "dt_publish": "2026-09-14 18:36:30.000",
+  "ts_update": 1789383461107,
+  "dt_update": "2026-09-14 18:57:41.107",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

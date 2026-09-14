@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.franca-protocol/franca-spring-boot",
+  "description": "The platform assembler — the registration jar Spring Boot hosts add to\n        get the full stack auto-configured. Wires the pure modules' constructors\n        into conditional beans:\n        - Auto-registers ApplicationAdapter beans by endpoint path\n        - Auto-registers Driver beans\n        - Wires the core pipeline with the default TransportSink (RoutingExecutor)\n        - Exposes WebFlux endpoints that delegate to the Franca pipeline\n        - Uses @ConditionalOnBean so every piece is optional and overrideable\n\n        Assembly only: no business logic lives here (PTC and file storage moved\n        to the pure modules). Extension registration jars (MCP tools, FC sandbox)\n        sit beside it under franca-spring.",
+  "group_id": "io.github.franca-protocol",
+  "artifact_id": "franca-spring-boot",
+  "version_latest": "0.18.0",
+  "ts_publish": 1789382190000,
+  "dt_publish": "2026-09-14 18:36:30.000",
+  "ts_update": 1789383461640,
+  "dt_update": "2026-09-14 18:57:41.640",
+  "count_dep": 68,
+  "count_ref": 4,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

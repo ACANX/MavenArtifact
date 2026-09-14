@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.franca-protocol/franca-hosted",
+  "description": "Hosted-tool execution layer, extracted from\n        core so the pipeline module stays a pure through-pipe. Contains:\n        - The hosted-tool SPI (HostedToolHandler, HostedToolRepository\n          with the getOrder() precedence contract, HostedToolHandlerFactory,\n          HostedToolResolution, OrchestratableTool)\n        - The multi-pass hosted execution loop (HostedToolExecutor,\n          pass lifecycle policies, output augmenter)\n\n        Engine and SPI only: no repository implementation and no tool lives\n        here. The local registration site (LocalHostedToolRepository) ships\n        in franca-tools-local; the MCP repository in\n        franca-tools-mcp; the FC function-library repository in\n        franca-tools-alibaba-fc. Programmatic Tool Calling is owned by\n        the orchestration entry resolved from a repository — there is no\n        orchestration provider axis in this module.\n\n        Depends on IR (typed requests/events, mapper) — but NOT on the\n        pipeline, any adapter or driver, any tool module, or Spring. The\n        pipeline consumes this module through one optional collaborator\n        (HostedToolExecutor); a deployment that never declares a hosted\n        tool never runs any of this code.",
+  "group_id": "io.github.franca-protocol",
+  "artifact_id": "franca-hosted",
+  "version_latest": "0.18.0",
+  "ts_publish": 1789382190000,
+  "dt_publish": "2026-09-14 18:36:30.000",
+  "ts_update": 1789383461102,
+  "dt_update": "2026-09-14 18:57:41.102",
+  "count_dep": 12,
+  "count_ref": 7,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
