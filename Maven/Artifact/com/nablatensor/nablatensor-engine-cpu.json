@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.nablatensor/nablatensor-engine-cpu",
+  "description": "CPU replay engines, plain Java with no optional runtime dependency so they are\n    always available. Two paths: a scalar interpreter (the portable fallback and the\n    deterministic CPU oracle an accelerated result is checked against, path-for-path on the\n    same Philox stream), and a bytecode-generating engine that emits the tape as a\n    tape-specific class via the Class-File API (final since JDK 24) — straight-line forward\n    and reverse sweeps, segmented to stay inside HotSpot C2 limits. No incubator module, no\n    native library; the LTS-Java-clean default fast path.",
+  "group_id": "com.nablatensor",
+  "artifact_id": "nablatensor-engine-cpu",
+  "version_latest": "0.2.0",
+  "ts_publish": 1789504992000,
+  "dt_publish": "2026-09-16 04:43:12.000",
+  "ts_update": 1789505863508,
+  "dt_update": "2026-09-16 04:57:43.508",
+  "count_dep": 1,
+  "count_ref": 4,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
