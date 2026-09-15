@@ -1,0 +1,21 @@
+{
+  "id": "pkg:maven/org.ow2.authzforce/authzforce-pdp-ext-json-path",
+  "description": "AuthzForce PDP extensions for JSON value processing, in particular JSONPath evaluation; it provides the XACML datatype 'urn:ow2:authzforce:feature:pdp:datatype:json' for JSON object/array values, and XACML functions that evaluate a JSON path (second parameter of standard string datatype) against an input JSON object/array (first parameter of datatype 'urn:ow2:authzforce:feature:pdp:datatype:json') and return the result of this evaluation. The return datatype depends on the actual function used: 'urn:ow2:authzforce:feature:pdp:function:string-from-json-path' returns a bag of strings, 'urn:ow2:authzforce:feature:pdp:function:integer-from-json-path' returns a bag of integers, 'urn:ow2:authzforce:feature:pdp:function:double-from-json-path' returns a bag of doubles, 'urn:ow2:authzforce:feature:pdp:function:boolean-from-json-path' returns a bag of booleans.",
+  "group_id": "org.ow2.authzforce",
+  "artifact_id": "authzforce-pdp-ext-json-path",
+  "version_latest": "1.1.0",
+  "ts_publish": 1789431991000,
+  "dt_publish": "2026-09-15 08:26:31.000",
+  "ts_update": 1789432955286,
+  "dt_update": "2026-09-15 08:42:35.286",
+  "count_dep": 25,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": [
+    "Security",
+    "Authorization"
+  ],
+  "dsv": 1
+}
