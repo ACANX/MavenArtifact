@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.captainssingapura-hue.homing.ssjs/rel-grid-selection",
+  "description": "The Relation Grid's selection (RFC 0050 · Episode 2, map 5), and\n        nothing else. A selection is an ORDERED LIST OF RANGES, each a\n        rectangle of positions owning both its corners, the smallest 1x1,\n        never merged and never reordered. The module manages that list and\n        answers what is selected when something else is triggered; it never\n        initiates anything.\n\n        A module of its own because the guarantee is worth making structural:\n        this one imports NOTHING. Not the view maps, not the layout, not the\n        cells, not the cursor — the two operations that need any of those take\n        them as arguments (the cursor's position for the implicit 1x1, the\n        extents for select-all). No DOM. Positions in, positions out, which is\n        why its whole test suite runs on a bare JS context with no stub.\n\n        What is deliberately NOT here: the cursor, which is identity-first,\n        tells its cell and paints, so it stays with the grid; clamping, which\n        belongs to whoever knows the presented space; and the paint, which is\n        the layout's. See map 5 laws 215-218.",
+  "group_id": "io.github.captainssingapura-hue.homing.ssjs",
+  "artifact_id": "rel-grid-selection",
+  "version_latest": "0.1.0",
+  "ts_publish": 1789473865000,
+  "dt_publish": "2026-09-15 20:04:25.000",
+  "ts_update": 1789475255437,
+  "dt_update": "2026-09-15 20:27:35.437",
+  "count_dep": 5,
+  "count_ref": 3,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.captainssingapura-hue.homing.ssjs/rel-grid-group",
+  "description": "The Relation Grid GROUP (RFC 0050 · Episode 2, the federation re-read):\n        an ordered list of tables, each an ordinary RelGrid that does not know\n        it is in one, stacked down one column of boxes with a FENCE between\n        every two and around the ends — a slot the group mints and the domain\n        fills. Members are identities; the group's own state is which show, in\n        what order, and (later) which are folded. Everything inside a member —\n        its cursor, its selection, its copy, its handover, the domain its ask\n        reaches — is the member's own and untouched.\n\n        What the group shares is the one thing separate tables cannot agree\n        on by themselves: column geometry. It is the single writer of widths\n        — it hears any member's resize report, applies it to the siblings\n        through their public verbs, and reports once — and it reaches into no\n        member's layout to do it.\n\n        A module of its own because the guarantee is structural: this module\n        depends on the grid, and the grid's does not depend on this one. Not\n        one line of group code lives in the table.",
+  "group_id": "io.github.captainssingapura-hue.homing.ssjs",
+  "artifact_id": "rel-grid-group",
+  "version_latest": "0.1.0",
+  "ts_publish": 1789473865000,
+  "dt_publish": "2026-09-15 20:04:25.000",
+  "ts_update": 1789475255437,
+  "dt_update": "2026-09-15 20:27:35.437",
+  "count_dep": 12,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

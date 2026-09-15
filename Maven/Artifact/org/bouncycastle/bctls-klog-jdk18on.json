@@ -1,0 +1,21 @@
+{
+  "id": "pkg:maven/org.bouncycastle/bctls-klog-jdk18on",
+  "description": "The Bouncy Castle Java APIs for the TLS, including a JSSE provider, built as the RFC 9850 key logging variant. Unlike the standard bctls jar, this jar is able to disclose the secrets of the TLS connections it makes, reporting them to a TlsKeyLog implementation named by the org.bouncycastle.tls.keylog.class security property, and disclosing nothing if that property is unset. Its JSSE provider info string is also marked as a key logger so that a running JVM can report which of the two jars it was given. It is a drop-in replacement for bctls-jdk18on rather than an addition to it, and the two must not be placed on the same classpath. It is intended for diagnostics and interoperability testing, not for production use. The APIs are designed primarily to be used in conjunction with the BC Java provider but may also be used with other providers providing cryptographic services. This jar is designed to best work with Java 1.8 and later.",
+  "group_id": "org.bouncycastle",
+  "artifact_id": "bctls-klog-jdk18on",
+  "version_latest": "1.86.1",
+  "ts_publish": 1789474858000,
+  "dt_publish": "2026-09-15 20:20:58.000",
+  "ts_update": 1789475253157,
+  "dt_update": "2026-09-15 20:27:33.157",
+  "count_dep": 2,
+  "count_ref": 0,
+  "licenses": [
+    "Bouncy Castle Licence"
+  ],
+  "categories": [
+    "Security",
+    "Cryptography"
+  ],
+  "dsv": 1
+}
