@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ai.mattmann.mnemosyne/cas-metadata",
+  "description": "A Multi-valued, generic Metadata container class. The class uses an internal\n\tMap of string keys pointing to vectors of strings. The data\n\tstructure looks like the following:\n\n\t[std:string key]⇒std:vector of std:strings\n\n\tThe multi-valued nature of the class is handled transparently by this Metadata\n\tcontainer. Since all values are stored internally as string vectors, the difference\n\tbetween a scalar value and a non-scalar is handled by determining whether the list of\n\tvalues for a particular key is greater than 1.",
+  "group_id": "ai.mattmann.mnemosyne",
+  "artifact_id": "cas-metadata",
+  "version_latest": "1.12.0",
+  "ts_publish": 1789439471000,
+  "dt_publish": "2026-09-15 10:31:11.000",
+  "ts_update": 1789441050475,
+  "dt_update": "2026-09-15 10:57:30.475",
+  "count_dep": 49,
+  "count_ref": 9,
+  "licenses": [
+    "Apache 2"
+  ],
+  "categories": null,
+  "dsv": 1
+}
