@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.vadimbabich/entity-metamodel-processor",
+  "description": "JSR-269 annotation processor: reads Spring Data Relational entities through javax.lang.model and\n    emits one metamodel per entity in the frozen contract shape. Compile-time only — it never\n    reaches a consumer's runtime classpath, and it declares no third-party dependency: the emitter\n    renders source text itself because the shape's member order is fixed by contract and no\n    general-purpose code-generation library can be told to honour it.",
+  "group_id": "io.github.vadimbabich",
+  "artifact_id": "entity-metamodel-processor",
+  "version_latest": "2.0.0-RC1",
+  "ts_publish": 1789577764000,
+  "dt_publish": "2026-09-17 00:56:04.000",
+  "ts_update": 1789579667043,
+  "dt_update": "2026-09-17 01:27:47.043",
+  "count_dep": 5,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
