@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.aindriub/data-prism-connectors-rest",
+  "description": "HTTP sources over Spring RestClient. Nothing in the base standalone server or\n    Spring Boot starter compiles against this module: the configuration-driven\n    JSON REST mode it implements is a separately reviewed adapter extension,\n    loaded only by an operator who opts in, over the same\n    -Dloader.path=<reviewed extension jar> mechanism task 17 built for any\n    other reviewed adapter. That is what keeps the MCP layer unable to reach a\n    source directly by default.",
+  "group_id": "io.github.aindriub",
+  "artifact_id": "data-prism-connectors-rest",
+  "version_latest": "0.1.0",
+  "ts_publish": 1789596379000,
+  "dt_publish": "2026-09-17 06:06:19.000",
+  "ts_update": 1789597646798,
+  "dt_update": "2026-09-17 06:27:26.798",
+  "count_dep": 25,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
