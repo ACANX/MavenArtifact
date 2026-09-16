@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.antonyrag/ragleap-rag",
+  "description": "Java port of ragleap-rag's core RAG pipeline: connection\n        pooling, embeddings (7 providers), pgvector storage (dense,\n        sparse, hybrid RRF search), retrieval, and generation\n        (streaming, structured output, provider fallback, vision\n        captioning) - plus standalone utilities (chunking,\n        sanitization, guardrails, cost tracking, evaluation scoring,\n        structured-output validation, observability hooks).\n        Independently versioned from the Python ragleap-rag package\n        (see https://pypi.org/project/ragleap-rag/) rather than kept\n        in lockstep - this port does not yet have parity with the\n        Python package's full surface (only pgvector of its 6 vector\n        backends, no query rewriting, no conversation memory, no\n        ingestion pipeline). Every module here is genuinely tested;\n        most of the core pipeline is live-verified against real\n        Postgres and Ollama, documented per-class where it is not.",
+  "group_id": "io.github.antonyrag",
+  "artifact_id": "ragleap-rag",
+  "version_latest": "0.5.0",
+  "ts_publish": 1789541784000,
+  "dt_publish": "2026-09-16 14:56:24.000",
+  "ts_update": 1789543652404,
+  "dt_update": "2026-09-16 15:27:32.404",
+  "count_dep": 13,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
