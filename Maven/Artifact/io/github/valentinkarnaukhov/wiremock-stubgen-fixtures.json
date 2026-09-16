@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.valentinkarnaukhov/wiremock-stubgen-fixtures",
+  "description": "The specification the project is designed against, and the code that hands it to a\n        test as a file.\n\n        It lived in the core module's test resources and reached the Java target through a\n        test jar, which read as \"the core's fixture, borrowed\". It is not: it is the one\n        specification every layer is measured against, and each layer has an equal claim on\n        it. A module of its own says that, and removes the test-jar dependency that only\n        existed to carry a single file.\n\n        A test aid, not a product artifact: built and installed so the reactor can use it,\n        never deployed.",
+  "group_id": "io.github.valentinkarnaukhov",
+  "artifact_id": "wiremock-stubgen-fixtures",
+  "version_latest": "1.0.0",
+  "ts_publish": 1789597618000,
+  "dt_publish": "2026-09-17 06:26:58.000",
+  "ts_update": 1789599446664,
+  "dt_update": "2026-09-17 06:57:26.664",
+  "count_dep": 2,
+  "count_ref": 3,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

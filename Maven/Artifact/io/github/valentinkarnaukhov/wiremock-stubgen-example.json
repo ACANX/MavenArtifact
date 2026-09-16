@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.valentinkarnaukhov/wiremock-stubgen-example",
+  "description": "A project that uses the plugin the way a consumer would, and the only place the\n        plugin actually runs.\n\n        Everything else is tested by calling the generator directly, which never proves the\n        Mojo can be configured, that the language target is found through ServiceLoader out\n        of a plugin classloader, that the output directory is registered as a test source\n        root, or that generated code compiles against models a real openapi-generator\n        emitted rather than ones written by hand to look like it.\n\n        It replaces an integration-test module that contained nothing but a pom. Being an\n        example rather than a test suite is the point: it has to stay readable, which is a\n        harder constraint than passing, and it is what a newcomer will copy.",
+  "group_id": "io.github.valentinkarnaukhov",
+  "artifact_id": "wiremock-stubgen-example",
+  "version_latest": "1.0.0",
+  "ts_publish": 1789597618000,
+  "dt_publish": "2026-09-17 06:26:58.000",
+  "ts_update": 1789599447095,
+  "dt_update": "2026-09-17 06:57:27.095",
+  "count_dep": 10,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
