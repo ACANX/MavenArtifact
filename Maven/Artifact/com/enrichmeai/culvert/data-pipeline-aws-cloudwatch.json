@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.enrichmeai.culvert/data-pipeline-aws-cloudwatch",
+  "description": "AWS CloudWatch adapter for the Culvert framework. Sprint-21 module\n        (epic #144, T21.6). Implements CloudWatchObservabilityHook\n        (ObservabilityHook) and CloudWatchStageMetricsHook (StageMetricsHook)\n        over software.amazon.awssdk.services.cloudwatch.CloudWatchClient's\n        PutMetricData API. Registered via java.util.ServiceLoader so\n        consumers can wire either without compile-time coupling beyond this\n        module.",
+  "group_id": "com.enrichmeai.culvert",
+  "artifact_id": "data-pipeline-aws-cloudwatch",
+  "version_latest": "0.2.0",
+  "ts_publish": 1789667476000,
+  "dt_publish": "2026-09-18 01:51:16.000",
+  "ts_update": 1789667855464,
+  "dt_update": "2026-09-18 01:57:35.464",
+  "count_dep": 33,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

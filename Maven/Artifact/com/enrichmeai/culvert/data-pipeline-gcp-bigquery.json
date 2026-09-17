@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.enrichmeai.culvert/data-pipeline-gcp-bigquery",
+  "description": "Google Cloud BigQuery adapter for the Culvert framework. Provides\n        BigQueryWarehouse, a Warehouse implementation that wraps\n        com.google.cloud.bigquery.BigQuery. Registered via\n        java.util.ServiceLoader so consumers can wire it without compile-\n        time coupling to the GCP SDK. Sprint-1 deliverable (issue #6).\n        Sibling adapters (JobControlRepository, FinOpsSink) land in this\n        same module via issues #8 and #9.",
+  "group_id": "com.enrichmeai.culvert",
+  "artifact_id": "data-pipeline-gcp-bigquery",
+  "version_latest": "0.2.0",
+  "ts_publish": 1789667476000,
+  "dt_publish": "2026-09-18 01:51:16.000",
+  "ts_update": 1789667855465,
+  "dt_update": "2026-09-18 01:57:35.465",
+  "count_dep": 80,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

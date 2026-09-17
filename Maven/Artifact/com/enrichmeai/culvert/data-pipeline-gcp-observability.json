@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.enrichmeai.culvert/data-pipeline-gcp-observability",
+  "description": "Google Cloud observability adapters for the Culvert framework. Provides\n        CloudTraceObservabilityHook (ObservabilityHook backed by OpenTelemetry\n        exporting spans to Cloud Trace via the GCP exporter) and\n        CloudMonitoringMetricsHook (StageMetricsHook backed by Cloud\n        Monitoring), both registered via java.util.ServiceLoader. Sprint-2\n        deliverable (issue #24). Multi-contract module — same shape as the\n        bigquery-java pilot which ships three contract impls under one pom.\n\n        NO LineageEmitter IS REGISTERED BY THIS MODULE (sprint-23, Story 1.5;\n        removal sanctioned by Story 1.2 AC 3). DataCatalogLineageEmitter is\n        still shipped but is deprecated and de-registered, for two reasons:\n        (1) its only constructor takes three arguments, so ServiceLoader threw\n        ServiceConfigurationError on it — an error AutoConfig swallowed, so the\n        runtime silently fell back to NoOpLineageEmitter and the adapter had\n        emitted nothing for months; and (2) it writes Data Catalog tags, and\n        Data Catalog began its phased shutdown on 2026-06-01. Removing the\n        registration is behaviour-identical to the swallowed error and stops\n        the module advertising an emitter that never emitted. The replacement\n        over the Data Lineage API (datalineage.googleapis.com) is blocked\n        offline: google-cloud-datalineage is not present in ~/.m2 and this\n        build runs mvn -o.",
+  "group_id": "com.enrichmeai.culvert",
+  "artifact_id": "data-pipeline-gcp-observability",
+  "version_latest": "0.2.0",
+  "ts_publish": 1789667476000,
+  "dt_publish": "2026-09-18 01:51:16.000",
+  "ts_update": 1789667855467,
+  "dt_update": "2026-09-18 01:57:35.467",
+  "count_dep": 106,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.enrichmeai.culvert/data-pipeline-orchestration",
+  "description": "Scheduler-agnostic orchestration layer for the Culvert framework.\n        Provides a cloud-neutral DAG model (DagSpec / TaskSpec) and a\n        Pipeline -> DagSpec translator (T11.1). Renderers to Airflow /\n        Cloud Composer (T11.3) and job-control wiring (T11.4) build on this\n        model. Like data-pipeline-core, this module is cloud-neutral: it\n        depends only on the contracts + java.util — no Beam, no Airflow, no\n        GCP. Sprint-11 deliverable (epic #46, T11.1 / issue #61).",
+  "group_id": "com.enrichmeai.culvert",
+  "artifact_id": "data-pipeline-orchestration",
+  "version_latest": "0.2.0",
+  "ts_publish": 1789667476000,
+  "dt_publish": "2026-09-18 01:51:16.000",
+  "ts_update": 1789667855467,
+  "dt_update": "2026-09-18 01:57:35.467",
+  "count_dep": 4,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

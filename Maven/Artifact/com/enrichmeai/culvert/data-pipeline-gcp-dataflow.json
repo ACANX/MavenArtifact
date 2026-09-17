@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.enrichmeai.culvert/data-pipeline-gcp-dataflow",
+  "description": "Google Cloud Dataflow adapter for the Culvert framework. Provides\n        DataflowPipeline, a Pipeline implementation that holds the stage\n        topology (per the Pipeline contract — name + stages + validate)\n        plus utility methods for bridging to Apache Beam: buildBeam()\n        translates the stage graph into a beam.sdk.Pipeline and\n        runOnDataflow() submits it via the DataflowPipelineRunner.\n        Sprint-2 deliverable (issue #25).",
+  "group_id": "com.enrichmeai.culvert",
+  "artifact_id": "data-pipeline-gcp-dataflow",
+  "version_latest": "0.2.0",
+  "ts_publish": 1789667476000,
+  "dt_publish": "2026-09-18 01:51:16.000",
+  "ts_update": 1789667855457,
+  "dt_update": "2026-09-18 01:57:35.457",
+  "count_dep": 209,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

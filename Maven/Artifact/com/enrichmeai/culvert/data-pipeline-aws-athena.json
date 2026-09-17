@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.enrichmeai.culvert/data-pipeline-aws-athena",
+  "description": "AWS Athena adapter for the Culvert framework. Sprint-21 module (epic\n        #144, T21.5, issue #149). Implements the Warehouse contract over AWS\n        Athena (SDK v2): query/execute via StartQueryExecution + polling +\n        paginated GetQueryResults, tableExists via GetTableMetadata, copy via\n        CTAS, loadFromUri via a run-scoped external staging table. Also\n        implements JobControlRepository as an append-only ledger (AD-2/AD-3):\n        every state change is an INSERT INTO, reads project per run_id with the\n        earliest terminal state winning. merge() and cleanupPartialLoad() are\n        honestly unimplemented - Athena has no MERGE and no DELETE outside\n        Iceberg-backed tables; both throw rather than degrade (see class\n        Javadocs).",
+  "group_id": "com.enrichmeai.culvert",
+  "artifact_id": "data-pipeline-aws-athena",
+  "version_latest": "0.2.0",
+  "ts_publish": 1789667476000,
+  "dt_publish": "2026-09-18 01:51:16.000",
+  "ts_update": 1789667855460,
+  "dt_update": "2026-09-18 01:57:35.460",
+  "count_dep": 31,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
