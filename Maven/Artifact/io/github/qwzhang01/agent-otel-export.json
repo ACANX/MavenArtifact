@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.qwzhang01/agent-otel-export",
+  "description": "OTel span adapter - a thin translation layer over the framework's\n        stable RunEvent/MetricsSink contracts. The OpenTelemetry SDK is a PROVIDED\n        dependency here (never in agent-observability): code compiled against the\n        API works with any SDK at runtime, and deployments that never wire an SDK\n        keep zero OTel classes on their classpath (Stage 7.1, blueprint D9).",
+  "group_id": "io.github.qwzhang01",
+  "artifact_id": "agent-otel-export",
+  "version_latest": "0.1.4",
+  "ts_publish": 1789619786000,
+  "dt_publish": "2026-09-17 12:36:26.000",
+  "ts_update": 1789621044158,
+  "dt_update": "2026-09-17 12:57:24.158",
+  "count_dep": 8,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
