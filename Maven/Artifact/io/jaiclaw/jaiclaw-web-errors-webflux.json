@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.jaiclaw/jaiclaw-web-errors-webflux",
+  "description": "JaiClaw default web exception handler for Spring WebFlux — an ErrorWebExceptionHandler registered at @Order(-1) so it runs before Spring Boot's default reactive error handler and after adopter @ControllerAdvice. Maps framework exceptions to opaque bodies while logging every 5xx at ERROR. Auto-enabled via the JaiClaw starter; opt-out via jaiclaw.web.errors.enabled=false.",
+  "group_id": "io.jaiclaw",
+  "artifact_id": "jaiclaw-web-errors-webflux",
+  "version_latest": "1.2.0",
+  "ts_publish": 1789758963000,
+  "dt_publish": "2026-09-19 03:16:03.000",
+  "ts_update": 1789759706341,
+  "dt_update": "2026-09-19 03:28:26.341",
+  "count_dep": 26,
+  "count_ref": 2,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
