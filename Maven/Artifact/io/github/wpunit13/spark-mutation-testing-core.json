@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.wpunit13/spark-mutation-testing-core",
+  "description": "Core state machine, deterministic hashing, mutation catalog and report\n    writers. Pure Java 17.\n\n    ARCHITECTURAL INVARIANT: this module must contain ZERO Spark imports.\n    It has no compile- or provided-scope dependency on any org.apache.spark\n    artifact, and scripts/check_no_spark_imports.sh fails the build if an\n    \"import org.apache.spark\" statement appears in src/main/java.\n\n    SessionResetFacade is the deliberate edge case: its logic is entirely\n    Spark-specific but it is implemented purely via java.lang.reflect against\n    an Object parameter, so no Spark type is ever named at compile time. That\n    is why spark-sql appears below at TEST scope only: its unit test needs a\n    real SparkSession to reflect against.",
+  "group_id": "io.github.wpunit13",
+  "artifact_id": "spark-mutation-testing-core",
+  "version_latest": "1.0.0",
+  "ts_publish": 1789963866000,
+  "dt_publish": "2026-09-21 12:11:06.000",
+  "ts_update": 1789964853316,
+  "dt_update": "2026-09-21 12:27:33.316",
+  "count_dep": 5,
+  "count_ref": 2,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

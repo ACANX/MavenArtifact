@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.wpunit13/spark-mutation-testing-maven-plugin",
+  "description": "Maven plugin for Java and Scala pipelines.\n\n    CURRENT STATUS: PLACEHOLDER. The single MutateMojo throws\n    MojoExecutionException. The Java/Scala orchestration described in\n    ARCHITECTURE.md section 5.4 (test-classpath introspection, matching\n    shim resolution via Aether, Surefire/Failsafe argLine injection, and the\n    baseline/mutation loop) is NOT implemented.\n\n    The module exists so that:\n      1. the full reactor builds and installs cleanly, and\n      2. the artifact coordinate io.github.wpunit13:spark-mutation-testing-maven-plugin\n         quoted in the project README actually resolves.\n\n    Use the pytest-spark-mutation-testing Python plugin for PySpark pipelines; that\n    track is complete.",
+  "group_id": "io.github.wpunit13",
+  "artifact_id": "spark-mutation-testing-maven-plugin",
+  "version_latest": "1.0.0",
+  "ts_publish": 1789963866000,
+  "dt_publish": "2026-09-21 12:11:06.000",
+  "ts_update": 1789964852695,
+  "dt_update": "2026-09-21 12:27:32.695",
+  "count_dep": 38,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

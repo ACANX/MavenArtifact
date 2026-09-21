@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.wpunit13/interceptor-bundle-spark-4.2_2.13",
+  "description": "Produces the self-contained fat jar that the Python wheel mounts via --jars,\n    for Spark 4.2.x / Scala 2.13 (WP-20).\n\n    WHY THIS BUNDLE RECOMPILES THE VERSION-AGNOSTIC LAYERS\n    ------------------------------------------------------\n    The 3.5 bundles ship api/dispatch/runtime classes compiled against Spark\n    3.5.3. Those classes are SOURCE-identical here, but a Spark 4.2 driver\n    cannot link against classes whose erased Catalyst descriptors were built\n    for 3.5 when the 4.2 Catalyst signatures differ. This module therefore\n    recompiles interceptor-api, interceptor-dispatch and interceptor-runtime\n    FROM SOURCE (build-helper add-source) against THIS combination's Spark\n    4.2.0 / Scala 2.13.18, exactly as the WP-20 spike proved possible, and\n    pairs them with the 4.2-compiled shim. mutator-core is pure Java (no Spark\n    imports, enforced by the CI gate) and is consumed as the reactor artifact.\n\n    NO PACKAGE RELOCATION\n    ---------------------\n    Same rationale as the other bundles: relocation would rename the\n    PlanMutatorShim interface named in spark.sql.extensions and break the\n    ServiceLoader contract. The plugin mounts exactly one bundle per session.\n\n    Verify after building:\n      jar tf target/interceptor-spark-4.2_2.13.jar | grep -E \\\n        \"MutatorSparkExtension|MutantRegistry|ShimImpl|META-INF/services\"\n    All four must be present, and the services file must be named\n      META-INF/services/io.github.wpunit13.mutator.api.PlanMutatorShim\n    containing the UNRELOCATED implementation class name\n    (io.github.wpunit13.mutator.spark42_213.ShimImpl).",
+  "group_id": "io.github.wpunit13",
+  "artifact_id": "interceptor-bundle-spark-4.2_2.13",
+  "version_latest": "1.0.0",
+  "ts_publish": 1789963866000,
+  "dt_publish": "2026-09-21 12:11:06.000",
+  "ts_update": 1789964852696,
+  "dt_update": "2026-09-21 12:27:32.696",
+  "count_dep": 166,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
