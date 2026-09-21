@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/sh.brewlet/brewlet-maven-plugin",
+  "description": "Maven plugin that wraps the Brewlet \"author launch config + push OCI artifact\"\n    steps so developers never touch ORAS or the brewlet CLI directly.\n    A single \"mvn brewlet:push\" produces and publishes the Brewlet OCI artifact —\n    the JAR layer + a generated application/vnd.brewlet.jvm.config.v1+json launch\n    descriptor — with no Dockerfile and no container build.",
+  "group_id": "sh.brewlet",
+  "artifact_id": "brewlet-maven-plugin",
+  "version_latest": "0.5.1",
+  "ts_publish": 1790017592000,
+  "dt_publish": "2026-09-22 03:06:32.000",
+  "ts_update": 1790018853741,
+  "dt_update": "2026-09-22 03:27:33.741",
+  "count_dep": 37,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
