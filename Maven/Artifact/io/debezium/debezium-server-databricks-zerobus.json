@@ -3,14 +3,16 @@
   "description": "Databricks Zerobus Ingest integration for Debezium Server. Provides a Kafka\n        OAUTHBEARER login callback handler so the native Kafka sink can authenticate\n        against the Zerobus Kafka-compatible endpoint (port 9092, SASL_SSL) using a\n        Databricks service principal and the Zerobus token audience.",
   "group_id": "io.debezium",
   "artifact_id": "debezium-server-databricks-zerobus",
-  "version_latest": "3.7.0.Beta2",
-  "ts_publish": 1789479437000,
-  "dt_publish": "2026-09-15 21:37:17.000",
-  "ts_update": 1789480659951,
-  "dt_update": "2026-09-15 21:57:39.951",
-  "count_dep": 55,
+  "version_latest": "3.7.0.CR1",
+  "ts_publish": 1790077271000,
+  "dt_publish": "2026-09-22 19:41:11.000",
+  "ts_update": 1790078257471,
+  "dt_update": "2026-09-22 19:57:37.471",
+  "count_dep": 202,
   "count_ref": 1,
-  "licenses": [],
+  "licenses": [
+    "Apache Software License 2.0"
+  ],
   "categories": [
     "Data Management",
     "Database"
