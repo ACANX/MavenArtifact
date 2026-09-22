@@ -1,26 +1,28 @@
 {
-	"id":"pkg:maven/org.graalvm.truffle/truffle-enterprise",
-	"description":"The advanced version of the Truffle runtime for Graal Languages, providing additional features such as sandboxing or auxiliary engine caching. It is not recommended to depend on this artifact directly. Instead, use a POM dependency of one or more Graal Languages (for example `org.graalvm.polyglot:js`) to ensure all dependencies are pulled in correctly.",
-	"group_id":"org.graalvm.truffle",
-	"artifact_id":"truffle-enterprise",
-	"version_latest":"25.0.1",
-	"ts_publish":1761061876000,
-	"dt_publish":"2025-10-21 23:51:16.000",
-	"ts_update":1761063844343,
-	"dt_update":"2025-10-22 00:21:29.124",
-	"count_dep":7,
-	"count_ref":15,
-	"licenses":[
-		"GraalVM Free Terms and Conditions (GFTC) including License for Early Adopter Versions"
-	],
-	"categories":[
-		"Uncategorized"
-	],
-	"dsv":1,
-	"url_project":"http://www.graalvm.org/",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.graalvm.truffle/truffle-enterprise@25.0.1",
-	"contributors":[
-		"GraalVM Development"
-	],
-	"url_scm":"https://github.com/oracle/graal"
+  "id" : "pkg:maven/org.graalvm.truffle/truffle-enterprise",
+  "description" : "This distribution is deprecated as of GraalVM 25.1 and is retained only for Maven compatibility. It will be removed in a future release. If you are using GraalVM 25.1 or later, you can safely remove this dependency.",
+  "group_id" : "org.graalvm.truffle",
+  "artifact_id" : "truffle-enterprise",
+  "version_latest" : "25.4.4.1.1",
+  "ts_publish" : 1790092636000,
+  "dt_publish" : "2026-09-22 23:57:16.000",
+  "ts_update" : 1761063844785,
+  "dt_update" : "2026-09-23 00:41:13.446",
+  "count_dep" : 0,
+  "count_ref" : 0,
+  "licenses" : [ "GraalVM Free Terms and Conditions (GFTC) including License for Early Adopter Versions" ],
+  "categories" : null,
+  "dsv" : 1,
+  "url_project" : "http://www.graalvm.org/",
+  "url_oss_index" : "https://ossindex.sonatype.org/component/pkg:maven/org.graalvm.truffle/truffle-enterprise@25.0.1",
+  "contributors" : [ "GraalVM Development" ],
+  "url_scm" : "https://github.com/oracle/graal",
+  "license" : null,
+  "tags" : null,
+  "homePage" : null,
+  "ranking" : null,
+  "countUsedBy" : null,
+  "redirectFlag" : null,
+  "tsUpdate" : 1790094691479,
+  "versions" : null
 }
