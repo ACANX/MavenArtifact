@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.flexemarkets/fm-expr",
+  "description": "*** ALPHA SOFTWARE -- THE API IS NOT STABLE ***\n\n        Pre-1.0 and under active development. Anything public may be added,\n        renamed or removed in any release, breaking code that compiles today,\n        with no deprecation period first. A 0.x version carries no\n        compatibility promise and these are used that way: treat every bump\n        as potentially breaking. Pin an exact version. Not recommended for\n        production use.\n\n        The expression language a manager writes a participant panel in, and\n        the one evaluator of it. A closed grammar over a participant's private\n        state, the marketplace's shared state, and their holdings: field\n        references, arithmetic, comparison, a conditional, and the handful of\n        vector functions the studies in fm-robots require. No loops, no\n        user-defined functions, no I/O, no reach into another participant's\n        state.\n\n        One evaluator on purpose. The live panel in fm-server and the offline\n        settlement in fm-robots must show and pay the same number, and two\n        implementations of one formula agree by test where one agrees by\n        construction. Decimal throughout: intermediate arithmetic at scale\n        six, never binary floating point.\n\n        No dependencies. Callers hand it a Scope resolving references to\n        values; what a holding or a state row looks like is their business.",
+  "group_id": "com.flexemarkets",
+  "artifact_id": "fm-expr",
+  "version_latest": "0.0.1",
+  "ts_publish": 1790087171000,
+  "dt_publish": "2026-09-22 22:26:11.000",
+  "ts_update": 1790089052441,
+  "dt_update": "2026-09-22 22:57:32.441",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
