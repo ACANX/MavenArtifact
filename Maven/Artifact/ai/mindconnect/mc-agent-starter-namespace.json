@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ai.mindconnect/mc-agent-starter-namespace",
+  "description": "Namespaces for a Spring Boot server: the ThreadBoundScope every store\n        routes by, the namespace repository (file or Postgres, following\n        mindconnect.persistence), the NamespaceService, and the two servlet\n        filters that choose the namespace of a request — from a /ns/{namespace}/\n        path prefix, an X-Mindconnect-Namespace header, or the namespace the\n        user selected in the browser session — and bind it to the thread.",
+  "group_id": "ai.mindconnect",
+  "artifact_id": "mc-agent-starter-namespace",
+  "version_latest": "0.8.4",
+  "ts_publish": 1790187676000,
+  "dt_publish": "2026-09-24 02:21:16.000",
+  "ts_update": 1790189851379,
+  "dt_update": "2026-09-24 02:57:31.379",
+  "count_dep": 103,
+  "count_ref": 3,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

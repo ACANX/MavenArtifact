@@ -1,14 +1,14 @@
 {
   "id": "pkg:maven/ai.mindconnect/mc-agent-starter-postgres",
-  "description": "Spring Boot starter for Postgres persistence: with\n        mindconnect.persistence=postgres every repository port of the agent\n        runtime, the message store, the LLM gateway and the file store is served\n        by its Postgres adapter over one pooled DataSource, and the tables are\n        created on start. Auto-configured — on the classpath is enough.",
+  "description": "Spring Boot starter: Postgres persistence for the agent runtime — the pooled data source, the\n        Persistence the runtime starter builds every store from, and the installation-wide\n        users and API tokens as tables. mindconnect.persistence=postgres switches it on.",
   "group_id": "ai.mindconnect",
   "artifact_id": "mc-agent-starter-postgres",
-  "version_latest": "0.8.1",
-  "ts_publish": 1789171672000,
-  "dt_publish": "2026-09-12 08:07:52.000",
-  "ts_update": 1789174645119,
-  "dt_update": "2026-09-12 08:57:25.119",
-  "count_dep": 46,
+  "version_latest": "0.8.4",
+  "ts_publish": 1790187676000,
+  "dt_publish": "2026-09-24 02:21:16.000",
+  "ts_update": 1790189851378,
+  "dt_update": "2026-09-24 02:57:31.378",
+  "count_dep": 39,
   "count_ref": 2,
   "licenses": [
     "Apache License, Version 2.0"

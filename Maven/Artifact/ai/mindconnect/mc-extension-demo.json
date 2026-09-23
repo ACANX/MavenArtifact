@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ai.mindconnect/mc-extension-demo",
+  "description": "A worked example of an extension: a jar with a manifest\n        (META-INF/mindconnect/extension.json) that brings a tool (demo_dice), an\n        agent (dungeon-master, seeded from initial-data), a runtime feature that\n        decorates a core port and keeps a store of its own, and two screens — an\n        adventure the agent runs as game master (/admin/demo-dungeon) and the dice\n        statistics (/admin/demo-dungeon/stats). Not a dependency of any app — drop\n        the jar on the admin UI's classpath (PropertiesLauncher, loader.path) and it\n        appears under Install → Extensions.",
+  "group_id": "ai.mindconnect",
+  "artifact_id": "mc-extension-demo",
+  "version_latest": "0.8.4",
+  "ts_publish": 1790187676000,
+  "dt_publish": "2026-09-24 02:21:16.000",
+  "ts_update": 1790189850821,
+  "dt_update": "2026-09-24 02:57:30.821",
+  "count_dep": 55,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
