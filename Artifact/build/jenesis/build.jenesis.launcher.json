@@ -3,11 +3,11 @@
   "description" : "The launcher is shaded into the jar root and runs\nthe bundled application out of the one {@code jars/} store the jar keeps its dependencies in, reading\nclass and resource bytes on demand from the still-open outer jar - nothing is held in memory or extracted\nto disk. What each path holds is named by {@code application.properties} rather than shown by where a jar\nsits: what {@code classpath} names becomes the unnamed module of a single loader, and what\n{@code modulepath} names is resolved into a fresh {@link java.lang.ModuleLayer} mapped to that same\nloader, preserving full modularity. The same machinery serves a module that keeps a dependency private:\nit declares a layer, requires this module, and asks for it by name, and the dependency is resolved into a\nlayer of its own - read from the same jar, never relocated and never unpacked.",
   "group_id" : "build.jenesis",
   "artifact_id" : "build.jenesis.launcher",
-  "version_latest" : "0.5.0",
-  "ts_publish" : 1790170269000,
-  "dt_publish" : "2026-09-23 21:31:09.000",
+  "version_latest" : "0.5.1",
+  "ts_publish" : 1790197247000,
+  "dt_publish" : "2026-09-24 05:00:47.000",
   "ts_update" : 1781125021259,
-  "dt_update" : "2026-09-23 22:09:24.817",
+  "dt_update" : "2026-09-24 05:36:45.327",
   "count_dep" : 0,
   "count_ref" : 0,
   "licenses" : [ "Apache-2.0" ],
@@ -23,6 +23,6 @@
   "ranking" : null,
   "countUsedBy" : null,
   "redirectFlag" : null,
-  "tsUpdate" : 1790172073412,
+  "tsUpdate" : 1790199080404,
   "versions" : null
 }
