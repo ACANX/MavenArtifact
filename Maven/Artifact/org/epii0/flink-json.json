@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.epii0/flink-json",
+  "description": "Epii0-maintained patch release of the Apache Flink 2.3.0 flink-json module\n\t\t(Apache License 2.0). Changes versus upstream 2.3.0: exceptions thrown by the\n\t\tdownstream Collector propagate unchanged instead of being misclassified or\n\t\tswallowed as parse errors, malformed records ignored via ignore-parse-errors\n\t\tare not emitted to the Collector as null rows, and the raw-input preview\n\t\tembedded in JSON parse diagnostics and debug logs is byte-bounded.\n\t\tThis is not an official Apache Flink release.",
+  "group_id": "org.epii0",
+  "artifact_id": "flink-json",
+  "version_latest": "2.3.0-epii0.1",
+  "ts_publish": 1790221274000,
+  "dt_publish": "2026-09-24 11:41:14.000",
+  "ts_update": 1790222269003,
+  "dt_update": "2026-09-24 11:57:49.003",
+  "count_dep": 46,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache Software License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
