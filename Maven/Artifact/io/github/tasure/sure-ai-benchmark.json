@@ -3,12 +3,12 @@
   "description": "JMH 性能基准模块：对 core 的 JSON 序列化/反序列化、ChatRequest 构建、\n        OpenAI 兼容协议请求体序列化、SSE 行解析等热点路径做微基准。\n        红线：jmh-core / jmh-generator-annprocess 仅 test scope，不进 sure-ai-all、不进运行期依赖链；\n        本模块不依赖任何平台模块，仅依赖 sure-ai-core；默认 mvn verify 不执行 benchmark。",
   "group_id": "io.github.tasure",
   "artifact_id": "sure-ai-benchmark",
-  "version_latest": "1.3.0",
-  "ts_publish": 1790339505000,
-  "dt_publish": "2026-09-25 20:31:45.000",
-  "ts_update": 1790341060839,
-  "dt_update": "2026-09-25 20:57:40.839",
-  "count_dep": 4,
+  "version_latest": "1.4.0",
+  "ts_publish": 1790386909000,
+  "dt_publish": "2026-09-26 09:41:49.000",
+  "ts_update": 1790389653149,
+  "dt_update": "2026-09-26 10:27:33.149",
+  "count_dep": 5,
   "count_ref": 0,
   "licenses": [
     "Apache License, Version 2.0"
