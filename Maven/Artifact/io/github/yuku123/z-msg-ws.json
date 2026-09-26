@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.yuku123/z-msg-ws",
+  "description": "Z-MSG 实时接入层: 一条 WebSocket 端点 + 一次性 ticket 握手鉴权 + topic 订阅模型。\n        实现 z-msg-api 的 RealtimeTransport，被 z-msg-core 的 RealtimePublisher 自动收集，\n        业务侧除配置 ticket 密钥外零改动；站内信/IM/业务事件共用一条连接。\n        跨节点广播或 SSE 兜底请另写一个 RealtimeTransport 实现，本模块不冒充这些能力。",
+  "group_id": "io.github.yuku123",
+  "artifact_id": "z-msg-ws",
+  "version_latest": "1.1.0",
+  "ts_publish": 1790391097000,
+  "dt_publish": "2026-09-26 10:51:37.000",
+  "ts_update": 1790393276672,
+  "dt_update": "2026-09-26 11:27:56.672",
+  "count_dep": 112,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
