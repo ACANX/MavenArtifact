@@ -1,17 +1,18 @@
 {
   "id": "pkg:maven/ai.bithuman/sdk",
-  "description": "Android binding for the bitHuman avatar runtime. Real-time lip-sync compositing from 16 kHz PCM audio.",
+  "description": "DEPRECATED - superseded by ai.bithuman:essence2-android (https://central.sonatype.com/artifact/ai.bithuman/essence2-android). This final release is 2.3.6's code unchanged (the same classes.jar and native libraries) plus the third-party notices it lacked: FFmpeg 6.1 (LGPL-2.1-or-later, statically linked; written relink offer in META-INF/LGPL-RELINK-OFFER.txt, covering 1.12.1 onwards), OpenSSL, libcurl, HDF5, libjpeg-turbo, libwebp and KISS FFT, with ONNX Runtime and libc++ alongside. See META-INF/NOTICE.txt.",
   "group_id": "ai.bithuman",
   "artifact_id": "sdk",
-  "version_latest": "2.3.6",
-  "ts_publish": 1780337569000,
-  "dt_publish": "2026-06-02 02:12:49.000",
-  "ts_update": 1780340232528,
-  "dt_update": "2026-06-02 02:57:12.528",
+  "version_latest": "2.3.7",
+  "ts_publish": 1790438244000,
+  "dt_publish": "2026-09-26 23:57:24.000",
+  "ts_update": 1790441845888,
+  "dt_update": "2026-09-27 00:57:25.888",
   "count_dep": 2,
   "count_ref": 0,
   "licenses": [
-    "Proprietary — bitHuman SDK License"
+    "GNU Lesser General Public License v2.1 or later (the statically linked FFmpeg); other third-party licences listed in META-INF/NOTICE.txt",
+    "Proprietary - bitHuman SDK License (bitHuman code)"
   ],
   "categories": null,
   "dsv": 1

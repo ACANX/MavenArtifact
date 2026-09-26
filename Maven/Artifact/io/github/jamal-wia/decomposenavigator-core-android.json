@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.jamal-wia/decomposenavigator-core-android",
+  "description": "A declarative, serializable navigation layer on top of Decompose's ChildStack: a DSL screen registry (no manual KSerializer registration), a navigator tree reachable via Composition Locals (LocalNavigator / LocalLineNavigator / LocalSwitchNavigator / LocalEnclosingLineNavigator), line (stack) and switch (tab) navigation controllers, process-death-safe stack and per-screen state persistence, a recreation-safe LiveNavigator for navigating from a coroutine after an Activity recreation, deep-link plumbing (DeepLinkBus / DeepLinkRouter / DeepLinkHandler) that never drops a link tapped before the app is ready, and slide/fade/covering-screen stack animations that survive Decompose's per-child animation caching. Pick this module if you want Decompose's power without hand-writing StackNavigation, ChildStack, component factories, BackHandler wiring, and serializer registration for every screen.",
+  "group_id": "io.github.jamal-wia",
+  "artifact_id": "decomposenavigator-core-android",
+  "version_latest": "1.0.0",
+  "ts_publish": 1790437895000,
+  "dt_publish": "2026-09-26 23:51:35.000",
+  "ts_update": 1790441847793,
+  "dt_update": "2026-09-27 00:57:27.793",
+  "count_dep": 15,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
