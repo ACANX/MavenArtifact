@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.tasure/sure-ai-mcp-server",
+  "description": "MCP（Model Context Protocol）Server 模块：把 sureai 统一的多平台 AiClient/EmbeddingClient/ImageClient 能力反向暴露为标准 MCP Server。纯 JDK 实现 JSON-RPC 2.0 协议引擎，内置 stdio（NDJSON）与 Streamable HTTP（com.sun.net.httpserver）双传输；注册式工具模型保证核心零平台依赖，平台能力由调用方注入。兼容有状态规范 2025-06-18，并实验性适配无状态规范 2026-07-28（server/discover、_meta 版本协商、list 结果 ttlMs/cacheScope）。",
+  "group_id": "io.github.tasure",
+  "artifact_id": "sure-ai-mcp-server",
+  "version_latest": "1.5.0",
+  "ts_publish": 1790404883000,
+  "dt_publish": "2026-09-26 14:41:23.000",
+  "ts_update": 1790405850026,
+  "dt_update": "2026-09-26 14:57:30.026",
+  "count_dep": 5,
+  "count_ref": 3,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
