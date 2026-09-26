@@ -1,13 +1,13 @@
 {
   "id" : "pkg:maven/dev.frontseat.maven.extensions/maven-deploy-extension",
-  "description" : "Maven plugin and extension for Frontseat build and publish management: builds always at a\n        placeholder version (0.0.0) so artifacts stay cache-stable, then stamps the real version and publishes\n        prebuilt artifacts at deploy time — resolving inter-module dependencies from sibling target/ outputs so\n        no ~/.m2 population is required.",
+  "description" : "Maven core extension for frontseat's per-module builds: a workspace reader that resolves the\n        siblings a build names from their own build output, a goal that fetches what plugins resolve only as they\n        run, and goals that stage a module's release and publish what was staged.",
   "group_id" : "dev.frontseat.maven.extensions",
   "artifact_id" : "maven-deploy-extension",
-  "version_latest" : "0.41.1",
-  "ts_publish" : 1789902699000,
-  "dt_publish" : "2026-09-20 19:11:39.000",
+  "version_latest" : "0.42.0",
+  "ts_publish" : 1790448367000,
+  "dt_publish" : "2026-09-27 02:46:07.000",
   "ts_update" : 1783951029840,
-  "dt_update" : "2026-09-20 19:34:03.142",
+  "dt_update" : "2026-09-27 03:03:47.818",
   "count_dep" : 36,
   "count_ref" : 0,
   "licenses" : [ "The Apache License, Version 2.0" ],
@@ -23,6 +23,6 @@
   "ranking" : null,
   "countUsedBy" : null,
   "redirectFlag" : null,
-  "tsUpdate" : 1789903893738,
+  "tsUpdate" : 1790449317667,
   "versions" : null
 }
