@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.keelframework.mcp.transport/keel-transport-auth",
+  "description": "HTTP authentication module for MCP transports.\n        Responsibilities:\n        - McpAuthenticationFilter: extracts the Bearer token and populates the SecurityContextHolder\n        - McpAuthenticationToken: Spring Security token with model.io.keelframework.mcp.common.jwt.Jwt as the principal\n        - TokenExtractor: converts provider.io.keelframework.mcp.common.jwt.JwtClaims into the custom model.io.keelframework.mcp.common.jwt.Jwt\n        - AuthAdapterAutoConfig: SecurityFilterChain and Spring Security beans\n        - AuthAdapterProperties: keycloak.adapter.* configuration\n        - McpAuthorizationAdvisor: AOP-based authorization by role/scope\n        Depends on adapter-auth-idp for pure JWT validation.",
+  "group_id": "io.keelframework.mcp.transport",
+  "artifact_id": "keel-transport-auth",
+  "version_latest": "1.0.0",
+  "ts_publish": 1790530882000,
+  "dt_publish": "2026-09-28 01:41:22.000",
+  "ts_update": 1790531849387,
+  "dt_update": "2026-09-28 01:57:29.387",
+  "count_dep": 75,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

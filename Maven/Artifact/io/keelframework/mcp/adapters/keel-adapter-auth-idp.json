@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.keelframework.mcp.adapters/keel-adapter-auth-idp",
+  "description": "Librería de validación JWT pura — sin Spring Security, sin filtros HTTP.\n        Responsabilidades:\n        - Descargar y cachear JWKS de RedHat SSO (JwksRemoteLoader, JwksKeyResolver)\n        - Validar firma, expiración, issuer y audience del JWT (TokenValidator)\n        - Modelos propios: model.io.keelframework.mcp.common.jwt.Jwt, model.io.keelframework.mcp.common.jwt.Role, model.io.keelframework.mcp.common.jwt.Scope, model.io.keelframework.mcp.common.jwt.Authority, provider.io.keelframework.mcp.common.jwt.JwtClaims\n        No depende de transport-auth-service ni de ningún módulo de transport.",
+  "group_id": "io.keelframework.mcp.adapters",
+  "artifact_id": "keel-adapter-auth-idp",
+  "version_latest": "1.0.0",
+  "ts_publish": 1790530882000,
+  "dt_publish": "2026-09-28 01:41:22.000",
+  "ts_update": 1790531849387,
+  "dt_update": "2026-09-28 01:57:29.387",
+  "count_dep": 55,
+  "count_ref": 2,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
