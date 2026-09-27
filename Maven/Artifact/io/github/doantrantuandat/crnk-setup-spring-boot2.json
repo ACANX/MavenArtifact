@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.doantrantuandat/crnk-setup-spring-boot2",
+  "description": "Frozen Spring Boot 2.3.12/javax/Tomcat 9 autoconfiguration line, kept for teams not yet on Boot 3.\n    Depends exclusively on the \"-legacy\" siblings (crnk-setup-servlet-legacy, crnk-data-jpa-legacy,\n    crnk-validation-legacy) for anything jakarta-migrated in the mainline - never on the jakarta-based\n    modules directly, since Spring Boot 2.3.12/Tomcat 9 cannot load jakarta.* classes. Not actively\n    migrated or maintained beyond keeping it compiling - see crnk-setup-spring-boot3 for the supported\n    Spring Boot 3/jakarta integration.",
+  "group_id": "io.github.doantrantuandat",
+  "artifact_id": "crnk-setup-spring-boot2",
+  "version_latest": "4.0.0-lts.2",
+  "ts_publish": 1790500303000,
+  "dt_publish": "2026-09-27 17:11:43.000",
+  "ts_update": 1790501250522,
+  "dt_update": "2026-09-27 17:27:30.522",
+  "count_dep": 80,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache Software License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

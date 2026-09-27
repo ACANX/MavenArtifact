@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.doantrantuandat/crnk-setup-spring-jackson3",
+  "description": "Framework-agnostic Spring glue (RestTemplate client adapter, Spring Security/exception modules) for the\n    Jackson 3 / tools.jackson.* line. SpringSecurityModule/SpringExceptionModule implement crnk-core's Module\n    interface, whose ModuleContext type differs between the crnk-core and crnk-core-jackson3 lines, so - like\n    crnk-setup-servlet-jackson3 - this needs its own build even though it has no Jackson coupling of its own.\n    Imports the Spring Boot 4 BOM (not 3, unlike its sibling) since this module's own source compiles directly\n    against Spring Framework/Security/Data APIs that moved between the two generations, and its only real\n    consumer is crnk-setup-spring-boot4.",
+  "group_id": "io.github.doantrantuandat",
+  "artifact_id": "crnk-setup-spring-jackson3",
+  "version_latest": "4.0.0-lts.2",
+  "ts_publish": 1790500303000,
+  "dt_publish": "2026-09-27 17:11:43.000",
+  "ts_update": 1790501249965,
+  "dt_update": "2026-09-27 17:27:29.965",
+  "count_dep": 74,
+  "count_ref": 2,
+  "licenses": [
+    "The Apache Software License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
