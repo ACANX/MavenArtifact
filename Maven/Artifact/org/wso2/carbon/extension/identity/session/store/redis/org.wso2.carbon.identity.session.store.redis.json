@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.wso2.carbon.extension.identity.session.store.redis/org.wso2.carbon.identity.session.store.redis",
+  "description": "Self-contained, separately-deployable Redis session store for WSO2 Identity Server.\n        Registers a SessionDataStore and a UserSessionDAO, which the framework selects through the\n        SessionStoreImplType configuration. Extends the abstract SessionDataStore that ships in\n        carbon-identity-framework, where the pluggable supertype and the JDBC default live.\n        Supports the standalone, sentinel and cluster topologies, with a hybrid-hash value layout\n        and native per-key TTL.",
+  "group_id": "org.wso2.carbon.extension.identity.session.store.redis",
+  "artifact_id": "org.wso2.carbon.identity.session.store.redis",
+  "version_latest": "1.0.0",
+  "ts_publish": 1790567493000,
+  "dt_publish": "2026-09-28 11:51:33.000",
+  "ts_update": 1790569637156,
+  "dt_update": "2026-09-28 12:27:17.156",
+  "count_dep": 286,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache Software License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
