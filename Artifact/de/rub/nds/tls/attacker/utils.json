@@ -1,195 +1,30 @@
 {
-	"id":"pkg:maven/de.rub.nds.tls.attacker/utils",
-	"description":"TLS-Attacker is a Java-based framework for analyzing TLS libraries. It is developed by the Ruhr University Bochum (https://nds.rub.de/), the Paderborn University, and the Hackmanit GmbH (https://hackmanit.de/).",
-	"group_id":"de.rub.nds.tls.attacker",
-	"artifact_id":"utils",
-	"version_latest":"7.8.0",
-	"ts_publish":1785143948000,
-	"dt_publish":"2026-07-27 17:19:08.000",
-	"ts_update":1785146251833,
-	"dt_update":"2026-07-27 17:57:22.677",
-	"count_dep":59,
-	"count_ref":6,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
-	"dsv":1,
-	"url_project":"https://github.com/tls-attacker/TLS-Attacker/utils",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/de.rub.nds.tls.attacker/utils@7.5.2",
-	"contributors":[
-		"Robert Merget",
-		"Juraj Somorovsky",
-		"Marcel Maehren",
-		"Nurullah Erinola"
-	],
-	"url_scm":"https://github.com/tls-attacker/TLS-Attacker",
-	"count_used_by":9,
-	"home_page":"https://github.com/tls-attacker/TLS-Attacker/utils",
-	"license":"Apache 2.0",
-	"ranking":"#50840 in MvnRepository",
-	"tags":[
-		"tls"
-	],
-	"versions":[
-		{
-			"date":"20250709",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"7.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250616",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"7.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250612",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"7.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250611",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"7.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250519",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"7.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250519",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"7.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250516",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"7.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250508",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"7.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250321",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"7.0.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250207",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"6.3.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241205",
-			"repository":"Central",
-			"type":"release",
-			"usage":8,
-			"version":"6.3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241008",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"6.1.7",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241007",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"6.1.4",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240122",
-			"repository":"Central",
-			"type":"beta",
-			"usage":7,
-			"version":"5.3.3-preX509b",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230707",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230615",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"5.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"beta",
-			"usage":9,
-			"version":"5.2.1b",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230315",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"5.1.6",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230315",
-			"repository":"Central",
-			"type":"release",
-			"usage":9,
-			"version":"5.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221114",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"4.0.2",
-			"vulnerabilities":""
-		}
-	]
+  "id" : "pkg:maven/de.rub.nds.tls.attacker/utils",
+  "description" : "TLS-Attacker is a Java-based framework for analyzing TLS libraries. It is developed by the Ruhr University Bochum (https://nds.rub.de/), the Paderborn University, and the Hackmanit GmbH (https://hackmanit.de/).",
+  "group_id" : "de.rub.nds.tls.attacker",
+  "artifact_id" : "utils",
+  "version_latest" : "7.14.0",
+  "ts_publish" : 1790602582000,
+  "dt_publish" : "2026-09-28 21:36:22.000",
+  "ts_update" : 1756573945386,
+  "dt_update" : "2026-09-28 22:11:08.671",
+  "count_dep" : 46,
+  "count_ref" : 4,
+  "licenses" : [ "Apache License, Version 2.0" ],
+  "dsv" : 1,
+  "url_project" : "https://github.com/tls-attacker/TLS-Attacker/utils",
+  "url_oss_index" : "https://ossindex.sonatype.org/component/pkg:maven/de.rub.nds.tls.attacker/utils@7.5.2",
+  "contributors" : [ "Robert Merget", "Juraj Somorovsky", "Marcel Maehren", "Nurullah Erinola" ],
+  "url_scm" : "https://github.com/tls-attacker/TLS-Attacker",
+  "count_used_by" : 9,
+  "home_page" : "https://github.com/tls-attacker/TLS-Attacker/utils",
+  "license" : null,
+  "ranking" : null,
+  "tags" : null,
+  "versions" : null,
+  "categories" : null,
+  "homePage" : null,
+  "countUsedBy" : null,
+  "redirectFlag" : null,
+  "tsUpdate" : 1790604120822
 }
