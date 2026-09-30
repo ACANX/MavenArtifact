@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.tasure/sure-ai-otel",
+  "description": "sureai 可观测性 OpenTelemetry 桥接：把 MetricsCollector / RetryListener / AgentEvent\n        映射为 OpenTelemetry GenAI 语义约定（gen_ai.*）指标与 span 事件，可直接进 Langfuse/Jaeger/Tempo。\n        opentelemetry-api 与 opentelemetry-context 以 provided 引入，不向使用者传递——SDK 由使用方在\n        runtime 自行提供；未接入 OTel 时全链路空操作，行为与未接入一致。本模块不进入 sure-ai-all 聚合。",
+  "group_id": "io.github.tasure",
+  "artifact_id": "sure-ai-otel",
+  "version_latest": "1.9.0",
+  "ts_publish": 1790751397000,
+  "dt_publish": "2026-09-30 14:56:37.000",
+  "ts_update": 1790753011956,
+  "dt_update": "2026-09-30 15:23:31.956",
+  "count_dep": 9,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
