@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.lolaf.staffix/staffix-jvm-warmup",
+  "description": "Runs a FIX session against itself before the first real message, so the encoders, the parser and the session\n        path are already C2-compiled when they matter. Until they are, they run one to two orders of magnitude\n        slower than they will a minute later.",
+  "group_id": "org.lolaf.staffix",
+  "artifact_id": "staffix-jvm-warmup",
+  "version_latest": "0.9.0",
+  "ts_publish": 1790801318000,
+  "dt_publish": "2026-10-01 04:48:38.000",
+  "ts_update": 1790801867288,
+  "dt_update": "2026-10-01 04:57:47.288",
+  "count_dep": 20,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.lolaf.staffix/staffix-http-client-jdk",
+  "description": "HttpSender on java.net.http. The default because it adds no dependency, not because it is the fastest:\n        prefer staffix-http-client-okhttp for an HTTPS collector, or staffix-http-client-jetty over plaintext. It\n        cannot serve gRPC - java.net.http exposes no HTTP/2 trailers.",
+  "group_id": "org.lolaf.staffix",
+  "artifact_id": "staffix-http-client-jdk",
+  "version_latest": "0.9.0",
+  "ts_publish": 1790801318000,
+  "dt_publish": "2026-10-01 04:48:38.000",
+  "ts_update": 1790801866753,
+  "dt_update": "2026-10-01 04:57:46.753",
+  "count_dep": 9,
+  "count_ref": 3,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
