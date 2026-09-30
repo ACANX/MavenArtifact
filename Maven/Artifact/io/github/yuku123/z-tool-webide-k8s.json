@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.yuku123/z-tool-webide-k8s",
+  "description": "K8s 化实现（SPI 扩展性证明）。\n        - 与 z-tool-webide-docker 互斥：pom 里排除 docker 模块，仅留 K8s 实现\n        - 实现 ICodeServerProcessLauncher（K8s Pod 拉起）\n        - 实现 IShellExecutor（kubectl exec）\n        - 实际 K8s 集成需要 client-java / fabric8 / kubectl 等依赖，本模块为骨架",
+  "group_id": "io.github.yuku123",
+  "artifact_id": "z-tool-webide-k8s",
+  "version_latest": "1.0.0",
+  "ts_publish": 1790735180000,
+  "dt_publish": "2026-09-30 10:26:20.000",
+  "ts_update": 1790737055059,
+  "dt_update": "2026-09-30 10:57:35.059",
+  "count_dep": 59,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
