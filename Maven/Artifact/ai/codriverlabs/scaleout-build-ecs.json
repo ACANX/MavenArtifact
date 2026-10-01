@@ -3,12 +3,12 @@
   "description": "ECS task orchestration, S3 staging, and native-image input planning. Extracted from\n        scaleout-build-maven-plugin so that both the plugin's direct-ECS backend and the\n        control-plane service can launch and supervise build tasks without the service having to\n        depend on the Maven plugin (and therefore on maven-plugin-api).\n\n        Named for ECS because that is the only backend today. If a second backend appears (see\n        docs/design/control-plane/scaleout-builder-control-plane.md's MicroVM note), the launch\n        abstraction belongs here and the module is worth renaming then rather than pre-emptively.",
   "group_id": "ai.codriverlabs",
   "artifact_id": "scaleout-build-ecs",
-  "version_latest": "0.0.1-centraltest",
-  "ts_publish": 1790805063000,
-  "dt_publish": "2026-10-01 05:51:03.000",
-  "ts_update": 1790807255637,
-  "dt_update": "2026-10-01 06:27:35.637",
-  "count_dep": 0,
+  "version_latest": "0.0.2",
+  "ts_publish": 1790849492000,
+  "dt_publish": "2026-10-01 18:11:32.000",
+  "ts_update": 1790852233995,
+  "dt_update": "2026-10-01 18:57:13.995",
+  "count_dep": 45,
   "count_ref": 1,
   "licenses": [
     "Elastic License 2.0 (ELv2)"
