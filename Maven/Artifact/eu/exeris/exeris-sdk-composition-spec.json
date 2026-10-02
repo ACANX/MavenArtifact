@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-sdk-composition-spec",
+  "description": "Single source of truth for the ADR-024 cap-manifest.json schema and content-binding\n        algorithm. Shared by the build-time tooling that emits the manifest and the SKU-boot\n        runtime that asserts it (obligation 8b). Zero runtime dependencies — pure records plus\n        SHA-256; consumers bring their own JSON mapper.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-sdk-composition-spec",
+  "version_latest": "0.12.0",
+  "ts_publish": 1790963160000,
+  "dt_publish": "2026-10-03 01:46:00.000",
+  "ts_update": 1790963839151,
+  "dt_update": "2026-10-03 01:57:19.151",
+  "count_dep": 3,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

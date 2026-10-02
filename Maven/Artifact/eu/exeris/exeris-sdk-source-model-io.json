@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-sdk-source-model-io",
+  "description": "JavaParser-based reader (.java → DomainMetadata) and idempotent writer\n        (DomainMetadata → .java, preserving user comments, formatting, and\n        non-Exeris annotations) for the canonical source model. Per ADR-037 this\n        is a separate module so JavaParser stays off the dependency tree of\n        exeris-sdk-source-model and its pure AST-record consumers (zero runtime\n        coupling). Consumed by exeris-platform-lsp; NOT by the codegen/processor\n        paths, which only need the AST records.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-sdk-source-model-io",
+  "version_latest": "0.12.0",
+  "ts_publish": 1790963160000,
+  "dt_publish": "2026-10-03 01:46:00.000",
+  "ts_update": 1790963839152,
+  "dt_update": "2026-10-03 01:57:19.152",
+  "count_dep": 9,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

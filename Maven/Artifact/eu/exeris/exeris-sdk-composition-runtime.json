@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-sdk-composition-runtime",
+  "description": "Boot-time composition library (ADR-024 obligations 8a/8a'). A generic, once-tested\n        library every SKU bootstrap invokes at startup: the validation-stamp assertion checks the\n        tooling-emitted stamp in cap-manifest.json (presence, well-formedness,\n        content-binding-match, version-match) and fails fast on drift, then the boot conductor\n        drives each cap's four-phase lifecycle (CapabilityLifecycleHooks from\n        exeris-sdk-composition-lifecycle) in the manifest initOrder — invoked by the SKU\n        bootstrap after KERNEL READY, never a kernel Subsystem. It does NOT re-validate (no\n        @Requires->@Provides DAG re-resolution). The binding it recomputes is the ONE canonical\n        definition in exeris-sdk-composition-spec (obligation 8b) — no verbatim port. Ships into\n        the SKU jar; carries no kernel or codegen dependency (obligation 9 — the kernel stays\n        cap-blind; the build-time pipeline is not dragged onto the SKU classpath).",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-sdk-composition-runtime",
+  "version_latest": "0.12.0",
+  "ts_publish": 1790963160000,
+  "dt_publish": "2026-10-03 01:46:00.000",
+  "ts_update": 1790963839149,
+  "dt_update": "2026-10-03 01:57:19.149",
+  "count_dep": 7,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

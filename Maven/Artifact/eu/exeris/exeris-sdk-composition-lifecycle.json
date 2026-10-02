@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-sdk-composition-lifecycle",
+  "description": "The cap-facing four-phase lifecycle hooks interface (ADR-024 obligation 8a):\n        CapabilityLifecycleHooks — initialize / ready / drain / terminate — implemented by a cap's\n        @CapabilityLifecycle owner and driven by the boot conductor in exeris-sdk-composition-runtime.\n        Zero dependencies by contract: cap authors compile against exeris-sdk-annotations + this jar\n        only, with no Jackson (or anything else) dragged onto their classpath.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-sdk-composition-lifecycle",
+  "version_latest": "0.12.0",
+  "ts_publish": 1790963160000,
+  "dt_publish": "2026-10-03 01:46:00.000",
+  "ts_update": 1790963839151,
+  "dt_update": "2026-10-03 01:57:19.151",
+  "count_dep": 2,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
