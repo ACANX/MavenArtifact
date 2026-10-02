@@ -1,202 +1,29 @@
 {
-	"id":"pkg:maven/org.neo4j/neo4j-connector-apache-spark_2.13_common",
-	"description":"Common Services for Neo4j Connector for Apache Spark using the binary Bolt Driver",
-	"group_id":"org.neo4j",
-	"artifact_id":"neo4j-connector-apache-spark_2.13_common",
-	"version_latest":"5.5.0_for_spark_3",
-	"ts_publish":1783597242000,
-	"dt_publish":"2026-07-09 19:40:42.000",
-	"ts_update":1787417096868,
-	"dt_update":"2026-08-23 00:18:58.507",
-	"count_dep":189,
-	"count_ref":1,
-	"licenses":[
-		"Apache License, Version 2.0"
-	],
-	"categories":[
-		"Data Management",
-		"Database",
-		"NoSQL Databases"
-	],
-	"dsv":1,
-	"url_project":"https://github.com/neo4j/neo4j-spark-connector/neo4j-connector-apache-spark_2.13_common",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/org.neo4j/neo4j-connector-apache-spark_2.13_common@5.3.9_for_spark_3",
-	"contributors":[
-		"Connectors Team"
-	],
-	"url_scm":"https://github.com/neo4j/neo4j-spark-connector/neo4j-connector-apache-spark_2.13_common",
-	"count_used_by":1,
-	"license":"Apache 2.0",
-	"ranking":"#313066 in MvnRepository",
-	"tags":[
-		"database",
-		"spark",
-		"apache",
-		"connector",
-		"graph",
-		"neo4j",
-		"connection"
-	],
-	"versions":[
-		{
-			"date":"20250917",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.10_for_spark_3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250909",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.9_for_spark_3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250605",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.8_for_spark_3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250508",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.7_for_spark_3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250327",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.6_for_spark_3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250224",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.5_for_spark_3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250213",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.4_for_spark_3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250125",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.3_for_spark_3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240916",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.2_for_spark_3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240627",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240209",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.3.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231003",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230830",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230619",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.0.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230524",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.0.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230320",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221025",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"5.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221025",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220906",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.1.5",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220824",
-			"repository":"Central",
-			"type":"release",
-			"usage":1,
-			"version":"4.1.4",
-			"vulnerabilities":""
-		}
-	]
+  "id" : "pkg:maven/org.neo4j/neo4j-connector-apache-spark_2.13_common",
+  "description" : "Common Services for Neo4j Connector for Apache Spark using the binary Bolt Driver",
+  "group_id" : "org.neo4j",
+  "artifact_id" : "neo4j-connector-apache-spark_2.13_common",
+  "version_latest" : "5.6.0_for_spark_3",
+  "ts_publish" : 1790928744000,
+  "dt_publish" : "2026-10-02 16:12:24.000",
+  "ts_update" : 1757427295463,
+  "dt_update" : "2026-10-02 16:36:53.099",
+  "count_dep" : 181,
+  "count_ref" : 1,
+  "licenses" : [ "Apache License, Version 2.0" ],
+  "categories" : null,
+  "dsv" : 1,
+  "url_project" : "https://github.com/neo4j/neo4j-spark-connector/neo4j-connector-apache-spark_2.13_common",
+  "url_oss_index" : "https://ossindex.sonatype.org/component/pkg:maven/org.neo4j/neo4j-connector-apache-spark_2.13_common@5.3.9_for_spark_3",
+  "contributors" : [ "Connectors Team" ],
+  "url_scm" : "https://github.com/neo4j/neo4j-spark-connector/neo4j-connector-apache-spark_2.13_common",
+  "count_used_by" : 1,
+  "license" : null,
+  "ranking" : null,
+  "tags" : null,
+  "versions" : null,
+  "homePage" : null,
+  "countUsedBy" : null,
+  "redirectFlag" : null,
+  "tsUpdate" : 1790929939610
 }
