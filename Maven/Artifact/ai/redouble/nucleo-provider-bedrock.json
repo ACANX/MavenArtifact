@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ai.redouble/nucleo-provider-bedrock",
+  "description": "The base for everything served through AWS Bedrock, on the AWS SDK alone: the Converse\n        client (every vendor Bedrock serves, Claude included), Cohere embeddings, the shared AWS\n        credential and transport wiring, the account's model listings, and the Bedrock-only and\n        zero-retention pickers. Carries the catalog fragment of the models it serves. A client\n        family with an SDK of its own adds to this artifact rather than living in it: the\n        Anthropic-on-Bedrock and Mantle clients are nucleo-provider-bedrock-anthropic. Ships on\n        AWS's cadence.",
+  "group_id": "ai.redouble",
+  "artifact_id": "nucleo-provider-bedrock",
+  "version_latest": "0.1",
+  "ts_publish": 1790905588000,
+  "dt_publish": "2026-10-02 09:46:28.000",
+  "ts_update": 1790906252200,
+  "dt_update": "2026-10-02 09:57:32.200",
+  "count_dep": 60,
+  "count_ref": 1,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

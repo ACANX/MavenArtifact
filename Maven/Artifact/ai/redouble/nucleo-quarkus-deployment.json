@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ai.redouble/nucleo-quarkus-deployment",
+  "description": "The build-time half of the Nucleo Quarkus extension. Its build steps run inside a\n        Quarkus application's build and make the runtime work in a GraalVM native image:\n        they register the tool, artifact and model POJOs the runtime reaches reflectively\n        (Jackson and the schema walker), initialize the runtime's threading singletons at\n        run time instead of build time, include the skill and catalog resources, honor the\n        ServiceLoader files, and fail the build if a concrete Artifact lacks its type alias.\n        Nothing here runs at application runtime; nucleo-core carries no Quarkus dependency.",
+  "group_id": "ai.redouble",
+  "artifact_id": "nucleo-quarkus-deployment",
+  "version_latest": "0.1",
+  "ts_publish": 1790905588000,
+  "dt_publish": "2026-10-02 09:46:28.000",
+  "ts_update": 1790906251631,
+  "dt_update": "2026-10-02 09:57:31.631",
+  "count_dep": 114,
+  "count_ref": 0,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
