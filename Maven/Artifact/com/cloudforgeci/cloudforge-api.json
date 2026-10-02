@@ -3,15 +3,15 @@
   "description": "Bill of Materials (BOM) for CloudForge — import as type pom / scope import.\n    Reactor modules: cloudforge-core, cloudforge-api. cloudforge-ministack and\n    cloudforge-localstack are managed BOM coordinates but not reactor modules — each lives in its\n    own repo (CloudForgeCI/cloudforge-ministack, CloudForgeCI/cloudforge-localstack), declares\n    this pom as its Maven parent, and publishes independently on its own schedule; cloudforge-api's\n    dependency on each pins an explicit real release (see 3.2.17/\n    3.2.17), not this pom's own in-progress version.\n    cloudforge-manager-deployment and cloudforge-manager are also not part of this\n    BOM/reactor — split into their own private repos\n    (CloudForgeCI/cloudforge-manager-deployment, CloudForgeCI/cloudforge-manager), each with a\n    standalone pom.xml and independent versioning.\n    See docs/architecture/cloudforge-sample-bom.template.md and\n    docs/architecture/module-boundaries-and-refactor.plan.md.",
   "group_id": "com.cloudforgeci",
   "artifact_id": "cloudforge-api",
-  "version_latest": "3.2.25",
-  "ts_publish": 1790713608000,
-  "dt_publish": "2026-09-30 04:26:48.000",
-  "ts_update": 1790715451469,
-  "dt_update": "2026-09-30 04:57:31.469",
+  "version_latest": "3.3.0",
+  "ts_publish": 1790975804000,
+  "dt_publish": "2026-10-03 05:16:44.000",
+  "ts_update": 1790976471864,
+  "dt_update": "2026-10-03 05:27:51.864",
   "count_dep": 63,
   "count_ref": 0,
   "licenses": [
-    "Apache License, Version 2.0"
+    "Business Source License 1.1"
   ],
   "categories": null,
   "dsv": 1
