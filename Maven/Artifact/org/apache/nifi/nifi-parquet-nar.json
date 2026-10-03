@@ -1,16 +1,18 @@
 {
   "id": "pkg:maven/org.apache.nifi/nifi-parquet-nar",
-  "description": null,
+  "description": "BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars",
   "group_id": "org.apache.nifi",
   "artifact_id": "nifi-parquet-nar",
-  "version_latest": "2.11.0",
-  "ts_publish": 1785449026000,
-  "dt_publish": "2026-07-31 06:03:46.000",
-  "ts_update": 1789230462259,
-  "dt_update": "2026-09-13 00:27:42.259",
-  "count_dep": 3,
+  "version_latest": "2.12.0",
+  "ts_publish": 1789069882000,
+  "dt_publish": "2026-09-11 03:51:22.000",
+  "ts_update": 1791045787476,
+  "dt_update": "2026-10-04 00:43:07.476",
+  "count_dep": 111,
   "count_ref": 0,
-  "licenses": [],
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
   "categories": [
     "Analytics"
   ],

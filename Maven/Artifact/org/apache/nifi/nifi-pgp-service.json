@@ -1,16 +1,18 @@
 {
   "id": "pkg:maven/org.apache.nifi/nifi-pgp-service",
-  "description": null,
+  "description": "BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars",
   "group_id": "org.apache.nifi",
   "artifact_id": "nifi-pgp-service",
-  "version_latest": "2.11.0",
-  "ts_publish": 1785449415000,
-  "dt_publish": "2026-07-31 06:10:15.000",
-  "ts_update": 1789230470863,
-  "dt_update": "2026-09-13 00:27:50.863",
-  "count_dep": 116,
+  "version_latest": "2.12.0",
+  "ts_publish": 1789070436000,
+  "dt_publish": "2026-09-11 04:00:36.000",
+  "ts_update": 1791045793973,
+  "dt_update": "2026-10-04 00:43:13.973",
+  "count_dep": 112,
   "count_ref": 2,
-  "licenses": [],
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
   "categories": [
     "Analytics"
   ],

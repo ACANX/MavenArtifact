@@ -1,16 +1,18 @@
 {
   "id": "pkg:maven/org.apache.nifi/nifi-iceberg-shared-nar",
-  "description": null,
+  "description": "BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars",
   "group_id": "org.apache.nifi",
   "artifact_id": "nifi-iceberg-shared-nar",
-  "version_latest": "2.11.0",
-  "ts_publish": 1785448652000,
-  "dt_publish": "2026-07-31 05:57:32.000",
-  "ts_update": 1789230455206,
-  "dt_update": "2026-09-13 00:27:35.206",
-  "count_dep": 115,
+  "version_latest": "2.12.0",
+  "ts_publish": 1789070251000,
+  "dt_publish": "2026-09-11 03:57:31.000",
+  "ts_update": 1791045791506,
+  "dt_update": "2026-10-04 00:43:11.506",
+  "count_dep": 136,
   "count_ref": 0,
-  "licenses": [],
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
   "categories": [
     "Analytics"
   ],

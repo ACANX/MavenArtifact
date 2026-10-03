@@ -1,16 +1,18 @@
 {
   "id": "pkg:maven/org.apache.nifi/nifi-kafka-service-shared",
-  "description": null,
+  "description": "BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars",
   "group_id": "org.apache.nifi",
   "artifact_id": "nifi-kafka-service-shared",
-  "version_latest": "2.11.0",
-  "ts_publish": 1785448833000,
-  "dt_publish": "2026-07-31 06:00:33.000",
-  "ts_update": 1789230458050,
-  "dt_update": "2026-09-13 00:27:38.050",
-  "count_dep": 124,
+  "version_latest": "2.12.0",
+  "ts_publish": 1789070779000,
+  "dt_publish": "2026-09-11 04:06:19.000",
+  "ts_update": 1791045802402,
+  "dt_update": "2026-10-04 00:43:22.402",
+  "count_dep": 120,
   "count_ref": 2,
-  "licenses": [],
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
   "categories": [
     "Analytics"
   ],

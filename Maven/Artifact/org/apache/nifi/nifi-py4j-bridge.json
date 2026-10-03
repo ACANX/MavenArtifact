@@ -1,16 +1,18 @@
 {
   "id": "pkg:maven/org.apache.nifi/nifi-py4j-bridge",
-  "description": null,
+  "description": "BOM module to define common and cross cutting dependencies like Apache Commons-*, Bouncycastle, Netty etc..\n        These managed dependencies will be bundled into a 'nifi-standard-shared-nar' that can be a parent of child nars which\n        need these common dependencies.  This ensures consistent versions of these dependencies and minimizes\n        copies of these commonly used Jars",
   "group_id": "org.apache.nifi",
   "artifact_id": "nifi-py4j-bridge",
-  "version_latest": "2.11.0",
-  "ts_publish": 1785448813000,
-  "dt_publish": "2026-07-31 06:00:13.000",
-  "ts_update": 1789230457344,
-  "dt_update": "2026-09-13 00:27:37.344",
-  "count_dep": 123,
+  "version_latest": "2.12.0",
+  "ts_publish": 1789070995000,
+  "dt_publish": "2026-09-11 04:09:55.000",
+  "ts_update": 1791045806436,
+  "dt_update": "2026-10-04 00:43:26.436",
+  "count_dep": 120,
   "count_ref": 5,
-  "licenses": [],
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
   "categories": [
     "Analytics"
   ],
