@@ -3,12 +3,12 @@
   "description": "Reusable Testcontainers fixtures for the Culvert framework's\n        integration tests. Provides emulator containers (BigQuery via\n        goccy/bigquery-emulator, GCS via fsouza/fake-gcs-server) plus\n        helpers that build GCP SDK clients pointed at those emulators.\n        Pub/Sub uses Testcontainers' built-in PubSubEmulatorContainer\n        directly (no wrapper needed) — see the module README.\n\n        This is a TEST-SUPPORT LIBRARY: dependencies are declared in\n        compile scope so consumer modules can put it in test scope and\n        inherit Testcontainers + JUnit Jupiter transitively into their\n        own *IT.java tests. The fixtures are exercised under the parent's\n        `it` profile (failsafe, *IT.java) against a running Docker daemon.\n        Sprint-10 deliverable (T10.1).",
   "group_id": "com.enrichmeai.culvert",
   "artifact_id": "data-pipeline-it-support",
-  "version_latest": "0.3.0",
-  "ts_publish": 1790960460000,
-  "dt_publish": "2026-10-03 01:01:00.000",
-  "ts_update": 1790962040625,
-  "dt_update": "2026-10-03 01:27:20.625",
-  "count_dep": 100,
+  "version_latest": "0.4.0",
+  "ts_publish": 1791101478000,
+  "dt_publish": "2026-10-04 16:11:18.000",
+  "ts_update": 1791102445762,
+  "dt_update": "2026-10-04 16:27:25.762",
+  "count_dep": 105,
   "count_ref": 5,
   "licenses": [
     "Apache License, Version 2.0"
