@@ -1,14 +1,14 @@
 {
   "id": "pkg:maven/io.github.antonyrag/ragleap-rag",
-  "description": "Java port of ragleap-rag's core RAG pipeline: connection\n        pooling, embeddings (7 providers), pgvector storage (dense,\n        sparse, hybrid RRF search), retrieval, and generation\n        (streaming, structured output, provider fallback, vision\n        captioning) - plus standalone utilities (chunking,\n        sanitization, guardrails, cost tracking, evaluation scoring,\n        structured-output validation, observability hooks).\n        Independently versioned from the Python ragleap-rag package\n        (see https://pypi.org/project/ragleap-rag/) rather than kept\n        in lockstep - this port does not yet have parity with the\n        Python package's full surface (only pgvector of its 6 vector\n        backends, no query rewriting, no conversation memory, no\n        ingestion pipeline). Every module here is genuinely tested;\n        most of the core pipeline is live-verified against real\n        Postgres and Ollama, documented per-class where it is not.",
+  "description": "Java port of ragleap-rag's RAG pipeline: connection pooling,\n        embeddings (7 providers), vector storage on six backends\n        (pgvector, FAISS, Qdrant, Weaviate, Milvus, Pinecone; Milvus\n        and Pinecone are not live-verified; sparse and hybrid RRF\n        search on pgvector), retrieval, generation (streaming,\n        structured output, provider fallback, vision captioning),\n        conversation memory, query rewriting, and a document parser\n        for 27 of the Python package's 28 formats (no Parquet; legacy\n        .xls needs the optional Apache POI dependency) - plus\n        standalone utilities (chunking, sanitization, guardrails,\n        cost tracking, evaluation scoring, structured-output\n        validation, observability hooks). Independently versioned from\n        the Python ragleap-rag package (see\n        https://pypi.org/project/ragleap-rag/) rather than kept in\n        lockstep; OCR, web, audio and video ingestion are not yet\n        ported. Every module here is genuinely tested; documented\n        per-class where it is not live-verified.",
   "group_id": "io.github.antonyrag",
   "artifact_id": "ragleap-rag",
-  "version_latest": "0.10.0",
-  "ts_publish": 1790621746000,
-  "dt_publish": "2026-09-29 02:55:46.000",
-  "ts_update": 1790623652536,
-  "dt_update": "2026-09-29 03:27:32.536",
-  "count_dep": 14,
+  "version_latest": "0.11.0",
+  "ts_publish": 1791093981000,
+  "dt_publish": "2026-10-04 14:06:21.000",
+  "ts_update": 1791098849664,
+  "dt_update": "2026-10-04 15:27:29.664",
+  "count_dep": 26,
   "count_ref": 0,
   "licenses": [
     "MIT License"
