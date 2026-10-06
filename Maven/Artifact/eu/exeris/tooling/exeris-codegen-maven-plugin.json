@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris.tooling/exeris-codegen-maven-plugin",
+  "description": "Canonical build-time invocation point for the Exeris codegen pipeline.\n        `exeris:generate` runs the kernel-target generators against the\n        processor-emitted DomainMetadata and writes sources into\n        src/main/generated/java (L1). `exeris:detach` promotes that output into\n        src/main/java and stops regeneration (L2 detachment). A thin Maven shell\n        over CodegenPipeline — no emission logic lives here.",
+  "group_id": "eu.exeris.tooling",
+  "artifact_id": "exeris-codegen-maven-plugin",
+  "version_latest": "0.9.0",
+  "ts_publish": 1791293447000,
+  "dt_publish": "2026-10-06 21:30:47.000",
+  "ts_update": 1791295035821,
+  "dt_update": "2026-10-06 21:57:15.821",
+  "count_dep": 89,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
