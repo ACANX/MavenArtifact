@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.alexmond/sba-extension-store-redis",
+  "description": "Resilient Redis-backed InstanceEventStore for Spring Boot Admin. The in-memory log\n        is authoritative (extends SBA's InMemoryEventStore); Redis is a fully reactive (Lettuce, no\n        blocking calls) write-behind mirror for durability. A Redis outage never blanks the registry\n        (reads stay in-memory) and never fails a write — it's surfaced as a non-fatal DEGRADED health\n        status instead. Hydrates from Redis on startup. Connection uses the standard spring.data.redis.*\n        config. Opt-in via sba.eventstore.type=redis.",
+  "group_id": "org.alexmond",
+  "artifact_id": "sba-extension-store-redis",
+  "version_latest": "4.1.1.1",
+  "ts_publish": 1791330104000,
+  "dt_publish": "2026-10-07 07:41:44.000",
+  "ts_update": 1791331062154,
+  "dt_update": "2026-10-07 07:57:42.154",
+  "count_dep": 115,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache Software License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
