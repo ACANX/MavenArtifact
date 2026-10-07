@@ -1,14 +1,14 @@
 {
   "id" : "pkg:maven/org.opentmf.util/opentmf-outbox-service",
-  "description" : "Transactional outbox as a Spring Boot starter: library-owned\n    Liquibase DDL, an at-least-once single-relay with SKIP LOCKED claims, a pluggable\n    publisher SPI (Kafka default, HTTP with per-row client-profile selection), and the\n    /ops maintenance TRIO — prune, unpark, and a TMF630-shaped pending list.",
+  "description" : "Transactional outbox as a Spring Boot starter: library-owned\n    Liquibase DDL, an at-least-once relay claiming by lease (an ordered lane and a\n    concurrent lane), a pluggable\n    publisher SPI (Kafka default, HTTP with per-row client-profile selection), and the\n    /ops maintenance TRIO — prune, unpark, and a TMF630-shaped pending list.",
   "group_id" : "org.opentmf.util",
   "artifact_id" : "opentmf-outbox-service",
-  "version_latest" : "1.2.1",
-  "ts_publish" : 1789980400000,
-  "dt_publish" : "2026-09-21 16:46:40.000",
+  "version_latest" : "1.3.0",
+  "ts_publish" : 1791367580000,
+  "dt_publish" : "2026-10-07 18:06:20.000",
   "ts_update" : 1787761650720,
-  "dt_update" : "2026-09-21 17:39:41.659",
-  "count_dep" : 101,
+  "dt_update" : "2026-10-07 20:24:44.905",
+  "count_dep" : 102,
   "count_ref" : 0,
   "licenses" : [ "Apache License, Version 2.0" ],
   "dsv" : 1,
@@ -23,6 +23,6 @@
   "ranking" : null,
   "countUsedBy" : null,
   "redirectFlag" : null,
-  "tsUpdate" : 1789983471889,
+  "tsUpdate" : 1791375784519,
   "versions" : null
 }
