@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/cn.com.keelbase/keelbase4j-core",
+  "description": "The embeddable runtime core: everything the runtime is, except the decision to be an application.\n    An application that already exists — a host platform, say — puts this jar on its classpath and gets\n    the trust loop, the governance surface and the security filter chain through one auto-configuration;\n    keelbase4j-runtime is the thin application that does the same thing for a standalone deployment.\n    What is deliberately absent here is the application's half: no server configuration, no datasource\n    of its own, no context path (ADR-0017 D4/D5).",
+  "group_id": "cn.com.keelbase",
+  "artifact_id": "keelbase4j-core",
+  "version_latest": "0.1.2",
+  "ts_publish": 1791352282000,
+  "dt_publish": "2026-10-07 13:51:22.000",
+  "ts_update": 1791356284192,
+  "dt_update": "2026-10-07 14:58:04.192",
+  "count_dep": 78,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
