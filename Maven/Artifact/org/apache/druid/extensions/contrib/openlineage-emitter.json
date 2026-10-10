@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/org.apache.druid.extensions.contrib/openlineage-emitter",
+  "description": "OpenLineage data lineage emitter for Apache Druid. Captures table-level lineage from\n    native and SQL queries and emits OpenLineage RunEvents to a console or HTTP endpoint.\n\n    Configure via druid.request.logging.type=openlineage.\n    Input datasources are resolved from the native query plan; the SQL parser (calcite-core,\n    present on Broker nodes) is used only to extract the output datasource of MSQ INSERT/REPLACE.",
+  "group_id": "org.apache.druid.extensions.contrib",
+  "artifact_id": "openlineage-emitter",
+  "version_latest": "38.0.0",
+  "ts_publish": 1790237520000,
+  "dt_publish": "2026-09-24 16:12:00.000",
+  "ts_update": 1791651550941,
+  "dt_update": "2026-10-11 00:59:10.941",
+  "count_dep": 179,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": [
+    "Uncategorized"
+  ],
+  "dsv": 1
+}
