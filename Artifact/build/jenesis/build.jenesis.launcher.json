@@ -1,13 +1,13 @@
 {
   "id" : "pkg:maven/build.jenesis/build.jenesis.launcher",
-  "description" : "A bootstrap for executable jars produced by Jenesis. The launcher is shaded into the jar root and runs the bundled application out of the one jars/ store the jar keeps its dependencies in, reading class and resource bytes on demand from the still-open outer jar - nothing is held in memory or extracted to disk. What each path holds is named by application.properties rather than shown by where a jar sits: what classpath names becomes the unnamed module of a single loader, and what modulepath names is resolved into a fresh java.lang.ModuleLayer mapped to that same loader, preserving full modularity. The same machinery serves a module that keeps a dependency private: it declares a layer, requires this module, and asks for it by name, and the dependency is resolved into a layer of its own - read from the same jar, never relocated and never unpacked.",
+  "description" : "A bootstrap for executable jars produced by Jenesis. The launcher is shaded into the jar root and runs the bundled application out of the one jars/ store the jar keeps its dependencies in, reading class and resource bytes on demand from the still-open outer jar - nothing is held in memory or extracted to disk. What each path holds is named by META-INF/jenesis/application.properties rather than shown by where a jar sits: what classpath names becomes the unnamed module of a single loader, and what modulepath names is resolved into a fresh java.lang.ModuleLayer mapped to that same loader, preserving full modularity. The same machinery serves a module that keeps a dependency private: it declares a layer, requires this module, and asks for it by name, and the dependency is resolved into a layer of its own - read from the same jar, never relocated and never unpacked.",
   "group_id" : "build.jenesis",
   "artifact_id" : "build.jenesis.launcher",
-  "version_latest" : "0.5.3",
-  "ts_publish" : 1790611921000,
-  "dt_publish" : "2026-09-29 00:12:01.000",
+  "version_latest" : "0.6.0",
+  "ts_publish" : 1791648372000,
+  "dt_publish" : "2026-10-11 00:06:12.000",
   "ts_update" : 1781125021259,
-  "dt_update" : "2026-09-29 00:39:32.266",
+  "dt_update" : "2026-10-11 05:27:41.135",
   "count_dep" : 0,
   "count_ref" : 0,
   "licenses" : [ "Apache-2.0" ],
@@ -23,6 +23,6 @@
   "ranking" : null,
   "countUsedBy" : null,
   "redirectFlag" : null,
-  "tsUpdate" : 1790613328382,
+  "tsUpdate" : 1791667435829,
   "versions" : null
 }
