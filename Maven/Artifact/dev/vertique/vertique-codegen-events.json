@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/dev.vertique/vertique-codegen-events",
+  "description": "Annotation processor that builds the event-type inventory ((distinct @Observes T parameter types) ∪ (distinct constructor-injected Event<T> type arguments, unwrapping Provider/Lazy)) and generates a concrete X$Event extends Event<X> publisher plus a GeneratedEventsModule @Binds Event<X> for each inventory type so Event<X> is injectable",
+  "group_id": "dev.vertique",
+  "artifact_id": "vertique-codegen-events",
+  "version_latest": "0.3.0",
+  "ts_publish": 1791734167000,
+  "dt_publish": "2026-10-11 23:56:07.000",
+  "ts_update": 1791736056777,
+  "dt_update": "2026-10-12 00:27:36.777",
+  "count_dep": 6,
+  "count_ref": 1,
+  "licenses": [
+    "European Union Public Licence v. 1.2"
+  ],
+  "categories": null,
+  "dsv": 1
+}
