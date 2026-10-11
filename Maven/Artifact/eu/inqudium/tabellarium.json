@@ -3,12 +3,12 @@
   "description": "Tabellarium is a resilient Logback appender that ships structured log events to\n        Apache Kafka. Named after the Roman letter-carrier, it never blocks the sender:\n        per-topic-class circuit breakers stop hammering a broken route, mandatory\n        overrides pin the strictest producer-side delivery settings for audit-class\n        topics (acks=all, idempotence), and a fallback appender catches what cannot\n        be shipped. Delivery is best-effort transport: events are handed off through\n        bounded in-memory queues, so a crash, overflow, or expired shutdown budget\n        can lose events - the appender is not, by itself, a durable audit trail.",
   "group_id": "eu.inqudium",
   "artifact_id": "tabellarium",
-  "version_latest": "1.1.2",
-  "ts_publish": 1789535757000,
-  "dt_publish": "2026-09-16 13:15:57.000",
-  "ts_update": 1789538253275,
-  "dt_update": "2026-09-16 13:57:33.275",
-  "count_dep": 28,
+  "version_latest": "1.2.0",
+  "ts_publish": 1791735980000,
+  "dt_publish": "2026-10-12 00:26:20.000",
+  "ts_update": 1791737844604,
+  "dt_update": "2026-10-12 00:57:24.604",
+  "count_dep": 27,
   "count_ref": 0,
   "licenses": [
     "Apache License, Version 2.0"
