@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.loudsight.meta/codemap-processor",
+  "description": "Annotation processor that extracts a lightweight class/method/field signature map for every\n    top-level type it sees during compilation, writing it to META-INF/codemap/signatures.json in\n    the module's compiled output. Opt-in per module via the parent's codemap-processing profile\n    (a `.codemap-enabled` marker file) - see that profile for why this is opt-in rather than\n    mirroring entity-meta-processing's opt-out polarity.\n\n    Carries a `.no-entity-meta` marker for the same reason entity-meta-processor carries one on\n    itself: without it, entity-meta-processing (opt-out, active by default) would put\n    entity-meta-processor on this module's own processor path. Since entity-meta-processor\n    depends on entity-meta-generator-lib, and any pilot module that opts into codemap-processing\n    depends on this module, that closes a real reactor cycle the moment such a pilot module is\n    entity-meta-generator-lib itself (or anything else entity-meta-processor depends on).",
+  "group_id": "com.loudsight.meta",
+  "artifact_id": "codemap-processor",
+  "version_latest": "0.1.2",
+  "ts_publish": 1791688859000,
+  "dt_publish": "2026-10-11 11:20:59.000",
+  "ts_update": 1791694648431,
+  "dt_update": "2026-10-11 12:57:28.431",
+  "count_dep": 17,
+  "count_ref": 0,
+  "licenses": [
+    "Loudsight Apache License 2.0 (Apache-2.0)"
+  ],
+  "categories": null,
+  "dsv": 1
+}
