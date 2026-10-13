@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/dev.pathland/pathland-observability",
+  "description": "Observability adapters for the framework-agnostic Pathland server runtime: a\n        Micrometer PathlandTelemetry (pathland.* counters/timers + a sessions gauge) and an\n        opt-in OpenTelemetry TracingTelemetry decorator (spans per frame send / event\n        batch / SSR render). The starters auto-wire these when a MeterRegistry/Tracer bean\n        is present; without them the core stays on PathlandTelemetry.NOOP.",
+  "group_id": "dev.pathland",
+  "artifact_id": "pathland-observability",
+  "version_latest": "0.1.5",
+  "ts_publish": 1791915698000,
+  "dt_publish": "2026-10-14 02:21:38.000",
+  "ts_update": 1791923277807,
+  "dt_update": "2026-10-14 04:27:57.807",
+  "count_dep": 26,
+  "count_ref": 2,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

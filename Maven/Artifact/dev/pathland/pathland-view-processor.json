@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/dev.pathland/pathland-view-processor",
+  "description": "JSR 269 annotation processor for dev.pathland.view. Ships two processors:\n        (1) generates a <View>_StateBinder per view class that wires each\n        State field to the session's PersistentState (auto-keyed by field name,\n        recursing into nested view fields); (2) ViewAuthoringProcessor enforces\n        the configurator convention — errors on public/protected parameterized\n        constructors in custom View and Style implementations (spec DSL.md §2).\n        Framework-agnostic — used by Quarkus, Spring Boot, and desktop.",
+  "group_id": "dev.pathland",
+  "artifact_id": "pathland-view-processor",
+  "version_latest": "0.1.5",
+  "ts_publish": 1791915698000,
+  "dt_publish": "2026-10-14 02:21:38.000",
+  "ts_update": 1791923277805,
+  "dt_update": "2026-10-14 04:27:57.805",
+  "count_dep": 2,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
