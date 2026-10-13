@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.antonyrag/ragleap-graph",
+  "description": "Java port of ragleap-graph: knowledge-graph-augmented retrieval for RAG, talking to\n        Neo4j over its HTTP Query API (no Neo4j driver dependency; tested only against\n        Neo4j 5.26 Community, single server only). Early release: deterministic regex\n        entity extraction, document indexing (upsertDocument) with per-document weights\n        and co-occurrence edges, and six lookups (documents by entities, related\n        entities, typed relations, lineage, entities by type, document entities). The\n        typed-relation lookup reads relations written by other tools; this version does\n        not extract them. Not yet ported: LLM entity and relation extraction,\n        deduplication, graph retrieval, migrations and backfills, and the Postgres\n        audit writer. Independently versioned from the Python package\n        (see https://pypi.org/project/ragleap-graph/).",
+  "group_id": "io.github.antonyrag",
+  "artifact_id": "ragleap-graph",
+  "version_latest": "0.1.0",
+  "ts_publish": 1791887162000,
+  "dt_publish": "2026-10-13 18:26:02.000",
+  "ts_update": 1791890855469,
+  "dt_update": "2026-10-13 19:27:35.469",
+  "count_dep": 4,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
