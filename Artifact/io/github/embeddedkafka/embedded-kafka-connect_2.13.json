@@ -1,256 +1,29 @@
 {
-	"id":"pkg:maven/io.github.embeddedkafka/embedded-kafka-connect_2.13",
-	"description":"embedded-kafka-connect",
-	"group_id":"io.github.embeddedkafka",
-	"artifact_id":"embedded-kafka-connect_2.13",
-	"version_latest":"4.3.1",
-	"ts_publish":1782331458000,
-	"dt_publish":"2026-06-25 04:04:18.000",
-	"ts_update":1782332851028,
-	"dt_update":"2026-06-25 04:27:21.811",
-	"count_dep":15,
-	"count_ref":0,
-	"licenses":[
-		"MIT"
-	],
-	"categories":[
-		"Uncategorized"
-	],
-	"dsv":1,
-	"url_project":"https://github.com/embeddedkafka/embedded-kafka",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.github.embeddedkafka/embedded-kafka-connect_2.13@4.1.0",
-	"contributors":[
-		"Francesco Pellegrini",
-		"Emanuele Blanco",
-		"Tim Steinbach"
-	],
-	"url_scm":"https://github.com/embeddedkafka/embedded-kafka",
-	"home_page":"https://github.com/embeddedkafka/embedded-kafka",
-	"license":"MIT",
-	"ranking":"#559714 in MvnRepository",
-	"tags":[
-		"embedded",
-		"github",
-		"streaming",
-		"kafka",
-		"connection"
-	],
-	"versions":[
-		{
-			"date":"20250530",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250420",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250413",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"4.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250710",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.9.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241119",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20241030",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240820",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240816",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.7.1.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240304",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.7.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231211",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.6.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231005",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.6.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230807",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.5.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230619",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.5.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230614",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230418",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.0.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230220",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.4.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230128",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.3.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221009",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.3.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221009",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.3",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221008",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220804",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220511",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.2.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220129",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.1.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211008",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"3.0.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210924",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210419",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20201221",
-			"repository":"Central",
-			"type":"release",
-			"usage":0,
-			"version":"2.7.0",
-			"vulnerabilities":""
-		}
-	]
+  "id" : "pkg:maven/io.github.embeddedkafka/embedded-kafka-connect_2.13",
+  "description" : "embedded-kafka-connect",
+  "group_id" : "io.github.embeddedkafka",
+  "artifact_id" : "embedded-kafka-connect_2.13",
+  "version_latest" : "4.4.0",
+  "ts_publish" : 1791979866000,
+  "dt_publish" : "2026-10-14 20:11:06.000",
+  "ts_update" : 1757002957946,
+  "dt_update" : "2026-10-15 01:28:07.228",
+  "count_dep" : 13,
+  "count_ref" : 0,
+  "licenses" : [ "MIT" ],
+  "categories" : null,
+  "dsv" : 1,
+  "url_project" : "https://github.com/embeddedkafka/embedded-kafka",
+  "url_oss_index" : "https://ossindex.sonatype.org/component/pkg:maven/io.github.embeddedkafka/embedded-kafka-connect_2.13@4.1.0",
+  "contributors" : [ "Francesco Pellegrini", "Emanuele Blanco", "Tim Steinbach" ],
+  "url_scm" : "https://github.com/embeddedkafka/embedded-kafka",
+  "home_page" : "https://github.com/embeddedkafka/embedded-kafka",
+  "license" : null,
+  "ranking" : null,
+  "tags" : null,
+  "versions" : null,
+  "homePage" : null,
+  "countUsedBy" : null,
+  "redirectFlag" : null,
+  "tsUpdate" : 1791997939486
 }
