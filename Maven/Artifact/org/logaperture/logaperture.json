@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/org.logaperture/logaperture",
+  "description": "The release zip: published to Maven Central as this module's zip\n    artifact by the release profile (doc/specs/maven-central-publishing.md). `mvn package`\n    assembles target/logaperture-1.0.0-beta.1.zip containing the agent\n    jar, the logctl CLI (jar + launchers), a WildFly install doc, and the\n    licence, for someone to try LogAperture in a PRE-PRODUCTION WildFly.\n    See doc/specs/distribution-bundle.md.\n\n    Depends on logaperture-agent and logaperture-cli for reactor build\n    ordering only (so their shaded jars exist before this module runs); the\n    assembly copies those jars in by path, not as dependencies — see\n    src/assembly/dist.xml.",
+  "group_id": "org.logaperture",
+  "artifact_id": "logaperture",
+  "version_latest": "1.0.0-beta.1",
+  "ts_publish": 1792116370000,
+  "dt_publish": "2026-10-16 10:06:10.000",
+  "ts_update": 1792132096436,
+  "dt_update": "2026-10-16 14:28:16.436",
+  "count_dep": 3,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
