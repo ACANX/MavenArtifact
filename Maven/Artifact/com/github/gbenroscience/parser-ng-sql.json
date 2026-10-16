@@ -1,14 +1,14 @@
 {
   "id": "pkg:maven/com.github.gbenroscience/parser-ng-sql",
-  "description": "A SQL-shaped front end over parser-ng-arrow: SELECT ... FROM ... [WHERE ...] compiles\n        to a vectorized Arrow filter/projection pipeline built on ArrowExpressionEvaluators.\n        This is deliberately NOT a database - no JOIN, INSERT, UPDATE, DELETE, transactions. \n        It exists purely to make SQL a convenient surface\n        syntax for describing vectorized Arrow computations that parser-ng-arrow already knows\n        how to run.\n        For library support, customizations or donations, reach me at gbenroscience@gmail.com|+2348165779034",
+  "description": "A SQL-shaped front end over parser-ng-arrow: SELECT ... FROM ... [WHERE ...] compiles\n        to a vectorized Arrow filter/projection pipeline built on ArrowExpressionEvaluators.\n        Over Parquet files (via parser-ng-parquet) the same SQL runs with row-group pruning, footer-only\n        COUNT(*), and any column type selectable as-is; expressions and predicates are numeric.\n        This is deliberately NOT a database - no JOIN, INSERT, UPDATE, DELETE, transactions. \n        It exists purely to make SQL a convenient surface\n        syntax for describing vectorized Arrow computations that parser-ng-arrow already knows\n        how to run.\n        For library support, customizations or donations, reach me at gbenroscience@gmail.com|+2348165779034",
   "group_id": "com.github.gbenroscience",
   "artifact_id": "parser-ng-sql",
-  "version_latest": "3.0.8",
-  "ts_publish": 1790076677000,
-  "dt_publish": "2026-09-22 19:31:17.000",
-  "ts_update": 1790078262992,
-  "dt_update": "2026-09-22 19:57:42.992",
-  "count_dep": 21,
+  "version_latest": "3.0.9",
+  "ts_publish": 1792164671000,
+  "dt_publish": "2026-10-16 23:31:11.000",
+  "ts_update": 1792169907922,
+  "dt_update": "2026-10-17 00:58:27.922",
+  "count_dep": 34,
   "count_ref": 0,
   "licenses": [
     "The Apache Software License, Version 2.0"
