@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.ciechanowiec/airness-web-evidence",
+  "description": "Test-scope support that asks a rendered page the accessibility question and reads every verdict\n        the answer carries. The audit reports three of them: a rule that failed, a rule that passed, and\n        a rule that could not decide. A project reading the first alone passes an unreadable page, which\n        is what every project of this fleet did until this artifact existed.\n\n        The browser belongs to the project. What is here is the question and the reading of the answer,\n        which is the half that was wrong in each of them, and the half that needs no browser to test.\n\n        The Spring parent supplies this artifact at test scope. It never belongs in the application\n        archive that ships.",
+  "group_id": "eu.ciechanowiec",
+  "artifact_id": "airness-web-evidence",
+  "version_latest": "1.0.7",
+  "ts_publish": 1792265178000,
+  "dt_publish": "2026-10-18 03:26:18.000",
+  "ts_update": 1792283297248,
+  "dt_update": "2026-10-18 08:28:17.248",
+  "count_dep": 5,
+  "count_ref": 1,
+  "licenses": [
+    "MIT-0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

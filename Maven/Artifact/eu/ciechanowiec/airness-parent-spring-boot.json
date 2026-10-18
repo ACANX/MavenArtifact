@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.ciechanowiec/airness-parent-spring-boot",
+  "description": "The parent a consuming Spring Boot project inherits. It carries everything airness-parent carries,\n        and adds the Spring version set and the rules that only a Spring Boot project can break.\n\n        A project states which kind it is by which parent it names, rather than by a switch. That is what\n        keeps the Spring relaxations off every project that is not a Spring Boot one, and what keeps them\n        reviewable: they are a diff against the parent above rather than a second copy of it.\n\n        Two rules are relaxed and five are added, so a project inheriting this answers to more than one\n        inheriting airness-parent, never to less.",
+  "group_id": "eu.ciechanowiec",
+  "artifact_id": "airness-parent-spring-boot",
+  "version_latest": "1.0.7",
+  "ts_publish": 1792265178000,
+  "dt_publish": "2026-10-18 03:26:18.000",
+  "ts_update": 1792283297247,
+  "dt_update": "2026-10-18 08:28:17.247",
+  "count_dep": 11,
+  "count_ref": 0,
+  "licenses": [
+    "MIT-0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
