@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/com.enrichmeai.culvert/data-pipeline-pdf-text",
+  "description": "Cloud-neutral PDF-to-text extraction on Apache PDFBox 3. PdfTextExtract.extract\n        turns PDF bytes into text and never throws an exception: it returns null for a PDF with no\n        text layer, and for corrupt, password-protected or unparseable input, so a\n        caller working through millions of documents records \"no text\" and moves on.\n        Depends only on PDFBox and slf4j-api, so it runs inside a Beam or Dataflow\n        worker as well as in an application. Issue #275.",
+  "group_id": "com.enrichmeai.culvert",
+  "artifact_id": "data-pipeline-pdf-text",
+  "version_latest": "0.6.0",
+  "ts_publish": 1792429012000,
+  "dt_publish": "2026-10-20 00:56:52.000",
+  "ts_update": 1792436321089,
+  "dt_update": "2026-10-20 02:58:41.089",
+  "count_dep": 7,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
