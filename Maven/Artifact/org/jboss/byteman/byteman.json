@@ -3,14 +3,16 @@
   "description": "The byteman jar merges the byteman-agent jar contents with those of the\n        byteman-jigsaw and byteman-layer jars as a mutli-release jar. The contents\n        of the latter two jars are installed under META-INF/versions/9 ensuring\n        that they are only linked when Byteman is deployed on a JDK9+ JVM",
   "group_id": "org.jboss.byteman",
   "artifact_id": "byteman",
-  "version_latest": "4.0.27",
-  "ts_publish": 1781539348000,
-  "dt_publish": "2026-06-16 00:02:28.000",
-  "ts_update": 1781540823378,
-  "dt_update": "2026-06-16 00:27:03.378",
+  "version_latest": "4.0.28",
+  "ts_publish": 1792514208000,
+  "dt_publish": "2026-10-21 00:36:48.000",
+  "ts_update": 1792515469095,
+  "dt_update": "2026-10-21 00:57:49.095",
   "count_dep": 3,
-  "count_ref": 6,
-  "licenses": [],
+  "count_ref": 7,
+  "licenses": [
+    "LGPL 2.1"
+  ],
   "categories": [
     "Test and Quality Management"
   ],
