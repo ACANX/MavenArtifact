@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/space.seclume/seclume-keys",
+  "description": "Private keys that the JVM never holds: decoded by OpenSSL from native memory\n    and kept there, handed to Java as a PrivateKey without its secret parts, and\n    used through a JCA provider of its own. For a server's TLS key (Tomcat,\n    Netty, any SSLContext), a client certificate, and SSH.",
+  "group_id": "space.seclume",
+  "artifact_id": "seclume-keys",
+  "version_latest": "0.13.1",
+  "ts_publish": 1792586546000,
+  "dt_publish": "2026-10-21 20:42:26.000",
+  "ts_update": 1792594786440,
+  "dt_update": "2026-10-21 22:59:46.440",
+  "count_dep": 6,
+  "count_ref": 3,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

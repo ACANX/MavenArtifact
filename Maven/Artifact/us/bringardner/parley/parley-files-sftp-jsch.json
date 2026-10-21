@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/us.bringardner.parley/parley-files-sftp-jsch",
+  "description": "The JSch provider for parley-files-sftp (the maintained com.github.mwiede fork). LIMITATION: JSch cannot write at a position in a file, so writing to a random access stream throws an IOException; everything else, including random access reading, works. Use another provider (parley-files-sftp-parley-ssh or -mina) if the application writes at positions.",
+  "group_id": "us.bringardner.parley",
+  "artifact_id": "parley-files-sftp-jsch",
+  "version_latest": "1.0.0",
+  "ts_publish": 1792582006000,
+  "dt_publish": "2026-10-21 19:26:46.000",
+  "ts_update": 1792594807573,
+  "dt_update": "2026-10-21 23:00:07.573",
+  "count_dep": 12,
+  "count_ref": 0,
+  "licenses": [
+    "The Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
