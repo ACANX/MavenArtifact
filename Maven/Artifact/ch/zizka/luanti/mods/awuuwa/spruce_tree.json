@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.awuuwa/spruce_tree",
+  "description": "spruce tree resource\n\nThis mod does not make spruce trees naturally generate in the world. This mod is intended to be used as a dependency for other mods to implement in biomes and other world generation features to allow the spawning of spruce trees naturally in the world using this mod as a dependency. This mod adds the spruce tree resource to a Luanti game. This mod is primarily targeting Minetest Game, but works in other games. This mod has been intentionally designed in such a way where if it detects that \"mcl_trees\" is present, that is, if you are playing Mineclonia or any of the forks, this mod will not add the spruce tree nodes, instead this mod will add aliases so that any other mods using this mod as a dependency, will now point to the \"mcl_trees\" spruce tree instead. This mod is intended to allow for interoperability of mods between games, mods that depend on this mod will thus automatically depend on mcl_trees instead if that mod is present.\n\nNote that the spruce sapling to grow, it has to be placed on a node that is in the \"soil\" group, so if the game you are playing in the Luanti engine does not by default have a node in the \"soil\" group, a third party mod needs to be added to add nodes to the \"soil\" group.\n\nIncluded are a basic schematic for a spruce tree, and nodes for spruce tree trunk, spruce tree wooden planks, spruce tree sapling, spruce tree needles.\n\nThis mod is a work in progress, in it's current state things are not yet quite finished, and there are some known issues, including when a sapling grows, it cuts out a rectangular hole around it. This means you have to be very careful not to spawn any oak trees near buildings. There are plans to fix such issues in future releases of this mod. Some of the textures are pretty much place holders and thus are not necessarily the highest quality as of now, they may be changed in future releases.\n\nPlans for the future, additional optional aliases in the settings may be introduced, such that this mod will point to other possible spruce trees added by other mods much like how \"mcl_trees\" adds a spruce. It could be made so, that some setting could be enabled or disabled to allow for creating an alias in place of registering actual nodes, to point to such a different spruce tree from the other mods. Such things may be done in the future.",
+  "group_id": "ch.zizka.luanti.mods.awuuwa",
+  "artifact_id": "spruce_tree",
+  "version_latest": "36789",
+  "ts_publish": 1792750376000,
+  "dt_publish": "2026-10-23 18:12:56.000",
+  "ts_update": 1792754873422,
+  "dt_update": "2026-10-23 19:27:53.422",
+  "count_dep": 1,
+  "count_ref": 0,
+  "licenses": [
+    "GPL-3.0-only"
+  ],
+  "categories": null,
+  "dsv": 1
+}

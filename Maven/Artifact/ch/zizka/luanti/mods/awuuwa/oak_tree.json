@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.awuuwa/oak_tree",
+  "description": "oak tree resource\n\nThis mod does not make oak trees naturally generate in the world. This mod is intended to be used as a dependency for other mods to implement biomes and other world generation features to allow the spawning of oak trees naturally in the world. This mod adds the oak tree resource to a Luanti game. This mod is primarily targeting Minetest Game, to add an oak tree to it, but this works just as well with any other games. This mod has been intentionally designed in such a way where if it detects that \"mcl_trees\" is present, that is, if you are playing Mineclonia or any of the forks, this mod will not add the oak tree nodes, instead this mod will add aliases so that the other mods using this mod as a dependency, will now point to the \"mcl_trees\" oak tree instead. Which means this mod is intended to allow for interoperability of mods between games, so it will behave differently in Mineclonia / VoxeLibre and their forks, than in other games such as Minetest Game.\n\nIncluded are a basic schematic for an oak tree, oak tree trunk, oak tree wooden planks, oak tree leaves, an acorn, and a sapling that is hidden from the creative menu which only spawns after planting an acorn onto soil. Note that the node that the sapling resides on, has to be in the \"soil\" group, so if the game you are playing in the Luanti engine does not by default have a node in the \"soil\" group, a third party mod needs to be added to add nodes to the \"soil\" group.\n\nHow this works, the included oak tree schematic has the oak trees have acorns hanging from them, the acorn can be mined and placed onto a node that is in a group \"soil\", then once every 20 seconds there is a 1 / 2 chance that the acorn will turn into a sapling. Once the sapling appears, in some time the tree will grow.\n\nWhen used in Mineclonia / VoxeLibre and their forks, the only new node this mod adds is the acorn. This mod will also overwrite the item drop, of the existing \"mcl_trees\" oak tree leaves, such that when mined it will occasionally drop an acorn, and will not drop an oak sapling anymore when mined.\n\nThis mod is a work in progress, in it's current state things are not yet quite finished, and there are some known issues, including when a sapling grows, it cuts out a rectangular hole around it. This means you have to be very careful not to spawn any oak trees near buildings. There are plans to fix such issues in future releases of this mod. The textures have been designed as temporary, and thus are not necessarily the highest quality as of now, they may be changed in future releases.\n\nPlans for the future, additional optional aliases in the settings may be introduced, such that this mod will point to other possible oak trees added by other mods much like with \"mcl_trees\", an example of this could be the \"ebiomes\" called \"Extra Biomes\" mod that adds an oak tree. It could be made so, that some setting could be enabled or disabled to allow for creating an alias in place of registering actual nodes, to point to that oak tree from the mentioned mod. Such things may be done in the future.",
+  "group_id": "ch.zizka.luanti.mods.awuuwa",
+  "artifact_id": "oak_tree",
+  "version_latest": "36788",
+  "ts_publish": 1792750376000,
+  "dt_publish": "2026-10-23 18:12:56.000",
+  "ts_update": 1792754873422,
+  "dt_update": "2026-10-23 19:27:53.422",
+  "count_dep": 2,
+  "count_ref": 0,
+  "licenses": [
+    "GPL-3.0-only"
+  ],
+  "categories": null,
+  "dsv": 1
+}

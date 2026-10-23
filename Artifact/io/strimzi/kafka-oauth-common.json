@@ -1,204 +1,30 @@
 {
-	"id":"pkg:maven/io.strimzi/kafka-oauth-common",
-	"group_id":"io.strimzi",
-	"artifact_id":"kafka-oauth-common",
-	"version_latest":"0.18.0",
-	"ts_publish":1786613541000,
-	"dt_publish":"2026-08-13 17:32:21.000",
-	"ts_update":1786615052501,
-	"dt_update":"2026-08-13 17:57:24.634",
-	"count_dep":9,
-	"count_ref":4,
-	"licenses":[],
-	"categories":[
-		"Uncategorized"
-	],
-	"dsv":1,
-	"url_project":"https://strimzi.io/kafka-oauth-common/",
-	"url_oss_index":"https://ossindex.sonatype.org/component/pkg:maven/io.strimzi/kafka-oauth-common@0.17.0-RC1",
-	"url_issue_management":"https://github.com/strimzi/strimzi-kafka-oauth/issues",
-	"contributors":[
-		"Lukáš Král",
-		"Kate Stanley",
-		"Stanislav Knot",
-		"Jakub Stejskal",
-		"Maroš Orsák",
-		"Paul Mellor",
-		"Jakub Scholz",
-		"Sam Hawker",
-		"Tom Bentley",
-		"Paolo Patierno"
-	],
-	"url_scm":"https://github.com/strimzi/strimzi-kafka-oauth/kafka-oauth-common",
-	"count_used_by":6,
-	"license":"Apache 2.0",
-	"ranking":"#81575 in MvnRepository",
-	"tags":[
-		"streaming",
-		"kafka",
-		"authentication",
-		"oauth"
-	],
-	"versions":[
-		{
-			"date":"20251028",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.17.1-RC1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250908",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.17.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250903",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.17.0-RC1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250416",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.16.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250414",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"0.16.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250410",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.16.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250618",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.15.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20250616",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.15.1-RC1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20240305",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"0.15.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20231009",
-			"repository":"Central",
-			"type":"release",
-			"usage":5,
-			"version":"0.14.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230711",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.13.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20230311",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.12.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20221027",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.11.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20220207",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.10.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20211007",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.9.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210617",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.8.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210611",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.8.0",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210426",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.7.2",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210309",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.7.1",
-			"vulnerabilities":""
-		},
-		{
-			"date":"20210205",
-			"repository":"Central",
-			"type":"release",
-			"usage":4,
-			"version":"0.7.0",
-			"vulnerabilities":""
-		}
-	]
+  "id" : "pkg:maven/io.strimzi/kafka-oauth-common",
+  "group_id" : "io.strimzi",
+  "artifact_id" : "kafka-oauth-common",
+  "version_latest" : "0.18.1-RC1",
+  "ts_publish" : 1792751862000,
+  "dt_publish" : "2026-10-23 18:37:42.000",
+  "ts_update" : 1756928673102,
+  "dt_update" : "2026-10-23 19:55:34.486",
+  "count_dep" : 14,
+  "count_ref" : 4,
+  "licenses" : [ "Apache License, Version 2.0" ],
+  "categories" : null,
+  "dsv" : 1,
+  "url_project" : "https://strimzi.io/kafka-oauth-common/",
+  "url_oss_index" : "https://ossindex.sonatype.org/component/pkg:maven/io.strimzi/kafka-oauth-common@0.17.0-RC1",
+  "url_issue_management" : "https://github.com/strimzi/strimzi-kafka-oauth/issues",
+  "contributors" : [ "Lukáš Král", "Kate Stanley", "Stanislav Knot", "Jakub Stejskal", "Maroš Orsák", "Paul Mellor", "Jakub Scholz", "Sam Hawker", "Tom Bentley", "Paolo Patierno" ],
+  "url_scm" : "https://github.com/strimzi/strimzi-kafka-oauth/kafka-oauth-common",
+  "count_used_by" : 6,
+  "license" : null,
+  "ranking" : null,
+  "tags" : null,
+  "versions" : null,
+  "description" : "Strimzi uses the Kubernetes operator pattern to provide a way to run an Apache Kafka cluster on\n        Kubernetes in various deployment configurations. The OAuth subproject implements the callbacks for\n        Kafka authentication using OAuth (based on SASL OAUTHBEARER mechanism).",
+  "homePage" : null,
+  "countUsedBy" : null,
+  "redirectFlag" : null,
+  "tsUpdate" : 1792755403121
 }
