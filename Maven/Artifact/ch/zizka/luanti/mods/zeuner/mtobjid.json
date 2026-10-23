@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.zeuner/mtobjid",
+  "description": "Persistent object-IDs for developers\n\n# mtobjid\n\nThis library provides functions to obtain an ID for objects which is\npersistent over subsequent unloading and loading of the objects, and\nto operate on objects using the ID.\n\n## setup\n\nIn order to use the functions on objects from another mod, this mod must\nbe loaded before the mod that registers the objects. This can be achieved\nby defining `mtobjid` as an optional dependency of the other mod.\n\n## usage\n\n### get_id\n\nRetrieve a persistent ID for a LuaEntity ObjectRef.\n\n### get_object_by_id\n\nRetrieve the corresponding ObjectRef using the ID obtained through\n[get_id](#get_id). Returns nil if the object is currently unloaded.\n\n### on_next_activation\n\nArgument 1 (`objid`): ID obtained through [get_id](#get_id)\n\nArgument 2 (`handler`): function accepting an ObjectRef\n\nThe next time the object corresponding to the ID `objid` is activated,\n`handler` is called on the object.",
+  "group_id": "ch.zizka.luanti.mods.zeuner",
+  "artifact_id": "mtobjid",
+  "version_latest": "19947.1",
+  "ts_publish": 1792703297000,
+  "dt_publish": "2026-10-23 05:08:17.000",
+  "ts_update": 1792715293515,
+  "dt_update": "2026-10-23 08:28:13.515",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "LGPL-2.1-or-later"
+  ],
+  "categories": null,
+  "dsv": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.Grandel/open_inventory",
+  "description": "Remotely open player inventories with server privilege.\n\n  Open Inventory:\n\nThis is a mod for remotely accessing and modifying player inventories.\n\nUse /open to open inventories and access them.\nUse /close to close inventories and sync data.\nUse /openinv to see which player inventories are currently open.\nUse /viewers to see which players are currently looking at inventories.\n\nAll chat commands require the 'server' priv. (The same required for /clearinv.)\nOnly two inventories can be opened at once, indexed by 1 and 2.\nMore information can be obtained with /help inside the game.\n\nPlayers who have their inventories opened cannot move or drop items within\ntheir inventory. However, they can pick up items, and get items from digging.\nDiscrepencies between the original opened inventory and the current will be\nadded to the new inventory when synced, or dropped (if there is no space).\n\nOn the inventories screen, opened inventories appear on the bottom\nleft, and your own inventory appears on the bottom right.\nCrafting menus are positioned on top.\n\nIf there are no viewers left, all inventories are automatically closed.",
+  "group_id": "ch.zizka.luanti.mods.Grandel",
+  "artifact_id": "open_inventory",
+  "version_latest": "36375",
+  "ts_publish": 1792701839000,
+  "dt_publish": "2026-10-23 04:43:59.000",
+  "ts_update": 1792715297080,
+  "dt_update": "2026-10-23 08:28:17.080",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "LGPL-2.1-only"
+  ],
+  "categories": null,
+  "dsv": 1
+}

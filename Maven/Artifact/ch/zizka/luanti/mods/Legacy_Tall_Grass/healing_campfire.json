@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.Legacy_Tall_Grass/healing_campfire",
+  "description": "Make your campfire the heart of your base, repelling mobs and healing your character.\n\n# Healing Campfires\n\nMake your campfire the heart of your base. A lit campfire (regular or soul) now:\n\n- **Heals nearby players** — 1 HP every 4 seconds within 4 nodes, by default.\n- **Stops hostile mobs spawning nearby** — within 16 nodes, even through walls.\n  Spawn eggs and mob spawners still work.\n- **Scares hostile mobs away** — within 6 nodes, much like creepers fleeing cats.\n  A creeper that has already lit its fuse won't stop, just like in Minecraft.\n\nPut the fire out and everything returns to normal.\n\n## Settings\nAll settings are in the main menu under Settings → Mods → Healing Campfire:\nhealing range, interval and amount, an optional heal message in chat, the\nno-spawn radius, the fear radius, and a list of mobs that ignore campfire fear\n(bosses, the elder guardian and shulkers by default). Set a radius to 0 to turn\nthat feature off.\n\n## Compatibility\nMade for Mineclonia (Luanti 5.10 or newer). Spawn-proofing and fear need\nMineclonia's mob API; if it isn't present, healing still works and the log\nexplains what was skipped.\n\n## How this was made\nDesigned, tested and maintained by Legacy_Tall_Grass. The code was written\nwith AI assistance (Claude), then checked against Mineclonia's own source and\ntested in real worlds. Bug reports are welcome.\n\n## Credits\nBuilt to complement Mineclonia, with thanks to the Mineclonia and Luanti\ndevelopers whose work makes mods like this possible.\n\nLicense: CC0 1.0 (public domain). Credit appreciated, not required.",
+  "group_id": "ch.zizka.luanti.mods.Legacy_Tall_Grass",
+  "artifact_id": "healing_campfire",
+  "version_latest": "39577",
+  "ts_publish": 1792703297000,
+  "dt_publish": "2026-10-23 05:08:17.000",
+  "ts_update": 1792715292079,
+  "dt_update": "2026-10-23 08:28:12.079",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "CC0-1.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

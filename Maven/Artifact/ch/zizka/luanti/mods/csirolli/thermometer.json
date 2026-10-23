@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.csirolli/thermometer",
+  "description": "A thermometer to check the temperature\n\n# thermometer\n\nA thermometer to check the temperature. Put it on a wall to check the temperature of that position. Put it inside a chest or your inventory to track its temperature.\n\nTemperature is affected by nearby nodes, some nodes generate heat, others absorb heat. This is true for your inventory too. Put ice or snow in a chest to keep the temperature down. If you put torches or lava inside a chest, the temperature will rise.\n\nThis borrows a couple of functions from tempsurvive, but will use tempsurvive if it is enabled and expand its list of nodes.\n\nThis mod is meant to be used with other mods that utilize temperature, such as for preserving food or keeping the player warm. See API.md for information about the API.\n\n## Crafting\n\nThe craft recipe depends on which mods are installed.\n\nIt is preferred to have farming redo installed, to make use of ethanol. Alternatively, you can use basic_materials to use paraffin instead. If you also have the bottles mod from the bottles modpack with basic_materials, you can create a bottle of paraffin to use instead. If you don't enable any of these, it will use the glass_bottle from the mcl_potions or vessels mod.\n\nYou also need red dye to dye the bottle. It can take the red dye from dye or mcl_dyes.\n\nFor the board of the thermometer, it uses group:sign, adding default:sign_wall_wood and default:sign_wall_steel to the group. This is compatible with the signs_lib and MCL mods, as well as any other mod that adds signs with group:sign.\n\nTo seal the bottle you need a quartz crystal from the mod quartz, mcl_nether, or everness (quartz mod is preferred). If you are missing those, you can use vessels:glass_fragments.\n\n## Settings\n\nThere is one setting for toggling the usage of Celsius (checked) or Fahrenheit (unchecked). This option is set to checked by default.\n\n## License\n\nCode is licensed under LGPL-2.1 by csirolli with some code by AiTechEye (also under LGPL-2.1). The texture (vessels_glass_bottle_mask.png) is licensed under CC-BY-SA-3.0 by VanessaE, from the bottles mod from the bottles modpack.",
+  "group_id": "ch.zizka.luanti.mods.csirolli",
+  "artifact_id": "thermometer",
+  "version_latest": "29008.1",
+  "ts_publish": 1792703297000,
+  "dt_publish": "2026-10-23 05:08:17.000",
+  "ts_update": 1792715292526,
+  "dt_update": "2026-10-23 08:28:12.526",
+  "count_dep": 6,
+  "count_ref": 0,
+  "licenses": [
+    "LGPL-2.1-only"
+  ],
+  "categories": null,
+  "dsv": 1
+}

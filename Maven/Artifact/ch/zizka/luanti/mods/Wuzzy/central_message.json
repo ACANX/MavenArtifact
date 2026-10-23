@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.Wuzzy/central_message",
+  "description": "Simple API to show messages to the center of the screen to players.\n\nThis mod is purely an API mod which allows other mods to display a short message at the center of the screen.\nIt is directed to mod and subgame authors. Players only need to download this if another mod depends on it.\n\nEach message is displayed for 5 seconds, then it is removed. By default, up to 7 messages are displayed at once (further messages will cause the oldest message to be removed).\nWhen multiple messages are pushed quickly in succession, the messages will be “stacked” on the screen.\nMessages can either be displayed to a single single player, or to all players at once.\nSome server configuration can be made in the advanced settings menu.\nThe API functions are thus very analogous to `minetest.send_chat_player` and `minetest.send_chat_all`.",
+  "group_id": "ch.zizka.luanti.mods.Wuzzy",
+  "artifact_id": "central_message",
+  "version_latest": "333.1",
+  "ts_publish": 1792703298000,
+  "dt_publish": "2026-10-23 05:08:18.000",
+  "ts_update": 1792715291576,
+  "dt_update": "2026-10-23 08:28:11.576",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "GPL-2.0-only"
+  ],
+  "categories": null,
+  "dsv": 1
+}

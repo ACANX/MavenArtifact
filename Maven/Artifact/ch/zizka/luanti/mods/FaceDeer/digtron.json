@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.FaceDeer/digtron",
+  "description": "Adds components for building modular tunnel boring machines\n\n# Modular Tunnel Boring Machine\n## aka The Almighty Digtron\n\n**More examples: [Digtron Luanti Forum Topic](https://forum.luanti.org/viewtopic.php?t=16295)**\n\nThis mod contains a set of blocks that can be used to construct highly customizable and\nmodular tunnel-boring machines, bridge-builders, road-pavers, wall-o-matics, and other\nsuch construction/destruction contraptions.\n\n## Basic functionality\n\nA digging machine's components must be connected to the control block via a path leading\nthrough the faces of the blocks - diagonal connections across edges and corners don't count.\n\n#### Crucial Digtron blocks\n\n* **Digger heads** excavate material in front of them when the machine is triggered.\n    * The mined blocks are shunt into the inventory module. Excess is dropped to ground.\n* **Builder heads** build a user-configured node in the direction they're facing.\n    * Useful for situations where a tunnel-borer intersects a cavern.\n* **Inventory modules** hold material produced by the digger and provide material to the builders.\n* **Fuel modules** hold flammable materials to feed the beast.\n* **Control blocks** trigger the machine and move it in a particular direction.\n    * The auto-controller triggers automatically for a custom number of cycles.\n\nBuilder heads can be set to construct their target block \"intermittently\", allowing\nfor regularly-spaced structures to be constructed. Common uses include building support\narches at regular intervals in a tunnel, adding a torch on the wall at regular\nintervals, laying rails with regularly-spaced powered rails interspersed, and adding\nstairs to vertical shafts.\n\nA player can ride their Digtron as it goes.\n\n#### Other specialized Digtron blocks\n\n* **\"Axle\" block**: allows an assembled Digtron to be rotated into new orientations without needing to be rebuilt block-by-block\n* **Crate**: stores an assembled Digtron and allows the player to transport it to a new location\n* **Duplicator**: creates a copy of an existing Digtron (if provided with enough spare parts)\n* **Item ejector**: moves excavated materials from a Digtron's inventory into pipeworks tubes.\n* **Light**: can be mounted on a Digtron to illuminate the workspace as it moves\n* Structural components to make it look cool",
+  "group_id": "ch.zizka.luanti.mods.FaceDeer",
+  "artifact_id": "digtron",
+  "version_latest": "38995.1",
+  "ts_publish": 1792703297000,
+  "dt_publish": "2026-10-23 05:08:17.000",
+  "ts_update": 1792715292079,
+  "dt_update": "2026-10-23 08:28:12.079",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "MIT"
+  ],
+  "categories": null,
+  "dsv": 1
+}

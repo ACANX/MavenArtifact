@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.Frederik/gs_cfg",
+  "description": "A library that allows loading and saving data from config files.\n\n## Functions\n\n- **gs_cfg.new**\n\n  Returns a new, empty CFG structure.\n\n- **gs_cfg.load**\n\n  file_path -> Path to a text file.\n\n  Returns a CFG structure with the values stored in the specified text file.\n\n- **cfg:set_value**\n\n  section -> A section name.\n\n  key -> A key string.\n\n  value -> Any supported value.\n\n  Assigns a value to a key in a section.\n\n- **cfg:get_value**\n\n  section -> A section name.\n\n  key -> A key string.\n\n  Returns the value of a key from a section.\n\n- **cfg:save**\n\n  file_path -> Path to a text file.\n\n  Writes the CFG structure to a CFG text file.\n\n- **cfg:get_sections**\n\n  Returns all section names as strings in an table.\n\n- **cfg:has_section**\n\n  section -> A section name.\n\n  Returns whether a section exists.\n\n- **cfg:has_key**\n\n  section -> A section name.\n\n  key -> A key string.\n\n  Returns whether a key exists in a section.\n\n- **cfg:delete_section**\n\n  section -> A section name.\n\n  Deletes an entire section with all its keys.\n\n- **cfg:delete_key**\n\n  section -> A section name.\n\n  key -> A key string.\n\n  Deletes a key.\n\n- **cfg:get_keys**\n\n  section -> A section name.\n\n  Returns all key names from a section as strings in an table.\n\n- **cfg:clear**\n\n  Removes everything from a CFG structure.\n\n- **cfg:to_string**\n\n  Returns the entire CFG structure as a human-readable string.\n\n- **cfg:get_type**\n\n  section -> A section name.\n\n  key -> A key string.\n  \n  Returns the type of a value.\n\n\n\n## Supported value types\n\n- **String**\n- **Number**\n- **Boolean**\n- **Nil**\n- **Table**",
+  "group_id": "ch.zizka.luanti.mods.Frederik",
+  "artifact_id": "gs_cfg",
+  "version_latest": "28683",
+  "ts_publish": 1792701839000,
+  "dt_publish": "2026-10-23 04:43:59.000",
+  "ts_update": 1792715297085,
+  "dt_update": "2026-10-23 08:28:17.085",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "MIT"
+  ],
+  "categories": null,
+  "dsv": 1
+}

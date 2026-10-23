@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ch.zizka.luanti.mods.rheo/hand_monoid",
+  "description": "player monoid for controlling the look and abilities of the player's hand.\n\n# hand_monoid\n\nplayer monoid for controlling the look and abilities of the player's hand.\n\n## API usage:\n\n* ```\n  hand_monoid.monoid:add_change(player, {\n      groupcaps = {crumbly = {times={[2]=3.00, [3]=0.70}, uses=0, maxlevel=1}}\n  }, change_id)\n  ```\n  override group capabilities\n* `hand_monoid.monoid:add_change(player, {groupcaps = {[group] = {}}}, change_id)`\n  remove group's capabilites\n* `hand_monoid.monoid:add_change(player, {name = hand}, change_id)`\n  change the hand item (allows e.g. creating new hand looks e.g. skinsdb)",
+  "group_id": "ch.zizka.luanti.mods.rheo",
+  "artifact_id": "hand_monoid",
+  "version_latest": "20111.1",
+  "ts_publish": 1792703298000,
+  "dt_publish": "2026-10-23 05:08:18.000",
+  "ts_update": 1792715291075,
+  "dt_update": "2026-10-23 08:28:11.075",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "LGPL-3.0-or-later"
+  ],
+  "categories": null,
+  "dsv": 1
+}
