@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.sjacek/shardpilot-core",
+  "description": "Shared Java core used by the ShardPilot Gradle and Maven adapters for deterministic JVM\n    test sharding. Balances class families using historical test durations or stable hashing when\n    timings are unavailable, reads and writes YAML class manifests, and verifies complete,\n    non-overlapping class selections with standalone JSON and HTML reports. Contains the common\n    planning and reporting logic without Gradle or Maven APIs; test execution and process settings\n    belong to the build-tool adapters and native runners.",
+  "group_id": "io.github.sjacek",
+  "artifact_id": "shardpilot-core",
+  "version_latest": "0.3.0",
+  "ts_publish": 1792822921000,
+  "dt_publish": "2026-10-24 14:22:01.000",
+  "ts_update": 1792837697433,
+  "dt_update": "2026-10-24 18:28:17.433",
+  "count_dep": 2,
+  "count_ref": 1,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

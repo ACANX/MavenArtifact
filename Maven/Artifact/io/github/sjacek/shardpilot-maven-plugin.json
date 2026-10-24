@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.sjacek/shardpilot-maven-plugin",
+  "description": "ShardPilot helps shorten CI feedback for large JVM unit and integration test suites by\n    splitting Maven Surefire and Failsafe test classes into deterministic, non-overlapping shards for\n    parallel CI jobs. It balances class families using historical test durations and uses stable\n    hashing when timing data is unavailable. The plugin preserves native test execution and configured\n    class include/exclude patterns, with independent suites for unit and integration tests. The prepare,\n    select and verify goals produce readable YAML manifests and standalone JSON and HTML reports to\n    compare planned class assignments with selections collected from every CI job. Supports single-module\n    projects and parallel Maven reactor builds without a coordinator, replacement test runner or\n    telemetry. Your build controls test JVMs and normal test outcomes; your CI launches every shard\n    and collects the results. Class-selection verification complements the native test result checks.",
+  "group_id": "io.github.sjacek",
+  "artifact_id": "shardpilot-maven-plugin",
+  "version_latest": "0.3.0",
+  "ts_publish": 1792822921000,
+  "dt_publish": "2026-10-24 14:22:01.000",
+  "ts_update": 1792837698029,
+  "dt_update": "2026-10-24 18:28:18.029",
+  "count_dep": 38,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}

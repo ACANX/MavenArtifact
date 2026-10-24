@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.youtrackdb/youtrackdb-embedded",
+  "description": "Uber-jar with all third-party dependencies relocated under\n    com.jetbrains.youtrackdb.shade to avoid classpath conflicts\n    when YouTrackDB is used as an embedded library.\n\n    NOTE: The custom TinkerPop fork (io.youtrackdb:gremlin-*) retains\n    the org.apache.tinkerpop Java package and is intentionally NOT\n    relocated. Relocating it would break ServiceLoader entries, Gremlin\n    plugin registrations, and reflection-based lookups. Users who also\n    depend on upstream Apache TinkerPop should use dependency exclusions.\n\n    Netty, SLF4J, and GraalVM/Truffle are excluded from the uber-jar\n    (not bundled) and must be provided by the user:\n    - Netty: native transport relies on class-path-relative resource loading.\n    - SLF4J: logging facade whose binding must be chosen by the user.\n    - GraalVM/Truffle: internal class loading by name; needed only if the\n      Gremlin JavaScript engine is used.\n    The shaded jar is unsigned (original signatures are stripped during\n    repackaging).",
+  "group_id": "io.youtrackdb",
+  "artifact_id": "youtrackdb-embedded",
+  "version_latest": "0.5.0-beta-2026-10-24",
+  "ts_publish": 1792834312000,
+  "dt_publish": "2026-10-24 17:31:52.000",
+  "ts_update": 1792837679373,
+  "dt_update": "2026-10-24 18:27:59.373",
+  "count_dep": 9,
+  "count_ref": 0,
+  "licenses": [
+    "Apache 2"
+  ],
+  "categories": null,
+  "dsv": 1
+}

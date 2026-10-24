@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/io.github.sjacek/shardpilot-parent",
+  "description": "ShardPilot helps shorten CI feedback by splitting JVM test classes into deterministic,\n    non-overlapping shards for parallel CI jobs. Gradle and Maven adapters share balancing based on\n    historical test durations, stable hashing when timings are unavailable, YAML class manifests and\n    standalone JSON and HTML reports for verifying class selections. This parent POM supplies shared\n    dependency and build configuration for shardpilot-core and shardpilot-maven-plugin. Consumers\n    configure the appropriate build-tool adapter; class-selection verification complements normal\n    test result checks.",
+  "group_id": "io.github.sjacek",
+  "artifact_id": "shardpilot-parent",
+  "version_latest": "0.3.0",
+  "ts_publish": 1792822921000,
+  "dt_publish": "2026-10-24 14:22:01.000",
+  "ts_update": 1792837697433,
+  "dt_update": "2026-10-24 18:28:17.433",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "MIT License"
+  ],
+  "categories": null,
+  "dsv": 1
+}
