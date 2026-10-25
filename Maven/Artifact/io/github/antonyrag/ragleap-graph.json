@@ -1,14 +1,14 @@
 {
   "id": "pkg:maven/io.github.antonyrag/ragleap-graph",
-  "description": "Java port of ragleap-graph: knowledge-graph-augmented retrieval for RAG, talking to\n        Neo4j over its HTTP Query API (no Neo4j driver dependency; tested only against\n        Neo4j 5.26 Community, single server only). Early release: deterministic regex\n        entity extraction, document indexing (upsertDocument) with per-document weights\n        and co-occurrence edges, and six lookups (documents by entities, related\n        entities, typed relations, lineage, entities by type, document entities). The\n        typed-relation lookup reads relations written by other tools; this version does\n        not extract them. Not yet ported: LLM entity and relation extraction,\n        deduplication, graph retrieval, migrations and backfills, and the Postgres\n        audit writer. Independently versioned from the Python package\n        (see https://pypi.org/project/ragleap-graph/).",
+  "description": "Java port of ragleap-graph: knowledge-graph-augmented retrieval for RAG, talking to\n        Neo4j over its HTTP Query API (no Neo4j driver dependency; tested only against\n        Neo4j 5.26 Community, single server only). Included: regex entity extraction;\n        optional LLM entity and relation extraction through a small LlmClient interface,\n        with an optional adapter for ragleap-rag (not live-verified against real model\n        providers, tested with scripted answers only); entity deduplication; document\n        indexing (upsertDocument) with per-document weights, co-occurrence edges and typed\n        relations; six lookups (documents by entities, related entities, typed relations,\n        lineage, entities by type, document entities); GraphRetriever (hybrid vector plus\n        graph retrieval, or graph only, with citations); and one-time backfills with a\n        schema migration runner. A PostgreSQL audit writer (PostgresAuditSink, over a PostgreSQL JDBC driver you supply; tested against a real PostgreSQL on the maintainer's machine, not in CI) is included. Independently\n        versioned from the Python package (see https://pypi.org/project/ragleap-graph/).",
   "group_id": "io.github.antonyrag",
   "artifact_id": "ragleap-graph",
-  "version_latest": "0.1.0",
-  "ts_publish": 1791887162000,
-  "dt_publish": "2026-10-13 18:26:02.000",
-  "ts_update": 1791890855469,
-  "dt_update": "2026-10-13 19:27:35.469",
-  "count_dep": 4,
+  "version_latest": "0.3.0",
+  "ts_publish": 1792908154000,
+  "dt_publish": "2026-10-25 14:02:34.000",
+  "ts_update": 1792933127188,
+  "dt_update": "2026-10-25 20:58:47.188",
+  "count_dep": 22,
   "count_ref": 0,
   "licenses": [
     "MIT License"

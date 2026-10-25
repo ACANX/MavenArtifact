@@ -3,14 +3,16 @@
   "description": "原子能力接口包（结构照搬源仓 common 分层）：主系统与子系统的共享 SPI。\n        分层约定：子系统经此包消费平台能力，不依赖 z-team-core；原子能力实现由主系统（core / web）提供，\n        子系统亦可自带默认实现。当前成员：KnowledgeQueryPort（知识库查询端口）。",
   "group_id": "io.github.yuku123",
   "artifact_id": "z-team-common",
-  "version_latest": "1.0.3",
-  "ts_publish": 1792593745000,
-  "dt_publish": "2026-10-21 22:42:25.000",
-  "ts_update": 1792594732443,
-  "dt_update": "2026-10-21 22:58:52.443",
-  "count_dep": 3,
-  "count_ref": 6,
-  "licenses": [],
+  "version_latest": "1.0.46",
+  "ts_publish": 1792923481000,
+  "dt_publish": "2026-10-25 18:18:01.000",
+  "ts_update": 1792933099232,
+  "dt_update": "2026-10-25 20:58:19.232",
+  "count_dep": 6,
+  "count_ref": 11,
+  "licenses": [
+    "MIT License"
+  ],
   "categories": null,
   "dsv": 1
 }
