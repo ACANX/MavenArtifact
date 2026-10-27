@@ -1,17 +1,17 @@
 {
   "id": "pkg:maven/ai.particledb/particledb-jdbc",
-  "description": "Native PDB-wire JDBC driver. Multiplexed (HTTP/2-style) over one TCP\n        connection with N concurrent streams. Falls back to v1 single-stream\n        when talking to v1 servers. Pure Java/Netty — no JNI, no pgjdbc.",
+  "description": "Native PDB-wire JDBC driver. Multiplexed (HTTP/2-style) over one TCP\n        connection with N concurrent streams. Falls back to v1 single-stream\n        when talking to v1 servers. Pure Java/Netty — no JNI, no pgjdbc.\n        Requires Java 11 or later; no JVM flags are needed on any JDK.",
   "group_id": "ai.particledb",
   "artifact_id": "particledb-jdbc",
-  "version_latest": "1.0.8",
-  "ts_publish": 1792188970000,
-  "dt_publish": "2026-10-17 06:16:10.000",
-  "ts_update": 1792209518978,
-  "dt_update": "2026-10-17 11:58:38.978",
+  "version_latest": "1.0.11",
+  "ts_publish": 1793117377000,
+  "dt_publish": "2026-10-28 00:09:37.000",
+  "ts_update": 1793122093370,
+  "dt_update": "2026-10-28 01:28:13.370",
   "count_dep": 30,
-  "count_ref": 0,
+  "count_ref": 1,
   "licenses": [
-    "Apache License 2.0"
+    "MIT License"
   ],
   "categories": null,
   "dsv": 1
