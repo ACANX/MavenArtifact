@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/ai.badmonkey.agentspaces/agentspaces-transport-dtls",
+  "description": "The DTLS binding of the Transport SPI (spec §5.5, SRAD srad/dtls-support.md):\n    signed frames over DTLS 1.2 (RFC 6347) on UDP, with Connection ID (RFC 9146),\n    on BouncyCastle's DTLS implementation, and a small recovery sublayer that\n    gives each association the reliable, ordered frame service the SPI promises.\n    Pure Java: no native library. The same channel certificates and attestation\n    rules as the tls and quic bindings (spec §5.6).",
+  "group_id": "ai.badmonkey.agentspaces",
+  "artifact_id": "agentspaces-transport-dtls",
+  "version_latest": "0.5.0",
+  "ts_publish": 1793561760000,
+  "dt_publish": "2026-11-02 03:36:00.000",
+  "ts_update": 1793568462256,
+  "dt_update": "2026-11-02 05:27:42.256",
+  "count_dep": 13,
+  "count_ref": 3,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
