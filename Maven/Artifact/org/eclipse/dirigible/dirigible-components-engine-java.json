@@ -3,14 +3,16 @@
   "description": "Runtime engine for client-supplied Java sources under the Dirigible registry.\n        Discovers *.java files via a dedicated synchronizer, compiles them in-process\n        with the JDK Java Compiler API, loads them under per-project isolated\n        URLClassLoaders, and exposes them as REST endpoints with hot reload.",
   "group_id": "org.eclipse.dirigible",
   "artifact_id": "dirigible-components-engine-java",
-  "version_latest": "14.97.0",
-  "ts_publish": 1792590809000,
-  "dt_publish": "2026-10-21 21:53:29.000",
-  "ts_update": 1792594746711,
-  "dt_update": "2026-10-21 22:59:06.711",
-  "count_dep": 50,
-  "count_ref": 1,
-  "licenses": [],
+  "version_latest": "15.13.0",
+  "ts_publish": 1793637291000,
+  "dt_publish": "2026-11-03 00:34:51.000",
+  "ts_update": 1793640479275,
+  "dt_update": "2026-11-03 01:27:59.275",
+  "count_dep": 143,
+  "count_ref": 3,
+  "licenses": [
+    "Eclipse Public License - v 2.0"
+  ],
   "categories": [
     "Uncategorized"
   ],
