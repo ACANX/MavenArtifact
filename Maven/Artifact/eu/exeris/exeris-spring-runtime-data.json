@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-spring-runtime-data",
+  "description": "Persistence integration module providing DataSource and Hibernate integration.\n\n        Key capabilities:\n          - DataSource adapter backed by Exeris PersistenceEngine,\n          - thin JDBC compatibility bridge,\n          - Hibernate bootstrap customizer for connection acquisition.\n\n        DANGER: This module is the highest risk for architectural regression.\n        Designs that orbit around DataSource/HikariCP/JPA/Hibernate and treat\n        Exeris as a secondary component will be rejected.\n        See ADR-001 and ADR-017.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-spring-runtime-data",
+  "version_latest": "0.8.0",
+  "ts_publish": 1793719474000,
+  "dt_publish": "2026-11-03 23:24:34.000",
+  "ts_update": 1793727116875,
+  "dt_update": "2026-11-04 01:31:56.875",
+  "count_dep": 47,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

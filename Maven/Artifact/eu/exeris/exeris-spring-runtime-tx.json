@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-spring-runtime-tx",
+  "description": "Transaction boundary bridge between Exeris runtime resource semantics\n        and the Spring transaction abstraction (@Transactional, PlatformTransactionManager).\n\n        Key capabilities:\n          - implements PlatformTransactionManager backed by Exeris StorageContext,\n          - bridges @Transactional semantics to Exeris transaction lifecycle,\n          - propagates ScopedValue-based transaction context across virtual threads,\n          - manages resource cleanup on commit/rollback using Exeris PersistenceConnection,\n          - Spring transaction synchronization callbacks → kernel resource release.\n\n        ThreadLocal is BANNED as a transaction context carrier. ScopedValue is the\n        correct propagation mechanism aligned with the kernel's execution model.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-spring-runtime-tx",
+  "version_latest": "0.8.0",
+  "ts_publish": 1793719474000,
+  "dt_publish": "2026-11-03 23:24:34.000",
+  "ts_update": 1793727116447,
+  "dt_update": "2026-11-04 01:31:56.447",
+  "count_dep": 19,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

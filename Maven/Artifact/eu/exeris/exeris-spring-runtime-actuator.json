@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-spring-runtime-actuator",
+  "description": "Operational visibility bridge between the Exeris runtime diagnostics and\n        Spring Boot Actuator endpoints.\n\n        Scope:\n          - health indicators reading Exeris KernelProviders state,\n          - info contributors exposing runtime mode and provider inventory,\n          - Micrometer MeterRegistry bridge to Exeris TelemetrySink,\n          - graceful shutdown coordination (SmartLifecycle order with Exeris bootstrap),\n          - runtime diagnostic endpoints (watermark state, provider list, memory pressure).\n\n        This module must not:\n          - redefine the Exeris telemetry model or bypass TelemetrySink,\n          - act as a control-plane for runtime configuration changes,\n          - become a dumping ground for cross-module utilities,\n          - own any data-plane execution path.\n\n        See docs/architecture/module-boundaries.md.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-spring-runtime-actuator",
+  "version_latest": "0.8.0",
+  "ts_publish": 1793719474000,
+  "dt_publish": "2026-11-03 23:24:34.000",
+  "ts_update": 1793727116876,
+  "dt_update": "2026-11-04 01:31:56.876",
+  "count_dep": 22,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-spring-runtime-flow",
+  "description": "Compatibility-friendly bridge that exposes the kernel FlowEngine to Spring beans\n        as a structured asynchronous / saga programming model — without making\n        Spring @Async (or any thread-pool task executor) the canonical execution path\n        for compensable, parkable, or event-triggered work.\n\n        Key capabilities (default-off):\n          - FlowEngineSupplier: deferred ScopedValue accessor pattern.\n          - ExerisFlowProperties: enabled + persistenceEnabled + choreographyEnabled\n            + requireEngine configuration flags.\n          - ExerisFlowAutoConfiguration: wires template, registrar, and engine supplier\n            from ExerisRuntimeLifecycle.getFlowEngine().\n          - ExerisFlowDefinition: interface for Spring beans declaring kernel FlowDefinitions\n            through FlowDefinitionBuilder + FlowStepAction lambdas.\n          - ExerisFlowTemplate: imperative invocation surface for Spring beans — schedule,\n            park, wake, lookupParked, stats, and plan registry.\n          - ExerisFlowDefinitionRegistrar: lifecycle bean compiling plans and populating\n            the template plan registry.\n          - ExerisFlowChoreographyBridge: opt-in event-driven flow trigger discovering\n            ExerisFlowChoreographyMapper beans and registering them with the kernel.\n\n        Activation:\n          exeris.runtime.flow.enabled = true (matchIfMissing = false)\n          exeris.runtime.flow.choreography-enabled = true (opt-in)\n\n        Hard rules:\n          - @Async is NOT a workaround for missing flow capability.\n          - Durable snapshot persistence (FlowSnapshotStore) is not enabled by default;\n            persistenceEnabled defaults to false.\n          - Step lambdas closing over Spring beans must not invert lifecycle\n            ownership — flow lifecycle stays kernel-owned.\n          - Choreography mapper beans receive only an EventDescriptor (routing\n            metadata) — no payload, no scheduler reference. Implementations stay\n            implementation-blind to the broker.\n          - No HTTP / web / persistence concerns in this module.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-spring-runtime-flow",
+  "version_latest": "0.8.0",
+  "ts_publish": 1793719474000,
+  "dt_publish": "2026-11-03 23:24:34.000",
+  "ts_update": 1793727116445,
+  "dt_update": "2026-11-04 01:31:56.445",
+  "count_dep": 22,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

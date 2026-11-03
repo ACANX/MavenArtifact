@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-spring-runtime-graph",
+  "description": "Spring-side seam for the kernel Graph SPI per ADR-030 (default-off).\n\n        Key capabilities:\n          - GraphEngineSupplier: deferred accessor pattern (tryGet + default requireEngine)\n            mirroring EventEngineSupplier / FlowEngineSupplier — reads\n            GraphKernelProviders.GRAPH_ENGINE captured by ExerisRuntimeLifecycle.\n          - ExerisGraphProperties: enabled (default false) + requireEngine (default true)\n            two-property configuration matrix.\n          - ExerisGraphAutoConfiguration: @ConditionalOnProperty(enabled=true) gating;\n            wires the template, supplier, and @ExerisGraphQuery BeanPostProcessor.\n          - ExerisGraphTemplate: JdbcTemplate-shaped facade over kernel GraphSession —\n            execute(ExerisGraphSessionCallback), traverseBfs, streamBfsJson (caller\n            owns the returned LoanedBuffer, releases via try-with-resources),\n            inTransaction(Consumer<GraphSession>), dialect().\n          - @ExerisGraphQuery + ExerisGraphQueryProcessor: declarative parameterised\n            MATCH-DSL strings; BeanPostProcessor routes by method return type\n            (LoanedBuffer → stream JSON; List<UUID> → BFS); unsupported return types\n            fail fast at post-processing time before context refresh completes.\n\n        Activation:\n          exeris.runtime.graph.enabled = true (matchIfMissing = false)\n          exeris.runtime.graph.require-engine = false (opt-in for dev/test where the\n                                                       kernel graph provider is absent)\n\n        Hard rules:\n          - No Spring Data Neo4j compatibility (org.springframework.data.. banned by\n            GraphModuleBoundaryTest).\n          - No fluent GraphQueryBuilder DSL (kernel ships GraphTraversal record only).\n          - No GraphCursor / unbounded traversal API.\n          - No cross-resource transactions (graph session transactions stay kernel-local;\n            ExerisPlatformTransactionManager from -tx is a different resource).\n          - No multi-engine fan-out (one GraphEngine per ApplicationContext).\n          - LoanedBuffer streamBfsJson caller owns the buffer; template does not retain\n            a reference and does not transfer ownership.\n\n        See ADR-030 for architectural context.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-spring-runtime-graph",
+  "version_latest": "0.8.0",
+  "ts_publish": 1793719474000,
+  "dt_publish": "2026-11-03 23:24:34.000",
+  "ts_update": 1793727116871,
+  "dt_update": "2026-11-04 01:31:56.871",
+  "count_dep": 23,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

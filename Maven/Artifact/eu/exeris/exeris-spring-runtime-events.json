@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-spring-runtime-events",
+  "description": "Compatibility-friendly bridge that exposes the kernel EventBus to Spring beans\n        as publish/subscribe primitives without making the Spring ApplicationContext the\n        canonical event owner.\n\n        Key capabilities (default-off):\n          - ExerisEventPublisher: Spring bean publishing into kernel EventBus,\n          - @ExerisEventListener: method-level annotation; scanned by ExerisEventListenerRegistrar\n            and registered as kernel EventHandler subscriptions,\n          - ExerisEventTypeRegistry: facade over kernel EventRegistry for type-name → ordinal lookup.\n\n        Activation:\n          exeris.runtime.events.enabled = true (matchIfMissing = false)\n\n        Hard rules:\n          - Spring ApplicationEventPublisher is NEVER wired into the Exeris EventBus.\n          - No Spring event types (org.springframework.context.event.*) on the kernel bus path.\n          - No HTTP / transaction / persistence concerns in this module.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-spring-runtime-events",
+  "version_latest": "0.8.0",
+  "ts_publish": 1793719474000,
+  "dt_publish": "2026-11-03 23:24:34.000",
+  "ts_update": 1793727116445,
+  "dt_update": "2026-11-04 01:31:56.445",
+  "count_dep": 21,
+  "count_ref": 1,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

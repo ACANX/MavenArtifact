@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/eu.exeris/exeris-spring-runtime-web",
+  "description": "Bridge between the Exeris HTTP/transport runtime and the Spring handler\n        invocation model.\n\n        Scope in Pure Mode:\n          - implements HttpHandler (kernel SPI) as the transport-to-Spring bridge,\n          - route registration against Exeris HttpServerEngine,\n          - request/response abstraction (ExerisServerRequest / ExerisServerResponse),\n          - codec integration for body serialization without heap copies,\n          - error mapping (ExerisKernelException → HTTP status),\n          - graceful connection close coordination.\n\n        Explicitly excluded in Pure Mode:\n          - Spring DispatcherServlet, HandlerMapping, HandlerAdapter (no MVC dispatch),\n          - Servlet API, HttpServletRequest, HttpServletResponse,\n          - WebFlux ServerWebExchange or ReactorHttpHandlerAdapter.\n\n        Compatibility mode adds an opt-in MVC dispatch bridge.\n        It is clearly isolated under compat packages and never activates by default.\n\n        See docs/architecture/module-boundaries.md for enforcement rules.\n        See docs/architecture/kernel-integration-seams.md for the exact SPI seams.",
+  "group_id": "eu.exeris",
+  "artifact_id": "exeris-spring-runtime-web",
+  "version_latest": "0.8.0",
+  "ts_publish": 1793719474000,
+  "dt_publish": "2026-11-03 23:24:34.000",
+  "ts_update": 1793727116872,
+  "dt_update": "2026-11-04 01:31:56.872",
+  "count_dep": 47,
+  "count_ref": 0,
+  "licenses": [
+    "Apache License, Version 2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}
