@@ -1,0 +1,18 @@
+{
+  "id": "pkg:maven/it.tidalwave.mapview/it-tidalwave-mapview",
+  "description": "MapView is a simple JavaFX 2 control that can render a tile-based map. It offers the following features:\n\n+ zooming in/out\n+ dragging\n+ centering on double click\n+ rendering overlays, such as GPS tracks\n\n![image](images/Screenshot1.png)\n\nIt works with map systems based on the Mercator projection, such as [OpenStreetMap](https://openstreetmap.org) or [OpenTopoMap](https://opentopomap.org/).\n\n![image](images/Screenshot2.png)\n\nTo get started, look at the example in the code and the\n[Javadoc](http://tidalwave.it/projects/mapview/latest/it-tidalwave-mapview-modules/mapview-javafx/apidocs/index.html).\nTo run the example launch:\n\n```shell\nmvn install -DskipTests\nmvn -f modules/Example/pom.xml -Pjavafx-run\n```\n\nAs an historical note, MapView has been derived by Windrose, an old open source GPS navigation project for Java Mobile developed by the same author between\n2006 and 2008 (even though in the end only a few lines of code have been retained).\n\nMapView has been developed because a map viewer is needed by a project of the same author and the existing similar components for JavaFX, at the end of 2024,\nseem to be abandoned or not working. If you need a bug fix or an enhancement, requests, contributions such as patches, pull requests etc... are welcomed.",
+  "group_id": "it.tidalwave.mapview",
+  "artifact_id": "it-tidalwave-mapview",
+  "version_latest": "1.0-ALPHA-5",
+  "ts_publish": 1793744111000,
+  "dt_publish": "2026-11-04 06:15:11.000",
+  "ts_update": 1793761093686,
+  "dt_update": "2026-11-04 10:58:13.686",
+  "count_dep": 0,
+  "count_ref": 0,
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "categories": null,
+  "dsv": 1
+}

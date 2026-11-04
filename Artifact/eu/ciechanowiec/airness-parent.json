@@ -1,14 +1,14 @@
 {
   "id" : "pkg:maven/eu.ciechanowiec/airness-parent",
-  "description" : "The parent a consuming project inherits. It carries the plugin configuration and the lifecycle\n        bindings, so a consumer states its coordinates and its dependencies and receives the harness.\n\n        It binds the analyzers, tests, coverage, source normalization, and repository governance. A\n        consumer updates the harness by raising the parent version and synchronizing the managed files.",
+  "description" : "The generic parent. It carries the rules that make sense in a repository with no code at all:\n        managed files, the committable tree, formatting of committed text, typography, agent entry\n        files, the suppression ceiling, software refused by name, licenses, freshness, known\n        vulnerabilities, the software bill of materials, the compliance report, history, commit\n        messages, secrets, shell scripts and infrastructure.\n\n        A repository with no code, or a monorepo root, inherits this one directly. A Java module\n        inherits airness-parent-java, which inherits this one and adds the Java rules.",
   "group_id" : "eu.ciechanowiec",
   "artifact_id" : "airness-parent",
-  "version_latest" : "1.0.7",
-  "ts_publish" : 1792265178000,
-  "dt_publish" : "2026-10-18 03:26:18.000",
+  "version_latest" : "1.0.9",
+  "ts_publish" : 1793739889000,
+  "dt_publish" : "2026-11-04 05:04:49.000",
   "ts_update" : 1786218494442,
-  "dt_update" : "2026-10-18 08:42:24.602",
-  "count_dep" : 8,
+  "dt_update" : "2026-11-04 11:35:32.443",
+  "count_dep" : 0,
   "count_ref" : 0,
   "licenses" : [ "MIT-0" ],
   "dsv" : 1,
@@ -23,6 +23,6 @@
   "ranking" : null,
   "countUsedBy" : null,
   "redirectFlag" : null,
-  "tsUpdate" : 1792283398717,
+  "tsUpdate" : 1793763121256,
   "versions" : null
 }
