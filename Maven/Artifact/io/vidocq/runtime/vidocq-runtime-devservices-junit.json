@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/io.vidocq.runtime/vidocq-runtime-devservices-junit",
+  "description": "A JUnit Platform LauncherSessionListener that hosts dev services for a test run (spec\n        2026-09-24-devservices-visibility-run-tests §7). An application adds this module test-scoped, next to\n        the providers it wants; it brings vidocq-runtime-devservices-extension transitively. Must ship as its\n        own jar — spec §7.1's spike proved that a listener compiled into an application's own test sources is\n        folded by Surefire's module-path patching into the application's named module, where ServiceLoader can\n        no longer see its META-INF/services entry.",
+  "group_id": "io.vidocq.runtime",
+  "artifact_id": "vidocq-runtime-devservices-junit",
+  "version_latest": "0.4.0-RC2",
+  "ts_publish": 1793927771000,
+  "dt_publish": "2026-11-06 09:16:11.000",
+  "ts_update": 1793930254755,
+  "dt_update": "2026-11-06 09:57:34.755",
+  "count_dep": 25,
+  "count_ref": 0,
+  "licenses": [
+    "GPL-2.0-or-later",
+    "EPL-2.0",
+    "EUPL-1.2"
+  ],
+  "categories": null,
+  "dsv": 1
+}

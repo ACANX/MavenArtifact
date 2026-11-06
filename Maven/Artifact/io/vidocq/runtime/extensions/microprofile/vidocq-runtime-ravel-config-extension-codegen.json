@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/io.vidocq.runtime.extensions.microprofile/vidocq-runtime-ravel-config-extension-codegen",
+  "description": "Companion codegen bundle for vidocq-runtime-ravel-config-extension.\n        Declare this artifact in <annotationProcessorPaths> whenever the\n        application depends on the Config extension; Maven resolves the transitive\n        APT dependencies below automatically.\n\n        Runs Ravel's Build Compatible Extension (ConfigCdiExtension) inside the Vauban\n        processor, so the @ConfigProperty / @ConfigProperties beans it synthesises\n        exist when the processor validates the deployment. Without it, every\n        @Inject @ConfigProperty point fails the compilation as an unsatisfied\n        dependency (ravel#21). Configuration values are still checked when the\n        container starts, where the deployment's configuration is known.\n\n        Also runs Ravel's own processor (ravel-processor), which generates in the\n        application's packages the factories of its @ConfigProperties classes and the\n        implicit converters of its injected types: Ravel fills and converts them with\n        plain code instead of reflection, and those packages need no opens.",
+  "group_id": "io.vidocq.runtime.extensions.microprofile",
+  "artifact_id": "vidocq-runtime-ravel-config-extension-codegen",
+  "version_latest": "0.4.0-RC2",
+  "ts_publish": 1793927771000,
+  "dt_publish": "2026-11-06 09:16:11.000",
+  "ts_update": 1793930254760,
+  "dt_update": "2026-11-06 09:57:34.760",
+  "count_dep": 5,
+  "count_ref": 1,
+  "licenses": [
+    "GPL-2.0-or-later",
+    "EPL-2.0",
+    "EUPL-1.2"
+  ],
+  "categories": null,
+  "dsv": 1
+}

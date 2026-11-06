@@ -3,14 +3,18 @@
   "description": "Wires Jakarta Transactions 2.0 (mansart-transactions) into the Vidocq lifecycle. The mansart-transactions-cdi BuildCompatibleExtension is auto-discovered by Vauban; this extension fails fast on boot if the TransactionManager bean is missing.",
   "group_id": "io.vidocq.runtime.extensions.jakartaee.web",
   "artifact_id": "vidocq-runtime-mansart-transactions-extension",
-  "version_latest": "0.3.0",
-  "ts_publish": 1788125103000,
-  "dt_publish": "2026-08-31 05:25:03.000",
-  "ts_update": 1788127042782,
-  "dt_update": "2026-08-31 05:57:22.782",
-  "count_dep": 5,
+  "version_latest": "0.4.0-RC2",
+  "ts_publish": 1793927771000,
+  "dt_publish": "2026-11-06 09:16:11.000",
+  "ts_update": 1793930255673,
+  "dt_update": "2026-11-06 09:57:35.673",
+  "count_dep": 19,
   "count_ref": 0,
-  "licenses": [],
+  "licenses": [
+    "GPL-2.0-or-later",
+    "EPL-2.0",
+    "EUPL-1.2"
+  ],
   "categories": null,
   "dsv": 1
 }

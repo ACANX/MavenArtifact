@@ -3,14 +3,18 @@
   "description": "Companion codegen bundle for vidocq-runtime-mansart-transactions-extension.\n        Declare this artifact in <annotationProcessorPaths> whenever the\n        application depends on the Mansart Transactions extension.\n\n        Pulls in mansart-transactions-cdi, which hosts the BuildCompatibleExtension\n        registering @TransactionScoped + declaring @Enhancement(TransactionScoped)\n        so that Vauban's APT index includes user beans annotated @TransactionScoped.\n        Without this entry, every @TransactionScoped user bean would be invisible.",
   "group_id": "io.vidocq.runtime.extensions.jakartaee.web",
   "artifact_id": "vidocq-runtime-mansart-transactions-extension-codegen",
-  "version_latest": "0.3.0",
-  "ts_publish": 1788125103000,
-  "dt_publish": "2026-08-31 05:25:03.000",
-  "ts_update": 1788127042784,
-  "dt_update": "2026-08-31 05:57:22.784",
-  "count_dep": 1,
+  "version_latest": "0.4.0-RC2",
+  "ts_publish": 1793927771000,
+  "dt_publish": "2026-11-06 09:16:11.000",
+  "ts_update": 1793930255674,
+  "dt_update": "2026-11-06 09:57:35.674",
+  "count_dep": 11,
   "count_ref": 0,
-  "licenses": [],
+  "licenses": [
+    "GPL-2.0-or-later",
+    "EPL-2.0",
+    "EUPL-1.2"
+  ],
   "categories": null,
   "dsv": 1
 }

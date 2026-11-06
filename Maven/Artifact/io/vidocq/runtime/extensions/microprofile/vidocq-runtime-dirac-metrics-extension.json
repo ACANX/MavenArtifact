@@ -1,16 +1,20 @@
 {
   "id": "pkg:maven/io.vidocq.runtime.extensions.microprofile/vidocq-runtime-dirac-metrics-extension",
-  "description": "Maven/Java Modules wrapper activating Dirac (MicroProfile Metrics 5.1) in a vidocq deployment.\n        No own Java class — the integration relies on dirac-cdi-vauban's BuildCompatibleExtension\n        (discovery of @Counted/@Timed/@Gauge + @ApplicationScoped MetricRegistry producers) and the\n        JAX-RS @Path scanning of CassiniExtension, which auto-mounts MetricsResource (@Path(\"/metrics\")).\n        Mirrors vidocq-runtime-knock-health-extension (ADR-002 in the knock repo).",
+  "description": "Maven/Java Modules wrapper activating Dirac (MicroProfile Metrics 5.1) in a vidocq deployment.\n        The integration relies on dirac-cdi-vauban's BuildCompatibleExtension (discovery of\n        @Counted/@Timed/@Gauge + @ApplicationScoped MetricRegistry producers) and the JAX-RS @Path\n        scanning of CassiniExtension, which auto-mounts MetricsResource (@Path(\"/metrics\")). Its one\n        Java class, DiracMetricsExtension, only reads the registries for the startup report. The live\n        panel of the dev console moved to vidocq-runtime-dirac-metrics-extension-dev (Vidocq/vidocq#143),\n        which only vidocq:dev adds.",
   "group_id": "io.vidocq.runtime.extensions.microprofile",
   "artifact_id": "vidocq-runtime-dirac-metrics-extension",
-  "version_latest": "0.3.0",
-  "ts_publish": 1788125103000,
-  "dt_publish": "2026-08-31 05:25:03.000",
-  "ts_update": 1788127043435,
-  "dt_update": "2026-08-31 05:57:23.435",
-  "count_dep": 6,
-  "count_ref": 0,
-  "licenses": [],
+  "version_latest": "0.4.0-RC2",
+  "ts_publish": 1793927771000,
+  "dt_publish": "2026-11-06 09:16:11.000",
+  "ts_update": 1793930255203,
+  "dt_update": "2026-11-06 09:57:35.203",
+  "count_dep": 22,
+  "count_ref": 1,
+  "licenses": [
+    "GPL-2.0-or-later",
+    "EPL-2.0",
+    "EUPL-1.2"
+  ],
   "categories": null,
   "dsv": 1
 }

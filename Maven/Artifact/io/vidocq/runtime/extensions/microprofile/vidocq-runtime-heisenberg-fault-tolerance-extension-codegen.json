@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/io.vidocq.runtime.extensions.microprofile/vidocq-runtime-heisenberg-fault-tolerance-extension-codegen",
+  "description": "Companion codegen bundle for vidocq-runtime-heisenberg-fault-tolerance-extension.\n        Declare this artifact in <annotationProcessorPaths> whenever the\n        application depends on the Fault Tolerance extension; Maven resolves the\n        transitive APT dependencies below automatically.\n        Runs Heisenberg's processor on the application's classes: each bean whose methods\n        carry @Retry, @Timeout, @CircuitBreaker, @Bulkhead, @Fallback or @Asynchronous\n        gets a $$HeisenbergPolicies companion holding them, so the runtime reads them\n        without reflection (vidocq-workspace#38).",
+  "group_id": "io.vidocq.runtime.extensions.microprofile",
+  "artifact_id": "vidocq-runtime-heisenberg-fault-tolerance-extension-codegen",
+  "version_latest": "0.4.0-RC2",
+  "ts_publish": 1793927771000,
+  "dt_publish": "2026-11-06 09:16:11.000",
+  "ts_update": 1793930254760,
+  "dt_update": "2026-11-06 09:57:34.760",
+  "count_dep": 13,
+  "count_ref": 0,
+  "licenses": [
+    "GPL-2.0-or-later",
+    "EPL-2.0",
+    "EUPL-1.2"
+  ],
+  "categories": null,
+  "dsv": 1
+}

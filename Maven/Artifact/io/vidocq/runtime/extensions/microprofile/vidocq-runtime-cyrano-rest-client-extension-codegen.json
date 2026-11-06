@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/io.vidocq.runtime.extensions.microprofile/vidocq-runtime-cyrano-rest-client-extension-codegen",
+  "description": "Companion codegen bundle for vidocq-runtime-cyrano-rest-client-extension.\n        Declare this artifact in <annotationProcessorPaths> whenever the\n        application depends on the Rest Client extension; Maven resolves the transitive\n        APT dependencies below automatically.\n\n        - cyrano-cdi-vauban: runs Cyrano's Build Compatible Extension inside the Vauban\n          processor, so the @RestClient bean of each @RegisterRestClient interface exists\n          when the processor validates the deployment and is recorded for the runtime.\n          Without it, @Inject @RestClient fails: the runtime does not run extensions over\n          an application the processor already handled (unsatisfied dependency).\n        - cyrano-processor: generates each client's proxy at compile time, so the\n          application needs no `opens` to io.vidocq.cyrano.core (without it, Cyrano\n          defines the proxy at run time, in the interface's package).",
+  "group_id": "io.vidocq.runtime.extensions.microprofile",
+  "artifact_id": "vidocq-runtime-cyrano-rest-client-extension-codegen",
+  "version_latest": "0.4.0-RC2",
+  "ts_publish": 1793927771000,
+  "dt_publish": "2026-11-06 09:16:11.000",
+  "ts_update": 1793930254754,
+  "dt_update": "2026-11-06 09:57:34.754",
+  "count_dep": 8,
+  "count_ref": 0,
+  "licenses": [
+    "GPL-2.0-or-later",
+    "EPL-2.0",
+    "EUPL-1.2"
+  ],
+  "categories": null,
+  "dsv": 1
+}

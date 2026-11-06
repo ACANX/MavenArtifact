@@ -1,0 +1,20 @@
+{
+  "id": "pkg:maven/io.vidocq.runtime.extensions.jakartaee.web/vidocq-runtime-mansart-pool-telemetry-extension",
+  "description": "Glue between the Mansart Pool and Telemetry (Humboldt) extensions: every statement run on a Vidocq\n        DataSource becomes an OpenTelemetry CLIENT span, child of the current one (BUG-20261030-25). It only\n        depends on the OpenTelemetry API that Humboldt already ships; without it, the pool adds nothing on the path.",
+  "group_id": "io.vidocq.runtime.extensions.jakartaee.web",
+  "artifact_id": "vidocq-runtime-mansart-pool-telemetry-extension",
+  "version_latest": "0.4.0-RC2",
+  "ts_publish": 1793927771000,
+  "dt_publish": "2026-11-06 09:16:11.000",
+  "ts_update": 1793930255677,
+  "dt_update": "2026-11-06 09:57:35.677",
+  "count_dep": 6,
+  "count_ref": 0,
+  "licenses": [
+    "GPL-2.0-or-later",
+    "EPL-2.0",
+    "EUPL-1.2"
+  ],
+  "categories": null,
+  "dsv": 1
+}
